@@ -1,0 +1,594 @@
+Return-Path: <return-a18-3013-3014-resp-m2-miage=univ-rennes1.fr=4@les-actus.com>
+Received: from mailimailo.univ-rennes1.fr ([unix socket])
+	 by mailimailo.univ-rennes1.fr (Cyrus v2.3.16-Fedora-RPM-2.3.16-6.el6_2.5) with LMTPA;
+	 Mon, 08 Feb 2016 18:40:39 +0100
+X-Sieve: CMU Sieve 2.3
+Received: from mailout1.univ-rennes1.fr (mailout1.univ-rennes1.fr [129.20.128.162])
+	by mailimailo.univ-rennes1.fr (Postfix) with ESMTP id 9E05626A08E7
+	for <resp-m2-miage@univ-rennes1.fr>; Mon,  8 Feb 2016 18:40:39 +0100 (CET)
+Received: from localhost (vmscanmail.univ-rennes1.fr [129.20.128.134])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id 9B2096003A
+	for <resp-m2-miage@univ-rennes1.fr>; Mon,  8 Feb 2016 18:40:39 +0100 (CET)
+X-Virus-Scanned: amavisd-new at univ-rennes1.fr
+Received: from mailout1.univ-rennes1.fr ([129.20.128.162])
+	by localhost (vmscanmail.univ-rennes1.frm [129.20.128.134]) (amavisd-new, port 10026)
+	with ESMTP id ZSnrKiIsGpQw for <resp-m2-miage@univ-rennes1.fr>;
+	Mon,  8 Feb 2016 18:40:39 +0100 (CET)
+Received: from vmmailin.univ-rennes1.fr (vmmailin.univ-rennes1.fr [129.20.128.133])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id 76C336000D
+	for <resp-m2-miage@univ-rennes1.fr>; Mon,  8 Feb 2016 18:40:39 +0100 (CET)
+Received: from mxb1-1.relay.renater.fr (mxb1-1.relay.renater.fr [194.214.201.8])
+	by vmmailin.univ-rennes1.fr (Postfix) with ESMTP id 6FDEF20033
+	for <resp-m2-miage@univ-rennes1.fr>; Mon,  8 Feb 2016 18:40:39 +0100 (CET)
+Received: from smtp1-63.revue-en-ligne.com (smtp1-63.revue-en-ligne.com [46.105.172.211])
+	by mxb1-1.relay.renater.fr (asm) with SMTP id 32ED0600047
+	for <resp-m2-miage@univ-rennes1.fr>; Mon,  8 Feb 2016 18:40:39 +0100 (CET)
+Received: (GreenArrow 13830 invoked by uid 410); 8 Feb 2016 17:40:39 -0000
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed;
+	d=les-actus.com; s=default; h=Subject:From:To:Date:
+	List-Unsubscribe:Message-ID:MIME-Version:Content-Type; bh=gLoGvY
+	5JeeVIoB4N98soM2++IQY=; b=TNQwp9WQHfST3MtXkZiocZDve/T4syRYPlvZFd
+	hE1JIj0GOUaQviuwP90DL7O24xU0/KPGB51onJ03a1fSbrHBEuqaqcJfgbzjMhmb
+	k6MFfuDW3mQyXwSbpL7awdDS8ij01obhLpzweCH0XzXEaLqfCfIH8SNj6ndssB1f
+	GGDZ0=
+Subject: =?UTF-8?Q?Derni=C3=A8re=20d=C3=A9marque=20jusqu=27=C3=A0=20=2D?=
+ =?UTF-8?Q?50=25=20pour=20votre=20int=C3=A9rieur?=
+From: "Blanc Cerise" <news@les-actus.com>
+To: resp-m2-miage@univ-rennes1.fr
+Date: 08 Feb 2016 17:40:39 -0000
+List-Unsubscribe: <http://les-actus.com/ga/unsubscribe/2-11527895-18-1561-3014-ed35df89ef15825-3fa352b397>,
+ <mailto:return-a18-3013-3014-resp-m2-miage=univ-rennes1.fr=4u@les-actus.com>
+X-Mailer: GreenArrow Studio (v4.65.0)
+X-CampaignID: s4:3013-0d021c51810c4beb
+Message-ID: <mid-9ad4f968dce0aa269b4093f20e6965ba@les-actus.com>
+X-Mailer-Info: 4.hFDO.wMwEzM.IXZzBXLtJTLtlWYnVGQ15Wa21icl5mblNXMuYmc.wMwEDN
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="==77c7ef32cc9fa3ceb8f7c3644e900343"
+X-UCE-Status: YES
+X-UCE-Type: MCE
+X-Original-Source-IP: 46.105.172.211
+X-Bizanga: IMP - mxb1-1.relay.renater.fr
+X-Renater-SpamState: 11
+X-Renater-SpamScore: 17
+X-Renater-SpamCause: gggruggvucftvghtrhhoucdtuddrfeekjedrvdekgddukecutefuodetggdotefrodftvfcurfhrohhfihhlvgemucftgffptefvgfftpdggtfgfnhhsuhgsshgtrhhisggvnecuuegrihhlohhuthemuceftddtnecundfotefknffkpffiucdludejmdenucfjughrpefuhffvfffjoffkgggtsegrtderreertdejnecuhfhrohhmpedfuehlrghntgcuvegvrhhishgvfdcuoehnvgifsheslhgvshdqrggtthhushdrtghomheqnecuffhomhgrihhnpehlvghsqdgrtghtuhhsrdgtohhmnecurfgrrhgrmhepmhhouggvpehsmhhtphdphhgvlhhopehsmhhtphduqdeifedrrhgvvhhuvgdqvghnqdhlihhgnhgvrdgtohhmpdhinhgvthepgeeirddutdehrddujedvrddvuddupdhmrghilhhfrhhomheprhgvthhurhhnqdgrudekqdeftddufedqfedtudegqdhrvghsphdqmhdvqdhmihgrghgvpehunhhivhdqrhgvnhhnvghsuddrfhhrpeegsehlvghsqdgrtghtuhhsrdgtohhmpdhrtghpthhtoheprhgvshhpqdhmvddqmhhirghgvgesuhhnihhvqdhrvghnnhgvshdurdhfrh 
+X-Renater-ServerName: mxb1-1.relay.renater.fr
+
+This is a multi-part message in MIME format.
+
+--==77c7ef32cc9fa3ceb8f7c3644e900343
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+( http://les-actus.com/ga/click/2-11527895-18-1561-3014-21631-829991cb62-3f=
+a352b397 )
+( http://les-actus.com/ga/click/2-11527895-18-1561-3014-21632-f4cdaf644e-3f=
+a352b397 )
+( http://les-actus.com/ga/click/2-11527895-18-1561-3014-21633-736080b22a-3f=
+a352b397 )
+
+Le linge de lit ( http://les-actus.com/ga/click/2-11527895-18-1561-3014-216=
+34-28eb53ccab-3fa352b397 )
+Le linge de table ( http://les-actus.com/ga/click/2-11527895-18-1561-3014-2=
+1635-846414e607-3fa352b397 )
+
+Le linge de bain ( http://les-actus.com/ga/click/2-11527895-18-1561-3014-21=
+636-35f08d9a06-3fa352b397 )
+L'univers enfants ( http://les-actus.com/ga/click/2-11527895-18-1561-3014-2=
+1637-e5ef1bbe61-3fa352b397 )
+
+Pour votre maison : linge de lit, de table, de bain,
+enfants ( http://les-actus.com/ga/click/2-11527895-18-1561-3014-21638-c7114=
+c3688-3fa352b397 )
+Soldes derni=C3=A8re d=C3=A9marque jusqu'=C3=A0 cinquante pour cent ( http:=
+//les-actus.com/ga/click/2-11527895-18-1561-3014-21639-dd743b4fb4-3fa352b39=
+7 )
+
+Le linge pour le lit ( http://les-actus.com/ga/click/2-11527895-18-1561-301=
+4-21640-bdd4053720-3fa352b397 )
+
+LINGE DE LIT
+
+craquez pour le linge de lit
+
+en lin lav=C3=A9 ( http://les-actus.com/ga/click/2-11527895-18-1561-3014-21=
+641-0a4b172351-3fa352b397 )
+
+Je craque ( http://les-actus.com/ga/click/2-11527895-18-1561-3014-21642-d0f=
+cd863ca-3fa352b397 )
+
+Le linge pour la table ( http://les-actus.com/ga/click/2-11527895-18-1561-3=
+014-21643-66ec785b08-3fa352b397 )
+
+LINGE DE TABLE
+
+sur un large choix de couleurs
+
+de linge de table ( http://les-actus.com/ga/click/2-11527895-18-1561-3014-2=
+1644-9e397d0df9-3fa352b397 )
+
+Je craque ( http://les-actus.com/ga/click/2-11527895-18-1561-3014-21645-51b=
+bd50c91-3fa352b397 )
+
+Le linge pour la bain ( http://les-actus.com/ga/click/2-11527895-18-1561-30=
+14-21646-05c608cf31-3fa352b397 )
+
+LINGE DE BAIN
+
+Serviettes, peignoirs et tapis de bain ( http://les-actus.com/ga/click/2-11=
+527895-18-1561-3014-21647-c94160fbdc-3fa352b397 )
+
+Je craque ( http://les-actus.com/ga/click/2-11527895-18-1561-3014-21648-9a1=
+aa62fe3-3fa352b397 )
+
+Le linge pour enfant ( http://les-actus.com/ga/click/2-11527895-18-1561-301=
+4-21649-a436a0ad0b-3fa352b397 )
+
+COLLECTION ENFANT
+
+sur une large s=C3=A9lection =C3=A0 prix doux ( http://les-actus.com/ga/cli=
+ck/2-11527895-18-1561-3014-21650-fc75c1dbab-3fa352b397 )
+
+Je craque ( http://les-actus.com/ga/click/2-11527895-18-1561-3014-21651-46f=
+b7c0fbb-3fa352b397 )
+
+Satisfait ou rembours=C3=A9 ( http://les-actus.com/ga/click/2-11527895-18-1=
+561-3014-21652-756e0ceb7f-3fa352b397 )
+Demande d'=C3=A9chantillon ( http://les-actus.com/ga/click/2-11527895-18-15=
+61-3014-21653-2c3ea94938-3fa352b397 )
+
+Retour offert 30 jours ( http://les-actus.com/ga/click/2-11527895-18-1561-3=
+014-21654-2f0c84c7b8-3fa352b397 )
+Livraison offerte d=C3=A8s soixante quinze euros d'achat ( http://les-actus=
+.com/ga/click/2-11527895-18-1561-3014-21655-f4bf8f3267-3fa352b397 )
+
+( http://les-actus.com/ga/click/2-11527895-18-1561-3014-21656-9bc8a6d2a1-3f=
+a352b397 )
+
+* Jusqu'au 16 f=C3=A9vrier 2016, profitez des soldes et du blanc
+d'hiver : jusqu'=C3=A0 -50% sur une large s=C3=A9lection d'articles Blanc
+Cerise. Valable dans la limite des stocks disponibles. Les prix
+affich=C3=A9s sont les prix remis=C3=A9s.
+
+Suivez-nous
+Facebook ( http://les-actus.com/ga/click/2-11527895-18-1561-3014-21657-a7e9=
+27412a-3fa352b397 )
+Twitter ( http://les-actus.com/ga/click/2-11527895-18-1561-3014-21658-3ea1d=
+22b17-3fa352b397 )
+Pinterest ( http://les-actus.com/ga/click/2-11527895-18-1561-3014-21659-be0=
+f49a2bd-3fa352b397 )
+Instagram ( http://les-actus.com/ga/click/2-11527895-18-1561-3014-21660-755=
+e68407e-3fa352b397 )=
+
+--==77c7ef32cc9fa3ceb8f7c3644e900343
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.=
+w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml">
+<head>
+	<meta content=3D"text/html; charset=3Dutf-8" http-equiv=3D"Content-Type" />
+	<style type=3D"text/css">.ExternalClass {width: 100%;}
+	.ExternalClass * {line-height: 110% !important; }
+	.ReadMsgBody { width: 100%;}
+	body { -webkit-text-size-adjust: none; }
+	img { display: block; }
+	table { border-collapse: collapse !important; }
+	#outlook a { padding: 0; }
+	@media screen and (max-width: 480px), screen and (max-device-width: 480px)=
+ {
+		*[class].hide {
+			display: none !important;
+		}
+		*[class].resize {
+			width: 300px !important;
+			height: auto !important;
+			text-align: center !important;
+			display: block !important;
+		}
+		*[class].texte {
+			width: 300px !important;
+			height: auto !important;
+			float: left;
+			text-align: left !important;
+			padding: 10px !important;
+		}
+	}
+	</style>
+	<title>Blanc Cerise</title>
+</head>
+<body bgcolor=3D"#ffffff">
+<table align=3D"center" bgcolor=3D"#ffffff" border=3D"0" cellpadding=3D"0" =
+cellspacing=3D"0" class=3D"resize" width=3D"600">
+	<tbody>
+		<tr>
+			<td><!-- header -->
+			<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ class=3D"resize" width=3D"600">
+				<tbody>
+					<tr>
+						<td class=3D"hide" height=3D"164" width=3D"150"><a href=3D"http://les=
+-actus.com/ga/click/2-11527895-18-1561-3014-21661-3bee8bc912-3fa352b397" ta=
+rget=3D"_blank"><img border=3D"0" class=3D"hide" height=3D"164" src=3D"http=
+://i.solobin.com/content/20160203-f0662f300bce/images/blanc-cerise_02.gif" =
+style=3D"display:block;" width=3D"150" /></a></td>
+						<td height=3D"164" width=3D"300"><a href=3D"http://les-actus.com/ga/c=
+lick/2-11527895-18-1561-3014-21662-3789a5cd63-3fa352b397" target=3D"_blank"=
+><img border=3D"0" height=3D"164" src=3D"http://i.solobin.com/content/20160=
+203-f0662f300bce/images/blanc-cerise_03.gif" style=3D"display:block;" width=
+=3D"300" /></a></td>
+						<td class=3D"hide" height=3D"164" width=3D"150"><a href=3D"http://les=
+-actus.com/ga/click/2-11527895-18-1561-3014-21663-84fc2a3c2a-3fa352b397" ta=
+rget=3D"_blank"><img border=3D"0" class=3D"hide" height=3D"164" src=3D"http=
+://i.solobin.com/content/20160203-f0662f300bce/images/blanc-cerise_04.gif" =
+style=3D"display:block;" width=3D"150" /></a></td>
+					</tr>
+				</tbody>
+			</table>
+			<!-- / header --><!-- menu -->
+
+			<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ class=3D"resize" width=3D"600">
+				<tbody>
+					<tr>
+						<td class=3D"resize" height=3D"30" width=3D"300">
+						<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0" width=3D"300">
+							<tbody>
+								<tr>
+									<td height=3D"30" width=3D"150"><a href=3D"http://les-actus.com/ga=
+/click/2-11527895-18-1561-3014-21664-6545f46717-3fa352b397" style=3D"text-d=
+ecoration:none; color:#5a5a5a;" target=3D"_blank"><font style=3D"font-famil=
+y:Arial; font-size:16px; color:#5a5a5a;">Le linge de lit</font> </a></td>
+									<td height=3D"30" width=3D"150"><a href=3D"http://les-actus.com/ga=
+/click/2-11527895-18-1561-3014-21665-201f70c85d-3fa352b397" style=3D"text-d=
+ecoration:none; color:#5a5a5a;" target=3D"_blank"><font style=3D"font-famil=
+y:Arial; font-size:16px; color:#5a5a5a;">Le linge de table</font> </a></td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+						<td class=3D"resize" height=3D"30" width=3D"300">
+						<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0" width=3D"300">
+							<tbody>
+								<tr>
+									<td height=3D"30" width=3D"150"><a href=3D"http://les-actus.com/ga=
+/click/2-11527895-18-1561-3014-21666-a97cfb05b6-3fa352b397" style=3D"text-d=
+ecoration:none; color:#5a5a5a;" target=3D"_blank"><font style=3D"font-famil=
+y:Arial; font-size:16px; color:#5a5a5a;">Le linge de bain</font> </a></td>
+									<td height=3D"30" width=3D"150"><a href=3D"http://les-actus.com/ga=
+/click/2-11527895-18-1561-3014-21667-2676750a63-3fa352b397" style=3D"text-d=
+ecoration:none; color:#5a5a5a;" target=3D"_blank"><font style=3D"font-famil=
+y:Arial; font-size:16px; color:#5a5a5a;">L&#39;univers enfants</font> </a><=
+/td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			<!-- / menu --><!-- top -->
+
+			<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ class=3D"resize" width=3D"600">
+				<tbody>
+					<tr>
+						<td class=3D"hide" height=3D"285" width=3D"300"><a class=3D"hide" hre=
+f=3D"http://les-actus.com/ga/click/2-11527895-18-1561-3014-21668-026b35df4c=
+-3fa352b397" target=3D"_blank"><img alt=3D"Pour votre maison : linge de lit=
+, de table, de bain, enfants" border=3D"0" class=3D"hide" height=3D"285" sr=
+c=3D"http://i.solobin.com/content/20160203-f0662f300bce/images/blanc-cerise=
+_10.jpg" style=3D"display:block;" width=3D"300" /></a></td>
+						<td height=3D"285" width=3D"300"><a href=3D"http://les-actus.com/ga/c=
+lick/2-11527895-18-1561-3014-21669-7177b8505a-3fa352b397" target=3D"_blank"=
+><img alt=3D"Soldes derni=C3=A8re d=C3=A9marque jusqu'=C3=A0 cinquante pour=
+ cent" border=3D"0" height=3D"285" src=3D"http://i.solobin.com/content/2016=
+0203-f0662f300bce/images/blanc-cerise_11_derniere-dem.gif" style=3D"display=
+:block;" width=3D"300" /></a></td>
+					</tr>
+				</tbody>
+			</table>
+			<!-- /top -->
+
+			<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ class=3D"resize" width=3D"600">
+				<tbody>
+					<tr>
+						<td height=3D"22" width=3D"600"></td>
+					</tr>
+				</tbody>
+			</table>
+			<!-- categories 1 -->
+
+			<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ class=3D"resize" width=3D"600">
+				<tbody>
+					<tr>
+						<td class=3D"resize" width=3D"300">
+						<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0" width=3D"300">
+							<tbody>
+								<tr>
+									<td height=3D"225" width=3D"300"><a href=3D"http://les-actus.com/g=
+a/click/2-11527895-18-1561-3014-21670-2679dde396-3fa352b397" target=3D"_bla=
+nk"><img alt=3D"Le linge pour le lit" border=3D"0" height=3D"225" src=3D"ht=
+tp://i.solobin.com/content/20160203-f0662f300bce/images/blanc-cerise_13.jpg=
+" style=3D"display:block;" width=3D"300" /></a></td>
+								</tr>
+								<tr>
+									<td align=3D"left" height=3D"68" width=3D"300"><a href=3D"http://l=
+es-actus.com/ga/click/2-11527895-18-1561-3014-21671-03eacee146-3fa352b397" =
+style=3D"text-decoration:none; color:#55565b;" target=3D"_blank"><font styl=
+e=3D"font-family:Arial; font-size:15px; color:#9f1b32;">LINGE DE LIT </font=
+><br />
+									<font style=3D"font-family:Arial; font-size:15px; color:#55565b;">=
+craquez pour le linge de lit<br />
+									en lin lav&eacute; </font> </a></td>
+								</tr>
+								<tr>
+									<td height=3D"52" width=3D"300"><a href=3D"http://les-actus.com/ga=
+/click/2-11527895-18-1561-3014-21672-5406a887f6-3fa352b397" target=3D"_blan=
+k"><img alt=3D"Je craque" border=3D"0" height=3D"52" src=3D"http://i.solobi=
+n.com/content/20160203-f0662f300bce/images/blanc-cerise_17.gif" style=3D"di=
+splay:block;" width=3D"300" /></a></td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+						<td class=3D"resize" width=3D"300">
+						<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0" width=3D"300">
+							<tbody>
+								<tr>
+									<td height=3D"225" width=3D"300"><a href=3D"http://les-actus.com/g=
+a/click/2-11527895-18-1561-3014-21673-c7103ff3e5-3fa352b397" target=3D"_bla=
+nk"><img alt=3D"Le linge pour la table" border=3D"0" height=3D"225" src=3D"=
+http://i.solobin.com/content/20160203-f0662f300bce/images/blanc-cerise_14.j=
+pg" style=3D"display:block;" width=3D"300" /></a></td>
+								</tr>
+								<tr>
+									<td align=3D"left" height=3D"68" width=3D"300"><a href=3D"http://l=
+es-actus.com/ga/click/2-11527895-18-1561-3014-21674-2587476426-3fa352b397" =
+style=3D"text-decoration:none; color:#55565b;" target=3D"_blank"><font styl=
+e=3D"font-family:Arial; font-size:15px; color:#9f1b32;">LINGE DE TABLE </fo=
+nt><br />
+									<font style=3D"font-family:Arial; font-size:15px; color:#55565b;">=
+sur un large choix de couleurs<br />
+									de linge de table </font> </a></td>
+								</tr>
+								<tr>
+									<td height=3D"52" width=3D"300"><a href=3D"http://les-actus.com/ga=
+/click/2-11527895-18-1561-3014-21675-8f59db2880-3fa352b397" target=3D"_blan=
+k"><img alt=3D"Je craque" border=3D"0" height=3D"52" src=3D"http://i.solobi=
+n.com/content/20160203-f0662f300bce/images/blanc-cerise_17.gif" style=3D"di=
+splay:block;" width=3D"300" /></a></td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			<!-- /categories 1 --><!-- categories 2 -->
+
+			<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ class=3D"resize" width=3D"600">
+				<tbody>
+					<tr>
+						<td class=3D"resize" width=3D"300">
+						<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0" width=3D"300">
+							<tbody>
+								<tr>
+									<td height=3D"231" width=3D"300"><a href=3D"http://les-actus.com/g=
+a/click/2-11527895-18-1561-3014-21676-4c85d58f69-3fa352b397" target=3D"_bla=
+nk"><img alt=3D"Le linge pour la bain" border=3D"0" height=3D"231" src=3D"h=
+ttp://i.solobin.com/content/20160203-f0662f300bce/images/blanc-cerise_19.jp=
+g" style=3D"display:block;" width=3D"300" /></a></td>
+								</tr>
+								<tr>
+									<td align=3D"left" height=3D"48" width=3D"300"><a href=3D"http://l=
+es-actus.com/ga/click/2-11527895-18-1561-3014-21677-a7fa6f5180-3fa352b397" =
+style=3D"text-decoration:none; color:#55565b;" target=3D"_blank"><font styl=
+e=3D"font-family:Arial; font-size:15px; color:#9f1b32;">LINGE DE BAIN </fon=
+t><br />
+									<font style=3D"font-family:Arial; font-size:15px; color:#55565b;">=
+Serviettes, peignoirs et tapis de bain </font> </a></td>
+								</tr>
+								<tr>
+									<td height=3D"52" width=3D"300"><a href=3D"http://les-actus.com/ga=
+/click/2-11527895-18-1561-3014-21678-0b8fcef1df-3fa352b397" target=3D"_blan=
+k"><img alt=3D"Je craque" border=3D"0" height=3D"52" src=3D"http://i.solobi=
+n.com/content/20160203-f0662f300bce/images/blanc-cerise_17.gif" style=3D"di=
+splay:block;" width=3D"300" /></a></td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+						<td class=3D"resize" width=3D"300">
+						<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0" width=3D"300">
+							<tbody>
+								<tr>
+									<td height=3D"231" width=3D"300"><a href=3D"http://les-actus.com/g=
+a/click/2-11527895-18-1561-3014-21679-1cb1937e88-3fa352b397" target=3D"_bla=
+nk"><img alt=3D"Le linge pour enfant" border=3D"0" height=3D"231" src=3D"ht=
+tp://i.solobin.com/content/20160203-f0662f300bce/images/blanc-cerise_20.jpg=
+" style=3D"display:block;" width=3D"300" /></a></td>
+								</tr>
+								<tr>
+									<td align=3D"left" height=3D"48" width=3D"300"><a href=3D"http://l=
+es-actus.com/ga/click/2-11527895-18-1561-3014-21680-253608f17c-3fa352b397" =
+style=3D"text-decoration:none; color:#55565b;" target=3D"_blank"><font styl=
+e=3D"font-family:Arial; font-size:15px; color:#9f1b32;">COLLECTION ENFANT <=
+/font><br />
+									<font style=3D"font-family:Arial; font-size:15px; color:#55565b;">=
+sur une large s&eacute;lection &agrave; prix doux </font> </a></td>
+								</tr>
+								<tr>
+									<td height=3D"52" width=3D"300"><a href=3D"http://les-actus.com/ga=
+/click/2-11527895-18-1561-3014-21681-cd56b8a2c2-3fa352b397" target=3D"_blan=
+k"><img alt=3D"Je craque" border=3D"0" height=3D"52" src=3D"http://i.solobi=
+n.com/content/20160203-f0662f300bce/images/blanc-cerise_17.gif" style=3D"di=
+splay:block;" width=3D"300" /></a></td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			<!-- /categories 2 -->
+
+			<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ class=3D"resize" width=3D"600">
+				<tbody>
+					<tr>
+						<td height=3D"24" width=3D"600"></td>
+					</tr>
+				</tbody>
+			</table>
+			<!-- reas -->
+
+			<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ class=3D"resize" width=3D"600">
+				<tbody>
+					<tr>
+						<td class=3D"resize" height=3D"94" width=3D"300">
+						<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0" width=3D"300">
+							<tbody>
+								<tr>
+									<td height=3D"94" width=3D"150"><a href=3D"http://les-actus.com/ga=
+/click/2-11527895-18-1561-3014-21682-9b52010638-3fa352b397" target=3D"_blan=
+k"><img alt=3D"Satisfait ou rembours=C3=A9" border=3D"0" height=3D"94" src=
+=3D"http://i.solobin.com/content/20160203-f0662f300bce/images/blanc-cerise_=
+26.gif" style=3D"display:block;" width=3D"150" /></a></td>
+									<td height=3D"94" width=3D"150"><a href=3D"http://les-actus.com/ga=
+/click/2-11527895-18-1561-3014-21683-885ca7844e-3fa352b397" target=3D"_blan=
+k"><img alt=3D"Demande d'=C3=A9chantillon" border=3D"0" height=3D"94" src=
+=3D"http://i.solobin.com/content/20160203-f0662f300bce/images/blanc-cerise_=
+28.gif" style=3D"display:block;" width=3D"150" /></a></td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+						<td class=3D"resize" height=3D"94" width=3D"300">
+						<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0" width=3D"300">
+							<tbody>
+								<tr>
+									<td height=3D"94" width=3D"150"><a href=3D"http://les-actus.com/ga=
+/click/2-11527895-18-1561-3014-21684-2e078545e0-3fa352b397" target=3D"_blan=
+k"><img alt=3D"Retour offert 30 jours" border=3D"0" height=3D"94" src=3D"ht=
+tp://i.solobin.com/content/20160203-f0662f300bce/images/blanc-cerise_27.gif=
+" style=3D"display:block;" width=3D"150" /></a></td>
+									<td height=3D"94" width=3D"150"><a href=3D"http://les-actus.com/ga=
+/click/2-11527895-18-1561-3014-21685-de750c8dce-3fa352b397" target=3D"_blan=
+k"><img alt=3D"Livraison offerte d=C3=A8s soixante quinze euros d'achat" bo=
+rder=3D"0" height=3D"94" src=3D"http://i.solobin.com/content/20160203-f0662=
+f300bce/images/blanc-cerise_29.gif" style=3D"display:block;" width=3D"150" =
+/></a></td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+
+			<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ class=3D"resize" width=3D"600">
+				<tbody>
+					<tr>
+						<td height=3D"16" width=3D"300"><img border=3D"0" height=3D"16" src=
+=3D"http://i.solobin.com/content/20160203-f0662f300bce/images/blanc-cerise_=
+30.gif" style=3D"display:block;" width=3D"300" /></td>
+						<td height=3D"16" width=3D"300"><a class=3D"hide" href=3D"http://les-=
+actus.com/ga/click/2-11527895-18-1561-3014-21686-1594287bd9-3fa352b397" tar=
+get=3D"_blank"><img border=3D"0" class=3D"hide" height=3D"16" src=3D"http:/=
+/i.solobin.com/content/20160203-f0662f300bce/images/blanc-cerise_31.gif" st=
+yle=3D"display:block;" width=3D"300" /></a></td>
+					</tr>
+				</tbody>
+			</table>
+			<!-- /reas -->
+
+			<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ class=3D"resize" width=3D"600">
+				<tbody>
+					<tr>
+						<td align=3D"left" class=3D"texte" height=3D"102" valign=3D"top" widt=
+h=3D"600"><br />
+						<font style=3D"font-family:Arial; font-size:11px; color:#6a6a6a;">* J=
+usqu&#39;au 16 f&eacute;vrier 2016, profitez des soldes et du blanc d&#39;h=
+iver : jusqu&#39;&agrave; -50% sur une large s&eacute;lection d&#39;article=
+s Blanc Cerise. Valable dans la limite des stocks disponibles. Les prix aff=
+ich&eacute;s sont les prix remis&eacute;s. </font></td>
+					</tr>
+				</tbody>
+			</table>
+			<!-- social-->
+
+			<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ class=3D"resize" width=3D"600">
+				<tbody>
+					<tr>
+						<td class=3D"hide" height=3D"49" width=3D"300"><img border=3D"0" clas=
+s=3D"hide" height=3D"49" src=3D"http://i.solobin.com/content/20160203-f0662=
+f300bce/images/blanc-cerise_33.gif" style=3D"display:block;" width=3D"300" =
+/></td>
+						<td class=3D"resize" height=3D"49" width=3D"300">
+						<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0" width=3D"300">
+							<tbody>
+								<tr>
+									<td height=3D"49" width=3D"120"><img alt=3D"Suivez-nous" border=3D=
+"0" height=3D"49" src=3D"http://i.solobin.com/content/20160203-f0662f300bce=
+/images/blanc-cerise_34.gif" style=3D"display:block;" width=3D"120" /></td>
+									<td height=3D"49" width=3D"42"><a href=3D"http://les-actus.com/ga/=
+click/2-11527895-18-1561-3014-21687-dc89c42369-3fa352b397" target=3D"_blank=
+"><img alt=3D"Facebook" border=3D"0" height=3D"49" src=3D"http://i.solobin.=
+com/content/20160203-f0662f300bce/images/blanc-cerise_35.gif" style=3D"disp=
+lay:block;" width=3D"42" /></a></td>
+									<td height=3D"49" width=3D"44"><a href=3D"http://les-actus.com/ga/=
+click/2-11527895-18-1561-3014-21688-bb790698fc-3fa352b397" target=3D"_blank=
+"><img alt=3D"Twitter" border=3D"0" height=3D"49" src=3D"http://i.solobin.c=
+om/content/20160203-f0662f300bce/images/blanc-cerise_36.gif" style=3D"displ=
+ay:block;" width=3D"44" /></a></td>
+									<td height=3D"49" width=3D"43"><a href=3D"http://les-actus.com/ga/=
+click/2-11527895-18-1561-3014-21689-b0e2685ae3-3fa352b397" target=3D"_blank=
+"><img alt=3D"Pinterest" border=3D"0" height=3D"49" src=3D"http://i.solobin=
+.com/content/20160203-f0662f300bce/images/blanc-cerise_37.gif" style=3D"dis=
+play:block;" width=3D"43" /></a></td>
+									<td height=3D"49" width=3D"51"><a href=3D"http://les-actus.com/ga/=
+click/2-11527895-18-1561-3014-21690-c6f0574bfb-3fa352b397" target=3D"_blank=
+"><img alt=3D"Instagram" border=3D"0" height=3D"49" src=3D"http://i.solobin=
+.com/content/20160203-f0662f300bce/images/blanc-cerise_38.gif" style=3D"dis=
+play:block;" width=3D"51" /></a></td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			<!-- /social--></td>
+		</tr>
+	</tbody>
+</table>
+
+<p><img height=3D"1" src=3D"http://o.solobin.com/16-29-48-2872-28171/unique=
+Id" width=3D"1" /></p>
+
+<center><a href=3D"http://les-actus.com/ga/unsubscribe/2-11527895-18-1561-3=
+014-ed35df89ef15825-3fa352b397">Je souhaite me d=C3=A9sinscrire et ne plus =
+recevoir les newsletters</a>
+</center><img src=3D"http://les-actus.com/ga/open/2-11527895-18-1561-3014-3=
+fa352b397" height=3D"2" width=3D"3" alt=3D""></body>
+</html>
+
+--==77c7ef32cc9fa3ceb8f7c3644e900343--

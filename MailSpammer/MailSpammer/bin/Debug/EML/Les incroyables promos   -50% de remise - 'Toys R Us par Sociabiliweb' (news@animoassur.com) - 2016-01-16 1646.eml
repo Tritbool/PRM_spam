@@ -1,0 +1,914 @@
+Return-Path: <return-a18-2835-2837-resp-m2-miage=univ-rennes1.fr=4@animoassur.com>
+Received: from mailimailo.univ-rennes1.fr ([unix socket])
+	 by mailimailo.univ-rennes1.fr (Cyrus v2.3.16-Fedora-RPM-2.3.16-6.el6_2.5) with LMTPA;
+	 Sat, 16 Jan 2016 16:46:04 +0100
+X-Sieve: CMU Sieve 2.3
+Received: from mailout1.univ-rennes1.fr (mailout1.univ-rennes1.fr [129.20.128.162])
+	by mailimailo.univ-rennes1.fr (Postfix) with ESMTP id 39E9926A0C04
+	for <resp-m2-miage@univ-rennes1.fr>; Sat, 16 Jan 2016 16:46:04 +0100 (CET)
+Received: from localhost (vmscanmail.univ-rennes1.fr [129.20.128.134])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id 343B860017
+	for <resp-m2-miage@univ-rennes1.fr>; Sat, 16 Jan 2016 16:46:04 +0100 (CET)
+X-Virus-Scanned: amavisd-new at univ-rennes1.fr
+Received: from mailout1.univ-rennes1.fr ([129.20.128.162])
+	by localhost (vmscanmail.univ-rennes1.frm [129.20.128.134]) (amavisd-new, port 10026)
+	with ESMTP id E1QyQdiMpEBe for <resp-m2-miage@univ-rennes1.fr>;
+	Sat, 16 Jan 2016 16:46:04 +0100 (CET)
+Received: from vmmailin.univ-rennes1.fr (vmmailin.univ-rennes1.fr [129.20.128.133])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id 07B7260003
+	for <resp-m2-miage@univ-rennes1.fr>; Sat, 16 Jan 2016 16:46:04 +0100 (CET)
+Received: from mxb2-1.relay.renater.fr (mxb2-1.relay.renater.fr [194.214.200.8])
+	by vmmailin.univ-rennes1.fr (Postfix) with ESMTP id F3C8620033
+	for <resp-m2-miage@univ-rennes1.fr>; Sat, 16 Jan 2016 16:46:03 +0100 (CET)
+Received: from smtp1-46.revue-en-ligne.com (smtp1-46.revue-en-ligne.com [5.196.214.77])
+	by mxb2-1.relay.renater.fr (asm) with SMTP id B726460007F
+	for <resp-m2-miage@univ-rennes1.fr>; Sat, 16 Jan 2016 16:46:03 +0100 (CET)
+Received: (GreenArrow 21261 invoked by uid 410); 16 Jan 2016 15:46:03 -0000
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed;
+	d=animoassur.com; s=default; h=Subject:From:To:Date:
+	List-Unsubscribe:Message-ID:MIME-Version:Content-Type; bh=ITJQMx
+	lWkg38rdtpgyA14U9BAZs=; b=n6cVIvleiJJV+INDmynI844/7z1aAOh1xS6jJY
+	AJ3cYFB6R3+ew8D+iVDOtLWm+XYn8GBLRKLCVgdKhQf0Lx7/IniaTyKi+AZdPfgO
+	PVfqFt9CXd2VXN7/0qxJxDYVSldbj1uTuVlQ0SFGK2IGrsMW4hXXwffqBwc7BNdn
+	aC7ng=
+Subject: Les incroyables promos : -50% de remise
+From: "Toys R Us par Sociabiliweb" <news@animoassur.com>
+To: resp-m2-miage@univ-rennes1.fr
+Date: 16 Jan 2016 15:46:03 -0000
+List-Unsubscribe: <http://animoassur.com/ga/unsubscribe/2-11527895-18-1470-2837-ed35df89ef15825-fb84ce53b8>,
+ <mailto:return-a18-2835-2837-resp-m2-miage=univ-rennes1.fr=4u@animoassur.com>
+X-Mailer: GreenArrow Studio (v4.65.0)
+X-CampaignID: s4:2835-f4cf5315e1f6ef9b
+Message-ID: <mid-8ac4ee7b3f3165c4eb4f416c5d28243b@animoassur.com>
+X-Mailer-Info: 4.hFDO.gM4MTN.IXZzBXLtJTLtlWYnVGQ15Wa21icl5mblNXMuYmc.gM4MzN
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="==a703c8613b923c929e96b7d4ecfbf819"
+X-UCE-Status: YES
+X-UCE-Type: MCE
+X-Original-Source-IP: 5.196.214.77
+X-Bizanga: IMP - mxb2-1.relay.renater.fr
+X-Renater-SpamState: 11
+X-Renater-SpamScore: 17
+X-Renater-SpamCause: gggruggvucftvghtrhhoucdtuddrfeekiedrleefgdehjecutefuodetggdotefrodftvfcurfhrohhfihhlvgemucftgffptefvgfftpdggtfgfnhhsuhgsshgtrhhisggvnecuuegrihhlohhuthemuceftddtnecundfotefknffkpffiucdludejmdenucfjughrpefuhffvfffjoffkgggtsegrtderreertdejnecuhfhrohhmpedfvfhohihsucftucgfshcuphgrrhcuufhotghirggsihhlihifvggsfdcuoehnvgifshesrghnihhmohgrshhsuhhrrdgtohhmqeenucffohhmrghinheprghnihhmohgrshhsuhhrrdgtohhmpdhtohihshhruhhsrdhfrhenucfrrghrrghmpehmohguvgepshhmthhppdhhvghlohepshhmthhpuddqgeeirdhrvghvuhgvqdgvnhdqlhhighhnvgdrtghomhdpihhnvghtpeehrdduleeirddvudegrdejjedpmhgrihhlfhhrohhmpehrvghtuhhrnhdqrgdukedqvdekfeehqddvkeefjedqrhgvshhpqdhmvddqmhhirghgvgepuhhnihhvqdhrvghnnhgvshdurdhfrhepgeesrghnihhmohgrshhsuhhrrdgtohhmpdhrtghpthhtoheprhgvshhpqdhmvddqmhhirghgvgesuhhnihhvqdhrvghnnhgvshdurdhfrh 
+X-Renater-ServerName: mxb2-1.relay.renater.fr
+
+This is a multi-part message in MIME format.
+
+--==a703c8613b923c929e96b7d4ecfbf819
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Toys"R"Us ( http://animoassur.com/ga/click/2-11527895-18-1470-2837-20405-fc=
+99ac7068-fb84ce53b8 )
+
+Il y a du bonheur dans l'R ( http://animoassur.com/ga/click/2-11527895-18-1=
+470-2837-20406-1b0df5ada2-fb84ce53b8 )
+
+Cat=C3=A9gories ( http://animoassur.com/ga/click/2-11527895-18-1470-2837-20=
+407-bab0842fc9-fb84ce53b8 ) >
+|
+
+S=C3=A9lection =C3=A2ge ( http://animoassur.com/ga/click/2-11527895-18-1470=
+-2837-20408-c8d8e8c305-fb84ce53b8 ) >
+|
+
+H=C3=A9ros ( http://animoassur.com/ga/click/2-11527895-18-1470-2837-20409-0=
+7580acb1e-fb84ce53b8 ) >
+|
+
+Nouveaut=C3=A9s ( http://animoassur.com/ga/click/2-11527895-18-1470-2837-20=
+410-7b54e1695a-fb84ce53b8 ) >
+|
+
+Promotions ( http://animoassur.com/ga/click/2-11527895-18-1470-2837-20411-2=
+87bd44bf2-fb84ce53b8 ) >
+
+Le retour des INCROYABLES PROoMOS !
+
+................................................................
+
+Parure de lit Avengers ( http://animoassur.com/ga/click/2-11527895-18-1470-=
+2837-20412-8abcc93f81-fb84ce53b8 )
+
+19=E2=82=AC99 39=E2=82=AC99
+
+Parure de lit - Avengers
+
+J'en profite > ( http://animoassur.com/ga/click/2-11527895-18-1470-2837-204=
+13-b3a5c7af0c-fb84ce53b8 )
+
+H=C3=B4tel Pawza - PetShop ( http://animoassur.com/ga/click/2-11527895-18-1=
+470-2837-20414-b0959a0f8a-fb84ce53b8 )
+
+22=E2=82=AC99 69=E2=82=AC99
+
+H=C3=B4tel Pawza - PetShop
+
+J'en profite > ( http://animoassur.com/ga/click/2-11527895-18-1470-2837-204=
+15-a8cbc6b93a-fb84ce53b8 )
+
+Monopoly Avengers ( http://animoassur.com/ga/click/2-11527895-18-1470-2837-=
+20416-132e38ac39-fb84ce53b8 )
+
+14=E2=82=AC50 29=E2=82=AC99
+
+Monopoly Avengers
+
+J'en profite > ( http://animoassur.com/ga/click/2-11527895-18-1470-2837-204=
+17-41207b65bf-fb84ce53b8 )
+
+M=C3=A9ga glacier - Play-Doh ( http://animoassur.com/ga/click/2-11527895-18=
+-1470-2837-20418-f75e66e1b1-fb84ce53b8 )
+
+14=E2=82=AC99 29=E2=82=AC99
+
+M=C3=A9ga glacier - Play-Ddoh
+
+J'en profite > ( http://animoassur.com/ga/click/2-11527895-18-1470-2837-204=
+19-5639945bb0-fb84ce53b8 )
+
+Voir TOUTES les INCROYABLES PROoMOS > ( http://animoassur.com/ga/click/2-11=
+527895-18-1470-2837-20420-ac4e7fc9ac-fb84ce53b8 )
+
+Toutes les nouveaute=C3=A9s LEGO 2016 ( http://animoassur.com/ga/click/2-11=
+527895-18-1470-2837-20421-f8a9759373-fb84ce53b8 )
+
+Toutes les nouveaute=C3=A9s LEGO 2016 ( http://animoassur.com/ga/click/2-11=
+527895-18-1470-2837-20422-65fab3800d-fb84ce53b8 )
+
+Toutes les nouveaute=C3=A9s LEGO 2016 ( http://animoassur.com/ga/click/2-11=
+527895-18-1470-2837-20423-56969a78af-fb84ce53b8 )
+
+Votre commade sur www.toysrus.fr c'est :
+
+appel non surtax=C3=A9
+
+SATISFAIT
+ou
+REMBOURS=C3=89
+=C3=80 votre =C3=89coute
+Lundi/ vendredi8h / 20h
+samedi 9h / 20h
+au 0969 39 94 94
+Exp=C3=89dition en 48h
+par Colissimo,
+Kiala, Chronopost
+ou transporteur
+Retour en
+magasin
+possible=
+
+--==a703c8613b923c929e96b7d4ecfbf819
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.=
+w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml">
+<head>
+	<meta content=3D"text/html; charset=3Dutf-8" http-equiv=3D"Content-Type" />
+	<title>Toysrus</title>
+	<style type=3D"text/css">.ReadMsgBody {width: 100%;} .ExternalClass {width=
+: 100%;} . yshortcuts { color:#000000; } .yshortcuts a span { color:#000000=
+;}
+	</style>
+</head>
+<body>
+<div style=3D"margin: 0pt;">
+<table bgcolor=3D"#d4e8f9" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ width=3D"100%">
+	<tbody>
+		<tr>
+			<td align=3D"center" style=3D"valign:top; align:left;" valign=3D"top">
+			<table bgcolor=3D"#ffffff" border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0" height=3D"96" width=3D"600">
+				<tbody>
+					<tr>
+						<td align=3D"right" bgcolor=3D"#ffffff" rowspan=3D"2" valign=3D"top" =
+width=3D"196"><a href=3D"http://animoassur.com/ga/click/2-11527895-18-1470-=
+2837-20424-c65b58c541-fb84ce53b8" style=3D"color: #0f4dbc; font-family: Ari=
+al, Helvetica, sans-serif; font-weight: bold; font-size: 24px;" target=3D"_=
+blank"><img border=3D"0" height=3D"96" src=3D"http://img.digital-metric.com=
+/1/1744/1311/101857/0/spacer50.gif" style=3D"display: block;" width=3D"196"=
+ /></a></td>
+						<td align=3D"left" height=3D"61" valign=3D"top" width=3D"207"><a href=
+=3D"http://animoassur.com/ga/click/2-11527895-18-1470-2837-20405-fc99ac7068=
+-fb84ce53b8" style=3D"color: #0f4dbc; font-family: Arial, Helvetica, sans-s=
+erif; font-weight: bold; font-size: 24px;" target=3D"_blank"><img alt=3D"To=
+ys&quot;R&quot;Us" border=3D"0" height=3D"61" src=3D"http://img.digital-met=
+ric.com/1/1744/1311/101857/0/ToysRUs.jpg" style=3D"display: block;" width=
+=3D"207" /></a></td>
+						<td align=3D"right" bgcolor=3D"#ffffff" height=3D"96" rowspan=3D"2" v=
+align=3D"top" width=3D"197"><a href=3D"http://animoassur.com/ga/click/2-115=
+27895-18-1470-2837-20425-476a1e1dde-fb84ce53b8" style=3D"color: #0f4dbc; fo=
+nt-family: Arial, Helvetica, sans-serif; font-weight: bold; font-size: 24px=
+;" target=3D"_blank"><img border=3D"0" height=3D"96" src=3D"http://img.digi=
+tal-metric.com/1/1744/1311/101857/0/spacer50.gif" style=3D"display: block;"=
+ width=3D"197" /></a></td>
+					</tr>
+					<tr>
+						<td align=3D"left" height=3D"35" valign=3D"top" width=3D"207"><a href=
+=3D"http://animoassur.com/ga/click/2-11527895-18-1470-2837-20406-1b0df5ada2=
+-fb84ce53b8" style=3D"color: #0f4dbc; font-family: Arial, Helvetica, sans-s=
+erif; font-weight: bold; font-size: 14px;" target=3D"_blank"><img alt=3D"Il=
+ y a du bonheur dans l'R" border=3D"0" height=3D"35" src=3D"http://img.digi=
+tal-metric.com/1/1744/1311/101857/0/du-bonheur-dans-lair.jpg" style=3D"disp=
+lay: block;" width=3D"207" /></a></td>
+					</tr>
+				</tbody>
+			</table>
+
+			<table bgcolor=3D"#ffffff" border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0" width=3D"600">
+				<tbody>
+					<tr>
+						<td align=3D"center" valign=3D"top" width=3D"600">
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%=
+">
+							<tbody>
+								<tr>
+									<td align=3D"center" bgcolor=3D"#ffffff" height=3D"30" valign=3D"m=
+iddle" width=3D"129"><a href=3D"http://animoassur.com/ga/click/2-11527895-1=
+8-1470-2837-20407-bab0842fc9-fb84ce53b8" style=3D"text-decoration:none; col=
+or: #595959;" target=3D"_blank"><font color=3D"#595959" face=3D"Arial, Helv=
+etica, sans-serif" style=3D"font-size:12px;">Cat&eacute;gories</font></a>&n=
+bsp;&gt;</td>
+									<td align=3D"center" height=3D"30" valign=3D"middle" width=3D"1"><=
+font color=3D"#595959" face=3D"Arial, Helvetica, sans-serif" style=3D"font-=
+size:18px;">|</font></td>
+									<td align=3D"center" bgcolor=3D"#ffffff" height=3D"30" valign=3D"m=
+iddle" width=3D"138"><a href=3D"http://animoassur.com/ga/click/2-11527895-1=
+8-1470-2837-20408-c8d8e8c305-fb84ce53b8" style=3D"text-decoration: none; co=
+lor: #595959" target=3D"_blank"><font color=3D"#595959" face=3D"Arial, Helv=
+etica, sans-serif" style=3D"font-size:12px;">S&eacute;lection &acirc;ge</fo=
+nt></a>&nbsp;&gt;</td>
+									<td align=3D"center" height=3D"30" valign=3D"middle" width=3D"1"><=
+font color=3D"#595959" face=3D"Arial, Helvetica, sans-serif" style=3D"font-=
+size:18px;">|</font></td>
+									<td align=3D"center" bgcolor=3D"#ffffff" height=3D"30" valign=3D"m=
+iddle" width=3D"88"><a href=3D"http://animoassur.com/ga/click/2-11527895-18=
+-1470-2837-20409-07580acb1e-fb84ce53b8" style=3D"text-decoration: none; col=
+or:#595959" target=3D"_blank"><font color=3D"#595959" face=3D"Arial, Helvet=
+ica, sans-serif" style=3D"font-size:12px;">H&eacute;ros</font></a>&nbsp;&gt=
+;</td>
+									<td align=3D"center" height=3D"30" valign=3D"middle" width=3D"1"><=
+font color=3D"#595959" face=3D"Arial, Helvetica, sans-serif" style=3D"font-=
+size:18px;">|</font></td>
+									<td align=3D"center" bgcolor=3D"#ffffff" height=3D"30" valign=3D"m=
+iddle" width=3D"119"><a href=3D"http://animoassur.com/ga/click/2-11527895-1=
+8-1470-2837-20410-7b54e1695a-fb84ce53b8" style=3D"text-decoration: none; co=
+lor:#595959" target=3D"_blank"><font color=3D"#595959" face=3D"Arial, Helve=
+tica, sans-serif" style=3D"font-size:12px;">Nouveaut&eacute;s</font></a>&nb=
+sp;&gt;</td>
+									<td align=3D"center" height=3D"30" valign=3D"middle" width=3D"1"><=
+font color=3D"#595959" face=3D"Arial, Helvetica, sans-serif" style=3D"font-=
+size:18px;">|</font></td>
+									<td align=3D"center" bgcolor=3D"#ffffff" height=3D"30" valign=3D"m=
+iddle" width=3D"120"><a href=3D"http://animoassur.com/ga/click/2-11527895-1=
+8-1470-2837-20411-287bd44bf2-fb84ce53b8" style=3D"text-decoration: none; co=
+lor:#db0049" target=3D"_blank"><font color=3D"#db0049" face=3D"Arial, Helve=
+tica, sans-serif" style=3D"font-size:12px;">Promotions</font></a><font colo=
+r=3D"#db0049">&nbsp;&gt;</font></td>
+								</tr>
+							</tbody>
+						</table>
+
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%=
+">
+							<tbody>
+								<tr>
+									<td height=3D"1" width=3D"10"><img border=3D"0" height=3D"1" src=
+=3D"http://img.digital-metric.com/1/1744/1311/101857/0/spacer-transparent.g=
+if" style=3D"display: block;" width=3D"10" /></td>
+									<td bgcolor=3D"#595959" width=3D"580"><img border=3D"0" height=3D"=
+1" src=3D"images/spacer-transparent.gif" style=3D"display: block;" width=3D=
+"580" /></td>
+									<td height=3D"1" width=3D"10"><img border=3D"0" height=3D"1" src=
+=3D"images/spacer-transparent.gif" style=3D"display: block;" width=3D"10" /=
+></td>
+								</tr>
+							</tbody>
+						</table>
+
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%=
+">
+							<tbody>
+								<tr>
+									<td bgcolor=3D"#ffffff" height=3D"1"><img border=3D"0" height=3D"5=
+" src=3D"images/spacer-transparent.gif" style=3D"display: block;" width=3D"=
+600" /></td>
+								</tr>
+							</tbody>
+						</table>
+
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%=
+">
+							<tbody>
+								<tr>
+									<td>
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"1=
+00%">
+										<tbody>
+											<tr>
+												<td align=3D"center" height=3D"50" valign=3D"middle"><font styl=
+e=3D"font-family:Arial, Helvetica, sans-serif; font-size:24px; color:#bb001=
+1; font-weight:bold;">Le retour des INCROYABLES PROoMOS !</font></td>
+											</tr>
+										</tbody>
+									</table>
+
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"1=
+00%">
+										<tbody>
+											<tr>
+												<td align=3D"left" valign=3D"top"><a href=3D"http://animoassur.=
+com/ga/click/2-11527895-18-1470-2837-20426-da5a2da7ab-fb84ce53b8" target=3D=
+"_blank"><img border=3D"0" height=3D"100" src=3D"http://img.digital-metric.=
+com/1/1744/1311/101857/0/offre-toysrus-Proomos_01.jpg" style=3D"display: bl=
+ock;" width=3D"600" /></a></td>
+											</tr>
+											<tr>
+												<td align=3D"left" valign=3D"top"><a href=3D"http://animoassur.=
+com/ga/click/2-11527895-18-1470-2837-20427-21fe3e8980-fb84ce53b8" target=3D=
+"_blank"><img border=3D"0" height=3D"101" src=3D"http://img.digital-metric.=
+com/1/1744/1311/101857/0/offre-toysrus-Proomos_02.jpg" style=3D"display: bl=
+ock;" width=3D"600" /></a></td>
+											</tr>
+											<tr>
+												<td align=3D"left" valign=3D"top"><a href=3D"http://animoassur.=
+com/ga/click/2-11527895-18-1470-2837-20428-915a865a3e-fb84ce53b8" target=3D=
+"_blank"><img border=3D"0" height=3D"96" src=3D"http://img.digital-metric.c=
+om/1/1744/1311/101857/0/offre-toysrus-Proomos_03.jpg" style=3D"display: blo=
+ck;" width=3D"600" /></a></td>
+											</tr>
+										</tbody>
+									</table>
+
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"1=
+00%">
+										<tbody>
+											<tr>
+												<td align=3D"center" colspan=3D"2" height=3D"5" valign=3D"middl=
+e"><font style=3D"font-family:Arial, Helvetica, sans-serif; font-size:24px;=
+ color:#bb0011; font-weight:bold;">........................................=
+........................</font></td>
+											</tr>
+											<tr>
+												<td align=3D"right" bgcolor=3D"#ffffff" valign=3D"top" width=3D=
+"60">
+												<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" width=3D"600">
+													<tbody>
+														<tr>
+															<td>
+															<table align=3D"center" border=3D"0" cellpadding=3D"0" cells=
+pacing=3D"0" width=3D"100%">
+																<tbody>
+																	<tr>
+																		<td bgcolor=3D"#ffffff" width=3D"300">
+																		<table align=3D"center" border=3D"0" cellpadding=3D"0" ce=
+llspacing=3D"0" width=3D"166">
+																			<tbody>
+																				<tr>
+																					<td align=3D"left" bgcolor=3D"#FFFFFF" height=3D"200" =
+valign=3D"top" width=3D"166"><a href=3D"http://animoassur.com/ga/click/2-11=
+527895-18-1470-2837-20412-8abcc93f81-fb84ce53b8" target=3D"_blank"><img alt=
+=3D"Parure de lit Avengers" border=3D"0" height=3D"220" src=3D"http://img.d=
+igital-metric.com/1/1744/1311/101857/0/parure-avengers-ToysRus.jpg" style=
+=3D"display: block;" width=3D"300" /></a></td>
+																				</tr>
+																				<tr>
+																					<td bgcolor=3D"#ffffff">
+																					<table align=3D"center" border=3D"0" cellpadding=3D"0"=
+ cellspacing=3D"0" height=3D"20" width=3D"166">
+																						<tbody>
+																							<tr>
+																								<td align=3D"center" bgcolor=3D"#ffffff" height=3D"=
+20" valign=3D"top"><font color=3D"#bb0011" face=3D"Arial" style=3D"font-siz=
+e:24px;"><strong>19</strong></font><font color=3D"#bb0011" face=3D"Arial" s=
+tyle=3D"font-size:18px;"><strong><sup>&euro;99</sup></strong></font><font c=
+olor=3D"#666" face=3D"Arial" style=3D"font-size:18px; text-decoration:line-=
+through;"><strong>&nbsp;&nbsp;39</strong></font><font color=3D"#666" face=
+=3D"Arial" style=3D"font-size:14px; text-decoration:line-through"><strong><=
+sup>&euro;99&nbsp;&nbsp;</sup></strong></font></td>
+																							</tr>
+																						</tbody>
+																					</table>
+																					</td>
+																				</tr>
+																				<tr>
+																					<td>
+																					<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" height=3D"10">
+																						<tbody>
+																							<tr>
+																								<td width=3D"50"><img border=3D"0" height=3D"10" sr=
+c=3D"http://img.digital-metric.com/1/1744/1311/101857/0/spacer50.gif" style=
+=3D"display: block;" width=3D"20" /></td>
+																								<td align=3D"center" bgcolor=3D"#ffffff" height=3D"=
+10" style=3D"text-decoration:none;" valign=3D"top" width=3D"200"><font colo=
+r=3D"black" face=3D"Arial" style=3D"font-size:12px; font-weight:bold;">Paru=
+re de lit - Avengers</font></td>
+																								<td width=3D"50"><img border=3D"0" height=3D"10" sr=
+c=3D"http://img.digital-metric.com/1/1744/1311/101857/0/spacer50.gif" style=
+=3D"display: block;" width=3D"50" /></td>
+																							</tr>
+																						</tbody>
+																					</table>
+																					</td>
+																				</tr>
+																				<tr>
+																					<td bgcolor=3D"#FFFFFF" height=3D"5" valign=3D"top" wi=
+dth=3D"300"><img border=3D"0" height=3D"5" src=3D"http://img.digital-metric=
+.com/1/1744/1311/101857/0/spacer50.gif" style=3D"display: block;" width=3D"=
+300" /></td>
+																				</tr>
+																				<tr>
+																					<td align=3D"center" height=3D"20" valign=3D"middle" w=
+idth=3D"300">
+																					<table align=3D"center" border=3D"0" cellpadding=3D"0"=
+ cellspacing=3D"0" height=3D"20" width=3D"300">
+																						<tbody>
+																							<tr>
+																								<td bgcolor=3D"#ffffff" height=3D"20" valign=3D"mid=
+dle" width=3D"50"><img border=3D"0" height=3D"20" src=3D"http://img.digital=
+-metric.com/1/1744/1311/101857/0/spacer50.gif" style=3D"display: block;" wi=
+dth=3D"50" /></td>
+																								<td align=3D"center" bgcolor=3D"#bb0011" width=3D"2=
+00"><a href=3D"http://animoassur.com/ga/click/2-11527895-18-1470-2837-20413=
+-b3a5c7af0c-fb84ce53b8" style=3D"text-decoration:none;" target=3D"_blank"><=
+font color=3D"white" face=3D"Arial" style=3D"font-size:12px;"><strong>J&#39=
+;en profite &gt;</strong></font></a></td>
+																								<td bgcolor=3D"#ffffff" height=3D"20" valign=3D"mid=
+dle" width=3D"50"><img border=3D"0" height=3D"20" src=3D"http://img.digital=
+-metric.com/1/1744/1311/101857/0/spacer50.gif" style=3D"display: block;" wi=
+dth=3D"50" /></td>
+																							</tr>
+																						</tbody>
+																					</table>
+																					</td>
+																				</tr>
+																				<tr>
+																					<td bgcolor=3D"#FFFFFF" height=3D"40" valign=3D"top" w=
+idth=3D"300"><img border=3D"0" height=3D"40" src=3D"http://img.digital-metr=
+ic.com/1/1744/1311/101857/0/spacer50.gif" style=3D"display: block;" width=
+=3D"300" /></td>
+																				</tr>
+																			</tbody>
+																		</table>
+																		</td>
+																		<td bgcolor=3D"#ffffff" width=3D"300">
+																		<table align=3D"center" border=3D"0" cellpadding=3D"0" ce=
+llspacing=3D"0" width=3D"166">
+																			<tbody>
+																				<tr>
+																					<td align=3D"left" bgcolor=3D"#FFFFFF" height=3D"200" =
+valign=3D"top" width=3D"166"><a href=3D"http://animoassur.com/ga/click/2-11=
+527895-18-1470-2837-20414-b0959a0f8a-fb84ce53b8" target=3D"_blank"><img alt=
+=3D"H=C3=B4tel Pawza - PetShop" border=3D"0" height=3D"220" src=3D"http://i=
+mg.digital-metric.com/1/1744/1311/101857/0/PetShop-Hotel-PawzaToysRus.jpg" =
+style=3D"display: block;" width=3D"300" /></a></td>
+																				</tr>
+																				<tr>
+																					<td bgcolor=3D"#ffffff">
+																					<table align=3D"center" border=3D"0" cellpadding=3D"0"=
+ cellspacing=3D"0" height=3D"20" width=3D"166">
+																						<tbody>
+																							<tr>
+																								<td align=3D"center" bgcolor=3D"#ffffff" height=3D"=
+20" valign=3D"top"><font color=3D"#bb0011" face=3D"Arial" style=3D"font-siz=
+e:24px;"><strong>22</strong></font><font color=3D"#bb0011" face=3D"Arial" s=
+tyle=3D"font-size:18px;"><strong><sup>&euro;99</sup></strong></font><font c=
+olor=3D"#666" face=3D"Arial" style=3D"font-size:18px; text-decoration:line-=
+through;"><strong>&nbsp;&nbsp;69</strong></font><font color=3D"#666" face=
+=3D"Arial" style=3D"font-size:14px; text-decoration:line-through"><strong><=
+sup>&euro;99&nbsp;&nbsp;</sup></strong></font></td>
+																							</tr>
+																						</tbody>
+																					</table>
+																					</td>
+																				</tr>
+																				<tr>
+																					<td>
+																					<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" height=3D"10">
+																						<tbody>
+																							<tr>
+																								<td width=3D"50"><img border=3D"0" height=3D"10" sr=
+c=3D"http://img.digital-metric.com/1/1744/1311/101857/0/spacer50.gif" style=
+=3D"display: block;" width=3D"50" /></td>
+																								<td align=3D"center" bgcolor=3D"#ffffff" height=3D"=
+10" style=3D"text-decoration:none;" valign=3D"top" width=3D"200"><font colo=
+r=3D"black" face=3D"Arial" style=3D"font-size:12px; font-weight:bold;">H&oc=
+irc;tel Pawza - PetShop </font></td>
+																								<td width=3D"50"><img border=3D"0" height=3D"10" sr=
+c=3D"http://img.digital-metric.com/1/1744/1311/101857/0/spacer50.gif" style=
+=3D"display: block;" width=3D"50" /></td>
+																							</tr>
+																						</tbody>
+																					</table>
+																					</td>
+																				</tr>
+																				<tr>
+																					<td bgcolor=3D"#FFFFFF" height=3D"5" valign=3D"top" wi=
+dth=3D"300"><img border=3D"0" height=3D"5" src=3D"http://img.digital-metric=
+.com/1/1744/1311/101857/0/spacer50.gif" style=3D"display: block;" width=3D"=
+300" /></td>
+																				</tr>
+																				<tr>
+																					<td align=3D"center" height=3D"20" valign=3D"middle" w=
+idth=3D"300">
+																					<table align=3D"center" border=3D"0" cellpadding=3D"0"=
+ cellspacing=3D"0" height=3D"20" width=3D"300">
+																						<tbody>
+																							<tr>
+																								<td bgcolor=3D"#ffffff" height=3D"20" valign=3D"mid=
+dle" width=3D"50"><img border=3D"0" height=3D"20" src=3D"http://img.digital=
+-metric.com/1/1744/1311/101857/0/spacer50.gif" style=3D"display: block;" wi=
+dth=3D"50" /></td>
+																								<td align=3D"center" bgcolor=3D"#bb0011" width=3D"2=
+00"><a href=3D"http://animoassur.com/ga/click/2-11527895-18-1470-2837-20415=
+-a8cbc6b93a-fb84ce53b8" style=3D"text-decoration:none;" target=3D"_blank"><=
+font color=3D"white" face=3D"Arial" style=3D"font-size:12px;"><strong>J&#39=
+;en profite &gt;</strong></font></a></td>
+																								<td bgcolor=3D"#ffffff" height=3D"20" valign=3D"mid=
+dle" width=3D"50"><img border=3D"0" height=3D"20" src=3D"http://img.digital=
+-metric.com/1/1744/1311/101857/0/spacer50.gif" style=3D"display: block;" wi=
+dth=3D"50" /></td>
+																							</tr>
+																						</tbody>
+																					</table>
+																					</td>
+																				</tr>
+																				<tr>
+																					<td bgcolor=3D"#FFFFFF" height=3D"40" valign=3D"top" w=
+idth=3D"300"><img border=3D"0" height=3D"40" src=3D"http://img.digital-metr=
+ic.com/1/1744/1311/101857/0/spacer50.gif" style=3D"display: block;" width=
+=3D"300" /></td>
+																				</tr>
+																			</tbody>
+																		</table>
+																		</td>
+																	</tr>
+																</tbody>
+															</table>
+															</td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+											<tr>
+												<td align=3D"right" bgcolor=3D"#ffffff" valign=3D"top" width=3D=
+"60">
+												<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" width=3D"600">
+													<tbody>
+														<tr>
+															<td>
+															<table align=3D"center" border=3D"0" cellpadding=3D"0" cells=
+pacing=3D"0" width=3D"100%">
+																<tbody>
+																	<tr>
+																		<td bgcolor=3D"#ffffff" width=3D"300">
+																		<table align=3D"center" border=3D"0" cellpadding=3D"0" ce=
+llspacing=3D"0" width=3D"166">
+																			<tbody>
+																				<tr>
+																					<td align=3D"left" bgcolor=3D"#FFFFFF" height=3D"200" =
+valign=3D"top" width=3D"166"><a href=3D"http://animoassur.com/ga/click/2-11=
+527895-18-1470-2837-20416-132e38ac39-fb84ce53b8" target=3D"_blank"><img alt=
+=3D"Monopoly Avengers" border=3D"0" height=3D"215" src=3D"http://img.digita=
+l-metric.com/1/1744/1311/101857/0/Monopoly-Avengers-ToysRus.jpg" style=3D"d=
+isplay: block;" width=3D"300" /></a></td>
+																				</tr>
+																				<tr>
+																					<td bgcolor=3D"#ffffff">
+																					<table align=3D"center" border=3D"0" cellpadding=3D"0"=
+ cellspacing=3D"0" height=3D"20" width=3D"166">
+																						<tbody>
+																							<tr>
+																								<td align=3D"center" bgcolor=3D"#ffffff" height=3D"=
+20" valign=3D"top"><font color=3D"#bb0011" face=3D"Arial" style=3D"font-siz=
+e:24px;"><strong>14</strong></font><font color=3D"#bb0011" face=3D"Arial" s=
+tyle=3D"font-size:18px;"><strong><sup>&euro;50</sup></strong></font><font c=
+olor=3D"#666" face=3D"Arial" style=3D"font-size:18px; text-decoration:line-=
+through;"><strong>&nbsp;&nbsp;29</strong></font><font color=3D"#666" face=
+=3D"Arial" style=3D"font-size:14px; text-decoration:line-through"><strong><=
+sup>&euro;99&nbsp;&nbsp;</sup></strong></font></td>
+																							</tr>
+																						</tbody>
+																					</table>
+																					</td>
+																				</tr>
+																				<tr>
+																					<td>
+																					<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" height=3D"10">
+																						<tbody>
+																							<tr>
+																								<td width=3D"50"><img border=3D"0" height=3D"10" sr=
+c=3D"http://img.digital-metric.com/1/1744/1311/101857/0/spacer50.gif" style=
+=3D"display: block;" width=3D"20" /></td>
+																								<td align=3D"center" bgcolor=3D"#ffffff" height=3D"=
+10" style=3D"text-decoration:none;" valign=3D"top" width=3D"200"><font colo=
+r=3D"black" face=3D"Arial" style=3D"font-size:12px; font-weight:bold;">Mono=
+poly Avengers</font></td>
+																								<td width=3D"50"><img border=3D"0" height=3D"10" sr=
+c=3D"http://img.digital-metric.com/1/1744/1311/101857/0/spacer50.gif" style=
+=3D"display: block;" width=3D"50" /></td>
+																							</tr>
+																						</tbody>
+																					</table>
+																					</td>
+																				</tr>
+																				<tr>
+																					<td bgcolor=3D"#FFFFFF" height=3D"5" valign=3D"top" wi=
+dth=3D"300"><img border=3D"0" height=3D"5" src=3D"http://img.digital-metric=
+.com/1/1744/1311/101857/0/spacer50.gif" style=3D"display: block;" width=3D"=
+300" /></td>
+																				</tr>
+																				<tr>
+																					<td align=3D"center" height=3D"20" valign=3D"middle" w=
+idth=3D"300">
+																					<table align=3D"center" border=3D"0" cellpadding=3D"0"=
+ cellspacing=3D"0" height=3D"20" width=3D"300">
+																						<tbody>
+																							<tr>
+																								<td bgcolor=3D"#ffffff" height=3D"20" valign=3D"mid=
+dle" width=3D"50"><img border=3D"0" height=3D"20" src=3D"http://img.digital=
+-metric.com/1/1744/1311/101857/0/spacer50.gif" style=3D"display: block;" wi=
+dth=3D"50" /></td>
+																								<td align=3D"center" bgcolor=3D"#bb0011" width=3D"2=
+00"><a href=3D"http://animoassur.com/ga/click/2-11527895-18-1470-2837-20417=
+-41207b65bf-fb84ce53b8" style=3D"text-decoration:none;" target=3D"_blank"><=
+font color=3D"white" face=3D"Arial" style=3D"font-size:12px;"><strong>J&#39=
+;en profite &gt;</strong></font></a></td>
+																								<td bgcolor=3D"#ffffff" height=3D"20" valign=3D"mid=
+dle" width=3D"50"><img border=3D"0" height=3D"20" src=3D"http://img.digital=
+-metric.com/1/1744/1311/101857/0/spacer50.gif" style=3D"display: block;" wi=
+dth=3D"50" /></td>
+																							</tr>
+																						</tbody>
+																					</table>
+																					</td>
+																				</tr>
+																				<tr>
+																					<td bgcolor=3D"#FFFFFF" height=3D"40" valign=3D"top" w=
+idth=3D"300"><img border=3D"0" height=3D"40" src=3D"http://img.digital-metr=
+ic.com/1/1744/1311/101857/0/spacer50.gif" style=3D"display: block;" width=
+=3D"300" /></td>
+																				</tr>
+																			</tbody>
+																		</table>
+																		</td>
+																		<td bgcolor=3D"#ffffff" width=3D"300">
+																		<table align=3D"center" border=3D"0" cellpadding=3D"0" ce=
+llspacing=3D"0" width=3D"166">
+																			<tbody>
+																				<tr>
+																					<td align=3D"left" bgcolor=3D"#FFFFFF" height=3D"200" =
+valign=3D"top" width=3D"166"><a href=3D"http://animoassur.com/ga/click/2-11=
+527895-18-1470-2837-20418-f75e66e1b1-fb84ce53b8" target=3D"_blank"><img alt=
+=3D"M=C3=A9ga glacier - Play-Doh" border=3D"0" height=3D"215" src=3D"http:/=
+/img.digital-metric.com/1/1744/1311/101857/0/Play-Doh-Glacier-ToysRus.jpg" =
+style=3D"display: block;" width=3D"300" /></a></td>
+																				</tr>
+																				<tr>
+																					<td bgcolor=3D"#ffffff">
+																					<table align=3D"center" border=3D"0" cellpadding=3D"0"=
+ cellspacing=3D"0" height=3D"20" width=3D"166">
+																						<tbody>
+																							<tr>
+																								<td align=3D"center" bgcolor=3D"#ffffff" height=3D"=
+20" valign=3D"top"><font color=3D"#bb0011" face=3D"Arial" style=3D"font-siz=
+e:24px;"><strong>14</strong></font><font color=3D"#bb0011" face=3D"Arial" s=
+tyle=3D"font-size:18px;"><strong><sup>&euro;99</sup></strong></font><font c=
+olor=3D"#666" face=3D"Arial" style=3D"font-size:18px; text-decoration:line-=
+through;"><strong>&nbsp;&nbsp;29</strong></font><font color=3D"#666" face=
+=3D"Arial" style=3D"font-size:14px; text-decoration:line-through"><strong><=
+sup>&euro;99&nbsp;&nbsp;</sup></strong></font></td>
+																							</tr>
+																						</tbody>
+																					</table>
+																					</td>
+																				</tr>
+																				<tr>
+																					<td>
+																					<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" height=3D"10">
+																						<tbody>
+																							<tr>
+																								<td width=3D"50"><img border=3D"0" height=3D"10" sr=
+c=3D"http://img.digital-metric.com/1/1744/1311/101857/0/spacer50.gif" style=
+=3D"display: block;" width=3D"50" /></td>
+																								<td align=3D"center" bgcolor=3D"#ffffff" height=3D"=
+10" style=3D"text-decoration:none;" valign=3D"top" width=3D"200"><font colo=
+r=3D"black" face=3D"Arial" style=3D"font-size:12px; font-weight:bold;">M&ea=
+cute;ga glacier - Play-Ddoh </font></td>
+																								<td width=3D"50"><img border=3D"0" height=3D"10" sr=
+c=3D"http://img.digital-metric.com/1/1744/1311/101857/0/spacer50.gif" style=
+=3D"display: block;" width=3D"50" /></td>
+																							</tr>
+																						</tbody>
+																					</table>
+																					</td>
+																				</tr>
+																				<tr>
+																					<td bgcolor=3D"#FFFFFF" height=3D"5" valign=3D"top" wi=
+dth=3D"300"><img border=3D"0" height=3D"5" src=3D"http://img.digital-metric=
+.com/1/1744/1311/101857/0/spacer50.gif" style=3D"display: block;" width=3D"=
+300" /></td>
+																				</tr>
+																				<tr>
+																					<td align=3D"center" height=3D"20" valign=3D"middle" w=
+idth=3D"300">
+																					<table align=3D"center" border=3D"0" cellpadding=3D"0"=
+ cellspacing=3D"0" height=3D"20" width=3D"300">
+																						<tbody>
+																							<tr>
+																								<td bgcolor=3D"#ffffff" height=3D"20" valign=3D"mid=
+dle" width=3D"50"><img border=3D"0" height=3D"20" src=3D"http://img.digital=
+-metric.com/1/1744/1311/101857/0/spacer50.gif" style=3D"display: block;" wi=
+dth=3D"50" /></td>
+																								<td align=3D"center" bgcolor=3D"#bb0011" width=3D"2=
+00"><a href=3D"http://animoassur.com/ga/click/2-11527895-18-1470-2837-20419=
+-5639945bb0-fb84ce53b8" style=3D"text-decoration:none;" target=3D"_blank"><=
+font color=3D"white" face=3D"Arial" style=3D"font-size:12px;"><strong>J&#39=
+;en profite &gt;</strong></font></a></td>
+																								<td bgcolor=3D"#ffffff" height=3D"20" valign=3D"mid=
+dle" width=3D"50"><img border=3D"0" height=3D"20" src=3D"http://img.digital=
+-metric.com/1/1744/1311/101857/0/spacer50.gif" style=3D"display: block;" wi=
+dth=3D"50" /></td>
+																							</tr>
+																						</tbody>
+																					</table>
+																					</td>
+																				</tr>
+																				<tr>
+																					<td bgcolor=3D"#FFFFFF" height=3D"40" valign=3D"top" w=
+idth=3D"300"><img border=3D"0" height=3D"40" src=3D"http://img.digital-metr=
+ic.com/1/1744/1311/101857/0/spacer50.gif" style=3D"display: block;" width=
+=3D"300" /></td>
+																				</tr>
+																			</tbody>
+																		</table>
+																		</td>
+																	</tr>
+																</tbody>
+															</table>
+															</td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"1=
+00%">
+										<tbody>
+											<tr>
+												<td align=3D"right" bgcolor=3D"#ffffff" valign=3D"top" width=3D=
+"50"><img border=3D"0" height=3D"40" src=3D"http://img.digital-metric.com/1=
+/1744/1311/101857/0/spacer50.gif" style=3D"display: block;" width=3D"50" />=
+</td>
+												<td align=3D"center" bgcolor=3D"#bb0011" colspan=3D"3" height=
+=3D"40" valign=3D"middle" width=3D"500"><a href=3D"http://animoassur.com/ga=
+/click/2-11527895-18-1470-2837-20420-ac4e7fc9ac-fb84ce53b8" style=3D"font-f=
+amily:Arial, Helvetica, sans-serif; font-size:18px; color:#ffffff; font-wei=
+ght:bold; text-decoration:none;" target=3D"_blank">Voir TOUTES les INCROYAB=
+LES PROoMOS &gt;</a></td>
+												<td align=3D"right" bgcolor=3D"#ffffff" valign=3D"top" width=3D=
+"50"><img border=3D"0" height=3D"40" src=3D"http://img.digital-metric.com/1=
+/1744/1311/101857/0/spacer50.gif" style=3D"display: block;" width=3D"50" />=
+</td>
+											</tr>
+										</tbody>
+									</table>
+
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"1=
+00%">
+										<tbody>
+											<tr>
+												<td align=3D"center" colspan=3D"3" height=3D"83" valign=3D"bott=
+om" width=3D"600"><a href=3D"http://animoassur.com/ga/click/2-11527895-18-1=
+470-2837-20421-f8a9759373-fb84ce53b8" target=3D"_blank"><img alt=3D"Toutes =
+les nouveaute=C3=A9s LEGO 2016" border=3D"0" height=3D"83" src=3D"http://im=
+g.digital-metric.com/1/1744/1311/101857/0/nouveautes_lego_ToysRUs_01.jpg" s=
+tyle=3D"display: block;" width=3D"599" /></a></td>
+											</tr>
+											<tr>
+												<td align=3D"center" colspan=3D"3" height=3D"116" valign=3D"bot=
+tom" width=3D"600"><a href=3D"http://animoassur.com/ga/click/2-11527895-18-=
+1470-2837-20422-65fab3800d-fb84ce53b8" target=3D"_blank"><img alt=3D"Toutes=
+ les nouveaute=C3=A9s LEGO 2016" border=3D"0" height=3D"116" src=3D"http://=
+img.digital-metric.com/1/1744/1311/101857/0/nouveautes_lego_ToysRUs_02.jpg"=
+ style=3D"display: block;" width=3D"599" /></a></td>
+											</tr>
+											<tr>
+												<td align=3D"center" colspan=3D"3" height=3D"92" valign=3D"bott=
+om" width=3D"600"><a href=3D"http://animoassur.com/ga/click/2-11527895-18-1=
+470-2837-20423-56969a78af-fb84ce53b8" target=3D"_blank"><img alt=3D"Toutes =
+les nouveaute=C3=A9s LEGO 2016" border=3D"0" height=3D"92" src=3D"http://im=
+g.digital-metric.com/1/1744/1311/101857/0/nouveautes_lego_ToysRUs_03.jpg" s=
+tyle=3D"display: block;" width=3D"599" /></a></td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+
+			<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"600">
+				<tbody>
+					<tr>
+						<td align=3D"center" height=3D"50px" valign=3D"middle"><font color=3D=
+"#0060af" face=3D"Arial, Helvetica, sans-serif" style=3D"font-size:16px; fo=
+nt-weight:bold">Votre commade sur www.toysrus.fr c&#39;est :</font></td>
+					</tr>
+				</tbody>
+			</table>
+
+			<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"600">
+				<tbody>
+					<tr>
+						<td align=3D"center" height=3D"35" valign=3D"top" width=3D"146"><img =
+border=3D"0" height=3D"31" src=3D"http://img.digital-metric.com/1/1744/1311=
+/101857/0/satisfait.jpg" style=3D"display:block" width=3D"30" /></td>
+						<td rowspan=3D"2" width=3D"5"><img border=3D"0" src=3D"http://img.dig=
+ital-metric.com/1/1744/1311/101857/0/spacer-transparent.gif" style=3D"displ=
+ay: block;" width=3D"5" /></td>
+						<td align=3D"right" height=3D"35" valign=3D"top" width=3D"80"><img bo=
+rder=3D"0" height=3D"31" src=3D"http://img.digital-metric.com/1/1744/1311/1=
+01857/0/SAV.jpg" style=3D"display:block" width=3D"35" /></td>
+						<td width=3D"59"><font color=3D"#0060af" face=3D"Arial, Helvetica, sa=
+ns-serif" style=3D"font-size:10px">appel non surtax&eacute;</font></td>
+						<td rowspan=3D"2" width=3D"5"><img border=3D"0" src=3D"http://img.dig=
+ital-metric.com/1/1744/1311/101857/0/spacer-transparent.gif" style=3D"displ=
+ay: block;" width=3D"5" /></td>
+						<td align=3D"center" height=3D"35" valign=3D"top" width=3D"146"><img =
+border=3D"0" height=3D"31" src=3D"http://img.digital-metric.com/1/1744/1311=
+/101857/0/livraison.jpg" style=3D"display:block" width=3D"31" /></td>
+						<td rowspan=3D"2" width=3D"5"><img border=3D"0" src=3D"http://img.dig=
+ital-metric.com/1/1744/1311/101857/0/spacer-transparent.gif" style=3D"displ=
+ay: block;" width=3D"5" /></td>
+						<td align=3D"center" height=3D"35" valign=3D"top" width=3D"146"><img =
+border=3D"0" height=3D"31" src=3D"http://img.digital-metric.com/1/1744/1311=
+/101857/0/retour.jpg" style=3D"display:block" width=3D"31" /></td>
+					</tr>
+					<tr>
+						<td align=3D"center" valign=3D"top" width=3D"146"><font color=3D"#006=
+0af" face=3D"Arial, Helvetica, sans-serif" style=3D"font-size:12px; font-we=
+ight:bold">SATISFAIT<br />
+						<span style=3D"font-weight:normal">ou</span><br />
+						REMBOURS&Eacute;</font></td>
+						<td align=3D"center" colspan=3D"2" valign=3D"top" width=3D"146"><font=
+ color=3D"#0060af" face=3D"Arial, Helvetica, sans-serif" style=3D"font-size=
+:12px; font-weight:bold; text-transform:uppercase;">&Agrave; votre &Eacute;=
+coute<br />
+						<span style=3D"font-weight:normal; text-transform:none; font-size:10p=
+x; line-height:12px">Lundi/ vendredi8h / 20h<br />
+						samedi 9h / 20h<br />
+						au 0969 39 94 94</span></font></td>
+						<td align=3D"center" valign=3D"top" width=3D"146"><font color=3D"#006=
+0af" face=3D"Arial, Helvetica, sans-serif" style=3D"font-size:12px; font-we=
+ight:bold; text-transform:uppercase">Exp&Eacute;dition en 48h<br />
+						<span style=3D"font-weight:normal; text-transform:none; font-size:10p=
+x; line-height:12px">par Colissimo,<br />
+						Kiala, Chronopost<br />
+						ou transporteur</span></font></td>
+						<td align=3D"center" valign=3D"top" width=3D"146"><font color=3D"#006=
+0af" face=3D"Arial, Helvetica, sans-serif" style=3D"font-size:12px; font-we=
+ight:bold; text-transform:uppercase; line-height:12px">Retour en<br />
+						magasin<br />
+						<span style=3D"font-weight:normal; text-transform:none; font-size:10p=
+x">possible</span></font></td>
+					</tr>
+				</tbody>
+			</table>
+			</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+
+<p><img border=3D"0" height=3D"1" src=3D"http://mtrc1.digital-metric.com/vi=
+ew.php?params=3D68df0a80828d24b9f3f34ab190482846" width=3D"1" /></p>
+
+<center><a href=3D"http://animoassur.com/ga/unsubscribe/2-11527895-18-1470-=
+2837-ed35df89ef15825-fb84ce53b8">Je souhaite me d=C3=A9sinscrire et ne plus=
+ recevoir les newsletters</a>
+</center><img src=3D"http://animoassur.com/ga/open/2-11527895-18-1470-2837-=
+fb84ce53b8" height=3D"2" width=3D"3" alt=3D""></body>
+</html>
+
+--==a703c8613b923c929e96b7d4ecfbf819--
+

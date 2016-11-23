@@ -1,0 +1,874 @@
+Return-Path: <return-a9-777-778-resp-m2-miage=univ-rennes1.fr=4@fr-primeira.com>
+Received: from mailimailo.univ-rennes1.fr ([unix socket])
+	 by mailimailo.univ-rennes1.fr (Cyrus v2.3.16-Fedora-RPM-2.3.16-6.el6_2.5) with LMTPA;
+	 Tue, 20 Oct 2015 17:11:42 +0200
+X-Sieve: CMU Sieve 2.3
+Received: from vmsmtprexch.univ-rennes1.fr (vmsmtprexch.univ-rennes1.fr [129.20.128.62])
+	by mailimailo.univ-rennes1.fr (Postfix) with ESMTP id 515D226A0C37
+	for <resp-m2-miage@univ-rennes1.fr>; Tue, 20 Oct 2015 17:11:41 +0200 (CEST)
+Received: from mbcasexch3.Ur.local (mbcasexch3.univ-rennes1.fr [129.20.125.131])
+	by vmsmtprexch.univ-rennes1.fr (Postfix) with ESMTP id 464D31A9
+	for <resp-m2-miage@univ-rennes1.fr>; Tue, 20 Oct 2015 17:11:41 +0200 (CEST)
+X-CrossPremisesHeadersFilteredBySendConnector: mbcasexch3.Ur.local
+Received: from mbcasexch1.Ur.local (2002:8114:7d81::8114:7d81) by
+ mbcasexch3.Ur.local (2002:8114:7d83::8114:7d83) with Microsoft SMTP Server
+ (TLS) id 15.0.913.22; Tue, 20 Oct 2015 17:11:40 +0200
+Received: from mailout1.univ-rennes1.fr (129.20.128.162) by
+ mbcasexch1.Ur.local (129.20.125.129) with Microsoft SMTP Server id
+ 15.0.913.22 via Frontend Transport; Tue, 20 Oct 2015 17:11:39 +0200
+Received: from localhost (vmscanmail.univ-rennes1.fr [129.20.128.134])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id 0252760232
+	for <resp-m2-miage@univ-rennes1.fr>; Tue, 20 Oct 2015 17:03:14 +0200 (CEST)
+X-Virus-Scanned: amavisd-new at univ-rennes1.fr
+Received: from mailout1.univ-rennes1.fr ([129.20.128.162])
+	by localhost (vmscanmail.univ-rennes1.frm [129.20.128.134]) (amavisd-new, port 10026)
+	with ESMTP id iBdnI9cjPgQX for <resp-m2-miage@univ-rennes1.fr>;
+	Tue, 20 Oct 2015 17:03:13 +0200 (CEST)
+Received: from vmmailin.univ-rennes1.fr (vmmailin.univ-rennes1.fr [129.20.128.133])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id CAE986020C
+	for <resp-m2-miage@univ-rennes1.fr>; Tue, 20 Oct 2015 17:03:13 +0200 (CEST)
+Received: from mxb1-1.relay.renater.fr (mxb1-1.relay.renater.fr [194.214.201.8])
+	by vmmailin.univ-rennes1.fr (Postfix) with ESMTP id C2C7720033
+	for <resp-m2-miage@univ-rennes1.fr>; Tue, 20 Oct 2015 17:03:13 +0200 (CEST)
+Received: from smtp1-39.fr-primeira.com (smtp1-39.fr-primeira.com [158.69.21.78])
+	by mxb1-1.relay.renater.fr (asm) with SMTP id 396B5600365
+	for <resp-m2-miage@univ-rennes1.fr>; Tue, 20 Oct 2015 17:03:13 +0200 (CEST)
+Received: (GreenArrow 31210 invoked by uid 410); 20 Oct 2015 15:03:10 -0000
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed;
+	d=fr-primeira.com; s=default; h=Subject:From:To:Date:
+	List-Unsubscribe:Message-ID:MIME-Version:Content-Type; bh=H3o9We
+	r8nyT8qzXM5YXzNth2tQ4=; b=sfUblri0i4/SlcNzQcV3BpP4ut0nUh8j1OY9Gt
+	+OWI5tW9LpmbaypWM4wXJtrm91nkUd1woFRtk88JM0H2SlbqZZEjpIlUGymBA+vn
+	/orE/Awm9eEde43orQu+WQGbttv70vtslA9ULZzhZF/64oJlnCFG2Mzqh506NKUL
+	yRlW8=
+Subject: =?UTF-8?Q?RED=20by=20SFR=3A=20les=20journ=C3=A9es=20Datavores?=
+From: Red by Sfr <news@fr-primeira.com>
+To: <resp-m2-miage@univ-rennes1.fr>
+Date: Tue, 20 Oct 2015 15:03:10 +0000
+List-Unsubscribe: <http://fr-primeira.com/ga/unsubscribe/2-6100438-9-402-778-994b3aef9eb3dca-69e076690c>,
+ <mailto:return-a9-777-778-resp-m2-miage=univ-rennes1.fr=4u@fr-primeira.com>
+X-Mailer: GreenArrow Studio (v4.65.0)
+X-CampaignID: s4:777-39b6055406001476
+Message-ID: <mid-7c8145c21e4c2259c46926a411ec02d8@fr-primeira.com>
+X-Mailer-Info: 4.EWO.3czN.IXZzBXLtJTLtlWYnVGQ15Wa21icl5mblNXMuYmc.3cDO
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="==787b0d262e5f3adfbc6e9f2165a397f8"
+X-UCE-Status: YES
+X-UCE-Type: MCE
+X-Original-Source-IP: 158.69.21.78
+X-Bizanga: IMP - mxb1-1.relay.renater.fr
+X-Renater-SpamState: 11
+X-Renater-SpamScore: 17
+X-Renater-SpamCause: gggruggvucftvghtrhhoucdtuddrfeekhedrtddtgdeivdcutefuodetggdotefrodftvfcurfhrohhfihhlvgemucftgffptefvgfftpdggtfgfnhhsuhgsshgtrhhisggvnecuuegrihhlohhuthemuceftddtnecundfotefknffkpffiucdludejmdenucfjughrpefuhffvfffjoffkgggtsegrtderreertdejnecuhfhrohhmpedftfgvugcusgihucfufhhrfdcuoehnvgifshesfhhrqdhprhhimhgvihhrrgdrtghomheqnecuffhomhgrihhnpehfrhdqphhrihhmvghirhgrrdgtohhmnecurfgrrhgrmhepmhhouggvpehsmhhtphdphhgvlhhopehsmhhtphduqdefledrfhhrqdhprhhimhgvihhrrgdrtghomhdpihhnvghtpeduheekrdeiledrvddurdejkedpmhgrihhlfhhrohhmpehrvghtuhhrnhdqrgelqdejjeejqdejjeekqdhrvghsphdqmhdvqdhmihgrghgvpehunhhivhdqrhgvnhhnvghsuddrfhhrpeegsehfrhdqphhrihhmvghirhgrrdgtohhmpdhrtghpthhtoheprhgvshhpqdhmvddqmhhirghgvgesuhhnihhvqdhrvghnnhgvshdurdhfrh 
+X-Renater-ServerName: mxb1-1.relay.renater.fr
+X-OrganizationHeadersPreserved: mbcasexch3.Ur.local
+
+--==787b0d262e5f3adfbc6e9f2165a397f8
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+Pour voir la version en ligne : http://fr-primeira.com/ga/webviews/4-610043=
+8-9-402-401-778-d43bcdd7f9
+Les Journ=C3=A9es Datavores, c'est 2X plus de data avec RED by SFR !
+RED BY SFR
+Rejoignez-nous
+Facebook
+	Twitter
+	Google +
+Jusqu'au 25 octobre
+RED VOUS OFFRE 2X PLUS DE DATA
+POUR SURFER SANS CONTRAINTE !
+=20
+J'EN PROFITE
+=20
+D=C3=89COUVREZ NOS FORFAITS MOBILE 4G SANS ENGAGEMENT
+=20
+=20
+   3Go 6 Go
+d'internet en 4G
+=20
+Appels illimit=C3=A9s
+=20
+SMS / MMS illimit=C3=A9s
+=20
+16,99=E2=82=AC/MOIS
+pendant 6 mois
+puis 19,99=E2=82=AC/mois
+=20
+JE FONCE
+=20
+=20
+=20
+5Go 10 Go
+d'internet en 4G
+=20
+Appels illimit=C3=A9s
+=20
+SMS / MMS illimit=C3=A9s
+=20
++ 5Go/an d'internet en Europe
+et dans les DOM
+=20
+22,99=E2=82=AC/MOIS
+pendant 6 mois
+puis 25,99=E2=82=AC/mois
+=20
+JE FONCE
+=20
+=20
+ 	LES PLUS DE RED BY SFR=09=20
+R=C3=A9ductions
+	Des r=C3=A9ductions tous les mois en regroupant vos offres mobile et inter=
+net.
+=20
+Parrainage
+	Parrainage
+100% digital
+1 ami =3D
+1 mois de forfait
+=20
+Bons plans
+	Bons plans
+RED by SFR
+Ne passez pas =C3=A0 c=C3=B4t=C3=A9 !
+=20
+=20
+ 	Appels ILLIMITES : 3 heures maximum par appel, puis appel m=C3=A9tropolit=
+ain factur=C3=A9 au-del=C3=A0 du forfait =C3=A0 0,38=E2=82=AC/min. Voir tar=
+ification des appels au-del=C3=A0 vers les destinations internationales dan=
+s les documents tarifaires. Appels illimit=C3=A9s vers les mobiles m=C3=A9t=
+ropolitains et d=E2=80=99Am=C3=A9rique du Nord (hors Alaska, Hawa=C3=AF, Po=
+rto Rico et Iles Vierges Am=C3=A9ricaines) et des DOM (hors Mayotte) et app=
+els illimit=C3=A9s depuis la France vers les fixes de France m=C3=A9tropoli=
+taine et de 52 destinations (voir liste des destinations sur la fiche d=E2=
+=80=99information standardis=C3=A9e), hors num=C3=A9ros sp=C3=A9ciaux, serv=
+ices et appels depuis bo=C3=AEtiers radio. Limit=C3=A9s =C3=A0 200 destinat=
+aires diff=C3=A9rents par mois.
+SMS/MMS ILLIMITES : Limit=C3=A9s =C3=A0 200 destinataires diff=C3=A9rents p=
+ar mois. SMS/MMS illimit=C3=A9s m=C3=A9tropolitains non surtax=C3=A9s, hors=
+ Texto /MMS Chat et Chat Wap.
+
+Bonus suppl=C3=A9mentaire de 3Go/mois : bonus valable pour toute nouvelle s=
+ouscription =C3=A0 une offre RED 3Go ou depuis une offre La Carte,  RED 2H =
++ SMS ou RED 24H/24, entre le 06/10/15 =C3=A0 9H au 26/10/15 =C3=A0 8h59 su=
+r redbysfr.fr.  Usage en France m=C3=A9tropolitaine selon les conditions du=
+ forfait. Perte du bonus en cas de changement d=E2=80=99offre.
+
+Bonus suppl=C3=A9mentaire de 5Go/mois : bonus valable pour toute nouvelle s=
+ouscription =C3=A0 une offre RED 5Go ou changement d=E2=80=99offre vers un =
+RED 3Go depuis une offre La Carte,  RED 2H + SMS ou RED 24H/24, entre le 06=
+/10/15 =C3=A0 9H au 26/10/15 =C3=A0 8h59 sur redbysfr.fr. Usage en France m=
+=C3=A9tropolitaine selon les conditions du forfait. Perte du bonus en cas d=
+e changement d=E2=80=99offre.
+
+Remise Nouveau client RED : Offre soumise =C3=A0 conditions, valable du 06/=
+10/15 au 16/11/15 et r=C3=A9serv=C3=A9e =C3=A0 tout nouvel abonn=C3=A9 RED =
+by SFR, pr=C3=A9c=C3=A9demment client d=E2=80=99un autre op=C3=A9rateur mob=
+ile et demandant la portabilit=C3=A9 de son num=C3=A9ro. Remise de -3=E2=82=
+=AC/mois pendant 6 mois pour toute nouvelle souscription d=E2=80=99un forfa=
+it RED 3Go ou RED 5Go sur redbysfr.fr. Perte du b=C3=A9n=C3=A9fice de la re=
+mise en cas de changement d=E2=80=99offre au cours des 6 mois.  Au terme de=
+s 6 mois de remise, le client sera factur=C3=A9 au tarif mensuel en vigueur
+
+=09=20
+=20
+
+
+Vous souhaitez vous d=C3=A9sinscrire : http://fr-primeira.com/ga/unsubscrib=
+e/2-6100438-9-402-778-994b3aef9eb3dca-69e076690c=
+
+--==787b0d262e5f3adfbc6e9f2165a397f8
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.=
+w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml">
+<head>
+<title></title>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"width=3Ddevice-width, user-scalable=3Dno=
+, initial-scale=3D1.0, minimum-scale=3D1.0, maximum-scale=3D1.0" />
+<style type=3D"text/css">
+	table, td {
+		border-collapse: collapse;
+		mso-table-lspace:0pt;=20
+		mso-table-rspace:0pt;
+	}
+	table[class=3D"bradius"] {
+		-webkit-border-radius: 5px;=20
+		-moz-border-radius: 5px;=20
+		border-radius: 5px;
+		border-collapse: initial;
+	}
+	.ReadMsgBody {width: 100%;}
+	.ExternalClass {width: 100%;}
+	.ExternalClass * {line-height: 110% !important}
+	body {-webkit-text-size-adjust: none; -ms-text-size-adjust: 100%;}
+	a.white:link{ color:#FFFFFF !important;}
+	a.white:visited{ color:#FFFFFF !important;}
+	a.black:link{ color:#010101 !important;}
+	a.black:visited{ color:#010101 !important;}
+	a.red:link{ color:#d90019 !important;}
+	a.red:visited{ color:#d90019 !important;}
+	a.grey:link{ color:#8e8e8e !important;}
+	a.grey:visited{ color:#8e8e8e !important;}
+
+	@media only screen and (max-width: 600px) {
+		table[class=3D"table100"] {
+			width:98% !important;
+			min-width: 400px !important;
+		}
+		table[class=3D"table100a"] {
+			width:100% !important;
+		}
+		table[class=3D"table90"] {
+			width:90% !important;
+		}
+		table[class=3D"table90"] td br {
+			display:none;
+		}
+		table[class=3D"bradius"] {
+			width: 98% !important;
+		}
+		table[class=3D"bradius"] td {
+			height: 37px !important;
+		}
+		table[class=3D"bradius"] td a {
+			font-size: 14px !important;
+		}
+		table[class=3D"td45"] {
+			width: 100% !important;
+		}
+		td[class=3D"h40"] {
+			height: 80px !important;
+		}
+		td[class=3D"h15"] {
+			height: 25px !important;
+		}
+		td[class=3D"h20"] {
+			height: 15px !important;
+		}
+		table[class=3D"table33"] {
+			width:100% !important;
+		}
+		table[class=3D"table33"] td * {
+			font-size:13px !important;
+		}
+		table[class=3D"table33"] br {
+			display:none;
+		}
+		td[class=3D"table33s"] {
+			width:100px !important;
+		}
+		td[class=3D"tdcenter"] {
+			text-align:center !important;
+		}
+		img[class=3D"img100"] {
+			width:80% !important;
+		}
+		td[class=3D"bgnone"] {
+			background-image: none !important;
+		}
+	}
+
+	@media only screen and (max-width: 450px) {
+		img[class=3D"img100"] {
+			width:100% !important;
+		}
+	}
+</style>
+</head>
+<body bgcolor=3D"#FFFFFF" style=3D"height: auto; padding:0; margivalin:0; -=
+webkit-text-size-adjust:none; -ms-text-size-adjust: 100%;"><p style=3D"text=
+-align: center;">Ce message a pour destinataire resp-m2-miage@univ-rennes1.=
+fr</p>
+<p style=3D"text-align: center;"><a href=3D"http://fr-primeira.com/ga/webvi=
+ews/4-6100438-9-402-401-778-d43bcdd7f9">Voir la version en ligne</a></p>
+
+<img src=3D"http://elr.sfr.fr/view/sfr-fr/EMfNwnYS.kZtdivW2ecreqbs1t5IlblH0=
+7vnBzs-/pix.gif?ea-rnd=3D[RANDOM]&eseg-name=3Didrouteur&eseg-item=3D1238&ee=
+mail=3D" border=3D"0" width=3D"1" height=3D"1" style=3D"display:none;" NOSE=
+ND />
+<table width=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" styl=
+e=3D"font-size:12px; color:#010101; font-family:Arial;">
+	<tr>
+		<td bgcolor=3D"#FFFFFF" align=3D"center">
+			<a class=3D"red" href=3D"http://fr-primeira.com/ga/click/2-6100438-9-402=
+-778-3662-1eb4c7cf95-69e076690c" style=3D"color:#d90019;" target=3D"_blank"=
+ title=3D"Les Journ&eacute;es Datavores, c'est 2X plus de data avec RED by =
+SFR !"><font style=3D"color:#d90019; font-size:11px; line-height:15px;">Les=
+ Journ&eacute;es Datavores, c'est 2X plus de data avec RED by SFR !</font><=
+/a><br/>
+		</td>
+	</tr>
+	<tr>
+		<td align=3D"center">
+			<table class=3D"table100" width=3D"599" border=3D"0" cellpadding=3D"0" c=
+ellspacing=3D"0" style=3D"font-size:12px; color:#010101; font-family:Arial;=
+ text-align:left;">
+				<tr>
+					<td width=3D"100%" background=3D"http://i.boldathir.com/content/sfr201=
+51001/Reveil-RED.jpg" style=3D"background:url('http://i.boldathir.com/conte=
+nt/sfr20151001/Reveil-RED.jpg') no-repeat top left" bgcolor=3D"#FFFFFF" val=
+ign=3D"top">
+						<table width=3D"38%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ style=3D"font-size:12px; color:#010101; font-family:Arial; text-align:left=
+;" align=3D"left">
+							<tr>
+								<td>
+									<a class=3D"red" href=3D"http://fr-primeira.com/ga/click/2-6100438=
+-9-402-778-3663-8fa5c26fbe-69e076690c" target=3D"_blank" style=3D"color:#d9=
+0019; text-decoration:none;" title=3D"RED BY SFR"><img style=3D"display:blo=
+ck; border:0;" src=3D"http://i.boldathir.com/content/sfr20151001/logo.jpg" =
+alt=3D"RED BY SFR" /></a>
+								</td>
+							</tr>
+						</table>
+						<table width=3D"183" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ style=3D"font-size:12px; color:#010101; font-family:Arial; text-align:left=
+;" align=3D"right">
+							<tr>
+								<td colspan=3D"3" height=3D"30" align=3D"center">
+									<font style=3D"font-size:13px; color:#7b7b7b;">Rejoignez-nous</fon=
+t>
+								</td>
+							</tr>
+							<tr>
+								<td height=3D"41" width=3D"61" align=3D"center">
+									<a class=3D"black" href=3D"http://fr-primeira.com/ga/click/2-61004=
+38-9-402-778-3664-4c920353c3-69e076690c" target=3D"_blank" style=3D"color:#=
+FEFEFE; text-decoration:none;" title=3D"Facebook"><img style=3D"display:blo=
+ck; border:0;" src=3D"http://i.boldathir.com/content/sfr20151001/facebook_h=
+ead.png" alt=3D"Facebook" /></a>
+								</td>
+								<td height=3D"41" width=3D"61" align=3D"center">
+									<a class=3D"black" href=3D"http://fr-primeira.com/ga/click/2-61004=
+38-9-402-778-3665-5e261dcae3-69e076690c" target=3D"_blank" style=3D"color:#=
+FEFEFE; text-decoration:none;" title=3D"Twitter"><img style=3D"display:bloc=
+k; border:0;" src=3D"http://i.boldathir.com/content/sfr20151001/twitter_hea=
+d.png" alt=3D"Twitter" /></a>
+								</td>
+								<td height=3D"41" width=3D"61" align=3D"center">
+									<a class=3D"black" href=3D"http://fr-primeira.com/ga/click/2-61004=
+38-9-402-778-3666-0c552a0111-69e076690c" target=3D"_blank" style=3D"color:#=
+FEFEFE; text-decoration:none;" title=3D"Google +"><img style=3D"display:blo=
+ck; border:0;" src=3D"http://i.boldathir.com/content/sfr20151001/google_hea=
+d.png" alt=3D"Google +" /></a>
+								</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+				<tr>
+					<td width=3D"100%" height=3D"173" align=3D"left" bgcolor=3D"#a70b17" b=
+ackground=3D"http://i.boldathir.com/content/sfr20151001/bg.jpg" style=3D"ba=
+ckground-image:url(http://i.boldathir.com/content/sfr20151001/bg.jpg); back=
+ground-repeat:no-repeat;" valign=3D"top">
+						<table width=3D"93%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ style=3D"font-size:12px; color:#010101; font-family:Arial; text-align:left=
+;" align=3D"center">
+							<tr>
+								<td height=3D"40">
+									<a class=3D"white" href=3D"http://fr-primeira.com/ga/click/2-61004=
+38-9-402-778-3667-ecbcefc48c-69e076690c" style=3D"color:#FFFFFF; font-size:=
+11px; line-height:22px; text-decoration:none;" target=3D"_blank" title=3D"J=
+usqu'au 25 octobre">Jusqu'au 25 octobre</a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<a class=3D"white" href=3D"http://fr-primeira.com/ga/click/2-61004=
+38-9-402-778-3668-4a84a53249-69e076690c" style=3D"color:#FFFFFF; font-size:=
+16px; line-height:22px; text-decoration:none;" target=3D"_blank" title=3D"R=
+ED VOUS OFFRE 2X PLUS DE DATA POUR SURFER SANS CONTRAINTE !">
+									RED VOUS OFFRE 2X PLUS DE DATA<br/> POUR SURFER SANS CONTRAINTE !
+									</a>
+								</td>
+							</tr>
+							<tr>
+								<td height=3D"25"></td>
+							</tr>
+							<tr>
+								<td>
+									<table width=3D"130" border=3D"0" cellspacing=3D"0" cellpadding=3D=
+"0" style=3D"font-size:14px; font-family:Arial; text-align:center;">
+										<tr>
+											<td class=3D"bradius" bgcolor=3D"#FFFFFF" style=3D"background:#F=
+FFFFF; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: =
+5px;" height=3D"29" align=3D"center">
+												<a class=3D"red" href=3D"http://fr-primeira.com/ga/click/2-6100=
+438-9-402-778-3669-a5be5848d9-69e076690c" style=3D"color:#d90019; font-size=
+:14px; line-height:33px; text-decoration:none;" target=3D"_blank" title=3D"=
+J'EN PROFITE">
+													<b>J'EN PROFITE</b>
+												</a>
+											</td>
+										</tr>
+									</table>=09
+								</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+				<tr>
+					<td width=3D"100%" align=3D"center" bgcolor=3D"#d7d8d8" background=3D"=
+http://i.boldathir.com/content/sfr20151001/bg2.jpg" style=3D"background-ima=
+ge:url(http://i.boldathir.com/content/sfr20151001/bg2.jpg); background-repe=
+at:no-repeat;">
+						<table width=3D"94%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ style=3D"font-size:13px; color:#010101; font-family:Arial; text-align:left=
+;" align=3D"center">
+							<tr>
+							<td width=3D"100%" align=3D"left" height=3D"15"></td>
+							</tr>
+							<tr>
+								<td class=3D"h40" width=3D"100%" align=3D"center" height=3D"40">
+									<font style=3D"font-size:18px; color:#010101">D&Eacute;COUVREZ NOS=
+ FORFAITS MOBILE <img src=3D"http://i.boldathir.com/content/sfr20151001/4g.=
+jpg" alt=3D"4G" border=3D"0" /> <b>SANS ENGAGEMENT</b></font>
+								</td>
+							</tr>
+							<tr>
+								<td width=3D"100%" align=3D"center" height=3D"10"></td>
+							</tr>
+							<tr>
+								<td width=3D"100%">
+									<table class=3D"td45" border=3D"0" width=3D"46%" cellpadding=3D"0"=
+ cellspacing=3D"0" style=3D"font-size:13px; color:#010101; font-family:Aria=
+l; text-align:left;" align=3D"left">
+										<tr>
+											<td bgcolor=3D"#FFFFFF">
+												<table width=3D"95%" border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" style=3D"font-size:13px; color:#010101; font-family:Arial; text-alig=
+n:left;" align=3D"right">
+													<tr>
+														<td align=3D"center" height=3D"30" bgcolor=3D"#FFFFFF"></td>
+													</tr>
+													<tr>
+														<td align=3D"left" bgcolor=3D"#FFFFFF" class=3D"tdcenter">
+															<a class=3D"red" href=3D"http://fr-primeira.com/ga/click/2-6=
+100438-9-402-778-3670-c59b57df0d-69e076690c" target=3D"_blank" style=3D"col=
+or:#d90019; font-size:26px; text-decoration:none;" title=3D"6Go d'internet =
+en 4g">
+																&nbsp;&nbsp;&nbsp;<font style=3D"color:#010101;"><del><b>3G=
+o</b></del></font>
+																<font style=3D"font-size:85px; line-height:75px;"><b>6</b><=
+/font>
+																<b>Go</b>
+															</a>
+														</td>
+													</tr>
+													<tr>
+														<td align=3D"center" bgcolor=3D"#FFFFFF">
+															<a class=3D"red" href=3D"http://fr-primeira.com/ga/click/2-6=
+100438-9-402-778-3671-a693085180-69e076690c" target=3D"_blank" style=3D"col=
+or:#d90019; font-size:18px; text-decoration:none;" title=3D"d'internet en 4=
+G">
+																d'internet en 4G
+															</a>
+														</td>
+													</tr>
+													<tr>
+														<td align=3D"center" height=3D"15" bgcolor=3D"#FFFFFF"></td>
+													</tr>
+													<tr>
+														<td align=3D"center" bgcolor=3D"#FFFFFF">
+															<a class=3D"black" href=3D"http://fr-primeira.com/ga/click/2=
+-6100438-9-402-778-3672-ca3cb6c6e9-69e076690c" target=3D"_blank" style=3D"c=
+olor:#010101; text-decoration:none;" title=3D"Appels illimit&eacute;s"><fon=
+t style=3D"color:#010101; font-size:16px;">Appels illimit&eacute;s</font>
+															</a>
+														</td>
+													</tr>
+													<tr>
+														<td align=3D"center" height=3D"15" bgcolor=3D"#FFFFFF"></td>
+													</tr>
+													<tr>
+														<td bgcolor=3D"#FFFFFF" align=3D"center"><a class=3D"black" h=
+ref=3D"http://fr-primeira.com/ga/click/2-6100438-9-402-778-3673-52188be66d-=
+69e076690c" target=3D"_blank" style=3D"color:#010101; text-decoration:none;=
+" title=3D"SMS / MMS illimit&eacute;s"><font style=3D"color:#010101; font-s=
+ize:16px;">SMS / MMS illimit&eacute;s</font></a></td>
+													</tr>
+													<tr>
+														<td bgcolor=3D"#FFFFFF" align=3D"center" height=3D"70"></td>
+													</tr>
+												</table>
+											</td>
+										</tr>
+										<tr>
+											<td align=3D"center" height=3D"60" bgcolor=3D"#FFFFFF">
+												<a class=3D"black" href=3D"http://fr-primeira.com/ga/click/2-61=
+00438-9-402-778-3674-5269ba1352-69e076690c" target=3D"_blank" style=3D"colo=
+r:#010101; text-decoration:none;" title=3D"16&euro;99/mois">
+												<font style=3D"font-size:50px; line-height:50px;"><b>16<sup><fo=
+nt style=3D"font-size:26px; line-height:30px;">,99&euro;</font></sup></b></=
+font><font style=3D"font-size:18px;">/MOIS</font>
+												</a>
+											</td>
+										</tr>
+										<tr>
+											<td align=3D"center" bgcolor=3D"#FFFFFF">
+												<a class=3D"black" href=3D"http://fr-primeira.com/ga/click/2-61=
+00438-9-402-778-3675-5dba3249a8-69e076690c" target=3D"_blank" style=3D"colo=
+r:#010101; font-size:10px; text-decoration:none;" title=3D"Pendant 6 mois p=
+uis 19,99&euro;/mois">
+												<font style=3D"font-size:10px; color:#010101; line-height:12px;=
+">pendant 6 mois<br/> puis 19,99&euro;/mois</font>
+												</a>
+											</td>
+										</tr>
+										<tr>
+											<td align=3D"center" height=3D"10" bgcolor=3D"#FFFFFF"></td>
+										</tr>
+										<tr>
+											<td align=3D"center" height=3D"30" bgcolor=3D"#FFFFFF">
+												<table width=3D"138" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0" style=3D"font-size:14px; font-family:Arial; text-align:center;">
+													<tr>
+														<td class=3D"bradius" bgcolor=3D"#d90019" style=3D"background=
+:#d90019; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radiu=
+s: 5px;" height=3D"33" align=3D"center">
+															<a class=3D"white" href=3D"http://fr-primeira.com/ga/click/2=
+-6100438-9-402-778-3676-eee54854bd-69e076690c" style=3D"color:#FEFEFE; font=
+-size:14px; line-height:33px; text-decoration:none;" target=3D"_blank" titl=
+e=3D"JE FONCE">
+																<b>JE FONCE</b>
+															</a>
+														</td>
+													</tr>
+												</table>=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09
+											</td>
+										</tr>
+										<tr>
+											<td align=3D"center" height=3D"20" bgcolor=3D"#FFFFFF"></td>
+										</tr>
+									</table>
+
+									<table class=3D"td10" border=3D"0" width=3D"6%" cellpadding=3D"0" =
+cellspacing=3D"0" style=3D"font-size:13px; color:#010101; font-family:Arial=
+; text-align:left;" align=3D"left">
+										<tr>
+											<td width=3D"100%">&nbsp;</td>
+										</tr>
+									</table>
+
+									<table class=3D"td45" border=3D"0" width=3D"46%" cellpadding=3D"0"=
+ cellspacing=3D"0" style=3D"font-size:13px; color:#010101; font-family:Aria=
+l; text-align:left;" align=3D"left">
+										<tr>
+											<td bgcolor=3D"#FFFFFF">
+												<table width=3D"95%" border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" style=3D"font-size:13px; color:#010101; font-family:Arial; text-alig=
+n:left;" align=3D"right">
+													<tr>
+														<td align=3D"center" height=3D"30" bgcolor=3D"#FFFFFF"></td>
+													</tr>
+													<tr>
+														<td align=3D"left" bgcolor=3D"#FFFFFF" class=3D"tdcenter">
+															<a class=3D"red" href=3D"http://fr-primeira.com/ga/click/2-6=
+100438-9-402-778-3677-328b8a051d-69e076690c" target=3D"_blank" style=3D"col=
+or:#d90019; font-size:26px; text-decoration:none;" title=3D"10Go d'internet=
+ en 4g">
+																<font style=3D"color:#010101;"><del><b>5Go</b></del></font>
+																<font style=3D"font-size:85px; line-height:75px;"><b>10</b>=
+</font>
+																<b>Go</b>
+															</a>
+														</td>
+													</tr>
+													<tr>
+														<td align=3D"center" bgcolor=3D"#FFFFFF">
+															<a class=3D"red" href=3D"http://fr-primeira.com/ga/click/2-6=
+100438-9-402-778-3678-6aeb3013db-69e076690c" target=3D"_blank" style=3D"col=
+or:#d90019; font-size:18px; text-decoration:none;" title=3D"d'internet en 4=
+G">
+																d'internet en 4G
+															</a>
+														</td>
+													</tr>
+													<tr>
+														<td align=3D"center" height=3D"15" bgcolor=3D"#FFFFFF"></td>
+													</tr>
+													<tr>
+														<td align=3D"center" bgcolor=3D"#FFFFFF">
+															<a class=3D"black" href=3D"http://fr-primeira.com/ga/click/2=
+-6100438-9-402-778-3679-06ecbd8cf2-69e076690c" target=3D"_blank" style=3D"c=
+olor:#010101; text-decoration:none;" title=3D"Appels illimit&eacute;s"><fon=
+t style=3D"color:#010101; font-size:16px;">Appels illimit&eacute;s</font>
+															</a>
+														</td>
+													</tr>
+													<tr>
+														<td align=3D"center" height=3D"15" bgcolor=3D"#FFFFFF"></td>
+													</tr>
+													<tr>
+														<td bgcolor=3D"#FFFFFF" align=3D"center"><a class=3D"black" h=
+ref=3D"http://fr-primeira.com/ga/click/2-6100438-9-402-778-3680-99de31e27d-=
+69e076690c" target=3D"_blank" style=3D"color:#010101; text-decoration:none;=
+" title=3D"SMS / MMS illimit&eacute;s"><font style=3D"color:#010101; font-s=
+ize:16px;">SMS / MMS illimit&eacute;s</font></a></td>
+													</tr>
+													<tr>
+														<td align=3D"center" height=3D"15" bgcolor=3D"#FFFFFF"></td>
+													</tr>
+													<tr>
+														<td bgcolor=3D"#FFFFFF" align=3D"center" height=3D"40">
+															<a class=3D"black" href=3D"http://fr-primeira.com/ga/click/2=
+-6100438-9-402-778-3681-4dce90d51b-69e076690c" target=3D"_blank" style=3D"c=
+olor:#010101; text-decoration:none;" title=3D"+5Go/an d'internet en Europe =
+et dans les DOM">
+																<font style=3D"color:#d90019; font-size:12px;">+</font>=20
+																<font style=3D"color:#010101; font-size:12px;">5Go/an d'int=
+ernet en Europe<br/> et dans les DOM</font>=20
+															</a>
+														</td>
+													</tr>
+													<tr>
+														<td align=3D"center" height=3D"15" bgcolor=3D"#FFFFFF"></td>
+													</tr>
+												</table>
+											</td>
+										</tr>
+										<tr>
+											<td align=3D"center" height=3D"60" bgcolor=3D"#FFFFFF">
+												<a class=3D"black" href=3D"http://fr-primeira.com/ga/click/2-61=
+00438-9-402-778-3682-39a3e92af6-69e076690c" target=3D"_blank" style=3D"colo=
+r:#010101; text-decoration:none;" title=3D"22&euro;99/mois">
+												<font style=3D"font-size:50px; line-height:50px;"><b>22<sup><fo=
+nt style=3D"font-size:26px; line-height:30px;">,99&euro;</font></sup></b></=
+font><font style=3D"font-size:18px;">/MOIS</font>
+												</a>
+											</td>
+										</tr>
+										<tr>
+											<td align=3D"center" bgcolor=3D"#FFFFFF">
+												<a class=3D"black" href=3D"http://fr-primeira.com/ga/click/2-61=
+00438-9-402-778-3683-b15d071745-69e076690c" target=3D"_blank" style=3D"colo=
+r:#010101; font-size:10px; text-decoration:none;" title=3D"Pendant 6 mois p=
+uis 25,99&euro;/mois">
+												<font style=3D"font-size:10px; color:#010101; line-height:12px;=
+">pendant 6 mois<br/> puis 25,99&euro;/mois</font>
+												</a>
+											</td>
+										</tr>
+										<tr>
+											<td align=3D"center" height=3D"10" bgcolor=3D"#FFFFFF"></td>
+										</tr>
+										<tr>
+											<td align=3D"center" height=3D"30" bgcolor=3D"#FFFFFF">
+												<table width=3D"138" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0" style=3D"font-size:14px; font-family:Arial; text-align:center;">
+													<tr>
+														<td class=3D"bradius" bgcolor=3D"#d90019" style=3D"background=
+:#d90019; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radiu=
+s: 5px;" height=3D"33" align=3D"center">
+															<a class=3D"white" href=3D"http://fr-primeira.com/ga/click/2=
+-6100438-9-402-778-3684-8346488ad7-69e076690c" style=3D"color:#FEFEFE; font=
+-size:14px; line-height:33px; text-decoration:none;" target=3D"_blank" titl=
+e=3D"JE FONCE">
+																<b>JE FONCE</b>
+															</a>
+														</td>
+													</tr>
+												</table>=09=09=09=09=09=09=09=09=09=09=09=09
+											</td>
+										</tr>
+										<tr>
+											<td align=3D"center" height=3D"20" bgcolor=3D"#FFFFFF"></td>
+										</tr>
+									</table>
+								</td>
+							</tr>
+							<tr>
+								<td class=3D"h20" height=3D"26"></td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+				<tr>
+					<td width=3D"100%" bgcolor=3D"#606262" align=3D"center">
+						<table width=3D"96%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ style=3D"font-size:13px; color:#010101; font-family:Arial; text-align:left=
+;" align=3D"center">
+							<tr>
+								<td width=3D"2%" bgcolor=3D"#606262"></td>
+								<td width=3D"95%" bgcolor=3D"#606262" height=3D"40">
+									<font style=3D"font-size:14px; color:#FEFEFE;"><b>LES PLUS DE RED =
+BY SFR</b></font>
+								</td>
+								<td width=3D"2%" bgcolor=3D"#606262"></td>
+							</tr>
+							<tr>
+								<td colspan=3D"3" bgcolor=3D"#606262" height=3D"60" valign=3D"top" =
+align=3D"center">
+									<table class=3D"table33" width=3D"190" border=3D"0" cellpadding=3D=
+"0" cellspacing=3D"0" style=3D"font-size:11px; color:#010101; font-family:A=
+rial; text-align:left;" align=3D"left">
+										<tr>
+											<td class=3D"table33s" valign=3D"top" width=3D"83" height=3D"76"=
+ align=3D"center">
+												<a href=3D"http://fr-primeira.com/ga/click/2-6100438-9-402-778-=
+3685-e9b2102ebd-69e076690c" target=3D"_blank" style=3D"color:#FEFEFE; text-=
+decoration:none;" title=3D"Des r&eacute;ductions tous les mois en regroupan=
+t vos offres mobile et internet."><img style=3D"display:block; border:0;" s=
+rc=3D"http://i.boldathir.com/content/sfr20151001/reduc.png" alt=3D"R&eacute=
+;ductions" /></a>
+											</td>
+											<td>
+												<a href=3D"http://fr-primeira.com/ga/click/2-6100438-9-402-778-=
+3686-f383c5d8f1-69e076690c" target=3D"_blank" style=3D"color:#FEFEFE; text-=
+decoration:none;" title=3D"Des r&eacute;ductions tous les mois en regroupan=
+t vos offres mobile et internet."><font style=3D"font-size:11px; color:#FEF=
+EFE;">Des r&eacute;ductions tous les mois en regroupant vos offres mobile e=
+t internet.</font></a>
+											</td>
+										</tr>
+										<tr>
+											<td colspan=3D"2" height=3D"1" class=3D"tdspacer"></td>
+										</tr>
+									</table>
+									<table class=3D"table33" width=3D"160" border=3D"0" cellpadding=3D=
+"0" cellspacing=3D"0" style=3D"font-size:13px; color:#010101; font-family:A=
+rial; text-align:left;" align=3D"left">
+										<tr>
+											<td class=3D"table33s" valign=3D"top" width=3D"73" height=3D"76"=
+ align=3D"center">
+												<a href=3D"http://fr-primeira.com/ga/click/2-6100438-9-402-778-=
+3687-01d9a3bfbb-69e076690c" target=3D"_blank" style=3D"color:#FEFEFE; text-=
+decoration:none;" title=3D"Parrainage 100% digital 1 ami =3D 1 mois de forf=
+ait"><img style=3D"display:block; border:0;" src=3D"http://i.boldathir.com/=
+content/sfr20151001/parrainage.png" alt=3D"Parrainage" /></a>
+											</td>
+											<td>
+												<a href=3D"http://fr-primeira.com/ga/click/2-6100438-9-402-778-=
+3688-f65f5c5106-69e076690c" target=3D"_blank" style=3D"color:#FEFEFE; text-=
+decoration:none;" title=3D"Parrainage 100% digital 1 ami =3D 1 mois de forf=
+ait"><font style=3D"font-size:11px; color:#FEFEFE;"><b>Parrainage<br/> 100%=
+ digital</b><br/> 1 ami =3D<br/> 1 mois de forfait</font></a>
+											</td>
+										</tr>
+										<tr>
+											<td colspan=3D"2" height=3D"1" class=3D"tdspacer"></td>
+										</tr>
+									</table>
+									<table class=3D"table33" width=3D"220" border=3D"0" cellpadding=3D=
+"0" cellspacing=3D"0" style=3D"font-size:13px; color:#010101; font-family:A=
+rial; text-align:left;" align=3D"left">
+										<tr>
+											<td class=3D"table33s" valign=3D"top" width=3D"93" height=3D"76"=
+ align=3D"center">
+												<a href=3D"http://fr-primeira.com/ga/click/2-6100438-9-402-778-=
+3689-475ef5fbee-69e076690c" target=3D"_blank" style=3D"color:#FEFEFE; text-=
+decoration:none;" title=3D"Bons plans RED by SFR Ne passez pas &agrave; c&o=
+circ;t&eacute; !"><img style=3D"display:block; border:0;" src=3D"http://i.b=
+oldathir.com/content/sfr20151001/bonplan.png" alt=3D"Bons plans" /></a>
+											</td>
+											<td>
+												<a href=3D"http://fr-primeira.com/ga/click/2-6100438-9-402-778-=
+3690-eaf7b646d4-69e076690c" target=3D"_blank" style=3D"color:#FEFEFE; text-=
+decoration:none;" title=3D"Bons plans RED by SFR Ne passez pas &agrave; c&o=
+circ;t&eacute; !"><font style=3D"font-size:11px; color:#FEFEFE;"><b>Bons pl=
+ans<br/> RED by SFR</b><br/> Ne passez pas &agrave; c&ocirc;t&eacute; !</fo=
+nt></a>
+											</td>
+										</tr>
+									</table>
+								</td>
+							</tr>
+							<tr>
+								<td width=3D"100%" colspan=3D"3" height=3D"1" bgcolor=3D"#FEFEFE"><=
+/td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+				<tr>
+					<td width=3D"100%" bgcolor=3D"#606262" align=3D"center">
+						<table width=3D"96%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ style=3D"font-size:13px; color:#010101; font-family:Arial; text-align:left=
+;" align=3D"center">
+							<tr>
+								<td width=3D"100%" colspan=3D"3" height=3D"20" bgcolor=3D"#606262">=
+</td>
+							</tr>
+							<tr>
+								<td width=3D"2%" bgcolor=3D"#606262"></td>
+								<td width=3D"95%" bgcolor=3D"#606262" height=3D"40" style=3D"text-a=
+lign:justify;">
+									<font style=3D"font-size:9px; line-height:12px; color:#FEFEFE;">
+=09=09=09=09=09=09=09=09=09=09
+
+										<u>Appels ILLIMITES :</u> 3 heures maximum par appel, puis appel =
+m&eacute;tropolitain factur&eacute; au-del&agrave; du forfait &agrave; 0,38=
+&euro;/min. Voir tarification des appels au-del&agrave; vers les destinatio=
+ns internationales dans les documents tarifaires. Appels illimit&eacute;s v=
+ers les mobiles m&eacute;tropolitains et d&rsquo;Am&eacute;rique du Nord (h=
+ors Alaska, Hawa&iuml;, Porto Rico et Iles Vierges Am&eacute;ricaines) et d=
+es DOM (hors Mayotte) et appels illimit&eacute;s depuis la France vers les =
+fixes de France m&eacute;tropolitaine et de 52 destinations (voir liste des=
+ destinations sur la fiche d&rsquo;information standardis&eacute;e), hors n=
+um&eacute;ros sp&eacute;ciaux, services et appels depuis bo&icirc;tiers rad=
+io. Limit&eacute;s &agrave; 200 destinataires diff&eacute;rents par mois.<b=
+r/>
+
+										<u>SMS/MMS ILLIMITES :</u> Limit&eacute;s &agrave; 200 destinatai=
+res diff&eacute;rents par mois. SMS/MMS illimit&eacute;s m&eacute;tropolita=
+ins non surtax&eacute;s, hors Texto /MMS Chat et Chat Wap.<br/><br/>
+
+										<u>Bonus suppl&eacute;mentaire de 3Go/mois :</u> bonus valable po=
+ur toute nouvelle souscription &agrave; une offre RED 3Go ou depuis une off=
+re La Carte, &nbsp;RED 2H + SMS ou RED 24H/24, entre le 06/10/15 &agrave; 9=
+H au 26/10/15 &agrave; 8h59 sur redbysfr.fr. &nbsp;Usage en France m&eacute=
+;tropolitaine selon les conditions du forfait. Perte du bonus en cas de cha=
+ngement d&rsquo;offre.<br/><br/>
+=09=09=09=09=09=09=09=09=09=09
+										<u>Bonus suppl&eacute;mentaire de 5Go/mois :</u> bonus valable po=
+ur toute nouvelle souscription &agrave; une offre RED 5Go ou changement d&r=
+squo;offre vers un RED 3Go depuis une offre La Carte, &nbsp;RED 2H + SMS ou=
+ RED 24H/24, entre le 06/10/15 &agrave; 9H au 26/10/15 &agrave; 8h59 sur re=
+dbysfr.fr. Usage en France m&eacute;tropolitaine selon les conditions du fo=
+rfait. Perte du bonus en cas de changement d&rsquo;offre.<br/><br/>
+
+										<u>Remise Nouveau client RED :</u> Offre soumise &agrave; conditi=
+ons, valable du 06/10/15 au 16/11/15 et r&eacute;serv&eacute;e &agrave; tou=
+t nouvel abonn&eacute; RED by SFR, pr&eacute;c&eacute;demment client d&rsqu=
+o;un autre op&eacute;rateur mobile et demandant la portabilit&eacute; de so=
+n num&eacute;ro. Remise de -3&euro;/mois pendant 6 mois pour toute nouvelle=
+ souscription d&rsquo;un forfait RED 3Go ou RED 5Go sur redbysfr.fr. Perte =
+du b&eacute;n&eacute;fice de la remise en cas de changement d&rsquo;offre a=
+u cours des 6 mois. &nbsp;Au terme des 6 mois de remise, le client sera fac=
+tur&eacute; au tarif mensuel en vigueur<br/><br/>
+
+=09=09=09=09=09=09=09=09=09=09
+
+
+									</font>
+								</td>
+								<td width=3D"2%" bgcolor=3D"#606262"></td>
+							</tr>
+							<tr>
+								<td width=3D"100%" colspan=3D"3" height=3D"20" bgcolor=3D"#606262">=
+</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+<img src=3D"http://o.boldathir.com/56-214-1238-2473-20649/uniqueId" width=
+=3D"1" height=3D"1" />
+<p style=3D"text-align: center;"><a href=3D"http://fr-primeira.com/ga/unsub=
+scribe/2-6100438-9-402-778-994b3aef9eb3dca-69e076690c">Je souhaite me d&#23=
+3;sinscrire</a></p>
+<IMG HEIGHT=3D1 WIDTH=3D1 SRC=3D'http://asset.email-match.com/1192/asset?ty=
+pe=3DIMG&optin=3D1&b_optin=3D1&email=3Dresp-m2-miage@univ-rennes1.fr'>
+<img src=3D"http://fr-primeira.com/ga/open/2-6100438-9-402-778-69e076690c" =
+height=3D"2" width=3D"3" alt=3D""></body>
+</html>=
+
+--==787b0d262e5f3adfbc6e9f2165a397f8--

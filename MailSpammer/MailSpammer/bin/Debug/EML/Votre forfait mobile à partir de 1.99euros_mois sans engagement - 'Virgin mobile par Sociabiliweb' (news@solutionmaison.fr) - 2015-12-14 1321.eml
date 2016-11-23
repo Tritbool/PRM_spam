@@ -1,0 +1,601 @@
+Return-Path: <return-a18-2486-2487-resp-m2-miage=univ-rennes1.fr=4@solutionmaison.fr>
+Received: from mailimailo.univ-rennes1.fr ([unix socket])
+	 by mailimailo.univ-rennes1.fr (Cyrus v2.3.16-Fedora-RPM-2.3.16-6.el6_2.5) with LMTPA;
+	 Mon, 14 Dec 2015 13:21:04 +0100
+X-Sieve: CMU Sieve 2.3
+Received: from mailout1.univ-rennes1.fr (mailout1.univ-rennes1.fr [129.20.128.162])
+	by mailimailo.univ-rennes1.fr (Postfix) with ESMTP id 3B04926A0740
+	for <resp-m2-miage@univ-rennes1.fr>; Mon, 14 Dec 2015 13:21:04 +0100 (CET)
+Received: from localhost (vmscanmail.univ-rennes1.fr [129.20.128.134])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id 374E860171
+	for <resp-m2-miage@univ-rennes1.fr>; Mon, 14 Dec 2015 13:21:04 +0100 (CET)
+X-Virus-Scanned: amavisd-new at univ-rennes1.fr
+Received: from mailout1.univ-rennes1.fr ([129.20.128.162])
+	by localhost (vmscanmail.univ-rennes1.frm [129.20.128.134]) (amavisd-new, port 10026)
+	with ESMTP id oPj-hV1GUo33 for <resp-m2-miage@univ-rennes1.fr>;
+	Mon, 14 Dec 2015 13:21:04 +0100 (CET)
+Received: from vmmailin.univ-rennes1.fr (vmmailin.univ-rennes1.fr [129.20.128.133])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id 13CEE6003E
+	for <resp-m2-miage@univ-rennes1.fr>; Mon, 14 Dec 2015 13:21:04 +0100 (CET)
+Received: from mxb2-2.relay.renater.fr (mxb2-2.relay.renater.fr [194.214.200.9])
+	by vmmailin.univ-rennes1.fr (Postfix) with ESMTP id 0B11320033
+	for <resp-m2-miage@univ-rennes1.fr>; Mon, 14 Dec 2015 13:21:04 +0100 (CET)
+Received: from smtp1-25.revue-en-ligne.com (smtp1-25.revue-en-ligne.com [5.196.212.72])
+	by mxb2-2.relay.renater.fr (asm) with SMTP id D915C60048A
+	for <resp-m2-miage@univ-rennes1.fr>; Mon, 14 Dec 2015 13:21:03 +0100 (CET)
+Received: (GreenArrow 15320 invoked by uid 410); 14 Dec 2015 12:21:03 -0000
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed;
+	d=solutionmaison.fr; s=default; h=Subject:From:To:Date:
+	List-Unsubscribe:Message-ID:MIME-Version:Content-Type; bh=XiNLro
+	18GCzCcjQ9p0PXkiBBYsg=; b=T4dcU2wGBVKb4qYogRFz5oNkxspkdyrcIOfdKQ
+	QZti+zST6JdSxVgGfqcivWdIhS23MTDV1t40Z3PqP4GShYJGY5n5S4Pu8dWnVnE8
+	hoed1FqRvjboYzxMJAYInMgwFfkp9P83LkMOwXW0U7LKoOeWeq8yUKAZrps+zXYy
+	eSJBw=
+Subject: =?UTF-8?Q?Votre=20forfait=20mobile=20=C3=A0=20partir=20de=20?=
+ =?UTF-8?Q?1=2E99euros=2Fmois=20sans=20engagement?=
+From: "Virgin mobile par Sociabiliweb" <news@solutionmaison.fr>
+To: resp-m2-miage@univ-rennes1.fr
+Date: 14 Dec 2015 12:21:03 -0000
+List-Unsubscribe: <http://solutionmaison.fr/ga/unsubscribe/2-11527895-18-1295-2487-ed35df89ef15825-8357046357>,
+ <mailto:return-a18-2486-2487-resp-m2-miage=univ-rennes1.fr=4u@solutionmaison.fr>
+X-Mailer: GreenArrow Studio (v4.65.0)
+X-CampaignID: s4:2486-c2f550a0c7b9b6b6
+Message-ID: <mid-b336926168e0b54ce05309ececacd11e@solutionmaison.fr>
+X-Mailer-Info: 4.hFDO.gM0gjN.IXZzBXLtJTLtlWYnVGQ15Wa21icl5mblNXMuYmc.gM0gzN
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="==de742c033b01cf2f43c1ae72aeb0b676"
+X-UCE-Status: YES
+X-UCE-Type: MCE
+X-Original-Source-IP: 5.196.212.72
+X-Bizanga: IMP - mxb2-2.relay.renater.fr
+X-Renater-SpamState: 11
+X-Renater-SpamScore: 17
+X-Renater-SpamCause: gggruggvucftvghtrhhoucdtuddrfeekiedrvdehgdegudcutefuodetggdotefrodftvfcurfhrohhfihhlvgemucftgffptefvgfftpdggtfgfnhhsuhgsshgtrhhisggvnecuuegrihhlohhuthemuceftddtnecundfotefknffkpffiucdludejmdenucfjughrpefuhffvfffjoffkgggtsegrtderreertdejnecuhfhrohhmpedfgghirhhgihhnuchmohgsihhlvgcuphgrrhcuufhotghirggsihhlihifvggsfdcuoehnvgifshesshholhhuthhiohhnmhgrihhsohhnrdhfrheqnecuffhomhgrihhnpehsohhluhhtihhonhhmrghishhonhdrfhhrnecurfgrrhgrmhepmhhouggvpehsmhhtphdphhgvlhhopehsmhhtphduqddvhedrrhgvvhhuvgdqvghnqdhlihhgnhgvrdgtohhmpdhinhgvthephedrudeliedrvdduvddrjedvpdhmrghilhhfrhhomheprhgvthhurhhnqdgrudekqddvgeekiedqvdegkeejqdhrvghsphdqmhdvqdhmihgrghgvpehunhhivhdqrhgvnhhnvghsuddrfhhrpeegsehsohhluhhtihhonhhmrghishhonhdrfhhrpdhrtghpthhtoheprhgvshhpqdhmvddqmhhirghgvgesuhhnihhvqdhrvghnnhgvshdurdhfrh 
+X-Renater-ServerName: mxb2-2.relay.renater.fr
+
+This is a multi-part message in MIME format.
+
+--==de742c033b01cf2f43c1ae72aeb0b676
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Virgin Mobile ( http://solutionmaison.fr/ga/click/2-11527895-18-1295-2487-1=
+7800-4d1e3b0063-8357046357 )
+
+( http://solutionmaison.fr/ga/click/2-11527895-18-1295-2487-17801-f6569b991=
+b-8357046357 )
+
+JUSQU'AU 21 D=C3=89CEMBRE ( http://solutionmaison.fr/ga/click/2-11527895-18=
+-1295-2487-17802-fb1bbe7e06-8357046357 )
+
+NOS FORFAITS
+
+=C3=80 PRIX CADEAUX ! ( http://solutionmaison.fr/ga/click/2-11527895-18-129=
+5-2487-17803-8afd5896cb-8357046357 )
+
+=C3=80 PARTIR DE ( http://solutionmaison.fr/ga/click/2-11527895-18-1295-248=
+7-17804-9a57669459-8357046357 )
+
+1=E2=82=AC ( http://solutionmaison.fr/ga/click/2-11527895-18-1295-2487-1780=
+5-7b7c56a7fd-8357046357 )
+99*
+
+/mois ( http://solutionmaison.fr/ga/click/2-11527895-18-1295-2487-17806-39a=
+ff3fbd5-8357046357 )
+
+JE D=C3=89COUVRE ( http://solutionmaison.fr/ga/click/2-11527895-18-1295-248=
+7-17807-ac2255d8be-8357046357 )
+
+1=E2=82=AC ( http://solutionmaison.fr/ga/click/2-11527895-18-1295-2487-1780=
+8-295adaa609-8357046357 )
+99*
+
+/mois ( http://solutionmaison.fr/ga/click/2-11527895-18-1295-2487-17809-ef0=
+720a8e1-8357046357 )
+
+AU LIEU DE 7,99=E2=82=AC /MOIS ( http://solutionmaison.fr/ga/click/2-115278=
+95-18-1295-2487-17810-982f3210b0-8357046357 )
+
+3H D'APPELS
+
+SMS/MMS ILLIMIT=C3=89S
+
+INTERNET 200 Mo 4G ( http://solutionmaison.fr/ga/click/2-11527895-18-1295-2=
+487-17811-d2c883ded4-8357046357 )
+
+PENDANT 12 MOIS SANS ENGAGEMENT ( http://solutionmaison.fr/ga/click/2-11527=
+895-18-1295-2487-17812-1ebc2b93c8-8357046357 )
+
+JE LE VEUX ( http://solutionmaison.fr/ga/click/2-11527895-18-1295-2487-1781=
+3-77380f8858-8357046357 )
+
+9=E2=82=AC ( http://solutionmaison.fr/ga/click/2-11527895-18-1295-2487-1781=
+4-a81415e320-8357046357 )
+99*
+
+/mois ( http://solutionmaison.fr/ga/click/2-11527895-18-1295-2487-17815-383=
+20298d6-8357046357 )
+
+AU LIEU DE 24,99=E2=82=AC /MOIS ( http://solutionmaison.fr/ga/click/2-11527=
+895-18-1295-2487-17816-17c30f7d70-8357046357 )
+
+3H D'APPELS
+
+SMS/MMS ILLIMIT=C3=89S
+
+INTERNET 6 Go 4G ( http://solutionmaison.fr/ga/click/2-11527895-18-1295-248=
+7-17817-1333cacb00-8357046357 )
+
+PENDANT 12 MOIS SANS ENGAGEMENT ( http://solutionmaison.fr/ga/click/2-11527=
+895-18-1295-2487-17818-77dda15593-8357046357 )
+
+JE LE VEUX ( http://solutionmaison.fr/ga/click/2-11527895-18-1295-2487-1781=
+9-5ccd282559-8357046357 )
+
+* Pour conna=C3=AEtre le d=C3=A9tail et les conditions des offres
+pr=C3=A9sent=C3=A9es dans la pr=C3=A9sente Newsletter. Suivez ce lien ( htt=
+p://solutionmaison.fr/ga/click/2-11527895-18-1295-2487-17820-e33b8e5aa1-835=
+7046357 )=
+
+--==de742c033b01cf2f43c1ae72aeb0b676
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.=
+w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml">
+<head>
+	<title></title>
+	<meta content=3D"text/html; charset=3Dutf-8" http-equiv=3D"Content-Type" />
+	<meta content=3D"width=3Ddevice-width, user-scalable=3Dno, initial-scale=
+=3D1.0, minimum-scale=3D1.0, maximum-scale=3D1.0" name=3D"viewport" />
+	<style type=3D"text/css">table, td {
+		border-collapse: collapse;
+		mso-table-lspace:0pt;=20
+		mso-table-rspace:0pt;
+	}
+	.ReadMsgBody {width: 100%;}
+	.ExternalClass {width: 100%;}
+	.ExternalClass * {line-height: 110% !important}
+	body {-webkit-text-size-adjust: none; -ms-text-size-adjust: 100%;}
+	a.white:link{ color:#FFFFFF !important;}
+	a.white:visited{ color:#FFFFFF !important;}
+	a.black:link{ color:#010101 !important;}
+	a.black:visited{ color:#010101 !important;}
+	a.purple:link{ color:#d21a54 !important;}
+	a.purple:visited{ color:#d21a54 !important;}
+	a.grey:link{ color:#515151 !important;}
+	a.grey:visited{ color:#515151 !important;}
+	a.gris:link{ color:#292929 !important;}
+	a.gris:visited{ color:#292929 !important;}
+
+
+	@media only screen and (max-width: 640px) {
+		table[class=3D"table100"] {
+			width:98% !important;
+			min-width: 370px !important;
+			border:0!important;
+			margin:0!important;
+		}
+		table[class=3D"table100a"] {
+			width:100% !important;
+			border:0!important;
+			margin:0!important;
+		}
+		td[class=3D"logo"] {
+			height: 100px !important;
+			background-color:#932bae !important;
+		}
+		td[class=3D"nobg"] {
+			background-image:none !important;
+		}
+		td[class=3D"tdcenter"] {
+			text-align: center !important;
+		}
+		td[class=3D"tdcenter"] {
+			text-align: center !important;
+		}
+		td[class=3D"tdcenterpatch"] {
+			width: 33% !important;
+		}
+		td[class=3D"menu"] a {
+			font-size:9px !important;
+		}
+		td[class=3D"h20"] {
+			height:20px !important;
+		}
+		td[class=3D"h10"] {
+			height:20px !important;
+		}
+		td[class=3D"text"] a {
+			font-size: 15px !important;
+			line-height: 30px !important;
+		}
+		img[class=3D"img100"] {
+			width:100% !important;
+		}
+	}
+	</style>
+</head>
+<body bgcolor=3D"#FFFFFF" style=3D"height: auto; padding:0; margivalin:0; -=
+webkit-text-size-adjust:none; -ms-text-size-adjust: 100%;">
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"font-size:=
+12px; color:#010101; font-family:Verdana;" width=3D"100%">
+	<tbody>
+		<tr>
+			<td align=3D"center">
+			<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"table10=
+0" style=3D"font-size:12px; color:#010101; font-family:Verdana; text-align:=
+left;" width=3D"640">
+				<tbody>
+					<tr>
+						<td bgcolor=3D"#FFFFFF" valign=3D"top" width=3D"100%">
+						<table align=3D"left" border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" class=3D"table100" style=3D"font-size:12px; color:#010101; font-family:Ve=
+rdana; text-align:left;" width=3D"640">
+							<tbody>
+								<tr>
+									<td align=3D"left" bgcolor=3D"#f9f9f9" class=3D"tdcenter" valign=
+=3D"top"><a href=3D"http://solutionmaison.fr/ga/click/2-11527895-18-1295-24=
+87-17821-51efa67c58-8357046357" target=3D"_blank"><img alt=3D"Virgin Mobile=
+" src=3D"http://i.stupremesw.com/content/virgin20151210/logo.jpg" style=3D"=
+border:0;" /> </a></td>
+								</tr>
+								<tr>
+									<td align=3D"left" bgcolor=3D"#f9f9f9" valign=3D"middle">
+									<table align=3D"right" border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" class=3D"table100a" style=3D"font-size:12px; color:#010101; font-fam=
+ily:Verdana; text-align:left;" width=3D"60%">
+										<tbody>
+											<tr>
+												<td align=3D"center"><a class=3D"gris" href=3D"http://solutionm=
+aison.fr/ga/click/2-11527895-18-1295-2487-17822-4927da014b-8357046357" styl=
+e=3D"text-decoration:none; color:#FEFEFE; font-size:15px;" target=3D"_blank=
+" title=3D"Virgin mobile"><img class=3D"img100" src=3D"http://i.stupremesw.=
+com/content/virgin20151210/xmas.jpg" style=3D"display:block; border:0;" /> =
+</a></td>
+											</tr>
+											<tr>
+												<td class=3D"h20" height=3D"1"></td>
+											</tr>
+										</tbody>
+									</table>
+
+									<table align=3D"right" border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" class=3D"table100a" style=3D"font-size:12px; color:#010101; font-fam=
+ily:Verdana; text-align:left;" width=3D"35%">
+										<tbody>
+											<tr>
+												<td class=3D"h20" height=3D"48"></td>
+											</tr>
+											<tr>
+												<td align=3D"left" height=3D"30" valign=3D"bottom">
+												<table align=3D"left" border=3D"0" cellpadding=3D"0" cellspacin=
+g=3D"0" style=3D"font-size:12px; color:#010101; font-family:Verdana; text-a=
+lign:left;" width=3D"100%">
+													<tbody>
+														<tr>
+															<td align=3D"left" class=3D"tdcenter" height=3D"30" valign=
+=3D"top"><a class=3D"purple" href=3D"http://solutionmaison.fr/ga/click/2-11=
+527895-18-1295-2487-17823-f3e224baaf-8357046357" style=3D"text-decoration:n=
+one; color:#d21a54; font-size:12px;" target=3D"_blank" title=3D"JUSQU'AU 21=
+ D=C3=89CEMBRE"><b>JUSQU&#39;AU 21 D&Eacute;CEMBRE</b> </a></td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+											<tr>
+												<td align=3D"left" class=3D"tdcenter" valign=3D"top"><a class=
+=3D"purple" href=3D"http://solutionmaison.fr/ga/click/2-11527895-18-1295-24=
+87-17824-ebe510b0f2-8357046357" style=3D"text-decoration:none; color:#d21a5=
+4; font-size:22px; line-height:29px;" target=3D"_blank" title=3D"NOS FORFAI=
+TS =C3=80 PRIX CADEAUX !">NOS FORFAITS<br />
+												&Agrave; PRIX CADEAUX ! </a></td>
+											</tr>
+											<tr>
+												<td class=3D"h20" height=3D"20"></td>
+											</tr>
+											<tr>
+												<td class=3D"tdcenter"><a class=3D"purple" href=3D"http://solut=
+ionmaison.fr/ga/click/2-11527895-18-1295-2487-17825-974784e755-8357046357" =
+style=3D"text-decoration:none; color:#d21a54; font-size:14px;" target=3D"_b=
+lank" title=3D"=C3=80 PARTIR DE">&Agrave; PARTIR DE </a></td>
+											</tr>
+											<tr>
+												<td class=3D"tdcenter" valign=3D"top">
+												<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=
+=3D"font-family:Verdana;">
+													<tbody>
+														<tr>
+															<td class=3D"tdcenterpatch" width=3D"1"></td>
+															<td valign=3D"top"><a class=3D"purple" href=3D"http://soluti=
+onmaison.fr/ga/click/2-11527895-18-1295-2487-17826-a3555dd72d-8357046357" s=
+tyle=3D"text-decoration:none; color:#d21a54; font-size:70px; line-height:80=
+px;" target=3D"_blank" title=3D"1"><b>1&euro;</b> </a></td>
+															<td valign=3D"top"><a class=3D"purple" href=3D"http://soluti=
+onmaison.fr/ga/click/2-11527895-18-1295-2487-17827-ea4653bf20-8357046357" s=
+tyle=3D"text-decoration:none; color:#d21a54; font-size:40px; line-height:40=
+px;" target=3D"_blank" title=3D",99=E2=82=AC*"><b>99<sup><font style=3D"fon=
+t-size:18px;">*</font></sup></b><br />
+															<font style=3D"font-size:19px; line-height:26px;"><b>/mois</=
+b> </font> </a></td>
+															<td class=3D"tdcenterpatch" width=3D"1"></td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+											<tr>
+												<td class=3D"h20" height=3D"10"></td>
+											</tr>
+											<tr>
+												<td align=3D"left" height=3D"44">
+												<table align=3D"left" border=3D"0" cellpadding=3D"0" cellspacin=
+g=3D"0" class=3D"table100a" style=3D"font-size:12px; color:#010101; font-fa=
+mily:Verdana; text-align:left;" width=3D"196">
+													<tbody>
+														<tr>
+															<td align=3D"center" bgcolor=3D"#d21a54" height=3D"36"><a cl=
+ass=3D"white" href=3D"http://solutionmaison.fr/ga/click/2-11527895-18-1295-=
+2487-17828-c521990d8c-8357046357" style=3D"text-decoration:none; color:#fff=
+fff; font-size:11px; line-height:36px; display:block;" target=3D"_blank" ti=
+tle=3D"JE D=C3=89COUVRE"><b>JE D&Eacute;COUVRE</b> </a></td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+								<tr>
+									<td valign=3D"top"></td>
+								</tr>
+								<tr>
+									<td align=3D"center" bgcolor=3D"#efefef" height=3D"26"></td>
+								</tr>
+								<tr>
+									<td align=3D"center" bgcolor=3D"#efefef">
+									<table align=3D"left" border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" style=3D"font-size:12px; color:#010101; font-family:Verdana; text-al=
+ign:left;" width=3D"5%">
+										<tbody>
+											<tr>
+												<td height=3D"10"></td>
+											</tr>
+										</tbody>
+									</table>
+
+									<table align=3D"left" border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" class=3D"table100a" style=3D"font-size:12px; color:#010101; font-fam=
+ily:Verdana; text-align:left;" width=3D"43%">
+										<tbody>
+											<tr>
+												<td bgcolor=3D"#f9f9f9" height=3D"40"></td>
+											</tr>
+											<tr>
+												<td bgcolor=3D"#f9f9f9">
+												<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" style=3D"font-family:Verdana;">
+													<tbody>
+														<tr>
+															<td valign=3D"top"><a class=3D"purple" href=3D"http://soluti=
+onmaison.fr/ga/click/2-11527895-18-1295-2487-17829-5afe9003c7-8357046357" s=
+tyle=3D"text-decoration:none; color:#d21a54; font-size:70px; line-height:80=
+px;" target=3D"_blank" title=3D"1"><b>1&euro;</b> </a></td>
+															<td valign=3D"top"><a class=3D"purple" href=3D"http://soluti=
+onmaison.fr/ga/click/2-11527895-18-1295-2487-17830-6dece8cf25-8357046357" s=
+tyle=3D"text-decoration:none; color:#d21a54; font-size:40px; line-height:40=
+px;" target=3D"_blank" title=3D",99=E2=82=AC*"><b>99<sup><font style=3D"fon=
+t-size:18px;">*</font></sup></b><br />
+															<font style=3D"font-size:19px; line-height:26px;"><b>/mois</=
+b> </font> </a></td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+											<tr>
+												<td align=3D"center" bgcolor=3D"#f9f9f9" valign=3D"top"><a clas=
+s=3D"purple" href=3D"http://solutionmaison.fr/ga/click/2-11527895-18-1295-2=
+487-17831-6d26087235-8357046357" style=3D"text-decoration:none; color:#d21a=
+54; font-size:12px;" target=3D"_blank" title=3D"AU LIEU DE 7,99=E2=82=AC /M=
+OIS">AU LIEU DE <b>7,99&euro; /MOIS</b> </a></td>
+											</tr>
+											<tr>
+												<td bgcolor=3D"#f9f9f9" height=3D"24"></td>
+											</tr>
+											<tr>
+												<td align=3D"center" bgcolor=3D"#f9f9f9"><a class=3D"purple" hr=
+ef=3D"http://solutionmaison.fr/ga/click/2-11527895-18-1295-2487-17832-b06ae=
+f88b3-8357046357" style=3D"text-decoration:none; color:#d21a54; font-size:2=
+0px;" target=3D"_blank" title=3D"3H D'APPELS, SMS/MMS ILLIMITES, INTERNET 2=
+00 Mo 4G"><b>3H</b> <font style=3D"color:#292929">D&#39;APPELS<br />
+												SMS/MMS ILLIMIT&Eacute;S<br />
+												INTERNET</font> <b>200 Mo</b> <font style=3D"color:#292929">4G<=
+/font> </a></td>
+											</tr>
+											<tr>
+												<td bgcolor=3D"#f9f9f9" height=3D"5"></td>
+											</tr>
+											<tr>
+												<td align=3D"center" bgcolor=3D"#f9f9f9" valign=3D"top"><a clas=
+s=3D"purple" href=3D"http://solutionmaison.fr/ga/click/2-11527895-18-1295-2=
+487-17833-d07ef97b6f-8357046357" style=3D"text-decoration:none; color:#d21a=
+54; font-size:12px;" target=3D"_blank" title=3D"PENDANT 12 MOIS SANS ENGAGE=
+MENT">PENDANT 12 MOIS <b>SANS ENGAGEMENT</b> </a></td>
+											</tr>
+											<tr>
+												<td align=3D"center" bgcolor=3D"#f9f9f9"></td>
+											</tr>
+											<tr>
+												<td bgcolor=3D"#f9f9f9" height=3D"28"></td>
+											</tr>
+											<tr>
+												<td align=3D"center" bgcolor=3D"#f9f9f9">
+												<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" class=3D"table100a" style=3D"font-size:12px; color:#010101; font-=
+family:Verdana; text-align:left;" width=3D"122">
+													<tbody>
+														<tr>
+															<td align=3D"center" bgcolor=3D"#d21a54" height=3D"36"><a cl=
+ass=3D"white" href=3D"http://solutionmaison.fr/ga/click/2-11527895-18-1295-=
+2487-17834-691d1e0637-8357046357" style=3D"text-decoration:none; color:#FFF=
+FFF; line-height:36px; font-size:11px; display:block;" target=3D"_blank" ti=
+tle=3D"JE LE VEUX"><b>JE LE VEUX</b> </a></td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+											<tr>
+												<td bgcolor=3D"#f9f9f9" height=3D"24"></td>
+											</tr>
+										</tbody>
+									</table>
+
+									<table align=3D"left" border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" style=3D"font-size:12px; color:#010101; font-family:Verdana; text-al=
+ign:left;" width=3D"4%">
+										<tbody>
+											<tr>
+												<td height=3D"10"></td>
+											</tr>
+										</tbody>
+									</table>
+
+									<table align=3D"left" border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" class=3D"table100a" style=3D"font-size:12px; color:#010101; font-fam=
+ily:Verdana; text-align:left;" width=3D"43%">
+										<tbody>
+											<tr>
+												<td bgcolor=3D"#f9f9f9" height=3D"40"></td>
+											</tr>
+											<tr>
+												<td bgcolor=3D"#f9f9f9">
+												<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" style=3D"font-family:Verdana;">
+													<tbody>
+														<tr>
+															<td valign=3D"top"><a class=3D"purple" href=3D"http://soluti=
+onmaison.fr/ga/click/2-11527895-18-1295-2487-17835-9cc443ae20-8357046357" s=
+tyle=3D"text-decoration:none; color:#d21a54; font-size:70px; line-height:80=
+px;" target=3D"_blank" title=3D"9"><b>9&euro;</b> </a></td>
+															<td valign=3D"top"><a class=3D"purple" href=3D"http://soluti=
+onmaison.fr/ga/click/2-11527895-18-1295-2487-17836-eff1ea8e47-8357046357" s=
+tyle=3D"text-decoration:none; color:#d21a54; font-size:40px; line-height:40=
+px;" target=3D"_blank" title=3D",99=E2=82=AC*"><b>99<sup><font style=3D"fon=
+t-size:18px;">*</font></sup></b><br />
+															<font style=3D"font-size:19px; line-height:26px;"><b>/mois</=
+b> </font> </a></td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+											<tr>
+												<td align=3D"center" bgcolor=3D"#f9f9f9" valign=3D"top"><a clas=
+s=3D"purple" href=3D"http://solutionmaison.fr/ga/click/2-11527895-18-1295-2=
+487-17837-f8284b528e-8357046357" style=3D"text-decoration:none; color:#d21a=
+54; font-size:12px;" target=3D"_blank" title=3D"AU LIEU DE 24,99=E2=82=AC /=
+MOIS">AU LIEU DE <b>24,99&euro; /MOIS</b> </a></td>
+											</tr>
+											<tr>
+												<td bgcolor=3D"#f9f9f9" height=3D"24"></td>
+											</tr>
+											<tr>
+												<td align=3D"center" bgcolor=3D"#f9f9f9"><a class=3D"purple" hr=
+ef=3D"http://solutionmaison.fr/ga/click/2-11527895-18-1295-2487-17838-82bd8=
+efada-8357046357" style=3D"text-decoration:none; color:#d21a54; font-size:2=
+0px;" target=3D"_blank" title=3D"3H D'APPELS, SMS/MMS ILLIMITES, INTERNET 6=
+ Go 4G"><b>3H</b> <font style=3D"color:#292929">D&#39;APPELS<br />
+												SMS/MMS ILLIMIT&Eacute;S<br />
+												INTERNET</font> <b>6 Go</b> <font style=3D"color:#292929">4G</f=
+ont> </a></td>
+											</tr>
+											<tr>
+												<td bgcolor=3D"#f9f9f9" height=3D"5"></td>
+											</tr>
+											<tr>
+												<td align=3D"center" bgcolor=3D"#f9f9f9" valign=3D"top"><a clas=
+s=3D"purple" href=3D"http://solutionmaison.fr/ga/click/2-11527895-18-1295-2=
+487-17839-276a8e4075-8357046357" style=3D"text-decoration:none; color:#d21a=
+54; font-size:12px;" target=3D"_blank" title=3D"PENDANT 12 MOIS SANS ENGAGE=
+MENT">PENDANT 12 MOIS <b>SANS ENGAGEMENT</b> </a></td>
+											</tr>
+											<tr>
+												<td align=3D"center" bgcolor=3D"#f9f9f9"></td>
+											</tr>
+											<tr>
+												<td bgcolor=3D"#f9f9f9" height=3D"28"></td>
+											</tr>
+											<tr>
+												<td align=3D"center" bgcolor=3D"#f9f9f9">
+												<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" class=3D"table100a" style=3D"font-size:12px; color:#010101; font-=
+family:Verdana; text-align:left;" width=3D"122">
+													<tbody>
+														<tr>
+															<td align=3D"center" bgcolor=3D"#d21a54" height=3D"36"><a cl=
+ass=3D"white" href=3D"http://solutionmaison.fr/ga/click/2-11527895-18-1295-=
+2487-17840-2ba01aef9f-8357046357" style=3D"text-decoration:none; color:#FFF=
+FFF; line-height:36px; font-size:11px; display:block;" target=3D"_blank" ti=
+tle=3D"JE LE VEUX"><b>JE LE VEUX</b> </a></td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+											<tr>
+												<td bgcolor=3D"#f9f9f9" height=3D"24"></td>
+											</tr>
+										</tbody>
+									</table>
+
+									<table align=3D"left" border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" style=3D"font-size:12px; color:#010101; font-family:Verdana; text-al=
+ign:left;" width=3D"5%">
+										<tbody>
+											<tr>
+												<td height=3D"10"></td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+								<tr>
+									<td align=3D"center" bgcolor=3D"#efefef" height=3D"26"></td>
+								</tr>
+								<tr>
+									<td align=3D"center" height=3D"30"><font style=3D"color:#a0a0a0; f=
+ont-size:10px;"><sup>*</sup> Pour conna&icirc;tre le d&eacute;tail et les c=
+onditions des offres pr&eacute;sent&eacute;es dans la pr&eacute;sente Newsl=
+etter. <a href=3D"http://solutionmaison.fr/ga/click/2-11527895-18-1295-2487=
+-17841-a94e08e41b-8357046357" style=3D"color:#672d65; font-size:10px; " tar=
+get=3D"_blank" title=3D"">Suivez ce lien</a></font></td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<p><img height=3D"1" src=3D"http://o.stupremesw.com/81-29-48-2737-24390/uni=
+queId" width=3D"1" /></p>
+
+<center><a href=3D"http://solutionmaison.fr/ga/unsubscribe/2-11527895-18-12=
+95-2487-ed35df89ef15825-8357046357">Je souhaite me d=C3=A9sinscrire et ne p=
+lus recevoir les newsletters</a>
+</center><img src=3D"http://solutionmaison.fr/ga/open/2-11527895-18-1295-24=
+87-8357046357" height=3D"2" width=3D"3" alt=3D""></body>
+</html>
+
+--==de742c033b01cf2f43c1ae72aeb0b676--

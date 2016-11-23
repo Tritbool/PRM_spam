@@ -1,0 +1,1385 @@
+Return-Path: <57418-67-3-0000003527@bluefrogrobotics.com>
+Received: from mailimailo.univ-rennes1.fr ([unix socket])
+	 by mailimailo.univ-rennes1.fr (Cyrus v2.3.16-Fedora-RPM-2.3.16-6.el6_2.5) with LMTPA;
+	 Tue, 01 Sep 2015 09:00:32 +0200
+X-Sieve: CMU Sieve 2.3
+Received: from vmsmtprexch.univ-rennes1.fr (vmsmtprexch.univ-rennes1.fr [129.20.128.62])
+	by mailimailo.univ-rennes1.fr (Postfix) with ESMTP id BBAE026A0AC0
+	for <resp-m2-miage@univ-rennes1.fr>; Tue,  1 Sep 2015 09:00:32 +0200 (CEST)
+Received: from mbcasexch2.Ur.local (mbcasexch2.univ-rennes1.fr [129.20.125.130])
+	by vmsmtprexch.univ-rennes1.fr (Postfix) with ESMTP id B6F9513C
+	for <resp-m2-miage@univ-rennes1.fr>; Tue,  1 Sep 2015 09:00:32 +0200 (CEST)
+X-CrossPremisesHeadersFilteredBySendConnector: mbcasexch2.Ur.local
+Received: from mbcasexch1.Ur.local (2002:8114:7d81::8114:7d81) by
+ mbcasexch2.Ur.local (2002:8114:7d82::8114:7d82) with Microsoft SMTP Server
+ (TLS) id 15.0.913.22; Tue, 1 Sep 2015 09:00:32 +0200
+Received: from mailout1.univ-rennes1.fr (129.20.128.162) by
+ mbcasexch1.Ur.local (129.20.125.129) with Microsoft SMTP Server id
+ 15.0.913.22 via Frontend Transport; Tue, 1 Sep 2015 09:00:32 +0200
+Received: from localhost (vmscanmail.univ-rennes1.fr [129.20.128.134])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id 58A4A60521
+	for <resp-m2-miage@univ-rennes1.fr>; Tue,  1 Sep 2015 09:00:32 +0200 (CEST)
+X-Virus-Scanned: amavisd-new at univ-rennes1.fr
+Received: from mailout1.univ-rennes1.fr ([129.20.128.162])
+	by localhost (vmscanmail.univ-rennes1.frm [129.20.128.134]) (amavisd-new, port 10026)
+	with ESMTP id X5dKO_MfLRPj for <resp-m2-miage@univ-rennes1.fr>;
+	Tue,  1 Sep 2015 09:00:32 +0200 (CEST)
+Received: from vmmailin.univ-rennes1.fr (vmmailin.univ-rennes1.fr [129.20.128.133])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id 29CD96052A
+	for <resp-m2-miage@univ-rennes1.fr>; Tue,  1 Sep 2015 09:00:32 +0200 (CEST)
+Received: from mxb2-1.relay.renater.fr (mxb2-1.relay.renater.fr [194.214.200.8])
+	by vmmailin.univ-rennes1.fr (Postfix) with ESMTP id 1B74120033
+	for <resp-m2-miage@univ-rennes1.fr>; Tue,  1 Sep 2015 09:00:32 +0200 (CEST)
+Received: from mta0.srp01.net (mta0.sbr38.net [46.21.196.36])
+	by mxb2-1.relay.renater.fr (asm) with ESMTP id 7BFCC60010E
+	for <resp-m2-miage@univ-rennes1.fr>; Tue,  1 Sep 2015 09:00:29 +0200 (CEST)
+Received: from sb11mta29.sarbatech.com (localhost.localdomain [127.0.0.1])
+	by mta0.srp01.net (Postfix) with ESMTP id 5E1D120E1DD8
+	for <resp-m2-miage@univ-rennes1.fr>; Tue,  1 Sep 2015 09:00:28 +0200 (CEST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+	d=bluefrogrobotics.com; s=mta0; t=1441090828;
+	bh=IgVZZiM79rYtr8r27B/XLWonQyKrpMecNHkIpBeAkbQ=;
+	h=Date:From:Reply-To:To:Subject:List-Unsubscribe;
+	b=g5NR4PzL+9gTYyZ0vdIa1cwrmXfqfn5FwZH6C82VeqGRo/sJntpW096cu3xol4kX3
+	 h/bnSMP3CNqRSGOY3XUfFscIecS+EKPS5webxORyAxPlfhQGYT/i0A+sJtdCHg0xwx
+	 m6vurQorqjiErUF20Wd/TB6/3UNW5MgXSKB+kY14=
+Date: Tue, 1 Sep 2015 09:00:11 +0200
+From: =?utf-8?Q?Blue_Frog_Robotics?= <indiegogo@bluefrogrobotics.com>
+Reply-To: =?utf-8?Q?Blue_Frog_Robotics?= <indiegogo@bluefrogrobotics.com>
+To: <resp-m2-miage@univ-rennes1.fr>
+Message-ID: <57418-67-3-0000003527@bluefrogrobotics.com>
+Subject: =?utf-8?Q?Pourquoi_c'est_le_meilleur_moment_pour_acqu=C3=A9rir_so?=
+	=?utf-8?Q?n_propre_robot_personnel_=3F?=
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_Part_8195123_360271270.1441090817752"
+List-Unsubscribe: <http://link.bluefrogrobotics.com/f/USB/26/31104/39k=5FNr=5FQQUalb65hfw-CSw/50eCBZzmVEqPXwl=5FPA-34g/0QpZPB3o6USBul3l4vRuhw?email=resp-m2-miage=40univ-rennes1=2Efr&adm=indiegogo@bluefrogrobotics.com>
+Priority: 1
+X-virtual-MTA: mta0
+X-Mailer: Professional Routing Service
+X-UCE-Status: YES
+X-UCE-Type: PCE
+X-Original-Source-IP: 46.21.196.36
+X-Bizanga: IMP - mxb2-1.relay.renater.fr
+X-Renater-SpamState: 10
+X-Renater-SpamScore: 7
+X-Renater-SpamCause: gggruggvucftvghtrhhoucdtuddrfeekfedrjedvgdduvdduucetufdoteggodetrfcurfhrohhfihhlvgemucftgffptefvgfftpdggtfgfnhhsuhgsshgtrhhisggvnecuuegrihhlohhuthemuceftddtnecutfhouhhtvghrqddqufgrrhgsrggtrghnvgculdejmdenucfjughrpeffhfhrvffkufggtgfjofesrgdtregsredtjeenucfhrhhomhepuehluhgvpgfhrhhoghgptfhosghothhitghsuceoihhnughivghgohhgohessghluhgvfhhrohhgrhhosghothhitghsrdgtohhmqeenucffohhmrghinhepsghluhgvfhhrohhgrhhosghothhitghsrdgtohhm 
+X-Renater-ServerName: mxb2-1.relay.renater.fr
+X-OrganizationHeadersPreserved: mbcasexch2.Ur.local
+
+------=_Part_8195123_360271270.1441090817752
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+
+MailChimp Template Test - "Mailing Non Backers Downpayment FR"
+
+Adoptez BUDDY sur Indiegogo  ( http://igg.me/at/buddy-companion-robot )  ( =
+https://www.indiegogo.com/projects/buddy-your-family-s-companion-robot )=20
+Voir cet email dans votre navigateur
+( http://link.bluefrogrobotics.com/w/31104/39k_Nr_QQUalb65hfw-CSw/50eCBZzmV=
+EqPXwl_PA-34g/aCKt5tqslkaPeIqJ1l2nbg )
+
+
+
+
+
+( http://www.bluefrogrobotics.com/fr/ )
+
+
+
+
+
+Offre sp=C3=A9ciale =C3=A0 dur=C3=A9e limit=C3=A9e=C2=A0-=C2=A0LAISSEZ VOUS=
+ TENTER! ADOPTEZ BUDDY!
+
+
+Bonjour =C3=A0 tous,=C2=A0
+
+Nous sommes =C3=A0 moins de 6 JOURS de la fin de notre campagne de financem=
+ent participatif!=C2=A0
+=C2=A0 =C2=A0Vous avez demand=C3=A9 le paiement en 2 fois, nous vous=C2=A0l=
+e proposons aujourd'hui !
+Suite =C3=A0 vos nombreuses demandes et afin de donner une=C2=A0chance =C3=
+=A0 tous d'adopter=C2=A0BUDDY ( http://igg.me/at/buddy-companion-robot ) , =
+nous offrons d=C3=A9sormais la possibilit=C3=A9 de l'acqu=C3=A9rir dans sa =
+version classique en r=C3=A9glant un premier paiement de=C2=A0349$ lors de =
+la commande,=C2=A0puis=C2=A0le reste=C2=A0(350$) seulement au moment de la =
+livraison.
+
+Profitez de cette offre sp=C3=A9ciale de derni=C3=A8re minute=C2=A0jusqu'=
+=C3=A0 la fin de la campagne. C=E2=80=99est le moment o=C3=B9 jamais d=E2=
+=80=99adopter votre BUDDY ( http://igg.me/at/buddy-companion-robot ) =C2=A0=
+avec tous ses accessoires d=C3=A9di=C3=A9s =C3=A0 un tarif avantageux.
+
+
+( http://igg.me/at/buddy-companion-robot )
+
+=C2=A0 BUDDY s'est fait de nouveaux amis sur la c=C3=B4te Est et la c=C3=B4=
+te Ouest des Etats-Unis.
+
+BUDDY et ses cr=C3=A9ateurs,=C2=A0Blue Frog Robotics ( http://www.bluefrogr=
+obotics.com/fr/ ) , ont=C2=A0entrepris il y a quelques jours une tourn=C3=
+=A9e =C3=A0 travers les Etats-Unis pour rencontrer la presse, les fans et l=
+es investisseurs.
+=C2=A0
+=C2=A0
+
+Regardez BUDDY se balader =C3=A0 Boston et faire des apparitions TV sur le =
+Boston Globe, le Boston Business Journal et CRN! =C2=A0
+
+VIDEO :=C2=A0"With Jibo and now Buddy, Boston is becoming a social-robot me=
+cca"=C2=A0 ( http://www.bizjournals.com/boston/blog/startups/2015/08/with-j=
+ibo-and-now-buddy-boston-becoming-a-social.html ) -=C2=A0David Harris, Bost=
+on Business Journal
+VIDEO : "Meet Buddy: the Stars Wars-Inspired Robot" ( http://www.crn.com/ne=
+ws/applications-os/video/300077829/meet-buddy-the-stars-wars-inspired-robot=
+.htm ) - CRN
+VIDEO :=C2=A0"Robot pet-sitters?"=C2=A0 ( http://www.betaboston.com/news/20=
+15/08/18/robot-pet-sitters-the-technology-isnt-there-just-yet-according-to-=
+one-dog/?p1=3DMain_Headline ) =C2=A0-=C2=A0Scott Kirsner, The Boston Globe
+"The cutest robot friend you can actually own" ( http://www.bizjournals.com=
+/boston/feature/5-things/2015/08/five-things-you-need-to-know-today-and-the=
+-cutest.html ) - Doug Banks, Boston Business Journal
+"Companion robot named Buddy introduced to the states"  ( http://www.myfoxb=
+oston.com/story/29837619/companion-robot-named-buddy-introduced-to-the-stat=
+es ) - Ashley Troutman, My Fox Boston
+=C2=A0
+=C2=A0
+
+=C2=A0
+Ensuite, BUDDY est partit se=C2=A0faire des nouveaux amis sur la c=C3=B4te =
+Ouest. Regardez :
+
+- BUDDY interview=C3=A9 par Stephen=C2=A0Beacham=C2=A0de CNET TV
+( https://youtu.be/Mpakn6WM03Y )
+
+- BUDDY =C2=A0interview=C3=A9 par Hubert N Guyuen d'Ubergizmo  ( http://www=
+.ubergizmo.com/2015/08/buddy-crowdfunded-robot/ ) et par Nathan Olivarez-Gi=
+lles du=C2=A0Wall Street Journal ( https://vine.co/v/eDwlxV1DtAq )=20
+- Et enfin BUDDY visitant les studios d'Engadget ( https://twitter.com/Enga=
+dget ) =C2=A0avec=C2=A0Andrew Tarantola ( https://twitter.com/Terrortola/st=
+atus/634858799673790465 )=20
+
+=C2=A0
+
+BUDDY a une nouvelle (deuxi=C3=A8me) maison
+
+BUDDY a re=C3=A7u un accueil chaleureux lors de sa premi=C3=A8re=C2=A0visit=
+e aux Etats-Unis o=C3=B9 il sera un=C2=A0visiteur r=C3=A9gulier puisque Blu=
+e Frog Robotics a annonc=C3=A9 l'ouverture de ses bureaux nord-am=C3=A9rica=
+ins =C3=A0 Boston, terre d'=C3=A9lection de la robotique.=C2=A0
+
+=C2=A0 Partagez cet e-mail autour de vous,=C2=A0ou=C2=A0invitez vos coll=C3=
+=A8gues, amis et famille =C3=A0=C2=A0adopter BUDDY.=20
+Nous vous en serions extr=C3=AAmement reconnaissants=C2=A0!
+Twitter ( https://twitter.com/adoptbuddy ) =C2=A0|=C2=A0Facebook ( https://=
+www.facebook.com/mybuddyrobot/ ) =C2=A0|=C2=A0Youtube ( https://www.youtube=
+.com/watch?v=3D51yGC3iytbY ) =C2=A0=C2=A0
+=C2=A0
+
+Adoptez BUDDY=C2=A0d=C3=A8s maintenant ! ( https://www.indiegogo.com/projec=
+ts/buddy-your-family-s-companion-robot ) =C2=A0
+=C2=A0=20
+
+L'=C3=A9quipe de Blue Frog Robotics
+
+
+
+
+( https://www.facebook.com/pages/Buddy/304408936428033?pnref=3Dstory )
+
+
+( https://twitter.com/BlueFrogRobotic )
+
+
+( https://plus.google.com/109946889110725191149 )
+
+
+( https://www.linkedin.com/company/blue-frog-robotics?trk=3Dbiz-companies-c=
+ym )
+
+
+( http://www.bluefrogrobotics.com/ )
+
+
+( mailto:contact@bluefrogrobotics.com )
+
+
+
+
+
+Copyright =C2=A9 2015 BLUE FROG ROBOTICS, All rights reserved.
+
+BLUE FROG ROBOTICS
+10 rue Coquilli=C3=A8re
+75001 PARIS
+
+Se d=C3=A9sinscrire de la liste ( http://link.bluefrogrobotics.com/f/USBSHO=
+W/26/31104/39k_Nr_QQUalb65hfw-CSw/50eCBZzmVEqPXwl_PA-34g/QEohQLmRsk-8xBM1H_=
+mzaQ?email=3Dresp-m2-miage@univ-rennes1.fr&adm=3Dindiegogo@bluefrogrobotics=
+.com )=20
+
+
+
+
+
+
+
+------=_Part_8195123_360271270.1441090817752
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><title>MailChimp Template Test - "Mailing Non Backers Downpayme=
+nt FR"</title><link rel=3D"important stylesheet" href=3D"chrome://messagebo=
+dy/skin/messageBody.css"></head>
+<body style=3D"HEIGHT: 100% !important; WIDTH: 100% !important; BACKGROUND-=
+IMAGE: url(../../../../../../Temp/Wizard/de3f937c-2dc6-4095-afd7-0e303b383e=
+60.jpg); BACKGROUND-REPEAT: no-repeat; POSITION: absolute; PADDING-BOTTOM: =
+0px; -MS-TEXT-SIZE-ADJUST: 100%; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGI=
+N: 0px; Z-INDEX: -1; PADDING-RIGHT: 0px; -webkit-text-size-adjust: 100%; ba=
+ckground-size: cover" leftmargin=3D"0" topmargin=3D"0"><br><!-- NAME: 1 COL=
+UMN - BANDED -->
+<meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=3D1.=
+0">
+<style type=3D"text/css">
+=09=09body,#bodyTable,#bodyCell{
+=09=09=09height:100% !important;
+=09=09=09margin:0;
+=09=09=09padding:0;
+=09=09=09width:100% !important;
+=09=09}
+=09=09table{
+=09=09=09border-collapse:collapse;
+=09=09}
+=09=09img,a img{
+=09=09=09border:0;
+=09=09=09outline:none;
+=09=09=09text-decoration:none;
+=09=09}
+=09=09h1,h2,h3,h4,h5,h6{
+=09=09=09margin:0;
+=09=09=09padding:0;
+=09=09}
+=09=09p{
+=09=09=09margin:1em 0;
+=09=09=09padding:0;
+=09=09}
+=09=09a{
+=09=09=09word-wrap:break-word;
+=09=09}
+=09=09.ReadMsgBody{
+=09=09=09width:100%;
+=09=09}
+=09=09.ExternalClass{
+=09=09=09width:100%;
+=09=09}
+=09=09.ExternalClass,.ExternalClass p,.ExternalClass span,.ExternalClass fo=
+nt,.ExternalClass td,.ExternalClass div{
+=09=09=09line-height:100%;
+=09=09}
+=09=09table,td{
+=09=09=09mso-table-lspace:0pt;
+=09=09=09mso-table-rspace:0pt;
+=09=09}
+=09=09#outlook a{
+=09=09=09padding:0;
+=09=09}
+=09=09img{
+=09=09=09-ms-interpolation-mode:bicubic;
+=09=09}
+=09=09body,table,td,p,a,li,blockquote{
+=09=09=09-ms-text-size-adjust:100%;
+=09=09=09-webkit-text-size-adjust:100%;
+=09=09}
+=09=09#bodyCell{
+=09=09=09padding:0;
+=09=09=09border-top:0;
+=09=09}
+=09=09.mcnImage{
+=09=09=09vertical-align:bottom;
+=09=09}
+=09=09.mcnTextContent img{
+=09=09=09height:auto !important;
+=09=09}
+=09=09body,#bodyTable{
+=09=09=09background-color:#f2f2f2;
+=09=09}
+=09=09#bodyCell{
+=09=09=09border-top:0;
+=09=09}
+=09=09h1{
+=09=09=09color:#606060 !important;
+=09=09=09display:block;
+=09=09=09font-family:Helvetica;
+=09=09=09font-size:40px;
+=09=09=09font-style:normal;
+=09=09=09font-weight:bold;
+=09=09=09line-height:125%;
+=09=09=09letter-spacing:-1px;
+=09=09=09margin:0;
+=09=09=09text-align:left;
+=09=09}
+=09=09h2{
+=09=09=09color:#404040 !important;
+=09=09=09display:block;
+=09=09=09font-family:Helvetica;
+=09=09=09font-size:26px;
+=09=09=09font-style:normal;
+=09=09=09font-weight:bold;
+=09=09=09line-height:125%;
+=09=09=09letter-spacing:-.75px;
+=09=09=09margin:0;
+=09=09=09text-align:left;
+=09=09}
+=09=09h3{
+=09=09=09color:#606060 !important;
+=09=09=09display:block;
+=09=09=09font-family:Helvetica;
+=09=09=09font-size:18px;
+=09=09=09font-style:normal;
+=09=09=09font-weight:bold;
+=09=09=09line-height:125%;
+=09=09=09letter-spacing:-.5px;
+=09=09=09margin:0;
+=09=09=09text-align:left;
+=09=09}
+=09=09h4{
+=09=09=09color:#808080 !important;
+=09=09=09display:block;
+=09=09=09font-family:Helvetica;
+=09=09=09font-size:16px;
+=09=09=09font-style:normal;
+=09=09=09font-weight:bold;
+=09=09=09line-height:125%;
+=09=09=09letter-spacing:normal;
+=09=09=09margin:0;
+=09=09=09text-align:left;
+=09=09}
+=09=09#templatePreheader{
+=09=09=09background-color:#eeeeee;
+=09=09=09border-top:0;
+=09=09=09border-bottom:5px dotted #999999;
+=09=09}
+=09=09.preheaderContainer .mcnTextContent,.preheaderContainer .mcnTextConte=
+nt p{
+=09=09=09color:#606060;
+=09=09=09font-family:Helvetica;
+=09=09=09font-size:11px;
+=09=09=09line-height:125%;
+=09=09=09text-align:left;
+=09=09}
+=09=09.preheaderContainer .mcnTextContent a{
+=09=09=09color:#606060;
+=09=09=09font-weight:normal;
+=09=09=09text-decoration:underline;
+=09=09}
+=09=09#templateHeader{
+=09=09=09background-color:#fafafa;
+=09=09=09border-top:0;
+=09=09=09border-bottom:0;
+=09=09}
+=09=09.headerContainer .mcnTextContent,.headerContainer .mcnTextContent p{
+=09=09=09color:#606060;
+=09=09=09font-family:Helvetica;
+=09=09=09font-size:15px;
+=09=09=09line-height:150%;
+=09=09=09text-align:left;
+=09=09}
+=09=09.headerContainer .mcnTextContent a{
+=09=09=09color:#6DC6DD;
+=09=09=09font-weight:normal;
+=09=09=09text-decoration:underline;
+=09=09}
+=09=09#templateBody{
+=09=09=09background-color:#ffffff;
+=09=09=09border-top:0;
+=09=09=09border-bottom:0;
+=09=09}
+=09=09.bodyContainer .mcnTextContent,.bodyContainer .mcnTextContent p{
+=09=09=09color:#606060;
+=09=09=09font-family:Helvetica;
+=09=09=09font-size:15px;
+=09=09=09line-height:150%;
+=09=09=09text-align:left;
+=09=09}
+=09=09.bodyContainer .mcnTextContent a{
+=09=09=09color:#6DC6DD;
+=09=09=09font-weight:normal;
+=09=09=09text-decoration:underline;
+=09=09}
+=09=09#templateFooter{
+=09=09=09background-color:#40444d;
+=09=09=09border-top:0;
+=09=09=09border-bottom:0;
+=09=09}
+=09=09.footerContainer .mcnTextContent,.footerContainer .mcnTextContent p{
+=09=09=09color:#cccccc;
+=09=09=09font-family:Helvetica;
+=09=09=09font-size:11px;
+=09=09=09line-height:125%;
+=09=09=09text-align:center;
+=09=09}
+=09=09.footerContainer .mcnTextContent a{
+=09=09=09color:#00d4d0;
+=09=09=09font-weight:normal;
+=09=09=09text-decoration:underline;
+=09=09}
+=09@media only screen and (max-width: 480px){
+=09=09body,table,td,p,a,li,blockquote{
+=09=09=09-webkit-text-size-adjust:none !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09body{
+=09=09=09width:100% !important;
+=09=09=09min-width:100% !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09table[class=3DmcnTextContentContainer]{
+=09=09=09width:100% !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09table[class=3DmcnBoxedTextContentContainer]{
+=09=09=09width:100% !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09table[class=3Dmcpreview-image-uploader]{
+=09=09=09width:100% !important;
+=09=09=09display:none !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09img[class=3DmcnImage]{
+=09=09=09width:100% !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09table[class=3DmcnImageGroupContentContainer]{
+=09=09=09width:100% !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09td[class=3DmcnImageGroupContent]{
+=09=09=09padding:9px !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09td[class=3DmcnImageGroupBlockInner]{
+=09=09=09padding-bottom:0 !important;
+=09=09=09padding-top:0 !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09tbody[class=3DmcnImageGroupBlockOuter]{
+=09=09=09padding-bottom:9px !important;
+=09=09=09padding-top:9px !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09table[class=3DmcnCaptionTopContent],table[class=3DmcnCaptionBottomCon=
+tent]{
+=09=09=09width:100% !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09table[class=3DmcnCaptionLeftTextContentContainer],table[class=3DmcnCa=
+ptionRightTextContentContainer],table[class=3DmcnCaptionLeftImageContentCon=
+tainer],table[class=3DmcnCaptionRightImageContentContainer],table[class=3Dm=
+cnImageCardLeftTextContentContainer],table[class=3DmcnImageCardRightTextCon=
+tentContainer]{
+=09=09=09width:100% !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09td[class=3DmcnImageCardLeftImageContent],td[class=3DmcnImageCardRight=
+ImageContent]{
+=09=09=09padding-right:18px !important;
+=09=09=09padding-left:18px !important;
+=09=09=09padding-bottom:0 !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09td[class=3DmcnImageCardBottomImageContent]{
+=09=09=09padding-bottom:9px !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09td[class=3DmcnImageCardTopImageContent]{
+=09=09=09padding-top:18px !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09td[class=3DmcnImageCardLeftImageContent],td[class=3DmcnImageCardRight=
+ImageContent]{
+=09=09=09padding-right:18px !important;
+=09=09=09padding-left:18px !important;
+=09=09=09padding-bottom:0 !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09td[class=3DmcnImageCardBottomImageContent]{
+=09=09=09padding-bottom:9px !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09td[class=3DmcnImageCardTopImageContent]{
+=09=09=09padding-top:18px !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09table[class=3DmcnCaptionLeftContentOuter] td[class=3DmcnTextContent],=
+table[class=3DmcnCaptionRightContentOuter] td[class=3DmcnTextContent]{
+=09=09=09padding-top:9px !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09td[class=3DmcnCaptionBlockInner] table[class=3DmcnCaptionTopContent]:=
+last-child td[class=3DmcnTextContent]{
+=09=09=09padding-top:18px !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09td[class=3DmcnBoxedTextContentColumn]{
+=09=09=09padding-left:18px !important;
+=09=09=09padding-right:18px !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09td[class=3DmcnTextContent]{
+=09=09=09padding-right:18px !important;
+=09=09=09padding-left:18px !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09table[class=3DtemplateContainer]{
+=09=09=09max-width:600px !important;
+=09=09=09width:100% !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+
+=09=09h1{
+=09=09=09font-size:24px !important;
+=09=09=09line-height:125% !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09h2{
+=09=09=09font-size:20px !important;
+=09=09=09line-height:125% !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09h3{
+=09=09=09font-size:18px !important;
+=09=09=09line-height:125% !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09h4{
+=09=09=09font-size:16px !important;
+=09=09=09line-height:125% !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09table[class=3DmcnBoxedTextContentContainer] td[class=3DmcnTextContent=
+],td[class=3DmcnBoxedTextContentContainer] td[class=3DmcnTextContent] p{
+=09=09=09font-size:18px !important;
+=09=09=09line-height:125% !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09table[id=3DtemplatePreheader]{
+=09=09=09display:block !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09td[class=3DpreheaderContainer] td[class=3DmcnTextContent],td[class=3D=
+preheaderContainer] td[class=3DmcnTextContent] p{
+=09=09=09font-size:14px !important;
+=09=09=09line-height:115% !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09td[class=3DheaderContainer] td[class=3DmcnTextContent],td[class=3Dhea=
+derContainer] td[class=3DmcnTextContent] p{
+=09=09=09font-size:18px !important;
+=09=09=09line-height:125% !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09td[class=3DbodyContainer] td[class=3DmcnTextContent],td[class=3DbodyC=
+ontainer] td[class=3DmcnTextContent] p{
+=09=09=09font-size:18px !important;
+=09=09=09line-height:125% !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09td[class=3DfooterContainer] td[class=3DmcnTextContent],td[class=3Dfoo=
+terContainer] td[class=3DmcnTextContent] p{
+=09=09=09font-size:14px !important;
+=09=09=09line-height:115% !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09td[class=3DfooterContainer] a[class=3DutilityLink]{
+=09=09=09display:block !important;
+=09=09}
+
+}</style>
+
+<center>
+<table id=3D"bodyTable" style=3D"HEIGHT: 100% !important; WIDTH: 100% !impo=
+rtant; BORDER-COLLAPSE: collapse; PADDING-BOTTOM: 0px; -MS-TEXT-SIZE-ADJUST=
+: 100%; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0p=
+x; -webkit-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace:=
+ 0pt" height=3D"100%" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" al=
+ign=3D"center" border=3D"0">
+<tbody>
+<tr>
+<td id=3D"bodyCell" style=3D"BORDER-TOP: 0px; HEIGHT: 100% !important; WIDT=
+H: 100% !important; PADDING-BOTTOM: 0px; -MS-TEXT-SIZE-ADJUST: 100%; PADDIN=
+G-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; -webkit-tex=
+t-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt" valign=
+=3D"top" align=3D"center"><!-- BEGIN TEMPLATE // -->
+<table style=3D"BORDER-COLLAPSE: collapse; -MS-TEXT-SIZE-ADJUST: 100%; -web=
+kit-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt" c=
+ellspacing=3D"0" cellpadding=3D"0" width=3D"100%" border=3D"0">
+<tbody>
+<tr>
+<td style=3D"-MS-TEXT-SIZE-ADJUST: 100%; -webkit-text-size-adjust: 100%; ms=
+o-table-lspace: 0pt; mso-table-rspace: 0pt" valign=3D"top" align=3D"center"=
+><!-- BEGIN PREHEADER // -->
+<table id=3D"templatePreheader" style=3D"BORDER-TOP: 0px; BORDER-COLLAPSE: =
+collapse; BORDER-BOTTOM: #999999 5px dotted; -MS-TEXT-SIZE-ADJUST: 100%; BA=
+CKGROUND-COLOR: #eeeeee; -webkit-text-size-adjust: 100%; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt" cellspacing=3D"0" cellpadding=3D"0" width=3D"10=
+0%" border=3D"0">
+<tbody>
+<tr>
+<td style=3D"-MS-TEXT-SIZE-ADJUST: 100%; -webkit-text-size-adjust: 100%; ms=
+o-table-lspace: 0pt; mso-table-rspace: 0pt" valign=3D"top" align=3D"center"=
+>
+<table class=3D"templateContainer" style=3D"BORDER-COLLAPSE: collapse; -MS-=
+TEXT-SIZE-ADJUST: 100%; -webkit-text-size-adjust: 100%; mso-table-lspace: 0=
+pt; mso-table-rspace: 0pt" cellspacing=3D"0" cellpadding=3D"0" width=3D"600=
+" border=3D"0">
+<tbody>
+<tr>
+<td class=3D"preheaderContainer" style=3D"-MS-TEXT-SIZE-ADJUST: 100%; PADDI=
+NG-TOP: 9px; -webkit-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-tab=
+le-rspace: 0pt" valign=3D"top">
+<table class=3D"mcnTextBlock" style=3D"BORDER-COLLAPSE: collapse; -MS-TEXT-=
+SIZE-ADJUST: 100%; -webkit-text-size-adjust: 100%; mso-table-lspace: 0pt; m=
+so-table-rspace: 0pt" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" bo=
+rder=3D"0">
+<tbody class=3D"mcnTextBlockOuter">
+<tr>
+<td class=3D"mcnTextBlockInner" style=3D"-MS-TEXT-SIZE-ADJUST: 100%; -webki=
+t-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt" val=
+ign=3D"top">
+<table class=3D"mcnTextContentContainer" style=3D"BORDER-COLLAPSE: collapse=
+; -MS-TEXT-SIZE-ADJUST: 100%; -webkit-text-size-adjust: 100%; mso-table-lsp=
+ace: 0pt; mso-table-rspace: 0pt" cellspacing=3D"0" cellpadding=3D"0" width=
+=3D"366" align=3D"left" border=3D"0">
+<tbody>
+<tr>
+<td class=3D"mcnTextContent" style=3D"FONT-SIZE: 11px; FONT-FAMILY: Helveti=
+ca; COLOR: #606060; PADDING-BOTTOM: 9px; -MS-TEXT-SIZE-ADJUST: 100%; TEXT-A=
+LIGN: left; PADDING-TOP: 9px; PADDING-LEFT: 18px; LINE-HEIGHT: 125%; PADDIN=
+G-RIGHT: 0px; -webkit-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-ta=
+ble-rspace: 0pt" valign=3D"top"><a href=3D"http://link.bluefrogrobotics.com=
+/h/31104/39k_Nr_QQUalb65hfw-CSw/50eCBZzmVEqPXwl_PA-34g/5hRDPmOxh0-Ur7NvoMm8=
+aw">Adoptez BUDDY sur Indiegogo </a><a style=3D"WORD-WRAP: break-word; TEXT=
+-DECORATION: underline; FONT-WEIGHT: normal; COLOR: #606060; -MS-TEXT-SIZE-=
+ADJUST: 100%; -webkit-text-size-adjust: 100%" href=3D"http://link.bluefrogr=
+obotics.com/h/31104/39k_Nr_QQUalb65hfw-CSw/50eCBZzmVEqPXwl_PA-34g/8P9UrNEdh=
+E6AsCTOm4qX6g" target=3D"_blank"></a></td></tr></tbody></table>
+<table class=3D"mcnTextContentContainer" style=3D"BORDER-COLLAPSE: collapse=
+; -MS-TEXT-SIZE-ADJUST: 100%; -webkit-text-size-adjust: 100%; mso-table-lsp=
+ace: 0pt; mso-table-rspace: 0pt" cellspacing=3D"0" cellpadding=3D"0" width=
+=3D"197" align=3D"right" border=3D"0">
+<tbody>
+<tr>
+<td class=3D"mcnTextContent" style=3D"FONT-SIZE: 11px; FONT-FAMILY: Helveti=
+ca; COLOR: #606060; PADDING-BOTTOM: 9px; -MS-TEXT-SIZE-ADJUST: 100%; TEXT-A=
+LIGN: left; PADDING-TOP: 9px; PADDING-LEFT: 0px; LINE-HEIGHT: 125%; PADDING=
+-RIGHT: 18px; -webkit-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-ta=
+ble-rspace: 0pt" valign=3D"top"><a style=3D"WORD-WRAP: break-word; TEXT-DEC=
+ORATION: underline; FONT-WEIGHT: normal; COLOR: #606060; -MS-TEXT-SIZE-ADJU=
+ST: 100%; -webkit-text-size-adjust: 100%" href=3D"http://link.bluefrogrobot=
+ics.com/w/31104/39k_Nr_QQUalb65hfw-CSw/50eCBZzmVEqPXwl_PA-34g/t5dLEDHIgkqpA=
+gz-XKhYeg" target=3D"_blank">Voir cet email dans votre navigateur</a> </td>=
+</tr></tbody></table></td></tr></tbody></table></td></tr></tbody></table></=
+td></tr></tbody></table><!-- // END PREHEADER --></td></tr>
+<tr>
+<td style=3D"-MS-TEXT-SIZE-ADJUST: 100%; -webkit-text-size-adjust: 100%; ms=
+o-table-lspace: 0pt; mso-table-rspace: 0pt" valign=3D"top" align=3D"center"=
+><!-- BEGIN HEADER // -->
+<table id=3D"templateHeader" style=3D"BORDER-TOP: 0px; BORDER-COLLAPSE: col=
+lapse; BORDER-BOTTOM: 0px; -MS-TEXT-SIZE-ADJUST: 100%; -webkit-text-size-ad=
+just: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt" cellspacing=3D"0"=
+ cellpadding=3D"0" width=3D"100%" border=3D"0">
+<tbody>
+<tr>
+<td style=3D"-MS-TEXT-SIZE-ADJUST: 100%; -webkit-text-size-adjust: 100%; ms=
+o-table-lspace: 0pt; mso-table-rspace: 0pt" valign=3D"top" align=3D"center"=
+>
+<table class=3D"templateContainer" style=3D"BORDER-COLLAPSE: collapse; -MS-=
+TEXT-SIZE-ADJUST: 100%; -webkit-text-size-adjust: 100%; mso-table-lspace: 0=
+pt; mso-table-rspace: 0pt" cellspacing=3D"0" cellpadding=3D"0" width=3D"600=
+" border=3D"0">
+<tbody>
+<tr>
+<td class=3D"headerContainer" style=3D"PADDING-BOTTOM: 10px; -MS-TEXT-SIZE-=
+ADJUST: 100%; PADDING-TOP: 10px; -webkit-text-size-adjust: 100%; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt" valign=3D"top">
+<table class=3D"mcnDividerBlock" style=3D"BORDER-COLLAPSE: collapse; -MS-TE=
+XT-SIZE-ADJUST: 100%; -webkit-text-size-adjust: 100%; mso-table-lspace: 0pt=
+; mso-table-rspace: 0pt" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%"=
+ border=3D"0">
+<tbody class=3D"mcnDividerBlockOuter">
+<tr>
+<td class=3D"mcnDividerBlockInner" style=3D"PADDING-BOTTOM: 10px; -MS-TEXT-=
+SIZE-ADJUST: 100%; PADDING-TOP: 10px; PADDING-LEFT: 18px; PADDING-RIGHT: 18=
+px; -webkit-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace=
+: 0pt">
+<table class=3D"mcnDividerContent" style=3D"BORDER-TOP: #999999 1px; BORDER=
+-COLLAPSE: collapse; -MS-TEXT-SIZE-ADJUST: 100%; -webkit-text-size-adjust: =
+100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt" cellspacing=3D"0" cellp=
+adding=3D"0" width=3D"100%" border=3D"0">
+<tbody>
+<tr>
+<td style=3D"-MS-TEXT-SIZE-ADJUST: 100%; -webkit-text-size-adjust: 100%; ms=
+o-table-lspace: 0pt; mso-table-rspace: 0pt"><span></span></td></tr></tbody>=
+</table></td></tr></tbody></table>
+<table class=3D"mcnImageBlock" style=3D"BORDER-COLLAPSE: collapse; -MS-TEXT=
+-SIZE-ADJUST: 100%; -webkit-text-size-adjust: 100%; mso-table-lspace: 0pt; =
+mso-table-rspace: 0pt" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" b=
+order=3D"0">
+<tbody class=3D"mcnImageBlockOuter">
+<tr>
+<td class=3D"mcnImageBlockInner" style=3D"PADDING-BOTTOM: 0px; -MS-TEXT-SIZ=
+E-ADJUST: 100%; PADDING-TOP: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; -w=
+ebkit-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt"=
+ valign=3D"top">
+<table class=3D"mcnImageContentContainer" style=3D"BORDER-COLLAPSE: collaps=
+e; -MS-TEXT-SIZE-ADJUST: 100%; -webkit-text-size-adjust: 100%; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt" cellspacing=3D"0" cellpadding=3D"0" width=
+=3D"100%" align=3D"left" border=3D"0">
+<tbody>
+<tr>
+<td class=3D"mcnImageContent" style=3D"PADDING-BOTTOM: 0px; -MS-TEXT-SIZE-A=
+DJUST: 100%; TEXT-ALIGN: center; PADDING-TOP: 0px; PADDING-LEFT: 0px; PADDI=
+NG-RIGHT: 0px; -webkit-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-t=
+able-rspace: 0pt" valign=3D"top"><a title=3D"" style=3D"WORD-WRAP: break-wo=
+rd; -MS-TEXT-SIZE-ADJUST: 100%; -webkit-text-size-adjust: 100%" href=3D"htt=
+p://link.bluefrogrobotics.com/h/31104/39k_Nr_QQUalb65hfw-CSw/50eCBZzmVEqPXw=
+l_PA-34g/8E6X6JicZ0SxNvGECpt9wQ" target=3D"_blank"><img class=3D"mcnImage" =
+style=3D"TEXT-DECORATION: none; MAX-WIDTH: 433px; BORDER-TOP: 0px; BORDER-R=
+IGHT: 0px; VERTICAL-ALIGN: bottom; BORDER-BOTTOM: 0px; OUTLINE-WIDTH: mediu=
+m; PADDING-BOTTOM: 0px; OUTLINE-STYLE: none; BORDER-LEFT: 0px; DISPLAY: inl=
+ine !important; OUTLINE-COLOR: invert; -MS-INTERPOLATION-MODE: bicubic" alt=
+=3D"" src=3D"http://img.bluefrogrobotics.com/31104/kIYhgnUjY0OEtr4EJG2Piw/4=
+24cf517-21b1-4c5e-8d9b-da2a55ea7e49.png" width=3D"216" align=3D"center"> </=
+a></td></tr></tbody></table></td></tr></tbody></table>
+<table class=3D"mcnDividerBlock" style=3D"BORDER-COLLAPSE: collapse; -MS-TE=
+XT-SIZE-ADJUST: 100%; -webkit-text-size-adjust: 100%; mso-table-lspace: 0pt=
+; mso-table-rspace: 0pt" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%"=
+ border=3D"0">
+<tbody class=3D"mcnDividerBlockOuter">
+<tr>
+<td class=3D"mcnDividerBlockInner" style=3D"PADDING-BOTTOM: 10px; -MS-TEXT-=
+SIZE-ADJUST: 100%; PADDING-TOP: 10px; PADDING-LEFT: 18px; PADDING-RIGHT: 18=
+px; -webkit-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace=
+: 0pt">
+<table class=3D"mcnDividerContent" style=3D"BORDER-COLLAPSE: collapse; -MS-=
+TEXT-SIZE-ADJUST: 100%; -webkit-text-size-adjust: 100%; mso-table-lspace: 0=
+pt; mso-table-rspace: 0pt" cellspacing=3D"0" cellpadding=3D"0" width=3D"100=
+%" border=3D"0">
+<tbody>
+<tr>
+<td style=3D"-MS-TEXT-SIZE-ADJUST: 100%; -webkit-text-size-adjust: 100%; ms=
+o-table-lspace: 0pt; mso-table-rspace: 0pt"><span></span></td></tr></tbody>=
+</table></td></tr></tbody></table></td></tr></tbody></table></td></tr></tbo=
+dy></table><!-- // END HEADER --></td></tr>
+<tr>
+<td style=3D"-MS-TEXT-SIZE-ADJUST: 100%; -webkit-text-size-adjust: 100%; ms=
+o-table-lspace: 0pt; mso-table-rspace: 0pt" valign=3D"top" align=3D"center"=
+><!-- BEGIN BODY // -->
+<table id=3D"templateBody" style=3D"BORDER-TOP: 0px; BORDER-COLLAPSE: colla=
+pse; BORDER-BOTTOM: 0px; -MS-TEXT-SIZE-ADJUST: 100%; -webkit-text-size-adju=
+st: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt" cellspacing=3D"0" c=
+ellpadding=3D"0" width=3D"100%" border=3D"0">
+<tbody>
+<tr>
+<td style=3D"-MS-TEXT-SIZE-ADJUST: 100%; -webkit-text-size-adjust: 100%; ms=
+o-table-lspace: 0pt; mso-table-rspace: 0pt" valign=3D"top" align=3D"center"=
+>
+<table class=3D"templateContainer" style=3D"BORDER-COLLAPSE: collapse; -MS-=
+TEXT-SIZE-ADJUST: 100%; -webkit-text-size-adjust: 100%; mso-table-lspace: 0=
+pt; mso-table-rspace: 0pt" cellspacing=3D"0" cellpadding=3D"0" width=3D"600=
+" border=3D"0">
+<tbody>
+<tr>
+<td class=3D"bodyContainer" style=3D"PADDING-BOTTOM: 10px; -MS-TEXT-SIZE-AD=
+JUST: 100%; PADDING-TOP: 10px; -webkit-text-size-adjust: 100%; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt" valign=3D"top">
+<table class=3D"mcnCodeBlock" style=3D"BORDER-COLLAPSE: collapse; -MS-TEXT-=
+SIZE-ADJUST: 100%; -webkit-text-size-adjust: 100%; mso-table-lspace: 0pt; m=
+so-table-rspace: 0pt" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" bo=
+rder=3D"0">
+<tbody class=3D"mcnTextBlockOuter">
+<tr>
+<td class=3D"mcnTextBlockInner" style=3D"-MS-TEXT-SIZE-ADJUST: 100%; -webki=
+t-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt" val=
+ign=3D"top">
+<style type=3D"text/css">
+body
+{
+  background-color: rgba(0,0,0,0) !important;
+}
+#bodyTable,
+#templateBody
+{
+  background-color: rgba(0,0,0,0) !important;
+}
+
+body
+{
+=09background-image: url('https://gallery.mailchimp.com/6ee3c1f00dab677cb61=
+63195a/images/de3f937c-2dc6-4095-afd7-0e303b383e60.jpg');
+=09background-repeat: no-repeat;
+=09background-size: 100%;
+    //background-size: cover;
+    position:absolute;
+    z-index:-1;=20
+    width:100%;=20
+    height:100%;
+}
+#templateHeader
+{
+  background-color: rgba(0,0,0,0.05) !important;
+}
+</style>
+<!--
+<table style=3D"width:100%; height:100%; position:fixed; top:0; left:0;" ce=
+llspacing=3D"0" cellpadding=3D"0" border=3D"0" id=3D"customBG" background=
+=3D"https://gallery.mailchimp.com/6ee3c1f00dab677cb6163195a/images/de3f937c=
+-2dc6-4095-afd7-0e303b383e60.jpg">*/
+<tr><td></td></tr>
+</table>--></td></tr></tbody></table>
+<table class=3D"mcnTextBlock" style=3D"BORDER-COLLAPSE: collapse; -MS-TEXT-=
+SIZE-ADJUST: 100%; -webkit-text-size-adjust: 100%; mso-table-lspace: 0pt; m=
+so-table-rspace: 0pt" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" bo=
+rder=3D"0">
+<tbody class=3D"mcnTextBlockOuter">
+<tr>
+<td class=3D"mcnTextBlockInner" style=3D"-MS-TEXT-SIZE-ADJUST: 100%; -webki=
+t-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt" val=
+ign=3D"top">
+<table class=3D"mcnTextContentContainer" style=3D"BORDER-COLLAPSE: collapse=
+; -MS-TEXT-SIZE-ADJUST: 100%; -webkit-text-size-adjust: 100%; mso-table-lsp=
+ace: 0pt; mso-table-rspace: 0pt" cellspacing=3D"0" cellpadding=3D"0" width=
+=3D"600" align=3D"left" border=3D"0">
+<tbody>
+<tr>
+<td class=3D"mcnTextContent" style=3D"FONT-SIZE: 12px; FONT-FAMILY: Arial, =
+'Helvetica Neue', Helvetica, sans-serif; COLOR: #aaaaaa; PADDING-BOTTOM: 9p=
+x; -MS-TEXT-SIZE-ADJUST: 100%; TEXT-ALIGN: justify; PADDING-TOP: 9px; PADDI=
+NG-LEFT: 18px; LINE-HEIGHT: 150%; PADDING-RIGHT: 18px; -webkit-text-size-ad=
+just: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt" valign=3D"top">
+<h2 class=3D"null" style=3D"FONT-SIZE: 26px; FONT-FAMILY: Helvetica; FONT-W=
+EIGHT: bold; COLOR: #404040 !important; PADDING-BOTTOM: 0px; FONT-STYLE: no=
+rmal; TEXT-ALIGN: center; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px;=
+ DISPLAY: block; LETTER-SPACING: 0px; LINE-HEIGHT: 125%; PADDING-RIGHT: 0px=
+"><span style=3D"COLOR: #808080"><span style=3D"FONT-SIZE: 24px"><strong>Of=
+fre sp=C3=A9ciale =C3=A0 dur=C3=A9e limit=C3=A9e&nbsp;-&nbsp;LAISSEZ VOUS T=
+ENTER! ADOPTEZ BUDDY!</strong></span></span></h2></td></tr></tbody></table>=
+</td></tr></tbody></table>
+<table class=3D"mcnDividerBlock" style=3D"BORDER-COLLAPSE: collapse; -MS-TE=
+XT-SIZE-ADJUST: 100%; -webkit-text-size-adjust: 100%; mso-table-lspace: 0pt=
+; mso-table-rspace: 0pt" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%"=
+ border=3D"0">
+<tbody class=3D"mcnDividerBlockOuter">
+<tr>
+<td class=3D"mcnDividerBlockInner" style=3D"PADDING-BOTTOM: 18px; -MS-TEXT-=
+SIZE-ADJUST: 100%; PADDING-TOP: 18px; PADDING-LEFT: 18px; PADDING-RIGHT: 18=
+px; -webkit-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace=
+: 0pt">
+<table class=3D"mcnDividerContent" style=3D"BORDER-TOP: #cccccc 1px solid; =
+BORDER-COLLAPSE: collapse; -MS-TEXT-SIZE-ADJUST: 100%; -webkit-text-size-ad=
+just: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt" cellspacing=3D"0"=
+ cellpadding=3D"0" width=3D"100%" border=3D"0">
+<tbody>
+<tr>
+<td style=3D"-MS-TEXT-SIZE-ADJUST: 100%; -webkit-text-size-adjust: 100%; ms=
+o-table-lspace: 0pt; mso-table-rspace: 0pt"><span></span></td></tr></tbody>=
+</table></td></tr></tbody></table>
+<table class=3D"mcnTextBlock" style=3D"BORDER-COLLAPSE: collapse; -MS-TEXT-=
+SIZE-ADJUST: 100%; -webkit-text-size-adjust: 100%; mso-table-lspace: 0pt; m=
+so-table-rspace: 0pt" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" bo=
+rder=3D"0">
+<tbody class=3D"mcnTextBlockOuter">
+<tr>
+<td class=3D"mcnTextBlockInner" style=3D"-MS-TEXT-SIZE-ADJUST: 100%; -webki=
+t-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt" val=
+ign=3D"top">
+<table class=3D"mcnTextContentContainer" style=3D"BORDER-COLLAPSE: collapse=
+; -MS-TEXT-SIZE-ADJUST: 100%; -webkit-text-size-adjust: 100%; mso-table-lsp=
+ace: 0pt; mso-table-rspace: 0pt" cellspacing=3D"0" cellpadding=3D"0" width=
+=3D"600" align=3D"left" border=3D"0">
+<tbody>
+<tr>
+<td class=3D"mcnTextContent" style=3D"FONT-SIZE: 9px; FONT-FAMILY: Helvetic=
+a; COLOR: #666666; PADDING-BOTTOM: 9px; -MS-TEXT-SIZE-ADJUST: 100%; TEXT-AL=
+IGN: left; PADDING-TOP: 9px; PADDING-LEFT: 18px; LINE-HEIGHT: 125%; PADDING=
+-RIGHT: 18px; -webkit-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-ta=
+ble-rspace: 0pt" valign=3D"top"><span style=3D"FONT-SIZE: 15px; FONT-FAMILY=
+: helvetica; COLOR: #606060; LINE-HEIGHT: 20px">Bonjour =C3=A0 tous,&nbsp;<=
+br><br><span style=3D"FONT-SIZE: 17px"><strong>Nous sommes =C3=A0 moins de =
+6 JOURS de la fin de notre campagne de financement participatif!&nbsp;</str=
+ong></span></span><br>&nbsp;=20
+<div style=3D"TEXT-ALIGN: justify">&nbsp;</div>
+<div>
+<div style=3D"TEXT-ALIGN: justify"><font color=3D"#606060" face=3D"helvetic=
+a"><span style=3D"FONT-SIZE: 15px; LINE-HEIGHT: 20px">Vous avez demand=C3=
+=A9 le paiement en 2 fois, nous vous&nbsp;le proposons aujourd'hui !</span>=
+</font><br><font color=3D"#606060" face=3D"helvetica"><span style=3D"FONT-S=
+IZE: 15px; LINE-HEIGHT: 20px">Suite =C3=A0 vos nombreuses demandes et afin =
+de donner une&nbsp;chance =C3=A0 tous d'adopter&nbsp;</span></font><a style=
+=3D"FONT-SIZE: 15px; WORD-WRAP: break-word; TEXT-DECORATION: underline; FON=
+T-FAMILY: helvetica; FONT-WEIGHT: normal; COLOR: #00d4d0 !important; -MS-TE=
+XT-SIZE-ADJUST: 100%; LINE-HEIGHT: 20px; -webkit-text-size-adjust: 100%" hr=
+ef=3D"http://link.bluefrogrobotics.com/h/31104/39k_Nr_QQUalb65hfw-CSw/50eCB=
+ZzmVEqPXwl_PA-34g/X3u6eVMKPkWK6iuPx0yb-Q" target=3D"_blank">BUDDY</a><font =
+color=3D"#606060" face=3D"helvetica"><span style=3D"FONT-SIZE: 15px; LINE-H=
+EIGHT: 20px">, nous offrons d=C3=A9sormais la possibilit=C3=A9 de l'acqu=C3=
+=A9rir dans sa version classique en r=C3=A9glant un premier paiement de&nbs=
+p;349$ lors de la commande</span></font><span style=3D"FONT-SIZE: 14px; FON=
+T-FAMILY: helvetica neue,helvetica,arial,sans-serif; TEXT-ALIGN: justify; L=
+INE-HEIGHT: 22px">,</span><font color=3D"#606060" face=3D"helvetica"><span =
+style=3D"FONT-SIZE: 15px; LINE-HEIGHT: 20px">&nbsp;puis&nbsp;le reste&nbsp;=
+(350$) seulement au moment de la livraison.</span></font><br><br><font colo=
+r=3D"#606060" face=3D"helvetica"><span style=3D"FONT-SIZE: 15px; LINE-HEIGH=
+T: 20px">Profitez de cette offre sp=C3=A9ciale de derni=C3=A8re minute&nbsp=
+;jusqu'=C3=A0 la fin de la campagne. </span></font><span style=3D"FONT-SIZE=
+: 15px; FONT-FAMILY: helvetica; COLOR: #606060; LINE-HEIGHT: 20px">C=E2=80=
+=99est le moment o=C3=B9 jamais d=E2=80=99adopter votre <a style=3D"FONT-SI=
+ZE: 15px; WORD-WRAP: break-word; TEXT-DECORATION: underline; FONT-FAMILY: h=
+elvetica; FONT-WEIGHT: normal; COLOR: #00d4d0 !important; -MS-TEXT-SIZE-ADJ=
+UST: 100%; LINE-HEIGHT: 20px; -webkit-text-size-adjust: 100%" href=3D"http:=
+//link.bluefrogrobotics.com/h/31104/39k_Nr_QQUalb65hfw-CSw/50eCBZzmVEqPXwl_=
+PA-34g/9jaTF1LItUK59Bl2RmB5TQ" target=3D"_blank">BUDDY</a>&nbsp;avec tous s=
+es accessoires d=C3=A9di=C3=A9s =C3=A0 un tarif avantageux</span><font colo=
+r=3D"#606060" face=3D"helvetica"><span style=3D"FONT-SIZE: 15px; LINE-HEIGH=
+T: 20px">.</span></font><br><br><span style=3D"FONT-SIZE: 15px; FONT-FAMILY=
+: helvetica; COLOR: #606060; LINE-HEIGHT: 20px"><a href=3D"http://link.blue=
+frogrobotics.com/h/31104/39k_Nr_QQUalb65hfw-CSw/50eCBZzmVEqPXwl_PA-34g/HAMb=
+iJv2w06aJ2EZEwoumA"><img style=3D"TEXT-DECORATION: none; BORDER-TOP: 0px; H=
+EIGHT: 405px; BORDER-RIGHT: 0px; WIDTH: 720px; BORDER-BOTTOM: 0px; OUTLINE-=
+WIDTH: medium; OUTLINE-STYLE: none; BORDER-LEFT: 0px; MARGIN: 0px; OUTLINE-=
+COLOR: invert; -MS-INTERPOLATION-MODE: bicubic" src=3D"http://img.bluefrogr=
+obotics.com/31104/kIYhgnUjY0OEtr4EJG2Piw/7142b0d3-ce4b-40b5-8609-51195b2f60=
+27.jpg" width=3D"720" height=3D"405"></a></span></div><br><span style=3D"FO=
+NT-SIZE: 15px; FONT-FAMILY: helvetica; COLOR: #606060; LINE-HEIGHT: 20px">&=
+nbsp; </span>
+<p style=3D"FONT-SIZE: 15px; FONT-FAMILY: Helvetica; COLOR: #606060; PADDIN=
+G-BOTTOM: 0px; -MS-TEXT-SIZE-ADJUST: 100%; TEXT-ALIGN: justify; PADDING-TOP=
+: 0px; PADDING-LEFT: 0px; MARGIN: 1em 0px; LINE-HEIGHT: 150%; PADDING-RIGHT=
+: 0px; -webkit-text-size-adjust: 100%"><span style=3D"FONT-SIZE: 17px"><str=
+ong><span style=3D"FONT-FAMILY: helvetica; COLOR: #606060; LINE-HEIGHT: 20p=
+x">BUDDY s'est fait de nouveaux amis sur la c=C3=B4te Est et la c=C3=B4te O=
+uest des Etats-Unis.</span></strong></span></p>
+<div style=3D"TEXT-ALIGN: justify"><br><font color=3D"#606060" face=3D"helv=
+etica"><span style=3D"FONT-SIZE: 15px; LINE-HEIGHT: 20px">BUDDY et ses cr=
+=C3=A9ateurs,&nbsp;</span></font><a style=3D"FONT-SIZE: 15px; WORD-WRAP: br=
+eak-word; TEXT-DECORATION: underline; FONT-FAMILY: helvetica; FONT-WEIGHT: =
+normal; COLOR: #00d4d0 !important; -MS-TEXT-SIZE-ADJUST: 100%; LINE-HEIGHT:=
+ 20px; -webkit-text-size-adjust: 100%" href=3D"http://link.bluefrogrobotics=
+.com/h/31104/39k_Nr_QQUalb65hfw-CSw/50eCBZzmVEqPXwl_PA-34g/8RohpQRdHkK_qXpZ=
+__8ahA" target=3D"_blank">Blue Frog Robotics</a><font color=3D"#606060" fac=
+e=3D"helvetica"><span style=3D"FONT-SIZE: 15px; LINE-HEIGHT: 20px">, ont&nb=
+sp;entrepris il y a quelques jours une tourn=C3=A9e =C3=A0 travers les Etat=
+s-Unis pour rencontrer la presse, les fans et les investisseurs.</span></fo=
+nt><br><font color=3D"#606060" face=3D"helvetica"><span style=3D"FONT-SIZE:=
+ 15px; LINE-HEIGHT: 20px">&nbsp;</span></font><br><font color=3D"#606060" f=
+ace=3D"helvetica"><span style=3D"FONT-SIZE: 15px; HEIGHT: 376px; WIDTH: 720=
+px; LINE-HEIGHT: 20px"><img style=3D"TEXT-DECORATION: none; BORDER-TOP: 0px=
+; HEIGHT: 376px; BORDER-RIGHT: 0px; WIDTH: 720px; BORDER-BOTTOM: 0px; OUTLI=
+NE-WIDTH: medium; OUTLINE-STYLE: none; BORDER-LEFT: 0px; MARGIN: 0px; OUTLI=
+NE-COLOR: invert; -MS-INTERPOLATION-MODE: bicubic" src=3D"http://img.bluefr=
+ogrobotics.com/31104/kIYhgnUjY0OEtr4EJG2Piw/d8766afd-8a81-4d9a-8d58-b209aa3=
+ba32a.jpg" width=3D"720" height=3D"376"></span><span style=3D"FONT-SIZE: 15=
+px; LINE-HEIGHT: 20px">&nbsp;</span></font><br><br><font color=3D"#606060" =
+face=3D"helvetica"><span style=3D"FONT-SIZE: 15px; LINE-HEIGHT: 20px">Regar=
+dez BUDDY se balader =C3=A0 Boston et faire des apparitions TV sur le Bosto=
+n Globe, le Boston Business Journal et CRN! &nbsp;</span></font><br><br><a =
+style=3D"FONT-SIZE: 15px; WORD-WRAP: break-word; TEXT-DECORATION: underline=
+; FONT-FAMILY: helvetica; FONT-WEIGHT: normal; COLOR: #00d4d0 !important; -=
+MS-TEXT-SIZE-ADJUST: 100%; LINE-HEIGHT: 20px; -webkit-text-size-adjust: 100=
+%" href=3D"http://link.bluefrogrobotics.com/h/31104/39k_Nr_QQUalb65hfw-CSw/=
+50eCBZzmVEqPXwl_PA-34g/b77q78av5U-3ZAvBliJryA" target=3D"_blank">VIDEO :&nb=
+sp;"With Jibo and now Buddy, Boston is becoming a social-robot mecca"&nbsp;=
+</a><font color=3D"#606060" face=3D"helvetica"><span style=3D"FONT-SIZE: 15=
+px; LINE-HEIGHT: 20px">-&nbsp;David Harris, Boston Business Journal</span><=
+/font><br><a style=3D"FONT-SIZE: 15px; WORD-WRAP: break-word; TEXT-DECORATI=
+ON: underline; FONT-FAMILY: helvetica; FONT-WEIGHT: normal; COLOR: #00d4d0 =
+!important; -MS-TEXT-SIZE-ADJUST: 100%; LINE-HEIGHT: 20px; -webkit-text-siz=
+e-adjust: 100%" href=3D"http://link.bluefrogrobotics.com/h/31104/39k_Nr_QQU=
+alb65hfw-CSw/50eCBZzmVEqPXwl_PA-34g/Ybq0-kJqqE2EvHbZD5qzjg" target=3D"_blan=
+k">VIDEO : "Meet Buddy: the Stars Wars-Inspired Robot"</a><font color=3D"#6=
+06060" face=3D"helvetica"><span style=3D"FONT-SIZE: 15px; LINE-HEIGHT: 20px=
+"> - CRN</span></font><br><a style=3D"FONT-SIZE: 15px; WORD-WRAP: break-wor=
+d; TEXT-DECORATION: underline; FONT-FAMILY: helvetica; FONT-WEIGHT: normal;=
+ COLOR: #00d4d0 !important; -MS-TEXT-SIZE-ADJUST: 100%; LINE-HEIGHT: 20px; =
+-webkit-text-size-adjust: 100%" href=3D"http://link.bluefrogrobotics.com/h/=
+31104/39k_Nr_QQUalb65hfw-CSw/50eCBZzmVEqPXwl_PA-34g/ZrQbFJfWA0moDPKau1NuZg"=
+ target=3D"_blank">VIDEO :&nbsp;"Robot pet-sitters?"&nbsp;</a><font color=
+=3D"#606060" face=3D"helvetica"><span style=3D"FONT-SIZE: 15px; LINE-HEIGHT=
+: 20px">&nbsp;-&nbsp;Scott Kirsner, The Boston Globe</span></font><br><a st=
+yle=3D"FONT-SIZE: 15px; WORD-WRAP: break-word; TEXT-DECORATION: underline; =
+FONT-FAMILY: helvetica; FONT-WEIGHT: normal; COLOR: #00d4d0 !important; -MS=
+-TEXT-SIZE-ADJUST: 100%; LINE-HEIGHT: 20px; -webkit-text-size-adjust: 100%"=
+ href=3D"http://link.bluefrogrobotics.com/h/31104/39k_Nr_QQUalb65hfw-CSw/50=
+eCBZzmVEqPXwl_PA-34g/hE3ysTyRPUSRk5n8moY05g" target=3D"_blank">"The cutest =
+robot friend you can actually own"</a><font color=3D"#606060" face=3D"helve=
+tica"><span style=3D"FONT-SIZE: 15px; LINE-HEIGHT: 20px"> - Doug Banks, Bos=
+ton Business Journal</span></font><br><a style=3D"FONT-SIZE: 15px; WORD-WRA=
+P: break-word; TEXT-DECORATION: underline; FONT-FAMILY: helvetica; FONT-WEI=
+GHT: normal; COLOR: #00d4d0 !important; -MS-TEXT-SIZE-ADJUST: 100%; LINE-HE=
+IGHT: 20px; -webkit-text-size-adjust: 100%" href=3D"http://link.bluefrogrob=
+otics.com/h/31104/39k_Nr_QQUalb65hfw-CSw/50eCBZzmVEqPXwl_PA-34g/57NU5R_MDEa=
+2G2gYTVJZ9A" target=3D"_blank">"Companion robot named Buddy introduced to t=
+he states" </a><font color=3D"#606060" face=3D"helvetica"><span style=3D"FO=
+NT-SIZE: 15px; LINE-HEIGHT: 20px">- Ashley Troutman, My Fox Boston</span></=
+font><br><font color=3D"#606060" face=3D"helvetica"><span style=3D"FONT-SIZ=
+E: 15px; LINE-HEIGHT: 20px">&nbsp;</span></font><br><font color=3D"#606060"=
+ face=3D"helvetica"><span style=3D"FONT-SIZE: 15px; LINE-HEIGHT: 20px">&nbs=
+p;</span></font><br><font color=3D"#606060" face=3D"helvetica"><span style=
+=3D"FONT-SIZE: 15px; HEIGHT: 405px; WIDTH: 720px; LINE-HEIGHT: 20px"><img s=
+tyle=3D"TEXT-DECORATION: none; BORDER-TOP: 0px; HEIGHT: 405px; BORDER-RIGHT=
+: 0px; WIDTH: 720px; BORDER-BOTTOM: 0px; OUTLINE-WIDTH: medium; OUTLINE-STY=
+LE: none; BORDER-LEFT: 0px; MARGIN: 0px; OUTLINE-COLOR: invert; -MS-INTERPO=
+LATION-MODE: bicubic" src=3D"http://img.bluefrogrobotics.com/31104/kIYhgnUj=
+Y0OEtr4EJG2Piw/aec3c075-7b7d-40a7-ab0e-fdfd2d3baf87.jpg" width=3D"720" heig=
+ht=3D"405"></span></font><br><font color=3D"#606060" face=3D"helvetica"><sp=
+an style=3D"FONT-SIZE: 15px; LINE-HEIGHT: 20px">&nbsp;</span></font><br><fo=
+nt color=3D"#606060" face=3D"helvetica"><span style=3D"FONT-SIZE: 15px; LIN=
+E-HEIGHT: 20px">Ensuite, BUDDY est partit se&nbsp;faire des nouveaux amis s=
+ur la c=C3=B4te Ouest. Regardez :</span></font><br><br><font color=3D"#6060=
+60" face=3D"helvetica"><span style=3D"FONT-SIZE: 15px; LINE-HEIGHT: 20px">-=
+ BUDDY interview=C3=A9 par Stephen&nbsp;Beacham</span></font><span style=3D=
+"FONT-SIZE: 15px; FONT-FAMILY: helvetica; COLOR: #606060; LINE-HEIGHT: 20px=
+">&nbsp;de <a style=3D"FONT-SIZE: 15px; WORD-WRAP: break-word; TEXT-DECORAT=
+ION: underline; FONT-FAMILY: helvetica; FONT-WEIGHT: normal; COLOR: #00d4d0=
+ !important; -MS-TEXT-SIZE-ADJUST: 100%; LINE-HEIGHT: 20px; -webkit-text-si=
+ze-adjust: 100%" href=3D"http://link.bluefrogrobotics.com/h/31104/39k_Nr_QQ=
+Ualb65hfw-CSw/50eCBZzmVEqPXwl_PA-34g/5bjJpE7EYk-4cL_mpEH23g" target=3D"_bla=
+nk">CNET TV</a></span><br><font color=3D"#606060" face=3D"helvetica"><span =
+style=3D"FONT-SIZE: 15px; LINE-HEIGHT: 20px">- BUDDY &nbsp;interview=C3=A9 =
+par Hubert N Guyuen d'</span></font><a style=3D"FONT-SIZE: 15px; WORD-WRAP:=
+ break-word; TEXT-DECORATION: underline; FONT-FAMILY: helvetica; FONT-WEIGH=
+T: normal; COLOR: #00d4d0 !important; -MS-TEXT-SIZE-ADJUST: 100%; LINE-HEIG=
+HT: 20px; -webkit-text-size-adjust: 100%" href=3D"http://link.bluefrogrobot=
+ics.com/h/31104/39k_Nr_QQUalb65hfw-CSw/50eCBZzmVEqPXwl_PA-34g/ByHRRYQSckOHt=
+cI6sk-lPQ" target=3D"_blank">Ubergizmo </a><font color=3D"#606060" face=3D"=
+helvetica"><span style=3D"FONT-SIZE: 15px; LINE-HEIGHT: 20px">et par Nathan=
+ Olivarez-Gilles du&nbsp;</span></font><a style=3D"FONT-SIZE: 15px; WORD-WR=
+AP: break-word; TEXT-DECORATION: underline; FONT-FAMILY: helvetica; FONT-WE=
+IGHT: normal; COLOR: #00d4d0 !important; -MS-TEXT-SIZE-ADJUST: 100%; LINE-H=
+EIGHT: 20px; -webkit-text-size-adjust: 100%" href=3D"http://link.bluefrogro=
+botics.com/h/31104/39k_Nr_QQUalb65hfw-CSw/50eCBZzmVEqPXwl_PA-34g/SeQj8f90LU=
+2Lm3elx4zMrw" target=3D"_blank">Wall Street Journal</a><br><font color=3D"#=
+606060" face=3D"helvetica"><span style=3D"FONT-SIZE: 15px; LINE-HEIGHT: 20p=
+x">- Et enfin BUDDY visitant les studios d'</span></font><a style=3D"FONT-S=
+IZE: 15px; WORD-WRAP: break-word; TEXT-DECORATION: underline; FONT-FAMILY: =
+helvetica; FONT-WEIGHT: normal; COLOR: #00d4d0 !important; -MS-TEXT-SIZE-AD=
+JUST: 100%; LINE-HEIGHT: 20px; -webkit-text-size-adjust: 100%" href=3D"http=
+://link.bluefrogrobotics.com/h/31104/39k_Nr_QQUalb65hfw-CSw/50eCBZzmVEqPXwl=
+_PA-34g/ytpd0qtdyEq-3Yh-d7W0eQ" target=3D"_blank">Engadget</a><font color=
+=3D"#606060" face=3D"helvetica"><span style=3D"FONT-SIZE: 15px; LINE-HEIGHT=
+: 20px">&nbsp;avec&nbsp;</span></font><a style=3D"FONT-SIZE: 15px; WORD-WRA=
+P: break-word; TEXT-DECORATION: underline; FONT-FAMILY: helvetica; FONT-WEI=
+GHT: normal; COLOR: #00d4d0 !important; -MS-TEXT-SIZE-ADJUST: 100%; LINE-HE=
+IGHT: 20px; -webkit-text-size-adjust: 100%" href=3D"http://link.bluefrogrob=
+otics.com/h/31104/39k_Nr_QQUalb65hfw-CSw/50eCBZzmVEqPXwl_PA-34g/-W8G74FgBEi=
+2097GLr6Hkg" target=3D"_blank">Andrew Tarantola</a><br><br><font color=3D"#=
+606060" face=3D"helvetica"><span style=3D"FONT-SIZE: 15px; LINE-HEIGHT: 20p=
+x">&nbsp;</span><span style=3D"FONT-SIZE: 15px; HEIGHT: 405px; WIDTH: 720px=
+; LINE-HEIGHT: 20px"><img style=3D"TEXT-DECORATION: none; BORDER-TOP: 0px; =
+HEIGHT: 405px; BORDER-RIGHT: 0px; WIDTH: 720px; BORDER-BOTTOM: 0px; OUTLINE=
+-WIDTH: medium; OUTLINE-STYLE: none; BORDER-LEFT: 0px; MARGIN: 0px; OUTLINE=
+-COLOR: invert; -MS-INTERPOLATION-MODE: bicubic" src=3D"http://img.bluefrog=
+robotics.com/31104/kIYhgnUjY0OEtr4EJG2Piw/1bb8bc18-fe66-442a-a1a4-ce91d46e0=
+539.jpg" width=3D"720" height=3D"405"></span></font><br><br><span style=3D"=
+FONT-SIZE: 17px; FONT-FAMILY: helvetica; COLOR: #606060; LINE-HEIGHT: 20px"=
+><strong>BUDDY a une nouvelle (deuxi=C3=A8me) maison</strong></span><br><br=
+><font color=3D"#606060" face=3D"helvetica"><span style=3D"FONT-SIZE: 15px;=
+ LINE-HEIGHT: 20px">BUDDY a re=C3=A7u un accueil chaleureux lors de sa prem=
+i=C3=A8re&nbsp;visite aux Etats-Unis o=C3=B9 il sera un&nbsp;visiteur r=C3=
+=A9gulier puisque Blue Frog Robotics a annonc=C3=A9 l'ouverture de ses bure=
+aux nord-am=C3=A9ricains =C3=A0 Boston, terre d'=C3=A9lection de la robotiq=
+ue.&nbsp;</span></font><br><br>&nbsp;=20
+<div style=3D"TEXT-ALIGN: justify">
+<div style=3D"TEXT-ALIGN: justify"><span style=3D"FONT-SIZE: 15px; FONT-FAM=
+ILY: helvetica; COLOR: #606060; LINE-HEIGHT: 20px"><strong>Partagez cet e-m=
+ail autour de vous,&nbsp;ou&nbsp;invitez vos coll=C3=A8gues, amis et famill=
+e =C3=A0&nbsp;adopter BUDDY</strong>. </span><br><span style=3D"FONT-SIZE: =
+15px; FONT-FAMILY: helvetica; COLOR: #606060; TEXT-ALIGN: justify; LINE-HEI=
+GHT: 20px">Nous vous en serions extr=C3=AAmement reconnaissants&nbsp;</span=
+><span style=3D"FONT-SIZE: 15px; FONT-FAMILY: helvetica; COLOR: #606060; LI=
+NE-HEIGHT: 20px">!</span></div><br><span style=3D"FONT-SIZE: 12px"><span st=
+yle=3D"FONT-SIZE: 15px"><a style=3D"WORD-WRAP: break-word; TEXT-DECORATION:=
+ underline; FONT-WEIGHT: normal; COLOR: #00d4d0 !important; -MS-TEXT-SIZE-A=
+DJUST: 100%; -webkit-text-size-adjust: 100%" href=3D"http://link.bluefrogro=
+botics.com/h/31104/39k_Nr_QQUalb65hfw-CSw/50eCBZzmVEqPXwl_PA-34g/8aJYn0rfS0=
+aPfjgMb66EGQ" target=3D"_blank"><strong>Twitter</strong></a><strong>&nbsp;|=
+&nbsp;</strong><a style=3D"WORD-WRAP: break-word; TEXT-DECORATION: underlin=
+e; FONT-WEIGHT: normal; COLOR: #00d4d0 !important; -MS-TEXT-SIZE-ADJUST: 10=
+0%; -webkit-text-size-adjust: 100%" href=3D"http://link.bluefrogrobotics.co=
+m/h/31104/39k_Nr_QQUalb65hfw-CSw/50eCBZzmVEqPXwl_PA-34g/RazgzCz07UC9T2K1Whv=
+vyQ" target=3D"_blank"><strong>Facebook</strong></a><strong>&nbsp;|&nbsp;</=
+strong><a style=3D"WORD-WRAP: break-word; TEXT-DECORATION: underline; FONT-=
+WEIGHT: normal; COLOR: #00d4d0 !important; -MS-TEXT-SIZE-ADJUST: 100%; -web=
+kit-text-size-adjust: 100%" href=3D"http://link.bluefrogrobotics.com/h/3110=
+4/39k_Nr_QQUalb65hfw-CSw/50eCBZzmVEqPXwl_PA-34g/JiAa25hu8Um8H1yHdJVX2A" tar=
+get=3D"_blank"><strong>Youtube</strong></a>&nbsp;&nbsp;</span><br>&nbsp;<br=
+><br><br><span style=3D"FONT-SIZE: 28px"><strong><a style=3D"FONT-SIZE: 17p=
+x; WORD-WRAP: break-word; TEXT-DECORATION: underline; FONT-FAMILY: helvetic=
+a; FONT-WEIGHT: normal; COLOR: #00d4d0 !important; -MS-TEXT-SIZE-ADJUST: 10=
+0%; LINE-HEIGHT: 20px; -webkit-text-size-adjust: 100%" href=3D"http://link.=
+bluefrogrobotics.com/h/31104/39k_Nr_QQUalb65hfw-CSw/50eCBZzmVEqPXwl_PA-34g/=
+IAob4721fUuD8fIeE0bt9Q" target=3D"_blank">Adoptez BUDDY&nbsp;d=C3=A8s maint=
+enant !</a>&nbsp;</strong></span></span><br>&nbsp;=20
+<div style=3D"TEXT-ALIGN: justify; LINE-HEIGHT: 20px"><br><br><span style=
+=3D"FONT-SIZE: 15px"><span style=3D"TEXT-ALIGN: left; LINE-HEIGHT: 20px">L'=
+=C3=A9quipe de Blue Frog Robotics</span></span></div></div></div><span styl=
+e=3D"FONT-SIZE: 15px; FONT-FAMILY: helvetica; COLOR: #606060; LINE-HEIGHT: =
+20px"></span></div></td></tr></tbody></table></td></tr></tbody></table>
+<table class=3D"mcnDividerBlock" style=3D"BORDER-COLLAPSE: collapse; -MS-TE=
+XT-SIZE-ADJUST: 100%; -webkit-text-size-adjust: 100%; mso-table-lspace: 0pt=
+; mso-table-rspace: 0pt" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%"=
+ border=3D"0">
+<tbody class=3D"mcnDividerBlockOuter">
+<tr>
+<td class=3D"mcnDividerBlockInner" style=3D"PADDING-BOTTOM: 10px; -MS-TEXT-=
+SIZE-ADJUST: 100%; PADDING-TOP: 10px; PADDING-LEFT: 18px; PADDING-RIGHT: 18=
+px; -webkit-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace=
+: 0pt">
+<table class=3D"mcnDividerContent" style=3D"BORDER-COLLAPSE: collapse; -MS-=
+TEXT-SIZE-ADJUST: 100%; -webkit-text-size-adjust: 100%; mso-table-lspace: 0=
+pt; mso-table-rspace: 0pt" cellspacing=3D"0" cellpadding=3D"0" width=3D"100=
+%" border=3D"0">
+<tbody>
+<tr>
+<td style=3D"-MS-TEXT-SIZE-ADJUST: 100%; -webkit-text-size-adjust: 100%; ms=
+o-table-lspace: 0pt; mso-table-rspace: 0pt"><span></span></td></tr></tbody>=
+</table></td></tr></tbody></table></td></tr></tbody></table></td></tr></tbo=
+dy></table><!-- // END BODY --></td></tr>
+<tr>
+<td style=3D"-MS-TEXT-SIZE-ADJUST: 100%; -webkit-text-size-adjust: 100%; ms=
+o-table-lspace: 0pt; mso-table-rspace: 0pt" valign=3D"top" align=3D"center"=
+><!-- BEGIN FOOTER // -->
+<table id=3D"templateFooter" style=3D"BORDER-TOP: 0px; BORDER-COLLAPSE: col=
+lapse; BORDER-BOTTOM: 0px; -MS-TEXT-SIZE-ADJUST: 100%; BACKGROUND-COLOR: #4=
+0444d; -webkit-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rsp=
+ace: 0pt" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" border=3D"0">
+<tbody>
+<tr>
+<td style=3D"-MS-TEXT-SIZE-ADJUST: 100%; -webkit-text-size-adjust: 100%; ms=
+o-table-lspace: 0pt; mso-table-rspace: 0pt" valign=3D"top" align=3D"center"=
+>
+<table class=3D"templateContainer" style=3D"BORDER-COLLAPSE: collapse; -MS-=
+TEXT-SIZE-ADJUST: 100%; -webkit-text-size-adjust: 100%; mso-table-lspace: 0=
+pt; mso-table-rspace: 0pt" cellspacing=3D"0" cellpadding=3D"0" width=3D"600=
+" border=3D"0">
+<tbody>
+<tr>
+<td class=3D"footerContainer" style=3D"PADDING-BOTTOM: 10px; -MS-TEXT-SIZE-=
+ADJUST: 100%; PADDING-TOP: 10px; -webkit-text-size-adjust: 100%; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt" valign=3D"top">
+<table class=3D"mcnFollowBlock" style=3D"BORDER-COLLAPSE: collapse; -MS-TEX=
+T-SIZE-ADJUST: 100%; -webkit-text-size-adjust: 100%; mso-table-lspace: 0pt;=
+ mso-table-rspace: 0pt" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" =
+border=3D"0">
+<tbody class=3D"mcnFollowBlockOuter">
+<tr>
+<td class=3D"mcnFollowBlockInner" style=3D"PADDING-BOTTOM: 9px; -MS-TEXT-SI=
+ZE-ADJUST: 100%; PADDING-TOP: 9px; PADDING-LEFT: 9px; PADDING-RIGHT: 9px; -=
+webkit-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt=
+" valign=3D"top" align=3D"center">
+<table class=3D"mcnFollowContentContainer" style=3D"BORDER-COLLAPSE: collap=
+se; -MS-TEXT-SIZE-ADJUST: 100%; -webkit-text-size-adjust: 100%; mso-table-l=
+space: 0pt; mso-table-rspace: 0pt" cellspacing=3D"0" cellpadding=3D"0" widt=
+h=3D"100%" border=3D"0">
+<tbody>
+<tr>
+<td style=3D"-MS-TEXT-SIZE-ADJUST: 100%; PADDING-LEFT: 9px; PADDING-RIGHT: =
+9px; -webkit-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspac=
+e: 0pt" align=3D"center">
+<table class=3D"mcnFollowContent" style=3D"BORDER-COLLAPSE: collapse; -MS-T=
+EXT-SIZE-ADJUST: 100%; -webkit-text-size-adjust: 100%; mso-table-lspace: 0p=
+t; mso-table-rspace: 0pt" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%=
+" border=3D"0">
+<tbody>
+<tr>
+<td style=3D"-MS-TEXT-SIZE-ADJUST: 100%; PADDING-TOP: 9px; PADDING-LEFT: 9p=
+x; PADDING-RIGHT: 9px; -webkit-text-size-adjust: 100%; mso-table-lspace: 0p=
+t; mso-table-rspace: 0pt" valign=3D"top" align=3D"center">
+<table style=3D"BORDER-COLLAPSE: collapse; -MS-TEXT-SIZE-ADJUST: 100%; -web=
+kit-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt" c=
+ellspacing=3D"0" cellpadding=3D"0" border=3D"0">
+<tbody>
+<tr>
+<td style=3D"-MS-TEXT-SIZE-ADJUST: 100%; -webkit-text-size-adjust: 100%; ms=
+o-table-lspace: 0pt; mso-table-rspace: 0pt" valign=3D"top">
+<table class=3D"mcnFollowStacked" style=3D"BORDER-COLLAPSE: collapse; -MS-T=
+EXT-SIZE-ADJUST: 100%; -webkit-text-size-adjust: 100%; mso-table-lspace: 0p=
+t; mso-table-rspace: 0pt" cellspacing=3D"0" cellpadding=3D"0" align=3D"left=
+" border=3D"0">
+<tbody>
+<tr>
+<td class=3D"mcnFollowIconContent" style=3D"PADDING-BOTTOM: 9px; -MS-TEXT-S=
+IZE-ADJUST: 100%; PADDING-RIGHT: 10px; -webkit-text-size-adjust: 100%; mso-=
+table-lspace: 0pt; mso-table-rspace: 0pt" valign=3D"top" align=3D"center"><=
+a style=3D"WORD-WRAP: break-word; -MS-TEXT-SIZE-ADJUST: 100%; -webkit-text-=
+size-adjust: 100%" href=3D"http://link.bluefrogrobotics.com/h/31104/39k_Nr_=
+QQUalb65hfw-CSw/50eCBZzmVEqPXwl_PA-34g/WDQbD_3GP0illMt24HeRhg" target=3D"_b=
+lank"><img class=3D"mcnFollowBlockIcon" style=3D"TEXT-DECORATION: none; MAX=
+-WIDTH: 48px; BORDER-TOP: 0px; BORDER-RIGHT: 0px; WIDTH: 48px; BORDER-BOTTO=
+M: 0px; OUTLINE-WIDTH: medium; OUTLINE-STYLE: none; BORDER-LEFT: 0px; DISPL=
+AY: block; OUTLINE-COLOR: invert; -MS-INTERPOLATION-MODE: bicubic" alt=3D"F=
+acebook" src=3D"http://img.bluefrogrobotics.com/31104/kIYhgnUjY0OEtr4EJG2Pi=
+w/color-facebook-96.png" width=3D"48"></a> </td></tr></tbody></table>
+<table class=3D"mcnFollowStacked" style=3D"BORDER-COLLAPSE: collapse; -MS-T=
+EXT-SIZE-ADJUST: 100%; -webkit-text-size-adjust: 100%; mso-table-lspace: 0p=
+t; mso-table-rspace: 0pt" cellspacing=3D"0" cellpadding=3D"0" align=3D"left=
+" border=3D"0">
+<tbody>
+<tr>
+<td class=3D"mcnFollowIconContent" style=3D"PADDING-BOTTOM: 9px; -MS-TEXT-S=
+IZE-ADJUST: 100%; PADDING-RIGHT: 10px; -webkit-text-size-adjust: 100%; mso-=
+table-lspace: 0pt; mso-table-rspace: 0pt" valign=3D"top" align=3D"center"><=
+a style=3D"WORD-WRAP: break-word; -MS-TEXT-SIZE-ADJUST: 100%; -webkit-text-=
+size-adjust: 100%" href=3D"http://link.bluefrogrobotics.com/h/31104/39k_Nr_=
+QQUalb65hfw-CSw/50eCBZzmVEqPXwl_PA-34g/BH1kHpW2pUSvW5-zA9uJ0A" target=3D"_b=
+lank"><img class=3D"mcnFollowBlockIcon" style=3D"TEXT-DECORATION: none; MAX=
+-WIDTH: 48px; BORDER-TOP: 0px; BORDER-RIGHT: 0px; WIDTH: 48px; BORDER-BOTTO=
+M: 0px; OUTLINE-WIDTH: medium; OUTLINE-STYLE: none; BORDER-LEFT: 0px; DISPL=
+AY: block; OUTLINE-COLOR: invert; -MS-INTERPOLATION-MODE: bicubic" alt=3D"T=
+witter" src=3D"http://img.bluefrogrobotics.com/31104/kIYhgnUjY0OEtr4EJG2Piw=
+/color-twitter-96.png" width=3D"48"></a> </td></tr></tbody></table>
+<table class=3D"mcnFollowStacked" style=3D"BORDER-COLLAPSE: collapse; -MS-T=
+EXT-SIZE-ADJUST: 100%; -webkit-text-size-adjust: 100%; mso-table-lspace: 0p=
+t; mso-table-rspace: 0pt" cellspacing=3D"0" cellpadding=3D"0" align=3D"left=
+" border=3D"0">
+<tbody>
+<tr>
+<td class=3D"mcnFollowIconContent" style=3D"PADDING-BOTTOM: 9px; -MS-TEXT-S=
+IZE-ADJUST: 100%; PADDING-RIGHT: 10px; -webkit-text-size-adjust: 100%; mso-=
+table-lspace: 0pt; mso-table-rspace: 0pt" valign=3D"top" align=3D"center"><=
+a style=3D"WORD-WRAP: break-word; -MS-TEXT-SIZE-ADJUST: 100%; -webkit-text-=
+size-adjust: 100%" href=3D"http://link.bluefrogrobotics.com/h/31104/39k_Nr_=
+QQUalb65hfw-CSw/50eCBZzmVEqPXwl_PA-34g/hQ6DEma450atrNR4NHv47w" target=3D"_b=
+lank"><img class=3D"mcnFollowBlockIcon" style=3D"TEXT-DECORATION: none; MAX=
+-WIDTH: 48px; BORDER-TOP: 0px; BORDER-RIGHT: 0px; WIDTH: 48px; BORDER-BOTTO=
+M: 0px; OUTLINE-WIDTH: medium; OUTLINE-STYLE: none; BORDER-LEFT: 0px; DISPL=
+AY: block; OUTLINE-COLOR: invert; -MS-INTERPOLATION-MODE: bicubic" alt=3D"G=
+oogle Plus" src=3D"http://img.bluefrogrobotics.com/31104/kIYhgnUjY0OEtr4EJG=
+2Piw/color-googleplus-96.png" width=3D"48"></a> </td></tr></tbody></table>
+<table class=3D"mcnFollowStacked" style=3D"BORDER-COLLAPSE: collapse; -MS-T=
+EXT-SIZE-ADJUST: 100%; -webkit-text-size-adjust: 100%; mso-table-lspace: 0p=
+t; mso-table-rspace: 0pt" cellspacing=3D"0" cellpadding=3D"0" align=3D"left=
+" border=3D"0">
+<tbody>
+<tr>
+<td class=3D"mcnFollowIconContent" style=3D"PADDING-BOTTOM: 9px; -MS-TEXT-S=
+IZE-ADJUST: 100%; PADDING-RIGHT: 10px; -webkit-text-size-adjust: 100%; mso-=
+table-lspace: 0pt; mso-table-rspace: 0pt" valign=3D"top" align=3D"center"><=
+a style=3D"WORD-WRAP: break-word; -MS-TEXT-SIZE-ADJUST: 100%; -webkit-text-=
+size-adjust: 100%" href=3D"http://link.bluefrogrobotics.com/h/31104/39k_Nr_=
+QQUalb65hfw-CSw/50eCBZzmVEqPXwl_PA-34g/zahoO4cyQU-tUZ6mrDqGgw" target=3D"_b=
+lank"><img class=3D"mcnFollowBlockIcon" style=3D"TEXT-DECORATION: none; MAX=
+-WIDTH: 48px; BORDER-TOP: 0px; BORDER-RIGHT: 0px; WIDTH: 48px; BORDER-BOTTO=
+M: 0px; OUTLINE-WIDTH: medium; OUTLINE-STYLE: none; BORDER-LEFT: 0px; DISPL=
+AY: block; OUTLINE-COLOR: invert; -MS-INTERPOLATION-MODE: bicubic" alt=3D"L=
+inkedIn" src=3D"http://img.bluefrogrobotics.com/31104/kIYhgnUjY0OEtr4EJG2Pi=
+w/color-linkedin-96.png" width=3D"48"></a> </td></tr></tbody></table>
+<table class=3D"mcnFollowStacked" style=3D"BORDER-COLLAPSE: collapse; -MS-T=
+EXT-SIZE-ADJUST: 100%; -webkit-text-size-adjust: 100%; mso-table-lspace: 0p=
+t; mso-table-rspace: 0pt" cellspacing=3D"0" cellpadding=3D"0" align=3D"left=
+" border=3D"0">
+<tbody>
+<tr>
+<td class=3D"mcnFollowIconContent" style=3D"PADDING-BOTTOM: 9px; -MS-TEXT-S=
+IZE-ADJUST: 100%; PADDING-RIGHT: 10px; -webkit-text-size-adjust: 100%; mso-=
+table-lspace: 0pt; mso-table-rspace: 0pt" valign=3D"top" align=3D"center"><=
+a style=3D"WORD-WRAP: break-word; -MS-TEXT-SIZE-ADJUST: 100%; -webkit-text-=
+size-adjust: 100%" href=3D"http://link.bluefrogrobotics.com/h/31104/39k_Nr_=
+QQUalb65hfw-CSw/50eCBZzmVEqPXwl_PA-34g/TjVlWwW390mu_EwXSjBhyw" target=3D"_b=
+lank"><img class=3D"mcnFollowBlockIcon" style=3D"TEXT-DECORATION: none; MAX=
+-WIDTH: 48px; BORDER-TOP: 0px; BORDER-RIGHT: 0px; WIDTH: 48px; BORDER-BOTTO=
+M: 0px; OUTLINE-WIDTH: medium; OUTLINE-STYLE: none; BORDER-LEFT: 0px; DISPL=
+AY: block; OUTLINE-COLOR: invert; -MS-INTERPOLATION-MODE: bicubic" alt=3D"W=
+ebsite" src=3D"http://img.bluefrogrobotics.com/31104/kIYhgnUjY0OEtr4EJG2Piw=
+/color-link-96.png" width=3D"48"></a> </td></tr></tbody></table>
+<table class=3D"mcnFollowStacked" style=3D"BORDER-COLLAPSE: collapse; -MS-T=
+EXT-SIZE-ADJUST: 100%; -webkit-text-size-adjust: 100%; mso-table-lspace: 0p=
+t; mso-table-rspace: 0pt" cellspacing=3D"0" cellpadding=3D"0" align=3D"left=
+" border=3D"0">
+<tbody>
+<tr>
+<td class=3D"mcnFollowIconContent" style=3D"PADDING-BOTTOM: 9px; -MS-TEXT-S=
+IZE-ADJUST: 100%; PADDING-RIGHT: 0px; -webkit-text-size-adjust: 100%; mso-t=
+able-lspace: 0pt; mso-table-rspace: 0pt" valign=3D"top" align=3D"center"><a=
+ style=3D"WORD-WRAP: break-word; -MS-TEXT-SIZE-ADJUST: 100%; -webkit-text-s=
+ize-adjust: 100%" href=3D"http://link.bluefrogrobotics.com/h/31104/39k_Nr_Q=
+QUalb65hfw-CSw/50eCBZzmVEqPXwl_PA-34g/WdlTVX2i_kW9ezDhPaCFjw" target=3D"_bl=
+ank"><img class=3D"mcnFollowBlockIcon" style=3D"TEXT-DECORATION: none; MAX-=
+WIDTH: 48px; BORDER-TOP: 0px; BORDER-RIGHT: 0px; WIDTH: 48px; BORDER-BOTTOM=
+: 0px; OUTLINE-WIDTH: medium; OUTLINE-STYLE: none; BORDER-LEFT: 0px; DISPLA=
+Y: block; OUTLINE-COLOR: invert; -MS-INTERPOLATION-MODE: bicubic" alt=3D"Em=
+ail" src=3D"http://img.bluefrogrobotics.com/31104/kIYhgnUjY0OEtr4EJG2Piw/co=
+lor-forwardtofriend-96.png" width=3D"48"></a> </td></tr></tbody></table></t=
+d></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></table>=
+</td></tr></tbody></table>
+<table class=3D"mcnTextBlock" style=3D"BORDER-COLLAPSE: collapse; -MS-TEXT-=
+SIZE-ADJUST: 100%; -webkit-text-size-adjust: 100%; mso-table-lspace: 0pt; m=
+so-table-rspace: 0pt" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" bo=
+rder=3D"0">
+<tbody class=3D"mcnTextBlockOuter">
+<tr>
+<td class=3D"mcnTextBlockInner" style=3D"-MS-TEXT-SIZE-ADJUST: 100%; -webki=
+t-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt" val=
+ign=3D"top">
+<table class=3D"mcnTextContentContainer" style=3D"BORDER-COLLAPSE: collapse=
+; -MS-TEXT-SIZE-ADJUST: 100%; -webkit-text-size-adjust: 100%; mso-table-lsp=
+ace: 0pt; mso-table-rspace: 0pt" cellspacing=3D"0" cellpadding=3D"0" width=
+=3D"600" align=3D"left" border=3D"0">
+<tbody>
+<tr>
+<td class=3D"mcnTextContent" style=3D"FONT-SIZE: 11px; FONT-FAMILY: Helveti=
+ca; COLOR: #cccccc; PADDING-BOTTOM: 9px; -MS-TEXT-SIZE-ADJUST: 100%; TEXT-A=
+LIGN: center; PADDING-TOP: 9px; PADDING-LEFT: 18px; LINE-HEIGHT: 125%; PADD=
+ING-RIGHT: 18px; -webkit-text-size-adjust: 100%; mso-table-lspace: 0pt; mso=
+-table-rspace: 0pt" valign=3D"top"><em>Copyright =C2=A9 2015 BLUE FROG ROBO=
+TICS, All rights reserved.</em><br><br><strong>BLUE FROG ROBOTICS</strong><=
+br>10 rue Coquilli=C3=A8re<br>75001 PARIS<br><br><a class=3D"utilityLink" s=
+tyle=3D"WORD-WRAP: break-word; TEXT-DECORATION: underline; FONT-WEIGHT: nor=
+mal; COLOR: #00d4d0; -MS-TEXT-SIZE-ADJUST: 100%; -webkit-text-size-adjust: =
+100%" href=3D"http://link.bluefrogrobotics.com/f/USBSHOW/26/31104/39k_Nr_QQ=
+Ualb65hfw-CSw/50eCBZzmVEqPXwl_PA-34g/0QpZPB3o6USBul3l4vRuhw?email=3Dresp-m2=
+-miage@univ-rennes1.fr&adm=3Dindiegogo@bluefrogrobotics.com">Se d=C3=A9sins=
+crire de la liste</a> <br></td></tr></tbody></table></td></tr></tbody></tab=
+le></td></tr></tbody></table></td></tr></tbody></table><!-- // END FOOTER -=
+-></td></tr></tbody></table><!-- // END TEMPLATE --></td></tr></tbody></tab=
+le></center><img src=3D"http://link.bluefrogrobotics.com/o/31104/39k_Nr_QQU=
+alb65hfw-CSw/50eCBZzmVEqPXwl_PA-34g" border=3D"0" width=3D"2" height=3D"12"=
+><img src=3D"https://eye.sbt03.com/t/31104/39k_Nr_QQUalb65hfw-CSw/50eCBZzmV=
+EqPXwl_PA-34g" border=3D"0" width=3D"2" height=3D"8"></body></html>
+------=_Part_8195123_360271270.1441090817752--

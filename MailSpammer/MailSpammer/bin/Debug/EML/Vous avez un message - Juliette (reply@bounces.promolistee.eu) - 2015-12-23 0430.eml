@@ -1,0 +1,234 @@
+Return-Path: <reply@bounces.promolistee.eu>
+Received: from mailimailo.univ-rennes1.fr ([unix socket])
+	 by mailimailo.univ-rennes1.fr (Cyrus v2.3.16-Fedora-RPM-2.3.16-6.el6_2.5) with LMTPA;
+	 Wed, 23 Dec 2015 04:30:25 +0100
+X-Sieve: CMU Sieve 2.3
+Received: from mailout1.univ-rennes1.fr (mailout1.univ-rennes1.fr [129.20.128.162])
+	by mailimailo.univ-rennes1.fr (Postfix) with ESMTP id D6EFF26A0D90
+	for <resp-m2-miage@univ-rennes1.fr>; Wed, 23 Dec 2015 04:30:25 +0100 (CET)
+Received: from localhost (vmscanmail.univ-rennes1.fr [129.20.128.134])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id D464A60070
+	for <resp-m2-miage@univ-rennes1.fr>; Wed, 23 Dec 2015 04:30:25 +0100 (CET)
+X-Virus-Scanned: amavisd-new at univ-rennes1.fr
+Received: from mailout1.univ-rennes1.fr ([129.20.128.162])
+	by localhost (vmscanmail.univ-rennes1.frm [129.20.128.134]) (amavisd-new, port 10026)
+	with ESMTP id ievczhDoIveL for <resp-m2-miage@univ-rennes1.fr>;
+	Wed, 23 Dec 2015 04:30:25 +0100 (CET)
+Received: from vmmailin.univ-rennes1.fr (vmmailin.univ-rennes1.fr [129.20.128.133])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id B1C466000C
+	for <resp-m2-miage@univ-rennes1.fr>; Wed, 23 Dec 2015 04:30:25 +0100 (CET)
+Received: from mxb1-1.relay.renater.fr (mxb1-1.relay.renater.fr [194.214.201.8])
+	by vmmailin.univ-rennes1.fr (Postfix) with ESMTP id AB11920033
+	for <resp-m2-miage@univ-rennes1.fr>; Wed, 23 Dec 2015 04:30:25 +0100 (CET)
+Received: from mta.49.240.smtp.fr (mta.49.240.smtp.fr [37.60.49.240])
+	by mxb1-1.relay.renater.fr (asm) with ESMTP id 7C6F1600255
+	for <resp-m2-miage@univ-rennes1.fr>; Wed, 23 Dec 2015 04:30:25 +0100 (CET)
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=smtp; d=bounces.promolistee.eu;
+ h=To:Subject:Message-ID:Date:From:Reply-to:MIME-Version:List-Unsubscribe:Content-Type; i=reply@bounces.promolistee.eu;
+ bh=g1YdLGC7cnPsFRNlhBYZq1iLXL0=;
+ b=niUoZnsr9DNkOv6dKrgQqbCEkhT+1VcA3NyP806BTSx45DC5sumDy7abJF4bgDBrs7fZX1zHIjSv
+   Ba2BLDk8HJP8UAXJyCs79ojWRZEKwHzqc0aM+RCn09n702JBxCBj4TzRgNXJEMUS/SUziFMKs0yb
+   FLE3BDzietH9WOFvAFU=
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=smtp; d=bounces.promolistee.eu;
+ b=rxSS7Fd+Guvsij5sVqsF8oRActScJm9K29RqgOR9qbSqfknwmfue6OxFoDUCdVpxxjTKtWz7BKx9
+   SQX8ZTUaucnYc0oHnl+DMKZPsjV485XSYNo96/ew9W9zs4OYmpQMLbVJQQSmMJPaM57ZydDINiLQ
+   m7vuiXOSpzI526lcccg=;
+Received: from localhost.localdomain (172.31.255.248) by mta.49.240.smtp.fr id hf8al216t60n for <resp-m2-miage@univ-rennes1.fr>; Wed, 23 Dec 2015 04:30:24 +0100 (envelope-from <reply@bounces.promolistee.eu>)
+To: resp-m2-miage@univ-rennes1.fr
+Subject: Vous avez un message
+Message-ID: <0f918ffdc12dff33529c8cbe2f06ef38@localhost.localdomain>
+Date: Wed, 23 Dec 2015 04:30:24 +0100
+From: Juliette <reply@bounces.promolistee.eu>
+Reply-to: Juliette <reply@bounces.promolistee.eu>
+MIME-Version: 1.0
+List-Unsubscribe: <http://www.promolistee.eu/Bounces.php?M=232898091&N=556835&L=4fc5ef332a&type=34>, <mailto:reply@bounces.promolistee.eu?subject=list-id=a065c159-dfbb-6619-e781-ebef6d94195d_4fc5ef332a_4741ee9d-9a58-5934-ff33-8c56cce43a5c-fbl>
+X-Mailer: JRCG
+X-Mailer-Sid: promolisteeeu
+X-Mailer-RecptId: a065c159-dfbb-6619-e781-ebef6d94195d_4fc5ef332a_4741ee9d-9a58-5934-ff33-8c56cce43a5c
+X-Priority: 3
+Content-Type: multipart/alternative;
+	boundary="b1_0f918ffdc12dff33529c8cbe2f06ef38"
+X-UCE-Status: YES
+X-UCE-Type: MCE
+X-Original-Source-IP: 37.60.49.240
+X-Bizanga: IMP - mxb1-1.relay.renater.fr
+X-Renater-SpamState: 11
+X-Renater-SpamScore: 17
+X-Renater-SpamCause: gggruggvucftvghtrhhoucdtuddrfeekiedrgeejgdeigecutefuodetggdotefrodftvfcurfhrohhfihhlvgemucftgffptefvgfftpdggtfgfnhhsuhgsshgtrhhisggvnecuuegrihhlohhuthemuceftddtnecundfotefknffkpffiucdludejmdenucfjughrpefvuffkfffhrhggjfforfgtsegrtdhjphertdejnecuhfhrohhmpefluhhlihgvthhtvgcuoehrvghplhihsegsohhunhgtvghsrdhprhhomhholhhishhtvggvrdgvuheqnecuffhomhgrihhnpehprhhomhholhhishhtvggvrdgvuhenucfrrghrrghmpehmohguvgepshhmthhppdhhvghlohepmhhtrgdrgeelrddvgedtrdhsmhhtphdrfhhrpdhinhgvthepfeejrdeitddrgeelrddvgedtpdhmrghilhhfrhhomheprhgvphhlhiessghouhhntggvshdrphhrohhmohhlihhsthgvvgdrvghupdhrtghpthhtoheprhgvshhpqdhmvddqmhhirghgvgesuhhnihhvqdhrvghnnhgvshdurdhfrh 
+X-Renater-ServerName: mxb1-1.relay.renater.fr
+
+
+--b1_0f918ffdc12dff33529c8cbe2f06ef38
+Content-Type: text/plain; charset = "utf-8"
+Content-Transfer-Encoding: 8bit
+
+05
+Vous recevez ce mail car vous tes inscrits la lettre d'information de
+Promo Listee.
+Vous aimez notre Newsletter ? Pour tre sr(e) de recevoir tous nos
+emails, nous vous conseillons d'ajouter contact@promolistee.eu
+mailto:contact@promolistee.eu votre carnet d'adresses.
+DCOUVREZ L\'OFFRE DU JOUR AVEC PROMO LISTEE suivez ce lien
+http://www.promolistee.eu/n2/556835/232898091/4fc5ef332a. Pour un
+dsabonnement, utilisez ce lien Me dsabonner/Unsubscribe
+http://www.promolistee.eu/u/556835/232898091/4fc5ef332a/fr
+http://www.promolistee.eu/c2/556835/232898091/4fc5ef332a/1
+froufrouxxx
+http://www.promolistee.eu/c2/556835/232898091/4fc5ef332a/2
+http://www.promolistee.eu/c2/556835/232898091/4fc5ef332a/3
+blanche
+http://www.promolistee.eu/c2/556835/232898091/4fc5ef332a/4
+http://www.promolistee.eu/c2/556835/232898091/4fc5ef332a/5
+iris
+http://www.promolistee.eu/c2/556835/232898091/4fc5ef332a/6
+http://www.promolistee.eu/c2/556835/232898091/4fc5ef332a/7
+lou
+http://www.promolistee.eu/c2/556835/232898091/4fc5ef332a/8
+http://www.promolistee.eu/c2/556835/232898091/4fc5ef332a/9
+jetj19
+http://www.promolistee.eu/c2/556835/232898091/4fc5ef332a/10
+http://www.promolistee.eu/c2/556835/232898091/4fc5ef332a/11
+elaine
+http://www.promolistee.eu/c2/556835/232898091/4fc5ef332a/12
+http://www.promolistee.eu/c2/556835/232898091/4fc5ef332a/13
+aliya
+http://www.promolistee.eu/c2/556835/232898091/4fc5ef332a/14
+http://www.promolistee.eu/c2/556835/232898091/4fc5ef332a/15
+paullyne
+http://www.promolistee.eu/c2/556835/232898091/4fc5ef332a/16
+http://www.promolistee.eu/c2/556835/232898091/4fc5ef332a/17
+http://www.promolistee.eu/c2/556835/232898091/4fc5ef332a/18
+Avec Promo Listee, vous pouvez bnficier ds maintenant des bons plans
+et des rductions exclusives qui correspondent
+aux univers de la famille, la mode, la beaut, la dcoration, le
+voyage...
+Conformment la loi informatique et liberts, vous pouvez tout moment
+accder, faire rectifier
+ou supprimer les informations personnelles vous concernant ou vous
+opposer leur traitement par Promo Listee.
+Pour ne plus bnficier de nos propositions commerciales, vous pouvez
+vous rendre sur cette page
+http://www.promolistee.eu/u/556835/232898091/4fc5ef332a/fr
+Notez que le traitement de cette demande peut prendre jusqu' 48
+heures.
+
+
+--b1_0f918ffdc12dff33529c8cbe2f06ef38
+Content-Type: text/html; charset = "utf-8"
+Content-Transfer-Encoding: 8bit
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<style type="text/css">
+.ReadMsgBody {width: 100%;}
+.ExternalClass {width: 100%;}
+.ExternalClass * {line-height: 100%;}
+span.yshortcuts { color:#000; background-color:none; border:none;}
+span.yshortcuts:hover,span.yshortcuts:active,span.yshortcuts:focus {color:#000; background-color:none; border:none;}
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>05</title></head><!-- 2015/06/26 13:06:01 --><body><div id="template_header_auto_include" ><center>
+<span style='font-size:11px;text-align:center;font-family:Arial, Helvetica, sans-serif;color:#000'><br />
+Vous recevez ce mail car vous &ecirc;tes inscrits &agrave; la lettre d'information de Promo Listee. <br />
+Vous aimez notre Newsletter ? Pour &ecirc;tre s&ucirc;r(e) de recevoir tous nos emails, nous vous conseillons d'ajouter <a href='mailto:contact@promolistee.eu' target='_blank'> contact@promolistee.eu</a> &agrave; votre carnet d'adresses.<br />
+<br/>
+<strong>D&eacute;couvrez l'offre du jour avec Promo Listee </strong><a href='http://www.promolistee.eu/n2/556835/232898091/4fc5ef332a' target='_blank'> suivez ce lien</a>. Pour un d&eacute;sabonnement, utilisez ce lien <a href='http://www.promolistee.eu/u/556835/232898091/4fc5ef332a/fr' target='_blank'> Me d&eacute;sabonner/Unsubscribe</a>
+</span>
+</center></div><table width="98%" border="0" align="center" cellpadding="0" cellspacing="0">
+<tr><td align="center">
+<table cellpadding="0" cellspacing="0" width="600" align="center" style="font-size:12px; font-weight:bold; color:white; font-family:Arial, Helvetica, sans-serif;"><tr><td colspan="9"><a href="http://www.promolistee.eu/c2/556835/232898091/4fc5ef332a/1" target="_blank" style="border:none; text-decoration:none;"><img src="http://img.promolistee.eu/556835/01.jpg" width="600" height="142" style="display:block;"/></a></td>
+</tr><tr><td><img src="http://img.promolistee.eu/556835/02.jpg" width="12" height="216" style="display:block;"/></td>
+<td>
+<table cellpadding="0" cellspacing="0" width="140"><tr><td width="140" height="28" background="http://acces.pouradultes.com/kitmail/src/rencontre/17/images/03.jpg" colspan="3" style="padding-left:20px; line-height:22px;" valign="top">froufrouxxx</td>
+</tr><tr><td><img src="http://img.promolistee.eu/556835/04.jpg" width="10" height="120" style="display:block;"/></td>
+<td><a href="http://www.promolistee.eu/c2/556835/232898091/4fc5ef332a/2" target="_blank" style="border:none; text-decoration:none;"><img src="http://img.promolistee.eu/556835/yGr1RtWTDfp.jpg" width="120" height="120" style="display:block;"/></a></td>
+<td><img src="http://img.promolistee.eu/556835/05.jpg" width="10" height="120" style="display:block;"/></td>
+</tr><tr><td colspan="3"><a href="http://www.promolistee.eu/c2/556835/232898091/4fc5ef332a/3" target="_blank" style="border:none; text-decoration:none;"><img src="http://img.promolistee.eu/556835/06.jpg" width="140" height="68" style="display:block;"/></a></td>
+</tr></table></td>
+<td width="5"></td>
+<td>
+<table cellpadding="0" cellspacing="0" width="140"><tr><td width="140" height="28" background="http://acces.pouradultes.com/kitmail/src/rencontre/17/images/03.jpg" colspan="3" style="padding-left:20px; line-height:22px;" valign="top">blanche</td>
+</tr><tr><td><img src="http://img.promolistee.eu/556835/04.jpg" width="10" height="120" style="display:block;"/></td>
+<td><a href="http://www.promolistee.eu/c2/556835/232898091/4fc5ef332a/4" target="_blank" style="border:none; text-decoration:none;"><img src="http://img.promolistee.eu/556835/AeF235RXyvU.jpg" width="120" height="120" style="display:block;"/></a></td>
+<td><img src="http://img.promolistee.eu/556835/05.jpg" width="10" height="120" style="display:block;"/></td>
+</tr><tr><td colspan="3"><a href="http://www.promolistee.eu/c2/556835/232898091/4fc5ef332a/5" target="_blank" style="border:none; text-decoration:none;"><img src="http://img.promolistee.eu/556835/06.jpg" width="140" height="68" style="display:block;"/></a></td>
+</tr></table></td>
+<td width="5"></td>
+<td>
+<table cellpadding="0" cellspacing="0" width="140"><tr><td width="140" height="28" background="http://acces.pouradultes.com/kitmail/src/rencontre/17/images/03.jpg" colspan="3" style="padding-left:20px; line-height:22px;" valign="top">iris</td>
+</tr><tr><td><img src="http://img.promolistee.eu/556835/04.jpg" width="10" height="120" style="display:block;"/></td>
+<td><a href="http://www.promolistee.eu/c2/556835/232898091/4fc5ef332a/6" target="_blank" style="border:none; text-decoration:none;"><img src="http://img.promolistee.eu/556835/GkUzOKAFbUg.jpg" width="120" height="120" style="display:block;"/></a></td>
+<td><img src="http://img.promolistee.eu/556835/05.jpg" width="10" height="120" style="display:block;"/></td>
+</tr><tr><td colspan="3"><a href="http://www.promolistee.eu/c2/556835/232898091/4fc5ef332a/7" target="_blank" style="border:none; text-decoration:none;"><img src="http://img.promolistee.eu/556835/06.jpg" width="140" height="68" style="display:block;"/></a></td>
+</tr></table></td>
+<td width="5"></td>
+<td>
+<table cellpadding="0" cellspacing="0" width="140"><tr><td width="140" height="28" background="http://acces.pouradultes.com/kitmail/src/rencontre/17/images/03.jpg" colspan="3" style="padding-left:20px; line-height:22px;" valign="top">lou</td>
+</tr><tr><td><img src="http://img.promolistee.eu/556835/04.jpg" width="10" height="120" style="display:block;"/></td>
+<td><a href="http://www.promolistee.eu/c2/556835/232898091/4fc5ef332a/8" target="_blank" style="border:none; text-decoration:none;"><img src="http://img.promolistee.eu/556835/efODC64utmO.jpg" width="120" height="120" style="display:block;"/></a></td>
+<td><img src="http://img.promolistee.eu/556835/05.jpg" width="10" height="120" style="display:block;"/></td>
+</tr><tr><td colspan="3"><a href="http://www.promolistee.eu/c2/556835/232898091/4fc5ef332a/9" target="_blank" style="border:none; text-decoration:none;"><img src="http://img.promolistee.eu/556835/06.jpg" width="140" height="68" style="display:block;"/></a></td>
+</tr></table></td>
+<td><img src="http://img.promolistee.eu/556835/07.jpg" width="13" height="216" style="display:block;"/></td>
+</tr><tr><td colspan="9"><img src="http://img.promolistee.eu/556835/08.jpg" width="600" height="10" style="display:block;"/></td>
+</tr><tr><td><img src="http://img.promolistee.eu/556835/02.jpg" width="12" height="216" style="display:block;"/></td>
+<td>
+<table cellpadding="0" cellspacing="0" width="140"><tr><td width="140" height="28" background="http://acces.pouradultes.com/kitmail/src/rencontre/17/images/03.jpg" colspan="3" style="padding-left:20px; line-height:22px;" valign="top">jetj19</td>
+</tr><tr><td><img src="http://img.promolistee.eu/556835/04.jpg" width="10" height="120" style="display:block;"/></td>
+<td><a href="http://www.promolistee.eu/c2/556835/232898091/4fc5ef332a/10" target="_blank" style="border:none; text-decoration:none;"><img src="http://img.promolistee.eu/556835/TDOrg1sJTzV.jpg" width="120" height="120" style="display:block;"/></a></td>
+<td><img src="http://img.promolistee.eu/556835/05.jpg" width="10" height="120" style="display:block;"/></td>
+</tr><tr><td colspan="3"><a href="http://www.promolistee.eu/c2/556835/232898091/4fc5ef332a/11" target="_blank" style="border:none; text-decoration:none;"><img src="http://img.promolistee.eu/556835/06.jpg" width="140" height="68" style="display:block;"/></a></td>
+</tr></table></td>
+<td width="5"></td>
+<td>
+<table cellpadding="0" cellspacing="0" width="140"><tr><td width="140" height="28" background="http://acces.pouradultes.com/kitmail/src/rencontre/17/images/03.jpg" colspan="3" style="padding-left:20px; line-height:22px;" valign="top">elaine</td>
+</tr><tr><td><img src="http://img.promolistee.eu/556835/04.jpg" width="10" height="120" style="display:block;"/></td>
+<td><a href="http://www.promolistee.eu/c2/556835/232898091/4fc5ef332a/12" target="_blank" style="border:none; text-decoration:none;"><img src="http://img.promolistee.eu/556835/WlDGIvsYnZc.jpg" width="120" height="120" style="display:block;"/></a></td>
+<td><img src="http://img.promolistee.eu/556835/05.jpg" width="10" height="120" style="display:block;"/></td>
+</tr><tr><td colspan="3"><a href="http://www.promolistee.eu/c2/556835/232898091/4fc5ef332a/13" target="_blank" style="border:none; text-decoration:none;"><img src="http://img.promolistee.eu/556835/06.jpg" width="140" height="68" style="display:block;"/></a></td>
+</tr></table></td>
+<td width="5"></td>
+<td>
+<table cellpadding="0" cellspacing="0" width="140"><tr><td width="140" height="28" background="http://acces.pouradultes.com/kitmail/src/rencontre/17/images/03.jpg" colspan="3" style="padding-left:20px; line-height:22px;" valign="top">aliya</td>
+</tr><tr><td><img src="http://img.promolistee.eu/556835/04.jpg" width="10" height="120" style="display:block;"/></td>
+<td><a href="http://www.promolistee.eu/c2/556835/232898091/4fc5ef332a/14" target="_blank" style="border:none; text-decoration:none;"><img src="http://img.promolistee.eu/556835/RKNSWaVxNTm.jpg" width="120" height="120" style="display:block;"/></a></td>
+<td><img src="http://img.promolistee.eu/556835/05.jpg" width="10" height="120" style="display:block;"/></td>
+</tr><tr><td colspan="3"><a href="http://www.promolistee.eu/c2/556835/232898091/4fc5ef332a/15" target="_blank" style="border:none; text-decoration:none;"><img src="http://img.promolistee.eu/556835/06.jpg" width="140" height="68" style="display:block;"/></a></td>
+</tr></table></td>
+<td width="5"></td>
+<td>
+<table cellpadding="0" cellspacing="0" width="140"><tr><td width="140" height="28" background="http://acces.pouradultes.com/kitmail/src/rencontre/17/images/03.jpg" colspan="3" style="padding-left:20px; line-height:22px;" valign="top">paullyne</td>
+</tr><tr><td><img src="http://img.promolistee.eu/556835/04.jpg" width="10" height="120" style="display:block;"/></td>
+<td><a href="http://www.promolistee.eu/c2/556835/232898091/4fc5ef332a/16" target="_blank" style="border:none; text-decoration:none;"><img src="http://img.promolistee.eu/556835/JCOmduUSkzZ.jpg" width="120" height="120" style="display:block;"/></a></td>
+<td><img src="http://img.promolistee.eu/556835/05.jpg" width="10" height="120" style="display:block;"/></td>
+</tr><tr><td colspan="3"><a href="http://www.promolistee.eu/c2/556835/232898091/4fc5ef332a/17" target="_blank" style="border:none; text-decoration:none;"><img src="http://img.promolistee.eu/556835/06.jpg" width="140" height="68" style="display:block;"/></a></td>
+</tr></table></td>
+<td><img src="http://img.promolistee.eu/556835/07.jpg" width="13" height="216" style="display:block;"/></td>
+</tr><tr><td colspan="9"><a href="http://www.promolistee.eu/c2/556835/232898091/4fc5ef332a/18" target="_blank" style="border:none; text-decoration:none;"><img src="http://img.promolistee.eu/556835/09.jpg" width="600" height="76" style="display:block;"/></a></td>
+</tr></table><img width="1" height="1" src="http://www.promolistee.eu/assets/mpt.png" style="display:block;"/>
+</td></tr>
+</table><div id="template_footer_auto_include" ><center>
+<span style='font-size:11px;text-align:center;font-family:Arial, Helvetica, sans-serif;color:#000'><br />
+Avec Promo Listee, vous pouvez b&eacute;n&eacute;ficier d&egrave;s maintenant des bons plans et des r&eacute;ductions exclusives qui correspondent<br /> aux univers de la famille, la mode, la beaut&eacute;, la d&eacute;coration, le voyage... <br />
+<br />
+Conform&eacute;ment &agrave; la loi informatique et libert&eacute;s, vous pouvez &agrave; tout moment acc&eacute;der, faire rectifier<br />
+ou supprimer les informations personnelles vous concernant ou vous opposer &agrave; leur traitement par Promo Listee.<br />
+<br />
+Pour ne plus b&eacute;n&eacute;ficier de nos propositions commerciales, vous pouvez vous rendre sur <a href='http://www.promolistee.eu/u/556835/232898091/4fc5ef332a/fr'>cette page</a><br />
+Notez que le traitement de cette demande peut prendre jusqu'&agrave; 48 heures.<br />
+<br />
+</span>
+</center></div>
+<style type="text/css">
+.ReadMsgBody {width: 100%;}
+.ExternalClass {width: 100%;}
+.ExternalClass * {line-height: 100%;}
+span.yshortcuts { color:#000; background-color:none; border:none;}
+span.yshortcuts:hover,span.yshortcuts:active,span.yshortcuts:focus {color:#000; background-color:none; border:none;}
+</style>
+<img height="1" width="1" src="http://www.promolistee.eu/i/556835/232898091/4fc5ef332a/2"><img src="http://www.promolistee.eu/i/556835/232898091/4fc5ef332a/0" width="0" height="0" border="0" alt=""></body></html>
+
+
+
+--b1_0f918ffdc12dff33529c8cbe2f06ef38--
+
+

@@ -1,0 +1,129 @@
+Return-Path: <bounce+oRv-GMrp-eD9K@mix.loffremagique.com>
+Received: from mailimailo.univ-rennes1.fr ([unix socket])
+	 by mailimailo.univ-rennes1.fr (Cyrus v2.3.16-Fedora-RPM-2.3.16-6.el6_2.5) with LMTPA;
+	 Fri, 18 Dec 2015 20:08:08 +0100
+X-Sieve: CMU Sieve 2.3
+Received: from mailout1.univ-rennes1.fr (mailout1.univ-rennes1.fr [129.20.128.162])
+	by mailimailo.univ-rennes1.fr (Postfix) with ESMTP id 1AF6C26A0D0D
+	for <resp-m2-miage@univ-rennes1.fr>; Fri, 18 Dec 2015 20:08:08 +0100 (CET)
+Received: from localhost (vmscanmail.univ-rennes1.fr [129.20.128.134])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id 17C3A60312
+	for <resp-m2-miage@univ-rennes1.fr>; Fri, 18 Dec 2015 20:08:08 +0100 (CET)
+X-Virus-Scanned: amavisd-new at univ-rennes1.fr
+Received: from mailout1.univ-rennes1.fr ([129.20.128.162])
+	by localhost (vmscanmail.univ-rennes1.frm [129.20.128.134]) (amavisd-new, port 10026)
+	with ESMTP id qVrH8PGa8SYW for <resp-m2-miage@univ-rennes1.fr>;
+	Fri, 18 Dec 2015 20:08:07 +0100 (CET)
+Received: from vmmailin.univ-rennes1.fr (vmmailin.univ-rennes1.fr [129.20.128.133])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id E572E6002E
+	for <resp-m2-miage@univ-rennes1.fr>; Fri, 18 Dec 2015 20:08:07 +0100 (CET)
+Received: from mxb2-2.relay.renater.fr (mxb2-2.relay.renater.fr [194.214.200.9])
+	by vmmailin.univ-rennes1.fr (Postfix) with ESMTP id DD78A20033
+	for <resp-m2-miage@univ-rennes1.fr>; Fri, 18 Dec 2015 20:08:07 +0100 (CET)
+Received: from smtp166.mix.loffremagique.com (smtp166.mix.loffremagique.com [82.196.26.166])
+	by mxb2-2.relay.renater.fr (asm) with ESMTP id ABD3F600087
+	for <resp-m2-miage@univ-rennes1.fr>; Fri, 18 Dec 2015 20:08:07 +0100 (CET)
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=s2c; d=mix.loffremagique.com;
+ h=Date:To:From:Subject:Message-ID:List-Unsubscribe:MIME-Version:Content-Type; i=news@mix.loffremagique.com;
+ bh=RCd+R83GdWS3YZv5uKa+gYZZE3M=;
+ b=iIKMnDskkano1PHQXDAfyaweyV1dpFgOTFaIu0qE9U/M5AaDme1bkfmzwEBXRAYOOlvlpwFL75VU
+   m/xXIjoobrVcLm9ndSVsguC4NuxEDOkjNlqO9WYRikfFQIaItNWxZ7/c+upt3darhkORGQuMnqeB
+   d1R+KjTfjxlhkwdK93c=
+Received: by smtp166.mix.loffremagique.com id hehcpe1vjtgl for <resp-m2-miage@univ-rennes1.fr>; Fri, 18 Dec 2015 20:01:22 +0100 (envelope-from <bounce+oRv-GMrp-eD9K@mix.loffremagique.com>)
+Date: Fri, 18 Dec 2015 20:01:22 +0100
+To: resp-m2-miage@univ-rennes1.fr
+From: H&M par Espace promos <news@mix.loffremagique.com>
+Subject: =?UTF-8?Q?-25_pourcent_sur_votre_produit_pr=C3=A9f=C3=A9r=C3=A9?=
+Message-ID: <bounce+oRv-GMrp-eD9K@mix.loffremagique.com>
+List-Unsubscribe: <mailto:bounce+oRv-GMrp-eD9K@mix.loffremagique.com?subject=unsubscribe-oRv-GMrp>,<http://trk.mix.loffremagique.com/usb/oRv-GMrp.php>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="b1_2ea5ddc673baa62c447ca3d8d55667e2"
+X-UCE-Status: YES
+X-UCE-Type: MCE
+X-Original-Source-IP: 82.196.26.166
+X-Bizanga: IMP - mxb2-2.relay.renater.fr
+X-Renater-SpamState: 11
+X-Renater-SpamScore: 17
+X-Renater-SpamCause: gggruggvucftvghtrhhoucdtuddrfeekiedrfeehgdduvdduucetufdoteggodetrfdotffvucfrrhhofhhilhgvmecutffgpfetvffgtfdpggftfghnshhusghstghrihgsvgenuceurghilhhouhhtmecufedttdenucdnofetkffnkffpifculddujedmnecujfgurhepfffvhffukffjgggtsegrtderphdttdejnecuhfhrohhmpefjjdfouchprghrucfgshhprggtvgcuphhrohhmohhsuceonhgvfihssehmihigrdhlohhffhhrvghmrghgihhquhgvrdgtohhmqeenucffohhmrghinheplhhofhhfrhgvmhgrghhiqhhuvgdrtghomhenucfrrghrrghmpehmohguvgepshhmthhppdhhvghlohepshhmthhpudeiiedrmhhigidrlhhofhhfrhgvmhgrghhiqhhuvgdrtghomhdpihhnvghtpeekvddrudeliedrvdeirdduieeipdhmrghilhhfrhhomhepsghouhhntggvodhotfhvqdfiofhrphdqvgfflefmsehmihigrdhlohhffhhrvghmrghgihhquhgvrdgtohhmpdhrtghpthhtoheprhgvshhpqdhmvddqmhhirghgvgesuhhnihhvqdhrvghnnhgvshdurdhfrh 
+X-Renater-ServerName: mxb2-2.relay.renater.fr
+
+
+--b1_2ea5ddc673baa62c447ca3d8d55667e2
+Content-Type: text/plain; charset = "UTF-8"
+Content-Transfer-Encoding: 8bit
+
+Afficher la version web. (http://trk.mix.loffremagique.com/view/oRv-GMrp.php) | Annuler votre abonnement. (http://trk.mix.loffremagique.com/usb/oRv-GMrp.php) | Signaler comme courrier indésirable. (mailto:abuse@dgcnit.fr)
+
+Vous recevez ce mail car vous êtes abonné à la base Espace Promos
+
+25% de réduction en vous inscrivant à la newsletter (http://trk.mix.loffremagique.com/tk/oRv-GMrp-qRk.phpresp-m2-miage@univ-rennes1.fr)
+
+http://trk.mix.loffremagique.com/tk/oRv-GMrp-qRk.phpresp-m2-miage@univ-rennes1.fr
+
+SHOPPING (http://trk.mix.loffremagique.com/tk/oRv-GMrp-qRk.phpresp-m2-miage@univ-rennes1.fr) NOUVEAUTÉS (http://trk.mix.loffremagique.com/tk/oRv-GMrp-qRk.phpresp-m2-miage@univ-rennes1.fr) MAGASINS (http://trk.mix.loffremagique.com/tk/oRv-GMrp-qRk.phpresp-m2-miage@univ-rennes1.fr)
+
+http://trk.mix.loffremagique.com/tk/oRv-GMrp-qRk.phpresp-m2-miage@univ-rennes1.fr
+
+CADEAU DE BIENVENUE (http://trk.mix.loffremagique.com/tk/oRv-GMrp-qRk.phpresp-m2-miage@univ-rennes1.fr)
+
+http://trk.mix.loffremagique.com/tk/oRv-GMrp-qRk.phpresp-m2-miage@univ-rennes1.fr
+
+Soyez le premier informé des dernières nouveautés mode, trouvez l'inspiration et recevez des offres exclusives - tout ça dans votre boîte mail ! Inscrivez-vous à la newsletter H&amp;M maintenant et nous vous offrons 25% de réduction sur l'article de votre choix pour un achat sur hm.com. (http://trk.mix.loffremagique.com/tk/oRv-GMrp-qRk.phpresp-m2-miage@univ-rennes1.fr)
+
+Email:
+resp-m2-miage@univ-rennes1.fr (http://trk.mix.loffremagique.com/tk/oRv-GMrp-qRk.phpresp-m2-miage@univ-rennes1.fr)
+
+Oui, je souhaite recevoir la “H&amp;M Fashion News” et j'ai plus de 16 ans. En
+cliquant sur “S'inscrire”, j'accepte les Règles de confidentialité (http://trk.mix.loffremagique.com/tk/oRv-GMrp-qRk.phpresp-m2-miage@univ-rennes1.fr) .
+
+S'INSCRIRE (http://trk.mix.loffremagique.com/tk/oRv-GMrp-qRk.phpresp-m2-miage@univ-rennes1.fr)
+
+
+http://trk.mix.loffremagique.com/tk/oRv-GMrp-qRk.phpresp-m2-miage@univ-rennes1.fr   http://trk.mix.loffremagique.com/tk/oRv-GMrp-qRk.phpresp-m2-miage@univ-rennes1.fr   http://trk.mix.loffremagique.com/tk/oRv-GMrp-qRk.phpresp-m2-miage@univ-rennes1.fr   http://trk.mix.loffremagique.com/tk/oRv-GMrp-qRk.phpresp-m2-miage@univ-rennes1.fr   http://trk.mix.loffremagique.com/tk/oRv-GMrp-qRk.phpresp-m2-miage@univ-rennes1.fr
+
+TÉLÉCHARGEZ NOTRE APPLI iOS (http://trk.mix.loffremagique.com/tk/oRv-GMrp-qRk.phpresp-m2-miage@univ-rennes1.fr) | ANDROID (http://trk.mix.loffremagique.com/tk/oRv-GMrp-qRk.phpresp-m2-miage@univ-rennes1.fr)
+
+
+En vous inscrivant à la “ H&amp;M Fashion News” vous acceptez que nous utilisions vos données en accord avec nos Règles de confidentialités (http://trk.mix.loffremagique.com/tk/oRv-GMrp-qRk.phpresp-m2-miage@univ-rennes1.fr) .
+
+Réserves en cas d'erreurs d'impression, de modifications, de changements de prix, de retards de livraison et de disponibilité limitée en stock.
+
+http://trk.mix.loffremagique.com/tk/oRv-GMrp-qRk.phpresp-m2-miage@univ-rennes1.fr
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Espaces Promos, 12 rue Camille Desmoulins, 92300 Levallois Perret.
+Conformément à l'article 34 de la loi Informatique et Liberté du 6 janvier 1978, vous disposez d'un droit d'accès, de modification,
+de rectification et de suppression des données vous concernant en adressant votre demande à &quot;report@dgcnit.fr&quot;.
+Déclaration CNIL - 1642645
+Vous souhaitez vous désinscrire de cette liste ? Cliquez ici. (http://trk.mix.loffremagique.com/usb/oRv-GMrp.php)
+
+
+--b1_2ea5ddc673baa62c447ca3d8d55667e2
+Content-Type: text/html; charset = "UTF-8"
+Content-Transfer-Encoding: 8bit
+
+<table width='none' border='0' cellspacing='0' cellpadding='0' align='center' > <tr> <td width='none' valign='top' align='center'> <table style='' align='center' border='0' cellpadding='0' cellspacing='0' > <tr> <td width='174' align='left' style='text-align:left;'><a href='http://trk.mix.loffremagique.com/view/oRv-GMrp.php' style='color:#000; text-decoration:underline; font-family:Arial,Helvetica,sans-serif; font-size:11px; text-align:left; font-weight:bold;'>Afficher la version web.</a></td> <td width='6'>|</td> <td width='207' align='center' style='text-align:center;'><a href='http://trk.mix.loffremagique.com/usb/oRv-GMrp.php' style='color:#000; text-decoration:underline; font-family:Arial,Helvetica,sans-serif; font-size:11px; text-align:center; font-weight:bold;'>Annuler votre abonnement.</a></td> <td width='6'>|</td> <td width='207' align='right' style='text-align:right;'><a href='mailto:abuse@dgcnit.fr' style='color:#00F; text-decoration:underline;
+font-family:Arial,Helvetica,sans-serif; font-size:11px; text-align:right; font-weight:bold;'>Signaler comme courrier indésirable.</a></td> </tr> </table></td> </tr> <tr> <td height='WWHTOPWW' align='center'></td> </tr> </table><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> <html xmlns="http://www.w3.org/1999/xhtml"><head><title>H&M par capdecision -- 25 pourcent sur votre produit préféré</title><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"></head><body text="#003366" link="#333366"> <table id="hm" bgcolor="#FFFFFF" width="100%" border="0" cellspacing="0" cellpadding="0" style="table-layout:fixed;"><tr><td align="center"> <table width="600" style="margin:auto;text-align:center;font-family:Lucida Grande,Verdana,sans-serif;font-size:10px;"><tr><td width="600" align="center"> Vous recevez ce mail car vous êtes abonné à la base Espace Promos </td> </tr></table><table bgcolor="#FFF
+ FFF"
+width="700" class="fluide" border="0" cellspacing="0" cellpadding="0"><tr><td class="fluide" style="min-width:700px;"> </td> </tr><tr><td class="fluide" style="min-width:700px;"> <table width="100%" border="0" cellspacing="0" cellpadding="0"><tr><td width="350" align="left" class="fluide aligncenter" style="font-family:Arial, Helvetica, sans-serif; font-size:10px;color:#a0a0a0;"><a href="http://trk.mix.loffremagique.com/tk/oRv-GMrp-qRl.php" target="_blank" style="color:#a0a0a0; text-decoration:none;">25% de réduction en vous<br class="nomobile"> inscrivant à la newsletter</a></td> <td align="right" class="fluide aligncenter" valign="top"></td> </tr></table></td> </tr><tr><td height="40" class="fluide" style="min-width:700px;"> </td> </tr><tr><td align="center" class="fluide" style="min-width:700px;"><a href="http://trk.mix.loffremagique.com/tk/oRv-GMrp-qRl.php" target="_blank" style="font-family:Arial, Helvetica, sans-serif; font-size:16px; line-height:40px;
+font-weight:bold;color:#cd2220;"><img id="logo" src="http://stor.capmail.fr/1187/www/img/_IMG3/HM_151215_logo.jpg" width="76" height="51" alt="H&M" border="0" style="display:block;" name="logo"></a></td> </tr><tr><td height="20" class="fluide" style="min-width:700px;"> </td> </tr><tr><td align="center" class="fluide" style="min-width:700px;"> <table class="margemob" width="304" border="0" cellspacing="0" cellpadding="0"><tr><td><a href="http://trk.mix.loffremagique.com/tk/oRv-GMrp-qRl.php" target="_blank" style="font-family:Arial, Helvetica, sans-serif; font-size:12px;font-weight:bold;color:#000000; text-decoration:none;">SHOPPING</a></td> <td align="center"><a href="http://trk.mix.loffremagique.com/tk/oRv-GMrp-qRl.php" target="_blank" style="font-family:Arial, Helvetica, sans-serif; font-size:12px;font-weight:bold;color:#000000; text-decoration:none;">NOUVEAUTÉS</a></td> <td align="right"><a href="http://trk.mix.loffremagique.com/tk/oRv-GMrp-qRl.php" target="_blank"
+style="font-family:Arial, Helvetica, sans-serif; font-size:12px;font-weight:bold;color:#000000; text-decoration:none;">MAGASINS</a></td> </tr></table></td> </tr><tr><td height="20" class="fluide" style="min-width:700px;"> </td> </tr><tr><td class="fluide" style="min-width:700px;"> <table bgcolor="#FBFBFB" width="100%" border="0" cellspacing="0" cellpadding="0"><tr><td class="fluide" align="center" style="min-width:700px;font-family:Arial, Helvetica, sans-serif; font-size:20px;font-weight:bold;color:#000000;"><a href="http://trk.mix.loffremagique.com/tk/oRv-GMrp-qRl.php" target="_blank"><img alt="H&M" src="http://stor.capmail.fr/1187/www/img/_IMG3/HM_151215_anim_hm.gif" height="480" border="0" style="display:block;width:100%;"></a></td> </tr></table></td> </tr><tr><td height="20" class="fluide" style="min-width:700px;"> </td> </tr><tr><td align="center" class="fluide" style="min-width:700px;font-family:Arial, Helvetica, sans-serif; font-size:15px; letter-spacing:4px;
+font-weight:bold;color:#000000;"><a href="http://trk.mix.loffremagique.com/tk/oRv-GMrp-qRl.php" target="_blank" style="color:#000000; text-decoration:none;">CADEAU DE BIENVENUE</a></td> </tr><tr><td height="20" class="fluide" style="min-width:700px;"> </td> </tr><tr><td align="center" class="fluide" style="min-width:700px;font-family:Arial, Helvetica, sans-serif; font-size:13px; line-height:200px;letter-spacing:4px; font-weight:bold;color:#000000;"><a href="http://trk.mix.loffremagique.com/tk/oRv-GMrp-qRl.php" target="_blank"><img alt="-25% SUR UN ARTICLE" id="remise" src="http://stor.capmail.fr/1187/www/img/_IMG3/HM_151215_remise.jpg" width="487" height="206" border="0" style="display:block;" name="remise"></a></td> </tr><tr><td height="35" class="fluide" style="min-width:700px;"> </td> </tr><tr><td align="center" class="fluide font14" style="min-width:700px; font-family:Arial, Helvetica, sans-serif; font-size:17px;color:#000000;"> <div class="margemob"><a
+href="http://trk.mix.loffremagique.com/tk/oRv-GMrp-qRl.php" target="_blank" style=" color:#000000; text-decoration:none;">Soyez le premier informé des dernières nouveautés mode, trouvez<br class="nomobile"> l'inspiration et recevez des offres exclusives - tout ça dans votre<br class="nomobile"> boîte mail ! Inscrivez-vous à la newsletter H&M maintenant et nous<br class="nomobile"> vous offrons 25% de réduction sur l'article de votre choix pour un<br class="nomobile"> achat sur hm.com.</a></div> </td> </tr><tr><td height="20" class="fluide" style="min-width:700px;"> </td> </tr><tr><td align="center" class="fluide" style="min-width:700px;"> <table class="margemob" width="418" border="0" cellspacing="0" cellpadding="0"><tr><td height="29" align="left" class="fluide aligncenter" style="font-family:Arial, Helvetica, sans-serif; font-size:16px;color:#000000; vertical-align:middle;">Email:</td> <td width="358" class="fluide"> <table width="100%" border="0" cellspacing="0"
+cellpadding="0"><tr><td height="1" bgcolor="#C8C8C8" style="line-height:1px;font-size:1px;"><!--[if (gte mso 15)|(IE)]> <![endif]--></td> </tr><tr><td> <table width="100%" border="0" cellspacing="0" cellpadding="0"><tr><td width="1" bgcolor="#C8C8C8"></td> <td height="27" align="center" style="vertical-align:middle;"><a href="http://trk.mix.loffremagique.com/tk/oRv-GMrp-qRl.php" target="_blank" style="font-family: Arial, Helvetica, sans-serif; font-size:13px;color:#000000; text-decoration:none;">resp-m2-miage@univ-rennes1.fr</a></td> <td width="1" bgcolor="#C8C8C8"></td> </tr></table></td> </tr><tr><td height="1" bgcolor="#C8C8C8" style="line-height:1px;font-size:1px;"><!--[if (gte mso 15)|(IE)]> <![endif]--></td> </tr></table></td> </tr></table></td> </tr><tr><td height="20" class="fluide" style="min-width:700px;"> </td> </tr><tr><td align="center" class="fluide" style="min-width:700px; font-family:Arial, Helvetica, sans-serif; font-size:14px;color:#000000;"> <div
+class="margemob">Oui, je souhaite recevoir la “H&M Fashion News” et j'ai plus de 16 ans. En<br class="nomobile"> cliquant sur “S'inscrire”, j'accepte les <a href="http://trk.mix.loffremagique.com/tk/oRv-GMrp-qRl.php" target="_blank" style="color:#000000;">Règles de confidentialité</a>.</div> </td> </tr><tr><td height="20" class="fluide" style="min-width:700px;"> </td> </tr><tr><td align="center" class="fluide" style="min-width:700px;"> <table bgcolor="#010101" width="196" border="0" cellspacing="0" cellpadding="0"><tr><td width="40"> </td> <td width="18" align="left" style="vertical-align:middle;"><img src="http://stor.capmail.fr/1187/www/img/_IMG3/HM_151215_fleche.jpg" width="6" height="13" border="0" style="display:block;"></td> <td height="41" align="left" style="vertical-align:middle;"><a href="http://trk.mix.loffremagique.com/tk/oRv-GMrp-qRl.php" target="_blank" style="font-family:Arial, Helvetica, sans-serif; font-size:15px; height:31px;
+padding-top:10px;display:block; font-weight:bold;color:#ffffff; text-decoration:none;">S'INSCRIRE</a></td> </tr></table></td> </tr><tr><td height="27" class="fluide" style="min-width:700px;"> </td> </tr></table><table bgcolor="#000000" width="100%" border="0" cellspacing="0" cellpadding="0"><tr><td height="40"> </td> </tr><tr><td align="center"> <table width="214" border="0" cellspacing="0" cellpadding="0"><tr><td width="10"><a href="http://trk.mix.loffremagique.com/tk/oRv-GMrp-qRl.php" target="_blank" title="Facebook"><img src="http://stor.capmail.fr/1187/www/img/_IMG3/HM_151215_facebook.jpg" width="10" height="18" border="0" style="display:block;"></a></td> <td width="36"> </td> <td width="18"><a href="http://trk.mix.loffremagique.com/tk/oRv-GMrp-qRl.php" target="_blank" title="Twitter"><img src="http://stor.capmail.fr/1187/www/img/_IMG3/HM_151215_twitter.jpg" width="18" height="18" border="0" style="display:block;"></a></td> <td width="32"> </td> <td width="18"><a
+href="http://trk.mix.loffremagique.com/tk/oRv-GMrp-qRl.php" target="_blank" title="Instagram"><img src="http://stor.capmail.fr/1187/www/img/_IMG3/HM_151215_pinterest.jpg" width="18" height="18" border="0" style="display:block;"></a></td> <td width="31"> </td> <td width="20" style="vertical-align:middle;"><a href="http://trk.mix.loffremagique.com/tk/oRv-GMrp-qRl.php" target="_blank" title="Youtube"><img src="http://stor.capmail.fr/1187/www/img/_IMG3/HM_151215_youtube.jpg" width="20" height="14" border="0" style="display:block;"></a></td> <td> </td> <td width="19"><a href="http://trk.mix.loffremagique.com/tk/oRv-GMrp-qRl.php" target="_blank" title="Google"><img src="http://stor.capmail.fr/1187/www/img/_IMG3/HM_151215_google.jpg" width="19" height="18" border="0" style="display:block;"></a></td> </tr></table></td> </tr><tr><td height="27"> </td> </tr><tr><td align="center" style="font-family:Arial, Helvetica, sans-serif; font-size:11px; font-weight:bold;color:#ffffff;">TÉLÉ
+ CHARGEZ
+NOTRE APPLI <a href="http://trk.mix.loffremagique.com/tk/oRv-GMrp-qRl.php" target="_blank" style="color:#ffffff;">iOS</a> | <a href="http://trk.mix.loffremagique.com/tk/oRv-GMrp-qRl.php" target="_blank" style="color:#ffffff;">ANDROID</a></td> </tr><tr><td height="20"> </td> </tr><tr><td> </td> </tr><tr><td align="center" style="font-family:Arial, Helvetica, sans-serif; font-size:10px;color:#ffffff;"> <div class="margemob">En vous inscrivant à la “ H&M Fashion News” vous acceptez que nous utilisions vos données en accord avec nos <a href="http://trk.mix.loffremagique.com/tk/oRv-GMrp-qRl.php" target="_blank" style="color:#ffffff;">Règles de confidentialités</a>.<br><br> Réserves en cas d'erreurs d'impression, de modifications, de changements de prix, de retards de livraison et de disponibilité limitée en stock.<br></div> </td> </tr><tr><td height="35"> </td> </tr><tr><td height="60" align="center" valign="top"><a
+href="http://trk.mix.loffremagique.com/tk/oRv-GMrp-qRl.php" target="_blank" style="font-family:Arial, Helvetica, sans-serif; font-size:16px; font-weight:bold;color:#ffffff;"><img src="http://stor.capmail.fr/1187/www/img/_IMG3/HM_151215_logofooter.jpg" width="58" height="38" alt="H&M" border="0" style="display:block;"></a></td> </tr></table></td> </tr></table><img src="http://impgb.tradedoubler.com/imp?type(inv)g(23019124)a(2789178)"><div style="display:none; white-space:nowrap; font:15px courier; color:#ffffff;">- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</div> <img src="http://www.capaffiliation.com/tracking/cpm.php?ids=106&idv=358&sid=" width="1" height="1" border="0"><div> <table width="none" border="0" cellspacing="0" cellpadding="0" align="center" style="font-family:Arial, Helvetica, sans-serif; font-size:10px; color:black; text-align:center;"><tr><td style="font-size:10px; text-align:center;"><br> Espaces Promos, 12 rue Camille Desmoulins, 92300 Le
+ vallois
+Perret.<br> Conformément à l'article 34 de la loi Informatique et Liberté du 6 janvier 1978, vous disposez d'un droit d'accès, de modification,<br> de rectification et de suppression des données vous concernant en adressant votre demande à "report@dgcnit.fr".<br> Déclaration CNIL - 1642645 </td> </tr><tr><td></td></tr><tr><td>Vous souhaitez vous désinscrire de cette liste ? <a href="http://trk.mix.loffremagique.com/usb/oRv-GMrp.php" style="color: #000; text-decoration:underline; font-size: 11px;">Cliquez ici.</a></td></tr></table></div><img src="http://trk.mix.loffremagique.com/pg/oRv-GMrp.php" width="1" height="1" alt="" /></body></html> 
+
+
+
+--b1_2ea5ddc673baa62c447ca3d8d55667e2--
+
+

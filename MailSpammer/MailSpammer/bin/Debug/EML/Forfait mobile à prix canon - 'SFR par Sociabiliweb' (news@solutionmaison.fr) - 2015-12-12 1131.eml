@@ -1,0 +1,737 @@
+Return-Path: <return-a18-2467-2474-resp-m2-miage=univ-rennes1.fr=4@solutionmaison.fr>
+Received: from mailimailo.univ-rennes1.fr ([unix socket])
+	 by mailimailo.univ-rennes1.fr (Cyrus v2.3.16-Fedora-RPM-2.3.16-6.el6_2.5) with LMTPA;
+	 Sat, 12 Dec 2015 11:31:29 +0100
+X-Sieve: CMU Sieve 2.3
+Received: from mailout1.univ-rennes1.fr (mailout1.univ-rennes1.fr [129.20.128.162])
+	by mailimailo.univ-rennes1.fr (Postfix) with ESMTP id ECDFA26A100D
+	for <resp-m2-miage@univ-rennes1.fr>; Sat, 12 Dec 2015 11:31:28 +0100 (CET)
+Received: from localhost (vmscanmail.univ-rennes1.fr [129.20.128.134])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id E979960098
+	for <resp-m2-miage@univ-rennes1.fr>; Sat, 12 Dec 2015 11:31:28 +0100 (CET)
+X-Virus-Scanned: amavisd-new at univ-rennes1.fr
+Received: from mailout1.univ-rennes1.fr ([129.20.128.162])
+	by localhost (vmscanmail.univ-rennes1.frm [129.20.128.134]) (amavisd-new, port 10026)
+	with ESMTP id 5qa4QmQzo8pV for <resp-m2-miage@univ-rennes1.fr>;
+	Sat, 12 Dec 2015 11:31:28 +0100 (CET)
+Received: from vmmailin.univ-rennes1.fr (vmmailin.univ-rennes1.fr [129.20.128.133])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id C3ED36000C
+	for <resp-m2-miage@univ-rennes1.fr>; Sat, 12 Dec 2015 11:31:28 +0100 (CET)
+Received: from mxb1-2.relay.renater.fr (mxb1-2.relay.renater.fr [194.214.201.9])
+	by vmmailin.univ-rennes1.fr (Postfix) with ESMTP id BCA7E20033
+	for <resp-m2-miage@univ-rennes1.fr>; Sat, 12 Dec 2015 11:31:28 +0100 (CET)
+Received: from smtp1-25.revue-en-ligne.com (smtp1-25.revue-en-ligne.com [5.196.212.72])
+	by mxb1-2.relay.renater.fr (asm) with SMTP id 7093C28012D
+	for <resp-m2-miage@univ-rennes1.fr>; Sat, 12 Dec 2015 11:31:28 +0100 (CET)
+Received: (GreenArrow 16656 invoked by uid 410); 12 Dec 2015 10:31:25 -0000
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed;
+	d=solutionmaison.fr; s=default; h=Subject:From:To:Date:
+	List-Unsubscribe:Message-ID:MIME-Version:Content-Type; bh=E63gUD
+	nMkMo8dgOphhZdV2zG6aE=; b=b1+kwXAjkqiOVMkA+27nC1ebAjP8SnLqdcbsbz
+	evAgU9jmp+WSwsS/JuuP65VGEhIAnPLt3haBqR7jAW9NYUB3YgfTjlrQwSoF5bie
+	sSWz5yrn+Ei5cgA+9L2MzX9EQr2YBuEIFhttdT4vbMgd31MkRwCjXmSTHC4OGNRe
+	sWlE4=
+Subject: =?UTF-8?Q?Forfait=20mobile=20=C3=A0=20prix=20canon?=
+From: "SFR par Sociabiliweb" <news@solutionmaison.fr>
+To: resp-m2-miage@univ-rennes1.fr
+Date: 12 Dec 2015 10:31:25 -0000
+List-Unsubscribe: <http://solutionmaison.fr/ga/unsubscribe/2-11527895-18-1286-2474-ed35df89ef15825-a33a879a00>,
+ <mailto:return-a18-2467-2474-resp-m2-miage=univ-rennes1.fr=4u@solutionmaison.fr>
+X-Mailer: GreenArrow Studio (v4.65.0)
+X-CampaignID: s4:2467-e6664e4cbe6a3f9b
+Message-ID: <mid-ac7751b0a399bbdd1897b7109edec814@solutionmaison.fr>
+X-Mailer-Info: 4.hFDO.gM0YzN.IXZzBXLtJTLtlWYnVGQ15Wa21icl5mblNXMuYmc.gM0cDN
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="==5a18dd3133b1457708d916da5a6fd1ca"
+X-UCE-Status: YES
+X-UCE-Type: MCE
+X-Original-Source-IP: 5.196.212.72
+X-Bizanga: IMP - mxb1-2.relay.renater.fr
+X-Renater-SpamState: 11
+X-Renater-SpamScore: 17
+X-Renater-SpamCause: gggruggvucftvghtrhhoucdtuddrfeekiedrvddugddujecutefuodetggdotefrodftvfcurfhrohhfihhlvgemucftgffptefvgfftpdggtfgfnhhsuhgsshgtrhhisggvnecuuegrihhlohhuthemuceftddtnecundfotefknffkpffiucdludejmdenucfjughrpefuhffvfffjoffkgggtsegrtderreertdejnecuhfhrohhmpedfuffhtfcuphgrrhcuufhotghirggsihhlihifvggsfdcuoehnvgifshesshholhhuthhiohhnmhgrihhsohhnrdhfrheqnecuffhomhgrihhnpehsohhluhhtihhonhhmrghishhonhdrfhhrnecurfgrrhgrmhepmhhouggvpehsmhhtphdphhgvlhhopehsmhhtphduqddvhedrrhgvvhhuvgdqvghnqdhlihhgnhgvrdgtohhmpdhinhgvthephedrudeliedrvdduvddrjedvpdhmrghilhhfrhhomheprhgvthhurhhnqdgrudekqddvgeeijedqvdegjeegqdhrvghsphdqmhdvqdhmihgrghgvpehunhhivhdqrhgvnhhnvghsuddrfhhrpeegsehsohhluhhtihhonhhmrghishhonhdrfhhrpdhrtghpthhtoheprhgvshhpqdhmvddqmhhirghgvgesuhhnihhvqdhrvghnnhgvshdurdhfrh 
+X-Renater-ServerName: mxb1-2.relay.renater.fr
+
+This is a multi-part message in MIME format.
+
+--==5a18dd3133b1457708d916da5a6fd1ca
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+=C3=80 No=C3=ABl offrez-vous un forfait 4G =C3=A0 prix canon ! ( http://sol=
+utionmaison.fr/ga/click/2-11527895-18-1286-2474-17635-6a65530177-a33a879a00=
+ )
+
+SFR ( http://solutionmaison.fr/ga/click/2-11527895-18-1286-2474-17636-cc16b=
+1f8ba-a33a879a00 )
+ET TOUT S=E2=80=99ACC=C3=89L=C3=88RE ( http://solutionmaison.fr/ga/click/2-=
+11527895-18-1286-2474-17637-1d6218e6fa-a33a879a00 )
+
+Votre futur forfait 4G
+=C3=A0 prix canon ! ( http://solutionmaison.fr/ga/click/2-11527895-18-1286-=
+2474-17638-156587d5b5-a33a879a00 )
+
+Jusqu'=C3=A0 ( http://solutionmaison.fr/ga/click/2-11527895-18-1286-2474-17=
+639-6646404df9-a33a879a00 )
+
+-10 ( http://solutionmaison.fr/ga/click/2-11527895-18-1286-2474-17640-274e6=
+5264b-a33a879a00 )
+=E2=82=AC
+/mois ( http://solutionmaison.fr/ga/click/2-11527895-18-1286-2474-17641-a8a=
+3eee61a-a33a879a00 )
+
+pendant 1 an
+en conservant votre num=C3=A9ro de mobile ( http://solutionmaison.fr/ga/cli=
+ck/2-11527895-18-1286-2474-17642-ba1f71eae1-a33a879a00 )
+
+J=E2=80=99en profite ( http://solutionmaison.fr/ga/click/2-11527895-18-1286=
+-2474-17643-0312302521-a33a879a00 )
+
+( http://solutionmaison.fr/ga/click/2-11527895-18-1286-2474-17644-781b10488=
+6-a33a879a00 )
+
+Et en ce moment ( http://solutionmaison.fr/ga/click/2-11527895-18-1286-2474=
+-17645-9c0cc16ddb-a33a879a00 )
+
+Profitez d'un mois offert
+sur tous nos forfaits 4G ( http://solutionmaison.fr/ga/click/2-11527895-18-=
+1286-2474-17646-4e5cd8ce13-a33a879a00 )
+
+J=E2=80=99en profite ( http://solutionmaison.fr/ga/click/2-11527895-18-1286=
+-2474-17647-f8a963913f-a33a879a00 )
+
+Les plus de la boutique en ligne
+
+Bons plans exclusifs SFR.fr
+
+B=C3=A9n=C3=A9ficiez r=C3=A9guli=C3=A8rement de nos
+ventes flash et de nos promotions.
+
+Voir les promotions forfaits et mobile ( http://solutionmaison.fr/ga/click/=
+2-11527895-18-1286-2474-17648-ae016f646f-a33a879a00 )
+
+Retrait en Boutique SFR sous 2h
+
+Commandez votre mobile en ligne et r=C3=A9cup=C3=A9rez-le gratuitement en
+magasin
+
+Comment =C3=A7a marche ? ( http://solutionmaison.fr/ga/click/2-11527895-18-=
+1286-2474-17649-26100c70a4-a33a879a00 )
+
+Facilit=C3=A9 de paiement
+
+Payez votre nouveau mobile en 24 fois sans frais, =C3=A0 partir de 3=E2=82=
+=AC
+par mois.
+
+En savoir plus ( http://solutionmaison.fr/ga/click/2-11527895-18-1286-2474-=
+17650-ba84a9dc48-a33a879a00 )
+
+REJOIGNEZ-NOUS
+
+Facebook ( http://solutionmaison.fr/ga/click/2-11527895-18-1286-2474-17651-=
+841b6d80cb-a33a879a00 )
+
+Twitter ( http://solutionmaison.fr/ga/click/2-11527895-18-1286-2474-17652-a=
+a97c121f9-a33a879a00 )
+
+Google Plus ( http://solutionmaison.fr/ga/click/2-11527895-18-1286-2474-176=
+53-c8979126b1-a33a879a00 )
+
+Remise nouvelle souscription : Offre soumise =C3=A0 conditions valable
+en France m=C3=A9tropolitaine. Remise de -5=E2=82=AC/mois pendant 12 mois p=
+our
+toute nouvelle souscription =C3=A0 un forfait 4G de SFR, entre le 17
+novembre 2015 et le 4 janvier 2016 inclus. En cas de changement
+d=E2=80=99offre au cours des 12 mois, perte de la remise. Au terme des 12
+mois de remise, le client sera factur=C3=A9 au tarif mensuel en
+vigueur. Remise incompatible avec toute autre offre
+promotionnelle en cours. D=C3=A9tails en point de vente ou sfr.fr
+Remise portabilit=C3=A9 du num=C3=A9ro : Offre soumise =C3=A0 conditions
+valable en France m=C3=A9tropolitaine. Remise de -5=E2=82=AC/mois pendant 12
+mois pour toute nouvelle souscription =C3=A0 un forfait 4G de SFR,
+entre le 17 novembre 2015 et le 4 janvier 2016 inclus. En cas de
+changement d=E2=80=99offre au cours des 12 mois, perte de la remise. Au
+terme des 12 mois de remise, le client sera factur=C3=A9 au tarif
+mensuel en vigueur. Remise incompatible avec toute autre offre
+promotionnelle en cours. D=C3=A9tails en point de vente ou sfr.fr
+Promo Mois Offert : Offre soumise =C3=A0 conditions, valable du 17
+novembre 2015 au 4 janvier 2016, sur sfr.fr et au 1099, pour
+toute nouvelle souscription =C3=A0 un forfait 4G de SFR, avec un
+engagement de 12 mois minimum. Offre cumulable avec toute autre
+offre promotionnelle en cours ( hors clients Forfaits 4G ayant
+une facture mensuelle =C3=A0 0=E2=82=AC, remises =C3=A9ventuelles d=C3=A9du=
+ites). 1 mois
+d=E2=80=99abonnement offert (hors options, consommations hors forfait=E2=80=
+=A6)
+dans la limite du montant mensuel du forfait souscrit, remises
+=C3=A9ventuelles d=C3=A9duites.=
+
+--==5a18dd3133b1457708d916da5a6fd1ca
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.=
+w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml">
+<head>
+	<title></title>
+	<meta content=3D"text/html; charset=3Dutf-8" http-equiv=3D"Content-Type" />
+	<meta content=3D"width=3Ddevice-width, user-scalable=3Dno, initial-scale=
+=3D1.0, minimum-scale=3D1.0, maximum-scale=3D1.0" name=3D"viewport" />
+	<style type=3D"text/css">table, td {
+		border-collapse: collapse;
+		mso-table-lspace:0pt;=20
+		mso-table-rspace:0pt;
+	}
+	table[class=3D"bradius"] {
+		-webkit-border-radius: 5px;=20
+		-moz-border-radius: 5px;=20
+		border-radius: 5px;
+		border-collapse: initial;
+	}
+	table[class=3D"bradius1"] {
+		-webkit-border-radius: 5px;=20
+		-moz-border-radius: 5px;=20
+		border-radius: 5px;
+		border-collapse: initial;
+	}
+	.ReadMsgBody {width: 100%;}
+	.ExternalClass {width: 100%;}
+	.ExternalClass * {line-height: 110% !important}
+	body {-webkit-text-size-adjust: none; -ms-text-size-adjust: 100%; backgrou=
+nd-color:#e2e2e2; }
+	a.white:link{ color:#FFFFFF !important;}
+	a.white:visited{ color:#FFFFFF !important;}
+	a.black:link{ color:#010101 !important;}
+	a.black:visited{ color:#010101 !important;}
+	a.purple:link{ color:#65659e !important;}
+	a.purple:visited{ color:#65659e !important;}
+	a.red:link{ color:#e91f2a !important;}
+	a.red:visited{ color:#e91f2a !important;}
+	a.grey:link{ color:#CCCCCC !important;}
+	a.grey:visited{ color:#CCCCCC !important;}
+
+	@media only screen and (max-width: 588px) {
+		table[class=3D"table588"] {
+			width:98% !important;
+			min-width: 350px !important;
+		}
+		table[class=3D"table100"] {
+			width:100% !important;
+		}
+		table[class=3D"bradius"] {
+			width: 98% !important;
+		}
+		table[class=3D"bradius"] td {
+			height: 37px !important;
+		}
+		table[class=3D"bradius"] td a {
+			font-size: 14px !important;
+		}
+		table[class=3D"bradius1"] {
+			width: 92% !important;
+		}
+		table[class=3D"bradius1"] td {
+			height: 37px !important;
+		}
+		table[class=3D"bradius1"] td a {
+			font-size: 14px !important;
+		}
+		table[class=3D"table25"] {
+			width:40% !important;
+			text-align: center !important;
+		}
+		table[class=3D"table15"] {
+			width:19% !important;
+			text-align: center !important;
+		}
+		table[class=3D"table15"] img {
+			width: 98% !important;
+		}
+		table[class=3D"tablespac"] {
+			width: 6% !important;
+		}
+		td[class=3D"tdborder"] {
+			background-color: #FFFFFF !important;
+		}
+		td[class=3D"td20"] {
+			width: 20% !important;
+		}
+		td[class=3D"td77"] {
+			width: 77% !important;
+		}
+		td[class=3D"td2"] {
+			width: 2% !important;
+		}
+		td[class=3D"td80"] {
+			width: 80% !important;
+		}
+		td[class=3D"spactd"] {
+			height: 20px !important;
+		}
+		td[class=3D"tdcenter"] {
+			text-align: center !important;
+		}
+		img[class=3D"img100"] {
+			width:100%;
+		}
+	}
+	</style>
+</head>
+<body alink=3D"#000002" bgcolor=3D"#e2e2e2" link=3D"#000002" style=3D"heigh=
+t: auto; padding:0; margin:0; -webkit-text-size-adjust:none; -ms-text-size-=
+adjust: 100%;" vlink=3D"#000002">
+<p><img border=3D"0" height=3D"1" nosend=3D"" src=3D"http://elr.sfr.fr/view=
+/sfr-fr/DEQwyRwgEDJm_8YpRfggDBSgoGoPuneyIFdDC478/pix.gif?ea-rnd=3D[RANDOM]&=
+eseg-name=3Didrouteur&eseg-item=3D48&eemail=3D" style=3D"display:none;" wid=
+th=3D"1" /></p>
+
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"font-famil=
+y:Arial;" width=3D"100%">
+	<tbody>
+		<tr>
+			<td align=3D"center" bgcolor=3D"#e2e2e2" height=3D"60" style=3D"font-siz=
+e:11px; color:#010101; line-height:15px;"><a class=3D"black" href=3D"http:/=
+/solutionmaison.fr/ga/click/2-11527895-18-1286-2474-17654-801d0de270-a33a87=
+9a00" style=3D"font-size:11px; color:#010101;" target=3D"_blank" title=3D"=
+=C3=80 No=C3=ABl offrez-vous un forfait 4G =C3=A0 prix canon !">&Agrave; No=
+&euml;l offrez-vous un forfait 4G &agrave; prix canon !</a></td>
+		</tr>
+		<tr>
+			<td align=3D"center" bgcolor=3D"#e2e2e2">
+			<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"table58=
+8" style=3D"font-family:Arial;" width=3D"588">
+				<tbody>
+					<tr>
+						<td align=3D"center" bgcolor=3D"#4a4a53" height=3D"70" width=3D"77"><=
+a href=3D"http://solutionmaison.fr/ga/click/2-11527895-18-1286-2474-17655-f=
+57d661c52-a33a879a00" target=3D"_blank" title=3D"SFR"><img alt=3D"SFR" src=
+=3D"http://i.stupremesw.com/content/sfr20151112/logo.jpg" style=3D"display:=
+block; border:0" /> </a></td>
+						<td align=3D"left" bgcolor=3D"#4a4a53"><a class=3D"white" href=3D"htt=
+p://solutionmaison.fr/ga/click/2-11527895-18-1286-2474-17656-de5dd921d3-a33=
+a879a00" style=3D"font-size:14px; color:#FEFEFE; text-decoration:none;" tar=
+get=3D"_blank" title=3D"ET TOUT S'ACC=C3=89L=C3=88RE">ET TOUT S&rsquo;ACC&E=
+acute;L&Egrave;RE </a></td>
+					</tr>
+					<tr>
+						<td align=3D"center" background=3D"http://i.stupremesw.com/content/sf=
+r20151112/bg0.jpg" bgcolor=3D"#c5bbb2" colspan=3D"2" height=3D"247" style=
+=3D"background-image:url('http://i.stupremesw.com/content/sfr20151112/bg0.j=
+pg'); background-repeat:no-repeat;">
+						<table align=3D"right" border=3D"0" cellpadding=3D"0" cellspacing=3D"=
+0" style=3D"font-family:Arial;" width=3D"95%">
+							<tbody>
+								<tr>
+									<td>
+									<table align=3D"left" border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" class=3D"table100" style=3D"font-family:Arial;" width=3D"59%">
+										<tbody>
+											<tr>
+												<td><a class=3D"white" href=3D"http://solutionmaison.fr/ga/clic=
+k/2-11527895-18-1286-2474-17657-898d8ad68b-a33a879a00" style=3D"text-decora=
+tion:none; color:#FEFEFE; font-size:22px;" target=3D"_blank" title=3D"Votre=
+ futur forfait 4G =C3=A0 prix canon !"><b>Votre futur forfait 4G<br />
+												&agrave; prix canon !</b> </a></td>
+											</tr>
+											<tr>
+												<td height=3D"8"></td>
+											</tr>
+											<tr>
+												<td><a class=3D"white" href=3D"http://solutionmaison.fr/ga/clic=
+k/2-11527895-18-1286-2474-17658-d79f1f2ae9-a33a879a00" style=3D"text-decora=
+tion:none; color:#FEFEFE; font-size:11px; line-height:12px;" target=3D"_bla=
+nk" title=3D"Jusqu'=C3=A0">Jusqu&#39;&agrave; </a></td>
+											</tr>
+											<tr>
+												<td>
+												<table align=3D"left" border=3D"0" cellpadding=3D"0" cellspacin=
+g=3D"0" style=3D"font-family:Arial;">
+													<tbody>
+														<tr>
+															<td valign=3D"top"><a class=3D"red" href=3D"http://solutionm=
+aison.fr/ga/click/2-11527895-18-1286-2474-17659-b5c74acb77-a33a879a00" styl=
+e=3D"text-decoration:none; color:#e91f2a;" target=3D"_blank" title=3D"-10 =
+=E2=82=AC/mois"><font style=3D"font-size:65px; color:#e91f2a; line-height:6=
+5px;"><b>-10</b></font> </a></td>
+															<td valign=3D"top"><a class=3D"red" href=3D"http://solutionm=
+aison.fr/ga/click/2-11527895-18-1286-2474-17660-aa3e6840d0-a33a879a00" styl=
+e=3D"text-decoration:none; color:#e91f2a;" target=3D"_blank" title=3D"-10 =
+=E2=82=AC/mois"><font style=3D"font-size:32px; color:#e91f2a;"><b>&nbsp;&eu=
+ro;</b></font><br />
+															<font style=3D"font-size:16px; color:#e91f2a;">&nbsp;/mois <=
+/font> </a></td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+											<tr>
+												<td><a class=3D"white" href=3D"http://solutionmaison.fr/ga/clic=
+k/2-11527895-18-1286-2474-17661-e639ea304c-a33a879a00" style=3D"text-decora=
+tion:none; color:#FEFEFE; font-size:11px; line-height:13px;" target=3D"_bla=
+nk" title=3D"pendant 1 an en concervant votre num=C3=A9ro de mobile"><b>pen=
+dant 1 an</b><br />
+												en conservant votre num&eacute;ro de mobile</a></td>
+											</tr>
+											<tr>
+												<td height=3D"10"></td>
+											</tr>
+											<tr>
+												<td>
+												<table align=3D"left" border=3D"0" cellpadding=3D"0" cellspacin=
+g=3D"0" class=3D"bradius" style=3D"font-size:11px; color:#FEFEFE; font-fami=
+ly:arial, times, serif; border:1px solid #FEFEFE; -moz-border-radius: 3px; =
+-webkit-border-radius: 3px; border-radius: 3px;" width=3D"145">
+													<tbody>
+														<tr>
+															<td align=3D"center" height=3D"35"><a class=3D"white" href=
+=3D"http://solutionmaison.fr/ga/click/2-11527895-18-1286-2474-17662-8be6834=
+74b-a33a879a00" style=3D"font-size:14px; line-height:35px; text-decoration:=
+none; color:#FEFEFE; display:block;" target=3D"_blank" title=3D"J'en profit=
+e"><b>J&rsquo;en profite</b> </a></td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+					<tr>
+						<td align=3D"center" background=3D"http://i.stupremesw.com/content/sf=
+r20151112/bg1.jpg" bgcolor=3D"#19191d" colspan=3D"2" height=3D"174" style=
+=3D"background-image:url('http://i.stupremesw.com/content/sfr20151112/bg2.j=
+pg'); background-repeat:no-repeat; background-size:cover;">
+						<table align=3D"right" border=3D"0" cellpadding=3D"0" cellspacing=3D"=
+0" style=3D"font-family:Arial;" width=3D"100%">
+							<tbody>
+								<tr>
+									<td>
+									<table align=3D"right" border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" class=3D"table100" style=3D"font-family:Arial;" width=3D"55%">
+										<tbody>
+											<tr>
+												<td align=3D"left" valign=3D"top" width=3D"90"><a class=3D"red"=
+ href=3D"http://solutionmaison.fr/ga/click/2-11527895-18-1286-2474-17663-1a=
+e89c6905-a33a879a00" style=3D"text-decoration:none;" target=3D"_blank" titl=
+e=3D"1 mois offert"><img class=3D"img100" src=3D"http://i.stupremesw.com/co=
+ntent/sfr20151112/1mois.jpg" style=3D"display:block; border:0;" /> </a></td>
+											</tr>
+										</tbody>
+									</table>
+
+									<table align=3D"right" border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" class=3D"table100" style=3D"font-family:Arial;" width=3D"40%">
+										<tbody>
+											<tr>
+												<td height=3D"18"></td>
+											</tr>
+											<tr>
+												<td align=3D"left" class=3D"tdcenter"><a class=3D"white" href=
+=3D"http://solutionmaison.fr/ga/click/2-11527895-18-1286-2474-17664-884ee91=
+40e-a33a879a00" style=3D"text-decoration:none; color:#FEFEFE; font-size:22p=
+x;" target=3D"_blank" title=3D"ET EN CE MOMENT"><b>Et en ce moment</b> </a>=
+</td>
+											</tr>
+											<tr>
+												<td height=3D"18"></td>
+											</tr>
+											<tr>
+												<td align=3D"left" class=3D"tdcenter"><a class=3D"white" href=
+=3D"http://solutionmaison.fr/ga/click/2-11527895-18-1286-2474-17665-eaba586=
+c43-a33a879a00" style=3D"text-decoration:none; color:#FEFEFE; font-size:14p=
+x; line-height:19px;" target=3D"_blank" title=3D"Profitez d'un mois offert =
+sur tous nos forfaits 4G">Profitez d&#39;un mois offert<br />
+												sur tous nos forfaits 4G </a></td>
+											</tr>
+											<tr>
+												<td height=3D"18"></td>
+											</tr>
+											<tr>
+												<td align=3D"left">
+												<table align=3D"left" border=3D"0" cellpadding=3D"0" cellspacin=
+g=3D"0" class=3D"tablespac" width=3D"1">
+													<tbody>
+														<tr>
+															<td height=3D"10"></td>
+														</tr>
+													</tbody>
+												</table>
+
+												<table align=3D"left" border=3D"0" cellpadding=3D"0" cellspacin=
+g=3D"0" class=3D"bradius1" style=3D"font-size:11px; color:#FEFEFE; font-fam=
+ily:arial, times, serif; border:1px solid #FEFEFE; -moz-border-radius: 3px;=
+ -webkit-border-radius: 3px; border-radius: 3px;" width=3D"145">
+													<tbody>
+														<tr>
+															<td align=3D"center" height=3D"37"><a class=3D"white" href=
+=3D"http://solutionmaison.fr/ga/click/2-11527895-18-1286-2474-17666-26201d9=
+c41-a33a879a00" style=3D"font-size:14px; line-height:37px; text-decoration:=
+none; color:#FEFEFE; display:block;" target=3D"_blank" title=3D"J'en profit=
+e"><b>J&rsquo;en profite</b> </a></td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+											<tr>
+												<td class=3D"spactd" height=3D"1"></td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+					<tr>
+						<td align=3D"center" bgcolor=3D"#FFFFFF" colspan=3D"2">
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"font=
+-family:Arial;" width=3D"96%">
+							<tbody>
+								<tr>
+									<td height=3D"15"></td>
+								</tr>
+								<tr>
+									<td><font style=3D"font-size:17px; line-height:28px; color:#010101=
+;">Les plus de la boutique en ligne</font></td>
+								</tr>
+								<tr>
+									<td bgcolor=3D"#ababab" height=3D"1"></td>
+								</tr>
+								<tr>
+									<td height=3D"10"></td>
+								</tr>
+								<tr>
+									<td>
+									<table align=3D"left" border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" class=3D"table100" style=3D"font-family:Arial;" width=3D"33%">
+										<tbody>
+											<tr>
+												<td align=3D"left" colspan=3D"4" height=3D"30"><font style=3D"f=
+ont-size:11px; color:#010101;"><b>Bons plans exclusifs SFR.fr</b></font></t=
+d>
+											</tr>
+											<tr>
+												<td align=3D"center" class=3D"td20" valign=3D"top" width=3D"20%=
+"><img src=3D"http://i.stupremesw.com/content/sfr201511/f1.jpg" style=3D"di=
+splay:block; border:0;" /></td>
+												<td align=3D"left" class=3D"td77" height=3D"40" valign=3D"top" =
+width=3D"77%"><font style=3D"font-size:9px; color:#010101; line-height:12px=
+;">B&eacute;n&eacute;ficiez r&eacute;guli&egrave;rement de nos<br />
+												ventes flash et de nos promotions.</font></td>
+												<td class=3D"td2" width=3D"2%"></td>
+												<td bgcolor=3D"#FFFFF" class=3D"tdborder" valign=3D"top" width=
+=3D"1%"><img src=3D"http://i.stupremesw.com/content/sfr201511/border.jpg" s=
+tyle=3D"display:block; border:0;" /></td>
+											</tr>
+											<tr>
+												<td></td>
+												<td align=3D"left" colspan=3D"3" height=3D"30" valign=3D"top"><=
+a class=3D"purple" href=3D"http://solutionmaison.fr/ga/click/2-11527895-18-=
+1286-2474-17667-ae1e98d457-a33a879a00" style=3D"text-decoration:none; color=
+:#65659e; font-size:9px;" target=3D"_blank" title=3D"Voir les promotions fo=
+rfaits et mobile">Voir les promotions forfaits et mobile </a></td>
+											</tr>
+										</tbody>
+									</table>
+
+									<table align=3D"left" border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" class=3D"table100" style=3D"font-family:Arial;" width=3D"34%">
+										<tbody>
+											<tr>
+												<td align=3D"left" colspan=3D"4" height=3D"30"><font style=3D"f=
+ont-size:11px; color:#010101;"><b>&nbsp;&nbsp;&nbsp;Retrait en Boutique SFR=
+ sous 2h</b></font></td>
+											</tr>
+											<tr>
+												<td align=3D"center" class=3D"td20" valign=3D"top" width=3D"20%=
+"><img src=3D"http://i.stupremesw.com/content/sfr20151112/f2.jpg" style=3D"=
+display:block; border:0;" /></td>
+												<td align=3D"left" class=3D"td77" height=3D"40" valign=3D"top" =
+width=3D"75%"><font style=3D"font-size:9px; color:#010101; line-height:12px=
+;">Commandez votre mobile en ligne et r&eacute;cup&eacute;rez-le gratuiteme=
+nt en magasin</font></td>
+												<td class=3D"td2" width=3D"4%"></td>
+												<td bgcolor=3D"#FFFFF" class=3D"tdborder" valign=3D"top" width=
+=3D"1%"><img src=3D"http://i.stupremesw.com/content/sfr201511/border.jpg" s=
+tyle=3D"display:block; border:0;" /></td>
+											</tr>
+											<tr>
+												<td></td>
+												<td align=3D"left" colspan=3D"3" height=3D"30" valign=3D"top"><=
+a class=3D"purple" href=3D"http://solutionmaison.fr/ga/click/2-11527895-18-=
+1286-2474-17668-9bdbab6a90-a33a879a00" style=3D"text-decoration:none; color=
+:#65659e; font-size:9px;" target=3D"_blank" title=3D"Comment =C3=A7a marche=
+ ?">Comment &ccedil;a marche ? </a></td>
+											</tr>
+										</tbody>
+									</table>
+
+									<table align=3D"left" border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" class=3D"table100" style=3D"font-family:Arial;" width=3D"31%">
+										<tbody>
+											<tr>
+												<td align=3D"left" colspan=3D"2" height=3D"30"><font style=3D"f=
+ont-size:11px; color:#010101;"><b>&nbsp;&nbsp;&nbsp;Facilit&eacute; de paie=
+ment</b></font></td>
+											</tr>
+											<tr>
+												<td align=3D"center" class=3D"td20" valign=3D"top" width=3D"25%=
+"><img src=3D"http://i.stupremesw.com/content/sfr20151112/f3.jpg" style=3D"=
+display:block; border:0;" /></td>
+												<td align=3D"left" class=3D"td77" height=3D"40" valign=3D"top" =
+width=3D"75%"><font style=3D"font-size:9px; color:#010101; line-height:12px=
+;">Payez votre nouveau mobile en 24 fois sans frais, &agrave; partir de 3&e=
+uro; par mois. </font></td>
+											</tr>
+											<tr>
+												<td></td>
+												<td align=3D"left" height=3D"30" valign=3D"top"><a class=3D"pur=
+ple" href=3D"http://solutionmaison.fr/ga/click/2-11527895-18-1286-2474-1766=
+9-40a86f35e7-a33a879a00" style=3D"text-decoration:none; color:#65659e; font=
+-size:9px;" target=3D"_blank" title=3D"En savoir plus">En savoir plus </a><=
+/td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+					<tr>
+						<td align=3D"center" bgcolor=3D"#3d3f3f" colspan=3D"2" height=3D"62">
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"font=
+-size:11px; color:#FEFEFE; font-family:arial, times, serif; border-bottom:1=
+px solid #464849;" width=3D"95%">
+							<tbody>
+								<tr>
+									<td height=3D"10"></td>
+								</tr>
+								<tr>
+									<td>
+									<table align=3D"left" border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" class=3D"table25" style=3D"font-size:11px; color:#FEFEFE; font-famil=
+y:arial, times, serif;" width=3D"23%">
+										<tbody>
+											<tr>
+												<td height=3D"29"><font style=3D"color:#FEFEFE; font-size:11px;=
+">REJOIGNEZ-NOUS</font></td>
+											</tr>
+										</tbody>
+									</table>
+
+									<table align=3D"left" border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" class=3D"table15" style=3D"font-size:11px; color:#FEFEFE; font-famil=
+y:arial, times, serif;" width=3D"25%">
+										<tbody>
+											<tr>
+												<td><a class=3D"white" href=3D"http://solutionmaison.fr/ga/clic=
+k/2-11527895-18-1286-2474-17670-8a54d1233e-a33a879a00" style=3D"color:#3d3f=
+3e; text-decoration:none; font-size:11px;" target=3D"_blank"><img alt=3D"Fa=
+cebook" src=3D"http://i.stupremesw.com/content/sfr20151112/logo_fb.gif" sty=
+le=3D"display:block; border:0;" /> </a></td>
+											</tr>
+										</tbody>
+									</table>
+
+									<table align=3D"left" border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" class=3D"table15" style=3D"font-size:11px; color:#FEFEFE; font-famil=
+y:arial, times, serif;" width=3D"25%">
+										<tbody>
+											<tr>
+												<td><a class=3D"white" href=3D"http://solutionmaison.fr/ga/clic=
+k/2-11527895-18-1286-2474-17671-0971fa8d2e-a33a879a00" style=3D"color:#3d3f=
+3e; text-decoration:none; font-size:11px;" target=3D"_blank"><img alt=3D"Tw=
+itter" src=3D"http://i.stupremesw.com/content/sfr20151112/logo_twit.gif" st=
+yle=3D"display:block; border:0;" /> </a></td>
+											</tr>
+										</tbody>
+									</table>
+
+									<table align=3D"left" border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" class=3D"table15" style=3D"font-size:11px; color:#FEFEFE; font-famil=
+y:arial, times, serif;" width=3D"25%">
+										<tbody>
+											<tr>
+												<td><a class=3D"white" href=3D"http://solutionmaison.fr/ga/clic=
+k/2-11527895-18-1286-2474-17672-330e73a0e4-a33a879a00" style=3D"color:#3d3f=
+3e; text-decoration:none; font-size:11px;" target=3D"_blank"><img alt=3D"Go=
+ogle Plus" src=3D"http://i.stupremesw.com/content/sfr20151112/logo_googlepl=
+us.gif" style=3D"display:block; border:0;" /> </a></td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+								<tr>
+									<td height=3D"10"></td>
+								</tr>
+								<tr>
+									<td bgcolor=3D"#57585c" height=3D"1"></td>
+								</tr>
+								<tr>
+									<td height=3D"10"></td>
+								</tr>
+								<tr>
+									<td><font style=3D"font-size:9px; line-height:13px; text-align:lef=
+t; color:#CCCCCC; text-align:justify;"><b>Remise nouvelle souscription :</b=
+> Offre soumise &agrave; conditions valable en France m&eacute;tropolitaine=
+. Remise de -5&euro;/mois pendant 12 mois pour toute nouvelle souscription =
+&agrave; un forfait 4G de SFR, entre le 17 novembre 2015 et le 4 janvier 20=
+16 inclus. En cas de changement d&rsquo;offre au cours des 12 mois, perte d=
+e la remise. Au terme des 12 mois de remise, le client sera factur&eacute; =
+au tarif mensuel en vigueur. Remise incompatible avec toute autre offre pro=
+motionnelle en cours. D&eacute;tails en point de vente ou sfr.fr<br />
+									<b>Remise portabilit&eacute; du num&eacute;ro :</b> Offre soumise =
+&agrave; conditions valable en France m&eacute;tropolitaine. Remise de -5&e=
+uro;/mois pendant 12 mois pour toute nouvelle souscription &agrave; un forf=
+ait 4G de SFR, entre le 17 novembre 2015 et le 4 janvier 2016 inclus. En ca=
+s de changement d&rsquo;offre au cours des 12 mois, perte de la remise. Au =
+terme des 12 mois de remise, le client sera factur&eacute; au tarif mensuel=
+ en vigueur. Remise incompatible avec toute autre offre promotionnelle en c=
+ours. D&eacute;tails en point de vente ou sfr.fr<br />
+									<b>Promo Mois Offert :</b> Offre soumise &agrave; conditions, vala=
+ble du 17 novembre 2015 au 4 janvier 2016, sur sfr.fr et au 1099, pour tout=
+e nouvelle souscription &agrave; un forfait 4G de SFR, avec un engagement d=
+e 12 mois minimum. Offre cumulable avec toute autre offre promotionnelle en=
+ cours ( hors clients Forfaits 4G ayant une facture mensuelle &agrave; 0&eu=
+ro;, remises &eacute;ventuelles d&eacute;duites). 1 mois d&rsquo;abonnement=
+ offert (hors options, consommations hors forfait&hellip;) dans la limite d=
+u montant mensuel du forfait souscrit, remises &eacute;ventuelles d&eacute;=
+duites. </font><br />
+									&nbsp;</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<p><img height=3D"1" src=3D"http://o.stupremesw.com/56-29-48-2635-23994/uni=
+queId" width=3D"1" /></p>
+
+<center><a href=3D"http://solutionmaison.fr/ga/unsubscribe/2-11527895-18-12=
+86-2474-ed35df89ef15825-a33a879a00">Je souhaite me d=C3=A9sinscrire et ne p=
+lus recevoir les newsletters</a>
+</center><img src=3D"http://solutionmaison.fr/ga/open/2-11527895-18-1286-24=
+74-a33a879a00" height=3D"2" width=3D"3" alt=3D""></body>
+</html>
+
+--==5a18dd3133b1457708d916da5a6fd1ca--

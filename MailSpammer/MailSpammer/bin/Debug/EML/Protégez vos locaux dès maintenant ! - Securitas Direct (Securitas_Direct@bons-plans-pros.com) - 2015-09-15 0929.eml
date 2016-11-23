@@ -1,0 +1,370 @@
+Return-Path: <wjxu-r7-rnflj_jc7k-g3cc3hq.4g@bons-plans-pros.com>
+Received: from mailimailo.univ-rennes1.fr ([unix socket])
+	 by mailimailo.univ-rennes1.fr (Cyrus v2.3.16-Fedora-RPM-2.3.16-6.el6_2.5) with LMTPA;
+	 Tue, 15 Sep 2015 09:29:51 +0200
+X-Sieve: CMU Sieve 2.3
+Received: from vmsmtprexch.univ-rennes1.fr (vmsmtprexch.univ-rennes1.fr [129.20.128.62])
+	by mailimailo.univ-rennes1.fr (Postfix) with ESMTP id 403CF26A0BB5
+	for <resp-m2-miage@univ-rennes1.fr>; Tue, 15 Sep 2015 09:29:51 +0200 (CEST)
+Received: from mbcasexch3.Ur.local (mbcasexch3.univ-rennes1.fr [129.20.125.131])
+	by vmsmtprexch.univ-rennes1.fr (Postfix) with ESMTP id 3CAA8195
+	for <resp-m2-miage@univ-rennes1.fr>; Tue, 15 Sep 2015 09:29:51 +0200 (CEST)
+X-CrossPremisesHeadersFilteredBySendConnector: mbcasexch3.Ur.local
+Received: from mbcasexch1.Ur.local (2002:8114:7d81::8114:7d81) by
+ mbcasexch3.Ur.local (2002:8114:7d83::8114:7d83) with Microsoft SMTP Server
+ (TLS) id 15.0.913.22; Tue, 15 Sep 2015 09:29:50 +0200
+Received: from mailout1.univ-rennes1.fr (129.20.128.162) by
+ mbcasexch1.Ur.local (129.20.125.129) with Microsoft SMTP Server id
+ 15.0.913.22 via Frontend Transport; Tue, 15 Sep 2015 09:29:50 +0200
+Received: from localhost (vmscanmail.univ-rennes1.fr [129.20.128.134])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id E102060334
+	for <resp-m2-miage@univ-rennes1.fr>; Tue, 15 Sep 2015 09:29:50 +0200 (CEST)
+X-Virus-Scanned: amavisd-new at univ-rennes1.fr
+Received: from mailout1.univ-rennes1.fr ([129.20.128.162])
+	by localhost (vmscanmail.univ-rennes1.frm [129.20.128.134]) (amavisd-new, port 10026)
+	with ESMTP id 59SlXxrTaWEs for <resp-m2-miage@univ-rennes1.fr>;
+	Tue, 15 Sep 2015 09:29:50 +0200 (CEST)
+Received: from vmmailin.univ-rennes1.fr (vmmailin.univ-rennes1.fr [129.20.128.133])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id 9496B60538
+	for <resp-m2-miage@univ-rennes1.fr>; Tue, 15 Sep 2015 09:29:50 +0200 (CEST)
+Received: from mxb2-2.relay.renater.fr (mxb2-2.relay.renater.fr [194.214.200.9])
+	by vmmailin.univ-rennes1.fr (Postfix) with ESMTP id 8C3C620033
+	for <resp-m2-miage@univ-rennes1.fr>; Tue, 15 Sep 2015 09:29:50 +0200 (CEST)
+Received: from esmtp-b10.news-pros.fr (esmtp-b10.news-pros.fr [185.52.32.4])
+	by mxb2-2.relay.renater.fr (asm) with ESMTP id 503C16002BC
+	for <resp-m2-miage@univ-rennes1.fr>; Tue, 15 Sep 2015 09:29:50 +0200 (CEST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed; d=bons-plans-pros.com; h=
+	to:subject:date:from:reply-to:list-unsubscribe:message-id
+	:mime-version:content-type; s=mailservera; bh=eWyJQSEBOe+M5cg3SU
+	Zdpyq/jSiFiUHVdcOZSgjRtxE=; b=Zyxj51y548sUxaTqspB9AY3yn0Zx47/5WI
+	CoCsWxFyFGcDTt01uTsEeb7h+pYh/DgH9qLKsOA1LxvBRbA/iubPwMlAY8tlcYRJ
+	IL4I7zYFfKCxXC/hr12w5xrPEgdn35sWOHCB3kz/ocOXtGAkjiugbkGr5fwIhhkA
+	KLisu1u10=
+DomainKey-Signature: a=rsa-sha1; c=nofws; d=bons-plans-pros.com; h=to
+	:subject:date:from:reply-to:list-unsubscribe:message-id
+	:mime-version:content-type; q=dns; s=mailservera; b=kUmZg0sZUvGf
+	UQWE0z3M7R7IGNj3r4/vPpKLMGA+1hPPpFxkcLJcrUx01Y4MFS2felB9tgtGQAxS
+	6qV+oTTiN1/SEKeBCf15H7iprEAPDsJgJ3iRKNV+b1Y09jebmFoP2ypU7+uYWirq
+	2+kxmKyQ7VLa5vCQowALrznkxfnZjh4=
+To: resp-m2-miage <resp-m2-miage@univ-rennes1.fr>
+Subject: *****Spam*****=?utf-8?Q?Prot=C3=A9gez_vos_locaux_d=C3=A8s_maintenant_!?=
+X-PHP-Originating-Script: 1002:class.phpmailer.php
+Date: Tue, 15 Sep 2015 09:29:49 +0200
+From: Securitas Direct <Securitas_Direct@bons-plans-pros.com>
+Reply-To: Securitas Direct <wjxu-r7-rnflj_jc7k-g3cc3hq.4g@bons-plans-pros.com>
+X-campaign_id: 9489696223_7
+X-uid_id_m: cmVzcC1tMi1taWFnZUB1bml2LXJlbm5lczEuZnI==495
+List-Unsubscribe: <http://app.bons-plans-pros.com/d/?camp=9489696223_7&ms=cmVzcC1tMi1taWFnZUB1bml2LXJlbm5lczEuZnI=>
+Message-ID: <701a7d19e741c6b70319557d738cfebb@bons-plans-pros.com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="Part1_701a7d19e741c6b70319557d738cfebb"
+X-Original-Source-IP: 185.52.32.4
+X-Renater-Spam-Status: Yes
+X-VR-SPAM-SCORE: 107
+X-Bizanga: IMP - mxb2-2.relay.renater.fr
+X-Renater-SpamState: 12
+X-Renater-SpamScore: 107
+X-Renater-SpamCause: gggruggvucftvghtrhhoucdtuddrfeekgedrvdehgdduvdeiucetufdoteggodetrfcurfhrohhfihhlvgemucftgffptefvgfftpdggtfgfnhhsuhgsshgtrhhisggvnecuuegrihhlohhuthemuceftddtnecutfhouhhtvghrqddqrffmjgculddutdejmdenucfjughrpefvufffhfhrjffkgggtsegrtdhjredttdejnecuhfhrohhmpefuvggtuhhrihhtrghsucffihhrvggtthcuoefuvggtuhhrihhtrghspgffihhrvggtthessghonhhsqdhplhgrnhhsqdhprhhoshdrtghomheqnecuffhomhgrihhnpegsohhnshdqphhlrghnshdqphhrohhsrdgtohhm 
+X-Renater-ServerName: mxb2-2.relay.renater.fr
+X-OrganizationHeadersPreserved: mbcasexch3.Ur.local
+
+--Part1_701a7d19e741c6b70319557d738cfebb
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Pour visualiser et se d=C3=A9sabonner ce message,
+=20
+Veuillez, copier puis coller, l'adresse URL compl=C3=A8te ci-dessous dans=
+ la
+barre d'adresse de votre navigateur et appuyer sur la touche "Entr=C3=A9e=
+" de
+votre clavier.
+
+
+
+- - - - - - - - - - - - - - - - -=20
+
+http://app.bons-plans-pros.com/v/?camp=3D9489696223_7&ms=3DcmVzcC1tMi1taW=
+FnZUB1bml2LXJlbm5lczEuZnI=3D
+
+- - - - - - - - - - - - - - - - -=20
+
+
+
+
+--Part1_701a7d19e741c6b70319557d738cfebb
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://ww=
+w.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xml:lang=3D"fr" lang=3D"fr">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" =
+/>
+<meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=3D=
+1.0" />
+<title>Prot=C3=A9gez vos locaux d=C3=A8s maintenant !</title>
+</head><body topmargin=3D"0" style=3D"padding:0px; -webkit-text-size-adju=
+st:none; text-size-adjust:none; -ms-text-size-adjust:none; -moz-text-size=
+-adjust:none; margin:0px;" marginwidth=3D"0" leftmargin=3D"0" marginheigh=
+t=3D"0">
+<center><p>
+<a href=3D"http://app.bons-plans-pros.com/v/?camp=3D9489696223_7&ms=3DcmV=
+zcC1tMi1taWFnZUB1bml2LXJlbm5lczEuZnI=3D" target=3D"_blank" title=3D"Si ce=
+t e-mail ne s'affiche pas correctement, suivez ce lien." style=3D"color:#=
+00F; font-family:'Arial'; font-size:12px; text-decoration:underline;">Si =
+cet email ne s&rsquo;affiche pas correctement, suivez ce lien.</a></p><p>=
+&nbsp;</p> <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D=
+"600" align=3D"center">     <tbody>         <tr>             <td bgcolor=3D=
+"#ffffff" width=3D"600" height=3D"13">&nbsp;</td>         </tr>         <=
+tr>             <td>             <table align=3D"left" border=3D"0" cellp=
+adding=3D"0" cellspacing=3D"0" width=3D"600">                 <tbody>    =
+                 <tr>                         <td width=3D"159" bgcolor=3D=
+"#ffffff"><a href=3D"http://app.bons-plans-pros.com/r/?m=3DcmVzcC1tMi1taW=
+FnZUB1bml2LXJlbm5lczEuZnI=3D&c=3D9489696223_7&rc=3DaHR0cDovL25vZGVzLm5wdj=
+E3cWVqYmQuY29tL3IvY2xpYy0yMjgtMzYyLTM0NDAtdXJsLWFIUjBjRG92TDNOa0xuTmxZM1Z=
+5YVhSaGMyUnBjbVZq
+ ZEM1bWNpOWtlVzVqYkdsamF5OXpaQzFtY21GdVkyVXZQMlZ3ZEMxd2RXSnNhWE5vWlhJOVky=
+OXRjR0Z1Wlc4bVpYQjBMVzVoYldVOWNHRnlkR1Z1WVdseVpWOWpiMjF3WVc1bGIzQmxjbVpmW=
+TJGdFluSnBiMTlwYm5OMFgzTmtkbVZ5YVhOMWNtVmZablZ1Ym1Wc0ptVnpaV2N0Ym1GdFpUMG=
+1aWE5sWnkxcGRHVnRQU1psZFhKc1BXaDBkSEFsTTBFbE1rWWxNa1ozZDNjdWMyVmpkWEpwZEd=
+GelpHbHlaV04wTG1aeUpUSkdZMkZzWTNWc0pUSkdZV1pwTVM1d2FIQT9yZ3JvdXA9cF84MTI4=
+JmFtcDt0cmFja2FmZj0mYW1wO2dyb3VwPQ=3D=3D" style=3D"font-family:Arial, Hel=
+vetica, sans-serif; text-decoration:none; color:#c5002a;" target=3D"_blan=
+k"><img style=3D"display:block;" name=3D"securitas_r2_c1" src=3D"http://a=
+pp.bons-plans-pros.com/r/?rc=3DaHR0cHM6Ly9ub2Rlcy5uZW9wZXJmLmNvbS91cGxvYW=
+RzL3Zpc3VlbHMvMTMvMjI4L2tpdHMvc2VjdXJpdGFzX3IyX2MxLmpwZw=3D=3D" width=3D"=
+159" height=3D"68" border=3D"0" id=3D"securitas_r2_c1" alt=3D"Securitas">=
+</a></td>                         <td bgcolor=3D"#ffffff" width=3D"16" he=
+ight=3D"68">&nbsp;</td>                         <td bgcolor=3D"#ffffff" w=
+idth=3D"406" height=3D"68" valign=3D"top"><a href=3D"http://app.bons-plan=
+s-pros.com/r/?
+ m=3DcmVzcC1tMi1taWFnZUB1bml2LXJlbm5lczEuZnI=3D&c=3D9489696223_7&rc=3DaHR=
+0cDovL25vZGVzLm5wdjE3cWVqYmQuY29tL3IvY2xpYy0yMjgtMzYyLTM0NDAtdXJsLWFIUjBj=
+RG92TDNOa0xuTmxZM1Z5YVhSaGMyUnBjbVZqZEM1bWNpOWtlVzVqYkdsamF5OXpaQzFtY21Gd=
+VkyVXZQMlZ3ZEMxd2RXSnNhWE5vWlhJOVkyOXRjR0Z1Wlc4bVpYQjBMVzVoYldVOWNHRnlkR1=
+Z1WVdseVpWOWpiMjF3WVc1bGIzQmxjbVpmWTJGdFluSnBiMTlwYm5OMFgzTmtkbVZ5YVhOMWN=
+tVmZablZ1Ym1Wc0ptVnpaV2N0Ym1GdFpUMG1aWE5sWnkxcGRHVnRQU1psZFhKc1BXaDBkSEFs=
+TTBFbE1rWWxNa1ozZDNjdWMyVmpkWEpwZEdGelpHbHlaV04wTG1aeUpUSkdZMkZzWTNWc0pUS=
+kdZV1pwTVM1d2FIQT9yZ3JvdXA9cF84MTI4JmFtcDt0cmFja2FmZj0mYW1wO2dyb3VwPQ=3D=3D=
+" style=3D"font-family:Arial, Helvetica, sans-serif; text-decoration:none=
+;" target=3D"_blank"><span style=3D" font-family:Arial, Helvetica, sans-s=
+erif; font-size:21px; font-weight:normale; color:#c5002b;">N'attendez plu=
+s,<br>                         <strong style=3D"font-size:22px;">prot&eac=
+ute;gez vos locaux d&egrave;s maintenant !</strong></span></a></td>      =
+                   <td bgcolor=3D"#ffffff" width=3D"19" height=3D
+ "68">&nbsp;</td>                     </tr>                 </tbody>     =
+        </table>             </td>         </tr>         <tr>            =
+ <td>             <table align=3D"left" border=3D"0" cellpadding=3D"0" ce=
+llspacing=3D"0" width=3D"600">                 <tbody>                   =
+  <tr>                         <td bgcolor=3D"#f0f0f0"><a href=3D"http://=
+app.bons-plans-pros.com/r/?m=3DcmVzcC1tMi1taWFnZUB1bml2LXJlbm5lczEuZnI=3D=
+&c=3D9489696223_7&rc=3DaHR0cDovL25vZGVzLm5wdjE3cWVqYmQuY29tL3IvY2xpYy0yMj=
+gtMzYyLTM0NDAtdXJsLWFIUjBjRG92TDNOa0xuTmxZM1Z5YVhSaGMyUnBjbVZqZEM1bWNpOWt=
+lVzVqYkdsamF5OXpaQzFtY21GdVkyVXZQMlZ3ZEMxd2RXSnNhWE5vWlhJOVkyOXRjR0Z1Wlc4=
+bVpYQjBMVzVoYldVOWNHRnlkR1Z1WVdseVpWOWpiMjF3WVc1bGIzQmxjbVpmWTJGdFluSnBiM=
+TlwYm5OMFgzTmtkbVZ5YVhOMWNtVmZablZ1Ym1Wc0ptVnpaV2N0Ym1GdFpUMG1aWE5sWnkxcG=
+RHVnRQU1psZFhKc1BXaDBkSEFsTTBFbE1rWWxNa1ozZDNjdWMyVmpkWEpwZEdGelpHbHlaV04=
+wTG1aeUpUSkdZMkZzWTNWc0pUSkdZV1pwTVM1d2FIQT9yZ3JvdXA9cF84MTI4JmFtcDt0cmFj=
+a2FmZj0mYW1wO2dyb3VwPQ=3D=3D" style=3D"font-family:Arial, Helvetica,=20
+ sans-serif; text-decoration:none; color:#056daf;" target=3D"_blank"><img=
+ style=3D"display:block;" name=3D"securitas_r3_c1" src=3D"http://app.bons=
+-plans-pros.com/r/?rc=3DaHR0cHM6Ly9ub2Rlcy5uZW9wZXJmLmNvbS91cGxvYWRzL3Zpc=
+3VlbHMvMTMvMjI4L2tpdHMvc2VjdXJpdGFzX3IzX2MxLmpwZw=3D=3D" width=3D"159" he=
+ight=3D"90" border=3D"0" id=3D"securitas_r3_c1" alt=3D"Verisure"></a></td=
+>                         <td bgcolor=3D"#f0f0f0"><img style=3D"display:b=
+lock;" name=3D"securitas_r3_c3" src=3D"http://app.bons-plans-pros.com/r/?=
+rc=3DaHR0cHM6Ly9ub2Rlcy5uZW9wZXJmLmNvbS91cGxvYWRzL3Zpc3VlbHMvMTMvMjI4L2tp=
+dHMvc2VjdXJpdGFzX3IzX2MzLmpwZw=3D=3D" width=3D"62" height=3D"90" border=3D=
+"0" id=3D"securitas_r3_c3" alt=3D""></td>                         <td bgc=
+olor=3D"#e2e2e2" width=3D"360" height=3D"90" align=3D"right"><a href=3D"h=
+ttp://app.bons-plans-pros.com/r/?m=3DcmVzcC1tMi1taWFnZUB1bml2LXJlbm5lczEu=
+ZnI=3D&c=3D9489696223_7&rc=3DaHR0cDovL25vZGVzLm5wdjE3cWVqYmQuY29tL3IvY2xp=
+Yy0yMjgtMzYyLTM0NDAtdXJsLWFIUjBjRG92TDNOa0xuTmxZM1Z5YVhSaGMyUnBjbVZqZEM1b=
+WNpOWtlVzVqYkdsamF5OXpaQzFtY21GdV
+ kyVXZQMlZ3ZEMxd2RXSnNhWE5vWlhJOVkyOXRjR0Z1Wlc4bVpYQjBMVzVoYldVOWNHRnlkR1=
+Z1WVdseVpWOWpiMjF3WVc1bGIzQmxjbVpmWTJGdFluSnBiMTlwYm5OMFgzTmtkbVZ5YVhOMWN=
+tVmZablZ1Ym1Wc0ptVnpaV2N0Ym1GdFpUMG1aWE5sWnkxcGRHVnRQU1psZFhKc1BXaDBkSEFs=
+TTBFbE1rWWxNa1ozZDNjdWMyVmpkWEpwZEdGelpHbHlaV04wTG1aeUpUSkdZMkZzWTNWc0pUS=
+kdZV1pwTVM1d2FIQT9yZ3JvdXA9cF84MTI4JmFtcDt0cmFja2FmZj0mYW1wO2dyb3VwPQ=3D=3D=
+" style=3D"font-family:Arial, Helvetica, sans-serif; text-decoration:none=
+;" target=3D"_blank"><span style=3D" font-family:Arial, Helvetica, sans-s=
+erif; font-size:16px; font-weight:normale; color:#000000;"><strong style=3D=
+"font-size:17px;">Optez pour la t&eacute;l&eacute;surveillance.</strong><=
+br>                         Equipez et prot&eacute;gez vos locaux 24/7 o&=
+ugrave; que vous soyez depuis votre Smartphone.</span></a></td>          =
+               <td bgcolor=3D"#e2e2e2" width=3D"19" height=3D"90">&nbsp;<=
+/td>                     </tr>                 </tbody>             </tab=
+le>             </td>         </tr>         <tr>      =20
+       <td bgcolor=3D"#5f5f5f"><a href=3D"http://app.bons-plans-pros.com/=
+r/?m=3DcmVzcC1tMi1taWFnZUB1bml2LXJlbm5lczEuZnI=3D&c=3D9489696223_7&rc=3Da=
+HR0cDovL25vZGVzLm5wdjE3cWVqYmQuY29tL3IvY2xpYy0yMjgtMzYyLTM0NDAtdXJsLWFIUj=
+BjRG92TDNOa0xuTmxZM1Z5YVhSaGMyUnBjbVZqZEM1bWNpOWtlVzVqYkdsamF5OXpaQzFtY21=
+GdVkyVXZQMlZ3ZEMxd2RXSnNhWE5vWlhJOVkyOXRjR0Z1Wlc4bVpYQjBMVzVoYldVOWNHRnlk=
+R1Z1WVdseVpWOWpiMjF3WVc1bGIzQmxjbVpmWTJGdFluSnBiMTlwYm5OMFgzTmtkbVZ5YVhOM=
+WNtVmZablZ1Ym1Wc0ptVnpaV2N0Ym1GdFpUMG1aWE5sWnkxcGRHVnRQU1psZFhKc1BXaDBkSE=
+FsTTBFbE1rWWxNa1ozZDNjdWMyVmpkWEpwZEdGelpHbHlaV04wTG1aeUpUSkdZMkZzWTNWc0p=
+USkdZV1pwTVM1d2FIQT9yZ3JvdXA9cF84MTI4JmFtcDt0cmFja2FmZj0mYW1wO2dyb3VwPQ=3D=
+=3D" style=3D"font-family:Arial, Helvetica, sans-serif; text-decoration:n=
+one;" target=3D"_blank"><img style=3D"display:block;" name=3D"securitas_r=
+4_c1" src=3D"http://app.bons-plans-pros.com/r/?rc=3DaHR0cHM6Ly9ub2Rlcy5uZ=
+W9wZXJmLmNvbS91cGxvYWRzL3Zpc3VlbHMvMTMvMjI4L2tpdHMvc2VjdXJpdGFzX3I0X2MxLm=
+pwZw=3D=3D" width=3D"600" height=3D"266" border=3D"0" id=3D"securitas_r4_=
+c1" alt
+ =3D""></a></td>         </tr>         <tr>             <td>             =
+<table align=3D"left" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" wi=
+dth=3D"600">                 <tbody>                     <tr>            =
+             <td bgcolor=3D"#ffffff"><img style=3D"display:block;" name=3D=
+"securitas_r5_c1" src=3D"http://app.bons-plans-pros.com/r/?rc=3DaHR0cHM6L=
+y9ub2Rlcy5uZW9wZXJmLmNvbS91cGxvYWRzL3Zpc3VlbHMvMTMvMjI4L2tpdHMvc2VjdXJpdG=
+FzX3I1X2MxLmpwZw=3D=3D" width=3D"166" height=3D"57" border=3D"0" id=3D"se=
+curitas_r5_c1" alt=3D""></td>                         <td bgcolor=3D"#067=
+ac4"><a href=3D"http://app.bons-plans-pros.com/r/?m=3DcmVzcC1tMi1taWFnZUB=
+1bml2LXJlbm5lczEuZnI=3D&c=3D9489696223_7&rc=3DaHR0cDovL25vZGVzLm5wdjE3cWV=
+qYmQuY29tL3IvY2xpYy0yMjgtMzYyLTM0NDAtdXJsLWFIUjBjRG92TDNOa0xuTmxZM1Z5YVhS=
+aGMyUnBjbVZqZEM1bWNpOWtlVzVqYkdsamF5OXpaQzFtY21GdVkyVXZQMlZ3ZEMxd2RXSnNhW=
+E5vWlhJOVkyOXRjR0Z1Wlc4bVpYQjBMVzVoYldVOWNHRnlkR1Z1WVdseVpWOWpiMjF3WVc1bG=
+IzQmxjbVpmWTJGdFluSnBiMTlwYm5OMFgzTmtkbVZ5YVhOMWNtVmZablZ1Ym1Wc0ptVnpaV2N=
+0Ym1GdFpUMG1aWE
+ 5sWnkxcGRHVnRQU1psZFhKc1BXaDBkSEFsTTBFbE1rWWxNa1ozZDNjdWMyVmpkWEpwZEdGel=
+pHbHlaV04wTG1aeUpUSkdZMkZzWTNWc0pUSkdZV1pwTVM1d2FIQT9yZ3JvdXA9cF84MTI4JmF=
+tcDt0cmFja2FmZj0mYW1wO2dyb3VwPQ=3D=3D" style=3D"font-family:Arial, Helvet=
+ica, sans-serif; text-decoration:none; color:#ffffff;" target=3D"_blank">=
+<img style=3D"display:block;" name=3D"securitas_r5_c4" src=3D"http://app.=
+bons-plans-pros.com/r/?rc=3DaHR0cHM6Ly9ub2Rlcy5uZW9wZXJmLmNvbS91cGxvYWRzL=
+3Zpc3VlbHMvMTMvMjI4L2tpdHMvc2VjdXJpdGFzX3I1X2M0LmpwZw=3D=3D" width=3D"278=
+" height=3D"57" border=3D"0" id=3D"securitas_r5_c4" alt=3D"En savoir plus=
+"></a></td>                         <td bgcolor=3D"#ffffff"><img style=3D=
+"display:block;" name=3D"securitas_r5_c9" src=3D"http://app.bons-plans-pr=
+os.com/r/?rc=3DaHR0cHM6Ly9ub2Rlcy5uZW9wZXJmLmNvbS91cGxvYWRzL3Zpc3VlbHMvMT=
+MvMjI4L2tpdHMvc2VjdXJpdGFzX3I1X2M5LmpwZw=3D=3D" width=3D"156" height=3D"5=
+7" border=3D"0" id=3D"securitas_r5_c9" alt=3D""></td>                    =
+ </tr>                 </tbody>             </table>             </td>   =
+      </tr>         <t
+ r>             <td bgcolor=3D"#f0f0f0"><img style=3D"display:block;" nam=
+e=3D"securitas_r6_c1" src=3D"http://app.bons-plans-pros.com/r/?rc=3DaHR0c=
+HM6Ly9ub2Rlcy5uZW9wZXJmLmNvbS91cGxvYWRzL3Zpc3VlbHMvMTMvMjI4L2tpdHMvc2VjdX=
+JpdGFzX3I2X2MxLmpwZw=3D=3D" width=3D"600" height=3D"17" border=3D"0" id=3D=
+"securitas_r6_c1" alt=3D""></td>         </tr>         <tr>             <=
+td>             <table align=3D"left" border=3D"0" cellpadding=3D"0" cell=
+spacing=3D"0" width=3D"600">                 <tbody>                     =
+<tr>                         <td bgcolor=3D"#f0f0f0"><img style=3D"displa=
+y:block;" name=3D"securitas_r7_c1" src=3D"http://app.bons-plans-pros.com/=
+r/?rc=3DaHR0cHM6Ly9ub2Rlcy5uZW9wZXJmLmNvbS91cGxvYWRzL3Zpc3VlbHMvMTMvMjI4L=
+2tpdHMvc2VjdXJpdGFzX3I3X2MxLmpwZw=3D=3D" width=3D"55" height=3D"55" borde=
+r=3D"0" id=3D"securitas_r7_c1" alt=3D""></td>                         <td=
+ bgcolor=3D"#f0f0f0" width=3D"208" height=3D"55"><a href=3D"http://app.bo=
+ns-plans-pros.com/r/?m=3DcmVzcC1tMi1taWFnZUB1bml2LXJlbm5lczEuZnI=3D&c=3D9=
+489696223_7&rc=3DaHR0cDovL25vZGVzLm5wdjE3
+ cWVqYmQuY29tL3IvY2xpYy0yMjgtMzYyLTM0NDAtdXJsLWFIUjBjRG92TDNOa0xuTmxZM1Z5=
+YVhSaGMyUnBjbVZqZEM1bWNpOWtlVzVqYkdsamF5OXpaQzFtY21GdVkyVXZQMlZ3ZEMxd2RXS=
+nNhWE5vWlhJOVkyOXRjR0Z1Wlc4bVpYQjBMVzVoYldVOWNHRnlkR1Z1WVdseVpWOWpiMjF3WV=
+c1bGIzQmxjbVpmWTJGdFluSnBiMTlwYm5OMFgzTmtkbVZ5YVhOMWNtVmZablZ1Ym1Wc0ptVnp=
+aV2N0Ym1GdFpUMG1aWE5sWnkxcGRHVnRQU1psZFhKc1BXaDBkSEFsTTBFbE1rWWxNa1ozZDNj=
+dWMyVmpkWEpwZEdGelpHbHlaV04wTG1aeUpUSkdZMkZzWTNWc0pUSkdZV1pwTVM1d2FIQT9yZ=
+3JvdXA9cF84MTI4JmFtcDt0cmFja2FmZj0mYW1wO2dyb3VwPQ=3D=3D" style=3D"font-fa=
+mily:Arial, Helvetica, sans-serif; text-decoration:none;" target=3D"_blan=
+k"><span style=3D" font-family:Arial, Helvetica, sans-serif; font-size:15=
+px; font-weight:normale; color:#000000;"><strong>Signal trait&eacute;</st=
+rong> en moins de 60 secondes**</span></a></td>                         <=
+td bgcolor=3D"#f0f0f0"><img style=3D"display:block;" name=3D"securitas_r7=
+_c7" src=3D"http://app.bons-plans-pros.com/r/?rc=3DaHR0cHM6Ly9ub2Rlcy5uZW=
+9wZXJmLmNvbS91cGxvYWRzL3Zpc3VlbHMvMTMvMjI4L2tpdHMvc2VjdXJpdGF
+ zX3I3X2M3LmpwZw=3D=3D" width=3D"72" height=3D"55" border=3D"0" id=3D"sec=
+uritas_r7_c7" alt=3D""></td>                         <td bgcolor=3D"#f0f0=
+f0" width=3D"246" height=3D"55"><a href=3D"http://app.bons-plans-pros.com=
+/r/?m=3DcmVzcC1tMi1taWFnZUB1bml2LXJlbm5lczEuZnI=3D&c=3D9489696223_7&rc=3D=
+aHR0cDovL25vZGVzLm5wdjE3cWVqYmQuY29tL3IvY2xpYy0yMjgtMzYyLTM0NDAtdXJsLWFIU=
+jBjRG92TDNOa0xuTmxZM1Z5YVhSaGMyUnBjbVZqZEM1bWNpOWtlVzVqYkdsamF5OXpaQzFtY2=
+1GdVkyVXZQMlZ3ZEMxd2RXSnNhWE5vWlhJOVkyOXRjR0Z1Wlc4bVpYQjBMVzVoYldVOWNHRnl=
+kR1Z1WVdseVpWOWpiMjF3WVc1bGIzQmxjbVpmWTJGdFluSnBiMTlwYm5OMFgzTmtkbVZ5YVhO=
+MWNtVmZablZ1Ym1Wc0ptVnpaV2N0Ym1GdFpUMG1aWE5sWnkxcGRHVnRQU1psZFhKc1BXaDBkS=
+EFsTTBFbE1rWWxNa1ozZDNjdWMyVmpkWEpwZEdGelpHbHlaV04wTG1aeUpUSkdZMkZzWTNWc0=
+pUSkdZV1pwTVM1d2FIQT9yZ3JvdXA9cF84MTI4JmFtcDt0cmFja2FmZj0mYW1wO2dyb3VwPQ=3D=
+=3D" style=3D"font-family:Arial, Helvetica, sans-serif; text-decoration:n=
+one;" target=3D"_blank"><span style=3D" font-family:Arial, Helvetica, san=
+s-serif; font-size:15px; font-weight:normale; color:#000000;"><strong>V&e=
+acute;
+ rification</strong> par l'image o&ugrave; que vous soyez</span></a></td>=
+                         <td bgcolor=3D"#f0f0f0" width=3D"19" height=3D"5=
+5">&nbsp;</td>                     </tr>                 </tbody>        =
+     </table>             </td>         </tr>         <tr>             <t=
+d bgcolor=3D"#f0f0f0"><img style=3D"display:block;" name=3D"securitas_r8_=
+c1" src=3D"http://app.bons-plans-pros.com/r/?rc=3DaHR0cHM6Ly9ub2Rlcy5uZW9=
+wZXJmLmNvbS91cGxvYWRzL3Zpc3VlbHMvMTMvMjI4L2tpdHMvc2VjdXJpdGFzX3I4X2MxLmpw=
+Zw=3D=3D" width=3D"600" height=3D"16" border=3D"0" id=3D"securitas_r8_c1"=
+ alt=3D""></td>         </tr>         <tr>             <td>             <=
+table align=3D"left" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" wid=
+th=3D"600">                 <tbody>                     <tr>             =
+            <td bgcolor=3D"#f0f0f0"><img style=3D"display:block;" name=3D=
+"securitas_r9_c1" src=3D"http://app.bons-plans-pros.com/r/?rc=3DaHR0cHM6L=
+y9ub2Rlcy5uZW9wZXJmLmNvbS91cGxvYWRzL3Zpc3VlbHMvMTMvMjI4L2tpdHMvc2VjdXJpdG=
+FzX3I5X2MxLmpwZw=3D=3D
+ " width=3D"55" height=3D"55" border=3D"0" id=3D"securitas_r9_c1" alt=3D"=
+"></td>                         <td bgcolor=3D"#f0f0f0" width=3D"208" hei=
+ght=3D"55"><a href=3D"http://app.bons-plans-pros.com/r/?m=3DcmVzcC1tMi1ta=
+WFnZUB1bml2LXJlbm5lczEuZnI=3D&c=3D9489696223_7&rc=3DaHR0cDovL25vZGVzLm5wd=
+jE3cWVqYmQuY29tL3IvY2xpYy0yMjgtMzYyLTM0NDAtdXJsLWFIUjBjRG92TDNOa0xuTmxZM1=
+Z5YVhSaGMyUnBjbVZqZEM1bWNpOWtlVzVqYkdsamF5OXpaQzFtY21GdVkyVXZQMlZ3ZEMxd2R=
+XSnNhWE5vWlhJOVkyOXRjR0Z1Wlc4bVpYQjBMVzVoYldVOWNHRnlkR1Z1WVdseVpWOWpiMjF3=
+WVc1bGIzQmxjbVpmWTJGdFluSnBiMTlwYm5OMFgzTmtkbVZ5YVhOMWNtVmZablZ1Ym1Wc0ptV=
+npaV2N0Ym1GdFpUMG1aWE5sWnkxcGRHVnRQU1psZFhKc1BXaDBkSEFsTTBFbE1rWWxNa1ozZD=
+NjdWMyVmpkWEpwZEdGelpHbHlaV04wTG1aeUpUSkdZMkZzWTNWc0pUSkdZV1pwTVM1d2FIQT9=
+yZ3JvdXA9cF84MTI4JmFtcDt0cmFja2FmZj0mYW1wO2dyb3VwPQ=3D=3D" style=3D"font-=
+family:Arial, Helvetica, sans-serif; text-decoration:none;" target=3D"_bl=
+ank"><span style=3D" font-family:Arial, Helvetica, sans-serif; font-size:=
+15px; font-weight:normale; color:#000000;"><strong>Alerte</strong> aux fo=
+rces
+  de l'ordre***</span></a></td>                         <td bgcolor=3D"#f=
+0f0f0"><img style=3D"display:block;" name=3D"securitas_r9_c7" src=3D"http=
+://app.bons-plans-pros.com/r/?rc=3DaHR0cHM6Ly9ub2Rlcy5uZW9wZXJmLmNvbS91cG=
+xvYWRzL3Zpc3VlbHMvMTMvMjI4L2tpdHMvc2VjdXJpdGFzX3I5X2M3LmpwZw=3D=3D" width=
+=3D"72" height=3D"55" border=3D"0" id=3D"securitas_r9_c7" alt=3D""></td> =
+                        <td bgcolor=3D"#f0f0f0" width=3D"246" height=3D"5=
+5"><a href=3D"http://app.bons-plans-pros.com/r/?m=3DcmVzcC1tMi1taWFnZUB1b=
+ml2LXJlbm5lczEuZnI=3D&c=3D9489696223_7&rc=3DaHR0cDovL25vZGVzLm5wdjE3cWVqY=
+mQuY29tL3IvY2xpYy0yMjgtMzYyLTM0NDAtdXJsLWFIUjBjRG92TDNOa0xuTmxZM1Z5YVhSaG=
+MyUnBjbVZqZEM1bWNpOWtlVzVqYkdsamF5OXpaQzFtY21GdVkyVXZQMlZ3ZEMxd2RXSnNhWE5=
+vWlhJOVkyOXRjR0Z1Wlc4bVpYQjBMVzVoYldVOWNHRnlkR1Z1WVdseVpWOWpiMjF3WVc1bGIz=
+QmxjbVpmWTJGdFluSnBiMTlwYm5OMFgzTmtkbVZ5YVhOMWNtVmZablZ1Ym1Wc0ptVnpaV2N0Y=
+m1GdFpUMG1aWE5sWnkxcGRHVnRQU1psZFhKc1BXaDBkSEFsTTBFbE1rWWxNa1ozZDNjdWMyVm=
+pkWEpwZEdGelpHbHlaV04wTG1aeUpUSkdZMkZzWTNWc0pUSkdZV1pwTVM1d2FIQT9yZ3JvdXA=
+9cF84MTI
+ 4JmFtcDt0cmFja2FmZj0mYW1wO2dyb3VwPQ=3D=3D" style=3D"font-family:Arial, H=
+elvetica, sans-serif; text-decoration:none;" target=3D"_blank"><span styl=
+e=3D" font-family:Arial, Helvetica, sans-serif; font-size:15px; font-weig=
+ht:normale; color:#000000;"><strong>Contr&ocirc;le de l'alarme</strong> d=
+epuis votre Smartphone</span></a></td>                         <td bgcolo=
+r=3D"#f0f0f0" width=3D"19" height=3D"55">&nbsp;</td>                     =
+</tr>                 </tbody>             </table>             </td>    =
+     </tr>         <tr>             <td bgcolor=3D"#f0f0f0"><span style=3D=
+"font-size: 7.5pt; font-family: Arial, sans-serif;">* Frais d'installatio=
+n offerts sur le Pack Haute S&eacute;curit&eacute; Professionnel, offre v=
+alable avant le 31/07/2015.<br>             **Temps moyen mesur&eacute; s=
+ur l'ann&eacute;e 2013 apr&egrave;s r&eacute;ception du signal sur syst&e=
+grave;mes pour les alarmes dites urgentes, niveau 1 (d&eacute;tection fum=
+&eacute;e, panique, SOS, code sous contrainte).<br>        =20
+     ***Apr&egrave;s lev&eacute;e de doute av&eacute;r&eacute;e selon les=
+ conditions de la loi n&deg;83-629 du 12 juillet 1983, Art 16-1. Offre no=
+n cumulable avec les autres promotions en cours de validit&eacute;.</span=
+></td>         </tr>     </tbody> </table><img alt=3D"" src=3D"http://app=
+.bons-plans-pros.com/r/?rc=3DaHR0cDovL25vZGVzLm5wdjE3cWVqYmQuY29tL21haWxp=
+bmctMjI4LTM2Mi0zNDQwP3Jncm91cD1wXzgxMjgmYW1wO2dyb3VwPQ=3D=3D" border=3D"0=
+" height=3D"1" width=3D"1"><img src=3D"http://app.bons-plans-pros.com/t/?=
+i=3D9489696223_7&m=3DcmVzcC1tMi1taWFnZUB1bml2LXJlbm5lczEuZnI=3D&url=3Dhtt=
+p://app.bons-plans-pros.com/images/blank.jpg" alt=3D"_pspacer5"  /><p>
+<a href=3D"http://app.bons-plans-pros.com/d/?camp=3D9489696223_7&ms=3DcmV=
+zcC1tMi1taWFnZUB1bml2LXJlbm5lczEuZnI=3D" target=3D"_blank" title=3D"Ne pl=
+us recevoir d'informations de notre part" style=3D"color:#00F; font-famil=
+y:'Arial'; font-size:12px; text-decoration:underline;">Pour se d&eacute;s=
+abonner : Suivez ce lien.</a><br />Si ce message vous a caus&eacute; un q=
+uelconque d&eacute;rangement, nous vous prions de nous en excuser.
+</p><center>
+</body>
+</html>
+
+
+
+--Part1_701a7d19e741c6b70319557d738cfebb--

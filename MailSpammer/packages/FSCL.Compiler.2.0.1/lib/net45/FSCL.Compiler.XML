@@ -1,0 +1,716 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doc>
+<assembly><name>FSCL.Compiler</name></assembly>
+<members>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="M:FSCL.Compiler.Compiler.#ctor(FSCL.Compiler.Configuration.PipelineConfiguration,Microsoft.FSharp.Core.FSharpFunc{FSCL.Compiler.IKernelModule,FSCL.Compiler.KernelCacheEntry})">
+<summary>
+The constructor to instantiate a compiler with an object-based configuration
+</summary>
+<param name="conf">The configuration object</param>
+<returns>
+An instance of the compiler configured with the input configuration object
+</returns>
+
+</member>
+<member name="">
+
+</member>
+<member name="M:FSCL.Compiler.Compiler.#ctor(System.String,Microsoft.FSharp.Core.FSharpFunc{FSCL.Compiler.IKernelModule,FSCL.Compiler.KernelCacheEntry})">
+<summary>
+The constructor to instantiate a compiler with a file-based configuration
+</summary>
+<param name="file">The absolute or relative path of the configuration file</param>
+<returns>
+An instance of the compiler configured with the input file
+</returns>
+
+</member>
+<member name="">
+
+</member>
+<member name="M:FSCL.Compiler.Compiler.#ctor(Microsoft.FSharp.Core.FSharpFunc{FSCL.Compiler.IKernelModule,FSCL.Compiler.KernelCacheEntry})">
+<summary>
+The default constructor of the compiler
+</summary>
+<returns>
+An instance of the compiler with the default configuration
+</returns>
+<remarks>
+Defalt configuration means that the FSCL.Compiler configuration folder is checked for the presence of a configuration file.
+If no configuration file is found, the Plugins subfolder is scanned looking for the components of the compiler to load.
+In addition of the 0 or more components found, the native components are always loaded (if no configuration file is found in the first step)
+</remarks>
+
+</member>
+<member name="T:FSCL.Compiler.Compiler">
+<summary>
+The FSCL compiler
+</summary>
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:FSCL.Compiler.Configuration.ComponentSource">
+<summary>
+Kind of compiler source: assembly object or file path
+</summary>
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="P:FSCL.Compiler.Configuration.Pipeline.UsedMetadata">
+<summary>
+ The set of metadata affecting compilation result
+</summary>
+                                                
+</member>
+<member name="P:FSCL.Compiler.Configuration.Pipeline.StepsCount">
+<summary>
+ The steps count
+</summary>
+                                                
+</member>
+<member name="P:FSCL.Compiler.Configuration.Pipeline.Configuration">
+<summary>
+ The compiler configuration
+</summary>
+                                                
+</member>
+<member name="">
+
+</member>
+<member name="M:FSCL.Compiler.Configuration.Pipeline.Run(System.Object,Microsoft.FSharp.Collections.FSharpMap{System.String,System.Object})">
+<summary>
+The method to be invoke to compile a managed kernel
+</summary>
+  
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="M:FSCL.Compiler.Configuration.Pipeline.IsInvariantToKernelMeta(FSCL.Compiler.IKernelMetaCollection,FSCL.Compiler.IKernelMetaCollection)">
+<summary>
+ The set of metadata affecting compilation result
+</summary>
+                                                
+</member>
+<member name="M:FSCL.Compiler.Configuration.Pipeline.#ctor(System.String,System.String,System.Type[],FSCL.Compiler.Configuration.PipelineConfiguration)">
+<summary>
+The constructor to instantiate a compiler with an object-based configuration
+</summary>
+<param name="conf">The configuration object</param>
+<returns>
+An instance of the compiler configured with the input configuration object
+</returns>
+
+</member>
+<member name="M:FSCL.Compiler.Configuration.Pipeline.#ctor(System.String,System.String,System.Type[],System.String)">
+<summary>
+The constructor to instantiate a compiler with a file-based configuration
+</summary>
+<param name="file">The absolute or relative path of the configuration file</param>
+<returns>
+An instance of the compiler configured with the input file
+</returns>
+
+</member>
+<member name="M:FSCL.Compiler.Configuration.Pipeline.#ctor(System.String,System.String,System.Type[])">
+<summary>
+The default constructor of the compiler
+</summary>
+<returns>
+An instance of the compiler with the default configuration
+</returns>
+<remarks>
+Defalt configuration means that the FSCL.Compiler configuration folder is checked for the presence of a configuration file.
+If no configuration file is found, the Plugins subfolder is scanned looking for the components of the compiler to load.
+In addition of the 0 or more components found, the native components are always loaded (if no configuration file is found in the first step)
+</remarks>
+
+</member>
+<member name="T:FSCL.Compiler.Configuration.Pipeline">
+<summary>
+ A step-processor pipeline
+</summary>
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="F:FSCL.Compiler.Configuration.FSCL.Compiler.Configuration.PipelineConfiguration.Sources@">
+<summary>
+The set of components sources
+</summary>
+
+</member>
+<member name="">
+
+</member>
+<member name="P:FSCL.Compiler.Configuration.PipelineConfiguration.Sources">
+<summary>
+The set of components sources
+</summary>
+
+</member>
+<member name="P:FSCL.Compiler.Configuration.PipelineConfiguration.LoadDefaultSteps">
+<summary>
+Whether or not the native components must be merged with this configuration
+</summary>
+
+</member>
+<member name="P:FSCL.Compiler.Configuration.PipelineConfiguration.IsDefault">
+<summary>
+Whether or not this configuration is a default configuration
+</summary>
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="M:FSCL.Compiler.Configuration.PipelineConfiguration.#ctor(System.Boolean,Microsoft.FSharp.Collections.FSharpList{FSCL.Compiler.ICompilerStep},Microsoft.FSharp.Collections.FSharpList{FSCL.Compiler.TypeHandler})">
+<summary>
+Instantiates a configuration with explicit stepe, processors and type handlers
+</summary>
+
+</member>
+<member name="M:FSCL.Compiler.Configuration.PipelineConfiguration.#ctor(System.Boolean)">
+<summary>
+Instantiates a default configuration with or without native compiler components
+</summary>
+
+</member>
+<member name="M:FSCL.Compiler.Configuration.PipelineConfiguration.#ctor">
+<summary>
+</summary>
+
+</member>
+<member name="">
+
+</member>
+<member name="T:FSCL.Compiler.Configuration.PipelineConfiguration">
+<summary>
+Configuration of a compiler instance
+</summary>
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="F:FSCL.Compiler.Configuration.FSCL.Compiler.Configuration.SourceConfiguration.StepProcessors@">
+<summary>
+The set of configurations of step processors
+</summary>
+
+</member>
+<member name="F:FSCL.Compiler.Configuration.FSCL.Compiler.Configuration.SourceConfiguration.Steps@">
+<summary>
+The set of configurations of steps
+</summary>
+
+</member>
+<member name="F:FSCL.Compiler.Configuration.FSCL.Compiler.Configuration.SourceConfiguration.TypeHandlers@">
+<summary>
+The set of configurations of type handlers
+</summary>
+
+</member>
+<member name="F:FSCL.Compiler.Configuration.FSCL.Compiler.Configuration.SourceConfiguration.Source@">
+<summary>
+The path of the source file or the instance of the source assembly
+</summary>
+
+</member>
+<member name="P:FSCL.Compiler.Configuration.SourceConfiguration.TypeHandlers">
+<summary>
+The set of configurations of type handlers
+</summary>
+
+</member>
+<member name="P:FSCL.Compiler.Configuration.SourceConfiguration.Steps">
+<summary>
+The set of configurations of steps
+</summary>
+
+</member>
+<member name="P:FSCL.Compiler.Configuration.SourceConfiguration.StepProcessors">
+<summary>
+The set of configurations of step processors
+</summary>
+
+</member>
+<member name="P:FSCL.Compiler.Configuration.SourceConfiguration.Source">
+<summary>
+The path of the source file or the instance of the source assembly
+</summary>
+
+</member>
+<member name="P:FSCL.Compiler.Configuration.SourceConfiguration.IsExplicit">
+<summary>
+Whether this source is explicit or not
+</summary>
+<remarks>
+An explicit source is a source where all the components in the assembly/file and all the related information are explicitated. 
+In an implicit source the set of steps, processors and type handlers are instead to be found and parsed through reflection,
+investigating the types declared in the assembly and their eventual step, processor or type handler attributes.
+</remarks>
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="M:FSCL.Compiler.Configuration.SourceConfiguration.#ctor(FSCL.Compiler.Configuration.ComponentSource)">
+<summary>
+Constructor to instantiate an implicit compiler source
+</summary>
+
+</member>
+<member name="">
+
+</member>
+<member name="T:FSCL.Compiler.Configuration.SourceConfiguration">
+<summary>
+Configuration of a compiler source, which is a set of steps, processors and type handlers contained to the same assembly
+</summary>
+
+</member>
+<member name="F:FSCL.Compiler.Configuration.FSCL.Compiler.Configuration.StepConfiguration.Type@">
+<summary>
+The runtime .NET type of the step
+</summary>
+
+</member>
+<member name="F:FSCL.Compiler.Configuration.FSCL.Compiler.Configuration.StepConfiguration.UsedMetadata@">
+<summary>
+The set of metadata that affect the result of this step
+</summary>
+ 
+</member>
+<member name="F:FSCL.Compiler.Configuration.FSCL.Compiler.Configuration.StepConfiguration.Before@">
+<summary>
+The set of steps that must be executed after this
+</summary>
+
+</member>
+<member name="F:FSCL.Compiler.Configuration.FSCL.Compiler.Configuration.StepConfiguration.Dependencies@">
+<summary>
+The step dependencies. See <see cref="FSCL.Compiler.StepAttribute"/>
+</summary>
+
+</member>
+<member name="">
+
+</member>
+<member name="P:FSCL.Compiler.Configuration.StepConfiguration.UsedMetadata">
+<summary>
+The set of metadata that affect the result of this step
+</summary>
+ 
+</member>
+<member name="P:FSCL.Compiler.Configuration.StepConfiguration.Type">
+<summary>
+The runtime .NET type of the step
+</summary>
+
+</member>
+<member name="">
+
+</member>
+<member name="P:FSCL.Compiler.Configuration.StepConfiguration.Dependencies">
+<summary>
+The step dependencies. See <see cref="FSCL.Compiler.StepAttribute"/>
+</summary>
+
+</member>
+<member name="P:FSCL.Compiler.Configuration.StepConfiguration.Before">
+<summary>
+The set of steps that must be executed after this
+</summary>
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="M:FSCL.Compiler.Configuration.StepConfiguration.#ctor">
+<summary>
+The ID of the step
+</summary>
+
+</member>
+<member name="">
+
+</member>
+<member name="T:FSCL.Compiler.Configuration.StepConfiguration">
+<summary>
+Configuration of a compiler step
+</summary>
+<remarks>
+A step configuration contains all the information about a step that must be provided when the step is specified in a configuration file or object
+</remarks>
+
+</member>
+<member name="F:FSCL.Compiler.Configuration.FSCL.Compiler.Configuration.StepProcessorConfiguration.Type@">
+<summary>
+The runtime .NET type of the step
+</summary>
+
+</member>
+<member name="F:FSCL.Compiler.Configuration.FSCL.Compiler.Configuration.StepProcessorConfiguration.UsedMetadata@">
+<summary>
+The set of metadata that affect the result of this step
+</summary>
+ 
+</member>
+<member name="F:FSCL.Compiler.Configuration.FSCL.Compiler.Configuration.StepProcessorConfiguration.Step@">
+<summary>
+The runtime .NET type of the step processor
+</summary>
+
+</member>
+<member name="F:FSCL.Compiler.Configuration.FSCL.Compiler.Configuration.StepProcessorConfiguration.Before@">
+<summary>
+The set of processors that must be executed after this
+</summary>
+
+</member>
+<member name="F:FSCL.Compiler.Configuration.FSCL.Compiler.Configuration.StepProcessorConfiguration.Dependencies@">
+<summary>
+The step processors dependencies. See <see cref="FSCL.Compiler.StepProcessorAttribute"/>
+</summary>
+
+</member>
+<member name="F:FSCL.Compiler.Configuration.FSCL.Compiler.Configuration.StepProcessorConfiguration.ID@">
+<summary>
+The ID of the step processors
+</summary>
+
+</member>
+<member name="P:FSCL.Compiler.Configuration.StepProcessorConfiguration.UsedMetadata">
+<summary>
+The set of metadata that affect the result of this step
+</summary>
+ 
+</member>
+<member name="P:FSCL.Compiler.Configuration.StepProcessorConfiguration.Type">
+<summary>
+The runtime .NET type of the step
+</summary>
+
+</member>
+<member name="P:FSCL.Compiler.Configuration.StepProcessorConfiguration.Step">
+<summary>
+The runtime .NET type of the step processor
+</summary>
+
+</member>
+<member name="P:FSCL.Compiler.Configuration.StepProcessorConfiguration.ID">
+<summary>
+The ID of the step processors
+</summary>
+
+</member>
+<member name="P:FSCL.Compiler.Configuration.StepProcessorConfiguration.Dependencies">
+<summary>
+The step processors dependencies. See <see cref="FSCL.Compiler.StepProcessorAttribute"/>
+</summary>
+
+</member>
+<member name="P:FSCL.Compiler.Configuration.StepProcessorConfiguration.Before">
+<summary>
+The set of processors that must be executed after this
+</summary>
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:FSCL.Compiler.Configuration.StepProcessorConfiguration">
+<summary>
+Configuration of a compiler step processor
+</summary>
+
+</member>
+<member name="F:FSCL.Compiler.Configuration.FSCL.Compiler.Configuration.TypeHandlerConfiguration.Type@">
+<summary>
+The runtime .NET type of the step processor
+</summary>
+
+</member>
+<member name="F:FSCL.Compiler.Configuration.FSCL.Compiler.Configuration.TypeHandlerConfiguration.Before@">
+<summary>
+The set of type handlers that must taken into account only is this one is not able to handle a type
+</summary>
+
+</member>
+<member name="F:FSCL.Compiler.Configuration.FSCL.Compiler.Configuration.TypeHandlerConfiguration.Dependencies@">
+<summary>
+The type handler dependencies
+</summary>
+
+</member>
+<member name="F:FSCL.Compiler.Configuration.FSCL.Compiler.Configuration.TypeHandlerConfiguration.ID@">
+<summary>
+Type handler ID
+</summary>
+
+</member>
+<member name="P:FSCL.Compiler.Configuration.TypeHandlerConfiguration.Type">
+<summary>
+The runtime .NET type of the step processor
+</summary>
+
+</member>
+<member name="P:FSCL.Compiler.Configuration.TypeHandlerConfiguration.ID">
+<summary>
+Type handler ID
+</summary>
+
+</member>
+<member name="P:FSCL.Compiler.Configuration.TypeHandlerConfiguration.Dependencies">
+<summary>
+The type handler dependencies
+</summary>
+
+</member>
+<member name="P:FSCL.Compiler.Configuration.TypeHandlerConfiguration.Before">
+<summary>
+The set of type handlers that must taken into account only is this one is not able to handle a type
+</summary>
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:FSCL.Compiler.Configuration.TypeHandlerConfiguration">
+<summary>
+Configuration of a type handler
+</summary>
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:FSCL.Compiler.Configuration.GraphUtil">
+
+</member>
+</members>
+</doc>

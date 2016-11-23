@@ -1,0 +1,521 @@
+Return-Path: <return-a18-2945-2946-resp-m2-miage=univ-rennes1.fr=4@les-actus.com>
+Received: from mailimailo.univ-rennes1.fr ([unix socket])
+	 by mailimailo.univ-rennes1.fr (Cyrus v2.3.16-Fedora-RPM-2.3.16-6.el6_2.5) with LMTPA;
+	 Tue, 02 Feb 2016 11:57:56 +0100
+X-Sieve: CMU Sieve 2.3
+Received: from mailout1.univ-rennes1.fr (mailout1.univ-rennes1.fr [129.20.128.162])
+	by mailimailo.univ-rennes1.fr (Postfix) with ESMTP id 270B426A0518
+	for <resp-m2-miage@univ-rennes1.fr>; Tue,  2 Feb 2016 11:57:56 +0100 (CET)
+Received: from localhost (vmscanmail.univ-rennes1.fr [129.20.128.134])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id 209CD6015F
+	for <resp-m2-miage@univ-rennes1.fr>; Tue,  2 Feb 2016 11:57:56 +0100 (CET)
+X-Virus-Scanned: amavisd-new at univ-rennes1.fr
+Received: from mailout1.univ-rennes1.fr ([129.20.128.162])
+	by localhost (vmscanmail.univ-rennes1.frm [129.20.128.134]) (amavisd-new, port 10026)
+	with ESMTP id pUBTyU7INXJr for <resp-m2-miage@univ-rennes1.fr>;
+	Tue,  2 Feb 2016 11:57:55 +0100 (CET)
+Received: from vmmailin.univ-rennes1.fr (vmmailin.univ-rennes1.fr [129.20.128.133])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id E8F7B60029
+	for <resp-m2-miage@univ-rennes1.fr>; Tue,  2 Feb 2016 11:57:55 +0100 (CET)
+Received: from mxb1-2.relay.renater.fr (mxb1-2.relay.renater.fr [194.214.201.9])
+	by vmmailin.univ-rennes1.fr (Postfix) with ESMTP id D25DA20033
+	for <resp-m2-miage@univ-rennes1.fr>; Tue,  2 Feb 2016 11:57:55 +0100 (CET)
+Received: from smtp1-63.revue-en-ligne.com (smtp1-63.revue-en-ligne.com [46.105.172.211])
+	by mxb1-2.relay.renater.fr (asm) with SMTP id 9852C2800AC
+	for <resp-m2-miage@univ-rennes1.fr>; Tue,  2 Feb 2016 11:57:55 +0100 (CET)
+Received: (GreenArrow 7391 invoked by uid 410); 2 Feb 2016 10:57:53 -0000
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed;
+	d=les-actus.com; s=default; h=Subject:From:To:Date:
+	List-Unsubscribe:Message-ID:MIME-Version:Content-Type; bh=Ztx6zW
+	tMxS59jViuZxypGpnaba4=; b=rVuqc2numdVXHTnCGtqnHOzBPlLIWmJi9/Em4p
+	C93JGyTrLjn0XVnW4VRKqo8DQJ1qmP4t+FR5hbrAmx2zcPdr+dZo3YlwtBc9klbl
+	PuFyVDehdqKiMRFjSYSH0/5vnXiEEi+6WHn/Y81p17XX4XR6BzPFpnb/RXFw4f0O
+	LnXBQ=
+Subject: =?UTF-8?Q?7=20jours=20de=20soin=20offerts=20=21=20D=C3=A9marre?=
+ =?UTF-8?Q?z=20votre=20diagnostic=20beaut=C3=A9?=
+From: "L'Occitane" <news@les-actus.com>
+To: resp-m2-miage@univ-rennes1.fr
+Date: 02 Feb 2016 10:57:53 -0000
+List-Unsubscribe: <http://les-actus.com/ga/unsubscribe/2-11527895-18-1526-2946-ed35df89ef15825-ceca15b606>,
+ <mailto:return-a18-2945-2946-resp-m2-miage=univ-rennes1.fr=4u@les-actus.com>
+X-Mailer: GreenArrow Studio (v4.65.0)
+X-CampaignID: s4:2945-019b10bea59e5b25
+Message-ID: <mid-f5aef905b357cd36a967c46847b6ec6f@les-actus.com>
+X-Mailer-Info: 4.hFDO.gM5QTN.IXZzBXLtJTLtlWYnVGQ15Wa21icl5mblNXMuYmc.gM5QjN
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="==8523eb22ddd53e5c4aec7f7d586ad1c5"
+X-UCE-Status: YES
+X-UCE-Type: MCE
+X-Original-Source-IP: 46.105.172.211
+X-Bizanga: IMP - mxb1-2.relay.renater.fr
+X-Renater-SpamState: 11
+X-Renater-SpamScore: 17
+X-Renater-SpamCause: gggruggvucftvghtrhhoucdtuddrfeekjedrudefgddvvdcutefuodetggdotefrodftvfcurfhrohhfihhlvgemucftgffptefvgfftpdggtfgfnhhsuhgsshgtrhhisggvnecuuegrihhlohhuthemuceftddtnecundfotefknffkpffiucdludejmdenucfjughrpefuhffvfffjoffkgggtsegrtderreertdejnecuhfhrohhmpedfnfdkqfgttghithgrnhgvfdcuoehnvgifsheslhgvshdqrggtthhushdrtghomheqnecuffhomhgrihhnpehlohgttghithgrnhgvrdhfrhdplhgvshdqrggtthhushdrtghomhenucfrrghrrghmpehmohguvgepshhmthhppdhhvghlohepshhmthhpuddqieefrdhrvghvuhgvqdgvnhdqlhhighhnvgdrtghomhdpihhnvghtpeegiedruddthedrudejvddrvdduuddpmhgrihhlfhhrohhmpehrvghtuhhrnhdqrgdukedqvdelgeehqddvleegiedqrhgvshhpqdhmvddqmhhirghgvgepuhhnihhvqdhrvghnnhgvshdurdhfrhepgeeslhgvshdqrggtthhushdrtghomhdprhgtphhtthhopehrvghsphdqmhdvqdhmihgrghgvsehunhhivhdqrhgvnhhnvghsuddrfhhr 
+X-Renater-ServerName: mxb1-2.relay.renater.fr
+
+This is a multi-part message in MIME format.
+
+--==8523eb22ddd53e5c4aec7f7d586ad1c5
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Vos 7 jours de soin visage offerts* ( http://les-actus.com/ga/click/2-11527=
+895-18-1526-2946-21199-43b4efcdf4-ceca15b606 )
+
+L'OCCITANE EN PROVENCE ( http://les-actus.com/ga/click/2-11527895-18-1526-2=
+946-21200-6028b2d53a-ceca15b606 )
+
+Nouveaut=C3=89s ( http://les-actus.com/ga/click/2-11527895-18-1526-2946-212=
+01-ec1e8e2aa9-ceca15b606 ) Nos gammes ( http://les-actus.com/ga/click/2-115=
+27895-18-1526-2946-21202-8a02bfb363-ceca15b606 ) Soin du visage ( http://le=
+s-actus.com/ga/click/2-11527895-18-1526-2946-21203-7a89d33f25-ceca15b606 ) =
+Corps & Bain ( http://les-actus.com/ga/click/2-11527895-18-1526-2946-21204-=
+32ddb56295-ceca15b606 ) Parfum ( http://les-actus.com/ga/click/2-11527895-1=
+8-1526-2946-21205-ef058eafa2-ceca15b606 ) Homme ( http://les-actus.com/ga/c=
+lick/2-11527895-18-1526-2946-21206-b6c0e5e020-ceca15b606 ) Offres ( http://=
+les-actus.com/ga/click/2-11527895-18-1526-2946-21207-5315a2109f-ceca15b606 )
+
+VOS 7 JOURS DE SOIN VISAGE OFFERTS
+
+Pour r=C3=A9v=C3=A9ler votre beaut=C3=A9 vraie
+
+D=C3=A9couvrez le soin qui correspond le mieux =C3=A0 votre beaut=C3=A9 vra=
+ie et
+L'Occitane vous offre 7 JOURS DE SOIN VISAGE. ( http://les-actus.com/ga/cli=
+ck/2-11527895-18-1526-2946-21208-bc38c7d47a-ceca15b606 )
+
+Livraison offerte
+
+Livraison ( http://les-actus.com/ga/click/2-11527895-18-1526-2946-21208-bc3=
+8c7d47a-ceca15b606 )
+
+3 doses d'essai Offertes
+
+4 =C3=A9chantillons gratuits ( http://les-actus.com/ga/click/2-11527895-18-=
+1526-2946-21208-bc38c7d47a-ceca15b606 )
+
+Emballage Cadeau Offert
+
+Coffret Cadeau offert ( http://les-actus.com/ga/click/2-11527895-18-1526-29=
+46-21208-bc38c7d47a-ceca15b606 )
+
+=C3=89change facile en boutique
+
+Boutique ( http://les-actus.com/ga/click/2-11527895-18-1526-2946-21208-bc38=
+c7d47a-ceca15b606 )
+
+( http://les-actus.com/ga/click/2-11527895-18-1526-2946-21209-0d84256eb7-ce=
+ca15b606 )
+( http://les-actus.com/ga/click/2-11527895-18-1526-2946-21209-0d84256eb7-ce=
+ca15b606 )
+( http://les-actus.com/ga/click/2-11527895-18-1526-2946-21210-ada226b0bf-ce=
+ca15b606 )
+( http://les-actus.com/ga/click/2-11527895-18-1526-2946-21211-f59f732739-ce=
+ca15b606 )
+( http://les-actus.com/ga/click/2-11527895-18-1526-2946-21212-1970309921-ce=
+ca15b606 )
+( http://les-actus.com/ga/click/2-11527895-18-1526-2946-21212-1970309921-ce=
+ca15b606 )
+
+Pour toute question, notre Service Clients est =C3=A0 votre =C3=A9coute
+du lundi au vendredi, de 9h =C3=A0 18h, par email sur loccitane.fr,
+rubrique =C2=AB Aide et contact =C2=BB ( http://les-actus.com/ga/click/2-11=
+527895-18-1526-2946-21213-85082d77d0-ceca15b606 ), ou par t=C3=A9l=C3=A9pho=
+ne au 09 69 36 46 56 (co=C3=BBt d'un appel local).
+
+* Votre soin 8ml offert. Offre valable =C3=A0 partir du 11/01/2016
+et dans la limite des stocks disponibles, une seule fois par
+personne, sur simple pr=C3=A9sentation de l'email de confirmation dans
+les boutiques participantes (liste sur
+www.loccitane.fr/boutique/visage16 ou sur loccitane.fr pour tout
+achat en saisissant le code communiqu=C3=A9 dans l'email de
+confirmation d'inscription. Offre non cumulable avec les autres
+offres en cours.=
+
+--==8523eb22ddd53e5c4aec7f7d586ad1c5
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//Dtd XHTML 1.0 Transitional//EN" "http://www.=
+w3.org/TR/xhtml1/Dtd/xhtml1-transitional.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml">
+<head>
+	<title>L&#39;OCCITANE en Provence</title>
+	<meta content=3D"text/html; charset=3Dutf-8" http-equiv=3D"Content-Type" />
+	<style type=3D"text/css">.ReadMsgBody { width: 100%;}=20
+
+			.ExternalClass {width: 100%;}=20=20
+
+			#iPhone { -webkit-text-size-adjust:none; }
+	</style>
+</head>
+<body>
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" wi=
+dth=3D"620">
+	<tbody>
+		<tr>
+		</tr>
+		<tr>
+			<td align=3D"center" style=3D"text-align:center; padding: 6px 0px 10px 0=
+px;"><font style=3D"font-size:16px; font-family: Arial, Helvetica, sans-ser=
+if; font-weight: 400; color: #0F0D67; text-decoration:none; letter-spacing:=
+ 1px; word-spacing: 2px; "><!-- ##################   Start Top Text   #####=
+#############   --> <a href=3D"http://les-actus.com/ga/click/2-11527895-18-=
+1526-2946-21199-43b4efcdf4-ceca15b606" style=3D"text-decoration:none;color:=
+ #0F0D67;" target=3D"_blank"> <strong style=3D"color: #0F0D67;">Vos 7 jours=
+ de soin visage offerts*</strong> </a> </font></td>
+		</tr>
+		<tr>
+			<td width=3D"620"><!-- ##################   Header   ################## =
+  -->
+			<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ width=3D"620">
+				<tbody>
+					<tr>
+						<td><a href=3D"http://les-actus.com/ga/click/2-11527895-18-1526-2946-=
+21200-6028b2d53a-ceca15b606" target=3D"_blank"><img alt=3D"L'OCCITANE EN PR=
+OVENCE" border=3D"0" height=3D"76" src=3D"http://img.loccitane.com/Emailing=
+/header/EM-TEMPLATE-HEADER.jpg" style=3D"display:block; color:#001868; font=
+-size:25px;" width=3D"620" /></a></td>
+					</tr>
+				</tbody>
+			</table>
+			<!-- ##################   Fin Header   ##################   --></td>
+		</tr>
+	</tbody>
+</table>
+
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" he=
+ight=3D"34" width=3D"620">
+	<tbody>
+		<tr>
+			<td style=3D"text-align:center; background-color:#FFF; padding:5px 0px 5=
+px 0px; border-bottom:1px solid #4e362e; border-top:1px solid #4e362e;"><sp=
+an style=3D"font-size:12px; color:#4e362e; font-family:Arial, Helvetica, sa=
+ns-serif; text-transform:uppercase; font-weight: normal;"><a alt=3D"Nav-Nou=
+veaut=C3=A9s" href=3D"http://les-actus.com/ga/click/2-11527895-18-1526-2946=
+-21201-ec1e8e2aa9-ceca15b606" style=3D"color:#4e362e; text-decoration:none;=
+ padding-right: 5px;" target=3D"_blank"><span style=3D"color:#4e362e;">Nouv=
+eaut&Eacute;s</span></a>&nbsp;&nbsp; <a alt=3D"Nav-Nos gammes" href=3D"http=
+://les-actus.com/ga/click/2-11527895-18-1526-2946-21202-8a02bfb363-ceca15b6=
+06" style=3D"color:#4e362e;text-decoration:none; padding-right: 5px;" targe=
+t=3D"_blank"><span style=3D"color:#4e362e;">Nos gammes</span></a>&nbsp;&nbs=
+p; <a alt=3D"Nav-Soin du visage" href=3D"http://les-actus.com/ga/click/2-11=
+527895-18-1526-2946-21203-7a89d33f25-ceca15b606" style=3D"color:#4e362e;tex=
+t-decoration:none; padding-right: 5px;" target=3D"_blank"><span style=3D"co=
+lor:#4e362e;">Soin du visage</span></a>&nbsp;&nbsp; <a alt=3D"Nav-Corps et =
+bain" href=3D"http://les-actus.com/ga/click/2-11527895-18-1526-2946-21204-3=
+2ddb56295-ceca15b606" style=3D"color:#4e362e;text-decoration:none; padding-=
+right: 5px;" target=3D"_blank"><span style=3D"color:#4e362e;">Corps &amp; B=
+ain</span></a>&nbsp;&nbsp; <a alt=3D"Nav-PARFUM" href=3D"http://les-actus.c=
+om/ga/click/2-11527895-18-1526-2946-21205-ef058eafa2-ceca15b606" style=3D"c=
+olor:#4e362e;text-decoration:none; padding-right: 5px;" target=3D"_blank"><=
+span style=3D"color:#4e362e;">Parfum</span></a>&nbsp;&nbsp; <a alt=3D"Nav-H=
+OMME" href=3D"http://les-actus.com/ga/click/2-11527895-18-1526-2946-21206-b=
+6c0e5e020-ceca15b606" style=3D"color:#4e362e;text-decoration:none; padding-=
+right: 5px;" target=3D"_blank"><span style=3D"color:#4e362e;">Homme</span><=
+/a>&nbsp;&nbsp; <a alt=3D"Nav-CADEAUX" href=3D"http://les-actus.com/ga/clic=
+k/2-11527895-18-1526-2946-21207-5315a2109f-ceca15b606" style=3D"color: #c00=
+062; text-decoration:none; padding-right: 5px;" target=3D"_blank"><span sty=
+le=3D"color:#F9B200;">Offres</span></a> </span></td>
+		</tr>
+	</tbody>
+</table>
+<!-- ##################  Body  ##################   -->
+
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" wi=
+dth=3D"620">
+	<tbody>
+		<tr>
+			<td><a href=3D"http://les-actus.com/ga/click/2-11527895-18-1526-2946-212=
+08-bc38c7d47a-ceca15b606"><img alt=3D"VOS 7 JOURS DE SOIN VISAGE OFFERTS
+
+Pour r=C3=A9v=C3=A9ler votre beaut=C3=A9 vraie
+
+D=C3=A9couvrez le soin qui correspond le mieux =C3=A0 votre beaut=C3=A9 vra=
+ie et L'Occitane vous offre 7 JOURS DE SOIN VISAGE. " border=3D"0" src=3D"h=
+ttp://www.loccitane.com/staticEmails/CWE/151231-EM-Sampling/FR/images/16011=
+1_EM_Skincare_Sampling_aff_02.jpg" style=3D"display:block" width=3D"620" />=
+</a></td>
+		</tr>
+	</tbody>
+</table>
+<!-- ##################   Fin Body   ##################   --><!-- #########=
+#########   Start Footer   ##################   -->
+
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" wi=
+dth=3D"620">
+	<tbody>
+		<tr>
+			<td height=3D"20"></td>
+		</tr>
+	</tbody>
+</table>
+
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" wi=
+dth=3D"620">
+	<tbody>
+		<tr>
+			<td>
+			<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0">
+				<tbody>
+					<tr>
+						<td>
+						<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0">
+							<tbody>
+								<tr>
+									<td width=3D"40"></td>
+									<td height=3D"60" style=3D"text-align: center;" width=3D"65"><font=
+ style=3D"font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#=
+21334b; text-transform:uppercase;">Livraison offerte</font></td>
+									<td width=3D"45"></td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+					<tr>
+						<td>
+						<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0">
+							<tbody>
+								<tr>
+									<td width=3D"150"><a href=3D"http://les-actus.com/ga/click/2-11527=
+895-18-1526-2946-21208-bc38c7d47a-ceca15b606"><img alt=3D"Livraison " borde=
+r=3D"0" height=3D"86" src=3D"http://img.loccitane.com/Emailing/footer/ALL-F=
+OOTER_01.jpg" style=3D"display:block" width=3D"150" /> </a></td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			</td>
+			<td>
+			<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0">
+				<tbody>
+					<tr>
+						<td>
+						<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0">
+							<tbody>
+								<tr>
+									<td width=3D"45"></td>
+									<td height=3D"60" style=3D"text-align: center;" width=3D"57"><font=
+ style=3D"font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#=
+21334b; text-transform:uppercase;">3 doses d&#39;essai Offertes</font></td>
+									<td width=3D"45"></td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+					<tr>
+						<td>
+						<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0">
+							<tbody>
+								<tr>
+									<td width=3D"150"><a href=3D"http://les-actus.com/ga/click/2-11527=
+895-18-1526-2946-21208-bc38c7d47a-ceca15b606"><img alt=3D"4 =C3=A9chantillo=
+ns gratuits" border=3D"0" height=3D"86" src=3D"http://img.loccitane.com/Ema=
+iling/footer/ALL-FOOTER_02.jpg" style=3D"display:block" width=3D"150" /> </=
+a></td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			</td>
+			<td>
+			<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0">
+				<tbody>
+					<tr>
+						<td>
+						<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0">
+							<tbody>
+								<tr>
+									<td width=3D"45"></td>
+									<td height=3D"60" style=3D"text-align: center;" width=3D"63"><font=
+ style=3D"font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#=
+21334b; text-transform:uppercase;">Emballage Cadeau Offert</font></td>
+									<td width=3D"45"></td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+					<tr>
+						<td>
+						<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0">
+							<tbody>
+								<tr>
+									<td width=3D"150"><a href=3D"http://les-actus.com/ga/click/2-11527=
+895-18-1526-2946-21208-bc38c7d47a-ceca15b606"><img alt=3D"Coffret Cadeau of=
+fert" border=3D"0" height=3D"86" src=3D"http://img.loccitane.com/Emailing/f=
+ooter/ALL-FOOTER_03.jpg" style=3D"display:block" width=3D"150" /> </a></td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			</td>
+			<td>
+			<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0">
+				<tbody>
+					<tr>
+						<td>
+						<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0">
+							<tbody>
+								<tr>
+									<td width=3D"45"></td>
+									<td height=3D"60" style=3D"text-align: center;" width=3D"85"><font=
+ style=3D"font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#=
+21334b; text-transform:uppercase;">&Eacute;change facile en boutique</font>=
+</td>
+									<td width=3D"40"></td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+					<tr>
+						<td>
+						<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0">
+							<tbody>
+								<tr>
+									<td width=3D"150"><a href=3D"http://les-actus.com/ga/click/2-11527=
+895-18-1526-2946-21208-bc38c7d47a-ceca15b606"><img alt=3D"Boutique" border=
+=3D"0" height=3D"86" src=3D"http://img.loccitane.com/Emailing/footer/ALL-FO=
+OTER_04.jpg" style=3D"display:block" width=3D"150" /> </a></td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" wi=
+dth=3D"620">
+	<tbody>
+		<tr>
+			<td height=3D"1" width=3D"620"><img border=3D"0" height=3D"1" src=3D"htt=
+p://img.loccitane.com/Emailing/footer/ALL-FOOTER-12.jpg" style=3D"display:b=
+lock" width=3D"620" /></td>
+		</tr>
+	</tbody>
+</table>
+
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" wi=
+dth=3D"620">
+	<tbody>
+		<tr>
+			<td align=3D"center" width=3D"473"><img border=3D"0" height=3D"37" src=
+=3D"http://img.loccitane.com/Emailing/footer/ALL-FOOTER-2_01.jpg" style=3D"=
+display:block" width=3D"382" /></td>
+			<td align=3D"center" width=3D"6"><a href=3D"http://les-actus.com/ga/clic=
+k/2-11527895-18-1526-2946-21209-0d84256eb7-ceca15b606" target=3D"_blank"><i=
+mg border=3D"0" height=3D"37" src=3D"http://img.loccitane.com/Emailing/foot=
+er/ALL-FOOTER-2_02.jpg" style=3D"display:block" width=3D"6" /> </a></td>
+			<td align=3D"center" width=3D"28"><a href=3D"http://les-actus.com/ga/cli=
+ck/2-11527895-18-1526-2946-21209-0d84256eb7-ceca15b606" target=3D"_blank"><=
+img border=3D"0" height=3D"37" src=3D"http://img.loccitane.com/Emailing/foo=
+ter/ALL-FOOTER-2_03_GooglePlus.jpg" style=3D"display:block" width=3D"28" />=
+ </a></td>
+			<td align=3D"center" width=3D"30"><a href=3D"http://les-actus.com/ga/cli=
+ck/2-11527895-18-1526-2946-21210-ada226b0bf-ceca15b606" target=3D"_blank"><=
+img border=3D"0" height=3D"37" src=3D"http://img.loccitane.com/Emailing/foo=
+ter/ALL-FOOTER-2_04_Facebook.jpg" style=3D"display:block" width=3D"30" /> <=
+/a></td>
+			<td align=3D"center" width=3D"32"><a href=3D"http://les-actus.com/ga/cli=
+ck/2-11527895-18-1526-2946-21211-f59f732739-ceca15b606" target=3D"_blank"><=
+img border=3D"0" height=3D"37" src=3D"http://img.loccitane.com/Emailing/foo=
+ter/ALL-FOOTER-2_05_Twitter.jpg" style=3D"display:block" width=3D"32" /> </=
+a></td>
+			<td align=3D"center" width=3D"28"><a href=3D"http://les-actus.com/ga/cli=
+ck/2-11527895-18-1526-2946-21212-1970309921-ceca15b606" target=3D"_blank"><=
+img border=3D"0" height=3D"37" src=3D"http://img.loccitane.com/Emailing/foo=
+ter/ALL-FOOTER-2_08_Youtube.jpg" style=3D"display:block" width=3D"28" /> </=
+a></td>
+			<td align=3D"center" width=3D"12"><a href=3D"http://les-actus.com/ga/cli=
+ck/2-11527895-18-1526-2946-21212-1970309921-ceca15b606" target=3D"_blank"><=
+img border=3D"0" height=3D"37" src=3D"http://img.loccitane.com/Emailing/foo=
+ter/ALL-FOOTER-2_09.jpg" style=3D"display:block" width=3D"12" /> </a></td>
+			<td align=3D"center" width=3D"40"><img border=3D"0" height=3D"37" src=3D=
+"http://img.loccitane.com/Emailing/footer/ALL-FOOTER-2_10.jpg" style=3D"dis=
+play:block" width=3D"40" /></td>
+		</tr>
+	</tbody>
+</table>
+
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" wi=
+dth=3D"620">
+	<tbody>
+		<tr>
+			<td height=3D"20" width=3D"620"></td>
+		</tr>
+	</tbody>
+</table>
+
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" wi=
+dth=3D"620">
+	<tbody>
+		<tr>
+			<td style=3D"padding: 10px; background-color: #f4f3f8; font-family: Taho=
+ma, Arial, Verdana; font-size: 10px; color: #0b0d48; font-weight: bold;">Po=
+ur toute question, notre Service Clients est &agrave; votre &eacute;coute d=
+u lundi au vendredi, de 9h &agrave; 18h, par email sur loccitane.fr, rubriq=
+ue <a href=3D"http://les-actus.com/ga/click/2-11527895-18-1526-2946-21213-8=
+5082d77d0-ceca15b606">&laquo; Aide et contact &raquo;</a>, ou par t&eacute;=
+l&eacute;phone au 09 69 36 46 56 (co&ucirc;t d&#39;un appel local).</td>
+		</tr>
+	</tbody>
+</table>
+
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" wi=
+dth=3D"620">
+	<tbody>
+		<tr>
+			<td align=3D"center" width=3D"620"><font face=3D"Arial, sans-serif" size=
+=3D"1" style=3D"font-size:11px;">&nbsp; </font>
+
+			<p></p>
+
+			<p><font face=3D"Arial, sans-serif" size=3D"1" style=3D"font-size:11px;"=
+>* Votre soin 8ml offert. Offre valable &agrave; partir du 11/01/2016 et da=
+ns la limite des stocks disponibles, une seule fois par personne, sur simpl=
+e pr&eacute;sentation de l&#39;email de confirmation dans les boutiques par=
+ticipantes (liste sur www.loccitane.fr/boutique/visage16 ou sur loccitane.f=
+r pour tout achat en saisissant le code communiqu&eacute; dans l&#39;email =
+de confirmation d&#39;inscription. Offre non cumulable avec les autres offr=
+es en cours.</font></p>
+			<font face=3D"Arial, sans-serif" size=3D"1" style=3D"font-size:11px;"> <=
+/font></td>
+		</tr>
+	</tbody>
+</table>
+
+<center><a href=3D"http://les-actus.com/ga/unsubscribe/2-11527895-18-1526-2=
+946-ed35df89ef15825-ceca15b606">Je souhaite me d=C3=A9sinscrire et ne plus =
+recevoir les newsletters</a>
+</center><img src=3D"http://les-actus.com/ga/open/2-11527895-18-1526-2946-c=
+eca15b606" height=3D"2" width=3D"3" alt=3D""></body>
+</html>
+
+--==8523eb22ddd53e5c4aec7f7d586ad1c5--

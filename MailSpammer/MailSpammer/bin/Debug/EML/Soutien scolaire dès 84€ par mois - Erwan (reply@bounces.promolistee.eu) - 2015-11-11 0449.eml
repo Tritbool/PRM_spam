@@ -1,0 +1,416 @@
+Return-Path: <reply@bounces.promolistee.eu>
+Received: from mailimailo.univ-rennes1.fr ([unix socket])
+	 by mailimailo.univ-rennes1.fr (Cyrus v2.3.16-Fedora-RPM-2.3.16-6.el6_2.5) with LMTPA;
+	 Wed, 11 Nov 2015 04:49:13 +0100
+X-Sieve: CMU Sieve 2.3
+Received: from mailout1.univ-rennes1.fr (mailout1.univ-rennes1.fr [129.20.128.162])
+	by mailimailo.univ-rennes1.fr (Postfix) with ESMTP id A748226A0E39
+	for <resp-m2-miage@univ-rennes1.fr>; Wed, 11 Nov 2015 04:49:13 +0100 (CET)
+Received: from localhost (vmscanmail.univ-rennes1.fr [129.20.128.134])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id A2D7F600E6
+	for <resp-m2-miage@univ-rennes1.fr>; Wed, 11 Nov 2015 04:49:13 +0100 (CET)
+X-Virus-Scanned: amavisd-new at univ-rennes1.fr
+Received: from mailout1.univ-rennes1.fr ([129.20.128.162])
+	by localhost (vmscanmail.univ-rennes1.frm [129.20.128.134]) (amavisd-new, port 10026)
+	with ESMTP id TtoDVt5X_J-W for <resp-m2-miage@univ-rennes1.fr>;
+	Wed, 11 Nov 2015 04:49:13 +0100 (CET)
+Received: from vmmailin.univ-rennes1.fr (vmmailin.univ-rennes1.fr [129.20.128.133])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id 7D5556001D
+	for <resp-m2-miage@univ-rennes1.fr>; Wed, 11 Nov 2015 04:49:13 +0100 (CET)
+Received: from mxb1-1.relay.renater.fr (mxb1-1.relay.renater.fr [194.214.201.8])
+	by vmmailin.univ-rennes1.fr (Postfix) with ESMTP id 754C020033
+	for <resp-m2-miage@univ-rennes1.fr>; Wed, 11 Nov 2015 04:49:13 +0100 (CET)
+Received: from mta.57.240.smtp.fr (mta.57.240.smtp.fr [37.60.57.240])
+	by mxb1-1.relay.renater.fr (asm) with ESMTP id 44D866000F2
+	for <resp-m2-miage@univ-rennes1.fr>; Wed, 11 Nov 2015 04:49:13 +0100 (CET)
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=smtp; d=bounces.promolistee.eu;
+ h=To:Subject:Message-ID:Date:From:Reply-to:MIME-Version:List-Unsubscribe:Content-Type; i=reply@bounces.promolistee.eu;
+ bh=mBoixoqImEnZOkhWSEQC841H2go=;
+ b=YNzWJkgVvt157S8ISxLuk4hPGXl0uHMWi1byGfzm+AM/1FTF8HOWxzt/cW9SmyBZSYYLMwSemRXy
+   2KHY6+XOdHpDYEX3boY2l2wlDtx4FeNIHiAUl6vXQgbnUM7C5/3AkHhOrNSMnywqpf92eXAgtgfE
+   oszwq/F8G+IyGRyTeLU=
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=smtp; d=bounces.promolistee.eu;
+ b=mJvBdEb29t47Z/oXuTDJrExiaLyaHm/8iCYtNizulAJS6d/lyucxde/E51lPs+KHjI+uR6Nq8xCt
+   Ssx633705i0SveQtVJz2cROdQ9GKsv8Nc2FDYq4W+2BDS+57qmL17osDYiJQbhnwuBMXKkrwUEAB
+   eSGiRcbVlSmmjeY1mKk=;
+Received: from localhost.localdomain (172.31.255.248) by mta.57.240.smtp.fr id h8atbk199b4v for <resp-m2-miage@univ-rennes1.fr>; Wed, 11 Nov 2015 04:49:13 +0100 (envelope-from <reply@bounces.promolistee.eu>)
+To: resp-m2-miage@univ-rennes1.fr
+Subject: =?utf-8?Q?Soutien_scolaire_d=C3=A8s_84=E2=82=AC_par_mois?=
+Message-ID: <fdaee8a7c342ad85ed0064808b6c6921@localhost.localdomain>
+Date: Wed, 11 Nov 2015 04:49:12 +0100
+From: Erwan <reply@bounces.promolistee.eu>
+Reply-to: Erwan <reply@bounces.promolistee.eu>
+MIME-Version: 1.0
+List-Unsubscribe: <http://www.promolistee.eu/Bounces.php?M=232898091&N=539486&L=4fc5ef332a&type=34>, <mailto:reply@bounces.promolistee.eu?subject=list-id=a065c159-dfbb-6619-e781-ebef6d94195d_4fc5ef332a_a96ea9fc-0cea-6393-d1fa-c8e33a1dc357-fbl>
+X-Mailer: JRCG
+X-Mailer-Sid: promolisteeeu
+X-Mailer-RecptId: a065c159-dfbb-6619-e781-ebef6d94195d_4fc5ef332a_a96ea9fc-0cea-6393-d1fa-c8e33a1dc357
+X-Priority: 3
+Content-Type: multipart/alternative;
+	boundary="b1_fdaee8a7c342ad85ed0064808b6c6921"
+X-UCE-Status: YES
+X-UCE-Type: MCE
+X-Original-Source-IP: 37.60.57.240
+X-Bizanga: IMP - mxb1-1.relay.renater.fr
+X-Renater-SpamState: 11
+X-Renater-SpamScore: 17
+X-Renater-SpamCause: gggruggvucftvghtrhhoucdtuddrfeekhedrgeeigdeikecutefuodetggdotefrodftvfcurfhrohhfihhlvgemucftgffptefvgfftpdggtfgfnhhsuhgsshgtrhhisggvnecuuegrihhlohhuthemuceftddtnecundfotefknffkpffiucdludejmdenucfjughrpefvuffkfffhrhggjfforfgtsegrtdhjphertddunecuhfhrohhmpefgrhifrghnuceorhgvphhlhiessghouhhntggvshdrphhrohhmohhlihhsthgvvgdrvghuqeenucffohhmrghinhepphhrohhmohhlihhsthgvvgdrvghunecurfgrrhgrmhepmhhouggvpehsmhhtphdphhgvlhhopehmthgrrdehjedrvdegtddrshhmthhprdhfrhdpihhnvghtpeefjedriedtrdehjedrvdegtddpmhgrihhlfhhrohhmpehrvghplhihsegsohhunhgtvghsrdhprhhomhholhhishhtvggvrdgvuhdprhgtphhtthhopehrvghsphdqmhdvqdhmihgrghgvsehunhhivhdqrhgvnhhnvghsuddrfhhr 
+X-Renater-ServerName: mxb1-1.relay.renater.fr
+
+
+--b1_fdaee8a7c342ad85ed0064808b6c6921
+Content-Type: text/plain; charset = "utf-8"
+Content-Transfer-Encoding: 8bit
+
+ACADOMIA
+Vous recevez ce mail car vous tes inscrits la lettre d'information de
+Promo Listee.
+Vous aimez notre Newsletter ? Pour tre sr(e) de recevoir tous nos
+emails, nous vous conseillons d'ajouter contact@promolistee.eu
+mailto:contact@promolistee.eu votre carnet d'adresses.
+DCOUVREZ L\'OFFRE DU JOUR AVEC PROMO LISTEE suivez ce lien
+http://www.promolistee.eu/n2/539486/232898091/4fc5ef332a. Pour un
+dsabonnement, utilisez ce lien Me dsabonner/Unsubscribe
+http://www.promolistee.eu/u/539486/232898091/4fc5ef332a/fr
+http://www.promolistee.eu/c2/539486/232898091/4fc5ef332a/1
+http://www.promolistee.eu/c2/539486/232898091/4fc5ef332a/2
+http://www.promolistee.eu/c2/539486/232898091/4fc5ef332a/3
+http://www.promolistee.eu/c2/539486/232898091/4fc5ef332a/4
+http://www.promolistee.eu/c2/539486/232898091/4fc5ef332a/5
+http://www.promolistee.eu/c2/539486/232898091/4fc5ef332a/6
+http://www.promolistee.eu/c2/539486/232898091/4fc5ef332a/7
+http://www.promolistee.eu/c2/539486/232898091/4fc5ef332a/8
+http://www.promolistee.eu/c2/539486/232898091/4fc5ef332a/9
+http://www.promolistee.eu/c2/539486/232898091/4fc5ef332a/10
+DES LVES qui font UN BON PREMIER TRIMESTRE finissent bien l'anne
+scolaire
+http://www.promolistee.eu/c2/539486/232898091/4fc5ef332a/11
+http://www.promolistee.eu/c2/539486/232898091/4fc5ef332a/12
+http://www.promolistee.eu/c2/539486/232898091/4fc5ef332a/13
+http://www.promolistee.eu/c2/539486/232898091/4fc5ef332a/14
+NÂ°1 de l'accompagnement scolaire en France
+http://www.promolistee.eu/c2/539486/232898091/4fc5ef332a/15
+http://www.promolistee.eu/c2/539486/232898091/4fc5ef332a/16
+http://www.promolistee.eu/c2/539486/232898091/4fc5ef332a/17
+http://www.promolistee.eu/c2/539486/232898091/4fc5ef332a/18
+http://www.promolistee.eu/c2/539486/232898091/4fc5ef332a/19
+110 CENTRES partout en France
+http://www.promolistee.eu/c2/539486/232898091/4fc5ef332a/20
+http://www.promolistee.eu/c2/539486/232898091/4fc5ef332a/21
+20 000 ENSEIGNANTS
+http://www.promolistee.eu/c2/539486/232898091/4fc5ef332a/22
+http://www.promolistee.eu/c2/539486/232898091/4fc5ef332a/23
++3,2 POINTS en moyenne**
+http://www.promolistee.eu/c2/539486/232898091/4fc5ef332a/24
+http://www.promolistee.eu/c2/539486/232898091/4fc5ef332a/25
+50% de rduction d'impt***
+http://www.promolistee.eu/c2/539486/232898091/4fc5ef332a/26
+http://www.promolistee.eu/c2/539486/232898091/4fc5ef332a/27
+http://www.promolistee.eu/c2/539486/232898091/4fc5ef332a/28
+COURS PARTICULIERS - COURS COLLECTIFS - COURS EN LIGNE
+http://www.promolistee.eu/c2/539486/232898091/4fc5ef332a/29
+http://www.promolistee.eu/c2/539486/232898091/4fc5ef332a/30
+*Source enqute service qualit mai 2014
+**Etude Market Audit juillet 2013
+***50% de rduction d'impt sur le cot horaire charges sociales
+incluses, dans les conditions poses par l'art. 199 sexdcies du CGI,
+sous rserve de modification de la lgislation.
+Avec Promo Listee, vous pouvez bnficier ds maintenant des bons plans
+et des rductions exclusives qui correspondent
+aux univers de la famille, la mode, la beaut, la dcoration, le
+voyage...
+Conformment la loi informatique et liberts, vous pouvez tout moment
+accder, faire rectifier
+ou supprimer les informations personnelles vous concernant ou vous
+opposer leur traitement par Promo Listee.
+Pour ne plus bnficier de nos propositions commerciales, vous pouvez
+vous rendre sur cette page
+http://www.promolistee.eu/u/539486/232898091/4fc5ef332a/fr
+Notez que le traitement de cette demande peut prendre jusqu' 48
+heures.
+
+
+--b1_fdaee8a7c342ad85ed0064808b6c6921
+Content-Type: text/html; charset = "utf-8"
+Content-Transfer-Encoding: 8bit
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head>
+<style type="text/css">
+.ReadMsgBody {width: 100%;}
+.ExternalClass {width: 100%;}
+.ExternalClass * {line-height: 100%;}
+span.yshortcuts { color:#000; background-color:none; border:none;}
+span.yshortcuts:hover,span.yshortcuts:active,span.yshortcuts:focus {color:#000; background-color:none; border:none;}
+body {-webkit-text-size-adjust: none;-ms-text-size-adjust: none;}
+* {line-height: 100%;}
+@media only screen and (max-width: 480px) {table {margin: 0 auto;}
+table[class=colonne-g] {width: 322px !important;height: auto !important;display: block;}
+td[class=colonne-g] {width: 320px !important;height: auto !important;display: block;}
+table[class=colonne] {width: 320px !important;height: auto !important;display: block;}
+table[class=deuxsizezero] {width: 260px !important;height: auto !important;display: block;}
+table[class=unseptun] {width: 171px !important;height: auto !important;display: block;}
+td[class=colonne] {width: 320px !important;height: auto !important;display: block;}
+td[class=deuxhuitzero] {width: 280px !important;height: auto !important;display: block;}
+td[class=unseptun] {width: 171px !important;height: auto !important;display: block;margin-top:3px;}
+img[class=unseptun] {width: 171px !important;height: auto !important;display: block;}
+img[class=colonne] {width: 320px !important;height: auto !important;display: block;}
+[class=hide] {display:none;}
+a[class=doce]{font-size:12px !important;}
+}
+.ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {line-height: 100%;}
+table {border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;}
+table td {border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;}
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>ACADOMIA</title>
+</head><body><div id="template_header_auto_include" ><center>
+<span style='font-size:11px;text-align:center;font-family:Arial, Helvetica, sans-serif;color:#000'><br />
+Vous recevez ce mail car vous &ecirc;tes inscrits &agrave; la lettre d'information de Promo Listee. <br />
+Vous aimez notre Newsletter ? Pour &ecirc;tre s&ucirc;r(e) de recevoir tous nos emails, nous vous conseillons d'ajouter <a href='mailto:contact@promolistee.eu' target='_blank'> contact@promolistee.eu</a> &agrave; votre carnet d'adresses.<br />
+<br/>
+<strong>D&eacute;couvrez l'offre du jour avec Promo Listee </strong><a href='http://www.promolistee.eu/n2/539486/232898091/4fc5ef332a' target='_blank'> suivez ce lien</a>. Pour un d&eacute;sabonnement, utilisez ce lien <a href='http://www.promolistee.eu/u/539486/232898091/4fc5ef332a/fr' target='_blank'> Me d&eacute;sabonner/Unsubscribe</a>
+</span>
+</center></div><table width="98%" border="0" align="center" cellpadding="0" cellspacing="0">
+<tr><td>
+<table width="602" border="0" cellspacing="0" cellpadding="0" align="center" class="colonne-g">
+<tbody>
+<tr>
+<td width="602" align="center" valign="top" class="colonne" bordercolor="#ffffff" style="border:1px solid #ffffff; background-color:#ffffff;" bgcolor="#ffffff"><table width="600" border="0" cellspacing="0" cellpadding="0" align="center" class="colonne">
+<tbody>
+<tr>
+<td width="600" align="center" valign="top" class="colonne"><table width="600" border="0" cellspacing="0" cellpadding="0" align="center" class="colonne">
+<tbody>
+<tr>
+<td width="346" align="center" valign="top" class="colonne" bgcolor="#f0f2f4" style="background-color:#f0f2f4;"><a href="http://www.promolistee.eu/c2/539486/232898091/4fc5ef332a/1" style="border:none; text-decoration:none;"><img src="http://img.promolistee.eu/539486/header-acadomia.jpg" width="346" height="77" alt="Tout est une question de confiance _ ACADOMIA" style="display:block;" border="0" class="colonne"/></a></td>
+<td width="254" align="center" valign="top" class="hide"><a href="http://www.promolistee.eu/c2/539486/232898091/4fc5ef332a/2" style="border:none; text-decoration:none;"><img src="http://img.promolistee.eu/539486/header-marge.jpg" width="254" height="77" alt="Acadomia" style="display:block;" border="0" class="hide"/></a></td>
+</tr>
+</tbody>
+</table></td>
+</tr>
+<tr>
+<td width="600" align="center" valign="top" class="colonne"><table width="600" border="0" cellspacing="0" cellpadding="0" align="center" class="colonne">
+<tbody>
+<tr>
+<td width="326" align="center" valign="top" class="hide"><a href="http://www.promolistee.eu/c2/539486/232898091/4fc5ef332a/3" style="border:none; text-decoration:none;"><img src="http://img.promolistee.eu/539486/body-img.jpg" width="326" height="355" alt="Image - Acadomia" style="display:block;" border="0" class="hide"/></a></td>
+<td width="274" align="center" valign="top" class="colonne"><table width="274" border="0" cellspacing="0" cellpadding="0" align="center" class="colonne">
+<tbody>
+<tr>
+<td width="274" align="center" valign="top" class="colonne"><a href="http://www.promolistee.eu/c2/539486/232898091/4fc5ef332a/4" style="border:none; text-decoration:none;"><img src="http://img.promolistee.eu/539486/body-droite-texte.jpg" width="274" height="164" alt="Voir nos solution d'accompagnement pour une ann&eacute;e scolaire sans tracas" style="display:block;" border="0" class="colonne"/></a></td>
+</tr>
+<tr>
+<td width="274" align="center" valign="top" class="hide"><a href="http://www.promolistee.eu/c2/539486/232898091/4fc5ef332a/5" style="border:none; text-decoration:none;"><img src="http://img.promolistee.eu/539486/body-droite-bouton-marge-haut.jpg" width="274" height="32" alt="Acadomia" style="display:block;" border="0" class="hide"/></a></td>
+</tr>
+<tr>
+<td width="274" align="center" valign="top" class="colonne"><a href="http://www.promolistee.eu/c2/539486/232898091/4fc5ef332a/6" style="border:none; text-decoration:none;"><img src="http://img.promolistee.eu/539486/body-droite-bouton.jpg" width="274" height="113" alt="Renseignement" style="display:block;" border="0" class="colonne"/></a></td>
+</tr>
+<tr>
+<td width="274" align="center" valign="top" class="hide"><a href="http://www.promolistee.eu/c2/539486/232898091/4fc5ef332a/7" style="border:none; text-decoration:none;"><img src="http://img.promolistee.eu/539486/body-droite-bouton-marge-bas.jpg" width="274" height="46" alt="Acadomia" style="display:block;" border="0" class="hide"/></a></td>
+</tr>
+</tbody>
+</table></td>
+</tr>
+</tbody>
+</table></td>
+</tr>
+<tr>
+<td width="600" align="center" valign="top" class="colonne"><table width="600" border="0" cellspacing="0" cellpadding="0" align="center" class="colonne">
+<tbody>
+<tr>
+<td width="600" align="center" valign="top" class="colonne"><a href="http://www.promolistee.eu/c2/539486/232898091/4fc5ef332a/8" style="border:none; text-decoration:none;"><img src="http://img.promolistee.eu/539486/body-marge-bas.jpg" width="600" height="20" alt="Acadomia" style="display:block;" border="0" class="colonne"/></a></td>
+</tr>
+</tbody>
+</table></td>
+</tr>
+<tr>
+<td width="600" align="center" valign="top" class="colonne"><table width="600" border="0" cellspacing="0" cellpadding="0" align="center" class="colonne" bgcolor="#f0f2f4" style="background-color:#f0f2f4;">
+<tbody>
+<tr>
+<td width="149" align="center" valign="top"><a href="http://www.promolistee.eu/c2/539486/232898091/4fc5ef332a/9" style="border:none; text-decoration:none;"><img src="http://img.promolistee.eu/539486/80-img.jpg" width="149" height="66" alt="80 sur 100 *" style="display:block;" border="0"/></a></td>
+<td width="420" align="center" valign="top" class="unseptun"><table width="420" border="0" cellspacing="0" cellpadding="0" align="center" class="unseptun">
+<tbody>
+<tr>
+<td width="420" align="center" valign="top" class="unseptun"><a href="http://www.promolistee.eu/c2/539486/232898091/4fc5ef332a/10" style="border:none; text-decoration:none;"><img src="http://img.promolistee.eu/539486/80-marge-texte.jpg" width="420" height="30" alt="Acadomia" style="display:block;" border="0" class="unseptun"/></a></td>
+</tr>
+<tr>
+<td width="420" align="left" valign="top" bgcolor="#f0f2f4" class="unseptun" style="background-color:#f0f2f4;"><a href="http://www.promolistee.eu/c2/539486/232898091/4fc5ef332a/11" style="color:#565655; font-family:Arial, Helvetica, sans-serif; font-size:16px; text-decoration:none; border:none;" class="doce"><strong>des &eacute;l&egrave;ves</strong> qui font <strong>un bon premier trimestre</strong> finissent bien l'ann&eacute;e scolaire</a></td>
+</tr>
+</tbody>
+</table></td>
+<td width="31" align="center" valign="top" class="hide"><a href="http://www.promolistee.eu/c2/539486/232898091/4fc5ef332a/12" style="border:none; text-decoration:none;"><img src="http://img.promolistee.eu/539486/80-marge-droite.jpg" width="31" height="66" alt="Acadomia" style="display:block;" border="0" class="hide"/></a></td>
+</tr>
+</tbody>
+</table></td>
+</tr>
+<tr>
+<td width="600" align="center" valign="top" class="colonne"><table width="600" border="0" cellspacing="0" cellpadding="0" align="center" class="colonne">
+<tbody>
+<tr>
+<td width="600" align="center" valign="top" class="colonne"><a href="http://www.promolistee.eu/c2/539486/232898091/4fc5ef332a/13" style="border:none; text-decoration:none;"><img src="http://img.promolistee.eu/539486/80-marge-bas.jpg" width="600" height="38" alt="Acadomia" style="display:block;" border="0" class="colonne"/></a></td>
+</tr>
+</tbody>
+</table></td>
+</tr>
+<tr>
+<td width="600" align="center" valign="top" class="colonne"><table width="600" border="0" cellspacing="0" cellpadding="0" align="center" class="colonne">
+<tbody>
+<tr>
+<td width="20" align="center" valign="top" class="colonne"><a href="http://www.promolistee.eu/c2/539486/232898091/4fc5ef332a/14" style="border:none; text-decoration:none;"><img src="http://img.promolistee.eu/539486/marge-20-20.jpg" width="20" height="20" alt="Acadomia" style="display:block;" border="0"/></a></td>
+<td width="560" align="center" valign="top" bgcolor="#ffffff" class="deuxhuitzero" style="background-color:#ffffff;"><a href="http://www.promolistee.eu/c2/539486/232898091/4fc5ef332a/15" style="color:#31312b; font-family:Arial, Helvetica, sans-serif; font-size:20px;text-decoration:none; font-weight:bold; border:none;">
+NÂ°1 de l'accompagnement scolaire en France
+</a></td>
+<td width="20" align="center" valign="top" class="colonne"><a href="http://www.promolistee.eu/c2/539486/232898091/4fc5ef332a/16" style="border:none; text-decoration:none;"><img src="http://img.promolistee.eu/539486/marge-20-20.jpg" width="20" height="20" alt="Acadomia" style="display:block;" border="0"/></a></td>
+</tr>
+</tbody>
+</table></td>
+</tr>
+<tr>
+<td width="600" align="center" valign="top" class="colonne"><table width="600" border="0" cellspacing="0" cellpadding="0" align="center" class="colonne">
+<tbody>
+<tr>
+<td width="600" align="center" valign="top" class="colonne"><a href="http://www.promolistee.eu/c2/539486/232898091/4fc5ef332a/17" style="border:none; text-decoration:none;"><img src="http://img.promolistee.eu/539486/marge-20px-blanche.jpg" width="600" height="20" alt="Acadomia" style="display:block;" border="0" class="colonne"/></a></td>
+</tr>
+</tbody>
+</table></td>
+</tr>
+<tr>
+<td width="600" align="center" valign="top" class="colonne"><table width="600" border="0" cellspacing="0" cellpadding="0" align="center" class="colonne">
+<tbody>
+<tr>
+<td width="63" align="center" valign="top" class="hide"><a href="http://www.promolistee.eu/c2/539486/232898091/4fc5ef332a/18" style="border:none; text-decoration:none;"><img src="http://img.promolistee.eu/539486/x4-marge-gauche.jpg" width="63" height="40" alt="Acadomia" style="display:block;" border="0" class="hide"/></a></td>
+<td width="260" align="center" valign="top" class="colonne"><table width="260" border="0" cellspacing="0" cellpadding="0" align="center" class="deuxsizezero">
+<tbody>
+<tr>
+<td width="260" align="center" valign="top"><table width="260" border="0" cellspacing="0" cellpadding="0" align="center" class="colonne">
+<tbody>
+<tr>
+<td width="25" align="center" valign="top"><a href="http://www.promolistee.eu/c2/539486/232898091/4fc5ef332a/19" style="border:none; text-decoration:none;"><img src="http://img.promolistee.eu/539486/icon.jpg" width="25" height="20" alt="Valider" style="display:block;" border="0"/></a></td>
+<td width="245" align="left" valign="top" bgcolor="#ffffff" style="background-color:#ffffff;"><a href="http://www.promolistee.eu/c2/539486/232898091/4fc5ef332a/20" style="color:#2a2a28; font-family:Arial, Helvetica, sans-serif; font-size:13px;text-decoration:none; border:none;"><strong>110 centres </strong> partout en France</a></td>
+</tr>
+</tbody>
+</table></td>
+</tr>
+<tr>
+<td width="260" align="center" valign="top"><table width="260" border="0" cellspacing="0" cellpadding="0" align="center" class="colonne">
+<tbody>
+<tr>
+<td width="25" align="center" valign="top"><a href="http://www.promolistee.eu/c2/539486/232898091/4fc5ef332a/21" style="border:none; text-decoration:none;"><img src="http://img.promolistee.eu/539486/icon.jpg" width="25" height="20" alt="Valider" style="display:block;" border="0"/></a></td>
+<td width="245" align="left" valign="top" bgcolor="#ffffff" style="background-color:#ffffff;"><a href="http://www.promolistee.eu/c2/539486/232898091/4fc5ef332a/22" style="color:#2a2a28; font-family:Arial, Helvetica, sans-serif; font-size:13px;text-decoration:none; border:none;">20 000<strong> enseignants</strong></a></td>
+</tr>
+</tbody>
+</table></td>
+</tr>
+</tbody>
+</table></td>
+<td width="260" align="center" valign="top" class="colonne"><table width="260" border="0" cellspacing="0" cellpadding="0" align="center" class="deuxsizezero">
+<tbody>
+<tr>
+<td width="260" align="center" valign="top"><table width="260" border="0" cellspacing="0" cellpadding="0" align="center" class="colonne">
+<tbody>
+<tr>
+<td width="25" align="center" valign="top"><a href="http://www.promolistee.eu/c2/539486/232898091/4fc5ef332a/23" style="border:none; text-decoration:none;"><img src="http://img.promolistee.eu/539486/icon.jpg" width="25" height="20" alt="Valider" style="display:block;" border="0"/></a></td>
+<td width="245" align="left" valign="top" bgcolor="#ffffff" style="background-color:#ffffff;"><a href="http://www.promolistee.eu/c2/539486/232898091/4fc5ef332a/24" style="color:#2a2a28; font-family:Arial, Helvetica, sans-serif; font-size:13px;text-decoration:none; border:none;"><strong>+3,2 points</strong> en moyenne**</a></td>
+</tr>
+</tbody>
+</table></td>
+</tr>
+<tr>
+<td width="260" align="center" valign="top"><table width="260" border="0" cellspacing="0" cellpadding="0" align="center" class="colonne">
+<tbody>
+<tr>
+<td width="25" align="center" valign="top"><a href="http://www.promolistee.eu/c2/539486/232898091/4fc5ef332a/25" style="border:none; text-decoration:none;"><img src="http://img.promolistee.eu/539486/icon.jpg" width="25" height="20" alt="Valider" style="display:block;" border="0"/></a></td>
+<td width="245" align="left" valign="top" bgcolor="#ffffff" style="background-color:#ffffff;"><a href="http://www.promolistee.eu/c2/539486/232898091/4fc5ef332a/26" style="color:#2a2a28; font-family:Arial, Helvetica, sans-serif; font-size:13px;text-decoration:none; border:none;"><strong>50%</strong> de r&eacute;duction d&rsquo;imp&ocirc;t***</a></td>
+</tr>
+</tbody>
+</table></td>
+</tr>
+</tbody>
+</table></td>
+</tr>
+</tbody>
+</table></td>
+</tr>
+<tr>
+<td width="600" align="center" valign="top" class="colonne"><table width="600" border="0" cellspacing="0" cellpadding="0" align="center" class="colonne">
+<tbody>
+<tr>
+<td width="600" align="center" valign="top" class="colonne"><a href="http://www.promolistee.eu/c2/539486/232898091/4fc5ef332a/27" style="border:none; text-decoration:none;"><img src="http://img.promolistee.eu/539486/marge-23px.jpg" width="600" height="23" alt="Acadomia" style="display:block;" border="0" class="colonne"/></a></td>
+</tr>
+</tbody>
+</table></td>
+</tr>
+<tr>
+<td width="600" align="center" valign="top" class="colonne"><table width="600" border="0" cellspacing="0" cellpadding="0" align="center" class="colonne">
+<tbody>
+<tr>
+<td width="20" align="center" valign="top" class="colonne"><a href="http://www.promolistee.eu/c2/539486/232898091/4fc5ef332a/28" style="border:none; text-decoration:none;"><img src="http://img.promolistee.eu/539486/marge-20-20.jpg" width="20" height="20" alt="Acadomia" style="display:block;" border="0"/></a></td>
+<td width="560" align="center" valign="top" bgcolor="#ffffff" class="deuxhuitzero" style="background-color:#ffffff;"><a href="http://www.promolistee.eu/c2/539486/232898091/4fc5ef332a/29" style="color:#565655; font-family:Arial, Helvetica, sans-serif; font-size:16px;text-decoration:none; border:none;">COURS PARTICULIERS - COURS COLLECTIFS - COURS EN LIGNE</a></td>
+<td width="20" align="center" valign="top" class="colonne"><a href="http://www.promolistee.eu/c2/539486/232898091/4fc5ef332a/30" style="border:none; text-decoration:none;"><img src="http://img.promolistee.eu/539486/marge-20-20.jpg" width="20" height="20" alt="Acadomia" style="display:block;" border="0"/></a></td>
+</tr>
+</tbody>
+</table></td>
+</tr>
+</tbody>
+</table></td>
+</tr>
+<tr>
+<td width="602" align="center" valign="top" class="colonne"><table width="600" border="0" cellspacing="0" cellpadding="0" align="center" class="colonne">
+<tbody>
+<tr>
+<td align="center" valign="top" style="font-size:11px; font-family:Verdana, Geneva, sans-serif; padding-top:50px;"><font style="color:#a39696;">*Source enqu&ecirc;te service qualit&eacute; mai 2014 <br /><br />**Etude Market Audit juillet 2013 <br />
+<br />
+***50% de r&eacute;duction d'imp&ocirc;t sur le co&ucirc;t horaire charges sociales incluses, dans les conditions pos&eacute;es par l'art. 199 sexd&eacute;cies du CGI, sous r&eacute;serve de modification de la l&eacute;gislation.
+</font></td>
+</tr>
+</tbody>
+</table></td>
+</tr>
+</tbody>
+</table>
+<img src="http://www.promolistee.eu/assets/mpt.png" height="1" width="1"/>
+<img src="http://www.promolistee.eu/assets/mpt.png" border="0" width="1" height="1" style="display:none;" nosend=""/>
+</td></tr>
+</table><div id="template_footer_auto_include" ><center>
+<span style='font-size:11px;text-align:center;font-family:Arial, Helvetica, sans-serif;color:#000'><br />
+Avec Promo Listee, vous pouvez b&eacute;n&eacute;ficier d&egrave;s maintenant des bons plans et des r&eacute;ductions exclusives qui correspondent<br /> aux univers de la famille, la mode, la beaut&eacute;, la d&eacute;coration, le voyage... <br />
+<br />
+Conform&eacute;ment &agrave; la loi informatique et libert&eacute;s, vous pouvez &agrave; tout moment acc&eacute;der, faire rectifier<br />
+ou supprimer les informations personnelles vous concernant ou vous opposer &agrave; leur traitement par Promo Listee.<br />
+<br />
+Pour ne plus b&eacute;n&eacute;ficier de nos propositions commerciales, vous pouvez vous rendre sur <a href='http://www.promolistee.eu/u/539486/232898091/4fc5ef332a/fr'>cette page</a><br />
+Notez que le traitement de cette demande peut prendre jusqu'&agrave; 48 heures.<br />
+<br />
+</span>
+</center></div>
+<style type="text/css">
+.ReadMsgBody {width: 100%;}
+.ExternalClass {width: 100%;}
+.ExternalClass * {line-height: 100%;}
+span.yshortcuts { color:#000; background-color:none; border:none;}
+span.yshortcuts:hover,span.yshortcuts:active,span.yshortcuts:focus {color:#000; background-color:none; border:none;}
+body {-webkit-text-size-adjust: none;-ms-text-size-adjust: none;}
+* {line-height: 100%;}
+@media only screen and (max-width: 480px) {table {margin: 0 auto;}
+table[class=colonne-g] {width: 322px !important;height: auto !important;display: block;}
+td[class=colonne-g] {width: 320px !important;height: auto !important;display: block;}
+table[class=colonne] {width: 320px !important;height: auto !important;display: block;}
+table[class=deuxsizezero] {width: 260px !important;height: auto !important;display: block;}
+table[class=unseptun] {width: 171px !important;height: auto !important;display: block;}
+td[class=colonne] {width: 320px !important;height: auto !important;display: block;}
+td[class=deuxhuitzero] {width: 280px !important;height: auto !important;display: block;}
+td[class=unseptun] {width: 171px !important;height: auto !important;display: block;margin-top:3px;}
+img[class=unseptun] {width: 171px !important;height: auto !important;display: block;}
+img[class=colonne] {width: 320px !important;height: auto !important;display: block;}
+[class=hide] {display:none;}
+a[class=doce]{font-size:12px !important;}
+}
+.ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {line-height: 100%;}
+table {border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;}
+table td {border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;}
+</style>
+<img height="1" width="1" src="http://www.promolistee.eu/i/539486/232898091/4fc5ef332a/3"><img src="http://www.promolistee.eu/i/539486/232898091/4fc5ef332a/0" width="0" height="0" border="0" alt=""></body></html>
+
+
+
+--b1_fdaee8a7c342ad85ed0064808b6c6921--
+
+

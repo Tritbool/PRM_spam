@@ -1,0 +1,682 @@
+Return-Path: <bounce-283225-848a6e24cd-146121678@lideedujour.fr>
+Received: from mailimailo.univ-rennes1.fr ([unix socket])
+	 by mailimailo.univ-rennes1.fr (Cyrus v2.3.16-Fedora-RPM-2.3.16-6.el6_2.5) with LMTPA;
+	 Wed, 06 Jul 2016 12:12:36 +0200
+X-Sieve: CMU Sieve 2.3
+Received: from mailout2.univ-rennes1.fr (mailout2.univ-rennes1.fr [129.20.129.120])
+	by mailimailo.univ-rennes1.fr (Postfix) with ESMTP id B7CE452
+	for <resp-m2-miage@univ-rennes1.fr>; Wed,  6 Jul 2016 12:12:36 +0200 (CEST)
+Received: from localhost (vmscanmail.univ-rennes1.fr [129.20.128.134])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id B4E6D6022A
+	for <resp-m2-miage@univ-rennes1.fr>; Wed,  6 Jul 2016 12:12:36 +0200 (CEST)
+X-Virus-Scanned: amavisd-new at univ-rennes1.fr
+Received: from mailout2.univ-rennes1.fr ([129.20.129.120])
+	by localhost (vmscanmail.univ-rennes1.frm [129.20.128.134]) (amavisd-new, port 10026)
+	with ESMTP id Iiz1_DCtbccJ for <resp-m2-miage@univ-rennes1.fr>;
+	Wed,  6 Jul 2016 12:12:36 +0200 (CEST)
+Received: from vmmailin.univ-rennes1.fr (vmmailin.univ-rennes1.fr [129.20.128.133])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id 8FB5A6002F
+	for <resp-m2-miage@univ-rennes1.fr>; Wed,  6 Jul 2016 12:12:36 +0200 (CEST)
+Received: from mxb1-1.relay.renater.fr (mxb1-1.relay.renater.fr [194.214.201.8])
+	by vmmailin.univ-rennes1.fr (Postfix) with ESMTP id 8751A20033
+	for <resp-m2-miage@univ-rennes1.fr>; Wed,  6 Jul 2016 12:12:36 +0200 (CEST)
+Received: from er6.lideedujour.fr (er6.lideedujour.fr [188.213.62.193])
+	by mxb1-1.relay.renater.fr (asm) with ESMTP id 565F6600214
+	for <resp-m2-miage@univ-rennes1.fr>; Wed,  6 Jul 2016 12:12:36 +0200 (CEST)
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=default; d=lideedujour.fr;
+ h=MIME-Version:From:Reply-To:List-Unsubscribe:Feedback-ID:Subject:Content-Type:To:Message-ID:Date; i=afisante@lideedujour.fr;
+ bh=nmg5yjr0X5m62u64ZIn4z049M+U=;
+ b=b3eB68RK1MGS8JNou4wAAQ4n2fun4ETeMjIJ8G7gf4/L1jXRQbs92phzqOYS2rYXAWoOeHShvgF/
+   +mfMfdgAO1n5PQyry0x7liX9J+/0OYgivmzpo1kDECTdqDFgZ5cbYW0bEWS6cYJu+otpQFtqud7M
+   m03p5e8y+RdW9+TfaA0=
+MIME-Version: 1.0
+Precedence: bulk
+From: =?UTF-8?B?Q29uc2VpbGxlciBBRkkgU2FudMOpICAtIEwgSWRlZSBEdSBKb3Vy?= <afisante@lideedujour.fr>
+Reply-To: "L Idee Du Jour" <info@lideedujour.fr>
+List-Unsubscribe: <http://clicks.lideedujour.fr/lu/702787234/0b7c612/283225.html>
+X-EMID: 0
+Feedback-ID: LEAD658
+Subject: =?UTF-8?B?QUZJIFNhbnTDqSA6IGRldmlzIHNhbnMgZW5nYWdlbWVudCwgcmFwaWRlIGV0IGdyYXR1aXQ=?=
+Content-Type: multipart/alternative;
+ boundary=b8e4b6c64b3d603b45c2206300032220
+To: resp-m2-miage@univ-rennes1.fr
+Message-ID: <0.0.2F5.2C.1D1D76DE3449980.0@er6.lideedujour.fr>
+Date: Wed, 6 Jul 2016 12:12:21 +0200
+X-UCE-Status: YES
+X-UCE-Type: MCE
+X-Original-Source-IP: 188.213.62.193
+X-Bizanga: IMP - mxb1-1.relay.renater.fr
+X-Renater-SpamState: 11
+X-Renater-SpamScore: 17
+X-Renater-SpamCause: gggruggvucftvghtrhhoucdtuddrfeeltddrvdeigddvvdcutefuodetggdotefrodftvfcurfhrohhfihhlvgemucftgffptefvgfftpdggtfgfnhhsuhgsshgtrhhisggvnecuuegrihhlohhuthemuceftddtnecundfotefknffkpffiucdludejmdenucfjughrpeggphfhrhfjufgtvffkffesrgdtreertddtjeenucfhrhhomhepvehonhhsvghilhhlvghrucethffkucfurghnthoruccuqdcunfcukfguvggvucffuhculfhouhhruceorghfihhsrghnthgvsehlihguvggvughujhhouhhrrdhfrheqnecuffhomhgrihhnpehlihguvggvughujhhouhhrrdhfrhenucfkphepudekkedrvddufedriedvrdduleefnecurfgrrhgrmhepmhhouggvpehsmhhtphdphhgvlhhopegvrheirdhlihguvggvughujhhouhhrrdhfrhdpihhnvghtpedukeekrddvudefrdeivddrudelfedpmhgrihhlfhhrohhmpegsohhunhgtvgdqvdekfedvvdehqdekgeekrgeivgdvgegtugdqudegieduvdduieejkeeslhhiuggvvgguuhhjohhurhdrfhhrpdhrtghpthhtoheprhgvshhpqdhmvddqmhhirghgvgesuhhnihhvqdhrvghnnhgvshdurdhfrh 
+X-Renater-ServerName: mxb1-1.relay.renater.fr
+
+
+--b8e4b6c64b3d603b45c2206300032220
+Content-Type: text/plain; 
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Visualiser la version en ligne : http://clicks.lideedujour.fr/v/702787234/0=
+b7c612/9c8eAi9Ad5XBB7QHKEQbQeH45dgFQtGfNFFO.html
+Signaler comme courrier ind=C3=A9sirable : http://clicks.lideedujour.fr/u/7=
+02787234/0b7c612/9c8eAi9Ad5XBB7QHKEQbQeH45dgFQtGfNFFO.html
+
+http://clicks.lideedujour.fr/cl/702787234/849881/273599/29/bbpn027niaWGHCQo=
+VwZNCe4djK9nIdVC4IH4.htm
+
+=E2=80=A2 AFI Sant=C3=A9 : devis sans engagement, rapide et gratuit=20
+Marre de payer trop cher votre mutuelle
+sant=C3=A9 ?
+Comparez et =C3=A9conomisez d=C3=A8s maintenant !
+Afficher correctement ce message dans mon
+navigateur,ici [#]
+
+Conseiller et comparateur de
+mutuelles sant=C3=A9 pour les 55 ans et plus
+!
+
+
+Votre mutuelle sant=C3=A9 vous
+co=C3=BBte trop cher ?
+Vous =C3=AAtes mal rembours=C3=A9 de vos d=C3=A9penses de
+sant=C3=A9 ? (m=C3=A9decin, optique, dentaire, appareil auditif,
+cure thermale...)
+Nos conseillers comparent pour
+vous les tarifs et les formules de
+diff=C3=A9rentes compagnies (MMA, AMIS, ASAF,...).
+Vous recevez directement par email des devis avec votre
+tarif personnalis=C3=A9.
+Ensuite vous choisissez le contrat d'assurance sant=C3=A9
+adapt=C3=A9 =C3=A0 vos besoins et =C3=A0 votre budget
+!
+C'est rapide, gratuit et sans
+engagement.
+
+Exemples de garanties sant=C3=A9
++55 ans* :
+> M=C3=A9decin jusqu'=C3=A0 400%
+> Hospitalisation frais r=C3=A9els
+> Dentaire jusqu'=C3=A0 500%
+> Optique jusqu'=C3=A0 500=E2=82=AC
+> Auditif jusqu'=C3=A0 1 200=E2=82=AC
+> Forfait cure thermale
+> Forfait m=C3=A9decine douce
+> Forfait obs=C3=A8ques
+=C2=A0
+=C2=A0
+OBTENIR MON DEVIS >>
+=C2=A0
+=C2=A0
+=C2=A0
+=C2=A0
+ * Garanties variables selon =C3=A2ge,
+gamme et formule choisis. Les exemples indiqu=C3=A9s ne sont pas
+cumulables, ils sont extraits de diff=C3=A9rents contrats
+propos=C3=A9s par AFI Sant=C3=A9
+=C2=A0
+=C2=A0
+AFI Sant=C3=A9 est un service
+d'AFI Assurances, courtier en assurances - Immatriculation
+ORIAS n=C2=B007 027 969
+=C2=A0
+Pour vous
+d=C3=A9sabonner cliquez ici [#]
+
+Vous recevez ce message car vous =C3=AAtes membre de Les L Idee Du Jour.
+
+Vous pouvez exercer votre droit d'acc=C3=A8s et de suppression =C3=A0 tout =
+moment en nous contactant =C3=A0 : info@lideedujour.fr, ou en nous =C3=
+=A9crivant =C3=A0 L Idee Du Jour - Av Franc=C3=A9sc Camb=C3=B3 21, 5=C2=
+=BA - 08003 Barcelona.=20
+
+Suivez ce lien pour vous d=C3=A9sabonner.http://clicks.lideedujour.fr/u/702=
+787234/0b7c612/9c8eAi9Ad5XBB7QHKEQbQeH45dgFQtGfNFFO.html Politique de confi=
+dentialit=C3=A9.http://www.lideedujour.fr/privacy.html
+
+--b8e4b6c64b3d603b45c2206300032220
+Content-Type: text/html; 
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.=
+w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8" />
+<title>AFI Sant=C3=A9 : devis sans engagement, rapide et gratuit</title>
+=09
+<style type=3D"text/css">
+=09.ReadMsgBody { width: 100%; }
+=09.ExternalClass { width: 100%; }
+=09td {border-collapse: collapse; }
+=09
+</style>
+
+</head>
+<body><center><table align=3D"center" style=3D"text-align:center; font-fami=
+ly: Arial; font-size: 12px; color: grey;">
+<tr><td style=3D"text-align:center; font-family: Arial; font-size: 12px; co=
+lor: grey;">
+<span style=3D"font-family: Arial;"><a href=3D"http://clicks.lideedujour.fr=
+/v/702787234/0b7c612/9c8eAi9Ad5XBB7QHKEQbQeH45dgFQtGfNFFO.html">Visualiser =
+la version en ligne</a> | <a href=3D"http://clicks.lideedujour.fr/u/7027872=
+34/0b7c612/9c8eAi9Ad5XBB7QHKEQbQeH45dgFQtGfNFFO.html">Signaler comme courri=
+er ind=C3=A9sirable</a><br /><br /></span>
+</td></tr></table></center><br />
+<center><table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" border=3D=
+"0" id=3D"backgroundTable" style=3D"width: 100%; line-height: 100%; border-=
+collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; backgroun=
+d: #EDEDED; margin: 0; padding: 0;">
+
+<tr>
+<td>
+<center><table width=3D"600" cellpadding=3D"0" cellspacing=3D"0" border=3D"=
+0" align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: 0=
+pt; mso-table-rspace: 0pt;">
+
+<tr>
+<td width=3D"100%">
+<center><table width=3D"600" cellpadding=3D"0" cellspacing=3D"0" border=3D"=
+0" align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: 0=
+pt; mso-table-rspace: 0pt;">
+
+<tr>
+<td width=3D"100%" height=3D"20"></td>
+</tr>
+<tr>
+<td width=3D"100%" align=3D"center" valign=3D"middle" style=3D"font-family:=
+ Helvetica, arial, sans-serif; font-size: 13px; color: #282828;">
+<a target=3D"_blank" href=3D"http://clicks.lideedujour.fr/cl/702787234/8498=
+81/273599/1/bbpn027niaWGHCQoVwZNCe4djK9nIdVC4IH4.htm" style=3D"color: #33b9=
+ff; text-decoration: none; padding: 0;"><span style=3D"color: #282828;">Mar=
+re de payer trop cher votre mutuelle
+sant=C3=A9 ?<br />
+Comparez et =C3=A9conomisez d=C3=A8s maintenant !</span><br />
+<br /></td>
+</tr>
+<tr>
+<td width=3D"100%" height=3D"20"></td>
+</tr>
+
+</table></center>
+</td>
+</tr>
+
+</table></center>
+</td>
+</tr>
+
+</table></center>
+<center><table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" border=3D=
+"0" id=3D"backgroundTable" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; background: #EDEDED;">
+
+<tr>
+<td>
+<center><table width=3D"600" cellpadding=3D"0" cellspacing=3D"0" border=3D"=
+0" align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: 0=
+pt; mso-table-rspace: 0pt; background: #FFFFFF;">
+
+<tr>
+<td width=3D"100%">
+<center><table width=3D"600" align=3D"center" cellspacing=3D"0" cellpadding=
+=3D"0" border=3D"0" style=3D"border-collapse: collapse; mso-table-lspace: 0=
+pt; mso-table-rspace: 0pt;">
+
+<tr>
+<td width=3D"200" valign=3D"top" align=3D"center"><a href=3D"http://clicks.=
+lideedujour.fr/cl/702787234/849881/273599/2/bbpn027niaWGHCQoVwZNCe4djK9nIdV=
+C4IH4.htm"><img src=3D"http://images.lideedujour.fr/20160705/wGdHBDsyfH7/GJ=
+pQqE_1.jpg" border=3D"0" width=3D"150" height=3D"94" style=3D"display:block=
+;" alt=3D"Logo" /></a></td>
+<td width=3D"400" valign=3D"middle" align=3D"middle" style=3D"font-family: =
+Arial, sans-serif; font-size: 20px; line-height: 25px; color: #575756;">
+<a target=3D"_blank" href=3D"http://clicks.lideedujour.fr/cl/702787234/8498=
+81/273599/3/bbpn027niaWGHCQoVwZNCe4djK9nIdVC4IH4.htm" style=3D"color: #33b9=
+ff; text-decoration: none; padding: 0;"><span style=3D"color: #575756;"><st=
+rong>Conseiller et comparateur de
+mutuelles sant=C3=A9 pour les 55 ans et plus
+!</strong></span></a></td>
+</tr>
+
+</table></center>
+</td>
+</tr>
+
+</table></center>
+</td>
+</tr>
+
+</table></center>
+<center><table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" border=3D=
+"0" id=3D"backgroundTable" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; background: #EDEDED;">
+
+<tr>
+<td>
+<center><table width=3D"600" cellpadding=3D"0" cellspacing=3D"0" border=3D"=
+0" align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: 0=
+pt; mso-table-rspace: 0pt;">
+
+<tr>
+<td width=3D"100%">
+<center><table width=3D"600" align=3D"center" cellspacing=3D"0" cellpadding=
+=3D"0" border=3D"0" style=3D"border-collapse: collapse; mso-table-lspace: 0=
+pt; mso-table-rspace: 0pt;">
+
+<tr>
+<td align=3D"center">
+<div style=3D"padding: 0;">
+<center><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td width=3D"180" height=3D"80"><a href=3D"http://clicks.lideedujour.fr/cl/=
+702787234/849881/273599/4/bbpn027niaWGHCQoVwZNCe4djK9nIdVC4IH4.htm"><img sr=
+c=3D"http://images.lideedujour.fr/20160705/wGdHBDsyfH7/GJpQqE_2.jpg" border=
+=3D"0" width=3D"180" height=3D"80" style=3D"display:block; background-color=
+: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; colo=
+r: #030609; text-decoration: none;" alt=3D"Votre" /></a></td>
+<td width=3D"180" height=3D"80"><a href=3D"http://clicks.lideedujour.fr/cl/=
+702787234/849881/273599/5/bbpn027niaWGHCQoVwZNCe4djK9nIdVC4IH4.htm"><img sr=
+c=3D"http://images.lideedujour.fr/20160705/wGdHBDsyfH7/GJpQqE_3.jpg" border=
+=3D"0" width=3D"180" height=3D"80" style=3D"display:block; background-color=
+: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; colo=
+r: #030609; text-decoration: none;" alt=3D"mutuelle" /></a></td>
+<td width=3D"180" height=3D"80"><a href=3D"http://clicks.lideedujour.fr/cl/=
+702787234/849881/273599/6/bbpn027niaWGHCQoVwZNCe4djK9nIdVC4IH4.htm"><img sr=
+c=3D"http://images.lideedujour.fr/20160705/wGdHBDsyfH7/GJpQqE_4.jpg" border=
+=3D"0" width=3D"180" height=3D"80" style=3D"display:block; background-color=
+: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; colo=
+r: #030609; text-decoration: none;" alt=3D"pas" /></a></td>
+<td width=3D"60" height=3D"80"><a href=3D"http://clicks.lideedujour.fr/cl/7=
+02787234/849881/273599/7/bbpn027niaWGHCQoVwZNCe4djK9nIdVC4IH4.htm"><img src=
+=3D"http://images.lideedujour.fr/20160705/wGdHBDsyfH7/GJpQqE_5.jpg" border=
+=3D"0" width=3D"60" height=3D"80" style=3D"display:block; background-color:=
+ #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; color=
+: #030609; text-decoration: none;" alt=3D"ch=C3=A8re" /></a></td>
+</tr>
+<tr>
+<td width=3D"180" height=3D"80"><a href=3D"http://clicks.lideedujour.fr/cl/=
+702787234/849881/273599/8/bbpn027niaWGHCQoVwZNCe4djK9nIdVC4IH4.htm"><img sr=
+c=3D"http://images.lideedujour.fr/20160705/wGdHBDsyfH7/GJpQqE_6.jpg" border=
+=3D"0" width=3D"180" height=3D"80" style=3D"display:block; background-color=
+: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; colo=
+r: #030609; text-decoration: none;" alt=3D"Votre" /></a></td>
+<td width=3D"180" height=3D"80"><a href=3D"http://clicks.lideedujour.fr/cl/=
+702787234/849881/273599/9/bbpn027niaWGHCQoVwZNCe4djK9nIdVC4IH4.htm"><img sr=
+c=3D"http://images.lideedujour.fr/20160705/wGdHBDsyfH7/GJpQqE_7.jpg" border=
+=3D"0" width=3D"180" height=3D"80" style=3D"display:block; background-color=
+: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; colo=
+r: #030609; text-decoration: none;" alt=3D"mutuelle" /></a></td>
+<td width=3D"180" height=3D"80"><a href=3D"http://clicks.lideedujour.fr/cl/=
+702787234/849881/273599/10/bbpn027niaWGHCQoVwZNCe4djK9nIdVC4IH4.htm"><img s=
+rc=3D"http://images.lideedujour.fr/20160705/wGdHBDsyfH7/GJpQqE_8.jpg" borde=
+r=3D"0" width=3D"180" height=3D"80" style=3D"display:block; background-colo=
+r: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; col=
+or: #030609; text-decoration: none;" alt=3D"pas" /></a></td>
+<td width=3D"60" height=3D"80"><a href=3D"http://clicks.lideedujour.fr/cl/7=
+02787234/849881/273599/11/bbpn027niaWGHCQoVwZNCe4djK9nIdVC4IH4.htm"><img sr=
+c=3D"http://images.lideedujour.fr/20160705/wGdHBDsyfH7/GJpQqE_9.jpg" border=
+=3D"0" width=3D"60" height=3D"80" style=3D"display:block; background-color:=
+ #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; color=
+: #030609; text-decoration: none;" alt=3D"ch=C3=A8re" /></a></td>
+</tr>
+<tr>
+<td width=3D"180" height=3D"80"><a href=3D"http://clicks.lideedujour.fr/cl/=
+702787234/849881/273599/12/bbpn027niaWGHCQoVwZNCe4djK9nIdVC4IH4.htm"><img s=
+rc=3D"http://images.lideedujour.fr/20160705/wGdHBDsyfH7/GJpQqE_10.jpg" bord=
+er=3D"0" width=3D"180" height=3D"80" style=3D"display:block; background-col=
+or: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; co=
+lor: #030609; text-decoration: none;" alt=3D"Votre" /></a></td>
+<td width=3D"180" height=3D"80"><a href=3D"http://clicks.lideedujour.fr/cl/=
+702787234/849881/273599/13/bbpn027niaWGHCQoVwZNCe4djK9nIdVC4IH4.htm"><img s=
+rc=3D"http://images.lideedujour.fr/20160705/wGdHBDsyfH7/GJpQqE_11.jpg" bord=
+er=3D"0" width=3D"180" height=3D"80" style=3D"display:block; background-col=
+or: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; co=
+lor: #030609; text-decoration: none;" alt=3D"mutuelle" /></a></td>
+<td width=3D"180" height=3D"80"><a href=3D"http://clicks.lideedujour.fr/cl/=
+702787234/849881/273599/14/bbpn027niaWGHCQoVwZNCe4djK9nIdVC4IH4.htm"><img s=
+rc=3D"http://images.lideedujour.fr/20160705/wGdHBDsyfH7/GJpQqE_12.jpg" bord=
+er=3D"0" width=3D"180" height=3D"80" style=3D"display:block; background-col=
+or: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; co=
+lor: #030609; text-decoration: none;" alt=3D"pas" /></a></td>
+<td width=3D"60" height=3D"80"><a href=3D"http://clicks.lideedujour.fr/cl/7=
+02787234/849881/273599/15/bbpn027niaWGHCQoVwZNCe4djK9nIdVC4IH4.htm"><img sr=
+c=3D"http://images.lideedujour.fr/20160705/wGdHBDsyfH7/GJpQqE_13.jpg" borde=
+r=3D"0" width=3D"60" height=3D"80" style=3D"display:block; background-color=
+: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; colo=
+r: #030609; text-decoration: none;" alt=3D"ch=C3=A8re" /></a></td>
+</tr>
+<tr>
+<td width=3D"180" height=3D"80"><a href=3D"http://clicks.lideedujour.fr/cl/=
+702787234/849881/273599/16/bbpn027niaWGHCQoVwZNCe4djK9nIdVC4IH4.htm"><img s=
+rc=3D"http://images.lideedujour.fr/20160705/wGdHBDsyfH7/GJpQqE_14.jpg" bord=
+er=3D"0" width=3D"180" height=3D"80" style=3D"display:block; background-col=
+or: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; co=
+lor: #030609; text-decoration: none;" alt=3D"Votre" /></a></td>
+<td width=3D"180" height=3D"80"><a href=3D"http://clicks.lideedujour.fr/cl/=
+702787234/849881/273599/17/bbpn027niaWGHCQoVwZNCe4djK9nIdVC4IH4.htm"><img s=
+rc=3D"http://images.lideedujour.fr/20160705/wGdHBDsyfH7/GJpQqE_15.jpg" bord=
+er=3D"0" width=3D"180" height=3D"80" style=3D"display:block; background-col=
+or: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; co=
+lor: #030609; text-decoration: none;" alt=3D"mutuelle" /></a></td>
+<td width=3D"180" height=3D"80"><a href=3D"http://clicks.lideedujour.fr/cl/=
+702787234/849881/273599/18/bbpn027niaWGHCQoVwZNCe4djK9nIdVC4IH4.htm"><img s=
+rc=3D"http://images.lideedujour.fr/20160705/wGdHBDsyfH7/GJpQqE_16.jpg" bord=
+er=3D"0" width=3D"180" height=3D"80" style=3D"display:block; background-col=
+or: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; co=
+lor: #030609; text-decoration: none;" alt=3D"pas" /></a></td>
+<td width=3D"60" height=3D"80"><a href=3D"http://clicks.lideedujour.fr/cl/7=
+02787234/849881/273599/19/bbpn027niaWGHCQoVwZNCe4djK9nIdVC4IH4.htm"><img sr=
+c=3D"http://images.lideedujour.fr/20160705/wGdHBDsyfH7/GJpQqE_17.jpg" borde=
+r=3D"0" width=3D"60" height=3D"80" style=3D"display:block; background-color=
+: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; colo=
+r: #030609; text-decoration: none;" alt=3D"ch=C3=A8re" /></a></td>
+</tr>
+<tr>
+<td width=3D"180" height=3D"80"><a href=3D"http://clicks.lideedujour.fr/cl/=
+702787234/849881/273599/20/bbpn027niaWGHCQoVwZNCe4djK9nIdVC4IH4.htm"><img s=
+rc=3D"http://images.lideedujour.fr/20160705/wGdHBDsyfH7/GJpQqE_18.jpg" bord=
+er=3D"0" width=3D"180" height=3D"80" style=3D"display:block; background-col=
+or: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; co=
+lor: #030609; text-decoration: none;" alt=3D"Votre" /></a></td>
+<td width=3D"180" height=3D"80"><a href=3D"http://clicks.lideedujour.fr/cl/=
+702787234/849881/273599/21/bbpn027niaWGHCQoVwZNCe4djK9nIdVC4IH4.htm"><img s=
+rc=3D"http://images.lideedujour.fr/20160705/wGdHBDsyfH7/GJpQqE_19.jpg" bord=
+er=3D"0" width=3D"180" height=3D"80" style=3D"display:block; background-col=
+or: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; co=
+lor: #030609; text-decoration: none;" alt=3D"mutuelle" /></a></td>
+<td width=3D"180" height=3D"80"><a href=3D"http://clicks.lideedujour.fr/cl/=
+702787234/849881/273599/22/bbpn027niaWGHCQoVwZNCe4djK9nIdVC4IH4.htm"><img s=
+rc=3D"http://images.lideedujour.fr/20160705/wGdHBDsyfH7/GJpQqE_20.jpg" bord=
+er=3D"0" width=3D"180" height=3D"80" style=3D"display:block; background-col=
+or: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; co=
+lor: #030609; text-decoration: none;" alt=3D"pas" /></a></td>
+<td width=3D"60" height=3D"80"><a href=3D"http://clicks.lideedujour.fr/cl/7=
+02787234/849881/273599/23/bbpn027niaWGHCQoVwZNCe4djK9nIdVC4IH4.htm"><img sr=
+c=3D"http://images.lideedujour.fr/20160705/wGdHBDsyfH7/GJpQqE_21.jpg" borde=
+r=3D"0" width=3D"60" height=3D"80" style=3D"display:block; background-color=
+: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; colo=
+r: #030609; text-decoration: none;" alt=3D"ch=C3=A8re" /></a></td>
+</tr>
+</table></center>
+</div>
+</td>
+</tr>
+
+</table></center>
+</td>
+</tr>
+
+</table></center>
+</td>
+</tr>
+
+</table></center>
+<center><table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" border=3D=
+"0" id=3D"backgroundTable" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; background: #EDEDED;">
+
+<tr>
+<td>
+<center><table width=3D"600" align=3D"center" cellspacing=3D"0" cellpadding=
+=3D"0" border=3D"0" style=3D"border-collapse: collapse; mso-table-lspace: 0=
+pt; mso-table-rspace: 0pt; background: #fff;">
+
+<tr>
+<td width=3D"350px" valign=3D"top" align=3D"center" style=3D"font-family: A=
+rial, sans-serif; font-size: 15px; text-align: left; line-height: 22px; col=
+or: #000;">
+<a target=3D"_blank" href=3D"http://clicks.lideedujour.fr/cl/702787234/8498=
+81/273599/24/bbpn027niaWGHCQoVwZNCe4djK9nIdVC4IH4.htm" style=3D"color: #33b=
+9ff; text-decoration: none; padding: 0;"></a>
+<p style=3D"margin: 11px 19px; padding: 0;"><strong style=3D"color: #696496=
+; font-size: 16px;">Votre mutuelle sant=C3=A9 vous
+co=C3=BBte trop cher ?<br />
+Vous =C3=AAtes mal rembours=C3=A9 de vos d=C3=A9penses de
+sant=C3=A9 ? (m=C3=A9decin, optique, dentaire, appareil auditif,
+cure thermale...)</strong><br />
+<br />
+<span style=3D"color: #000;">Nos conseillers <strong>comparent</strong> pou=
+r
+vous <strong>les tarifs et les formules</strong> de
+diff=C3=A9rentes compagnies (MMA, AMIS, ASAF,...).<br />
+Vous recevez directement par email des devis avec <strong>votre
+tarif personnalis=C3=A9.</strong><br />
+Ensuite vous choisissez le contrat d'assurance sant=C3=A9
+<strong>adapt=C3=A9 =C3=A0 vos besoins et =C3=A0 votre budget
+!</strong></span><br />
+<br />
+<strong style=3D"color: #696496;">C'est rapide, gratuit et sans
+engagement.</strong></p>
+</td>
+<td width=3D"200px" valign=3D"top" align=3D"right" style=3D"background-colo=
+r: #847EBC; color: #ffffff; font-family: Arial, sans-serif; font-size: 14px=
+; line-height: 25px; text-align: left;"><a target=3D"_blank" href=3D"http:/=
+/clicks.lideedujour.fr/cl/702787234/849881/273599/25/bbpn027niaWGHCQoVwZNCe=
+4djK9nIdVC4IH4.htm" style=3D"color: #33b9ff; text-decoration: none; padding=
+: 0;"></a>
+<p style=3D"color: #ffffff; margin: 11px 19px; padding: 0;"><strong style=
+=3D"font-size: 16px;">Exemples de garanties sant=C3=A9
++55 ans* :<br />
+<br /></strong> > M=C3=A9decin jusqu'=C3=A0 400%<br />
+> Hospitalisation frais r=C3=A9els<br />
+> Dentaire jusqu'=C3=A0 500%<br />
+> Optique jusqu'=C3=A0 500=E2=82=AC<br />
+> Auditif jusqu'=C3=A0 1 200=E2=82=AC<br />
+> Forfait cure thermale<br />
+> Forfait m=C3=A9decine douce<br />
+> Forfait obs=C3=A8ques<br />
+<br />
+<br /></p>
+</td>
+</tr>
+
+</table></center>
+</td>
+</tr>
+
+</table></center>
+<center><table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" border=3D=
+"0" id=3D"backgroundTable" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; background: #EDEDED;">
+
+<tr>
+<td>
+<center><table width=3D"600" align=3D"center" cellspacing=3D"0" cellpadding=
+=3D"0" border=3D"0" style=3D"border-collapse: collapse; mso-table-lspace: 0=
+pt; mso-table-rspace: 0pt; background: #FFFFFF;">
+
+<tr>
+<td align=3D"center" height=3D"20" style=3D"font-size: 1px; line-height: 1p=
+x;">=C2=A0</td>
+</tr>
+<tr>
+<td>
+<center><table width=3D"250" align=3D"center" border=3D"0" cellpadding=3D"0=
+" cellspacing=3D"0" style=3D"border-collapse: collapse; mso-table-lspace: 0=
+pt; mso-table-rspace: 0pt; border-radius: 3px; background: #847EBC;">
+
+<tr>
+<td height=3D"9" align=3D"center" style=3D"font-size: 1px; line-height: 1px=
+;">=C2=A0</td>
+</tr>
+<tr>
+<td height=3D"24" align=3D"center" valign=3D"middle" style=3D"font-family: =
+Helvetica, Arial, sans-serif; font-size: 18px; font-weight: bold; color: #f=
+fffff; text-align: center; line-height: 14px; -webkit-text-size-adjust: non=
+e;">
+<a href=3D"http://clicks.lideedujour.fr/cl/702787234/849881/273599/26/bbpn0=
+27niaWGHCQoVwZNCe4djK9nIdVC4IH4.htm" style=3D"color: #ffffff; text-decorati=
+on: none; text-align: center; padding: 0;">
+OBTENIR MON DEVIS >></a></td>
+</tr>
+<tr>
+<td height=3D"9" align=3D"center" style=3D"font-size: 1px; line-height: 1px=
+;">=C2=A0</td>
+</tr>
+
+</table></center>
+</td>
+</tr>
+<tr>
+<td width=3D"100%" height=3D"20" style=3D"font-size: 1px; line-height: 1px;=
+ mso-line-height-rule: exactly;">=C2=A0</td>
+</tr>
+
+</table></center>
+</td>
+</tr>
+
+</table></center>
+<center><table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" border=3D=
+"0" id=3D"backgroundTable" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; background: #EDEDED;">
+
+<tr>
+<td>
+<center><table width=3D"600" align=3D"center" cellspacing=3D"0" cellpadding=
+=3D"0" border=3D"0" style=3D"border-collapse: collapse; mso-table-lspace: 0=
+pt; mso-table-rspace: 0pt; background: #FFFFFF;">
+
+<tr>
+<td align=3D"center" height=3D"10" style=3D"font-size: 1px; line-height: 1p=
+x;">=C2=A0</td>
+</tr>
+
+</table></center>
+</td>
+</tr>
+
+</table></center>
+<center><table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" border=3D=
+"0" id=3D"backgroundTable" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; background: #EDEDED;">
+
+<tr>
+<td>
+<center><table width=3D"600" align=3D"center" cellspacing=3D"0" cellpadding=
+=3D"0" border=3D"0" style=3D"border-collapse: collapse; mso-table-lspace: 0=
+pt; mso-table-rspace: 0pt; background: #FFFFFF;">
+
+<tr>
+<td height=3D"10" style=3D"font-size: 1px; line-height: 1px; mso-line-heigh=
+t-rule: exactly;">=C2=A0</td>
+</tr>
+<tr>
+<td align=3D"left" height=3D"30" style=3D"font-family: Helvetica, arial, sa=
+ns-serif; font-size: 10px; color: #282828; text-align: center;"><a target=
+=3D"_blank" href=3D"http://clicks.lideedujour.fr/cl/702787234/849881/273599=
+/27/bbpn027niaWGHCQoVwZNCe4djK9nIdVC4IH4.htm" style=3D"color: #33b9ff; text=
+-decoration: none; padding: 0;"><span style=3D"color: #282828;">* Garanties=
+ variables selon =C3=A2ge,
+gamme et formule choisis. Les exemples indiqu=C3=A9s ne sont pas
+cumulables, ils sont extraits de diff=C3=A9rents contrats
+propos=C3=A9s par AFI Sant=C3=A9</span></a></td>
+</tr>
+<tr>
+<td height=3D"10" style=3D"font-size: 1px; line-height: 1px; mso-line-heigh=
+t-rule: exactly;">=C2=A0</td>
+</tr>
+
+</table></center>
+</td>
+</tr>
+
+</table></center>
+<center><table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" border=3D=
+"0" id=3D"backgroundTable" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; background: #EDEDED;">
+
+<tr>
+<td>
+<center><table width=3D"600" cellpadding=3D"0" cellspacing=3D"0" border=3D"=
+0" align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: 0=
+pt; mso-table-rspace: 0pt; background: #C6C6C5;">
+
+<tr>
+<td width=3D"100%">
+<center><table width=3D"600" cellpadding=3D"0" cellspacing=3D"0" border=3D"=
+0" align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: 0=
+pt; mso-table-rspace: 0pt; background: #C6C6C5;">
+
+<tr>
+<td height=3D"10" style=3D"font-size: 1px; line-height: 1px; mso-line-heigh=
+t-rule: exactly;">=C2=A0</td>
+</tr>
+<tr>
+<td style=3D"font-family: Helvetica, arial, sans-serif; font-size: 12px; co=
+lor: #282828; text-align: center; line-height: 24px;"><a target=3D"_blank" =
+href=3D"http://clicks.lideedujour.fr/cl/702787234/849881/273599/28/bbpn027n=
+iaWGHCQoVwZNCe4djK9nIdVC4IH4.htm" style=3D"color: #33b9ff; text-decoration:=
+ none; padding: 0;"><span style=3D"color: #282828;">AFI Sant=C3=A9 est un s=
+ervice
+d'AFI Assurances, courtier en assurances - Immatriculation
+ORIAS n=C2=B007 027 969</span></a></td>
+</tr>
+<tr>
+<td height=3D"10" style=3D"font-size: 1px; line-height: 1px; mso-line-heigh=
+t-rule: exactly;">=C2=A0</td>
+</tr>
+
+</table></center>
+</td>
+</tr>
+
+</table></center>
+</td>
+</tr>
+
+</table></center>
+<center><table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" border=3D=
+"0" id=3D"backgroundTable" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; background: #EDEDED;">
+
+<tr>
+<td>
+<center><table width=3D"600" cellpadding=3D"0" cellspacing=3D"0" border=3D"=
+0" align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: 0=
+pt; mso-table-rspace: 0pt;">
+
+<tr>
+<td width=3D"100%" height=3D"20"></td>
+</tr>
+<tr>
+<td align=3D"center" valign=3D"middle" style=3D"font-family: Helvetica, ari=
+al, sans-serif; font-size: 13px; color: #282828;"></a></td>
+</tr>
+<tr>
+<td width=3D"100%" height=3D"20"></td>
+</tr>
+
+</table></center>
+</td>
+</tr>
+
+</table></center><img src=3D"http://impgb.tradedoubler.com/imp?type(inv)g(2=
+3415620)a(2821989)" width=3D"1" height=3D"1" border=3D"0" alt=3D" " />
+
+
+
+
+<img src=3D"http://clicks.lideedujour.fr/op/702787234/849881.gif?t=3D146773=
+5696" height=3D"1" width=3D"1" alt=3D"" border=3D"0" />
+<center><table align=3D"center" style=3D"text-align:center; font-family: Ar=
+ial; font-size: 12px; color: grey;">
+<tr><td style=3D"text-align:center; font-family: Arial; font-size: 12px; co=
+lor: grey;">
+<span style=3D"font-family: Arial;">Vous recevez ce message car vous =C3=
+=AAtes membre de Les L Idee Du Jour.<br /><br />
+Vous pouvez exercer votre droit d'acc=C3=A8s et de suppression
+=C3=A0 tout moment en nous contactant =C3=A0 : info@lideedujour.fr,
+ou en nous =C3=A9crivant =C3=A0 L Idee Du Jour - Av Franc=C3=A9sc Camb=
+=C3=B3 21, 5=C2=BA - 08003 Barcelona.
+<br /><br />
+<a href=3D"http://clicks.lideedujour.fr/u/702787234/0b7c612/9c8eAi9Ad5XBB7Q=
+HKEQbQeH45dgFQtGfNFFO.html" title=3D"d=C3=A9sabonner" style=3D"color:#00000=
+0; font-weight:bold;">Suivez ce lien pour vous d=C3=A9sabonner</a>.=20
+<a href=3D"http://www.lideedujour.fr/privacy.html" style=3D"color:#000000; =
+font-weight:bold;">Politique de confidentialit=C3=A9</a>.
+</span></td></tr></table></center><br /></body></html>
+
+--b8e4b6c64b3d603b45c2206300032220--

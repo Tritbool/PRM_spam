@@ -1,0 +1,134 @@
+Return-Path: <bounce+kge-GMrp-eD9K@mix.loffremagique.com>
+Received: from mailimailo.univ-rennes1.fr ([unix socket])
+	 by mailimailo.univ-rennes1.fr (Cyrus v2.3.16-Fedora-RPM-2.3.16-6.el6_2.5) with LMTPA;
+	 Tue, 03 Nov 2015 11:28:10 +0100
+X-Sieve: CMU Sieve 2.3
+Received: from mailout1.univ-rennes1.fr (mailout1.univ-rennes1.fr [129.20.128.162])
+	by mailimailo.univ-rennes1.fr (Postfix) with ESMTP id 1939F26A0BD9
+	for <resp-m2-miage@univ-rennes1.fr>; Tue,  3 Nov 2015 11:28:10 +0100 (CET)
+Received: from localhost (vmscanmail.univ-rennes1.fr [129.20.128.134])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id 1535F602B9
+	for <resp-m2-miage@univ-rennes1.fr>; Tue,  3 Nov 2015 11:28:10 +0100 (CET)
+X-Virus-Scanned: amavisd-new at univ-rennes1.fr
+Received: from mailout1.univ-rennes1.fr ([129.20.128.162])
+	by localhost (vmscanmail.univ-rennes1.frm [129.20.128.134]) (amavisd-new, port 10026)
+	with ESMTP id U45sCpi7gj_a for <resp-m2-miage@univ-rennes1.fr>;
+	Tue,  3 Nov 2015 11:28:09 +0100 (CET)
+Received: from vmmailin.univ-rennes1.fr (vmmailin.univ-rennes1.fr [129.20.128.133])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id E62696018B
+	for <resp-m2-miage@univ-rennes1.fr>; Tue,  3 Nov 2015 11:28:09 +0100 (CET)
+Received: from mxb2-2.relay.renater.fr (mxb2-2.relay.renater.fr [194.214.200.9])
+	by vmmailin.univ-rennes1.fr (Postfix) with ESMTP id DE36F20033
+	for <resp-m2-miage@univ-rennes1.fr>; Tue,  3 Nov 2015 11:28:09 +0100 (CET)
+Received: from smtp164.mix.loffremagique.com (smtp164.mix.loffremagique.com [82.196.26.164])
+	by mxb2-2.relay.renater.fr (asm) with ESMTP id A6BA76004F8
+	for <resp-m2-miage@univ-rennes1.fr>; Tue,  3 Nov 2015 11:28:09 +0100 (CET)
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=s2c; d=mix.loffremagique.com;
+ h=Date:To:From:Subject:Message-ID:List-Unsubscribe:MIME-Version:Content-Type; i=news@mix.loffremagique.com;
+ bh=fRvv8ScyNg2rA56Fj2fWBXBH+hc=;
+ b=Ootkp3kX4tqsM+aXhWxLXoDmRcgSMxbbPCQ1ETy5qyufPf6EEu/yan5fbkQRLz+7NP7FWTXEhSHJ
+   SMFcx5gISpm9JCdsUNTm1+fQzUvfuWFIewHbGz51QTA1TZXgx4IMCfHSUBN4FY2ZaMxiMFRoja1T
+   hd6Uql4vrD5AP/YxMbs=
+Received: by smtp164.mix.loffremagique.com id h7263i1vjtg3 for <resp-m2-miage@univ-rennes1.fr>; Tue, 3 Nov 2015 11:24:17 +0100 (envelope-from <bounce+kge-GMrp-eD9K@mix.loffremagique.com>)
+Date: Tue, 3 Nov 2015 11:24:18 +0100
+To: resp-m2-miage@univ-rennes1.fr
+From: Monoprix Mode via Espace promos <news@mix.loffremagique.com>
+Subject: Envie de shopping ? -30 pourcent sur TOUTE la mode Femme et Homme
+Message-ID: <bounce+kge-GMrp-eD9K@mix.loffremagique.com>
+List-Unsubscribe: <mailto:bounce+kge-GMrp-eD9K@mix.loffremagique.com?subject=unsubscribe-kge-GMrp>,<http://trk.mix.loffremagique.com/usb/kge-GMrp.php>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="b1_5fe3c111406b97ea2cdd164cc8f27f2f"
+X-UCE-Status: YES
+X-UCE-Type: MCE
+X-Original-Source-IP: 82.196.26.164
+X-Bizanga: IMP - mxb2-2.relay.renater.fr
+X-Renater-SpamState: 11
+X-Renater-SpamScore: 17
+X-Renater-SpamCause: gggruggvucftvghtrhhoucdtuddrfeekhedrvdejgddugecutefuodetggdotefrodftvfcurfhrohhfihhlvgemucftgffptefvgfftpdggtfgfnhhsuhgsshgtrhhisggvnecuuegrihhlohhuthemuceftddtnecundfotefknffkpffiucdludejmdenucfjughrpeffvffhuffkjfggtgesrgdtrehptddtjeenucfhrhhomhepofhonhhophhrihigucfoohguvgcuvhhirgcugfhsphgrtggvuchprhhomhhoshcuoehnvgifshesmhhigidrlhhofhhfrhgvmhgrghhiqhhuvgdrtghomheqnecuffhomhgrihhnpehlohhffhhrvghmrghgihhquhgvrdgtohhmnecurfgrrhgrmhepmhhouggvpehsmhhtphdphhgvlhhopehsmhhtphduieegrdhmihigrdhlohhffhhrvghmrghgihhquhgvrdgtohhmpdhinhgvthepkedvrdduleeirddviedrudeigedpmhgrihhlfhhrohhmpegsohhunhgtvgdokhhgvgdqifforhhpqdgvffelmfesmhhigidrlhhofhhfrhgvmhgrghhiqhhuvgdrtghomhdprhgtphhtthhopehrvghsphdqmhdvqdhmihgrghgvsehunhhivhdqrhgvnhhnvghsuddrfhhr 
+X-Renater-ServerName: mxb2-2.relay.renater.fr
+
+
+--b1_5fe3c111406b97ea2cdd164cc8f27f2f
+Content-Type: text/plain; charset = "UTF-8"
+Content-Transfer-Encoding: 8bit
+
+Afficher la version web. (http://trk.mix.loffremagique.com/view/kge-GMrp.php) | Me désinscrire. (http://trk.mix.loffremagique.com/usb/kge-GMrp.php) | Signaler comme courrier indésirable. (mailto:abuse@dgcnit.fr)
+
+Vous recevez ce mail car vous êtes abonné à la newsletter Espace Promos
+
+Shoppez à volonté en profitant de votre offre EXCLU WEB ! (#)
+
+http://trk.mix.loffremagique.com/tk/kge-GMrp-lMr.php
+
+MODE (http://trk.mix.loffremagique.com/tk/kge-GMrp-lMs.php) COURSES (http://trk.mix.loffremagique.com/tk/kge-GMrp-lMr.php) PROMOTIONS (http://trk.mix.loffremagique.com/tk/kge-GMrp-lMs.php) LACARTE (http://trk.mix.loffremagique.com/tk/kge-GMrp-lMt.php)
+
+http://trk.mix.loffremagique.com/tk/kge-GMrp-lMs.php
+http://trk.mix.loffremagique.com/tk/kge-GMrp-lMs.php
+
+http://trk.mix.loffremagique.com/tk/kge-GMrp-lMs.php http://trk.mix.loffremagique.com/tk/kge-GMrp-lMs.php http://trk.mix.loffremagique.com/tk/kge-GMrp-lMs.php
+
+http://trk.mix.loffremagique.com/tk/kge-GMrp-lMs.php http://trk.mix.loffremagique.com/tk/kge-GMrp-lMu.php http://trk.mix.loffremagique.com/tk/kge-GMrp-lMv.php http://trk.mix.loffremagique.com/tk/kge-GMrp-lMs.php
+
+http://trk.mix.loffremagique.com/tk/kge-GMrp-lMs.php
+
+http://trk.mix.loffremagique.com/tk/kge-GMrp-lMw.php http://trk.mix.loffremagique.com/tk/kge-GMrp-lMw.php
+
+http://trk.mix.loffremagique.com/tk/kge-GMrp-lMx.php http://trk.mix.loffremagique.com/tk/kge-GMrp-lMy.php
+
+Trouvez votre magasin (http://trk.mix.loffremagique.com/tk/kge-GMrp-lMz.php)
+
+Contactez-nous : par email ou téléphone de 8H à 22H (http://trk.mix.loffremagique.com/tk/kge-GMrp-lMA.php) http://trk.mix.loffremagique.com/tk/kge-GMrp-lMA.php
+
+(1) Offre valable exclusivement sur Monoprix.fr jusqu‘au 08/11/15, pour l'achat d'un ou plusieurs articles des rayons femme &amp; homme dans la limite des stocks disponibles, hors marques nationales &amp; créateurs. La réduction de 30% sera appliquée lors de la validation de l‘étape 3 « Mes avantages » après avoir renseigné le code MUSTHAVE pour toute commande d‘un montant minimum de 15?.
+*Livraison gratuite en magasin dès 15? d‘achat
+** Livraison gratuite en Relais Kiala ou à domicile dès 60? d'achat.
+
+Espaces Promos, 12 rue Camille Desmoulins, 92300 Levallois Perret.
+Conformément à l'article 34 de la loi Informatique et Liberté du 6 janvier 1978, vous disposez d'un droit d'accès, de modification,
+de rectification et de suppression des données vous concernant en adressant votre demande à &quot;report@dgcnit.fr&quot;.
+Déclaration CNIL - 1642645
+Vous souhaitez vous désinscrire de cette liste ? Cliquez ici. (http://trk.mix.loffremagique.com/usb/kge-GMrp.php)
+
+
+--b1_5fe3c111406b97ea2cdd164cc8f27f2f
+Content-Type: text/html; charset = "UTF-8"
+Content-Transfer-Encoding: 8bit
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd"> <html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Shoppez à volonté en profitant de votre offre EXCLU WEB !</title>
+
+<style type="text/css"> .ExternalClass{Line-height: 100%;} </style>
+
+</head><body> <center> <table width="600" border="0" cellspacing="0" cellpadding="0" align="center"><tr><td width="600" valign="top" align="center"> <table style="" align="center" border="0" cellpadding="0" cellspacing="0"><tr><td width="174" align="left" style="text-align:left;"><a href="http://trk.mix.loffremagique.com/view/kge-GMrp.php" style="color:#000; text-decoration:underline; font-family:Arial,Helvetica,sans-serif; font-size:11px; text-align:left; font-weight:bold;">Afficher la version web.</a></td> <td width="6">|</td> <td width="207" align="center" style="text-align:center;"><a href="http://trk.mix.loffremagique.com/usb/kge-GMrp.php" style="color:#000; text-decoration:underline; font-family:Arial,Helvetica,sans-serif; font-size:11px; text-align:center; font-weight:bold;">Me désinscrire.</a></td> <td width="6">|</td> <td width="207" align="right" style="text-align:right;"><a href="mailto:abuse@dgcnit.fr" style="color:#00F; text-decoration:underline;
+font-family:Arial,Helvetica,sans-serif; font-size:11px; text-align:right; font-weight:bold;">Signaler comme courrier indésirable.</a></td> </tr></table></td> </tr><tr><td height="14px" align="center"></td> </tr></table>
+
+<style> @media print{ #_t { background-image: url('http://mm.yosmail.com/p/3011421/h/1/1.gif'); } } div.OutlookMessageHeader, table.moz-email-headers-table, blockquote #_t { background-image:url('http://mm.yosmail.com/f/3011421/h/1/1.gif'); } </style>
+
+<div id="_t"></div><img src="http://mm.yosmail.com/r/3011421/h/1/1.gif" border="0" height="1" width="1"><table cellpadding="0" cellspacing="0" width="100%"><tbody></tbody></table><table border="0" cellpadding="0" cellspacing="0" width="100%"><tbody><tr><td align="center"> <table border="0" cellpadding="0" cellspacing="0" width="600"><tbody><center><tr width="600" align="center"><p style="font:11px Arial; color:#999999;">Vous recevez ce mail car vous êtes abonné à la newsletter Espace Promos</p></tr></center><tr><td style="padding-top: 10px;" align="center" height="30" valign="middle" width="600"> <a href="#" target="_blank" title="Shoppez à volonté en profitant de votre offre EXCLU WEB !" style="font-family:Arial,Helvetica,Sans-serif;font-size:15px;color:#333333;text-decoration:none;text-transform:uppercase;font-weight:bold">Shoppez à volonté en profitant de votre offre EXCLU WEB !</a> </td> </tr><tr><td align="center" valign="middle" width="600"> <span
+style="line-height:10px; font-family:Arial,Helvetica,sans-serif; font-size:10px; color:#000001"><br></span> </td> </tr><tr><td height="30" width="600"> <img src="http://webe.emv3.com/monoprix/1114819707/shim.gif" alt="" style="display:block" border="0" height="30" width="598"></td> </tr><tr><td> <table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td height="38" width="158"> <img src="http://webe.emv3.com/monoprix/1114819707/shim.gif" alt="" style="display:block" border="0" height="38" width="158"></td> <td height="38" width="280"> <a href="http://trk.mix.loffremagique.com/tk/kge-GMrp-lMr.php" target="_blank" title="Monoprix"> <img src="http://webe.emv3.com/monoprix/1114819707/logo.gif" alt="Monoprix" style="display:block" border="0" height="38" width="281"></a> </td> <td height="38" width="158"> <img src="http://webe.emv3.com/monoprix/1114819707/shim.gif" alt="" style="display:block" border="0" height="38" width="158"></td> </tr></tbody></table></td> </tr><tr><td
+height="20" width="600"> <img src="http://webe.emv3.com/monoprix/1114819707/shim.gif" alt="" style="display:block" border="0" height="20" width="598"></td> </tr><tr><td> <table border="0" cellpadding="0" cellspacing="0" width="100%"><tbody><tr><td align="center" height="24" width="17%"> <a href="http://trk.mix.loffremagique.com/tk/kge-GMrp-lMs.php" target="_blank" title="mode" style="text-decoration:none; line-height:11px; font-family:Arial, Helvetica, sans-serif; font-size:16px;color:#000000 ">MODE</a> </td> <td align="center" height="24" width="27%"> <a href="http://trk.mix.loffremagique.com/tk/kge-GMrp-lMr.php" target="_blank" title="courses" style="text-decoration:none; line-height:11px; font-family:Arial, Helvetica, sans-serif; font-size:16px;color:#000000 ">COURSES</a> </td> <td align="center" height="24" width="30%"> <a href="http://trk.mix.loffremagique.com/tk/kge-GMrp-lMs.php" target="_blank" title="Promotions" style="text-decoration:none; line-height:11px;
+font-family:Arial, Helvetica, sans-serif; font-size:16px;color:#000000 ">PROMOTIONS</a> </td> <td align="center" height="24" width="26%"> <a href="http://trk.mix.loffremagique.com/tk/kge-GMrp-lMt.php" target="_blank" title="LACARTE" style="text-decoration:none; line-height:11px; font-family:Arial, Helvetica, sans-serif; font-size:16px;color:#000000 "><b>LA</b>CARTE</a> </td> </tr></tbody></table></td> </tr><tr><td height="10" width="600"> <img src="http://webe.emv3.com/monoprix/1114819707/shim.gif" alt="" style="display:block" border="0" height="10" width="598"></td> </tr><!-- Main content --><tr><td height="37" width="600"> <a href="http://trk.mix.loffremagique.com/tk/kge-GMrp-lMs.php" target="_blank" title="Shoppez les must-have de la saison"> <img src="http://webe.emv3.com/monoprix/1114819707/line1.jpg" style="display:block;" alt="Shoppez les must-have de la saison" border="0" height="37" width="598"></a> </td> </tr><tr><td height="216" width="600"> <a
+href="http://trk.mix.loffremagique.com/tk/kge-GMrp-lMs.php" target="_blank" title="Exclu web -30% sur la mode femme et homme avec le code MUSTHAVE"> <img src="http://webe.emv3.com/monoprix/1114819707/line2.jpg" style="display:block;" alt="Exclu web -30% sur la mode femme et homme avec le code MUSTHAVE" border="0" height="216" width="598"></a> </td> </tr><tr><td height="235" width="600"> <table border="0" cellpadding="0" cellspacing="0" width="100%"><tbody><tr><td height="235" width="151"> <a href="http://trk.mix.loffremagique.com/tk/kge-GMrp-lMs.php" target="_blank" title="Exclu web -30% sur la mode femme et homme avec le code MUSTHAVE"> <img src="http://webe.emv3.com/monoprix/1114819707/line3a.jpg" style="display:block;" alt="Exclu web -30% sur la mode femme et homme avec le code MUSTHAVE" border="0" height="235" width="151"></a> </td> <td height="235" width="296"> <a href="http://trk.mix.loffremagique.com/tk/kge-GMrp-lMs.php" target="_blank" title="Exclu web -30% sur la mod
+ e femme
+et homme avec le code MUSTHAVE"> <img src="http://webe.emv3.com/monoprix/1114819707/1102_musthave_07.jpg" style="display:block;" alt="Exclu web -30% sur la mode femme et homme avec le code MUSTHAVE" border="0" height="235" width="296"></a> </td> <td height="235" width="151"> <a href="http://trk.mix.loffremagique.com/tk/kge-GMrp-lMs.php" target="_blank" title="Exclu web -30% sur la mode femme et homme avec le code MUSTHAVE"> <img src="http://webe.emv3.com/monoprix/1114819707/line3c.jpg" style="display:block;" alt="Exclu web -30% sur la mode femme et homme avec le code MUSTHAVE" border="0" height="235" width="151"></a> </td> </tr></tbody></table></td> </tr><tr><td height="50" width="600"> <table border="0" cellpadding="0" cellspacing="0" width="100%"><tbody><tr><td height="50" width="151"> <a href="http://trk.mix.loffremagique.com/tk/kge-GMrp-lMs.php" target="_blank" title="Exclu web -30% sur la mode femme et homme avec le code MUSTHAVE"> <img
+src="http://webe.emv3.com/monoprix/1114819707/line4a.jpg" style="display:block;" alt="Exclu web -30% sur la mode femme et homme avec le code MUSTHAVE" border="0" height="50" width="151"></a> </td> <td height="50" width="148"> <a href="http://trk.mix.loffremagique.com/tk/kge-GMrp-lMu.php" target="_blank" title="homme"> <img src="http://webe.emv3.com/monoprix/1114819707/line4b.jpg" style="display:block;" alt="homme" border="0" height="50" width="148"></a> </td> <td height="50" width="148"> <a href="http://trk.mix.loffremagique.com/tk/kge-GMrp-lMv.php" target="_blank" title="femme"> <img src="http://webe.emv3.com/monoprix/1114819707/line4c.jpg" style="display:block;" alt="femme" border="0" height="50" width="148"></a> </td> <td height="50" width="151"> <a href="http://trk.mix.loffremagique.com/tk/kge-GMrp-lMs.php" target="_blank" title="Exclu web -30% sur la mode femme et homme avec le code MUSTHAVE"> <img src="http://webe.emv3.com/monoprix/1114819707/line4d.jpg" style="display:
+ block;"
+alt="Exclu web -30% sur la mode femme et homme avec le code MUSTHAVE" border="0" height="50" width="151"></a> </td> </tr></tbody></table></td> </tr><tr><td height="118" width="600"> <a href="http://trk.mix.loffremagique.com/tk/kge-GMrp-lMs.php" target="_blank" title=""> <img src="http://webe.emv3.com/monoprix/1114819707/line5.jpg" style="display:block;" alt="" border="0" height="118" width="598"></a> </td> </tr><tr><td height="10" width="600"> <img src="http://webe.emv3.com/monoprix/1114819707/shim.gif" alt="" style="display:block" border="0" height="10" width="598"></td> </tr><tr><td height="308" width="598"> <table border="0" cellpadding="0" cellspacing="0" width="598"><tbody><tr><td height="308" width=""> <a href="http://trk.mix.loffremagique.com/tk/kge-GMrp-lMw.php" target="_blank" title="et découvrez la nouvelle collection enfant &amp; bébé"> <img src="http://webe.emv3.com/monoprix/1114819707/line6a.jpg" style="display:block;" alt="et découvrez la nouvelle collection
+  enfant
+&amp; bébé" border="0" height="308" width=""></a> </td> <td height="308" width=""> <a href="http://trk.mix.loffremagique.com/tk/kge-GMrp-lMw.php" target="_blank" title="et découvrez la nouvelle collection enfant &amp; bébé"> <img src="http://webe.emv3.com/monoprix/1114819707/line6b.jpg" style="display:block;" alt="et découvrez la nouvelle collection enfant &amp; bébé" border="0" height="308" width=""></a> </td> </tr></tbody></table></td> </tr><tr><td height="15" width="600"> <img src="http://webe.emv3.com/monoprix/1114819707/shim.gif" alt="" style="display:block" border="0" height="10" width="598"></td> </tr><tr><td height="100" width="600"> <table border="0" cellpadding="0" cellspacing="0" width="100%"><tbody><tr><td height="100" width="295"> <a href="http://trk.mix.loffremagique.com/tk/kge-GMrp-lMx.php" target="_blank" title="Click &amp; collect retrait gratuit en magasin"> <img src="http://webe.emv3.com/monoprix/1114819707/line7a.jpg" style="display:block;" alt="Cl
+ ick
+&amp; collect retrait gratuit en magasin" border="0" height="100" width="295"></a> </td> <td height="100" width="10"> <img src="http://webe.emv3.com/monoprix/1114819707/line7b.gif" style="display:block;" alt="" border="0" height="100" width="10"></td> <td height="100" width="295"> <a href="http://trk.mix.loffremagique.com/tk/kge-GMrp-lMy.php" target="_blank" title="livraison offerte dès 60 euros d'achat"> <img src="http://webe.emv3.com/monoprix/1114819707/line7c.jpg" style="display:block;" alt="livraison offerte dès 60 euros d'achat" border="0" height="100" width="295"></a> </td> </tr></tbody></table></td> </tr><tr><td height="10" width="600"> <img src="http://webe.emv3.com/monoprix/1114819707/shim.gif" alt="" style="display:block" border="0" height="10" width="598"></td> </tr><!-- End Main Content --><tr><td style="border-left:1px solid #cccccc;border-right:1px solid #cccccc;background-color:#5b5c65" align="center" height="36" valign="middle" width="598"> <a
+href="http://trk.mix.loffremagique.com/tk/kge-GMrp-lMz.php" target="_blank" title="Trouvez votre magasin" style="font-family:Arial,Helvetica,Sans-serif;font-size:19px;color:#ffffff;text-decoration:none;text-transform:uppercase; letter-spacing: 3px;">Trouvez votre magasin</a> </td> </tr><tr><td height="20" width="600"> <img src="http://webe.emv3.com/monoprix/1114819707/shim.gif" alt="" style="display:block" border="0" height="25" width="598"></td> </tr><tr><td> <table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td width="20"> <img src="http://webe.emv3.com/monoprix/1114819707/shim.gif" style="display:block" alt="" border="0" width="10"></td> <td align="left" height="26" valign="middle" width="352"> <a href="http://trk.mix.loffremagique.com/tk/kge-GMrp-lMA.php" target="_blank" title="Contactez nous par email ou téléphone de 8h à 22h" style="font-family:Arial,Helvetica,Sans-serif;font-size:13px;color:#85868c; text-decoration:none;">Contactez-nous : par email ou
+téléphone de 8H à 22H </a> </td> <td height="26" width="5"> <img src="http://webe.emv3.com/monoprix/1114819707/shim.gif" alt="" style="display:block" border="0" height="26" width="5"></td> <td height="26" width="212"> <a href="http://trk.mix.loffremagique.com/tk/kge-GMrp-lMA.php" target="_blank" title="0 800 03 9000 service &amp; appel gratuit"> <img src="http://webe.emv3.com/monoprix/1114819707/contact.gif" style="display:block;" alt="0 800 03 9000 service &amp; appel gratuit" border="0" height="26" width="212"></a> </td> </tr></tbody></table></td> </tr><tr><td height="25" width="600"> <img src="http://webe.emv3.com/monoprix/1114819707/shim.gif" alt="" style="display:block" border="0" height="10" width="598"></td> </tr><tr><td align="center" height="1" width="600"> <img src="http://webe.emv3.com/monoprix/1114819707/shim1.gif" alt="" style="display:block" border="0" height="1" width="598"></td> </tr><tr><td height="10" width="600"> <img
+src="http://webe.emv3.com/monoprix/1114819707/shim.gif" alt="" style="display:block" border="0" height="20" width="598"></td> </tr><tr><td align="center"> <table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td width="7"> <img src="http://webe.emv3.com/monoprix/1114819707/shim.gif" style="display:block" alt="" border="0" width="7"></td> <td style="line-height:12px;" align="left" height="" valign="top" width="584"> <font style="font:10px Arial; color:#999999; line-height:12px"> (1) Offre valable exclusivement sur Monoprix.fr jusqu‘au 08/11/15, pour l'achat d'un ou plusieurs articles des rayons femme &amp; homme dans la limite des stocks disponibles, hors marques nationales &amp; créateurs. La réduction de 30% sera appliquée lors de la validation de l‘étape 3 « Mes avantages » après avoir renseigné le code MUSTHAVE pour toute commande d‘un montant minimum de 15?.<br> *Livraison gratuite en magasin dès 15? d‘achat<br> ** Livraison gratuite en Relais Kia
+ la ou
+à domicile dès 60? d'achat.<br></font></td><td width="7"> <img src="http://webe.emv3.com/monoprix/1114819707/shim.gif" style="display:block" alt="" border="0" width="7"></td> </tr></tbody></table></td> </tr><tr><td height="10" width="600"> <img src="http://webe.emv3.com/monoprix/1114819707/shim.gif" alt="" style="display:block" border="0" height="20" width="598"></td> </tr><tr><td style="border-left:1px solid #cccccc; border-right:1px solid #cccccc;" align="center" height="1" width="600"> <img src="http://webe.emv3.com/monoprix/1114819707/shim1.gif" alt="" style="display:block" border="0" height="1" width="598"></td> </tr><tr><td height="10" width="600"> <img src="http://webe.emv3.com/monoprix/1114819707/shim.gif" alt="" style="display:block" border="0" height="20" width="598"></td> </tr><tr><td align="center" valign="middle" width="600"> </td> </tr></tbody></table></td> </tr></tbody></table><table cellpadding="0" cellspacing="0" width="100%"><tbody></tbody></table><table
+width="600" border="0" cellspacing="0" cellpadding="0" align="center" style="font-family:Arial, Helvetica, sans-serif; font-size:10px; color:#777; text-align:center;"><tr><td style="font-size:10px; text-align:center;"><br> Espaces Promos, 12 rue Camille Desmoulins, 92300 Levallois Perret.<br>Conformément à l'article 34 de la loi Informatique et Liberté du 6 janvier 1978, vous disposez d'un droit d'accès, de modification,<br>de rectification et de suppression des données vous concernant en adressant votre demande à "report@dgcnit.fr".<br>Déclaration CNIL - 1642645<br> Vous souhaitez vous désinscrire de cette liste ? <a href="http://trk.mix.loffremagique.com/usb/kge-GMrp.php" style="color: #000; text-decoration:underline; font-size: 11px;">Cliquez ici.</a> </td> </tr></table><img src="http://theplandeouf.com/tracking_pg2.php?mail=resp-m2-miage@univ-rennes1.fr&amp;base=ep&amp;key=c159ed2b7dca6c797d129bbcd0e2ff78&amp;theme=160" style="width:1px; height:1px;"></center> 
+ <img
+src="http://trk.mix.loffremagique.com/pg/kge-GMrp.php" width="1" height="1" alt="" /></body></html> 
+
+
+
+--b1_5fe3c111406b97ea2cdd164cc8f27f2f--
+
+

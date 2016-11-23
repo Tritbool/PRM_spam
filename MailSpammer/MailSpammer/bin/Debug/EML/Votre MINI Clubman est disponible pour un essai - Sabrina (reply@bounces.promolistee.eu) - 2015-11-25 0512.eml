@@ -1,0 +1,670 @@
+Return-Path: <reply@bounces.promolistee.eu>
+Received: from mailimailo.univ-rennes1.fr ([unix socket])
+	 by mailimailo.univ-rennes1.fr (Cyrus v2.3.16-Fedora-RPM-2.3.16-6.el6_2.5) with LMTPA;
+	 Wed, 25 Nov 2015 05:12:54 +0100
+X-Sieve: CMU Sieve 2.3
+Received: from mailout1.univ-rennes1.fr (mailout1.univ-rennes1.fr [129.20.128.162])
+	by mailimailo.univ-rennes1.fr (Postfix) with ESMTP id E7B6926A0E69
+	for <resp-m2-miage@univ-rennes1.fr>; Wed, 25 Nov 2015 05:12:53 +0100 (CET)
+Received: from localhost (vmscanmail.univ-rennes1.fr [129.20.128.134])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id E1AC66009F
+	for <resp-m2-miage@univ-rennes1.fr>; Wed, 25 Nov 2015 05:12:53 +0100 (CET)
+X-Virus-Scanned: amavisd-new at univ-rennes1.fr
+Received: from mailout1.univ-rennes1.fr ([129.20.128.162])
+	by localhost (vmscanmail.univ-rennes1.frm [129.20.128.134]) (amavisd-new, port 10026)
+	with ESMTP id 3zPLdCWElsAk for <resp-m2-miage@univ-rennes1.fr>;
+	Wed, 25 Nov 2015 05:12:53 +0100 (CET)
+Received: from vmmailin.univ-rennes1.fr (vmmailin.univ-rennes1.fr [129.20.128.133])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id BDDAF60038
+	for <resp-m2-miage@univ-rennes1.fr>; Wed, 25 Nov 2015 05:12:53 +0100 (CET)
+Received: from mxb1-2.relay.renater.fr (mxb1-2.relay.renater.fr [194.214.201.9])
+	by vmmailin.univ-rennes1.fr (Postfix) with ESMTP id B67B120033
+	for <resp-m2-miage@univ-rennes1.fr>; Wed, 25 Nov 2015 05:12:53 +0100 (CET)
+Received: from mta.49.240.smtp.fr (mta.49.240.smtp.fr [37.60.49.240])
+	by mxb1-2.relay.renater.fr (asm) with ESMTP id 89B90280172
+	for <resp-m2-miage@univ-rennes1.fr>; Wed, 25 Nov 2015 05:12:53 +0100 (CET)
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=smtp; d=bounces.promolistee.eu;
+ h=To:Subject:Message-ID:Date:From:Reply-to:MIME-Version:List-Unsubscribe:Content-Type; i=reply@bounces.promolistee.eu;
+ bh=hCGi4ubBmkC0tZKNup7M5bYZcfM=;
+ b=glySLldsmcG5OzwVfr9fntbP7cZKz7vrTK0y2jjGXBLlka/Bdfd0TIGS0wUoLWQU8xZFLHarvaY2
+   IEXQGO9iqkybYdtU6hkqnqKbnGeTmq4LUZrScR5H0IcPehDB7fMLp2dZ/Nf3bWLl20qyytJeBPiS
+   K0dal0g+qcBxQngMoic=
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=smtp; d=bounces.promolistee.eu;
+ b=lGbyo2aJDUB+LhYwv03JDG7cMLl88SVj2y0UgnmHoFGU4GMN2ouRa7eumA9rCswMD0XVl5gDIB14
+   1GQF9Y2FzEtkfP7Rlac/f3vOFN4sjBsBXDHTcuSShepDIJQ2n2U1/BsPr9Or3W1lYq1+fCf3G4kh
+   u0/C/C6zwyj+jD5Npwc=;
+Received: from localhost.localdomain (172.31.255.248) by mta.49.240.smtp.fr id hakqka16t60n for <resp-m2-miage@univ-rennes1.fr>; Wed, 25 Nov 2015 05:12:52 +0100 (envelope-from <reply@bounces.promolistee.eu>)
+To: resp-m2-miage@univ-rennes1.fr
+Subject: Votre MINI Clubman est disponible pour un essai
+Message-ID: <c6c51d2ed9c0a2f6eaf0d3a6656cf49d@localhost.localdomain>
+Date: Wed, 25 Nov 2015 05:12:52 +0100
+From: Sabrina <reply@bounces.promolistee.eu>
+Reply-to: Sabrina <reply@bounces.promolistee.eu>
+MIME-Version: 1.0
+List-Unsubscribe: <http://www.promolistee.eu/Bounces.php?M=232898091&N=545849&L=4fc5ef332a&type=34>, <mailto:reply@bounces.promolistee.eu?subject=list-id=a065c159-dfbb-6619-e781-ebef6d94195d_4fc5ef332a_1a02ff2a-a82c-bfd5-540d-88cfc09f2adb-fbl>
+X-Mailer: JRCG
+X-Mailer-Sid: promolisteeeu
+X-Mailer-RecptId: a065c159-dfbb-6619-e781-ebef6d94195d_4fc5ef332a_1a02ff2a-a82c-bfd5-540d-88cfc09f2adb
+X-Priority: 3
+Content-Type: multipart/alternative;
+	boundary="b1_c6c51d2ed9c0a2f6eaf0d3a6656cf49d"
+X-UCE-Status: YES
+X-UCE-Type: MCE
+X-Original-Source-IP: 37.60.49.240
+X-Bizanga: IMP - mxb1-2.relay.renater.fr
+X-Renater-SpamState: 11
+X-Renater-SpamScore: 17
+X-Renater-SpamCause: gggruggvucftvghtrhhoucdtuddrfeekhedrjeejgdejfecutefuodetggdotefrodftvfcurfhrohhfihhlvgemucftgffptefvgfftpdggtfgfnhhsuhgsshgtrhhisggvnecuuegrihhlohhuthemuceftddtnecundfotefknffkpffiucdludejmdenucfjughrpefvuffkfffhrhggjfforfgtsegrtdhjphertdejnecuhfhrohhmpefurggsrhhinhgruceorhgvphhlhiessghouhhntggvshdrphhrohhmohhlihhsthgvvgdrvghuqeenucffohhmrghinhepphhrohhmohhlihhsthgvvgdrvghunecurfgrrhgrmhepmhhouggvpehsmhhtphdphhgvlhhopehmthgrrdegledrvdegtddrshhmthhprdhfrhdpihhnvghtpeefjedriedtrdegledrvdegtddpmhgrihhlfhhrohhmpehrvghplhihsegsohhunhgtvghsrdhprhhomhholhhishhtvggvrdgvuhdprhgtphhtthhopehrvghsphdqmhdvqdhmihgrghgvsehunhhivhdqrhgvnhhnvghsuddrfhhr 
+X-Renater-ServerName: mxb1-2.relay.renater.fr
+
+
+--b1_c6c51d2ed9c0a2f6eaf0d3a6656cf49d
+Content-Type: text/plain; charset = "utf-8"
+Content-Transfer-Encoding: 8bit
+
+
+* MINI
+Vous recevez ce mail car vous tes inscrits la lettre d'information de
+Promo Listee.
+Vous aimez notre Newsletter ? Pour tre sr(e) de recevoir tous nos
+emails, nous vous conseillons d'ajouter contact@promolistee.eu
+mailto:contact@promolistee.eu votre carnet d'adresses.
+DCOUVREZ L\'OFFRE DU JOUR AVEC PROMO LISTEE suivez ce lien
+http://www.promolistee.eu/n2/545849/232898091/4fc5ef332a. Pour un
+dsabonnement, utilisez ce lien Me dsabonner/Unsubscribe
+http://www.promolistee.eu/u/545849/232898091/4fc5ef332a/fr
+pré-header
+THE NEW MINI CLUBMAN.
+http://www.promolistee.eu/c2/545849/232898091/4fc5ef332a/1
+http://www.promolistee.eu/c2/545849/232898091/4fc5ef332a/2
+DISPONIBLE DANS VOTRE MINI STORE!
+http://www.promolistee.eu/c2/545849/232898091/4fc5ef332a/3
+http://www.promolistee.eu/c2/545849/232898091/4fc5ef332a/4
+http://www.promolistee.eu/c2/545849/232898091/4fc5ef332a/5
+> RÉSERVEZ VOTRE ESSAI
+http://www.promolistee.eu/c2/545849/232898091/4fc5ef332a/6
+http://www.promolistee.eu/c2/545849/232898091/4fc5ef332a/7
+Découvrez le MINI Clubman.
+http://www.promolistee.eu/c2/545849/232898091/4fc5ef332a/8
+http://www.promolistee.eu/c2/545849/232898091/4fc5ef332a/9
+Montez à bord du nouveau MINIClubman.
+http://www.promolistee.eu/c2/545849/232898091/4fc5ef332a/10
+http://www.promolistee.eu/c2/545849/232898091/4fc5ef332a/11
+CONSOMMATIONS ET éMISSIONS DU NOUVEAU MINI CLUBMAN EN CYCLE MIXTE
+SELON LA NORME EUROPéENNE NEDC : de 4,11 à 6,2/100 km. CO2 : de 109
+à 144 g/km. The New MINI Clubman. Nouveau MINI Clubman.
+BMW France, S.A. au capital de 2 805 000? - 722 000 965 RCS
+Versailles - 3 avenue Ampère,78180 Montigny-le-Bretonneux.
+MINI.FR
+http://www.promolistee.eu/c2/545849/232898091/4fc5ef332a/12
+
+
+--b1_c6c51d2ed9c0a2f6eaf0d3a6656cf49d
+Content-Type: text/html; charset = "utf-8"
+Content-Transfer-Encoding: 8bit
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, width=320" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<link rel="shortcut icon" href="http://img.publicidees.com/mini/octobre/favicon.ico"/>
+<title>MINI</title>
+<style type="text/css">
+.ReadMsgBody {width: 100%;}
+.ExternalClass {width: 100%;}
+.ExternalClass * {line-height: 100%;}
+span.yshortcuts { color:#000; background-color:none; border:none;}
+span.yshortcuts:hover,span.yshortcuts:active,span.yshortcuts:focus {color:#000; background-color:none; border:none;}
+a { text-decoration:none; color:inherit; }
+a:hover { text-decoration:none; color:inherit;}
+a:visited{ text-decoration:none; color:inherit;}
+img{ display:block;}
+.ReadMsgBody { width: 100%;}
+.ExternalClass {width: 100%;}
+.msg-body{width:100%!important;}
+*{line-height:110%!important;}
+*{text-size-adjust:none!important}
+*{-moz-text-size-adjust:none!important}
+*{-webkit-text-size-adjust:none!important}
+*{-ms-text-size-adjust:none!important}
+*[class=hackYahoo]{width:100%!important;min-width:320px!important;max-width:1060px!important;}
+@media screen and (min-width: 0px) and (max-width: 485px) {
+*[class=resize300]{min-width:320px!important;width:100%!important;}
+*[class=largMob]{width:320px!important;}
+*[class=largMobInt]{width:290px!important;}
+*[class=block]{display:block!important;margin:0!important;}
+*[class=hide]{display:none!important;}
+*[class=widthAuto]{width:auto!important;height:auto!important;}
+*[class=hackYahoo]{display:none!important;}
+*[class=hackGmailApp]{width:100%!important;min-width:320px!important;}
+*[class=font18]{font-size:18px!important;}
+*[class=font12]{font-size:12px!important;}
+*[class=font25]{font-size:25px!important;}
+*[class=font24]{font-size:24px!important;}
+*[class=font20]{font-size:20px!important;}
+*[class=height10]{height:10px!important;}
+*[class=height25]{height:25px!important;}
+*[class=height20Width222]{height:20px!important;width:222px!important;}
+*[class=width222]{width:222px!important;}
+*[class=centPourcent]{width:100%!important;}
+*[class=paddingBottom]{padding-bottom:25px!important;}
+*[class=width115]{width:115px!important;}
+*[class=alignLeft]{text-align:left!important;}
+*[class=width20]{width:20px!important;}
+*[class=mobile] {
+width:auto!important;
+margin:auto!important;
+height:auto!important;
+display:block!important;
+overflow:visible!important;
+line-height:100%!important;
+}
+*[class=gmailMobile] {
+display:block!important;
+width:auto!important;
+overflow:visible!important;
+float:none !important;
+height:inherit!important;
+max-height:inherit!important;
+}
+*[class=hackGmailApp]{width:100%!important;min-width:320px!important;}
+*[class=resize300]{max-width:100%!important;min-width:320px!important;width:100%!important;}
+}
+</style>
+<!--[if mso]>
+<style type="text/css">
+a { text-decoration:none; color:inherit!important; }
+a:hover { text-decoration:none; color:inherit!important;}
+a:visited{ text-decoration:none; color:inherit!important;}
+</style>
+<![endif]-->
+</head>
+<body bgcolor="#ffffff" style="padding:0; margin:auto;"><div id="template_header_auto_include" ><center>
+<span style='font-size:11px;text-align:center;font-family:Arial, Helvetica, sans-serif;color:#000'><br />
+Vous recevez ce mail car vous &ecirc;tes inscrits &agrave; la lettre d'information de Promo Listee. <br />
+Vous aimez notre Newsletter ? Pour &ecirc;tre s&ucirc;r(e) de recevoir tous nos emails, nous vous conseillons d'ajouter <a href='mailto:contact@promolistee.eu' target='_blank'> contact@promolistee.eu</a> &agrave; votre carnet d'adresses.<br />
+<br/>
+<strong>D&eacute;couvrez l'offre du jour avec Promo Listee </strong><a href='http://www.promolistee.eu/n2/545849/232898091/4fc5ef332a' target='_blank'> suivez ce lien</a>. Pour un d&eacute;sabonnement, utilisez ce lien <a href='http://www.promolistee.eu/u/545849/232898091/4fc5ef332a/fr' target='_blank'> Me d&eacute;sabonner/Unsubscribe</a>
+</span>
+</center></div>
+<table width="98%" border="0" align="center" cellpadding="0" cellspacing="0">
+<tr><td align="center">
+<div style="background-color:#ffffff;margin:0;padding:0;" class="resize300">
+<center>
+<table width="100%" class="resize300" cellpadding="0" cellspacing="0" border="0" style="margin:0;padding:0;" bgcolor="#ffffff">
+<tr>
+<td align="center" style="min-width:320px;" class="hackGmailApp">
+<!--[if mso]>
+<table width="600" align="center" cellpadding="0" cellspacing="0" border="0">
+<tr>
+<td>
+<![endif]-->
+<table width="100%" align="center" class="largMob" cellpadding="0" cellspacing="0" border="0" style="width:100%;max-width:600px;min-width:320px;">
+<tr>
+<td align="center">
+<table width="100%" align="center" cellpadding="0" cellspacing="0" border="0">
+<tr>
+<td height="1" style="text-decoration:none;font-family:arial,helvetica;font-size:1px;line-height:1px;color:#ffffff;">
+pré-header
+</td>
+</tr>
+</table>
+<table width="100%" align="center" cellpadding="0" cellspacing="0" border="0">
+<tr>
+<td align="center">
+<table width="100%" align="center" cellpadding="0" cellspacing="0" border="0">
+<tr>
+<td style="font-size:1px;line-height:1px;">
+<img src="http://img.promolistee.eu/545849/mpt.png" width="1" height="5" border="0"style="display:block;" alt=""/>
+</td>
+</tr>
+</td>
+<tr>
+<td style="font-size:1px;line-height:1px;">
+<img src="http://img.promolistee.eu/545849/mpt.png" width="1" height="10" border="0"style="display:block;" alt=""/>
+</td>
+</tr>
+<tr>
+<td style="font-size:1px;line-height:1px;" bgcolor="#000000">
+<img src="http://img.promolistee.eu/545849/mpt.png" width="1" height="1" border="0"style="display:block;" alt=""/>
+</td>
+</tr>
+<tr>
+<td style="font-size:1px;line-height:1px;">
+<img src="http://img.promolistee.eu/545849/mpt.png" width="1" height="10" border="0"style="display:block;" alt=""/>
+</td>
+</tr>
+</table>
+<table width="100%" align="center" cellpadding="0" cellspacing="0" border="0">
+<tr>
+<td align="left" width="50%">
+<table align="left" width="100%" cellpadding="0" cellspacing="0" border="0">
+<tr>
+<td style="font-size:1px;line-height:1px;" width="10">
+<img src="http://img.promolistee.eu/545849/mpt.png" width="10" height="0" border="0" alt="" class="width20" style="display:block;"/>
+</td>
+<td align="left" style="text-decoration:none;font-family:georgia,arial,helvetica;font-size:20px;color:#000001;" class="font18">
+THE NEW MINI CLUBMAN.
+</td>
+</tr>
+</table>
+</td>
+<td align="right" width="50%" style="font-size:1px;line-height:1px;">
+<table align="right" width="100%" cellpadding="0" cellspacing="0" border="0">
+<tr>
+<td align="right">
+<a href="http://www.promolistee.eu/c2/545849/232898091/4fc5ef332a/1" target="_blank" style="text-decoration:none;" title="MINI">
+<img src="http://img.promolistee.eu/545849/logo.jpg" width="130" border="0" alt="" class="width115" style="display:block;"/>
+</a>
+</td>
+<td style="font-size:1px;line-height:1px;" width="10">
+<img src="http://img.promolistee.eu/545849/mpt.png" width="10" height="1" border="0"style="display:block;" alt=""/>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<table width="100%" align="center" cellpadding="0" cellspacing="0" border="0">
+<tr>
+<td style="font-size:1px;line-height:1px;">
+<img src="http://img.promolistee.eu/545849/mpt.png" width="1" height="20" border="0"style="display:block;" alt=""/>
+</td>
+</tr>
+</table>
+<table width="100%" align="center" cellpadding="0" cellspacing="0" border="0" bgcolor="#f2f3ee">
+<tr>
+<td valign="middle" width="45%">
+<a href="http://www.promolistee.eu/c2/545849/232898091/4fc5ef332a/2" target="_blank" style="text-decoration:none;" title="MINI">
+<img src="http://img.promolistee.eu/545849/plvUn.jpg" width="100%" border="0"style="display:block;" alt=""/>
+</a>
+</td>
+<td align="center" valign="middle">
+<table width="100%" align="center" cellpadding="0" cellspacing="0" border="0" class="largMobInt">
+<tr>
+<td style="font-size:1px;line-height:1px;">
+<img src="http://img.promolistee.eu/545849/mpt.png" width="1" height="10" border="0" alt="" class="height25" style="display:block;"/>
+</td>
+</tr>
+<tr>
+<td align="left" style="text-decoration:none;font-family:georgia,arial,helvetica;font-size:40px;color:#000001;" class="font25">
+<a href="http://www.promolistee.eu/c2/545849/232898091/4fc5ef332a/3" target="_blank" style="text-decoration:none;" title="MINI">
+DISPONIBLE DANS VOTRE MINI STORE!
+</a>
+</td>
+</tr>
+<tr class="hide">
+<td style="font-size:1px;line-height:1px;">
+<img src="http://img.promolistee.eu/545849/mpt.png" width="1" height="20" border="0" alt="" class="height10" style="display:block;"/>
+</td>
+</tr>
+</table>
+<!--[if !mso]><!-->
+<table align="center" cellpadding="0" cellspacing="0" border="0">
+<tr>
+<td class="mobile">
+<div class="gmailMobile" style="display:none;width:0;overflow:hidden;float:left;max-height:0;">
+<table width="320" class="largMob" align="center" cellpadding="0" cellspacing="0" border="0">
+<tr>
+<td>
+<table width="100%" align="center" cellpadding="0" cellspacing="0" border="0" bgcolor="#f2f3ee">
+<tr>
+<td align="center">
+<a href="http://www.promolistee.eu/c2/545849/232898091/4fc5ef332a/4" target="_blank" style="text-decoration:none;" title="">
+<img src="http://img.promolistee.eu/545849/respPlvUn.jpg" width="100%" border="0"style="display:block;" alt=""/>
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+</table>
+<!--<![endif]-->
+<table width="100%" align="center" cellpadding="0" cellspacing="0" border="0">
+<tr>
+<td align="left">
+<table cellspacing="0" cellpadding="0" border="0" align="left" class="largMob">
+<tr>
+<td align="center">
+<table cellspacing="0" cellpadding="0" border="0" align="center" bgcolor="#911e32">
+<tr>
+<td style="font-size:1px;line-height:1px;" width="300" height="20">
+<a href="http://www.promolistee.eu/c2/545849/232898091/4fc5ef332a/5" target="_blank" style="text-decoration:none;" title="Réservez votre essai">
+<img src="http://img.promolistee.eu/545849/mpt.png" width="300" height="20" style="display:block;" border="0" alt="" />
+</a>
+</td>
+</tr>
+<tr>
+<td align="center" style="text-decoration:none;font-family:georgia,arial,helvetica;font-size:20px;color:#911e32">
+<a href="http://www.promolistee.eu/c2/545849/232898091/4fc5ef332a/6" target="_blank" style="text-decoration:none;font-size:20px;color:#ffffff" title="Réservez votre essai" class="font21">
+> RÉSERVEZ VOTRE ESSAI
+</a>
+</td>
+</tr>
+<tr>
+<td style="font-size:1px;line-height:1px;" width="300" height="20">
+<a href="http://www.promolistee.eu/c2/545849/232898091/4fc5ef332a/7" target="_blank" style="text-decoration:none;" title="Réservez votre essai">
+<img src="http://img.promolistee.eu/545849/mpt.png" width="300" height="20" style="display:block;" border="0" alt="" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style="font-size:1px;line-height:1px;">
+<img src="http://img.promolistee.eu/545849/mpt.png" width="1" height="10" border="0" alt="" class="height25" style="display:block;"/>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<table width="100%" align="center" cellpadding="0" cellspacing="0" border="0" bgcolor="#911e32"><tr><td style="font-size:1px;line-height:1px;"><img src="http://img.promolistee.eu/545849/mpt.png" width="100%" height="6" border="0"style="display:block;" alt=""/></td></tr></table>
+<table width="100%" class="largMob" align="center" cellpadding="0" cellspacing="0" border="0">
+<tr><td><img src="http://img.promolistee.eu/545849/mpt.png" width="100%" height="20" border="0"style="display:block;" alt=""/></td></tr>
+<tr>
+<td align="center" style="text-decoration:none;font-family:georgia,arial,helvetica;font-size:25px;color:#911e32" class="font20">
+Découvrez le MINI Clubman.
+</td>
+</tr>
+<tr><td><img src="http://img.promolistee.eu/545849/mpt.png" width="100%" height="20" border="0"style="display:block;" alt=""/></td></tr>
+</table>
+<!--[if !mso]><!-->
+<table align="center" cellpadding="0" cellspacing="0" border="0">
+<tr>
+<td class="mobile">
+<div class="gmailMobile" style="display:none;width:0;overflow:hidden;float:left;max-height:0;">
+<table width="320" class="largMob" align="center" cellpadding="0" cellspacing="0" border="0">
+<tr>
+<td>
+<table width="100%" align="center" cellpadding="0" cellspacing="0" border="0" bgcolor="#f2f3ee">
+<tr>
+<td align="center">
+<a href="http://www.promolistee.eu/c2/545849/232898091/4fc5ef332a/8" target="_blank" style="text-decoration:none;" title="">
+<img src="http://img.promolistee.eu/545849/respPlvDeux.jpg" width="100%" border="0"style="display:block;" alt=""/>
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+</table>
+<!--<![endif]-->
+<table width="100%" class="hide" align="center" cellpadding="0" cellspacing="0" border="0" bgcolor="#f2f3ee">
+<tr>
+<td align="center">
+<a href="http://www.promolistee.eu/c2/545849/232898091/4fc5ef332a/9" target="_blank" style="text-decoration:none;" title="Essayez-le">
+<img src="http://img.promolistee.eu/545849/plvDeux.jpg" width="100%" border="0"style="display:block;" alt=""/>
+</a>
+</td>
+</tr>
+</table>
+<table width="100%" class="largMob" align="center" cellpadding="0" cellspacing="0" border="0">
+<tr><td><img src="http://img.promolistee.eu/545849/mpt.png" width="100%" height="20" border="0"style="display:block;" alt=""/></td></tr>
+<tr>
+<td align="center" style="text-decoration:none;font-family:georgia,arial,helvetica;font-size:25px;color:#911e32" class="font20">
+Montez à bord du nouveau MINIClubman.
+</td>
+</tr>
+<tr><td><img src="http://img.promolistee.eu/545849/mpt.png" width="100%" height="20" border="0"style="display:block;" alt=""/></td></tr>
+</table>
+<!--[if !mso]><!-->
+<table align="center" cellpadding="0" cellspacing="0" border="0">
+<tr>
+<td class="mobile">
+<div class="gmailMobile" style="display:none;width:0;overflow:hidden;float:left;max-height:0;">
+<table width="320" class="largMob" align="center" cellpadding="0" cellspacing="0" border="0">
+<tr>
+<td>
+<table width="100%" align="center" cellpadding="0" cellspacing="0" border="0" bgcolor="#f2f3ee">
+<tr>
+<td align="center">
+<a href="http://www.promolistee.eu/c2/545849/232898091/4fc5ef332a/10" target="_blank" style="text-decoration:none;" title="">
+<img src="http://img.promolistee.eu/545849/respPlvTrois.jpg" width="100%" border="0"style="display:block;" alt=""/>
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+</table>
+<!--<![endif]-->
+<table width="100%" class="hide" align="center" cellpadding="0" cellspacing="0" border="0" bgcolor="#f2f3ee">
+<tr>
+<td align="center">
+<a href="http://www.promolistee.eu/c2/545849/232898091/4fc5ef332a/11" target="_blank" style="text-decoration:none;" title="Essayez-le">
+<img src="http://img.promolistee.eu/545849/plvTrois.jpg" width="100%" border="0"style="display:block;" alt="Sécurité. Service. Confort. ESSAYEZ-LE"/>
+</a>
+</td>
+</tr>
+</table>
+<table width="100%" align="center" cellpadding="0" cellspacing="0" border="0" bgcolor="#911e32"><tr><td style="font-size:1px;line-height:1px;"><img src="http://img.promolistee.eu/545849/mpt.png" width="100%" height="6" border="0"style="display:block;" alt=""/></td></tr></table>
+<table width="100%" align="center" cellpadding="0" cellspacing="0" border="0">
+<tr>
+<td style="font-size:1px;line-height:1px;">
+<img src="http://img.promolistee.eu/545849/mpt.png" width="1" height="20" border="0"style="display:block;" alt=""/>
+</td>
+</tr>
+</table>
+<table width="100%" align="center" cellpadding="0" cellspacing="0" border="0" class="largMobInt">
+<tr>
+<td align="left" style="text-decoration:none;font-family:arial,helvetica;font-size:11px;color:#7b7b7b;">
+<b>Consommations et émissions du nouveau MINI CLUBMAN en cycle mixte selon la norme européenne NEDC :</b> de 4,11 à 6,2/100 km. CO2 : de 109 à 144 g/km. The New MINI Clubman. Nouveau MINI Clubman.
+<br/>
+<br/>
+BMW France, S.A. au capital de 2 805 000? - 722 000 965 RCS Versailles - 3 avenue Ampère,78180 Montigny-le-Bretonneux.
+<br/>
+<br/>
+</td>
+</tr>
+<tr>
+<td style="font-size:1px;line-height:1px;">
+<img src="http://img.promolistee.eu/545849/mpt.png" width="1" height="20" border="0"style="display:block;" alt=""/>
+</td>
+</tr>
+</table>
+<table width="100%" align="center" cellpadding="0" cellspacing="0" border="0">
+<tr>
+<td style="font-size:1px;line-height:1px;" bgcolor="#000000">
+<img src="http://img.promolistee.eu/545849/mpt.png" width="1" height="1" border="0"style="display:block;" alt=""/>
+</td>
+</tr>
+</table>
+<table width="100%" align="center" cellpadding="0" cellspacing="0" border="0">
+<tr>
+<td style="font-size:1px;line-height:1px;">
+<img src="http://img.promolistee.eu/545849/mpt.png" width="1" height="15" border="0"style="display:block;" alt=""/>
+</td>
+</tr>
+</table>
+<table width="100%" cellpadding="0" cellspacing="0" border="0">
+<tr>
+<td>
+<table align="right" cellpadding="0" cellspacing="0" border="0" class="centPourcent">
+<tr>
+<td valign="bottom" align="right">
+<table align="right" cellpadding="0" cellspacing="0" border="0" class="centPourcent">
+<tr>
+<td align="center">
+<!--[if !mso]><!-->
+<table align="center" cellpadding="0" cellspacing="0" border="0">
+<tr>
+<td class="mobile">
+<div class="gmailMobile" style="display:none;width:0;overflow:hidden;float:left;max-height:0;">
+<table align="center" cellpadding="0" cellspacing="0" border="0">
+<tr>
+<td style="font-size:1px;line-height:1px;">
+<img src="http://img.promolistee.eu/545849/logo.jpg" width="81"border="0"style="display:block;" alt=""/>
+</td>
+</tr>
+<tr>
+<td style="font-size:1px;line-height:1px;">
+<img src="http://img.promolistee.eu/545849/mpt.png" width="1" height="12"border="0"style="display:block;" alt=""/>
+</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+</table>
+<!--<![endif]-->
+<table align="center" cellpadding="0" cellspacing="0" border="0">
+<tr>
+<td align="right" style="text-decoration:none;font-family:arial,helvetica;font-size:16;line-height:1px;color:#000001;">
+<a href="http://www.promolistee.eu/c2/545849/232898091/4fc5ef332a/12" style="text-decoration:none;font-family:arial,helvetica;font-size:16px;line-height:1px;color:#000001;"><b>MINI.FR</b></a>
+</td>
+</tr>
+<tr>
+<td style="font-size:1px;line-height:1px;">
+<img src="http://img.promolistee.eu/545849/mpt.png" width="1" height="6" border="0"style="display:block;" alt=""/>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+<td class="hide">
+<img src="http://img.promolistee.eu/545849/mpt.png" width="18" height="1" border="0"style="display:block;" alt=""/>
+</td>
+<td align="right" style="text-decoration:none;font-family:arial,helvetica;font-size:11px;line-height:1px;" class="hide">
+<img src="http://img.promolistee.eu/545849/logo.jpg" width="81"border="0"style="display:block;" alt=""/>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<table width="100%" align="center" cellpadding="0" cellspacing="0" border="0">
+<tr>
+<td style="font-size:1px;line-height:1px;">
+<img src="http://img.promolistee.eu/545849/mpt.png" width="1" height="30" border="0"style="display:block;" alt=""/>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<!--[if mso]>
+</td>
+</tr>
+</table
+<![endif]-->
+</td>
+</tr>
+</table>
+<table width="100%" cellspacing="0" cellpadding="0" border="0" align="center" class="hackYahoo" style="display:block;width:100%!important;min-width:320px!important;max-width:1060px!important;">
+<tr>
+<td style="font-size:1px;line-height:1px;">
+<img src="http://img.promolistee.eu/545849/spacerBig.gif" width="100%" height="1" class="hackYahoo" border="0" alt="" style="display:block;width:100%!important;min-width:320px!important;max-width:1060px!important;"/>
+</td>
+</tr>
+</table>
+</center>
+</div>
+<img src="http://img.promolistee.eu/545849/link.php?promoid=120751&progid=4370&partid=41990" />
+</td></tr>
+</table><div id="template_footer_auto_include" ><center>
+<span style='font-size:11px;text-align:center;font-family:Arial, Helvetica, sans-serif;color:#000'><br />
+Avec Promo Listee, vous pouvez b&eacute;n&eacute;ficier d&egrave;s maintenant des bons plans et des r&eacute;ductions exclusives qui correspondent<br /> aux univers de la famille, la mode, la beaut&eacute;, la d&eacute;coration, le voyage... <br />
+<br />
+Conform&eacute;ment &agrave; la loi informatique et libert&eacute;s, vous pouvez &agrave; tout moment acc&eacute;der, faire rectifier<br />
+ou supprimer les informations personnelles vous concernant ou vous opposer &agrave; leur traitement par Promo Listee.<br />
+<br />
+Pour ne plus b&eacute;n&eacute;ficier de nos propositions commerciales, vous pouvez vous rendre sur <a href='http://www.promolistee.eu/u/545849/232898091/4fc5ef332a/fr'>cette page</a><br />
+Notez que le traitement de cette demande peut prendre jusqu'&agrave; 48 heures.<br />
+<br />
+</span>
+</center></div>
+<style type="text/css">
+.ReadMsgBody {width: 100%;}
+.ExternalClass {width: 100%;}
+.ExternalClass * {line-height: 100%;}
+span.yshortcuts { color:#000; background-color:none; border:none;}
+span.yshortcuts:hover,span.yshortcuts:active,span.yshortcuts:focus {color:#000; background-color:none; border:none;}
+a { text-decoration:none; color:inherit; }
+a:hover { text-decoration:none; color:inherit;}
+a:visited{ text-decoration:none; color:inherit;}
+img{ display:block;}
+.ReadMsgBody { width: 100%;}
+.ExternalClass {width: 100%;}
+.msg-body{width:100%!important;}
+*{line-height:110%!important;}
+*{text-size-adjust:none!important}
+*{-moz-text-size-adjust:none!important}
+*{-webkit-text-size-adjust:none!important}
+*{-ms-text-size-adjust:none!important}
+*[class=hackYahoo]{width:100%!important;min-width:320px!important;max-width:1060px!important;}
+@media screen and (min-width: 0px) and (max-width: 485px) {
+*[class=resize300]{min-width:320px!important;width:100%!important;}
+*[class=largMob]{width:320px!important;}
+*[class=largMobInt]{width:290px!important;}
+*[class=block]{display:block!important;margin:0!important;}
+*[class=hide]{display:none!important;}
+*[class=widthAuto]{width:auto!important;height:auto!important;}
+*[class=hackYahoo]{display:none!important;}
+*[class=hackGmailApp]{width:100%!important;min-width:320px!important;}
+*[class=font18]{font-size:18px!important;}
+*[class=font12]{font-size:12px!important;}
+*[class=font25]{font-size:25px!important;}
+*[class=font24]{font-size:24px!important;}
+*[class=font20]{font-size:20px!important;}
+*[class=height10]{height:10px!important;}
+*[class=height25]{height:25px!important;}
+*[class=height20Width222]{height:20px!important;width:222px!important;}
+*[class=width222]{width:222px!important;}
+*[class=centPourcent]{width:100%!important;}
+*[class=paddingBottom]{padding-bottom:25px!important;}
+*[class=width115]{width:115px!important;}
+*[class=alignLeft]{text-align:left!important;}
+*[class=width20]{width:20px!important;}
+*[class=mobile] {
+width:auto!important;
+margin:auto!important;
+height:auto!important;
+display:block!important;
+overflow:visible!important;
+line-height:100%!important;
+}
+*[class=gmailMobile] {
+display:block!important;
+width:auto!important;
+overflow:visible!important;
+float:none !important;
+height:inherit!important;
+max-height:inherit!important;
+}
+*[class=hackGmailApp]{width:100%!important;min-width:320px!important;}
+*[class=resize300]{max-width:100%!important;min-width:320px!important;width:100%!important;}
+}
+</style>
+<img height="1" width="1" src="http://www.promolistee.eu/i/545849/232898091/4fc5ef332a/3"><img src="http://www.promolistee.eu/i/545849/232898091/4fc5ef332a/0" width="0" height="0" border="0" alt=""></body>
+</html>
+
+
+
+--b1_c6c51d2ed9c0a2f6eaf0d3a6656cf49d--
+
+

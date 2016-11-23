@@ -1,0 +1,452 @@
+Return-Path: <return-a18-2375-2376-resp-m2-miage=univ-rennes1.fr=4@solutionmaison.fr>
+Received: from mailimailo.univ-rennes1.fr ([unix socket])
+	 by mailimailo.univ-rennes1.fr (Cyrus v2.3.16-Fedora-RPM-2.3.16-6.el6_2.5) with LMTPA;
+	 Thu, 03 Dec 2015 09:13:02 +0100
+X-Sieve: CMU Sieve 2.3
+Received: from mailout1.univ-rennes1.fr (mailout1.univ-rennes1.fr [129.20.128.162])
+	by mailimailo.univ-rennes1.fr (Postfix) with ESMTP id 4543226A076F
+	for <resp-m2-miage@univ-rennes1.fr>; Thu,  3 Dec 2015 09:13:02 +0100 (CET)
+Received: from localhost (vmscanmail.univ-rennes1.fr [129.20.128.134])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id 41B1C6008C
+	for <resp-m2-miage@univ-rennes1.fr>; Thu,  3 Dec 2015 09:13:02 +0100 (CET)
+X-Virus-Scanned: amavisd-new at univ-rennes1.fr
+Received: from mailout1.univ-rennes1.fr ([129.20.128.162])
+	by localhost (vmscanmail.univ-rennes1.frm [129.20.128.134]) (amavisd-new, port 10026)
+	with ESMTP id TfNg9VhnBBxc for <resp-m2-miage@univ-rennes1.fr>;
+	Thu,  3 Dec 2015 09:13:02 +0100 (CET)
+Received: from vmmailin.univ-rennes1.fr (vmmailin.univ-rennes1.fr [129.20.128.133])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id 208796002E
+	for <resp-m2-miage@univ-rennes1.fr>; Thu,  3 Dec 2015 09:13:02 +0100 (CET)
+Received: from mxb2-2.relay.renater.fr (mxb2-2.relay.renater.fr [194.214.200.9])
+	by vmmailin.univ-rennes1.fr (Postfix) with ESMTP id 16CFD20033
+	for <resp-m2-miage@univ-rennes1.fr>; Thu,  3 Dec 2015 09:13:02 +0100 (CET)
+Received: from smtp1-47.revue-en-ligne.com (smtp1-47.revue-en-ligne.com [5.196.214.78])
+	by mxb2-2.relay.renater.fr (asm) with SMTP id D302C6007DC
+	for <resp-m2-miage@univ-rennes1.fr>; Thu,  3 Dec 2015 09:13:01 +0100 (CET)
+Received: (GreenArrow 19897 invoked by uid 410); 3 Dec 2015 08:13:01 -0000
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed;
+	d=solutionmaison.fr; s=default; h=Subject:From:To:Date:
+	List-Unsubscribe:Message-ID:MIME-Version:Content-Type; bh=6M2WGs
+	OFV6fLTCqsPnfLdMLpsb0=; b=SWmp+7PtVFqvUrlqir8JGViEiL087hH5/95XE0
+	BB3ZQF2vP+2pY0palO0oz9JD5NLKVJVoy5v/jt7os8INpWmV2yLLO2scd0BqBwUA
+	uhm0OW4X415u1+2dYOOyzgGw+M4M+3RHbzpHujibMTZ8DCO6EgbzmHTU8YvyiLBu
+	fvoek=
+Subject: =?UTF-8?Q?Nana=20Ultra=20Goodnight=20=E2=80=93=20elle=20vo?=
+ =?UTF-8?Q?us=20suit=20dans=20toutes=20les=20situations?=
+From: "NANA" <news@solutionmaison.fr>
+To: resp-m2-miage@univ-rennes1.fr
+Date: 03 Dec 2015 08:13:01 -0000
+List-Unsubscribe: <http://solutionmaison.fr/ga/unsubscribe/2-11527895-18-1239-2376-ed35df89ef15825-2dbaa5804d>,
+ <mailto:return-a18-2375-2376-resp-m2-miage=univ-rennes1.fr=4u@solutionmaison.fr>
+X-Mailer: GreenArrow Studio (v4.65.0)
+X-CampaignID: s4:2375-38545969f2e12e1d
+Message-ID: <mid-0cf49e86fb8cc0f72855cc7b1c9ac797@solutionmaison.fr>
+X-Mailer-Info: 4.hFDO.gMzcTN.IXZzBXLtJTLtlWYnVGQ15Wa21icl5mblNXMuYmc.gMzcjN
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="==444198ee896fcfcddc3aa09cd233ca2b"
+X-UCE-Status: YES
+X-UCE-Type: MCE
+X-Original-Source-IP: 5.196.214.78
+X-Bizanga: IMP - mxb2-2.relay.renater.fr
+X-Renater-SpamState: 11
+X-Renater-SpamScore: 17
+X-Renater-SpamCause: gggruggvucftvghtrhhoucdtuddrfeekiedrtdefgdduvddtucetufdoteggodetrfdotffvucfrrhhofhhilhgvmecutffgpfetvffgtfdpggftfghnshhusghstghrihgsvgenuceurghilhhouhhtmecufedttdenucdnofetkffnkffpifculddujedmnecujfgurhepuffhvfffjffokfggtgesrgdtreerredtjeenucfhrhhomhepfdfptefptedfuceonhgvfihssehsohhluhhtihhonhhmrghishhonhdrfhhrqeenucffohhmrghinhepshholhhuthhiohhnmhgrihhsohhnrdhfrhenucfrrghrrghmpehmohguvgepshhmthhppdhhvghlohepshhmthhpuddqgeejrdhrvghvuhgvqdgvnhdqlhhighhnvgdrtghomhdpihhnvghtpeehrdduleeirddvudegrdejkedpmhgrihhlfhhrohhmpehrvghtuhhrnhdqrgdukedqvdefjeehqddvfeejiedqrhgvshhpqdhmvddqmhhirghgvgepuhhnihhvqdhrvghnnhgvshdurdhfrhepgeesshholhhuthhiohhnmhgrihhsohhnrdhfrhdprhgtphhtthhopehrvghsphdqmhdvqdhmihgrghgvsehunhhivhdqrhgvnhhnvghsuddrfhhr 
+X-Renater-ServerName: mxb2-2.relay.renater.fr
+
+This is a multi-part message in MIME format.
+
+--==444198ee896fcfcddc3aa09cd233ca2b
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Nana
+
+O=C3=B9 que vous soyez, votre corps demande plus de protection la
+nuit.
+
+Image ( http://solutionmaison.fr/ga/click/2-11527895-18-1239-2376-16960-e37=
+d317028-2dbaa5804d )
+
+Image ( http://solutionmaison.fr/ga/click/2-11527895-18-1239-2376-16960-e37=
+d317028-2dbaa5804d )
+
+Nana Ultra GoodNight est con=C3=A7ue pour vous assurer
+
+une nuit sereine en toutes situations.
+
+Image
+
+Image ( http://solutionmaison.fr/ga/click/2-11527895-18-1239-2376-16960-e37=
+d317028-2dbaa5804d )
+
+Image ( http://solutionmaison.fr/ga/click/2-11527895-18-1239-2376-16960-e37=
+d317028-2dbaa5804d )
+
+D=C3=A9couvrez-en plus sur nana.fr ( http://solutionmaison.fr/ga/click/2-11=
+527895-18-1239-2376-16960-e37d317028-2dbaa5804d )=
+
+--==444198ee896fcfcddc3aa09cd233ca2b
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.=
+w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml">
+<head>
+	<title>Nana Ultra GoodNight</title>
+	<!-- Charset -->
+	<meta content=3D"text/html; charset=3DUTF-8" http-equiv=3D"Content-Type" /=
+><!-- Responsive Meta -->
+	<meta content=3D"width=3Ddevice-width; initial-scale=3D1.0; maximum-scale=
+=3D1.0;" name=3D"viewport" />
+	<style type=3D"text/css">.ExternalClass {width:100%;}
+
+	.ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font=
+, .ExternalClass td, .ExternalClass div {line-height: 100%;}
+
+
+
+	body {-webkit-text-size-adjust:none; -ms-text-size-adjust:none;}
+
+	body {margin:0; padding:0;}
+
+	table {border-collapse: collapse;}
+
+	table td {border-collapse:collapse;}=20
+
+	a {color: #c2e0fc; text-decoration: none; }
+
+    /* surcharge pour orange.fr */=20=20=20=20=20=20=20=20=20=20=20=20=20
+
+    .table {width: 640px;}
+
+    .table td{border-bottom: 0; line-height: normal; height: auto; padding:=
+0;}
+
+    #logo {float: none;margin-top: 0;}
+
+
+
+    p {margin:0; padding:0; margin-bottom:0;}
+
+
+
+	/*-- Responsive --*/
+
+
+
+	@media only screen and (max-width: 640px){
+
+=09=09
+
+		/*-------- container --------*/=09=09=09
+
+		body[yahoo] .containerBox{width: 420px !important;}
+
+		body[yahoo] .column{width: 100% !important;}
+
+
+
+        td[class=3Dtitle1],h4[class=3Dtitle1]{ font-size: 18px !important; =
+line-height:normal !important }
+
+        td[class=3DfullImage]{padding-right:0 !important}
+
+        td[class=3DfullImage] img{ width: 100% !important;height:auto!impor=
+tant;}
+
+
+
+        td[class=3Dcontent1],span[class=3Dcontent1],a[class=3Dcontent1]{ fo=
+nt-size: 16px !important; line-height:normal !important }
+
+
+
+	}
+
+
+
+	@media only screen and (max-width: 479px){
+
+=09=09
+
+		/*-------- container --------*/=09=09=09
+
+		body[yahoo] .containerBox{width: 320px !important;}
+
+		body[yahoo] .column{width: 100% !important;}
+
+
+
+        a[href^=3D"tel"], a[href^=3D"sms"]{ text-decoration: none;color: #3=
+33333; pointer-events: none;cursor: default; }
+
+        .mobile_link a[href^=3D"tel"],
+
+        .mobile_link a[href^=3D"sms"]{ .text-decoration: default; .color: #=
+01657a !important; .pointer-events: auto; .cursor: default }
+
+
+
+        td[class=3Dcell]{ width: 300px !important; padding:10px 10px 0 10px=
+ !important; }
+
+        td[class=3Dcellpadding]{ width: 100% !important; padding:20px 10px =
+!important; }
+
+        table[class=3DfullButton],table[class=3DfullButton] td, center[clas=
+s=3DfullButton]{width:100% !important;}
+
+
+
+        table[class~=3Dhide],td[class~=3Dhide]{ display: none !important; }
+
+    }
+	</style>
+</head>
+<body bgcolor=3D"f0f0f0" style=3D"background-color: #f0f0f0; width: 100%; m=
+argin: 0px; padding: 0px;" yahoo=3D"fix">
+<table bgcolor=3D"f0f0f0" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" =
+class=3D"mainTable" width=3D"100%">
+	<tbody>
+		<tr>
+			<td align=3D"center">
+			<table align=3D"center" bgcolor=3D"FFFFFF" border=3D"0" cellpadding=3D"0=
+" cellspacing=3D"0" class=3D"containerWide" style=3D"background-color: #FFF=
+FFF;" width=3D"100%">
+				<tbody>
+					<tr>
+						<td align=3D"center"></td>
+					</tr>
+				</tbody>
+			</table>
+
+			<table align=3D"center" bgcolor=3D"FFFFFF" border=3D"0" cellpadding=3D"0=
+" cellspacing=3D"0" class=3D"containerWide" style=3D"background-color: #FFF=
+FFF;" width=3D"100%">
+				<tbody>
+					<tr>
+						<td align=3D"center">
+						<table align=3D"center" bgcolor=3D"ffffff" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" class=3D"containerBox" style=3D"background-color: =
+#ffffff;" width=3D"640">
+							<tbody>
+								<tr>
+									<td>
+									<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" width=3D"100%">
+										<tbody>
+											<tr>
+												<td class=3D"cell" style=3D"padding:0px">
+												<table align=3D"left" border=3D"0" cellpadding=3D"0" cellspacin=
+g=3D"0" class=3D"column" width=3D"640">
+													<tbody>
+														<tr>
+															<td align=3D"center" style=3D"padding: 0 0 10px;width:600px;=
+" width=3D"640"><a href=3D"" style=3D"text-decoration:none;" target=3D"_bla=
+nk"> <img alt=3D"Nana" border=3D"0" height=3D"79" src=3D"http://static.ccmb=
+g.com/congrats.ccmbg.com/img/2015/nana/logo.jpg" style=3D"width: 118px; hei=
+ght:79px; display: block; border-style: none;" width=3D"118" /> </a></td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+
+			<table align=3D"center" bgcolor=3D"FFFFFF" border=3D"0" cellpadding=3D"0=
+" cellspacing=3D"0" class=3D"containerWide" style=3D"background-color: #FFF=
+FFF;" width=3D"100%">
+				<tbody>
+					<tr>
+						<td align=3D"center">
+						<table align=3D"center" bgcolor=3D"283086" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" class=3D"containerBox" style=3D"background-color: =
+#283086;" width=3D"640">
+							<tbody>
+								<tr>
+									<td>
+									<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" width=3D"100%">
+										<tbody>
+											<tr>
+												<td align=3D"center" class=3D"cell" colspan=3D"2" style=3D"padd=
+ing:20px 20px 0 20px;color: #FFFFFF; font-style:italic; font-family: Arial,=
+sans-serif; font-size: 15px; line-height: 20px; font-weight: 700; ">O&ugrav=
+e; que vous soyez, votre corps demande plus de protection la nuit.</td>
+											</tr>
+											<tr>
+												<td class=3D"cell" style=3D"padding:20px 20px 0 20px">
+												<table align=3D"left" border=3D"0" cellpadding=3D"0" cellspacin=
+g=3D"0" class=3D"column" width=3D"290">
+													<tbody>
+														<tr>
+															<td align=3D"right" class=3D"fullImage" style=3D"padding: 0 =
+16px 24px 0"><a href=3D"http://solutionmaison.fr/ga/click/2-11527895-18-123=
+9-2376-16960-e37d317028-2dbaa5804d" style=3D"color:#273188" target=3D"_blan=
+k"><img alt=3D"Image" border=3D"0" height=3D"" src=3D"http://static.ccmbg.c=
+om/congrats.ccmbg.com/img/2015/nana/1.jpg" style=3D"width: 214px; height:34=
+1px; display: block; border-style: none;" width=3D"214px" /> </a></td>
+														</tr>
+													</tbody>
+												</table>
+
+												<table align=3D"right" border=3D"0" cellpadding=3D"0" cellspaci=
+ng=3D"0" class=3D"column" width=3D"290">
+													<tbody>
+														<tr>
+															<td align=3D"left" class=3D"fullImage" style=3D"padding: 0 0=
+ 24px 16px"><a href=3D"http://solutionmaison.fr/ga/click/2-11527895-18-1239=
+-2376-16960-e37d317028-2dbaa5804d" style=3D"color:#273188" target=3D"_blank=
+"><img alt=3D"Image" border=3D"0" height=3D"341" src=3D"http://static.ccmbg=
+.com/congrats.ccmbg.com/img/2015/nana/2.jpg" style=3D"width: 214px; height:=
+341px; display: block; border-style: none;" width=3D"214px" /> </a></td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+											<tr>
+												<td align=3D"center" class=3D"cell" colspan=3D"2" style=3D"padd=
+ing:0px 20px 0 20px;color: #FFFFFF; font-style:italic; font-family: Arial,s=
+ans-serif; font-size: 16px; line-height: 20px; font-weight: 700; ">Nana Ult=
+ra GoodNight est con&ccedil;ue pour vous assurer</td>
+											</tr>
+											<tr>
+												<td align=3D"center" colspan=3D"2" style=3D"padding:4px 20px 20=
+px 20px;color: #e04693; font-style:italic; font-family: Arial,sans-serif; f=
+ont-size: 16px; line-height: 20px; font-weight: 700;">une nuit sereine en t=
+outes situations.</td>
+											</tr>
+											<tr>
+												<td align=3D"center" colspan=3D"2" style=3D"padding:4px 20px 20=
+px 20px;color: #e04693; font-style:italic; font-family: Arial,sans-serif; f=
+ont-size: 16px; line-height: 20px; font-weight: 700; "><img alt=3D"Image" b=
+order=3D"0" height=3D"32" src=3D"http://static.ccmbg.com/congrats.ccmbg.com=
+/img/2015/nana/bouton.jpg" style=3D"width: 277px; height:32px; display: blo=
+ck; border-style: none;" width=3D"277px" /></td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+
+			<table align=3D"center" bgcolor=3D"FFFFFF" border=3D"0" cellpadding=3D"0=
+" cellspacing=3D"0" class=3D"containerWide" style=3D"background-color: #FFF=
+FFF;" width=3D"100%">
+				<tbody>
+					<tr>
+						<td align=3D"center">
+						<table align=3D"center" bgcolor=3D"fae4f0" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" class=3D"containerBox" style=3D"background-color: =
+#fae4f0;" width=3D"640">
+							<tbody>
+								<tr>
+									<td>
+									<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" width=3D"100%">
+										<tbody>
+											<tr>
+												<td class=3D"cell" style=3D"padding:20px 0px">
+												<table align=3D"left" border=3D"0" cellpadding=3D"0" cellspacin=
+g=3D"0" class=3D"column" width=3D"310">
+													<tbody>
+														<tr>
+															<td align=3D"right" class=3D"fullImage" style=3D"padding: 0"=
+><a href=3D"http://solutionmaison.fr/ga/click/2-11527895-18-1239-2376-16960=
+-e37d317028-2dbaa5804d" style=3D"color:#273188" target=3D"_blank"><img alt=
+=3D"Image" border=3D"0" height=3D"368" src=3D"http://static.ccmbg.com/congr=
+ats.ccmbg.com/img/2015/nana/3.jpg" style=3D"width: 273px; height:368px; dis=
+play: block; border-style: none;" width=3D"273px" /> </a></td>
+														</tr>
+													</tbody>
+												</table>
+
+												<table align=3D"right" border=3D"0" cellpadding=3D"0" cellspaci=
+ng=3D"0" class=3D"column" width=3D"310">
+													<tbody>
+														<tr>
+															<td align=3D"left" class=3D"fullImage" style=3D"padding: 0">=
+<a href=3D"http://solutionmaison.fr/ga/click/2-11527895-18-1239-2376-16960-=
+e37d317028-2dbaa5804d" style=3D"color:#273188" target=3D"_blank"><img alt=
+=3D"Image" border=3D"0" height=3D"354" src=3D"http://static.ccmbg.com/congr=
+ats.ccmbg.com/img/2015/nana/4.jpg?2" style=3D"width: 300px; height:354px; d=
+isplay: block; border-style: none;" width=3D"300px" /> </a></td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+
+			<table align=3D"center" bgcolor=3D"FFFFFF" border=3D"0" cellpadding=3D"0=
+" cellspacing=3D"0" class=3D"containerWide" style=3D"background-color: #FFF=
+FFF;" width=3D"100%">
+				<tbody>
+					<tr>
+						<td align=3D"center">
+						<table align=3D"center" bgcolor=3D"e54892" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" class=3D"containerBox" style=3D"background-color: =
+#e54892;" width=3D"640">
+							<tbody>
+								<tr>
+									<td>
+									<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" width=3D"100%">
+										<tbody>
+											<tr>
+												<td align=3D"center" colspan=3D"2" style=3D"text-transform:uppe=
+rcase;padding:20px;color: #273188; font-style:italic; font-family: Arial,sa=
+ns-serif; font-size: 18px; line-height: 24px; font-weight: 700; "><a href=
+=3D"http://solutionmaison.fr/ga/click/2-11527895-18-1239-2376-16960-e37d317=
+028-2dbaa5804d" style=3D"color:#273188" target=3D"_blank">D&eacute;couvrez-=
+en plus sur nana.fr </a></td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<center><a href=3D"http://solutionmaison.fr/ga/unsubscribe/2-11527895-18-12=
+39-2376-ed35df89ef15825-2dbaa5804d">Je souhaite me d=C3=A9sinscrire et ne p=
+lus recevoir les newsletters</a>
+</center><img src=3D"http://solutionmaison.fr/ga/open/2-11527895-18-1239-23=
+76-2dbaa5804d" height=3D"2" width=3D"3" alt=3D""></body>
+</html>
+
+--==444198ee896fcfcddc3aa09cd233ca2b--

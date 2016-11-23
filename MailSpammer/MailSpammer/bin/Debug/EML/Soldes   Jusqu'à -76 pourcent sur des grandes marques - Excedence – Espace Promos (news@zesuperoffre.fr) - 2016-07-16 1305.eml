@@ -1,0 +1,130 @@
+Return-Path: <bounce+1g17-TFbuL-eD9K@zesuperoffre.fr>
+Received: from mailimailo.univ-rennes1.fr ([unix socket])
+	 by mailimailo.univ-rennes1.fr (Cyrus v2.3.16-Fedora-RPM-2.3.16-6.el6_2.5) with LMTPA;
+	 Sat, 16 Jul 2016 13:05:11 +0200
+X-Sieve: CMU Sieve 2.3
+Received: from mailout2.univ-rennes1.fr (mailout2.univ-rennes1.fr [129.20.129.120])
+	by mailimailo.univ-rennes1.fr (Postfix) with ESMTP id EE9F752
+	for <resp-m2-miage@univ-rennes1.fr>; Sat, 16 Jul 2016 13:05:11 +0200 (CEST)
+Received: from localhost (vmscanmail.univ-rennes1.fr [129.20.128.134])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id EC6D160006
+	for <resp-m2-miage@univ-rennes1.fr>; Sat, 16 Jul 2016 13:05:11 +0200 (CEST)
+X-Virus-Scanned: amavisd-new at univ-rennes1.fr
+Received: from mailout2.univ-rennes1.fr ([129.20.129.120])
+	by localhost (vmscanmail.univ-rennes1.frm [129.20.128.134]) (amavisd-new, port 10026)
+	with ESMTP id mdYXobfUHpUH for <resp-m2-miage@univ-rennes1.fr>;
+	Sat, 16 Jul 2016 13:05:11 +0200 (CEST)
+Received: from vmmailin.univ-rennes1.fr (vmmailin.univ-rennes1.fr [129.20.128.133])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id D0F596014E
+	for <resp-m2-miage@univ-rennes1.fr>; Sat, 16 Jul 2016 13:05:11 +0200 (CEST)
+Received: from mxb1-2.relay.renater.fr (mxb1-2.relay.renater.fr [194.214.201.9])
+	by vmmailin.univ-rennes1.fr (Postfix) with ESMTP id C9B5C20033
+	for <resp-m2-miage@univ-rennes1.fr>; Sat, 16 Jul 2016 13:05:11 +0200 (CEST)
+Received: from x195.zesuperoffre.fr (x195.zesuperoffre.fr [88.202.236.195])
+	by mxb1-2.relay.renater.fr (asm) with ESMTP id 936502802DD
+	for <resp-m2-miage@univ-rennes1.fr>; Sat, 16 Jul 2016 13:05:11 +0200 (CEST)
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=s2c; d=zesuperoffre.fr;
+ h=Date:To:From:Reply-to:Subject:Message-ID:List-Unsubscribe:MIME-Version:Content-Type; i=news@zesuperoffre.fr;
+ bh=ncWgVub2nH02ltkuCPHfKavg4yw=;
+ b=Khr1GPx1dUTPmH5NYZCSo6HE4wsc0kPBHrUP5ZCuJ3VvuB7HaVjMuYOq2bVrhNh3rvcHfwS/6kxj
+   2jazyp7Hgogaj31z8ZCG4a7CkJ0niKxIrEvDl35pB8wNESRSMhokZSply/LhtB7p8M91fOW8QrJR
+   BvT6Txe3ykapgC9Xexk=
+Received: by x195.zesuperoffre.fr id hh8aee1vjtg2 for <resp-m2-miage@univ-rennes1.fr>; Sat, 16 Jul 2016 13:05:11 +0200 (envelope-from <bounce+1g17-TFbuL-eD9K@zesuperoffre.fr>)
+Date: Sat, 16 Jul 2016 13:05:14 +0200
+To: resp-m2-miage@univ-rennes1.fr
+From: =?UTF-8?Q?Excedence_=E2=80=93_Espace_Promos?= <news@zesuperoffre.fr>
+Reply-to: Equipe <ep@zebigmail.com>
+Subject: =?UTF-8?Q?Soldes_:_Jusqu'=C3=A0_-76_pourcent_sur_des_grandes_marques?=
+Message-ID: <bounce+1g17-TFbuL-eD9K@zesuperoffre.fr>
+List-Unsubscribe: <mailto:bounce+1g17-TFbuL-eD9K@zesuperoffre.fr?subject=unsubscribe-1g17-TFbuL>,<http://trk.zesuperoffre.fr/usb/1g17-TFbuL.php>
+X-VR-Whitelist: MAILDROP-81eb63f493d035ec4e6d2c79c5b3f9b4
+X-Tor-Base: TOR-593d51759b8c470aca863d0748060307
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="b1_33e9e130647ccc13f53660c0c16dad8e"
+X-UCE-Status: YES
+X-UCE-Type: MCE
+X-Original-Source-IP: 88.202.236.195
+X-Bizanga: IMP - mxb1-2.relay.renater.fr
+X-Renater-SpamState: 11
+X-Renater-SpamScore: 17
+X-Renater-SpamCause: gggruggvucftvghtrhhoucdtuddrfeeltddrgeehgddujeegucetufdoteggodetrfdotffvucfrrhhofhhilhgvmecutffgpfetvffgtfdpggftfghnshhusghstghrihgsvgenuceurghilhhouhhtmecufedttdenucdnofetkffnkffpifculddujedmnecujfgurhepfffvhfhruffkjfggtgesrgdtrehptddtjeenucfhrhhomhepgfigtggvuggvnhgtvggpqdgpgfhsphgrtggvpgfrrhhomhhoshcuoehnvgifshesiigvshhuphgvrhhofhhfrhgvrdhfrheqnecuffhomhgrihhnpeiivghsuhhpvghrohhffhhrvgdrfhhrnecukfhppeekkedrvddtvddrvdefiedrudelheenucfrrghrrghmpehmohguvgepshhmthhppdhhvghlohepgiduleehrdiivghsuhhpvghrohhffhhrvgdrfhhrpdhinhgvthepkeekrddvtddvrddvfeeirdduleehpdhmrghilhhfrhhomhepsghouhhntggvoddughdujedqvffhsghunfdqvgfflefmseiivghsuhhpvghrohhffhhrvgdrfhhrpdhrtghpthhtoheprhgvshhpqdhmvddqmhhirghgvgesuhhnihhvqdhrvghnnhgvshdurdhfrh 
+X-Renater-ServerName: mxb1-2.relay.renater.fr
+
+
+--b1_33e9e130647ccc13f53660c0c16dad8e
+Content-Type: text/plain; charset = "UTF-8"
+Content-Transfer-Encoding: 8bit
+
+Afficher la version web. (http://trk.zesuperoffre.fr/view/1g17-TFbuL.php) | Annuler votre abonnement. (http://trk.zesuperoffre.fr/usb/1g17-TFbuL.php)
+
+SPECIAL GRANDES MARQUES (http://trk.zesuperoffre.fr/tk/1g17-TFbuL-YMM.php)
+http://trk.zesuperoffre.fr/tk/1g17-TFbuL-YMX.php
+http://trk.zesuperoffre.fr/tk/1g17-TFbuL-YMO.php
+http://trk.zesuperoffre.fr/tk/1g17-TFbuL-YMN.php
+http://trk.zesuperoffre.fr/tk/1g17-TFbuL-YMy.php http://trk.zesuperoffre.fr/tk/1g17-TFbuL-YMC.php
+http://trk.zesuperoffre.fr/tk/1g17-TFbuL-YMx.php http://trk.zesuperoffre.fr/tk/1g17-TFbuL-YMB.php
+http://trk.zesuperoffre.fr/tk/1g17-TFbuL-YMG.php http://trk.zesuperoffre.fr/tk/1g17-TFbuL-YMI.php
+http://trk.zesuperoffre.fr/tk/1g17-TFbuL-YMD.php http://trk.zesuperoffre.fr/tk/1g17-TFbuL-YMH.php
+http://trk.zesuperoffre.fr/tk/1g17-TFbuL-YMz.php http://trk.zesuperoffre.fr/tk/1g17-TFbuL-YMF.php
+http://trk.zesuperoffre.fr/tk/1g17-TFbuL-YMA.php http://trk.zesuperoffre.fr/tk/1g17-TFbuL-YME.php
+http://trk.zesuperoffre.fr/tk/1g17-TFbuL-YMK.php
+http://trk.zesuperoffre.fr/tk/1g17-TFbuL-YML.php
+http://trk.zesuperoffre.fr/tk/1g17-TFbuL-YMJ.php
+http://trk.zesuperoffre.fr/tk/1g17-TFbuL-YMU.php
+dans plus de 4300 points Relais (http://trk.zesuperoffre.fr/tk/1g17-TFbuL-YMT.php)
+http://trk.zesuperoffre.fr/tk/1g17-TFbuL-YMV.php
+en 72H à domicileou en 48H en point Relais (http://trk.zesuperoffre.fr/tk/1g17-TFbuL-YMW.php)
+http://trk.zesuperoffre.fr/tk/1g17-TFbuL-YMS.php
+en point Relais quel que soit le mode de livraison choisi (http://trk.zesuperoffre.fr/tk/1g17-TFbuL-YMQ.php)
+http://trk.zesuperoffre.fr/tk/1g17-TFbuL-YMR.php
+Contactez-nous
+-Par téléphone 03 59 56 76 07 (prix d’un appel local)
+du lundi au samedi de 8h30 à 20H.
+-ou par email service-clients@excedence.com
+*Tous nos prix de références sont issus de catalogues parus sur des saisons antérieures à l’actuelle.
+* Offre valable dès aujourd’hui et jusqu’à épuisement des stocks.
+
+COGEMAG 12 rue de la Centenaire - 59170 Croix FRANCE - Tél. : 03 59 56 76 07 (prix d’un appel local)
+Capital : 3 543 750€ - Numéro d’immatriculation : RCS LILLE METROPOLE B 475.580.437
+Numéro de TVA : FR 42475580437 - Protection de la vie privée
+Pour nous contactersuivez ce lien (http://trk.zesuperoffre.fr/tk/1g17-TFbuL-YMP.php)
+
+Espace Promos, 12 rue Camille Desmoulins, 92300 Levallois Perret.
+Conformément à l'article 34 de la loi Informatique et Liberté du 6 janvier 1978, vous disposez d'un droit d'accès, de modification, de rectification et de suppression des données vous concernant.
+Déclaration CNIL - 1642645
+Je ne veux plus recevoir de newsletter de votre part.Désinscrivez-moi. (http://trk.zesuperoffre.fr/usb/1g17-TFbuL.php)
+
+
+--b1_33e9e130647ccc13f53660c0c16dad8e
+Content-Type: text/html; charset = "UTF-8"
+Content-Transfer-Encoding: 8bit
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd"> <html><body style="-ms-text-size-adjust: none; -webkit-text-size-adjust: none; text-size-adjust: none;"><div> <table width="0" border="0" cellspacing="0" cellpadding="0" align="center"><tr><td width="0" valign="top" align="center"><table width="100%" align="center" border="0" cellpadding="0" cellspacing="0"><tr><td width="49%" style="text-align:left;"><a href="http://trk.zesuperoffre.fr/view/1g17-TFbuL.php" style="color:#000; text-decoration:underline; font-family:Arial,Helvetica,sans-serif; font-size:11px; text-align:left; font-weight:bold;">Afficher la version web.</a></td><td width="6">|</td><td width="49%" style="text-align:center;"><a href="http://trk.zesuperoffre.fr/usb/1g17-TFbuL.php" style="color:#000; text-decoration:underline; font-family:Arial,Helvetica,sans-serif; font-size:11px; text-align:center; font-weight:bold;">Annuler votre
+abonnement.</a></td></tr></table></td></tr><tr><td width="0" align="center"></td></tr></table></div><p>  </p> <title>Excedence</title><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+<style type="text/css">td img {display: block;} .ExternalClass * {line-height: 100%;} body { text-size-adjust: none; -webkit-text-size-adjust: none; -ms-text-size-adjust: none; } @media screen and (max-width: 500px) { table[class=wrapper] { width:320px !important; } table[class=responsiveTable] { width:100% !important; } td[class=newline] { float:left; clear:both; width:100% !important; } img[class=responsiveImage] { width:100% !important; height:auto !important; } *[class=hideMobile] { display:none ; } } </style>
+
+<table class="wrapper" width="650" align="center" border="0" cellpadding="0" cellspacing="0"><tr><td> <table width="100%" align="center" border="0" cellpadding="0" cellspacing="0"><tr><td width="100%" height="20" style="font-family:arial,sans-serif;font-size:14px;" align="center"><a href="http://trk.zesuperoffre.fr/tk/1g17-TFbuL-YM6.php" target="_blank" style="text-decoration:none;color:#f02542;"><u><strong><font color="#f02542">SPECIAL GRANDES MARQUES</font></strong></u></a></td> </tr></table><table width="100%" align="center" border="0" cellpadding="0" cellspacing="0"><tr><td height="60"><a href="http://trk.zesuperoffre.fr/tk/1g17-TFbuL-YM7.php"><img class="responsiveImage" width="305" height="40" src="http://d30bh0erymzgco.cloudfront.net/Excedence_EP_12072016/689975853a8cad689c3bd07278262110.gif" style="display: block; max-width: 100%;" border="0" alt="Excedence.com" title=""></a></td> <td width="345" height="60" style="font-family:arial,sans-serif;font-size:12px;" align="
+ center"
+class="hideMobile"></td> </tr></table><table width="650" border="0" cellpadding="0" cellspacing="0" align="center"><tr><td> <a href="http://trk.zesuperoffre.fr/tk/1g17-TFbuL-YM8.php" target="_blank" title=""><img style="display: block; border: 0px;" src="http://d30bh0erymzgco.cloudfront.net/Excedence_EP_12072016/54308d6264c688d1de64510257b07855.jpg" width="100%" height="100%" alt="SPECIAL MARQUES" title=""></a> </td> </tr><tr><td> <a href="http://trk.zesuperoffre.fr/tk/1g17-TFbuL-YM9.php" target="_blank" title=""><img style="display: block; border: 0px;" src="http://d30bh0erymzgco.cloudfront.net/Excedence_EP_12072016/e636bb8e18e5fef106be9d08ad60c73c.jpg" width="100%" height="100%" alt="DECOUVREZ LES MARQUES DU MOMENT" title=""></a> </td> </tr><tr><td> <table border="0" cellpadding="0" cellspacing="0"><tr><td> <a href="http://trk.zesuperoffre.fr/tk/1g17-TFbuL-YMa.php" target="_blank" title=""><img style="display: block; border: 0px;"
+src="http://d30bh0erymzgco.cloudfront.net/Excedence_EP_12072016/504c693644a7d5d15797782c8642a3e8.jpg" width="100%" height="100%" alt="Eleven Paris jusqu'&agrave; -76%" title=""></a> </td> <td> <a href="http://trk.zesuperoffre.fr/tk/1g17-TFbuL-YMb.php" target="_blank" title=""><img style="display: block; border: 0px;" src="http://d30bh0erymzgco.cloudfront.net/Excedence_EP_12072016/3a93e8c313a47210c748ef0b71062a97.jpg" width="100%" height="100%" alt="Pepe Jeans jusqu'&agrave; -68%" title=""></a> </td> </tr></table></td> </tr><tr><td> <table border="0" cellpadding="0" cellspacing="0"><tr><td> <a href="http://trk.zesuperoffre.fr/tk/1g17-TFbuL-YMc.php" target="_blank" title=""><img style="display: block; border: 0px;" src="http://d30bh0erymzgco.cloudfront.net/Excedence_EP_12072016/0b13accc74b548f61b38e0bfbb4dc168.jpg" width="100%" height="100%" alt="Tous les produits ELEVEN PARIS" title=""></a> </td> <td> <a href="http://trk.zesuperoffre.fr/tk/1g17-TFbuL-YMd.php" target="_blank"
+title=""><img style="display: block; border: 0px;" src="http://d30bh0erymzgco.cloudfront.net/Excedence_EP_12072016/217adf27232f319231e9c2a2121830f4.jpg" width="100%" height="100%" alt="Tous les produits PEPE JEANS" title=""></a> </td> </tr></table></td> </tr><tr><td> <table border="0" cellpadding="0" cellspacing="0"><tr><td> <a href="http://trk.zesuperoffre.fr/tk/1g17-TFbuL-YMe.php" target="_blank" title=""><img style="display: block; border: 0px;" src="http://d30bh0erymzgco.cloudfront.net/Excedence_EP_12072016/6122909c1d30213fdfffd947e931c6b2.jpg" width="100%" height="100%" alt="Kaporal jusqu'&agrave; -65%" title=""></a> </td> <td> <a href="http://trk.zesuperoffre.fr/tk/1g17-TFbuL-YMf.php" target="_blank" title=""><img style="display: block; border: 0px;" src="http://d30bh0erymzgco.cloudfront.net/Excedence_EP_12072016/3207693ac7a8568231dc1e90753c92fa.jpg" width="100%" height="100%" alt="Adidas jusqu'&agrave; -70%" title=""></a> </td> </tr></table></td> </tr><tr><td> <table
+border="0" cellpadding="0" cellspacing="0"><tr><td> <a href="http://trk.zesuperoffre.fr/tk/1g17-TFbuL-YMg.php" target="_blank" title=""><img style="display: block; border: 0px;" src="http://d30bh0erymzgco.cloudfront.net/Excedence_EP_12072016/8fd1cf7849a2162590458ee3b8634075.jpg" width="100%" height="100%" alt="Tous les produits Kaporal" title=""></a> </td> <td> <a href="http://trk.zesuperoffre.fr/tk/1g17-TFbuL-YMh.php" target="_blank" title=""><img style="display: block; border: 0px;" src="http://d30bh0erymzgco.cloudfront.net/Excedence_EP_12072016/bb8982b31705b38b3ab063f541304e9e.jpg" width="100%" height="100%" alt="Tous les produits Adidas" title=""></a> </td> </tr></table></td> </tr><tr><td> <table border="0" cellpadding="0" cellspacing="0"><tr><td> <a href="http://trk.zesuperoffre.fr/tk/1g17-TFbuL-YMi.php" target="_blank" title=""><img style="display: block; border: 0px;" src="http://d30bh0erymzgco.cloudfront.net/Excedence_EP_12072016/caa8975a2c938933ce9168dd9f15af3f.jpg"
+width="100%" height="100%" alt="G- Star Raw jusqu'&agrave; -65%" title=""></a> </td> <td> <a href="http://trk.zesuperoffre.fr/tk/1g17-TFbuL-YMj.php" target="_blank" title=""><img style="display: block; border: 0px;" src="http://d30bh0erymzgco.cloudfront.net/Excedence_EP_12072016/660800f6d99d474c5af75a136c3b7a8e.jpg" width="100%" height="100%" alt="Levi's jusqu'&agrave; -66%" title=""></a> </td> </tr></table></td> </tr><tr><td> <table border="0" cellpadding="0" cellspacing="0"><tr><td> <a href="http://trk.zesuperoffre.fr/tk/1g17-TFbuL-YMk.php" target="_blank" title=""><img style="display: block; border: 0px;" src="http://d30bh0erymzgco.cloudfront.net/Excedence_EP_12072016/214efa85bf0bf1ebbd51e07c88b75aab.jpg" width="100%" height="100%" alt="Tous les produits G-Star Raw" title=""></a> </td> <td> <a href="http://trk.zesuperoffre.fr/tk/1g17-TFbuL-YMl.php" target="_blank" title=""><img style="display: block; border: 0px;"
+src="http://d30bh0erymzgco.cloudfront.net/Excedence_EP_12072016/e64bff0e0c7d50d1c91fa26ea4d57197.jpg" width="100%" height="100%" alt="Tous les produits Levis" title=""></a> </td> </tr></table></td> </tr><tr><td> <a href="http://trk.zesuperoffre.fr/tk/1g17-TFbuL-YMm.php" target="_blank" title=""><img style="display: block; border: 0px;" src="http://d30bh0erymzgco.cloudfront.net/Excedence_EP_12072016/1641f1d893cb78ce030011080b19c6fb.jpg" width="100%" height="100%" alt="Bien d'autres marques vous attendent" title=""></a> </td> </tr><tr><td> <a href="http://trk.zesuperoffre.fr/tk/1g17-TFbuL-YMn.php" target="_blank" title=""><img style="display: block; border: 0px;" src="http://d30bh0erymzgco.cloudfront.net/Excedence_EP_12072016/7abd7ffccec3519f3543140af774bc4f.jpg" width="100%" height="100%" alt="Logos marques" title=""></a> </td> </tr><tr><td> <a href="http://trk.zesuperoffre.fr/tk/1g17-TFbuL-YMo.php" target="_blank" title=""><img style="display: block; border: 0px;"
+src="http://d30bh0erymzgco.cloudfront.net/Excedence_EP_12072016/178cabac5c02e415765d75cb339adbf6.jpg" width="100%" height="100%" alt="Voir tous les produits de marques !" title=""></a> </td> </tr></table><table class="wrapper" width="650" align="center" border="0" cellpadding="0" cellspacing="0"><tr><td> <table width="100%" align="center" border="0" cellpadding="0" cellspacing="0"><tr><td width="153"> <table width="100%" align="center" border="0" cellpadding="0" cellspacing="0"><tr><td> <a href="http://trk.zesuperoffre.fr/tk/1g17-TFbuL-YMp.php" target="_blank" style="text-decoration:none;color:#000000;"> <img class="responsiveImage" width="163" height="108" src="http://d30bh0erymzgco.cloudfront.net/Excedence_EP_12072016/33d8ba3a6a0e6666ac49f7c008eae743.gif" style="display: block; max-width: 100%;" border="0" alt="Livraison en relais partout en France " title=""></a> </td> </tr><tr><td width="100%" height="30" style="font-family:arial,sans-serif;font-size:12px;" align="center"
+ > <a
+href="http://trk.zesuperoffre.fr/tk/1g17-TFbuL-YMq.php" target="_blank" style="text-decoration:none;color:#000000;"> <span class="hideMobile">dans plus de <br><strong>4300 points Relais</strong></span> </a> </td> </tr></table></td> <td width="162"> <table width="100%" align="center" border="0" cellpadding="0" cellspacing="0"><tr><td> <a href="http://trk.zesuperoffre.fr/tk/1g17-TFbuL-YMr.php" target="_blank" style="text-decoration:none;color:#000000;"> <img class="responsiveImage" width="162" height="108" src="http://d30bh0erymzgco.cloudfront.net/Excedence_EP_12072016/b67b112d942d757546f7eb8f24930573.gif" style="display: block; max-width: 100%;" border="0" alt="Livraison rapide partout en France" title=""></a> </td> </tr><tr><td width="100%" height="30" style="font-family:arial,sans-serif;font-size:12px;" align="center"> <a href="http://trk.zesuperoffre.fr/tk/1g17-TFbuL-YMs.php" target="_blank" style="text-decoration:none;color:#000000;"> <span class="hideMobile">en
+<strong>72H</strong> &agrave; domicile<br>ou en <strong>48H</strong> en point Relais</span> </a> </td> </tr></table></td> <td width="325" class="newline"> <table width="100%" align="center" border="0" cellpadding="0" cellspacing="0"><tr><td width="163"> <table width="100%" align="center" border="0" cellpadding="0" cellspacing="0"><tr><td> <a href="http://trk.zesuperoffre.fr/tk/1g17-TFbuL-YMt.php" target="_blank" style="text-decoration:none;color:#000000;"> <img class="responsiveImage" width="162" height="108" src="http://d30bh0erymzgco.cloudfront.net/Excedence_EP_12072016/64b197bc7ec34e6f74f9467c500189d5.gif" style="display: block; max-width: 100%;" border="0" alt="Retour gratuit" title=""></a> </td> </tr><tr><td width="100%" height="30" style="font-family:arial,sans-serif;font-size:12px;" align="center"> <a href="http://trk.zesuperoffre.fr/tk/1g17-TFbuL-YMu.php" target="_blank" style="text-decoration:none;color:#000000;"> <span class="hideMobile">en point Relais quel que soi
+ t<br>
+le mode de livraison choisi</span> </a> </td> </tr></table></td> <td width="162"> <a href="http://trk.zesuperoffre.fr/tk/1g17-TFbuL-YMv.php" target="_blank" style="text-decoration:none;color:#000000;"> <img class="responsiveImage" width="162" height="141" src="http://d30bh0erymzgco.cloudfront.net/Excedence_EP_12072016/ff758700cfd0295906ab2b575c7b0e16.gif" style="display: block; max-width: 100%;" border="0" alt="Paiement 100% s&eacute;curis&eacute;" title=""></a> </td> </tr></table></td> </tr></table><table width="100%" align="center" border="0" cellpadding="0" cellspacing="0"><tr><td width="100%" height="20"> </td> </tr></table><table width="100%" align="center" border="0" cellpadding="0" cellspacing="0"><tr><td class="newline"> <table width="100%" align="center" border="0" cellpadding="0" cellspacing="0" bgcolor="#eeeeee"><tr><td width="20"> </td> <td width="425" height="95" style="font-family:arial,sans-serif;font-size:14px;color:#696969;" align="left"
+bgcolor="#eeeeee"><strong><font color="#000000" size="3">Contactez-nous</font></strong><br>-Par <strong>t&eacute;l&eacute;phone</strong> <font size="4" color="#1764ae">03 59 56 76 07</font> (prix d&rsquo;un appel local)<br>du lundi au samedi de 8h30 &agrave; 20H.<br>-ou par <strong>email</strong><font color="#1764ae"> service-clients@excedence.com</font></td> </tr></table></td> </tr></table><table width="100%" align="center" border="0" cellpadding="0" cellspacing="0"><tr><td style="font-family:arial,sans-serif;font-size:10px;color:#696969;" align="center"> <br> *Tous nos prix de r&eacute;f&eacute;rences sont issus de catalogues parus sur des saisons ant&eacute;rieures &agrave; l&rsquo;actuelle.<br> * Offre valable d&egrave;s aujourd&rsquo;hui et jusqu&rsquo;&agrave; &eacute;puisement des stocks.<br><br> COGEMAG 12 rue de la Centenaire - 59170 Croix FRANCE - T&eacute;l. : 03 59 56 76 07 (prix d&rsquo;un appel local)<br> Capital : 3 543 750&euro; - Num&eacute;ro
+d&rsquo;immatriculation : RCS LILLE METROPOLE B 475.580.437<br> Num&eacute;ro de TVA : FR 42475580437 - Protection de la vie priv&eacute;e<br> Pour nous contacter<a href="http://trk.zesuperoffre.fr/tk/1g17-TFbuL-YMw.php" target="_blank" style="text-decoration:underline;color:#696969;"> suivez ce lien</a> <br></td> </tr></table></td> </tr></table></td> </tr></table><img src="http://tracker.rediradvc.fr/open/?u=bfa0bb0bbcg0ddfd0ebdga" width="1" height="1"><div style="height:0px;width:0px;"><img src="http://tele58000.fr/pixel/1813172/358" style="width:1px; height:1px; display:none;"></div><div align="center" style="color:#000; font-family:Arial,Helvetica,sans-serif; font-size:11px;"> <br>Espace Promos, 12 rue Camille Desmoulins, 92300 Levallois Perret.<br> Conform&eacute;ment &agrave; l'article 34 de la loi Informatique et Libert&eacute; du 6 janvier 1978, vous disposez d'un droit d'acc&egrave;s, de modification, de rectification et de suppression des donn&eacute;es vous
+concernant.<br> D&eacute;claration CNIL - 1642645 <table width="0" border="0" cellspacing="0" cellpadding="0" align="center" style="font-family:Arial, Helvetica, sans-serif; font-size:10px; color:black; text-align:center;"><br><tr><td> Je ne veux plus recevoir de newsletter de votre part.<a href="http://trk.zesuperoffre.fr/usb/1g17-TFbuL.php" style="color: #000; text-decoration:underline; font-size: 11px;">D&eacute;sinscrivez-moi.</a></td></tr><br></table></div><img src="http://trk.zesuperoffre.fr/pg/1g17-TFbuL.php" width="1" height="1" alt="" /></body></html> 
+
+
+
+--b1_33e9e130647ccc13f53660c0c16dad8e--
+
+

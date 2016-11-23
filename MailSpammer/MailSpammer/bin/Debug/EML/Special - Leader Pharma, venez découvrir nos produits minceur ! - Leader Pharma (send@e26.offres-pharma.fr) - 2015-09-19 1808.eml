@@ -1,0 +1,346 @@
+Return-Path: <bounce@e26.offres-pharma.fr>
+Received: from mailimailo.univ-rennes1.fr ([unix socket])
+	 by mailimailo.univ-rennes1.fr (Cyrus v2.3.16-Fedora-RPM-2.3.16-6.el6_2.5) with LMTPA;
+	 Sat, 19 Sep 2015 18:16:42 +0200
+X-Sieve: CMU Sieve 2.3
+Received: from vmsmtprexch.univ-rennes1.fr (vmsmtprexch.univ-rennes1.fr [129.20.128.62])
+	by mailimailo.univ-rennes1.fr (Postfix) with ESMTP id 04A7A26A0AEC
+	for <resp-m2-miage@univ-rennes1.fr>; Sat, 19 Sep 2015 18:16:42 +0200 (CEST)
+Received: from mbcasexch3.Ur.local (mbcasexch3.univ-rennes1.fr [129.20.125.131])
+	by vmsmtprexch.univ-rennes1.fr (Postfix) with ESMTP id 015AEDF
+	for <resp-m2-miage@univ-rennes1.fr>; Sat, 19 Sep 2015 18:16:42 +0200 (CEST)
+X-CrossPremisesHeadersFilteredBySendConnector: mbcasexch3.Ur.local
+Received: from mbcasexch2.Ur.local (2002:8114:7d82::8114:7d82) by
+ mbcasexch3.Ur.local (2002:8114:7d83::8114:7d83) with Microsoft SMTP Server
+ (TLS) id 15.0.913.22; Sat, 19 Sep 2015 18:16:41 +0200
+Received: from mailout1.univ-rennes1.fr (129.20.128.162) by
+ mbcasexch2.Ur.local (129.20.125.130) with Microsoft SMTP Server id
+ 15.0.913.22 via Frontend Transport; Sat, 19 Sep 2015 18:16:41 +0200
+Received: from localhost (vmscanmail.univ-rennes1.fr [129.20.128.134])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id 9AD046055C
+	for <resp-m2-miage@univ-rennes1.fr>; Sat, 19 Sep 2015 18:08:29 +0200 (CEST)
+X-Virus-Scanned: amavisd-new at univ-rennes1.fr
+Received: from mailout1.univ-rennes1.fr ([129.20.128.162])
+	by localhost (vmscanmail.univ-rennes1.frm [129.20.128.134]) (amavisd-new, port 10026)
+	with ESMTP id tDmdJcIdvyYC for <resp-m2-miage@univ-rennes1.fr>;
+	Sat, 19 Sep 2015 18:08:29 +0200 (CEST)
+Received: from vmmailin.univ-rennes1.fr (vmmailin.univ-rennes1.fr [129.20.128.133])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id 75E376059A
+	for <resp-m2-miage@univ-rennes1.fr>; Sat, 19 Sep 2015 18:08:29 +0200 (CEST)
+Received: from mxb1-1.relay.renater.fr (mxb1-1.relay.renater.fr [194.214.201.8])
+	by vmmailin.univ-rennes1.fr (Postfix) with ESMTP id 6CFC320033
+	for <resp-m2-miage@univ-rennes1.fr>; Sat, 19 Sep 2015 18:08:29 +0200 (CEST)
+Received: from e26.offres-pharma.fr (e26.offres-pharma.fr [62.210.25.222])
+	by mxb1-1.relay.renater.fr (asm) with ESMTP id 4688D6000ED
+	for <resp-m2-miage@univ-rennes1.fr>; Sat, 19 Sep 2015 18:08:29 +0200 (CEST)
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=key; d=e26.offres-pharma.fr;
+ h=To:Subject:Message-ID:Date:From:Reply-To:MIME-Version:Content-Type:Content-Transfer-Encoding; i=send@e26.offres-pharma.fr;
+ bh=h6zpK1uoq2sOPLaUG6AeUUC0Ktw=;
+ b=D2Vt1K3trXgICm6d6/1q0LO7W1lyc3+zAlOQHGvdQuo/GjfcH+/nGEgygWC+RkrLVgCvqVvnp3aG
+   gHGiklQEluz6i4SuOudXD9uW0nz/A9+33048Iiu97H+brXbCNMP2aDvdGm2Uhp0sqS5lzOyFvJQT
+   3hN6wlZAZAkhXt29zI8=
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=key; d=e26.offres-pharma.fr;
+ b=iiL4w1msczVnXPJLi8U58nKAG1HDIsFWadDIQAqmjzEp+nmvjLkxHnBRCZIHCKP6ICk12mGMtVGD
+   vqzxqRzROVf8WjP5F2U9LKg/6/xUPxGjy5qzVEnvy/zoxIlQg5kS+hJqnpdKbkPU1uJmFT0GYIC/
+   F/9q3CRshqk9mRxZJjk=;
+To: <resp-m2-miage@univ-rennes1.fr>
+Subject: *****Spam*****=?UTF-8?B?U3VyIExlYWRlciBQaGFybWEsIHZlbmV6IGTDqWNvdXZyaXIgbm9zIHByb2R1aXRzIG1pbmNldXIgIQ==?=
+Message-ID: <c6a6b2e52474dfc85462563c0f40bece@link.bons-plans-chaussettes.fr>
+X-Complaints-To: abuse@e26.offres-pharma.fr
+Date: Sat, 19 Sep 2015 18:08:29 +0200
+From: Leader Pharma <send@e26.offres-pharma.fr>
+Reply-To: <reply@e26.offres-pharma.fr>
+MIME-Version: 1.0
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: 8bit
+X-Original-Source-IP: 62.210.25.222
+X-Renater-Spam-Status: Yes
+X-VR-SPAM-SCORE: 107
+X-Bizanga: IMP - mxb1-1.relay.renater.fr
+X-Renater-SpamState: 12
+X-Renater-SpamScore: 107
+X-Renater-SpamCause: gggruggvucftvghtrhhoucdtuddrfeekgedrfeeigdduudcutefuodetggdotefrucfrrhhofhhilhgvmecutffgpfetvffgtfdpggftfghnshhusghstghrihgsvgenuceurghilhhouhhtmecufedttdenucftohhuthgvrhdqqdfrvghrfhhorhhmvggtlhhitgculddutdejmdenucfjughrpefvuffkfffhrhggtgfgsehhkehjtddttdejnecuhfhrohhmpedfnfgvrgguvghrucfrhhgrrhhmrgdfuceoshgvnhgusegvvdeirdhofhhfrhgvshdqphhhrghrmhgrrdhfrheqnecuffhomhgrihhnpegsohhnshdqphhlrghnshdqtghhrghushhsvghtthgvshdrfhhr 
+X-Renater-ServerName: mxb1-1.relay.renater.fr
+X-OrganizationHeadersPreserved: mbcasexch3.Ur.local
+
+<html>
+<head>
+<title>News-leader-pharma-minceur-V2</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+<body bgcolor="#FFFFFF" leftmargin="0" topmargin="0" marginwidth="0"
+marginheight="0">
+<br /><center>
+<p style="font-family: Arial; font-size: 12px;"><a
+href="http://link.bons-plans-chaussettes.fr/rm2/display.php?M=5182100&C=54278891dc8b501c0a514f592f9c0ede&S=326&L=36&N=22"
+target="_blank" style="font-family: Arial; font-size: 12px; color: #666;
+text-decoration: none;"> Consultez la version en ligne</a></p>
+</center><br /><center>
+<p></p>
+<table id="Tableau_01" style="width: 500px;" align="center" border="0"
+cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td><a
+href="http://link.bons-plans-chaussettes.fr/rm2/link.php?M=5182100&N=326&L=821&F=H"
+target="_blank" style="text-decoration: none;"><img
+src="http://img.bons-plans-chaussettes.fr/images/ba6555da84609721858a4cd608ba846b_News-leader-pharma-minceur-V2_01.jpg"
+alt="" style="display: block;" border="0" height="82" width="500"
+/></a></td>
+</tr>
+<tr>
+<td><a
+href="http://link.bons-plans-chaussettes.fr/rm2/link.php?M=5182100&N=326&L=821&F=H"
+target="_blank" style="text-decoration: none;"><img
+src="http://img.bons-plans-chaussettes.fr/images/1ef3df02f87eb0b37393f28e7128e06f_News-leader-pharma-minceur-V2_02.jpg"
+alt="" style="display: block;" border="0" height="163" width="500"
+/></a></td>
+</tr>
+<tr>
+<td align="center" bgcolor="#f2f2f2" height="233" width="500"><strong><span
+style="font-family: Gotham, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+font-size: 14px; color: #29b0e7;"> <br /> Leader Pharma vous invite
+&agrave; venir d&eacute;couvrir son large<br />choix de produits minceurs
+pas chers.<br /><br />Vous trouverez ous les compl&eacute;ments
+alimentaires<br />et minceur ainsi que les bruleurs de graisse qui
+pourront<br />vous aider dans votre perte de poids.<br /><br />Nous vous
+donnons vite rendez-vous sur Leader Pharma,<br />le leader de la
+parapharmacie pas cher en ligne.<br /><br /> </span></strong></td>
+</tr>
+<tr>
+<td>
+<table id="Tableau_01" style="width: 500px; height: 166px;"
+bgcolor="#f2f2f2" border="0" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td><img
+src="http://img.bons-plans-chaussettes.fr/images/a7b3172c946430fc526956973ad375c1_News-leader-pharma-minceur-V2_04_01.jpg"
+alt="" style="display: block;" border="0" height="166" width="66" /></td>
+<td><a
+href="http://link.bons-plans-chaussettes.fr/rm2/link.php?M=5182100&N=326&L=820&F=H"
+target="_blank" style="text-decoration: none;"><img
+src="http://img.bons-plans-chaussettes.fr/images/a5a3ed4dc56fab7bd39019d4dab9f3e2_News-leader-pharma-minceur-V2_04_02.jpg"
+alt="" style="display: block;" border="0" height="166" width="164"
+/></a></td>
+<td><img
+src="http://img.bons-plans-chaussettes.fr/images/30960fb048f66c227ded4d7b9e0b1a93_News-leader-pharma-minceur-V2_04_03.jpg"
+alt="" style="display: block;" border="0" height="166" width="38" /></td>
+<td><a
+href="http://link.bons-plans-chaussettes.fr/rm2/link.php?M=5182100&N=326&L=824&F=H"
+target="_blank" style="text-decoration: none;"> <img
+src="http://img.bons-plans-chaussettes.fr/images/d18ffd793a2ef62d3ccc50cc45accd79_News-leader-pharma-minceur-V2_04_04.jpg"
+alt="" style="display: block;" border="0" height="166" width="163"
+/></a></td>
+<td><img
+src="http://img.bons-plans-chaussettes.fr/images/0d0da379e5d45f1746f2346f4fd3ec81_News-leader-pharma-minceur-V2_04_05.jpg"
+alt="" style="display: block;" border="0" height="166" width="69" /></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td>
+<table id="Tableau_01" style="width: 500px; height: 82px;"
+bgcolor="#f2f2f2" border="0" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td><img
+src="http://img.bons-plans-chaussettes.fr/images/d70f31f4c9777a351c0a2644b55449aa_News-leader-pharma-minceur-V2_05_01.jpg"
+alt="" style="display: block;" border="0" height="82" width="81" /></td>
+<td align="center" bgcolor="#f2f2f2" height="82" width="140"><span
+style="font-family: Gotham, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+font-size: 12px;"> <strong>Ronaxil</strong> </span><br /> <span
+style="font-family: Gotham, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+font-size: 12px;"> <i>Samda Nutraceuticals</i> </span> <span
+style="font-family: Gotham, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+font-size: 14px; color: #414141;"> <s>64,40&euro;</s> </span> <span
+style="font-family: Gotham, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+font-size: 25px; color: #28b1e5;"> <strong> &nbsp;29,78&euro;</strong>
+</span></td>
+<td><img
+src="http://img.bons-plans-chaussettes.fr/images/b6529cf9b1eaf5214519ad24ecda6e16_News-leader-pharma-minceur-V2_05_03.jpg"
+alt="" style="display: block;" border="0" height="82" width="59" /></td>
+<td align="center" bgcolor="#f2f2f2" height="82" width="146"><span
+style="font-family: Gotham, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+font-size: 12px;"> <strong>Cleanse Nettoyage pour le colon (10
+jours)</strong> </span><br /> <span style="font-family: Gotham, 'Helvetica
+Neue', Helvetica, Arial, sans-serif; font-size: 14px; color: #414141;">
+<s>29,95&euro;</s> </span> <span style="font-family: Gotham, 'Helvetica
+Neue', Helvetica, Arial, sans-serif; font-size: 25px; color: #28b1e5;">
+<strong> &nbsp;19,99&euro;</strong> </span></td>
+<td><img
+src="http://img.bons-plans-chaussettes.fr/images/f169984128b6731a647432f73bb4febf_News-leader-pharma-minceur-V2_05_05.jpg"
+alt="" style="display: block;" border="0" height="82" width="74" /></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td>
+<table id="Tableau_01" style="width: 500px; height: 22px;" border="0"
+cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td><img
+src="http://img.bons-plans-chaussettes.fr/images/7ba82e200ea49d0c082fc751ccdd818a_News-leader-pharma-anti-age-V2_06_01.jpg"
+alt="" style="display: block;" border="0" height="22" width="66" /></td>
+<td align="center" bgcolor="#29b0e7" height="22" width="163"><a
+href="http://link.bons-plans-chaussettes.fr/rm2/link.php?M=5182100&N=326&L=820&F=H"
+target="_blank" style="text-decoration: none;"> <span style="font-family:
+Gotham, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 15px;
+color: #ffffff;"> <strong> En profiter</strong> </span></a></td>
+<td><img
+src="http://img.bons-plans-chaussettes.fr/images/f14f6234f1652d25d92231132a7c0dd5_News-leader-pharma-anti-age-V2_06_03.jpg"
+alt="" style="display: block;" border="0" height="22" width="38" /></td>
+<td align="center" bgcolor="#29b0e7" height="22" width="163"><a
+href="http://link.bons-plans-chaussettes.fr/rm2/link.php?M=5182100&N=326&L=824&F=H"
+target="_blank" style="text-decoration: none;"> <span style="font-family:
+Gotham, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 15px;
+color: #ffffff;"> <strong> En profiter</strong> </span></a></td>
+<td><img
+src="http://img.bons-plans-chaussettes.fr/images/9e674a807652a3a0e049f93d56d4228b_News-leader-pharma-anti-age-V2_06_05.jpg"
+alt="" style="display: block;" border="0" height="22" width="70" /></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td><img
+src="http://img.bons-plans-chaussettes.fr/images/febd129a2f8da65237f6ec1ae7466825_News-leader-pharma-minceur-V2_07.jpg"
+alt="" style="display: block;" border="0" height="35" width="500" /></td>
+</tr>
+<tr>
+<td>
+<table id="Tableau_01" style="width: 500px; height: 165px;" border="0"
+cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td><img
+src="http://img.bons-plans-chaussettes.fr/images/aeb8da985c1b7925c7d4f55c92e186e8_News-leader-pharma-minceur-V2_08_01.jpg"
+alt="" style="display: block;" border="0" height="165" width="65" /></td>
+<td><a
+href="http://link.bons-plans-chaussettes.fr/rm2/link.php?M=5182100&N=326&L=818&F=H"
+target="_blank" style="text-decoration: none;"><img
+src="http://img.bons-plans-chaussettes.fr/images/9430c4848db8665f2141d2a7c15bf4b6_News-leader-pharma-minceur-V2_08_02.jpg"
+alt="" style="display: block;" border="0" height="165" width="166"
+/></a></td>
+<td><img
+src="http://img.bons-plans-chaussettes.fr/images/2564c79f78e7a1e166124a6ae930dbf7_News-leader-pharma-minceur-V2_08_03.jpg"
+alt="" style="display: block;" border="0" height="165" width="37" /></td>
+<td><a
+href="http://link.bons-plans-chaussettes.fr/rm2/link.php?M=5182100&N=326&L=825&F=H"
+target="_blank" style="text-decoration: none;"><img
+src="http://img.bons-plans-chaussettes.fr/images/16dd93c7f57f670dc3405d3b4d750aa7_News-leader-pharma-minceur-V2_08_04.jpg"
+alt="" style="display: block;" border="0" height="165" width="164"
+/></a></td>
+<td><img
+src="http://img.bons-plans-chaussettes.fr/images/09d61a9cd8a53a05a52d912673cba07f_News-leader-pharma-minceur-V2_08_05.jpg"
+alt="" style="display: block;" border="0" height="165" width="68" /></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td>
+<table id="Tableau_01" style="width: 500px; height: 83px;"
+bgcolor="#f2f2f2" border="0" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td><img
+src="http://img.bons-plans-chaussettes.fr/images/7d6af62f695163374fd20b39a2975d66_News-leader-pharma-minceur-V2_09_01.jpg"
+alt="" style="display: block;" border="0" height="83" width="82" /></td>
+<td align="center" bgcolor="#f2f2f2" height="83" width="140"><span
+style="font-family: Gotham, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+font-size: 12px;"> <strong>Zantrex 3</strong> </span><br /> <span
+style="font-family: Gotham, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+font-size: 12px;"> <i>Zoller</i> </span> <span style="font-family: Gotham,
+'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; color:
+#414141;"> <s>54,94&euro;</s> </span> <span style="font-family: Gotham,
+'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 25px; color:
+#28b1e5;"> <strong> &nbsp;27,45&euro;</strong> </span></td>
+<td><img
+src="http://img.bons-plans-chaussettes.fr/images/92a435e71badf19072e1fe06fc7e1755_News-leader-pharma-minceur-V2_09_03.jpg"
+alt="" style="display: block;" border="0" height="83" width="55" /></td>
+<td align="center" bgcolor="#f2f2f2" height="83" width="144"><span
+style="font-family: Gotham, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+font-size: 12px;"> <strong>Alli 60mg 120 caps</strong> </span><br /> <span
+style="font-family: Gotham, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+font-size: 12px;"> <i>Glaxosmithkline</i><br /> </span> <span
+style="font-family: Gotham, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+font-size: 14px; color: #414141;"> <s>125,00&euro;</s> </span> <span
+style="font-family: Gotham, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+font-size: 25px; color: #28b1e5;"> <strong> &nbsp;79,90&euro;</strong>
+</span></td>
+<td><img
+src="http://img.bons-plans-chaussettes.fr/images/06c000b5ab72fa79dd59d6d76b78ff47_News-leader-pharma-minceur-V2_09_05.jpg"
+alt="" style="display: block;" border="0" height="83" width="79" /></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td>
+<table id="Tableau_01" style="width: 500px; height: 22px;" border="0"
+cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td><img
+src="http://img.bons-plans-chaussettes.fr/images/7ba82e200ea49d0c082fc751ccdd818a_News-leader-pharma-anti-age-V2_06_01.jpg"
+alt="" style="display: block;" border="0" height="22" width="66" /></td>
+<td align="center" bgcolor="#29b0e7" height="22" width="163"><a
+href="http://link.bons-plans-chaussettes.fr/rm2/link.php?M=5182100&N=326&L=818&F=H"
+target="_blank" style="text-decoration: none;"> <span style="font-family:
+Gotham, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 15px;
+color: #ffffff;"> <strong> En profiter</strong> </span></a></td>
+<td><img
+src="http://img.bons-plans-chaussettes.fr/images/f14f6234f1652d25d92231132a7c0dd5_News-leader-pharma-anti-age-V2_06_03.jpg"
+alt="" style="display: block;" border="0" height="22" width="38" /></td>
+<td align="center" bgcolor="#29b0e7" height="22" width="163"><a
+href="http://link.bons-plans-chaussettes.fr/rm2/link.php?M=5182100&N=326&L=825&F=H"
+target="_blank" style="text-decoration: none;"> <span style="font-family:
+Gotham, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 15px;
+color: #ffffff;"> <strong> En profiter</strong> </span></a></td>
+<td><img
+src="http://img.bons-plans-chaussettes.fr/images/9e674a807652a3a0e049f93d56d4228b_News-leader-pharma-anti-age-V2_06_05.jpg"
+alt="" style="display: block;" border="0" height="22" width="70" /></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td><img
+src="http://img.bons-plans-chaussettes.fr/images/ed0d4084dccd1f2df7d7d60b9300c324_News-leader-pharma-minceur-V2_11.jpg"
+alt="" style="display: block;" border="0" height="46" width="500" /></td>
+</tr>
+<tr>
+<td align="center"><span style="font-family: Gotham, 'Helvetica Neue',
+Helvetica, Arial, sans-serif; font-size: 11px; color: #6e6e6e;"> &copy;
+2001-2015 Leaderpharma. Tous droits r&eacute;serves. </span></td>
+</tr>
+<tr>
+<td><a
+href="http://link.bons-plans-chaussettes.fr/rm2/link.php?M=5182100&N=326&L=821&F=H"
+target="_blank" style="text-decoration: none;"><img
+src="http://img.bons-plans-chaussettes.fr/images/8a0d5c9dd5d44089c4e8b1fb0bce61e0_News-leader-pharma-minceur-V2_13.jpg"
+alt="" style="display: block;" border="0" height="65" width="500"
+/></a></td>
+</tr>
+</tbody>
+</table>
+<br /><center><a
+href="http://link.bons-plans-chaussettes.fr/rm2/unsubscribe.php?M=5182100&C=54278891dc8b501c0a514f592f9c0ede&L=36&N=326"
+target="_blank" style="font-family: Arial; font-size: 12px; color: #666;
+text-decoration: none;"> Se d&eacute;sabonner</a></center></center><img
+src="http://p-eu.acxiom-online.com/pixel/ema?eml=e16f90279e0fa260475aa0f5d3ee7d879a08def5&amp;ha=sha1&amp;pid=6285&amp;t=628501&amp;sc=[SUB_CODE]&amp;ot=pixel"
+border="0" height="1" hspace="0" vspace="0" width="1" />
+<img
+src="http://link.bons-plans-chaussettes.fr/rm2/open.php?M=5182100&L=36&N=326&F=H&image=.jpg"
+height="1" width="10"></body>
+</html>
+

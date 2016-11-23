@@ -1,0 +1,726 @@
+Return-Path: <bounce-26418_HTML-6180065-640593-6283146-0@bounce.s6.exacttarget.com>
+Received: from mailimailo.univ-rennes1.fr ([unix socket])
+	 by mailimailo.univ-rennes1.fr (Cyrus v2.3.16-Fedora-RPM-2.3.16-6.el6_2.5) with LMTPA;
+	 Fri, 15 Apr 2016 13:27:07 +0200
+X-Sieve: CMU Sieve 2.3
+Received: from mailout2.univ-rennes1.fr (mailout2.univ-rennes1.fr [129.20.129.120])
+	by mailimailo.univ-rennes1.fr (Postfix) with ESMTP id D554D26A0F5C
+	for <resp-m2-miage@univ-rennes1.fr>; Fri, 15 Apr 2016 13:27:07 +0200 (CEST)
+Received: from localhost (vmscanmail.univ-rennes1.fr [129.20.128.134])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id D1CD260004
+	for <resp-m2-miage@univ-rennes1.fr>; Fri, 15 Apr 2016 13:27:07 +0200 (CEST)
+X-Virus-Scanned: amavisd-new at univ-rennes1.fr
+Received: from mailout2.univ-rennes1.fr ([129.20.129.120])
+	by localhost (vmscanmail.univ-rennes1.frm [129.20.128.134]) (amavisd-new, port 10026)
+	with ESMTP id 5v6eVB8slr15 for <resp-m2-miage@univ-rennes1.fr>;
+	Fri, 15 Apr 2016 13:27:07 +0200 (CEST)
+Received: from vmmailin.univ-rennes1.fr (vmmailin.univ-rennes1.fr [129.20.128.133])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id 8EF466001A
+	for <resp-m2-miage@univ-rennes1.fr>; Fri, 15 Apr 2016 13:27:07 +0200 (CEST)
+Received: from mxb1-1.relay.renater.fr (mxb1-1.relay.renater.fr [194.214.201.8])
+	by vmmailin.univ-rennes1.fr (Postfix) with ESMTP id 834C520033
+	for <resp-m2-miage@univ-rennes1.fr>; Fri, 15 Apr 2016 13:27:07 +0200 (CEST)
+Received: from ba2.mta.exacttarget.com (ba2.mta.exacttarget.com [68.232.200.2])
+	by mxb1-1.relay.renater.fr (asm) with ESMTP id D9C806001DF
+	for <resp-m2-miage@univ-rennes1.fr>; Fri, 15 Apr 2016 13:27:06 +0200 (CEST)
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=20120420; d=2s6.memberemail.com;
+ h=From:To:Subject:Date:List-Unsubscribe:MIME-Version:Reply-To:Message-ID:Content-Type;
+ bh=lMhnULpAJvzwdupvYeg/PGdSPLM=;
+ b=qseNZcbjX69wOUMhPPe3O6Fm0CWZOoZy/30CWeZZCWR3VqJIoXOiLqLsSJ4r+UqnLvJpiJoFjGAk
+   csl1DxztxL19AUAfhK6rpzrPx3z/HVJj11h6hDsZsEBn0GIsBvT0OUYCKV6w4aTkF1MxRSVtPmLA
+   tHQjSlNVlO9TjilaPh8=
+Received: by ba2.mta.exacttarget.com id h2380i163hs3 for <resp-m2-miage@univ-rennes1.fr>; Fri, 15 Apr 2016 05:12:01 -0600 (envelope-from <bounce-26418_HTML-6180065-640593-6283146-0@bounce.s6.exacttarget.com>)
+From: "Aldebaran Digital" <information@aldebaran.com>
+To: <resp-m2-miage@univ-rennes1.fr>
+Subject: Quand NAO rencontre la Reine d'Angleterre...
+Date: Fri, 15 Apr 2016 05:12:02 -0600
+List-Unsubscribe: <mailto:leave-fce6167671650c122d502d29-fe9512717d64047b70-fec4127475610d7e-fe9112727d67057973-ffcf14@leave.email.aldebaran.com>
+MIME-Version: 1.0
+Reply-To: "Aldebaran Digital" <reply-fec4127475610d7e-26418_HTML-6180065-6283146-0@email.aldebaran.com>
+x-job: 6283146_640593
+Message-ID: <ed52848b-9d56-4f5f-9cb8-7d2dff5ab58f@xtinp2mta402.xt.local>
+Content-Type: multipart/alternative;
+	boundary="JrSf8P8lfR2F=_?:"
+X-UCE-Status: YES
+X-UCE-Type: MCE
+X-Original-Source-IP: 68.232.200.2
+X-Bizanga: IMP - mxb1-1.relay.renater.fr
+X-Renater-SpamState: 11
+X-Renater-SpamScore: 17
+X-Renater-SpamCause: gggruggvucftvghtrhhoucdtuddrfeekkedrheejgddujeeiucetufdoteggodetrfdotffvucfrrhhofhhilhgvmecutffgpfetvffgtfdpggftfghnshhusghstghrihgsvgenuceurghilhhouhhtmecufedttdenucdnofetkffnkffpifculddujedmnecujfgurhephffvufffjfggrhfktgesrgdtreertddtjeenucfhrhhomhepfdetlhguvggsrghrrghnucffihhgihhtrghlfdcuoehinhhfohhrmhgrthhiohhnsegrlhguvggsrghrrghnrdgtohhmqeenucffohhmrghinheprghluggvsggrrhgrnhdrtghomhenucfkphepieekrddvfedvrddvtddtrddvnecurfgrrhgrmhepmhhouggvpehsmhhtphdphhgvlhhopegsrgdvrdhmthgrrdgvgigrtghtthgrrhhgvghtrdgtohhmpdhinhgvthepieekrddvfedvrddvtddtrddvpdhmrghilhhfrhhomhepsghouhhntggvqddvieegudekpgfjvffonfdqiedukedttdeihedqieegtdehleefqdeivdekfedugeeiqddtsegsohhunhgtvgdrsheirdgvgigrtghtthgrrhhgvghtrdgtohhmpdhrtghpthhtoheprhgvshhpqdhmvddqmhhirghgvgesuhhnihhvqdhrvghnnhgvshdurdhfrh 
+X-Renater-ServerName: mxb1-1.relay.renater.fr
+
+This is a multi-part message in MIME format.
+
+--JrSf8P8lfR2F=_?:
+Content-Type: text/plain;
+	charset="utf-8"
+Content-Transfer-Encoding: 8bit
+
+- Designing a new world together -
+
+ Pour consulter la version en ligne, cliquez 
+http://view.email.aldebaran.com/?qs=e6b5d0f249a15cb11af06cc7003e842d0eebef12f5718303e47304a3ba8e40c111f7b168ad348c6de7687af986bdeb8a5de4789ef9d979594253cc7c930ade30 
+ici.
+
+http://click.email.aldebaran.com/?qs=c21c4f219347bdfe0c0edac47a150a2d973839b38cb6bc17eed334b6617f6779 
+
+http://click.email.aldebaran.com/?qs=c21c4f219347bdfeb59be341d682f3d7283b5c84e2b51dece04c432d0f0baef7 
+ FR / 
+http://click.email.aldebaran.com/?qs=c21c4f219347bdfecf2314b40aee1ea3e10480efac4875551484cb51b91d2ae5 
+ENNewsletter Juillet 2015
+
+http://click.email.aldebaran.com/?qs=c21c4f219347bdfe3fa7ccd97536650e94b9962a2be9ff869607debd7c0727d3 
+   -Robots 
+
+1000 nouveaux Pepper en vente !
+
+Le 31 juillet prochain, 1000 nouveaux modèles de Pepper seront proposés aux clients japonais. 
+
+
+Lors de la 1re vente au grand public le mois dernier, il n'avait fallu qu'une minute pour écouler les 1000 robots en vente. 
+Découvrez la vie avec Pepper en 
+http://click.email.aldebaran.com/?qs=c21c4f219347bdfeb2521130186ee4e3d74a8563ed384ad330e934e0aa4dfbeb 
+vidéo!
+
+http://pages.email.aldebaran.com/Publish.aspx?qs=71b8883ce06d4a855b609788f5ea7c1c658217ddf366ae161cabb7cc33dd70ca3be0c3c51633d086f17e163d1a6384bbb7c2ac3090bd16d47826943b17f52ecfec0b381ee8471e91e00d41b49afeef3813502b1671538168f006fc94c6847fa6cb85f0e52d432d63a09ee5add8a026840c850b6471eedaf735913dcfaf897e04fc1e96703a2f516ea2b492d8ecdc63e406a1db3412d11555d2a5428a0a5abface381ccb4a9b19b3d57c8f97d66ccc31e9ddcced486178f320a0c391950cda9a4daf465b3df76864b5a5fb6fd98caa86faace7fe0dfd4b3f7 
+
+http://pages.email.aldebaran.com/Publish.aspx?qs=71b8883ce06d4a855b609788f5ea7c1c658217ddf366ae161cabb7cc33dd70ca3be0c3c51633d0868fc01e49400719f5024b263fb56ae5362125002740b8aed38a306aad69f7c8b4de6162fd9f53522b813752634eeab928868ffc7f34096f85bb98f05302fa8085c93d2b67d50afff9b89eb729ced43644ef73447dfd682403efb7a73305c44583631a002d771dc5821ee37704cc2c2470d6b874c36ac91fd6d6586d0725e1be811ce16a85d35708683a1c4e66f9a04f40b6c23c6808ce7eef442c77883b02fa04da7ef0dce817bf1cb3b0c3c831bd5df9 
+
+http://pages.email.aldebaran.com/Publish.aspx?qs=71b8883ce06d4a855b609788f5ea7c1c658217ddf366ae161cabb7cc33dd70ca3be0c3c51633d08630edf4993e213c639282c63597068423916d05fda4abd0bec66fbfa9eed18d1e8aa4e4808596718749e2762f0eef684c4bc38ebb624c8180689bc6701152766342bcd1f5333419edf0979f377ba37c3f2c247ebaaa60dd6a877dd06b020a785269c9c8b3db089a8bc1d5b8ab4db9e83bd28c08257fd402be3b096c93b9a45468fe4d410b19a98936cba4f8079dbe27bdf50eaa7cdf3ef1326fe0f8c1f8817ed006b59f2e070b298bfd8a329ff9857610 
+
+http://click.email.aldebaran.com/?qs=c21c4f219347bdfeb2521130186ee4e3d74a8563ed384ad330e934e0aa4dfbeb 
+
+http://click.email.aldebaran.com/?qs=c21c4f219347bdfeb2521130186ee4e3d74a8563ed384ad330e934e0aa4dfbeb 
+
+http://click.email.aldebaran.com/?qs=c21c4f219347bdfed4dd10b94bc69874d05ee8c01da9b8ad60de59e015106761 
+  Événements  
+
+http://click.email.aldebaran.com/?qs=c21c4f219347bdfe23b35aba33db0a6229dea62c2c742b1451728526ea4cc930 
+
+En route pour la Robocup 2015 !
+La Robocup a lieu du 19 au 23 juillet à Hefei, en Chine. Partout dans le monde, universités et écoles ont constitué leurs meilleures équipes pour cet événement!
+
+
+
+Aldebaran est bien sûr du voyage pour la 8ème année consécutive et vous accueille à côté de la Standard Platform League. 
+
+
+Plus d'informations 
+http://click.email.aldebaran.com/?qs=c21c4f219347bdfe23b35aba33db0a6229dea62c2c742b1451728526ea4cc930 
+ici.
+
+http://pages.email.aldebaran.com/Publish.aspx?qs=71b8883ce06d4a852e5955b6c59c09bd474a24b18adef01ee3ada474334855ccc8e3a5e68cb8d380359fdaa783e2335109c33f3054e068535e6684db969ba43eece97200b7d919a1f4eda4a0626b12a7d8559cf33d001a15bbe21af1f5bd1eaed35087d7a5bd9895c84c71fd272c3aea2c967df8f73b57b56f9478b42f5685b31b22a961f4795b87c8fd8d70b6f2fda9b000c7ae148dc2ea3a93311611b5a4a37afd15eafbd4011bf36d2b42c0cffd0e7db96bf2a39f8e290a4d849138cc0630a96bff70a9af87088abfb33422e689add8957ad4863380cf 
+
+http://pages.email.aldebaran.com/Publish.aspx?qs=71b8883ce06d4a852e5955b6c59c09bd474a24b18adef01ee3ada474334855ccc8e3a5e68cb8d3804b2a43256a8ffa5f9a2933633cfc4a8e768672e77d217874d2df22ee5f481ecae45ded2997ee5af223b730537b876c91271d80b690a5a46e5e124b6c5718d38dbda452622f8f2b5b7c7e074da21617017c2addab36899efe190aa2e9d6c5e2ef5e0248f5b21fb039b5812cc48a48b1e4739a349fc3fc81e19a11b3b37572953cecf47ec1b01f822e4adec6ea5e4f46414d3fd2cc43f449a8958b496db9136ce16cae46b72a949a489feb6d0d0dae03d4 
+
+http://pages.email.aldebaran.com/Publish.aspx?qs=71b8883ce06d4a852e5955b6c59c09bd474a24b18adef01ee3ada474334855ccc8e3a5e68cb8d3805133ee9ca0fc0321bf6a6327eaefc5830bdd53994008178de16e9cfecb26b98a71772a11a94faee23dd71c318e40256aac4b5555c11ae7ed13553638e3c897d535b99514234263824f0e87b19460fc6e6bcbd01d8630b842c225c7ae2dd622112d9b1d566e650284d58241be1d10fee5c481706729a15f0c9efc2a5fedc6d01d1256d8cf7e3135565407b6dd30fb2fb9e559dc08ead0ca3d6e1dbec1121abbc8300dda16fadd62bda6af8f51ad3fa395 
+
+http://click.email.aldebaran.com/?qs=c21c4f219347bdfe23b35aba33db0a6229dea62c2c742b1451728526ea4cc930 
+
+http://click.email.aldebaran.com/?qs=c21c4f219347bdfe062a923043a3adfab2f9dd0c98dea06521fbfbc001462c49 
+  Solutions  
+
+Rejoignez le Developer Program
+Découvrez une autre façon de programmer des robots humanoïdes. Rejoignez une toute nouvelle aventure avec le Developer Program. 
+
+
+http://click.email.aldebaran.com/?qs=c21c4f219347bdfe45a2cad543519adad36bd24fbd7ada37fc54c2af7e0ccbc6 
+Inscrivez-vous et accédez gratuitement à toutes nos ressources pour pouvoir créer des applications.
+
+
+Toutes les informations 
+http://click.email.aldebaran.com/?qs=c21c4f219347bdfe45a2cad543519adad36bd24fbd7ada37fc54c2af7e0ccbc6 
+ici.
+
+http://pages.email.aldebaran.com/Publish.aspx?qs=71b8883ce06d4a8584eb4e5bd026b07881acf4a7550c75f5378ec5db9e2554e860aba556c059fd055716d8dfd3a48cbcb37210ccb5ab322c7ba4b90c651471b3c2d91783c6dc43410984b1800b91cf62bbb94e8a73f639bcb38298ef1d349d611470f5c8a56fb36b564ccd24b8d81b9624137d33ab2491ac762068b3a0b821338c6d5a3f5cb5ae22f3482badb3b4562ccca3420ce7d4faa8ab32748b25137097f6b13ca00e2ef5464e07f93a9c6c2f5d59d381d3bf025d9b1896e2909bedcfdf295706c14611ea656bf45b713ff4071aaa1ed4147d1e11f29c52b04dbb42fff8 
+
+http://pages.email.aldebaran.com/Publish.aspx?qs=71b8883ce06d4a8584eb4e5bd026b07881acf4a7550c75f5378ec5db9e2554e860aba556c059fd055716d8dfd3a48cbc581f12884b7b8ad88e903227c3353e58edc72d616943ce9a1a24b292faa8c130eda220c8cacbd1077ede445e11a85c54758c50880e40bf2de88008296a5eb24bff7d888928e08e964aebaa809119b71b78f1e5e54d701efdfb7fe69d9c8609d529f8bede4d1768ffe379c651d676d3906883d4f72a55d342699a342bed62f99431f2cae806b0d23a7b74344c5dcae0d9e4f2ce23714a8772e3e07f63df11d5a02ae8d907545cbf0e549e29fc81ed1fb8 
+
+http://pages.email.aldebaran.com/Publish.aspx?qs=71b8883ce06d4a8584eb4e5bd026b07881acf4a7550c75f5378ec5db9e2554e860aba556c059fd055716d8dfd3a48cbcb203236ea5bacc17bd8318ee8dc01e91e58763fcae04b85458826ba182bbe32d6329f6aa14c0c1f39b94c54f729a1742a5a1fedd694c9298c92fe982ca43c9f910c08159b49d63f717e5f544eb3cfb1a45b579c8eff0fa16404cca7c4111661fa7583a6bff40038039a2906e095fe9543e216a2b9800001f1cbe9130e93da2e8b878338b58278836c94fc4a144a79255868f1b99371775c275723bb690ea782e89712630e81edf42bc3f73b627e46726 
+
+http://click.email.aldebaran.com/?qs=c21c4f219347bdfe45a2cad543519adad36bd24fbd7ada37fc54c2af7e0ccbc6 
+
+http://click.email.aldebaran.com/?qs=c21c4f219347bdfe45a2cad543519adad36bd24fbd7ada37fc54c2af7e0ccbc6 
+
+http://click.email.aldebaran.com/?qs=c21c4f219347bdfe902a9df7035e10917da943261edd26c7d69ba501bb143138 
+
+LA VIDÉO DU MOIS
+http://pages.email.aldebaran.com/Publish.aspx?qs=71b8883ce06d4a85c4ba60331f879e60941f853cda0399bf58d1895ab0d2bde7493efb6b6a99033a039551d4213b82f16c2d9061f473b4b6727aba890672da64e05be99bb9c720a99cef744a9369c235d6dea5a554fa9f86d838743fbfea2f7505a3ee301cf7476d57dfb755c563e66607dd8f4e01f44caf7d04d7d4389caf9ccf06bc09a4b5a674710a9d5d85cb9fc92aacd23001e8f291ef1eb8b44958c0fe04fae712ee0a44914681a77ee1ed2d9b1343d0d7405884a22b7ecd870747a33193709b41585582ab455b293070d3d375 
+
+http://pages.email.aldebaran.com/Publish.aspx?qs=71b8883ce06d4a85c4ba60331f879e60941f853cda0399bf58d1895ab0d2bde779ce2c73a3913e191b68562193c843f26148bc510d3342a2e223f227e0c7d2c7f627233dd00f5b73df906b0652bfea0ff577d9a4735bb67b29d31ccc275f8e6772e895231ae9e55c6f71c2c9e562f8d09643a22b15974f28fd3b48c9258feab7b696bfdcbe720e10d4bc28215b1c2155127ab352002bf0eb5a0ba30a7fb3d94349cc03a5f3f1eae24ccfa72568be82d517d3c91e9740ee41fe517b829a94b95b7c4bb012bebdd2a10cfa25dbb1715b77 
+
+http://pages.email.aldebaran.com/Publish.aspx?qs=71b8883ce06d4a85c4ba60331f879e60941f853cda0399bf58d1895ab0d2bde7d4537d758c2281582f1c4131444c3b81d6bb355d579b32475e98aba2f985fa29ec7a1fa565fc2eb5725dbd462a5c7eb6ea6dbeb7f7d8c386dfb78e5be44c72a80bcff1bb2ec0c4eda5cb3c58c4584ca4b11f079ae649214bcfb32f2b727f9544bb4fbb6baf0802b58d3957afbc9d933abf57efa2351e52aab14dc5f149890caf43d3ee5fea86359b872099570b1506c040c46fbd0a9e040459914c7b6901c155604436acf8a02f9fa04290d1191a5e1e 
+
+NAO fait son apparition dans le dernier spot publicitaire de la chaîne National Geographic. 
+
+Notre petit robot révèle ses talents d'acteurs dans ce clip humoristique et décalé.
+
+LA PHOTO DU MOIS
+http://pages.email.aldebaran.com/Publish.aspx?qs=71b8883ce06d4a857363d1528aa11835aad767ed9758c41b2485ba59d8463dbf0a5c889084a4aa30810bafb41d29dd819dfb06ec4bfc6b15b1a0cb37861f09e55df30ada751e9bd1adc95971839a701e94c6a51a8336c1d5dfc59eac7d0ab770e3b5f0b1a3fb1f9a27360f465e66d3fd048ee2debff3edb8c4f176652852d25dd6f7d5d1de2a09d33a51916539468b32e9cc11f3a53e7ce8ceb682d6bc95db7c7d579b07869522a772c049422338e5932b064f6b02ba92df89ea4d01df1e53018cd55c995272b9a3f18404ab2019513e 
+
+http://pages.email.aldebaran.com/Publish.aspx?qs=71b8883ce06d4a857363d1528aa11835aad767ed9758c41b2485ba59d8463dbf6c866028c5e857cdde871732d82762e5e3f433a480a11d8a8d14c520acd6ae77dcf65e8ea35766048a24a5fbd7ce0faa28e2cc8f122d2d3a7c55ef7e510aa749c91502b31b2cb83fe53adb859d8d0e633046002ceb6b44f565a23faeb12bd50a65856ce98c78d9a58b5a2ed80ed7f5ae2cf57083acd9f6e94fcddca452168368f7c065fd9cc3de28aad0dc8b308cc92cad7d054767c1910ed88c89fb9b1a691dd101bc11b08a4cef2108c96351f6aa5b 
+
+http://pages.email.aldebaran.com/Publish.aspx?qs=71b8883ce06d4a857363d1528aa11835aad767ed9758c41b2485ba59d8463dbf7011180f4f77d812611a2cdf633ccf2e3c4394c94de5ecf1bb3fcf0288d5b9463ebb8e60499457437499d3c4c462e2150f3617f0ac99ce8a401d1a7d41eacae2a56cd3601d90c0ca930c5b51315cdba7d9a970d1340a66a5f7cfbb129721c298c6297480418ceb39c3dc86bcd2316d0d0641cd7019110e5f70582dd6aeb1516049bd326f1b6c5f447cac27a0d50a1c34717438800d7622879edc1c95b36b99442952e036b27ac747681e733abbedfee9 
+
+NAO a eu l'honneur de saluer Sa Majesté la Reine d'Angleterre venue rendre visite à Angela Merkel.
+
+
+Une rencontre plutôt exceptionnelle !
+
+http://click.email.aldebaran.com/?qs=c21c4f219347bdfee8aa6f81d3349e8672fbd646da822db32f72e97d0042af68 
+
+http://click.email.aldebaran.com/?qs=c21c4f219347bdfe79f7d5b44ed1465f029eceb10f53fa2bb9f41386b6ea3af8 
+
+http://click.email.aldebaran.com/?qs=c21c4f219347bdfec3c206af058f4c1975dd84ba2b591a6cc65b17ad68035cae 
+
+http://click.email.aldebaran.com/?qs=c21c4f219347bdfe4c35dcec6932998b6f5624ba8b4da895d7ca1ed5e44d8355 
+
+http://click.email.aldebaran.com/?qs=c21c4f219347bdfe0c0edac47a150a2d973839b38cb6bc17eed334b6617f6779 
+
+Conformement a la Loi Informatique et Libertes du 06/01/1978, vous disposez d&rsquo;un droit d&rsquo;acces, de rectification et de suppression des donnees vous concernant et d&rsquo;opposition a leur traitement. 
+Vous pouvez a tout moment etre retire de la liste de diffusion en suivant 
+http://click.email.aldebaran.com/?qs=c21c4f219347bdfe7fef8483d1c10908157aba8dd9f3335355b0ba47cc67a69a 
+ce lien.
+(c)2014 Aldebaran Robotics. Tous droits reserves. 
+ALDEBARAN ROBOTICS - 43 rue du Colonel Pierre Avia, 75015 Paris, France. 
+
+SAS (Limited company) au capital de 8.617.760 &euro; - RCS Paris 483 185 807.
+
+
+
+
+
+--JrSf8P8lfR2F=_?:
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: 8bit
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<style type="text/css">
+	ReadMsgBody{ width: 100%;}
+	.ExternalClass {width: 100%;}
+	.ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {line-height: 100%;}
+	body {-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%;margin:0 !important; padding:0 !important;} 
+	p { margin: 1em 0;}
+	table td { border-collapse: collapse;}
+	img {outline:0;}
+	a img {border:none;}
+	p {margin: 1em 0;}
+	@-ms-viewport{ width: device-width;}
+	@media only screen and (max-width: 480px) {
+	body[yahoo] .container { width:100% !important; }
+	body[yahoo] .footer { width:auto !important; margin-left:0; }
+	body[yahoo] .mobile-hidden, body[yahoo] .sideblock-hidden { display:none !important; }body[yahoo] .logo { display:block !important; padding:0 !important; }
+	body[yahoo] .logo { display:block !important; padding:0 !important; }
+	body[yahoo] img { width:auto !important; max-width:308px !important; height:auto !important; max-height:auto !important;}
+	body[yahoo] .photo img { width:100% !important; height:auto !important; }
+	body[yahoo] .drop { display:block !important; width: 100% !important; padding-right:0 !important; }
+	body[yahoo] .nav4, body[yahoo] .nav5, body[yahoo] .nav6 { display: none !important; }
+	body[yahoo] .main_nav td { display: inline-block; }
+	body[yahoo] .footerlogo { display:block !important; width: 100% !important; padding-top:15px; float:left; clear:both;}
+	}
+	@media only screen and (max-width: 640px) {
+	body[yahoo] .container { width:100% !important; }
+	body[yahoo] .mobile-hidden, body[yahoo] .sideblock-hidden { display:none !important; }
+	body[yahoo] .logo { display:block !important; padding:0 !important; }
+	body[yahoo] .photo img { width:100% !important; height:auto !important;}
+	body[yahoo] .nav5, body[yahoo] .nav6 { display: none !important;}
+	body[yahoo] .main_nav td { display: inline-block; }
+	}
+	</style>
+</head><body bgcolor="#ffffff" text="#000000" style="background-color: #ececec; color: #000000; margin: 0px; padding:0px; -webkit-text-size-adjust:none;" yahoo="fix">
+
+<!--*** Start of: Table used to center email ***-->
+<div style="background-color: #ececec; padding: 10px 0px;" width="100%" align="center">
+<table width="100%" border="0" cellpadding="0" cellspacing="0" align="center">
+	<tr>
+		<td style="padding: 0px 0px 10px 0px;" width="100%" align="center">  <font face="verdana" size="1" color="808080">- Designing a new world together -
+		</font><br />
+		<font face="verdana" size="1" color="808080"> Pour consulter la version en ligne, cliquez <a href="http://view.email.aldebaran.com/?qs=e6b5d0f249a15cb11af06cc7003e842d0eebef12f5718303e47304a3ba8e40c111f7b168ad348c6de7687af986bdeb8a5de4789ef9d97959d4d6b6a965a5929d" ><font face="verdana" size="1" color="#808080">ici.</a><br />
+		</font>  </td> 
+	</tr>
+	<tr>
+		<table width="600" height="60px" border="0" cellpadding="0" cellspacing="0" align="center" class="dashedBorder" style="width: 600; height: 60px; padding: 0px 00px" bgcolor="">		
+			<td style="width: 640; height: 60px; font-size: 13px; white-space: normal; padding: 0px 0px 5px 0px;" align="left" valign="bottom" width="640" height="60" bgcolor=""><a href="http://click.email.aldebaran.com/?qs=f16b8319d09bcec463ea77101a84bde972ca5a84f7f47984f67cb33568616ad9" title=" Aldebaran"  ><img src="http://image.email.aldebaran.com/lib/fe8912727d600d7475/m/1/AldebaranSoftbankGroup_color.png" title="Aldebaran" alt="Aldebaran" border="0" width="200" height="55" style="width: 200px; height: 55px; border-color: #000000; margin: 0px;" st="L" mdid="689792fb-5474-4aea-885a-8f530ed66806" /></a></td>
+			<td style="width: 640; height: 60px; font-size: 13px; white-space: normal; padding: 0px 0px 5px 0px;" align="right" valign="bottom" width="640" height="60" bgcolor="">
+			<div style="font-family: Arial; text-align: right;">
+			<a href="http://click.email.aldebaran.com/?qs=f16b8319d09bcec45845de7705a0215fd5e415dfd99cb62f2e078edb69ad1906"><font color="#808080"> FR</a></font><font color="#808080"> / </font><a href="http://click.email.aldebaran.com/?qs=f16b8319d09bcec40d40f8907ad5926d749fafa317a246aa2dfb290009c3d811"><font color="#808080">EN</a></font>
+			</div>
+			<div style="font-family: Arial; text-align: right;">
+			<span style="font-family: arial; font-size: 12px;"><font color="808080">Newsletter Juillet 2015</font></span>
+			</div>
+			</td>
+		</table>
+	</tr>
+	<tr>
+		<td align="center">
+		<table cellspacing="0" cellpadding="0" border="0" width="640" class="container">
+			<tr>
+				<td>
+				<table cellspacing="0" cellpadding="0" border="0"  bgcolor="#ffffff" width="100%" align="center">
+					<tr>
+						<td align="center" valign="top">
+						<table cellspacing="0" cellpadding="0" border="0" width="93%" align="center">
+							<tr>
+								<td valign="top" align="center">
+								<table border="0" cellpadding="0" cellspacing="0" width="100%">
+									<tr>
+										<td class="drop" align="center" style="padding:20px 0px 10px 0px;"> <table border="0"
+               width="100%"
+               cellpadding="0"
+               cellspacing="0"
+               bgcolor="#FFFFFF"
+               style="table-layout:fixed;border-top:none;">
+            <tr>
+                <td style="border-top:solid 2px #009ee2;">
+                    <table class="container"
+                           border="0"
+                           width="100%"
+                           cellpadding="0"
+                           cellspacing="0"
+                           align="center"
+                           style=
+                                   "margin:0 auto;text-align:left;font-family:Helvetica,arial,sans-serif;table-layout:fixed;">
+                        <tr>
+                            <td width="148"
+                                style=
+                                        "text-transform:uppercase;color:white;background:#0f2639;padding:5px;">
+                                <a style=
+                                           "text-decoration:none;text-transform:uppercase;color:white;background:#0f2639;"
+                                   href="http://click.email.aldebaran.com/?qs=f16b8319d09bcec4708e5e03f98137135841cc918c6eeff42af1687c8c541ae3">&nbsp;&nbsp;<i style=
+                                                                                                    "vertical-align:top;display:inline-block;"><img
+                                        src=
+                                                "http://www.glucozdev.fr/alderaban_newsletter/img/icon-logo.png"
+                                        alt="..."/></i>-Robots</a></td>
+
+                            <td>&nbsp;</td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table></td>
+									</tr>
+								</table>
+								</td>
+							</tr>
+							<tr>
+								<td align="center" valign="top">
+								<table border="0" cellpadding="0" cellspacing="0" width="100%">
+									<tr>
+										<td valign="top" align="center">
+										<table border="0" cellpadding="0" cellspacing="0" width="100%">
+											<tr>
+												<td width="300" align="center" valign="top" style="padding:0px 0px 10px 0px;"><table cellpadding="0" cellspacing="0" border="0" bordercolor="" width="100%" bgcolor=""><tr><td><table  width="100%" bgcolor="" border="0" bordercolor="" cellpadding="0" cellspacing="0"><tr><td style="font-family:Arial; font-size:13px"><div class="webkit-wrap" style="width: 300px; height: 300px;">
+<table width="100%" height="300px" border="0" cellpadding="0" cellspacing="0" class="dashedBorder" style="width: 100%; height: 300px;" bgcolor="">
+	<tbody>
+		<tr>
+			<td style="font-family: Arial; height: 70px; padding: 0px 15px; white-space: normal; width: 100%;" align="left" valign="top" width="100%" height="70px" bgcolor=""><font color="009fe3" size="5"><b>1000 nouveaux Pepper en vente !</b></font></td>
+		</tr>
+		<tr>
+			<td style="font-family: Arial; font-size: 13px; height: 185px; padding: 0px 15px; white-space: normal;" align="left" valign="middle" width="" height="185px" bgcolor="#009FE3"><font color="#ffffff">
+			<p>
+			<span style="font-family: arial, sans, sans-serif;">Le 31 juillet prochain, 1000 nouveaux modèles de Pepper seront proposés aux clients japonais. <br />
+			<br />
+			Lors de la 1re vente au grand public le mois dernier, il n'avait fallu <font color="0f2639">qu'une minute pour écouler les 1000 robots en vente</font>.&nbsp;</span>
+			</p>
+			</font>
+			<font color="#ffffff">Découvrez la vie avec Pepper en <a href="http://click.email.aldebaran.com/?qs=f16b8319d09bcec4aa04f35f714bb72fa0c76c1e11386e0e20fec2cc74d9cfe3" title="Vidéo de Pepper"  ><font color="0f2639">vidéo</font></a><font color="0f2639">!</font></font></td>
+		</tr>
+		<tr>
+			<td style="text-align: center; font-family: Arial; font-size: 13px; height: 43px; white-space: normal;" valign="middle" width="" height="45px" bgcolor="#333333">
+			<div class="webkit-wrap" style="width: 100%; height: 45px;">
+			<table width="100%" height="45px" border="0" cellpadding="0" cellspacing="0" class="dashedBorder" style="height: 45px; width: 100%;" bgcolor="">
+				<tbody>
+					<tr>
+						<td style="text-align: right; font-family: Arial; font-size: 13px; width: 35%; height: 45px; white-space: normal;" valign="middle" width="35%" height="45px" bgcolor=""></td>
+						<td style="text-align: right; font-family: Arial; font-size: 13px; width: 10%; height: 45px; white-space: normal;" valign="middle" width="10%" height="45px" bgcolor=""><a class="ui-unselectable"  title="Publish to Facebook" href="http://pages.email.aldebaran.com/Publish.aspx?qs=71b8883ce06d4a855b609788f5ea7c1c658217ddf366ae161cabb7cc33dd70ca3be0c3c51633d086f17e163d1a6384bbb7c2ac3090bd16d47826943b17f52ecfec0b381ee8471e91e00d41b49afeef3813502b1671538168f006fc94c6847fa65331439c1821f1ada65c3cb643d53aa4bc7d42efc3bfb415b7fa0c94a7659e3a57ebf7c91463858ce46bb09b45bbb70cfd34a8e71c6b02725978f05b7d4af721d03c15ac984b2484491e5256afaff12c00a809e8ab44b1a0dc6a24f2d3f85bf52bce48c09309d0cac455126e4fa0fa8ee00083c5ed35e2b1"><img src="http://image.email.aldebaran.com/lib/fe9112727d67057973/m/1/Facebook_30x30.png" alt="Facebook" border="0" title="Facebook" /></a></td>
+						<td style="text-align: right; font-family: Arial; font-size: 13px; width: 10%; height: 45px; white-space: normal;" valign="middle" width="10%" height="45px" bgcolor=""><a class="ui-unselectable"  title="Publish to Twitter" href="http://pages.email.aldebaran.com/Publish.aspx?qs=71b8883ce06d4a855b609788f5ea7c1c658217ddf366ae161cabb7cc33dd70ca3be0c3c51633d0868fc01e49400719f5024b263fb56ae5362125002740b8aed38a306aad69f7c8b4de6162fd9f53522b813752634eeab928868ffc7f34096f85c6e07e2d6663da82a23c535d9be5f8f624052f698c8bdf5e150b8d66adbfaba485bf814500e8e880a32b85264c149259020db2d7bdd5a486c6537589ee416d972291609513fda1be0f1a0ff0add2fa9f6d200b126499b9a8f95ba63fde3471eb188d7ccbc64daca626ef815331d1ad368307239a2cc8f052"><img src="http://image.email.aldebaran.com/lib/fe9112727d67057973/m/1/Twitter_30x30.png" alt="Twitter" border="0" title="Twitter" /></a></td>
+						<td style="text-align: right; font-family: Arial; font-size: 13px; width: 10%; height: 45px; white-space: normal;" valign="middle" width="10%" height="45px" bgcolor=""><a class="ui-unselectable"  title="Publish to LinkedIn" href="http://pages.email.aldebaran.com/Publish.aspx?qs=71b8883ce06d4a855b609788f5ea7c1c658217ddf366ae161cabb7cc33dd70ca3be0c3c51633d08630edf4993e213c639282c63597068423916d05fda4abd0bec66fbfa9eed18d1e8aa4e4808596718749e2762f0eef684c4bc38ebb624c818079be1ae5ebf023917122883257bbcd01138a4e76e24e853c9271d7741b16e29b799d3042780a44324d8c64a0b1d26babfa41fffe99cb59de974727194fe889f6c2c7602f24d979a488d0ca1ea93f1650ee6087ed85dc88b9675ceb8de709bd9812e5a2dcb2392fd794001574dcec900f1ee873287e550ffc"><img src="http://image.email.aldebaran.com/lib/fe9112727d67057973/m/1/Linkedin_30x30.png" alt="LinkedIn" border="0" title="LinkedIn" /></a></td>
+						<td style="text-align: right; font-family: Arial; font-size: 13px; width: 20%; height: 45px; white-space: normal;" valign="middle" width="20%" height="45px" bgcolor=""></td>
+						<td style="text-align: right; font-family: Arial; font-size: 13px; width: 15%; height: 45px; padding: 0px 10px 0px 0px; white-space: normal;" valign="middle" width="15%" height="45px" bgcolor=""><a href="http://click.email.aldebaran.com/?qs=f16b8319d09bcec414dca6baf216ee0cf5c19f37a48ae40c0146aef8932a2abf" title="Pepper en vente_Plus"  ><img src="http://image.email.aldebaran.com/lib/fe9112727d67057973/m/1/Icone-Plus-ronde-30x30.png" border="0" width="30" height="30" style="width: 30px; height: 30px; border-color: #000000; margin: 0px;" title="Plus d'info" alt="Plus d'info" mdid="09faea44-6ad6-45c8-9dd1-5ba82d4ae1f0" /></a></td>
+					</tr>
+				</tbody>
+			</table>
+			</div>
+			</td>
+		</tr>
+	</tbody>
+</table>
+</div></td></tr></table></td></tr></table></td>
+												<td align="center" valign="top">
+												<table border="0" cellpadding="0" cellspacing="0" width="300">
+													<tr>
+														<td valign="top" align="center" style="padding:0px 0px 10px 0px;"><table cellpadding="0" cellspacing="0" border="0" bordercolor="" width="100%" bgcolor=""><tr><td><!-- RegionStart[ contentslot:"Nouveaux%20Pepper%20en%20vente", title:"1000 nouveaux Pepper en vente !", description:"Le 31 juillet prochain, 1000 nouveaux modèles de Pepper seront proposés aux clients japonais.   Lors de la 1re vente au grand public le mois dernier, il n'avait fallu qu'une minute pour écouler les 1000 robots en vente."] --><table  width="100%" bgcolor="#ffffff" border="0" bordercolor="#000000" cellpadding="0" cellspacing="0"><tr><td style="font-family:Arial; font-size:13px"><p style="margin-top: 0px; margin-bottom: 0px; width: 300px;">
+<a href="http://click.email.aldebaran.com/?qs=f16b8319d09bcec4048efff80ae81bdcd19b4ddc3ffa47d71ba29386de6af89f" title="Pepper en vente_IMG"  ><img id="image-placeholder" src="http://image.email.aldebaran.com/lib/fe9112727d67057973/m/1/Video-Pepper-at-home+2.png" border="0" title="Pepper en vente" alt="Pepper en vente" width="300" height="300" style="width: 300px; height: 300px; border-color: #000000; margin: 0px;" dontmaintainaspect="true" mdid="d313ae0a-5f90-4339-94c1-00610f8b287b" /></a>
+</p></td></tr></table><!-- RegionEnd[ contentslot:"Nouveaux%20Pepper%20en%20vente"] --></td></tr></table></td>
+													</tr>													
+												</table>
+												</td>
+											</tr>
+										</table>
+										</td>
+									</tr>
+								</table>
+								</td>
+							</tr>
+							<tr>
+								<td valign="top" align="center">
+								<table border="0" cellpadding="0" cellspacing="0" width="100%">
+									<tr>
+										<td class="drop" align="center" style="padding:0px 0px 10px 0px;"> <table border="0"
+               width="100%"
+               cellpadding="0"
+               cellspacing="0"
+               bgcolor="#FFFFFF"
+               style="table-layout:fixed;border-top:none;">
+            <tr>
+                <td style="border-top:solid 2px #009ee2;">
+                    <table class="container"
+                           border="0"
+                           width="100%"
+                           cellpadding="0"
+                           cellspacing="0"
+                           align="center"
+                           style=
+                                   "margin:0 auto;text-align:left;font-family:Helvetica,arial,sans-serif;table-layout:fixed;">
+                        <tr>
+                            <td width="148"
+                                style=
+                                        "text-transform:uppercase;color:white;background:#0f2639;padding:5px;">
+                                <a style=
+                                           "text-decoration:none;text-transform:uppercase;color:white;background:#0f2639;"
+                                   href="http://click.email.aldebaran.com/?qs=f16b8319d09bcec4a0e436622b165642493683322e3d0a6f07a30f01a29af3bc">&nbsp;&nbsp;Événements</a></td>
+
+                            <td>&nbsp;</td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table></td>
+									</tr>
+								</table>
+								</td>
+							</tr>				
+							<tr>
+								<td align="center" valign="top">
+								<table border="0" cellpadding="0" cellspacing="0" width="100%">
+									<tr>
+										<td valign="top" align="center">
+										<table border="0" cellpadding="0" cellspacing="0" width="100%">
+											<tr>
+												<td width="300" align="center" valign="top" style="padding:0px 0px 10px 0px;"><table cellpadding="0" cellspacing="0" border="0" bordercolor="" width="100%" bgcolor=""><tr><td><!-- RegionStart[ contentslot:"En%20route%20pour%20la%20Robocup", title:"En route pour la Robocup 2015 !", description:"La Robocup a lieu du 19 au 23 juillet à Hefei, en Chine. Partout dans le monde, universités et écoles ont constitué leurs meilleures équipes pour cet événement!   Aldebaran est bien sûr du voyage pour la 8ème année consécutive et vous accueille à côté de la Standard Platform League."] --><table  width="100%" bgcolor="#ffffff" border="0" bordercolor="#000000" cellpadding="0" cellspacing="0"><tr><td style="font-family:Arial; font-size:13px">
+<p style="margin-top: 0px; margin-bottom: 0px; width: 300px;">
+<a href="http://click.email.aldebaran.com/?qs=c21c4f219347bdfee937d078fe4ab45a3ecb01385278fbb9957a863120f89653" title="Robocup_IMG"  ><img id="image-placeholder" src="http://image.email.aldebaran.com/lib/fe9112727d67057973/m/1/ROBOCUP_CHINA_314x314.png" border="0" title="Robocup 2015" alt="Robocup 2015" width="300" height="300" style="width: 300px; height: 300px; border-color: #000000; margin: 0px;" dontmaintainaspect="true" mdid="6de0c2da-3256-4458-8f9a-bcda739b85b9" /></a>
+</p></td></tr></table><!-- RegionEnd[ contentslot:"En%20route%20pour%20la%20Robocup"] --></td></tr></table></td>
+												<td align="center" valign="top">
+												<table border="0" cellpadding="0" cellspacing="0" width="300">
+													<tr>
+														<td valign="top" align="center" style="padding:0px 0px 10px 0px;"><table cellpadding="0" cellspacing="0" border="0" bordercolor="" width="100%" bgcolor=""><tr><td><table  width="100%" bgcolor="" border="0" bordercolor="" cellpadding="0" cellspacing="0"><tr><td style="font-family:Arial; font-size:13px"><div class="webkit-wrap" style="width: 300px; height: 300px;">
+<table width="100%" height="300px" border="0" cellpadding="0" cellspacing="0" class="dashedBorder" style="width: 100%; height: 300px;" bgcolor="">
+	<tbody>
+		<tr>
+			<td style="font-family: Arial; height: 70px; padding: 0px 15px; white-space: normal; width: 100%;" align="left" valign="top" width="100%" height="70px" bgcolor=""><font color="009fe3" size="5"><b>En route pour la Robocup 2015 !</b></font></td>
+		</tr>
+		<tr>
+			<td style="font-family: Arial; font-size: 13px; height: 185px; padding: 0px 15px; white-space: normal;" align="left" valign="middle" width="" height="185px" bgcolor="#009FE3"><font color="#ffffff"><font color="ffffff"><font color="0f2639">La Robocup a lieu du 19 au 23 juillet à Hefei, en Chine</font>. Partout dans le monde, universités et écoles ont constitué leurs meilleures équipes pour cet événement!
+			<br />
+			<br />
+			Aldebaran est bien sûr du voyage pour la 8ème année consécutive et vous accueille à côté de la Standard Platform League. <br />
+			<br />
+			Plus d'informations <a href="http://click.email.aldebaran.com/?qs=c21c4f219347bdfee644e8c28e4bf317cf39faa488cb92c5b70828e4f3e8c955" title="Robocup 2015"  ><font color="0f2639">ici</font></a><font color="0f2639">.</font></font></font></td>
+		</tr>
+		<tr>
+			<td style="text-align: center; font-family: Arial; font-size: 13px; height: 45px; white-space: normal;" valign="middle" width="" height="45px" bgcolor="#333333">
+			<div class="webkit-wrap" style="width: 100%; height: 45px;">
+			<table width="100%" height="45px" border="0" cellpadding="0" cellspacing="0" class="dashedBorder" style="height: 45px; width: 100%;" bgcolor="">
+				<tbody>
+					<tr>
+						<td style="text-align: right; font-family: Arial; font-size: 13px; width: 35%; height: 45px; white-space: normal;" valign="middle" width="35%" height="45px" bgcolor=""></td>
+						<td style="text-align: right; font-family: Arial; font-size: 13px; width: 10%; height: 45px; white-space: normal;" valign="middle" width="10%" height="45px" bgcolor=""><a class="ui-unselectable"  title="Publish to Facebook" href="http://pages.email.aldebaran.com/Publish.aspx?qs=71b8883ce06d4a852e5955b6c59c09bd474a24b18adef01ee3ada474334855ccc8e3a5e68cb8d380359fdaa783e2335109c33f3054e068535e6684db969ba43eece97200b7d919a1f4eda4a0626b12a7d8559cf33d001a15bbe21af1f5bd1eaebd1ed9aa9ce9a1742d0e862ab475d9bfd933c39d370849ef27b6675b25fbf6b642629702477e12eb8994c854054012cf81ced87af5c9afe8b858d88a5fab88f724981acdb9955ef85f63fdfdd6ce94667d993872fa49685ab6f16c32339754aafc0b5afbe4e21bce77e0f27ec72a494a6dceb55675bb1aca"><img src="http://image.email.aldebaran.com/lib/fe9112727d67057973/m/1/Facebook_30x30.png" alt="Facebook" border="0" title="Facebook" /></a></td>
+						<td style="text-align: right; font-family: Arial; font-size: 13px; width: 10%; height: 45px; white-space: normal;" valign="middle" width="10%" height="45px" bgcolor=""><a class="ui-unselectable"  title="Publish to Twitter" href="http://pages.email.aldebaran.com/Publish.aspx?qs=71b8883ce06d4a852e5955b6c59c09bd474a24b18adef01ee3ada474334855ccc8e3a5e68cb8d3804b2a43256a8ffa5f9a2933633cfc4a8e768672e77d217874d2df22ee5f481ecae45ded2997ee5af223b730537b876c91271d80b690a5a46e9ddac9d228b880e1591b731cd2b916f5502f813e58aa76d52a4fdd581fe93e891edbdd6e4f350ecc0ec79428fcd61cb8d70acc82b87c030ca97425013af32071f961eb2346365600edb39431e80e16808b21979b3df7b83b13926f2fd0491eddaa9b7aa8cca33b64122b0dcff3c2c52ec0fe2863e0a4d543"><img src="http://image.email.aldebaran.com/lib/fe9112727d67057973/m/1/Twitter_30x30.png" alt="Twitter" border="0" title="Twitter" /></a></td>
+						<td style="text-align: right; font-family: Arial; font-size: 13px; width: 10%; height: 45px; white-space: normal;" valign="middle" width="10%" height="45px" bgcolor=""><a class="ui-unselectable"  title="Publish to LinkedIn" href="http://pages.email.aldebaran.com/Publish.aspx?qs=71b8883ce06d4a852e5955b6c59c09bd474a24b18adef01ee3ada474334855ccc8e3a5e68cb8d3805133ee9ca0fc0321bf6a6327eaefc5830bdd53994008178de16e9cfecb26b98a71772a11a94faee23dd71c318e40256aac4b5555c11ae7ed5f53bd0b929cf499e9826c5ccd6a05424adacfdc081638a7b3b773aedba0402447941020af2cd25f3bc2dede906e16172d718e684d947e8cafcad18ad1a6e1383dc6ff7bfb6b11c03bc0d865fdf514703093bd06836caff2857165cce8f52dcb486030cb02ec6416152db38c44dec8f8ea4fdf40e7aa230c"><img src="http://image.email.aldebaran.com/lib/fe9112727d67057973/m/1/Linkedin_30x30.png" alt="LinkedIn" border="0" title="LinkedIn" /></a></td>
+						<td style="text-align: right; font-family: Arial; font-size: 13px; width: 20%; height: 45px; white-space: normal;" valign="middle" width="20%" height="45px" bgcolor=""></td>
+						<td style="text-align: right; font-family: Arial; font-size: 13px; width: 15%; height: 45px; padding: 0px 10px 0px 0px; white-space: normal;" valign="middle" width="15%" height="45px" bgcolor=""><a href="http://click.email.aldebaran.com/?qs=c21c4f219347bdfe9d53b0600ee2bcd55561d6e09019fe1182ddd856a8ef6052a00ce4fa6200275a" title="Robocup_Plus"  ><img src="http://image.email.aldebaran.com/lib/fe9112727d67057973/m/1/Icone-Plus-ronde-30x30.png" title="Plus d'info" alt="Plus d'info" border="0" width="30" height="30" style="width: 30px; height: 30px; border-color: #000000; margin: 0px;" mdid="09faea44-6ad6-45c8-9dd1-5ba82d4ae1f0" /></a></td>
+					</tr>
+				</tbody>
+			</table>
+			</div>
+			</td>
+		</tr>
+	</tbody>
+</table>
+</div></td></tr></table></td></tr></table></td>
+													</tr>													
+												</table>
+												</td>
+											</tr>
+										</table>
+										</td>
+									</tr>
+								</table>
+								</td>
+							</tr>
+							<tr>
+								<td valign="top" align="center">
+								<table border="0" cellpadding="0" cellspacing="0" width="100%">
+									<tr>
+										<td class="drop" align="center" style="padding:0px 0px 10px 0px;"> <table border="0"
+               width="100%"
+               cellpadding="0"
+               cellspacing="0"
+               bgcolor="#FFFFFF"
+               style="table-layout:fixed;border-top:none;">
+            <tr>
+                <td style="border-top:solid 2px #009ee2;">
+                    <table class="container"
+                           border="0"
+                           width="100%"
+                           cellpadding="0"
+                           cellspacing="0"
+                           align="center"
+                           style=
+                                   "margin:0 auto;text-align:left;font-family:Helvetica,arial,sans-serif;table-layout:fixed;">
+                        <tr>
+                            <td width="148"
+                                style=
+                                        "text-transform:uppercase;color:white;background:#0f2639;padding:5px;">
+                                <a style=
+                                           "text-decoration:none;text-transform:uppercase;color:white;background:#0f2639;"
+                                   href="http://click.email.aldebaran.com/?qs=c21c4f219347bdfe6e001489c9c0bd7e871889c297c386f79b35086dae798922">&nbsp;&nbsp;Solutions</a></td>
+
+                            <td>&nbsp;</td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table></td>
+									</tr>
+								</table>
+								</td>
+							</tr>
+							<tr>
+								<td align="center" valign="top">
+								<table border="0" cellpadding="0" cellspacing="0" width="100%">
+									<tr>
+										<td valign="top" align="center">
+										<table border="0" cellpadding="0" cellspacing="0" width="100%">
+											<tr>
+												<td width="300" align="center" valign="top" style="padding:0px 0px 10px 0px;"><table cellpadding="0" cellspacing="0" border="0" bordercolor="" width="100%" bgcolor=""><tr><td><table  width="100%" bgcolor="" border="0" bordercolor="" cellpadding="0" cellspacing="0"><tr><td style="font-family:Arial; font-size:13px"><div class="webkit-wrap" style="width: 300px; height: 300px;">
+<table width="100%" height="300px" border="0" cellpadding="0" cellspacing="0" class="dashedBorder" style="width: 100%; height: 300px;" bgcolor="">
+	<tbody>
+		<tr>
+			<td style="font-family: Arial; height: 70px; padding: 0px 15px; white-space: normal; width: 100%;" align="left" valign="top" width="100%" height="70px" bgcolor=""><font color="009fe3" size="5"><b>Rejoignez le Developer Program</b></font></td>
+		</tr>
+		<tr>
+			<td style="font-family: Arial; font-size: 13px; height: 185px; padding: 0px 15px; white-space: normal;" align="left" valign="middle" width="" height="185px" bgcolor="#009FE3"><font color="#ffffff"><font color="ffffff">Découvrez une autre façon de programmer des robots humanoïdes. Rejoignez une toute nouvelle aventure avec le Developer Program. 
+			<br />
+			<br />
+			<a href="http://click.email.aldebaran.com/?qs=c21c4f219347bdfe850e191055afdf7e3187f3d5167bb19cc131b354483eb407" title="Developer Program"  ><font color="#0f2639">Inscrivez-vous</font></a> et accédez gratuitement à toutes nos ressources pour pouvoir créer des applications.<br />
+			<br />
+			Toutes les informations <a href="http://click.email.aldebaran.com/?qs=c21c4f219347bdfe850e191055afdf7e3187f3d5167bb19cc131b354483eb407" title="Developer Program"  ><font color="0f2639">ici</font></a><font color="0f2639">.</font></font></font></td>
+		</tr>
+		<tr>
+			<td style="text-align: center; font-family: Arial; font-size: 13px; height: 45px; white-space: normal;" valign="middle" width="" height="45px" bgcolor="#333333">
+			<div class="webkit-wrap" style="width: 100%; height: 45px;">
+			<table width="100%" height="45px" border="0" cellpadding="0" cellspacing="0" class="dashedBorder" style="height: 45px; width: 100%;" bgcolor="">
+				<tbody>
+					<tr>
+						<td style="text-align: right; font-family: Arial; font-size: 13px; width: 35%; height: 45px; white-space: normal;" valign="middle" width="35%" height="45px" bgcolor=""></td>
+						<td style="text-align: right; font-family: Arial; font-size: 13px; width: 10%; height: 45px; white-space: normal;" valign="middle" width="10%" height="45px" bgcolor=""><a class="ui-unselectable"  title="Publish to Facebook" href="http://pages.email.aldebaran.com/Publish.aspx?qs=71b8883ce06d4a8584eb4e5bd026b07881acf4a7550c75f5378ec5db9e2554e860aba556c059fd055716d8dfd3a48cbcb37210ccb5ab322c7ba4b90c651471b3c2d91783c6dc43410984b1800b91cf62bbb94e8a73f639bcb38298ef1d349d611470f5c8a56fb36b37df79c4518199ed3b53ceab71413ba554961152f2299ee12a7ceec49dacb7db9459d45e5f756a42ce8207d6f10aface3ea78fddcafc74d90f1e5d4072ad4cee962a06faf9ed04a344fadfeef188c92172471a966be82a7b3c530ea287337a15b51c47c4712228bf81c0cc5068c6495e011de40101766766"><img src="http://image.email.aldebaran.com/lib/fe9112727d67057973/m/1/Facebook_30x30.png" alt="Facebook" border="0" title="Facebook" /></a></td>
+						<td style="text-align: right; font-family: Arial; font-size: 13px; width: 10%; height: 45px; white-space: normal;" valign="middle" width="10%" height="45px" bgcolor=""><a class="ui-unselectable"  title="Publish to Twitter" href="http://pages.email.aldebaran.com/Publish.aspx?qs=71b8883ce06d4a8584eb4e5bd026b07881acf4a7550c75f5378ec5db9e2554e860aba556c059fd055716d8dfd3a48cbc581f12884b7b8ad88e903227c3353e58edc72d616943ce9a1a24b292faa8c130eda220c8cacbd1077ede445e11a85c54758c50880e40bf2d46829972301c8bd42f4608c01349690207896baec1bf29b122e6e868af54c40e3e3c0defac22f701c7531d994015f0a8a0a6a3582d27be75d2ec0bd8f1ec5ba274be4c4f1e386c7578fe83ea81e6c74651a583c3d4232adcae944c05956e3b2b7150b4c4382400b76b77ad1b0d8125cb8d2eb956691ca873"><img src="http://image.email.aldebaran.com/lib/fe9112727d67057973/m/1/Twitter_30x30.png" alt="Twitter" border="0" title="Twitter" /></a></td>
+						<td style="text-align: right; font-family: Arial; font-size: 13px; width: 10%; height: 45px; white-space: normal;" valign="middle" width="10%" height="45px" bgcolor=""><a class="ui-unselectable"  title="Publish to LinkedIn" href="http://pages.email.aldebaran.com/Publish.aspx?qs=71b8883ce06d4a8584eb4e5bd026b07881acf4a7550c75f5378ec5db9e2554e860aba556c059fd055716d8dfd3a48cbcb203236ea5bacc17bd8318ee8dc01e91e58763fcae04b85458826ba182bbe32d6329f6aa14c0c1f39b94c54f729a1742a5a1fedd694c929838601de9daf840e965f390020ebdf380cf02051550d5fb01bccc5840456d307736a62eab752f074dd1c4bc5eaf46f039a012518ee08928cec27f3b247ba144c2ee7c521f1793f2a02ec9b0e9dbe11f26e2deb98d6cc3e87a3af491921bbe9a92bc863e8f1b6a1ae83d1ee92afcb0eb85e53d03a67692c1e8"><img src="http://image.email.aldebaran.com/lib/fe9112727d67057973/m/1/Linkedin_30x30.png" alt="LinkedIn" border="0" title="LinkedIn" /></a></td>
+						<td style="text-align: right; font-family: Arial; font-size: 13px; width: 20%; height: 45px; white-space: normal;" valign="middle" width="20%" height="45px" bgcolor=""></td>
+						<td style="text-align: right; font-family: Arial; font-size: 13px; width: 15%; height: 45px; padding: 0px 10px 0px 0px; white-space: normal;" valign="middle" width="15%" height="45px" bgcolor=""><a href="http://click.email.aldebaran.com/?qs=c21c4f219347bdfeaeede877f0dd39feb9b24ab459bf0793658a466504d6a81500afedbb61f0cca1" title="Devprog_Plus"  ><img src="http://image.email.aldebaran.com/lib/fe9112727d67057973/m/1/Icone-Plus-ronde-30x30.png" title="Plus d'info" alt="Plus d'info" border="0" width="30" height="30" style="width: 30px; height: 30px; border-color: #000000; margin: 0px;" mdid="09faea44-6ad6-45c8-9dd1-5ba82d4ae1f0" /></a></td>
+					</tr>
+				</tbody>
+			</table>
+			</div>
+			</td>
+		</tr>
+	</tbody>
+</table>
+</div></td></tr></table></td></tr></table></td>
+												<td align="center" valign="top">
+												<table border="0" cellpadding="0" cellspacing="0" width="300">
+													<tr>
+														<td valign="top" align="center" style="padding:0px 0px 10px 0px;"><table cellpadding="0" cellspacing="0" border="0" bordercolor="" width="100%" bgcolor=""><tr><td><!-- RegionStart[ contentslot:"Rejoignez%20le%20Developer%20Program", title:"Rejoignez le Developer Program d'Aldebaran", description:"Découvrez une autre façon de programmer des robots humanoïdes. Rejoignez une toute nouvelle aventure avec le Developer Program.  Inscrivez-vous et accédez gratuitement à toutes nos ressources pour pouvoir créer des applications."] --><table  width="100%" bgcolor="" border="0" bordercolor="#000000" cellpadding="0" cellspacing="0"><tr><td style="font-family:Arial; font-size:13px"><p style="margin-top: 0px; margin-bottom: 0px; width: 300px;">
+<a href="http://click.email.aldebaran.com/?qs=c21c4f219347bdfe3c46b2688e23af58842c8c6acd67cd9df32b8a671dfde360" title="DevProg_IMG"  ><img id="image-placeholder" src="http://image.email.aldebaran.com/lib/fe9112727d67057973/m/1/DEV_PROG_launch_banner_FR.png" border="0" title="Developer Program" alt="Developer Program" width="300" height="300" style="width: 300px; height: 300px; border-color: #000000; margin: 0px;" dontmaintainaspect="true" thid="19f18e35-bf27-493f-a8f9-94203f33f035" /></a>
+</p></td></tr></table><!-- RegionEnd[ contentslot:"Rejoignez%20le%20Developer%20Program"] --></td></tr></table></td>
+													</tr>													
+												</table>
+												</td>
+											</tr>
+										</table>
+										</td>
+									</tr>
+								</table>
+								</td>
+							</tr>
+							<tr>
+								<td valign="top" align="center">
+								<table border="0" cellpadding="0" cellspacing="0" width="100%">
+									<tr>
+										<td class="drop" align="center" style="padding:0px 0px 10px 0px;"><table cellpadding="0" cellspacing="0" border="0" bordercolor="" width="100%" bgcolor=""><tr><td><table  width="100%" bgcolor="" border="0" bordercolor="#000000" cellpadding="0" cellspacing="0"><tr><td style="font-family:Arial; font-size:13px"><hr size="2" color="#009fe3" /></td></tr></table></td></tr></table></td>
+									</tr>
+								</table>
+								</td>
+							</tr>
+							<tr>
+								<td align="center" valign="top">
+								<table border="0" cellpadding="0" cellspacing="0" width="100%">
+									<tr>
+										<td valign="top" align="center">
+										<table border="0" cellpadding="0" cellspacing="0" width="100%">
+											<tr>
+												<td width="300" align="center" valign="top" style="padding:0px 0px 10px 0px;"><table cellpadding="0" cellspacing="0" border="0" bordercolor="" width="100%" bgcolor=""><tr><td><!-- RegionStart[ contentslot:"LA%20VIDEO%20DU%20MOIS", title:"LA VIDEO ALDEBARAN DU MOIS", description:"NAO fait son apparition dans le dernier spot publicitaire de la chaîne National Geographic.  Notre petit robot révèle ses talents d'acteurs dans ce clip humoristique et décalé."] --><table  width="100%" bgcolor="" border="0" bordercolor="#000000" cellpadding="0" cellspacing="0"><tr><td style="font-family:Arial; font-size:13px"><p style="margin-top: 0px; margin-bottom: 0px; width: 300px;">
+<a href="http://click.email.aldebaran.com/?qs=c21c4f219347bdfe798c7e381b0ae194eef187742bb7e9b726a31cceaa714e52" title="La vidéo du mois_IMG"  ><img src="http://image.email.aldebaran.com/lib/fe9112727d67057973/m/1/Capture-Nat-Geo_2.png" title="La vidéo du mois" alt="La vidéo du mois" border="0" width="300" height="130" style="width: 300px; height: 130px; border-color: #000000; margin: 0px;" mdid="e6043c9b-da8a-4e2a-a21b-535dd2a39b11" /></a>
+</p></td></tr></table><!-- RegionEnd[ contentslot:"LA%20VIDEO%20DU%20MOIS"] --></td></tr></table></td>
+												<td align="center" valign="top">
+												<table border="0" cellpadding="0" cellspacing="0" width="300">
+													<tr>
+														<td valign="top" align="center" style="padding:0px 0px 10px 0px;"><table cellpadding="0" cellspacing="0" border="0" bordercolor="" width="100%" bgcolor=""><tr><td><table  width="100%" bgcolor="" border="0" bordercolor="" cellpadding="0" cellspacing="0"><tr><td style="font-family:Arial; font-size:13px"><div class="webkit-wrap" style="width: 300px; height: 130px;">
+<table width="100%" height="130" border="0" cellpadding="0" cellspacing="0" class="dashedBorder" style="height: 100%;">
+	<tbody>
+		<tr>
+			<td style="font-family: Arial; font-size: 13px; width: 67%; padding: 0px 15px; white-space: normal; height: 30px;" align="left" valign="middle" width="67%" height="30px" bgcolor=""><b><font color="009FE3">LA VIDÉO DU MOIS</font></b></td>
+			<td style="text-align: center; font-family: Arial; font-size: 13px; width: 10%; white-space: normal;" align="left" valign="middle" width="10%" height="" bgcolor=""><a class="ui-unselectable"  title="Publish to Facebook" href="http://pages.email.aldebaran.com/Publish.aspx?qs=71b8883ce06d4a85c4ba60331f879e60941f853cda0399bf58d1895ab0d2bde7493efb6b6a99033a039551d4213b82f16c2d9061f473b4b6727aba890672da64e05be99bb9c720a99cef744a9369c235d6dea5a554fa9f86069939e3cafb63c240feabf58f4653c509b32b54225262df287c66780fd27dcd03452d8e16ff34347cff9cd0739a8011f597380e60dfa58c8a7a5ffd14aef6639074c0cb045ddb1d1d5a1a328982068699fce347831fce3f45b38754ef54eef693913b8e7dad413b4e864cb74b52fd410434832521295fd9"><img src="http://image.email.aldebaran.com/lib/fe9112727d67057973/m/1/Facebook_30x30.png" alt="Facebook" border="0" title="Facebook" /></a></td>
+			<td style="text-align: center; font-family: Arial; font-size: 13px; width: 10%; white-space: normal;" align="left" valign="middle" width="10%" height="" bgcolor=""><a class="ui-unselectable"  title="Publish to Twitter" href="http://pages.email.aldebaran.com/Publish.aspx?qs=71b8883ce06d4a85c4ba60331f879e60941f853cda0399bf58d1895ab0d2bde779ce2c73a3913e191b68562193c843f26148bc510d3342a2e223f227e0c7d2c7f627233dd00f5b73df906b0652bfea0ff577d9a4735bb67b6cdd8ab6ec3ea03cfae44659bbf32e3e71659caeea04d37666843dc79512302d2fc56cec686aef19c37e991089f3e1ae0b6da525ab85ed4dc2b6a6c9ff814959ebab27fcec618dbc78c6d8aaacd4bf84b90629445de7e19d7435773cfc697e7d4142371038c31464f8441e8832e75d2c343e40302e62f2cc"><img src="http://image.email.aldebaran.com/lib/fe9112727d67057973/m/1/Twitter_30x30.png" alt="Twitter" border="0" title="Twitter" /></a></td>
+			<td style="text-align: center; font-family: Arial; font-size: 13px; width: 10%; white-space: normal;" align="left" valign="middle" width="10%" height="" bgcolor=""><a class="ui-unselectable"  title="Publish to LinkedIn" href="http://pages.email.aldebaran.com/Publish.aspx?qs=71b8883ce06d4a85c4ba60331f879e60941f853cda0399bf58d1895ab0d2bde7d4537d758c2281582f1c4131444c3b81d6bb355d579b32475e98aba2f985fa29ec7a1fa565fc2eb5725dbd462a5c7eb6ea6dbeb7f7d8c3868bfd5d7cf7a041bed43c1a22376bb5b1478af85ef2d7b61f33e3a0d54c0109e694f3f1426720d56f5d70d94b9b5388d9da5f860790a81d7b05b7534006f3769d492ecd7cc723ba8a2b513d7ea9c7f391554d417555f0bb56b6bab87d805ac3271b8cdd59596b41972543e3d8e3e9454a1250b9390ef3b748"><img src="http://image.email.aldebaran.com/lib/fe9112727d67057973/m/1/Linkedin_30x30.png" alt="LinkedIn" border="0" title="LinkedIn" /></a></td>
+			<td style="font-family: Arial; font-size: 13px; width: 3%; white-space: normal;" align="left" valign="middle" width="3%" height="" bgcolor=""><br />
+			</td>
+		</tr>
+		<tr>
+			<td style="font-family: Arial; padding: 0px 15px;" colspan="5" rowspan="1"><font color="009fe3"><font size="2">NAO fait son apparition dans le dernier spot publicitaire de la chaîne National Geographic. <br />
+			Notre petit robot révèle ses talents d'acteurs dans ce clip humoristique et décalé.</font></font></td>
+		</tr>
+	</tbody>
+</table>
+</div></td></tr></table></td></tr></table></td>
+													</tr>													
+												</table>
+												</td>
+											</tr>
+										</table>
+										</td>
+									</tr>
+								</table>
+								</td>
+							</tr>	
+							<tr>
+								<td align="center" valign="top">
+								<table border="0" cellpadding="0" cellspacing="0" width="100%">
+									<tr>
+										<td valign="top" align="center">
+										<table border="0" cellpadding="0" cellspacing="0" width="100%">
+											<tr>
+												<td width="300" align="center" valign="top" style="padding:0px 0px 10px 0px;"><table cellpadding="0" cellspacing="0" border="0" bordercolor="" width="100%" bgcolor=""><tr><td><table  width="100%" bgcolor="" border="0" bordercolor="" cellpadding="0" cellspacing="0"><tr><td style="font-family:Arial; font-size:13px"><div class="webkit-wrap" style="width: 300px; height: 130px;">
+<table width="100%" height="130" border="0" cellpadding="0" cellspacing="0" class="dashedBorder" style="height: 100%;">
+	<tbody>
+		<tr>
+			<td style="font-family: Arial; font-size: 13px; width: 67%; padding: 0px 15px; white-space: normal; height: 30px;" align="left" valign="middle" width="67%" height="30px" bgcolor=""><b><font color="009FE3">LA PHOTO DU MOIS</font></b></td>
+			<td style="text-align: center; font-family: Arial; font-size: 13px; width: 10%; white-space: normal;" align="left" valign="middle" width="10%" height="" bgcolor=""><a class="ui-unselectable"  title="Publish to Facebook" href="http://pages.email.aldebaran.com/Publish.aspx?qs=71b8883ce06d4a857363d1528aa11835aad767ed9758c41b2485ba59d8463dbf0a5c889084a4aa30810bafb41d29dd819dfb06ec4bfc6b15b1a0cb37861f09e55df30ada751e9bd1adc95971839a701e94c6a51a8336c1d5994216e942a013e271e3d20b5ce0835f6ec752e54b7dd811e338e889553cf5be169b53a5c30fb5ef41c3604efed16169534836060fe1e725314dea3eb8b2343a7d3303310d1c717bdbba8089a8580de06efb2ddb02f213a56a27f17e15593b1c22b76ac08f675d4814a921f622387ae9e9d2f10de6db0768"><img src="http://image.email.aldebaran.com/lib/fe9112727d67057973/m/1/Facebook_30x30.png" alt="Facebook" border="0" title="Facebook" /></a></td>
+			<td style="text-align: center; font-family: Arial; font-size: 13px; width: 10%; white-space: normal;" align="left" valign="middle" width="10%" height="" bgcolor=""><a class="ui-unselectable"  title="Publish to Twitter" href="http://pages.email.aldebaran.com/Publish.aspx?qs=71b8883ce06d4a857363d1528aa11835aad767ed9758c41b2485ba59d8463dbf6c866028c5e857cdde871732d82762e5e3f433a480a11d8a8d14c520acd6ae77dcf65e8ea35766048a24a5fbd7ce0faa28e2cc8f122d2d3a52e750ac75375b5a1de494cca89a25c79966006c7322fcbdd61e022ea57ef828919fa256c552417f5bd911d1d3ee14b87663a5869942d7226c0067c91829a4b0274ef63bd1df9d7779c78609e1bd17dd51872d5e5bd3df350b6c963dd1912c15571aa53d02067b4b1937210a26b31df0ec930ffd48731adb"><img src="http://image.email.aldebaran.com/lib/fe9112727d67057973/m/1/Twitter_30x30.png" alt="Twitter" border="0" title="Twitter" /></a></td>
+			<td style="text-align: center; font-family: Arial; font-size: 13px; width: 10%; white-space: normal;" align="left" valign="middle" width="10%" height="" bgcolor=""><a class="ui-unselectable"  title="Publish to LinkedIn" href="http://pages.email.aldebaran.com/Publish.aspx?qs=71b8883ce06d4a857363d1528aa11835aad767ed9758c41b2485ba59d8463dbf7011180f4f77d812611a2cdf633ccf2e3c4394c94de5ecf1bb3fcf0288d5b9463ebb8e60499457437499d3c4c462e2150f3617f0ac99ce8a8b1a6028d8c59dab3d2ba2c02685f284ead9d5f44f9b2922dd4adf0a3ed8cfd239955809f2dbf503196a31633d6681b8604ddc845f91f9ea30ec31f62829405771e3b18c347698f5b0018d0df9c175d5a7f4a43d0186882fcb8ff7a9f7f008a56a15aeb92c6680b80cb4279050ac00cfc4edba355b7b9c36"><img src="http://image.email.aldebaran.com/lib/fe9112727d67057973/m/1/Linkedin_30x30.png" alt="LinkedIn" border="0" title="LinkedIn" /></a></td>
+			<td style="font-family: Arial; font-size: 13px; width: 3%; white-space: normal;" align="left" valign="middle" width="3%" height="" bgcolor=""><br />
+			</td>
+		</tr>
+		<tr>
+			<td style="font-family: Arial; padding: 0px 15px;" colspan="5" rowspan="1"><font color="009fe3"><font size="2">NAO a eu l'honneur de saluer Sa Majesté la Reine d'Angleterre venue rendre visite à Angela Merkel.<br />
+			<br />
+			Une rencontre plutôt exceptionnelle !</font></font></td>
+		</tr>
+	</tbody>
+</table>
+</div></td></tr></table></td></tr></table></td>
+												<td align="center" valign="top">
+												<table border="0" cellpadding="0" cellspacing="0" width="300">
+													<tr>
+														<td valign="top" align="center" style="padding:0px 0px 10px 0px;"><table cellpadding="0" cellspacing="0" border="0" bordercolor="" width="100%" bgcolor=""><tr><td><!-- RegionStart[ contentslot:"LA%20PHOTO%20DU%20MOIS", title:"LA PHOTO ALDEBARAN DU MOIS", description:"NAO a eu l'honneur de saluer Sa Majesté la Reine d'Angleterre venue rendre visite à Angela Merkel.  Une rencontre plutôt exceptionnelle !"] --><table  width="100%" bgcolor="" border="0" bordercolor="#000000" cellpadding="0" cellspacing="0"><tr><td style="font-family:Arial; font-size:13px"><p style="margin-top: 0px; margin-bottom: 0px; width: 300px;">
+<img src="http://image.email.aldebaran.com/lib/fe9112727d67057973/m/1/Angela-and-NAO-2.png" title="La photo du mois" alt="La photo du mois" border="0" width="300" height="130" style="width: 300px; height: 130px; border-color: #000000; margin: 0px;" mdid="0d7bc36e-94d8-4ec8-ab1c-01e70c5f49cf" />
+</p></td></tr></table><!-- RegionEnd[ contentslot:"LA%20PHOTO%20DU%20MOIS"] --></td></tr></table></td>
+													</tr>													
+												</table>
+												</td>
+											</tr>
+										</table>
+										</td>
+									</tr>
+								</table>
+								</td>
+							</tr>								
+							<tr>
+								<td align="center" valign="top" colspan="2" class="drop" style="padding: 10px 0px 20px 0px; height:90px">
+								<table  width="100%" height="90px" bgcolor="" border="0" bordercolor="" cellpadding="0" cellspacing="0">
+									<tr>
+										<td style="font-family:Arial; font-size:13px; height:90px">
+										<div class="webkit-wrap" style="width: 600px; height: 90px;">
+										<table class="dashedBorder" bgcolor="#0F2639" cellpadding="0" cellspacing="0" width="600px" height="90px" style="width: 600px; height: 90px;">
+											<tbody>
+												<tr>
+													<td style="font-family: Arial; font-size: 13px; width: 150px; height: 90px; white-space: normal;" align="left" valign="top" width="150px" height="90px" bgcolor="#0F2639"><img src="http://image.email.aldebaran.com/lib/fe9112727d67057973/m/1/2014_DIGITAL_FOOTER_MAILING_6_BLUE_LEFT.jpg" border="0" width="150" height="60" style="width: 150px; height: 60px; border-color: #000000; margin: 0px;" /></td>
+													<td style="font-family: Arial; font-size: 13px; width: 60px; height: 90px; white-space: normal;" align="left" valign="top" width="60px" height="90px" bgcolor="#0F2639"><a href="http://click.email.aldebaran.com/?qs=c21c4f219347bdfeb6cd86034825dbc31e72a9b8ef2b672849de4fcbbf490d50" title="youtube Aldebaran"  ><img src="http://image.email.aldebaran.com/lib/fe9112727d67057973/m/1/2014_DIGITAL_FOOTER_MAILING_6_BTN_YOU.jpg" title="youtube Aldebaran" alt="youtube Aldebaran" border="0" width="60" height="60" style="width: 60px; height: 60px; border-color: #000000; margin: 0px;" /></a></td>
+													<td style="font-family: Arial; font-size: 13px; width: 60px; height: 90px; white-space: normal;" align="left" valign="top" width="60px" height="90px" bgcolor="#0F2639"><a href="http://click.email.aldebaran.com/?qs=c21c4f219347bdfef12a54ec7b0b443940262e967d624b98ab26d6b27ac123fa" title="Linkedin Aldebaran"  ><img src="http://image.email.aldebaran.com/lib/fe9112727d67057973/m/1/2014_DIGITAL_FOOTER_MAILING_6_BTN_LKIN.jpg" title="Linkedin Aldebaran" alt="Linkedin Aldebaran" border="0" width="60" height="60" style="width: 60px; height: 60px; border-color: #000000; margin: 0px;" /></a></td>
+													<td style="font-family: Arial; font-size: 13px; width: 60px; height: 90px; white-space: normal;" align="left" valign="top" width="60px" height="90px" bgcolor="#0F2639" colspan="2"><a href="http://click.email.aldebaran.com/?qs=c21c4f219347bdfed9e44ef29ded776011cf9b732f877588cef6899385324e3b" title="Facebook Aldebaran"  ><img src="http://image.email.aldebaran.com/lib/fe9112727d67057973/m/1/2014_DIGITAL_FOOTER_MAILING_6_BTN_FACE.jpg" title="Facebook Aldebaran" alt="Facebook Aldebaran" border="0" width="60" height="60" style="width: 60px; height: 60px; border-color: #000000; margin: 0px;" /></a>
+													</td>
+													<td style="font-family: Arial; font-size: 13px; width: 60px; height: 90px; white-space: normal;" align="left" valign="top" width="60px" height="90px" bgcolor="#0F2639"><a href="http://click.email.aldebaran.com/?qs=c21c4f219347bdfecd19ddcc351a074d747b5927ea68c25bfb87c35e51334041" title="Twitter Aldebaran"  ><img src="http://image.email.aldebaran.com/lib/fe9112727d67057973/m/1/2014_DIGITAL_FOOTER_MAILING_6_BTN_TWIT.jpg" title="Twitter Aldebaran" alt="Twitter Aldebaran" border="0" width="60" height="60" style="width: 60px; height: 60px; border-color: #000000; margin: 0px;" /></a></td>
+													<td style="font-family: Arial; font-size: 13px; width: 60px; height: 90px; white-space: normal;" align="left" valign="top" width="60px" height="90px" bgcolor="#0F2639"><a href="http://click.email.aldebaran.com/?qs=c21c4f219347bdfea54b3853b66647f7d87b0b69b3f56b56a86d2591c1f5a56d" title="www.aldebaran.com"  ><img src="http://image.email.aldebaran.com/lib/fe9112727d67057973/m/1/2014_DIGITAL_FOOTER_MAILING_6_BTN_WWW.jpg" title="www.aldebaran.com" alt="www.aldebaran.com" border="0" width="60" height="60" style="width: 60px; height: 60px; border-color: #000000; margin: 0px;" /></a></td>
+													<td style="font-family: Arial; font-size: 13px; width: 150px; height: 90px; white-space: normal;" align="left" valign="top" width="150px" height="90px" bgcolor="#0F2639"><img src="http://image.email.aldebaran.com/lib/fe9112727d67057973/m/1/2014_DIGITAL_FOOTER_MAILING_6_BLUE_RIGHT.jpg" border="0" width="150" height="60" style="width: 150px; height: 60px; border-color: #000000; margin: 0px;" /></td>
+												</tr>
+											</tbody>
+										</table>
+										</div>
+										</td>
+									</tr>
+								</table>
+								</td>
+							</tr>
+						</table>
+						</td>
+					</tr>
+				</table>
+				</td>
+			</tr>
+		</table>
+		</td>
+	</tr>
+	<tr>
+		<td align="center" valign="top" style="padding-bottom:10px;"><custom type="footer" name="footer"></td>
+	</tr>
+</table>
+<table style="background-color: #ececec; " align="center" >
+	<tr>
+		<td align="center">
+		<table cellspacing="0" cellpadding="0" border="0" width="640" class="container" align="center">
+			<tr>
+				<td style="white-space: normal;" colspan="9" align="center" valign="top" width="" height="60" bgcolor="">
+				<div style="font-family: Arial; padding: 5px 20px 0px 20px;">
+				<font size="1" color="808080">Conform&eacute;ment &agrave; la Loi Informatique et Libert&eacute;s du 06/01/1978, vous disposez d&rsquo;un droit d&rsquo;acc&egrave;s, de rectification et de suppression des donn&eacute;es vous concernant et d&rsquo;opposition &agrave; leur traitement.&nbsp;</font>
+				</div>
+				<div style="font-family: Arial;">
+				<font size="1"><font color="808080">
+				Vous pouvez &agrave; tout moment &ecirc;tre retir&eacute; de la liste de diffusion en suivant <a href="http://click.email.aldebaran.com/?qs=c21c4f219347bdfe0ae9098c2f1a5e2b15656e7c33622d08cc5ecb8f2d72a6fa" title="se désabonner" " ><font color="808080">ce lien.</font></a></font><br />
+				<font color="808080">&copy;2014 Aldebaran Robotics. Tous droits r&eacute;serv&eacute;s.&nbsp;</font></font>
+				</div>
+				<div>
+				<font face="Arial" size="1" color="808080">
+				ALDEBARAN ROBOTICS - 43 rue du Colonel Pierre Avia, 75015 Paris, France. <br />
+				SAS (Limited company) au capital de 8.617.760 &euro; - RCS Paris 483 185 807.</font>
+				</div>
+				</td>	
+			</tr>
+		</table>
+		</td>
+	</tr>
+</table>
+</div>
+<img src="http://click.email.aldebaran.com/open.aspx?ffcb10-fec4127475610d7e-fe2c117275650274771777-fe9112727d67057973-fefa167671650c-fe9512717d64047b70-ffcf14" width="1" height="1">
+
+</body></html>
+
+--JrSf8P8lfR2F=_?:--
+

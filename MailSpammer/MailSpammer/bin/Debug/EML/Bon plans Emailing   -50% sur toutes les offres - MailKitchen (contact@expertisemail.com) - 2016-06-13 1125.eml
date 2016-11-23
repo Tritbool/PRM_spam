@@ -1,0 +1,454 @@
+Return-Path: <feedback@bnc.expertisemail.com>
+Received: from mailimailo.univ-rennes1.fr ([unix socket])
+	 by mailimailo.univ-rennes1.fr (Cyrus v2.3.16-Fedora-RPM-2.3.16-6.el6_2.5) with LMTPA;
+	 Mon, 13 Jun 2016 11:33:16 +0200
+X-Sieve: CMU Sieve 2.3
+Received: from mailout2.univ-rennes1.fr (mailout2.univ-rennes1.fr [129.20.129.120])
+	by mailimailo.univ-rennes1.fr (Postfix) with ESMTP id 6E1B952
+	for <resp-m2-miage@univ-rennes1.fr>; Mon, 13 Jun 2016 11:33:16 +0200 (CEST)
+Received: from localhost (vmscanmail.univ-rennes1.fr [129.20.128.134])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id 6AD716012F
+	for <resp-m2-miage@univ-rennes1.fr>; Mon, 13 Jun 2016 11:33:16 +0200 (CEST)
+X-Virus-Scanned: amavisd-new at univ-rennes1.fr
+Received: from mailout2.univ-rennes1.fr ([129.20.129.120])
+	by localhost (vmscanmail.univ-rennes1.frm [129.20.128.134]) (amavisd-new, port 10026)
+	with ESMTP id FQ3uvJWF6Tdm for <resp-m2-miage@univ-rennes1.fr>;
+	Mon, 13 Jun 2016 11:33:16 +0200 (CEST)
+Received: from vmmailin.univ-rennes1.fr (vmmailin.univ-rennes1.fr [129.20.128.133])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id 4BE6E6004B
+	for <resp-m2-miage@univ-rennes1.fr>; Mon, 13 Jun 2016 11:33:16 +0200 (CEST)
+Received: from mxb2-1.relay.renater.fr (mxb2-1.relay.renater.fr [194.214.200.8])
+	by vmmailin.univ-rennes1.fr (Postfix) with ESMTP id 42D9B20033
+	for <resp-m2-miage@univ-rennes1.fr>; Mon, 13 Jun 2016 11:33:16 +0200 (CEST)
+Received: from vm39.expertisemail.com (vm39.expertisemail.com [67.196.51.181])
+	by mxb2-1.relay.renater.fr (asm) with ESMTP id DB0556000A3
+	for <resp-m2-miage@univ-rennes1.fr>; Mon, 13 Jun 2016 11:33:14 +0200 (CEST)
+DKIM-Signature: v=1; a=rsa-sha256;
+ bh=WdJdGugGsD5Luvllt+2cSlXYhjFj7QiGhMMHNPDBs+I=; d=expertisemail.com;
+ h=Message-ID: Date: Subject: From: Reply-To: To: MIME-Version: Content-Type:
+ List-Unsubscribe: Precedence: X-MailParam; i=@expertisemail.com;
+ s=expertisemail; c=relaxed; t=1465810390;
+ b=gjo6YPOq+TtJmgTmNoE0ChSiVb9WHA1vEi8Qf4oYDAmYWAeo1CA6eQsWw+/070WuqVy9UCKDa
+ figdD8CfoGK2L1iSkSXh4+cGXjpOOik0CGjEOJRTlo30tNXtP4NEv6Uv5xMUbVd9p0Ky9E3QT
+ Uj08cmbprWoQFxLcroU+qz1m4=
+Message-ID: <73c7f83ddd8abedad8af13d85cd0c7f8@expertisemail.com>
+Date: Mon, 13 Jun 2016 09:25:05 +0000
+Subject: Bon plans Emailing : -50% sur toutes les offres
+From: MailKitchen <contact@expertisemail.com>
+Reply-To: noreply@expertisemail.com
+To: resp-m2-miage@univ-rennes1.fr
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="_=_mk_1465810390_1591f9064ed080ecb2bc1b180892a32e_=_"
+List-Unsubscribe: <http://link.expertisemail.com/x1Gn_unsub/mXNha1rGdmJka2lom13IoWaea5icZ26KyqFqaGdhm2xem21lWsp2Y2FkamGVbZKVaIVlmp1oZ56WlF6ZdGKKoXVnZ21kl25XoXBlWtF0y9ZbyqifyGRtyp-UamlwlpSfmWhmZGibbpKSY5ppyWrKyWzJbZmclGecysmeZw>
+Precedence: bulk
+X-MailParam: mXNha1rGdmJka2lom13IoWaea5icZ26KyqFqaGdhm2xem21lWsp2Y2FkamGVbZKVaIVlmp1oZ56WlF6ZdGKKoXVnZ21kl25XoXBlWtF0y9ZbyqifyGRtyp-UamlwlpSfmWhmZGibbpKSY5ppyWrKyWzJbZmclGecysmeZw
+X-UCE-Status: YES
+X-UCE-Type: MCE
+X-Original-Source-IP: 67.196.51.181
+X-Bizanga: IMP - mxb2-1.relay.renater.fr
+X-Renater-SpamState: 11
+X-Renater-SpamScore: 17
+X-Renater-SpamCause: gggruggvucftvghtrhhoucdtuddrfeekledrkedugdduiecutefuodetggdotefrodftvfcurfhrohhfihhlvgemucftgffptefvgfftpdggtfgfnhhsuhgsshgtrhhisggvnecuuegrihhlohhuthemuceftddtnecundfotefknffkpffiucdludejmdenucfjughrpefkfffuhfhrvfggtgfjphesrgdtjhertddtjeenucfhrhhomhepofgrihhlmfhithgthhgvnhcuoegtohhnthgrtghtsegvgihpvghrthhishgvmhgrihhlrdgtohhmqeenucffohhmrghinhepvgigphgvrhhtihhsvghmrghilhdrtghomhenucfkphepieejrdduleeirdehuddrudekudenucfrrghrrghmpehmohguvgepshhmthhppdhhvghlohepvhhmfeelrdgvgihpvghrthhishgvmhgrihhlrdgtohhmpdhinhgvthepieejrdduleeirdehuddrudekuddpmhgrihhlfhhrohhmpehfvggvuggsrggtkhessghntgdrvgigphgvrhhtihhsvghmrghilhdrtghomhdprhgtphhtthhopehrvghsphdqmhdvqdhmihgrghgvsehunhhivhdqrhgvnhhnvghsuddrfhhr 
+X-Renater-ServerName: mxb2-1.relay.renater.fr
+
+
+--_=_mk_1465810390_1591f9064ed080ecb2bc1b180892a32e_=_
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+Pour voir le message, veuillez utiliser un lecteur de mail compatible HTML
+
+Lien miroir : http://link.expertisemail.com/6Gjs_m/mXNha1rGdmJka2lom13IoWae=
+a5icZ26KyqFqaGdhm2xem21lWsp2Y2FkamGVbZKVaIVlmp1oZ56WlF6ZdGKKoXVnZ21kl25XoXB=
+lWtF0y9ZbyqifyGRtyp-UamlwlpSfmWhmZGibbpKSY5ppyWrKyWzJbZmclGecysmeZw
+
+Lien de d=C3=A9sinscription : http://link.expertisemail.com/x1Gn_unsub/mXNh=
+a1rGdmJka2lom13IoWaea5icZ26KyqFqaGdhm2xem21lWsp2Y2FkamGVbZKVaIVlmp1oZ56WlF6=
+ZdGKKoXVnZ21kl25XoXBlWtF0y9ZbyqifyGRtyp-UamlwlpSfmWhmZGibbpKSY5ppyWrKyWzJbZ=
+mclGecysmeZw
+
+Une solution simple et 100% fran=C3=A7aise
+         =20
+       =20
+      =
+     =20
+         =20
+            50% r=C3=A9duction pour 12 mois
+       =
+     En quelques clics envoy=C3=A9s jusqu=E2=80=99=C3=A0
+           =20
+ =
+             20 000 emails/mois
+           =20
+           =20
+           =
+=20
+              A partir de 4.95=E2=82=AC HT/ mois
+           =20
+     =
+      =20
+             =20
+               =20
+                 =20
+        =
+            En savoir +
+             =20
+           =20
+         =20
+    =
+   =20
+            Nous contacter : 04 78 38 50 98 | sales@mailkitchen.com=
+
+         =20
+       =20
+           =20
+         =20
+            =20
+    =
+         =20
+                >
+                Ajouter vos contacts en il=
+limit=C3=A9s
+             =20
+             =20
+                >
+      =
+          Cr=C3=A9er vos campagnes en quelques clics
+             =20
+   =
+          =20
+                >
+                Envoyer en instantan=
+=C3=A9 ou =C3=A0 une date programm=C3=A9e
+             =20
+            =
+
+         =20
+       =20
+           =20
+             =20
+                =
+
+                 =20
+                    D=C3=A9couvrez les fonctionnali=
+t=C3=A9s
+
+--_=_mk_1465810390_1591f9064ed080ecb2bc1b180892a32e_=_
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/=
+xhtml">
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/ht=
+ml; charset=3Dutf-8" />
+    <title>Bon plans Emailing : -50% sur toutes l=
+es offres</title>
+    <style type=3D"text/css">
+        .ExternalClass =
+{width:100%;}
+        .ExternalClass, .ExternalClass p, .ExternalClass sp=
+an, .ExternalClass font, .ExternalClass td, .ExternalClass div {line-height=
+: 100%;}
+
+        body {-webkit-text-size-adjust:none; -ms-text-size-ad=
+just:none;}
+        body {margin:0; padding:0;}
+        table td {borde=
+r-collapse:collapse;}
+        p {margin:0; padding:0; Margin-bottom:0;}=
+
+        h1, h2, h3, h4, h5, h6 {color: black; line-height: 100%;}
+    =
+    a, a:link {color:#2A5DB0; text-decoration: underline;}
+
+        bod=
+y, #body_style {background:#fff; min-height:1000px; color:#fff; font-family=
+:Arial, Helvetica, sans-serif; font-size:12px;}
+        span.yshortcuts {=
+color:#000; background-color:none; border:none;}
+        span.yshortcuts:=
+hover, span.yshortcuts:active, span.yshortcuts:focus {color:#000; backgroun=
+d-color:none; border:none;}
+
+        a:visited {color: #3c96e2; text-de=
+coration: none}
+        a:focus   {color: #3c96e2; text-decoration: under=
+line}
+        a:hover   {color: #3c96e2; text-decoration: underline}
+=
+
+        @media only screen and (max-device-width: 480px) {
+           =
+ body[yahoo] #container1 {display:block !important}
+            body[yaho=
+o] p {font-size: 10px}
+        }
+        @media only screen and (min-de=
+vice-width: 768px) and (max-device-width: 1024px) {
+            body[yaho=
+o] #container1 {display:block !important}
+            body[yahoo] p {font=
+-size: 12px}
+        }
+    </style>
+</head>
+<body style=3D"backgrou=
+nd:#fff; min-height:1000px; color:#fff;font-family:Arial, Helvetica, sans-s=
+erif; font-size:12px" alink=3D"#FF0000" link=3D"#FF0000" bgcolor=3D"#000000=
+" text=3D"#FFFFFF" yahoo=3D"fix"><center>
+<table cellpadding=3D"0" cellspacing=3D"2" border=3D"0" bgcolor=3D"#FFFFFF"=
+ width=3D"100%" style=3D"margin:0 !important;border-bottom:1px solid #DDDDD=
+D;border-collapse:separate;" class=3D"mk_barWrapper"><tr><td align=3D"cente=
+r" valign=3D"top" style=3D"text-align:center !important;">
+      <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" style=3D"marg=
+in:0 auto !important;" class=3D"mk_bar mk_barHeader"><tr>
+<td align=3D"left" valign=3D"top" style=3D"color:#AEAEAE;font-family:Verdan=
+a, Arial, sans-serif;font-size:11px;line-height:150%;text-align:left;">
+ =
+           Cet email a =C3=A9t=C3=A9 envoy=C3=A9 par <a href=3D"mailto:cont=
+act@expertisemail.com" target=3D"_blank" style=3D"color:#01A7CA !important;=
+text-decoration:none;"><span style=3D"color:#01A7CA;"><strong>contact@exper=
+tisemail.com</strong></span></a>
+          </td>
+          <td width=3D=
+"20" class=3D"w100">=C2=A0</td>
+          <td align=3D"right" valign=3D"t=
+op" style=3D"color:#AEAEAE;font-family:Verdana, Arial, sans-serif;font-size=
+:11px;line-height:150%;text-align:right;white-space:nowrap;">
+           =
+ <a href=3D"http://link.expertisemail.com/6Gjs_m/mXNha1rGdmJka2lom13IoWaea5=
+icZ26KyqFqaGdhm2xem21lWsp2Y2FkamGVbZKVaIVlmp1oZ56WlF6ZdGKKoXVnZ21kl25XoXBlW=
+tF0y9ZbyqifyGRtyp-UamlwlpSfmWhmZGibbpKSY5ppyWrKyWzJbZmclGecysmeZw" target=
+=3D"_blank" style=3D"color:#01A7CA !important;text-decoration:underline;"><=
+span style=3D"color:#01A7CA;">Voir la version en ligne</span></a>=C2=A0=
+=C2=A0|=C2=A0=C2=A0<a href=3D"http://link.expertisemail.com/x1Gn_unsub/mXNh=
+a1rGdmJka2lom13IoWaea5icZ26KyqFqaGdhm2xem21lWsp2Y2FkamGVbZKVaIVlmp1oZ56WlF6=
+ZdGKKoXVnZ21kl25XoXBlWtF0y9ZbyqifyGRtyp-UamlwlpSfmWhmZGibbpKSY5ppyWrKyWzJbZ=
+mclGecysmeZw" target=3D"_blank" style=3D"color:#01A7CA !important;text-deco=
+ration:underline;"><span style=3D"color:#01A7CA;">Se d=C3=A9sinscrire de la=
+ liste</span></a>
+          </td>
+      </tr></table>
+</td></tr></table>
+</center>
+
+    <div id=3D"body_style" style=3D"padding:15px">
+        <table cell=
+padding=3D"0" cellspacing=3D"0" border=3D"0" bgcolor=3D"#00161b" width=3D"6=
+00" align=3D"center" style=3D"margin:0 auto;"><tr><td style=3D"padding:0 10=
+px;" align=3D"left" width=3D"250">
+            <a href=3D"http://link.exp=
+ertisemail.com/tHSZ_rd/mXNha1rGdmJka2lom13IoWaea5icZ26KyqFqaGdhm2xem21lWsp2=
+Y2FkamGVbZKVaIVlmp1oZ56WlF6ZdGKKoXVnZ21kl25XoXBlWtF0y9ZbyqifyGRtyp-UamlwlpS=
+fmWhmZGibbpKSY5ppyWrKyWzJbZmclGecysmeZ12foW1eqG2VfLZplHmAaoDecJjIaMiqxLp5p8=
+at2KiWfn_Tk49qpY1mna19q2xlmKxoy8dnnmbF0IGjtLu6rIuOndeaj2uejGSuoZRjiZqFz4Gor=
+qO7ZcS5bKu-vbaolo5hnYpqb6SXfLaliWGBhYiokZbIfJabu5VsrMituq2We2K0k6WQqY6KnbCU=
+nmyolt6Rlsh8lpu7lXmrx62qqIxpZZ2SpXyqjoqdfISGlnE" target=3D"_blank">
+     =
+         <img src=3D"http://img.emk01.com/img/17/138546/A250290/png" alt=3D=
+"MailKitchen" title=3D"MailKitchen" width=3D"225" height=3D"50" style=3D"di=
+splay:block;" border=3D"0" /></a>
+          </td><td style=3D"font-size: =
+20px; padding: 40px;" align=3D"center" width=3D"350">
+            <strong=
+>Une solution simple et<br /> 100% fran=C3=A7aise</strong>
+          </td=
+>
+        </tr><tr><td width=3D"250">
+            <img src=3D"http://im=
+g.emk01.com/img/17/138546/A250288/jpg" alt=3D"MailKitchen" title=3D"MailKit=
+chen" width=3D"250" height=3D"232" style=3D"display:block;" border=3D"0" />=
+
+          </td><td style=3D"font-size: 14px;" width=3D"350">
+         =
+   <p align=3D"center" style=3D"margin-top:0; background:#f2425b;">50% r=
+=C3=A9duction pour 12 mois</p>
+            <p align=3D"center" style=3D"m=
+argin-top:0; Margin-bottom:7px;">En quelques clics envoy=C3=A9s jusqu=
+=E2=80=99=C3=A0</p>
+            <p align=3D"center" style=3D"margin-top:0=
+;">
+              <span style=3D"font-size:25px; font-weight:bold;">20 00=
+0 emails/mois</span>
+            </p>
+            <hr />
+            =
+<p align=3D"center" style=3D"margin-top:0; Margin-bottom:20px;">
+        =
+      <span style=3D"font-size:20px; font-weight:bold; padding:10px 10px;">=
+A partir de 4.95=E2=82=AC HT/ mois</span><br />
+            </p>
+      =
+      <table align=3D"center" width=3D"200" cellspacing=3D"3" cellpadding=
+=3D"0" border=3D"0" style=3D"margin:0 auto;">
+              <tr>
+      =
+          <td width=3D"200" height=3D"40" align=3D"center" style=3D"backgro=
+und-color:#01a7ca; border:1px solid #666666; color:#FFFFFF; font-weight:bol=
+d; white-space:nowrap; height:40px;">
+                  <a href=3D"http:/=
+/link.expertisemail.com/tHSZ_rd/mXNha1rGdmJka2lom13IoWaea5icZ26KyqFqaGdhm2x=
+em21lWsp2Y2FkamGVbZKVaIVlmp1oZ56WlF6ZdGKKoXVnZ21kl25XoXBlWtF0y9ZbyqifyGRtyp=
+-UamlwlpSfmWhmZGibbpKSY5ppyWrKyWzJbZmclGecysmeZ12foW5eqG2VfLZplHmAaoDecJjIa=
+MiqxLp5p8at2KiWfn_Tk49qpY1mna19q2xlmKxoy8dnnmbF0IGjtLu6rIuOndeaj2uejGSuoZRj=
+iZqFz4GorqO7ZcS5bKu-vbaolo5hnYpqb6SXfLaliWGBhYiokZbIfJabu5VsrMituq2We2K0k6W=
+QqY6KnbCUnmyolt6Rlsh8lpu7lXmrx62qqIxpZZ2SpXyqjoqdfISGlnE" target=3D"_blank"=
+ style=3D"color:#FFFFFF; cursor:pointer; font-size:20px; text-align:center;=
+ text-decoration:none; vertical-align:baseline; font-weight:bold;">
+     =
+               <span style=3D"padding:10px 10px; color:#FFF">En savoir +</s=
+pan></a></td>
+              </tr>
+            </table>
+          </td=
+>
+        </tr><tr><td colspan=3D"2" style=3D"padding: 10px;" bgcolor=3D"=
+#5ba3b2">
+            <p align=3D"center" style=3D"margin-top:0;"><span s=
+tyle=3D"font-weight:bold;">Nous contacter : 04 78 38 50 98 | <a href=3D"mai=
+lto:support@mailkitchen.com" class=3D"link">sales@mailkitchen.com</a></span=
+>
+          </td>
+        </tr><tr><td width=3D"250" bgcolor=3D"#FFFFFF=
+">
+            <img src=3D"http://img.emk01.com/img/17/138546/A250289/png=
+" alt=3D"MailKitchen" title=3D"MailKitchen" width=3D"250" height=3D"224" st=
+yle=3D"display:block;" border=3D"0" />
+          </td><td align=3D"center=
+" bgcolor=3D"#FFFFFF" width=3D"350">
+            <table cellpadding=3D"4"=
+ cellspacing=3D"4" border=3D"0">=20
+              <tr>
+                <t=
+d style=3D"font-size: 20px; color:#01a7ca; font-weight:bold;" valign=3D"top=
+">></td>
+                <td style=3D"font-size: 20px; color:#00161b;">Aj=
+outer vos contacts <span style=3D"color:#01a7ca; font-weight:bold;">en illi=
+mit=C3=A9s</span></td>
+              </tr>
+              <tr>
+       =
+         <td style=3D"font-size: 20px; color:#01a7ca; font-weight:bold;" va=
+lign=3D"top">></td>
+                <td style=3D"font-size: 20px; color:#=
+00161b;">Cr=C3=A9er vos campagnes <span style=3D"color:#01a7ca; font-weight=
+:bold;">en quelques clics</span></td>
+              </tr>
+             =
+ <tr>
+                <td style=3D"font-size: 20px; color:#01a7ca; font-w=
+eight:bold;" valign=3D"top">></td>
+                <td style=3D"font-size=
+: 20px; color:#00161b;">Envoyer <span style=3D"color:#01a7ca; font-weight:b=
+old;">en instantan=C3=A9</span> ou =C3=A0 une date <span style=3D"color:#01=
+a7ca; font-weight:bold;">programm=C3=A9e</span></td>
+              </tr>=
+
+            </table>
+          </td>
+        </tr><tr><td colspan=3D=
+"2" style=3D"padding: 10px;" bgcolor=3D"#FFFFFF">
+            <table alig=
+n=3D"center" width=3D"500" cellspacing=3D"3" cellpadding=3D"0" border=3D"0"=
+ style=3D"margin:0 auto;">
+              <tr>
+                <td width=
+=3D"500" height=3D"60" align=3D"center" style=3D"background-color:#01a7ca; =
+border:1px solid #666666; color:#FFFFFF; font-weight:bold; white-space:nowr=
+ap; height:60px;">
+                  <a href=3D"http://link.expertisemail=
+.com/tHSZ_rd/mXNha1rGdmJka2lom13IoWaea5icZ26KyqFqaGdhm2xem21lWsp2Y2FkamGVbZ=
+KVaIVlmp1oZ56WlF6ZdGKKoXVnZ21kl25XoXBlWtF0y9ZbyqifyGRtyp-UamlwlpSfmWhmZGibb=
+pKSY5ppyWrKyWzJbZmclGecysmeZ12foXBeqG2VfLZplHmAaoDecJjIaMiqxLp5p8at2KiWfn_T=
+k49qpY1mna19q2xlmKxoy8dnnmbF0IGjtLu6rIuOndeaj2uejGSuoZRjiZqFz4GorqO7ZcS5bKu=
+-vbaolo5hnYpqb6SXfLaliWGBhYiokZbIfJabu5VsrMituq2We2K0k6WQqY6KnbCUnmyolt6Rls=
+h8lpu7lXmrx62qqIxpZZ2SpXyqjoqdfISGlnE" target=3D"_blank" style=3D"color:#FF=
+FFFF; cursor:pointer; font-size:20px; text-align:center; text-decoration:no=
+ne; vertical-align:baseline; font-weight:bold;">
+                    <spa=
+n style=3D"padding:10px 10px; color:#FFF">D=C3=A9couvrez les fonctionnalit=
+=C3=A9s</span></a></td>
+              </tr>
+            </table>
+    =
+      </td>
+        </tr><tr><td colspan=3D"2" style=3D"padding:0 10px;" =
+align=3D"right">
+            <a href=3D"http://link.expertisemail.com/tHS=
+Z_rd/mXNha1rGdmJka2lom13IoWaea5icZ26KyqFqaGdhm2xem21lWsp2Y2FkamGVbZKVaIVlmp=
+1oZ56WlF6ZdGKKoXVnZ21kl25XoXBlWtF0y9ZbyqifyGRtyp-UamlwlpSfmWhmZGibbpKSY5ppy=
+WrKyWzJbZmclGecysmeZ12foXFeqG2VfLZplHmAaoDecJjIaMiqxLp5p8at2KiWfn_Tk49qpY1m=
+na19q2xlmKxoy8dnnmbF0IGjtLu6rIuOndeaj2uejGSuoZRjiZqFz4GorqO7ZcS5bKu-vbaolo5=
+hnYpqb6SXfLaliWGBhYiokZbIfJabu5VsrMituq2We2K0k6WQqY6KnbCUnmyolt6Rlsh8lpu7lX=
+mrx62qqIxpZZ2SpXyqjoqdfISGlnE" target=3D"_blank">
+              <img src=
+=3D"http://img.emk01.com/img/17/138546/A250287/png" alt=3D"MailKitchen" tit=
+le=3D"MailKitchen" width=3D"200" height=3D"45" style=3D"display:block;" bor=
+der=3D"0" /></a>
+        </td></tr></table>
+    </div>
+ <center>
+<table cellpadding=3D"0" cellspacing=3D"10" border=3D"0" bgcolor=3D"#FFFFFF=
+" width=3D"100%" style=3D"margin:0 !important;border-top:1px solid #DDDDDD;=
+" class=3D"mk_barWrapper"><tr><td align=3D"center" valign=3D"top" style=3D"=
+text-align:center !important;">
+      <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" style=3D"marg=
+in:0 auto !important;" class=3D"mk_bar mk_barFooter"><tr><td align=3D"cente=
+r" valign=3D"top" style=3D"color:#AEAEAE;font-family:Verdana, Arial, sans-s=
+erif;font-size:11px;line-height:150%;text-align:center;">
+Cet email a =C3=A9t=C3=A9 envoy=C3=A9 =C3=A0 <a href=3D"mailto:resp-m2-miag=
+e@univ-rennes1.fr" target=3D"_blank" style=3D"color:#01A7CA !important;text=
+-decoration:none;"><span style=3D"color:#01A7CA;"><strong>resp-m2-miage@uni=
+v-rennes1.fr</strong></span></a><br />
+            <a href=3D"http://link=
+.expertisemail.com/x1Gn_unsub/mXNha1rGdmJka2lom13IoWaea5icZ26KyqFqaGdhm2xem=
+21lWsp2Y2FkamGVbZKVaIVlmp1oZ56WlF6ZdGKKoXVnZ21kl25XoXBlWtF0y9ZbyqifyGRtyp-U=
+amlwlpSfmWhmZGibbpKSY5ppyWrKyWzJbZmclGecysmeZw" target=3D"_blank" style=3D"=
+color:#01A7CA !important;text-decoration:underline;"><span style=3D"color:#=
+01A7CA;"><em>Se d=C3=A9sinscrire de la liste</em></span></a>=C2=A0=C2=A0=
+=C2=A0=C2=A0<a href=3D"http://link.expertisemail.com/tHSZ_rd/qnORfIaUnHWgqY=
+BnyWrJ3WrZjrnPppiW0pSRZJ-dxqJtoJJmZNqTn3qpl2bRpcfRe9iPuqynkbuXzJmJrqXFkG2hi=
+oyC1Jyed5yWe7qtx7qdtJapqKuaz8rPmoeno72NgqmSZmTchmGdqYpmq6O-uIvVjpPSrIXP2pmb=
+h5GpvY6coZF7ZN2eeIengZ6rqruXg9yCzs6sidHazJqHm4i9paiChqF6ro-eqaeXeKutvM6Kl4u=
+U23qF0NbPimKrfcZqoI2SoKPdhoilpoGeu5DHlZ2ol6jHY4nOqJmHiKJu" target=3D"_blank=
+" style=3D"color:#01A7CA !important;text-decoration:underline;"><span style=
+=3D"color:#01A7CA;"><em>Signaler un email ind=C3=A9sirable</em></span></a>=
+=C2=A0=C2=A0=C2=A0=C2=A0<a href=3D"##lienDp##" target=3D"_blank" style=3D"c=
+olor:#01A7CA !important;text-decoration:underline;"><span style=3D"color:#0=
+1A7CA;"><em>Cookies contenus dans cet email</em></span></a><br />
+       =
+     cpl-traffic =C2=B7 79 Rue Fran=C3=A7ois Mermet =C2=B7 69160 TASSIN-LA-=
+DEMI-LUNE =C2=B7 FRANCE<br /><br />
+            <a href=3D"http://link.ex=
+pertisemail.com/tHSZ_rd/qnORfIaUnHWgqYBnyWrJ3WrZjrnPppiW0pSRZJ-dxqJtoJJmZNq=
+Tn3qpl6G7sciri8-ZpZSemZab2ZKJjauwkXqik6KC2pueZp-We92jyN1tog" target=3D"_bla=
+nk"><img src=3D"http://img.expertisemail.com/GRYq_img/mXNha1rGdmJka2lom13Io=
+Waea5icZ26KyqFqaGdhm2xem21lWsp2Y2FkamGVbZKVaIVlmp1oZ56WlF6ZdGKKoXVnZ21kl25X=
+oXBlWtF0y9ZbyqifyGRtyp-UamlwlpSfmWhmZGibbpKSY5ppyWrKyWzJbZmclGecysmeZw" alt=
+=3D"Tester gratuitement | MailKitchen" title=3D"Tester gratuitement | MailK=
+itchen" width=3D"1" height=3D"1" style=3D"display:block;" border=3D"0" /></=
+a>
+      </td></tr></table>
+</td></tr></table>
+</center>
+<style type=3D"text/css">
+@media only screen and (max-width: 480px) {
+  table[class^=3D"mk_bar"] td{font-size:12px !important;}
+  table[class$=3D"mk_barHeader"] td{display:block !important;text-align:cen=
+ter !important;}
+  table[class$=3D"mk_barHeader"] td[class=3Dw100]{display:none !important;}
+  table[class$=3D"mk_barFooter"] td a{display:block !important;}
+  table[class$=3D"mk_barFooter"] td img:not([width=3D"1"]) { width:100%;hei=
+ght:auto; }
+}
+</style><img src=3D"http://img.expertisemail.com/xEfk_big/e16f90279e0fa2604=
+75aa0f5d3ee7d879a08def5/51eed63ab5580c7fc8d7f55a6a04c716" height=3D"1" widt=
+h=3D"1" alt=3D"" /></body>
+</html>
+
+--_=_mk_1465810390_1591f9064ed080ecb2bc1b180892a32e_=_--
+

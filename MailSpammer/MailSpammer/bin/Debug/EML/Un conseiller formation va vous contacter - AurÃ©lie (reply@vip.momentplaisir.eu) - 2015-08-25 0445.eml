@@ -1,0 +1,800 @@
+Return-Path: <bnc-129-data_sendout_55dbd55721ad1_106-769@bounce.vip.momentplaisir.eu>
+Received: from mailimailo.univ-rennes1.fr ([unix socket])
+	 by mailimailo.univ-rennes1.fr (Cyrus v2.3.16-Fedora-RPM-2.3.16-6.el6_2.5) with LMTPA;
+	 Tue, 25 Aug 2015 04:45:26 +0200
+X-Sieve: CMU Sieve 2.3
+Received: from vmsmtprexch.univ-rennes1.fr (vmsmtprexch.univ-rennes1.fr [129.20.128.62])
+	by mailimailo.univ-rennes1.fr (Postfix) with ESMTP id 60F9C26A0A38
+	for <resp-m2-miage@univ-rennes1.fr>; Tue, 25 Aug 2015 04:45:26 +0200 (CEST)
+Received: from mbcasexch3.Ur.local (mbcasexch3.univ-rennes1.fr [129.20.125.131])
+	by vmsmtprexch.univ-rennes1.fr (Postfix) with ESMTP id 5D68C18F
+	for <resp-m2-miage@univ-rennes1.fr>; Tue, 25 Aug 2015 04:45:26 +0200 (CEST)
+X-CrossPremisesHeadersFilteredBySendConnector: mbcasexch3.Ur.local
+Received: from mbcasexch1.Ur.local (2002:8114:7d81::8114:7d81) by
+ mbcasexch3.Ur.local (2002:8114:7d83::8114:7d83) with Microsoft SMTP Server
+ (TLS) id 15.0.913.22; Tue, 25 Aug 2015 04:45:26 +0200
+Received: from vmrelais.univ-rennes1.fr (129.20.131.133) by
+ mbcasexch1.Ur.local (129.20.125.129) with Microsoft SMTP Server id
+ 15.0.913.22 via Frontend Transport; Tue, 25 Aug 2015 04:45:25 +0200
+Received: from localhost (vmscanmail.univ-rennes1.fr [129.20.128.134])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id EE7B160025
+	for <resp-m2-miage@univ-rennes1.fr>; Tue, 25 Aug 2015 04:45:25 +0200 (CEST)
+X-Virus-Scanned: amavisd-new at univ-rennes1.fr
+Received: from vmrelais.univ-rennes1.fr ([129.20.131.133])
+	by localhost (vmscanmail.univ-rennes1.frm [129.20.128.134]) (amavisd-new, port 10026)
+	with ESMTP id lkCAFnj5lV1P for <resp-m2-miage@univ-rennes1.fr>;
+	Tue, 25 Aug 2015 04:45:25 +0200 (CEST)
+Received: from vmmailin.univ-rennes1.fr (vmmailin.univ-rennes1.fr [129.20.128.133])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id C52B360020
+	for <resp-m2-miage@univ-rennes1.fr>; Tue, 25 Aug 2015 04:45:25 +0200 (CEST)
+Received: from mxb2-2.relay.renater.fr (mxb2-2.relay.renater.fr [194.214.200.9])
+	by vmmailin.univ-rennes1.fr (Postfix) with ESMTP id BCD0920033
+	for <resp-m2-miage@univ-rennes1.fr>; Tue, 25 Aug 2015 04:45:25 +0200 (CEST)
+Received: from mta8.vip.actusduweb.eu (mta8.vip.actusduweb.eu [92.39.249.31])
+	by mxb2-2.relay.renater.fr (asm) with ESMTP id 7A97F6000EB
+	for <resp-m2-miage@univ-rennes1.fr>; Tue, 25 Aug 2015 04:45:25 +0200 (CEST)
+Received: from localhost (localhost [127.0.0.1])
+	by mta8.vip.actusduweb.eu (Postfix) with ESMTP id C52D93BC132
+	for <resp-m2-miage@univ-rennes1.fr>; Tue, 25 Aug 2015 04:45:24 +0200 (CEST)
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; d=vip.momentplaisir.eu;
+	s=default; t=1440470724; bh=WK3SJmspivHN3hzhRmcC30w/Hy0=;
+	h=Date:From:Reply-To:To:Subject:List-Unsubscribe;
+	b=sdi0QKWvmCn7CO09C60F0Z1H4+UX3pyB+rPqJR4oszT9eNNpL1pOy24QVabwE5mHS
+	 oax4LQ0UzplJjzT57rzhleGr7tr4/5/ZtUXON0aBOwe5fZ26egEwT+R/yIHIm35KLm
+	 iqJ3e4kxd0TzYgQlm20Pr/7LSkqcn9E9ppFjnZVg=
+Date: Tue, 25 Aug 2015 02:45:24 +0000
+From: =?utf-8?Q?Aur=C3=83=C2=A9lie?= <reply@vip.momentplaisir.eu>
+Reply-To: <reply@vip.momentplaisir.eu>
+To: <resp-m2-miage@univ-rennes1.fr>
+Message-ID: <1440470724-data_sendout_55dbd55721ad1_106567845345AB@vip.momentplaisir.eu>
+Subject: Un conseiller formation va vous contacter
+List-Unsubscribe: <http://red.vip.actusduweb.eu/Unsubscribe.php?email=resp-m2-miage%40univ-rennes1.fr&mid=254888>
+X-Slip-uID: 2257721
+X-Slip-active: N|desactivated|
+X-BeverlyMail-Recipient: resp-m2-miage@univ-rennes1.fr
+X-BeverlyMail-MTA: 769
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="=_954cbd961f68a42b2598cbc6b9c446ec"
+Precedence: Bulk
+Feedback-ID: data_sendout_55dbd55721ad1_106:2257721:129:SLIPSOFTWARE
+X-UCE-Status: YES
+X-UCE-Type: MCE
+X-Original-Source-IP: 92.39.249.31
+X-Bizanga: IMP - mxb2-2.relay.renater.fr
+X-Renater-SpamState: 11
+X-Renater-SpamScore: 17
+X-Renater-SpamCause: gggruggvucftvghtrhhoucdtuddrfeekfedrheeigdeiiecutefuodetggdotefrucfrrhhofhhilhgvmecutffgpfetvffgtfdpggftfghnshhusghstghrihgsvgenuceurghilhhouhhtmecufedttdenucdnofetkffnkffpifculddujedmnecujfgurhepfffhrhfvkffujfggtghpsegrtderredttddunecuhfhrohhmpeetuhhrnmkvlhhivgcuoehrvghplhihsehvihhprdhmohhmvghnthhplhgrihhsihhrrdgvuheqnecuffhomhgrihhnpehmohhmvghnthhplhgrihhsihhrrdgvuh 
+X-Renater-ServerName: mxb2-2.relay.renater.fr
+X-OrganizationHeadersPreserved: mbcasexch3.Ur.local
+
+--=_954cbd961f68a42b2598cbc6b9c446ec
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain; charset="utf-8"
+
+AFPA
+Les bons plans du web vous sont proposs par Moment Plaisir
+Pour afficher l'ensemble du message, rendez-vous ici
+http://www.momentplaisir.eu/n2/502096/232898091/112b529cd4
+http://www.momentplaisir.eu/c2/502096/232898091/112b529cd4/1
+Premier organisme de formation des actifs
+http://www.momentplaisir.eu/c2/502096/232898091/112b529cd4/2
+http://www.momentplaisir.eu/c2/502096/232898091/112b529cd4/3
+http://www.momentplaisir.eu/c2/502096/232898091/112b529cd4/4
+http://www.momentplaisir.eu/c2/502096/232898091/112b529cd4/5
+DES MTIERS ATTRACTIFS : accueil, animation, vente, conseil
+http://www.momentplaisir.eu/c2/502096/232898091/112b529cd4/6
+http://www.momentplaisir.eu/c2/502096/232898091/112b529cd4/7
+de nombreux employeurs : VOYAGISTES (tours oprateurs, agences de
+voyages) ou COLLECTIVITS LOCALES (comits rgionaux du tourisme par
+exemple)
+http://www.momentplaisir.eu/c2/502096/232898091/112b529cd4/8
+http://www.momentplaisir.eu/c2/502096/232898091/112b529cd4/9
+UN SECTEUR EN PLEINE VOLUTION : dveloppement des ventes sur internet,
+du tourisme quitable, des modes d'hbergement conomique, du tourisme de
+proximit
+http://www.momentplaisir.eu/c2/502096/232898091/112b529cd4/11
+http://www.momentplaisir.eu/c2/502096/232898091/112b529cd4/12
+http://www.momentplaisir.eu/c2/502096/232898091/112b529cd4/13
+http://www.momentplaisir.eu/c2/502096/232898091/112b529cd4/14
+http://www.momentplaisir.eu/c2/502096/232898091/112b529cd4/15
+POURQUOI PAS VOUS ?
+http://www.momentplaisir.eu/c2/502096/232898091/112b529cd4/16
+Avec nos formations, l'emploi est au rendez-vous !
+http://www.momentplaisir.eu/c2/502096/232898091/112b529cd4/17
+http://www.momentplaisir.eu/c2/502096/232898091/112b529cd4/18
+http://www.momentplaisir.eu/c2/502096/232898091/112b529cd4/19
+http://www.momentplaisir.eu/c2/502096/232898091/112b529cd4/20
+http://www.momentplaisir.eu/c2/502096/232898091/112b529cd4/21
+http://www.momentplaisir.eu/c2/502096/232898091/112b529cd4/22
+http://www.momentplaisir.eu/c2/502096/232898091/112b529cd4/23
+http://www.momentplaisir.eu/c2/502096/232898091/112b529cd4/24
+http://www.momentplaisir.eu/c2/502096/232898091/112b529cd4/25
+http://www.momentplaisir.eu/c2/502096/232898091/112b529cd4/26
+http://www.momentplaisir.eu/c2/502096/232898091/112b529cd4/27
+1er organisme de formation des actifs.
+Forte de son rseau de centres sur l'ensemble du territoire national,
+l'Afpa propose une offre globale de formations qualifiantes et
+certifiantes, et des services adapts tous les actifs. A commencer par
+ceux qui sont les plus loigns de l'emploi.
+Se rendre sur le site de l'Afpa.
+http://www.momentplaisir.eu/c2/502096/232898091/112b529cd4/30
+http://www.momentplaisir.eu/c2/502096/232898091/112b529cd4/31
+http://www.momentplaisir.eu/c2/502096/232898091/112b529cd4/32
+PARCE QU'ON A TOUS DROIT A PLUSIEURS
+VIES PROFESSIONNELLES.
+http://www.momentplaisir.eu/c2/502096/232898091/112b529cd4/34
+http://www.momentplaisir.eu/c2/502096/232898091/112b529cd4/35
+ACCDER L'ESPACE CANDIDAT
+http://www.momentplaisir.eu/c2/502096/232898091/112b529cd4/36
+Si vous ne voulez plus recevoir ces lettres d'information, vous
+pouvez vous dsabonner
+http://www.momentplaisir.eu/u/502096/232898091/112b529cd4/fr
+--=_954cbd961f68a42b2598cbc6b9c446ec
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset="utf-8"
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www=
+=2Ew3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml">
+<head>
+<style type=3D"text/css">
+=2EReadMsgBody {width: 100%;}
+=2EExternalClass {width: 100%;}
+=2EExternalClass * {line-height: 100%;}
+span.yshortcuts { color:#000; background-color:none; border:none;}
+span.yshortcuts:hover,span.yshortcuts:active,span.yshortcuts:focus {color:#=
+000; background-color:none; border:none;}
+#outlook a {padding: 0;}
+body {width: 100% !important;min-width: 100%;-webkit-text-size-adjust: 100%=
+;-ms-text-size-adjust: 100%;margin: 0;padding: 0;}
+=2EExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass fon=
+t, .ExternalClass td, .ExternalClass div {line-height: 100%;}
+a img {border: none;}
+p {margin: 0 0 0 10px;}
+table {border-spacing: 0;border-collapse: collapse;}
+td {word-break: break-word;-webkit-hyphens: auto;-moz-hyphens: auto;hyphens=
+: auto;border-collapse: collapse !important;}
+table, tr, td {padding: 0;}
+@media only screen and (max-device-width: 600px) {body {width: 100% !import=
+ant;margin: 0 !important;padding: 0 !important;}
+*[class=3D"no-mobile"] {display: none;}
+td[class=3D"w100"] {display: block !important;}
+*[class=3D"textleft"] {text-align: left !important;}
+*[class=3D"w1"] {width: 1% !important;}
+*[class=3D"w5"] {width: 5% !important;}
+*[class=3D"w10"] {width: 10% !important;}
+*[class=3D"w20"] {width: 20% !important;}
+*[class=3D"w30"] {width: 30% !important;}
+*[class=3D"w40"] {width: 40% !important;}
+*[class=3D"w49"] {width: 49% !important;}
+*[class=3D"w50"] {width: 50% !important;}
+*[class=3D"w60"] {width: 60% !important;}
+*[class=3D"w70"] {width: 70% !important;}
+*[class=3D"w80"] {width: 80% !important;}
+*[class=3D"w94"] {width: 94% !important}
+*[class=3D"w90"] {width: 90% !important;}
+*[class=3D"w98"] {width: 98% !important;}
+*[class=3D"w99"] {width: 99% !important;}
+*[class=3D"w100"] {width: 100% !important;float: left !important;}
+*[class=3D"w100"] > * {width: 100% !important;}
+*[class=3D"w10px"] {width: 10px !important;display: block !important;}
+*[class=3D"text"] font, font[class=3D"text"] {font-size: 16px !important;li=
+ne-height: 16px !important;}
+td[class=3D"text"] {line-height: 16px !important;}
+*[class=3D"text12"] font, font[class=3D"text12"] {font-size: 12px !importan=
+t;line-height: 12px !important;}
+td[class=3D"text12"] {line-height: 12px !important;}
+*[class=3D"text16"] font, font[class=3D"text16"] {font-size: 14px !importan=
+t;line-height: 16px !important;}
+td[class=3D"text16"] {line-height: 16px !important;}
+*[class=3D"titre"] font, font[class=3D"titre"] {font-size: 20px !important;=
+line-height: 20px !important;}
+td[class=3D"titre"] {line-height: 20px !important;}
+td[class=3D"titre"] font {font-size: 20px !important;}
+*[class=3D"titre"] {font-size: 20px !important;}
+*[class=3D"titre24"] {font-size: 24px !important;line-height: 24px !importa=
+nt;}
+*[class=3D"text17"] {font-size: 17px !important;line-height: 17px !importan=
+t;}
+*[class=3D"h20"] {height: 20px !important;}
+*[class=3D"small-text"] {font-size: 13px !important;}
+*[class=3D"text-center"] {text-align: center !important;display: block !imp=
+ortant;}
+td[class=3D"small-text"], table[id=3D"footer"] td["w100"] {line-height:14px=
+ !important;}
+td[class=3D"small-text"] font, table[id=3D"footer"] font {font-size: 13px !=
+important;}
+td[class=3D"annonce"] img {width: 100% !important;height: auto !important;}
+img {height: auto !important;}
+img[class=3D"w100Han"] {height: inherit !important;width: 100% !important;}
+</style>
+<meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=3D1=
+=2E0"/>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DISO-8859-=
+1" />
+<title>AFPA</title>
+</head>
+<body style=3D"margin:0;padding:0;min-width:100%;-webkit-text-size-adjust:n=
+one;"><div id=3D"template_header_auto_include" ><center>
+<p style=3D"font-size:13px;text-align:center;font-family:Arial, Helvetica, =
+sans-serif;color:#000">
+Les bons plans du web vous sont propos&eacute;s par Moment Plaisir
+</p>
+<p style=3D"font-size:13px;text-align:center;font-family:Arial, Helvetica, =
+sans-serif;color:#000">
+Pour afficher l'ensemble du message, rendez-vous <a href=3D"http://red.vip=
+=2Emomentplaisir.eu/click/YToxOntzOjM6InRhZyI7czozMDoiZGF0YV9zZW5kb3V0XzU1Z=
+GJkNTU3MjFhZDFfMTA2Ijt9/cmVzcC1tMi1taWFnZSU0MHVuaXYtcmVubmVzMS5mcg=3D=3D/44=
+31082/254888" target=3D"_blank">ici</a>
+</p>
+</center></div><table width=3D"98%" border=3D"0" align=3D"center" cellpaddi=
+ng=3D"0" cellspacing=3D"0">
+<tr><td align=3D"center">
+<center>
+<table width=3D"600" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" class=
+=3D"w100" bgcolor=3D"#FFFFFF" style=3D"background-color:#FFFFFF;">
+<tr>
+<td width=3D"100%" align=3D"center" class=3D"w100"><table width=3D"100%" bo=
+rder=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tr>
+<td width=3D"100%" align=3D"center"><table width=3D"287px" border=3D"0" cel=
+lspacing=3D"0" cellpadding=3D"0" align=3D"left" class=3D"w100">
+<tr>
+<td width=3D"106" align=3D"left" class=3D"w20"><a href=3D"http://red.vip.mo=
+mentplaisir.eu/click/YToxOntzOjM6InRhZyI7czozMDoiZGF0YV9zZW5kb3V0XzU1ZGJkNT=
+U3MjFhZDFfMTA2Ijt9/cmVzcC1tMi1taWFnZSU0MHVuaXYtcmVubmVzMS5mcg=3D=3D/4431083=
+/254888" target=3D"_blank" style=3D"border:none; text-decoration:none;"><im=
+g src=3D"http://img.momentplaisir.eu/502096/Template_Emailing_Afpa_v3_01.jp=
+g" alt=3D"afpa" width=3D"106" height=3D"95" class=3D"w100" style=3D"display=
+:block;border:none;" border=3D"0"/></a></td>
+<td width=3D"158" align=3D"left" valign=3D"middle" class=3D"w80"><table wid=
+th=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tr>
+<td width=3D"141" align=3D"left" valign=3D"top"><font face=3D"Arial, Helvet=
+ica, sans-serif" style=3D"font-size:12px;color:#000000;" class=3D"text">Pre=
+mier organisme de
+formation des actifs</font></td>
+<td width=3D"30" align=3D"left"><img src=3D"http://img.momentplaisir.eu/502=
+096/Template_Emailing_Afpa_v5_04.jpg" alt=3D"#" width=3D"30" height=3D"31" =
+class=3D"w100" style=3D"display:block;border:none;" border=3D"0"/></td>
+</tr>
+</table></td>
+</tr>
+</table>
+<table width=3D"287px" border=3D"0" align=3D"right" cellpadding=3D"0" cells=
+pacing=3D"0" class=3D"w100">
+<tr>
+<td width=3D"100%" height=3D"20" align=3D"left" bgcolor=3D"#FFFFFF" style=
+=3D"background-color:#FFFFFF;"> </td>
+</tr>
+</table></td>
+</tr>
+</table>
+<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" alig=
+n=3D"center">
+<tr>
+<td width=3D"100%" align=3D"center" valign=3D"top"><a href=3D"http://red.vi=
+p.momentplaisir.eu/click/YToxOntzOjM6InRhZyI7czozMDoiZGF0YV9zZW5kb3V0XzU1ZG=
+JkNTU3MjFhZDFfMTA2Ijt9/cmVzcC1tMi1taWFnZSU0MHVuaXYtcmVubmVzMS5mcg=3D=3D/443=
+1084/254888" target=3D"_blank" style=3D"border:none; text-decoration:none;"=
+><img src=3D"http://img.momentplaisir.eu/502096/Template_Emailing_Tourisme_=
+Afpa_02.jpg" alt=3D"#" width=3D"300" height=3D"218" class=3D"w100" border=
+=3D"0" /></a><a href=3D"http://red.vip.momentplaisir.eu/click/YToxOntzOjM6I=
+nRhZyI7czozMDoiZGF0YV9zZW5kb3V0XzU1ZGJkNTU3MjFhZDFfMTA2Ijt9/cmVzcC1tMi1taWF=
+nZSU0MHVuaXYtcmVubmVzMS5mcg=3D=3D/4431085/254888" target=3D"_blank" style=
+=3D"border:none; text-decoration:none;"><img src=3D"http://img.momentplaisi=
+r.eu/502096/Template_Emailing_Tourisme_Afpa_03.jpg" alt=3D"Comptabilit&eacu=
+te;, paie, contr&ocirc;le de gestion" width=3D"275" height=3D"218" class=3D=
+"w80" border=3D"0" /></a><a href=3D"http://red.vip.momentplaisir.eu/click/Y=
+ToxOntzOjM6InRhZyI7czozMDoiZGF0YV9zZW5kb3V0XzU1ZGJkNTU3MjFhZDFfMTA2Ijt9/cmV=
+zcC1tMi1taWFnZSU0MHVuaXYtcmVubmVzMS5mcg=3D=3D/4431086/254888" target=3D"_bl=
+ank" style=3D"border:none; text-decoration:none;"><img src=3D"http://img.mo=
+mentplaisir.eu/502096/Template_Emailing_Tourisme_Afpa_04.jpg" alt=3D"#" wid=
+th=3D"25" height=3D"218" class=3D"no-mobile" border=3D"0" /></a></td>
+</tr>
+</table>
+<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tr>
+<td width=3D"100%" align=3D"center" valign=3D"top" class=3D"w100"><table wi=
+dth=3D"275" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" class=3D"w100"=
+ align=3D"left">
+<tr>
+<td width=3D"100%" align=3D"left" valign=3D"top" bgcolor=3D"#fff" style=3D"=
+background-color:#fff;"><table width=3D"275" border=3D"0" cellspacing=3D"0"=
+ cellpadding=3D"0" class=3D"w100" align=3D"left">
+<tr>
+<td width=3D"100%" align=3D"left" valign=3D"top" bgcolor=3D"#ffffff" style=
+=3D"background-color:#ffffff;"><table width=3D"100%" border=3D"0" cellspaci=
+ng=3D"0" cellpadding=3D"0">
+<tr>
+<td width=3D"48" height=3D"20" align=3D"left" bgcolor=3D"#FFFFFF" class=3D"=
+w10" style=3D"background-color:#FFFFFF;"> </td>
+<td width=3D"227" height=3D"20" align=3D"left" bgcolor=3D"#FFFFFF" class=3D=
+"w90" style=3D"background-color:#FFFFFF;"> </td>
+</tr>
+<tr>
+<td width=3D"48" align=3D"right" valign=3D"top" bgcolor=3D"#FFFFFF" class=
+=3D"w10" style=3D"background-color:#FFFFFF;"><a href=3D"http://red.vip.mome=
+ntplaisir.eu/click/YToxOntzOjM6InRhZyI7czozMDoiZGF0YV9zZW5kb3V0XzU1ZGJkNTU3=
+MjFhZDFfMTA2Ijt9/cmVzcC1tMi1taWFnZSU0MHVuaXYtcmVubmVzMS5mcg=3D=3D/4431087/2=
+54888" target=3D"_blank" style=3D"border:none; text-decoration:none;"><img =
+src=3D"http://img.momentplaisir.eu/502096/Template_Emailing_Tourisme_Afpa_0=
+6-05.jpg" alt=3D"#" width=3D"48" height=3D"26" style=3D"display:block;borde=
+r:none;" border=3D"0" class=3D"w100"/></a></td>
+<td width=3D"227" align=3D"left" valign=3D"top" bgcolor=3D"#FFFFFF" class=
+=3D"w90" style=3D"line-height:16px; background-color:#FFFFFF;"><a href=3D"h=
+ttp://red.vip.momentplaisir.eu/click/YToxOntzOjM6InRhZyI7czozMDoiZGF0YV9zZW=
+5kb3V0XzU1ZGJkNTU3MjFhZDFfMTA2Ijt9/cmVzcC1tMi1taWFnZSU0MHVuaXYtcmVubmVzMS5m=
+cg=3D=3D/4431088/254888" target=3D"_blank" style=3D"color:#000000;font-size=
+:12px;text-decoration:none; border:none;"><font face=3D"Arial, Helvetica, s=
+ans-serif" style=3D"color:#000000;font-size:12px;text-decoration:none;" cla=
+ss=3D"text"><strong>des m&eacute;tiers attractifs :</strong> accueil, anima=
+tion, vente, conseil&hellip;</font></a></td>
+</tr>
+<tr>
+<td align=3D"right" valign=3D"top" bgcolor=3D"#FFFFFF" class=3D"w10" style=
+=3D"background-color:#FFFFFF;"><a href=3D"http://red.vip.momentplaisir.eu/c=
+lick/YToxOntzOjM6InRhZyI7czozMDoiZGF0YV9zZW5kb3V0XzU1ZGJkNTU3MjFhZDFfMTA2Ij=
+t9/cmVzcC1tMi1taWFnZSU0MHVuaXYtcmVubmVzMS5mcg=3D=3D/4431089/254888" target=
+=3D"_blank" style=3D"border:none; text-decoration:none;"><img src=3D"http:/=
+/img.momentplaisir.eu/502096/Template_Emailing_Tourisme_Afpa_06-05.jpg" alt=
+=3D"#" width=3D"48" height=3D"26" style=3D"display:block;border:none;" bord=
+er=3D"0" class=3D"w100"/></a></td>
+<td align=3D"left" valign=3D"top" bgcolor=3D"#FFFFFF" class=3D"w90" style=
+=3D"line-height:16px; background-color:#FFFFFF;"><a href=3D"http://red.vip=
+=2Emomentplaisir.eu/click/YToxOntzOjM6InRhZyI7czozMDoiZGF0YV9zZW5kb3V0XzU1Z=
+GJkNTU3MjFhZDFfMTA2Ijt9/cmVzcC1tMi1taWFnZSU0MHVuaXYtcmVubmVzMS5mcg=3D=3D/44=
+31090/254888" target=3D"_blank" style=3D"color:#000000;font-size:12px;text-=
+decoration:none; border:none;"><font face=3D"Arial, Helvetica, sans-serif" =
+style=3D"color:#000000;font-size:12px;text-decoration:none;" class=3D"text"=
+>de nombreux employeurs : <strong style=3D"color:#f15a22"><font color=3D"#f=
+15a22">voyagistes</font></strong> (tours op&eacute;rateurs, agences de voya=
+ges) ou <strong style=3D"color:#f15a22;"><font color=3D"#f15a22">collectivi=
+t&eacute;s locales</font></strong> (comit&eacute;s r&eacute;gionaux du tour=
+isme par exemple)</font></a></td>
+</tr>
+<tr>
+<td width=3D"48" align=3D"right" valign=3D"top" bgcolor=3D"#FFFFFF" class=
+=3D"w10" style=3D"background-color:#FFFFFF;"><a href=3D"http://red.vip.mome=
+ntplaisir.eu/click/YToxOntzOjM6InRhZyI7czozMDoiZGF0YV9zZW5kb3V0XzU1ZGJkNTU3=
+MjFhZDFfMTA2Ijt9/cmVzcC1tMi1taWFnZSU0MHVuaXYtcmVubmVzMS5mcg=3D=3D/4431091/2=
+54888" target=3D"_blank" style=3D"border:none; text-decoration:none;"><img =
+src=3D"http://img.momentplaisir.eu/502096/Template_Emailing_Tourisme_Afpa_0=
+6-05.jpg" alt=3D"#" width=3D"48" height=3D"26" style=3D"display:block;borde=
+r:none;" border=3D"0" class=3D"w100"/></a></td>
+<td width=3D"227" align=3D"left" valign=3D"top" bgcolor=3D"#FFFFFF" class=
+=3D"w90" style=3D"line-height:16px; background-color:#FFFFFF;"><a href=3D"h=
+ttp://red.vip.momentplaisir.eu/click/YToxOntzOjM6InRhZyI7czozMDoiZGF0YV9zZW=
+5kb3V0XzU1ZGJkNTU3MjFhZDFfMTA2Ijt9/cmVzcC1tMi1taWFnZSU0MHVuaXYtcmVubmVzMS5m=
+cg=3D=3D/4431092/254888" target=3D"_blank" style=3D"color:#000000;font-size=
+:12px;text-decoration:none; border:none;"><font face=3D"Arial, Helvetica, s=
+ans-serif" style=3D"color:#000000;font-size:12px;text-decoration:none;" cla=
+ss=3D"text"><strong>un secteur</strong><strong style=3D"color:#f15a22;"><fo=
+nt color=3D"#f15a22"> en pleine &eacute;volution</font></strong> : d&eacute=
+;veloppement des ventes sur internet, du tourisme &eacute;quitable, des mod=
+es d&rsquo;h&eacute;bergement &eacute;conomique, du tourisme de proximit&ea=
+cute;&hellip;<br />
+<br />
+</font></a></td>
+</tr>
+</table>
+<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tr>
+<td width=3D"15" align=3D"right" valign=3D"bottom" bgcolor=3D"#FFFFFF" clas=
+s=3D"no-mobile" style=3D"background-color:#FFFFFF;"><a href=3D"http://red=
+=2Evip.momentplaisir.eu/click/YToxOntzOjM6InRhZyI7czozMDoiZGF0YV9zZW5kb3V0X=
+zU1ZGJkNTU3MjFhZDFfMTA2Ijt9/cmVzcC1tMi1taWFnZSU0MHVuaXYtcmVubmVzMS5mcg=3D=
+=3D/4431093/254888" target=3D"_blank" style=3D"border:none; text-decoration=
+:none;"><img src=3D"http://img.momentplaisir.eu/502096/Template_Emailing_Co=
+mptabilite_Afpa_14.jpg" alt=3D"#" width=3D"15" height=3D"47" class=3D"no-mo=
+bile" style=3D"display:block;border:none;" border=3D"0"/></a></td>
+<td width=3D"250" align=3D"left" valign=3D"bottom" bgcolor=3D"#FFFFFF" clas=
+s=3D"w100" style=3D"background-color:#FFFFFF;"><a href=3D"http://red.vip.mo=
+mentplaisir.eu/click/YToxOntzOjM6InRhZyI7czozMDoiZGF0YV9zZW5kb3V0XzU1ZGJkNT=
+U3MjFhZDFfMTA2Ijt9/cmVzcC1tMi1taWFnZSU0MHVuaXYtcmVubmVzMS5mcg=3D=3D/4431094=
+/254888" target=3D"_blank" style=3D"border:none; text-decoration:none;"><im=
+g src=3D"http://img.momentplaisir.eu/502096/Template_Emailing_Tourisme_Afpa=
+_17.jpg" alt=3D"#" width=3D"250" height=3D"47" class=3D"w100" style=3D"disp=
+lay:block;border:none;" border=3D"0"/></a></td>
+<td width=3D"10" align=3D"left" valign=3D"bottom" bgcolor=3D"#FFFFFF" class=
+=3D"no-mobile" style=3D"background-color:#FFFFFF;"><a href=3D"http://red.vi=
+p.momentplaisir.eu/click/YToxOntzOjM6InRhZyI7czozMDoiZGF0YV9zZW5kb3V0XzU1ZG=
+JkNTU3MjFhZDFfMTA2Ijt9/cmVzcC1tMi1taWFnZSU0MHVuaXYtcmVubmVzMS5mcg=3D=3D/443=
+1095/254888" target=3D"_blank" style=3D"border:none; text-decoration:none;"=
+><img src=3D"http://img.momentplaisir.eu/502096/Template_Emailing_Comptabil=
+ite_Afpa_13.jpg" alt=3D"#" width=3D"10" height=3D"47" class=3D"no-mobile" s=
+tyle=3D"display:block;border:none;" border=3D"0"/></a></td>
+</tr>
+</table>
+<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tr>
+<td width=3D"100%" align=3D"left"></td>
+</tr>
+<tr>
+<td width=3D"275" align=3D"left" valign=3D"bottom" class=3D"w100"></td>
+</tr>
+<tr>
+<td width=3D"100%" align=3D"left" valign=3D"top"><table width=3D"100%" bord=
+er=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tr>
+<td width=3D"15" align=3D"right" valign=3D"top" bgcolor=3D"#FFFFFF" class=
+=3D"no-mobile" style=3D"background-color:#FFFFFF;"><a href=3D"http://red.vi=
+p.momentplaisir.eu/click/YToxOntzOjM6InRhZyI7czozMDoiZGF0YV9zZW5kb3V0XzU1ZG=
+JkNTU3MjFhZDFfMTA2Ijt9/cmVzcC1tMi1taWFnZSU0MHVuaXYtcmVubmVzMS5mcg=3D=3D/443=
+1096/254888" target=3D"_blank" style=3D"border:none; text-decoration:none;"=
+><img src=3D"http://img.momentplaisir.eu/502096/Template_Emailing_Comptabil=
+ite_Afpa_16.jpg" alt=3D"#" width=3D"15" height=3D"77" class=3D"no-mobile" s=
+tyle=3D"display:block;border:none;" border=3D"0"/></a></td>
+<td width=3D"18" align=3D"left" valign=3D"top" bgcolor=3D"#FFFFFF" class=3D=
+"w10" style=3D"background-color:#FFFFFF;"><a href=3D"http://red.vip.momentp=
+laisir.eu/click/YToxOntzOjM6InRhZyI7czozMDoiZGF0YV9zZW5kb3V0XzU1ZGJkNTU3MjF=
+hZDFfMTA2Ijt9/cmVzcC1tMi1taWFnZSU0MHVuaXYtcmVubmVzMS5mcg=3D=3D/4431097/2548=
+88" target=3D"_blank" style=3D"border:none; text-decoration:none;"><img src=
+=3D"http://img.momentplaisir.eu/502096/Template_Emailing_Comptabilite_Afpa_=
+16-10.jpg" alt=3D"#" width=3D"18" height=3D"77" class=3D"w100" style=3D"dis=
+play:block;border:none;" border=3D"0"/></a></td>
+<td width=3D"232" align=3D"left" valign=3D"top" bgcolor=3D"#FFFFFF" style=
+=3D"line-height:12px; background-color:#FFFFFF;" class=3D"w80"><a href=3D"h=
+ttp://red.vip.momentplaisir.eu/click/YToxOntzOjM6InRhZyI7czozMDoiZGF0YV9zZW=
+5kb3V0XzU1ZGJkNTU3MjFhZDFfMTA2Ijt9/cmVzcC1tMi1taWFnZSU0MHVuaXYtcmVubmVzMS5m=
+cg=3D=3D/4431098/254888" target=3D"_blank" style=3D"font-size:18px;color:#0=
+00000;text-decoration:none; border:none;"><font face=3D"Arial, Helvetica, s=
+ans-serif" style=3D"font-size:18px;color:#000000;text-decoration:none;" cla=
+ss=3D"titre"><strong>Pourquoi pas vous ?</strong></font></a><br />
+<br />
+<a href=3D"http://red.vip.momentplaisir.eu/click/YToxOntzOjM6InRhZyI7czozMD=
+oiZGF0YV9zZW5kb3V0XzU1ZGJkNTU3MjFhZDFfMTA2Ijt9/cmVzcC1tMi1taWFnZSU0MHVuaXYt=
+cmVubmVzMS5mcg=3D=3D/4431099/254888" target=3D"_blank" style=3D"color:#0000=
+00;font-size:12px;text-decoration:none; border:none;"><font face=3D"Arial, =
+Helvetica, sans-serif" style=3D"color:#000000;font-size:12px;text-decoratio=
+n:none;" class=3D"text"> Avec nos formations, l&rsquo;emploi est au rendez-=
+vous !</font></a></td>
+<td width=3D"10" align=3D"right" valign=3D"top" bgcolor=3D"#FFFFFF" class=
+=3D"w10" style=3D"background-color:#FFFFFF;"><a href=3D"http://red.vip.mome=
+ntplaisir.eu/click/YToxOntzOjM6InRhZyI7czozMDoiZGF0YV9zZW5kb3V0XzU1ZGJkNTU3=
+MjFhZDFfMTA2Ijt9/cmVzcC1tMi1taWFnZSU0MHVuaXYtcmVubmVzMS5mcg=3D=3D/4431100/2=
+54888" target=3D"_blank" style=3D"border:none; text-decoration:none;"><img =
+src=3D"http://img.momentplaisir.eu/502096/Template_Emailing_Comptabilite_Af=
+pa_17.jpg" alt=3D"#" width=3D"10" height=3D"77" class=3D"no-mobile" style=
+=3D"display:block;border:none;" border=3D"0"/></a></td>
+</tr>
+</table></td>
+</tr>
+<tr>
+<td width=3D"275" align=3D"left" valign=3D"top" bgcolor=3D"#FFFFFF" style=
+=3D"background-color:#FFFFFF;"><table width=3D"100%" border=3D"0" cellspaci=
+ng=3D"0" cellpadding=3D"0" bgcolor=3D"#FFFFFF" style=3D"background-color:#F=
+FFFFF;">
+<tr>
+<td width=3D"15" align=3D"right" valign=3D"top" bgcolor=3D"#FFFFFF" class=
+=3D"no-mobile" style=3D"background-color:#FFFFFF;"><a href=3D"http://red.vi=
+p.momentplaisir.eu/click/YToxOntzOjM6InRhZyI7czozMDoiZGF0YV9zZW5kb3V0XzU1ZG=
+JkNTU3MjFhZDFfMTA2Ijt9/cmVzcC1tMi1taWFnZSU0MHVuaXYtcmVubmVzMS5mcg=3D=3D/443=
+1101/254888" target=3D"_blank" style=3D"border:none; text-decoration:none;"=
+><img src=3D"http://img.momentplaisir.eu/502096/Template_Emailing_Comptabil=
+ite_Afpa_18.jpg" alt=3D"#" width=3D"15" height=3D"16" class=3D"no-mobile" s=
+tyle=3D"display:block;border:none;" border=3D"0"/></a></td>
+<td width=3D"250" align=3D"center" valign=3D"top" bgcolor=3D"#FFFFFF" class=
+=3D"w100" style=3D"background-color:#FFFFFF;"><a href=3D"http://red.vip.mom=
+entplaisir.eu/click/YToxOntzOjM6InRhZyI7czozMDoiZGF0YV9zZW5kb3V0XzU1ZGJkNTU=
+3MjFhZDFfMTA2Ijt9/cmVzcC1tMi1taWFnZSU0MHVuaXYtcmVubmVzMS5mcg=3D=3D/4431102/=
+254888" target=3D"_blank" style=3D"border:none; text-decoration:none;"><img=
+ src=3D"http://img.momentplaisir.eu/502096/Template_Emailing_Comptabilite_A=
+fpa_21.jpg" alt=3D"#" width=3D"250" height=3D"16" class=3D"w100" style=3D"d=
+isplay:block;border:none;" border=3D"0"/></a></td>
+<td width=3D"10" align=3D"left" valign=3D"top" bgcolor=3D"#FFFFFF" class=3D=
+"no-mobile" style=3D"background-color:#FFFFFF;"><a href=3D"http://red.vip=
+=2Emomentplaisir.eu/click/YToxOntzOjM6InRhZyI7czozMDoiZGF0YV9zZW5kb3V0XzU1Z=
+GJkNTU3MjFhZDFfMTA2Ijt9/cmVzcC1tMi1taWFnZSU0MHVuaXYtcmVubmVzMS5mcg=3D=3D/44=
+31103/254888" target=3D"_blank" style=3D"border:none; text-decoration:none;=
+"><img src=3D"http://img.momentplaisir.eu/502096/Template_Emailing_Comptabi=
+lite_Afpa_20.jpg" alt=3D"#" width=3D"10" height=3D"16" class=3D"no-mobile" =
+style=3D"display:block;border:none;" border=3D"0"/></a></td>
+</tr>
+</table></td>
+</tr>
+<tr>
+<td width=3D"275" height=3D"20" align=3D"left" bgcolor=3D"#FFFFFF" class=3D=
+"w100" style=3D"background-color:#FFFFFF;"> </td>
+</tr>
+</table></td>
+</tr>
+</table></td>
+</tr>
+</table>
+<table width=3D"300" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" class=
+=3D"w100" align=3D"right">
+<tr>
+<td width=3D"275" align=3D"center" valign=3D"top" bgcolor=3D"#fff" style=3D=
+"background-color:#fff;"><table width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0" class=3D"w90" bgcolor=3D"#efefef" style=3D"background-=
+color:#efefef;">
+<tr>
+<td width=3D"262" align=3D"left" valign=3D"top" class=3D"w100"><a href=3D"h=
+ttp://red.vip.momentplaisir.eu/click/YToxOntzOjM6InRhZyI7czozMDoiZGF0YV9zZW=
+5kb3V0XzU1ZGJkNTU3MjFhZDFfMTA2Ijt9/cmVzcC1tMi1taWFnZSU0MHVuaXYtcmVubmVzMS5m=
+cg=3D=3D/4431104/254888" target=3D"_blank" style=3D"border:none; text-decor=
+ation:none;"><img src=3D"http://img.momentplaisir.eu/502096/Template_Emaili=
+ng_Afpa_v3_17.jpg" alt=3D"#" width=3D"275" height=3D"17" class=3D"no-mobile=
+" style=3D"display:block;border:none;" border=3D"0"/></a></td>
+</tr>
+<tr>
+<td width=3D"100%" align=3D"left" valign=3D"top"><table width=3D"100%" bord=
+er=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tr>
+<td width=3D"21" align=3D"left" bgcolor=3D"#EFEFEF" style=3D"background-col=
+or:#EFEFEF;"><a href=3D"http://red.vip.momentplaisir.eu/click/YToxOntzOjM6I=
+nRhZyI7czozMDoiZGF0YV9zZW5kb3V0XzU1ZGJkNTU3MjFhZDFfMTA2Ijt9/cmVzcC1tMi1taWF=
+nZSU0MHVuaXYtcmVubmVzMS5mcg=3D=3D/4431105/254888" target=3D"_blank" style=
+=3D"border:none; text-decoration:none;"><img src=3D"http://img.momentplaisi=
+r.eu/502096/Template_Emailing_Afpa_v3_09.jpg" alt=3D"#" width=3D"21" height=
+=3D"65" style=3D"display:block;border:none;" border=3D"0"/></a></td>
+<td width=3D"209" align=3D"left" valign=3D"top" bgcolor=3D"#EFEFEF" style=
+=3D"background-color:#EFEFEF;"><a href=3D"http://red.vip.momentplaisir.eu/c=
+lick/YToxOntzOjM6InRhZyI7czozMDoiZGF0YV9zZW5kb3V0XzU1ZGJkNTU3MjFhZDFfMTA2Ij=
+t9/cmVzcC1tMi1taWFnZSU0MHVuaXYtcmVubmVzMS5mcg=3D=3D/4431106/254888" target=
+=3D"_blank" style=3D"border:none; text-decoration:none;"><img src=3D"http:/=
+/img.momentplaisir.eu/502096/Template_Emailing_Afpa_v5_24.jpg" alt=3D"&Agra=
+ve; propos de l'Afpa" width=3D"209" height=3D"65" class=3D"w100" style=3D"d=
+isplay:block;border:none;" border=3D"0"/></a></td>
+<td width=3D"45" align=3D"left" valign=3D"top" bgcolor=3D"#EFEFEF" style=3D=
+"background-color:#EFEFEF;"><a href=3D"http://red.vip.momentplaisir.eu/clic=
+k/YToxOntzOjM6InRhZyI7czozMDoiZGF0YV9zZW5kb3V0XzU1ZGJkNTU3MjFhZDFfMTA2Ijt9/=
+cmVzcC1tMi1taWFnZSU0MHVuaXYtcmVubmVzMS5mcg=3D=3D/4431107/254888" target=3D"=
+_blank" style=3D"border:none; text-decoration:none;"><img src=3D"http://img=
+=2Emomentplaisir.eu/502096/Template_Emailing_Afpa_v3_21.jpg" alt=3D"#" widt=
+h=3D"45" height=3D"65" class=3D"w100" style=3D"display:block;border:none;" =
+border=3D"0"/></a></td>
+</tr>
+</table></td>
+</tr>
+<tr>
+<td width=3D"100%" align=3D"left" valign=3D"top" bgcolor=3D"#EFEFEF" style=
+=3D"background-color:#EFEFEF;"><a href=3D"http://red.vip.momentplaisir.eu/c=
+lick/YToxOntzOjM6InRhZyI7czozMDoiZGF0YV9zZW5kb3V0XzU1ZGJkNTU3MjFhZDFfMTA2Ij=
+t9/cmVzcC1tMi1taWFnZSU0MHVuaXYtcmVubmVzMS5mcg=3D=3D/4431108/254888" target=
+=3D"_blank" style=3D"border:none; text-decoration:none;"><img src=3D"http:/=
+/img.momentplaisir.eu/502096/Template_Emailing_Afpa_v3_15.jpg" alt=3D"#" wi=
+dth=3D"275" height=3D"20" style=3D"display:block;border:none;" border=3D"0"=
+/></a></td>
+</tr>
+<tr>
+<td width=3D"100%" align=3D"left"><table width=3D"100%" border=3D"0" cellsp=
+acing=3D"0" cellpadding=3D"0">
+<tr>
+<td width=3D"24" align=3D"left" valign=3D"top" bgcolor=3D"#EFEFEF" style=3D=
+"background-color:#EFEFEF;"><a href=3D"http://red.vip.momentplaisir.eu/clic=
+k/YToxOntzOjM6InRhZyI7czozMDoiZGF0YV9zZW5kb3V0XzU1ZGJkNTU3MjFhZDFfMTA2Ijt9/=
+cmVzcC1tMi1taWFnZSU0MHVuaXYtcmVubmVzMS5mcg=3D=3D/4431109/254888" target=3D"=
+_blank" style=3D"border:none; text-decoration:none;"><img src=3D"http://img=
+=2Emomentplaisir.eu/502096/Template_Emailing_Afpa_v3_17-12.jpg" alt=3D"#" w=
+idth=3D"24" height=3D"167" class=3D"w100" style=3D"display:block;border:non=
+e;" border=3D"0"/></a></td>
+<td width=3D"231" align=3D"left" valign=3D"top" bgcolor=3D"#EFEFEF" style=
+=3D"line-height:12px; background-color:#EFEFEF;"><font face=3D"Arial, Helve=
+tica, sans-serif" style=3D"color:#000000;font-size:12px;text-decoration:non=
+e;" class=3D"text"><a href=3D"http://red.vip.momentplaisir.eu/click/YToxOnt=
+zOjM6InRhZyI7czozMDoiZGF0YV9zZW5kb3V0XzU1ZGJkNTU3MjFhZDFfMTA2Ijt9/cmVzcC1tM=
+i1taWFnZSU0MHVuaXYtcmVubmVzMS5mcg=3D=3D/4431110/254888" target=3D"_blank" s=
+tyle=3D"color:#000000;font-size:12px;text-decoration:none; border:none;">1e=
+r organisme de formation des actifs.<br />
+<br />
+Forte de son r&eacute;seau de centres sur l'ensemble du territoire national=
+, l'Afpa propose une offre globale de formations qualifiantes et certifiant=
+es, et des services adapt&eacute;s &agrave; tous les actifs. A commencer pa=
+r ceux qui sont les plus &eacute;loign&eacute;s de l'emploi.</a><br />
+<br />
+<a href=3D"http://red.vip.momentplaisir.eu/click/YToxOntzOjM6InRhZyI7czozMD=
+oiZGF0YV9zZW5kb3V0XzU1ZGJkNTU3MjFhZDFfMTA2Ijt9/cmVzcC1tMi1taWFnZSU0MHVuaXYt=
+cmVubmVzMS5mcg=3D=3D/4431111/254888" target=3D"_blank" style=3D"color:#0000=
+00;font-size:12px;text-decoration:none; border:none;">Se rendre sur <strong=
+ style=3D"color:#f15a22;text-decoration:none;">le site de l'Afpa.<br />
+<br />
+</strong></a></font></td>
+<td width=3D"20" align=3D"left" bgcolor=3D"#EFEFEF" style=3D"background-col=
+or:#EFEFEF;"><a href=3D"http://red.vip.momentplaisir.eu/click/YToxOntzOjM6I=
+nRhZyI7czozMDoiZGF0YV9zZW5kb3V0XzU1ZGJkNTU3MjFhZDFfMTA2Ijt9/cmVzcC1tMi1taWF=
+nZSU0MHVuaXYtcmVubmVzMS5mcg=3D=3D/4431112/254888" target=3D"_blank" style=
+=3D"border:none; text-decoration:none;"><img src=3D"http://img.momentplaisi=
+r.eu/502096/Template_Emailing_Afpa_v3_29.jpg" alt=3D"#" width=3D"20" height=
+=3D"167" class=3D"w100" style=3D"display:block;border:none;" border=3D"0"/>=
+</a></td>
+</tr>
+</table></td>
+</tr>
+<tr>
+<td width=3D"100%" align=3D"left"><a href=3D"http://red.vip.momentplaisir=
+=2Eeu/click/YToxOntzOjM6InRhZyI7czozMDoiZGF0YV9zZW5kb3V0XzU1ZGJkNTU3MjFhZDF=
+fMTA2Ijt9/cmVzcC1tMi1taWFnZSU0MHVuaXYtcmVubmVzMS5mcg=3D=3D/4431113/254888" =
+target=3D"_blank" style=3D"border:none; text-decoration:none;"><img src=3D"=
+http://img.momentplaisir.eu/502096/mpt.png" alt=3D"#" width=3D"" class=3D"w=
+100" style=3D"display:block;border:none;" border=3D"0" height=3D"69"/></a><=
+/td>
+</tr>
+</table></td>
+<td width=3D"25" align=3D"left" class=3D"no-mobile"> </td>
+</tr>
+</table></td>
+</tr>
+</table>
+<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tr>
+<td width=3D"100%" height=3D"20" align=3D"left" bgcolor=3D"#FFFFFF" style=
+=3D"background-color:#FFFFFF;"> </td>
+</tr>
+</table>
+<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tr>
+<td width=3D"100%" align=3D"left"><table width=3D"100%" border=3D"0" cellsp=
+acing=3D"0" cellpadding=3D"0" class=3D"w100">
+<tr>
+<td width=3D"35" align=3D"left"><a href=3D"http://red.vip.momentplaisir.eu/=
+click/YToxOntzOjM6InRhZyI7czozMDoiZGF0YV9zZW5kb3V0XzU1ZGJkNTU3MjFhZDFfMTA2I=
+jt9/cmVzcC1tMi1taWFnZSU0MHVuaXYtcmVubmVzMS5mcg=3D=3D/4431114/254888" target=
+=3D"_blank" style=3D"border:none; text-decoration:none;"><img src=3D"http:/=
+/img.momentplaisir.eu/502096/Template_Emailing_Afpa_v3_38.jpg" alt=3D"#" wi=
+dth=3D"35" height=3D"52" class=3D"w100" style=3D"display:block;border:none;=
+" border=3D"0"/></a></td>
+<td width=3D"530" align=3D"center" valign=3D"top" style=3D"line-height:16px=
+;"><font face=3D"Arial, Helvetica, sans-serif" style=3D"color:#00c0f3;font-=
+size:16px;text-decoration:none;" class=3D"titre"><a href=3D"http://red.vip=
+=2Emomentplaisir.eu/click/YToxOntzOjM6InRhZyI7czozMDoiZGF0YV9zZW5kb3V0XzU1Z=
+GJkNTU3MjFhZDFfMTA2Ijt9/cmVzcC1tMi1taWFnZSU0MHVuaXYtcmVubmVzMS5mcg=3D=3D/44=
+31115/254888" style=3D"color:#f15a22;font-size:16px;text-decoration:none; b=
+order:none;" target=3D"_blank"><span style=3D"color:#f15a22;font-size:16px;=
+text-decoration:none;">PARCE QU'ON A TOUS DROIT A PLUSIEURS<br />
+VIES PROFESSIONNELLES.</span><br /><br /></a></font></td>
+<td width=3D"35" align=3D"left"><a href=3D"http://red.vip.momentplaisir.eu/=
+click/YToxOntzOjM6InRhZyI7czozMDoiZGF0YV9zZW5kb3V0XzU1ZGJkNTU3MjFhZDFfMTA2I=
+jt9/cmVzcC1tMi1taWFnZSU0MHVuaXYtcmVubmVzMS5mcg=3D=3D/4431116/254888" target=
+=3D"_blank" style=3D"border:none; text-decoration:none;"><img src=3D"http:/=
+/img.momentplaisir.eu/502096/Template_Emailing_Afpa_v3_38.jpg" alt=3D"#" wi=
+dth=3D"35" height=3D"52" class=3D"w100" style=3D"display:block;border:none;=
+" border=3D"0"/></a></td>
+</tr>
+</table></td>
+</tr>
+</table>
+<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tr>
+<td width=3D"100%" align=3D"center" valign=3D"top"><a href=3D"http://red.vi=
+p.momentplaisir.eu/click/YToxOntzOjM6InRhZyI7czozMDoiZGF0YV9zZW5kb3V0XzU1ZG=
+JkNTU3MjFhZDFfMTA2Ijt9/cmVzcC1tMi1taWFnZSU0MHVuaXYtcmVubmVzMS5mcg=3D=3D/443=
+1117/254888" target=3D"_blank" style=3D"border:none; text-decoration:none;"=
+><img src=3D"http://img.momentplaisir.eu/502096/Template_Emailing_Afpa_v3_4=
+4.jpg" alt=3D"#" width=3D"600" height=3D"36" class=3D"w100" style=3D"displa=
+y:block;border:none;" border=3D"0"/></a></td>
+</tr>
+</table>
+<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tr>
+<td width=3D"100%" align=3D"center" valign=3D"top"><table width=3D"210" bor=
+der=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tr>
+<td width=3D"22" align=3D"left"><img src=3D"http://img.momentplaisir.eu/502=
+096/Template_Emailing_Afpa_v3_42.jpg" alt=3D"#" width=3D"22" height=3D"21" =
+class=3D"w100" style=3D"display:block;border:none;" border=3D"0"/></td>
+<td width=3D"188" align=3D"center" valign=3D"middle"><font face=3D"Arial, H=
+elvetica, sans-serif" style=3D"color:#000000;font-size:12px;"><a href=3D"ht=
+tp://red.vip.momentplaisir.eu/click/YToxOntzOjM6InRhZyI7czozMDoiZGF0YV9zZW5=
+kb3V0XzU1ZGJkNTU3MjFhZDFfMTA2Ijt9/cmVzcC1tMi1taWFnZSU0MHVuaXYtcmVubmVzMS5mc=
+g=3D=3D/4431118/254888" target=3D"_blank" style=3D"text-decoration:none;col=
+or:#000000; border:none;"><strong style=3D"text-decoration:none;color:#0000=
+00;">Acc&eacute;der &agrave; l&rsquo;espace candidat</strong></a></font></t=
+d>
+</tr>
+</table></td>
+</tr>
+</table>
+<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tr>
+<td width=3D"100%" align=3D"center" valign=3D"top"><table width=3D"100%" bo=
+rder=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tr>
+<td width=3D"585" align=3D"right" valign=3D"top" class=3D"w90"> </td>
+<td width=3D"15" align=3D"left" class=3D"w10"><img src=3D"http://img.moment=
+plaisir.eu/502096/Template_Emailing_Afpa_v3_50.jpg" alt=3D"#" width=3D"15" =
+height=3D"29" class=3D"w100" style=3D"display:block;border:none;" border=3D=
+"0"/></td>
+</tr>
+</table></td>
+</tr>
+</table></td>
+</tr>
+</table>
+</center>
+<img src=3D"http://img.momentplaisir.eu/502096/mpt.png" width=3D"" height=
+=3D"" />
+</td></tr>
+</table><div id=3D"template_footer_auto_include" ><center>
+<p style=3D"font-size:13px;text-align:center;font-family:Arial, Helvetica, =
+sans-serif;color:#000">
+<br />
+Si vous ne voulez plus recevoir ces lettres d'information, vous pouvez vous=
+ <a href=3D"http://red.vip.momentplaisir.eu/click/YToxOntzOjM6InRhZyI7czozM=
+DoiZGF0YV9zZW5kb3V0XzU1ZGJkNTU3MjFhZDFfMTA2Ijt9/cmVzcC1tMi1taWFnZSU0MHVuaXY=
+tcmVubmVzMS5mcg=3D=3D/4431119/254888">d&eacute;sabonner</a>
+</p>
+</center>
+<img src=3D"http://www.momentplaisir.eu/i/502096/232898091/112b529cd4" alt=
+=3D"" width=3D"1" height=3D"1" /></div>
+<style type=3D"text/css">
+=2EReadMsgBody {width: 100%;}
+=2EExternalClass {width: 100%;}
+=2EExternalClass * {line-height: 100%;}
+span.yshortcuts { color:#000; background-color:none; border:none;}
+span.yshortcuts:hover,span.yshortcuts:active,span.yshortcuts:focus {color:#=
+000; background-color:none; border:none;}
+#outlook a {padding: 0;}
+body {width: 100% !important;min-width: 100%;-webkit-text-size-adjust: 100%=
+;-ms-text-size-adjust: 100%;margin: 0;padding: 0;}
+=2EExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass fon=
+t, .ExternalClass td, .ExternalClass div {line-height: 100%;}
+a img {border: none;}
+p {margin: 0 0 0 10px;}
+table {border-spacing: 0;border-collapse: collapse;}
+td {word-break: break-word;-webkit-hyphens: auto;-moz-hyphens: auto;hyphens=
+: auto;border-collapse: collapse !important;}
+table, tr, td {padding: 0;}
+@media only screen and (max-device-width: 600px) {body {width: 100% !import=
+ant;margin: 0 !important;padding: 0 !important;}
+*[class=3D"no-mobile"] {display: none;}
+td[class=3D"w100"] {display: block !important;}
+*[class=3D"textleft"] {text-align: left !important;}
+*[class=3D"w1"] {width: 1% !important;}
+*[class=3D"w5"] {width: 5% !important;}
+*[class=3D"w10"] {width: 10% !important;}
+*[class=3D"w20"] {width: 20% !important;}
+*[class=3D"w30"] {width: 30% !important;}
+*[class=3D"w40"] {width: 40% !important;}
+*[class=3D"w49"] {width: 49% !important;}
+*[class=3D"w50"] {width: 50% !important;}
+*[class=3D"w60"] {width: 60% !important;}
+*[class=3D"w70"] {width: 70% !important;}
+*[class=3D"w80"] {width: 80% !important;}
+*[class=3D"w94"] {width: 94% !important}
+*[class=3D"w90"] {width: 90% !important;}
+*[class=3D"w98"] {width: 98% !important;}
+*[class=3D"w99"] {width: 99% !important;}
+*[class=3D"w100"] {width: 100% !important;float: left !important;}
+*[class=3D"w100"] > * {width: 100% !important;}
+*[class=3D"w10px"] {width: 10px !important;display: block !important;}
+*[class=3D"text"] font, font[class=3D"text"] {font-size: 16px !important;li=
+ne-height: 16px !important;}
+td[class=3D"text"] {line-height: 16px !important;}
+*[class=3D"text12"] font, font[class=3D"text12"] {font-size: 12px !importan=
+t;line-height: 12px !important;}
+td[class=3D"text12"] {line-height: 12px !important;}
+*[class=3D"text16"] font, font[class=3D"text16"] {font-size: 14px !importan=
+t;line-height: 16px !important;}
+td[class=3D"text16"] {line-height: 16px !important;}
+*[class=3D"titre"] font, font[class=3D"titre"] {font-size: 20px !important;=
+line-height: 20px !important;}
+td[class=3D"titre"] {line-height: 20px !important;}
+td[class=3D"titre"] font {font-size: 20px !important;}
+*[class=3D"titre"] {font-size: 20px !important;}
+*[class=3D"titre24"] {font-size: 24px !important;line-height: 24px !importa=
+nt;}
+*[class=3D"text17"] {font-size: 17px !important;line-height: 17px !importan=
+t;}
+*[class=3D"h20"] {height: 20px !important;}
+*[class=3D"small-text"] {font-size: 13px !important;}
+*[class=3D"text-center"] {text-align: center !important;display: block !imp=
+ortant;}
+td[class=3D"small-text"], table[id=3D"footer"] td["w100"] {line-height:14px=
+ !important;}
+td[class=3D"small-text"] font, table[id=3D"footer"] font {font-size: 13px !=
+important;}
+td[class=3D"annonce"] img {width: 100% !important;height: auto !important;}
+img {height: auto !important;}
+img[class=3D"w100Han"] {height: inherit !important;width: 100% !important;}
+</style>
+<img height=3D"1" width=3D"1" src=3D"http://www.momentplaisir.eu/i/502096/2=
+32898091/112b529cd4/3"/><img alt=3D"" src=3D"http://red.vip.momentplaisir=
+=2Eeu/imp/YToxOntzOjM6InRhZyI7czozMDoiZGF0YV9zZW5kb3V0XzU1ZGJkNTU3MjFhZDFfM=
+TA2Ijt9/cmVzcC1tMi1taWFnZSU0MHVuaXYtcmVubmVzMS5mcg=3D=3D/254888" width=3D"1=
+" height=3D"1" border=3D"0" />
+</body>
+</html>
+--=_954cbd961f68a42b2598cbc6b9c446ec--

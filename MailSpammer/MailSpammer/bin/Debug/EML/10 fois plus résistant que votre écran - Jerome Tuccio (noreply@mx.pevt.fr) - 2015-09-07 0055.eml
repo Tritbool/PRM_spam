@@ -1,0 +1,130 @@
+Return-Path: <noreply@mx.pevt.fr>
+Received: from mailimailo.univ-rennes1.fr ([unix socket])
+	 by mailimailo.univ-rennes1.fr (Cyrus v2.3.16-Fedora-RPM-2.3.16-6.el6_2.5) with LMTPA;
+	 Wed, 09 Sep 2015 06:57:43 +0200
+X-Sieve: CMU Sieve 2.3
+Received: from vmsmtprexch.univ-rennes1.fr (vmsmtprexch.univ-rennes1.fr [129.20.128.62])
+	by mailimailo.univ-rennes1.fr (Postfix) with ESMTP id A7DFA26A0D32
+	for <resp-m2-miage@univ-rennes1.fr>; Wed,  9 Sep 2015 06:57:43 +0200 (CEST)
+Received: from mbcasexch4.Ur.local (mbcasexch4.univ-rennes1.fr [129.20.125.132])
+	by vmsmtprexch.univ-rennes1.fr (Postfix) with ESMTP id A51C210A
+	for <resp-m2-miage@univ-rennes1.fr>; Wed,  9 Sep 2015 06:57:43 +0200 (CEST)
+X-CrossPremisesHeadersFilteredBySendConnector: mbcasexch4.Ur.local
+Received: from mbcasexch1.Ur.local (2002:8114:7d81::8114:7d81) by
+ mbcasexch4.Ur.local (2002:8114:7d84::8114:7d84) with Microsoft SMTP Server
+ (TLS) id 15.0.913.22; Wed, 9 Sep 2015 06:57:43 +0200
+Received: from mailout1.univ-rennes1.fr (129.20.128.162) by
+ mbcasexch1.Ur.local (129.20.125.129) with Microsoft SMTP Server id
+ 15.0.913.22 via Frontend Transport; Wed, 9 Sep 2015 06:57:43 +0200
+Received: from localhost (vmscanmail.univ-rennes1.fr [129.20.128.134])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id 49C6560749
+	for <resp-m2-miage@univ-rennes1.fr>; Wed,  9 Sep 2015 06:57:43 +0200 (CEST)
+X-Virus-Scanned: amavisd-new at univ-rennes1.fr
+Received: from mailout1.univ-rennes1.fr ([129.20.128.162])
+	by localhost (vmscanmail.univ-rennes1.frm [129.20.128.134]) (amavisd-new, port 10026)
+	with ESMTP id LuDD0x5ehAcZ for <resp-m2-miage@univ-rennes1.fr>;
+	Wed,  9 Sep 2015 06:57:43 +0200 (CEST)
+Received: from vmmailin.univ-rennes1.fr (vmmailin.univ-rennes1.fr [129.20.128.133])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id 2EFE960744
+	for <resp-m2-miage@univ-rennes1.fr>; Wed,  9 Sep 2015 06:57:43 +0200 (CEST)
+Received: from mxb1-1.relay.renater.fr (mxb1-1.relay.renater.fr [194.214.201.8])
+	by vmmailin.univ-rennes1.fr (Postfix) with ESMTP id 2967F20033
+	for <resp-m2-miage@univ-rennes1.fr>; Wed,  9 Sep 2015 06:57:43 +0200 (CEST)
+Received: from server.magnets-personnalises.fr (ns346164.ip-94-23-195.eu [94.23.195.152])
+	by mxb1-1.relay.renater.fr (asm) with ESMTP id 044846000AE
+	for <resp-m2-miage@univ-rennes1.fr>; Wed,  9 Sep 2015 06:57:43 +0200 (CEST)
+Received: from server.magnets-personnalises.fr (localhost.localdomain [127.0.0.1])
+	by server.magnets-personnalises.fr (Postfix) with ESMTP id A8D8597D27
+	for <resp-m2-miage@univ-rennes1.fr>; Wed,  9 Sep 2015 06:57:55 +0200 (CEST)
+Authentication-Results: server.magnets-personnalises.fr (amavisd-new);
+	dkim=pass (2048-bit key) reason="pass (just generated, assumed good)"
+	header.d=mx.pevt.fr
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=mx.pevt.fr; h=
+	content-transfer-encoding:content-type:content-type
+	:list-unsubscribe:mime-version:reply-to:from:from:date:date
+	:message-id:subject:subject:to; s=dkim; t=1441774675; x=
+	1442638676; bh=ERPei/787uVkUPmgtygRE0j0RlqiPsbCKwxxUwKf+cI=; b=P
+	ZD4af4Z6t1ya9x7DOsgxDxMyw38JEkHpI0IgSrv1kBxRHCri5LmLy/ZMKrNENEo6
+	Q2EJQH0WD7ypRvUZkRE1NyWnzXaoBNowHFMCQea3seL7cGV4imWDZ5dtSPwekCKj
+	MKuCfEyd/hO9F8f5mE/7y/F3aRJoX6HEGs5so21SvNGpzCYYfp0TBW7reuKIdG3G
+	jSRJk7AdqHR1XO6cwFZoU+kLrH5gqlhZkHhltwpjWWkqRTCkMNdQBSXib9RntPU+
+	Bn3E+zk8/SnV6LE4YEh0mpswCOUoZGc5s7v1b93pNjkWjd14ttRjuCesK6O9VbwL
+	Uogw5zqkipeUE4YS70mIg==
+X-Virus-Scanned: amavisd-new at server.magnets-personnalises.fr
+Received: from server.magnets-personnalises.fr ([127.0.0.1])
+	by server.magnets-personnalises.fr (server.magnets-personnalises.fr [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id KtJT7Hi2fFNu for <resp-m2-miage@univ-rennes1.fr>;
+	Wed,  9 Sep 2015 06:57:55 +0200 (CEST)
+Received: from iem.magnets-personnalises.fr (localhost.localdomain [127.0.0.1])
+	by server.magnets-personnalises.fr (Postfix) with ESMTP id E5D9897C78
+	for <resp-m2-miage@univ-rennes1.fr>; Wed,  9 Sep 2015 06:57:54 +0200 (CEST)
+To: <resp-m2-miage@univ-rennes1.fr>
+Subject: *****Spam*****=?UTF-8?B?OSBmb2lzIHBsdXMgcsOpc2lzdGFudCBxdWUgdm90cmUgw6ljcmFu?=
+Message-ID: <4842efa777fe819e37408e7ae1b1266e@iem.magnets-personnalises.fr>
+Date: Sun, 6 Sep 2015 22:55:39 +0000
+From: Jerome Tuccio <noreply@mx.pevt.fr>
+Reply-To: <noreply@mx.pevt.fr>
+MIME-Version: 1.0
+X-Mailer-LID: 2
+List-Unsubscribe: <http://iem.magnets-personnalises.fr/unsubscribe.php?M=2553775&C=4e5343e7040825c41ed8e52ed42d9593&L=2&N=47>
+X-Mailer-RecptId: 2553775
+X-Mailer-SID: 47
+X-Mailer-Sent-By: 1
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: 8bit
+X-Original-Source-IP: 94.23.195.152
+X-Renater-Spam-Status: Yes
+X-VR-SPAM-SCORE: 107
+X-Bizanga: IMP - mxb1-1.relay.renater.fr
+X-Renater-SpamState: 12
+X-Renater-SpamScore: 107
+X-Renater-SpamCause: gggruggvucftvghtrhhoucdtuddrfeekgedrudefgdelhecutefuodetggdotefrucfrrhhofhhilhgvmecutffgpfetvffgtfdpggftfghnshhusghstghrihgsvgenuceurghilhhouhhtmecufedttdenuceuohhlthforghilhculddutdejmdenucfjughrpefvuffkfffhrhggjfgtgfeshhekjhdttddtjeenucfhrhhomhepfdflvghrohhmvgcuvfhutggtihhofdcuoehnohhrvghplhihsehmgidrphgvvhhtrdhfrheqnecuffhomhgrihhnpehmrghgnhgvthhsqdhpvghrshhonhhnrghlihhsvghsrdhfrhdpughotghphhhonhgvrdhorhhg 
+X-Renater-ServerName: mxb1-1.relay.renater.fr
+X-OrganizationHeadersPreserved: mbcasexch4.Ur.local
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+</head>
+<body>
+Madame, Monsieur,<br /><br />Nous connaissons tous au moins une personne
+qui a d&eacute;j&agrave; cass&eacute; l'&eacute;cran de son
+t&eacute;l&eacute;phone portable.<br />Nous avons donc trouv&eacute; la
+meilleure protection sur le march&eacute; :<br /><br /><a
+href="http://iem.magnets-personnalises.fr/link.php?M=2553775&N=47&L=3&F=H">La
+protection d'&eacute;cran en verre tremp&eacute;.</a><br />Sa
+r&eacute;sistance de 9H (9 fois plus r&eacute;sistant que le verre) en fera
+l'accessoire indispensable pour votre smartphone.<br /><br />Ne perdez pas
+de temps :<br /><a
+href="http://iem.magnets-personnalises.fr/link.php?M=2553775&N=47&L=3&F=H">_une
+protection efficace</a><br /><strong>_25% de remise aujourd'hui
+seulement</strong><br />_livraison sous 24/48H<br /><a
+href="http://iem.magnets-personnalises.fr/link.php?M=2553775&N=47&L=1&F=H">_une
+vid&eacute;o de d&eacute;monstration</a><br /><a
+href="http://iem.magnets-personnalises.fr/link.php?M=2553775&N=47&L=2&F=H">_un
+mod&egrave;le sp&eacute;cial pour iPhone 6 et 6 Plus (arrivages en
+quantit&eacute; limit&eacute;es)</a><br /><br /><br />Nous sommes une
+entreprise fran&ccedil;aise joignable par t&eacute;l&eacute;phone pour
+r&eacute;pondre &agrave; toutes vos questions.<br /><br />Cordialement,<br
+/><br />J&eacute;r&ocirc;me TUCCIO<br />EURL Ecomagnet _ Docphone<br /><a
+href="http://iem.magnets-personnalises.fr/link.php?M=2553775&N=47&L=3&F=H">http://www.docphone.org</a><br
+/>Siret : 50198765500013<br />284, all&eacute;e de la chapelle<br />13680
+Lan&ccedil;on-de-Provence<br />06.18.52.93.75 (&agrave; utiliser de
+pr&eacute;f&eacute;rence)<br />09.72.47.93.16<br /><a
+href="mailto:contact@docphone.org">contact@docphone.org</a><br /><br />En
+image :<br /><img
+src="http://iem.magnets-personnalises.fr/admin/temp/user/1/01.jpg"
+width="200" height="188" alt="01.jpg" title="01.jpg" /><br /><img
+src="http://iem.magnets-personnalises.fr/admin/temp/user/1/04.jpg"
+width="200" height="184" alt="04.jpg" title="04.jpg" /><br /><img
+src="http://iem.magnets-personnalises.fr/admin/temp/user/1/08.jpg"
+width="200" height="200" alt="08.jpg" title="08.jpg" /><br /><br />Vous
+pouvez nous demander automatiquement le retrait de votre email <a
+href="http://iem.magnets-personnalises.fr/unsubscribe.php?M=2553775&C=4e5343e7040825c41ed8e52ed42d9593&L=2&N=47">d'un
+simple clic gauche</a>
+<img
+src="http://iem.magnets-personnalises.fr/open.php?M=2553775&L=2&N=47&F=H&image=.jpg"
+height="1" width="10"></body>
+</html>
+

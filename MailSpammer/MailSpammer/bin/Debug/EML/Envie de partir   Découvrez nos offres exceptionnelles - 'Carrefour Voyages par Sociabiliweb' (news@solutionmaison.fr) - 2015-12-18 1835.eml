@@ -1,0 +1,549 @@
+Return-Path: <return-a18-2528-2531-resp-m2-miage=univ-rennes1.fr=4@solutionmaison.fr>
+Received: from mailimailo.univ-rennes1.fr ([unix socket])
+	 by mailimailo.univ-rennes1.fr (Cyrus v2.3.16-Fedora-RPM-2.3.16-6.el6_2.5) with LMTPA;
+	 Fri, 18 Dec 2015 18:35:01 +0100
+X-Sieve: CMU Sieve 2.3
+Received: from mailout1.univ-rennes1.fr (mailout1.univ-rennes1.fr [129.20.128.162])
+	by mailimailo.univ-rennes1.fr (Postfix) with ESMTP id 1A99926A06D8
+	for <resp-m2-miage@univ-rennes1.fr>; Fri, 18 Dec 2015 18:35:01 +0100 (CET)
+Received: from localhost (vmscanmail.univ-rennes1.fr [129.20.128.134])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id 1692160312
+	for <resp-m2-miage@univ-rennes1.fr>; Fri, 18 Dec 2015 18:35:01 +0100 (CET)
+X-Virus-Scanned: amavisd-new at univ-rennes1.fr
+Received: from mailout1.univ-rennes1.fr ([129.20.128.162])
+	by localhost (vmscanmail.univ-rennes1.frm [129.20.128.134]) (amavisd-new, port 10026)
+	with ESMTP id gY-yuKMta6JB for <resp-m2-miage@univ-rennes1.fr>;
+	Fri, 18 Dec 2015 18:35:00 +0100 (CET)
+Received: from vmmailin.univ-rennes1.fr (vmmailin.univ-rennes1.fr [129.20.128.133])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id E6C4E6002E
+	for <resp-m2-miage@univ-rennes1.fr>; Fri, 18 Dec 2015 18:35:00 +0100 (CET)
+Received: from mxb2-2.relay.renater.fr (mxb2-2.relay.renater.fr [194.214.200.9])
+	by vmmailin.univ-rennes1.fr (Postfix) with ESMTP id DF27720033
+	for <resp-m2-miage@univ-rennes1.fr>; Fri, 18 Dec 2015 18:35:00 +0100 (CET)
+Received: from smtp1-74.revue-en-ligne.com (smtp1-74.revue-en-ligne.com [178.33.194.181])
+	by mxb2-2.relay.renater.fr (asm) with SMTP id B8E4A600485
+	for <resp-m2-miage@univ-rennes1.fr>; Fri, 18 Dec 2015 18:35:00 +0100 (CET)
+Received: (GreenArrow 30401 invoked by uid 410); 18 Dec 2015 17:35:00 -0000
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed;
+	d=solutionmaison.fr; s=default; h=Subject:From:To:Date:
+	List-Unsubscribe:Message-ID:MIME-Version:Content-Type; bh=uCy/Ne
+	ixKUqN9qBlhzqSwx86voY=; b=wo6/idKVkYM+VVz2d43zYlVwhUfaCqyrejywCy
+	TVoE2AYmijssPt5JlSVzA1ccV38LXImJBmJ8QZyoGbXoJkSCOx/UMkSekbwAUEWG
+	M5OytrZasimyO0HVLcTe5/9tE/D8J2sDZJahL0pkecxw9jbSfhkmcs/cjF8aR2pi
+	+z06c=
+Subject: =?UTF-8?Q?Envie=20de=20partir=20=3F=20D=C3=A9couvrez=20nos=20o?=
+ =?UTF-8?Q?ffres=20exceptionnelles?=
+From: "Carrefour Voyages par Sociabiliweb" <news@solutionmaison.fr>
+To: resp-m2-miage@univ-rennes1.fr
+Date: 18 Dec 2015 17:35:00 -0000
+List-Unsubscribe: <http://solutionmaison.fr/ga/unsubscribe/2-11527895-18-1316-2531-ed35df89ef15825-474b413e69>,
+ <mailto:return-a18-2528-2531-resp-m2-miage=univ-rennes1.fr=4u@solutionmaison.fr>
+X-Mailer: GreenArrow Studio (v4.65.0)
+X-CampaignID: s4:2528-d1977127ae5062a4
+Message-ID: <mid-8dda8bfa18d02b81e77dbe4de8efedaf@solutionmaison.fr>
+X-Mailer-Info: 4.hFDO.gM1IDO.IXZzBXLtJTLtlWYnVGQ15Wa21icl5mblNXMuYmc.gM1MTM
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="==7bc8223df7658bbae87ff9a40550e74c"
+X-UCE-Status: YES
+X-UCE-Type: MCE
+X-Original-Source-IP: 178.33.194.181
+X-Bizanga: IMP - mxb2-2.relay.renater.fr
+X-Renater-SpamState: 11
+X-Renater-SpamScore: 17
+X-Renater-SpamCause: gggruggvucftvghtrhhoucdtuddrfeekiedrfeehgddutddvucetufdoteggodetrfdotffvucfrrhhofhhilhgvmecutffgpfetvffgtfdpggftfghnshhusghstghrihgsvgenuceurghilhhouhhtmecufedttdenucdnofetkffnkffpifculddujedmnecujfgurhepuffhvfffjffokfggtgesrgdtreerredtjeenucfhrhhomhepfdevrghrrhgvfhhouhhrucggohihrghgvghsuchprghrucfuohgtihgrsghilhhifigvsgdfuceonhgvfihssehsohhluhhtihhonhhmrghishhonhdrfhhrqeenucffohhmrghinhepshholhhuthhiohhnmhgrihhsohhnrdhfrhenucfrrghrrghmpehmohguvgepshhmthhppdhhvghlohepshhmthhpuddqjeegrdhrvghvuhgvqdgvnhdqlhhighhnvgdrtghomhdpihhnvghtpedujeekrdeffedrudelgedrudekuddpmhgrihhlfhhrohhmpehrvghtuhhrnhdqrgdukedqvdehvdekqddvheefuddqrhgvshhpqdhmvddqmhhirghgvgepuhhnihhvqdhrvghnnhgvshdurdhfrhepgeesshholhhuthhiohhnmhgrihhsohhnrdhfrhdprhgtphhtthhopehrvghsphdqmhdvqdhmihgrghgvsehunhhivhdqrhgvnhhnvghsuddrfhhr 
+X-Renater-ServerName: mxb2-2.relay.renater.fr
+
+This is a multi-part message in MIME format.
+
+--==7bc8223df7658bbae87ff9a40550e74c
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Envie de partir ? D=C3=A9couvrez nos offres exceptionnelles ! ( http://solu=
+tionmaison.fr/ga/click/2-11527895-18-1316-2531-18106-98acc0af31-474b413e69 )
+
+Carrefour Voyages ( http://solutionmaison.fr/ga/click/2-11527895-18-1316-25=
+31-18106-98acc0af31-474b413e69 )
+
+t=C3=A9l=C3=A9phone 0892 015 015 service 0,40=E2=82=AC/min prix d'appel ( h=
+ttp://solutionmaison.fr/ga/click/2-11527895-18-1316-2531-18106-98acc0af31-4=
+74b413e69 )
+
+Les petites attentions font les grands voyages ( http://solutionmaison.fr/g=
+a/click/2-11527895-18-1316-2531-18106-98acc0af31-474b413e69 )
+( http://solutionmaison.fr/ga/click/2-11527895-18-1316-2531-18106-98acc0af3=
+1-474b413e69 )
+
+( http://solutionmaison.fr/ga/click/2-11527895-18-1316-2531-18106-98acc0af3=
+1-474b413e69 )
+Week-end =C3=A0 Prague H=C3=B4tel 4* petit d=C3=A9jeuner, 2 jours 1
+nuit, =C3=A0 partir de 29=E2=82=AC par personne, voir les offres ( http://s=
+olutionmaison.fr/ga/click/2-11527895-18-1316-2531-18106-98acc0af31-474b413e=
+69 )
+( http://solutionmaison.fr/ga/click/2-11527895-18-1316-2531-18106-98acc0af3=
+1-474b413e69 )
+S=C3=A9jour au ski Alpes Pyr=C3=A9n=C3=A9es =C3=A0 partir de 130=E2=82=AC p=
+ar
+h=C3=A9bergement, voir les offres ( http://solutionmaison.fr/ga/click/2-115=
+27895-18-1316-2531-18106-98acc0af31-474b413e69 )
+( http://solutionmaison.fr/ga/click/2-11527895-18-1316-2531-18106-98acc0af3=
+1-474b413e69 )
+
+( http://solutionmaison.fr/ga/click/2-11527895-18-1316-2531-18106-98acc0af3=
+1-474b413e69 )
+
+( http://solutionmaison.fr/ga/click/2-11527895-18-1316-2531-18106-98acc0af3=
+1-474b413e69 )
+S=C3=A9jour au Cap Vert H=C3=B4tel 3* petit d=C3=A9jeuner, 8 jours 7
+nuits, =C3=A0 partir de 849=E2=82=AC par h=C3=A9bergement, voir les offres =
+( http://solutionmaison.fr/ga/click/2-11527895-18-1316-2531-18106-98acc0af3=
+1-474b413e69 )
+( http://solutionmaison.fr/ga/click/2-11527895-18-1316-2531-18106-98acc0af3=
+1-474b413e69 )
+Circuit aux Etats-Unis 12 jours 10 nuits, =C3=A0 partir de
+1545 =E2=82=AC par personne, voir les offres ( http://solutionmaison.fr/ga/=
+click/2-11527895-18-1316-2531-18106-98acc0af31-474b413e69 )
+( http://solutionmaison.fr/ga/click/2-11527895-18-1316-2531-18106-98acc0af3=
+1-474b413e69 )
+
+( http://solutionmaison.fr/ga/click/2-11527895-18-1316-2531-18106-98acc0af3=
+1-474b413e69 )
+
+Pour profiter de nos offres exceptionnelles merci de
+valider votre adresse ( http://solutionmaison.fr/ga/click/2-11527895-18-131=
+6-2531-18106-98acc0af31-474b413e69 )
+
+resp-m2-miage@univ-rennes1.fr ( http://solutionmaison.fr/ga/click/2-1152789=
+5-18-1316-2531-18106-98acc0af31-474b413e69 )
+
+J'en profite ( http://solutionmaison.fr/ga/click/2-11527895-18-1316-2531-18=
+106-98acc0af31-474b413e69 )
+
+En validant, j=E2=80=99accepte de recevoir par email les offres
+promotionnelles, avant-premi=C3=A8res et actualit=C3=A9s de Carrefour
+Voyages.
+
+plus de 160 agences, assistance 24h/24 et 7J/7 ( http://solutionmaison.fr/g=
+a/click/2-11527895-18-1316-2531-18106-98acc0af31-474b413e69 )
+
+650 conseillers r=C3=A9servations 0892 015 015 ( http://solutionmaison.fr/g=
+a/click/2-11527895-18-1316-2531-18106-98acc0af31-474b413e69 )
+
+Carrefour ( http://solutionmaison.fr/ga/click/2-11527895-18-1316-2531-18106=
+-98acc0af31-474b413e69 )
+
+Restez connect=C3=A9 aux bons plans avec notre application ( http://solutio=
+nmaison.fr/ga/click/2-11527895-18-1316-2531-18106-98acc0af31-474b413e69 )
+
+Disponible sur App Store ( http://solutionmaison.fr/ga/click/2-11527895-18-=
+1316-2531-18106-98acc0af31-474b413e69 )
+
+* du lundi au vendredi de 9h =C3=A0 19h et le samedi de 9h =C3=A0
+18h - 0,40=E2=82=AC / min + prix appel
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -=
+
+--==7bc8223df7658bbae87ff9a40550e74c
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+	<title></title>
+	<meta content=3D"text/html; charset=3Dutf-8" http-equiv=3D"Content-Type" />
+</head>
+<body>
+<div bgcolor=3D"#ffffff">
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"table-layo=
+ut:fixed" width=3D"96%">
+	<tbody>
+		<tr>
+			<td align=3D"center">
+			<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"650">
+				<tbody>
+					<tr>
+						<td bgcolor=3D"#FFFFFF" height=3D"27" style=3D"min-width:650px"></td>
+					</tr>
+					<tr>
+						<td align=3D"center" bgcolor=3D"#FFFFFF" style=3D"min-width:650px;fon=
+t-family:Arial,Helvetica,sans-serif;font-size:16px;font-weight:bold;color:#=
+888888">
+						<div><a href=3D"http://solutionmaison.fr/ga/click/2-11527895-18-1316-=
+2531-18106-98acc0af31-474b413e69" style=3D"min-width:650px;font-family:Aria=
+l,Helvetica,sans-serif;font-size:16px;font-weight:bold;color:#1279bd;text-d=
+ecoration:none" target=3D"_blank">Envie de partir ? D&eacute;couvrez nos of=
+fres exceptionnelles !</a></div>
+						</td>
+					</tr>
+					<tr>
+						<td bgcolor=3D"#FFFFFF" height=3D"10" style=3D"min-width:650px"></td>
+					</tr>
+					<tr>
+						<td align=3D"center" bgcolor=3D"#FFFFFF" style=3D"min-width:650px;fon=
+t-family:Arial,Helvetica,sans-serif;font-size:10px;color:#636363"></td>
+					</tr>
+					<tr>
+						<td bgcolor=3D"#FFFFFF" height=3D"20" style=3D"min-width:650px"></td>
+					</tr>
+					<tr>
+						<td bgcolor=3D"#FFFFFF" style=3D"min-width:650px">
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%=
+">
+							<tbody>
+								<tr>
+									<td align=3D"center" bgcolor=3D"#1279bd" width=3D"232"><a href=3D"=
+http://solutionmaison.fr/ga/click/2-11527895-18-1316-2531-18106-98acc0af31-=
+474b413e69" target=3D"_blank"><img alt=3D"Carrefour Voyages" height=3D"44" =
+src=3D"http://hst.tradedoubler.com/file/268533/carrefourdec2015/logo_carref=
+ourvoyages.jpg" style=3D"display:block" width=3D"232" /></a></td>
+									<td bgcolor=3D"#fbf7fb" width=3D"256"></td>
+									<td align=3D"center" bgcolor=3D"#fbf7fb" width=3D"286"><a href=3D"=
+http://solutionmaison.fr/ga/click/2-11527895-18-1316-2531-18106-98acc0af31-=
+474b413e69" target=3D"_blank"><img alt=3D" t=C3=A9l=C3=A9phone 0892 015 015=
+ service 0,40=E2=82=AC/min prix d'appel" height=3D"44" src=3D"http://hst.tr=
+adedoubler.com/file/268533/carrefourdec2015/tel.jpg" style=3D"display:block=
+" width=3D"271" /></a></td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+					<tr>
+						<td bgcolor=3D"#000000" style=3D"min-width:650px">
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%=
+">
+							<tbody>
+								<tr>
+									<td align=3D"center" bgcolor=3D"#1279bd"><a href=3D"http://solutio=
+nmaison.fr/ga/click/2-11527895-18-1316-2531-18106-98acc0af31-474b413e69" ta=
+rget=3D"_blank"><img alt=3D"Les petites attentions font les grands voyages"=
+ height=3D"220" src=3D"http://hst.tradedoubler.com/file/268533/carrefourdec=
+2015/visu_left.jpg" style=3D"display:block" width=3D"100%" /></a></td>
+									<td align=3D"center" bgcolor=3D"#fbf7fb" width=3D"236"><a href=3D"=
+http://solutionmaison.fr/ga/click/2-11527895-18-1316-2531-18106-98acc0af31-=
+474b413e69" target=3D"_blank"><img height=3D"220" src=3D"http://hst.tradedo=
+ubler.com/file/268533/carrefourdec2015/visu_right.jpg" style=3D"display:blo=
+ck" /></a></td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+					<tr>
+						<td bgcolor=3D"#f3f0ef" style=3D"min-width:650px">
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%=
+">
+							<tbody>
+								<tr>
+									<td align=3D"center" bgcolor=3D"#f3f0ef" width=3D"236"><a href=3D"=
+http://solutionmaison.fr/ga/click/2-11527895-18-1316-2531-18106-98acc0af31-=
+474b413e69" target=3D"_blank"><img height=3D"252" src=3D"http://hst.tradedo=
+ubler.com/file/268533/carrefourdec2015/bord_hg.jpg" style=3D"display:block"=
+ width=3D"47" /></a></td>
+									<td align=3D"center" bgcolor=3D"#f3f0ef"><a href=3D"http://solutio=
+nmaison.fr/ga/click/2-11527895-18-1316-2531-18106-98acc0af31-474b413e69" ta=
+rget=3D"_blank"><img alt=3D"Week-end =C3=A0 Prague H=C3=B4tel 4* petit d=C3=
+=A9jeuner, 2 jours 1 nuit, =C3=A0 partir de 29=E2=82=AC par personne, voir =
+les offres" height=3D"252" src=3D"http://hst.tradedoubler.com/file/268533/c=
+arrefourdec2015/offre_un.jpg" style=3D"display:block" width=3D"269" /></a><=
+/td>
+									<td align=3D"center" bgcolor=3D"#f3f0ef" width=3D"236"><a href=3D"=
+http://solutionmaison.fr/ga/click/2-11527895-18-1316-2531-18106-98acc0af31-=
+474b413e69" target=3D"_blank"><img height=3D"252" src=3D"http://hst.tradedo=
+ubler.com/file/268533/carrefourdec2015/bord_hm.jpg" style=3D"display:block"=
+ width=3D"18" /></a></td>
+									<td align=3D"center" bgcolor=3D"#f3f0ef"><a href=3D"http://solutio=
+nmaison.fr/ga/click/2-11527895-18-1316-2531-18106-98acc0af31-474b413e69" ta=
+rget=3D"_blank"><img alt=3D"S=C3=A9jour au ski Alpes Pyr=C3=A9n=C3=A9es  =
+=C3=A0 partir de 130=E2=82=AC par h=C3=A9bergement, voir les offres" height=
+=3D"252" src=3D"http://hst.tradedoubler.com/file/268533/carrefourdec2015/of=
+fre_deux.jpg" style=3D"display:block" width=3D"269" /></a></td>
+									<td align=3D"center" bgcolor=3D"#f3f0ef" width=3D"236"><a href=3D"=
+http://solutionmaison.fr/ga/click/2-11527895-18-1316-2531-18106-98acc0af31-=
+474b413e69" target=3D"_blank"><img height=3D"252" src=3D"http://hst.tradedo=
+ubler.com/file/268533/carrefourdec2015/bord_hd.jpg" style=3D"display:block"=
+ width=3D"47" /></a></td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+					<tr>
+						<td bgcolor=3D"#000000">
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%=
+">
+							<tbody>
+								<tr>
+									<td align=3D"center" bgcolor=3D"#f3f0ef"><a href=3D"http://solutio=
+nmaison.fr/ga/click/2-11527895-18-1316-2531-18106-98acc0af31-474b413e69" ta=
+rget=3D"_blank"><img height=3D"14" src=3D"http://hst.tradedoubler.com/file/=
+268533/carrefourdec2015/separ_h.jpg" style=3D"display:block" width=3D"100%"=
+ /></a></td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+					<tr>
+						<td bgcolor=3D"#f3f0ef" style=3D"min-width:650px">
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%=
+">
+							<tbody>
+								<tr>
+									<td align=3D"center" bgcolor=3D"#f3f0ef" width=3D"236"><a href=3D"=
+http://solutionmaison.fr/ga/click/2-11527895-18-1316-2531-18106-98acc0af31-=
+474b413e69" target=3D"_blank"><img height=3D"252" src=3D"http://hst.tradedo=
+ubler.com/file/268533/carrefourdec2015/bord_bg.jpg" style=3D"display:block"=
+ width=3D"47" /></a></td>
+									<td align=3D"center" bgcolor=3D"#f3f0ef"><a href=3D"http://solutio=
+nmaison.fr/ga/click/2-11527895-18-1316-2531-18106-98acc0af31-474b413e69" ta=
+rget=3D"_blank"><img alt=3D"S=C3=A9jour au Cap Vert H=C3=B4tel 3* petit d=
+=C3=A9jeuner, 8 jours 7 nuits,  =C3=A0 partir de 849=E2=82=AC par h=C3=A9be=
+rgement, voir les offres" height=3D"252" src=3D"http://hst.tradedoubler.com=
+/file/268533/carrefourdec2015/offre_trois.jpg" style=3D"display:block" widt=
+h=3D"269" /></a></td>
+									<td align=3D"center" bgcolor=3D"#f3f0ef" width=3D"236"><a href=3D"=
+http://solutionmaison.fr/ga/click/2-11527895-18-1316-2531-18106-98acc0af31-=
+474b413e69" target=3D"_blank"><img height=3D"252" src=3D"http://hst.tradedo=
+ubler.com/file/268533/carrefourdec2015/bord_bm.jpg" style=3D"display:block"=
+ width=3D"18" /></a></td>
+									<td align=3D"center" bgcolor=3D"#f3f0ef"><a href=3D"http://solutio=
+nmaison.fr/ga/click/2-11527895-18-1316-2531-18106-98acc0af31-474b413e69" ta=
+rget=3D"_blank"><img alt=3D"Circuit aux Etats-Unis 12 jours 10 nuits, =C3=
+=A0 partir de 1545 =E2=82=AC par personne, voir les offres" height=3D"252" =
+src=3D"http://hst.tradedoubler.com/file/268533/carrefourdec2015/offre_quatr=
+e.jpg" style=3D"display:block" width=3D"269" /></a></td>
+									<td align=3D"center" bgcolor=3D"#f3f0ef" width=3D"236"><a href=3D"=
+http://solutionmaison.fr/ga/click/2-11527895-18-1316-2531-18106-98acc0af31-=
+474b413e69" target=3D"_blank"><img height=3D"252" src=3D"http://hst.tradedo=
+ubler.com/file/268533/carrefourdec2015/bord_bd.jpg" style=3D"display:block"=
+ width=3D"47" /></a></td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+					<tr>
+						<td bgcolor=3D"#000000">
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%=
+">
+							<tbody>
+								<tr>
+									<td align=3D"center" bgcolor=3D"#f3f0ef"><a href=3D"http://solutio=
+nmaison.fr/ga/click/2-11527895-18-1316-2531-18106-98acc0af31-474b413e69" ta=
+rget=3D"_blank"><img height=3D"14" src=3D"http://hst.tradedoubler.com/file/=
+268533/carrefourdec2015/visu_fin.jpg" style=3D"display:block" width=3D"100%=
+" /></a></td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+					<tr>
+						<td bgcolor=3D"#06273d" style=3D"min-width:650px" valign=3D"middle">
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%=
+">
+							<tbody>
+								<tr>
+									<td align=3D"center" bgcolor=3D"#06273d"><a href=3D"http://solutio=
+nmaison.fr/ga/click/2-11527895-18-1316-2531-18106-98acc0af31-474b413e69" ta=
+rget=3D"_blank"><img alt=3D"Pour profiter de nos offres exceptionnelles mer=
+ci de valider votre adresse" border=3D"0" height=3D"86" src=3D"http://hst.t=
+radedoubler.com/file/268533/carrefourdec2015/texte_mail.jpg" style=3D"displ=
+ay:block" width=3D"543" /></a></td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+					<tr>
+						<td align=3D"center" bgcolor=3D"#06273d" style=3D"min-width:650px">
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"489">
+							<tbody>
+								<tr>
+									<td valign=3D"top">
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"1=
+00%">
+										<tbody>
+											<tr>
+												<td>
+												<table bgcolor=3D"#FFFFFF" border=3D"0" cellpadding=3D"0" cells=
+pacing=3D"0" width=3D"100%">
+													<tbody>
+														<tr>
+															<td align=3D"center" height=3D"36"><a href=3D"http://solutio=
+nmaison.fr/ga/click/2-11527895-18-1316-2531-18106-98acc0af31-474b413e69" st=
+yle=3D"font-family:Arial,Helvetica,sans-serif;font-size:12px;color:#06273d;=
+text-decoration:none" target=3D"_blank">resp-m2-miage@univ-rennes1.fr</a></=
+td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+									<td height=3D"20" style=3D"max-height:8px" width=3D"9"></td>
+									<td align=3D"center" bgcolor=3D"#1279bd" height=3D"36" width=3D"17=
+8"><a href=3D"http://solutionmaison.fr/ga/click/2-11527895-18-1316-2531-181=
+06-98acc0af31-474b413e69" style=3D"font-family:Arial,Helvetica,sans-serif;f=
+ont-size:11px;font-weight:bold;color:#000000;text-decoration:none" target=
+=3D"_blank"><img alt=3D"J'en profite" border=3D"0" height=3D"14" src=3D"htt=
+p://hst.tradedoubler.com/file/268533/carrefourdec2015/btn_jenprofite.jpg" s=
+tyle=3D"display:inline;padding-top:10px" width=3D"108" /></a></td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+					<tr>
+						<td align=3D"center" bgcolor=3D"#06273d" height=3D"55" style=3D"min-w=
+idth:650px;font-family:Arial,Helvetica,sans-serif;font-size:10px;color:#fff=
+fff;padding-top:5px">
+						<div>En validant, j&rsquo;accepte de recevoir par email les offres pr=
+omotionnelles, avant-premi&egrave;res et actualit&eacute;s de Carrefour Voy=
+ages.</div>
+						</td>
+					</tr>
+					<tr>
+						<td bgcolor=3D"#FFFFFF" style=3D"min-width:650px">
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%=
+">
+							<tbody>
+								<tr>
+									<td align=3D"center" bgcolor=3D"#f3f1e9" width=3D"294"></td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+					<tr>
+						<td bgcolor=3D"#FFFFFF" style=3D"min-width:650px">
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%=
+">
+							<tbody>
+								<tr>
+									<td align=3D"center" bgcolor=3D"#f3f1e9" width=3D"294"><a href=3D"=
+http://solutionmaison.fr/ga/click/2-11527895-18-1316-2531-18106-98acc0af31-=
+474b413e69" target=3D"_blank"><img alt=3D" plus de 160 agences, assistance =
+24h/24 et 7J/7" height=3D"68" src=3D"http://hst.tradedoubler.com/file/26853=
+3/carrefourdec2015/reassuranceg.jpg" style=3D"display:block" width=3D"264" =
+/></a></td>
+									<td bgcolor=3D"#f3f1e9" width=3D"60"></td>
+									<td align=3D"center" bgcolor=3D"#f3f1e9" width=3D"296"><a href=3D"=
+http://solutionmaison.fr/ga/click/2-11527895-18-1316-2531-18106-98acc0af31-=
+474b413e69" target=3D"_blank"><img alt=3D"650 conseillers r=C3=A9servations=
+ 0892 015 015" height=3D"68" src=3D"http://hst.tradedoubler.com/file/268533=
+/carrefourdec2015/reassurancegd.jpg" style=3D"display:block" width=3D"264" =
+/></a></td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+					<tr>
+						<td bgcolor=3D"#f3f0ef" style=3D"min-width:650px" valign=3D"bottom">
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%=
+">
+							<tbody>
+								<tr>
+									<td align=3D"center" bgcolor=3D"#f3f0ef" valign=3D"bottom" width=
+=3D"236"><img height=3D"60" src=3D"http://hst.tradedoubler.com/file/268533/=
+carrefourdec2015/bandeaug.jpg" style=3D"display:block" width=3D"165" /></td>
+									<td align=3D"center" bgcolor=3D"#f3f0ef" height=3D"60" valign=3D"b=
+ottom"><a href=3D"http://solutionmaison.fr/ga/click/2-11527895-18-1316-2531=
+-18106-98acc0af31-474b413e69" target=3D"_blank"><img alt=3D"Carrefour" heig=
+ht=3D"60" src=3D"http://hst.tradedoubler.com/file/268533/carrefourdec2015/c=
+arrefour_logo_b.jpg" style=3D"display:block" width=3D"320" /></a></td>
+									<td align=3D"center" bgcolor=3D"#f3f0ef" valign=3D"bottom" width=
+=3D"236"><img height=3D"60" src=3D"http://hst.tradedoubler.com/file/268533/=
+carrefourdec2015/bandeaud.jpg" style=3D"display:block" width=3D"165" /></td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+					<tr>
+						<td bgcolor=3D"#06273d" style=3D"min-width:650px">
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%=
+">
+							<tbody>
+								<tr>
+									<td align=3D"center" bgcolor=3D"#06273d"><a href=3D"http://solutio=
+nmaison.fr/ga/click/2-11527895-18-1316-2531-18106-98acc0af31-474b413e69" ta=
+rget=3D"_blank"><img alt=3D"Restez connect=C3=A9 aux bons plans avec notre =
+application" border=3D"0" src=3D"http://hst.tradedoubler.com/file/268533/ca=
+rrefourdec2015/reste_connecte.jpg" style=3D"display:block" width=3D"440" />=
+</a></td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+					<tr>
+						<td bgcolor=3D"#06273d" style=3D"min-width:650px">
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%=
+">
+							<tbody>
+								<tr>
+									<td align=3D"center" bgcolor=3D"#06273d"><a href=3D"http://solutio=
+nmaison.fr/ga/click/2-11527895-18-1316-2531-18106-98acc0af31-474b413e69" ta=
+rget=3D"_blank"><img alt=3D"Disponible sur App Store" border=3D"0" height=
+=3D"38" src=3D"http://hst.tradedoubler.com/file/268533/carrefourdec2015/app=
+store.jpg" style=3D"display:block;max-width:104px" width=3D"104" /></a></td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+					<tr>
+						<td bgcolor=3D"#06273d" height=3D"15" style=3D"min-width:650px"></td>
+					</tr>
+					<tr>
+						<td bgcolor=3D"#06273d" height=3D"10" style=3D"min-width:650px;line-h=
+eight:1px"></td>
+					</tr>
+					<tr>
+						<td align=3D"center" bgcolor=3D"#06273d" style=3D"min-width:650px">
+						<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0" width=3D"100%">
+							<tbody>
+								<tr>
+									<td width=3D"13"></td>
+									<td align=3D"center" style=3D"font-family:Arial,Helvetica,sans-ser=
+if;font-size:11px;color:#ffffff">* du lundi au vendredi de 9h &agrave; 19h =
+et le samedi de 9h &agrave; 18h - 0,40&euro; / min + prix appel</td>
+									<td width=3D"13"></td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+					<tr>
+						<td bgcolor=3D"#06273d" style=3D"min-width:650px"></td>
+					</tr>
+				</tbody>
+			</table>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<div style=3D"white-space:nowrap;font:15px courier;color:#ffffff">- - - - -=
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - -</div>
+</div>
+
+<p><img src=3D"http://impgb.tradedoubler.com/imp?type(inv)g(23021848)a(2778=
+216)" /></p>
+
+<center><a href=3D"http://solutionmaison.fr/ga/unsubscribe/2-11527895-18-13=
+16-2531-ed35df89ef15825-474b413e69">Je souhaite me d=C3=A9sinscrire et ne p=
+lus recevoir les newsletters</a>
+</center><img src=3D"http://solutionmaison.fr/ga/open/2-11527895-18-1316-25=
+31-474b413e69" height=3D"2" width=3D"3" alt=3D""></body>
+</html>
+
+--==7bc8223df7658bbae87ff9a40550e74c--

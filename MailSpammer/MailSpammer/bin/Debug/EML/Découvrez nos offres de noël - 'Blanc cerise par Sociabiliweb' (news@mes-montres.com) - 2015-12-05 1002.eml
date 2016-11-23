@@ -1,0 +1,478 @@
+Return-Path: <return-a18-2394-2400-resp-m2-miage=univ-rennes1.fr=4@mes-montres.com>
+Received: from mailimailo.univ-rennes1.fr ([unix socket])
+	 by mailimailo.univ-rennes1.fr (Cyrus v2.3.16-Fedora-RPM-2.3.16-6.el6_2.5) with LMTPA;
+	 Sat, 05 Dec 2015 10:02:16 +0100
+X-Sieve: CMU Sieve 2.3
+Received: from mailout1.univ-rennes1.fr (mailout1.univ-rennes1.fr [129.20.128.162])
+	by mailimailo.univ-rennes1.fr (Postfix) with ESMTP id 780FA26A0BE9
+	for <resp-m2-miage@univ-rennes1.fr>; Sat,  5 Dec 2015 10:02:16 +0100 (CET)
+Received: from localhost (vmscanmail.univ-rennes1.fr [129.20.128.134])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id 73BEF6016D
+	for <resp-m2-miage@univ-rennes1.fr>; Sat,  5 Dec 2015 10:02:16 +0100 (CET)
+X-Virus-Scanned: amavisd-new at univ-rennes1.fr
+Received: from mailout1.univ-rennes1.fr ([129.20.128.162])
+	by localhost (vmscanmail.univ-rennes1.frm [129.20.128.134]) (amavisd-new, port 10026)
+	with ESMTP id vqdcAW3_qIoi for <resp-m2-miage@univ-rennes1.fr>;
+	Sat,  5 Dec 2015 10:02:16 +0100 (CET)
+Received: from vmmailin.univ-rennes1.fr (vmmailin.univ-rennes1.fr [129.20.128.133])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id 4DD9B6018A
+	for <resp-m2-miage@univ-rennes1.fr>; Sat,  5 Dec 2015 10:02:16 +0100 (CET)
+Received: from mxb1-1.relay.renater.fr (mxb1-1.relay.renater.fr [194.214.201.8])
+	by vmmailin.univ-rennes1.fr (Postfix) with ESMTP id 46A4620033
+	for <resp-m2-miage@univ-rennes1.fr>; Sat,  5 Dec 2015 10:02:16 +0100 (CET)
+Received: from smtp1-07.revue-en-ligne.com (smtp1-07.revue-en-ligne.com [5.196.201.138])
+	by mxb1-1.relay.renater.fr (asm) with SMTP id F0E48600219
+	for <resp-m2-miage@univ-rennes1.fr>; Sat,  5 Dec 2015 10:02:15 +0100 (CET)
+Received: (GreenArrow 17745 invoked by uid 410); 5 Dec 2015 09:02:15 -0000
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed;
+	d=mes-montres.com; s=default; h=Subject:From:To:Date:
+	List-Unsubscribe:Message-ID:MIME-Version:Content-Type; bh=EsEIN5
+	RDYseTpH5HV3+aoDhHhFk=; b=eZuaMi2GHxdIzKMjUcwoHJQFwkeHkjZuy/AI8q
+	Hn63y1cXBXrtUrGaUG6pakfmjfl1C6kIJ9zNyxbDereIg/fc5ibFDeK7eE4puS0J
+	4pplxZ5nlVVQFkDPOM+Y/eHC/zWlW/7PVKoOq/Ao1CX9wFax3mvLSXQO7loLnOGH
+	TioFU=
+Subject: =?UTF-8?Q?D=C3=A9couvrez=20nos=20offres=20de=20no=C3=ABl?=
+From: "Blanc cerise par Sociabiliweb" <news@mes-montres.com>
+To: resp-m2-miage@univ-rennes1.fr
+Date: 05 Dec 2015 09:02:15 -0000
+List-Unsubscribe: <http://mes-montres.com/ga/unsubscribe/2-11527895-18-1248-2400-ed35df89ef15825-9fbc8b9db3>,
+ <mailto:return-a18-2394-2400-resp-m2-miage=univ-rennes1.fr=4u@mes-montres.com>
+X-Mailer: GreenArrow Studio (v4.65.0)
+X-CampaignID: s4:2394-553b57fa5e85fed2
+Message-ID: <mid-bfd37123721106506c62f763d8dbcb9b@mes-montres.com>
+X-Mailer-Info: 4.hFDO.gMzkDN.IXZzBXLtJTLtlWYnVGQ15Wa21icl5mblNXMuYmc.gM0ADM
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="==d3c3b7f03b55f0105f99e38da4932bf5"
+X-UCE-Status: YES
+X-UCE-Type: MCE
+X-Original-Source-IP: 5.196.201.138
+X-Bizanga: IMP - mxb1-1.relay.renater.fr
+X-Renater-SpamState: 11
+X-Renater-SpamScore: 17
+X-Renater-SpamCause: gggruggvucftvghtrhhoucdtuddrfeekiedrtdejgddufedvucetufdoteggodetrfdotffvucfrrhhofhhilhgvmecutffgpfetvffgtfdpggftfghnshhusghstghrihgsvgenuceurghilhhouhhtmecufedttdenucdnofetkffnkffpifculddujedmnecujfgurhepuffhvfffjffokfggtgesrgdtreerredtjeenucfhrhhomhepfdeulhgrnhgtucgtvghrihhsvgcuphgrrhcuufhotghirggsihhlihifvggsfdcuoehnvgifshesmhgvshdqmhhonhhtrhgvshdrtghomheqnecuffhomhgrihhnpehmvghsqdhmohhnthhrvghsrdgtohhmpdgslhgrnhgtqdgtvghrihhsvgdrtghomhenucfrrghrrghmpehmohguvgepshhmthhppdhhvghlohepshhmthhpuddqtdejrdhrvghvuhgvqdgvnhdqlhhighhnvgdrtghomhdpihhnvghtpeehrdduleeirddvtddurddufeekpdhmrghilhhfrhhomheprhgvthhurhhnqdgrudekqddvfeelgedqvdegtddtqdhrvghsphdqmhdvqdhmihgrghgvpehunhhivhdqrhgvnhhnvghsuddrfhhrpeegsehmvghsqdhmohhnthhrvghsrdgtohhmpdhrtghpthhtoheprhgvshhpqdhmvddqmhhirghgvgesuhhnihhvqdhrvghnnhgvshdurdhfrh 
+X-Renater-ServerName: mxb1-1.relay.renater.fr
+
+This is a multi-part message in MIME format.
+
+--==d3c3b7f03b55f0105f99e38da4932bf5
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Blanc Cerise ( http://mes-montres.com/ga/click/2-11527895-18-1248-2400-1716=
+5-1c39ccef02-9fbc8b9db3 )
+
+Tout sur Blanc Cerise ( http://mes-montres.com/ga/click/2-11527895-18-1248-=
+2400-17166-f72b95e145-9fbc8b9db3 )
+Sommeil et Volupt=C3=A9 ( http://mes-montres.com/ga/click/2-11527895-18-124=
+8-2400-17167-b4b7aab9c9-9fbc8b9db3 )
+Moment Gourmand ( http://mes-montres.com/ga/click/2-11527895-18-1248-2400-1=
+7168-8c3eede1c4-9fbc8b9db3 )
+Bulle et Vapeur ( http://mes-montres.com/ga/click/2-11527895-18-1248-2400-1=
+7169-35c4856928-9fbc8b9db3 )
+Tout Petits ou Presque Grands ( http://mes-montres.com/ga/click/2-11527895-=
+18-1248-2400-17170-112d4c4adb-9fbc8b9db3 )
+Mille et une Tentations ( http://mes-montres.com/ga/click/2-11527895-18-124=
+8-2400-17171-27bc3164a8-9fbc8b9db3 )
+
+calendrier d'anniversaire ( http://mes-montres.com/ga/click/2-11527895-18-1=
+248-2400-17172-9391ae84a3-9fbc8b9db3 )
+
+S=C3=A9lection anniversaire ( http://mes-montres.com/ga/click/2-11527895-18=
+-1248-2400-17173-64ddbb93e2-9fbc8b9db3 )
+
+bo=C3=AEte cadeau offerte ( http://mes-montres.com/ga/click/2-11527895-18-1=
+248-2400-17174-b551f5c0af-9fbc8b9db3 )
+
+bo=C3=AEte cadeau offerte ( http://mes-montres.com/ga/click/2-11527895-18-1=
+248-2400-17175-944980a295-9fbc8b9db3 )
+
+bo=C3=AEte cadeau offerte ( http://mes-montres.com/ga/click/2-11527895-18-1=
+248-2400-17176-077cb818e6-9fbc8b9db3 )
+
+Qui sommes nous ? ( http://mes-montres.com/ga/click/2-11527895-18-1248-2400=
+-17177-b2971935bb-9fbc8b9db3 ) =CE=B9 Avis Clients ( http://mes-montres.com=
+/ga/click/2-11527895-18-1248-2400-17178-41a0a36ad7-9fbc8b9db3 ) =CE=B9 Mon =
+Compte ( http://mes-montres.com/ga/click/2-11527895-18-1248-2400-17179-cd59=
+ae1473-9fbc8b9db3 ) =CE=B9 Devenir fan ( http://mes-montres.com/ga/click/2-=
+11527895-18-1248-2400-17180-88257d7421-9fbc8b9db3 ) =CE=B9 Contact Presse (=
+ http://mes-montres.com/ga/click/2-11527895-18-1248-2400-17181-4d960e341d-9=
+fbc8b9db3 ) =CE=B9 FAQ ( http://mes-montres.com/ga/click/2-11527895-18-1248=
+-2400-17182-a679b044e4-9fbc8b9db3 ) =CE=B9 Plan du site ( http://mes-montre=
+s.com/ga/click/2-11527895-18-1248-2400-17183-fdec814a02-9fbc8b9db3 ) =CE=B9=
+ Conditions G=C3=A9n=C3=A9rales de Vente ( http://mes-montres.com/ga/click/=
+2-11527895-18-1248-2400-17184-3843f32314-9fbc8b9db3 )
+Mention l=C3=A9gales ( http://mes-montres.com/ga/click/2-11527895-18-1248-2=
+400-17185-052333faa6-9fbc8b9db3 ) =CE=B9Cr=C3=A9dits ( http://mes-montres.c=
+om/ga/click/2-11527895-18-1248-2400-17186-2b97901c6a-9fbc8b9db3 ) =CE=B9Gui=
+de entretien ( http://mes-montres.com/ga/click/2-11527895-18-1248-2400-1718=
+7-5e0334f065-9fbc8b9db3 ) =CE=B9 Demande d'=C3=A9chantillon ( http://mes-mo=
+ntres.com/ga/click/2-11527895-18-1248-2400-17188-d206ed6532-9fbc8b9db3 ) =
+=CE=B9 Catalogue interactif ( http://mes-montres.com/ga/click/2-11527895-18=
+-1248-2400-17189-595ad4ddcb-9fbc8b9db3 ) =CE=B9 Revendeurs ( http://mes-mon=
+tres.com/ga/click/2-11527895-18-1248-2400-17190-13dc56ff92-9fbc8b9db3 )
+
+* Livraison garantie pour No=C3=ABl pour toutes les commandes pass=C3=A9es
+avant le 18 d=C3=A9cembre =C3=A0 13h. S=C3=A9lection tables de f=C3=AAtes :=
+ jusqu'=C3=A0
+-30% sur une s=C3=A9lection d'articles de linge de table. Les prix
+affich=C3=A9s sur le site sont les prix remis=C3=A9s, offre valable sur
+www.blanc-cerise.com et dans notre boutique au 93 rue du Bac
+75007 jusqu=E2=80=99au 18/12/2015.
+
+L=E2=80=99engagement qualit=C3=A9 Blanc Cerise :
+
+Blanc Cerise a s=C3=A9lectionn=C3=A9 les mati=C3=A8res les plus nobles afin=
+ de
+vous proposer des collections de grandes qualit=C3=A9s et durables.
+Tous les produits Blanc Cerise sont confectionn=C3=A9s en Europe et
+certifi=C3=A9s OEKO-TEX.
+
+Le linge de lit : ( http://mes-montres.com/ga/click/2-11527895-18-1248-2400=
+-17191-96bf546a43-9fbc8b9db3 ) Percale de coton peign=C3=A9 (100% coton). C=
+ette mati=C3=A8re noble, au
+tissage tr=C3=A8s serr=C3=A9 (80 fils/cm=C2=B2) est douce et soyeuse et ass=
+ure
+une extr=C3=AAme r=C3=A9sistance. Elle est trait=C3=A9e pour =C3=AAtre faci=
+le
+d=E2=80=99entretien.
+
+Le linge de toilette : ( http://mes-montres.com/ga/click/2-11527895-18-1248=
+-2400-17192-2021d58f6c-9fbc8b9db3 ) Coton peign=C3=A9 longue fibre en pur c=
+oton (600 g/m2) correspond =C3=A0
+la plus haute qualit=C3=A9 d'=C3=A9ponge. Extra-moelleuse pour un confort
+extr=C3=AAme, cette =C3=A9ponge garantit un pouvoir d'absorption
+incomparable.
+
+Le linge de table : ( http://mes-montres.com/ga/click/2-11527895-18-1248-24=
+00-17193-ca8d15008b-9fbc8b9db3 )Le lin (100%) est une =C3=A9toffe noble et =
+contemporaine. En fibre
+naturelle et 100% biod=C3=A9gradable, plus il est utilis=C3=A9, plus il
+devient doux et solide. Trait=C3=A9 d=C3=A9perlant, les liquides lui
+glissent dessus sans jamais p=C3=A9n=C3=A9trer la mati=C3=A8re.
+
+Chez Blanc Cerise, tous les produits sont trait=C3=A9s pour =C3=AAtre
+facile d=E2=80=99entretien ( http://mes-montres.com/ga/click/2-11527895-18-=
+1248-2400-17194-47e537522c-9fbc8b9db3 )(repassage facile) et ne pas r=C3=A9=
+tr=C3=A9cir=
+
+--==d3c3b7f03b55f0105f99e38da4932bf5
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.=
+w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+	<title>Blanc_Cerise_Selection_fetes</title>
+	<meta content=3D"text/html; charset=3DUTF-8" http-equiv=3D"Content-Type" />
+</head>
+<body bgcolor=3D"#FFFFFF" leftmargin=3D"0" marginheight=3D"0" marginwidth=
+=3D"0" topmargin=3D"0">
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" wi=
+dth=3D"599">
+	<tbody>
+		<tr>
+			<td>
+			<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ width=3D"599">
+				<tbody>
+					<tr>
+						<td><a href=3D"http://mes-montres.com/ga/click/2-11527895-18-1248-240=
+0-17195-459dd16ca9-9fbc8b9db3" target=3D"_self"><img alt=3D"Blanc Cerise" b=
+order=3D"0" height=3D"84" src=3D"http://i.stupremesw.com/newsletters/201512=
+02_blanccerise/Logo_blanccerise.jpg" style=3D"display:block;" width=3D"98" =
+/></a></td>
+						<td><a href=3D"http://mes-montres.com/ga/click/2-11527895-18-1248-240=
+0-17196-72b3de7351-9fbc8b9db3" target=3D"_self"><img border=3D"0" height=3D=
+"84" src=3D"http://i.stupremesw.com/newsletters/20151202_blanccerise/Blanc_=
+Cerise_02.jpg" style=3D"display:block;" width=3D"501" /></a></td>
+					</tr>
+				</tbody>
+			</table>
+			</td>
+		</tr>
+		<tr>
+			<td>
+			<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ width=3D"599">
+				<tbody>
+					<tr>
+						<td><a href=3D"http://mes-montres.com/ga/click/2-11527895-18-1248-240=
+0-17197-c1e9f76288-9fbc8b9db3" target=3D"_self"><img alt=3D"Tout sur Blanc =
+Cerise" border=3D"0" height=3D"25" src=3D"http://i.stupremesw.com/newslette=
+rs/20151202_blanccerise/Blanc_Cerise_v2_03.jpg" style=3D"display:block;" wi=
+dth=3D"127" /></a></td>
+						<td><a href=3D"http://mes-montres.com/ga/click/2-11527895-18-1248-240=
+0-17198-2ad2fd6c8e-9fbc8b9db3" target=3D"_self"><img alt=3D"Sommeil et Volu=
+pt=C3=A9" border=3D"0" height=3D"25" src=3D"http://i.stupremesw.com/newslet=
+ters/20151202_blanccerise/Blanc_Cerise_v2_04.jpg" style=3D"display:block;" =
+width=3D"79" /></a></td>
+						<td><a href=3D"http://mes-montres.com/ga/click/2-11527895-18-1248-240=
+0-17199-47d5152d1e-9fbc8b9db3" target=3D"_self"><img alt=3D"Moment Gourmand=
+" border=3D"0" height=3D"25" src=3D"http://i.stupremesw.com/newsletters/201=
+51202_blanccerise/Blanc_Cerise_v2_05.jpg" style=3D"display:block;" width=3D=
+"94" /></a></td>
+						<td><a href=3D"http://mes-montres.com/ga/click/2-11527895-18-1248-240=
+0-17200-29e38a56fe-9fbc8b9db3" target=3D"_self"><img alt=3D"Bulle et Vapeur=
+" border=3D"0" height=3D"25" src=3D"http://i.stupremesw.com/newsletters/201=
+51202_blanccerise/Blanc_Cerise_v2_06.jpg" style=3D"display:block;" width=3D=
+"91" /></a></td>
+						<td><a href=3D"http://mes-montres.com/ga/click/2-11527895-18-1248-240=
+0-17201-3d1c237681-9fbc8b9db3" target=3D"_self"><img alt=3D"Tout Petits ou =
+Presque Grands" border=3D"0" height=3D"25" src=3D"http://i.stupremesw.com/n=
+ewsletters/20151202_blanccerise/Blanc_Cerise_v2_07.jpg" style=3D"display:bl=
+ock;" width=3D"102" /></a></td>
+						<td><a href=3D"http://mes-montres.com/ga/click/2-11527895-18-1248-240=
+0-17202-86371234fe-9fbc8b9db3" target=3D"_self"><img alt=3D"Mille et une Te=
+ntations" border=3D"0" height=3D"25" src=3D"http://i.stupremesw.com/newslet=
+ters/20151202_blanccerise/Blanc_Cerise_v2_08.jpg" style=3D"display:block;" =
+width=3D"106" /></a></td>
+					</tr>
+				</tbody>
+			</table>
+			</td>
+		</tr>
+		<tr>
+			<td width=3D"599">&nbsp;
+			<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"599">
+				<tbody>
+					<tr>
+						<td>
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"599">
+							<tbody>
+								<tr>
+									<td><a href=3D"http://mes-montres.com/ga/click/2-11527895-18-1248-=
+2400-17203-4c9cc635ed-9fbc8b9db3" target=3D"_self"><img alt=3D"calendrier d=
+'anniversaire" border=3D"0" height=3D"117" src=3D"http://i.stupremesw.com/n=
+ewsletters/20151202_blanccerise/NEWSLETTER_boutique-noel_2015_table_01.jpg"=
+ style=3D"display:block;" width=3D"599" /></a></td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+					<tr>
+						<td>
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"599">
+							<tbody>
+								<tr>
+									<td><a href=3D"http://mes-montres.com/ga/click/2-11527895-18-1248-=
+2400-17204-7d64851fdf-9fbc8b9db3" target=3D"_self"><img alt=3D"S=C3=A9lecti=
+on anniversaire" border=3D"0" height=3D"490" src=3D"http://i.stupremesw.com=
+/newsletters/20151202_blanccerise/NEWSLETTER_boutique-noel_2015_table_02.jp=
+g" style=3D"display:block;" width=3D"599" /></a></td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+					<tr>
+						<td>
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"599">
+							<tbody>
+								<tr>
+									<td><a href=3D"http://mes-montres.com/ga/click/2-11527895-18-1248-=
+2400-17205-4b731d56f2-9fbc8b9db3" target=3D"_self"><img alt=3D"bo=C3=AEte c=
+adeau offerte" border=3D"0" height=3D"299" src=3D"http://i.stupremesw.com/n=
+ewsletters/20151202_blanccerise/NEWSLETTER_boutique-noel_2015_table_03.jpg"=
+ style=3D"display:block;" width=3D"599" /></a></td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+					<tr>
+						<td>
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"599">
+							<tbody>
+								<tr>
+									<td><a href=3D"http://mes-montres.com/ga/click/2-11527895-18-1248-=
+2400-17206-737a258465-9fbc8b9db3" target=3D"_self"><img alt=3D"bo=C3=AEte c=
+adeau offerte" border=3D"0" height=3D"183" src=3D"http://i.stupremesw.com/n=
+ewsletters/20151202_blanccerise/NEWSLETTER_boutique-noel_2015_table_04.jpg"=
+ style=3D"display:block;" width=3D"599" /></a></td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+					<tr>
+						<td>
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"599">
+							<tbody>
+								<tr>
+									<td><a href=3D"http://mes-montres.com/ga/click/2-11527895-18-1248-=
+2400-17207-1fdebeccbc-9fbc8b9db3" target=3D"_self"><img alt=3D"bo=C3=AEte c=
+adeau offerte" border=3D"0" height=3D"200" src=3D"http://i.stupremesw.com/n=
+ewsletters/20151202_blanccerise/NEWSLETTER_boutique-noel_2015_table_05.jpg"=
+ style=3D"display:block;" width=3D"599" /></a></td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+					<tr>
+						<td><img border=3D"0" height=3D"22" src=3D"http://i.stupremesw.com/ne=
+wsletters/20151202_blanccerise/Blanc_Cerise_10.jpg" style=3D"display:block;=
+" width=3D"599" /></td>
+					</tr>
+					<tr>
+						<td>
+						<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0" width=3D"599">
+							<tbody>
+								<tr>
+									<td><a href=3D"http://mes-montres.com/ga/click/2-11527895-18-1248-=
+2400-17208-c1794d4b02-9fbc8b9db3" target=3D"_self"><img border=3D"0" height=
+=3D"27" src=3D"http://i.stupremesw.com/newsletters/20151202_blanccerise/Bla=
+nc_Cerise_11.jpg" style=3D"display:block;" width=3D"83" /></a></td>
+									<td><a href=3D"http://mes-montres.com/ga/click/2-11527895-18-1248-=
+2400-17209-13952cd502-9fbc8b9db3" target=3D"_self"><img border=3D"0" height=
+=3D"27" src=3D"http://i.stupremesw.com/newsletters/20151202_blanccerise/Bla=
+nc_Cerise_12.jpg" style=3D"display:block;" width=3D"102" /></a></td>
+									<td><a href=3D"http://mes-montres.com/ga/click/2-11527895-18-1248-=
+2400-17210-9f8fb566ce-9fbc8b9db3" target=3D"_self"><img border=3D"0" height=
+=3D"27" src=3D"http://i.stupremesw.com/newsletters/20151202_blanccerise/Bla=
+nc_Cerise_13.jpg" style=3D"display:block;" width=3D"92" /></a></td>
+									<td><a href=3D"http://mes-montres.com/ga/click/2-11527895-18-1248-=
+2400-17211-874a9ab789-9fbc8b9db3" target=3D"_self"><img border=3D"0" height=
+=3D"27" src=3D"http://i.stupremesw.com/newsletters/20151202_blanccerise/Bla=
+nc_Cerise_14.jpg" style=3D"display:block;" width=3D"72" /></a></td>
+									<td><a href=3D"http://mes-montres.com/ga/click/2-11527895-18-1248-=
+2400-17212-ad20d73820-9fbc8b9db3" target=3D"_self"><img border=3D"0" height=
+=3D"27" src=3D"http://i.stupremesw.com/newsletters/20151202_blanccerise/Bla=
+nc_Cerise_15.jpg" style=3D"display:block;" width=3D"85" /></a></td>
+									<td><a href=3D"http://mes-montres.com/ga/click/2-11527895-18-1248-=
+2400-17213-34fcd95dba-9fbc8b9db3" target=3D"_self"><img border=3D"0" height=
+=3D"27" src=3D"http://i.stupremesw.com/newsletters/20151202_blanccerise/Bla=
+nc_Cerise_16.jpg" style=3D"display:block;" width=3D"71" /></a></td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+					<tr>
+						<td><img border=3D"0" height=3D"19" src=3D"http://i.stupremesw.com/ne=
+wsletters/20151202_blanccerise/Blanc_Cerise_18.jpg" style=3D"display:block;=
+" width=3D"599" /></td>
+					</tr>
+					<tr>
+						<td bgcolor=3D"#FFFFFF" style=3D"font-size:9px; color:#808080; font-f=
+amily:Verdana, Geneva, sans-serif; text-align:center; text-decoration:none;=
+" width=3D"599"><a href=3D"http://mes-montres.com/ga/click/2-11527895-18-12=
+48-2400-17214-b32f4d0993-9fbc8b9db3" style=3D"color:#808080; text-decoratio=
+n:none;" target=3D"_self">Qui sommes nous ? </a> &iota; <a href=3D"http://m=
+es-montres.com/ga/click/2-11527895-18-1248-2400-17215-932b4f06d9-9fbc8b9db3=
+" style=3D"color:#808080; text-decoration:none;" target=3D"_self"> Avis Cli=
+ents</a> &iota; <a href=3D"http://mes-montres.com/ga/click/2-11527895-18-12=
+48-2400-17216-c79bbed64d-9fbc8b9db3" style=3D"color:#808080; text-decoratio=
+n:none;" target=3D"_self">Mon Compte</a> &iota; <a href=3D"http://mes-montr=
+es.com/ga/click/2-11527895-18-1248-2400-17217-e767b119b1-9fbc8b9db3" style=
+=3D"color:#808080; text-decoration:none;" target=3D"_blank" title=3D"Devene=
+z Fan de Blanc Cerise sur Facebook ">Devenir fan</a> &iota; <a href=3D"http=
+://mes-montres.com/ga/click/2-11527895-18-1248-2400-17218-111af2f8a9-9fbc8b=
+9db3" style=3D"color:#808080; text-decoration:none;" target=3D"_self">Conta=
+ct Presse</a> &iota; <a href=3D"http://mes-montres.com/ga/click/2-11527895-=
+18-1248-2400-17219-9ecd11aedb-9fbc8b9db3" style=3D"color:#808080; text-deco=
+ration:none;" target=3D"_self">FAQ</a> &iota; <a href=3D"http://mes-montres=
+.com/ga/click/2-11527895-18-1248-2400-17220-6f4aa9fc78-9fbc8b9db3" style=3D=
+"color:#808080; text-decoration:none;" target=3D"_self">Plan du site</a> &i=
+ota; <a href=3D"http://mes-montres.com/ga/click/2-11527895-18-1248-2400-172=
+21-9320c5258a-9fbc8b9db3" style=3D"color:#808080; text-decoration:none;" ta=
+rget=3D"_self">Conditions G&eacute;n&eacute;rales de Vente</a><br />
+						<a href=3D"http://mes-montres.com/ga/click/2-11527895-18-1248-2400-17=
+222-d0a363aadd-9fbc8b9db3" style=3D"color:#808080; text-decoration:none;" t=
+arget=3D"_self">Mention l&eacute;gales</a> &iota;<a href=3D"http://mes-mont=
+res.com/ga/click/2-11527895-18-1248-2400-17223-da0bca9ddd-9fbc8b9db3" style=
+=3D"color:#808080; text-decoration:none;" target=3D"_self">Cr&eacute;dits</=
+a> &iota;<a href=3D"http://mes-montres.com/ga/click/2-11527895-18-1248-2400=
+-17224-25f42a6bf3-9fbc8b9db3" style=3D"color:#808080; text-decoration:none;=
+" target=3D"_self">Guide entretien</a> &iota; <a href=3D"http://mes-montres=
+.com/ga/click/2-11527895-18-1248-2400-17225-2dfe9a5b64-9fbc8b9db3" style=3D=
+"color:#808080; text-decoration:none;" target=3D"_self">Demande d&#39;&eacu=
+te;chantillon</a> &iota; <a href=3D"http://mes-montres.com/ga/click/2-11527=
+895-18-1248-2400-17226-6cd52ba702-9fbc8b9db3" style=3D"color:#808080; text-=
+decoration:none;" target=3D"_self">Catalogue interactif</a> &iota; <a href=
+=3D"http://mes-montres.com/ga/click/2-11527895-18-1248-2400-17227-772bf41ab=
+5-9fbc8b9db3" style=3D"color:#808080; text-decoration:none;" target=3D"_sel=
+f">Revendeurs</a></td>
+					</tr>
+					<tr>
+						<td><img border=3D"0" height=3D"24" src=3D"http://i.stupremesw.com/ne=
+wsletters/20151202_blanccerise/Blanc_Cerise_20.jpg" style=3D"display:block;=
+" width=3D"599" /></td>
+					</tr>
+					<tr>
+						<td bgcolor=3D"#FFFFFF" style=3D"font-size:8px; color:#808080; font-f=
+amily:Verdana, Geneva, sans-serif; text-align:center" width=3D"599">
+						<p><strong>* Livraison garantie pour No&euml;l pour toutes les comman=
+des pass&eacute;es avant le 18 d&eacute;cembre &agrave; 13h. S&eacute;lecti=
+on tables de f&ecirc;tes : jusqu&#39;&agrave; -30% sur une s&eacute;lection=
+ d&#39;articles de linge de table. Les prix affich&eacute;s sur le site son=
+t les prix remis&eacute;s, offre valable sur www.blanc-cerise.com et dans n=
+otre boutique au 93 rue du Bac 75007 jusqu&rsquo;au 18/12/2015. </strong><b=
+r />
+						&nbsp;</p>
+						</td>
+					</tr>
+					<tr>
+						<td bgcolor=3D"#FFFFFF" style=3D"font-size:8px; color:#808080; font-f=
+amily:Verdana, Geneva, sans-serif; text-align:center" width=3D"599">
+						<p><strong>L&rsquo;engagement qualit&eacute; Blanc Cerise :</strong><=
+br />
+						<br />
+						Blanc Cerise a s&eacute;lectionn&eacute; les mati&egrave;res les plus=
+ nobles afin de vous proposer des collections de grandes qualit&eacute;s et=
+ durables. Tous les produits Blanc Cerise sont confectionn&eacute;s en Euro=
+pe et certifi&eacute;s OEKO-TEX.</p>
+
+						<p><strong><a href=3D"http://mes-montres.com/ga/click/2-11527895-18-1=
+248-2400-17228-5566e646cb-9fbc8b9db3" style=3D"text-decoration:none; color:=
+#808080;" target=3D"_self">Le linge de lit :</a></strong> Percale de coton =
+peign&eacute; (100% coton). Cette mati&egrave;re noble, au tissage tr&egrav=
+e;s serr&eacute; (80 fils/cm&sup2;) est douce et soyeuse et assure une extr=
+&ecirc;me r&eacute;sistance. Elle est trait&eacute;e pour &ecirc;tre facile=
+ d&rsquo;entretien.</p>
+
+						<p><strong><a href=3D"http://mes-montres.com/ga/click/2-11527895-18-1=
+248-2400-17229-04b23b2565-9fbc8b9db3" style=3D"text-decoration:none; color:=
+#808080;" target=3D"_self">Le linge de toilette :</a></strong> Coton peign&=
+eacute; longue fibre en pur coton (600 g/m2) correspond &agrave; la plus ha=
+ute qualit&eacute; d&#39;&eacute;ponge. Extra-moelleuse pour un confort ext=
+r&ecirc;me, cette &eacute;ponge garantit un pouvoir d&#39;absorption incomp=
+arable.</p>
+
+						<p><strong><a href=3D"http://mes-montres.com/ga/click/2-11527895-18-1=
+248-2400-17230-aad64c6364-9fbc8b9db3" style=3D"text-decoration:none; color:=
+#808080;" target=3D"_self">Le linge de table : </a></strong>Le lin (100%) e=
+st une &eacute;toffe noble et contemporaine. En fibre naturelle et 100% bio=
+d&eacute;gradable, plus il est utilis&eacute;, plus il devient doux et soli=
+de. Trait&eacute; d&eacute;perlant, les liquides lui glissent dessus sans j=
+amais p&eacute;n&eacute;trer la mati&egrave;re.</p>
+
+						<p><strong>Chez Blanc Cerise, tous les produits sont trait&eacute;s p=
+our &ecirc;tre <a href=3D"http://mes-montres.com/ga/click/2-11527895-18-124=
+8-2400-17231-bbddfb88ac-9fbc8b9db3" style=3D"text-decoration:none; color:#8=
+08080;" target=3D"_self"> facile d&rsquo;entretien </a>(repassage facile) e=
+t ne pas r&eacute;tr&eacute;cir</strong></p>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<p><img height=3D"1" src=3D"http://o.stupremesw.com/16-29-48-2715-23734/uni=
+queId" width=3D"1" /></p>
+
+<center><a href=3D"http://mes-montres.com/ga/unsubscribe/2-11527895-18-1248=
+-2400-ed35df89ef15825-9fbc8b9db3">Je souhaite me d=C3=A9sinscrire et ne plu=
+s recevoir les newsletters</a>
+</center><img src=3D"http://mes-montres.com/ga/open/2-11527895-18-1248-2400=
+-9fbc8b9db3" height=3D"2" width=3D"3" alt=3D""></body>
+</html>
+
+--==d3c3b7f03b55f0105f99e38da4932bf5--

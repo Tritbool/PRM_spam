@@ -1,0 +1,395 @@
+Return-Path: <newsletter@mbsln8.wistmail.com>
+Received: from mailimailo.univ-rennes1.fr ([unix socket])
+	 by mailimailo.univ-rennes1.fr (Cyrus v2.3.16-Fedora-RPM-2.3.16-6.el6_2.5) with LMTPA;
+	 Fri, 29 Apr 2016 02:46:03 +0200
+X-Sieve: CMU Sieve 2.3
+Received: from mailout2.univ-rennes1.fr (mailout2.univ-rennes1.fr [129.20.129.120])
+	by mailimailo.univ-rennes1.fr (Postfix) with ESMTP id 8543526A0001
+	for <resp-m2-miage@univ-rennes1.fr>; Fri, 29 Apr 2016 02:46:03 +0200 (CEST)
+Received: from localhost (vmscanmail.univ-rennes1.fr [129.20.128.134])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id 8091F60165
+	for <resp-m2-miage@univ-rennes1.fr>; Fri, 29 Apr 2016 02:46:03 +0200 (CEST)
+X-Virus-Scanned: amavisd-new at univ-rennes1.fr
+Received: from mailout2.univ-rennes1.fr ([129.20.129.120])
+	by localhost (vmscanmail.univ-rennes1.frm [129.20.128.134]) (amavisd-new, port 10026)
+	with ESMTP id akWpT7BGx-Xv for <resp-m2-miage@univ-rennes1.fr>;
+	Fri, 29 Apr 2016 02:46:03 +0200 (CEST)
+Received: from vmmailin.univ-rennes1.fr (vmmailin.univ-rennes1.fr [129.20.128.133])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id 6057560118
+	for <resp-m2-miage@univ-rennes1.fr>; Fri, 29 Apr 2016 02:46:03 +0200 (CEST)
+Received: from mxb1-1.relay.renater.fr (mxb1-1.relay.renater.fr [194.214.201.8])
+	by vmmailin.univ-rennes1.fr (Postfix) with ESMTP id 58BF320033
+	for <resp-m2-miage@univ-rennes1.fr>; Fri, 29 Apr 2016 02:46:03 +0200 (CEST)
+Received: from mta1fr7.mbsln8.wistmail.com (mta1fr7.mbsln8.wistmail.com [89.234.149.131])
+	by mxb1-1.relay.renater.fr (asm) with ESMTP id 0E30760004D
+	for <resp-m2-miage@univ-rennes1.fr>; Fri, 29 Apr 2016 02:46:03 +0200 (CEST)
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=dkim; d=mbsln8.wistmail.com;
+ h=Message-ID:Date:Subject:From:Reply-To:To:MIME-Version:Content-Type:List-Unsubscribe:List-Id; i=newsletter@mbsln8.wistmail.com;
+ bh=WgKekMi9Tc/tf0BkvN/xMxGd4u0=;
+ b=NoCjhkoW0LPyJ1tFC7AOheL9W5nGh6y1xRTQdrZApt6tG07R91Z7FEfBg6vxZDp82xBu7NqsAYkW
+   3iEPo0l/8u/62cbHB2L+7ps+VT41peGISPJRLSjI126QDLqd2Vug8t66M5y5NaLnF192SeW7JNf/
+   XkhoHgtKhFkoBJB48GA=
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=dkim; d=mbsln8.wistmail.com;
+ b=MNlFtcu0fYClJ1niXL1P42KPdM2OtqRv/iQiqDf9ZlQz7lbA23563TOLsc4LK6tV4gjFMF6SBjLK
+   KqwLDB4sB80LmGYPJaX8gMp3JSHy/s7ngGRp+7akzAcMM6euYMyBUxb0SG0GSJB+kKcEGX3K0lCU
+   NdFdyLoK1RTA+bfko88=;
+DKIM-Signature: v=1; a=rsa-sha1; bh=+K0O9rZvyBFOCzOLGpfZbMuKMzM=;
+ d=mbsln8.wistmail.com; h=Message-ID: Date: Subject: From: Reply-To: To:
+ MIME-Version: Content-Type: X-Mw-Customer-Uid: X-Receiver: X-Mw-Tracking-Did:
+ X-Mw-Campaign-Uid: List-Unsubscribe: X-Mw-Customer-Gid: List-Id:
+ X-Mw-Subscriber-Uid: X-Report-Abuse: X-Sender: Feedback-ID: X-Mw-Mailer:
+ X-Mw-Delivery-Sid; i=@mbsln8.wistmail.com; s=mailer; t=1461890762;
+ b=fG74L9VuppWCoVqCxp6CSFhXWA2DHijKuX3/a9M+cIFipzSIVDEEJ62NTjHzsP86EHvcJ7NRY
+ dFuEBf7vpeGaNNpiZ9UKDeBoJeOssR9xYEhKIYjGdtZ6njMRVyvcUX7EN3Apcg7EiGJphqNSz
+ 1a4O6CgwaRglpEXyRXbpMdnAs=
+Message-ID: <a3bc0daad711bb399b677d71ecde2dce@mbsln8.wistmail.com>
+Date: Fri, 29 Apr 2016 00:46:02 +0000
+Subject: Faites votre simulation =?utf-8?Q?personnalis=C3=A9e?= pour
+ investir dans le neuf
+From: La Loi Pinel - Top Invest <newsletter@mbsln8.wistmail.com>
+Reply-To: La Loi Pinel - Top Invest <newsletter@mbsln8.wistmail.com>
+To: "resp-m2-miage@univ-rennes1.fr" <resp-m2-miage@univ-rennes1.fr>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="_=_swift_v4_1461890762_c91f850f54d88d4445bcd1f839aa9e6f_=_"
+X-Mw-Campaign-Uid: sh870lxrjpd36
+List-Unsubscribe: <http://lp1.sendtk2.com/index.php/lists/et662pn6r9252/unsubscribe/jb692xz74e28c/sh870lxrjpd36>,
+ <mailto:newsletter@lp2.wistmail.com?subject=Unsubscribe&body=Please
+ unsubscribe me from Liste Wizz list.>
+X-Mw-Customer-Gid: 1
+List-Id: et662pn6r9252 <Liste Wizz>
+X-Receiver: resp-m2-miage@univ-rennes1.fr
+X-Report-Abuse: Please report abuse for this campaign here:
+ http://lp1.sendtk2.com/index.php/campaigns/sh870lxrjpd36/report-abuse/et662pn6r9252/jb692xz74e28c
+X-Mw-Subscriber-Uid: jb692xz74e28c
+Feedback-ID: sh870lxrjpd36:jb692xz74e28c:et662pn6r9252:qb167cl01b984
+X-Sender: newsletter@mbsln8.wistmail.com
+X-Mw-Customer-Uid: qb167cl01b984
+X-Mw-Mailer: SwiftMailer
+X-Mw-Delivery-Sid: 162
+X-Mw-Tracking-Did: 1
+X-UCE-Status: YES
+X-UCE-Type: MCE
+X-Original-Source-IP: 89.234.149.131
+X-Bizanga: IMP - mxb1-1.relay.renater.fr
+X-Renater-SpamState: 11
+X-Renater-SpamScore: 17
+X-Renater-SpamCause: gggruggvucftvghtrhhoucdtuddrfeekkedrkeehgdeghecutefuodetggdotefrodftvfcurfhrohhfihhlvgemucftgffptefvgfftpdggtfgfnhhsuhgsshgtrhhisggvnecuuegrihhlohhuthemuceftddtnecundfotefknffkpffiucdludejmdenucfjughrpefkfffuhfhrvfggtgfjjeigsegrtdhjredttdejnecuhfhrohhmpefnrgcunfhoihcurfhinhgvlhcuqdcuvfhophcukfhnvhgvshhtuceonhgvfihslhgvthhtvghrsehmsghslhhnkedrfihishhtmhgrihhlrdgtohhmqeenucffohhmrghinhepshgvnhguthhkvddrtghomhenucfkphepkeelrddvfeegrddugeelrddufedunecurfgrrhgrmhepmhhouggvpehsmhhtphdphhgvlhhopehmthgrudhfrhejrdhmsghslhhnkedrfihishhtmhgrihhlrdgtohhmpdhinhgvthepkeelrddvfeegrddugeelrddufedupdhmrghilhhfrhhomhepnhgvfihslhgvthhtvghrsehmsghslhhnkedrfihishhtmhgrihhlrdgtohhmpdhrtghpthhtoheprhgvshhpqdhmvddqmhhirghgvgesuhhnihhvqdhrvghnnhgvshdurdhfrh 
+X-Renater-ServerName: mxb1-1.relay.renater.fr
+
+
+--_=_swift_v4_1461890762_c91f850f54d88d4445bcd1f839aa9e6f_=_
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+=20
+
+Voir en ligne
+http://lp1.sendtk2.com/index.php/campaigns/sh870lxrj=
+pd36/track-url/jb692xz74e28c/eea8389301f99ec1c6231c5d0c02ca5ee468bd06
+| N=
+e plus recevoir ce type de courriel
+http://lp1.sendtk2.com/index.php/camp=
+aigns/sh870lxrjpd36/track-url/jb692xz74e28c/14ba8474a19b91093b85eae0f48be33=
+b0282aac2
+| Signaler ce message
+http://lp1.sendtk2.com/index.php/campai=
+gns/sh870lxrjpd36/track-url/jb692xz74e28c/d6f322092b2fc5c062cf2ecde528b0538=
+ddd2e69
+
+
+TOPINVEST : Offre du 28/04/2016 =C2=A0=20
+
+=09=09
+http:=
+//lp1.sendtk2.com/index.php/campaigns/sh870lxrjpd36/track-url/jb692xz74e28c=
+/61c8ccb5acc9659c144ba36909211a18a16e4aa3
+
+=09=09
+http://lp1.sendtk2.=
+com/index.php/campaigns/sh870lxrjpd36/track-url/jb692xz74e28c/61c8ccb5acc96=
+59c144ba36909211a18a16e4aa3
+
+ =09=09
+http://lp1.sendtk2.com/index.php=
+/campaigns/sh870lxrjpd36/track-url/jb692xz74e28c/61c8ccb5acc9659c144ba36909=
+211a18a16e4aa3
+
+=09=09Gratuite et sans engagement
+
+=09=09=C2=A0
+ =
+=E2=80=A2 Louez =C3=A0 vos PROCHES (ascendants et descendants)
+ =E2=80=
+=A2 Reduisez vos imp=C3=B4ts jusqu=E2=80=99=C3=A0 63 000=E2=82=AC
+ =
+=E2=80=A2 MODULEZ la dur=C3=A9e de la location =09=09=C2=A0
+
+=09=09D=
+=C3=A9couvrez les avantages
+
+=09=09=C2=A0
+ =09=09
+http://lp1.sendtk=
+2.com/index.php/campaigns/sh870lxrjpd36/track-url/jb692xz74e28c/61c8ccb5acc=
+9659c144ba36909211a18a16e4aa3
+ =09=09=C2=A0
+ =09=09
+http://lp1.sendtk=
+2.com/index.php/campaigns/sh870lxrjpd36/track-url/jb692xz74e28c/61c8ccb5acc=
+9659c144ba36909211a18a16e4aa3
+ =09=09=C2=A0
+ =09=09
+http://lp1.sendtk=
+2.com/index.php/campaigns/sh870lxrjpd36/track-url/jb692xz74e28c/61c8ccb5acc=
+9659c144ba36909211a18a16e4aa3
+ =09=09=C2=A0
+ =09=09
+http://lp1.sendtk=
+2.com/index.php/campaigns/sh870lxrjpd36/track-url/jb692xz74e28c/61c8ccb5acc=
+9659c144ba36909211a18a16e4aa3
+ =09=09=C2=A0
+ =09=09
+http://lp1.sendtk=
+2.com/index.php/campaigns/sh870lxrjpd36/track-url/jb692xz74e28c/61c8ccb5acc=
+9659c144ba36909211a18a16e4aa3
+ =09=09=C2=A0
+
+=09=09=C2=A0
+
+=09=09=
+Toutes les cl=C3=A9s pour investir en loi Pinel
+
+Vous recevez ce messag=
+e car vous =C3=AAtes inscrit dans la liste de
+diffusion de TOPINVEST.
+ =
+Vous avez la possibilit=C3=A9 de g=C3=A9rer vos informations en vous
+diri=
+geant sur le site de topinvest
+http://lp1.sendtk2.com/index.php/campaigns=
+/sh870lxrjpd36/track-url/jb692xz74e28c/043cd459f8e707b8f885eabec7c198804bce=
+8906.
+
+
+Pour personnaliser vos annonces lors de votre navigation
+(i=
+nternet,email,applications ...), des cookies sont d=C3=A9pos=C3=A9s par
+l=
+'interm=C3=A9diaire de cet email.
+ Pour garantir la s=C3=A9curit=C3=A9 de=
+ vos donn=C3=A9es, LPM a d=C3=A9clar=C3=A9 sa liste
+=C3=A0 la CNIL sous l=
+e num=C3=A9ro 1581284v0.
+ Pour vous y opposer, d=C3=A9sabonnez-vous en cl=
+iquant sur ce lien
+http://lp1.sendtk2.com/index.php/campaigns/sh870lxrjpd=
+36/track-url/jb692xz74e28c/14ba8474a19b91093b85eae0f48be33b0282aac2.
+
+ =
+=C2=A0=20
+
+--_=_swift_v4_1461890762_c91f850f54d88d4445bcd1f839aa9e6f_=_
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>
+<html><head><meta http-equiv=3D"content-type" content=3D"=
+text/html; charset=3Dutf-8"><meta name=3D"viewport" content=3D"width=3Ddevi=
+ce-width; initial-scale=3D1.0;"><meta name=3D"charset" content=3D"utf-8"><t=
+itle>La loi Pinel</title></head><body>
+
+            <center>
+<p style=
+=3D"width:100%;padding:10px;margin:0;font-size:12px;background:#222;color:#=
+FFF;text-align:center;font-family:Arial;font-weight:normal;"><a href=3D"htt=
+p://lp1.sendtk2.com/index.php/campaigns/sh870lxrjpd36/track-url/jb692xz74e2=
+8c/eea8389301f99ec1c6231c5d0c02ca5ee468bd06" style=3D"color:#FFF;">Voir en =
+ligne</a> | <a href=3D"http://lp1.sendtk2.com/index.php/campaigns/sh870lxrj=
+pd36/track-url/jb692xz74e28c/14ba8474a19b91093b85eae0f48be33b0282aac2" styl=
+e=3D"color:#FFF;">Ne plus recevoir ce type de courriel</a> | <a href=3D"htt=
+p://lp1.sendtk2.com/index.php/campaigns/sh870lxrjpd36/track-url/jb692xz74e2=
+8c/d6f322092b2fc5c062cf2ecde528b0538ddd2e69" style=3D"color:#FFF;">Signaler=
+ ce message</a></p>
+</center>
+
+<p style=3D"width:100%;padding:10px;ma=
+rgin:0;font-size:14px;color:#ebdcd9;text-align:center;font-family:Arial;fon=
+t-weight:bold;background-color:#a59693;">TOPINVEST : Offre du 28/04/2016</p=
+>
+<img alt=3D"openNaoshoot.php?i=3D7495&amp;c=3D3686&amp;email=3D[EM" hei=
+ght=3D"1" src=3D"http://naowizz.com/openNaoshoot.php?i=3D7495&amp;c=3D3686&=
+amp;email=3Dresp-m2-miage@univ-rennes1.fr&amp;e=3D0&amp;sm=3D0&amp;ip=3D" s=
+tyle=3D"display:none;" width=3D"1"><img alt=3D"axciom.php?email=3Dresp-m2-m=
+iage@univ-rennes1.fr" border=3D"0" height=3D"1" hspace=3D"0" src=3D"http://=
+naowizz.com/axciom.php?email=3Dresp-m2-miage@univ-rennes1.fr" style=3D"disp=
+lay:none;" vspace=3D"0" width=3D"1"><center>=C2=A0
+<table align=3D"center=
+" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"600"><tbody><tr=
+><td>
+=09=09=09<table align=3D"center" bgcolor=3D"#F2F2F2" border=3D"0" c=
+ellpadding=3D"0" cellspacing=3D"0" width=3D"600"><tbody><tr><td align=3D"ce=
+nter" bgcolor=3D"#F2F2F2" height=3D"99"><a href=3D"http://lp1.sendtk2.com/i=
+ndex.php/campaigns/sh870lxrjpd36/track-url/jb692xz74e28c/61c8ccb5acc9659c14=
+4ba36909211a18a16e4aa3" style=3D"font-family:Arial, sans-serif;font-size:14=
+px;line-height:20px;color:#0c4366;"><img alt=3D"laloipinel" border=3D"0" he=
+ight=3D"99" id=3D"id1601_laloipinel_1_03" src=3D"http://www.collecting.fr/1=
+601-laloipinel/mail-1/images/1601-laloipinel-1_03.gif" style=3D"display:blo=
+ck;" width=3D"600"></a></td>
+=09=09=09=09=09</tr><tr><td align=3D"center"=
+ bgcolor=3D"#3A7ABB" height=3D"240"><a href=3D"http://lp1.sendtk2.com/index=
+.php/campaigns/sh870lxrjpd36/track-url/jb692xz74e28c/61c8ccb5acc9659c144ba3=
+6909211a18a16e4aa3" style=3D"font-family:Arial, sans-serif;font-size:35px;t=
+ext-align:center;color:#fff;line-height:40px;text-decoration:none;text-tran=
+sform:uppercase;"><img alt=3D"Investissez dans le neuf pour vos enfants" bo=
+rder=3D"0" height=3D"246" id=3D"id1601_laloipinel_1_05" src=3D"http://www.c=
+ollecting.fr/1601-laloipinel/mail-1/images/1601-laloipinel-1_05.jpg" style=
+=3D"display:block;" width=3D"600"></a></td>
+=09=09=09=09=09</tr><tr><td>=
+
+=09=09=09=09=09=09<table align=3D"center" border=3D"0" cellpadding=3D"0"=
+ cellspacing=3D"0"><tbody><tr><td bgcolor=3D"#F2F2F2" width=3D"140"><img al=
+t=3D"" border=3D"0" height=3D"63" id=3D"id1601_laloipinel_1_06_01" src=3D"h=
+ttp://www.collecting.fr/1601-laloipinel/mail-1/images/1601-laloipinel-1_06_=
+01.jpg" style=3D"display:block;" width=3D"140"></td>
+=09=09=09=09=09=09=
+=09=09=09<td align=3D"center" bgcolor=3D"#e42a3a" width=3D"319"><a href=3D"=
+http://lp1.sendtk2.com/index.php/campaigns/sh870lxrjpd36/track-url/jb692xz7=
+4e28c/61c8ccb5acc9659c144ba36909211a18a16e4aa3" style=3D"font-family:Arial,=
+ sans-serif;background:#e42a3a;color:#fff;text-decoration:none;text-align:c=
+enter;line-height:63px;font-size:25px;"><img alt=3D"Votre simulation" borde=
+r=3D"0" height=3D"63" id=3D"id1601_laloipinel_1_06_02" src=3D"http://www.co=
+llecting.fr/1601-laloipinel/mail-1/images/1601-laloipinel-1_06_02.gif" styl=
+e=3D"display:block;" width=3D"319"></a></td>
+=09=09=09=09=09=09=09=09=09<=
+td bgcolor=3D"#F2F2F2" width=3D"140"><img alt=3D"" border=3D"0" height=3D"6=
+3" id=3D"id1601_laloipinel_1_06_03" src=3D"http://www.collecting.fr/1601-la=
+loipinel/mail-1/images/1601-laloipinel-1_06_03.jpg" style=3D"display:block;=
+" width=3D"141"></td>
+=09=09=09=09=09=09=09=09</tr></tbody></table></td>=
+
+=09=09=09=09=09</tr><tr><td align=3D"center" bgcolor=3D"#F2F2F2" height=
+=3D"20" style=3D"font-family:Arial, sans-serif;color:#e42a3a;" width=3D"600=
+">Gratuite et sans engagement</td>
+=09=09=09=09=09</tr><tr><td>
+=09=09=
+=09=09=09=09<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0"><tbody><tr><td bgcolor=3D"#F2F2F2" width=3D"80">=C2=A0</td>
+=09=
+=09=09=09=09=09=09=09=09<td align=3D"center" bgcolor=3D"#F2F2F2" height=3D"=
+192" style=3D"font-family:Arial, sans-serif;font-size:22px;text-align:left;=
+color:#333;line-height:35px;list-style:none;" width=3D"600">=E2=80=A2 Louez=
+ =C3=A0 vos <strong>proches</strong> <span style=3D"font-size:16px;">(ascen=
+dants et descendants)</span><br>
+=09=09=09=09=09=09=09=09=09=E2=80=A2 Red=
+uisez vos imp=C3=B4ts jusqu=E2=80=99=C3=A0 <strong>63 000=E2=82=AC</strong>=
+<br>
+=09=09=09=09=09=09=09=09=09=E2=80=A2 <strong>Modulez</strong> la dur=
+=C3=A9e de la location</td>
+=09=09=09=09=09=09=09=09=09<td bgcolor=3D"#F2=
+F2F2" width=3D"80">=C2=A0</td>
+=09=09=09=09=09=09=09=09</tr></tbody></tab=
+le></td>
+=09=09=09=09=09</tr><tr><td align=3D"center" bgcolor=3D"#F2F2F2"=
+ height=3D"32" style=3D"font-family:Arial, sans-serif;color:#e42a3a;font-st=
+yle:italic;font-weight:bold;" valign=3D"top" width=3D"600">D=C3=A9couvrez l=
+es avantages</td>
+=09=09=09=09=09</tr><tr><td>
+=09=09=09=09=09=09<table=
+ align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"><tbody><=
+tr><td bgcolor=3D"#F2F2F2" height=3D"107" width=3D"20">=C2=A0</td>
+=09=09=
+=09=09=09=09=09=09=09<td bgcolor=3D"#F2F2F2"><a href=3D"http://lp1.sendtk2.=
+com/index.php/campaigns/sh870lxrjpd36/track-url/jb692xz74e28c/61c8ccb5acc96=
+59c144ba36909211a18a16e4aa3" style=3D"font-family:Arial, sans-serif;color:#=
+e42a3a;text-decoration:none;font-size:12px;"><img alt=3D"R=C3=A9duire vos i=
+mpots" border=3D"0" height=3D"107" id=3D"id1601_laloipinel_1_10_02" src=3D"=
+http://www.collecting.fr/1601-laloipinel/mail-1/images/1601-laloipinel-1_10=
+_02.gif" style=3D"display:block;" width=3D"96"></a></td>
+=09=09=09=09=09=
+=09=09=09=09<td bgcolor=3D"#F2F2F2" height=3D"107" width=3D"20">=C2=A0</td>=
+
+=09=09=09=09=09=09=09=09=09<td bgcolor=3D"#F2F2F2"><a href=3D"http://lp1=
+.sendtk2.com/index.php/campaigns/sh870lxrjpd36/track-url/jb692xz74e28c/61c8=
+ccb5acc9659c144ba36909211a18a16e4aa3" style=3D"font-family:Arial, sans-seri=
+f;color:#e42a3a;text-decoration:none;font-size:12px;"><img alt=3D"Devenir p=
+ropri=C3=A9taire sans apport" border=3D"0" height=3D"107" id=3D"id1601_lalo=
+ipinel_1_10_04" src=3D"http://www.collecting.fr/1601-laloipinel/mail-1/imag=
+es/1601-laloipinel-1_10_04.gif" style=3D"display:block;" width=3D"96"></a><=
+/td>
+=09=09=09=09=09=09=09=09=09<td bgcolor=3D"#F2F2F2" height=3D"107" wi=
+dth=3D"20">=C2=A0</td>
+=09=09=09=09=09=09=09=09=09<td bgcolor=3D"#F2F2F2"=
+><a href=3D"http://lp1.sendtk2.com/index.php/campaigns/sh870lxrjpd36/track-=
+url/jb692xz74e28c/61c8ccb5acc9659c144ba36909211a18a16e4aa3" style=3D"font-f=
+amily:Arial, sans-serif;color:#e42a3a;text-decoration:none;font-size:12px;"=
+><img alt=3D"Se constituer un patrimoine immobilier" border=3D"0" height=3D=
+"107" id=3D"id1601_laloipinel_1_10_06" src=3D"http://www.collecting.fr/1601=
+-laloipinel/mail-1/images/1601-laloipinel-1_10_06.gif" style=3D"display:blo=
+ck;" width=3D"96"></a></td>
+=09=09=09=09=09=09=09=09=09<td bgcolor=3D"#F2=
+F2F2" height=3D"107" width=3D"20">=C2=A0</td>
+=09=09=09=09=09=09=09=09=09=
+<td bgcolor=3D"#F2F2F2"><a href=3D"http://lp1.sendtk2.com/index.php/campaig=
+ns/sh870lxrjpd36/track-url/jb692xz74e28c/61c8ccb5acc9659c144ba36909211a18a1=
+6e4aa3" style=3D"font-family:Arial, sans-serif;color:#e42a3a;text-decoratio=
+n:none;font-size:12px;"><img alt=3D"Obtenir  des revenus  compl=C3=A9mentai=
+res" border=3D"0" height=3D"107" id=3D"id1601_laloipinel_1_10_08" src=3D"ht=
+tp://www.collecting.fr/1601-laloipinel/mail-1/images/1601-laloipinel-1_10_0=
+8.gif" style=3D"display:block;" width=3D"96"></a></td>
+=09=09=09=09=09=09=
+=09=09=09<td bgcolor=3D"#F2F2F2" height=3D"107" width=3D"20">=C2=A0</td>
+=
+=09=09=09=09=09=09=09=09=09<td bgcolor=3D"#F2F2F2"><a href=3D"http://lp1.se=
+ndtk2.com/index.php/campaigns/sh870lxrjpd36/track-url/jb692xz74e28c/61c8ccb=
+5acc9659c144ba36909211a18a16e4aa3" style=3D"font-family:Arial, sans-serif;c=
+olor:#e42a3a;text-decoration:none;font-size:12px;"><img alt=3D"Prot=C3=
+=A9ger  votre famille" border=3D"0" height=3D"107" id=3D"id1601_laloipinel_=
+1_10_10" src=3D"http://www.collecting.fr/1601-laloipinel/mail-1/images/1601=
+-laloipinel-1_10_10.gif" style=3D"display:block;" width=3D"96"></a></td>
+=
+=09=09=09=09=09=09=09=09=09<td bgcolor=3D"#F2F2F2" height=3D"107" width=3D"=
+20">=C2=A0</td>
+=09=09=09=09=09=09=09=09</tr></tbody></table></td>
+=09=
+=09=09=09=09</tr><tr><td bgcolor=3D"#F2F2F2" height=3D"20" width=3D"600">=
+=C2=A0</td>
+=09=09=09=09=09</tr><tr><td align=3D"center" bgcolor=3D"#E6E6=
+E6" height=3D"42" style=3D"font-family:Arial, sans-serif;color:#333;font-si=
+ze:12px;" width=3D"600">Toutes les cl=C3=A9s pour investir en loi Pinel</td=
+>
+=09=09=09=09=09</tr></tbody></table></td>
+=09=09</tr></tbody></table>=
+</center>
+<img alt=3D"adserv.fcgi?tag=3D1155232&amp;f=3D10&amp;h=3DR&amp;=
+rnd=3D[77" border=3D"0" height=3D"1" src=3D"http://baseco.solution.weborama=
+.fr/fcgi-bin/adserv.fcgi?tag=3D1155232&amp;f=3D10&amp;h=3DR&amp;rnd=3D[7745=
+26]" width=3D"1"><p style=3D"width:100%;text-align:center;font-size:12px;">=
+Vous recevez ce message car vous =C3=AAtes inscrit dans la liste de diffusi=
+on de <b>topinvest</b>.<br>
+Vous avez la possibilit=C3=A9 de g=C3=A9rer v=
+os informations en vous dirigeant sur le site de <a href=3D"http://lp1.send=
+tk2.com/index.php/campaigns/sh870lxrjpd36/track-url/jb692xz74e28c/043cd459f=
+8e707b8f885eabec7c198804bce8906" style=3D"text-decoration:underline;font-we=
+ight:bold;">topinvest</a>.</p>
+
+<p style=3D"width:100%;text-align:cente=
+r;font-size:12px;">Pour personnaliser vos annonces lors de votre navigation=
+ (internet,email,applications ...), des cookies sont d=C3=A9pos=C3=A9s par =
+l'interm=C3=A9diaire de cet email.<br>
+Pour garantir la s=C3=A9curit=
+=C3=A9 de vos donn=C3=A9es, LPM a d=C3=A9clar=C3=A9 sa liste =C3=A0 la CNIL=
+ sous le num=C3=A9ro 1581284v0.<br>
+Pour vous y opposer, d=C3=A9sabonnez-=
+vous en cliquant <a href=3D"http://lp1.sendtk2.com/index.php/campaigns/sh87=
+0lxrjpd36/track-url/jb692xz74e28c/14ba8474a19b91093b85eae0f48be33b0282aac2"=
+>sur ce lien</a>.</p>
+<br>
+=C2=A0<img width=3D"1" height=3D"1" src=3D"h=
+ttp://lp1.sendtk2.com/index.php/campaigns/sh870lxrjpd36/track-opening/jb692=
+xz74e28c" alt=3D"" />
+</body></html>
+
+
+--_=_swift_v4_1461890762_c91f850f54d88d4445bcd1f839aa9e6f_=_--
+

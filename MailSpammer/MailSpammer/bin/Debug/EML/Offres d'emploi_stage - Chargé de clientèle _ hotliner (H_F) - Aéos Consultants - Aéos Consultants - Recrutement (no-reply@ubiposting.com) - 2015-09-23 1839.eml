@@ -1,0 +1,546 @@
+Return-Path: <bounce-md_30378319.5602d5b7.v1-06d5a21d16ce4f1d902a6f55d1801bd5@mandrillapp.com>
+Received: from mailimailo.univ-rennes1.fr ([unix socket])
+	 by mailimailo.univ-rennes1.fr (Cyrus v2.3.16-Fedora-RPM-2.3.16-6.el6_2.5) with LMTPA;
+	 Wed, 23 Sep 2015 18:39:20 +0200
+X-Sieve: CMU Sieve 2.3
+Received: from vmsmtprexch.univ-rennes1.fr (vmsmtprexch.univ-rennes1.fr [129.20.128.62])
+	by mailimailo.univ-rennes1.fr (Postfix) with ESMTP id 8280426A0F21
+	for <resp-m2-miage@univ-rennes1.fr>; Wed, 23 Sep 2015 18:39:20 +0200 (CEST)
+Received: from mbcasexch3.Ur.local (mbcasexch3.univ-rennes1.fr [129.20.125.131])
+	by vmsmtprexch.univ-rennes1.fr (Postfix) with ESMTP id 7EF7F11D
+	for <resp-m2-miage@univ-rennes1.fr>; Wed, 23 Sep 2015 18:39:20 +0200 (CEST)
+X-CrossPremisesHeadersFilteredBySendConnector: mbcasexch3.Ur.local
+Received: from mbcasexch1.Ur.local (2002:8114:7d81::8114:7d81) by
+ mbcasexch3.Ur.local (2002:8114:7d83::8114:7d83) with Microsoft SMTP Server
+ (TLS) id 15.0.913.22; Wed, 23 Sep 2015 18:39:20 +0200
+Received: from mailout1.univ-rennes1.fr (129.20.128.162) by
+ mbcasexch1.Ur.local (129.20.125.129) with Microsoft SMTP Server id
+ 15.0.913.22 via Frontend Transport; Wed, 23 Sep 2015 18:39:19 +0200
+Received: from localhost (vmscanmail.univ-rennes1.fr [129.20.128.134])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id 0B7A660181
+	for <resp-m2-miage@univ-rennes1.fr>; Wed, 23 Sep 2015 18:39:20 +0200 (CEST)
+X-Virus-Scanned: amavisd-new at univ-rennes1.fr
+Received: from mailout1.univ-rennes1.fr ([129.20.128.162])
+	by localhost (vmscanmail.univ-rennes1.frm [129.20.128.134]) (amavisd-new, port 10026)
+	with ESMTP id 82EFPNKuv8qS for <resp-m2-miage@univ-rennes1.fr>;
+	Wed, 23 Sep 2015 18:39:19 +0200 (CEST)
+Received: from vmmailin.univ-rennes1.fr (vmmailin.univ-rennes1.fr [129.20.128.133])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id CF7006016C
+	for <resp-m2-miage@univ-rennes1.fr>; Wed, 23 Sep 2015 18:39:19 +0200 (CEST)
+Received: from mxb2-2.relay.renater.fr (mxb2-2.relay.renater.fr [194.214.200.9])
+	by vmmailin.univ-rennes1.fr (Postfix) with ESMTP id C76A220033
+	for <resp-m2-miage@univ-rennes1.fr>; Wed, 23 Sep 2015 18:39:19 +0200 (CEST)
+Received: from mail11.wdc04.mandrillapp.com (mail11.wdc04.mandrillapp.com [205.201.139.11])
+	by mxb2-2.relay.renater.fr (asm) with ESMTP id 74BB76003CF
+	for <resp-m2-miage@univ-rennes1.fr>; Wed, 23 Sep 2015 18:39:19 +0200 (CEST)
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=mandrill; d=mail11.wdc04.mandrillapp.com;
+ h=From:Sender:Subject:To:Message-Id:Date:MIME-Version:Content-Type; i=no-reply@mail11.wdc04.mandrillapp.com;
+ bh=tKrjf5HtOxkUGUUU+9O0EiKPOzo=;
+ b=meiBaOeuRFbGcjSJjdNUPG+ddIUZpvIgivieYHdPqBagjdIeElWIZP6UBDui1l2j0v8NhuutgOM3
+   Bi/bQwuf59zwAh4WRQw+48R3Y3xza1iJcqgLWQqK/uY8Yq366D9nSxGzzspIUoajFou5MlbbGgvA
+   YqnlqGZoQ3OsKdn9/Yg=
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=mandrill; d=mail11.wdc04.mandrillapp.com;
+ b=WNMS+2tX/4sCWssdk/A2NUZHdae2J5IBeCpjyKhNqrpGLfqRL44cCczYUk8FYFGtoK8G0CbB1bVU
+   urJCJqAy18ll8TCW8dTwOZQHCb41bS1Kf/Ux6N8xpYbLQQKSWp5MVE2SNPmm5rhO9sVhliY/6vmQ
+   JwnFcN593HMRfkxZncY=;
+Received: from pmta05.wdc01.mailchimp.com (127.0.0.1) by mail11.wdc04.mandrillapp.com id h0bare1jvjgb for <resp-m2-miage@univ-rennes1.fr>; Wed, 23 Sep 2015 16:39:19 +0000 (envelope-from <bounce-md_30378319.5602d5b7.v1-06d5a21d16ce4f1d902a6f55d1801bd5@mandrillapp.com>)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=mandrillapp.com; 
+ i=@mandrillapp.com; q=dns/txt; s=mandrill; t=1443026359; h=From : 
+ Sender : Subject : To : Message-Id : Date : MIME-Version : Content-Type 
+ : From : Subject : Date : X-Mandrill-User : List-Unsubscribe; 
+ bh=dILexrJJ6RxH4pYiWeaufNq4GUBRPBfD9rmPsTD/8FE=; 
+ b=KMKsBACDivKRptEuDzopyEMobiRVOD8UkAnTbNZWQ2WLsCW7z85QJXYZFHYXJx/hjs99wN
+ 37moCyLEpo6vRAA0ulJbnl+OBPYXEgpWroSQEw9upMdnP8LIFsYNl1OtqYOOuqlVniV8Uc88
+ 95JsJb7MaxCPf8QgF+Sy/vzwUIFXQ=
+From: =?utf-8?Q?A=C3=A9os=20Consultants=20-=20Recrutement?=
+	<no-reply@ubiposting.com>
+Sender: =?utf-8?Q?A=C3=A9os=20Consultants=20-=20Recrutement?=
+	<no-reply@mail11.wdc04.mandrillapp.com>
+Subject: =?utf-8?Q?Offres=20d'emploi/stage=20-=20Charg=C3=A9=20de=20client=C3=A8le=20/=20hotliner=20(H/F)=20-=20A=C3=A9os=20Consultants?=
+Received: from [5.39.72.10] by mandrillapp.com id 06d5a21d16ce4f1d902a6f55d1801bd5; Wed, 23 Sep 2015 16:39:19 +0000
+To: <resp-m2-miage@univ-rennes1.fr>
+X-Report-Abuse: Please forward a copy of this message, including all headers, to abuse@mandrill.com
+X-Report-Abuse: You can also report abuse here: http://mandrillapp.com/contact/abuse?id=30378319.06d5a21d16ce4f1d902a6f55d1801bd5
+X-Mandrill-User: md_30378319
+Message-ID: <30378319.20150923163919.5602d5b712dff7.13346798@mail11.wdc04.mandrillapp.com>
+Date: Wed, 23 Sep 2015 16:39:19 +0000
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="_av-cgMMOSPyRIg4suzfM64rqA"
+X-UCE-Status: YES
+X-UCE-Type: MCE
+X-Original-Source-IP: 205.201.139.11
+X-Bizanga: IMP - mxb2-2.relay.renater.fr
+X-Renater-SpamState: 11
+X-Renater-SpamScore: 17
+X-Renater-SpamCause: gggruggvucftvghtrhhoucdtuddrfeekgedrgedvgddutdefucetufdoteggodetrfcurfhrohhfihhlvgemucftgffptefvgfftpdggtfgfnhhsuhgsshgtrhhisggvnecuuegrihhlohhuthemuceftddtnecundfotefknffkpffiucdludejmdenucfjughrpefhshfuvffkffggtgesmhdttdertddtjeenucfhrhhomhepteorohhsucevohhnshhulhhtrghnthhsucdqucftvggtrhhuthgvmhgvnhhtuceonhhoqdhrvghplhihsehusghiphhoshhtihhnghdrtghomheqnecuffhomhgrihhnpehmrghnughrihhllhgrphhprdgtohhm 
+X-Renater-ServerName: mxb2-2.relay.renater.fr
+X-OrganizationHeadersPreserved: mbcasexch3.Ur.local
+
+--_av-cgMMOSPyRIg4suzfM64rqA
+Content-Type: multipart/alternative; boundary="_av-zqGvGA37BMaqmnRHDbSmsQ"
+
+--_av-zqGvGA37BMaqmnRHDbSmsQ
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+                   =3D=3D A=C3=A9os Consultants =3D=3D
+
+    
+    Charg=C3=A9 de client=C3=A8le / hotliner (H/F)           Date : 9/23/20=
+15
+Localisation : Centre ville, 42000    R=C3=A9f. : LET-CDC-42-01-JED 
+Saint-=C3=89tienne (42 - Loire)    Type de contrat : CDD R=C3=A9mun=C3=A9ra=
+tion :   
+Exp=C3=A9rience : 2-5 ans Formation : BAC        
+  =3D=3D Description de l'entreprise : =3D=3D
+
+ Avez-vous d=C3=A9j=C3=A0 pens=C3=A9 =C3=A0 vivre une exp=C3=A9rience profe=
+ssionnelle dans un
+autre pays ?
+Pourquoi pas au Portugal ? 
+
+Notre client est le leader mondial dans la relation client pour des grandes
+entreprises du monde entier. 
+Il emploie plus de 180 000 collaborateurs sur 62 pays dont 5000 au Portugal
+et a re=C3=A7u pour la 6=C3=A8me fois le titre de =C2=AB The Best Company t=
+o work =C2=BB. 
+
+Dans le cadre de son d=C3=A9veloppement, nous recherchons : 
+
+1 Charg=C3=A9 de client=C3=A8le/hotliner/t=C3=A9l=C3=A9conseiller H/F bas=
+=C3=A9 =C3=A0 Lisbonne au
+Portugal 
+(en CDD sur 6 mois renouvelables plusieurs fois) 
+
+Disponibilit=C3=A9 imm=C3=A9diate !! 
+
+ 
+  =3D=3D Poste propos=C3=A9 : =3D=3D
+
+ - R=C3=A9ponse en appels entrants/sortants et par emails aux clients
+francophones. 
+
+- Apporter une vraie expertise et une qualit=C3=A9 de services irr=C3=A9pro=
+chable. 
+
+- Savoir se montrer polyvalent et s=E2=80=99adapter =C3=A0 un environnement=
+ tr=C3=A8s
+dynamique.
+ 
+
+ 
+  =3D=3D Profil recherch=C3=A9 : =3D=3D
+
+ - Etre =C3=A0 l=E2=80=99aise au t=C3=A9l=C3=A9phone 
+- Parfaite ma=C3=AEtrise de la langue fran=C3=A7aise (=C3=A0 l=E2=80=99=C3=
+=A9crit comme =C3=A0
+l=E2=80=99oral)
+- Savoir utiliser des logiciels informatiques internes (CRM)
+- =C3=8Atre orient=C3=A9 satisfaction client
+- Anglais technique et professionnel exig=C3=A9
+
+Les avantages : 
+
+- Logement : Chambre individuelle dans un appartement en collocation (eau,
+=C3=A9lectricit=C3=A9, gaz, femme de m=C3=A9nage, tv et internet).
+- Accueil =C3=A0 l=E2=80=99a=C3=A9roport et transfert au lieu d=E2=80=99hab=
+itation. 
+- Cours de portugais gratuits.
+- Activit=C3=A9s sportives et culturelles 
+
+Ce poste est fait pour vous ? 
+Alors appelez Jennifer du cabinet A=C3=A9os consultants au 04 42 64 54 95 o=
+u de
+nous adresser votre CV et LM =C3=A0 sous la r=C3=A9f=C3=A9rence LET-CDC-42-=
+01-JED. 
+ 
+
+     
+        Pour postuler, cliquer ici :
+aeos-consultants.3066344@applicount.com
+<mailto:aeos-consultants.3066344@applicount.com>        
+ 
+ 
+       Cette offre d=E2=80=99emploi vous est envoy=C3=A9e par la soci=C3=A9=
+t=C3=A9 *A=C3=A9os
+Consultants* via la solution de multi-diffusion d=E2=80=99offres d=E2=80=99=
+emploi
+Ubiposting. Ubiposting est une solution de multidiffusion d=E2=80=99offres
+d=E2=80=99emploi qui permet aux entreprises de diffuser leurs offres d=E2=
+=80=99emploi
+et de stage vers une multitude de sites et d=E2=80=99=C3=A9coles en une seu=
+le saisie.
+  - Si l=E2=80=99adresse e-mail utilis=C3=A9e pour l=E2=80=99envoi des offr=
+es n=E2=80=99est pas
+exacte, merci de la corriger en cliquant sur ce lien
+<http://www.mytalentplug.com/configJobboard/configurationFormations.aspx?jI=
+D=3DtMNzrfCvxso=3D>
+  - Nous pouvons =C3=A9galement vous envoyer les offres par flux XML, http =
+Post
+ou webservice afin de vous =C3=A9viter toute ressaisie. Pour plus
+d=E2=80=99information : contact@ubiposting.com <mailto:contact@ubiposting.c=
+om>
+  - Si vous souhaitez ne plus recevoir nos offres, veuillez vous cliquer
+sur ce lien
+<http://www.mytalentplug.com/configJobboard/abonnement.aspx?jID=3DtMNzrfCvx=
+so=3D>
+pour vous d=C3=A9sabonner.
+
+--_av-zqGvGA37BMaqmnRHDbSmsQ
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+
+            <html>
+=09=09=09=09<head>
+=09=09=09=09=09<style type=3D"text/css">
+=09=09=09=09=09=09td { font-family: Arial; font-size: 12px; }
+=09=09=09=09=09</style>
+=09=09=09=09</head>
+=09=09=09=09<body style=3D"font-family:Arial; font-size:12px;">
+=09=09=09=09=09<table>
+=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09<td align=3D"center">
+=09=09=09=09=09=09=09=09<table cellpadding=3D"0" cellspacing=3D"0" width=3D=
+"80%" style=3D"text-align:left;">
+=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09<td style=3D"width:150px;"></td>
+=09=09=09=09=09=09=09=09=09=09<td style=3D"width:150px;"></td>
+=09=09=09=09=09=09=09=09=09=09<td style=3D"width:150px;"></td>
+=09=09=09=09=09=09=09=09=09=09<td style=3D"width:150px;"></td>
+=09=09=09=09=09=09=09=09=09=09<td style=3D"width:150px;"></td>
+=09=09=09=09=09=09=09=09=09=09<td style=3D"width:150px;"></td>
+=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09<td style=3D"text-align:center;" colspan=3D"6=
+"><h2>A=C3=A9os Consultants</h2></td>
+=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09<td colspan=3D"6">&nbsp;<br />&nbsp;</td>
+=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09<td style=3D"font-size:18px; font-weight:bold=
+; text-align:center;" colspan=3D"6">Charg=C3=A9 de client=C3=A8le / hotline=
+r (H/F)</td>
+=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09<td colspan=3D"6">&nbsp;</td>
+=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09<td style=3D"border-top: 2px solid #e7e7e7;" =
+colspan=3D"6">&nbsp;</td>
+=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09<td style=3D"font-weight:bold;">Date :</td>
+=09=09=09=09=09=09=09=09=09=09<td colspan=3D"2">9/23/2015</td>
+=09=09=09=09=09=09=09=09=09=09<td style=3D"font-weight:bold;">Localisation =
+:</td>
+=09=09=09=09=09=09=09=09=09=09<td colspan=3D"2">Centre ville, 42000
+                                        </td>
+=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09<td style=3D"font-weight:bold;">R=C3=A9f. :</=
+td>
+=09=09=09=09=09=09=09=09=09=09<td colspan=3D"2">LET-CDC-42-01-JED</td>
+=09=09=09=09=09=09=09=09=09=09<td style=3D"font-weight:bold;"></td>
+=09=09=09=09=09=09=09=09=09=09<td colspan=3D"2">Saint-=C3=89tienne (42 - Lo=
+ire)
+                                        </td>
+=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09<td style=3D"font-weight:bold;">Type de contr=
+at :</td>
+=09=09=09=09=09=09=09=09=09=09<td colspan=3D"2">CDD</td>
+=09=09=09=09=09=09=09=09=09=09<td style=3D"font-weight:bold;">R=C3=A9mun=C3=
+=A9ration :</td>
+=09=09=09=09=09=09=09=09=09=09<td colspan=3D"2"></td>
+=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09<td style=3D"font-weight:bold;">Exp=C3=A9rien=
+ce :</td>
+=09=09=09=09=09=09=09=09=09=09<td colspan=3D"2">2-5 ans</td>
+=09=09=09=09=09=09=09=09=09=09<td style=3D"font-weight:bold;">Formation :</=
+td>
+=09=09=09=09=09=09=09=09=09=09<td colspan=3D"2">BAC</td>
+=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09<td style=3D"border-bottom: 2px solid #e7e7e7=
+;" colspan=3D"6">&nbsp;</td>
+=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09<td colspan=3D"6" style=3D"text-align:left;">
+=09=09=09=09=09=09=09=09=09=09=09<br />
+=09=09=09=09=09=09=09=09=09=09=09<p>
+=09=09=09=09=09=09=09=09=09=09=09=09<h2 style=3D"font-weight:bold; font-siz=
+e:14px; width:100%">Description de l'entreprise :</h2>
+=09=09=09=09=09=09=09=09=09=09=09=09Avez-vous d=C3=A9j=C3=A0 pens=C3=A9 =C3=
+=A0 vivre une exp=C3=A9rience professionnelle dans un autre pays ?<br />Pou=
+rquoi pas au Portugal ? <br /><br />Notre client est le leader mondial dans=
+ la relation client pour des grandes entreprises du monde entier. <br />Il =
+emploie  plus de 180 000 collaborateurs sur 62 pays dont 5000 au Portugal e=
+t a re=C3=A7u pour la 6=C3=A8me fois le titre de =C2=AB The Best Company to=
+ work =C2=BB. <br /><br />Dans le cadre de son d=C3=A9veloppement, nous rec=
+herchons : <br /><br />1 Charg=C3=A9 de client=C3=A8le/hotliner/t=C3=A9l=C3=
+=A9conseiller H/F bas=C3=A9 =C3=A0 Lisbonne au Portugal <br />(en CDD sur 6=
+ mois renouvelables plusieurs fois) <br /><br />Disponibilit=C3=A9 imm=C3=
+=A9diate !!
+=09=09=09=09=09=09=09=09=09=09=09</p>
+=09=09=09=09=09=09=09=09=09=09=09<br />
+=09=09=09=09=09=09=09=09=09=09=09<p>
+=09=09=09=09=09=09=09=09=09=09=09=09<h2 style=3D"font-weight:bold; font-siz=
+e:14px; width:100%">Poste propos=C3=A9 :</h2>
+=09=09=09=09=09=09=09=09=09=09=09=09- R=C3=A9ponse en appels entrants/sorta=
+nts et par emails aux clients francophones. <br /><br />- Apporter une vrai=
+e expertise et une qualit=C3=A9 de services irr=C3=A9prochable.  <br /><br =
+/>- Savoir se montrer polyvalent et s=E2=80=99adapter =C3=A0 un environneme=
+nt tr=C3=A8s dynamique.<br />
+=09=09=09=09=09=09=09=09=09=09=09</p>
+=09=09=09=09=09=09=09=09=09=09=09<br />
+=09=09=09=09=09=09=09=09=09=09=09<p>
+=09=09=09=09=09=09=09=09=09=09=09=09<h2 style=3D"font-weight:bold; font-siz=
+e:14px; width:100%">Profil recherch=C3=A9 :</h2>
+=09=09=09=09=09=09=09=09=09=09=09=09- Etre =C3=A0 l=E2=80=99aise au t=C3=A9=
+l=C3=A9phone <br />- Parfaite ma=C3=AEtrise de la langue fran=C3=A7aise (=
+=C3=A0 l=E2=80=99=C3=A9crit comme =C3=A0 l=E2=80=99oral)<br />- Savoir util=
+iser des logiciels informatiques internes (CRM)<br />- =C3=8Atre orient=C3=
+=A9 satisfaction client<br />- Anglais technique et professionnel exig=C3=
+=A9<br /><br />Les avantages : <br /><br />- Logement : Chambre individuell=
+e dans un appartement en collocation (eau, =C3=A9lectricit=C3=A9, gaz, femm=
+e de m=C3=A9nage, tv et internet).<br />- Accueil =C3=A0 l=E2=80=99a=C3=A9r=
+oport et transfert au lieu d=E2=80=99habitation. <br />- Cours de portugais=
+ gratuits.<br />- Activit=C3=A9s sportives et culturelles <br /><br />Ce po=
+ste est fait pour vous ? <br />Alors appelez Jennifer du cabinet A=C3=A9os =
+consultants au 04 42 64 54 95 ou de nous adresser votre CV et LM =C3=A0 sou=
+s la r=C3=A9f=C3=A9rence LET-CDC-42-01-JED. <br />
+=09=09=09=09=09=09=09=09=09=09=09</p>
+=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09<td colspan=3D"6">&nbsp;<br />&nbsp;</td>
+=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09<td style=3D"border-top: 2px solid #e7e7e7;" =
+colspan=3D"6">&nbsp;</td>
+=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09<td style=3D"font-size: 14px; font-weight: bo=
+ld;" colspan=3D"2">Pour postuler, cliquer ici :</td>
+=09=09=09=09=09=09=09=09=09=09<td style=3D"font-size: 14px;" colspan=3D"4">=
+<a style=3D"color:#000;" href=3D"mailto:aeos-consultants.3066344@applicount=
+.com">aeos-consultants.3066344@applicount.com</a></td>
+=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09<td style=3D"border-bottom: 2px solid #e7e7e7=
+;" colspan=3D"6">&nbsp;</td>
+=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09<td colspan=3D"6">&nbsp;<br />&nbsp;<br />&nb=
+sp;<br />&nbsp;</td>
+=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09</table>
+=09=09=09=09=09=09=09=09
+                                <table style=3D"color:#949494; text-align:l=
+eft;" cellpadding=3D"15" cellspacing=3D"0" width=3D"80%">
+=09                                <tr style=3D"background-color:#e7e7e7;">
+=09=09                                <td colspan=3D"2">
+                                            <p>Cette offre d=E2=80=99emploi=
+ vous est envoy=C3=A9e par la soci=C3=A9t=C3=A9 <b>A=C3=A9os Consultants</b=
+> via la solution de multi-diffusion d=E2=80=99offres d=E2=80=99emploi Ubip=
+osting. 
+Ubiposting est une solution de multidiffusion d=E2=80=99offres d=E2=80=99em=
+ploi qui permet aux entreprises de diffuser leurs offres d=E2=80=99emploi e=
+t de stage vers une multitude de sites et d=E2=80=99=C3=A9coles en une seul=
+e saisie.
+=09=09=09=09=09=09=09                    <ul style=3D"line-height:20px;">
+                                                    <li>Si l=E2=80=99adress=
+e e-mail utilis=C3=A9e pour l=E2=80=99envoi des offres n=E2=80=99est pas ex=
+acte, merci de la corriger en cliquant sur ce <a href=3D"http://mandrillapp=
+.com/track/click/30378319/www.mytalentplug.com?p=3DeyJzIjoiVnN5cVFiekNmQjU3=
+V3FDb3JNUE1WbHhybzVVIiwidiI6MSwicCI6IntcInVcIjozMDM3ODMxOSxcInZcIjoxLFwidXJ=
+sXCI6XCJodHRwOlxcXC9cXFwvd3d3Lm15dGFsZW50cGx1Zy5jb21cXFwvY29uZmlnSm9iYm9hcm=
+RcXFwvY29uZmlndXJhdGlvbkZvcm1hdGlvbnMuYXNweD9qSUQ9dE1OenJmQ3Z4c289XCIsXCJpZ=
+FwiOlwiMDZkNWEyMWQxNmNlNGYxZDkwMmE2ZjU1ZDE4MDFiZDVcIixcInVybF9pZHNcIjpbXCI5=
+MjdmZDRmMmZiYTE3Y2QyMTY1ZmEwNTg1ZGVjZTg4NDg3OTBjZDczXCJdfSJ9">lien</a></li>
+=09=09=09=09                                    <li>Nous pouvons =C3=A9gale=
+ment vous envoyer les offres par flux XML, http Post ou webservice afin de =
+vous =C3=A9viter toute ressaisie. Pour plus d=E2=80=99information : <a href=
+=3D"mailto:contact@ubiposting.com">contact@ubiposting.com</a></li>
+                                                    <li>Si vous souhaitez n=
+e plus recevoir nos offres, veuillez vous cliquer sur ce <a href=3D"http://=
+mandrillapp.com/track/click/30378319/www.mytalentplug.com?p=3DeyJzIjoiaC1KR=
+jV2bUpQQkNHUWNtalU3ZVZ6NEFhUnljIiwidiI6MSwicCI6IntcInVcIjozMDM3ODMxOSxcInZc=
+IjoxLFwidXJsXCI6XCJodHRwOlxcXC9cXFwvd3d3Lm15dGFsZW50cGx1Zy5jb21cXFwvY29uZml=
+nSm9iYm9hcmRcXFwvYWJvbm5lbWVudC5hc3B4P2pJRD10TU56cmZDdnhzbz1cIixcImlkXCI6XC=
+IwNmQ1YTIxZDE2Y2U0ZjFkOTAyYTZmNTVkMTgwMWJkNVwiLFwidXJsX2lkc1wiOltcIjEzNTE5N=
+WNlM2NkZTg5YmFhYmIzYjgyOTQ3YzBlYjZmZGNkNzI1MDdcIl19In0">lien</a> pour vous =
+d=C3=A9sabonner.</li>
+                                                </ul>
+=09=09=09=09=09=09                    </p>
+=09=09=09=09=09=09=09=09=09        <div style=3D"text-align:right;"><img sr=
+c=3D"http://www.mytalentplug.com/images/powered_by_ubiposting.png" /></div>
+=09=09                                </td>
+=09                                </tr>
+                                </table>
+                            </td>
+=09=09=09=09=09=09</tr>
+=09=09=09=09=09</table>
+=09=09=09=09<img src=3D"http://mandrillapp.com/track/open.php?u=3D30378319&=
+id=3D06d5a21d16ce4f1d902a6f55d1801bd5" height=3D"1" width=3D"1"></body>
+=09=09=09</html>
+
+--_av-zqGvGA37BMaqmnRHDbSmsQ--
+
+--_av-cgMMOSPyRIg4suzfM64rqA
+Content-Type: application/pdf
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename=
+	"=?utf-8?B?T2ZmcmUtZW1wbG9pX0HDqW9zIENvbnN1bHRhbnRzX0xFVC1DREMtNDIt?=
+ =?utf-8?B?MDEtSkVELnBkZg==?="
+
+JVBERi0xLjQKJdP0zOEKMSAwIG9iago8PAovQ3JlYXRpb25EYXRlKEQ6MjAx
+NTA5MjMxODM5MjgrMDInMDAnKQovQ3JlYXRvcihVYmlwb3N0aW5nKQovQXV0
+aG9yKFViaXBvc3RpbmcpCi9Nb2REYXRlKEQ6MjAxNTA5MjMxODM5MjgrMDIn
+MDAnKQovU3ViamVjdChPZmZyZXMgZCdlbXBsb2kvc3RhZ2UgLSBDaGFyZ+kg
+ZGUgY2xpZW506GxlIC8gaG90bGluZXIgXChIL0ZcKSAtIEHpb3MgQ29uc3Vs
+dGFudHMpCi9UaXRsZShPZmZyZXMgZCdlbXBsb2kvc3RhZ2UgLSBDaGFyZ+kg
+ZGUgY2xpZW506GxlIC8gaG90bGluZXIgXChIL0ZcKSAtIEHpb3MgQ29uc3Vs
+dGFudHMpCi9Qcm9kdWNlcihQREZzaGFycCAxLjMxLjE3ODktdyBcKHd3dy5w
+ZGZzaGFycC5jb21cKSkKPj4KZW5kb2JqCjIgMCBvYmoKPDwKL1R5cGUvQ2F0
+YWxvZwovUGFnZXMgMyAwIFIKPj4KZW5kb2JqCjMgMCBvYmoKPDwKL1R5cGUv
+UGFnZXMKL0NvdW50IDEKL0tpZHNbNCAwIFJdCj4+CmVuZG9iago0IDAgb2Jq
+Cjw8Ci9UeXBlL1BhZ2UKL01lZGlhQm94WzAgMCA1OTUuMjc2IDg0MS44OV0K
+L1BhcmVudCAzIDAgUgovQ29udGVudHMgNSAwIFIKL1Jlc291cmNlcwo8PAov
+UHJvY1NldCBbL1BERi9UZXh0L0ltYWdlQi9JbWFnZUMvSW1hZ2VJXQovRXh0
+R1N0YXRlCjw8Ci9HUzAgNiAwIFIKL0dTMSA5IDAgUgo+PgovRm9udAo8PAov
+RjAgOCAwIFIKL0YxIDExIDAgUgo+Pgo+PgovR3JvdXAKPDwKL0NTL0Rldmlj
+ZUNNWUsKL1MvVHJhbnNwYXJlbmN5Ci9JIGZhbHNlCi9LIGZhbHNlCj4+Cj4+
+CmVuZG9iago1IDAgb2JqCjw8Ci9MZW5ndGggMjQzNwovRmlsdGVyL0ZsYXRl
+RGVjb2RlCj4+CnN0cmVhbQp4nLVZS5LcuBHd1ylqVh5FdLEBEPx5Y7e6JdmK
+Hofc6vDG7QWahaqGhkVS/NRIOoau4SP4BPYpZjfixmdwgsSPVaguz2KiYzRR
+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
+4PVeu22talHiXkBMhrTGQO24e2wMFZy4WIu9WPfmjkL2meZW7v+/o6ghQXd2
+KyBixoq3PpBtX5U7N1qRK/RQ97H+woqSOdRQ8BwUI4dUd2EShH28ZV8udNw5
+i224Ye/Ms16N2Q0lOOZCp3STTbq91p55sECblAXpnBKKTd3Diyk3oLPBmuc9
+V6lhLOPOSPYgy7tGuR2dbUllydVuuHphzPfP6zzwrdeNgNtLf4W6QHSj23Rr
+Jrv17DwdrytdQpPYlTHP4vXUGGjuOhl927CuF50u01Iq79POQttBhHeDshbb
+wquVC4k9t5U9fh7GvC+6vpFUmV5ZZUhe2LgcvVYHojMFMSU6cSTZf8ElE6Vn
++MRlwYlbUHMNB9jNs/NVUTWma3YvLWS9zr9o+Xe4+JaXpdjo8mqWGby3UDlE
+SKngk6FsQ9N8OptzOj/4eEZTd3lveCLqGaS+S6HYNzPyDWaRZ7Dyre4NWm/7
+L68d2tb2B7YTsHehxOls/zYZnvWx3ki8/cEz0yMVrT8+VB0F0pVMd+puiDTD
+ZmjsrTZyXfibfaqaGO18o0hk7KTh9I1C/zjxjSKJZOZD0wfad4YpcZA699vA
+wb7gjUob8cEnVqgGjJdCm9sh0xgy6k8xTkmu9yBpEWuf86pd6Q2Q2BfmQYji
+OKT0j8C6QuRVX3YBVJgaApATsCa/zsq/uzeAqjxjCNYiwIOSJJDNiR6RoKjP
+ub4PuAbQWH5pjhSg6od896/w9z+q/J7DCmVuZHN0cmVhbQplbmRvYmoKNiAw
+IG9iago8PAovVHlwZS9FeHRHU3RhdGUKL2NhIDEKPj4KZW5kb2JqCjcgMCBv
+YmoKPDwKL1R5cGUvRm9udERlc2NyaXB0b3IKL0FzY2VudCA5MDUKL0NhcEhl
+aWdodCA3MTYKL0Rlc2NlbnQgLTIxMgovRmxhZ3MgMzIKL0ZvbnRCQm94Wy02
+MjggLTM3NiAyMDAwIDEwNTZdCi9JdGFsaWNBbmdsZSAwCi9TdGVtViAwCi9Y
+SGVpZ2h0IDUxOQovRm9udE5hbWUvQXJpYWwsQm9sZAo+PgplbmRvYmoKOCAw
+IG9iago8PAovVHlwZS9Gb250Ci9TdWJ0eXBlL1RydWVUeXBlCi9CYXNlRm9u
+dC9BcmlhbCxCb2xkCi9FbmNvZGluZy9XaW5BbnNpRW5jb2RpbmcKL0ZvbnRE
+ZXNjcmlwdG9yIDcgMCBSCi9GaXJzdENoYXIgMAovTGFzdENoYXIgMjU1Ci9X
+aWR0aHNbNzUwIDc1MCA3NTAgNzUwIDc1MCA3NTAgNzUwIDc1MCA3NTAgNzUw
+IDc1MCA3NTAgNzUwIDc1MCA3NTAgNzUwIDc1MCA3NTAgNzUwIDc1MCA3NTAg
+NzUwIDc1MCA3NTAgNzUwIDc1MCA3NTAgNzUwIDc1MCA3NTAgNzUwIDc1MCAy
+NzcgMzMzIDQ3NCA1NTYgNTU2IDg4OSA3MjIgMjM3IDMzMyAzMzMgMzg5IDU4
+MyAyNzcgMzMzIDI3NyAyNzcgNTU2IDU1NiA1NTYgNTU2IDU1NiA1NTYgNTU2
+IDU1NiA1NTYgNTU2IDMzMyAzMzMgNTgzIDU4MyA1ODMgNjEwIDk3NSA3MjIg
+NzIyIDcyMiA3MjIgNjY2IDYxMCA3NzcgNzIyIDI3NyA1NTYgNzIyIDYxMCA4
+MzMgNzIyIDc3NyA2NjYgNzc3IDcyMiA2NjYgNjEwIDcyMiA2NjYgOTQzIDY2
+NiA2NjYgNjEwIDMzMyAyNzcgMzMzIDU4MyA1NTYgMzMzIDU1NiA2MTAgNTU2
+IDYxMCA1NTYgMzMzIDYxMCA2MTAgMjc3IDI3NyA1NTYgMjc3IDg4OSA2MTAg
+NjEwIDYxMCA2MTAgMzg5IDU1NiAzMzMgNjEwIDU1NiA3NzcgNTU2IDU1NiA1
+MDAgMzg5IDI3OSAzODkgNTgzIDc1MCA1NTYgNzUwIDI3NyA1NTYgNTAwIDEw
+MDAgNTU2IDU1NiAzMzMgMTAwMCA2NjYgMzMzIDEwMDAgNzUwIDYxMCA3NTAg
+NzUwIDI3NyAyNzcgNTAwIDUwMCAzNTAgNTU2IDEwMDAgMzMzIDEwMDAgNTU2
+IDMzMyA5NDMgNzUwIDUwMCA2NjYgMjc3IDMzMyA1NTYgNTU2IDU1NiA1NTYg
+Mjc5IDU1NiAzMzMgNzM2IDM3MCA1NTYgNTgzIDMzMyA3MzYgNTUyIDM5OSA1
+NDggMzMzIDMzMyAzMzMgNTc2IDU1NiAzMzMgMzMzIDMzMyAzNjUgNTU2IDgz
+MyA4MzMgODMzIDYxMCA3MjIgNzIyIDcyMiA3MjIgNzIyIDcyMiAxMDAwIDcy
+MiA2NjYgNjY2IDY2NiA2NjYgMjc3IDI3NyAyNzcgMjc3IDcyMiA3MjIgNzc3
+IDc3NyA3NzcgNzc3IDc3NyA1ODMgNzc3IDcyMiA3MjIgNzIyIDcyMiA2NjYg
+NjY2IDYxMCA1NTYgNTU2IDU1NiA1NTYgNTU2IDU1NiA4ODkgNTU2IDU1NiA1
+NTYgNTU2IDU1NiAyNzcgMjc3IDI3NyAyNzcgNjEwIDYxMCA2MTAgNjEwIDYx
+MCA2MTAgNjEwIDU0OCA2MTAgNjEwIDYxMCA2MTAgNjEwIDU1NiA2MTAgNTU2
+XQo+PgplbmRvYmoKOSAwIG9iago8PAovVHlwZS9FeHRHU3RhdGUKL0NBIDEK
+Pj4KZW5kb2JqCjEwIDAgb2JqCjw8Ci9UeXBlL0ZvbnREZXNjcmlwdG9yCi9B
+c2NlbnQgOTA1Ci9DYXBIZWlnaHQgNzE2Ci9EZXNjZW50IC0yMTIKL0ZsYWdz
+IDMyCi9Gb250QkJveFstNjY1IC0zMjUgMjA0NiAxMDQwXQovSXRhbGljQW5n
+bGUgMAovU3RlbVYgMAovWEhlaWdodCA1MTkKL0ZvbnROYW1lL0FyaWFsCj4+
+CmVuZG9iagoxMSAwIG9iago8PAovVHlwZS9Gb250Ci9TdWJ0eXBlL1RydWVU
+eXBlCi9CYXNlRm9udC9BcmlhbAovRW5jb2RpbmcvV2luQW5zaUVuY29kaW5n
+Ci9Gb250RGVzY3JpcHRvciAxMCAwIFIKL0ZpcnN0Q2hhciAwCi9MYXN0Q2hh
+ciAyNTUKL1dpZHRoc1s3NTAgNzUwIDc1MCA3NTAgNzUwIDc1MCA3NTAgNzUw
+IDc1MCA3NTAgNzUwIDc1MCA3NTAgNzUwIDc1MCA3NTAgNzUwIDc1MCA3NTAg
+NzUwIDc1MCA3NTAgNzUwIDc1MCA3NTAgNzUwIDc1MCA3NTAgNzUwIDc1MCA3
+NTAgNzUwIDI3NyAyNzcgMzU0IDU1NiA1NTYgODg5IDY2NiAxOTAgMzMzIDMz
+MyAzODkgNTgzIDI3NyAzMzMgMjc3IDI3NyA1NTYgNTU2IDU1NiA1NTYgNTU2
+IDU1NiA1NTYgNTU2IDU1NiA1NTYgMjc3IDI3NyA1ODMgNTgzIDU4MyA1NTYg
+MTAxNSA2NjYgNjY2IDcyMiA3MjIgNjY2IDYxMCA3NzcgNzIyIDI3NyA1MDAg
+NjY2IDU1NiA4MzMgNzIyIDc3NyA2NjYgNzc3IDcyMiA2NjYgNjEwIDcyMiA2
+NjYgOTQzIDY2NiA2NjYgNjEwIDI3NyAyNzcgMjc3IDQ2OSA1NTYgMzMzIDU1
+NiA1NTYgNTAwIDU1NiA1NTYgMjc3IDU1NiA1NTYgMjIyIDIyMiA1MDAgMjIy
+IDgzMyA1NTYgNTU2IDU1NiA1NTYgMzMzIDUwMCAyNzcgNTU2IDUwMCA3MjIg
+NTAwIDUwMCA1MDAgMzMzIDI1OSAzMzMgNTgzIDc1MCA1NTYgNzUwIDIyMiA1
+NTYgMzMzIDEwMDAgNTU2IDU1NiAzMzMgMTAwMCA2NjYgMzMzIDEwMDAgNzUw
+IDYxMCA3NTAgNzUwIDIyMiAyMjIgMzMzIDMzMyAzNTAgNTU2IDEwMDAgMzMz
+IDEwMDAgNTAwIDMzMyA5NDMgNzUwIDUwMCA2NjYgMjc3IDMzMyA1NTYgNTU2
+IDU1NiA1NTYgMjU5IDU1NiAzMzMgNzM2IDM3MCA1NTYgNTgzIDMzMyA3MzYg
+NTUyIDM5OSA1NDggMzMzIDMzMyAzMzMgNTc2IDUzNyAzMzMgMzMzIDMzMyAz
+NjUgNTU2IDgzMyA4MzMgODMzIDYxMCA2NjYgNjY2IDY2NiA2NjYgNjY2IDY2
+NiAxMDAwIDcyMiA2NjYgNjY2IDY2NiA2NjYgMjc3IDI3NyAyNzcgMjc3IDcy
+MiA3MjIgNzc3IDc3NyA3NzcgNzc3IDc3NyA1ODMgNzc3IDcyMiA3MjIgNzIy
+IDcyMiA2NjYgNjY2IDYxMCA1NTYgNTU2IDU1NiA1NTYgNTU2IDU1NiA4ODkg
+NTAwIDU1NiA1NTYgNTU2IDU1NiAyNzcgMjc3IDI3NyAyNzcgNTU2IDU1NiA1
+NTYgNTU2IDU1NiA1NTYgNTU2IDU0OCA2MTAgNTU2IDU1NiA1NTYgNTU2IDUw
+MCA1NTYgNTAwXQo+PgplbmRvYmoKeHJlZgowIDEyCjAwMDAwMDAwMDAgNjU1
+MzUgZiAKMDAwMDAwMDAxNSAwMDAwMCBuIAowMDAwMDAwMzg1IDAwMDAwIG4g
+CjAwMDAwMDA0MzMgMDAwMDAgbiAKMDAwMDAwMDQ4OCAwMDAwMCBuIAowMDAw
+MDAwNzczIDAwMDAwIG4gCjAwMDAwMDMyODIgMDAwMDAgbiAKMDAwMDAwMzMy
+NSAwMDAwMCBuIAowMDAwMDAzNTA3IDAwMDAwIG4gCjAwMDAwMDQ2OTIgMDAw
+MDAgbiAKMDAwMDAwNDczNSAwMDAwMCBuIAowMDAwMDA0OTEzIDAwMDAwIG4g
+CnRyYWlsZXIKPDwKL0lEWzwxMkQ3NjFGQjg3MEM2MDQ2ODlBNzk4ODc4NjI0
+RDAzMj48MTJENzYxRkI4NzBDNjA0Njg5QTc5ODg3ODYyNEQwMzI+XQovSW5m
+byAxIDAgUgovUm9vdCAyIDAgUgovU2l6ZSAxMgo+PgpzdGFydHhyZWYKNjA5
+NgolJUVPRgo=
+
+--_av-cgMMOSPyRIg4suzfM64rqA--

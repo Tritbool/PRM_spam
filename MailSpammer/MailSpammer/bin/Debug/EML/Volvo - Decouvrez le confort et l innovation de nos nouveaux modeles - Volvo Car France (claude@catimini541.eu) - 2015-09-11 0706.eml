@@ -1,0 +1,214 @@
+Return-Path: <claude@catimini541.eu>
+Received: from mailimailo.univ-rennes1.fr ([unix socket])
+	 by mailimailo.univ-rennes1.fr (Cyrus v2.3.16-Fedora-RPM-2.3.16-6.el6_2.5) with LMTPA;
+	 Fri, 11 Sep 2015 05:06:59 +0200
+X-Sieve: CMU Sieve 2.3
+Received: from vmsmtprexch.univ-rennes1.fr (vmsmtprexch.univ-rennes1.fr [129.20.128.62])
+	by mailimailo.univ-rennes1.fr (Postfix) with ESMTP id 3EF0526A116D
+	for <resp-m2-miage@univ-rennes1.fr>; Fri, 11 Sep 2015 05:06:59 +0200 (CEST)
+Received: from mbcasexch3.Ur.local (mbcasexch3.univ-rennes1.fr [129.20.125.131])
+	by vmsmtprexch.univ-rennes1.fr (Postfix) with ESMTP id 35329192
+	for <resp-m2-miage@univ-rennes1.fr>; Fri, 11 Sep 2015 05:06:59 +0200 (CEST)
+X-CrossPremisesHeadersFilteredBySendConnector: mbcasexch3.Ur.local
+Received: from mbcasexch1.Ur.local (2002:8114:7d81::8114:7d81) by
+ mbcasexch3.Ur.local (2002:8114:7d83::8114:7d83) with Microsoft SMTP Server
+ (TLS) id 15.0.913.22; Fri, 11 Sep 2015 05:06:53 +0200
+Received: from mailout1.univ-rennes1.fr (129.20.128.162) by
+ mbcasexch1.Ur.local (129.20.125.129) with Microsoft SMTP Server id
+ 15.0.913.22 via Frontend Transport; Fri, 11 Sep 2015 05:06:53 +0200
+Received: from localhost (vmscanmail.univ-rennes1.fr [129.20.128.134])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id 75A47601E8
+	for <resp-m2-miage@univ-rennes1.fr>; Fri, 11 Sep 2015 05:06:53 +0200 (CEST)
+X-Virus-Scanned: amavisd-new at univ-rennes1.fr
+Received: from mailout1.univ-rennes1.fr ([129.20.128.162])
+	by localhost (vmscanmail.univ-rennes1.frm [129.20.128.134]) (amavisd-new, port 10026)
+	with ESMTP id n1t0EmTO1GZT for <resp-m2-miage@univ-rennes1.fr>;
+	Fri, 11 Sep 2015 05:06:53 +0200 (CEST)
+Received: from vmmailin.univ-rennes1.fr (vmmailin.univ-rennes1.fr [129.20.128.133])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id 1BE996020A
+	for <resp-m2-miage@univ-rennes1.fr>; Fri, 11 Sep 2015 05:06:53 +0200 (CEST)
+Received: from mxb1-2.relay.renater.fr (mxb1-2.relay.renater.fr [194.214.201.9])
+	by vmmailin.univ-rennes1.fr (Postfix) with ESMTP id DC1E120047
+	for <resp-m2-miage@univ-rennes1.fr>; Fri, 11 Sep 2015 05:06:10 +0200 (CEST)
+Received: from vps.geberit619.eu (vps.geberit619.eu [93.115.96.165])
+	by mxb1-2.relay.renater.fr (asm) with ESMTP id AD758280064
+	for <resp-m2-miage@univ-rennes1.fr>; Fri, 11 Sep 2015 05:06:10 +0200 (CEST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=catimini541.eu;
+	s=itek; t=1441940770;
+	bh=c0GF3jHsnneak3vS7PgZLxqKTy3GgW18kr8AedmgL0M=;
+	h=Date:From:To:Reply-to:Subject:From;
+	b=YJabebPbEnjGaajufyMBVniuHn9Yr1hOGGXouJVPB8cwPXHNtuMosUal+Z9RRLb14
+	 t43tkJYYZmjNZwCzx59M0H89oek285ezVtgqo2wRzrybhyim0ei7XFpUFWgEF+V0IM
+	 uek/uM8zadJJY5LNnqxDvD/bQowORKbI4hcHwzD4=
+Date: Fri, 11 Sep 2015 05:06:02 +0000
+From: Volvo Car France <claude@catimini541.eu>
+To: <resp-m2-miage@univ-rennes1.fr>
+Reply-To: Volvo Car France <claude@catimini541.eu>
+User-Agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Trident/6.0; Microsoft Outlook 15.0.4420)
+MIME-Version: 1.0
+Subject: Volvo - Decouvrez le confort et l innovation de nos nouveaux modeles
+Content-Type: multipart/alternative;
+	boundary="------------050807090509040901010807"
+Message-ID: <20150911030610.AD758280064@mxb1-2.relay.renater.fr>
+X-UCE-Status: YES
+X-UCE-Type: MCE
+X-Original-Source-IP: 93.115.96.165
+X-Bizanga: IMP - mxb1-2.relay.renater.fr
+X-Renater-SpamState: 11
+X-Renater-SpamScore: 17
+X-Renater-SpamCause: gggruggvucftvghtrhhoucdtuddrfeekgedrudejgdejhecutefuodetggdotefrucfrrhhofhhilhgvmecutffgpfetvffgtfdpggftfghnshhusghstghrihgsvgenuceurghilhhouhhtmecufedttdenucdnofetkffnkffpifculddujedmnecujfgurhepfffhvfhrfgggufgtkfesrgdtfegrtdefheenucfhrhhomhepggholhhvohcuvegrrhcuhfhrrghntggvoegtlhgruhguvgestggrthhimhhinhhiheeguddrvghuqeenucffohhmrghinheptghhvghvrhgvlhhothektddrvghupdhvohhlvhhotggrrhhsrdgtohhm 
+X-Renater-ServerName: mxb1-2.relay.renater.fr
+X-OrganizationHeadersPreserved: mbcasexch3.Ur.local
+
+--------------050807090509040901010807
+Content-Type: text/plain; charset="ISO-8859-1"; format=flowed
+Content-Transfer-Encoding: 7bit
+
+Si ce message ne s'affiche pas correctement, visualisez la version en ligne
+
+  	
+Essayez la Volvo de votre choix et
+profitez des offres du moment. 	 
+réservez un essai    demandez une offre	 
+ 
+  	
+
+Madame, Monsieur,
+
+Design scandinave, nouveaux moteurs 4 cylindres et technologies
+embarquées font de Volvo l'une des marques automobiles les plus innovantes au monde.
+
+Nous sommes ravis de vous inviter à venir apprécier ces qualités lors d'un essai en concession.
+
+C'est le meilleur moyen de vous faire votre propre idée de l'excellence Volvo.
+  	 
+ 
+  	
+Rejoindre la conversation: 	FaceBook 	Twitter 	Google + 	YouTube 	 
+
+
+
+Consultez notre charte de confidentialité.
+
+Veuillez ne pas répondre à cet e-mail. pour nous contacter, cliquez ICI.
+
+Pour en savoir plus sur Volvo, rendez-vous sur volvocars.com/fr ou cliquez ICI.
+
+ 
+
+Pour retirer votre adresse mail, ICI.
+
+--------------050807090509040901010807
+Content-Type: text/html; charset="ISO-8859-1"
+Content-Transfer-Encoding: 7bit
+
+<html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta name="viewport" content="width=device-width" />
+</head><body><table style="min-width:360px; max-width:800px;" border="0" cellpadding="0" cellspacing="0" align="center" bgcolor="#354A50">
+    
+        <tr>
+            <td width="800" height="44" style="font-family: Arial, Helvetica, sans-serif; color:#FFFfff; font-size:10px; text-align:center;">Si ce message ne s'affiche pas correctement,<a href="http://chevrelot80.eu/volvo/jnbg.html" target="_blank" style="font-family:Arial, Helvetica, sans-serif; font-size:10px; color:#FFfffF;"> visualisez la version en ligne</a></td>
+        </tr>
+    
+</table>
+<table style="min-width:360px; max-width:800px;" border="0" cellpadding="0" cellspacing="0" align="center" bgcolor="#0A111D">
+    
+        <tr>
+            <td width="800" align="center" valign="top" style="font-family:Arial, Helvetica, sans-serif; font-size:24px; text-align:center; color:#F8F8F8; text-transform:uppercase;"><a href="http://chevrelot80.eu/volvo/vbi869.html" target="_blank"><img src="http://chevrelot80.eu/volvo/images/Volvo_BDD_BBVisuel.jpg" width="100%" alt="VOLVO" border="0" style="display:block;"></a></td>
+        </tr>
+    
+</table>
+<table style="min-width:360px; max-width:800px;" border="0" cellpadding="0" cellspacing="0" align="center" bgcolor="#0A111D">
+    
+        <tr>
+            <td width="45">&nbsp;</td>
+            <td width="710" height="60" align="center" style="font-family:Arial, Helvetica, sans-serif; font-size:18px; text-align:center; font-weight:bold; color:#ffffff; text-transform:uppercase;"><br>
+            Essayez la Volvo de votre choix et <br>
+            profitez des offres du moment.</td>
+            <td width="45">&nbsp;</td>
+        </tr>
+    
+</table>
+<table style="min-width:360px; max-width:800px;" border="0" cellpadding="0" cellspacing="0" align="center" bgcolor="#0A111D">
+    
+        <tr>
+            <td width="60">&nbsp;</td>
+            <td width="1" bgcolor="#FFFFFF"><img src="http://chevrelot80.eu/volvo/images/Volvo_spacer.gif" width="1" height="1" alt="."></td>
+            <td width="336" height="40" valign="middle" bgcolor="#1E3043" style="border-top:#FFFfff thin solid; border-bottom:#FFFfff thin solid; font-family:Arial, Helvetica, sans-serif; text-decoration:none; font-size:15px; text-transform:uppercase; color:#FFF; text-align:center;"><a href="http://chevrelot80.eu/volvo/vbi869.html" target="_blank" style="font-family:Arial, Helvetica, sans-serif; text-decoration:none; font-size:15px; text-transform:uppercase; color:#FFfffF; text-align:center;">réservez un essai</a></td>
+            <td width="1" bgcolor="#FFFFFF"><img src="http://chevrelot80.eu/volvo/images/Volvo_spacer.gif" width="1" height="1" alt="."></td>
+            <td width="4"><img src="http://chevrelot80.eu/volvo/images/Volvo_spacer.gif" width="4" height="1" alt="." border="0" style="display:block;"></td>
+            <td width="1" bgcolor="#FFFFFF"><img src="http://chevrelot80.eu/volvo/images/Volvo_spacer.gif" width="1" height="1" alt="."></td>
+            <td width="336" height="40" valign="middle" bgcolor="#1E3043" style="border-top:#FFFfff thin solid; border-bottom:#FFFfff thin solid; font-family:Arial, Helvetica, sans-serif; text-decoration:none; font-size:15px; text-transform:uppercase; color:#FFF; text-align:center;"><a href="http://chevrelot80.eu/volvo/hgb897bvc85.html" target="_blank" style="font-family:Arial, Helvetica, sans-serif; text-decoration:none; font-size:15px; text-transform:uppercase; color:#FFF; text-align:center;">demandez une offre</a></td>
+            <td width="1" bgcolor="#FFFFFF"><img src="http://chevrelot80.eu/volvo/images/Volvo_spacer.gif" width="1" height="1" alt="."></td>
+            <td width="60">&nbsp;</td>
+        </tr>
+    
+</table>
+<table style="min-width:360px; max-width:800px;" border="0" cellpadding="0" cellspacing="0" align="center" bgcolor="#0A111D">
+    
+        <tr>
+            <td width="800" height="20">&nbsp;</td>
+        </tr>
+    
+</table>
+<table style="min-width:360px; max-width:800px;" border="0" cellpadding="0" cellspacing="0" align="center" bgcolor="#ececec">
+    
+        <tr>
+            <td width="45">&nbsp;</td>
+            <td width="710" style="font-family:Arial, Helvetica, sans-serif; font-size:15px; font-weight:normal; color:#1a3159; text-align:center;"><br>
+            <br>
+            Madame, Monsieur, 			<br>
+            <br>
+            Design scandinave, nouveaux moteurs 4 cylindres et technologies <br>
+            embarquées font de Volvo l'une des marques automobiles les plus innovantes au monde.<br>
+            <br>
+            Nous sommes ravis de vous inviter à venir apprécier ces qualités lors d'un essai en concession.<br>
+            <br>
+            C'est le meilleur moyen de vous faire votre propre idée de l'excellence Volvo.<br>
+            &nbsp;</td>
+            <td width="45">&nbsp;</td>
+        </tr>
+    
+</table>
+<table style="min-width: 360px; max-width: 800px;" border="0" cellpadding="0" cellspacing="0" bgcolor="#ffffff" align="center">
+    
+        <tr>
+            <td style="max-width:800px;" height="30" align="center" colspan="2">&nbsp;</td>
+        </tr>
+        <tr>
+            <td width="35" height="144" bgcolor="#ffffff">&nbsp;</td>
+          <td width="765" height="144" bgcolor="#ffffff" style="font-size: 9px; font-family: Arial, Helvetica, Times, Verdana, sans-serif; color: #8c8c8c; vertical-align: top; text-align: left; background-color: #ffffff;">
+            <table border="0" cellpadding="0" cellspacing="0">
+                
+                    <tr>
+                        <td width="110" height="26" bgcolor="#ffffff" style="font-size: 9px; font-family: Arial, Helvetica, Times, Verdana, sans-serif; color: #8c8c8c; vertical-align: middle; text-align: left; background-color: #ffffff; white-space: nowrap">Rejoindre la conversation:</td>
+                        <td width="24" height="26"><a href="http://chevrelot80.eu/volvo/cvxy51.html" target="_blank"><img src="http://chevrelot80.eu/volvo/images/Volvo_facebook.gif" alt="FaceBook" style="display: block;" width="26" height="24" border="0"></a></td>
+                        <td width="24" height="26"><a href="http://chevrelot80.eu/volvo/bvc8bvc85.html" target="_blank"><img src="http://chevrelot80.eu/volvo/images/Volvo_twitter.gif" alt="Twitter" style="display: block;" width="26" height="24" border="0"></a></td>
+                        <td width="24" height="26"><a href="http://chevrelot80.eu/volvo/gfbcg96.html" target="_blank"><img src="http://chevrelot80.eu/volvo/images/Volvo_google.gif" alt="Google +" style="display: block;" width="26" height="24" border="0"></a></td>
+
+                        <td width="24" height="26"><a href="http://chevrelot80.eu/volvo/nuh85l.html" target="_blank"><img src="http://chevrelot80.eu/volvo/images/Volvo_YouTube.gif" alt="YouTube" style="display: block;" width="26" height="24" border="0"></a></td>
+                        <td width="559">&nbsp;</td>
+                    </tr>
+                
+            </table>
+            <p><br>
+              <br>
+            Consultez <a href="http://chevrelot80.eu/volvo/hfbvy5.html" target="_blank" style="font-size: 9px; font-family: Arial, Helvetica, Times, Verdana, sans-serif; color: #db453e; background-color: #ffffff; text-decoration: underline;"><span style="font-size: 9px; font-family: Arial, Helvetica, Times, Verdana, sans-serif; color: #db453e; background-color: #ffffff; text-decoration: underline;">notre charte de confidentialité.</span></a><br>
+            <br>
+            Veuillez ne pas répondre à cet e-mail. pour nous contacter, cliquez <a href="http://chevrelot80.eu/volvo/bhh85.html" target="new" style="font-size: 9px; font-family: Arial, Helvetica, Times, Verdana, sans-serif; color: #db453e; background-color: #ffffff; text-decoration: underline;"><span style="font-size: 9px; font-family: Arial, Helvetica, Times, Verdana, sans-serif; color: #db453e; background-color: #ffffff; text-decoration: underline;">ICI</span></a>.<br>
+            <br>
+            Pour en savoir plus sur Volvo, rendez-vous sur <span style="font-size: 9px; font-family: Arial, Helvetica, Times, Verdana, sans-serif; background-color: #ffffff; text-decoration: none;">volvocars.com/fr</span> ou cliquez <a href="http://chevrelot80.eu/volvo/1vfr0.html" target="_blank" style="font-size: 9px; font-family: Arial, Helvetica, Times, Verdana, sans-serif; color: #db453e; background-color: #ffffff; text-decoration: underline;"><span style="font-size: 9px; font-family: Arial, Helvetica, Times, Verdana, sans-serif; color: #db453e; background-color: #ffffff; text-decoration: underline;">ICI</span></a>.</p>
+            <p>&nbsp;</p>            <p align="center">Pour retirer votre adresse mail, <a href="http://chevrelot80.eu/volvo/dfet2s.html" target="_blank" style="font-size: 9px; font-family: Arial, Helvetica, Times, Verdana, sans-serif; color: #db453e; background-color: #ffffff; text-decoration: underline;"><span style="font-size: 9px; font-family: Arial, Helvetica, Times, Verdana, sans-serif; color: #db453e; background-color: #ffffff; text-decoration: underline;">ICI</span></a>.</p></td>
+        </tr>
+        <tr>
+            <td style="max-width:800px;" align="center" colspan="2" bgcolor="#d5d5d6"><img src="file:///C:/Users/ASSIST~1/AppData/Local/Temp/images/Volvo_spacer.gif" width="100%" height="1" alt="." border="0" style="display:block"></td>
+        </tr>
+        <tr>
+            <td style="max-width:800px;" height="20" align="center" colspan="2">&nbsp;</td>
+        </tr>
+    
+</table>
+<p>&nbsp;</p><img alt="" src="http://chevrelot80.eu/volvo/images/vol365.gif" border="0" height="1" width="1"></body></html>
+
+--------------050807090509040901010807--

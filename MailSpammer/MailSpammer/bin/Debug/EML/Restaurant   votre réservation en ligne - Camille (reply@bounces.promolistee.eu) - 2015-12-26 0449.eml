@@ -1,0 +1,332 @@
+Return-Path: <reply@bounces.promolistee.eu>
+Received: from mailimailo.univ-rennes1.fr ([unix socket])
+	 by mailimailo.univ-rennes1.fr (Cyrus v2.3.16-Fedora-RPM-2.3.16-6.el6_2.5) with LMTPA;
+	 Sat, 26 Dec 2015 04:49:54 +0100
+X-Sieve: CMU Sieve 2.3
+Received: from mailout1.univ-rennes1.fr (mailout1.univ-rennes1.fr [129.20.128.162])
+	by mailimailo.univ-rennes1.fr (Postfix) with ESMTP id 77E3226A0C64
+	for <resp-m2-miage@univ-rennes1.fr>; Sat, 26 Dec 2015 04:49:54 +0100 (CET)
+Received: from localhost (vmscanmail.univ-rennes1.fr [129.20.128.134])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id 754BD6001F
+	for <resp-m2-miage@univ-rennes1.fr>; Sat, 26 Dec 2015 04:49:54 +0100 (CET)
+X-Virus-Scanned: amavisd-new at univ-rennes1.fr
+Received: from mailout1.univ-rennes1.fr ([129.20.128.162])
+	by localhost (vmscanmail.univ-rennes1.frm [129.20.128.134]) (amavisd-new, port 10026)
+	with ESMTP id u5dlHVTPfLCC for <resp-m2-miage@univ-rennes1.fr>;
+	Sat, 26 Dec 2015 04:49:54 +0100 (CET)
+Received: from vmmailin.univ-rennes1.fr (vmmailin.univ-rennes1.fr [129.20.128.133])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id 52EA560019
+	for <resp-m2-miage@univ-rennes1.fr>; Sat, 26 Dec 2015 04:49:54 +0100 (CET)
+Received: from mxb1-1.relay.renater.fr (mxb1-1.relay.renater.fr [194.214.201.8])
+	by vmmailin.univ-rennes1.fr (Postfix) with ESMTP id 4D9CF20033
+	for <resp-m2-miage@univ-rennes1.fr>; Sat, 26 Dec 2015 04:49:54 +0100 (CET)
+Received: from mta.49.240.smtp.fr (mta.49.240.smtp.fr [37.60.49.240])
+	by mxb1-1.relay.renater.fr (asm) with ESMTP id 1E7A660003E
+	for <resp-m2-miage@univ-rennes1.fr>; Sat, 26 Dec 2015 04:49:54 +0100 (CET)
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=smtp; d=bounces.promolistee.eu;
+ h=To:Subject:Message-ID:Date:From:Reply-to:MIME-Version:List-Unsubscribe:Content-Type; i=reply@bounces.promolistee.eu;
+ bh=3vbgbAtwnX9qqwbb0Uf4EmgU5XA=;
+ b=etRvkxC5dXbXoWXKFsqKw09NHLTuId1sgvVER5grJnHlmmznhpQv1QPbrnd9WqBGlRwNjRP7Dbml
+   VOmZtgM//iJ22NJyCTRJD9ZOHvatFKqlicAbe+1iznv0mTgSDums3wrcr0yCfSuh9psa4oD0fXYh
+   f9xUEYfBoPO0PvaB//s=
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=smtp; d=bounces.promolistee.eu;
+ b=kkIfskEmlEFbDmh7WH9BIHKHmNoIon2c32JZXVu+gajgwD9OTlW6Tnr/Wz5eKt9O4D9c9rxvhH1e
+   j3bU9GnoEpc/8phr0Fed3WHEfGypue9ACoqPRmVlLMVaPQrx5ZWj+9iz3Txpyi99UtYPTmZi2kuY
+   jebETcsAPmbvlhvyfeQ=;
+Received: from localhost.localdomain (172.31.255.248) by mta.49.240.smtp.fr id hfo76416t60v for <resp-m2-miage@univ-rennes1.fr>; Sat, 26 Dec 2015 04:49:53 +0100 (envelope-from <reply@bounces.promolistee.eu>)
+To: resp-m2-miage@univ-rennes1.fr
+Subject: =?utf-8?Q?Restaurant_:_votre_r=C3=A9servation_en_ligne?=
+Message-ID: <51723fa97f157df80d9a76027156b6ab@localhost.localdomain>
+Date: Sat, 26 Dec 2015 04:49:53 +0100
+From: Camille <reply@bounces.promolistee.eu>
+Reply-to: Camille <reply@bounces.promolistee.eu>
+MIME-Version: 1.0
+List-Unsubscribe: <http://www.promolistee.eu/Bounces.php?M=232898091&N=558043&L=4fc5ef332a&type=34>, <mailto:reply@bounces.promolistee.eu?subject=list-id=a065c159-dfbb-6619-e781-ebef6d94195d_4fc5ef332a_7008ca7e-6999-fe15-59c8-4620d63b8a5e-fbl>
+X-Mailer: JRCG
+X-Mailer-Sid: promolisteeeu
+X-Mailer-RecptId: a065c159-dfbb-6619-e781-ebef6d94195d_4fc5ef332a_7008ca7e-6999-fe15-59c8-4620d63b8a5e
+X-Priority: 3
+Content-Type: multipart/alternative;
+	boundary="b1_51723fa97f157df80d9a76027156b6ab"
+X-UCE-Status: YES
+X-UCE-Type: MCE
+X-Original-Source-IP: 37.60.49.240
+X-Bizanga: IMP - mxb1-1.relay.renater.fr
+X-Renater-SpamState: 11
+X-Renater-SpamScore: 17
+X-Renater-SpamCause: gggruggvucftvghtrhhoucdtuddrfeekiedrheeggddulecutefuodetggdotefrodftvfcurfhrohhfihhlvgemucftgffptefvgfftpdggtfgfnhhsuhgsshgtrhhisggvnecuuegrihhlohhuthemuceftddtnecundfotefknffkpffiucdludejmdenucfjughrpefvuffkfffhrhggjfforfgtsegrtdhjphertdejnecuhfhrohhmpeevrghmihhllhgvuceorhgvphhlhiessghouhhntggvshdrphhrohhmohhlihhsthgvvgdrvghuqeenucffohhmrghinhepphhrohhmohhlihhsthgvvgdrvghunecurfgrrhgrmhepmhhouggvpehsmhhtphdphhgvlhhopehmthgrrdegledrvdegtddrshhmthhprdhfrhdpihhnvghtpeefjedriedtrdegledrvdegtddpmhgrihhlfhhrohhmpehrvghplhihsegsohhunhgtvghsrdhprhhomhholhhishhtvggvrdgvuhdprhgtphhtthhopehrvghsphdqmhdvqdhmihgrghgvsehunhhivhdqrhgvnhhnvghsuddrfhhr 
+X-Renater-ServerName: mxb1-1.relay.renater.fr
+
+
+--b1_51723fa97f157df80d9a76027156b6ab
+Content-Type: text/plain; charset = "utf-8"
+Content-Transfer-Encoding: 8bit
+
+Michelin
+*
+Vous recevez ce mail car vous tes inscrits la lettre d'information de
+Promo Listee.
+Vous aimez notre Newsletter ? Pour tre sr(e) de recevoir tous nos
+emails, nous vous conseillons d'ajouter contact@promolistee.eu
+mailto:contact@promolistee.eu votre carnet d'adresses.
+DCOUVREZ L\'OFFRE DU JOUR AVEC PROMO LISTEE suivez ce lien
+http://www.promolistee.eu/n2/558043/232898091/4fc5ef332a. Pour un
+dsabonnement, utilisez ce lien Me dsabonner/Unsubscribe
+http://www.promolistee.eu/u/558043/232898091/4fc5ef332a/fr
+OFFRE INSTANTS ETOILS - MICHELIN
+http://www.promolistee.eu/c2/558043/232898091/4fc5ef332a/1
+MICHELIN RESTAURANTS
+http://www.promolistee.eu/c2/558043/232898091/4fc5ef332a/2
+http://www.promolistee.eu/c2/558043/232898091/4fc5ef332a/3
+http://www.promolistee.eu/c2/558043/232898091/4fc5ef332a/4
+http://www.promolistee.eu/c2/558043/232898091/4fc5ef332a/5
+http://www.promolistee.eu/c2/558043/232898091/4fc5ef332a/6
+http://www.promolistee.eu/c2/558043/232898091/4fc5ef332a/7
+http://www.promolistee.eu/c2/558043/232898091/4fc5ef332a/8
+TROUVEZ VOTRE RESTAURANT
+http://www.promolistee.eu/c2/558043/232898091/4fc5ef332a/9
+http://www.promolistee.eu/c2/558043/232898091/4fc5ef332a/10
+http://www.promolistee.eu/c2/558043/232898091/4fc5ef332a/11
+http://www.promolistee.eu/c2/558043/232898091/4fc5ef332a/12
+http://www.promolistee.eu/c2/558043/232898091/4fc5ef332a/13
+http://www.promolistee.eu/c2/558043/232898091/4fc5ef332a/14
+http://www.promolistee.eu/c2/558043/232898091/4fc5ef332a/15
+LES INSTANTS TOILS : PROFITEZ DE RDUCTIONS EXCEPTIONNELLES SUR LE
+PRIX DE VOTRE REPAS
+Accdez aux menus des plus grandes tables toiles grce aux Â«
+Instants toils Â», des offres exclusivement
+rserves MICHELIN Restaurants et? des rductions incroyables. Ne
+manquez pas ces menus exceptionnels (entre,
+plat et dessert compris !) : inscrivez-vous la newsletter pour tre
+les premiers au parfum !
+En ce moment / 14 offres PARIS / 1 offre dans le NORD - PAS-DE-CALAIS
+/ 1 offre dans le RHNE-ALPES
+1 offre en Provence-Alpes-Cte d'Azur
+MICHELIN RESTAURANTS, TOUS LES RESTAURANTS ET LE GUIDE MICHELIN.
+Dcouvrez sur notre site
+les restaurants du Guide MICHELIN, les restaurants toils MICHELIN et
+nos meilleures adresses petits prix. Tous les restaurants de la
+slection du Guide MICHELIN, ainsi que d'autres restaurants en France
+sont disponibles sur MICHELIN Restaurants. Retrouvez les restaurants
+avec des promotions, et rservez votre restaurant en ligne.
+Consultez galement nos rubriques
+?Magazine" et "Guide MICHELIN" : articles, portraits de chefs,
+recettes, bons plans du Guide MICHELIN.
+http://www.promolistee.eu/c2/558043/232898091/4fc5ef332a/17
+Avec Promo Listee, vous pouvez bnficier ds maintenant des bons plans
+et des rductions exclusives qui correspondent
+aux univers de la famille, la mode, la beaut, la dcoration, le
+voyage...
+Conformment la loi informatique et liberts, vous pouvez tout moment
+accder, faire rectifier
+ou supprimer les informations personnelles vous concernant ou vous
+opposer leur traitement par Promo Listee.
+Pour ne plus bnficier de nos propositions commerciales, vous pouvez
+vous rendre sur cette page
+http://www.promolistee.eu/u/558043/232898091/4fc5ef332a/fr
+Notez que le traitement de cette demande peut prendre jusqu' 48
+heures.
+
+
+--b1_51723fa97f157df80d9a76027156b6ab
+Content-Type: text/html; charset = "utf-8"
+Content-Transfer-Encoding: 8bit
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html><head>
+<style type="text/css">
+.ReadMsgBody {width: 100%;}
+.ExternalClass {width: 100%;}
+.ExternalClass * {line-height: 100%;}
+span.yshortcuts { color:#000; background-color:none; border:none;}
+span.yshortcuts:hover,span.yshortcuts:active,span.yshortcuts:focus {color:#000; background-color:none; border:none;}
+.ReadMsgBody { width: 100%;background-color: #ffffff;}
+.ExternalClass {width: 100%;background-color: #ffffff;}
+td { border-collapse: collapse; }
+img {outline:none; text-decoration:none; -ms-interpolation-mode: bicubic;}
+a img {border:none;}
+body{background-color: #f0f0f0;}
+</style>
+<title></title><base target="_blank"><title>Michelin</title><link href="http://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700,800,900" rel="stylesheet" type="text/css"></head><body marginwidth="0" marginheight="0" leftmargin="0" topmargin="0" rightmargin="0"><div id="template_header_auto_include" ><center>
+<span style='font-size:11px;text-align:center;font-family:Arial, Helvetica, sans-serif;color:#000'><br />
+Vous recevez ce mail car vous &ecirc;tes inscrits &agrave; la lettre d'information de Promo Listee. <br />
+Vous aimez notre Newsletter ? Pour &ecirc;tre s&ucirc;r(e) de recevoir tous nos emails, nous vous conseillons d'ajouter <a href='mailto:contact@promolistee.eu' target='_blank'> contact@promolistee.eu</a> &agrave; votre carnet d'adresses.<br />
+<br/>
+<strong>D&eacute;couvrez l'offre du jour avec Promo Listee </strong><a href='http://www.promolistee.eu/n2/558043/232898091/4fc5ef332a' target='_blank'> suivez ce lien</a>. Pour un d&eacute;sabonnement, utilisez ce lien <a href='http://www.promolistee.eu/u/558043/232898091/4fc5ef332a/fr' target='_blank'> Me d&eacute;sabonner/Unsubscribe</a>
+</span>
+</center></div><table width="98%" border="0" align="center" cellpadding="0" cellspacing="0">
+<tr><td align="center">
+<center>
+<table width="580" border="0" cellpadding="0" cellspacing="0">
+</table><table width="580" border="0" cellpadding="0" cellspacing="0">
+<tbody><tr>
+<td width="580" height="30" bgcolor="#e8e8e8" style="background-color:#e8e8e8; text-align:center; vertical-align:middle;">
+<a href="http://www.promolistee.eu/c2/558043/232898091/4fc5ef332a/1" style="font-family: Arial, sans-serif; font-size:0px; color:#fff; text-decoration:none; border:none;">
+<font color="#a09595" face="'Raleway', Arial, Helvetica, Verdana, sans-serif" style="font-size:11px;">
+<b>Offre Instants Etoil&eacute;s - Michelin</b>
+</font>
+</a>
+</td>
+</tr>
+</tbody></table>
+<table width="580" border="0" cellpadding="0" cellspacing="0">
+<tbody><tr>
+<td width="320" height="83" bgcolor="#bf002b" style="background-color:#bf002b; text-align:center; vertical-align:middle;">
+<font color="#fff" face="'Raleway', Arial, Helvetica, Verdana, sans-serif" style="font-size:23px;">
+<b>MICHELIN Restaurants</b>
+</font>
+</td>
+<td bgcolor="#bf002b" style="text-align:center; background-color:#bf002b;">
+<a href="http://www.promolistee.eu/c2/558043/232898091/4fc5ef332a/2" style="font-family: Arial, sans-serif; font-size:20px; color:#fff; text-decoration:none; border:none;">
+<img style="display:block;" id="img03" src="http://img.promolistee.eu/558043/img03.jpg" width="260" height="83" border="0" alt="Michelin"/></a>
+</td>
+</tr>
+</tbody></table>
+<table width="580" border="0" cellpadding="0" cellspacing="0">
+<tbody><tr>
+<td bgcolor="#000" style="text-align:center; background-color:#000;">
+<a href="http://www.promolistee.eu/c2/558043/232898091/4fc5ef332a/3" style="font-family: Arial, sans-serif; font-size:15px; color:#fff; text-decoration:none; border:none;">
+<img style="display:block;" id="img04" src="http://img.promolistee.eu/558043/img04.jpg" width="300" height="152" border="0" alt="Offre Sp&eacute;ciale &bull; Instants &eacute;toil&eacute;s"/></a>
+</td>
+<td bgcolor="#eeeeee" style="text-align:center; background-color:#eeeeee;">
+<a href="http://www.promolistee.eu/c2/558043/232898091/4fc5ef332a/4" style="font-family: Arial, sans-serif; font-size:0px; color:#fff; text-decoration:none; border:none;">
+<img style="display:block;" id="img05" src="http://img.promolistee.eu/558043/img05.jpg" width="280" height="152" border="0" alt=""/></a>
+</td>
+</tr>
+</tbody></table>
+<table width="580" border="0" cellpadding="0" cellspacing="0">
+<tbody><tr>
+<td bgcolor="#000" style="text-align:center; background-color:#000;">
+<a href="http://www.promolistee.eu/c2/558043/232898091/4fc5ef332a/5" style="font-family: Arial, sans-serif; font-size:13px; color:#fff; text-decoration:none; border:none;">
+<img style="display:block;" id="Michelin_06" src="http://img.promolistee.eu/558043/Michelin_06.jpg" width="300" height="132" alt="Des r&eacute;ductions pouvant aller jusqu&rsquo;&agrave; -27%"/>
+</a>
+</td>
+<td bgcolor="#eeeeee" style="text-align:center; background-color:#eeeeee;">
+<a href="http://www.promolistee.eu/c2/558043/232898091/4fc5ef332a/6" style="font-family: Arial, sans-serif; font-size:0px; color:#fff; text-decoration:none; border:none;">
+<img style="display:block;" id="img07" src="http://img.promolistee.eu/558043/img07.jpg" width="280" height="132" border="0" alt=""/></a>
+</td>
+</tr>
+</tbody></table>
+<table width="580" border="0" cellpadding="0" cellspacing="0">
+<tbody><tr>
+<td bgcolor="#eeeeee" style="text-align:center; background-color:#eeeeee;">
+<a href="http://www.promolistee.eu/c2/558043/232898091/4fc5ef332a/7" style="font-family: Arial, sans-serif; font-size:0px; color:#fff; text-decoration:none; border:none;">
+<img style="display:block;" id="img08" src="http://img.promolistee.eu/558043/img08.jpg" width="580" height="51" border="0" alt=""/></a>
+</td>
+</tr>
+</tbody></table>
+<table width="580" border="0" cellpadding="0" cellspacing="0">
+<tbody><tr>
+<td bgcolor="#eeeeee" style="text-align:center; background-color:#eeeeee;">
+<a href="http://www.promolistee.eu/c2/558043/232898091/4fc5ef332a/8" style="font-family: Arial, sans-serif; font-size:0px; color:#fff; text-decoration:none; border:none;">
+<img style="display:block;" id="img09" src="http://img.promolistee.eu/558043/img09.jpg" width="304" height="51" border="0" alt=""/></a>
+</td>
+<td width="252" height="51" bgcolor="#bf002b" style="background-color:#bf002b; text-align:center; vertical-align:middle;">
+<a href="http://www.promolistee.eu/c2/558043/232898091/4fc5ef332a/9" style="font-family: Arial, sans-serif; font-size:0px; color:#fff; text-decoration:none; border:none;">
+<font color="#fff" face="'Raleway', Arial, Helvetica, Verdana, sans-serif" style="font-size:19px;">
+<b>Trouvez votre restaurant
+</b>
+</font>
+</a>
+</td>
+<td bgcolor="#eeeeee" style="text-align:center; background-color:#eeeeee;">
+<a href="http://www.promolistee.eu/c2/558043/232898091/4fc5ef332a/10" style="font-family: Arial, sans-serif; font-size:0px; color:#fff; text-decoration:none; border:none;">
+<img style="display:block;" id="img11" src="http://img.promolistee.eu/558043/img11.jpg" width="24" height="51" border="0" alt=""/></a>
+</td>
+</tr>
+</tbody></table>
+<table width="580" border="0" cellpadding="0" cellspacing="0">
+<tbody><tr>
+<td bgcolor="#eeeeee" style="text-align:center; background-color:#eeeeee;">
+<a href="http://www.promolistee.eu/c2/558043/232898091/4fc5ef332a/11" style="font-family: Arial, sans-serif; font-size:0px; color:#fff; text-decoration:none; border:none;">
+<img style="display:block;" id="img12" src="http://img.promolistee.eu/558043/img00.jpg" width="580" height="104" border="0" alt=""/></a>
+</td>
+</tr>
+</tbody></table>
+<table width="580" border="0" cellpadding="0" cellspacing="0">
+<tbody><tr>
+<td bgcolor="#5f9ad9" style="text-align:center; background-color:#5f9ad9;">
+<a href="http://www.promolistee.eu/c2/558043/232898091/4fc5ef332a/12" style="font-family: Arial, sans-serif; font-size:20px; color:#fff; text-decoration:none; border:none;">
+<img style="display:block;" id="img13" src="http://img.promolistee.eu/558043/img13.jpg" width="193" height="115" border="0" alt="Paris"/></a>
+</td>
+<td bgcolor="#5f9ad9" style="text-align:center; background-color:#5f9ad9;">
+<a href="http://www.promolistee.eu/c2/558043/232898091/4fc5ef332a/13" style="font-family: Arial, sans-serif; font-size:20px; color:#fff; text-decoration:none; border:none;">
+<img style="display:block;" id="img14" src="http://img.promolistee.eu/558043/img14.jpg" width="193" height="115" border="0" alt="Lyon"/></a>
+</td>
+<td bgcolor="#5f9ad9" style="text-align:center; background-color:#5f9ad9;">
+<a href="http://www.promolistee.eu/c2/558043/232898091/4fc5ef332a/14" style="font-family: Arial, sans-serif; font-size:20px; color:#fff; text-decoration:none; border:none;">
+<img style="display:block;" id="img15" src="http://img.promolistee.eu/558043/img15.jpg" width="194" height="115" border="0" alt="Bordeaux"/></a>
+</td>
+</tr>
+</tbody></table>
+<table width="580" border="0" cellpadding="0" cellspacing="0">
+<tbody><tr>
+<td bgcolor="#eeeeee" style="text-align:center; background-color:#eeeeee;">
+<a href="http://www.promolistee.eu/c2/558043/232898091/4fc5ef332a/15" style="font-family: Arial, sans-serif; font-size:0px; color:#fff; text-decoration:none; border:none;">
+<img style="display:block;" id="img16" src="http://img.promolistee.eu/558043/img16.jpg" width="580" height="56" border="0" alt=""/></a>
+</td>
+</tr>
+</tbody></table>
+<table width="580" border="0" cellpadding="0" cellspacing="0">
+<tbody><tr>
+<td width="580" height="203" bgcolor="#f4f4f4" style="background-color:#f4f4f4; text-align:justify; vertical-align:middle;">
+<a href="http://www.promolistee.eu/c2/558043/232898091/4fc5ef332a/16" style="font-family: Arial, sans-serif; font-size:0px; color:#fff; text-decoration:none; border:none;">
+<font color="#000" face="'Raleway', Arial, Helvetica, Verdana, sans-serif" style="font-size:10px;">
+<b>Les Instants &eacute;toil&eacute;s : profitez de r&eacute;ductions exceptionnelles sur le prix de votre repas</b><br />
+Acc&eacute;dez aux menus des plus grandes tables &eacute;toil&eacute;es gr&acirc;ce aux Â« Instants &eacute;toil&eacute;s Â», des offres exclusivement<br /> r&eacute;serv&eacute;es &agrave; MICHELIN Restaurants et? des r&eacute;ductions incroyables. Ne manquez pas ces menus exceptionnels (entr&eacute;e,<br /> plat et dessert compris !) : inscrivez-vous &agrave; la newsletter pour &ecirc;tre les premiers au parfum ! <br /><br />
+<br />
+En ce moment / <b>14</b> offres &agrave; <b>Paris</b> / <b>1</b> offre dans le <b>Nord - Pas-de-Calais</b> / <b>1</b> offre dans le <b>Rh&ocirc;ne-Alpes</b><br />
+1 offre en Provence-Alpes-C&ocirc;te d'Azur<br /><br />
+<b>MICHELIN RESTAURANTS, TOUS LES RESTAURANTS ET LE GUIDE MICHELIN.</b><br />
+D&eacute;couvrez sur notre site <br />
+<font color="#112c73"><u>les restaurants du Guide MICHELIN, les restaurants &eacute;toil&eacute;s MICHELIN et nos meilleures adresses &agrave; petits prix. Tous les restaurants de la s&eacute;lection du Guide MICHELIN, ainsi que d'autres restaurants en France sont disponibles sur MICHELIN Restaurants. Retrouvez les restaurants avec des promotions, et r&eacute;servez votre restaurant en ligne.</u></font><br />
+Consultez &eacute;galement nos rubriques<br />
+<font color="#112c73"><u>?Magazine" et "Guide MICHELIN" : articles, portraits de chefs, recettes, bons plans du Guide MICHELIN.</u></font>
+</font>
+</a>
+</td>
+</tr>
+</tbody></table>
+<table width="580" border="0" cellpadding="0" cellspacing="0">
+<tbody><tr>
+<td bgcolor="#f4f4f4" style="text-align:center; background-color:#f4f4f4;">
+<a href="http://www.promolistee.eu/c2/558043/232898091/4fc5ef332a/17" style="font-family: Arial, sans-serif; font-size:0px; color:#fff; text-decoration:none; border:none;">
+<img style="display:block;" id="img18" src="http://img.promolistee.eu/558043/img18.jpg" width="580" height="15" border="0" alt=""/></a>
+</td>
+</tr>
+</tbody></table>
+<img src="http://www.promolistee.eu/assets/mpt.png" border="0" width="" height="" style="display:block;"/>
+</center>
+</td></tr>
+</table><div id="template_footer_auto_include" ><center>
+<span style='font-size:11px;text-align:center;font-family:Arial, Helvetica, sans-serif;color:#000'><br />
+Avec Promo Listee, vous pouvez b&eacute;n&eacute;ficier d&egrave;s maintenant des bons plans et des r&eacute;ductions exclusives qui correspondent<br /> aux univers de la famille, la mode, la beaut&eacute;, la d&eacute;coration, le voyage... <br />
+<br />
+Conform&eacute;ment &agrave; la loi informatique et libert&eacute;s, vous pouvez &agrave; tout moment acc&eacute;der, faire rectifier<br />
+ou supprimer les informations personnelles vous concernant ou vous opposer &agrave; leur traitement par Promo Listee.<br />
+<br />
+Pour ne plus b&eacute;n&eacute;ficier de nos propositions commerciales, vous pouvez vous rendre sur <a href='http://www.promolistee.eu/u/558043/232898091/4fc5ef332a/fr'>cette page</a><br />
+Notez que le traitement de cette demande peut prendre jusqu'&agrave; 48 heures.<br />
+<br />
+</span>
+</center></div>
+<style type="text/css">
+.ReadMsgBody {width: 100%;}
+.ExternalClass {width: 100%;}
+.ExternalClass * {line-height: 100%;}
+span.yshortcuts { color:#000; background-color:none; border:none;}
+span.yshortcuts:hover,span.yshortcuts:active,span.yshortcuts:focus {color:#000; background-color:none; border:none;}
+.ReadMsgBody { width: 100%;background-color: #ffffff;}
+.ExternalClass {width: 100%;background-color: #ffffff;}
+td { border-collapse: collapse; }
+img {outline:none; text-decoration:none; -ms-interpolation-mode: bicubic;}
+a img {border:none;}
+body{background-color: #f0f0f0;}
+</style>
+<img height="1" width="1" src="http://www.promolistee.eu/i/558043/232898091/4fc5ef332a/2"><img src="http://www.promolistee.eu/i/558043/232898091/4fc5ef332a/0" width="0" height="0" border="0" alt=""></body></html>
+
+
+
+--b1_51723fa97f157df80d9a76027156b6ab--
+
+

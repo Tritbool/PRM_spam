@@ -1,0 +1,391 @@
+Return-Path: <newsletter@mlbsmtp3.wistmail.com>
+Received: from mailimailo.univ-rennes1.fr ([unix socket])
+	 by mailimailo.univ-rennes1.fr (Cyrus v2.3.16-Fedora-RPM-2.3.16-6.el6_2.5) with LMTPA;
+	 Sat, 14 May 2016 10:33:00 +0200
+X-Sieve: CMU Sieve 2.3
+Received: from mailout2.univ-rennes1.fr (mailout2.univ-rennes1.fr [129.20.129.120])
+	by mailimailo.univ-rennes1.fr (Postfix) with ESMTP id 1B5161CC
+	for <resp-m2-miage@univ-rennes1.fr>; Sat, 14 May 2016 10:33:00 +0200 (CEST)
+Received: from localhost (vmscanmail.univ-rennes1.fr [129.20.128.134])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id 18A58600DD
+	for <resp-m2-miage@univ-rennes1.fr>; Sat, 14 May 2016 10:33:00 +0200 (CEST)
+X-Virus-Scanned: amavisd-new at univ-rennes1.fr
+Received: from mailout2.univ-rennes1.fr ([129.20.129.120])
+	by localhost (vmscanmail.univ-rennes1.frm [129.20.128.134]) (amavisd-new, port 10026)
+	with ESMTP id igXblvOH_DLj for <resp-m2-miage@univ-rennes1.fr>;
+	Sat, 14 May 2016 10:32:59 +0200 (CEST)
+Received: from vmmailin.univ-rennes1.fr (vmmailin.univ-rennes1.fr [129.20.128.133])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id E358C6000C
+	for <resp-m2-miage@univ-rennes1.fr>; Sat, 14 May 2016 10:32:59 +0200 (CEST)
+Received: from mxb1-1.relay.renater.fr (mxb1-1.relay.renater.fr [194.214.201.8])
+	by vmmailin.univ-rennes1.fr (Postfix) with ESMTP id DC30720033
+	for <resp-m2-miage@univ-rennes1.fr>; Sat, 14 May 2016 10:32:59 +0200 (CEST)
+Received: from mta1fr4.mlbsmtp3.wistmail.com (mta1fr4.mlbsmtp3.wistmail.com [188.213.140.252])
+	by mxb1-1.relay.renater.fr (asm) with ESMTP id B17F3600058
+	for <resp-m2-miage@univ-rennes1.fr>; Sat, 14 May 2016 10:32:59 +0200 (CEST)
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=dkim; d=mlbsmtp3.wistmail.com;
+ h=Message-ID:Date:Subject:From:Reply-To:To:MIME-Version:Content-Type:List-Unsubscribe:List-Id; i=newsletter@mlbsmtp3.wistmail.com;
+ bh=J3lkZJoNd73ema6fTEBCW1G5DTo=;
+ b=mRiJ9jtA0iZN/zea+TzGpp6Gu7ghltwxBGqKhFizAYDDetdkFrvmrgrQY1wZYoumkmLJLE2cruYi
+   37DHE7Rs8F0O7eEybMdK4Z4fz9PKLFV4I3B3VirrBe7DN2GpXHknNIIiE66uIjbMz3kiu+xyNGMt
+   J9fuCo08vCKgeCINiVM=
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=dkim; d=mlbsmtp3.wistmail.com;
+ b=DjL4V3Up5c+1hEv3jVjMQXVexknpimcY7Zgy9t4CVBhKZyXkcMfKXzOasbJTcEcCDhuNF8JfCV8n
+   CPhDipPu4e+VT+VM8K/5q/LAi7jBaeD9TNTLsiwDkrr7B2TPjefwYAtRe3wCTkm6wwciyOCPI+yI
+   v3XMzuadLiMB54LW5KA=;
+DKIM-Signature: v=1; a=rsa-sha1; bh=4rwRwc3ZzLMM2Ckt4sz/e1OR/GE=;
+ d=mlbsmtp3.wistmail.com; h=Message-ID: Date: Subject: From: Reply-To: To:
+ MIME-Version: Content-Type: X-Mw-Customer-Uid: X-Receiver: X-Mw-Tracking-Did:
+ X-Mw-Campaign-Uid: List-Unsubscribe: X-Mw-Customer-Gid: List-Id:
+ X-Mw-Subscriber-Uid: X-Report-Abuse: X-Sender: Feedback-ID: X-Mw-Mailer:
+ X-Mw-Delivery-Sid; i=@mlbsmtp3.wistmail.com; s=mailer; t=1463214778;
+ b=PksxeE2asIO7i+bJUm4zcrylW+kOw0BpfeEYXlLwSykZMirixubkUytHq4vMwXXuTfhN9mIdV
+ bAbFH6gczlslQT08Ag2sbM+9zYYOMKxTv7V+7JCCFlsz3+K8SS4Ahrg+k+OsUJnBU0KLkYG27
+ ZiIwKL+d5TAfxo7vKOC6lXg6Q=
+Message-ID: <68be9e7c1c4e4755dc04d6f21172fe5e@mlbsmtp3.wistmail.com>
+Date: Sat, 14 May 2016 08:32:58 +0000
+Subject: Cartouches d'imprimantes =?utf-8?Q?=C3=A0?= prix discount
+From: Tonerservices - High Offer <newsletter@mlbsmtp3.wistmail.com>
+Reply-To: Tonerservices - High Offer <newsletter@mlbsmtp3.wistmail.com>
+To: "resp-m2-miage@univ-rennes1.fr" <resp-m2-miage@univ-rennes1.fr>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="_=_swift_v4_1463214778_45cb2a8d55e8047c0754ae3bd6f2f093_=_"
+X-Mw-Campaign-Uid: nv398xjcdyce3
+List-Unsubscribe: <http://lp1.sendtk2.com/index.php/lists/et662pn6r9252/unsubscribe/jb692xz74e28c/nv398xjcdyce3>,
+ <mailto:newsletter@lp2.wistmail.com?subject=Unsubscribe&body=Please
+ unsubscribe me from Liste Wizz list.>
+X-Mw-Customer-Gid: 1
+List-Id: et662pn6r9252 <Liste Wizz>
+X-Receiver: resp-m2-miage@univ-rennes1.fr
+X-Report-Abuse: Please report abuse for this campaign here:
+ http://lp1.sendtk2.com/index.php/campaigns/nv398xjcdyce3/report-abuse/et662pn6r9252/jb692xz74e28c
+X-Mw-Subscriber-Uid: jb692xz74e28c
+Feedback-ID: nv398xjcdyce3:jb692xz74e28c:et662pn6r9252:qb167cl01b984
+X-Sender: newsletter@mlbsmtp3.wistmail.com
+X-Mw-Customer-Uid: qb167cl01b984
+X-Mw-Mailer: SwiftMailer
+X-Mw-Delivery-Sid: 135
+X-Mw-Tracking-Did: 1
+X-UCE-Status: YES
+X-UCE-Type: MCE
+X-Original-Source-IP: 188.213.140.252
+X-Bizanga: IMP - mxb1-1.relay.renater.fr
+X-Renater-SpamState: 11
+X-Renater-SpamScore: 17
+X-Renater-SpamCause: gggruggvucftvghtrhhoucdtuddrfeekledrvdefgddthecutefuodetggdotefrodftvfcurfhrohhfihhlvgemucftgffptefvgfftpdggtfgfnhhsuhgsshgtrhhisggvnecuuegrihhlohhuthemuceftddtnecundfotefknffkpffiucdludejmdenucfjughrpefkfffuhfhrvfggtgfjjeigsegrtdhjredttdejnecuhfhrohhmpefvohhnvghrshgvrhhvihgtvghsucdqucfjihhghhcuqfhffhgvrhcuoehnvgifshhlvghtthgvrhesmhhlsghsmhhtphefrdifihhsthhmrghilhdrtghomheqnecuffhomhgrihhnpehsvghnughtkhdvrdgtohhmnecukfhppedukeekrddvudefrddugedtrddvhedvnecurfgrrhgrmhepmhhouggvpehsmhhtphdphhgvlhhopehmthgrudhfrhegrdhmlhgsshhmthhpfedrfihishhtmhgrihhlrdgtohhmpdhinhgvthepudekkedrvddufedrudegtddrvdehvddpmhgrihhlfhhrohhmpehnvgifshhlvghtthgvrhesmhhlsghsmhhtphefrdifihhsthhmrghilhdrtghomhdprhgtphhtthhopehrvghsphdqmhdvqdhmihgrghgvsehunhhivhdqrhgvnhhnvghsuddrfhhr 
+X-Renater-ServerName: mxb1-1.relay.renater.fr
+
+
+--_=_swift_v4_1463214778_45cb2a8d55e8047c0754ae3bd6f2f093_=_
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+=20
+
+Lien mirroir
+http://lp1.sendtk2.com/index.php/campaigns/nv398xjcdy=
+ce3/track-url/jb692xz74e28c/3458a67d43f5752faa0c784202c020de04701bf4
+- Se=
+ d=C3=A9sinscrire
+http://lp1.sendtk2.com/index.php/campaigns/nv398xjcdyce=
+3/track-url/jb692xz74e28c/042fbbb5ec2c6877592a11893053512d7ff96af1
+
+
+=
+HIGHOFFER : Offre du 14/05/2016=20
+
+=09=09
+http://lp1.sendtk2.com/index=
+.php/campaigns/nv398xjcdyce3/track-url/jb692xz74e28c/839f1ae8f51b53c95b6b5c=
+139552a36eb352c182
+
+=09=09
+http://lp1.sendtk2.com/index.php/campaigns=
+/nv398xjcdyce3/track-url/jb692xz74e28c/839f1ae8f51b53c95b6b5c139552a36eb352=
+c182
+ =09=09
+http://lp1.sendtk2.com/index.php/campaigns/nv398xjcdyce3/t=
+rack-url/jb692xz74e28c/d221c8e756b41322032b6e0279eaac3ae971097c
+ =09=09=
+
+http://lp1.sendtk2.com/index.php/campaigns/nv398xjcdyce3/track-url/jb692=
+xz74e28c/683b19682bef27c2dfe8a00b78e5be3a14750514
+ =09=09
+http://lp1.se=
+ndtk2.com/index.php/campaigns/nv398xjcdyce3/track-url/jb692xz74e28c/8eef4e1=
+f0d672031ebef3d93da305885380796db
+ =09=09
+http://lp1.sendtk2.com/index.=
+php/campaigns/nv398xjcdyce3/track-url/jb692xz74e28c/2b583b77c7ecb74ec6b942f=
+ff1f08c81c3784a33
+ =09=09
+http://lp1.sendtk2.com/index.php/campaigns/nv=
+398xjcdyce3/track-url/jb692xz74e28c/54ee9f86de54f6b60808001cda52d39a8d43b64=
+8
+ =09=09
+http://lp1.sendtk2.com/index.php/campaigns/nv398xjcdyce3/trac=
+k-url/jb692xz74e28c/9db3507f50238485eabfd54e988222ac8fc35263
+
+=09=09
+=
+http://lp1.sendtk2.com/index.php/campaigns/nv398xjcdyce3/track-url/jb692xz7=
+4e28c/839f1ae8f51b53c95b6b5c139552a36eb352c182
+
+=09=09
+http://lp1.sen=
+dtk2.com/index.php/campaigns/nv398xjcdyce3/track-url/jb692xz74e28c/839f1ae8=
+f51b53c95b6b5c139552a36eb352c182
+
+=09=09
+http://lp1.sendtk2.com/index=
+.php/campaigns/nv398xjcdyce3/track-url/jb692xz74e28c/839f1ae8f51b53c95b6b5c=
+139552a36eb352c182
+
+=09=09
+http://lp1.sendtk2.com/index.php/campaigns=
+/nv398xjcdyce3/track-url/jb692xz74e28c/839f1ae8f51b53c95b6b5c139552a36eb352=
+c182
+
+=09=09
+http://lp1.sendtk2.com/index.php/campaigns/nv398xjcdyce3=
+/track-url/jb692xz74e28c/839f1ae8f51b53c95b6b5c139552a36eb352c182
+
+=09=
+=09
+http://lp1.sendtk2.com/index.php/campaigns/nv398xjcdyce3/track-url/jb=
+692xz74e28c/839f1ae8f51b53c95b6b5c139552a36eb352c182
+
+=09=09
+http://l=
+p1.sendtk2.com/index.php/campaigns/nv398xjcdyce3/track-url/jb692xz74e28c/83=
+9f1ae8f51b53c95b6b5c139552a36eb352c182
+
+ =09=09
+http://lp1.sendtk2.co=
+m/index.php/campaigns/nv398xjcdyce3/track-url/jb692xz74e28c/3b5e6c7755262ec=
+a34de71b90c47eaccf0080b0f
+ =09=09
+http://lp1.sendtk2.com/index.php/camp=
+aigns/nv398xjcdyce3/track-url/jb692xz74e28c/5e60c7d773bc2c06f9113f934fd2f35=
+8dab8bdcb
+
+Les prix de nos produits sont indiqu=C3=A9s toutes taxes com=
+prises et
+b=C3=A9n=C3=A9ficient d'une garantie de un an.
+ Le d=C3=A9lai=
+ de livraison sur votre commande est de 48h/72h.
+ Toner Services livre en=
+ France m=C3=A9tropolitaine et en Belgique
+uniquement.
+ Toner Services=
+
+ 10/14 av. du g=C3=A9n=C3=A9ral Leclerc 78230 Le Pecq=20
+
+Vous recevez=
+ ce message car vous =C3=AAtes inscrit dans la liste de
+diffusion de HIGH=
+OFFER.
+ Vous avez la possibilit=C3=A9 de g=C3=A9rer vos informations en v=
+ous
+dirigeant sur le site de highoffer
+http://lp1.sendtk2.com/index.php=
+/campaigns/nv398xjcdyce3/track-url/jb692xz74e28c/dd4fd1f526f1c9621761a0e378=
+c8ef877aba2a75.
+
+
+Ne plus recevoir
+http://lp1.sendtk2.com/index.php=
+/campaigns/nv398xjcdyce3/track-url/jb692xz74e28c/042fbbb5ec2c6877592a118930=
+53512d7ff96af1.
+
+=20
+
+--_=_swift_v4_1463214778_45cb2a8d55e8047c0754ae3bd6f2f093_=_
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>
+<html><head><meta name=3D"charset" content=3D"utf-8"><tit=
+le>Untitled</title></head><body>
+
+            <center>
+<p style=3D"wi=
+dth:100%;padding:10px;margin:0;font-size:12px;background:#222;color:#FFF;te=
+xt-align:center;font-family:Arial;font-weight:normal;"><a href=3D"http://lp=
+1.sendtk2.com/index.php/campaigns/nv398xjcdyce3/track-url/jb692xz74e28c/345=
+8a67d43f5752faa0c784202c020de04701bf4" style=3D"color:#FFF;">Lien mirroir</=
+a> - <a href=3D"http://lp1.sendtk2.com/index.php/campaigns/nv398xjcdyce3/tr=
+ack-url/jb692xz74e28c/042fbbb5ec2c6877592a11893053512d7ff96af1" style=3D"co=
+lor:#FFF;">Se d&eacute;sinscrire</a></p>
+</center>
+
+<p style=3D"width=
+:100%;padding:10px;margin:0;font-size:14px;color:#5485c9;text-align:center;=
+font-family:Arial;font-weight:bold;background-color:#1d2a3d;">HIGHOFFER : O=
+ffre du 14/05/2016</p>
+<img alt=3D"openNaoshoot.php?i=3D8090&amp;c=3D3819=
+&amp;email=3D[EM" height=3D"1" src=3D"http://naowizz.com/openNaoshoot.php?i=
+=3D8090&amp;c=3D3819&amp;email=3Dresp-m2-miage@univ-rennes1.fr&amp;e=3D0&am=
+p;sm=3D0&amp;ip=3D" style=3D"display:none;" width=3D"1"><img alt=3D"axciom.=
+php?email=3Dresp-m2-miage@univ-rennes1.fr" border=3D"0" height=3D"1" hspace=
+=3D"0" src=3D"http://naowizz.com/axciom.php?email=3Dresp-m2-miage@univ-renn=
+es1.fr" style=3D"display:none;" vspace=3D"0" width=3D"1"><img alt=3D"" bord=
+er=3D"0" height=3D"1" src=3D"http://dbkpwi4c6v97q.cloudfront.net/?sc=3D3172=
+&amp;t=3D0&amp;l=3D183715&amp;p=3D11170" width=3D"1"><table align=3D"center=
+" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"700"><tbody><tr=
+><td><a href=3D"http://lp1.sendtk2.com/index.php/campaigns/nv398xjcdyce3/tr=
+ack-url/jb692xz74e28c/839f1ae8f51b53c95b6b5c139552a36eb352c182" target=3D"_=
+blank"><img alt=3D"Toner Services -  Cartouches d&rsquo;imprimantes &agrave=
+; prix discount" border=3D"0" height=3D"86" src=3D"http://d31epa2i3egyy4.cl=
+oudfront.net/img/6794/d8225f4f1a3202bb52e3644f05454740_TONER_Cartouches_Dis=
+count_01.jpg" style=3D"display:block;" width=3D"700"></a></td>
+=09=09</tr=
+></tbody></table><table align=3D"center" border=3D"0" cellpadding=3D"0" cel=
+lspacing=3D"0" width=3D"700"><tbody><tr><td><a href=3D"http://lp1.sendtk2.c=
+om/index.php/campaigns/nv398xjcdyce3/track-url/jb692xz74e28c/839f1ae8f51b53=
+c95b6b5c139552a36eb352c182" target=3D"_blank"><img alt=3D"" border=3D"0" he=
+ight=3D"45" src=3D"http://d31epa2i3egyy4.cloudfront.net/img/6794/15059b967b=
+d2a9d7a2d89a5d526b2683_TONER_Cartouches_Discount_02.jpg" style=3D"display:b=
+lock;" width=3D"145"></a></td>
+=09=09=09<td><a href=3D"http://lp1.sendtk2=
+.com/index.php/campaigns/nv398xjcdyce3/track-url/jb692xz74e28c/d221c8e756b4=
+1322032b6e0279eaac3ae971097c" target=3D"_blank"><img alt=3D"HP" border=3D"0=
+" height=3D"45" src=3D"http://d31epa2i3egyy4.cloudfront.net/img/6794/f062f5=
+ba5861e0c4db03a78e573f6e0a_TONER_Cartouches_Discount_03.jpg" style=3D"displ=
+ay:block;" width=3D"82"></a></td>
+=09=09=09<td><a href=3D"http://lp1.send=
+tk2.com/index.php/campaigns/nv398xjcdyce3/track-url/jb692xz74e28c/683b19682=
+bef27c2dfe8a00b78e5be3a14750514" target=3D"_blank"><img alt=3D"Canon" borde=
+r=3D"0" height=3D"45" src=3D"http://d31epa2i3egyy4.cloudfront.net/img/6794/=
+08b0c2f59672865ae580703f368e7b7f_TONER_Cartouches_Discount_04.jpg" style=3D=
+"display:block;" width=3D"82"></a></td>
+=09=09=09<td><a href=3D"http://lp=
+1.sendtk2.com/index.php/campaigns/nv398xjcdyce3/track-url/jb692xz74e28c/8ee=
+f4e1f0d672031ebef3d93da305885380796db" target=3D"_blank"><img alt=3D"Epson"=
+ border=3D"0" height=3D"45" src=3D"http://d31epa2i3egyy4.cloudfront.net/img=
+/6794/0db790dce78f93d8cf14da4dbc471397_TONER_Cartouches_Discount_05.jpg" st=
+yle=3D"display:block;" width=3D"90"></a></td>
+=09=09=09<td><a href=3D"htt=
+p://lp1.sendtk2.com/index.php/campaigns/nv398xjcdyce3/track-url/jb692xz74e2=
+8c/2b583b77c7ecb74ec6b942fff1f08c81c3784a33" target=3D"_blank"><img alt=3D"=
+Brother" border=3D"0" height=3D"45" src=3D"http://d31epa2i3egyy4.cloudfront=
+.net/img/6794/7dd8d368195abcb9403c7a374664f5d6_TONER_Cartouches_Discount_06=
+.jpg" style=3D"display:block;" width=3D"98"></a></td>
+=09=09=09<td><a hre=
+f=3D"http://lp1.sendtk2.com/index.php/campaigns/nv398xjcdyce3/track-url/jb6=
+92xz74e28c/54ee9f86de54f6b60808001cda52d39a8d43b648" target=3D"_blank"><img=
+ alt=3D"Lexmark" border=3D"0" height=3D"45" src=3D"http://d31epa2i3egyy4.cl=
+oudfront.net/img/6794/327655050612f8841669edbbc95e2b7a_TONER_Cartouches_Dis=
+count_07.jpg" style=3D"display:block;" width=3D"100"></a></td>
+=09=09=09<=
+td><a href=3D"http://lp1.sendtk2.com/index.php/campaigns/nv398xjcdyce3/trac=
+k-url/jb692xz74e28c/9db3507f50238485eabfd54e988222ac8fc35263" target=3D"_bl=
+ank"><img alt=3D"Samsung" border=3D"0" height=3D"45" src=3D"http://d31epa2i=
+3egyy4.cloudfront.net/img/6794/b301dc9388b81da890ecaf4164ca3cb8_TONER_Carto=
+uches_Discount_08.jpg" style=3D"display:block;" width=3D"103"></a></td>
+=
+=09=09</tr></tbody></table><table align=3D"center" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" width=3D"700"><tbody><tr><td><a href=3D"http://lp1=
+.sendtk2.com/index.php/campaigns/nv398xjcdyce3/track-url/jb692xz74e28c/839f=
+1ae8f51b53c95b6b5c139552a36eb352c182" target=3D"_blank"><img alt=3D"Partout=
+ en France" border=3D"0" height=3D"81" src=3D"http://d31epa2i3egyy4.cloudfr=
+ont.net/img/6794/149e07eb888bca3182f1cc38f05fcaaf_TONER_Cartouches_Discount=
+_09.jpg" style=3D"display:block;" width=3D"700"></a></td>
+=09=09</tr><tr>=
+<td><a href=3D"http://lp1.sendtk2.com/index.php/campaigns/nv398xjcdyce3/tra=
+ck-url/jb692xz74e28c/839f1ae8f51b53c95b6b5c139552a36eb352c182" target=3D"_b=
+lank"><img alt=3D"Livraison offerte sur vos cartouches d&rsquo;iprimante" b=
+order=3D"0" height=3D"162" src=3D"http://d31epa2i3egyy4.cloudfront.net/img/=
+6794/10759fb679ce407d4471259c3feac8fb_TONER_Cartouches_Discount_10.jpg" sty=
+le=3D"display:block;" width=3D"700"></a></td>
+=09=09</tr><tr><td><a href=
+=3D"http://lp1.sendtk2.com/index.php/campaigns/nv398xjcdyce3/track-url/jb69=
+2xz74e28c/839f1ae8f51b53c95b6b5c139552a36eb352c182" target=3D"_blank"><img =
+alt=3D"sans aucune condition!" border=3D"0" height=3D"81" src=3D"http://d31=
+epa2i3egyy4.cloudfront.net/img/6794/884e369d92a2c5fdef10afed80d41efe_TONER_=
+Cartouches_Discount_11.jpg" style=3D"display:block;" width=3D"700"></a></td=
+>
+=09=09</tr><tr><td><a href=3D"http://lp1.sendtk2.com/index.php/campaign=
+s/nv398xjcdyce3/track-url/jb692xz74e28c/839f1ae8f51b53c95b6b5c139552a36eb35=
+2c182" target=3D"_blank"><img alt=3D"" border=3D"0" height=3D"81" src=3D"ht=
+tp://d31epa2i3egyy4.cloudfront.net/img/6794/7ba1ef715a286e4214adeebcbadafe0=
+f_TONER_Cartouches_Discount_12.jpg" style=3D"display:block;" width=3D"700">=
+</a></td>
+=09=09</tr><tr><td><a href=3D"http://lp1.sendtk2.com/index.php/=
+campaigns/nv398xjcdyce3/track-url/jb692xz74e28c/839f1ae8f51b53c95b6b5c13955=
+2a36eb352c182" target=3D"_blank"><img alt=3D"" border=3D"0" height=3D"81" s=
+rc=3D"http://d31epa2i3egyy4.cloudfront.net/img/6794/adb417be00d43aff4fbca06=
+db2589882_TONER_Cartouches_Discount_13.jpg" style=3D"display:block;" width=
+=3D"700"></a></td>
+=09=09</tr><tr><td><a href=3D"http://lp1.sendtk2.com/i=
+ndex.php/campaigns/nv398xjcdyce3/track-url/jb692xz74e28c/839f1ae8f51b53c95b=
+6b5c139552a36eb352c182" target=3D"_blank"><img alt=3D"" border=3D"0" height=
+=3D"81" src=3D"http://d31epa2i3egyy4.cloudfront.net/img/6794/026b9d67d6d7fd=
+4408bf03621878652a_TONER_Cartouches_Discount_14.jpg" style=3D"display:block=
+;" width=3D"700"></a></td>
+=09=09</tr><tr><td><a href=3D"http://lp1.sendt=
+k2.com/index.php/campaigns/nv398xjcdyce3/track-url/jb692xz74e28c/839f1ae8f5=
+1b53c95b6b5c139552a36eb352c182" target=3D"_blank"><img alt=3D"J&rsquo;en pr=
+ofite!" border=3D"0" height=3D"132" src=3D"http://d31epa2i3egyy4.cloudfront=
+.net/img/6794/4709accbea55bd865aabbd1c1a3fdeb8_TONER_Cartouches_Discount_15=
+.jpg" style=3D"display:block;" width=3D"700"></a></td>
+=09=09</tr></tbody=
+></table><table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" width=3D"700"><tbody><tr><td><img alt=3D"" border=3D"0" height=3D"70=
+" src=3D"http://d31epa2i3egyy4.cloudfront.net/img/6794/1d55d5398125b418e2fa=
+d7ab77a83dbb_TONER_Cartouches_Discount_18.jpg" style=3D"display:block;" wid=
+th=3D"300"></td>
+=09=09=09<td><a href=3D"http://lp1.sendtk2.com/index.php=
+/campaigns/nv398xjcdyce3/track-url/jb692xz74e28c/3b5e6c7755262eca34de71b90c=
+47eaccf0080b0f" target=3D"_blank"><img alt=3D"Facebook" border=3D"0" height=
+=3D"70" src=3D"http://d31epa2i3egyy4.cloudfront.net/img/6794/ee8987df787e0b=
+7c604e961835b8ced8_TONER_Cartouches_Discount_18_01.jpg" style=3D"display:bl=
+ock;" width=3D"50"></a></td>
+=09=09=09<td><a href=3D"http://lp1.sendtk2.c=
+om/index.php/campaigns/nv398xjcdyce3/track-url/jb692xz74e28c/5e60c7d773bc2c=
+06f9113f934fd2f358dab8bdcb" target=3D"_blank"><img alt=3D"Twitter" border=
+=3D"0" height=3D"70" src=3D"http://d31epa2i3egyy4.cloudfront.net/img/6794/0=
+960648025db6eb200cfef883f56dc1d_TONER_Cartouches_Discount_18_02.jpg" style=
+=3D"display:block;" width=3D"50"></a></td>
+=09=09=09<td><img alt=3D"" bor=
+der=3D"0" height=3D"70" src=3D"http://d31epa2i3egyy4.cloudfront.net/img/679=
+4/ccdf697917af0190ae7308f9d610c11e_TONER_Cartouches_Discount_21.jpg" style=
+=3D"display:block;" width=3D"300"></td>
+=09=09</tr></tbody></table><table=
+ align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D=
+"700"><tbody><tr><td align=3D"center" bgcolor=3D"#ffffff" height=3D"160" va=
+lign=3D"top"><font color=3D"#212223" style=3D"font-family:Arial;font-size:1=
+0px;line-height:12px;">Les prix de nos produits sont indiqu&eacute;s toutes=
+ taxes comprises et b&eacute;n&eacute;ficient d&rsquo;une garantie de un an=
+.<br>
+=09=09=09Le d&eacute;lai de livraison sur votre commande est de 48h=
+/72h.<br>
+=09=09=09Toner Services livre en France m&eacute;tropolitaine e=
+t en Belgique uniquement.<br>
+=09=09=09Toner Services<br>
+=09=09=0910/1=
+4 av. du g&eacute;n&eacute;ral Leclerc 78230 Le Pecq</font></td>
+=09=09</=
+tr></tbody></table><p style=3D"width:100%;text-align:center;font-size:12px;=
+">Vous recevez ce message car vous &ecirc;tes inscrit dans la liste de diff=
+usion de <b>highoffer</b>.<br>
+Vous avez la possibilit&eacute; de g&eacut=
+e;rer vos informations en vous dirigeant sur le site de <a href=3D"http://l=
+p1.sendtk2.com/index.php/campaigns/nv398xjcdyce3/track-url/jb692xz74e28c/dd=
+4fd1f526f1c9621761a0e378c8ef877aba2a75" style=3D"text-decoration:underline;=
+font-weight:bold;">highoffer</a>.</p>
+
+<p style=3D"width:100%;text-alig=
+n:center;font-size:12px;"><a href=3D"http://lp1.sendtk2.com/index.php/campa=
+igns/nv398xjcdyce3/track-url/jb692xz74e28c/042fbbb5ec2c6877592a11893053512d=
+7ff96af1">Ne plus recevoir</a>.</p>
+<br>
+&nbsp;<img width=3D"1" height=
+=3D"1" src=3D"http://lp1.sendtk2.com/index.php/campaigns/nv398xjcdyce3/trac=
+k-opening/jb692xz74e28c" alt=3D"" />
+</body></html>
+
+
+--_=_swift_v4_1463214778_45cb2a8d55e8047c0754ae3bd6f2f093_=_--
+

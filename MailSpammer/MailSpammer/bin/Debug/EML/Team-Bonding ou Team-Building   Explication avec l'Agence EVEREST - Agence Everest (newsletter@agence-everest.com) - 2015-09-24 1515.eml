@@ -1,0 +1,1654 @@
+Return-Path: <bounce-mc.us9_36441885.1174557-resp-m2-miage=univ-rennes1.fr@mail78.us4.mcsv.net>
+Received: from mailimailo.univ-rennes1.fr ([unix socket])
+	 by mailimailo.univ-rennes1.fr (Cyrus v2.3.16-Fedora-RPM-2.3.16-6.el6_2.5) with LMTPA;
+	 Thu, 24 Sep 2015 15:15:25 +0200
+X-Sieve: CMU Sieve 2.3
+Received: from vmsmtprexch.univ-rennes1.fr (vmsmtprexch.univ-rennes1.fr [129.20.128.62])
+	by mailimailo.univ-rennes1.fr (Postfix) with ESMTP id D45EB26A0C9F
+	for <resp-m2-miage@univ-rennes1.fr>; Thu, 24 Sep 2015 15:15:25 +0200 (CEST)
+Received: from mbcasexch1.Ur.local (mbcasexch1.univ-rennes1.fr [129.20.125.129])
+	by vmsmtprexch.univ-rennes1.fr (Postfix) with ESMTP id D016D11F
+	for <resp-m2-miage@univ-rennes1.fr>; Thu, 24 Sep 2015 15:15:25 +0200 (CEST)
+X-CrossPremisesHeadersFilteredBySendConnector: mbcasexch1.Ur.local
+Received: from mbcasexch1.Ur.local (2002:8114:7d81::8114:7d81) by
+ mbcasexch1.Ur.local (2002:8114:7d81::8114:7d81) with Microsoft SMTP Server
+ (TLS) id 15.0.913.22; Thu, 24 Sep 2015 15:15:25 +0200
+Received: from mailout1.univ-rennes1.fr (129.20.128.162) by
+ mbcasexch1.Ur.local (129.20.125.129) with Microsoft SMTP Server id
+ 15.0.913.22 via Frontend Transport; Thu, 24 Sep 2015 15:15:25 +0200
+Received: from localhost (vmscanmail.univ-rennes1.fr [129.20.128.134])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id 66A64601E0
+	for <resp-m2-miage@univ-rennes1.fr>; Thu, 24 Sep 2015 15:15:25 +0200 (CEST)
+X-Virus-Scanned: amavisd-new at univ-rennes1.fr
+Received: from mailout1.univ-rennes1.fr ([129.20.128.162])
+	by localhost (vmscanmail.univ-rennes1.frm [129.20.128.134]) (amavisd-new, port 10026)
+	with ESMTP id hai6Bb12KDj9 for <resp-m2-miage@univ-rennes1.fr>;
+	Thu, 24 Sep 2015 15:15:25 +0200 (CEST)
+Received: from vmmailin.univ-rennes1.fr (vmmailin.univ-rennes1.fr [129.20.128.133])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id 4769B600AD
+	for <resp-m2-miage@univ-rennes1.fr>; Thu, 24 Sep 2015 15:15:25 +0200 (CEST)
+Received: from mxb1-2.relay.renater.fr (mxb1-2.relay.renater.fr [194.214.201.9])
+	by vmmailin.univ-rennes1.fr (Postfix) with ESMTP id 3BFE120033
+	for <resp-m2-miage@univ-rennes1.fr>; Thu, 24 Sep 2015 15:15:25 +0200 (CEST)
+Received: from mail78.us4.mcsv.net (mail78.us4.mcsv.net [205.201.128.78])
+	by mxb1-2.relay.renater.fr (asm) with ESMTP id 6375928000F
+	for <resp-m2-miage@univ-rennes1.fr>; Thu, 24 Sep 2015 15:15:24 +0200 (CEST)
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=k1; d=mail78.us4.mcsv.net;
+ h=Subject:From:Reply-To:To:Date:Message-ID:List-ID:List-Unsubscribe:Sender:Content-Type:MIME-Version; i=newsletter=3Dagence-everest.com@mail78.us4.mcsv.net;
+ bh=2oYUx8cIRz0YY4rSjCQtmjoS0Vc=;
+ b=OyjFCUV99o/DK0pOsxAbK3/ud77IFueM2QG/dSxGYjV6YV/CvpsRgGs4qbpLw4aQC+/WOl1MYq4d
+   PU5Q7jfGl+670Ca6DGB3pJOHcoOTCk+ZbDO73QMhE2hZCEz0/CvkGvaRIOL0suNyO3Gbivk/9t3O
+   YhxCSGWVELWXg9jGHbA=
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=k1; d=mail78.us4.mcsv.net;
+ b=1AWJ2rC9dTDvF9FxgcvxbRRg8GogwC18GKuOj3eu7DTPPxEF8rXRXZIunOjb322+2QfJx8fLxDtR
+   QhDqWMiX0PfBke8TRObQidFj2bg2SEZ2ilXCDpd4dPH7LZRJrmhMCbaRlvNaWIU9wGhQOY5Cr97m
+   jgbt5TfSNTzGN3qYvDc=;
+Received: from (127.0.0.1) by mail78.us4.mcsv.net id h0frmo174lgc for <resp-m2-miage@univ-rennes1.fr>; Thu, 24 Sep 2015 13:15:20 +0000 (envelope-from <bounce-mc.us9_36441885.1174557-resp-m2-miage=univ-rennes1.fr@mail78.us4.mcsv.net>)
+Subject: =?utf-8?Q?Team=2DBonding=20ou=20Team=2DBuilding=20=3F=20Explication=20avec=20l=27Agence=20EVEREST?=
+From: =?utf-8?Q?Agence=20Everest?= <newsletter@agence-everest.com>
+Reply-To: =?utf-8?Q?Agence=20Everest?= <newsletter@agence-everest.com>
+To: =?utf-8?Q??= <resp-m2-miage@univ-rennes1.fr>
+Date: Thu, 24 Sep 2015 13:15:20 +0000
+Message-ID: <d354b6618792b27feff21208d318ed04536.20150924131450@mail78.us4.mcsv.net>
+X-Mailer: MailChimp Mailer - **CID6b2e857e5d318ed04536**
+X-Campaign: mailchimpd354b6618792b27feff21208d.6b2e857e5d
+X-campaignid: mailchimpd354b6618792b27feff21208d.6b2e857e5d
+X-Report-Abuse: Please report abuse for this campaign here: http://www.mailchimp.com/abuse/abuse.phtml?u=d354b6618792b27feff21208d&id=6b2e857e5d&e=318ed04536
+X-MC-User: d354b6618792b27feff21208d
+X-Feedback-ID: 36441885:36441885.1174557:us9:mc
+List-ID: d354b6618792b27feff21208dmc list <d354b6618792b27feff21208d.528685.list-id.mcsv.net>
+X-Accounttype: pd
+List-Unsubscribe: <mailto:unsubscribe-mc.us9_d354b6618792b27feff21208d.6b2e857e5d-318ed04536@mailin1.us2.mcsv.net?subject=unsubscribe>,
+ <http://scenarii-video-multimedia.us9.list-manage.com/unsubscribe?u=d354b6618792b27feff21208d&id=27adf91259&e=318ed04536&c=6b2e857e5d>
+Sender: Agence Everest <newsletter=agence-everest.com@mail78.us4.mcsv.net>
+x-mcda: FALSE
+Content-Type: multipart/alternative;
+	boundary="_----------=_MCPart_606118393"
+MIME-Version: 1.0
+X-UCE-Status: YES
+X-UCE-Type: MCE
+X-Original-Source-IP: 205.201.128.78
+X-Bizanga: IMP - mxb1-2.relay.renater.fr
+X-Renater-SpamState: 11
+X-Renater-SpamScore: 17
+X-Renater-SpamCause: gggruggvucftvghtrhhoucdtuddrfeekgedrgeeigdduudcutefuodetggdotefrucfrrhhofhhilhgvmecutffgpfetvffgtfdpggftfghnshhusghstghrihgsvgenuceurghilhhouhhtmecufedttdenucdnofetkffnkffpifculddujedmnecujfgurhepuffhrhfvfffkofejjfhstgggsegrtddtreertdejnecuhfhrohhmpeetghgvnhgtvgcugfhvvghrvghsthcuoehnvgifshhlvghtthgvrhesrghgvghntggvqdgvvhgvrhgvshhtrdgtohhmqeenucffohhmrghinheplhhishhtqdhmrghnrghgvgdurdgtohhmpdgtrghmphgrihhgnhdqrghrtghhihhvvgdurdgtohhmpdhlihhsthdqmhgrnhgrghgvrdgtohhmpdhlihhsthdqmhgrnhgrghgvvddrtghomh 
+X-Renater-ServerName: mxb1-2.relay.renater.fr
+X-OrganizationHeadersPreserved: mbcasexch1.Ur.local
+
+--_----------=_MCPart_606118393
+Content-Type: text/plain; charset="utf-8"; format=fixed
+Content-Transfer-Encoding: quoted-printable
+
+Newsletter - Septembre
+
+Ouvrir ce mail dans mon outil internet (http://us9.campaign-archive1.com/?=
+u=3Dd354b6618792b27feff21208d&id=3D6b2e857e5d&e=3D318ed04536)
+
+http://www.agence-everest.com/?utm_source=3DContact+Scenarii&utm_campaign=
+=3D6b2e857e5d-Team_Bonding&utm_medium=3Demail&utm_term=3D0_27adf91259-6b2e=
+857e5d-288321937
+
+By Scenarii V&M
+
+
+** Team-Bonding ou Team-Building ?
+------------------------------------------------------------
+
+
+** Un exemple avec l'Agence EVEREST
+------------------------------------------------------------
+http://www.communication-fonctionnelle.com/team-bonding-agence-everest-lia=
+ison-dequipe/?utm_source=3DContact+Scenarii&utm_campaign=3D6b2e857e5d-Team=
+_Bonding&utm_medium=3Demail&utm_term=3D0_27adf91259-6b2e857e5d-=
+288321937
+Journ=C3=A9e Team-Bonding 100% musicale par les membres de l'=C3=A9quipe a=
+u studio du Faune pr=C3=A8s de Rennes.
+
+Objectifs :
+* renforcer une =C3=A9quipe et son agilit=C3=A9
+* se faire plaisir;
+* relever un d=C3=A9fi
+* travailler de "concert" !
+
+D=C3=A9couvrez d=C3=A8s maintenant la vid=C3=A9o de cette exp=C3=A9rience=
+ RH hors normes (http://www.communication-fonctionnelle.com/team-bonding-a=
+gence-everest-liaison-dequipe/?utm_source=3DContact+Scenarii&utm_campaign=
+=3D6b2e857e5d-Team_Bonding&utm_medium=3Demail&utm_term=3D0_27adf91259-6b2e=
+857e5d-288321937) .
+
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+** Cliquez ici pour voir la vid=C3=A9o (http://www.communication-fonctionn=
+elle.com/team-bonding-agence-everest-liaison-dequipe/?utm_source=3DContact=
++Scenarii&utm_campaign=3D6b2e857e5d-Team_Bonding&utm_medium=3Demail&utm_te=
+rm=3D0_27adf91259-6b2e857e5d-288321937)
+
+Projets r=C3=A9cents de l'Agence Everest
+
+** (http://www.isfec-bretagne.org/?utm_source=3DContact+Scenarii&utm_campa=
+ign=3D6b2e857e5d-Team_Bonding&utm_medium=3Demail&utm_term=3D0_27adf91259-6=
+b2e857e5d-288321937)
+
+** (https://vimeo.com/128590395?utm_source=3DContact+Scenarii&utm_campaign=
+=3D6b2e857e5d-Team_Bonding&utm_medium=3Demail&utm_term=3D0_27adf91259-6b2e=
+857e5d-288321937)
+
+Site ISFEC
+
+Refonte compl=C3=A8te du site de l'institut de formation Isfec Bretagne. L=
+eurs enjeux =C3=A9taient de gagner un temps pr=C3=A9cieux sur la gestion d=
+e leurs formations ainsi que sur les inscriptions qui y sont li=C3=A9es ma=
+is aussi de renouveler leur image dans une communication globale plus mode=
+rne et correspondant =C3=A0 leurs valeurs.
+Faites comme l'Isfec Bretagne=2C renouvelez votre image !
+** Visiter le site (http://www.isfec-bretagne.org/?utm_source=3DContact+Sc=
+enarii&utm_campaign=3D6b2e857e5d-Team_Bonding&utm_medium=3Demail&utm_term=
+=3D0_27adf91259-6b2e857e5d-288321937)
+
+Vid=C3=A9o COCYBEO
+
+Faire comprendre de mani=C3=A8re tr=C3=A8s simple=2C le processus de s=C3=
+=A9curit=C3=A9 assur=C3=A9 par Cocyb=C3=A9o.
+Faites comme Cocyb=C3=A9o=2C faites passer un message de mani=C3=A8re tr=
+=C3=A8s simple par le biais de la vid=C3=A9o !
+
+
+** Voir la vid=C3=A9o (https://vimeo.com/128590395?utm_source=3DContact+Sc=
+enarii&utm_campaign=3D6b2e857e5d-Team_Bonding&utm_medium=3Demail&utm_term=
+=3D0_27adf91259-6b2e857e5d-288321937)
+
+** Facebook (https://www.facebook.com/everestcommunication?utm_source=3DCo=
+ntact+Scenarii&utm_campaign=3D6b2e857e5d-Team_Bonding&utm_medium=3Demail&u=
+tm_term=3D0_27adf91259-6b2e857e5d-288321937)
+** Facebook (https://www.facebook.com/everestcommunication?utm_source=3DCo=
+ntact+Scenarii&utm_campaign=3D6b2e857e5d-Team_Bonding&utm_medium=3Demail&u=
+tm_term=3D0_27adf91259-6b2e857e5d-288321937)
+** Twitter (https://twitter.com/AgenceEverest?utm_source=3DContact+Scenari=
+i&utm_campaign=3D6b2e857e5d-Team_Bonding&utm_medium=3Demail&utm_term=3D0_2=
+7adf91259-6b2e857e5d-288321937)
+** Twitter (https://twitter.com/AgenceEverest?utm_source=3DContact+Scenari=
+i&utm_campaign=3D6b2e857e5d-Team_Bonding&utm_medium=3Demail&utm_term=3D0_2=
+7adf91259-6b2e857e5d-288321937)
+** Google Plus (https://plus.google.com/u/0/+Agenceeverestcommunication/ab=
+out?utm_source=3DContact+Scenarii&utm_campaign=3D6b2e857e5d-Team_Bonding&u=
+tm_medium=3Demail&utm_term=3D0_27adf91259-6b2e857e5d-288321937)
+** Google Plus (https://plus.google.com/u/0/+Agenceeverestcommunication/ab=
+out?utm_source=3DContact+Scenarii&utm_campaign=3D6b2e857e5d-Team_Bonding&u=
+tm_medium=3Demail&utm_term=3D0_27adf91259-6b2e857e5d-288321937)
+** YouTube (https://www.youtube.com/channel/UC-7G2ynXGXGNmGuo5jvl8kw?utm_s=
+ource=3DContact+Scenarii&utm_campaign=3D6b2e857e5d-Team_Bonding&utm_medium=
+=3Demail&utm_term=3D0_27adf91259-6b2e857e5d-288321937)
+** YouTube (https://www.youtube.com/channel/UC-7G2ynXGXGNmGuo5jvl8kw?utm_s=
+ource=3DContact+Scenarii&utm_campaign=3D6b2e857e5d-Team_Bonding&utm_medium=
+=3Demail&utm_term=3D0_27adf91259-6b2e857e5d-288321937)
+** LinkedIn (https://www.linkedin.com/company/agence-everest?utm_source=3D=
+Contact+Scenarii&utm_campaign=3D6b2e857e5d-Team_Bonding&utm_medium=3Demail=
+&utm_term=3D0_27adf91259-6b2e857e5d-288321937)
+** LinkedIn (https://www.linkedin.com/company/agence-everest?utm_source=3D=
+Contact+Scenarii&utm_campaign=3D6b2e857e5d-Team_Bonding&utm_medium=3Demail=
+&utm_term=3D0_27adf91259-6b2e857e5d-288321937)
+** (http://www.agence-everest.com/contact.php?utm_source=3DContact+Scenari=
+i&utm_campaign=3D6b2e857e5d-Team_Bonding&utm_medium=3Demail&utm_term=3D0_2=
+7adf91259-6b2e857e5d-288321937)
+Copyright =C2=A9 2015 Scenarii V&M=2C All rights reserved.
+ Scenarii V&M=2C agence de communication globale =C3=A0 Rennes=2C vous inv=
+ite au changement.
+
+Scenarii V&M
+158 rue de Foug=C3=A8res
+Rennes 35700
+France
+** Se d=C3=A9sinscrire (http://scenarii-video-multimedia.us9.list-manage.c=
+om/unsubscribe?u=3Dd354b6618792b27feff21208d&id=3D27adf91259&e=3D318ed04536&=
+c=3D6b2e857e5d)
+** Mettre =C3=A0 jour mon profil (http://scenarii-video-multimedia.us9.lis=
+t-manage.com/profile?u=3Dd354b6618792b27feff21208d&id=3D27adf91259&e=3D=
+318ed04536)
+--_----------=_MCPart_606118393
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.or=
+g/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml">
+    <head>
+    =09<!-- NAME: 1 COLUMN -->
+        <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3D=
+UTF-8">
+        <meta name=3D"viewport" content=3D"width=3Ddevice-width=2C initial=
+-scale=3D1.0">
+        <title>Team-Bonding ou Team-Building ? Explication avec l'Agence E=
+VEREST</title>
+
+    <style type=3D"text/css">
+=09=09body=2C#bodyTable=2C#bodyCell{
+=09=09=09height:100% !important;
+=09=09=09margin:0;
+=09=09=09padding:0;
+=09=09=09width:100% !important;
+=09=09}
+=09=09table{
+=09=09=09border-collapse:collapse;
+=09=09}
+=09=09img=2Ca img{
+=09=09=09border:0;
+=09=09=09outline:none;
+=09=09=09text-decoration:none;
+=09=09}
+=09=09h1=2Ch2=2Ch3=2Ch4=2Ch5=2Ch6{
+=09=09=09margin:0;
+=09=09=09padding:0;
+=09=09}
+=09=09p{
+=09=09=09margin:1em 0;
+=09=09=09padding:0;
+=09=09}
+=09=09a{
+=09=09=09word-wrap:break-word;
+=09=09}
+=09=09.ReadMsgBody{
+=09=09=09width:100%;
+=09=09}
+=09=09.ExternalClass{
+=09=09=09width:100%;
+=09=09}
+=09=09.ExternalClass=2C.ExternalClass p=2C.ExternalClass span=2C.ExternalC=
+lass font=2C.ExternalClass td=2C.ExternalClass div{
+=09=09=09line-height:100%;
+=09=09}
+=09=09table=2Ctd{
+=09=09=09mso-table-lspace:0pt;
+=09=09=09mso-table-rspace:0pt;
+=09=09}
+=09=09#outlook a{
+=09=09=09padding:0;
+=09=09}
+=09=09img{
+=09=09=09-ms-interpolation-mode:bicubic;
+=09=09}
+=09=09body=2Ctable=2Ctd=2Cp=2Ca=2Cli=2Cblockquote{
+=09=09=09-ms-text-size-adjust:100%;
+=09=09=09-webkit-text-size-adjust:100%;
+=09=09}
+=09=09#bodyCell{
+=09=09=09padding:20px;
+=09=09}
+=09=09.mcnImage{
+=09=09=09vertical-align:bottom;
+=09=09}
+=09=09.mcnTextContent img{
+=09=09=09height:auto !important;
+=09=09}
+=09=09body=2C#bodyTable{
+=09=09=09background-color:#ffffff;
+=09=09}
+=09=09#bodyCell{
+=09=09=09border-top:0;
+=09=09}
+=09=09#templateContainer{
+=09=09=09border:0;
+=09=09}
+=09=09h1{
+=09=09=09color:#4db859 !important;
+=09=09=09display:block;
+=09=09=09font-family:Helvetica;
+=09=09=09font-size:28px;
+=09=09=09font-style:normal;
+=09=09=09font-weight:bold;
+=09=09=09line-height:125%;
+=09=09=09letter-spacing:-1px;
+=09=09=09margin:0;
+=09=09=09text-align:left;
+=09=09}
+=09=09h2{
+=09=09=09color:#000000 !important;
+=09=09=09display:block;
+=09=09=09font-family:Helvetica;
+=09=09=09font-size:22px;
+=09=09=09font-style:normal;
+=09=09=09font-weight:bold;
+=09=09=09line-height:125%;
+=09=09=09letter-spacing:-.75px;
+=09=09=09margin:0;
+=09=09=09text-align:left;
+=09=09}
+=09=09h3{
+=09=09=09color:#606060 !important;
+=09=09=09display:block;
+=09=09=09font-family:Helvetica;
+=09=09=09font-size:18px;
+=09=09=09font-style:normal;
+=09=09=09font-weight:bold;
+=09=09=09line-height:125%;
+=09=09=09letter-spacing:-.5px;
+=09=09=09margin:0;
+=09=09=09text-align:left;
+=09=09}
+=09=09h4{
+=09=09=09color:#808080 !important;
+=09=09=09display:block;
+=09=09=09font-family:Helvetica;
+=09=09=09font-size:16px;
+=09=09=09font-style:normal;
+=09=09=09font-weight:bold;
+=09=09=09line-height:125%;
+=09=09=09letter-spacing:normal;
+=09=09=09margin:0;
+=09=09=09text-align:left;
+=09=09}
+=09=09#templatePreheader{
+=09=09=09background-color:#FFFFFF;
+=09=09=09border-top:0;
+=09=09=09border-bottom:0;
+=09=09}
+=09=09.preheaderContainer .mcnTextContent=2C.preheaderContainer .mcnTextCo=
+ntent p{
+=09=09=09color:#606060;
+=09=09=09font-family:Helvetica;
+=09=09=09font-size:11px;
+=09=09=09line-height:125%;
+=09=09=09text-align:left;
+=09=09}
+=09=09.preheaderContainer .mcnTextContent a{
+=09=09=09color:#606060;
+=09=09=09font-weight:normal;
+=09=09=09text-decoration:underline;
+=09=09}
+=09=09#templateHeader{
+=09=09=09background-color:#FFFFFF;
+=09=09=09border-top:0;
+=09=09=09border-bottom:0;
+=09=09}
+=09=09.headerContainer .mcnTextContent=2C.headerContainer .mcnTextContent=
+ p{
+=09=09=09color:#606060;
+=09=09=09font-family:Helvetica;
+=09=09=09font-size:15px;
+=09=09=09line-height:150%;
+=09=09=09text-align:left;
+=09=09}
+=09=09.headerContainer .mcnTextContent a{
+=09=09=09color:#4db859;
+=09=09=09font-weight:normal;
+=09=09=09text-decoration:underline;
+=09=09}
+=09=09#templateBody{
+=09=09=09background-color:#FFFFFF;
+=09=09=09border-top:0;
+=09=09=09border-bottom:0;
+=09=09}
+=09=09.bodyContainer .mcnTextContent=2C.bodyContainer .mcnTextContent p{
+=09=09=09color:#606060;
+=09=09=09font-family:Helvetica;
+=09=09=09font-size:15px;
+=09=09=09line-height:150%;
+=09=09=09text-align:left;
+=09=09}
+=09=09.bodyContainer .mcnTextContent a{
+=09=09=09color:#4db859;
+=09=09=09font-weight:normal;
+=09=09=09text-decoration:underline;
+=09=09}
+=09=09#templateFooter{
+=09=09=09background-color:#FFFFFF;
+=09=09=09border-top:0;
+=09=09=09border-bottom:0;
+=09=09}
+=09=09.footerContainer .mcnTextContent=2C.footerContainer .mcnTextContent=
+ p{
+=09=09=09color:#606060;
+=09=09=09font-family:Helvetica;
+=09=09=09font-size:11px;
+=09=09=09line-height:125%;
+=09=09=09text-align:left;
+=09=09}
+=09=09.footerContainer .mcnTextContent a{
+=09=09=09color:#606060;
+=09=09=09font-weight:normal;
+=09=09=09text-decoration:underline;
+=09=09}
+=09@media only screen and (max-width: 480px){
+=09=09body=2Ctable=2Ctd=2Cp=2Ca=2Cli=2Cblockquote{
+=09=09=09-webkit-text-size-adjust:none !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09body{
+=09=09=09width:100% !important;
+=09=09=09min-width:100% !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09td[id=3DbodyCell]{
+=09=09=09padding:10px !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09table[class=3DmcnTextContentContainer]{
+=09=09=09width:100% !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09.mcnBoxedTextContentContainer{
+=09=09=09max-width:100% !important;
+=09=09=09min-width:100% !important;
+=09=09=09width:100% !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09table[class=3Dmcpreview-image-uploader]{
+=09=09=09width:100% !important;
+=09=09=09display:none !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09img[class=3DmcnImage]{
+=09=09=09width:100% !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09table[class=3DmcnImageGroupContentContainer]{
+=09=09=09width:100% !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09td[class=3DmcnImageGroupContent]{
+=09=09=09padding:9px !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09td[class=3DmcnImageGroupBlockInner]{
+=09=09=09padding-bottom:0 !important;
+=09=09=09padding-top:0 !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09tbody[class=3DmcnImageGroupBlockOuter]{
+=09=09=09padding-bottom:9px !important;
+=09=09=09padding-top:9px !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09table[class=3DmcnCaptionTopContent]=2Ctable[class=3DmcnCaptionBott=
+omContent]{
+=09=09=09width:100% !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09table[class=3DmcnCaptionLeftTextContentContainer]=2Ctable[class=3D=
+mcnCaptionRightTextContentContainer]=2Ctable[class=3DmcnCaptionLeftImageC=
+ontentContainer]=2Ctable[class=3DmcnCaptionRightImageContentContainer]=2C=
+table[class=3DmcnImageCardLeftTextContentContainer]=2Ctable[class=3DmcnI=
+mageCardRightTextContentContainer]{
+=09=09=09width:100% !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09td[class=3DmcnImageCardLeftImageContent]=2Ctd[class=3DmcnImageCard=
+RightImageContent]{
+=09=09=09padding-right:18px !important;
+=09=09=09padding-left:18px !important;
+=09=09=09padding-bottom:0 !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09td[class=3DmcnImageCardBottomImageContent]{
+=09=09=09padding-bottom:9px !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09td[class=3DmcnImageCardTopImageContent]{
+=09=09=09padding-top:18px !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09td[class=3DmcnImageCardLeftImageContent]=2Ctd[class=3DmcnImageCard=
+RightImageContent]{
+=09=09=09padding-right:18px !important;
+=09=09=09padding-left:18px !important;
+=09=09=09padding-bottom:0 !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09td[class=3DmcnImageCardBottomImageContent]{
+=09=09=09padding-bottom:9px !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09td[class=3DmcnImageCardTopImageContent]{
+=09=09=09padding-top:18px !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09table[class=3DmcnCaptionLeftContentOuter] td[class=3DmcnTextConten=
+t]=2Ctable[class=3DmcnCaptionRightContentOuter] td[class=3DmcnTextConten=
+t]{
+=09=09=09padding-top:9px !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09td[class=3DmcnCaptionBlockInner] table[class=3DmcnCaptionTopConten=
+t]:last-child td[class=3DmcnTextContent]{
+=09=09=09padding-top:18px !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09td[class=3DmcnBoxedTextContentColumn]{
+=09=09=09padding-left:18px !important;
+=09=09=09padding-right:18px !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09td[class=3DmcnTextContent]{
+=09=09=09padding-right:18px !important;
+=09=09=09padding-left:18px !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09table[id=3DtemplateContainer]=2Ctable[id=3DtemplatePreheader]=2Cta=
+ble[id=3DtemplateHeader]=2Ctable[id=3DtemplateBody]=2Ctable[id=3Dtempla=
+teFooter]{
+=09=09=09max-width:600px !important;
+=09=09=09width:100% !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09h1{
+=09=09=09font-size:24px !important;
+=09=09=09line-height:125% !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09h2{
+=09=09=09font-size:20px !important;
+=09=09=09line-height:125% !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09h3{
+=09=09=09font-size:18px !important;
+=09=09=09line-height:125% !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09h4{
+=09=09=09font-size:16px !important;
+=09=09=09line-height:125% !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09table[class=3DmcnBoxedTextContentContainer] td[class=3DmcnTextCont=
+ent]=2Ctd[class=3DmcnBoxedTextContentContainer] td[class=3DmcnTextConten=
+t] p{
+=09=09=09font-size:18px !important;
+=09=09=09line-height:125% !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09table[id=3DtemplatePreheader]{
+=09=09=09display:block !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09td[class=3DpreheaderContainer] td[class=3DmcnTextContent]=2Ctd[cl=
+ass=3DpreheaderContainer] td[class=3DmcnTextContent] p{
+=09=09=09font-size:14px !important;
+=09=09=09line-height:115% !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09td[class=3DheaderContainer] td[class=3DmcnTextContent]=2Ctd[class=
+=3DheaderContainer] td[class=3DmcnTextContent] p{
+=09=09=09font-size:18px !important;
+=09=09=09line-height:125% !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09td[class=3DbodyContainer] td[class=3DmcnTextContent]=2Ctd[class=
+=3DbodyContainer] td[class=3DmcnTextContent] p{
+=09=09=09font-size:18px !important;
+=09=09=09line-height:125% !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09td[class=3DfooterContainer] td[class=3DmcnTextContent]=2Ctd[class=
+=3DfooterContainer] td[class=3DmcnTextContent] p{
+=09=09=09font-size:14px !important;
+=09=09=09line-height:115% !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09td[class=3DfooterContainer] a[class=3DutilityLink]{
+=09=09=09display:block !important;
+=09=09}
+
+}</style></head>
+    <body leftmargin=3D"0" marginwidth=3D"0" topmargin=3D"0" marginheight=
+=3D"0" offset=3D"0" style=3D"margin: 0;padding: 0;-ms-text-size-adjust: 10=
+0%;-webkit-text-size-adjust: 100%;background-color: #ffffff;height: 100% !=
+important;width: 100% !important;">
+        <center>
+            <table align=3D"center" border=3D"0" cellpadding=3D"0" cellspa=
+cing=3D"0" height=3D"100%" width=3D"100%" id=3D"bodyTable" style=3D"border=
+-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-s=
+ize-adjust: 100%;-webkit-text-size-adjust: 100%;margin: 0;padding: 0;backg=
+round-color: #ffffff;height: 100% !important;width: 100% !important;">
+                <tr>
+                    <td align=3D"center" valign=3D"top" id=3D"bodyCell" st=
+yle=3D"mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 1=
+00%;-webkit-text-size-adjust: 100%;margin: 0;padding: 20px;border-top: 0;h=
+eight: 100% !important;width: 100% !important;">
+                        <!-- BEGIN TEMPLATE // -->
+                        <table border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" width=3D"600" id=3D"templateContainer" style=3D"border-collapse: co=
+llapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 1=
+00%;-webkit-text-size-adjust: 100%;border: 0;">
+                            <tr>
+                                <td align=3D"center" valign=3D"top" style=
+=3D"mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%=
+;-webkit-text-size-adjust: 100%;">
+                                    <!-- BEGIN PREHEADER // -->
+                                    <table border=3D"0" cellpadding=3D"0"=
+ cellspacing=3D"0" width=3D"600" id=3D"templatePreheader" style=3D"border-=
+collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-si=
+ze-adjust: 100%;-webkit-text-size-adjust: 100%;background-color: #FFFFFF;b=
+order-top: 0;border-bottom: 0;">
+                                        <tr>
+                                        =09<td valign=3D"top" class=3D"pre=
+headerContainer" style=3D"padding-top: 9px;mso-table-lspace: 0pt;mso-table=
+-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;"><=
+table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" clas=
+s=3D"mcnTextBlock" style=3D"border-collapse: collapse;mso-table-lspace: 0p=
+t;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjus=
+t: 100%;">
+    <tbody class=3D"mcnTextBlockOuter">
+        <tr>
+            <td valign=3D"top" class=3D"mcnTextBlockInner" style=3D"mso-ta=
+ble-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-t=
+ext-size-adjust: 100%;">
+
+                <table align=3D"left" border=3D"0" cellpadding=3D"0" cells=
+pacing=3D"0" width=3D"366" class=3D"mcnTextContentContainer" style=3D"bord=
+er-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text=
+-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                    <tbody><tr>
+
+                        <td valign=3D"top" class=3D"mcnTextContent" style=
+=3D"padding: 9px 0px 9px 18px;font-size: 10px;mso-table-lspace: 0pt;mso-ta=
+ble-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;=
+color: #606060;font-family: Helvetica;line-height: 125%;text-align: left;"=
+>
+
+                            Newsletter - Septembre
+                        </td>
+                    </tr>
+                </tbody></table>
+
+                <table align=3D"right" border=3D"0" cellpadding=3D"0" cell=
+spacing=3D"0" width=3D"197" class=3D"mcnTextContentContainer" style=3D"bor=
+der-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-tex=
+t-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                    <tbody><tr>
+
+                        <td valign=3D"top" class=3D"mcnTextContent" style=
+=3D"padding: 9px 18px 9px 0px;font-size: 10px;mso-table-lspace: 0pt;mso-ta=
+ble-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;=
+color: #606060;font-family: Helvetica;line-height: 125%;text-align: left;"=
+>
+
+                            <a href=3D"http://us9.campaign-archive1.com/?u=
+=3Dd354b6618792b27feff21208d&id=3D6b2e857e5d&e=3D318ed04536" target=3D"_blan=
+k" style=3D"word-wrap: break-word;-ms-text-size-adjust: 100%;-webkit-text-=
+size-adjust: 100%;color: #606060;font-weight: normal;text-decoration: unde=
+rline;">Ouvrir ce mail dans mon outil internet</a>
+                        </td>
+                    </tr>
+                </tbody></table>
+
+            </td>
+        </tr>
+    </tbody>
+</table></td>
+                                        </tr>
+                                    </table>
+                                    <!-- // END PREHEADER -->
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align=3D"center" valign=3D"top" style=
+=3D"mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%=
+;-webkit-text-size-adjust: 100%;">
+                                    <!-- BEGIN HEADER // -->
+                                    <table border=3D"0" cellpadding=3D"0"=
+ cellspacing=3D"0" width=3D"600" id=3D"templateHeader" style=3D"border-col=
+lapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-=
+adjust: 100%;-webkit-text-size-adjust: 100%;background-color: #FFFFFF;bord=
+er-top: 0;border-bottom: 0;">
+                                        <tr>
+                                            <td valign=3D"top" class=3D"he=
+aderContainer" style=3D"mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-te=
+xt-size-adjust: 100%;-webkit-text-size-adjust: 100%;"><table border=3D"0"=
+ cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" class=3D"mcnCaptionBlo=
+ck" style=3D"border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rsp=
+ace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+    <tbody class=3D"mcnCaptionBlockOuter">
+        <tr>
+            <td class=3D"mcnCaptionBlockInner" valign=3D"top" style=3D"pad=
+ding: 9px;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust=
+: 100%;-webkit-text-size-adjust: 100%;">
+
+
+
+
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"mcnCaptio=
+nRightContentOuter" width=3D"100%" style=3D"border-collapse: collapse;mso-=
+table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit=
+-text-size-adjust: 100%;">
+    <tbody><tr>
+        <td valign=3D"top" class=3D"mcnCaptionRightContentInner" style=3D"=
+padding: 0 9px;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-a=
+djust: 100%;-webkit-text-size-adjust: 100%;">
+            <table align=3D"left" border=3D"0" cellpadding=3D"0" cellspaci=
+ng=3D"0" class=3D"mcnCaptionRightImageContentContainer" style=3D"border-co=
+llapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size=
+-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                <tbody><tr>
+                    <td class=3D"mcnCaptionRightImageContent" valign=3D"to=
+p" style=3D"mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adju=
+st: 100%;-webkit-text-size-adjust: 100%;">
+
+
+                        <a href=3D"http://scenarii-video-multimedia.us9.li=
+st-manage1.com/track/click?u=3Dd354b6618792b27feff21208d&id=3D4eb3011db1&e=
+=3D318ed04536" title=3D"" class=3D"" target=3D"_blank" style=3D"word-wrap=
+: break-word;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+
+
+                        <img alt=3D"" src=3D"https://gallery.mailchimp.com=
+/d354b6618792b27feff21208d/images/97294504-bf03-4216-965e-e83d484e5894.png=
+" width=3D"264" style=3D"max-width: 300px;border: 0;outline: none;text-dec=
+oration: none;-ms-interpolation-mode: bicubic;vertical-align: bottom;" cla=
+ss=3D"mcnImage">
+                        </a>
+
+
+                    </td>
+                </tr>
+            </tbody></table>
+            <table class=3D"mcnCaptionRightTextContentContainer" align=3D"=
+right" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"264" styl=
+e=3D"border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt=
+;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                <tbody><tr>
+                    <td valign=3D"top" class=3D"mcnTextContent" style=3D"m=
+so-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-web=
+kit-text-size-adjust: 100%;color: #606060;font-family: Helvetica;font-size=
+: 15px;line-height: 150%;text-align: left;">
+                        <br>
+By Scenarii V&amp;M
+                    </td>
+                </tr>
+            </tbody></table>
+        </td>
+    </tr>
+</tbody></table>
+
+
+
+
+            </td>
+        </tr>
+    </tbody>
+</table><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"1=
+00%" class=3D"mcnDividerBlock" style=3D"min-width: 100%;border-collapse: c=
+ollapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust:=
+ 100%;-webkit-text-size-adjust: 100%;">
+    <tbody class=3D"mcnDividerBlockOuter">
+        <tr>
+            <td class=3D"mcnDividerBlockInner" style=3D"min-width: 100%;pa=
+dding: 18px;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adju=
+st: 100%;-webkit-text-size-adjust: 100%;">
+                <table class=3D"mcnDividerContent" border=3D"0" cellpaddin=
+g=3D"0" cellspacing=3D"0" width=3D"100%" style=3D"min-width: 100%;border-t=
+op-width: 1px;border-top-style: solid;border-top-color: #999999;border-col=
+lapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-=
+adjust: 100%;-webkit-text-size-adjust: 100%;">
+                    <tbody><tr>
+                        <td style=3D"mso-table-lspace: 0pt;mso-table-rspac=
+e: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                            <span></span>
+                        </td>
+                    </tr>
+                </tbody></table>
+<!--
+                <td class=3D"mcnDividerBlockInner" style=3D"padding: 18px;=
+">
+                <hr class=3D"mcnDividerContent" style=3D"border-bottom-col=
+or:none; border-left-color:none; border-right-color:none; border-bottom-wi=
+dth:0; border-left-width:0; border-right-width:0; margin-top:0; margin-rig=
+ht:0; margin-bottom:0; margin-left:0;" />
+-->
+            </td>
+        </tr>
+    </tbody>
+</table><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"1=
+00%" class=3D"mcnTextBlock" style=3D"border-collapse: collapse;mso-table-l=
+space: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-s=
+ize-adjust: 100%;">
+    <tbody class=3D"mcnTextBlockOuter">
+        <tr>
+            <td valign=3D"top" class=3D"mcnTextBlockInner" style=3D"mso-ta=
+ble-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-t=
+ext-size-adjust: 100%;">
+
+                <table align=3D"left" border=3D"0" cellpadding=3D"0" cells=
+pacing=3D"0" width=3D"600" class=3D"mcnTextContentContainer" style=3D"bord=
+er-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text=
+-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                    <tbody><tr>
+
+                        <td valign=3D"top" class=3D"mcnTextContent" style=
+=3D"padding-top: 9px;padding-right: 18px;padding-bottom: 9px;padding-left:=
+ 18px;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 10=
+0%;-webkit-text-size-adjust: 100%;color: #606060;font-family: Helvetica;fo=
+nt-size: 15px;line-height: 150%;text-align: left;">
+
+                            <h2 class=3D"null" style=3D"margin: 0;padding:=
+ 0;display: block;font-family: Helvetica;font-size: 22px;font-style: norma=
+l;font-weight: bold;line-height: 125%;letter-spacing: -.75px;text-align: l=
+eft;color: #000000 !important;">Team-Bonding ou Team-Building&nbsp;?</h2>
+
+<h1 class=3D"null" style=3D"margin: 0;padding: 0;display: block;font-famil=
+y: Helvetica;font-size: 28px;font-style: normal;font-weight: bold;line-hei=
+ght: 125%;letter-spacing: -1px;text-align: left;color: #4db859 !important;=
+">Un exemple avec l'Agence EVEREST</h1>
+
+                        </td>
+                    </tr>
+                </tbody></table>
+
+            </td>
+        </tr>
+    </tbody>
+</table></td>
+                                        </tr>
+                                    </table>
+                                    <!-- // END HEADER -->
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align=3D"center" valign=3D"top" style=
+=3D"mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%=
+;-webkit-text-size-adjust: 100%;">
+                                    <!-- BEGIN BODY // -->
+                                    <table border=3D"0" cellpadding=3D"0"=
+ cellspacing=3D"0" width=3D"600" id=3D"templateBody" style=3D"border-colla=
+pse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-ad=
+just: 100%;-webkit-text-size-adjust: 100%;background-color: #FFFFFF;border=
+-top: 0;border-bottom: 0;">
+                                        <tr>
+                                            <td valign=3D"top" class=3D"bo=
+dyContainer" style=3D"mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text=
+-size-adjust: 100%;-webkit-text-size-adjust: 100%;"><table border=3D"0" ce=
+llpadding=3D"0" cellspacing=3D"0" width=3D"100%" class=3D"mcnImageBlock" s=
+tyle=3D"min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;ms=
+o-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 1=
+00%;">
+    <tbody class=3D"mcnImageBlockOuter">
+            <tr>
+                <td valign=3D"top" style=3D"padding: 9px;mso-table-lspace:=
+ 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-ad=
+just: 100%;" class=3D"mcnImageBlockInner">
+                    <table align=3D"left" width=3D"100%" border=3D"0" cell=
+padding=3D"0" cellspacing=3D"0" class=3D"mcnImageContentContainer" style=
+=3D"min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-ta=
+ble-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;=
+">
+                        <tbody><tr>
+                            <td class=3D"mcnImageContent" valign=3D"top" s=
+tyle=3D"padding-right: 9px;padding-left: 9px;padding-top: 0;padding-bottom=
+: 0;text-align: center;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-tex=
+t-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+
+                                    <a href=3D"http://scenarii-video-multi=
+media.us9.list-manage2.com/track/click?u=3Dd354b6618792b27feff21208d&id=3D=
+a0894633e9&e=3D318ed04536" title=3D"" class=3D"" target=3D"_blank" style=
+=3D"word-wrap: break-word;-ms-text-size-adjust: 100%;-webkit-text-size-adj=
+ust: 100%;">
+                                        <img align=3D"center" alt=3D"" src=
+=3D"https://gallery.mailchimp.com/d354b6618792b27feff21208d/images/4e591ff=
+f-e837-479f-811c-012a617504f1.png" width=3D"564" style=3D"max-width: 800px=
+;padding-bottom: 0;display: inline !important;vertical-align: bottom;borde=
+r: 0;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;"=
+ class=3D"mcnImage">
+                                    </a>
+
+                            </td>
+                        </tr>
+                    </tbody></table>
+                </td>
+            </tr>
+    </tbody>
+</table><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"1=
+00%" class=3D"mcnTextBlock" style=3D"border-collapse: collapse;mso-table-l=
+space: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-s=
+ize-adjust: 100%;">
+    <tbody class=3D"mcnTextBlockOuter">
+        <tr>
+            <td valign=3D"top" class=3D"mcnTextBlockInner" style=3D"mso-ta=
+ble-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-t=
+ext-size-adjust: 100%;">
+
+                <table align=3D"left" border=3D"0" cellpadding=3D"0" cells=
+pacing=3D"0" width=3D"600" class=3D"mcnTextContentContainer" style=3D"bord=
+er-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text=
+-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                    <tbody><tr>
+
+                        <td valign=3D"top" class=3D"mcnTextContent" style=
+=3D"padding-top: 9px;padding-right: 18px;padding-bottom: 9px;padding-left:=
+ 18px;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 10=
+0%;-webkit-text-size-adjust: 100%;color: #606060;font-family: Helvetica;fo=
+nt-size: 15px;line-height: 150%;text-align: left;">
+
+                            Journ=C3=A9e Team-Bonding&nbsp;<strong>100% mu=
+sicale</strong>&nbsp;par les membres de l'=C3=A9quipe au studio du Faune p=
+r=C3=A8s de Rennes.<br>
+<br>
+<strong>Objectifs :</strong>
+
+<ul>
+=09<li style=3D"-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;=
+">renforcer une =C3=A9quipe et son agilit=C3=A9&nbsp;</li>
+=09<li style=3D"-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;=
+">se faire plaisir;</li>
+=09<li style=3D"-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;=
+">relever un d=C3=A9fi</li>
+=09<li style=3D"-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;=
+">travailler de "concert" !&nbsp;</li>
+</ul>
+D=C3=A9couvrez d=C3=A8s maintenant la vid=C3=A9o de cette&nbsp;<strong><a=
+ href=3D"http://scenarii-video-multimedia.us9.list-manage1.com/track/click=
+?u=3Dd354b6618792b27feff21208d&id=3D83ddd52e8f&e=3D318ed04536" target=3D"=
+_blank" style=3D"word-wrap: break-word;-ms-text-size-adjust: 100%;-webkit-=
+text-size-adjust: 100%;color: #4db859;font-weight: normal;text-decoration:=
+ underline;">exp=C3=A9rience RH hors normes</a>.&nbsp;</strong>
+                        </td>
+                    </tr>
+                </tbody></table>
+
+            </td>
+        </tr>
+    </tbody>
+</table></td>
+                                        </tr>
+                                    </table>
+                                    <!-- // END BODY -->
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align=3D"center" valign=3D"top" style=
+=3D"mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%=
+;-webkit-text-size-adjust: 100%;">
+                                    <!-- BEGIN FOOTER // -->
+                                    <table border=3D"0" cellpadding=3D"0"=
+ cellspacing=3D"0" width=3D"600" id=3D"templateFooter" style=3D"border-col=
+lapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-=
+adjust: 100%;-webkit-text-size-adjust: 100%;background-color: #FFFFFF;bord=
+er-top: 0;border-bottom: 0;">
+                                        <tr>
+                                            <td valign=3D"top" class=3D"fo=
+oterContainer" style=3D"padding-bottom: 9px;mso-table-lspace: 0pt;mso-tabl=
+e-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">=
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" cla=
+ss=3D"mcnButtonBlock" style=3D"border-collapse: collapse;mso-table-lspace:=
+ 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-ad=
+just: 100%;">
+    <tbody class=3D"mcnButtonBlockOuter">
+        <tr>
+            <td style=3D"padding-top: 0;padding-right: 18px;padding-bottom=
+: 18px;padding-left: 18px;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-=
+text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" valign=3D"top" ali=
+gn=3D"center" class=3D"mcnButtonBlockInner">
+                <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" cl=
+ass=3D"mcnButtonContentContainer" style=3D"border-collapse: separate !impo=
+rtant;border-radius: 3px;background-color: #4DB859;mso-table-lspace: 0pt;m=
+so-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust:=
+ 100%;">
+                    <tbody>
+                        <tr>
+                            <td align=3D"center" valign=3D"middle" class=
+=3D"mcnButtonContent" style=3D"font-family: Arial;font-size: 16px;padding:=
+ 15px;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 10=
+0%;-webkit-text-size-adjust: 100%;">
+                                <a class=3D"mcnButton " title=3D"Cliquez i=
+ci pour voir la vid=C3=A9o" href=3D"http://scenarii-video-multimedia.us9.l=
+ist-manage.com/track/click?u=3Dd354b6618792b27feff21208d&id=3D6bf7a33c10&e=
+=3D318ed04536" target=3D"_blank" style=3D"font-weight: bold;letter-spacin=
+g: normal;line-height: 100%;text-align: center;text-decoration: none;color=
+: #FFFFFF;word-wrap: break-word;-ms-text-size-adjust: 100%;-webkit-text-si=
+ze-adjust: 100%;">Cliquez ici pour voir la vid=C3=A9o</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+    </tbody>
+</table><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"1=
+00%" class=3D"mcnDividerBlock" style=3D"min-width: 100%;border-collapse: c=
+ollapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust:=
+ 100%;-webkit-text-size-adjust: 100%;">
+    <tbody class=3D"mcnDividerBlockOuter">
+        <tr>
+            <td class=3D"mcnDividerBlockInner" style=3D"min-width: 100%;pa=
+dding: 18px;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adju=
+st: 100%;-webkit-text-size-adjust: 100%;">
+                <table class=3D"mcnDividerContent" border=3D"0" cellpaddin=
+g=3D"0" cellspacing=3D"0" width=3D"100%" style=3D"min-width: 100%;border-t=
+op-width: 1px;border-top-style: solid;border-top-color: #999999;border-col=
+lapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-=
+adjust: 100%;-webkit-text-size-adjust: 100%;">
+                    <tbody><tr>
+                        <td style=3D"mso-table-lspace: 0pt;mso-table-rspac=
+e: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                            <span></span>
+                        </td>
+                    </tr>
+                </tbody></table>
+<!--
+                <td class=3D"mcnDividerBlockInner" style=3D"padding: 18px;=
+">
+                <hr class=3D"mcnDividerContent" style=3D"border-bottom-col=
+or:none; border-left-color:none; border-right-color:none; border-bottom-wi=
+dth:0; border-left-width:0; border-right-width:0; margin-top:0; margin-rig=
+ht:0; margin-bottom:0; margin-left:0;" />
+-->
+            </td>
+        </tr>
+    </tbody>
+</table><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"1=
+00%" class=3D"mcnTextBlock" style=3D"border-collapse: collapse;mso-table-l=
+space: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-s=
+ize-adjust: 100%;">
+    <tbody class=3D"mcnTextBlockOuter">
+        <tr>
+            <td valign=3D"top" class=3D"mcnTextBlockInner" style=3D"mso-ta=
+ble-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-t=
+ext-size-adjust: 100%;">
+
+                <table align=3D"left" border=3D"0" cellpadding=3D"0" cells=
+pacing=3D"0" width=3D"600" class=3D"mcnTextContentContainer" style=3D"bord=
+er-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text=
+-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                    <tbody><tr>
+
+                        <td valign=3D"top" class=3D"mcnTextContent" style=
+=3D"padding-top: 9px;padding-right: 18px;padding-bottom: 9px;padding-left:=
+ 18px;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 10=
+0%;-webkit-text-size-adjust: 100%;color: #606060;font-family: Helvetica;fo=
+nt-size: 11px;line-height: 125%;text-align: left;">
+
+                            <h1 class=3D"null" style=3D"margin: 0;padding:=
+ 0;display: block;font-family: Helvetica;font-size: 28px;font-style: norma=
+l;font-weight: bold;line-height: 125%;letter-spacing: -1px;text-align: lef=
+t;color: #4db859 !important;">Projets r=C3=A9cents de l'Agence Everest</h1=
+>
+
+                        </td>
+                    </tr>
+                </tbody></table>
+
+            </td>
+        </tr>
+    </tbody>
+</table><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"1=
+00%" class=3D"mcnImageGroupBlock" style=3D"border-collapse: collapse;mso-t=
+able-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-=
+text-size-adjust: 100%;">
+    <tbody class=3D"mcnImageGroupBlockOuter">
+
+            <tr>
+                <td valign=3D"top" style=3D"padding: 9px;mso-table-lspace:=
+ 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-ad=
+just: 100%;" class=3D"mcnImageGroupBlockInner">
+
+                    <table align=3D"left" width=3D"273" border=3D"0" cellp=
+adding=3D"0" cellspacing=3D"0" class=3D"mcnImageGroupContentContainer" sty=
+le=3D"border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0p=
+t;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                            <tbody><tr>
+                                <td class=3D"mcnImageGroupContent" valign=
+=3D"top" style=3D"padding-left: 9px;padding-top: 0;padding-bottom: 0;mso-t=
+able-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-=
+text-size-adjust: 100%;">
+
+                                    <a href=3D"http://scenarii-video-multi=
+media.us9.list-manage2.com/track/click?u=3Dd354b6618792b27feff21208d&id=3D=
+58e6b0715b&e=3D318ed04536" title=3D"" class=3D"" target=3D"_blank" style=
+=3D"word-wrap: break-word;-ms-text-size-adjust: 100%;-webkit-text-size-adj=
+ust: 100%;">
+                                        <img alt=3D"" src=3D"https://galle=
+ry.mailchimp.com/d354b6618792b27feff21208d/images/a796d889-97f3-4840-97dc-=
+57d475075e6a.jpg" width=3D"264" style=3D"max-width: 494px;padding-bottom:=
+ 0;border: 0;outline: none;text-decoration: none;-ms-interpolation-mode: b=
+icubic;vertical-align: bottom;" class=3D"mcnImage">
+                                    </a>
+
+                                </td>
+                            </tr>
+                        </tbody></table>
+
+                    <table align=3D"right" width=3D"273" border=3D"0" cell=
+padding=3D"0" cellspacing=3D"0" class=3D"mcnImageGroupContentContainer" st=
+yle=3D"border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0=
+pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                            <tbody><tr>
+                                <td class=3D"mcnImageGroupContent" valign=
+=3D"top" style=3D"padding-right: 9px;padding-top: 0;padding-bottom: 0;mso-=
+table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit=
+-text-size-adjust: 100%;">
+
+                                    <a href=3D"http://scenarii-video-multi=
+media.us9.list-manage.com/track/click?u=3Dd354b6618792b27feff21208d&id=3D4=
+7c5637766&e=3D318ed04536" title=3D"" class=3D"" target=3D"_blank" style=
+=3D"word-wrap: break-word;-ms-text-size-adjust: 100%;-webkit-text-size-adj=
+ust: 100%;">
+                                        <img alt=3D"" src=3D"https://galle=
+ry.mailchimp.com/d354b6618792b27feff21208d/images/e6435500-71d5-4c34-ad85-=
+7a0033ad6555.jpg" width=3D"264" style=3D"max-width: 494px;padding-bottom:=
+ 0;border: 0;outline: none;text-decoration: none;-ms-interpolation-mode: b=
+icubic;vertical-align: bottom;" class=3D"mcnImage">
+                                    </a>
+
+                                </td>
+                            </tr>
+                        </tbody></table>
+
+                </td>
+            </tr>
+
+    </tbody>
+</table><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"1=
+00%" class=3D"mcnTextBlock" style=3D"border-collapse: collapse;mso-table-l=
+space: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-s=
+ize-adjust: 100%;">
+    <tbody class=3D"mcnTextBlockOuter">
+        <tr>
+            <td valign=3D"top" class=3D"mcnTextBlockInner" style=3D"mso-ta=
+ble-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-t=
+ext-size-adjust: 100%;">
+
+                <table align=3D"left" border=3D"0" cellpadding=3D"0" cells=
+pacing=3D"0" width=3D"282" class=3D"mcnTextContentContainer" style=3D"bord=
+er-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text=
+-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                    <tbody><tr>
+
+                        <td valign=3D"top" class=3D"mcnTextContent" style=
+=3D"padding-top: 9px;padding-left: 18px;padding-bottom: 9px;padding-right:=
+ 0;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;=
+-webkit-text-size-adjust: 100%;color: #606060;font-family: Helvetica;font-=
+size: 11px;line-height: 125%;text-align: left;">
+
+                            <h2 class=3D"null" style=3D"text-align: justif=
+y;margin: 0;padding: 0;display: block;font-family: Helvetica;font-size: 22=
+px;font-style: normal;font-weight: bold;line-height: 125%;letter-spacing:=
+ -.75px;color: #000000 !important;">Site&nbsp;ISFEC</h2>
+
+<div style=3D"text-align: justify;">Refonte compl=C3=A8te du site de l'ins=
+titut de formation Isfec Bretagne. Leurs enjeux =C3=A9taient de gagner un=
+ temps pr=C3=A9cieux sur la gestion de leurs formations ainsi que sur les=
+ inscriptions qui y sont li=C3=A9es mais aussi de renouveler leur image da=
+ns une communication globale plus moderne et correspondant =C3=A0 leurs va=
+leurs.</div>
+
+<div style=3D"text-align: justify;">Faites comme l'Isfec Bretagne=2C renou=
+velez votre image !</div>
+
+<div style=3D"text-align: right;"><a href=3D"http://scenarii-video-multime=
+dia.us9.list-manage.com/track/click?u=3Dd354b6618792b27feff21208d&id=3D597=
+46ae0ef&e=3D318ed04536" target=3D"_blank" style=3D"word-wrap: break-word;=
+-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #606060;f=
+ont-weight: normal;text-decoration: underline;">Visiter le site</a></div>
+
+                        </td>
+                    </tr>
+                </tbody></table>
+
+                <table align=3D"right" border=3D"0" cellpadding=3D"0" cell=
+spacing=3D"0" width=3D"282" class=3D"mcnTextContentContainer" style=3D"bor=
+der-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-tex=
+t-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                    <tbody><tr>
+
+                        <td valign=3D"top" class=3D"mcnTextContent" style=
+=3D"padding-top: 9px;padding-right: 18px;padding-bottom: 9px;padding-left:=
+ 0;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;=
+-webkit-text-size-adjust: 100%;color: #606060;font-family: Helvetica;font-=
+size: 11px;line-height: 125%;text-align: left;">
+
+                            <h2 class=3D"null" style=3D"margin: 0;padding:=
+ 0;display: block;font-family: Helvetica;font-size: 22px;font-style: norma=
+l;font-weight: bold;line-height: 125%;letter-spacing: -.75px;text-align: l=
+eft;color: #000000 !important;">Vid=C3=A9o COCYBEO</h2>
+
+<div style=3D"text-align: justify;">Faire comprendre de mani=C3=A8re tr=C3=
+=A8s simple=2C le processus de s=C3=A9curit=C3=A9 assur=C3=A9 par Cocyb=C3=
+=A9o.<br>
+Faites comme Cocyb=C3=A9o=2C faites passer un message de mani=C3=A8re tr=
+=C3=A8s simple par le biais de la vid=C3=A9o !</div>
+&nbsp;
+
+<div style=3D"text-align: right;"><a href=3D"http://scenarii-video-multime=
+dia.us9.list-manage.com/track/click?u=3Dd354b6618792b27feff21208d&id=3Da9d=
+9f32197&e=3D318ed04536" target=3D"_blank" style=3D"word-wrap: break-word;=
+-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #606060;f=
+ont-weight: normal;text-decoration: underline;">Voir la vid=C3=A9o</a></di=
+v>
+
+                        </td>
+                    </tr>
+                </tbody></table>
+
+            </td>
+        </tr>
+    </tbody>
+</table><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"1=
+00%" class=3D"mcnDividerBlock" style=3D"min-width: 100%;border-collapse: c=
+ollapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust:=
+ 100%;-webkit-text-size-adjust: 100%;">
+    <tbody class=3D"mcnDividerBlockOuter">
+        <tr>
+            <td class=3D"mcnDividerBlockInner" style=3D"min-width: 100%;pa=
+dding: 18px;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adju=
+st: 100%;-webkit-text-size-adjust: 100%;">
+                <table class=3D"mcnDividerContent" border=3D"0" cellpaddin=
+g=3D"0" cellspacing=3D"0" width=3D"100%" style=3D"min-width: 100%;border-t=
+op-width: 2px;border-top-style: solid;border-top-color: #EAEAEA;border-col=
+lapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-=
+adjust: 100%;-webkit-text-size-adjust: 100%;">
+                    <tbody><tr>
+                        <td style=3D"mso-table-lspace: 0pt;mso-table-rspac=
+e: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                            <span></span>
+                        </td>
+                    </tr>
+                </tbody></table>
+<!--
+                <td class=3D"mcnDividerBlockInner" style=3D"padding: 18px;=
+">
+                <hr class=3D"mcnDividerContent" style=3D"border-bottom-col=
+or:none; border-left-color:none; border-right-color:none; border-bottom-wi=
+dth:0; border-left-width:0; border-right-width:0; margin-top:0; margin-rig=
+ht:0; margin-bottom:0; margin-left:0;" />
+-->
+            </td>
+        </tr>
+    </tbody>
+</table><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"1=
+00%" class=3D"mcnFollowBlock" style=3D"border-collapse: collapse;mso-table=
+-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text=
+-size-adjust: 100%;">
+    <tbody class=3D"mcnFollowBlockOuter">
+        <tr>
+            <td align=3D"center" valign=3D"top" style=3D"padding: 9px;mso-=
+table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit=
+-text-size-adjust: 100%;" class=3D"mcnFollowBlockInner">
+                <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" wi=
+dth=3D"100%" class=3D"mcnFollowContentContainer" style=3D"border-collapse:=
+ collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust=
+: 100%;-webkit-text-size-adjust: 100%;">
+    <tbody><tr>
+        <td align=3D"center" style=3D"padding-left: 9px;padding-right: 9px=
+;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-w=
+ebkit-text-size-adjust: 100%;">
+            <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=
+=3D"100%" class=3D"mcnFollowContent" style=3D"border: 1px none #EEEEEE;bac=
+kground-color: #FFFFFF;border-collapse: collapse;mso-table-lspace: 0pt;mso=
+-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 10=
+0%;">
+                <tbody><tr>
+                    <td align=3D"center" valign=3D"top" style=3D"padding-t=
+op: 9px;padding-right: 9px;padding-left: 9px;mso-table-lspace: 0pt;mso-tab=
+le-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;"=
+>
+=09=09=09=09=09=09<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ style=3D"border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace=
+: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+=09=09=09=09=09=09=09<tbody><tr>
+=09=09=09=09=09=09=09=09<td valign=3D"top" style=3D"mso-table-lspace: 0pt;=
+mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust:=
+ 100%;">
+=09=09=09
+=09=09=09
+=09=09=09                                <table align=3D"left" border=3D"0=
+" cellpadding=3D"0" cellspacing=3D"0" class=3D"mcnFollowStacked" style=3D"=
+border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-=
+text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+=09=09=09
+=09=09=09                                    <tbody><tr>
+=09=09=09                                        <td align=3D"center" vali=
+gn=3D"top" class=3D"mcnFollowIconContent" style=3D"padding-right: 10px;pad=
+ding-bottom: 5px;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size=
+-adjust: 100%;-webkit-text-size-adjust: 100%;">
+=09=09=09                                            <a href=3D"http://sce=
+narii-video-multimedia.us9.list-manage.com/track/click?u=3Dd354b6618792b27=
+feff21208d&id=3D3c77066209&e=3D318ed04536" target=3D"_blank" style=3D"wor=
+d-wrap: break-word;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 10=
+0%;"><img src=3D"http://cdn-images.mailchimp.com/icons/social-block-v2/lig=
+ht-facebook-96.png" alt=3D"Facebook" class=3D"mcnFollowBlockIcon" width=3D=
+"48" style=3D"width: 48px;max-width: 48px;display: block;border: 0;outline=
+: none;text-decoration: none;-ms-interpolation-mode: bicubic;"></a>
+=09=09=09                                        </td>
+=09=09=09                                    </tr>
+=09=09=09
+=09=09=09
+=09=09=09                                    <tr>
+=09=09=09                                        <td align=3D"center" vali=
+gn=3D"top" class=3D"mcnFollowTextContent" style=3D"padding-right: 10px;pad=
+ding-bottom: 9px;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size=
+-adjust: 100%;-webkit-text-size-adjust: 100%;">
+=09=09=09                                            <a href=3D"http://sce=
+narii-video-multimedia.us9.list-manage1.com/track/click?u=3Dd354b6618792b2=
+7feff21208d&id=3D439aab29f9&e=3D318ed04536" target=3D"_blank" style=3D"co=
+lor: #606060;font-family: Arial;font-size: 11px;font-weight: normal;text-d=
+ecoration: none;line-height: 100%;text-align: center;word-wrap: break-word=
+;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">Facebook</a>
+=09=09=09                                        </td>
+=09=09=09                                    </tr>
+=09=09=09
+=09=09=09                                </tbody></table>
+=09=09=09
+=09=09=09
+=09=09=09
+=09=09=09
+=09=09=09                                <table align=3D"left" border=3D"0=
+" cellpadding=3D"0" cellspacing=3D"0" class=3D"mcnFollowStacked" style=3D"=
+border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-=
+text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+=09=09=09
+=09=09=09                                    <tbody><tr>
+=09=09=09                                        <td align=3D"center" vali=
+gn=3D"top" class=3D"mcnFollowIconContent" style=3D"padding-right: 10px;pad=
+ding-bottom: 5px;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size=
+-adjust: 100%;-webkit-text-size-adjust: 100%;">
+=09=09=09                                            <a href=3D"http://sce=
+narii-video-multimedia.us9.list-manage1.com/track/click?u=3Dd354b6618792b2=
+7feff21208d&id=3D54571844db&e=3D318ed04536" target=3D"_blank" style=3D"wo=
+rd-wrap: break-word;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 1=
+00%;"><img src=3D"http://cdn-images.mailchimp.com/icons/social-block-v2/li=
+ght-twitter-96.png" alt=3D"Twitter" class=3D"mcnFollowBlockIcon" width=3D"=
+48" style=3D"width: 48px;max-width: 48px;display: block;border: 0;outline:=
+ none;text-decoration: none;-ms-interpolation-mode: bicubic;"></a>
+=09=09=09                                        </td>
+=09=09=09                                    </tr>
+=09=09=09
+=09=09=09
+=09=09=09                                    <tr>
+=09=09=09                                        <td align=3D"center" vali=
+gn=3D"top" class=3D"mcnFollowTextContent" style=3D"padding-right: 10px;pad=
+ding-bottom: 9px;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size=
+-adjust: 100%;-webkit-text-size-adjust: 100%;">
+=09=09=09                                            <a href=3D"http://sce=
+narii-video-multimedia.us9.list-manage.com/track/click?u=3Dd354b6618792b27=
+feff21208d&id=3Dc9551742cd&e=3D318ed04536" target=3D"_blank" style=3D"col=
+or: #606060;font-family: Arial;font-size: 11px;font-weight: normal;text-de=
+coration: none;line-height: 100%;text-align: center;word-wrap: break-word;=
+-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">Twitter</a>
+=09=09=09                                        </td>
+=09=09=09                                    </tr>
+=09=09=09
+=09=09=09                                </tbody></table>
+=09=09=09
+=09=09=09
+=09=09=09
+=09=09=09
+=09=09=09                                <table align=3D"left" border=3D"0=
+" cellpadding=3D"0" cellspacing=3D"0" class=3D"mcnFollowStacked" style=3D"=
+border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-=
+text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+=09=09=09
+=09=09=09                                    <tbody><tr>
+=09=09=09                                        <td align=3D"center" vali=
+gn=3D"top" class=3D"mcnFollowIconContent" style=3D"padding-right: 10px;pad=
+ding-bottom: 5px;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size=
+-adjust: 100%;-webkit-text-size-adjust: 100%;">
+=09=09=09                                            <a href=3D"http://sce=
+narii-video-multimedia.us9.list-manage.com/track/click?u=3Dd354b6618792b27=
+feff21208d&id=3D65fbd438d7&e=3D318ed04536" target=3D"_blank" style=3D"wor=
+d-wrap: break-word;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 10=
+0%;"><img src=3D"http://cdn-images.mailchimp.com/icons/social-block-v2/lig=
+ht-googleplus-96.png" alt=3D"Google Plus" class=3D"mcnFollowBlockIcon" wid=
+th=3D"48" style=3D"width: 48px;max-width: 48px;display: block;border: 0;ou=
+tline: none;text-decoration: none;-ms-interpolation-mode: bicubic;"></a>
+=09=09=09                                        </td>
+=09=09=09                                    </tr>
+=09=09=09
+=09=09=09
+=09=09=09                                    <tr>
+=09=09=09                                        <td align=3D"center" vali=
+gn=3D"top" class=3D"mcnFollowTextContent" style=3D"padding-right: 10px;pad=
+ding-bottom: 9px;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size=
+-adjust: 100%;-webkit-text-size-adjust: 100%;">
+=09=09=09                                            <a href=3D"http://sce=
+narii-video-multimedia.us9.list-manage.com/track/click?u=3Dd354b6618792b27=
+feff21208d&id=3Dd672c9581f&e=3D318ed04536" target=3D"_blank" style=3D"col=
+or: #606060;font-family: Arial;font-size: 11px;font-weight: normal;text-de=
+coration: none;line-height: 100%;text-align: center;word-wrap: break-word;=
+-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">Google Plus</a=
+>
+=09=09=09                                        </td>
+=09=09=09                                    </tr>
+=09=09=09
+=09=09=09                                </tbody></table>
+=09=09=09
+=09=09=09
+=09=09=09
+=09=09=09
+=09=09=09                                <table align=3D"left" border=3D"0=
+" cellpadding=3D"0" cellspacing=3D"0" class=3D"mcnFollowStacked" style=3D"=
+border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-=
+text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+=09=09=09
+=09=09=09                                    <tbody><tr>
+=09=09=09                                        <td align=3D"center" vali=
+gn=3D"top" class=3D"mcnFollowIconContent" style=3D"padding-right: 10px;pad=
+ding-bottom: 5px;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size=
+-adjust: 100%;-webkit-text-size-adjust: 100%;">
+=09=09=09                                            <a href=3D"http://sce=
+narii-video-multimedia.us9.list-manage.com/track/click?u=3Dd354b6618792b27=
+feff21208d&id=3D2347aa202b&e=3D318ed04536" target=3D"_blank" style=3D"wor=
+d-wrap: break-word;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 10=
+0%;"><img src=3D"http://cdn-images.mailchimp.com/icons/social-block-v2/lig=
+ht-youtube-96.png" alt=3D"YouTube" class=3D"mcnFollowBlockIcon" width=3D"4=
+8" style=3D"width: 48px;max-width: 48px;display: block;border: 0;outline:=
+ none;text-decoration: none;-ms-interpolation-mode: bicubic;"></a>
+=09=09=09                                        </td>
+=09=09=09                                    </tr>
+=09=09=09
+=09=09=09
+=09=09=09                                    <tr>
+=09=09=09                                        <td align=3D"center" vali=
+gn=3D"top" class=3D"mcnFollowTextContent" style=3D"padding-right: 10px;pad=
+ding-bottom: 9px;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size=
+-adjust: 100%;-webkit-text-size-adjust: 100%;">
+=09=09=09                                            <a href=3D"http://sce=
+narii-video-multimedia.us9.list-manage.com/track/click?u=3Dd354b6618792b27=
+feff21208d&id=3De1d8340962&e=3D318ed04536" target=3D"_blank" style=3D"col=
+or: #606060;font-family: Arial;font-size: 11px;font-weight: normal;text-de=
+coration: none;line-height: 100%;text-align: center;word-wrap: break-word;=
+-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">YouTube</a>
+=09=09=09                                        </td>
+=09=09=09                                    </tr>
+=09=09=09
+=09=09=09                                </tbody></table>
+=09=09=09
+=09=09=09
+=09=09=09
+=09=09=09
+=09=09=09                                <table align=3D"left" border=3D"0=
+" cellpadding=3D"0" cellspacing=3D"0" class=3D"mcnFollowStacked" style=3D"=
+border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-=
+text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+=09=09=09
+=09=09=09                                    <tbody><tr>
+=09=09=09                                        <td align=3D"center" vali=
+gn=3D"top" class=3D"mcnFollowIconContent" style=3D"padding-right: 0;paddin=
+g-bottom: 5px;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-ad=
+just: 100%;-webkit-text-size-adjust: 100%;">
+=09=09=09                                            <a href=3D"http://sce=
+narii-video-multimedia.us9.list-manage1.com/track/click?u=3Dd354b6618792b2=
+7feff21208d&id=3Dbc998f9414&e=3D318ed04536" target=3D"_blank" style=3D"wo=
+rd-wrap: break-word;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 1=
+00%;"><img src=3D"http://cdn-images.mailchimp.com/icons/social-block-v2/li=
+ght-linkedin-96.png" alt=3D"LinkedIn" class=3D"mcnFollowBlockIcon" width=
+=3D"48" style=3D"width: 48px;max-width: 48px;display: block;border: 0;outl=
+ine: none;text-decoration: none;-ms-interpolation-mode: bicubic;"></a>
+=09=09=09                                        </td>
+=09=09=09                                    </tr>
+=09=09=09
+=09=09=09
+=09=09=09                                    <tr>
+=09=09=09                                        <td align=3D"center" vali=
+gn=3D"top" class=3D"mcnFollowTextContent" style=3D"padding-right: 0;paddin=
+g-bottom: 9px;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-ad=
+just: 100%;-webkit-text-size-adjust: 100%;">
+=09=09=09                                            <a href=3D"http://sce=
+narii-video-multimedia.us9.list-manage.com/track/click?u=3Dd354b6618792b27=
+feff21208d&id=3Dddf8561820&e=3D318ed04536" target=3D"_blank" style=3D"col=
+or: #606060;font-family: Arial;font-size: 11px;font-weight: normal;text-de=
+coration: none;line-height: 100%;text-align: center;word-wrap: break-word;=
+-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">LinkedIn</a>
+=09=09=09                                        </td>
+=09=09=09                                    </tr>
+=09=09=09
+=09=09=09                                </tbody></table>
+=09=09=09
+=09=09=09
+=09=09=09
+=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09</tbody></table>
+                    </td>
+                </tr>
+            </tbody></table>
+        </td>
+    </tr>
+</tbody></table>
+
+            </td>
+        </tr>
+    </tbody>
+</table><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"1=
+00%" class=3D"mcnImageBlock" style=3D"min-width: 100%;border-collapse: col=
+lapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 10=
+0%;-webkit-text-size-adjust: 100%;">
+    <tbody class=3D"mcnImageBlockOuter">
+            <tr>
+                <td valign=3D"top" style=3D"padding: 9px;mso-table-lspace:=
+ 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-ad=
+just: 100%;" class=3D"mcnImageBlockInner">
+                    <table align=3D"left" width=3D"100%" border=3D"0" cell=
+padding=3D"0" cellspacing=3D"0" class=3D"mcnImageContentContainer" style=
+=3D"min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-ta=
+ble-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;=
+">
+                        <tbody><tr>
+                            <td class=3D"mcnImageContent" valign=3D"top" s=
+tyle=3D"padding-right: 9px;padding-left: 9px;padding-top: 0;padding-bottom=
+: 0;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%=
+;-webkit-text-size-adjust: 100%;">
+
+                                    <a href=3D"http://scenarii-video-multi=
+media.us9.list-manage1.com/track/click?u=3Dd354b6618792b27feff21208d&id=3D=
+df36fe19b0&e=3D318ed04536" title=3D"" class=3D"" target=3D"_blank" style=
+=3D"word-wrap: break-word;-ms-text-size-adjust: 100%;-webkit-text-size-adj=
+ust: 100%;">
+                                        <img align=3D"left" alt=3D"" src=
+=3D"https://gallery.mailchimp.com/d354b6618792b27feff21208d/images/8a48b22=
+7-e896-4d81-9533-c1f8ee372c69.jpg" width=3D"564" style=3D"max-width: 600px=
+;padding-bottom: 0;display: inline !important;vertical-align: bottom;borde=
+r: 0;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;"=
+ class=3D"mcnImage">
+                                    </a>
+
+                            </td>
+                        </tr>
+                    </tbody></table>
+                </td>
+            </tr>
+    </tbody>
+</table><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"1=
+00%" class=3D"mcnTextBlock" style=3D"border-collapse: collapse;mso-table-l=
+space: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-s=
+ize-adjust: 100%;">
+    <tbody class=3D"mcnTextBlockOuter">
+        <tr>
+            <td valign=3D"top" class=3D"mcnTextBlockInner" style=3D"mso-ta=
+ble-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-t=
+ext-size-adjust: 100%;">
+
+                <table align=3D"left" border=3D"0" cellpadding=3D"0" cells=
+pacing=3D"0" width=3D"600" class=3D"mcnTextContentContainer" style=3D"bord=
+er-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text=
+-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                    <tbody><tr>
+
+                        <td valign=3D"top" class=3D"mcnTextContent" style=
+=3D"padding-top: 9px;padding-right: 18px;padding-bottom: 9px;padding-left:=
+ 18px;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 10=
+0%;-webkit-text-size-adjust: 100%;color: #606060;font-family: Helvetica;fo=
+nt-size: 11px;line-height: 125%;text-align: left;">
+
+                            <em>Copyright =C2=A9 2015 Scenarii V&M=2C All=
+ rights reserved.</em><br>
+ Scenarii V&M=2C agence de communication globale =C3=A0 Rennes=2C vous inv=
+ite au changement.<br>
+<br>
+<br>
+<div class=3D"vcard"><span class=3D"org fn">Scenarii V&M</span><div class=
+=3D"adr"><div class=3D"street-address">158 rue de Foug=C3=A8res</div><span=
+ class=3D"locality">Rennes</span> <span class=3D"postal-code">35700</span>=
+ <div class=3D"country-name">France</div></div><br><a href=3D"http://scena=
+rii-video-multimedia.us9.list-manage1.com/vcard?u=3Dd354b6618792b27feff212=
+08d&id=3D27adf91259" class=3D"hcard-download">Add us to your address book<=
+/a></div>
+<br>
+<br>
+<a class=3D"utilityLink" href=3D"http://scenarii-video-multimedia.us9.list=
+-manage.com/unsubscribe?u=3Dd354b6618792b27feff21208d&id=3D27adf91259&e=3D=
+318ed04536&c=3D6b2e857e5d" style=3D"word-wrap: break-word;-ms-text-size-adju=
+st: 100%;-webkit-text-size-adjust: 100%;color: #606060;font-weight: normal=
+;text-decoration: underline;">Se d=C3=A9sinscrire</a>&nbsp;&nbsp;&nbsp; <a=
+ class=3D"utilityLink" href=3D"http://scenarii-video-multimedia.us9.list-m=
+anage.com/profile?u=3Dd354b6618792b27feff21208d&id=3D27adf91259&e=3D=
+318ed04536" style=3D"word-wrap: break-word;-ms-text-size-adjust: 100%;-webkit-text=
+-size-adjust: 100%;color: #606060;font-weight: normal;text-decoration: und=
+erline;">Mettre =C3=A0 jour mon profil</a>&nbsp;<br>
+<br>
+                        </td>
+                    </tr>
+                </tbody></table>
+
+            </td>
+        </tr>
+    </tbody>
+</table></td>
+                                        </tr>
+                                    </table>
+                                    <!-- // END FOOTER -->
+                                </td>
+                            </tr>
+                        </table>
+                        <!-- // END TEMPLATE -->
+                    </td>
+                </tr>
+            </table>
+        </center>
+    <img src=3D"http://scenarii-video-multimedia.us9.list-manage.com/track=
+/open.php?u=3Dd354b6618792b27feff21208d&id=3D6b2e857e5d&e=3D318ed04536" h=
+eight=3D"1" width=3D"1"></body>
+</html>
+--_----------=_MCPart_606118393--

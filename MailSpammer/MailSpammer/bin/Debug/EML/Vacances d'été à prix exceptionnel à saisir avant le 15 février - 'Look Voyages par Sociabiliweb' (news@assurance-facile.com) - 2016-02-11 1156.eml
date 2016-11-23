@@ -1,0 +1,895 @@
+Return-Path: <return-a18-3046-3047-resp-m2-miage=univ-rennes1.fr=4@assurance-facile.com>
+Received: from mailimailo.univ-rennes1.fr ([unix socket])
+	 by mailimailo.univ-rennes1.fr (Cyrus v2.3.16-Fedora-RPM-2.3.16-6.el6_2.5) with LMTPA;
+	 Thu, 11 Feb 2016 11:56:29 +0100
+X-Sieve: CMU Sieve 2.3
+Received: from mailout1.univ-rennes1.fr (mailout1.univ-rennes1.fr [129.20.128.162])
+	by mailimailo.univ-rennes1.fr (Postfix) with ESMTP id B651326A0BDA
+	for <resp-m2-miage@univ-rennes1.fr>; Thu, 11 Feb 2016 11:56:29 +0100 (CET)
+Received: from localhost (vmscanmail.univ-rennes1.fr [129.20.128.134])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id B2E706006D
+	for <resp-m2-miage@univ-rennes1.fr>; Thu, 11 Feb 2016 11:56:29 +0100 (CET)
+X-Virus-Scanned: amavisd-new at univ-rennes1.fr
+Received: from mailout1.univ-rennes1.fr ([129.20.128.162])
+	by localhost (vmscanmail.univ-rennes1.frm [129.20.128.134]) (amavisd-new, port 10026)
+	with ESMTP id 34XD0jd7T0Td for <resp-m2-miage@univ-rennes1.fr>;
+	Thu, 11 Feb 2016 11:56:29 +0100 (CET)
+Received: from vmmailin.univ-rennes1.fr (vmmailin.univ-rennes1.fr [129.20.128.133])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id 8DF006006C
+	for <resp-m2-miage@univ-rennes1.fr>; Thu, 11 Feb 2016 11:56:29 +0100 (CET)
+Received: from mxb2-1.relay.renater.fr (mxb2-1.relay.renater.fr [194.214.200.8])
+	by vmmailin.univ-rennes1.fr (Postfix) with ESMTP id 8656320033
+	for <resp-m2-miage@univ-rennes1.fr>; Thu, 11 Feb 2016 11:56:29 +0100 (CET)
+Received: from smtp1-19.revue-en-ligne.com (smtp1-19.revue-en-ligne.com [5.196.210.146])
+	by mxb2-1.relay.renater.fr (asm) with SMTP id 3E7046002A9
+	for <resp-m2-miage@univ-rennes1.fr>; Thu, 11 Feb 2016 11:56:29 +0100 (CET)
+Received: (GreenArrow 1351 invoked by uid 410); 11 Feb 2016 10:56:29 -0000
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed;
+	d=assurance-facile.com; s=default; h=Subject:From:To:Date:
+	List-Unsubscribe:Message-ID:MIME-Version:Content-Type; bh=3Me4/2
+	rgquoWsLxakzYO+sZJlM8=; b=Lw1BPOhY4h+3YGcXrXIHjT3SZAdfwDNcZLZdjq
+	WPHvd3u0V+NKM6BjTGCzI8e3SuaHdcQUR2qCfW6FBvxKFH2pzms74sT4w0G1F9Rc
+	ctXRmS0dHhukyu0O86Fjcfd7uEmy/FbtI6vuTkLjKBnpnCoTnQnMvfCebBRuGQmY
+	wY16U=
+Subject: =?UTF-8?Q?Vacances=20d=27=C3=A9t=C3=A9=20=C3=A0=20prix=20excep?=
+ =?UTF-8?Q?tionnel=20=C3=A0=20saisir=20avant=20le=2015=20f=C3=A9vrier?=
+From: "Look Voyages par Sociabiliweb" <news@assurance-facile.com>
+To: resp-m2-miage@univ-rennes1.fr
+Date: 11 Feb 2016 10:56:29 -0000
+List-Unsubscribe: <http://assurance-facile.com/ga/unsubscribe/2-11527895-18-1578-3047-ed35df89ef15825-f6d3c7a2ab>,
+ <mailto:return-a18-3046-3047-resp-m2-miage=univ-rennes1.fr=4u@assurance-facile.com>
+X-Mailer: GreenArrow Studio (v4.65.0)
+X-CampaignID: s4:3046-f0636f9e9b289540
+Message-ID: <mid-bb8f5d76de0b3065316f006a425d9ea4@assurance-facile.com>
+X-Mailer-Info: 4.hFDO.wMwQjN.IXZzBXLtJTLtlWYnVGQ15Wa21icl5mblNXMuYmc.wMwQzN
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="==8a6b2841d6d05f36a6bd622cb9b9a69d"
+X-UCE-Status: YES
+X-UCE-Type: MCE
+X-Original-Source-IP: 5.196.210.146
+X-Bizanga: IMP - mxb2-1.relay.renater.fr
+X-Renater-SpamState: 11
+X-Renater-SpamScore: 17
+X-Renater-SpamCause: gggruggvucftvghtrhhoucdtuddrfeekjedrfeeggddvtdcutefuodetggdotefrodftvfcurfhrohhfihhlvgemucftgffptefvgfftpdggtfgfnhhsuhgsshgtrhhisggvnecuuegrihhlohhuthemuceftddtnecundfotefknffkpffiucdludejmdenucfjughrpefuhffvfffjoffkgggtsegrtderreertdejnecuhfhrohhmpedfnfhoohhkucggohihrghgvghsuchprghrucfuohgtihgrsghilhhifigvsgdfuceonhgvfihssegrshhsuhhrrghntggvqdhfrggtihhlvgdrtghomheqnecuffhomhgrihhnpegrshhsuhhrrghntggvqdhfrggtihhlvgdrtghomhenucfrrghrrghmpehmohguvgepshhmthhppdhhvghlohepshhmthhpuddqudelrdhrvghvuhgvqdgvnhdqlhhighhnvgdrtghomhdpihhnvghtpeehrdduleeirddvuddtrddugeeipdhmrghilhhfrhhomheprhgvthhurhhnqdgrudekqdeftdegiedqfedtgeejqdhrvghsphdqmhdvqdhmihgrghgvpehunhhivhdqrhgvnhhnvghsuddrfhhrpeegsegrshhsuhhrrghntggvqdhfrggtihhlvgdrtghomhdprhgtphhtthhopehrvghsphdqmhdvqdhmihgrghgvsehunhhivhdqrhgvnhhnvghsuddrfhhr 
+X-Renater-ServerName: mxb2-1.relay.renater.fr
+
+This is a multi-part message in MIME format.
+
+--==8a6b2841d6d05f36a6bd622cb9b9a69d
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+-->
+
+Logo Look Voyages ( http://assurance-facile.com/ga/click/2-11527895-18-1578=
+-3047-21951-0c6ff336f2-f6d3c7a2ab )
+
+Infos & r=C3=A9servation 0892 020 025(1)
+
+et dans nos agences de voyages ( http://assurance-facile.com/ga/click/2-115=
+27895-18-1578-3047-21952-5a6aa2fd9f-f6d3c7a2ab )
+
+blanc
+blanc
+blanc
+blanc
+
+blanc
+blanc
+blanc
+blanc
+
+fleche Look Voyages
+Plus que quelques jours pour r=C3=A9server
+
+vos vacances d=E2=80=99=C3=A9t=C3=A9 =C3=A0 des prix exceptionnels.
+
+blanc
+blanc
+blanc
+blanc
+
+Vite, j'en profite - R=C3=A9servez-t=C3=B4t, payez moins cher ( http://assu=
+rance-facile.com/ga/click/2-11527895-18-1578-3047-21953-21c285114e-f6d3c7a2=
+ab )
+Avis aux retardataires ! Vous pouvez encore
+profiter des tarifs "R=C3=A9servez-t=C3=B4t, payez moins cher" jusqu'au 15
+f=C3=A9vrier 2016, en Exclusivit=C3=A9 Internet sur Look-voyages.fr Ne
+tardez plus, les stocks sont limit=C3=A9s !
+
+D=C3=A9couvrez =C3=A9galement nos exclus web ( http://assurance-facile.com/=
+ga/click/2-11527895-18-1578-3047-21954-0f3b2485ee-f6d3c7a2ab ): des s=C3=A9=
+jours in=C3=A9dits et moins chers qu=E2=80=99ailleurs s=C3=A9lectionn=C3=A9=
+s au
+quotidien par nos experts !
+
+MEILLEUR PRIX INTERNET *
+
+Moins cher ailleurs
+
+sur internet ? On s'aligne !
+
+Et en plus, nous vous
+
+offrons 100=E2=82=AC sur un prochain
+
+s=C3=A9jour en Club Look=C3=A9a.
+
+PACK 100% TRANQUILLE *
+
+3 garanties rien que pour
+
+vous ! Valeur : 45=E2=82=AC OFFERT
+
+pour toute r=C3=A9servation
+
+hors promotions et offres
+
+sp=C3=A9ciales.
+
+PARTIR SEREIN
+
+Pour votre confort et votre
+
+s=C3=A9r=C3=A9nit=C3=A9, pensez =C3=A0 souscrire
+
+nos assurances voyages
+
+NOS AGENCES
+
+Trouvez l'agence pr=C3=A8s de chez vous ( http://assurance-facile.com/ga/cl=
+ick/2-11527895-18-1578-3047-21952-5a6aa2fd9f-f6d3c7a2ab )
+Trouver l'agence la plus proche
+
+de chez vous. ( http://assurance-facile.com/ga/click/2-11527895-18-1578-304=
+7-21952-5a6aa2fd9f-f6d3c7a2ab )
+
+(1) 0,40 =E2=82=AC TTC/min. 15=E2=82=AC de frais par dossier, en cas de
+r=C3=A9servation par t=C3=A9l=C3=A9phone.
+
+*Les avantages cit=C3=A9s ci-dessus sont soumis =C3=A0 conditions
+( http://assurance-facile.com/ga/click/2-11527895-18-1578-3047-21955-04b2ed=
+8226-f6d3c7a2ab )=
+
+--==8a6b2841d6d05f36a6bd622cb9b9a69d
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.=
+w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml">
+<head>
+	<meta content=3D"text/html; charset=3DUTF-8" http-equiv=3D"Content-Type" />
+	<meta content=3D"initial-scale=3D1.0" name=3D"viewport" />
+	<meta content=3D"telephone=3Dno" name=3D"format-detection" />
+	<title>R&eacute;servez t&ocirc;t, payez moins cher cet hiver !</title>
+	<style type=3D"text/css">/* RESET */
+.ReadMsgBody {
+	width: 100%;
+	background-color: #ffffff;
+}
+.ExternalClass {
+	width: 100%;
+	background-color: #ffffff;
+}
+.ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font,=
+ .ExternalClass td, .ExternalClass div {
+	line-height:100%;
+}
+html {
+	width: 100%;
+}
+body {
+	-webkit-text-size-adjust:none;
+	-ms-text-size-adjust:none;
+}
+body {
+	margin:0;
+	padding:0;
+}
+table {
+	border-spacing:0;
+}
+table td {
+	border-collapse:collapse;
+}
+.yshortcuts a {
+	border-bottom: none !important;
+}
+img {
+	height:auto !important;
+}
+/* FIN RESET */
+
+
+@media only screen and (max-width: 400px) {
+ body {
+width:auto!important;
+}
+ table[class=3D"container"] {
+ width: 100%!important;
+ padding-left:10px !important;
+ padding-right:10px !important;
+}
+ table[class=3D"container2"] {
+ width: 100%!important;
+ float:none !important;
+}
+ table[class=3D"offres"] {
+ width: 48% !important;
+ margin-left: 2% !important;
+}
+ table[class=3D"full-width"] {
+ width:100% !important;
+ float:left !important;
+}
+ table[class=3D"full-width-center"] {
+ width:100% !important;
+ float:left !important;
+ text-align: center !important;
+}
+ table[class=3D"remove"] {
+display:none !important;
+}
+ td[class=3D"col-underline"] {
+ float: none !important;
+ width: 100% !important;
+}
+ td[class=3D"remove"] {
+display:none !important;
+}
+ td[class=3D"padding-left-20"] {
+ padding:0 !important;
+ padding-left:20px !important;
+}
+ td[class=3D"padding-10"] {
+ padding:0 10px !important;
+}
+ td[class=3D"full-width-center"] {
+ width:100% !important;
+ float:left !important;
+ text-align: center !important;
+}
+ td[class=3D"text-center"] {
+ text-align: center !important;
+}
+ td[class=3D"height-auto"] {
+height: auto !important;
+}
+ img[class=3D"image-100-percent-small"] {
+ width:100% !important;
+ margin:0 !important;
+ height: auto !important;
+ max-width: 100% !important;
+}
+ table[class=3D"width-305"] {
+width: 305px !important;
+}
+ a[id=3D"logo-lookvoyages"] img{display: none !important;}
+  a[id=3D"logo-lookvoyages"]{
+    width: 300px !important;
+    height: 60px !important;
+    background: url('http://www.look-voyages.fr/STATIC/NEWS/LOOKVOYAGES/B2C=
+/template/logo-look-retina.png') no-repeat center;
+    background-size: 300px 60px;
+    display: block;
+  }
+}
+	</style>
+</head>
+<body border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"font-size:1=
+2px; margin: 0; padding: 0;"><!-- rpcampaign: LOOKclients<%=3D formatDate(n=
+ew Date(), "%2D%2M%2Y") %>-->
+<p><img height=3D"1" src=3D"https://pixel.monitor1.returnpath.net/pixel.gif=
+?r=3Dd184540ddee0b186a45e5469bfcfd1bdec35da7a&brand=3Dlook" width=3D"1" /><=
+!-- **************************************** --><!-- HEADER --></p>
+
+<table bgcolor=3D"white" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" w=
+idth=3D"100%">
+	<tbody>
+		<tr>
+			<td align=3D"center" valign=3D"top">
+			<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ class=3D"container" width=3D"690">
+				<tbody>
+					<tr>
+						<td height=3D"10" valign=3D"top"></td>
+					</tr>
+					<tr>
+						<td valign=3D"top"><!-- LOGO -->
+						<table align=3D"left" border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" class=3D"full-width">
+							<tbody>
+								<tr>
+									<td class=3D"remove" height=3D"5" valign=3D"top"></td>
+								</tr>
+								<tr>
+									<td align=3D"center" height=3D"60" valign=3D"mindle"><a href=3D"ht=
+tp://assurance-facile.com/ga/click/2-11527895-18-1578-3047-21951-0c6ff336f2=
+-f6d3c7a2ab" id=3D"logo-lookvoyages" style=3D"text-decoration: none;" targe=
+t=3D"_blank" title=3D"Accueil Look Voyages"><img alt=3D"Logo Look Voyages" =
+border=3D"0" class=3D"image-100-percent-small" hspace=3D"0" src=3D"http://w=
+ww.look-voyages.fr/STATIC/NEWS/LOOKVOYAGES/B2C/template/logo-look-retina-pc=
+.png" style=3D"max-width: 400px; display: block;" vspace=3D"0" width=3D"400=
+" /></a></td>
+								</tr>
+							</tbody>
+						</table>
+						<!-- FIN LOGO --><!-- INFO -->
+
+						<table align=3D"right" border=3D"0" cellpadding=3D"0" cellspacing=3D"=
+0" class=3D"container2">
+							<tbody>
+								<tr>
+									<td height=3D"15" valign=3D"top"></td>
+								</tr>
+								<tr>
+									<td style=3D"text-align: center; color: #333333; line-height: 18px=
+; font-family: Arial, sans-serif; font-size: 14px; font-weight: normal;"><b=
+>Infos &amp; r&eacute;servation 0892 020 025</b><sup><span style=3D"text-al=
+ign: left; font-size: 8px;">(1)</span></sup><br />
+									et dans <a _label=3D"" href=3D"http://assurance-facile.com/ga/clic=
+k/2-11527895-18-1578-3047-21952-5a6aa2fd9f-f6d3c7a2ab" style=3D"color: #008=
+db0;" target=3D"_blank" title=3D"Nos agences de voyages">nos agences de voy=
+ages</a></td>
+								</tr>
+							</tbody>
+						</table>
+						<!-- FIN INFO --></td>
+					</tr>
+					<tr>
+						<td height=3D"10"></td>
+					</tr>
+				</tbody>
+			</table>
+			</td>
+		</tr>
+		<!-- DEBUG RESPONSIVE GMAIL -->
+		<tr>
+			<td valign=3D"top">
+			<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ class=3D"container2" width=3D"690">
+				<tbody>
+					<tr>
+						<td align=3D"left" valign=3D"top"><img alt=3D"blanc" border=3D"0" cla=
+ss=3D"image-100-percent-small" height=3D"1" hspace=3D"0" src=3D"http://www.=
+look-voyages.fr/mkt/look/img/news/news_btoc/20140122-anniversaire/vide.gif"=
+ style=3D"display: block;" vspace=3D"0" width=3D"170" /></td>
+						<td align=3D"left" valign=3D"top"><img alt=3D"blanc" border=3D"0" cla=
+ss=3D"image-100-percent-small" height=3D"1" hspace=3D"0" src=3D"http://www.=
+look-voyages.fr/mkt/look/img/news/news_btoc/20140122-anniversaire/vide.gif"=
+ style=3D"display: block;" vspace=3D"0" width=3D"170" /></td>
+						<td align=3D"left" valign=3D"top"><img alt=3D"blanc" border=3D"0" cla=
+ss=3D"image-100-percent-small" height=3D"1" hspace=3D"0" src=3D"http://www.=
+look-voyages.fr/mkt/look/img/news/news_btoc/20140122-anniversaire/vide.gif"=
+ style=3D"display: block;" vspace=3D"0" width=3D"170" /></td>
+						<td align=3D"left" valign=3D"top"><img alt=3D"blanc" border=3D"0" cla=
+ss=3D"image-100-percent-small" height=3D"1" hspace=3D"0" src=3D"http://www.=
+look-voyages.fr/mkt/look/img/news/news_btoc/20140122-anniversaire/vide.gif"=
+ style=3D"display: block;" vspace=3D"0" width=3D"170" /></td>
+					</tr>
+				</tbody>
+			</table>
+			</td>
+		</tr>
+		<!-- FIN DEBUG RESPONSIVE GMAIL -->
+	</tbody>
+</table>
+<!-- FIN HEADER --><!-- **************************************** -->
+
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%"><!--=
+ **************************************** --><!-- GLOBAL DEBUG -->
+	<tbody>
+		<tr>
+			<td align=3D"center" valign=3D"top"><!-- WRAP DEBUG -->
+			<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ summary=3D"Produit 1" width=3D"100%">
+				<tbody>
+					<tr>
+						<td align=3D"center" valign=3D"top">
+						<table align=3D"center" bgcolor=3D"#ffffff" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" class=3D"container" style=3D"padding-right: 5px; p=
+adding-left: 5px;" width=3D"700">
+							<tbody>
+								<tr>
+									<td valign=3D"top">
+									<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" class=3D"full-width" width=3D"690"><!-- DEBUG -->
+										<tbody>
+											<tr>
+												<td class=3D"col-underline" valign=3D"top">
+												<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" class=3D"container2" width=3D"690"><!-- DEBUG RESPONSIVE GMAIL -->
+													<tbody>
+														<tr>
+															<td align=3D"left" valign=3D"top"><img alt=3D"blanc" border=
+=3D"0" class=3D"image-100-percent-small" height=3D"1" hspace=3D"0" src=3D"h=
+ttp://www.look-voyages.fr/mkt/look/img/news/news_btoc/20140122-anniversaire=
+/vide.gif" style=3D"display: block;" vspace=3D"0" width=3D"170" /></td>
+															<td align=3D"left" valign=3D"top"><img alt=3D"blanc" border=
+=3D"0" class=3D"image-100-percent-small" height=3D"1" hspace=3D"0" src=3D"h=
+ttp://www.look-voyages.fr/mkt/look/img/news/news_btoc/20140122-anniversaire=
+/vide.gif" style=3D"display: block;" vspace=3D"0" width=3D"170" /></td>
+															<td align=3D"left" valign=3D"top"><img alt=3D"blanc" border=
+=3D"0" class=3D"image-100-percent-small" height=3D"1" hspace=3D"0" src=3D"h=
+ttp://www.look-voyages.fr/mkt/look/img/news/news_btoc/20140122-anniversaire=
+/vide.gif" style=3D"display: block;" vspace=3D"0" width=3D"170" /></td>
+															<td align=3D"left" valign=3D"top"><img alt=3D"blanc" border=
+=3D"0" class=3D"image-100-percent-small" height=3D"1" hspace=3D"0" src=3D"h=
+ttp://www.look-voyages.fr/mkt/look/img/news/news_btoc/20140122-anniversaire=
+/vide.gif" style=3D"display: block;" vspace=3D"0" width=3D"170" /></td>
+														</tr>
+														<!-- FIN DEBUG RESPONSIVE GMAIL -->
+													</tbody>
+												</table>
+												</td>
+											</tr>
+											<!-- FIN DEBUG -->
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			<!-- FIN WRAP DEBUG --></td>
+		</tr>
+		<!-- FIN GLOBAL DEBUG --><!-- **************************************** --=
+><!-- **************************************** --><!-- GLOBAL (PRODUIT PRIN=
+CIPAL + TITRE PRINCIPAL) -->
+		<tr>
+			<td align=3D"center" valign=3D"top"><!-- WRAP (PRODUIT PRINCIPAL + TITRE=
+ PRINCIPAL) -->
+			<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ summary=3D"Produit 1" width=3D"100%">
+				<tbody>
+					<tr>
+						<td align=3D"center" valign=3D"top"><!-- CONTENEUR (PRODUIT PRINCIPAL=
+ + TITRE PRINCIPAL) -->
+						<table align=3D"center" bgcolor=3D"#ffffff" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" class=3D"container" style=3D"padding-right: 5px; p=
+adding-left: 5px;" width=3D"700">
+							<tbody>
+								<tr>
+									<td height=3D"15"></td>
+								</tr>
+								<!-- TITRE PRINCIPAL -->
+								<tr>
+									<td valing=3D"top">
+									<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" class=3D"full-width" width=3D"690">
+										<tbody>
+											<tr>
+												<td valign=3D"top">
+												<table align=3D"left" border=3D"0" cellpadding=3D"0" cellspacin=
+g=3D"0" height=3D"20">
+													<tbody>
+														<tr>
+															<td valign=3D"top" width=3D"30"><img alt=3D"fleche Look Voya=
+ges" src=3D"http://www.look-voyages.fr/mkt/look/img/news/news_btoc/template=
+-responsive/fleche-look.jpg" style=3D"display: block; max-width: 30px;" wid=
+th=3D"30" /></td>
+															<td style=3D"text-align: left; color: #e53517; line-height: =
+16px; padding-right: 10px; padding-left: 10px; font-family: Arial, Helvetic=
+a, sans-serif,Tahoma; font-size: 18px; font-weight: bold;" valign=3D"mindle=
+" width=3D"599"><span style=3D"color: #e53517; font-weight: bold; text-tran=
+sform: uppercase;">Plus que quelques jours pour r&eacute;server<br />
+															vos vacances d&rsquo;&eacute;t&eacute; &agrave; des prix exc=
+eptionnels. </span></td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+								<tr>
+									<td valing=3D"top">
+									<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" class=3D"full-width" style=3D"background-color: #eee;" width=3D"690">
+										<tbody>
+											<tr>
+												<td height=3D"2" valign=3D"top"></td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+								<!-- FIN TITRE PRINCIPAL -->
+								<tr>
+									<td valign=3D"top">
+									<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" class=3D"full-width" width=3D"690"><!-- PRODUIT PRINCIPAL -->
+										<tbody>
+											<tr>
+												<td class=3D"col-underline" valign=3D"top"><!-- IMAGE PRODUIT P=
+RINCIPAL -->
+												<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" class=3D"container2" width=3D"690"><!-- DEBUG RESPONSIVE GMAIL -->
+													<tbody>
+														<tr>
+															<td align=3D"left" valign=3D"top"><img alt=3D"blanc" border=
+=3D"0" class=3D"image-100-percent-small" height=3D"1" hspace=3D"0" src=3D"h=
+ttp://www.look-voyages.fr/mkt/look/img/news/news_btoc/20140122-anniversaire=
+/vide.gif" style=3D"display: block;" vspace=3D"0" width=3D"170" /></td>
+															<td align=3D"left" valign=3D"top"><img alt=3D"blanc" border=
+=3D"0" class=3D"image-100-percent-small" height=3D"1" hspace=3D"0" src=3D"h=
+ttp://www.look-voyages.fr/mkt/look/img/news/news_btoc/20140122-anniversaire=
+/vide.gif" style=3D"display: block;" vspace=3D"0" width=3D"170" /></td>
+															<td align=3D"left" valign=3D"top"><img alt=3D"blanc" border=
+=3D"0" class=3D"image-100-percent-small" height=3D"1" hspace=3D"0" src=3D"h=
+ttp://www.look-voyages.fr/mkt/look/img/news/news_btoc/20140122-anniversaire=
+/vide.gif" style=3D"display: block;" vspace=3D"0" width=3D"170" /></td>
+															<td align=3D"left" valign=3D"top"><img alt=3D"blanc" border=
+=3D"0" class=3D"image-100-percent-small" height=3D"1" hspace=3D"0" src=3D"h=
+ttp://www.look-voyages.fr/mkt/look/img/news/news_btoc/20140122-anniversaire=
+/vide.gif" style=3D"display: block;" vspace=3D"0" width=3D"170" /></td>
+														</tr>
+														<!-- FIN DEBUG RESPONSIVE GMAIL -->
+														<tr>
+															<td colspan=3D"4" height=3D"5"></td>
+														</tr>
+														<tr>
+															<td colspan=3D"4" valign=3D"middle"><a href=3D"http://assura=
+nce-facile.com/ga/click/2-11527895-18-1578-3047-21953-21c285114e-f6d3c7a2ab=
+" style=3D"text-decoration: none;" target=3D"_blank" title=3D"R=C3=A9servez=
+-t=C3=B4t =C3=A9t=C3=A9 2016"><img alt=3D"Vite, j'en profite - R=C3=A9serve=
+z-t=C3=B4t, payez moins cher" border=3D"0" class=3D"image-100-percent-small=
+" hspace=3D"0" src=3D"http://www.look-voyages.fr/STATIC/NEWS/LOOKVOYAGES/B2=
+C/2016/0201-prolongationrt/ligne1.jpg" style=3D"display: block;" title=3D"B=
+outon Vite, j'en profite - R=C3=A9servez-t=C3=B4t, payez moins cher" vspace=
+=3D"0" width=3D"690" /></a>
+															<p style=3D"font-size: 13px; font-family:Arial, Helvetica, s=
+ans-serif;color:#333333;padding-left:10px;padding-right:10px; padding-top:0=
+px; line-height:1.7em">Avis aux retardataires ! Vous pouvez encore profiter=
+ des tarifs <strong>&quot;R&eacute;servez-t&ocirc;t, payez moins cher&quot;=
+ jusqu&#39;au 15 f&eacute;vrier 2016, en Exclusivit&eacute; Internet sur Lo=
+ok-voyages.fr </strong> Ne tardez plus, les stocks sont limit&eacute;s !<br=
+ />
+															<br />
+															D&eacute;couvrez &eacute;galement nos <strong><a href=3D"htt=
+p://assurance-facile.com/ga/click/2-11527895-18-1578-3047-21954-0f3b2485ee-=
+f6d3c7a2ab" style=3D"color:#DC241F" target=3D"_blank" title=3D"exclus web">=
+exclus web </a></strong>: des s&eacute;jours in&eacute;dits et moins chers =
+qu&rsquo;ailleurs s&eacute;lectionn&eacute;s au quotidien par nos experts !=
+</p>
+															</td>
+														</tr>
+													</tbody>
+												</table>
+												<!-- FIN IMAGE PRODUIT PRINCIPAL --><!-- DESCRIPTION PRODUIT PR=
+INCIPAL --><!-- FIN DESCRIPTION PRODUIT PRINCIPAL --></td>
+											</tr>
+											<!-- FIN PRODUIT PRINCIPAL -->
+										</tbody>
+									</table>
+									</td>
+								</tr>
+								<tr>
+									<td height=3D"10"></td>
+								</tr>
+							</tbody>
+						</table>
+						<!-- FIN CONTENEUR (PRODUIT PRINCIPAL + TITRE PRINCIPAL) --></td>
+					</tr>
+				</tbody>
+			</table>
+			<!-- FIN WRAP (PRODUIT PRINCIPAL + TITRE PRINCIPAL) --></td>
+		</tr>
+		<!-- FIN GLOBAL (PRODUIT PRINCIPAL + TITRE PRINCIPAL) --><!-- ***********=
+***************************** --><!-- *************************************=
+*** --><!-- GLOBAL (PRODUIT PRINCIPAL + TITRE PRINCIPAL) -->
+		<tr>
+			<td align=3D"center" valign=3D"top"><!-- WRAP (PRODUIT PRINCIPAL + TITRE=
+ PRINCIPAL) --><!-- FIN WRAP (PRODUIT PRINCIPAL + TITRE PRINCIPAL) --></td>
+		</tr>
+		<!-- FIN GLOBAL (PRODUIT PRINCIPAL + TITRE PRINCIPAL) --><!-- ***********=
+***************************** --><!-- *************************************=
+*** --><!-- GLOBAL LIGNE 2 -->
+		<tr>
+			<td align=3D"center" valign=3D"top"><!-- WRAP LIGNE 2 --><!-- FIN WRAP L=
+IGNE 2 --></td>
+		</tr>
+		<!-- FIN GLOBAL LIGNE 2 --><!-- **************************************** =
+--><!-- GLOBAL OFFRES -->
+		<tr>
+			<td align=3D"center" valign=3D"top"><!-- WRAP OFFRES -->
+			<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ width=3D"100%">
+				<tbody>
+					<tr>
+						<td align=3D"center" valign=3D"top"><!-- CONTENEUR OFFRES -->
+						<table align=3D"center" bgcolor=3D"#ffffff" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" class=3D"container" style=3D"padding-right: 5px; p=
+adding-left: 5px; width: 700px;" width=3D"700">
+							<tbody>
+								<tr>
+									<td height=3D"5"></td>
+								</tr>
+								<tr>
+									<td valign=3D"top"><!-- OFFRES -->
+									<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" class=3D"full-width" style=3D"width: 690px;" width=3D"690">
+										<tbody>
+											<tr>
+												<td class=3D"col-underline" valign=3D"top"><!-- LIGNE SEPARATIO=
+N -->
+												<table align=3D"center" bgcolor=3D"#e53517" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0" width=3D"100%">
+													<tbody>
+														<tr>
+															<td height=3D"1"></td>
+														</tr>
+													</tbody>
+												</table>
+												<!-- FIN LIGNE SEPARATION --><!-- OFFRE 1 -->
+
+												<table align=3D"left" border=3D"0" cellpadding=3D"0" cellspacin=
+g=3D"0" class=3D"offres" style=3D"width: 162px;" width=3D"162">
+													<tbody>
+														<tr>
+															<td height=3D"15"></td>
+														</tr>
+														<tr>
+															<td align=3D"left" class=3D"remove" valign=3D"top"><!-- ESPA=
+CE VIDE -->
+															<table align=3D"left" border=3D"0" cellpadding=3D"0" cellspa=
+cing=3D"0" class=3D"remove" style=3D"line-height: 0; font-size: 0px; border=
+-collapse: collapse;" width=3D"1">
+																<tbody>
+																	<tr>
+																		<td height=3D"2" style=3D"line-height: 0; font-size: 0px;=
+ border-collapse: collapse;" width=3D"0">
+																		<p style=3D"padding-left: 10px;"></p>
+																		</td>
+																	</tr>
+																</tbody>
+															</table>
+															<!-- FIN ESPACE VIDE --></td>
+															<td><span style=3D"font-size: 12px; font-family:Arial, Helve=
+tica, sans-serif;color:#e53517; letter-spacing: -1px;"><b>MEILLEUR PRIX INT=
+ERNET *</b></span><br />
+															<span style=3D"font-size: 11px; font-family:Arial, Helvetica=
+, sans-serif;">Moins cher ailleurs<br />
+															sur internet ? On s&#39;aligne !</span><br />
+															<span style=3D"font-size: 11px; font-family:Arial, Helvetica=
+, sans-serif;">Et en plus, nous vous<br />
+															offrons 100&euro; sur un prochain<br />
+															s&eacute;jour en Club Look&eacute;a.</span></td>
+														</tr>
+													</tbody>
+												</table>
+												<!-- FIN OFFRE 1 --><!-- OFFRE 2 -->
+
+												<table align=3D"left" border=3D"0" cellpadding=3D"0" cellspacin=
+g=3D"0" class=3D"offres" style=3D"width: 162px;" width=3D"162">
+													<tbody>
+														<tr>
+															<td height=3D"15"></td>
+														</tr>
+														<tr>
+															<td align=3D"left" class=3D"remove" valign=3D"top"><!-- ESPA=
+CE VIDE -->
+															<table align=3D"left" border=3D"0" cellpadding=3D"0" cellspa=
+cing=3D"0" class=3D"remove" style=3D"line-height: 0; font-size: 0px; border=
+-collapse: collapse;" width=3D"1">
+																<tbody>
+																	<tr>
+																		<td height=3D"2" style=3D"line-height: 0; font-size: 0px;=
+ border-collapse: collapse;" width=3D"0">
+																		<p style=3D"padding-left: 10px;"></p>
+																		</td>
+																	</tr>
+																</tbody>
+															</table>
+															<!-- FIN ESPACE VIDE --></td>
+															<td><span style=3D"font-size: 12px; font-family:Arial, Helve=
+tica, sans-serif;color:#e53517; letter-spacing: -1px;"><b>PACK 100% TRANQUI=
+LLE *</b></span><br />
+															<span style=3D"font-size: 11px; font-family:Arial, Helvetica=
+, sans-serif;">3 garanties rien que pour<br />
+															vous ! Valeur : 45&euro; OFFERT<br />
+															pour toute r&eacute;servation<br />
+															hors promotions et offres<br />
+															sp&eacute;ciales. </span></td>
+														</tr>
+													</tbody>
+												</table>
+												<!-- FIN OFFRE 2 --><!-- OFFRE 3 -->
+
+												<table align=3D"left" border=3D"0" cellpadding=3D"0" cellspacin=
+g=3D"0" class=3D"offres" style=3D"width: 162px;" width=3D"162">
+													<tbody>
+														<tr>
+															<td height=3D"15"></td>
+														</tr>
+														<tr>
+															<td align=3D"left" class=3D"remove" valign=3D"top"><!-- ESPA=
+CE VIDE -->
+															<table align=3D"left" border=3D"0" cellpadding=3D"0" cellspa=
+cing=3D"0" class=3D"remove" style=3D"line-height: 0; font-size: 0px; border=
+-collapse: collapse;" width=3D"1">
+																<tbody>
+																	<tr>
+																		<td height=3D"2" style=3D"line-height: 0; font-size: 0px;=
+ border-collapse: collapse;" width=3D"0">
+																		<p style=3D"padding-left: 10px;"></p>
+																		</td>
+																	</tr>
+																</tbody>
+															</table>
+															<!-- FIN ESPACE VIDE --></td>
+															<td><span style=3D"font-size: 12px; font-family:Arial, Helve=
+tica, sans-serif;color:#e53517; letter-spacing: -1px;"><b>PARTIR SEREIN</b>=
+</span><br />
+															<span style=3D"font-size: 11px; font-family:Arial, Helvetica=
+, sans-serif;">Pour votre confort et votre</span><br />
+															<span style=3D"font-size: 11px; font-family:Arial, Helvetica=
+, sans-serif;">s&eacute;r&eacute;nit&eacute;, pensez &agrave; souscrire<br =
+/>
+															nos assurances voyages </span></td>
+														</tr>
+													</tbody>
+												</table>
+												<!-- FIN OFFRE 3 --><!-- OFFRE 4 -->
+
+												<table align=3D"left" border=3D"0" cellpadding=3D"0" cellspacin=
+g=3D"0" class=3D"offres" style=3D"width: 162px;" width=3D"162">
+													<tbody>
+														<tr>
+															<td height=3D"15"></td>
+														</tr>
+														<tr>
+															<td align=3D"left" class=3D"remove" valign=3D"top"><!-- ESPA=
+CE VIDE -->
+															<table align=3D"left" border=3D"0" cellpadding=3D"0" cellspa=
+cing=3D"0" class=3D"remove" style=3D"line-height: 0; font-size: 0px; border=
+-collapse: collapse;" width=3D"1">
+																<tbody>
+																	<tr>
+																		<td height=3D"2" style=3D"line-height: 0; font-size: 0px;=
+ border-collapse: collapse;" width=3D"0">
+																		<p style=3D"padding-left: 10px;"></p>
+																		</td>
+																	</tr>
+																</tbody>
+															</table>
+															<!-- FIN ESPACE VIDE --></td>
+															<td><span style=3D"font-size: 12px; font-family:Arial, Helve=
+tica, sans-serif;color:#e53517; letter-spacing: -1px;"><b>NOS AGENCES</b></=
+span>
+															<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" widt=
+h=3D"100%">
+																<tbody>
+																	<tr>
+																		<td width=3D"33%"><a href=3D"http://assurance-facile.com/=
+ga/click/2-11527895-18-1578-3047-21952-5a6aa2fd9f-f6d3c7a2ab" target=3D"_bl=
+ank" title=3D"Trouvez l'agence pr=C3=A8s de chez vous"><img alt=3D"Trouvez =
+l'agence pr=C3=A8s de chez vous" border=3D"0" height=3D"48" src=3D"http://w=
+ww.look-voyages.fr/mkt/look/img/news/news_btoc/template/header-footer/carte=
+-agences.png" style=3D"display: block;" width=3D"48" /></a></td>
+																		<td width=3D"63%"><span style=3D"font-size: 11px; font-fa=
+mily:Arial, Helvetica, sans-serif;"><a href=3D"http://assurance-facile.com/=
+ga/click/2-11527895-18-1578-3047-21952-5a6aa2fd9f-f6d3c7a2ab" style=3D"text=
+-decoration:none; color:#333333;" target=3D"_blank">Trouver l&#39;agence la=
+ plus proche<br />
+																		de chez vous.</a></span></td>
+																	</tr>
+																</tbody>
+															</table>
+															</td>
+														</tr>
+													</tbody>
+												</table>
+												<!-- FIN OFFRE 4 --></td>
+											</tr>
+										</tbody>
+									</table>
+									<!-- FIN OFFRES --></td>
+								</tr>
+								<tr>
+									<td height=3D"20"></td>
+								</tr>
+							</tbody>
+						</table>
+						<!-- FIN CONTENEUR OFFRES --></td>
+					</tr>
+					<!-- LIGNE SEPARATION -->
+					<tr>
+						<td align=3D"center" valign=3D"top">
+						<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0" class=3D"full-width" style=3D"padding-right: 10px; padding-left: 10px;"=
+ width=3D"500">
+							<tbody>
+								<tr>
+									<td style=3D"border-bottom-color: #ddd; border-bottom-width: 1px; =
+border-bottom-style: solid;"></td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+					<!-- FIN LIGNE SEPARATION -->
+				</tbody>
+			</table>
+			<!-- FIN WRAP OFFRES --></td>
+		</tr>
+		<!-- FIN GLOBAL OFFRES --><!-- **************************************** -=
+-><!-- **************************************** --><!-- WRAP FOOTER -->
+		<tr>
+			<td align=3D"center" bgcolor=3D"#ffffff" valign=3D"top"><!-- CONTENEUR F=
+OOTER -->
+			<table align=3D"center" bgcolor=3D"#ffffff" border=3D"0" cellpadding=3D"=
+0" cellspacing=3D"0" class=3D"container" width=3D"690">
+				<tbody>
+					<tr>
+						<td valign=3D"top"><!-- ESPACE VIDE -->
+						<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0" width=3D"100%">
+							<tbody>
+								<tr>
+									<td height=3D"2"></td>
+								</tr>
+							</tbody>
+						</table>
+						<!-- ESPACE VIDE --><!-- MENTIONS -->
+
+						<table align=3D"center" cellpadding=3D"0" cellspacing=3D"0" class=3D"=
+container" summary=3D"Page miroir" width=3D"690">
+							<tbody>
+								<tr>
+									<td align=3D"center"><br />
+									<span style=3D"font-size: 11px; color: #666666; font-family: arial=
+;">(1) 0,40 &euro; TTC/min. 15&euro; de frais par dossier, en cas de r&eacu=
+te;servation par t&eacute;l&eacute;phone.<br />
+									<br />
+									*Les avantages cit&eacute;s ci-dessus sont soumis &agrave; <a _lab=
+el=3D"conditions" href=3D"http://assurance-facile.com/ga/click/2-11527895-1=
+8-1578-3047-21955-04b2ed8226-f6d3c7a2ab" style=3D"color: rgb(18, 87, 144)" =
+target=3D"_blank" title=3D"voir les conditions">conditions</a></span></td>
+								</tr>
+								<tr>
+									<td height=3D"20" valign=3D"top"></td>
+								</tr>
+							</tbody>
+						</table>
+						<!-- FIN MENTIONS --><!-- ESPACE VIDE -->
+
+						<table align=3D"center" bgcolor=3D"white" border=3D"0" cellpadding=3D=
+"0" cellspacing=3D"0" width=3D"100%">
+							<tbody>
+								<tr>
+									<td height=3D"10"></td>
+								</tr>
+							</tbody>
+						</table>
+						<!-- FIN ESPACE VIDE --></td>
+					</tr>
+				</tbody>
+			</table>
+			<!-- FIN CONTENEUR FOOTER --></td>
+		</tr>
+		<!-- FIN WRAP FOOTER --><!-- **************************************** -->
+	</tbody>
+</table>
+
+<p><img src=3D"http://er.look-voyages.fr/EREO/E/137/6d989/&lt;%=3Drecipient=
+.email%&gt;/pixel.gif" style=3D"border :0px ;" /></p>
+
+<p><img id=3D"pictureoct" src=3D"http://email.mediapleez.com/tracking/displ=
+ay.php?name=3D20160210+LV+RT+SW" /></p>
+
+<center><a href=3D"http://assurance-facile.com/ga/unsubscribe/2-11527895-18=
+-1578-3047-ed35df89ef15825-f6d3c7a2ab">Je souhaite me d=C3=A9sinscrire et n=
+e plus recevoir les newsletters</a>
+</center><img src=3D"http://assurance-facile.com/ga/open/2-11527895-18-1578=
+-3047-f6d3c7a2ab" height=3D"2" width=3D"3" alt=3D""></body>
+</html>
+
+--==8a6b2841d6d05f36a6bd622cb9b9a69d--

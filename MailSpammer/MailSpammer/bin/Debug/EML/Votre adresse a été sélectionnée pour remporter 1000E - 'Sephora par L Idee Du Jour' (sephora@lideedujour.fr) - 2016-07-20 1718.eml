@@ -1,0 +1,601 @@
+Return-Path: <bounce-290864-b7041a728e-146121678@lideedujour.fr>
+Received: from mailimailo.univ-rennes1.fr ([unix socket])
+	 by mailimailo.univ-rennes1.fr (Cyrus v2.3.16-Fedora-RPM-2.3.16-6.el6_2.5) with LMTPA;
+	 Wed, 20 Jul 2016 17:19:10 +0200
+X-Sieve: CMU Sieve 2.3
+Received: from mailout2.univ-rennes1.fr (mailout2.univ-rennes1.fr [129.20.129.120])
+	by mailimailo.univ-rennes1.fr (Postfix) with ESMTP id 53D3C91
+	for <resp-m2-miage@univ-rennes1.fr>; Wed, 20 Jul 2016 17:19:10 +0200 (CEST)
+Received: from localhost (vmscanmail.univ-rennes1.fr [129.20.128.134])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id 5110960043
+	for <resp-m2-miage@univ-rennes1.fr>; Wed, 20 Jul 2016 17:19:10 +0200 (CEST)
+X-Virus-Scanned: amavisd-new at univ-rennes1.fr
+Received: from mailout2.univ-rennes1.fr ([129.20.129.120])
+	by localhost (vmscanmail.univ-rennes1.frm [129.20.128.134]) (amavisd-new, port 10026)
+	with ESMTP id 6BATU5lpiHls for <resp-m2-miage@univ-rennes1.fr>;
+	Wed, 20 Jul 2016 17:19:10 +0200 (CEST)
+Received: from vmmailin.univ-rennes1.fr (vmmailin.univ-rennes1.fr [129.20.128.133])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id 2AB7960316
+	for <resp-m2-miage@univ-rennes1.fr>; Wed, 20 Jul 2016 17:19:10 +0200 (CEST)
+Received: from mxb1-1.relay.renater.fr (mxb1-1.relay.renater.fr [194.214.201.8])
+	by vmmailin.univ-rennes1.fr (Postfix) with ESMTP id 2329A20033
+	for <resp-m2-miage@univ-rennes1.fr>; Wed, 20 Jul 2016 17:19:10 +0200 (CEST)
+Received: from er2.lideedujour.fr (er2.lideedujour.fr [188.213.62.189])
+	by mxb1-1.relay.renater.fr (asm) with ESMTP id D8542600069
+	for <resp-m2-miage@univ-rennes1.fr>; Wed, 20 Jul 2016 17:19:09 +0200 (CEST)
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=default; d=lideedujour.fr;
+ h=MIME-Version:From:Reply-To:List-Unsubscribe:Feedback-ID:Subject:Content-Type:To:Message-ID:Date; i=sephora@lideedujour.fr;
+ bh=rsDx3mCVQs/sNPn6lST+uo9tpnQ=;
+ b=LpJlpnyIotHHeOGviRz2I3PW+cQsiT4QGhIqZSMQIBrdH+iB2aOWX8FwcpD4y0R3bO8Y+/hzki4n
+   a3+MW02i5bvHck8pllshBsewwJFuc9k+e7xWB9uIr6qR1WqdhvQ/Q+ri8FQxJrSsnHOPl47/SO2a
+   oJ8nCJFpUai4gHyxLK0=
+MIME-Version: 1.0
+Precedence: bulk
+From: "Sephora par L Idee Du Jour" <sephora@lideedujour.fr>
+Reply-To: "L Idee Du Jour" <info@lideedujour.fr>
+List-Unsubscribe: <http://clicks.lideedujour.fr/lu/702787234/f31eaf6/290864.html>
+X-EMID: 0
+Feedback-ID: LEAD658
+Subject: =?UTF-8?B?Vm90cmUgYWRyZXNzZSBhIMOpdMOpIHPDqWxlY3Rpb25uw6llIHBvdXIgcmVtcG9ydGVyIDEwMDBF?=
+Content-Type: multipart/alternative;
+ boundary=774f719dfced5fc045b80002a3838700
+To: resp-m2-miage@univ-rennes1.fr
+Message-ID: <0.0.23A.53B.1D1E29A06764B10.0@er2.lideedujour.fr>
+Date: Wed, 20 Jul 2016 17:18:53 +0200
+X-UCE-Status: YES
+X-UCE-Type: MCE
+X-Original-Source-IP: 188.213.62.189
+X-Bizanga: IMP - mxb1-1.relay.renater.fr
+X-Renater-SpamState: 11
+X-Renater-SpamScore: 17
+X-Renater-SpamCause: gggruggvucftvghtrhhoucdtuddrfeeltddrheefgdekjecutefuodetggdotefrodftvfcurfhrohhfihhlvgemucftgffptefvgfftpdggtfgfnhhsuhgsshgtrhhisggvnecuuegrihhlohhuthemuceftddtnecundfotefknffkpffiucdludejmdenucfjughrpeggphfhrhfjufgtvffkffesrgdtreertddtjeenucfhrhhomhepfdfuvghphhhorhgruchprghrucfnucfkuggvvgcuffhuucflohhurhdfuceoshgvphhhohhrrgeslhhiuggvvgguuhhjohhurhdrfhhrqeenucffohhmrghinheplhhiuggvvgguuhhjohhurhdrfhhrnecukfhppedukeekrddvudefrdeivddrudekleenucfrrghrrghmpehmohguvgepshhmthhppdhhvghlohepvghrvddrlhhiuggvvgguuhhjohhurhdrfhhrpdhinhgvthepudekkedrvddufedriedvrddukeelpdhmrghilhhfrhhomhepsghouhhntggvqddvledtkeeigedqsgejtdegudgrjedvkegvqddugeeiuddvudeijeeksehlihguvggvughujhhouhhrrdhfrhdprhgtphhtthhopehrvghsphdqmhdvqdhmihgrghgvsehunhhivhdqrhgvnhhnvghsuddrfhhr 
+X-Renater-ServerName: mxb1-1.relay.renater.fr
+
+
+--774f719dfced5fc045b80002a3838700
+Content-Type: text/plain; 
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Visualiser la version en ligne : http://clicks.lideedujour.fr/v/702787234/f=
+31eaf6/luZYDFRTOwJaNioIjH2KF1LUedeshktdV13u.html
+Signaler comme courrier ind=C3=A9sirable : http://clicks.lideedujour.fr/u/7=
+02787234/f31eaf6/luZYDFRTOwJaNioIjH2KF1LUedeshktdV13u.html
+
+http://clicks.lideedujour.fr/cl/702787234/856420/281522/52/0ffFn1yIQyWRgaut=
+BoIHhptYqePp97UQqOiU.htm
+
+Sender : Sephora =E2=80=93 [BDD] =E2=80=A2 [PRENOM], vous vous sentez chanc=
+euse aujourd=E2=80=99hui ? =E2=80=A2 Jouez et remportez 1000=E2=82=AC de sh=
+opping avec sephora.fr =E2=80=A2 Bonne nouvelle : 1000=E2=82=AC de shopping=
+ =C3=A0 gagner =E2=80=A2 Surprise [PRENOM] ! =E2=80=A2 Incroyable [PRENOM] =
+! =E2=80=A2 Une surprise vous attend =E2=80=A2 Gagnez 1000=E2=82=AC de shop=
+ping beaut=C3=A9 et faites-vous plaisir =E2=80=A2 Pour les vacances, Sephor=
+a vous fait gagner 1000=E2=82=AC de shopping =E2=80=A2 Votre adresse a =
+=C3=A9t=C3=A9 s=C3=A9lectionn=C3=A9e pour remporter 1000=E2=82=AC de shoppi=
+ng 1000=E2=82=AC de shopping sur sephora.fr =C3=A7a vous dit ?
+Jouez au grand jeu de
+l'=C3=A9t=C3=A9 et tentez de gagner de nombreuses surprises
+!
+=C2=A0
+
+
+
+
+
+
+
+
+
+
+
+Jeu organis=C3=A9 du 18 au 29 juillet
+2016 inclus, soumis =C3=A0 conditions. Voir le
+r=C3=A8glement du jeu.
+
+Vous recevez ce message car vous =C3=AAtes membre de Les L Idee Du Jour.
+
+Vous pouvez exercer votre droit d'acc=C3=A8s et de suppression =C3=A0 tout =
+moment en nous contactant =C3=A0 : info@lideedujour.fr, ou en nous =C3=
+=A9crivant =C3=A0 L Idee Du Jour - Av Franc=C3=A9sc Camb=C3=B3 21, 5=C2=
+=BA - 08003 Barcelona.=20
+
+Suivez ce lien pour vous d=C3=A9sabonner.http://clicks.lideedujour.fr/u/702=
+787234/f31eaf6/luZYDFRTOwJaNioIjH2KF1LUedeshktdV13u.html Politique de confi=
+dentialit=C3=A9.http://www.lideedujour.fr/privacy.html
+
+--774f719dfced5fc045b80002a3838700
+Content-Type: text/html; 
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.=
+w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8" />
+<title>Votre adresse a =C3=A9t=C3=A9 s=C3=A9lectionn=C3=A9e pour remporter =
+1000E</title>
+=09
+<style type=3D"text/css">
+=09.ReadMsgBody { width: 100%; }
+=09.ExternalClass { width: 100%; }
+=09td {border-collapse: collapse; }
+=09
+</style>
+
+</head>
+<body><center><table align=3D"center" style=3D"text-align:center; font-fami=
+ly: Arial; font-size: 12px; color: grey;">
+<tr><td style=3D"text-align:center; font-family: Arial; font-size: 12px; co=
+lor: grey;">
+<span style=3D"font-family: Arial;"><a href=3D"http://clicks.lideedujour.fr=
+/v/702787234/f31eaf6/luZYDFRTOwJaNioIjH2KF1LUedeshktdV13u.html">Visualiser =
+la version en ligne</a> | <a href=3D"http://clicks.lideedujour.fr/u/7027872=
+34/f31eaf6/luZYDFRTOwJaNioIjH2KF1LUedeshktdV13u.html">Signaler comme courri=
+er ind=C3=A9sirable</a><br /><br /></span>
+</td></tr></table></center><br />
+<center><table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" align=3D"ce=
+nter" style=3D"background-color: #FFFFFF;" width=3D"100%"><tr><td style=3D"=
+text-align: center;"><br /><center><table width=3D"640" border=3D"0" cellsp=
+acing=3D"0" cellpadding=3D"0" align=3D"center">
+<tr>
+<td align=3D"center"><a href=3D"http://clicks.lideedujour.fr/cl/702787234/8=
+56420/281520/1/k1nuZLi5f3X492mgC1UE4qOtpc57XYhHdecR.htm" target=3D"_blank" =
+style=3D"font-family: Arial,Helvetica,Sans-Serif; font-size: 12px; font-wei=
+ght: bold; text-decoration: none; color: #cc0000; text-transform: none;">Jo=
+uez au grand jeu de
+l'=C3=A9t=C3=A9 et tentez de gagner de nombreuses surprises
+!</a></td>
+</tr>
+<tr>
+<td>=C2=A0</td>
+</tr>
+<tr>
+<td>
+<center><table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D=
+"0">
+<tr>
+<td width=3D"260">
+<center><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td width=3D"180" height=3D"50"><a href=3D"http://clicks.lideedujour.fr/cl/=
+702787234/856420/281521/2/CRSAGtOFXXL7FFhDIUdvSIZVRdEJgNeYsNyh.htm"><img sr=
+c=3D"http://images.lideedujour.fr/20160719/3fkPAXaJFW6/xEbsWt_1.gif" border=
+=3D"0" width=3D"180" height=3D"50" style=3D"display:block; background-color=
+: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; colo=
+r: #030609; text-decoration: none;" alt=3D"Sephora" /></a></td>
+<td width=3D"80" height=3D"50"><a href=3D"http://clicks.lideedujour.fr/cl/7=
+02787234/856420/281521/3/CRSAGtOFXXL7FFhDIUdvSIZVRdEJgNeYsNyh.htm"><img src=
+=3D"http://images.lideedujour.fr/20160719/3fkPAXaJFW6/xEbsWt_2.gif" border=
+=3D"0" width=3D"80" height=3D"50" style=3D"display:block; background-color:=
+ #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; color=
+: #030609; text-decoration: none;" alt=3D"Sephora" /></a></td>
+</tr>
+</table></center>
+</td>
+<td width=3D"380">
+<center><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td width=3D"180" height=3D"50"><a href=3D"http://clicks.lideedujour.fr/cl/=
+702787234/856420/281521/4/CRSAGtOFXXL7FFhDIUdvSIZVRdEJgNeYsNyh.htm"><img sr=
+c=3D"http://images.lideedujour.fr/20160719/3fkPAXaJFW6/xEbsWt_3.gif" border=
+=3D"0" width=3D"180" height=3D"50" style=3D"display:block; background-color=
+: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; colo=
+r: #030609; text-decoration: none;" alt=3D"Beauty" /></a></td>
+<td width=3D"180" height=3D"50"><a href=3D"http://clicks.lideedujour.fr/cl/=
+702787234/856420/281521/5/CRSAGtOFXXL7FFhDIUdvSIZVRdEJgNeYsNyh.htm"><img sr=
+c=3D"http://images.lideedujour.fr/20160719/3fkPAXaJFW6/xEbsWt_4.gif" border=
+=3D"0" width=3D"180" height=3D"50" style=3D"display:block; background-color=
+: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; colo=
+r: #030609; text-decoration: none;" alt=3D"to" /></a></td>
+<td width=3D"20" height=3D"50"><a href=3D"http://clicks.lideedujour.fr/cl/7=
+02787234/856420/281521/6/CRSAGtOFXXL7FFhDIUdvSIZVRdEJgNeYsNyh.htm"><img src=
+=3D"http://images.lideedujour.fr/20160719/3fkPAXaJFW6/xEbsWt_5.gif" border=
+=3D"0" width=3D"20" height=3D"50" style=3D"display:block; background-color:=
+ #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; color=
+: #030609; text-decoration: none;" alt=3D"go" /></a></td>
+</tr>
+</table></center>
+</td>
+</tr>
+</table></center>
+</td>
+</tr>
+<tr>
+<td height=3D"10"><img src=3D"http://eml.adeclik.net/sephora/fr/2016-07-jc/=
+01/img/pxl.gif" width=3D"1" height=3D"1" border=3D"0" alt=3D" " />
+</td>
+</tr>
+<tr>
+<td>
+<center><table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D=
+"0">
+<tr>
+<td width=3D"260" valign=3D"top">
+<center><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td width=3D"180" height=3D"80"><a href=3D"http://clicks.lideedujour.fr/cl/=
+702787234/856420/281521/7/CRSAGtOFXXL7FFhDIUdvSIZVRdEJgNeYsNyh.htm"><img sr=
+c=3D"http://images.lideedujour.fr/20160719/3fkPAXaJFW6/xEbsWt_6.gif" border=
+=3D"0" width=3D"180" height=3D"80" style=3D"display:block; background-color=
+: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; colo=
+r: #030609; text-decoration: none;" alt=3D"Embarquez," /></a></td>
+<td width=3D"80" height=3D"80"><a href=3D"http://clicks.lideedujour.fr/cl/7=
+02787234/856420/281521/8/CRSAGtOFXXL7FFhDIUdvSIZVRdEJgNeYsNyh.htm"><img src=
+=3D"http://images.lideedujour.fr/20160719/3fkPAXaJFW6/xEbsWt_7.gif" border=
+=3D"0" width=3D"80" height=3D"80" style=3D"display:block; background-color:=
+ #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; color=
+: #030609; text-decoration: none;" alt=3D"grattez" /></a></td>
+</tr>
+<tr>
+<td width=3D"180" height=3D"45"><a href=3D"http://clicks.lideedujour.fr/cl/=
+702787234/856420/281521/9/CRSAGtOFXXL7FFhDIUdvSIZVRdEJgNeYsNyh.htm"><img sr=
+c=3D"http://images.lideedujour.fr/20160719/3fkPAXaJFW6/xEbsWt_8.gif" border=
+=3D"0" width=3D"180" height=3D"45" style=3D"display:block; background-color=
+: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; colo=
+r: #030609; text-decoration: none;" alt=3D"Embarquez," /></a></td>
+<td width=3D"80" height=3D"45"><a href=3D"http://clicks.lideedujour.fr/cl/7=
+02787234/856420/281521/10/CRSAGtOFXXL7FFhDIUdvSIZVRdEJgNeYsNyh.htm"><img sr=
+c=3D"http://images.lideedujour.fr/20160719/3fkPAXaJFW6/xEbsWt_9.gif" border=
+=3D"0" width=3D"80" height=3D"45" style=3D"display:block; background-color:=
+ #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; color=
+: #030609; text-decoration: none;" alt=3D"grattez" /></a></td>
+</tr>
+</table></center>
+</td>
+<td valign=3D"top">
+<center><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td width=3D"180" height=3D"80"><a href=3D"http://clicks.lideedujour.fr/cl/=
+702787234/856420/281521/11/CRSAGtOFXXL7FFhDIUdvSIZVRdEJgNeYsNyh.htm"><img s=
+rc=3D"http://images.lideedujour.fr/20160719/3fkPAXaJFW6/xEbsWt_10.gif" bord=
+er=3D"0" width=3D"180" height=3D"80" style=3D"display:block; background-col=
+or: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; co=
+lor: #030609; text-decoration: none;" alt=3D"Et" /></a></td>
+<td width=3D"180" height=3D"80"><a href=3D"http://clicks.lideedujour.fr/cl/=
+702787234/856420/281521/12/CRSAGtOFXXL7FFhDIUdvSIZVRdEJgNeYsNyh.htm"><img s=
+rc=3D"http://images.lideedujour.fr/20160719/3fkPAXaJFW6/xEbsWt_11.gif" bord=
+er=3D"0" width=3D"180" height=3D"80" style=3D"display:block; background-col=
+or: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; co=
+lor: #030609; text-decoration: none;" alt=3D"Gagnez" /></a></td>
+<td width=3D"20" height=3D"80"><a href=3D"http://clicks.lideedujour.fr/cl/7=
+02787234/856420/281521/13/CRSAGtOFXXL7FFhDIUdvSIZVRdEJgNeYsNyh.htm"><img sr=
+c=3D"http://images.lideedujour.fr/20160719/3fkPAXaJFW6/xEbsWt_12.gif" borde=
+r=3D"0" width=3D"20" height=3D"80" style=3D"display:block; background-color=
+: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; colo=
+r: #030609; text-decoration: none;" alt=3D"Et" /></a></td>
+</tr>
+<tr>
+<td width=3D"180" height=3D"45"><a href=3D"http://clicks.lideedujour.fr/cl/=
+702787234/856420/281521/14/CRSAGtOFXXL7FFhDIUdvSIZVRdEJgNeYsNyh.htm"><img s=
+rc=3D"http://images.lideedujour.fr/20160719/3fkPAXaJFW6/xEbsWt_13.gif" bord=
+er=3D"0" width=3D"180" height=3D"45" style=3D"display:block; background-col=
+or: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; co=
+lor: #030609; text-decoration: none;" alt=3D"Gagnez" /></a></td>
+<td width=3D"180" height=3D"45"><a href=3D"http://clicks.lideedujour.fr/cl/=
+702787234/856420/281521/15/CRSAGtOFXXL7FFhDIUdvSIZVRdEJgNeYsNyh.htm"><img s=
+rc=3D"http://images.lideedujour.fr/20160719/3fkPAXaJFW6/xEbsWt_14.gif" bord=
+er=3D"0" width=3D"180" height=3D"45" style=3D"display:block; background-col=
+or: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; co=
+lor: #030609; text-decoration: none;" alt=3D"Et" /></a></td>
+<td width=3D"20" height=3D"45"><a href=3D"http://clicks.lideedujour.fr/cl/7=
+02787234/856420/281521/16/CRSAGtOFXXL7FFhDIUdvSIZVRdEJgNeYsNyh.htm"><img sr=
+c=3D"http://images.lideedujour.fr/20160719/3fkPAXaJFW6/xEbsWt_15.gif" borde=
+r=3D"0" width=3D"20" height=3D"45" style=3D"display:block; background-color=
+: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; colo=
+r: #030609; text-decoration: none;" alt=3D"Gagnez" /></a></td>
+</tr>
+</table></center>
+</td>
+</tr>
+<tr>
+<td valign=3D"top">
+<center><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td width=3D"180" height=3D"80"><a href=3D"http://clicks.lideedujour.fr/cl/=
+702787234/856420/281521/17/CRSAGtOFXXL7FFhDIUdvSIZVRdEJgNeYsNyh.htm"><img s=
+rc=3D"http://images.lideedujour.fr/20160719/3fkPAXaJFW6/xEbsWt_16.jpg" bord=
+er=3D"0" width=3D"180" height=3D"80" style=3D"display:block; background-col=
+or: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; co=
+lor: #030609; text-decoration: none;" alt=3D"Un" /></a></td>
+<td width=3D"80" height=3D"80"><a href=3D"http://clicks.lideedujour.fr/cl/7=
+02787234/856420/281521/18/CRSAGtOFXXL7FFhDIUdvSIZVRdEJgNeYsNyh.htm"><img sr=
+c=3D"http://images.lideedujour.fr/20160719/3fkPAXaJFW6/xEbsWt_17.jpg" borde=
+r=3D"0" width=3D"80" height=3D"80" style=3D"display:block; background-color=
+: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; colo=
+r: #030609; text-decoration: none;" alt=3D"voyage" /></a></td>
+</tr>
+<tr>
+<td width=3D"180" height=3D"65"><a href=3D"http://clicks.lideedujour.fr/cl/=
+702787234/856420/281521/19/CRSAGtOFXXL7FFhDIUdvSIZVRdEJgNeYsNyh.htm"><img s=
+rc=3D"http://images.lideedujour.fr/20160719/3fkPAXaJFW6/xEbsWt_18.jpg" bord=
+er=3D"0" width=3D"180" height=3D"65" style=3D"display:block; background-col=
+or: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; co=
+lor: #030609; text-decoration: none;" alt=3D"=C3=A0" /></a></td>
+<td width=3D"80" height=3D"65"><a href=3D"http://clicks.lideedujour.fr/cl/7=
+02787234/856420/281521/20/CRSAGtOFXXL7FFhDIUdvSIZVRdEJgNeYsNyh.htm"><img sr=
+c=3D"http://images.lideedujour.fr/20160719/3fkPAXaJFW6/xEbsWt_19.jpg" borde=
+r=3D"0" width=3D"80" height=3D"65" style=3D"display:block; background-color=
+: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; colo=
+r: #030609; text-decoration: none;" alt=3D"gagner" /></a></td>
+</tr>
+</table></center>
+</td>
+<td valign=3D"top">
+<center><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td width=3D"180" height=3D"80"><a href=3D"http://clicks.lideedujour.fr/cl/=
+702787234/856420/281521/21/CRSAGtOFXXL7FFhDIUdvSIZVRdEJgNeYsNyh.htm"><img s=
+rc=3D"http://images.lideedujour.fr/20160719/3fkPAXaJFW6/xEbsWt_20.gif" bord=
+er=3D"0" width=3D"180" height=3D"80" style=3D"display:block; background-col=
+or: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; co=
+lor: #030609; text-decoration: none;" alt=3D"Un" /></a></td>
+<td width=3D"180" height=3D"80"><a href=3D"http://clicks.lideedujour.fr/cl/=
+702787234/856420/281521/22/CRSAGtOFXXL7FFhDIUdvSIZVRdEJgNeYsNyh.htm"><img s=
+rc=3D"http://images.lideedujour.fr/20160719/3fkPAXaJFW6/xEbsWt_21.gif" bord=
+er=3D"0" width=3D"180" height=3D"80" style=3D"display:block; background-col=
+or: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; co=
+lor: #030609; text-decoration: none;" alt=3D"aller-retour" /></a></td>
+<td width=3D"20" height=3D"80"><a href=3D"http://clicks.lideedujour.fr/cl/7=
+02787234/856420/281521/23/CRSAGtOFXXL7FFhDIUdvSIZVRdEJgNeYsNyh.htm"><img sr=
+c=3D"http://images.lideedujour.fr/20160719/3fkPAXaJFW6/xEbsWt_22.gif" borde=
+r=3D"0" width=3D"20" height=3D"80" style=3D"display:block; background-color=
+: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; colo=
+r: #030609; text-decoration: none;" alt=3D"pour 2" /></a></td>
+</tr>
+<tr>
+<td width=3D"180" height=3D"65"><a href=3D"http://clicks.lideedujour.fr/cl/=
+702787234/856420/281521/24/CRSAGtOFXXL7FFhDIUdvSIZVRdEJgNeYsNyh.htm"><img s=
+rc=3D"http://images.lideedujour.fr/20160719/3fkPAXaJFW6/xEbsWt_23.gif" bord=
+er=3D"0" width=3D"180" height=3D"65" style=3D"display:block; background-col=
+or: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; co=
+lor: #030609; text-decoration: none;" alt=3D"=C3=A0 Rio," /></a></td>
+<td width=3D"180" height=3D"65"><a href=3D"http://clicks.lideedujour.fr/cl/=
+702787234/856420/281521/25/CRSAGtOFXXL7FFhDIUdvSIZVRdEJgNeYsNyh.htm"><img s=
+rc=3D"http://images.lideedujour.fr/20160719/3fkPAXaJFW6/xEbsWt_24.gif" bord=
+er=3D"0" width=3D"180" height=3D"65" style=3D"display:block; background-col=
+or: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; co=
+lor: #030609; text-decoration: none;" alt=3D"Mykonos ou" /></a></td>
+<td width=3D"20" height=3D"65"><a href=3D"http://clicks.lideedujour.fr/cl/7=
+02787234/856420/281521/26/CRSAGtOFXXL7FFhDIUdvSIZVRdEJgNeYsNyh.htm"><img sr=
+c=3D"http://images.lideedujour.fr/20160719/3fkPAXaJFW6/xEbsWt_25.gif" borde=
+r=3D"0" width=3D"20" height=3D"65" style=3D"display:block; background-color=
+: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; colo=
+r: #030609; text-decoration: none;" alt=3D"Los Angeles" /></a></td>
+</tr>
+</table></center>
+</td>
+</tr>
+<tr>
+<td valign=3D"top">
+<center><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td width=3D"180" height=3D"80"><a href=3D"http://clicks.lideedujour.fr/cl/=
+702787234/856420/281521/27/CRSAGtOFXXL7FFhDIUdvSIZVRdEJgNeYsNyh.htm"><img s=
+rc=3D"http://images.lideedujour.fr/20160719/3fkPAXaJFW6/xEbsWt_26.jpg" bord=
+er=3D"0" width=3D"180" height=3D"80" style=3D"display:block; background-col=
+or: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; co=
+lor: #030609; text-decoration: none;" alt=3D"pour" /></a></td>
+<td width=3D"80" height=3D"80"><a href=3D"http://clicks.lideedujour.fr/cl/7=
+02787234/856420/281521/28/CRSAGtOFXXL7FFhDIUdvSIZVRdEJgNeYsNyh.htm"><img sr=
+c=3D"http://images.lideedujour.fr/20160719/3fkPAXaJFW6/xEbsWt_27.jpg" borde=
+r=3D"0" width=3D"80" height=3D"80" style=3D"display:block; background-color=
+: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; colo=
+r: #030609; text-decoration: none;" alt=3D"faire" /></a></td>
+</tr>
+<tr>
+<td width=3D"180" height=3D"80"><a href=3D"http://clicks.lideedujour.fr/cl/=
+702787234/856420/281521/29/CRSAGtOFXXL7FFhDIUdvSIZVRdEJgNeYsNyh.htm"><img s=
+rc=3D"http://images.lideedujour.fr/20160719/3fkPAXaJFW6/xEbsWt_28.jpg" bord=
+er=3D"0" width=3D"180" height=3D"80" style=3D"display:block; background-col=
+or: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; co=
+lor: #030609; text-decoration: none;" alt=3D"le" /></a></td>
+<td width=3D"80" height=3D"80"><a href=3D"http://clicks.lideedujour.fr/cl/7=
+02787234/856420/281521/30/CRSAGtOFXXL7FFhDIUdvSIZVRdEJgNeYsNyh.htm"><img sr=
+c=3D"http://images.lideedujour.fr/20160719/3fkPAXaJFW6/xEbsWt_29.jpg" borde=
+r=3D"0" width=3D"80" height=3D"80" style=3D"display:block; background-color=
+: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; colo=
+r: #030609; text-decoration: none;" alt=3D"plein" /></a></td>
+</tr>
+<tr>
+<td width=3D"180" height=3D"65"><a href=3D"http://clicks.lideedujour.fr/cl/=
+702787234/856420/281521/31/CRSAGtOFXXL7FFhDIUdvSIZVRdEJgNeYsNyh.htm"><img s=
+rc=3D"http://images.lideedujour.fr/20160719/3fkPAXaJFW6/xEbsWt_30.jpg" bord=
+er=3D"0" width=3D"180" height=3D"65" style=3D"display:block; background-col=
+or: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; co=
+lor: #030609; text-decoration: none;" alt=3D"de" /></a></td>
+<td width=3D"80" height=3D"65"><a href=3D"http://clicks.lideedujour.fr/cl/7=
+02787234/856420/281521/32/CRSAGtOFXXL7FFhDIUdvSIZVRdEJgNeYsNyh.htm"><img sr=
+c=3D"http://images.lideedujour.fr/20160719/3fkPAXaJFW6/xEbsWt_31.jpg" borde=
+r=3D"0" width=3D"80" height=3D"65" style=3D"display:block; background-color=
+: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; colo=
+r: #030609; text-decoration: none;" alt=3D"beaut=C3=A9" /></a></td>
+</tr>
+</table></center>
+</td>
+<td valign=3D"top">
+<center><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td width=3D"180" height=3D"80"><a href=3D"http://clicks.lideedujour.fr/cl/=
+702787234/856420/281521/33/CRSAGtOFXXL7FFhDIUdvSIZVRdEJgNeYsNyh.htm"><img s=
+rc=3D"http://images.lideedujour.fr/20160719/3fkPAXaJFW6/xEbsWt_32.jpg" bord=
+er=3D"0" width=3D"180" height=3D"80" style=3D"display:block; background-col=
+or: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; co=
+lor: #030609; text-decoration: none;" alt=3D"Ainsi" /></a></td>
+<td width=3D"180" height=3D"80"><a href=3D"http://clicks.lideedujour.fr/cl/=
+702787234/856420/281521/34/CRSAGtOFXXL7FFhDIUdvSIZVRdEJgNeYsNyh.htm"><img s=
+rc=3D"http://images.lideedujour.fr/20160719/3fkPAXaJFW6/xEbsWt_33.jpg" bord=
+er=3D"0" width=3D"180" height=3D"80" style=3D"display:block; background-col=
+or: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; co=
+lor: #030609; text-decoration: none;" alt=3D"que" /></a></td>
+<td width=3D"20" height=3D"80"><a href=3D"http://clicks.lideedujour.fr/cl/7=
+02787234/856420/281521/35/CRSAGtOFXXL7FFhDIUdvSIZVRdEJgNeYsNyh.htm"><img sr=
+c=3D"http://images.lideedujour.fr/20160719/3fkPAXaJFW6/xEbsWt_34.jpg" borde=
+r=3D"0" width=3D"20" height=3D"80" style=3D"display:block; background-color=
+: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; colo=
+r: #030609; text-decoration: none;" alt=3D"des" /></a></td>
+</tr>
+<tr>
+<td width=3D"180" height=3D"80"><a href=3D"http://clicks.lideedujour.fr/cl/=
+702787234/856420/281521/36/CRSAGtOFXXL7FFhDIUdvSIZVRdEJgNeYsNyh.htm"><img s=
+rc=3D"http://images.lideedujour.fr/20160719/3fkPAXaJFW6/xEbsWt_35.jpg" bord=
+er=3D"0" width=3D"180" height=3D"80" style=3D"display:block; background-col=
+or: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; co=
+lor: #030609; text-decoration: none;" alt=3D"cartes" /></a></td>
+<td width=3D"180" height=3D"80"><a href=3D"http://clicks.lideedujour.fr/cl/=
+702787234/856420/281521/37/CRSAGtOFXXL7FFhDIUdvSIZVRdEJgNeYsNyh.htm"><img s=
+rc=3D"http://images.lideedujour.fr/20160719/3fkPAXaJFW6/xEbsWt_36.jpg" bord=
+er=3D"0" width=3D"180" height=3D"80" style=3D"display:block; background-col=
+or: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; co=
+lor: #030609; text-decoration: none;" alt=3D"cadeaux" /></a></td>
+<td width=3D"20" height=3D"80"><a href=3D"http://clicks.lideedujour.fr/cl/7=
+02787234/856420/281521/38/CRSAGtOFXXL7FFhDIUdvSIZVRdEJgNeYsNyh.htm"><img sr=
+c=3D"http://images.lideedujour.fr/20160719/3fkPAXaJFW6/xEbsWt_37.jpg" borde=
+r=3D"0" width=3D"20" height=3D"80" style=3D"display:block; background-color=
+: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; colo=
+r: #030609; text-decoration: none;" alt=3D"sephora" /></a></td>
+</tr>
+<tr>
+<td width=3D"180" height=3D"65"><a href=3D"http://clicks.lideedujour.fr/cl/=
+702787234/856420/281521/39/CRSAGtOFXXL7FFhDIUdvSIZVRdEJgNeYsNyh.htm"><img s=
+rc=3D"http://images.lideedujour.fr/20160719/3fkPAXaJFW6/xEbsWt_38.jpg" bord=
+er=3D"0" width=3D"180" height=3D"65" style=3D"display:block; background-col=
+or: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; co=
+lor: #030609; text-decoration: none;" alt=3D"Ainsi" /></a></td>
+<td width=3D"180" height=3D"65"><a href=3D"http://clicks.lideedujour.fr/cl/=
+702787234/856420/281521/40/CRSAGtOFXXL7FFhDIUdvSIZVRdEJgNeYsNyh.htm"><img s=
+rc=3D"http://images.lideedujour.fr/20160719/3fkPAXaJFW6/xEbsWt_39.jpg" bord=
+er=3D"0" width=3D"180" height=3D"65" style=3D"display:block; background-col=
+or: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; co=
+lor: #030609; text-decoration: none;" alt=3D"que" /></a></td>
+<td width=3D"20" height=3D"65"><a href=3D"http://clicks.lideedujour.fr/cl/7=
+02787234/856420/281521/41/CRSAGtOFXXL7FFhDIUdvSIZVRdEJgNeYsNyh.htm"><img sr=
+c=3D"http://images.lideedujour.fr/20160719/3fkPAXaJFW6/xEbsWt_40.jpg" borde=
+r=3D"0" width=3D"20" height=3D"65" style=3D"display:block; background-color=
+: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; colo=
+r: #030609; text-decoration: none;" alt=3D"des" /></a></td>
+</tr>
+</table></center>
+</td>
+</tr>
+<tr valign=3D"top">
+<td>
+<center><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td width=3D"180" height=3D"50"><a href=3D"http://clicks.lideedujour.fr/cl/=
+702787234/856420/281521/42/CRSAGtOFXXL7FFhDIUdvSIZVRdEJgNeYsNyh.htm"><img s=
+rc=3D"http://images.lideedujour.fr/20160719/3fkPAXaJFW6/xEbsWt_41.jpg" bord=
+er=3D"0" width=3D"180" height=3D"50" style=3D"display:block; background-col=
+or: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; co=
+lor: #030609; text-decoration: none;" alt=3D"en" /></a></td>
+<td width=3D"80" height=3D"50"><a href=3D"http://clicks.lideedujour.fr/cl/7=
+02787234/856420/281521/43/CRSAGtOFXXL7FFhDIUdvSIZVRdEJgNeYsNyh.htm"><img sr=
+c=3D"http://images.lideedujour.fr/20160719/3fkPAXaJFW6/xEbsWt_42.jpg" borde=
+r=3D"0" width=3D"80" height=3D"50" style=3D"display:block; background-color=
+: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; colo=
+r: #030609; text-decoration: none;" alt=3D"un clic" /></a></td>
+</tr>
+</table></center>
+</td>
+<td>
+<center><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td width=3D"180" height=3D"50"><a href=3D"http://clicks.lideedujour.fr/cl/=
+702787234/856420/281521/44/CRSAGtOFXXL7FFhDIUdvSIZVRdEJgNeYsNyh.htm"><img s=
+rc=3D"http://images.lideedujour.fr/20160719/3fkPAXaJFW6/xEbsWt_43.gif" bord=
+er=3D"0" width=3D"180" height=3D"50" style=3D"display:block; background-col=
+or: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; co=
+lor: #030609; text-decoration: none;" alt=3D"Je" /></a></td>
+<td width=3D"180" height=3D"50"><a href=3D"http://clicks.lideedujour.fr/cl/=
+702787234/856420/281521/45/CRSAGtOFXXL7FFhDIUdvSIZVRdEJgNeYsNyh.htm"><img s=
+rc=3D"http://images.lideedujour.fr/20160719/3fkPAXaJFW6/xEbsWt_44.gif" bord=
+er=3D"0" width=3D"180" height=3D"50" style=3D"display:block; background-col=
+or: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; co=
+lor: #030609; text-decoration: none;" alt=3D"participe" /></a></td>
+<td width=3D"20" height=3D"50"><a href=3D"http://clicks.lideedujour.fr/cl/7=
+02787234/856420/281521/46/CRSAGtOFXXL7FFhDIUdvSIZVRdEJgNeYsNyh.htm"><img sr=
+c=3D"http://images.lideedujour.fr/20160719/3fkPAXaJFW6/xEbsWt_45.gif" borde=
+r=3D"0" width=3D"20" height=3D"50" style=3D"display:block; background-color=
+: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; colo=
+r: #030609; text-decoration: none;" alt=3D"Je" /></a></td>
+</tr>
+</table></center>
+</td>
+</tr>
+</table></center>
+</td>
+</tr>
+<tr>
+<td>
+<center><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td width=3D"180" height=3D"54"><a href=3D"http://clicks.lideedujour.fr/cl/=
+702787234/856420/281521/47/CRSAGtOFXXL7FFhDIUdvSIZVRdEJgNeYsNyh.htm"><img s=
+rc=3D"http://images.lideedujour.fr/20160719/3fkPAXaJFW6/xEbsWt_46.gif" bord=
+er=3D"0" width=3D"180" height=3D"54" style=3D"display:block; background-col=
+or: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; co=
+lor: #030609; text-decoration: none;" alt=3D"jeu" /></a></td>
+<td width=3D"180" height=3D"54"><a href=3D"http://clicks.lideedujour.fr/cl/=
+702787234/856420/281521/48/CRSAGtOFXXL7FFhDIUdvSIZVRdEJgNeYsNyh.htm"><img s=
+rc=3D"http://images.lideedujour.fr/20160719/3fkPAXaJFW6/xEbsWt_47.gif" bord=
+er=3D"0" width=3D"180" height=3D"54" style=3D"display:block; background-col=
+or: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; co=
+lor: #030609; text-decoration: none;" alt=3D"sephora" /></a></td>
+<td width=3D"180" height=3D"54"><a href=3D"http://clicks.lideedujour.fr/cl/=
+702787234/856420/281521/49/CRSAGtOFXXL7FFhDIUdvSIZVRdEJgNeYsNyh.htm"><img s=
+rc=3D"http://images.lideedujour.fr/20160719/3fkPAXaJFW6/xEbsWt_48.gif" bord=
+er=3D"0" width=3D"180" height=3D"54" style=3D"display:block; background-col=
+or: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; co=
+lor: #030609; text-decoration: none;" alt=3D"jeu" /></a></td>
+<td width=3D"100" height=3D"54"><a href=3D"http://clicks.lideedujour.fr/cl/=
+702787234/856420/281521/50/CRSAGtOFXXL7FFhDIUdvSIZVRdEJgNeYsNyh.htm"><img s=
+rc=3D"http://images.lideedujour.fr/20160719/3fkPAXaJFW6/xEbsWt_49.gif" bord=
+er=3D"0" width=3D"100" height=3D"54" style=3D"display:block; background-col=
+or: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; co=
+lor: #030609; text-decoration: none;" alt=3D"sephora" /></a></td>
+</tr>
+</table></center>
+</td>
+</tr>
+<tr>
+<td align=3D"center" height=3D"10"><img src=3D"http://www.adeclik.com/redir=
+ection/affichage.php?data=3D8434|549|4949" width=3D"1" height=3D"1" border=
+=3D"0" alt=3D" " />
+</td>
+</tr>
+<tr>
+<td align=3D"center"><a href=3D"http://clicks.lideedujour.fr/cl/702787234/8=
+56420/281521/51/CRSAGtOFXXL7FFhDIUdvSIZVRdEJgNeYsNyh.htm" target=3D"_blank"=
+ style=3D"color: #bbb; font-family: arial; font-size: 9px; text-decoration:=
+ none; text-transform: none;">Jeu organis=C3=A9 du 18 au 29 juillet
+2016 inclus, soumis =C3=A0 conditions. <span style=3D"text-decoration: unde=
+rline;">Voir le
+r=C3=A8glement du jeu</span>.</a></td>
+</tr>
+</table></center>
+<br />
+<br /></td></tr></table></center>
+
+
+<img src=3D"http://clicks.lideedujour.fr/op/702787234/856420.gif?t=3D146894=
+3656" height=3D"1" width=3D"1" alt=3D"" border=3D"0" />
+<center><table align=3D"center" style=3D"text-align:center; font-family: Ar=
+ial; font-size: 12px; color: grey;">
+<tr><td style=3D"text-align:center; font-family: Arial; font-size: 12px; co=
+lor: grey;">
+<span style=3D"font-family: Arial;">Vous recevez ce message car vous =C3=
+=AAtes membre de Les L Idee Du Jour.<br /><br />
+Vous pouvez exercer votre droit d'acc=C3=A8s et de suppression
+=C3=A0 tout moment en nous contactant =C3=A0 : info@lideedujour.fr,
+ou en nous =C3=A9crivant =C3=A0 L Idee Du Jour - Av Franc=C3=A9sc Camb=
+=C3=B3 21, 5=C2=BA - 08003 Barcelona.
+<br /><br />
+<a href=3D"http://clicks.lideedujour.fr/u/702787234/f31eaf6/luZYDFRTOwJaNio=
+IjH2KF1LUedeshktdV13u.html" title=3D"d=C3=A9sabonner" style=3D"color:#00000=
+0; font-weight:bold;">Suivez ce lien pour vous d=C3=A9sabonner</a>.=20
+<a href=3D"http://www.lideedujour.fr/privacy.html" style=3D"color:#000000; =
+font-weight:bold;">Politique de confidentialit=C3=A9</a>.
+</span></td></tr></table></center><br /></body></html>
+
+--774f719dfced5fc045b80002a3838700--

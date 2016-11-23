@@ -1,0 +1,492 @@
+Return-Path: <bounce-295895-ac6c359e35-146121678@lideedujour.fr>
+Received: from mailimailo.univ-rennes1.fr ([unix socket])
+	 by mailimailo.univ-rennes1.fr (Cyrus v2.3.16-Fedora-RPM-2.3.16-6.el6_2.5) with LMTPA;
+	 Mon, 01 Aug 2016 14:19:28 +0200
+X-Sieve: CMU Sieve 2.3
+Received: from mailout2.univ-rennes1.fr (mailout2.univ-rennes1.fr [129.20.129.120])
+	by mailimailo.univ-rennes1.fr (Postfix) with ESMTP id C4B1513A
+	for <resp-m2-miage@univ-rennes1.fr>; Mon,  1 Aug 2016 14:19:28 +0200 (CEST)
+Received: from localhost (vmscanmail.univ-rennes1.fr [129.20.128.134])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id BFCCA600E6
+	for <resp-m2-miage@univ-rennes1.fr>; Mon,  1 Aug 2016 14:19:28 +0200 (CEST)
+X-Virus-Scanned: amavisd-new at univ-rennes1.fr
+Received: from mailout2.univ-rennes1.fr ([129.20.129.120])
+	by localhost (vmscanmail.univ-rennes1.frm [129.20.128.134]) (amavisd-new, port 10026)
+	with ESMTP id wcwUiTxxajBc for <resp-m2-miage@univ-rennes1.fr>;
+	Mon,  1 Aug 2016 14:19:28 +0200 (CEST)
+Received: from vmmailin.univ-rennes1.fr (vmmailin.univ-rennes1.fr [129.20.128.133])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id 9697C60051
+	for <resp-m2-miage@univ-rennes1.fr>; Mon,  1 Aug 2016 14:19:28 +0200 (CEST)
+Received: from mxb2-1.relay.renater.fr (mxb2-1.relay.renater.fr [194.214.200.8])
+	by vmmailin.univ-rennes1.fr (Postfix) with ESMTP id 84F3F20033
+	for <resp-m2-miage@univ-rennes1.fr>; Mon,  1 Aug 2016 14:19:28 +0200 (CEST)
+Received: from er6.lideedujour.fr (er6.lideedujour.fr [188.213.62.193])
+	(using TLSv1.2 with cipher DHE-RSA-CAMELLIA256-SHA (256/256 bits))
+	(No client certificate requested)
+	by mxb2-1.relay.renater.fr (asm) with ESMTPS id 44BE46000AA
+	for <resp-m2-miage@univ-rennes1.fr>; Mon,  1 Aug 2016 14:19:28 +0200 (CEST)
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=default; d=lideedujour.fr;
+ h=MIME-Version:From:Reply-To:List-Unsubscribe:Feedback-ID:Subject:Content-Type:To:Message-ID:Date; i=covoiturage@lideedujour.fr;
+ bh=VxB8UEhOODRkRf+ilW8vlO+5OXM=;
+ b=Ui2GL4xYjWIc4nbUYybD9jHhVwaD/c35lfv/qJkb2saVYlu27nrnA45JxwpSIIvuqyA5rMNyCWnf
+   l72m34arsCc1tuXevFUUZtjpFHdsPhLv/fD15I/svffv6BPVC7KhT7DjTf/BgEIFGVUSs2BpznvU
+   RA9b7gKMhrMyPntPly8=
+MIME-Version: 1.0
+Precedence: bulk
+From: "Covoiturage - L Idee Du Jour" <covoiturage@lideedujour.fr>
+Reply-To: "L Idee Du Jour" <info@lideedujour.fr>
+List-Unsubscribe: <http://clicks.lideedujour.fr/lu/702787234/247a62f/295895.html>
+X-EMID: 0
+Feedback-ID: LEAD658
+Subject: =?UTF-8?B?Vm90cmUgYmFkZ2UgdMOpbMOpcMOpYWdlIG9mZmVydA==?=
+Content-Type: multipart/alternative;
+ boundary=751cd14b009b07f8ef60eec8a414b845
+To: resp-m2-miage@univ-rennes1.fr
+Message-ID: <0.0.1A4.BE4.1D1EBEEE836038A.0@er6.lideedujour.fr>
+Date: Mon, 1 Aug 2016 14:19:10 +0200
+X-UCE-Status: YES
+X-UCE-Type: MCE
+X-Original-Source-IP: 188.213.62.193
+X-Bizanga: IMP - mxb2-1.relay.renater.fr
+X-Renater-SpamState: 11
+X-Renater-SpamScore: 17
+X-Renater-SpamCause: gggruggvucftvghtrhhoucdtuddrfeeltddrjeehgdegjecutefuodetggdotefrodftvfcurfhrohhfihhlvgemucftgffptefvgfftpdggtfgfnhhsuhgsshgtrhhisggvnecuuegrihhlohhuthemuceftddtnecundfotefknffkpffiucdludejmdenucfjughrpeggphfhrhfjufgtvffkffesrgdtreertddtjeenucfhrhhomhepfdevohhvohhithhurhgrghgvucdqucfnucfkuggvvgcuffhuucflohhurhdfuceotghovhhoihhtuhhrrghgvgeslhhiuggvvgguuhhjohhurhdrfhhrqeenucffohhmrghinheplhhiuggvvgguuhhjohhurhdrfhhrnecukfhppedukeekrddvudefrdeivddrudelfeenucfrrghrrghmpehmohguvgepshhmthhppdhhvghlohepvghriedrlhhiuggvvgguuhhjohhurhdrfhhrpdhinhgvthepudekkedrvddufedriedvrdduleefpdhmrghilhhfrhhomhepsghouhhntggvqddvleehkeelhedqrggtiegtfeehlegvfeehqddugeeiuddvudeijeeksehlihguvggvughujhhouhhrrdhfrhdprhgtphhtthhopehrvghsphdqmhdvqdhmihgrghgvsehunhhivhdqrhgvnhhnvghsuddrfhhr 
+X-Renater-ServerName: mxb2-1.relay.renater.fr
+
+
+--751cd14b009b07f8ef60eec8a414b845
+Content-Type: text/plain; 
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Visualiser la version en ligne : http://clicks.lideedujour.fr/v/702787234/2=
+47a62f/vN4mNiZRoa4RzFSePLUI8RKHEozYS8PxTNp7.html
+Signaler comme courrier ind=C3=A9sirable : http://clicks.lideedujour.fr/u/7=
+02787234/247a62f/vN4mNiZRoa4RzFSePLUI8RKHEozYS8PxTNp7.html
+
+http://clicks.lideedujour.fr/cl/702787234/851451/286138/46/Sw3Y8hd7HZiupjRU=
+dmcjJ17aWxd2RZco7mA7.htm
+
+...
+TABLE HEADER LIEN MIRROIR
+*L'offre 10 Euros offerts est
+valable une fois pour les conducteurs inscrits sur la plateforme
+iDVROOM =C3=A0 partir de cet email, et ayant valid=C3=83=C2=A9 un
+covoiturage ponctuel pay=C3=A9 en CB ou un covoiturage
+r=C3=A9gulier via une validation de leur carnet de compte
+.
+TABLE FOOTER DESABO
+
+Vous recevez ce message car vous =C3=AAtes membre de Les L Idee Du Jour.
+
+Vous pouvez exercer votre droit d'acc=C3=A8s et de suppression =C3=A0 tout =
+moment en nous contactant =C3=A0 : info@lideedujour.fr, ou en nous =C3=
+=A9crivant =C3=A0 L Idee Du Jour - Av Franc=C3=A9sc Camb=C3=B3 21, 5=C2=
+=BA - 08003 Barcelona.=20
+
+Suivez ce lien pour vous d=C3=A9sabonner.http://clicks.lideedujour.fr/u/702=
+787234/247a62f/vN4mNiZRoa4RzFSePLUI8RKHEozYS8PxTNp7.html Politique de confi=
+dentialit=C3=A9.http://www.lideedujour.fr/privacy.html
+
+--751cd14b009b07f8ef60eec8a414b845
+Content-Type: text/html; 
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.=
+w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8" />
+<title>Votre badge t=C3=A9l=C3=A9p=C3=A9age offert</title>
+=09
+<style type=3D"text/css">
+=09.ReadMsgBody { width: 100%; }
+=09.ExternalClass { width: 100%; }
+=09td {border-collapse: collapse; }
+=09
+</style>
+
+</head>
+<body><center><table align=3D"center" style=3D"text-align:center; font-fami=
+ly: Arial; font-size: 12px; color: grey;">
+<tr><td style=3D"text-align:center; font-family: Arial; font-size: 12px; co=
+lor: grey;">
+<span style=3D"font-family: Arial;"><a href=3D"http://clicks.lideedujour.fr=
+/v/702787234/247a62f/vN4mNiZRoa4RzFSePLUI8RKHEozYS8PxTNp7.html">Visualiser =
+la version en ligne</a> | <a href=3D"http://clicks.lideedujour.fr/u/7027872=
+34/247a62f/vN4mNiZRoa4RzFSePLUI8RKHEozYS8PxTNp7.html">Signaler comme courri=
+er ind=C3=A9sirable</a><br /><br /></span>
+</td></tr></table></center><br />
+<table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" align=3D"center" st=
+yle=3D"background-color: #EEEEEE;" width=3D"100%"><tr><td style=3D"text-ali=
+gn: center;"><br /><div style=3D"text-align: center;">
+<table width=3D"600" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=
+=3D"background-color: #ED7185; min-width: 600px;">
+<tr>
+<th colspan=3D"3" style=3D"min-width: 600px;">
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td width=3D"180" height=3D"68"><a href=3D"http://clicks.lideedujour.fr/cl/=
+702787234/851451/286137/1/pSuHXRtbQs6f1L7U2WdnOS0uc8VbeMBz4iMb.htm"><img sr=
+c=3D"http://images.lideedujour.fr/20160728/cvRj5X95rLR/XKO9xN_1.jpg" border=
+=3D"0" width=3D"180" height=3D"68" style=3D"display:block; background-color=
+: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; colo=
+r: #030609; text-decoration: none;" alt=3D"IdVroom" /></a></td>
+<td width=3D"180" height=3D"68"><a href=3D"http://clicks.lideedujour.fr/cl/=
+702787234/851451/286137/2/pSuHXRtbQs6f1L7U2WdnOS0uc8VbeMBz4iMb.htm"><img sr=
+c=3D"http://images.lideedujour.fr/20160728/cvRj5X95rLR/XKO9xN_2.jpg" border=
+=3D"0" width=3D"180" height=3D"68" style=3D"display:block; background-color=
+: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; colo=
+r: #030609; text-decoration: none;" alt=3D"le" /></a></td>
+<td width=3D"180" height=3D"68"><a href=3D"http://clicks.lideedujour.fr/cl/=
+702787234/851451/286137/3/pSuHXRtbQs6f1L7U2WdnOS0uc8VbeMBz4iMb.htm"><img sr=
+c=3D"http://images.lideedujour.fr/20160728/cvRj5X95rLR/XKO9xN_3.jpg" border=
+=3D"0" width=3D"180" height=3D"68" style=3D"display:block; background-color=
+: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; colo=
+r: #030609; text-decoration: none;" alt=3D"covoiturage" /></a></td>
+<td width=3D"60" height=3D"68"><a href=3D"http://clicks.lideedujour.fr/cl/7=
+02787234/851451/286137/4/pSuHXRtbQs6f1L7U2WdnOS0uc8VbeMBz4iMb.htm"><img src=
+=3D"http://images.lideedujour.fr/20160728/cvRj5X95rLR/XKO9xN_4.jpg" border=
+=3D"0" width=3D"60" height=3D"68" style=3D"display:block; background-color:=
+ #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; color=
+: #030609; text-decoration: none;" alt=3D"au quotidien" /></a></td>
+</tr>
+</table>
+</th>
+</tr>
+<tr>
+<th colspan=3D"3" style=3D"min-width: 600px;">
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td width=3D"180" height=3D"80"><a href=3D"http://clicks.lideedujour.fr/cl/=
+702787234/851451/286137/5/pSuHXRtbQs6f1L7U2WdnOS0uc8VbeMBz4iMb.htm"><img sr=
+c=3D"http://images.lideedujour.fr/20160728/cvRj5X95rLR/XKO9xN_5.jpg" border=
+=3D"0" width=3D"180" height=3D"80" style=3D"display:block; background-color=
+: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; colo=
+r: #030609; text-decoration: none;" alt=3D"idVroom" /></a></td>
+<td width=3D"180" height=3D"80"><a href=3D"http://clicks.lideedujour.fr/cl/=
+702787234/851451/286137/6/pSuHXRtbQs6f1L7U2WdnOS0uc8VbeMBz4iMb.htm"><img sr=
+c=3D"http://images.lideedujour.fr/20160728/cvRj5X95rLR/XKO9xN_6.jpg" border=
+=3D"0" width=3D"180" height=3D"80" style=3D"display:block; background-color=
+: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; colo=
+r: #030609; text-decoration: none;" alt=3D"idVroom" /></a></td>
+<td width=3D"180" height=3D"80"><a href=3D"http://clicks.lideedujour.fr/cl/=
+702787234/851451/286137/7/pSuHXRtbQs6f1L7U2WdnOS0uc8VbeMBz4iMb.htm"><img sr=
+c=3D"http://images.lideedujour.fr/20160728/cvRj5X95rLR/XKO9xN_7.jpg" border=
+=3D"0" width=3D"180" height=3D"80" style=3D"display:block; background-color=
+: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; colo=
+r: #030609; text-decoration: none;" alt=3D"idVroom" /></a></td>
+<td width=3D"60" height=3D"80"><a href=3D"http://clicks.lideedujour.fr/cl/7=
+02787234/851451/286137/8/pSuHXRtbQs6f1L7U2WdnOS0uc8VbeMBz4iMb.htm"><img src=
+=3D"http://images.lideedujour.fr/20160728/cvRj5X95rLR/XKO9xN_8.jpg" border=
+=3D"0" width=3D"60" height=3D"80" style=3D"display:block; background-color:=
+ #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; color=
+: #030609; text-decoration: none;" alt=3D"idVroom" /></a></td>
+</tr>
+<tr>
+<td width=3D"180" height=3D"80"><a href=3D"http://clicks.lideedujour.fr/cl/=
+702787234/851451/286137/9/pSuHXRtbQs6f1L7U2WdnOS0uc8VbeMBz4iMb.htm"><img sr=
+c=3D"http://images.lideedujour.fr/20160728/cvRj5X95rLR/XKO9xN_9.jpg" border=
+=3D"0" width=3D"180" height=3D"80" style=3D"display:block; background-color=
+: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; colo=
+r: #030609; text-decoration: none;" alt=3D"idVroom" /></a></td>
+<td width=3D"180" height=3D"80"><a href=3D"http://clicks.lideedujour.fr/cl/=
+702787234/851451/286137/10/pSuHXRtbQs6f1L7U2WdnOS0uc8VbeMBz4iMb.htm"><img s=
+rc=3D"http://images.lideedujour.fr/20160728/cvRj5X95rLR/XKO9xN_10.jpg" bord=
+er=3D"0" width=3D"180" height=3D"80" style=3D"display:block; background-col=
+or: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; co=
+lor: #030609; text-decoration: none;" alt=3D"idVroom" /></a></td>
+<td width=3D"180" height=3D"80"><a href=3D"http://clicks.lideedujour.fr/cl/=
+702787234/851451/286137/11/pSuHXRtbQs6f1L7U2WdnOS0uc8VbeMBz4iMb.htm"><img s=
+rc=3D"http://images.lideedujour.fr/20160728/cvRj5X95rLR/XKO9xN_11.jpg" bord=
+er=3D"0" width=3D"180" height=3D"80" style=3D"display:block; background-col=
+or: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; co=
+lor: #030609; text-decoration: none;" alt=3D"idVroom" /></a></td>
+<td width=3D"60" height=3D"80"><a href=3D"http://clicks.lideedujour.fr/cl/7=
+02787234/851451/286137/12/pSuHXRtbQs6f1L7U2WdnOS0uc8VbeMBz4iMb.htm"><img sr=
+c=3D"http://images.lideedujour.fr/20160728/cvRj5X95rLR/XKO9xN_12.jpg" borde=
+r=3D"0" width=3D"60" height=3D"80" style=3D"display:block; background-color=
+: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; colo=
+r: #030609; text-decoration: none;" alt=3D"idVroom" /></a></td>
+</tr>
+<tr>
+<td width=3D"180" height=3D"80"><a href=3D"http://clicks.lideedujour.fr/cl/=
+702787234/851451/286137/13/pSuHXRtbQs6f1L7U2WdnOS0uc8VbeMBz4iMb.htm"><img s=
+rc=3D"http://images.lideedujour.fr/20160728/cvRj5X95rLR/XKO9xN_13.jpg" bord=
+er=3D"0" width=3D"180" height=3D"80" style=3D"display:block; background-col=
+or: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; co=
+lor: #030609; text-decoration: none;" alt=3D"idVroom" /></a></td>
+<td width=3D"180" height=3D"80"><a href=3D"http://clicks.lideedujour.fr/cl/=
+702787234/851451/286137/14/pSuHXRtbQs6f1L7U2WdnOS0uc8VbeMBz4iMb.htm"><img s=
+rc=3D"http://images.lideedujour.fr/20160728/cvRj5X95rLR/XKO9xN_14.jpg" bord=
+er=3D"0" width=3D"180" height=3D"80" style=3D"display:block; background-col=
+or: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; co=
+lor: #030609; text-decoration: none;" alt=3D"idVroom" /></a></td>
+<td width=3D"180" height=3D"80"><a href=3D"http://clicks.lideedujour.fr/cl/=
+702787234/851451/286137/15/pSuHXRtbQs6f1L7U2WdnOS0uc8VbeMBz4iMb.htm"><img s=
+rc=3D"http://images.lideedujour.fr/20160728/cvRj5X95rLR/XKO9xN_15.jpg" bord=
+er=3D"0" width=3D"180" height=3D"80" style=3D"display:block; background-col=
+or: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; co=
+lor: #030609; text-decoration: none;" alt=3D"idVroom" /></a></td>
+<td width=3D"60" height=3D"80"><a href=3D"http://clicks.lideedujour.fr/cl/7=
+02787234/851451/286137/16/pSuHXRtbQs6f1L7U2WdnOS0uc8VbeMBz4iMb.htm"><img sr=
+c=3D"http://images.lideedujour.fr/20160728/cvRj5X95rLR/XKO9xN_16.jpg" borde=
+r=3D"0" width=3D"60" height=3D"80" style=3D"display:block; background-color=
+: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; colo=
+r: #030609; text-decoration: none;" alt=3D"idVroom" /></a></td>
+</tr>
+<tr>
+<td width=3D"180" height=3D"71"><a href=3D"http://clicks.lideedujour.fr/cl/=
+702787234/851451/286137/17/pSuHXRtbQs6f1L7U2WdnOS0uc8VbeMBz4iMb.htm"><img s=
+rc=3D"http://images.lideedujour.fr/20160728/cvRj5X95rLR/XKO9xN_17.jpg" bord=
+er=3D"0" width=3D"180" height=3D"71" style=3D"display:block; background-col=
+or: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; co=
+lor: #030609; text-decoration: none;" alt=3D"idVroom" /></a></td>
+<td width=3D"180" height=3D"71"><a href=3D"http://clicks.lideedujour.fr/cl/=
+702787234/851451/286137/18/pSuHXRtbQs6f1L7U2WdnOS0uc8VbeMBz4iMb.htm"><img s=
+rc=3D"http://images.lideedujour.fr/20160728/cvRj5X95rLR/XKO9xN_18.jpg" bord=
+er=3D"0" width=3D"180" height=3D"71" style=3D"display:block; background-col=
+or: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; co=
+lor: #030609; text-decoration: none;" alt=3D"idVroom" /></a></td>
+<td width=3D"180" height=3D"71"><a href=3D"http://clicks.lideedujour.fr/cl/=
+702787234/851451/286137/19/pSuHXRtbQs6f1L7U2WdnOS0uc8VbeMBz4iMb.htm"><img s=
+rc=3D"http://images.lideedujour.fr/20160728/cvRj5X95rLR/XKO9xN_19.jpg" bord=
+er=3D"0" width=3D"180" height=3D"71" style=3D"display:block; background-col=
+or: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; co=
+lor: #030609; text-decoration: none;" alt=3D"idVroom" /></a></td>
+<td width=3D"60" height=3D"71"><a href=3D"http://clicks.lideedujour.fr/cl/7=
+02787234/851451/286137/20/pSuHXRtbQs6f1L7U2WdnOS0uc8VbeMBz4iMb.htm"><img sr=
+c=3D"http://images.lideedujour.fr/20160728/cvRj5X95rLR/XKO9xN_20.jpg" borde=
+r=3D"0" width=3D"60" height=3D"71" style=3D"display:block; background-color=
+: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; colo=
+r: #030609; text-decoration: none;" alt=3D"idVroom" /></a></td>
+</tr>
+</table>
+</th>
+</tr>
+<tr>
+<th style=3D"min-width: 84px;"><a href=3D"http://clicks.lideedujour.fr/cl/7=
+02787234/851451/286137/21/pSuHXRtbQs6f1L7U2WdnOS0uc8VbeMBz4iMb.htm"><img sr=
+c=3D"http://images.lideedujour.fr/20160728/cvRj5X95rLR/XKO9xN_21.jpg" borde=
+r=3D"0" width=3D"84" height=3D"50" style=3D"display:block;" alt=3D"idVroom"=
+ /></a></th>
+<th style=3D"min-width: 249px;">
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td width=3D"180" height=3D"50"><a href=3D"http://clicks.lideedujour.fr/cl/=
+702787234/851451/286137/22/pSuHXRtbQs6f1L7U2WdnOS0uc8VbeMBz4iMb.htm"><img s=
+rc=3D"http://images.lideedujour.fr/20160728/cvRj5X95rLR/XKO9xN_22.gif" bord=
+er=3D"0" width=3D"180" height=3D"50" style=3D"display:block; background-col=
+or: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; co=
+lor: #030609; text-decoration: none;" alt=3D"idVroom" /></a></td>
+<td width=3D"69" height=3D"50"><a href=3D"http://clicks.lideedujour.fr/cl/7=
+02787234/851451/286137/23/pSuHXRtbQs6f1L7U2WdnOS0uc8VbeMBz4iMb.htm"><img sr=
+c=3D"http://images.lideedujour.fr/20160728/cvRj5X95rLR/XKO9xN_23.gif" borde=
+r=3D"0" width=3D"69" height=3D"50" style=3D"display:block; background-color=
+: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; colo=
+r: #030609; text-decoration: none;" alt=3D"idVroom" /></a></td>
+</tr>
+</table>
+</th>
+<th style=3D"min-width: 267px;">
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td width=3D"180" height=3D"50"><a href=3D"http://clicks.lideedujour.fr/cl/=
+702787234/851451/286137/24/pSuHXRtbQs6f1L7U2WdnOS0uc8VbeMBz4iMb.htm"><img s=
+rc=3D"http://images.lideedujour.fr/20160728/cvRj5X95rLR/XKO9xN_24.jpg" bord=
+er=3D"0" width=3D"180" height=3D"50" style=3D"display:block; background-col=
+or: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; co=
+lor: #030609; text-decoration: none;" alt=3D"idVroom" /></a></td>
+<td width=3D"87" height=3D"50"><a href=3D"http://clicks.lideedujour.fr/cl/7=
+02787234/851451/286137/25/pSuHXRtbQs6f1L7U2WdnOS0uc8VbeMBz4iMb.htm"><img sr=
+c=3D"http://images.lideedujour.fr/20160728/cvRj5X95rLR/XKO9xN_25.jpg" borde=
+r=3D"0" width=3D"87" height=3D"50" style=3D"display:block; background-color=
+: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; colo=
+r: #030609; text-decoration: none;" alt=3D"idVroom" /></a></td>
+</tr>
+</table>
+</th>
+</tr>
+<tr>
+<th colspan=3D"3" style=3D"min-width: 600px;">
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td width=3D"180" height=3D"80"><a href=3D"http://clicks.lideedujour.fr/cl/=
+702787234/851451/286137/26/pSuHXRtbQs6f1L7U2WdnOS0uc8VbeMBz4iMb.htm"><img s=
+rc=3D"http://images.lideedujour.fr/20160728/cvRj5X95rLR/XKO9xN_26.jpg" bord=
+er=3D"0" width=3D"180" height=3D"80" style=3D"display:block; background-col=
+or: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; co=
+lor: #030609; text-decoration: none;" alt=3D"idVroom" /></a></td>
+<td width=3D"180" height=3D"80"><a href=3D"http://clicks.lideedujour.fr/cl/=
+702787234/851451/286137/27/pSuHXRtbQs6f1L7U2WdnOS0uc8VbeMBz4iMb.htm"><img s=
+rc=3D"http://images.lideedujour.fr/20160728/cvRj5X95rLR/XKO9xN_27.jpg" bord=
+er=3D"0" width=3D"180" height=3D"80" style=3D"display:block; background-col=
+or: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; co=
+lor: #030609; text-decoration: none;" alt=3D"idVroom" /></a></td>
+<td width=3D"180" height=3D"80"><a href=3D"http://clicks.lideedujour.fr/cl/=
+702787234/851451/286137/28/pSuHXRtbQs6f1L7U2WdnOS0uc8VbeMBz4iMb.htm"><img s=
+rc=3D"http://images.lideedujour.fr/20160728/cvRj5X95rLR/XKO9xN_28.jpg" bord=
+er=3D"0" width=3D"180" height=3D"80" style=3D"display:block; background-col=
+or: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; co=
+lor: #030609; text-decoration: none;" alt=3D"idVroom" /></a></td>
+<td width=3D"60" height=3D"80"><a href=3D"http://clicks.lideedujour.fr/cl/7=
+02787234/851451/286137/29/pSuHXRtbQs6f1L7U2WdnOS0uc8VbeMBz4iMb.htm"><img sr=
+c=3D"http://images.lideedujour.fr/20160728/cvRj5X95rLR/XKO9xN_29.jpg" borde=
+r=3D"0" width=3D"60" height=3D"80" style=3D"display:block; background-color=
+: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; colo=
+r: #030609; text-decoration: none;" alt=3D"idVroom" /></a></td>
+</tr>
+<tr>
+<td width=3D"180" height=3D"104"><a href=3D"http://clicks.lideedujour.fr/cl=
+/702787234/851451/286137/30/pSuHXRtbQs6f1L7U2WdnOS0uc8VbeMBz4iMb.htm"><img =
+src=3D"http://images.lideedujour.fr/20160728/cvRj5X95rLR/XKO9xN_30.jpg" bor=
+der=3D"0" width=3D"180" height=3D"104" style=3D"display:block; background-c=
+olor: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; =
+color: #030609; text-decoration: none;" alt=3D"idVroom" /></a></td>
+<td width=3D"180" height=3D"104"><a href=3D"http://clicks.lideedujour.fr/cl=
+/702787234/851451/286137/31/pSuHXRtbQs6f1L7U2WdnOS0uc8VbeMBz4iMb.htm"><img =
+src=3D"http://images.lideedujour.fr/20160728/cvRj5X95rLR/XKO9xN_31.jpg" bor=
+der=3D"0" width=3D"180" height=3D"104" style=3D"display:block; background-c=
+olor: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; =
+color: #030609; text-decoration: none;" alt=3D"idVroom" /></a></td>
+<td width=3D"180" height=3D"104"><a href=3D"http://clicks.lideedujour.fr/cl=
+/702787234/851451/286137/32/pSuHXRtbQs6f1L7U2WdnOS0uc8VbeMBz4iMb.htm"><img =
+src=3D"http://images.lideedujour.fr/20160728/cvRj5X95rLR/XKO9xN_32.jpg" bor=
+der=3D"0" width=3D"180" height=3D"104" style=3D"display:block; background-c=
+olor: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; =
+color: #030609; text-decoration: none;" alt=3D"idVroom" /></a></td>
+<td width=3D"60" height=3D"104"><a href=3D"http://clicks.lideedujour.fr/cl/=
+702787234/851451/286137/33/pSuHXRtbQs6f1L7U2WdnOS0uc8VbeMBz4iMb.htm"><img s=
+rc=3D"http://images.lideedujour.fr/20160728/cvRj5X95rLR/XKO9xN_33.jpg" bord=
+er=3D"0" width=3D"60" height=3D"104" style=3D"display:block; background-col=
+or: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; co=
+lor: #030609; text-decoration: none;" alt=3D"idVroom" /></a></td>
+</tr>
+</table>
+</th>
+</tr>
+<tr>
+<th colspan=3D"3" style=3D"min-width: 600px;">
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td width=3D"180" height=3D"80"><a href=3D"http://clicks.lideedujour.fr/cl/=
+702787234/851451/286137/34/pSuHXRtbQs6f1L7U2WdnOS0uc8VbeMBz4iMb.htm"><img s=
+rc=3D"http://images.lideedujour.fr/20160728/cvRj5X95rLR/XKO9xN_34.jpg" bord=
+er=3D"0" width=3D"180" height=3D"80" style=3D"display:block; background-col=
+or: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; co=
+lor: #030609; text-decoration: none;" alt=3D"idvroom" /></a></td>
+<td width=3D"180" height=3D"80"><a href=3D"http://clicks.lideedujour.fr/cl/=
+702787234/851451/286137/35/pSuHXRtbQs6f1L7U2WdnOS0uc8VbeMBz4iMb.htm"><img s=
+rc=3D"http://images.lideedujour.fr/20160728/cvRj5X95rLR/XKO9xN_35.jpg" bord=
+er=3D"0" width=3D"180" height=3D"80" style=3D"display:block; background-col=
+or: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; co=
+lor: #030609; text-decoration: none;" alt=3D"idvroom" /></a></td>
+<td width=3D"180" height=3D"80"><a href=3D"http://clicks.lideedujour.fr/cl/=
+702787234/851451/286137/36/pSuHXRtbQs6f1L7U2WdnOS0uc8VbeMBz4iMb.htm"><img s=
+rc=3D"http://images.lideedujour.fr/20160728/cvRj5X95rLR/XKO9xN_36.jpg" bord=
+er=3D"0" width=3D"180" height=3D"80" style=3D"display:block; background-col=
+or: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; co=
+lor: #030609; text-decoration: none;" alt=3D"idvroom" /></a></td>
+<td width=3D"60" height=3D"80"><a href=3D"http://clicks.lideedujour.fr/cl/7=
+02787234/851451/286137/37/pSuHXRtbQs6f1L7U2WdnOS0uc8VbeMBz4iMb.htm"><img sr=
+c=3D"http://images.lideedujour.fr/20160728/cvRj5X95rLR/XKO9xN_37.jpg" borde=
+r=3D"0" width=3D"60" height=3D"80" style=3D"display:block; background-color=
+: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; colo=
+r: #030609; text-decoration: none;" alt=3D"idvroom" /></a></td>
+</tr>
+<tr>
+<td width=3D"180" height=3D"80"><a href=3D"http://clicks.lideedujour.fr/cl/=
+702787234/851451/286137/38/pSuHXRtbQs6f1L7U2WdnOS0uc8VbeMBz4iMb.htm"><img s=
+rc=3D"http://images.lideedujour.fr/20160728/cvRj5X95rLR/XKO9xN_38.jpg" bord=
+er=3D"0" width=3D"180" height=3D"80" style=3D"display:block; background-col=
+or: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; co=
+lor: #030609; text-decoration: none;" alt=3D"idvroom" /></a></td>
+<td width=3D"180" height=3D"80"><a href=3D"http://clicks.lideedujour.fr/cl/=
+702787234/851451/286137/39/pSuHXRtbQs6f1L7U2WdnOS0uc8VbeMBz4iMb.htm"><img s=
+rc=3D"http://images.lideedujour.fr/20160728/cvRj5X95rLR/XKO9xN_39.jpg" bord=
+er=3D"0" width=3D"180" height=3D"80" style=3D"display:block; background-col=
+or: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; co=
+lor: #030609; text-decoration: none;" alt=3D"idvroom" /></a></td>
+<td width=3D"180" height=3D"80"><a href=3D"http://clicks.lideedujour.fr/cl/=
+702787234/851451/286137/40/pSuHXRtbQs6f1L7U2WdnOS0uc8VbeMBz4iMb.htm"><img s=
+rc=3D"http://images.lideedujour.fr/20160728/cvRj5X95rLR/XKO9xN_40.jpg" bord=
+er=3D"0" width=3D"180" height=3D"80" style=3D"display:block; background-col=
+or: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; co=
+lor: #030609; text-decoration: none;" alt=3D"idvroom" /></a></td>
+<td width=3D"60" height=3D"80"><a href=3D"http://clicks.lideedujour.fr/cl/7=
+02787234/851451/286137/41/pSuHXRtbQs6f1L7U2WdnOS0uc8VbeMBz4iMb.htm"><img sr=
+c=3D"http://images.lideedujour.fr/20160728/cvRj5X95rLR/XKO9xN_41.jpg" borde=
+r=3D"0" width=3D"60" height=3D"80" style=3D"display:block; background-color=
+: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; colo=
+r: #030609; text-decoration: none;" alt=3D"idvroom" /></a></td>
+</tr>
+<tr>
+<td width=3D"180" height=3D"48"><a href=3D"http://clicks.lideedujour.fr/cl/=
+702787234/851451/286137/42/pSuHXRtbQs6f1L7U2WdnOS0uc8VbeMBz4iMb.htm"><img s=
+rc=3D"http://images.lideedujour.fr/20160728/cvRj5X95rLR/XKO9xN_42.jpg" bord=
+er=3D"0" width=3D"180" height=3D"48" style=3D"display:block; background-col=
+or: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; co=
+lor: #030609; text-decoration: none;" alt=3D"idvroom" /></a></td>
+<td width=3D"180" height=3D"48"><a href=3D"http://clicks.lideedujour.fr/cl/=
+702787234/851451/286137/43/pSuHXRtbQs6f1L7U2WdnOS0uc8VbeMBz4iMb.htm"><img s=
+rc=3D"http://images.lideedujour.fr/20160728/cvRj5X95rLR/XKO9xN_43.jpg" bord=
+er=3D"0" width=3D"180" height=3D"48" style=3D"display:block; background-col=
+or: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; co=
+lor: #030609; text-decoration: none;" alt=3D"idvroom" /></a></td>
+<td width=3D"180" height=3D"48"><a href=3D"http://clicks.lideedujour.fr/cl/=
+702787234/851451/286137/44/pSuHXRtbQs6f1L7U2WdnOS0uc8VbeMBz4iMb.htm"><img s=
+rc=3D"http://images.lideedujour.fr/20160728/cvRj5X95rLR/XKO9xN_44.jpg" bord=
+er=3D"0" width=3D"180" height=3D"48" style=3D"display:block; background-col=
+or: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; co=
+lor: #030609; text-decoration: none;" alt=3D"idvroom" /></a></td>
+<td width=3D"60" height=3D"48"><a href=3D"http://clicks.lideedujour.fr/cl/7=
+02787234/851451/286137/45/pSuHXRtbQs6f1L7U2WdnOS0uc8VbeMBz4iMb.htm"><img sr=
+c=3D"http://images.lideedujour.fr/20160728/cvRj5X95rLR/XKO9xN_45.jpg" borde=
+r=3D"0" width=3D"60" height=3D"48" style=3D"display:block; background-color=
+: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; colo=
+r: #030609; text-decoration: none;" alt=3D"idvroom" /></a></td>
+</tr>
+</table>
+</th>
+</tr>
+<tr>
+<th width=3D"600" colspan=3D"3" align=3D"center" style=3D"background-color:=
+ #EEEEEE; font-weight: normal; padding-bottom: 20px; padding-top: 20px;">
+<span style=3D"-webkit-text-size-adjust: none; font-family: 'Helvetica Neue=
+', Helvetica, Arial, sans-serif; font-size: 11px; color: #a0a0a0;">*L'offre=
+ "10 Euros offerts" est
+valable une fois pour les conducteurs inscrits sur la plateforme
+iDVROOM =C3=A0 partir de cet email, et ayant valid=C3=83=C2=A9 un
+covoiturage ponctuel pay=C3=A9 en CB ou un covoiturage
+r=C3=A9gulier via une validation de leur carnet de compte
+.</span></th>
+</tr>
+</table>
+</div><img src=3D"http://adtrack.adleadevent.com/adtckom.php?idc=3D10953&id=
+ctr=3D1&idp=3D2076&idm=3D2195&email=3D<++FIELD(email)++" width=3D"1" height=
+=3D"1" border=3D"0" alt=3D" " />
+</td></tr></table>
+
+
+<img src=3D"http://clicks.lideedujour.fr/op/702787234/851451.gif?t=3D146979=
+7591" height=3D"1" width=3D"1" alt=3D"" border=3D"0" />
+<center><table align=3D"center" style=3D"text-align:center; font-family: Ar=
+ial; font-size: 12px; color: grey;">
+<tr><td style=3D"text-align:center; font-family: Arial; font-size: 12px; co=
+lor: grey;">
+<span style=3D"font-family: Arial;">Vous recevez ce message car vous =C3=
+=AAtes membre de Les L Idee Du Jour.<br /><br />
+Vous pouvez exercer votre droit d'acc=C3=A8s et de suppression
+=C3=A0 tout moment en nous contactant =C3=A0 : info@lideedujour.fr,
+ou en nous =C3=A9crivant =C3=A0 L Idee Du Jour - Av Franc=C3=A9sc Camb=
+=C3=B3 21, 5=C2=BA - 08003 Barcelona.
+<br /><br />
+<a href=3D"http://clicks.lideedujour.fr/u/702787234/247a62f/vN4mNiZRoa4RzFS=
+ePLUI8RKHEozYS8PxTNp7.html" title=3D"d=C3=A9sabonner" style=3D"color:#00000=
+0; font-weight:bold;">Suivez ce lien pour vous d=C3=A9sabonner</a>.=20
+<a href=3D"http://www.lideedujour.fr/privacy.html" style=3D"color:#000000; =
+font-weight:bold;">Politique de confidentialit=C3=A9</a>.
+</span></td></tr></table></center><br /></body></html>
+
+--751cd14b009b07f8ef60eec8a414b845--

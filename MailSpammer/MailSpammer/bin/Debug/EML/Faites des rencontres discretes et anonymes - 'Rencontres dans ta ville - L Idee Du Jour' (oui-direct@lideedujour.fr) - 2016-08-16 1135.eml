@@ -1,0 +1,220 @@
+Return-Path: <bounce-304907-70aa0922f0-146121678@lideedujour.fr>
+Received: from mailimailo.univ-rennes1.fr ([unix socket])
+	 by mailimailo.univ-rennes1.fr (Cyrus v2.3.16-Fedora-RPM-2.3.16-6.el6_2.5) with LMTPA;
+	 Tue, 16 Aug 2016 11:36:12 +0200
+X-Sieve: CMU Sieve 2.3
+Received: from mailout2.univ-rennes1.fr (mailout2.univ-rennes1.fr [129.20.129.120])
+	by mailimailo.univ-rennes1.fr (Postfix) with ESMTP id 0B0F583
+	for <resp-m2-miage@univ-rennes1.fr>; Tue, 16 Aug 2016 11:36:12 +0200 (CEST)
+Received: from localhost (vmscanmail.univ-rennes1.fr [129.20.128.134])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id 0572960112
+	for <resp-m2-miage@univ-rennes1.fr>; Tue, 16 Aug 2016 11:36:12 +0200 (CEST)
+X-Virus-Scanned: amavisd-new at univ-rennes1.fr
+Received: from mailout2.univ-rennes1.fr ([129.20.129.120])
+	by localhost (vmscanmail.univ-rennes1.frm [129.20.128.134]) (amavisd-new, port 10026)
+	with ESMTP id oRVWrb0PdhAJ for <resp-m2-miage@univ-rennes1.fr>;
+	Tue, 16 Aug 2016 11:36:11 +0200 (CEST)
+Received: from vmmailin.univ-rennes1.fr (vmmailin.univ-rennes1.fr [129.20.128.133])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id D731F6010E
+	for <resp-m2-miage@univ-rennes1.fr>; Tue, 16 Aug 2016 11:36:11 +0200 (CEST)
+Received: from mxb1-2.relay.renater.fr (mxb1-2.relay.renater.fr [194.214.201.9])
+	by vmmailin.univ-rennes1.fr (Postfix) with ESMTP id D0C3F20033
+	for <resp-m2-miage@univ-rennes1.fr>; Tue, 16 Aug 2016 11:36:11 +0200 (CEST)
+Received: from er7.lideedujour.fr (er7.lideedujour.fr [188.213.62.194])
+	(using TLSv1.2 with cipher DHE-RSA-CAMELLIA256-SHA (256/256 bits))
+	(No client certificate requested)
+	by mxb1-2.relay.renater.fr (asm) with ESMTPS id 908DD2802B9
+	for <resp-m2-miage@univ-rennes1.fr>; Tue, 16 Aug 2016 11:36:11 +0200 (CEST)
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=default; d=lideedujour.fr;
+ h=MIME-Version:From:Reply-To:List-Unsubscribe:Feedback-ID:Subject:Content-Type:To:Message-ID:Date; i=oui-direct@lideedujour.fr;
+ bh=yiUrvXXyq7OwViEospFCPi03tGE=;
+ b=o7ZDmsP5HE+hWBMm8J41xwi/DyM2vH86GCIbjEOtr0CEDUrpGCzsPurqq2KAWD1ToMEeauZ1aEWc
+   QJcy18nJDvutvFWq0HMrWbS/T11+s4Iq8itCiANWv5NQkTnnap8Rl3AQcNKQkpnRmbkh1nJRXVnm
+   ZGmNAPxvYtJdeQWhpPM=
+MIME-Version: 1.0
+Precedence: bulk
+From: "Rencontres dans ta ville - L Idee Du Jour" <oui-direct@lideedujour.fr>
+Reply-To: "L Idee Du Jour" <info@lideedujour.fr>
+List-Unsubscribe: <http://clicks.lideedujour.fr/lu/702787234/ddef5f0/304907.html>
+X-EMID: 1
+Feedback-ID: LEAD658
+Subject: Faites des rencontres discretes et anonymes
+Content-Type: multipart/alternative;
+ boundary=d6fa61c1177bf5eca1944f7994f13387
+To: resp-m2-miage@univ-rennes1.fr
+Message-ID: <0.0.13A.482.1D1F7A19419496A.0@er7.lideedujour.fr>
+Date: Tue, 16 Aug 2016 11:35:51 +0200
+X-UCE-Status: YES
+X-UCE-Type: MCE
+X-Original-Source-IP: 188.213.62.194
+X-Bizanga: IMP - mxb1-2.relay.renater.fr
+X-Renater-SpamState: 11
+X-Renater-SpamScore: 17
+X-Renater-SpamCause: gggruggvucftvghtrhhoucdtuddrfeeluddrudejgddujeculddtuddrfeeltddrtddtmdcutefuodetggdotefrodftvfcurfhrohhfihhlvgemucftgffptefvgfftpdggtfgfnhhsuhgsshgtrhhisggvnecuuegrihhlohhuthemuceftddtnecundfotefknffkpffiucdludejmdenucfjughrpeggphfhrhfjufgtvffkffesrgdtreertddtjeenucfhrhhomhepfdftvghntghonhhtrhgvshcuuggrnhhsuchtrgcuvhhilhhlvgcuqdcunfcukfguvggvucffuhculfhouhhrfdcuoehouhhiqdguihhrvggttheslhhiuggvvgguuhhjohhurhdrfhhrqeenucffohhmrghinheplhhiuggvvgguuhhjohhurhdrfhhrnecukfhppedukeekrddvudefrdeivddrudelgeenucfrrghrrghmpehmohguvgepshhmthhppdhhvghlohepvghrjedrlhhiuggvvgguuhhjohhurhdrfhhrpdhinhgvthepudekkedrvddufedriedvrdduleegpdhmrghilhhfrhhomhepsghouhhntggvqdeftdegledtjedqjedtrggrtdelvddvfhdtqddugeeiuddvudeijeeksehlihguvggvughujhhouhhrrdhfrhdprhgtphhtthhopehrvghsphdqmhdvqdhmihgrghgvsehunhhivhdqrhgvnhhnvghsuddrfhhr 
+X-Renater-ServerName: mxb1-2.relay.renater.fr
+
+
+--d6fa61c1177bf5eca1944f7994f13387
+Content-Type: text/plain; 
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Visualiser la version en ligne : http://clicks.lideedujour.fr/v/702787234/d=
+def5f0/DuJfVoA1shN8SBKFcaH41Q6L39AdHEVZZ5en.html
+Signaler comme courrier ind=C3=A9sirable : http://clicks.lideedujour.fr/u/7=
+02787234/ddef5f0/DuJfVoA1shN8SBKFcaH41Q6L39AdHEVZZ5en.html
+
+http://clicks.lideedujour.fr/cl/702787234/960563/294056/8/FcuYutE497IWX2sry=
+Xu77xn1ZBezR7Acw7PM.htm
+
+...
+***************************************
+100% Anonyme 100% Discret 100% Efficace
+***************************************
+Certaines de tes voisines viennent
+d'arriver dans ta ville et veulent passer du bon temps avec un
+mec discret. Viens voir leurs annonces.
+>>> Contacte les De Suite
+
+Vous recevez ce message car vous =C3=AAtes membre de Les L Idee Du Jour.
+
+Vous pouvez exercer votre droit d'acc=C3=A8s et de suppression =C3=A0 tout =
+moment en nous contactant =C3=A0 : info@lideedujour.fr, ou en nous =C3=
+=A9crivant =C3=A0 L Idee Du Jour - Av Franc=C3=A9sc Camb=C3=B3 21, 5=C2=
+=BA - 08003 Barcelona.=20
+
+Suivez ce lien pour vous d=C3=A9sabonner.http://clicks.lideedujour.fr/u/702=
+787234/ddef5f0/DuJfVoA1shN8SBKFcaH41Q6L39AdHEVZZ5en.html Politique de confi=
+dentialit=C3=A9.http://www.lideedujour.fr/privacy.html
+
+--d6fa61c1177bf5eca1944f7994f13387
+Content-Type: text/html; 
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.=
+w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8" />
+<title>Faites des rencontres discretes et anonymes</title>
+=09
+<style type=3D"text/css">
+=09.ReadMsgBody { width: 100%; }
+=09.ExternalClass { width: 100%; }
+=09td {border-collapse: collapse; }
+=09
+</style>
+
+</head>
+<body><center><table align=3D"center" style=3D"text-align:center; font-fami=
+ly: Arial; font-size: 12px; color: grey;">
+<tr><td style=3D"text-align:center; font-family: Arial; font-size: 12px; co=
+lor: grey;">
+<span style=3D"font-family: Arial;"><a href=3D"http://clicks.lideedujour.fr=
+/v/702787234/ddef5f0/DuJfVoA1shN8SBKFcaH41Q6L39AdHEVZZ5en.html">Visualiser =
+la version en ligne</a> | <a href=3D"http://clicks.lideedujour.fr/u/7027872=
+34/ddef5f0/DuJfVoA1shN8SBKFcaH41Q6L39AdHEVZZ5en.html">Signaler comme courri=
+er ind=C3=A9sirable</a><br /><br /></span>
+</td></tr></table></center><br />
+<center><table cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td width=3D"600">
+<center><table cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" style=3D"color: #333333;">
+<h1>100% Anonyme 100% Discret 100% Efficace</h1>
+</td>
+</tr>
+<tr>
+<td style=3D"padding-bottom: 20px;">
+<center><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td width=3D"180" height=3D"80"><a href=3D"http://clicks.lideedujour.fr/cl/=
+702787234/960563/294056/1/FcuYutE497IWX2sryXu77xn1ZBezR7Acw7PM.htm"><img sr=
+c=3D"http://images.lideedujour.fr/20160809/YNIykaTKWJx/WJPqMv_1.jpg" border=
+=3D"0" width=3D"180" height=3D"80" style=3D"display:block; background-color=
+: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; colo=
+r: #030609; text-decoration: none;" alt=3D"... ****************************=
+***********100% Anonyme" /></a></td>
+<td width=3D"50" height=3D"80"><a href=3D"http://clicks.lideedujour.fr/cl/7=
+02787234/960563/294056/2/FcuYutE497IWX2sryXu77xn1ZBezR7Acw7PM.htm"><img src=
+=3D"http://images.lideedujour.fr/20160809/YNIykaTKWJx/WJPqMv_2.jpg" border=
+=3D"0" width=3D"50" height=3D"80" style=3D"display:block; background-color:=
+ #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; color=
+: #030609; text-decoration: none;" alt=3D"100% Discret 100%" /></a></td>
+</tr>
+<tr>
+<td width=3D"180" height=3D"80"><a href=3D"http://clicks.lideedujour.fr/cl/=
+702787234/960563/294056/3/FcuYutE497IWX2sryXu77xn1ZBezR7Acw7PM.htm"><img sr=
+c=3D"http://images.lideedujour.fr/20160809/YNIykaTKWJx/WJPqMv_3.jpg" border=
+=3D"0" width=3D"180" height=3D"80" style=3D"display:block; background-color=
+: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; colo=
+r: #030609; text-decoration: none;" alt=3D"Efficace************************=
+***************Certaines de tes" /></a></td>
+<td width=3D"50" height=3D"80"><a href=3D"http://clicks.lideedujour.fr/cl/7=
+02787234/960563/294056/4/FcuYutE497IWX2sryXu77xn1ZBezR7Acw7PM.htm"><img src=
+=3D"http://images.lideedujour.fr/20160809/YNIykaTKWJx/WJPqMv_4.jpg" border=
+=3D"0" width=3D"50" height=3D"80" style=3D"display:block; background-color:=
+ #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; color=
+: #030609; text-decoration: none;" alt=3D"voisines viennentd'arriver dans" =
+/></a></td>
+</tr>
+<tr>
+<td width=3D"180" height=3D"70"><a href=3D"http://clicks.lideedujour.fr/cl/=
+702787234/960563/294056/5/FcuYutE497IWX2sryXu77xn1ZBezR7Acw7PM.htm"><img sr=
+c=3D"http://images.lideedujour.fr/20160809/YNIykaTKWJx/WJPqMv_5.jpg" border=
+=3D"0" width=3D"180" height=3D"70" style=3D"display:block; background-color=
+: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; colo=
+r: #030609; text-decoration: none;" alt=3D"ta ville et" /></a></td>
+<td width=3D"50" height=3D"70"><a href=3D"http://clicks.lideedujour.fr/cl/7=
+02787234/960563/294056/6/FcuYutE497IWX2sryXu77xn1ZBezR7Acw7PM.htm"><img src=
+=3D"http://images.lideedujour.fr/20160809/YNIykaTKWJx/WJPqMv_6.jpg" border=
+=3D"0" width=3D"50" height=3D"70" style=3D"display:block; background-color:=
+ #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; color=
+: #030609; text-decoration: none;" alt=3D"veulent passer du" /></a></td>
+</tr>
+</table></center>
+</td>
+</tr>
+<tr>
+<td align=3D"left" style=3D"font-size: 14px; line-height: 20px; color: #666=
+; padding-bottom: 20px;">Certaines de tes voisines viennent
+d'arriver dans ta ville et veulent passer du bon temps avec un
+mec discret. Viens voir leurs annonces.</td>
+</tr>
+<tr>
+<td align=3D"left" style=3D"font-weight: bold; font-size: 24px; padding-bot=
+tom: 50px;"><a target=3D"_blank" href=3D"http://clicks.lideedujour.fr/cl/70=
+2787234/960563/294056/7/FcuYutE497IWX2sryXu77xn1ZBezR7Acw7PM.htm" style=3D"=
+color: green;">>>> Contacte les De Suite</a></td>
+</tr>
+</table></center>
+</td>
+</tr>
+</table></center><img src=3D"http://adv-spb-i.com/banniere.php?type=3D5&idc=
+=3D5512&idv=3D5246&cand=3D862587" width=3D"1" height=3D"1" border=3D"0" alt=
+=3D" " />
+
+
+<img src=3D"http://clicks.lideedujour.fr/op/702787234/960563.gif?t=3D147133=
+8343" height=3D"1" width=3D"1" alt=3D"" border=3D"0" />
+<center><table align=3D"center" style=3D"text-align:center; font-family: Ar=
+ial; font-size: 12px; color: grey;">
+<tr><td style=3D"text-align:center; font-family: Arial; font-size: 12px; co=
+lor: grey;">
+<span style=3D"font-family: Arial;">Vous recevez ce message car vous =C3=
+=AAtes membre de Les L Idee Du Jour.<br /><br />
+Vous pouvez exercer votre droit d'acc=C3=A8s et de suppression
+=C3=A0 tout moment en nous contactant =C3=A0 : info@lideedujour.fr,
+ou en nous =C3=A9crivant =C3=A0 L Idee Du Jour - Av Franc=C3=A9sc Camb=
+=C3=B3 21, 5=C2=BA - 08003 Barcelona.
+<br /><br />
+<a href=3D"http://clicks.lideedujour.fr/u/702787234/ddef5f0/DuJfVoA1shN8SBK=
+FcaH41Q6L39AdHEVZZ5en.html" title=3D"d=C3=A9sabonner" style=3D"color:#00000=
+0; font-weight:bold;">Suivez ce lien pour vous d=C3=A9sabonner</a>.=20
+<a href=3D"http://www.lideedujour.fr/privacy.html" style=3D"color:#000000; =
+font-weight:bold;">Politique de confidentialit=C3=A9</a>.
+</span></td></tr></table></center><br /></body></html>
+
+--d6fa61c1177bf5eca1944f7994f13387--

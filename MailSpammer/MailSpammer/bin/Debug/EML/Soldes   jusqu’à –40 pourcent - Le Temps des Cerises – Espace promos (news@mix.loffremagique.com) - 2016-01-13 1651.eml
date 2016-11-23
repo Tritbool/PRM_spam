@@ -1,0 +1,106 @@
+Return-Path: <bounce+rOS-GMrp-eD9K@mix.loffremagique.com>
+Received: from mailimailo.univ-rennes1.fr ([unix socket])
+	 by mailimailo.univ-rennes1.fr (Cyrus v2.3.16-Fedora-RPM-2.3.16-6.el6_2.5) with LMTPA;
+	 Wed, 13 Jan 2016 16:54:15 +0100
+X-Sieve: CMU Sieve 2.3
+Received: from mailout1.univ-rennes1.fr (mailout1.univ-rennes1.fr [129.20.128.162])
+	by mailimailo.univ-rennes1.fr (Postfix) with ESMTP id 20F5626A1198
+	for <resp-m2-miage@univ-rennes1.fr>; Wed, 13 Jan 2016 16:54:15 +0100 (CET)
+Received: from localhost (vmscanmail.univ-rennes1.fr [129.20.128.134])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id 1C2FC601EC
+	for <resp-m2-miage@univ-rennes1.fr>; Wed, 13 Jan 2016 16:54:15 +0100 (CET)
+X-Virus-Scanned: amavisd-new at univ-rennes1.fr
+Received: from mailout1.univ-rennes1.fr ([129.20.128.162])
+	by localhost (vmscanmail.univ-rennes1.frm [129.20.128.134]) (amavisd-new, port 10026)
+	with ESMTP id hFZ1luaQZF5J for <resp-m2-miage@univ-rennes1.fr>;
+	Wed, 13 Jan 2016 16:54:14 +0100 (CET)
+Received: from vmmailin.univ-rennes1.fr (vmmailin.univ-rennes1.fr [129.20.128.133])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id EB4D7601E8
+	for <resp-m2-miage@univ-rennes1.fr>; Wed, 13 Jan 2016 16:54:14 +0100 (CET)
+Received: from mxb2-1.relay.renater.fr (mxb2-1.relay.renater.fr [194.214.200.8])
+	by vmmailin.univ-rennes1.fr (Postfix) with ESMTP id E2A852003A
+	for <resp-m2-miage@univ-rennes1.fr>; Wed, 13 Jan 2016 16:54:14 +0100 (CET)
+Received: from smtp164.mix.loffremagique.com (smtp164.mix.loffremagique.com [82.196.26.164])
+	by mxb2-1.relay.renater.fr (asm) with ESMTP id B48AB6000E2
+	for <resp-m2-miage@univ-rennes1.fr>; Wed, 13 Jan 2016 16:54:14 +0100 (CET)
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=s2c; d=mix.loffremagique.com;
+ h=Date:To:From:Subject:Message-ID:List-Unsubscribe:MIME-Version:Content-Type; i=news@mix.loffremagique.com;
+ bh=j17YMb0RTJSuq0dOOI0PjytqY3c=;
+ b=Kb0Wpg12yVtsuI9O/egXSmSD3txsXca7KrAvEbNk/fvRe8fGT8+ffGo2riENfZIMY2exvsODcgX5
+   a1zDvGhGk7a4fXjc/s55pqDH2ImlBYh2+yDIIGGA57wZWP2Pip35OOmaeYdB4TGqP2KMsH8f2+z3
+   lSNEAQwWf4vskUu4LxU=
+Received: by smtp164.mix.loffremagique.com id hippic1vjtgt for <resp-m2-miage@univ-rennes1.fr>; Wed, 13 Jan 2016 16:51:29 +0100 (envelope-from <bounce+rOS-GMrp-eD9K@mix.loffremagique.com>)
+Date: Wed, 13 Jan 2016 16:51:29 +0100
+To: resp-m2-miage@univ-rennes1.fr
+From: =?UTF-8?Q?Le_Temps_des_Cerises_=E2=80=93_Espace_promos?= <news@mix.loffremagique.com>
+Subject: =?UTF-8?Q?Soldes_:_jusqu=E2=80=99=C3=A0_=E2=80=9340_pourcent?=
+Message-ID: <bounce+rOS-GMrp-eD9K@mix.loffremagique.com>
+List-Unsubscribe: <mailto:bounce+rOS-GMrp-eD9K@mix.loffremagique.com?subject=unsubscribe-rOS-GMrp>,<http://trk.mix.loffremagique.com/usb/rOS-GMrp.php>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="b1_743653881533ce707f38ec4b8289264b"
+X-UCE-Status: YES
+X-UCE-Type: MCE
+X-Original-Source-IP: 82.196.26.164
+X-Bizanga: IMP - mxb2-1.relay.renater.fr
+X-Renater-SpamState: 11
+X-Renater-SpamScore: 17
+X-Renater-SpamCause: gggruggvucftvghtrhhoucdtuddrfeekiedrkeejgdejkecutefuodetggdotefrodftvfcurfhrohhfihhlvgemucftgffptefvgfftpdggtfgfnhhsuhgsshgtrhhisggvnecuuegrihhlohhuthemuceftddtnecundfotefknffkpffiucdludejmdenucfjughrpeffvffhuffkjfggtgesrgdtrehptddtjeenucfhrhhomhepnfgvpgfvvghmphhspgguvghspgevvghrihhsvghspgdqpgfgshhprggtvggpphhrohhmohhsuceonhgvfihssehmihigrdhlohhffhhrvghmrghgihhquhgvrdgtohhmqeenucffohhmrghinheplhhofhhfrhgvmhgrghhiqhhuvgdrtghomhenucfrrghrrghmpehmohguvgepshhmthhppdhhvghlohepshhmthhpudeigedrmhhigidrlhhofhhfrhgvmhgrghhiqhhuvgdrtghomhdpihhnvghtpeekvddrudeliedrvdeirdduieegpdhmrghilhhfrhhomhepsghouhhntggvodhrqffuqdfiofhrphdqvgfflefmsehmihigrdhlohhffhhrvghmrghgihhquhgvrdgtohhmpdhrtghpthhtoheprhgvshhpqdhmvddqmhhirghgvgesuhhnihhvqdhrvghnnhgvshdurdhfrh 
+X-Renater-ServerName: mxb2-1.relay.renater.fr
+
+
+--b1_743653881533ce707f38ec4b8289264b
+Content-Type: text/plain; charset = "UTF-8"
+Content-Transfer-Encoding: 8bit
+
+Afficher la version web. (http://trk.mix.loffremagique.com/view/rOS-GMrp.php) | Annuler votre abonnement. (http://trk.mix.loffremagique.com/usb/rOS-GMrp.php) | Signaler comme courrier indésirable. (mailto:abuse@dgcnit.fr)
+En poursuivant votre navigation, vous acceptez l'utilisation de cookies pour vous proposer des services et offres adaptés
+à vos centres d'intérêts et mesurer la fréquentation de nos services. Pour en savoir plus suivez ce lien (http://trk.mix.loffremagique.com/tk/rOS-GMrp-r17.php)
+
+http://trk.mix.loffremagique.com/tk/rOS-GMrp-tjR.php
+FEMME (http://trk.mix.loffremagique.com/tk/rOS-GMrp-tjS.php)           HOMME (http://trk.mix.loffremagique.com/tk/rOS-GMrp-tjT.php)           JUNIOR (http://trk.mix.loffremagique.com/tk/rOS-GMrp-tjU.php)           CORPORATE (http://trk.mix.loffremagique.com/tk/rOS-GMrp-tjV.php)           BOUTIQUES (http://trk.mix.loffremagique.com/tk/rOS-GMrp-tjW.php)
+
+http://trk.mix.loffremagique.com/tk/rOS-GMrp-tjX.php
+http://trk.mix.loffremagique.com/tk/rOS-GMrp-tjY.php
+http://trk.mix.loffremagique.com/tk/rOS-GMrp-tjZ.php
+http://trk.mix.loffremagique.com/tk/rOS-GMrp-tk0.php
+http://trk.mix.loffremagique.com/tk/rOS-GMrp-tk1.php
+http://trk.mix.loffremagique.com/tk/rOS-GMrp-tk2.php
+http://trk.mix.loffremagique.com/tk/rOS-GMrp-tk3.php
+
+http://trk.mix.loffremagique.com/tk/rOS-GMrp-tk9.php
+Indigo Gallery - Service Consommateur - 13. rue Gustave Eiffel - 13010 Marseille
+
+* Hors remboursement, consultez les conditions générales de vente
+Conformément à la loi Informatique et Libertés n°78/17 du 06/01/1978, vous disposez d'un droit d'accès
+et de rectification aux données vous concernant.
+
+Espaces Promos, 12 rue Camille Desmoulins, 92300 Levallois Perret.
+Conformément à l'article 34 de la loi Informatique et Liberté du 6 janvier 1978, vous disposez d'un droit d'accès, de modification,
+de rectification et de suppression des données vous concernant en adressant votre demande à &quot;report@dgcnit.fr&quot;.
+Déclaration CNIL - 1642645
+Vous souhaitez vous désinscrire de cette liste ? Cliquez ici. (http://trk.mix.loffremagique.com/usb/rOS-GMrp.php)
+
+
+--b1_743653881533ce707f38ec4b8289264b
+Content-Type: text/html; charset = "UTF-8"
+Content-Transfer-Encoding: 8bit
+
+<table width='block' border='0' cellspacing='0' cellpadding='0' align='center' > <tr> <td width='block' valign='top' align='center'> <table style='' align='center' border='0' cellpadding='0' cellspacing='0' > <tr> <td width='174' align='left' style='text-align:left;'><a href='http://trk.mix.loffremagique.com/view/rOS-GMrp.php' style='color:#000; text-decoration:underline; font-family:Arial,Helvetica,sans-serif; font-size:11px; text-align:left; font-weight:bold;'>Afficher la version web.</a></td> <td width='6'>|</td> <td width='207' align='center' style='text-align:center;'><a href='http://trk.mix.loffremagique.com/usb/rOS-GMrp.php' style='color:#000; text-decoration:underline; font-family:Arial,Helvetica,sans-serif; font-size:11px; text-align:center; font-weight:bold;'>Annuler votre abonnement.</a></td> <td width='6'>|</td> <td width='207' align='right' style='text-align:right;'><a href='mailto:abuse@dgcnit.fr' style='color:#00F; text-decoration:underline;
+font-family:Arial,Helvetica,sans-serif; font-size:11px; text-align:right; font-weight:bold;'>Signaler comme courrier indésirable.</a></td> </tr> </table></td> </tr> <tr> <td width='block' style='font-family:Arial, Helvetica, sans-serif; font-size:10px; color:grey; text-align:center;'> En poursuivant votre navigation, vous acceptez l'utilisation de cookies pour vous proposer des services et offres adaptés <br/> à vos centres d'intérêts et mesurer la fréquentation de nos services. Pour en savoir plus suivez <a href='http://trk.mix.loffremagique.com/tk/rOS-GMrp-r17.php' target='_blank'> ce lien </a></td> </tr> <tr> <td width='block' align='center'></td> </tr> </table><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"> <html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>Le temps des cerises</title></head><body> <table align="center" width="600" border="0" cellspacing="0" cellpadding="0"
+style="font-size: 12px; font-family:Arial, Helvetica, sans-serif;"><tbody><tr><td colspan="5"><a href="http://trk.mix.loffremagique.com/tk/rOS-GMrp-tjR.php" target="_blank"><img src="http://img.digital-metric.com/1/1744/1346/101107/0/header.jpg" border="0" style="display:block;"></a></td> </tr><tr style="letter-spacing:1.5;"><td colspan="1" style="font-family: Arial, Helvetica, sans-serif; color:#ffffff; background-color:#353535; text-align:center; padding-bottom:5px; padding-top:5px;"><a href="http://trk.mix.loffremagique.com/tk/rOS-GMrp-tjS.php" target="_blank" style="text-decoration:none;color:#ffffff;">FEMME</a>          <a href="http://trk.mix.loffremagique.com/tk/rOS-GMrp-tjT.php" target="_blank" style="text-decoration:none;color:#ffffff;">HOMME</a>          <a href="http://trk.mix.loffremagique.com/tk/rOS-GMrp-tjU.php" target="_blank" style="text-decoration:none;color:#ffffff;">JUNIOR</a>          <a
+href="http://trk.mix.loffremagique.com/tk/rOS-GMrp-tjV.php" target="_blank" style="text-decoration:none;color:#ffffff;">CORPORATE</a>          <a href="http://trk.mix.loffremagique.com/tk/rOS-GMrp-tjW.php" target="_blank" style="text-decoration:none;color:#ffffff;">BOUTIQUES</a><br></td> </tr></tbody></table><table align="center" width="600" border="0" cellspacing="0" cellpadding="0"><tbody><tr><td colspan="1" style="border-top: 0px solid #FFFFFF;border-bottom: 0px solid #FFFFFF;"> <a href="http://trk.mix.loffremagique.com/tk/rOS-GMrp-tjX.php" target="_blank"><img src="http://img.digital-metric.com/1/1744/1346/102421/0/newimg_1.jpg" border="0" alt="Soldes Winter 15" title="Soldes Winter 15" style="display:block;"></a> </td> </tr><tr><td colspan="1" style="border-top: 0px solid #FFFFFF;border-bottom: 0px solid #FFFFFF;"> <a href="http://trk.mix.loffremagique.com/tk/rOS-GMrp-tjY.php" target="_blank"><img src="http://img.digital-metric.com/1/1744/1346/102421/0/newimg_2.
+ jpg"
+border="0" alt="Soldes Winter 15" title="Soldes Winter 15" style="display:block;"></a> </td> </tr><tr><td colspan="1" style="border-top: 0px solid #FFFFFF;border-bottom: 0px solid #FFFFFF;"> <a href="http://trk.mix.loffremagique.com/tk/rOS-GMrp-tjZ.php" target="_blank"><img src="http://img.digital-metric.com/1/1744/1346/102421/0/newimg_3.jpg" border="0" alt="Soldes Winter 15" title="Soldes Winter 15" style="display:block;"></a> </td> </tr><tr><td colspan="1" style="border-top: 0px solid #FFFFFF;border-bottom: 0px solid #FFFFFF;"> <a href="http://trk.mix.loffremagique.com/tk/rOS-GMrp-tk0.php" target="_blank"><img src="http://img.digital-metric.com/1/1744/1346/102421/0/newimg_4.jpg" border="0" alt="Soldes Winter 15" title="Soldes Winter 15" style="display:block;"></a> </td> </tr><tr><td colspan="1" style="border-top: 0px solid #FFFFFF;border-bottom: 0px solid #FFFFFF;"> <a href="http://trk.mix.loffremagique.com/tk/rOS-GMrp-tk1.php" target="_blank"><img
+src="http://img.digital-metric.com/1/1744/1346/102421/0/newimg_5.jpg" border="0" alt="Soldes Winter 15" title="Soldes Winter 15" style="display:block;"></a> </td> </tr><tr><td colspan="1" style="border-top: 0px solid #FFFFFF;border-bottom: 0px solid #FFFFFF;"> <a href="http://trk.mix.loffremagique.com/tk/rOS-GMrp-tk2.php" target="_blank"><img src="http://img.digital-metric.com/1/1744/1346/102421/0/newimg_6.jpg" border="0" alt="Soldes Winter 15" title="Soldes Winter 15" style="display:block;"></a> </td> </tr><tr><td colspan="1" style="border-top: 0px solid #FFFFFF;border-bottom: 0px solid #FFFFFF;"> <a href="http://trk.mix.loffremagique.com/tk/rOS-GMrp-tk3.php" target="_blank"><img src="http://img.digital-metric.com/1/1744/1346/102421/0/newimg_7.jpg" border="0" alt="Soldes Winter 15" title="Soldes Winter 15" style="display:block;"></a> </td> </tr></tbody></table><table align="center" width="600" border="0" cellspacing="0" cellpadding="0" style="font-size: 12px; font-family:Ari
+ al,
+Helvetica, sans-serif;"><tbody><tr><td colspan="7" style="border-top: 0px solid #FFFFFF;"> <img border="0" src="http://img.digital-metric.com/1/1744/1346/101107/0/footer.jpg" style="display:block;"></td> </tr><tr><td colspan="7"></td> </tr><tr><td colspan="7" style="text-align:center;"><a href="http://trk.mix.loffremagique.com/tk/rOS-GMrp-tk4.php" target="_blank"><img src="http://img.digital-metric.com/1/1744/1346/101107/0/facebook.png" border="0"></a><a href="http://trk.mix.loffremagique.com/tk/rOS-GMrp-tk5.php" target="_blank"><img src="http://img.digital-metric.com/1/1744/1346/101107/0/you-tube.png" border="0"></a><a href="http://trk.mix.loffremagique.com/tk/rOS-GMrp-tk6.php" target="_blank"><img src="http://img.digital-metric.com/1/1744/1346/101107/0/pinterest.png" border="0"></a><a href="http://trk.mix.loffremagique.com/tk/rOS-GMrp-tk7.php" target="_blank"><img src="http://img.digital-metric.com/1/1744/1346/101107/0/instagram.png" border="0"></a><a
+href="http://trk.mix.loffremagique.com/tk/rOS-GMrp-tk8.php" target="_blank"><img src="http://img.digital-metric.com/1/1744/1346/101107/0/googleplus.png" border="0"></a></td> </tr><tr><td colspan="7" style="text-align:center; color:#101010; font-family:Arial, Helvetica, sans-serif; font-size:14px;"><br>Indigo Gallery - Service Consommateur - 13. rue Gustave Eiffel - 13010 Marseille<br><br></td> </tr><tr><td colspan="7" style="text-align:center; color:#000000; font-family:Arial, Helvetica, sans-serif; font-size:11px;">* Hors remboursement, consultez les conditions générales de vente</td> </tr><tr><td colspan="7" style="text-align:center; color:#666666; font-family:Arial, Helvetica, sans-serif; font-size:11px;">Conformément à la loi Informatique et Libertés n°78/17 du 06/01/1978, vous disposez d'un droit d'accès <br>et de rectification aux données vous concernant.</td> </tr><tr><td colspan="7"> </td> </tr></tbody></table><img
+src="http://mtrc1.digital-metric.com/view.php?params=6e91f28d6a0ef63619f3028686405077" alt="" border="0" width="1" height="1"><div> <table width="block" border="0" cellspacing="0" cellpadding="0" align="center" style="font-family:Arial, Helvetica, sans-serif; font-size:10px; color:black; text-align:center;"><tr><td style="font-size:10px; text-align:center;"><br> Espaces Promos, 12 rue Camille Desmoulins, 92300 Levallois Perret.<br> Conformément à l'article 34 de la loi Informatique et Liberté du 6 janvier 1978, vous disposez d'un droit d'accès, de modification,<br> de rectification et de suppression des données vous concernant en adressant votre demande à "report@dgcnit.fr".<br> Déclaration CNIL - 1642645 </td> </tr><tr><td></td></tr><tr><td>Vous souhaitez vous désinscrire de cette liste ? <a href="http://trk.mix.loffremagique.com/usb/rOS-GMrp.php" style="color: #000; text-decoration:underline; font-size: 11px;">Cliquez ici.</a></td></tr></table></div><img
+src="http://trk.mix.loffremagique.com/pg/rOS-GMrp.php" width="1" height="1" alt="" /></body></html> <img src="http://tr.plandefou.com/email=resp-m2-miage@univ-rennes1.fr" style="width:1px; height:1px; display:none;" /> <img src="http://p-eu.acxiom-online.com/pixel/ema?eml=e16f90279e0fa260475aa0f5d3ee7d879a08def5&ha=sha1&pid=6346&t=634618&sc=lighttor-sc2-c507&ot=pixel" style="width:1px; height:1px; display:none;" />
+
+
+
+--b1_743653881533ce707f38ec4b8289264b--
+
+

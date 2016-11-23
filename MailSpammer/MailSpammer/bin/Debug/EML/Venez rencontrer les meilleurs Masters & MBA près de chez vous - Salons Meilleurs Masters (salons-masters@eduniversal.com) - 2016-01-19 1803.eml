@@ -1,0 +1,130 @@
+Return-Path: <24388-743-0-0000000019@sbr52.net>
+Received: from mailimailo.univ-rennes1.fr ([unix socket])
+	 by mailimailo.univ-rennes1.fr (Cyrus v2.3.16-Fedora-RPM-2.3.16-6.el6_2.5) with LMTPA;
+	 Tue, 19 Jan 2016 18:04:14 +0100
+X-Sieve: CMU Sieve 2.3
+Received: from mailout1.univ-rennes1.fr (mailout1.univ-rennes1.fr [129.20.128.162])
+	by mailimailo.univ-rennes1.fr (Postfix) with ESMTP id B943526A0C84
+	for <resp-m2-miage@univ-rennes1.fr>; Tue, 19 Jan 2016 18:04:12 +0100 (CET)
+Received: from localhost (vmscanmail.univ-rennes1.fr [129.20.128.134])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id B683B60064
+	for <resp-m2-miage@univ-rennes1.fr>; Tue, 19 Jan 2016 18:04:12 +0100 (CET)
+X-Virus-Scanned: amavisd-new at univ-rennes1.fr
+Received: from mailout1.univ-rennes1.fr ([129.20.128.162])
+	by localhost (vmscanmail.univ-rennes1.frm [129.20.128.134]) (amavisd-new, port 10026)
+	with ESMTP id t0_EFKk5cjZy for <resp-m2-miage@univ-rennes1.fr>;
+	Tue, 19 Jan 2016 18:04:12 +0100 (CET)
+Received: from vmmailin.univ-rennes1.fr (vmmailin.univ-rennes1.fr [129.20.128.133])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id 9950F60014
+	for <resp-m2-miage@univ-rennes1.fr>; Tue, 19 Jan 2016 18:04:12 +0100 (CET)
+Received: from mxb1-2.relay.renater.fr (mxb1-2.relay.renater.fr [194.214.201.9])
+	by vmmailin.univ-rennes1.fr (Postfix) with ESMTP id 93BB820033
+	for <resp-m2-miage@univ-rennes1.fr>; Tue, 19 Jan 2016 18:04:12 +0100 (CET)
+Received: from mta0.sbr52.net (mta0.sbr52.net [62.210.99.69])
+	by mxb1-2.relay.renater.fr (asm) with ESMTP id 5F3FB2800F9
+	for <resp-m2-miage@univ-rennes1.fr>; Tue, 19 Jan 2016 18:04:12 +0100 (CET)
+Received: from sb12mta49.sarbatech.com (localhost [127.0.0.1])
+	by mta0.sbr52.net (Postfix) with ESMTP id D8BE3398D462
+	for <resp-m2-miage@univ-rennes1.fr>; Tue, 19 Jan 2016 18:03:48 +0100 (CET)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=sbr52.net; s=mta0;
+	t=1453223028; bh=cov7QY457OkNEez56nIynQ3jQgmsZsZGppeX9xC1fkU=;
+	h=Date:From:Reply-To:To:Subject:List-Unsubscribe;
+	b=d0Bf7jLf6/R5cfVY3U3n/m2SBCdQi7x5NIRnVsFjqQ6W7uzt2VjJD5ZoQHyvRx5Mb
+	 Qg6rzR+zO8C+8jNWfzl/PIEjbUG0fWiSODDYrTbmjShv8zZw3mAPK9WsZ3e6tN6vGy
+	 DGvlwmB2eIs4UFaxXjdd3qx7bMW7UjTBG/ILfPj0=
+Date: Tue, 19 Jan 2016 18:03:35 +0100 (CET)
+From: =?utf-8?Q?Salons_Meilleurs_Masters?= <salons-masters@eduniversal.com>
+Reply-To: =?utf-8?Q?Salons_Meilleurs_Masters?=
+	<salons-masters@eduniversal.com>
+To: resp-m2-miage@univ-rennes1.fr
+Message-ID: <24388-743-0-0000000019@sbr52.net>
+Subject: =?utf-8?Q?Venez_rencontrer_les_meilleurs_Masters_&_MBA_pr=C3=A8s_?=
+	=?utf-8?Q?de_chez_vous?=
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_2936886_703856234.1453223021758"
+List-Unsubscribe: <http://tk3.sbn29.com/sy/ev?3&24388-251&6&Ue7WOrVYDH%2FI1%2FVaagTHFg&resp-m2-miage=40univ-rennes1=2Efr&media15-25@media15-25.com&us>
+Sender: salons-masters=eduniversal.com@sbr52.net
+X-virtual-MTA: mta0
+X-Mailer: Professional Routing Service
+X-UCE-Status: YES
+X-UCE-Type: PCE
+X-Original-Source-IP: 62.210.99.69
+X-Bizanga: IMP - mxb1-2.relay.renater.fr
+X-Renater-SpamState: 10
+X-Renater-SpamScore: 7
+X-Renater-SpamCause: gggruggvucftvghtrhhoucdtuddrfeekiedrleelgdektdcutefuodetggdotefrodftvfcurfhrohhfihhlvgemucftgffptefvgfftpdggtfgfnhhsuhgsshgtrhhisggvnecuuegrihhlohhuthemuceftddtnecutfhouhhtvghrqddqufgrrhgsrggtrghnvgculdejmdenucfjughrpeffhfhrvffkufggtgfjshfosegrtdersgertdejnecuhfhrohhmpefurghlohhnshgpofgvihhllhgvuhhrshgpofgrshhtvghrshcuoehsrghlohhnshdqmhgrshhtvghrshesvgguuhhnihhvvghrshgrlhdrtghomheqnecuffhomhgrihhnpehssghnvdelrdgtohhmnecurfgrrhgrmhepmhhouggvpehsmhhtphdphhgvlhhopehmthgrtddrshgsrhehvddrnhgvthdpihhnvghtpeeivddrvddutddrleelrdeiledpmhgrihhlfhhrohhmpedvgeefkeekqdejgeefqddtqddttddttddttddttdduleesshgsrhehvddrnhgvthdprhgtphhtthhopehrvghsphdqmhdvqdhmihgrghgvsehunhhivhdqrhgvnhhnvghsuddrfhhr 
+X-Renater-ServerName: mxb1-2.relay.renater.fr
+
+------=_Part_2936886_703856234.1453223021758
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Si ce mail ne s'affiche pas correctement, cliquez ici. ( "http://www.smbg.fr/emailing/masterstour2016/01/Emailing_save_the_date_perso.html" )
+
+
+( "http://meilleurs-masters.com/salons-masters.php?utm_source=BDD-M15-25&utm_medium=Email&utm_campaign=Campagne-Save-the-Date" )
+Venez construire votre projet professionnel
+avec nos experts en orientation
+et les responsables des
+meilleurs Masters, MS & MBA de France
+dans votre ville
+
+( "http://meilleurs-masters.com/salons-masters.php?utm_source=BDD-M15-25&utm_medium=Email&utm_campaign=Campagne-Save-the-Date" )
+( "http://meilleurs-masters.com/inscription-salon-masters.php?utm_source=BDD-M15-25&utm_medium=Email&utm_campaign=Campagne-Save-the-Date" )
+
+( "http://meilleurs-masters.com/inscription-salon-masters.php?utm_source=BDD-M15-25&utm_medium=Email&utm_campaign=Campagne-Save-the-Date" )
+( "https://www.facebook.com/SMBG.fr/" )( "https://twitter.com/Eduniversal_FR" )( "https://www.youtube.com/user/SMBGEDUNIVERSAL?utm_source=r%E9seaux%20sociaux&utm_medium=salons&utm_campaign=campagneRSsalons?sub_confirmation=1" )
+
+
+------=_Part_2936886_703856234.1453223021758
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+<HTML><HEAD><TITLE>Salons Eduniversal - Save the dates 2016</TITLE>
+</HEAD>
+<BODY style="BACKGROUND: #ecf0f2" bgColor=#ecf0f2>
+<STYLE type=text/css>
+body { background:#ecf0f2;}
+img { margin:0; padding:0; display:block;}
+</STYLE>
+
+<DIV align=center>
+<TABLE
+style="FONT-FAMILY: 'Helvetica Light', Arial; COLOR: #212932; FONT-SIZE: 14px"
+border=0 cellSpacing=0 cellPadding=0 width=790 align=center>
+  <TBODY>
+  <TR>
+    <TD vAlign=top colSpan=3 align=left>
+      <P
+      style="PADDING-BOTTOM: 5px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 5px"
+      align=center>Si ce mail ne s'affiche pas correctement, <A style="COLOR: #212932" href="http://tk3.sbn29.com/sy/ev?3&amp;24388-251&amp;0&amp;Ue7WOrVYDH%2FI1%2FVaagTHFg">cliquez
+      ici.</A></P></TD></TR>
+  <TR>
+    <TD vAlign=middle colSpan=3 align=center><A href="http://tk3.sbn29.com/sy/ev?3&amp;24388-251&amp;1&amp;Ue7WOrVYDH%2FI1%2FVaagTHFg"><IMG style="MARGIN: 0px; DISPLAY: block" alt="Salon Eduniversal des meilleurs masters, MS & MBA" src="http://www.smbg.fr/emailing/masterstour2016/01/images/header_save.png" width="790" height="425"></A> </TD></TR>
+  <TR>
+    <TD style="BACKGROUND: #ffffff; COLOR: #ed8a54; FONT-SIZE: 28px"
+    bgColor=#ffffff colSpan=3 align=center>Venez construire <B>votre projet
+      professionnel</B><BR>avec nos experts en <B>orientation</B><BR>et les
+      responsables des <BR><B>meilleurs Masters, MS &amp; MBA de France<BR>dans
+      votre ville</B> </TD></TR>
+  <TR>
+    <TD style="BACKGROUND: #ffffff; COLOR: #ed8a54; FONT-SIZE: 28px"
+    bgColor=#ffffff height=15 colSpan=3 align=center></TD></TR>
+  <TR>
+    <TD colSpan=3 align=center><A href="http://tk3.sbn29.com/sy/ev?3&amp;24388-251&amp;1&amp;Ue7WOrVYDH%2FI1%2FVaagTHFg"><IMG style="MARGIN: 0px; DISPLAY: block" alt="" src="http://www.smbg.fr/emailing/masterstour2016/01/images/map-France.png" width="100%"></A></TD></TR>
+  <TR>
+    <TD style="BACKGROUND: #ffffff; COLOR: #ed8a54; FONT-SIZE: 28px"
+    bgColor=#ffffff vAlign=middle colSpan=3 align=center><A href="http://tk3.sbn29.com/sy/ev?3&amp;24388-251&amp;2&amp;Ue7WOrVYDH%2FI1%2FVaagTHFg"><IMG style="MARGIN: 0px auto; DISPLAY: block" title="Inscription" alt="Inscription" src="http://www.smbg.fr/emailing/masterstour2016/01/images/btn_ins_save.jpg" width="210"></A></TD></TR>
+  <TR>
+    <TD style="BACKGROUND: #ffffff; COLOR: #ed8a54; FONT-SIZE: 28px"
+    bgColor=#ffffff height=15 colSpan=3 align=center></TD></TR>
+  <TR>
+    <TD vAlign=middle colSpan=3 align=center><A href="http://tk3.sbn29.com/sy/ev?3&amp;24388-251&amp;2&amp;Ue7WOrVYDH%2FI1%2FVaagTHFg"><IMG style="MARGIN: 0px; DISPLAY: block" alt="Invitation gratuite en s'inscrivant sur : salon-masters.com" src="http://www.smbg.fr/emailing/masterstour2016/01/images/footer_save.png" width="790"></A> </TD></TR>
+  <TR>
+    <TD vAlign=middle colSpan=3 align=center><A href="http://tk3.sbn29.com/sy/ev?3&amp;24388-251&amp;3&amp;Ue7WOrVYDH%2FI1%2FVaagTHFg"><IMG style="MARGIN: 0px auto; DISPLAY: inline" title="Facebook" alt="Facebook" src="http://www.smbg.fr/emailing/masterstour2016/01/images/facebook.jpg" width="40"></A><A href="http://tk3.sbn29.com/sy/ev?3&amp;24388-251&amp;4&amp;Ue7WOrVYDH%2FI1%2FVaagTHFg"><IMG style="MARGIN: 0px auto; DISPLAY: inline" title="Twitter" alt="Twitter" src="http://www.smbg.fr/emailing/masterstour2016/01/images/twitter.jpg" width="40"></A><A href="http://tk3.sbn29.com/sy/ev?3&amp;24388-251&amp;5&amp;Ue7WOrVYDH%2FI1%2FVaagTHFg"><IMG style="MARGIN: 0px auto; DISPLAY: inline" title="Youtube" alt="Youtube" src="http://www.smbg.fr/emailing/masterstour2016/01/images/youtube.jpg" width="40"></A> </TD></TR></TBODY></TABLE></DIV>
+<P align=center>Si vous ne souhaitez plus recevoir de messages de notre part
+<U><A href="http://tk3.sbn29.com/sy/ev?3&amp;24388-251&amp;6&amp;Ue7WOrVYDH%2FI1%2FVaagTHFg&amp;resp-m2-miage@univ-rennes1.fr&amp;media15-25@media15-25.com&amp;us">cliquez-ici</A></U> .</P><img src="http://tk3.sbn29.com/sy/ev?3&amp;24388-251&amp;-1&amp;Ue7WOrVYDH%2FI1%2FVaagTHFg" border="0" width="1" height="1">
+</BODY></HTML>
+
+------=_Part_2936886_703856234.1453223021758--

@@ -1,0 +1,433 @@
+Return-Path: <lina@bravolead.com>
+Received: from mailimailo.univ-rennes1.fr ([unix socket])
+	 by mailimailo.univ-rennes1.fr (Cyrus v2.3.16-Fedora-RPM-2.3.16-6.el6_2.5) with LMTPA;
+	 Wed, 04 May 2016 11:35:36 +0200
+X-Sieve: CMU Sieve 2.3
+Received: from mailout2.univ-rennes1.fr (mailout2.univ-rennes1.fr [129.20.129.120])
+	by mailimailo.univ-rennes1.fr (Postfix) with ESMTP id 7C6E426A0001
+	for <resp-m2-miage@univ-rennes1.fr>; Wed,  4 May 2016 11:35:36 +0200 (CEST)
+Received: from localhost (vmscanmail.univ-rennes1.fr [129.20.128.134])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id 794576029A
+	for <resp-m2-miage@univ-rennes1.fr>; Wed,  4 May 2016 11:35:36 +0200 (CEST)
+X-Virus-Scanned: amavisd-new at univ-rennes1.fr
+Received: from mailout2.univ-rennes1.fr ([129.20.129.120])
+	by localhost (vmscanmail.univ-rennes1.frm [129.20.128.134]) (amavisd-new, port 10026)
+	with ESMTP id feznqzEaNsuC for <resp-m2-miage@univ-rennes1.fr>;
+	Wed,  4 May 2016 11:35:36 +0200 (CEST)
+Received: from vmmailin.univ-rennes1.fr (vmmailin.univ-rennes1.fr [129.20.128.133])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id 4A30D60175
+	for <resp-m2-miage@univ-rennes1.fr>; Wed,  4 May 2016 11:35:36 +0200 (CEST)
+Received: from mxb1-2.relay.renater.fr (mxb1-2.relay.renater.fr [194.214.201.9])
+	by vmmailin.univ-rennes1.fr (Postfix) with ESMTP id 3447820033
+	for <resp-m2-miage@univ-rennes1.fr>; Wed,  4 May 2016 11:35:36 +0200 (CEST)
+Received: from mta1.bravolead.com (mta1.bravolead.com [163.172.248.108])
+	by mxb1-2.relay.renater.fr (asm) with ESMTP id E81432802A5
+	for <resp-m2-miage@univ-rennes1.fr>; Wed,  4 May 2016 11:35:35 +0200 (CEST)
+X-QHPSI: clean
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed;
+	d=bravolead.com; s=default; h=Date:Message-ID:To:From:Reply-To:
+	Subject:Precedence:List-Unsubscribe:MIME-Version:Content-Type:
+	Content-Transfer-Encoding; bh=wFCHjkzBn+lzGzUnDqVSSlwleoE=; b=WC
+	xQdjyRdkyDly/GkTx9MfKv+dQSkfUIBw0NORGTtnM7XIhb873mUQ/MTT0sr3R85d
+	yA8Y41+mQZ6fhwoTyWhmB74NjL7jkxZkl8ddu473lRPOYxzBij8yD5wDSUUYeS5x
+	WuS0bUX4u7RHFmaQfAJ0GnXp59ocj2R9LQ20jOkRY=
+DomainKey-Signature: a=rsa-sha1; q=dns; c=simple;
+  s=default; d=bravolead.com;
+  b=hQsFUrvSWhbsETCq81uoEs4c3vW+S4HR0lFrbP7cwdgjMdHa0vHvM/dBZgil9NGnVwQs0OcOM97F21Fr1eGEeKgLo4ABz4thkjvFvSnwpQFvAFGAQpEovT/HYmXERgR8D/1R+XwT/7HJqovTAsSes8xYZs68pVGe+n1ursXv2Hk=;
+Received: (qmail 16706 invoked by uid 0); Wed, 4 May 2016 11:26:46 +0200
+Date: Wed, 4 May 2016 11:26:46 +0200
+Message-ID: <20160504092646.16705.qmail@bravolead.comguitoline.com>
+To: resp-m2-miage@univ-rennes1.fr
+From: =?utf-8?B?RU5HSUUgSG9tZQ==?= <lina@bravolead.com>
+Reply-To: lina@ventolane.com <lina@bravolead.com>
+Subject: =?utf-8?B?RWNvbm9taXNleiBqdXNxdSfDoCA2MDDigqwgc3VyIHZvdHJlIGZhY3R1cmUgZCfDqWxlY3RyaWNpdMOp?=
+X-Abuse: abuse@local
+Precedence: bulk
+List-Unsubscribe: <http://bravolead.com/_ucUz6rsdzpdNCFtQ9ehrUTq1zJ2nuBE0cVNQiwrrEWiirTNKOKzmFBUt29HyF8vr2P8JFFGn03D_mPR1aeJ4SE-dDZyJc_Q5R9imz2r-U-fGhLtwqHug7RTmdaJjIParyLIE5m9ysnY2h1vfuBaoGTeowZXMkaDL5DpUXQ0oJBFwxBSz2eOtaYn5HGurCpd>
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="qoGpLTxagQKYrfwSos29Z1myAPvhPHse2A0qbKqn3JU="
+Content-Transfer-Encoding: 8bit
+X-Original-Source-IP: 163.172.248.108
+X-Bizanga: IMP - mxb1-2.relay.renater.fr
+X-Renater-SpamState: 0
+X-Renater-SpamScore: 21
+X-Renater-SpamCause: gggruggvucftvghtrhhoucdtuddrfeekledrtddvgddukecutefuodetggdotefrodftvfcurfhrohhfihhlvgemucftgffptefvgfftpdggtfgfnhhsuhgsshgtrhhisggvnecuuegrihhlohhuthemuceftddtnecuogfuphgrmhfkphculddumdenogetvdekgedqtdejucdlvddtmdenucfjughrpeffkffvhfhrufhpjfggtgfgsegrkedvredttddunecuhfhrohhmpefgpffikffgucfjohhmvgcuoehlihhnrgessghrrghvohhlvggrugdrtghomheqnecuffhomhgrihhnpegsrhgrvhholhgvrggurdgtohhmnecukfhppeduieefrddujedvrddvgeekrddutdeknecurfgrrhgrmhepmhhouggvpehsmhhtphdphhgvlhhopehmthgruddrsghrrghvohhlvggrugdrtghomhdpihhnvghtpeduieefrddujedvrddvgeekrddutdekpdhmrghilhhfrhhomheplhhinhgrsegsrhgrvhholhgvrggurdgtohhmpdhrtghpthhtoheprhgvshhpqdhmvddqmhhirghgvgesuhhnihhvqdhrvghnnhgvshdurdhfrh 
+X-Renater-ServerName: mxb1-2.relay.renater.fr
+
+--qoGpLTxagQKYrfwSos29Z1myAPvhPHse2A0qbKqn3JU=
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+Pour visualiser la version en ligne, veuillez vous rendre ici :http://bravolead.com/GHN4_BjaM6ue2DonC7gCqpvIQ1Qf2SEfLjq1WXKw1ONe-bNsdMPmxpdFgO74MPwdEGaOsh_PpT5S9HD7mYssWm7EImcgK1j4GiJ8uc1q7HByn1sJcA0AY22t_kXA712NvIkRKSZj00VMpwptPzMCXAOoAUMvpALm9Jo5_j6tiCa5f6CBOaxPpBTfBvgDXsWwTIs0J64KuoxWlTv_5Kn9PQ==Économisez jusqu'à 600€ par an sur votre facture d'électricité !	
+
+
+Optez pour l'offre My Power d'ENGIE Home Performance
+Produisez et consommez votre propre électricité
+
+	
+Jusqu'à 6 900€(2) TTC
+POSE COMPRISE
+Pourquoi choisir l'offre autoconsommation My Power ?	
+
+Prise en charge de vos démarches administratives
+
+Visite technique à domicile gratuite
+
+Pose et mise en service en 1 journée par des installateurs locaux RGE
+
+Matériel haut de gamme sélectionné par nos experts
+Pack services complet(3) :
+
+ Espace client en ligne avec alertes en cas de dysfonctionnement
+
+Bilans mensuels de production
+
+Garantie onduleur étendue à 10 ans
+Mon devis sous 48h	
+
+Les autres avantages de l'autoconsommation : Devenez producteur d'énergie verte, réduisez votre dépendance au réseau électrique et valorisez votre patrimoine grâce à une énergie renouvelable !	
+
+	
+
+(1) Économies réalisées pour une maison située dans la zone d'ensoleillement la plus forte de France et respectant les critères ci-après : toit orienté plein sud et incliné à 35°, pas d'éléments perturbateurs faisant de l'ombre sur la toiture et taux d'autoconsommation de 90%. Le montant en euros est calculé à partir d'un prix moyen du kWh sur 10 ans estimé 0,168€, soit une augmentation de 2,5% par an.
+
+(2) Prix de vente indicatif pour un kit photovoltaïque d'une puissance de 2,55kWc posé en surimposition sur une maison sans difficulté particulière de pose. TVA à 10% (logement de plus de deux ans).
+
+(3) Offre proposée à 10€ TTC / mois donnant accès à un espace client, aux alertes emails en cas de dysfonctionnement de l'installation, à un premier niveau de dépannage à distance et à une garantie onduleur étendue à 10 ans (pièces, main d'œuvre et déplacement). La prestation est assurée par SAVELYS PV, filiale ENGIE Home Services.
+
+(4) Un conseiller vous contactera gratuitement sous 48h ouvrées du lundi au vendredi de 8h à 20h. Il vous proposera un devis en ligne sur la base des informations qui lui seront transmises.
+
+ENGIE Home Performance SAS, au capital de 40 000€, ayant son siège social : 1 place Samuel de Champlain, 92400 Courbevoie immatriculée au Registre du Commerce et des Sociétés de Nanterre sous le numéro 537 694 747.
+Pour vous desinscrire, veuillez vous rendre ici :http://bravolead.com/GHN4_BjaM6ue2DonC7gCqpvIQ1Qf2SEfLjq1WXKw1ONe-bNsdMPmxpdFgO74MPwdLkDWPEqkEN-_GXvPCDO6QGIOukHWwrDgouwpuCGISvyHA274qsJpjAwIdxMynHhze2UEo_z1nCfC9ygUHvjCnQ==
+
+
+--qoGpLTxagQKYrfwSos29Z1myAPvhPHse2A0qbKqn3JU=
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+<html>
+<head>
+	<title></title>
+	<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type">
+	<meta content="width=device-width" name="viewport">
+</head>
+<body><link rel="stylesheet" href="http://bravolead.com/GHN4_BjaM6ue2DonC7gCqpvIQ1Qf2SEfLjq1WXKw1OM2LC0yQDjN7BhH_Tr_xKpQgLutL2vLYp6A0JkP5yFvwUK3iLgIxqIn0k7NnXTH_tFVjmk2gxfNnLMSfttIyCsR"/>
+<div style="text-align:center;"><div align="center"><font color="#000000" style="font-size:11px;font-family:Verdana,Arial,Helvetica,sans-serif;"><br>Pour visualiser correctement ce message, accédez à la <a href="http://bravolead.com/GHN4_BjaM6ue2DonC7gCqpvIQ1Qf2SEfLjq1WXKw1ONe-bNsdMPmxpdFgO74MPwdJenuMMUzu2JGBUUGDcR80dCsyxWzeconNXCSQzY8ej70Hr0ZUO2lPpqJaSLeKAYS-S662RzZqHeDHXIL-Cc2xulQHtlt5abhObFnTxZ4C6wHrAAvZSMswctUSTyEXkTvUjpXeAGn7znO5ni-EqNVQ-hrp19UCUGwHzoT5xc_doXyjz43xZHyBwOGoZPhgZ/twfuwB5gUl4AijGiVjlyWqXLZrM_gAZp4worYRV8RTa88=">version en ligne</a><br><br></font></div></div>
+<style type="text/css">@media only screen and (max-width: 600px) {
+  table[class="body"] img {
+    width: 100% !important;
+    height: auto !important;
+  }
+  table[class="body"] center {
+    min-width: 0 !important;
+  }
+  table[class="body"] .container {
+    width: 95% !important;
+  }
+  table[class="body"] .row {
+    width: 100% !important; display: block !important;
+  }
+  table[class="body"] .wrapper {
+    display: block !important; padding-right: 0 !important;
+  }
+  table[class="body"] .wrapperFirst {
+    padding-bottom: 20px !important;
+  }
+  table[class="body"] .columns {
+    table-layout: fixed !important; float: none !important; width: 100% !important; padding-right: 0px !important; padding-left: 0px !important; display: block !important;
+  }
+  table[class="body"] .column {
+    table-layout: fixed !important; float: none !important; width: 100% !important; padding-right: 0px !important; padding-left: 0px !important; display: block !important;
+  }
+  table[class="body"] .wrapper.first .columns {
+    display: table !important;
+  }
+  table[class="body"] .wrapper.first .column {
+    display: table !important;
+  }
+  table[class="body"] table.columns td {
+    width: 100% !important;
+  }
+  table[class="body"] table.column td {
+    width: 100% !important;
+  }
+  table[class="body"] .columns td.one {
+    width: 8.333333% !important;
+  }
+  table[class="body"] .column td.one {
+    width: 8.333333% !important;
+  }
+  table[class="body"] .columns td.six {
+    width: 50% !important;
+  }
+  table[class="body"] .column td.six {
+    width: 50% !important;
+  }
+  table[class="body"] .columns td.twelve {
+    width: 100% !important;
+  }
+  table[class="body"] .column td.twelve {
+    width: 100% !important;
+  }
+  table[class="body"] table.columns td.expander {
+    width: 1px !important;
+  }
+}
+</style>
+<table class="body" style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: left; height: 100%; width: 100%; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0;">
+	<tbody>
+		<tr align="left" style="vertical-align: top; text-align: left; padding: 0;">
+			<td align="center" class="center" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: center; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0;" valign="top">
+			<center style="width: 100%; min-width: 580px;">
+			<table class="container" style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: inherit; width: 580px; margin: 0 auto; padding: 0;">
+				<tbody>
+					<tr align="left" style="vertical-align: top; text-align: left; padding: 0;">
+						<td align="left" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0;" valign="top">
+						<table class="row" style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: left; width: 100%; position: relative; display: block; padding: 0px;">
+							<tbody>
+								<tr align="left" style="vertical-align: top; text-align: left; padding: 0;">
+									<td align="left" class="wrapper last" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; position: relative; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0px;" valign="top">
+									<table class="twelve columns" style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: left; width: 580px; margin: 0 auto; padding: 0;">
+										<tbody>
+											<tr align="left" style="vertical-align: top; text-align: left; padding: 0;">
+												<td align="left" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0px;" valign="top"><a href="http://bravolead.com/GHN4_BjaM6ue2DonC7gCqpvIQ1Qf2SEfLjq1WXKw1ONe-bNsdMPmxpdFgO74MPwd3NLvDYB8ZUngvZl16U6fBge6a_aS7o4X0grRFG-bIHmwqFG_1Nfhs7rpTWw0cVgDczfhgv8pDD322mXB6m75fQ==" style="color: #2ba6cb; text-decoration: none;" target="_blank"><img align="left" alt="Économisez jusqu'à 600€ par an sur votre facture d'électricité !" height="239" src="http://bravolead.com/img/190/images/1259748497572.jpg" style="outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; width: auto; max-width: 100%; float: left; clear: both; display: block; border: none;" width="580"></a></td>
+												<td align="left" class="expander" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; visibility: hidden; width: 0px; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0;" valign="top"></td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						<br>
+						<!-- Break Tag for row -->
+						<table class="row" style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: left; width: 100%; position: relative; display: block; padding: 0px;">
+							<tbody>
+								<tr align="left" style="vertical-align: top; text-align: left; padding: 0;">
+									<td align="left" class="wrapper wrapperFirst" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; position: relative; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0px;" valign="top">
+									<table class="six columns" style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: left; width: 290px; margin: 0 auto; padding: 0;">
+										<tbody>
+											<tr align="left" style="vertical-align: top; text-align: left; padding: 0;">
+												<td align="left" bgcolor="#6ac7ea" class="panelBlue" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; background: #6ac7ea; margin: 0; padding: 36px;" valign="top"><img align="left" height="2" src="http://bravolead.com/img/190/images/1863849195729.png" style="outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; width: auto; max-width: 22px; float: left; clear: both; display: block;" width="22">
+												<h1 align="left" style="color: #ffffff; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; text-align: left; line-height: 1.3; word-break: normal; font-size: 24px; margin: 0; padding: 0 0 10px;">Optez pour l'offre My Power d'ENGIE Home Performance</h1>
+
+												<p align="left" style="color: #ffffff; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; text-align: left; line-height: 24px; font-size: 19px; margin: 0 0 0 0px; padding: 0;">Produisez et consommez votre propre électricité</p>
+												<br>
+												<img align="left" height="2" src="http://bravolead.com/img/190/images/1863849195729.png" style="outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; width: auto; max-width: 22px; float: left; clear: both; display: block;" width="22"></td>
+												<td align="left" class="expander" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; visibility: hidden; width: 0px; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0;" valign="top"></td>
+											</tr>
+										</tbody>
+									</table>
+
+									<table class="six columns" style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: left; width: 290px; margin: 0 auto; padding: 0;">
+										<tbody>
+											<tr align="left" style="vertical-align: top; text-align: left; padding: 0;">
+												<td align="left" bgcolor="#ad2864" class="panelPink" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; background: #ad2864; margin: 0; padding: 30px 36px;" valign="top">
+												<h2 align="left" style="color: #ffffff; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; text-align: left; line-height: 1.3; word-break: normal; font-size: 19px; margin: 0; padding: 0;">Jusqu'à <strong>6 900€</strong><sup style="font-size: 12px;">(2)</sup> TTC<br>
+												<strong>POSE COMPRISE</strong></h2>
+												</td>
+												<td align="left" class="expander" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; visibility: hidden; width: 0px; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0;" valign="top"></td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+									<td align="left" class="wrapper last" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; position: relative; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0px;" valign="top">
+									<table class="six columns" style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: left; width: 290px; margin: 0 auto; padding: 0;">
+										<tbody>
+											<tr align="left" style="vertical-align: top; text-align: left; padding: 0;">
+												<td align="left" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0px;" valign="top"><img align="left" alt="Pourquoi choisir l'offre autoconsommation My Power ?" height="61" src="http://bravolead.com/img/190/images/9361507795729.jpg" style="outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; width: auto; max-width: 100%; float: left; clear: both; display: block;" width="290"></td>
+												<td align="left" class="expander" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; visibility: hidden; width: 0px; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0;" valign="top"></td>
+											</tr>
+										</tbody>
+									</table>
+
+									<table class="six columns" style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: left; width: 290px; margin: 0 auto; padding: 0;">
+										<tbody>
+											<tr align="left" style="vertical-align: top; text-align: left; padding: 0;">
+												<td align="left" bgcolor="#ffffff" class="panelWhite" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; background: #ffffff; margin: 0; padding: 14px 16px 16px;" valign="top">
+												<table style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: left; padding: 0;">
+													<tbody>
+														<tr align="left" style="vertical-align: top; text-align: left; padding: 0;">
+															<td align="left" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0px;" valign="top"><img align="left" height="15" src="http://bravolead.com/img/190/images/1546157494572.png" style="min-height: 15px !important; min-width: 12px !important; max-height: 15px !important; max-width: 12px !important; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; width: auto; float: left; clear: both; display: block;" width="8">
+															<p align="left" style="color: #4c4d4f; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; text-align: left; line-height: 19px; font-size: 14px; min-width: 258px; margin: 0 0 0 0px; padding: 0;">Prise en charge de vos démarches administratives</p>
+															</td>
+														</tr>
+													</tbody>
+												</table>
+
+												<hr style="color: #ffffff; height: 1px; background: #ffffff; border: none;">
+												<table style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: left; padding: 0;">
+													<tbody>
+														<tr align="left" style="vertical-align: top; text-align: left; padding: 0;">
+															<td align="left" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0px;" valign="top"><img align="left" height="15" src="http://bravolead.com/img/190/images/1546157494572.png" style="min-height: 15px !important; min-width: 12px !important; max-height: 15px !important; max-width: 12px !important; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; width: auto; float: left; clear: both; display: block;" width="8">
+															<p align="left" style="color: #4c4d4f; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; text-align: left; line-height: 19px; font-size: 14px; min-width: 258px; margin: 0 0 0 0px; padding: 0;">Visite technique à domicile <strong>gratuite</strong></p>
+															</td>
+														</tr>
+													</tbody>
+												</table>
+
+												<hr style="color: #ffffff; height: 1px; background: #ffffff; border: none;">
+												<table style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: left; padding: 0;">
+													<tbody>
+														<tr align="left" style="vertical-align: top; text-align: left; padding: 0;">
+															<td align="left" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0px;" valign="top"><img align="left" height="15" src="http://bravolead.com/img/190/images/1546157494572.png" style="min-height: 15px !important; min-width: 12px !important; max-height: 15px !important; max-width: 12px !important; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; width: auto; float: left; clear: both; display: block;" width="8">
+															<p align="left" style="color: #4c4d4f; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; text-align: left; line-height: 19px; font-size: 14px; min-width: 258px; margin: 0 0 0 0px; padding: 0;"><strong>Pose et mise en service en 1 journée</strong> par des installateurs locaux <strong style="color: #4e357c; font-weight: bolder; font-size: 14px;">RGE</strong></p>
+															</td>
+														</tr>
+													</tbody>
+												</table>
+
+												<hr style="color: #ffffff; height: 1px; background: #ffffff; border: none;">
+												<table style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: left; padding: 0;">
+													<tbody>
+														<tr align="left" style="vertical-align: top; text-align: left; padding: 0;">
+															<td align="left" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0px;" valign="top"><img align="left" height="15" src="http://bravolead.com/img/190/images/1546157494572.png" style="min-height: 15px !important; min-width: 12px !important; max-height: 15px !important; max-width: 12px !important; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; width: auto; float: left; clear: both; display: block;" width="8">
+															<p align="left" style="color: #4c4d4f; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; text-align: left; line-height: 19px; font-size: 14px; min-width: 258px; margin: 0 0 0 0px; padding: 0; padding-bottom:10px;">Matériel <strong>haut de gamme</strong> sélectionné par nos experts</p>
+															</td>
+														</tr>
+													</tbody>
+												</table>
+
+												<hr style="color: #cccccc; height: 1px; background: #cccccc; border: none;">
+												<table style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: left; padding: 0;">
+													<tbody>
+														<tr align="left" style="vertical-align: top; text-align: left; padding: 0;">
+															<td align="left" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0px;" valign="top">
+															<p align="left" style="color: #4c4d4f; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; text-align: left; line-height: 19px; font-size: 14px; min-width: 258px; margin: 0 0 0 0px; padding: 0; padding-top:5px;"><strong>Pack services complet</strong><sup style="font-size: 10px;">(3)</sup> :</p>
+															</td>
+														</tr>
+													</tbody>
+												</table>
+
+												<hr style="color: #ffffff; height: 1px; background: #ffffff; border: none;">
+												<table style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: left; padding: 0;">
+													<tbody>
+														<tr align="left" style="vertical-align: top; text-align: left; padding: 0;">
+															<td align="left" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0px;" valign="top"><img align="left" height="15" src="http://bravolead.com/img/190/images/1896827474572.png" style="min-height: 15px !important; min-width: 8px !important; max-height: 15px !important; max-width: 8px !important; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; width: auto; float: left; clear: both; display: block;" width="8">
+															<p align="left" style="color: #4c4d4f; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; text-align: left; line-height: 19px; font-size: 14px; min-width: 258px; margin: 0 0 0 0px; padding: 0;"> <strong>Espace client</strong> en ligne avec alertes en cas de dysfonctionnement</p>
+															</td>
+														</tr>
+													</tbody>
+												</table>
+
+												<hr style="color: #ffffff; height: 1px; background: #ffffff; border: none;">
+												<table style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: left; padding: 0;">
+													<tbody>
+														<tr align="left" style="vertical-align: top; text-align: left; padding: 0;">
+															<td align="left" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0px;" valign="top"><img align="left" height="15" src="http://bravolead.com/img/190/images/1896827474572.png" style="min-height: 15px !important; min-width: 8px !important; max-height: 15px !important; max-width: 8px !important; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; width: auto; float: left; clear: both; display: block;" width="8">
+															<p align="left" style="color: #4c4d4f; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; text-align: left; line-height: 19px; font-size: 14px; min-width: 258px; margin: 0 0 0 0px; padding: 0;"><strong>Bilans mensuels</strong> de production</p>
+															</td>
+														</tr>
+													</tbody>
+												</table>
+
+												<hr style="color: #ffffff; height: 1px; background: #ffffff; border: none;">
+												<table style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: left; padding: 0;">
+													<tbody>
+														<tr align="left" style="vertical-align: top; text-align: left; padding: 0;">
+															<td align="left" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0px;" valign="top"><img align="left" height="15" src="http://bravolead.com/img/190/images/1896827474572.png" style="min-height: 15px !important; min-width: 8px !important; max-height: 15px !important; max-width: 8px !important; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; width: auto; float: left; clear: both; display: block;" width="8">
+															<p align="left" style="color: #4c4d4f; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; text-align: left; line-height: 19px; font-size: 14px; min-width: 258px; margin: 0 0 0 0px; padding: 0;">Garantie onduleur étendue à 10 ans</p>
+															</td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+												<td align="left" class="expander" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; visibility: hidden; width: 0px; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0;" valign="top"></td>
+											</tr>
+										</tbody>
+									</table>
+
+									<table class="six columns" style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: left; width: 290px; margin: 0 auto; padding: 0;">
+										<tbody>
+											<tr align="left" style="vertical-align: top; text-align: left; padding: 0;">
+												<td align="left" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0px;" valign="top"><a href="http://bravolead.com/GHN4_BjaM6ue2DonC7gCqpvIQ1Qf2SEfLjq1WXKw1ONe-bNsdMPmxpdFgO74MPwd2PUj8UwWnBkophEs7qzAk1epIO02XrLFZqwJKcrYn9hueDCoDKmwl0jRKfT_TLUW1iPS1T7fpDyZe4PzNtyvWg==" style="color: #2ba6cb; text-decoration: none;" target="_blank"><img align="left" alt="Mon devis sous 48h" height="49" src="http://bravolead.com/img/190/images/5551303585729.png" style="outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; width: auto; max-width: 100%; float: left; clear: both; display: block; border: none;" width="290"></a></td>
+												<td align="left" class="expander" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; visibility: hidden; width: 0px; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0;" valign="top"></td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						<br>
+						<!-- content start -->
+						<table class="row" style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: left; width: 100%; position: relative; display: block; padding: 0px;">
+							<tbody>
+								<tr align="left" style="vertical-align: top; text-align: left; padding: 0;">
+									<td align="left" class="wrapper last" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; position: relative; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0px;" valign="top">
+									<table class="twelve columns" style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: left; width: 580px; margin: 0 auto; padding: 0;">
+										<tbody>
+											<tr align="left" style="vertical-align: top; text-align: left; padding: 0;">
+												<td align="left" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0px;" valign="top"><img align="left" alt="Les autres avantages de l'autoconsommation : Devenez producteur d'énergie verte, réduisez votre dépendance au réseau électrique et valorisez votre patrimoine grâce à une énergie renouvelable !" height="174" src="http://bravolead.com/img/190/images/8624136535729.jpg" style="outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; width: auto; max-width: 100%; float: left; clear: both; display: block;" width="580"></td>
+												<td align="left" class="expander" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; visibility: hidden; width: 0px; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0;" valign="top"></td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						<br>
+						<!-- container end below --></td>
+					</tr>
+				</tbody>
+			</table>
+
+			<table bgcolor="#d8d8d8" class="row footer" style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: left; width: 100%; position: relative; background: #d8d8d8; padding: 0px;">
+				<tbody>
+					<tr align="left" style="vertical-align: top; text-align: left; padding: 0;">
+						<td align="center" class="center" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: center; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0;" valign="top">
+						<center style="width: 100%; min-width: 580px;">
+						<table class="container" style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: inherit; width: 580px; margin: 0 auto; padding: 0;">
+							<tbody>
+								<tr align="left" style="vertical-align: top; text-align: left; padding: 0;">
+									<td align="left" class="wrapper last" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; position: relative; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0px;" valign="top">
+									<table class="twelve columns" style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: left; width: 580px; margin: 0 auto; padding: 0;">
+										<tbody>
+											<tr align="left" style="vertical-align: top; text-align: left; padding: 0;">
+												<td align="left" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0px;" valign="top"><img align="left" height="6" src="http://bravolead.com/img/190/images/9924371725729.jpg" style="outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; width: auto; max-width: 100%; float: left; clear: both; display: block;" width="580"></td>
+												<td align="left" class="expander" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; visibility: hidden; width: 0px; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0;" valign="top"></td>
+											</tr>
+										</tbody>
+									</table>
+
+									<table class="twelve columns" style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: left; width: 580px; margin: 0 auto; padding: 0;">
+										<tbody>
+											<tr align="left" style="vertical-align: top; text-align: left; padding: 0;">
+												<td align="left" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0px;" valign="top"> 
+												<h5 align="center" style="color: #767676; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; text-align: center; line-height: 1.3; word-break: normal; font-size: 10px; margin: 0; padding: 0; padding-left:15px!important; padding-right:15px!important;"><sup>(1)</sup> Économies réalisées pour une maison située dans la zone d'ensoleillement la plus forte de France et respectant les critères ci-après : toit orienté plein sud et incliné à 35°, pas d'éléments perturbateurs faisant de l'ombre sur la toiture et taux d'autoconsommation de 90%. Le montant en euros est calculé à partir d'un prix moyen du kWh sur 10 ans estimé 0,168€, soit une augmentation de 2,5% par an.<br>
+												<br>
+												<sup>(2)</sup> Prix de vente indicatif pour un kit photovoltaïque d'une puissance de 2,55kWc posé en surimposition sur une maison sans difficulté particulière de pose. TVA à 10% (logement de plus de deux ans).<br>
+												<br>
+												<sup>(3)</sup> Offre proposée à 10€ TTC / mois donnant accès à un espace client, aux alertes emails en cas de dysfonctionnement de l'installation, à un premier niveau de dépannage à distance et à une garantie onduleur étendue à 10 ans (pièces, main d'œuvre et déplacement). La prestation est assurée par SAVELYS PV, filiale ENGIE Home Services.<br>
+												<br>
+												<sup>(4)</sup> Un conseiller vous contactera gratuitement sous 48h ouvrées du lundi au vendredi de 8h à 20h. Il vous proposera un devis en ligne sur la base des informations qui lui seront transmises.<br>
+												<br>
+												ENGIE Home Performance SAS, au capital de 40 000€, ayant son siège social : 1 place Samuel de Champlain, 92400 Courbevoie immatriculée au Registre du Commerce et des Sociétés de Nanterre sous le numéro 537 694 747.</h5>
+												</td>
+												<td align="left" class="expander" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; visibility: hidden; width: 0px; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0;" valign="top"></td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</center>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			</center>
+			</td>
+		</tr>
+	</tbody>
+</table>
+<img src="http://track.effimails3bis.com/servlet/effi.pixel?id_compteur=13454845">
+<div style="text-align:center;"><div align="center"><font color="#000000" style="font-size:11px;font-family:Verdana,Arial,Helvetica,sans-serif;"><br>Pour cesser de recevoir nos informations sur l'adresse resp-m2-miage@univ-rennes1.fr, <a href="http://bravolead.com/GHN4_BjaM6ue2DonC7gCqpvIQ1Qf2SEfLjq1WXKw1ONe-bNsdMPmxpdFgO74MPwdW0UZOh_j4A5T17AcxavItvIK5_8RU-mWtM053IGCEA5BRHC0sYlqOcs1gysHikCSqeYTRAVwLb2TKdS3R8bKgg==">désabonnez-vous</a>.</font></div></div>
+</body>
+</html>
+
+
+--qoGpLTxagQKYrfwSos29Z1myAPvhPHse2A0qbKqn3JU=--
+

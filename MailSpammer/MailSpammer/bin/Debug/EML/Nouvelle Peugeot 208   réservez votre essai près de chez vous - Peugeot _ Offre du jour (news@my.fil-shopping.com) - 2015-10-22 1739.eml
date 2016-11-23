@@ -1,0 +1,277 @@
+Return-Path: <news@my.fil-shopping.com>
+Received: from mailimailo.univ-rennes1.fr ([unix socket])
+	 by mailimailo.univ-rennes1.fr (Cyrus v2.3.16-Fedora-RPM-2.3.16-6.el6_2.5) with LMTPA;
+	 Thu, 22 Oct 2015 17:39:06 +0200
+X-Sieve: CMU Sieve 2.3
+Received: from vmsmtprexch.univ-rennes1.fr (vmsmtprexch.univ-rennes1.fr [129.20.128.62])
+	by mailimailo.univ-rennes1.fr (Postfix) with ESMTP id 7F69126A0CE3
+	for <resp-m2-miage@univ-rennes1.fr>; Thu, 22 Oct 2015 17:39:06 +0200 (CEST)
+Received: from mbcasexch2.Ur.local (mbcasexch2.univ-rennes1.fr [129.20.125.130])
+	by vmsmtprexch.univ-rennes1.fr (Postfix) with ESMTP id 7B1C1106
+	for <resp-m2-miage@univ-rennes1.fr>; Thu, 22 Oct 2015 17:39:06 +0200 (CEST)
+X-CrossPremisesHeadersFilteredBySendConnector: mbcasexch2.Ur.local
+Received: from mbcasexch1.Ur.local (2002:8114:7d81::8114:7d81) by
+ mbcasexch2.Ur.local (2002:8114:7d82::8114:7d82) with Microsoft SMTP Server
+ (TLS) id 15.0.913.22; Thu, 22 Oct 2015 17:39:06 +0200
+Received: from mailout1.univ-rennes1.fr (129.20.128.162) by
+ mbcasexch1.Ur.local (129.20.125.129) with Microsoft SMTP Server id
+ 15.0.913.22 via Frontend Transport; Thu, 22 Oct 2015 17:39:06 +0200
+Received: from localhost (vmscanmail.univ-rennes1.fr [129.20.128.134])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id 25B1260265
+	for <resp-m2-miage@univ-rennes1.fr>; Thu, 22 Oct 2015 17:39:06 +0200 (CEST)
+X-Virus-Scanned: amavisd-new at univ-rennes1.fr
+Received: from mailout1.univ-rennes1.fr ([129.20.128.162])
+	by localhost (vmscanmail.univ-rennes1.frm [129.20.128.134]) (amavisd-new, port 10026)
+	with ESMTP id fMqlWAGOwZ5o for <resp-m2-miage@univ-rennes1.fr>;
+	Thu, 22 Oct 2015 17:39:06 +0200 (CEST)
+Received: from vmmailin.univ-rennes1.fr (vmmailin.univ-rennes1.fr [129.20.128.133])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id 061CE60259
+	for <resp-m2-miage@univ-rennes1.fr>; Thu, 22 Oct 2015 17:39:06 +0200 (CEST)
+Received: from mxb2-2.relay.renater.fr (mxb2-2.relay.renater.fr [194.214.200.9])
+	by vmmailin.univ-rennes1.fr (Postfix) with ESMTP id F348A2003F
+	for <resp-m2-miage@univ-rennes1.fr>; Thu, 22 Oct 2015 17:39:05 +0200 (CEST)
+Received: from my.fil-shopping.com (mta74.smtp6.azrmta.com [51.254.72.74])
+	by mxb2-2.relay.renater.fr (asm) with SMTP id BC4BA6006FC
+	for <resp-m2-miage@univ-rennes1.fr>; Thu, 22 Oct 2015 17:39:05 +0200 (CEST)
+DomainKey-Signature: a=rsa-sha1; q=dns; c=nofws;
+  s=mail;d=my.fil-shopping.com;
+  h=from:sender:to:date:message-id:subject:mime-version:content-type;
+  b=VLnbnzo74yqTbVMlpZz418UYKHNvu0Fq4guyvqBKYewqG2EeVLrhWRo8PloOBjQuwdRcR2wy
+    OD70U2IDHaAA2Wa9q/yTHyrgYqWCIFHbwUfuJJENiw2I1TRgttk3TqBVdbT/ah7Z2Q8OrBAx
+    qUQfJzEScSdETQPbm17bHOZnKvM=
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed;
+  s=mail;d=my.fil-shopping.com;
+  h=from:sender:to:date:message-id:subject:mime-version:content-type;
+  bh=9YTR0aNPSySuHv/9rXkEPX7PYlk=;
+  b=cqzM14ZPBsOEyDGQ8xsdmn8Um/xWUiS5S87oiUJlQcYfUeB5swTTgYZB0FUUeKk5pR0mU6UT
+    OM1g7LgxUsEg4CVRcVF9McQc/bJQ9vk0k9jDrdT6zzEKe7XRFZYdGL3F5q22nGoK+NPX3qP8
+    TMpKgraXElxkJyNt1GpWpJfsk2o=
+X-Customer-Id: 115
+X-Campaign-Id: 18
+List-Unsubscribe: http://my.fil-shopping.com/tr/1/6156226/18/234942/
+From: Peugeot / Offre du jour <news@my.fil-shopping.com>
+Sender: Peugeot / Offre du jour <news@my.fil-shopping.com>
+Reply-To: Peugeot / Offre du jour <news@my.fil-shopping.com>
+To: <resp-m2-miage@univ-rennes1.fr>
+Date: Thu, 22 Oct 2015 15:39:13 +0000
+Organization: my.fil-shopping.com
+Message-ID: <1-6156226-18-234942@my.fil-shopping.com>
+Subject: =?utf-8?B?Tm91dmVsbGUgUGV1Z2VvdCAyMDggOiByw6lzZXJ2ZXogdm90cmUgZXNzYWk=?=
+	=?utf-8?B?IHByw6hzIGRlIGNoZXogdm91cw==?=
+MIME-Version: 1.0
+X-Mailer: PHPMailer
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: 8bit
+X-UCE-Status: YES
+X-UCE-Type: MCE
+X-Original-Source-IP: 51.254.72.74
+X-Bizanga: IMP - mxb2-2.relay.renater.fr
+X-Renater-SpamState: 11
+X-Renater-SpamScore: 17
+X-Renater-SpamCause: gggruggvucftvghtrhhoucdtuddrfeekhedrtdeggdelvdcutefuodetggdotefrodftvfcurfhrohhfihhlvgemucftgffptefvgfftpdggtfgfnhhsuhgsshgtrhhisggvnecuuegrihhlohhuthemuceftddtnecundfotefknffkpffiucdludejmdenucfjughrpefjhfhsrhfvffhokffuggfotgfgsehhkeertdehtdejnecuhfhrohhmpefrvghughgvohhtucdsucfqfhhfrhgvucguuhcujhhouhhruceonhgvfihssehmhidrfhhilhdqshhhohhpphhinhhgrdgtohhmqeenucffohhmrghinhepfhhilhdqshhhohhpphhinhhgrdgtohhmnecurfgrrhgrmhepmhhouggvpehsmhhtphdphhgvlhhopehmhidrfhhilhdqshhhohhpphhinhhgrdgtohhmpdhinhgvthephedurddvheegrdejvddrjeegpdhmrghilhhfrhhomhepnhgvfihssehmhidrfhhilhdqshhhohhpphhinhhgrdgtohhmpdhrtghpthhtoheprhgvshhpqdhmvddqmhhirghgvgesuhhnihhvqdhrvghnnhgvshdurdhfrh 
+X-Renater-ServerName: mxb2-2.relay.renater.fr
+X-OrganizationHeadersPreserved: mbcasexch2.Ur.local
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Peugeot | Newsletter</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<style type="text/css">
+body {
+  height:100% !important;
+  margin:0!important;
+  padding:0!important;
+  width:100% !important;
+}
+div[style*="margin: 16px 0"] { margin:0 !important; } /* marge android 4.4*/
+
+html {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+table {border-collapse: collapse !important;}
+#outlook a { padding:0; }
+ReadMsgBody { width:100%; } .ExternalClass { width:100%; }
+ExternalClass * { line-height: 115% !important; }
+table, td { mso-table-lspace:0pt; mso-table-rspace:0pt; }
+img { -ms-interpolation-mode:bicubic; }
+
+@media all and (max-width: 650px) {
+  img {
+	height:auto;
+  }
+
+  table[class=fluide] {
+	width:100% !important;
+	min-width:0 !important;
+  }
+  td[class=fluide] {
+	width:100% !important;
+	min-width:0 !important;
+	float:left;
+  }
+  .fluide {
+	width:100% !important;
+	min-width:0 !important;
+	float:left;
+  }
+  .margemob {
+	width:90% !important;
+	margin:auto;
+  }
+  .nomobile {
+	display:none;
+  }
+  .font23 {
+	  font-size:23px !important;
+  }  
+  .font18 {
+	  font-size:18px !important;
+  }
+  .aligncenter {
+	  text-align:center;
+  }
+  #mentions a {
+	  color:#ffffff;
+	  text-decoration:none;
+  }
+
+}
+
+</style>
+</head>
+<body bgcolor="#ffffff"><div align="center">
+<font color="#666666" style="font-size:10px;font-family:Verdana,Arial,Helvetica,sans-serif;">
+<b>Bonjour  , vous recevez ce mail car vous êtes abonné avec l'adresse resp-m2-miage@univ-rennes1.fr</b><br>
+Pour cesser de recevoir nos communications <a  href="http://my.fil-shopping.com/tr/?id=1923787f25371727a971d0c2df108eb5ea005b11a5741b2999b3901e41566511">d&eacute;sabonnez-vous</a><br>
+		Pour visualiser correctement ce message, acc&eacute;dez &agrave; la <a  href="http://my.fil-shopping.com/mr/?id=1923787f25371727a971d0c2df108eb5cd364f4cdb16e3d309623b4bcd23de25783d21326f404293">version en ligne</a><br>
+	</font>
+</div>
+<table id="peugeot" width="100%" border="0" cellspacing="0" cellpadding="0" style="table-layout:fixed;">
+	<tr>
+    	<td align="center">
+       	  <table width="600" class="fluide" border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                	<td height="15" style="min-width:650px; line-height:1px;" class="fluide"></td>
+                </tr>
+                <tr>
+                  <td align="center" style="min-width:650px;" class="fluide"><a  href="http://my.fil-shopping.com/tr/?id=1923787f25371727a971d0c2df108eb5a33f8fbfc29cec046850523a82aff78e" target="_blank" style="font-family:Arial, Helvetica, sans-serif; font-size: 16px; text-decoration:none; color:#132033; font-weight:bold;"><div class="margemob">NOUVELLE PEUGEOT 208 : R&eacute;veillez l'&eacute;nergie qui est en vous.</div></a></td>
+              </tr>
+                <tr>
+                  <td height="5" style="min-width:650px; line-height:1px;" class="fluide"></td>
+                </tr>
+                <tr>
+                  <td height="15" style="min-width:650px; line-height:1px;" class="fluide"></td>
+                </tr>
+                <tr>
+                  <td bgcolor="#112033" class="fluide" style="min-width:650px;">
+               	  <a  href="http://my.fil-shopping.com/tr/?id=1923787f25371727a971d0c2df108eb5ad1384dbe1e46591069f6539b711cbd7" target="_blank"><img src="http://hst.tradedoubler.com/file/266791/logo.jpg" width="166" height="49"  border="0" style="display:block;"/></a></td>
+           	 	</tr>
+                <tr>
+                	<td class="fluide" style="min-width:650px;"><table bgcolor="#000000" width="100%" border="0" cellspacing="0" cellpadding="0">
+					<tr>
+                  	<td align="center" class="fluide" style="min-width:650px;"><a  href="http://my.fil-shopping.com/tr/?id=1923787f25371727a971d0c2df108eb54eb48c248f3359a68941325a672f2bb2" target="_blank" style="font-family:Arial, Helvetica, sans-serif; font-size:20px; line-height:150px;color:#ffffff;"><img alt="NOUVELLE PEUGEOT 208" src="http://hst.tradedoubler.com/file/266791/animation.gif" height="398"  border="0" style="display:block;width:100%;"/></a></td>
+                	</tr>
+                    <tr>
+                      <td align="center" class="fluide" style="min-width:650px;"><a  href="http://my.fil-shopping.com/tr/?id=1923787f25371727a971d0c2df108eb52930c034943c9cdac1b6e2cbf93d63fd" target="_blank"  style="font-family:Arial, Helvetica, sans-serif; font-size:16px; line-height:30px;color:#ffffff;"><img alt="&Agrave; partir de 159&euro; / mois sans apport (1)" src="http://hst.tradedoubler.com/file/266791/159.jpg" height="71" border="0" style="display:block;width:100%;"/></a></td>
+                    </tr>                
+                    <tr>
+                      <td align="center" class="fluide font18" style="min-width:650px; font-family:Arial, Helvetica, sans-serif; font-size:22px;color:#ffffff;">
+                      <div class="margemob"><a  href="http://my.fil-shopping.com/tr/?id=1923787f25371727a971d0c2df108eb510d1a99ebf3f5ad0f4fcbbd0aedbd9b3" target="_blank" style="color:#FFFFFF; text-decoration:none;">ESSAYEZ LA <span style="color:#eb3f00;">GRATUITEMENT</span> PR&Egrave;S DE CHEZ VOUS</a></div></td>
+                    </tr>
+                    <tr>
+                      <td height="20" class="fluide" style="min-width:650px;"></td>
+                    </tr>
+                    <tr>
+                      <td class="fluide" style="min-width:650px;"><table class="margemob" width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                          <td width="76" class="nomobile">&nbsp;</td>
+                          <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                            <tr>
+                              <td height="46" align="center" bgcolor="#ffffff" class="fluide"><a  href="http://my.fil-shopping.com/tr/?id=1923787f25371727a971d0c2df108eb59a01a06018c6eab788c00cfc5065e342" target="_blank" style="font-family:Arial, Helvetica, sans-serif; font-size: 14px; text-decoration:none; color:#141414; line-height:46px;">resp-m2-miage@univ-rennes1.fr</a></td>
+                              <td width="211" height="46" align="center" bgcolor="#eb3f00" class="fluide"><a  href="http://my.fil-shopping.com/tr/?id=1923787f25371727a971d0c2df108eb5b3be76240043e2b33ff3878baa853809" target="_blank" style="font-family:Arial, Helvetica, sans-serif; font-size: 20px; text-decoration:none; color:#ffffff; line-height:46px;">ESSAI GRATUIT</a></td>
+                            </tr>
+                          </table></td>
+                          <td width="76" class="nomobile">&nbsp;</td>
+                        </tr>
+                  </table></td>
+                </tr>
+                <tr>
+                  <td height="20" class="fluide" style="min-width:650px;"></td>
+                </tr>
+                <tr>
+                  <td align="center" class="fluide" style="min-width:650px;"><div class="margemob"><a  href="http://my.fil-shopping.com/tr/?id=1923787f25371727a971d0c2df108eb55326ade16fe67046302b14a9859d11b9" target="_blank" style="font-family:Arial, Helvetica, sans-serif; font-size: 11px; line-height:13px;display:block; text-decoration:none; color:#c3c4c8;">En validant, j'accepte de recevoir par email les offres promotionnelles, avant-premi&egrave;res et actualit&eacute;s de PEUGEOT.</a></div></td>
+                </tr>
+                <tr>
+                  <td height="30" class="fluide" style="min-width:650px;">&nbsp;</td>
+                </tr>
+              	  </table></td>
+                </tr>                
+                <tr>
+                  <td class="fluide" style="min-width:650px;"><table bgcolor="#132033" width="100%" border="0" cellspacing="0" cellpadding="0">
+ 				<tr>
+                  <td height="20" class="fluide" style="min-width:650px;">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td class="fluide" style="min-width:650px;"><table class="margemob" width="100%" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                      <td width="17" class="nomobile">&nbsp;</td>
+                      <td align="left" valign="top" bgcolor="#132033" id="mentions" style="font-family:Arial, Helvetica, sans-serif; font-size: 10px; color:#ffffff; text-align:justify;">Gamme 208 y compris Business : Consommation mixte (en L/100km) : De 3 &agrave; 5,4. Emissions de CO2 (en g/km) : De 79 &agrave; 125. Consommation urbaine (en L/100km) : De 3,6 &agrave; 7. Emissions de CO2 (en g/km) : De 79 &agrave; 125. Consommation extra-urbaine (en L/100km) : De 2,7 &agrave; 4,6. Emissions de CO2 (en g/km) : De 79 &agrave; 125.<br /><br />
+                        (1) En location longue dur&eacute;e (LLD) sur 48 mois et pour 40 000 km.
+                        Exemple pour la LLD d&#146;une Nouvelle Peugeot 208 Access 3p 1,0L PureTech 68 BVM5 neuve hors options, incluant 4 ans d&#146;entretien. Montants exprim&eacute;s TTC et hors prestations facultatives. Mod&egrave;le pr&eacute;sent&eacute; : Nouvelle 208 Allure 5p 1,2L PureTech 82 BVM5 neuve options peinture m&eacute;tallis&eacute;e, jantes 16&quot; Titane noir brillant, toit panoramique en verre et pack de personnalisation ext&eacute;rieur Menthol White : 240 &euro;/mois sans apport. Montants exprim&eacute;s TTC et hors prestations facultatives. Offre non cumulable valable du 01/10 au 19/10/2015, r&eacute;serv&eacute;e aux particuliers pour toute LLD d&#146;une Nouvelle 208 neuve dans le r&eacute;seau Peugeot participant, sous r&eacute;serve d&#146;acceptation du dossier par PEUGEOT FINANCE - Loueur : CREDIPAR, SA au capital de 138.517.008 &euro;, RCS Nanterre n&deg; 317 425 981, 12 avenue Andr&eacute; Malraux, 92300 Levallois-Perret. Le PCP Entretien Pl
+ us peut 
+ &ecirc;tre souscrit ind&eacute;pendamment de toute LLD aux conditions disponibles dans le r&eacute;seau Peugeot participant.<br /><br /><br />
+(2) Sur gamme business<br />
+<br /><br />
+<u>Donn&eacute;es Personnelles</u> :<br />
+ Ces informations sont collect&eacute;es par Automobiles Peugeot et sont n&eacute;cessaires &agrave; cette derni&egrave;re, ses filiales, son r&eacute;seau commercial, toute soci&eacute;t&eacute; qui offrirait un service pour le compte d'Automobiles Peugeot et/ou toute soci&eacute;t&eacute; appartenant au m&ecirc;me Groupe que Automobiles Peugeot, pour le traitement de cette demande. Vous &ecirc;tes inform&eacute;s que ces informations pourront &eacute;galement &ecirc;tre utilis&eacute;es par Automobiles Peugeot, ses filiales, son r&eacute;seau commercial, toute soci&eacute;t&eacute; qui offrirait un service pour le compte d'Automobiles Peugeot et/ou toute soci&eacute;t&eacute; appartenant au m&ecirc;me Groupe qu'Automobiles Peugeot, &agrave; des fins d'envoi d'offres commerciales, d'enqu&ecirc;te et d'analyse. Dans le cadre de son activit&eacute;, Automobiles Peugeot peut avoir besoin de transmettre vos donn&eacute;es dans d'autres pays, pour l'une des finalit&eacute;s pour 
+ lesquell
+ es les donn&eacute;es ont &eacute;t&eacute; initialement collect&eacute;es ou pour les objectifs auxquels vous avez consenti par la suite. Lorsque vos donn&eacute;es sont transf&eacute;r&eacute;es dans un pays tiers, Automobiles Peugeot prend toutes les mesures n&eacute;cessaires pour vous &eacute;viter tout pr&eacute;judice. Les donn&eacute;es sont transf&eacute;r&eacute;es uniquement vers des pays o&ugrave; un niveau ad&eacute;quat de protection des donn&eacute;es est garanti. Les donn&eacute;es peuvent &ecirc;tre transf&eacute;r&eacute;es vers des pays qui ne sont pas membres de l'Union Europ&eacute;enne.<br /><br />
+Conform&eacute;ment &agrave; la loi &laquo; Informatique et libert&eacute;s &raquo; du 6 janvier 1978, vous pouvez &agrave; tout moment demander &agrave; acc&eacute;der, faire rectifier ou supprimer les informations personnelles vous concernant ou vous opposer &agrave; leur traitement par Automobiles Peugeot DCPF/MKT/CRMD, 75 avenue de la Grande Arm&eacute;e, 75016 Paris, France. Merci de ne pas r&eacute;pondre &agrave; cet e-mail, votre question ne pourra &ecirc;tre trait&eacute;e. Si vous souhaitez contacter Peugeot, merci de <a  href="http://my.fil-shopping.com/tr/?id=1923787f25371727a971d0c2df108eb58234447f531388d7cac27078d70c7c6c" target="_blank" style="color:#cdced0;">cliquer ici.</a></td>
+                      <td width="17" class="nomobile">&nbsp;</td>
+                    </tr>
+                  </table></td>
+                </tr>
+                <tr>
+                  <td height="30" class="fluide" style="min-width:650px;">&nbsp;</td>
+                </tr>                
+                <tr>
+                  <td class="fluide" style="min-width:650px;"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                      <td width="17" style="line-height:1px; font-size:1px;"><!--[if (gte mso 15)|(IE)]>&nbsp;<![endif]--></td>
+                      <td height="1" bgcolor="#ffffff" style="line-height:1px; font-size:1px;"><!--[if (gte mso 15)|(IE)]>&nbsp;<![endif]--></td>
+                      <td width="17" style="line-height:1px; font-size:1px;"><!--[if (gte mso 15)|(IE)]>&nbsp;<![endif]--></td>
+                    </tr>
+                  </table></td>
+                </tr>
+                <tr>
+                  <td height="25" class="fluide" style="min-width:650px;">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td height="25" class="fluide" style="min-width:650px;">&nbsp;</td>
+                </tr>
+                  </table></td>
+                </tr>                
+                
+        	</table>
+      	</td>
+    </tr>
+</table>
+<div style="display:none; white-space:nowrap; font:15px courier; color:#ffffff;">
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+</div>
+<img src="https://impfr.tradedoubler.com/imp?type(inv)g(22884444)a(1905389)">
+<div align="center">
+<font color="#666666" style="font-size:10px;font-family:Verdana,Arial,Helvetica,sans-serif;">
+<b>Vous bénéficiez de cette offre car vous etes inscrit sur le reseau FilWiki</b><br>
+FilWiki vous permet de profiter d'offres spéciales, de bons plans, de code promotion et plus<br>
+À tout moment, vous disposez d'un droit d'accès, de modification, de rectification et de suppression<br>
+ de vos données personnelles (art 34 de la loi Informatique et Libertés du 6 Janvier1978).
+<br>
+Pour cesser de recevoir nos informations sur l'adresse resp-m2-miage@univ-rennes1.fr , <a  href="http://my.fil-shopping.com/tr/?id=1923787f25371727a971d0c2df108eb5e604aaaa757dedf9ea2997ac9cc64cc4">d&eacute;sabonnez-vous</a>.
+</font>
+</div><img height='1' width='1' border='0' alt='' src='http://my.fil-shopping.com/tr/?id=1923787f25371727c9279caea1675cabd63bff3228efad7530d0a5dee7529639'></body>
+</html>
+

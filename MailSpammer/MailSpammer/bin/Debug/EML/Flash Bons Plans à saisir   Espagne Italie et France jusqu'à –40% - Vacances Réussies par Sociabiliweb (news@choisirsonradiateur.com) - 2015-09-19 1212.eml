@@ -1,0 +1,885 @@
+Return-Path: <return-a18-1638-1640-resp-m2-miage=univ-rennes1.fr=4@choisirsonradiateur.com>
+Received: from mailimailo.univ-rennes1.fr ([unix socket])
+	 by mailimailo.univ-rennes1.fr (Cyrus v2.3.16-Fedora-RPM-2.3.16-6.el6_2.5) with LMTPA;
+	 Sat, 19 Sep 2015 12:51:41 +0200
+X-Sieve: CMU Sieve 2.3
+Received: from vmsmtprexch.univ-rennes1.fr (vmsmtprexch.univ-rennes1.fr [129.20.128.62])
+	by mailimailo.univ-rennes1.fr (Postfix) with ESMTP id C07E826A0CAC
+	for <resp-m2-miage@univ-rennes1.fr>; Sat, 19 Sep 2015 12:51:41 +0200 (CEST)
+Received: from mbcasexch3.Ur.local (mbcasexch3.univ-rennes1.fr [129.20.125.131])
+	by vmsmtprexch.univ-rennes1.fr (Postfix) with ESMTP id BD9A9199
+	for <resp-m2-miage@univ-rennes1.fr>; Sat, 19 Sep 2015 12:51:41 +0200 (CEST)
+X-CrossPremisesHeadersFilteredBySendConnector: mbcasexch3.Ur.local
+Received: from mbcasexch2.Ur.local (2002:8114:7d82::8114:7d82) by
+ mbcasexch3.Ur.local (2002:8114:7d83::8114:7d83) with Microsoft SMTP Server
+ (TLS) id 15.0.913.22; Sat, 19 Sep 2015 12:51:41 +0200
+Received: from mailout1.univ-rennes1.fr (129.20.128.162) by
+ mbcasexch2.Ur.local (129.20.125.130) with Microsoft SMTP Server id
+ 15.0.913.22 via Frontend Transport; Sat, 19 Sep 2015 12:51:41 +0200
+Received: from localhost (vmscanmail.univ-rennes1.fr [129.20.128.134])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id 5CB13604DE
+	for <resp-m2-miage@univ-rennes1.fr>; Sat, 19 Sep 2015 12:12:47 +0200 (CEST)
+X-Virus-Scanned: amavisd-new at univ-rennes1.fr
+Received: from mailout1.univ-rennes1.fr ([129.20.128.162])
+	by localhost (vmscanmail.univ-rennes1.frm [129.20.128.134]) (amavisd-new, port 10026)
+	with ESMTP id YlEbXTVokYnN for <resp-m2-miage@univ-rennes1.fr>;
+	Sat, 19 Sep 2015 12:12:47 +0200 (CEST)
+Received: from vmmailin.univ-rennes1.fr (vmmailin.univ-rennes1.fr [129.20.128.133])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id 36C43604BE
+	for <resp-m2-miage@univ-rennes1.fr>; Sat, 19 Sep 2015 12:12:47 +0200 (CEST)
+Received: from mxb2-1.relay.renater.fr (mxb2-1.relay.renater.fr [194.214.200.8])
+	by vmmailin.univ-rennes1.fr (Postfix) with ESMTP id 2F15D20033
+	for <resp-m2-miage@univ-rennes1.fr>; Sat, 19 Sep 2015 12:12:47 +0200 (CEST)
+Received: from smtp1-13.revue-en-ligne.com (smtp1-13.revue-en-ligne.com [5.196.204.56])
+	by mxb2-1.relay.renater.fr (asm) with SMTP id EEBE160001A
+	for <resp-m2-miage@univ-rennes1.fr>; Sat, 19 Sep 2015 12:12:46 +0200 (CEST)
+Received: (GreenArrow 7437 invoked by uid 410); 19 Sep 2015 10:12:46 -0000
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed;
+	d=choisirsonradiateur.com; s=default; h=Subject:From:To:Date:
+	List-Unsubscribe:Message-ID:MIME-Version:Content-Type; bh=GkVHKT
+	/0zEL5nOE7UnAddb87w54=; b=Wi8hAOeNAPFWN8ftuql9bywILXeyDj1DbrOzQN
+	azMZa2xeYol7hPCKmanNhqlCFB8+9PyCcJhIqGuL59EjfUz+hC4riXF90seIpj68
+	M8NouGfcIFaeETNS0TATPua7D326Aw4q58qzikp+tyyGn3UwiYuD+Um0Svhmlvot
+	hcDWk=
+Subject: =?UTF-8?Q?Flash=20Bons=20Plans=20=C3=A0=20saisir=20=3A=20Espag?=
+ =?UTF-8?Q?ne=20Italie=20et=20France=20jusqu=27=C3=A0=20=E2=80=9340=25?=
+From: =?UTF-8?B?VmFjYW5jZXMgUsOpdXNzaWVzIHBhciBTb2NpYWJpbGl3ZWI=?=
+	<news@choisirsonradiateur.com>
+To: <resp-m2-miage@univ-rennes1.fr>
+Date: Sat, 19 Sep 2015 10:12:46 +0000
+List-Unsubscribe: <http://choisirsonradiateur.com/ga/unsubscribe/2-11527895-18-861-1640-ed35df89ef15825-0813f1058a>,
+ <mailto:return-a18-1638-1640-resp-m2-miage=univ-rennes1.fr=4u@choisirsonradiateur.com>
+X-Mailer: GreenArrow Studio (v4.44.0)
+X-CampaignID: s4:1638-482884c04bc60bfe
+Message-ID: <mid-e35e256505f770137a39e32026732b37@choisirsonradiateur.com>
+X-Mailer-Info: 4.hFDO.QM2MDO.IXZzBXLtJTLtlWYnVGQ15Wa21icl5mblNXMuYmc.QM2QDM
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="==3572e5ddf280c03689dfb20ece666f3f"
+X-UCE-Status: YES
+X-UCE-Type: MCE
+X-Original-Source-IP: 5.196.204.56
+X-Bizanga: IMP - mxb2-1.relay.renater.fr
+X-Renater-SpamState: 11
+X-Renater-SpamScore: 17
+X-Renater-SpamCause: gggruggvucftvghtrhhoucdtuddrfeekgedrfeehgdduieejucetufdoteggodetrfcurfhrohhfihhlvgemucftgffptefvgfftpdggtfgfnhhsuhgsshgtrhhisggvnecuuegrihhlohhuthemuceftddtnecundfotefknffkpffiucdludejmdenucfjughrpefuhffvfffjoffkgggtsegrtderreertdejnecuhfhrohhmpeggrggtrghntggvshcutforuhhsshhivghsuchprghrucfuohgtihgrsghilhhifigvsgcuoehnvgifshestghhohhishhirhhsohhnrhgrughirghtvghurhdrtghomheqnecuffhomhgrihhnpegthhhoihhsihhrshhonhhrrgguihgrthgvuhhrrdgtohhm 
+X-Renater-ServerName: mxb2-1.relay.renater.fr
+X-OrganizationHeadersPreserved: mbcasexch3.Ur.local
+
+--==3572e5ddf280c03689dfb20ece666f3f
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+Vacances r=C3=A9ussies.com - FLASH DERNIERES MINUTES
+
+Pierre & Vacances
+Pierre & Vacances=09=20
+VILLAGE CLUB ANDALOUSIE
+8j/7n en appt Select 45m=C2=B2
+=C3=80 partir de 228=E2=82=AC	D=C3=89COUVRIR=20
+Pierre & Vacances
+Pierre & Vacances=09=20
+LA VILLA MALDAGORA 4*
+8j/7n en appt 2 pi=C3=A8ces
+=C3=80 partir de 336=E2=82=AC	D=C3=89COUVRIR=20
+Pierre & Vacances
+Pierre & Vacances=09=20
+DOMAINE DE CRAMPHORE 4*
+8j/7n en appt Classique 34m=C2=B2
+=C3=80 partir de 300=E2=82=AC	D=C3=89COUVRIR=20
+Promo Croisi=C3=83=C2=A8re
+Promo Croisi=C3=83=C2=A8re=09=20
+FLEURS DE LA MEDITERRANEE
+Croisi=C3=A8re Costa Favolosa 5*
+=C3=80 partir de 389=E2=82=AC	D=C3=89COUVRIR=20
+Pierre & Vacances
+Pierre & Vacances=09=20
+VENTE FLASH JUSQU'=C3=80 -40%
+Destinations France et Espagne
+ 	D=C3=89COUVRIR=20
+Pierre & Vacances
+Pierre & Vacances=09=20
+TOSCANE ILE D'ELBE
+8j/7n en Studio 35m=C2=B2
+=C3=80 partir de 380=E2=82=AC	D=C3=89COUVRIR=20
+Pierre & Vacances
+Pierre & Vacances=09=20
+LES JARDINS OMBRAGES 3*
+8j/7n en Studio 25m=C2=B2
+=C3=80 partir de 378=E2=82=AC	D=C3=89COUVRIR=20
+ABCroisi=C3=83=C2=A8re
+ABCroisi=C3=83=C2=A8re=09=20
+ITALIE SARDAIGNE BALEARES
+Croisi=C3=A8re MSC Preziosa 5*
+=C3=80 partir de 599=E2=82=AC	D=C3=89COUVRIR=20
+* Les prix affich=C3=A9s sur cette newsletter ont =C3=A9t=C3=A9 relev=C3=A9=
+s sur les sites internets mentionn=C3=A9s le 16/09/2015 =C3=A0 15h.=
+
+--==3572e5ddf280c03689dfb20ece666f3f
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.=
+w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+	<meta content=3D"text/html; charset=3Dutf-8" http-equiv=3D"Content-Type" />
+	<title>VacancesReussies.com - FLASH DERNI&Egrave;RES MINUTES</title>
+</head>
+<body style=3D"background-color:#CECCC8;"><!-- BANNIERE: FLASH DERNIERES MI=
+NUTES -->
+<div style=3D"background-color:#CECCC8;">
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" wi=
+dth=3D"650">
+	<tbody>
+		<tr>
+			<td bgcolor=3D"#F6F6F6"><a href=3D"http://choisirsonradiateur.com/ga/cli=
+ck/2-11527895-18-861-1640-11482-3edb0883be-0813f1058a" target=3D"_blank"><i=
+mg alt=3D"Vacances r=C3=A9ussies.com - FLASH DERNIERES MINUTES" border=3D"0=
+" height=3D"150" src=3D"http://46.101.7.34/vacances/vr-160915/haeder_bp.jpg=
+" style=3D"display:block;" width=3D"650" /></a></td>
+		</tr>
+		<tr>
+			<td bgcolor=3D"#FFFFFF"><img border=3D"0" height=3D"12" src=3D"http://46=
+.101.7.34/vacances/vr-160915/header_under.gif" style=3D"display:block;" wid=
+th=3D"650" /></td>
+		</tr>
+	</tbody>
+</table>
+<!-- CONTENU BDD(INFOS) -->
+
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" wi=
+dth=3D"650">
+	<tbody>
+		<tr>
+			<td align=3D"left" bgcolor=3D"#FFFFFF" valign=3D"top" width=3D"50%">
+			<table border=3D"0" cellpadding=3D"8" cellspacing=3D"0" width=3D"100%">
+				<tbody>
+					<tr>
+						<td>
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"298">
+							<tbody>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top"><a href=3D"http://choisi=
+rsonradiateur.com/ga/click/2-11527895-18-861-1640-11483-e597372479-0813f105=
+8a" target=3D"_blank"><img alt=3D"Pierre & Vacances" border=3D"0" height=3D=
+"160" src=3D"http://46.101.7.34/vacances/vr-160915/IP1.jpg" style=3D"displa=
+y:block;" width=3D"290" /></a></td>
+								</tr>
+							</tbody>
+						</table>
+
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"298">
+							<tbody>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top" width=3D"60"><a href=3D"=
+http://choisirsonradiateur.com/ga/click/2-11527895-18-861-1640-11483-e59737=
+2479-0813f1058a" target=3D"_blank"><img alt=3D"Pierre & Vacances" border=3D=
+"0" height=3D"28" src=3D"http://46.101.7.34/vacances/vr-160915/pierreetvaca=
+nces104x40.jpg" style=3D"display:block;" width=3D"78" /></a></td>
+									<td align=3D"left" style=3D"border-bottom:1px solid #D9DADB;" vali=
+gn=3D"top"></td>
+								</tr>
+							</tbody>
+						</table>
+
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"298">
+							<tbody>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"middle"><strong><a href=3D"ht=
+tp://choisirsonradiateur.com/ga/click/2-11527895-18-861-1640-11483-e5973724=
+79-0813f1058a" style=3D" color:#707173; text-decoration:none;" target=3D"_b=
+lank">VILLAGE CLUB ANDALOUSIE</a></strong></td>
+								</tr>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top"><span style=3D"font-fami=
+ly:Arial, Helvetica, sans-serif; font-size:12px; color:#707173;"><a href=3D=
+"http://choisirsonradiateur.com/ga/click/2-11527895-18-861-1640-11483-e5973=
+72479-0813f1058a" style=3D" color:#707173; text-decoration:none;" target=3D=
+"_blank">8j/7n en appt Select 45m&sup2;</a></span></td>
+								</tr>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top">
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"2=
+90">
+										<tbody>
+											<tr>
+												<td align=3D"center" bgcolor=3D"#02CCBD" style=3D"font-family:A=
+rial, Helvetica, sans-serif; font-size:14px; color:#FFFFFF;" valign=3D"midd=
+le"><span style=3D"font-size:8px"><a href=3D"http://choisirsonradiateur.com=
+/ga/click/2-11527895-18-861-1640-11483-e597372479-0813f1058a" style=3D" col=
+or:#FFFFFF; text-decoration:none;" target=3D"_blank">&Agrave; partir de</a>=
+</span><a href=3D"http://choisirsonradiateur.com/ga/click/2-11527895-18-861=
+-1640-11483-e597372479-0813f1058a" style=3D" color:#FFFFFF; text-decoration=
+:none;" target=3D"_blank"> <strong style=3D"font-size:24px">228&euro;</stro=
+ng></a></td>
+												<td align=3D"center" bgcolor=3D"#FF5012" style=3D"font-family:A=
+rial, Helvetica, sans-serif; font-size:9px; color:#FFFFFF;" valign=3D"middl=
+e" width=3D"100"><span style=3D"font-size:9px"><a href=3D"http://choisirson=
+radiateur.com/ga/click/2-11527895-18-861-1640-11483-e597372479-0813f1058a" =
+style=3D" color:#FFFFFF; text-decoration:none;" target=3D"_blank">D&Eacute;=
+COUVRIR <img border=3D"0" height=3D"9" src=3D"http://46.101.7.34/vacances/v=
+r-160915/fleche.gif" width=3D"6" /></a></span></td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			<!-- td --></td>
+			<td align=3D"left" bgcolor=3D"#FFFFFF" valign=3D"top" width=3D"50%">
+			<table border=3D"0" cellpadding=3D"8" cellspacing=3D"0" width=3D"100%">
+				<tbody>
+					<tr>
+						<td>
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"298">
+							<tbody>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top"><a href=3D"http://choisi=
+rsonradiateur.com/ga/click/2-11527895-18-861-1640-11484-6e308a170a-0813f105=
+8a" target=3D"_blank"><img alt=3D"Pierre & Vacances" border=3D"0" height=3D=
+"160" src=3D"http://46.101.7.34/vacances/vr-160915/IP2.jpg" style=3D"displa=
+y:block;" width=3D"290" /></a></td>
+								</tr>
+							</tbody>
+						</table>
+
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"298">
+							<tbody>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top" width=3D"60"><a href=3D"=
+http://choisirsonradiateur.com/ga/click/2-11527895-18-861-1640-11484-6e308a=
+170a-0813f1058a" target=3D"_blank"><img alt=3D"Pierre & Vacances" border=3D=
+"0" height=3D"28" src=3D"http://46.101.7.34/vacances/vr-160915/pierreetvaca=
+nces104x40.jpg" style=3D"display:block;" width=3D"78" /></a></td>
+									<td align=3D"left" style=3D"border-bottom:1px solid #D9DADB;" vali=
+gn=3D"top"></td>
+								</tr>
+							</tbody>
+						</table>
+
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"298">
+							<tbody>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"middle"><strong><a href=3D"ht=
+tp://choisirsonradiateur.com/ga/click/2-11527895-18-861-1640-11484-6e308a17=
+0a-0813f1058a" style=3D" color:#707173; text-decoration:none;" target=3D"_b=
+lank">LA VILLA MALDAGORA 4*</a></strong></td>
+								</tr>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top"><span style=3D"font-fami=
+ly:Arial, Helvetica, sans-serif; font-size:12px; color:#707173;"><a href=3D=
+"http://choisirsonradiateur.com/ga/click/2-11527895-18-861-1640-11484-6e308=
+a170a-0813f1058a" style=3D" color:#707173; text-decoration:none;" target=3D=
+"_blank">8j/7n en appt 2 pi&egrave;ces</a></span></td>
+								</tr>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top">
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"2=
+90">
+										<tbody>
+											<tr>
+												<td align=3D"center" bgcolor=3D"#02CCBD" style=3D"font-family:A=
+rial, Helvetica, sans-serif; font-size:14px; color:#FFFFFF;" valign=3D"midd=
+le"><span style=3D"font-size:8px"><a href=3D"http://choisirsonradiateur.com=
+/ga/click/2-11527895-18-861-1640-11484-6e308a170a-0813f1058a" style=3D" col=
+or:#FFFFFF; text-decoration:none;" target=3D"_blank">&Agrave; partir de</a>=
+</span><a href=3D"http://choisirsonradiateur.com/ga/click/2-11527895-18-861=
+-1640-11484-6e308a170a-0813f1058a" style=3D" color:#FFFFFF; text-decoration=
+:none;" target=3D"_blank"> <strong style=3D"font-size:24px">336&euro;</stro=
+ng></a></td>
+												<td align=3D"center" bgcolor=3D"#FF5012" style=3D"font-family:A=
+rial, Helvetica, sans-serif; font-size:9px; color:#FFFFFF;" valign=3D"middl=
+e" width=3D"100"><span style=3D"font-size:9px"><a href=3D"http://choisirson=
+radiateur.com/ga/click/2-11527895-18-861-1640-11484-6e308a170a-0813f1058a" =
+style=3D" color:#FFFFFF; text-decoration:none;" target=3D"_blank">D&Eacute;=
+COUVRIR <img border=3D"0" height=3D"9" src=3D"http://46.101.7.34/vacances/v=
+r-160915/fleche.gif" width=3D"6" /></a></span></td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			<!-- td --></td>
+		</tr>
+	</tbody>
+</table>
+
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" wi=
+dth=3D"650">
+	<tbody>
+		<tr>
+			<td align=3D"left" bgcolor=3D"#FFFFFF" valign=3D"top" width=3D"50%">
+			<table border=3D"0" cellpadding=3D"8" cellspacing=3D"0" width=3D"100%">
+				<tbody>
+					<tr>
+						<td>
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"298">
+							<tbody>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top"><a href=3D"http://choisi=
+rsonradiateur.com/ga/click/2-11527895-18-861-1640-11485-1f4b6e77c7-0813f105=
+8a" target=3D"_blank"><img alt=3D"Pierre & Vacances" border=3D"0" height=3D=
+"160" src=3D"http://46.101.7.34/vacances/vr-160915/IP3.jpg" style=3D"displa=
+y:block;" width=3D"290" /></a></td>
+								</tr>
+							</tbody>
+						</table>
+
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"298">
+							<tbody>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top" width=3D"60"><a href=3D"=
+http://choisirsonradiateur.com/ga/click/2-11527895-18-861-1640-11485-1f4b6e=
+77c7-0813f1058a" target=3D"_blank"><img alt=3D"Pierre & Vacances" border=3D=
+"0" height=3D"28" src=3D"http://46.101.7.34/vacances/vr-160915/pierreetvaca=
+nces104x40.jpg" style=3D"display:block;" width=3D"78" /></a></td>
+									<td align=3D"left" style=3D"border-bottom:1px solid #D9DADB;" vali=
+gn=3D"top"></td>
+								</tr>
+							</tbody>
+						</table>
+
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"298">
+							<tbody>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"middle"><strong><a href=3D"ht=
+tp://choisirsonradiateur.com/ga/click/2-11527895-18-861-1640-11485-1f4b6e77=
+c7-0813f1058a" style=3D" color:#707173; text-decoration:none;" target=3D"_b=
+lank">DOMAINE DE CRAMPHORE 4*</a></strong></td>
+								</tr>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top"><span style=3D"font-fami=
+ly:Arial, Helvetica, sans-serif; font-size:12px; color:#707173;"><a href=3D=
+"http://choisirsonradiateur.com/ga/click/2-11527895-18-861-1640-11485-1f4b6=
+e77c7-0813f1058a" style=3D" color:#707173; text-decoration:none;" target=3D=
+"_blank">8j/7n en appt Classique 34m&sup2;</a></span></td>
+								</tr>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top">
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"2=
+90">
+										<tbody>
+											<tr>
+												<td align=3D"center" bgcolor=3D"#02CCBD" style=3D"font-family:A=
+rial, Helvetica, sans-serif; font-size:14px; color:#FFFFFF;" valign=3D"midd=
+le"><span style=3D"font-size:8px"><a href=3D"http://choisirsonradiateur.com=
+/ga/click/2-11527895-18-861-1640-11485-1f4b6e77c7-0813f1058a" style=3D" col=
+or:#FFFFFF; text-decoration:none;" target=3D"_blank">&Agrave; partir de</a>=
+</span><a href=3D"http://choisirsonradiateur.com/ga/click/2-11527895-18-861=
+-1640-11485-1f4b6e77c7-0813f1058a" style=3D" color:#FFFFFF; text-decoration=
+:none;" target=3D"_blank"> <strong style=3D"font-size:24px">300&euro;</stro=
+ng></a></td>
+												<td align=3D"center" bgcolor=3D"#FF5012" style=3D"font-family:A=
+rial, Helvetica, sans-serif; font-size:9px; color:#FFFFFF;" valign=3D"middl=
+e" width=3D"100"><span style=3D"font-size:9px"><a href=3D"http://choisirson=
+radiateur.com/ga/click/2-11527895-18-861-1640-11485-1f4b6e77c7-0813f1058a" =
+style=3D" color:#FFFFFF; text-decoration:none;" target=3D"_blank">D&Eacute;=
+COUVRIR <img border=3D"0" height=3D"9" src=3D"http://46.101.7.34/vacances/v=
+r-160915/fleche.gif" width=3D"6" /></a></span></td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			<!-- td --></td>
+			<td align=3D"left" bgcolor=3D"#FFFFFF" valign=3D"top" width=3D"50%">
+			<table border=3D"0" cellpadding=3D"8" cellspacing=3D"0" width=3D"100%">
+				<tbody>
+					<tr>
+						<td>
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"298">
+							<tbody>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top"><a href=3D"http://choisi=
+rsonradiateur.com/ga/click/2-11527895-18-861-1640-11486-4076d0f186-0813f105=
+8a" target=3D"_blank"><img alt=3D"Promo Croisi=C3=83=C2=A8re" border=3D"0" =
+height=3D"160" src=3D"http://46.101.7.34/vacances/vr-160915/IP4.jpg" style=
+=3D"display:block;" width=3D"290" /></a></td>
+								</tr>
+							</tbody>
+						</table>
+
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"298">
+							<tbody>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top" width=3D"60"><a href=3D"=
+http://choisirsonradiateur.com/ga/click/2-11527895-18-861-1640-11486-4076d0=
+f186-0813f1058a" target=3D"_blank"><img alt=3D"Promo Croisi=C3=83=C2=A8re" =
+border=3D"0" height=3D"28" src=3D"http://46.101.7.34/vacances/vr-160915/pro=
+mocroisiere104x40.jpg" style=3D"display:block;" width=3D"78" /></a></td>
+									<td align=3D"left" style=3D"border-bottom:1px solid #D9DADB;" vali=
+gn=3D"top"></td>
+								</tr>
+							</tbody>
+						</table>
+
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"298">
+							<tbody>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"middle"><strong><a href=3D"ht=
+tp://choisirsonradiateur.com/ga/click/2-11527895-18-861-1640-11486-4076d0f1=
+86-0813f1058a" style=3D" color:#707173; text-decoration:none;" target=3D"_b=
+lank">FLEURS DE LA MEDITERRANEE</a></strong></td>
+								</tr>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top"><span style=3D"font-fami=
+ly:Arial, Helvetica, sans-serif; font-size:12px; color:#707173;"><a href=3D=
+"http://choisirsonradiateur.com/ga/click/2-11527895-18-861-1640-11486-4076d=
+0f186-0813f1058a" style=3D" color:#707173; text-decoration:none;" target=3D=
+"_blank">Croisi&egrave;re Costa Favolosa 5*</a></span></td>
+								</tr>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top">
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"2=
+90">
+										<tbody>
+											<tr>
+												<td align=3D"center" bgcolor=3D"#02CCBD" style=3D"font-family:A=
+rial, Helvetica, sans-serif; font-size:14px; color:#FFFFFF;" valign=3D"midd=
+le"><span style=3D"font-size:8px"><a href=3D"http://choisirsonradiateur.com=
+/ga/click/2-11527895-18-861-1640-11486-4076d0f186-0813f1058a" style=3D" col=
+or:#FFFFFF; text-decoration:none;" target=3D"_blank">&Agrave; partir de</a>=
+</span><a href=3D"http://choisirsonradiateur.com/ga/click/2-11527895-18-861=
+-1640-11486-4076d0f186-0813f1058a" style=3D" color:#FFFFFF; text-decoration=
+:none;" target=3D"_blank"> <strong style=3D"font-size:24px">389&euro;</stro=
+ng></a></td>
+												<td align=3D"center" bgcolor=3D"#FF5012" style=3D"font-family:A=
+rial, Helvetica, sans-serif; font-size:9px; color:#FFFFFF;" valign=3D"middl=
+e" width=3D"100"><span style=3D"font-size:9px"><a href=3D"http://choisirson=
+radiateur.com/ga/click/2-11527895-18-861-1640-11486-4076d0f186-0813f1058a" =
+style=3D" color:#FFFFFF; text-decoration:none;" target=3D"_blank">D&Eacute;=
+COUVRIR <img border=3D"0" height=3D"9" src=3D"http://46.101.7.34/vacances/v=
+r-160915/fleche.gif" width=3D"6" /></a></span></td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			<!-- td --></td>
+		</tr>
+	</tbody>
+</table>
+
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" wi=
+dth=3D"650">
+	<tbody>
+		<tr>
+			<td align=3D"left" bgcolor=3D"#FFFFFF" valign=3D"top" width=3D"50%">
+			<table border=3D"0" cellpadding=3D"8" cellspacing=3D"0" width=3D"100%">
+				<tbody>
+					<tr>
+						<td>
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"298">
+							<tbody>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top"><a href=3D"http://choisi=
+rsonradiateur.com/ga/click/2-11527895-18-861-1640-11487-ef1d13c116-0813f105=
+8a" target=3D"_blank"><img alt=3D"Pierre & Vacances" border=3D"0" height=3D=
+"160" src=3D"http://46.101.7.34/vacances/vr-160915/IP5.png" style=3D"displa=
+y:block;" width=3D"290" /></a></td>
+								</tr>
+							</tbody>
+						</table>
+
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"298">
+							<tbody>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top" width=3D"60"><a href=3D"=
+http://choisirsonradiateur.com/ga/click/2-11527895-18-861-1640-11487-ef1d13=
+c116-0813f1058a" target=3D"_blank"><img alt=3D"Pierre & Vacances" border=3D=
+"0" height=3D"28" src=3D"http://46.101.7.34/vacances/vr-160915/pierreetvaca=
+nces104x40.jpg" style=3D"display:block;" width=3D"78" /></a></td>
+									<td align=3D"left" style=3D"border-bottom:1px solid #D9DADB;" vali=
+gn=3D"top"></td>
+								</tr>
+							</tbody>
+						</table>
+
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"298">
+							<tbody>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"middle"><strong><a href=3D"ht=
+tp://choisirsonradiateur.com/ga/click/2-11527895-18-861-1640-11487-ef1d13c1=
+16-0813f1058a" style=3D" color:#707173; text-decoration:none;" target=3D"_b=
+lank">VENTE FLASH JUSQU&#39;&Agrave; -40%</a></strong></td>
+								</tr>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top"><span style=3D"font-fami=
+ly:Arial, Helvetica, sans-serif; font-size:12px; color:#707173;"><a href=3D=
+"http://choisirsonradiateur.com/ga/click/2-11527895-18-861-1640-11487-ef1d1=
+3c116-0813f1058a" style=3D" color:#707173; text-decoration:none;" target=3D=
+"_blank">Destinations France et Espagne</a></span></td>
+								</tr>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top">
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"2=
+90">
+										<tbody>
+											<tr>
+												<td align=3D"center" bgcolor=3D"#02CCBD" height=3D"28" style=3D=
+"font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#FFFFFF;" =
+valign=3D"middle"></td>
+												<td align=3D"center" bgcolor=3D"#FF5012" style=3D"font-family:A=
+rial, Helvetica, sans-serif; font-size:9px; color:#FFFFFF;" valign=3D"middl=
+e" width=3D"100"><span style=3D"font-size:9px"><a href=3D"http://choisirson=
+radiateur.com/ga/click/2-11527895-18-861-1640-11487-ef1d13c116-0813f1058a" =
+style=3D" color:#FFFFFF; text-decoration:none;" target=3D"_blank">D&Eacute;=
+COUVRIR <img border=3D"0" height=3D"9" src=3D"http://46.101.7.34/vacances/v=
+r-160915/fleche.gif" width=3D"6" /></a></span></td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			<!-- td --></td>
+			<td align=3D"left" bgcolor=3D"#FFFFFF" valign=3D"top" width=3D"50%">
+			<table border=3D"0" cellpadding=3D"8" cellspacing=3D"0" width=3D"100%">
+				<tbody>
+					<tr>
+						<td>
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"298">
+							<tbody>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top"><a href=3D"http://choisi=
+rsonradiateur.com/ga/click/2-11527895-18-861-1640-11488-fa89c78273-0813f105=
+8a" target=3D"_blank"><img alt=3D"Pierre & Vacances" border=3D"0" height=3D=
+"160" src=3D"http://46.101.7.34/vacances/vr-160915/IP6.jpg" style=3D"displa=
+y:block;" width=3D"290" /></a></td>
+								</tr>
+							</tbody>
+						</table>
+
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"298">
+							<tbody>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top" width=3D"60"><a href=3D"=
+http://choisirsonradiateur.com/ga/click/2-11527895-18-861-1640-11488-fa89c7=
+8273-0813f1058a" target=3D"_blank"><img alt=3D"Pierre & Vacances" border=3D=
+"0" height=3D"28" src=3D"http://46.101.7.34/vacances/vr-160915/pierreetvaca=
+nces104x40.jpg" style=3D"display:block;" width=3D"78" /></a></td>
+									<td align=3D"left" style=3D"border-bottom:1px solid #D9DADB;" vali=
+gn=3D"top"></td>
+								</tr>
+							</tbody>
+						</table>
+
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"298">
+							<tbody>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"middle"><strong><a href=3D"ht=
+tp://choisirsonradiateur.com/ga/click/2-11527895-18-861-1640-11488-fa89c782=
+73-0813f1058a" style=3D" color:#707173; text-decoration:none;" target=3D"_b=
+lank">TOSCANE ILE D&#39;ELBE</a></strong></td>
+								</tr>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top"><span style=3D"font-fami=
+ly:Arial, Helvetica, sans-serif; font-size:12px; color:#707173;"><a href=3D=
+"http://choisirsonradiateur.com/ga/click/2-11527895-18-861-1640-11488-fa89c=
+78273-0813f1058a" style=3D" color:#707173; text-decoration:none;" target=3D=
+"_blank">8j/7n en Studio 35m&sup2;</a></span></td>
+								</tr>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top">
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"2=
+90">
+										<tbody>
+											<tr>
+												<td align=3D"center" bgcolor=3D"#02CCBD" style=3D"font-family:A=
+rial, Helvetica, sans-serif; font-size:14px; color:#FFFFFF;" valign=3D"midd=
+le"><span style=3D"font-size:8px"><a href=3D"http://choisirsonradiateur.com=
+/ga/click/2-11527895-18-861-1640-11488-fa89c78273-0813f1058a" style=3D" col=
+or:#FFFFFF; text-decoration:none;" target=3D"_blank">&Agrave; partir de</a>=
+</span><a href=3D"http://choisirsonradiateur.com/ga/click/2-11527895-18-861=
+-1640-11488-fa89c78273-0813f1058a" style=3D" color:#FFFFFF; text-decoration=
+:none;" target=3D"_blank"> <strong style=3D"font-size:24px">380&euro;</stro=
+ng></a></td>
+												<td align=3D"center" bgcolor=3D"#FF5012" style=3D"font-family:A=
+rial, Helvetica, sans-serif; font-size:9px; color:#FFFFFF;" valign=3D"middl=
+e" width=3D"100"><span style=3D"font-size:9px"><a href=3D"http://choisirson=
+radiateur.com/ga/click/2-11527895-18-861-1640-11488-fa89c78273-0813f1058a" =
+style=3D" color:#FFFFFF; text-decoration:none;" target=3D"_blank">D&Eacute;=
+COUVRIR <img border=3D"0" height=3D"9" src=3D"http://46.101.7.34/vacances/v=
+r-160915/fleche.gif" width=3D"6" /></a></span></td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			<!-- td --></td>
+		</tr>
+	</tbody>
+</table>
+
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" wi=
+dth=3D"650">
+	<tbody>
+		<tr>
+			<td align=3D"left" bgcolor=3D"#FFFFFF" valign=3D"top" width=3D"50%">
+			<table border=3D"0" cellpadding=3D"8" cellspacing=3D"0" width=3D"100%">
+				<tbody>
+					<tr>
+						<td>
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"298">
+							<tbody>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top"><a href=3D"http://choisi=
+rsonradiateur.com/ga/click/2-11527895-18-861-1640-11489-c8471c1f4d-0813f105=
+8a" target=3D"_blank"><img alt=3D"Pierre & Vacances" border=3D"0" height=3D=
+"160" src=3D"http://46.101.7.34/vacances/vr-160915/IP7.jpg" style=3D"displa=
+y:block;" width=3D"290" /></a></td>
+								</tr>
+							</tbody>
+						</table>
+
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"298">
+							<tbody>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top" width=3D"60"><a href=3D"=
+http://choisirsonradiateur.com/ga/click/2-11527895-18-861-1640-11489-c8471c=
+1f4d-0813f1058a" target=3D"_blank"><img alt=3D"Pierre & Vacances" border=3D=
+"0" height=3D"28" src=3D"http://46.101.7.34/vacances/vr-160915/pierreetvaca=
+nces104x40.jpg" style=3D"display:block;" width=3D"78" /></a></td>
+									<td align=3D"left" style=3D"border-bottom:1px solid #D9DADB;" vali=
+gn=3D"top"></td>
+								</tr>
+							</tbody>
+						</table>
+
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"298">
+							<tbody>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"middle"><strong><a href=3D"ht=
+tp://choisirsonradiateur.com/ga/click/2-11527895-18-861-1640-11489-c8471c1f=
+4d-0813f1058a" style=3D" color:#707173; text-decoration:none;" target=3D"_b=
+lank">LES JARDINS OMBRAGES 3*</a></strong></td>
+								</tr>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top"><span style=3D"font-fami=
+ly:Arial, Helvetica, sans-serif; font-size:12px; color:#707173;"><a href=3D=
+"http://choisirsonradiateur.com/ga/click/2-11527895-18-861-1640-11489-c8471=
+c1f4d-0813f1058a" style=3D" color:#707173; text-decoration:none;" target=3D=
+"_blank">8j/7n en Studio 25m&sup2;</a></span></td>
+								</tr>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top">
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"2=
+90">
+										<tbody>
+											<tr>
+												<td align=3D"center" bgcolor=3D"#02CCBD" style=3D"font-family:A=
+rial, Helvetica, sans-serif; font-size:14px; color:#FFFFFF;" valign=3D"midd=
+le"><span style=3D"font-size:8px"><a href=3D"http://choisirsonradiateur.com=
+/ga/click/2-11527895-18-861-1640-11489-c8471c1f4d-0813f1058a" style=3D" col=
+or:#FFFFFF; text-decoration:none;" target=3D"_blank">&Agrave; partir de</a>=
+</span><a href=3D"http://choisirsonradiateur.com/ga/click/2-11527895-18-861=
+-1640-11489-c8471c1f4d-0813f1058a" style=3D" color:#FFFFFF; text-decoration=
+:none;" target=3D"_blank"> <strong style=3D"font-size:24px">378&euro;</stro=
+ng></a></td>
+												<td align=3D"center" bgcolor=3D"#FF5012" style=3D"font-family:A=
+rial, Helvetica, sans-serif; font-size:9px; color:#FFFFFF;" valign=3D"middl=
+e" width=3D"100"><span style=3D"font-size:9px"><a href=3D"http://choisirson=
+radiateur.com/ga/click/2-11527895-18-861-1640-11489-c8471c1f4d-0813f1058a" =
+style=3D" color:#FFFFFF; text-decoration:none;" target=3D"_blank">D&Eacute;=
+COUVRIR <img border=3D"0" height=3D"9" src=3D"http://46.101.7.34/vacances/v=
+r-160915/fleche.gif" width=3D"6" /></a></span></td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			<!-- td --></td>
+			<td align=3D"left" bgcolor=3D"#FFFFFF" valign=3D"top" width=3D"50%">
+			<table border=3D"0" cellpadding=3D"8" cellspacing=3D"0" width=3D"100%">
+				<tbody>
+					<tr>
+						<td>
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"298">
+							<tbody>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top"><a href=3D"http://choisi=
+rsonradiateur.com/ga/click/2-11527895-18-861-1640-11490-915ae16bff-0813f105=
+8a" target=3D"_blank"><img alt=3D"ABCroisi=C3=83=C2=A8re" border=3D"0" heig=
+ht=3D"160" src=3D"http://46.101.7.34/vacances/vr-160915/IP8.jpg" style=3D"d=
+isplay:block;" width=3D"290" /></a></td>
+								</tr>
+							</tbody>
+						</table>
+
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"298">
+							<tbody>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top" width=3D"60"><a href=3D"=
+http://choisirsonradiateur.com/ga/click/2-11527895-18-861-1640-11490-915ae1=
+6bff-0813f1058a" target=3D"_blank"><img alt=3D"ABCroisi=C3=83=C2=A8re" bord=
+er=3D"0" height=3D"28" src=3D"http://46.101.7.34/vacances/vr-160915/AB_104x=
+40.jpg" style=3D"display:block;" width=3D"78" /></a></td>
+									<td align=3D"left" style=3D"border-bottom:1px solid #D9DADB;" vali=
+gn=3D"top"></td>
+								</tr>
+							</tbody>
+						</table>
+
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"298">
+							<tbody>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"middle"><strong><a href=3D"ht=
+tp://choisirsonradiateur.com/ga/click/2-11527895-18-861-1640-11490-915ae16b=
+ff-0813f1058a" style=3D" color:#707173; text-decoration:none;" target=3D"_b=
+lank">ITALIE SARDAIGNE BALEARES</a></strong></td>
+								</tr>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top"><span style=3D"font-fami=
+ly:Arial, Helvetica, sans-serif; font-size:12px; color:#707173;"><a href=3D=
+"http://choisirsonradiateur.com/ga/click/2-11527895-18-861-1640-11490-915ae=
+16bff-0813f1058a" style=3D" color:#707173; text-decoration:none;" target=3D=
+"_blank">Croisi&egrave;re MSC Preziosa 5*</a></span></td>
+								</tr>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top">
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"2=
+90">
+										<tbody>
+											<tr>
+												<td align=3D"center" bgcolor=3D"#02CCBD" style=3D"font-family:A=
+rial, Helvetica, sans-serif; font-size:14px; color:#FFFFFF;" valign=3D"midd=
+le"><span style=3D"font-size:8px"><a href=3D"http://choisirsonradiateur.com=
+/ga/click/2-11527895-18-861-1640-11490-915ae16bff-0813f1058a" style=3D" col=
+or:#FFFFFF; text-decoration:none;" target=3D"_blank">&Agrave; partir de</a>=
+</span><a href=3D"http://choisirsonradiateur.com/ga/click/2-11527895-18-861=
+-1640-11490-915ae16bff-0813f1058a" style=3D" color:#FFFFFF; text-decoration=
+:none;" target=3D"_blank"> <strong style=3D"font-size:24px">599&euro;</stro=
+ng></a></td>
+												<td align=3D"center" bgcolor=3D"#FF5012" style=3D"font-family:A=
+rial, Helvetica, sans-serif; font-size:9px; color:#FFFFFF;" valign=3D"middl=
+e" width=3D"100"><span style=3D"font-size:9px"><a href=3D"http://choisirson=
+radiateur.com/ga/click/2-11527895-18-861-1640-11490-915ae16bff-0813f1058a" =
+style=3D" color:#FFFFFF; text-decoration:none;" target=3D"_blank">D&Eacute;=
+COUVRIR <img border=3D"0" height=3D"9" src=3D"http://46.101.7.34/vacances/v=
+r-160915/fleche.gif" width=3D"6" /></a></span></td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			<!-- td --></td>
+		</tr>
+	</tbody>
+</table>
+<!-- Footer -->
+
+<table align=3D"center" border=3D"0" cellpadding=3D"12" cellspacing=3D"0" w=
+idth=3D"650">
+	<tbody>
+		<tr>
+			<td align=3D"center" style=3D"color:#44443E; font-size:10px;-webkit-text=
+-size-adjust:none; font-family:Arial, Helvetica, sans-serif">* Les prix aff=
+ich&eacute;s sur cette newsletter ont &eacute;t&eacute; relev&eacute;s sur =
+les sites internets mentionn&eacute;s le 16/09/2015 &agrave; 15h.</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+
+<a href=3D"http://choisirsonradiateur.com/ga/unsubscribe/2-11527895-18-861-=
+1640-ed35df89ef15825-0813f1058a">Je souhaite me d=C3=A9sinscrire et ne plus=
+ recevoir les newsletters</a>
+ <img alt=3D"track" height=3D"1" src=3D"http://er.sociabiliweb.fr/EREO/E/45=
+8/730c3/resp-m2-miage@univ-rennes1.fr/pixel.gif" />=20
+ <img alt=3D"track" height=3D"1" src=3D"http://asset.email-match.com/849/as=
+set?type=3DIMG&optin=3D1&email=3Dresp-m2-miage@univ-rennes1.fr" width=3D"1"=
+ />
+ <img alt=3D"track" height=3D"1" src=3D"http://adtrack.adleadevent.com/adtc=
+krtg.php?ids=3D37&email=3Dresp-m2-miage@univ-rennes1.fr" /> <img src=3D"htt=
+p://choisirsonradiateur.com/ga/open/2-11527895-18-861-1640-0813f1058a" heig=
+ht=3D"2" width=3D"3" alt=3D""></body>
+</html>
+
+--==3572e5ddf280c03689dfb20ece666f3f--

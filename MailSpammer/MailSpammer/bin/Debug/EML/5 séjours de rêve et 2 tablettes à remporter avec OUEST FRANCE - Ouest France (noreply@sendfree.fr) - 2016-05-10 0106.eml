@@ -1,0 +1,312 @@
+Return-Path: <noreply@sendfree.fr>
+Received: from mailimailo.univ-rennes1.fr ([unix socket])
+	 by mailimailo.univ-rennes1.fr (Cyrus v2.3.16-Fedora-RPM-2.3.16-6.el6_2.5) with LMTPA;
+	 Tue, 10 May 2016 01:06:39 +0200
+X-Sieve: CMU Sieve 2.3
+Received: from mailout2.univ-rennes1.fr (mailout2.univ-rennes1.fr [129.20.129.120])
+	by mailimailo.univ-rennes1.fr (Postfix) with ESMTP id E7ED826A0001
+	for <resp-m2-miage@univ-rennes1.fr>; Tue, 10 May 2016 01:06:39 +0200 (CEST)
+Received: from localhost (vmscanmail.univ-rennes1.fr [129.20.128.134])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id E5BEE6008A
+	for <resp-m2-miage@univ-rennes1.fr>; Tue, 10 May 2016 01:06:39 +0200 (CEST)
+X-Virus-Scanned: amavisd-new at univ-rennes1.fr
+Received: from mailout2.univ-rennes1.fr ([129.20.129.120])
+	by localhost (vmscanmail.univ-rennes1.frm [129.20.128.134]) (amavisd-new, port 10026)
+	with ESMTP id st3_-D5sDOxB for <resp-m2-miage@univ-rennes1.fr>;
+	Tue, 10 May 2016 01:06:39 +0200 (CEST)
+Received: from vmmailin.univ-rennes1.fr (vmmailin.univ-rennes1.fr [129.20.128.133])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id C9C1060035
+	for <resp-m2-miage@univ-rennes1.fr>; Tue, 10 May 2016 01:06:39 +0200 (CEST)
+Received: from mxb1-2.relay.renater.fr (mxb1-2.relay.renater.fr [194.214.201.9])
+	by vmmailin.univ-rennes1.fr (Postfix) with ESMTP id B8A8720033
+	for <resp-m2-miage@univ-rennes1.fr>; Tue, 10 May 2016 01:06:39 +0200 (CEST)
+Received: from mx3.kiniwin.fr (mx3.kiniwin.fr [89.234.142.186])
+	by mxb1-2.relay.renater.fr (asm) with ESMTP id 809FA280121
+	for <resp-m2-miage@univ-rennes1.fr>; Tue, 10 May 2016 01:06:39 +0200 (CEST)
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=bat; d=sendfree.fr;
+ h=Date:To:From:Subject:Message-ID:List-Unsubscribe:MIME-Version:Content-Type; i=noreply@sendfree.fr;
+ bh=5PXo7enXXZubF96UQM4YB2mA+kc=;
+ b=RwuzyYJx5HFM3z1qwUqaYDmsc8yHfcjYvX5OXtv45w0qhcK2p0NRNSMUBhIQorId8u5g8dTHG+qx
+   abXsP5zptpyBaMILe/irTwbffOySKVgwgFpg+0yvZY5EPz95UHSml4nL/JgvPqEXfWG8caCZGI1q
+   kVWvWBulq8Xzyh3W788=
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=bat; d=sendfree.fr;
+ b=TqsAm3IF57M0cOBwQO3giBz2HijcJHu8ZAXtuSD5JXH3Bv7SS+b9izQZjdAb+z1UeJwhf7/DRrcn
+   7LHbo1oXcWp/A0NnMwxkakBeaSNQ3T6rKv91Oe9kqLcutOpEcj2T4f/6St1jDCOrEvcBkilVBXM9
+   4oIsJfYpxAapn1lMprg=;
+Date: Mon, 9 May 2016 23:06:25 +0000
+To: resp-m2-miage@univ-rennes1.fr
+From: Ouest France <noreply@sendfree.fr>
+Subject: =?UTF-8?Q?5_s=C3=A9jours_de_r=C3=AAve_et_2_tablettes_=C3=A0_remporter_ave?=
+ =?UTF-8?Q?c_OUEST_FRANCE?=
+Message-ID: <2aeb739e049a9a76c45266451ca24afe@srv269.firstheberg.net>
+List-Unsubscribe: <http://srv269.firstheberg.net/mumara/unsubscribe.php?id=PDJhZWI3MzllMDQ5YTlhNzZjNDUyNjY0NTFjYTI0YWZlQHNydjI2OS5maXJzdGhlYmVyZy5uZXQ%2B>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="b1_ae2d430503080e0c4d39f43fd2462d83"
+X-UCE-Status: YES
+X-UCE-Type: MCE
+X-Original-Source-IP: 89.234.142.186
+X-Bizanga: IMP - mxb1-2.relay.renater.fr
+X-Renater-SpamState: 11
+X-Renater-SpamScore: 17
+X-Renater-SpamCause: gggruggvucftvghtrhhoucdtuddrfeekledrudefgddvvdcutefuodetggdotefrodftvfcurfhrohhfihhlvgemucftgffptefvgfftpdggtfgfnhhsuhgsshgtrhhisggvnecuuegrihhlohhuthemuceftddtnecundfotefknffkpffiucdludejmdenucfjughrpeffvffhuffkjfggtgesrgdtjhhptddtjeenucfhrhhomhepqfhuvghsthcuhfhrrghntggvuceonhhorhgvphhlhiesshgvnhgufhhrvggvrdhfrheqnecuffhomhgrihhnpehfihhrshhthhgvsggvrhhgrdhnvghtnecukfhppeekledrvdefgedrudegvddrudekieenucfrrghrrghmpehmohguvgepshhmthhppdhhvghlohepmhigfedrkhhinhhifihinhdrfhhrpdhinhgvthepkeelrddvfeegrddugedvrddukeeipdhmrghilhhfrhhomhepnhhorhgvphhlhiesshgvnhgufhhrvggvrdhfrhdprhgtphhtthhopehrvghsphdqmhdvqdhmihgrghgvsehunhhivhdqrhgvnhhnvghsuddrfhhr 
+X-Renater-ServerName: mxb1-2.relay.renater.fr
+
+--b1_ae2d430503080e0c4d39f43fd2462d83
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+PDL
+
+--b1_ae2d430503080e0c4d39f43fd2462d83
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w=
+3.org/TR/REC-html40/loose.dtd">
+<?xml encoding=3D"UTF-8"><html><body><p style=3D"padding-left: 420px;"><a h=
+ref=3D"http://srv269.firstheberg.net/mumara/redirect.php?id=3DPDJhZWI3MzllM=
+DQ5YTlhNzZjNDUyNjY0NTFjYTI0YWZlQHNydjI2OS5maXJzdGhlYmVyZy5uZXQ%2B&amp;ref=
+=3DaHR0cDovL3NydjI2OS5maXJzdGhlYmVyZy5uZXQvbXVtYXJhL3dlYl92aWV3LnBocD9pZD0z=
+RFBESmhaV0kzTXpsbE1EUTVZVGxoPQ0KTnpaak5EVXlOalkwTlRGallUSTBZV1psUUhOeWRqSTJ=
+PUzVtYVhKemRHaGxZbVZ5Wnk1dVpYUSUyQg%3D%3D&amp;e=3D1">Lire la version en lig=
+ne</a></p>
+<!-- Balise pour un bon afichage pour les t&eacute;l&eacute;phones de windo=
+ws -->
+<p></p>
+<!-- mais doit &ecirc;tre masqu&eacute; &agrave; mso n'affichera pas les im=
+ages avec ce code -->
+<p></p>
+<!-- ******************************************************************* --=
+>
+<p></p>
+<!-- if !mso><!--><!--<!endif-->
+<p>Des s&eacute;jours de r&ecirc;ve &agrave; gagner !</p>
+<!-- pour mso et emp&ecirc;cher des blancs ind&eacute;sirables -->
+<p></p>
+<!-- ******************************************** -->
+<p></p>
+<!-- if (gte mso 9)>
+<style type=3D"text/css">
+    table {border-collapse: collapse;}
+</style>
+<!endif-->
+<p></p>
+<!--Don t remove the next meta-->
+<p><img src=3D"http://dbkpwi4c6v97q.cloudfront.net/?sc=3D12575&amp;t=3D0&am=
+p;l=3D181597&amp;p=3D10500" width=3D"1" height=3D"1" alt=3D"" border=3D"0">=
+</p>
+<!-- Balise center : centre les composants + embarque les propri&eacute;t&e=
+acute;s CSS (mieux que dans body car non lu par de nombreux webmail --><cen=
+ter style=3D"width: 100%; table-layout: fixed; -webkit-text-size-adjust: 10=
+0%; -ms-text-size-adjust: 100%;"><!-- table-layout:fixed : gestion du max-w=
+idth pour certains mail client (Apple Mail 6 and below, and Outlook 2011 in=
+ some cases) --> <!-- ************************************************* -->=
+ <!-- *******     HEADER ABONNE     ******************* --> <!-- **********=
+*************************************** -->
+<div style=3D"max-width: 600px;"><!-- if (gte mso 9)>
+<table width=3D"600" align=3D"center" style=3D"border-collapse:collapse; bo=
+rder-spacing:0;font-family:sans-serif; " cellpadding=3D"0" cellspacing=3D"0=
+">
+<tr>
+<td>
+<!endif-->
+<table width=3D"100%" style=3D"border-collapse: collapse; border-spacing: 0=
+; font-family: sans-serif;" cellpadding=3D"0" cellspacing=3D"0"><tbody><tr>=
+<td height=3D"10"></td>
+</tr><tr><td height=3D"10"></td>
+</tr></tbody></table><!-- if (gte mso 9)>
+</td>
+</tr>
+</table>
+<!endif--></div>
+<!-- *******     FIN HEADER ABONNE     ************* --> <!-- *************=
+********************************** --> <!-- *******************************=
+**************** --> <!-- *******     CORPS EMAIL     ******************* -=
+-> <!-- *********************************************** -->
+<div style=3D"max-width: 600px;"><!-- Cr&eacute;ation du contenaire ext&eac=
+ute;rieur de contenu --> <!-- ******************************************* -=
+-> <!-- if (gte mso 9)>
+<table width=3D"600" align=3D"center" style=3D"border-collapse: collapse;" =
+cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td>
+<!endif-->
+<table align=3D"center" style=3D"border-spacing: 0; border-collapse: collap=
+se; font-family: sans-serif; margin: 0 auto; width: 100%; max-width: 600px;=
+" cellpadding=3D"0" cellspacing=3D"0"><!-- ******************BANNIERE PLEIN=
+E LARGEUR ******************** --><!-- ************************************=
+************************** --><tbody><tr><!-- Couleur et hauteur pour le mo=
+d&egrave;le :  jamais dand la div --><td style=3D"padding: 0 0 0 20px;" val=
+ign=3D"middle"><!-- Attention au feuille de style dans l'image --> <!-- spa=
+n pour le descriptif alt --> <span style=3D"color: #e2001a; font-size: 14px=
+; font-weight: bold;"><a target=3D"_blank" href=3D"http://srv269.firstheber=
+g.net/mumara/redirect.php?id=3DPDJhZWI3MzllMDQ5YTlhNzZjNDUyNjY0NTFjYTI0YWZl=
+QHNydjI2OS5maXJzdGhlYmVyZy5uZXQ%2B&amp;ref=3DaHR0cDovL2QzZjZzZHlmYjFtd3h5Lm=
+Nsb3VkZnJvbnQubmV0Lz9zYz0zRDEyNTc1JnQ9M0QwJmw9M0QxODE1OTcmcD0zRDEwNTAwPQ0KJ=
+mRlY29kZT0zRDAmdXJsPTNEMTlTWE1k&amp;e=3D1" style=3D"text-decoration: none;"=
+> <img src=3D"http://d31epa2i3egyy4.cloudfront.net/img/7005/5128af55abc0b22=
+50e6315c033d6ef33_OuestFrance.png" width=3D"133" alt=3D"Ouest-France Jeux" =
+style=3D"display: block; border-width: 0; width: 100%; max-width: 133px; he=
+ight: auto;"></a> </span></td>
+</tr><!-- ****************** FIN BANNIERE PLEINE LARGEUR *************** --=
+><!-- ************************************************************** --><!-=
+- ******************TEXTE PLEINE LARGEUR ******************** --><!-- *****=
+********************************************************* --><tr><!-- Coule=
+ur et hauteur pour le mod&egrave;le :  jamais dand la div --><td style=3D"p=
+adding: 0;" valign=3D"top"><!-- On joue sur la larguer de la table afin d'&=
+eacute;viter d'uliser des paddings -->
+<table width=3D"100%" style=3D"border-collapse: collapse; border-spacing: 0=
+; font-family: sans-serif;" cellpadding=3D"0" cellspacing=3D"0" align=3D"ce=
+nter"><!-- ligne de blanc --><tbody><tr><td height=3D"17" style=3D"font-siz=
+e: 1px; line-height: 1px;"></td>
+</tr><tr><td style=3D"width: 100%; text-align: left; padding: 0px 0px 0px 2=
+5px;" valign=3D"middle"><span style=3D"margin: 0; font-weight: normal; font=
+-size: 28px; margin-bottom: 10px;"> Tentez de gagner un&nbsp;s&eacute;jour =
+de r&ecirc;ve<br> avec Ouest-France !<br></span></td>
+</tr><!-- ligne de blanc --><tr><td height=3D"13" style=3D"font-size: 1px; =
+line-height: 1px;"></td>
+</tr></tbody></table></td>
+</tr><!-- ****************** FIN TEXTE PLEINE LARGEUR ****************** --=
+><!-- ************************************************************** --><!-=
+- ******************BOUTON ******************** --><!-- *******************=
+******************************************* --><tr><td>
+<table width=3D"170" height=3D"44" cellpadding=3D"0" cellspacing=3D"0" styl=
+e=3D"border-spacing: 0; border-collapse: collapse;" bgcolor=3D"#4caf50" ali=
+gn=3D"right"><tbody><tr><td height=3D"44" style=3D"width: 100%; text-align:=
+ center; color: #333333; padding: 0px;" valign=3D"middle"><a target=3D"_bla=
+nk" href=3D"http://srv269.firstheberg.net/mumara/redirect.php?id=3DPDJhZWI3=
+MzllMDQ5YTlhNzZjNDUyNjY0NTFjYTI0YWZlQHNydjI2OS5maXJzdGhlYmVyZy5uZXQ%2B&amp;=
+ref=3DaHR0cDovL2QzZjZzZHlmYjFtd3h5LmNsb3VkZnJvbnQubmV0Lz9zYz0zRDEyNTc1JnQ9M=
+0QwJmw9M0QxODE1OTcmcD0zRDEwNTAwPQ0KJmRlY29kZT0zRDAmdXJsPTNEMTlTWE1k&amp;e=
+=3D1" style=3D"text-decoration: none;"> <span style=3D"margin: 0; font-weig=
+ht: 400; font-size: 20px; text-decoration: none; color: #ffffff; font-famil=
+y: sans-serif;"> Je participe ! &gt; </span> </a></td>
+</tr></tbody></table></td>
+</tr><!-- ****************** BOUTON ****************** --><!-- ************=
+************************************************** --><!-- ****************=
+**BANNIERE PLEINE LARGEUR ******************** --><!-- ********************=
+****************************************** --><tr><!-- Couleur et hauteur p=
+our le mod&egrave;le :  jamais dand la div --><td style=3D"padding: 0;" val=
+ign=3D"middle"><!-- Attention au feuille de style dans l'image --> <!-- spa=
+n pour le descriptif alt --> <span style=3D"color: #e2001a; font-size: 14px=
+; font-weight: bold;"> <a target=3D"_blank" href=3D"http://srv269.firsthebe=
+rg.net/mumara/redirect.php?id=3DPDJhZWI3MzllMDQ5YTlhNzZjNDUyNjY0NTFjYTI0YWZ=
+lQHNydjI2OS5maXJzdGhlYmVyZy5uZXQ%2B&amp;ref=3DaHR0cDovL2QzZjZzZHlmYjFtd3h5L=
+mNsb3VkZnJvbnQubmV0Lz9zYz0zRDEyNTc1JnQ9M0QwJmw9M0QxODE1OTcmcD0zRDEwNTAwPQ0K=
+JmRlY29kZT0zRDAmdXJsPTNEMTlTWE1k&amp;e=3D1" style=3D"text-decoration: none;=
+"><img src=3D"http://d31epa2i3egyy4.cloudfront.net/img/7005/03da12451ee3899=
+c1163442bc4f5d90c_SejourFond.jpg" width=3D"600" alt=3D"Gagnez un s&eacute;j=
+our de r&ecirc;ve !" style=3D"display: block; border-width: 0; width: 100%;=
+ max-width: 600px; height: auto;"></a></span></td>
+</tr><!-- ****************** FIN BANNIERE PLEINE LARGEUR *************** --=
+><!-- ************************************************************** --><!-=
+- ligne de blanc --><tr><td height=3D"20px" style=3D"font-size: 1px; line-h=
+eight: 1px;"></td>
+</tr><!-- ******************TEXTE PLEINE LARGEUR ******************** --><!=
+-- ************************************************************** --><tr><!=
+-- Couleur et hauteur pour le mod&egrave;le :  jamais dand la div --><td st=
+yle=3D"padding: 0 0px 0 0;" valign=3D"top"><!-- On joue sur la larguer de l=
+a table afin d'&eacute;viter d'uliser des paddings -->
+<table width=3D"100%" style=3D"border-collapse: collapse; border-spacing: 0=
+; font-family: sans-serif;" cellpadding=3D"0" cellspacing=3D"0" align=3D"ce=
+nter"><tbody><tr><td style=3D"width: 100%; text-align: left; padding: 0px 1=
+0px 0px 25px;" valign=3D"middle"><span style=3D"margin: 0; font-weight: nor=
+mal; font-size: 16px; line-height: 19px;"> <span style=3D"color: #4caf50; f=
+ont-size: 16px;">Ouest-France vous offre la possibilit&eacute; de gagner un=
+ de ces splendides s&eacute;jours&nbsp;! Pour cela, il suffit de vous inscr=
+ire et de participer.<br> Quoi de plus simple&nbsp;?</span><br><br> En part=
+icipant vous pourrez peut-&ecirc;tre gagner les s&eacute;jours suivants :<b=
+r><span style=3D"color: #4caf50; font-size: 16px;">&bull;</span> 1 s&eacute=
+;jour dans un H&ocirc;tel de r&ecirc;ve (10&nbsp;destinations)<br><span sty=
+le=3D"color: #4caf50; font-size: 16px;">&bull;</span> 1 week-end D&eacute;t=
+ente Wonderbox<br><span style=3D"color: #4caf50; font-size: 16px;">&bull;</=
+span> 3 jours Gourmands Wonderbox<br><span style=3D"color: #4caf50; font-si=
+ze: 16px;">&bull;</span> 3 jours Ch&acirc;teaux et belles Demeures Wonderbo=
+x<br><span style=3D"color: #4caf50; font-size: 16px;">&bull;</span> 1 week-=
+end Insolite en Famille Wonderbox<br><span style=3D"color: #4caf50; font-si=
+ze: 16px;">&bull;</span> 2 tablettes tactiles 10''<br><br> N&rsquo;attendez=
+ plus pour tenter votre chance !</span> <!-- ligne de blanc --></td>
+</tr><tr><td height=3D"10"></td>
+</tr><!-- bouton OF Je m'abonne --><tr><!-- Couleur et hauteur pour le mod&=
+egrave;le :  jamais dans la div --><td style=3D"padding: 0;" valign=3D"midd=
+le" height=3D"44"><!-- On joue sur la larguer de la table afin d'&eacute;vi=
+ter d'uliser des paddings -->
+<table width=3D"100%" style=3D"border-collapse: collapse; border-spacing: 0=
+; font-family: sans-serif;" cellpadding=3D"0" cellspacing=3D"0" align=3D"ce=
+nter"><tbody><tr><td align=3D"center" height=3D"44" valign=3D"middle">
+<table height=3D"44" align=3D"center" cellpadding=3D"0" cellspacing=3D"0" s=
+tyle=3D"font-family: arial,sans-serif; width: 175px; max-width: 175px; bord=
+er-collapse: collapse; background: #4caf50;"><tbody><tr><td style=3D"width:=
+ 44px; max-width: 44px; font-size: 20px; color: #ffffff; font-family: Arial=
+, Helvetica, sans-serif; font-weight: 400; padding-top: 2px;" align=3D"righ=
+t" valign=3D"center"><a target=3D"_blank" href=3D"http://srv269.firstheberg=
+.net/mumara/redirect.php?id=3DPDJhZWI3MzllMDQ5YTlhNzZjNDUyNjY0NTFjYTI0YWZlQ=
+HNydjI2OS5maXJzdGhlYmVyZy5uZXQ%2B&amp;ref=3DaHR0cDovL2QzZjZzZHlmYjFtd3h5LmN=
+sb3VkZnJvbnQubmV0Lz9zYz0zRDEyNTc1JnQ9M0QwJmw9M0QxODE1OTcmcD0zRDEwNTAwPQ0KJm=
+RlY29kZT0zRDAmdXJsPTNEMTlTWE1k&amp;e=3D1" style=3D"text-decoration: none;">=
+<span style=3D"color: #ffffff; font-size: 18px;"><img src=3D"http://d31epa2=
+i3egyy4.cloudfront.net/img/7005/1c8d70267e6ad8e04e4f3c89f24c48ae_OF1.png" w=
+idth=3D"26" alt=3D"" style=3D"border-width: 0; height: auto;"></span></a></=
+td>
+<td style=3D"width: 135px; max-width: 135px; font-size: 20px; color: #fffff=
+f; font-family: Arial, Helvetica, sans-serif; font-weight: 400;" align=3D"l=
+eft" valign=3D"middle"><a target=3D"_blank" href=3D"http://srv269.firsthebe=
+rg.net/mumara/redirect.php?id=3DPDJhZWI3MzllMDQ5YTlhNzZjNDUyNjY0NTFjYTI0YWZ=
+lQHNydjI2OS5maXJzdGhlYmVyZy5uZXQ%2B&amp;ref=3DaHR0cDovL2QzZjZzZHlmYjFtd3h5L=
+mNsb3VkZnJvbnQubmV0Lz9zYz0zRDEyNTc1JnQ9M0QwJmw9M0QxODE1OTcmcD0zRDEwNTAwPQ0K=
+JmRlY29kZT0zRDAmdXJsPTNEMTlTWE1k&amp;e=3D1" style=3D"text-decoration: none;=
+ color: #ffffff;">&nbsp;&nbsp;Je participe</a></td>
+</tr></tbody></table></td>
+</tr></tbody></table></td>
+</tr><!-- ligne de blanc --><tr><td height=3D"10"></td>
+</tr></tbody></table><!-- if (gte mso 9)>
+</td>
+</tr>
+</table>
+<!endif--><!-- *********************************************** --><!-- ****=
+***     FIN CORPS EMAIL     *************** --><!-- ***********************=
+************************ --><!-- ******************************************=
+***** --><!-- *******     FOOTER ABONNE     ***************** --><!-- *****=
+****************************************** --><div style=3D"max-width: 600p=
+x;"><!-- if (gte mso 9)>
+<table width=3D"600" align=3D"center" style=3D"border-spacing:0;font-family=
+:sans-serif; " cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td>
+<!endif-->
+<table width=3D"100%" style=3D"border-collapse: collapse; border-spacing: 0=
+; font-family: sans-serif;" cellpadding=3D"0" cellspacing=3D"0"><tbody><tr>=
+<td height=3D"10"></td>
+</tr><tr><td align=3D"center" style=3D"color: #6e6e6e; font-family: Arial, =
+Helvetica, sans-serif; font-size: 12px; font-weight: normal;" valign=3D"mid=
+dle"></td>
+</tr></tbody></table><!-- if (gte mso 9)>
+</td>
+</tr>
+</table>
+<!endif--></div>
+<!-- *********************************************** --> <!-- *******     F=
+IN FOOTER ABONNE     ***************** --> <!-- ***************************=
+******************** --></td>
+</tr></tbody></table><p></p>
+<p><a href=3D"http://srv269.firstheberg.net/mumara/redirect.php?id=3DPDJhZW=
+I3MzllMDQ5YTlhNzZjNDUyNjY0NTFjYTI0YWZlQHNydjI2OS5maXJzdGhlYmVyZy5uZXQ%2B&am=
+p;ref=3DaHR0cDovL3NydjI2OS5maXJzdGhlYmVyZy5uZXQvbXVtYXJhL3Vuc3Vic2NyaWJlLnB=
+ocD9pZD0zRFBESmhaV0kzTXpsbE1EUTVZPQ0KVGxoTnpaak5EVXlOalkwTlRGallUSTBZV1psUU=
+hOeWRqSTJPUzVtYVhKemRHaGxZbVZ5Wnk1dVpYUSUyQg%3D%3D&amp;e=3D1">Se d&eacute;s=
+abonner</a></p>
+</div>
+</center>
+<p><img src=3D"http://tracking.publicidees.com/link.php?promoid=3D132290&am=
+p;progid=3D4783&amp;partid=3D47272" width=3D"1" height=3D"1"></p></body></h=
+tml>
+<div style=3D'float:left; clear:both; font-family:Arial; margin:40px auto; =
+width:100%; line-height:175%; font-size:11px; color:#434343'>
+=09=09=09=09=09=09=09=09=09=09=09<img border=3D0  src=3D'http://srv269.firs=
+theberg.net/mumara/logo_image.php?id=3DPDJhZWI3MzllMDQ5YTlhNzZjNDUyNjY0NTFj=
+YTI0YWZlQHNydjI2OS5maXJzdGhlYmVyZy5uZXQ%2B' width=3D1 height=3D1  alt=3D''>=
+</div>
+
+
+--b1_ae2d430503080e0c4d39f43fd2462d83--

@@ -1,0 +1,414 @@
+Return-Path: <newsletter@olix3.wistmail.com>
+Received: from mailimailo.univ-rennes1.fr ([unix socket])
+	 by mailimailo.univ-rennes1.fr (Cyrus v2.3.16-Fedora-RPM-2.3.16-6.el6_2.5) with LMTPA;
+	 Sun, 22 May 2016 15:42:49 +0200
+X-Sieve: CMU Sieve 2.3
+Received: from mailout2.univ-rennes1.fr (mailout2.univ-rennes1.fr [129.20.129.120])
+	by mailimailo.univ-rennes1.fr (Postfix) with ESMTP id CE21D1A7
+	for <resp-m2-miage@univ-rennes1.fr>; Sun, 22 May 2016 15:42:49 +0200 (CEST)
+Received: from localhost (vmscanmail.univ-rennes1.fr [129.20.128.134])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id CBD6360077
+	for <resp-m2-miage@univ-rennes1.fr>; Sun, 22 May 2016 15:42:49 +0200 (CEST)
+X-Virus-Scanned: amavisd-new at univ-rennes1.fr
+Received: from mailout2.univ-rennes1.fr ([129.20.129.120])
+	by localhost (vmscanmail.univ-rennes1.frm [129.20.128.134]) (amavisd-new, port 10026)
+	with ESMTP id NHahxd3icWvL for <resp-m2-miage@univ-rennes1.fr>;
+	Sun, 22 May 2016 15:42:49 +0200 (CEST)
+Received: from vmmailin.univ-rennes1.fr (vmmailin.univ-rennes1.fr [129.20.128.133])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id B6CEF6000E
+	for <resp-m2-miage@univ-rennes1.fr>; Sun, 22 May 2016 15:42:49 +0200 (CEST)
+Received: from mxb2-1.relay.renater.fr (mxb2-1.relay.renater.fr [194.214.200.8])
+	by vmmailin.univ-rennes1.fr (Postfix) with ESMTP id AF3BB20033
+	for <resp-m2-miage@univ-rennes1.fr>; Sun, 22 May 2016 15:42:49 +0200 (CEST)
+Received: from mta1fr10.olix3.wistmail.com (mta1fr10.olix3.wistmail.com [89.234.149.127])
+	by mxb2-1.relay.renater.fr (asm) with ESMTP id 717EE600062
+	for <resp-m2-miage@univ-rennes1.fr>; Sun, 22 May 2016 15:42:49 +0200 (CEST)
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=dkim; d=olix3.wistmail.com;
+ h=Message-ID:Date:Subject:From:Reply-To:To:MIME-Version:Content-Type:List-Unsubscribe:List-Id; i=newsletter@olix3.wistmail.com;
+ bh=MSETEBV26Alkb6pHZqhJ7NeNhDw=;
+ b=BunwNiHvvpHMx91UFT+G4KhExhYN4F8GruKCRhpNhFHS8pcd1uLykP2QiZsh806JUR3DS1+Zvebr
+   AOlYshnPk+zTZ9ygi/SKfRC4i0ZWEnejxkEovyIE6trxwGV5ZH3tuhrTmOuA+YQY4w53cW2Gghsn
+   8jGxY4pL7Rl1b/PcFX0=
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=dkim; d=olix3.wistmail.com;
+ b=NLFhRzQrKf3HE4/dOHKuywdA2dJgeaK+YhC+JrAd6+QHMU/TTScNk4bI7cUPDr1By0i3/CryonlK
+   U1E3+N5hM3nvsCej6IsoIhiDDwhaLZsU83kDYDbD3utD5u5YZFQr3UulObbuzS58nd7QsTe6eCdH
+   C5eN4fV8hkyzMMwgXnk=;
+DKIM-Signature: v=1; a=rsa-sha1; bh=/1Jy0pPjZ48nv8smr9Bl7BMjtsc=;
+ d=olix3.wistmail.com; h=Message-ID: Date: Subject: From: Reply-To: To:
+ MIME-Version: Content-Type: X-Mw-Customer-Uid: X-Receiver: X-Mw-Tracking-Did:
+ X-Mw-Campaign-Uid: List-Unsubscribe: X-Mw-Customer-Gid: List-Id:
+ X-Mw-Subscriber-Uid: X-Report-Abuse: X-Sender: Feedback-ID: X-Mw-Mailer:
+ X-Mw-Delivery-Sid; i=@olix3.wistmail.com; s=mailer; t=1463924567;
+ b=aPoPdaIR5kOCSDgCy62+sE8rxk/cSXZwUcngqxZDOcoEa4YQR7gTZtv4eBJxd0wzNZuXnhxsH
+ llbISuuNlhKjoWIO5mWrb7veBfFuXNO+GE+OJwQaB88MwT0xbtE1/Upict+8YsS5/7C6A8p+U
+ PRqcGlSGQoMb9dVsBmR8BJ7ac=
+Message-ID: <60a4c5c6374cd2a36f428107057b70e0@olix3.wistmail.com>
+Date: Sun, 22 May 2016 13:42:47 +0000
+Subject: Revenu annuel de 6% non imposable*
+From: Le Placement Eco Renouvelable - Power Tech
+ <newsletter@olix3.wistmail.com>
+Reply-To: Le Placement Eco Renouvelable - Power Tech
+ <newsletter@olix3.wistmail.com>
+To: "resp-m2-miage@univ-rennes1.fr" <resp-m2-miage@univ-rennes1.fr>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="_=_swift_v4_1463924567_fc3ba556c7ae1b332ba0d7fe86ef3b47_=_"
+X-Mw-Campaign-Uid: ke771mmoks1ce
+List-Unsubscribe: <http://lp1.sendtk2.com/index.php/lists/et662pn6r9252/unsubscribe/jb692xz74e28c/ke771mmoks1ce>,
+ <mailto:newsletter@lp2.wistmail.com?subject=Unsubscribe&body=Please
+ unsubscribe me from Liste Wizz list.>
+X-Mw-Customer-Gid: 1
+List-Id: et662pn6r9252 <Liste Wizz>
+X-Receiver: resp-m2-miage@univ-rennes1.fr
+X-Report-Abuse: Please report abuse for this campaign here:
+ http://lp1.sendtk2.com/index.php/campaigns/ke771mmoks1ce/report-abuse/et662pn6r9252/jb692xz74e28c
+X-Mw-Subscriber-Uid: jb692xz74e28c
+Feedback-ID: ke771mmoks1ce:jb692xz74e28c:et662pn6r9252:qb167cl01b984
+X-Sender: newsletter@olix3.wistmail.com
+X-Mw-Customer-Uid: qb167cl01b984
+X-Mw-Mailer: SwiftMailer
+X-Mw-Delivery-Sid: 199
+X-Mw-Tracking-Did: 1
+X-UCE-Status: YES
+X-UCE-Type: MCE
+X-Original-Source-IP: 89.234.149.127
+X-Bizanga: IMP - mxb2-1.relay.renater.fr
+X-Renater-SpamState: 11
+X-Renater-SpamScore: 17
+X-Renater-SpamCause: gggruggvucftvghtrhhoucdtuddrfeekledrfeekgdeilecutefuodetggdotefrodftvfcurfhrohhfihhlvgemucftgffptefvgfftpdggtfgfnhhsuhgsshgtrhhisggvnecuuegrihhlohhuthemuceftddtnecundfotefknffkpffiucdludejmdenucfjughrpefkfffuhfhrvfggtgfjjeigsegrtdhjredttdejnecuhfhrohhmpefnvgcurfhlrggtvghmvghnthcugfgtohcutfgvnhhouhhvvghlrggslhgvucdqucfrohifvghrucfvvggthhcuoehnvgifshhlvghtthgvrhesohhlihigfedrfihishhtmhgrihhlrdgtohhmqeenucffohhmrghinhepshgvnhguthhkvddrtghomhenucfkphepkeelrddvfeegrddugeelrdduvdejnecurfgrrhgrmhepmhhouggvpehsmhhtphdphhgvlhhopehmthgrudhfrhdutddrohhlihigfedrfihishhtmhgrihhlrdgtohhmpdhinhgvthepkeelrddvfeegrddugeelrdduvdejpdhmrghilhhfrhhomhepnhgvfihslhgvthhtvghrseholhhigiefrdifihhsthhmrghilhdrtghomhdprhgtphhtthhopehrvghsphdqmhdvqdhmihgrghgvsehunhhivhdqrhgvnhhnvghsuddrfhhr 
+X-Renater-ServerName: mxb2-1.relay.renater.fr
+
+
+--_=_swift_v4_1463924567_fc3ba556c7ae1b332ba0d7fe86ef3b47_=_
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+=20
+
+Lien mirroir
+http://lp1.sendtk2.com/index.php/campaigns/ke771mmoks=
+1ce/track-url/jb692xz74e28c/b2e1776f87a5cbad5659fecd4c61186efe7f4c82
+- Se=
+ d=C3=A9sinscrire
+http://lp1.sendtk2.com/index.php/campaigns/ke771mmoks1c=
+e/track-url/jb692xz74e28c/d5d66bfd9d3f54b8baac6abd3430b175de8b2046
+
+
+=
+TOPINVEST : Offre du 22/05/2016=20
+
+=09=09
+http://lp1.sendtk2.com/index=
+.php/campaigns/ke771mmoks1ce/track-url/jb692xz74e28c/eb5bfb6d2483caa79db5b8=
+efe052c5c1e7295b05
+
+=09=09
+http://lp1.sendtk2.com/index.php/campaigns=
+/ke771mmoks1ce/track-url/jb692xz74e28c/eb5bfb6d2483caa79db5b8efe052c5c1e729=
+5b05
+
+INVESTISSEMENT
+ECO
+RESPONSABLE=20
+
+ =09=09
+http://lp1.sen=
+dtk2.com/index.php/campaigns/ke771mmoks1ce/track-url/jb692xz74e28c/eb5bfb6d=
+2483caa79db5b8efe052c5c1e7295b05
+
+=09=09
+http://lp1.sendtk2.com/index=
+.php/campaigns/ke771mmoks1ce/track-url/jb692xz74e28c/eb5bfb6d2483caa79db5b8=
+efe052c5c1e7295b05
+
+Investissez au sein de nos
+ Centrales Solaires Ph=
+otovolta=C3=AFques=20
+
+=09=09
+http://lp1.sendtk2.com/index.php/campaign=
+s/ke771mmoks1ce/track-url/jb692xz74e28c/eb5bfb6d2483caa79db5b8efe052c5c1e72=
+95b05
+
+ =09=09 LES AVANTAGES
+http://lp1.sendtk2.com/index.php/campaig=
+ns/ke771mmoks1ce/track-url/jb692xz74e28c/eb5bfb6d2483caa79db5b8efe052c5c1e7=
+295b05
+
+ =09=09REVENU ANNUEL S=C3=89CURIS=C3=89
+http://lp1.sendtk2.co=
+m/index.php/campaigns/ke771mmoks1ce/track-url/jb692xz74e28c/eb5bfb6d2483caa=
+79db5b8efe052c5c1e7295b05
+
+ =09=09EDF s'engage sur 20 ans =C3=A0 rachet=
+er l'=C3=A9lectricit=C3=A9 produite
+http://lp1.sendtk2.com/index.php/camp=
+aigns/ke771mmoks1ce/track-url/jb692xz74e28c/eb5bfb6d2483caa79db5b8efe052c5c=
+1e7295b05
+
+ =09=09REVENU annuel de 6% * non imposable **
+http://lp1.s=
+endtk2.com/index.php/campaigns/ke771mmoks1ce/track-url/jb692xz74e28c/eb5bfb=
+6d2483caa79db5b8efe052c5c1e7295b05
+
+ =09=09DUR=C3=89E DE PR=C3=89SENCE =
+DU CLIENT : 4 =C3=80 7 ANS
+http://lp1.sendtk2.com/index.php/campaigns/ke7=
+71mmoks1ce/track-url/jb692xz74e28c/eb5bfb6d2483caa79db5b8efe052c5c1e7295b05=
+
+
+ =09=09AXA assure L=E2=80=99ENSEMBLE DE NOS CENTRALES
+http://lp1.se=
+ndtk2.com/index.php/campaigns/ke771mmoks1ce/track-url/jb692xz74e28c/eb5bfb6=
+d2483caa79db5b8efe052c5c1e7295b05
+
+* Revenu moyen annuel esp=C3=A9r=
+=C3=A9 : 6%
+ ** Dans le cadre du r=C3=A9gime BIC accompagn=C3=A9 de
+ l'=
+amortissement annuel & Pr=C3=A9sence d'une taxe sur la plus-value au
+mome=
+nt de la sortie du client investisseur.=20
+
+=09=09
+http://lp1.sendtk2.c=
+om/index.php/campaigns/ke771mmoks1ce/track-url/jb692xz74e28c/eb5bfb6d2483ca=
+a79db5b8efe052c5c1e7295b05
+
+=09=09
+http://lp1.sendtk2.com/index.php/c=
+ampaigns/ke771mmoks1ce/track-url/jb692xz74e28c/eb5bfb6d2483caa79db5b8efe052=
+c5c1e7295b05
+
+=09=09En Savoir +
+http://lp1.sendtk2.com/index.php/camp=
+aigns/ke771mmoks1ce/track-url/jb692xz74e28c/eb5bfb6d2483caa79db5b8efe052c5c=
+1e7295b05
+
+=09=09
+http://lp1.sendtk2.com/index.php/campaigns/ke771mmo=
+ks1ce/track-url/jb692xz74e28c/eb5bfb6d2483caa79db5b8efe052c5c1e7295b05
+=
+
+Vous recevez ce message car vous =C3=AAtes inscrit dans la liste de
+di=
+ffusion de TOPINVEST.
+ Vous avez la possibilit=C3=A9 de g=C3=A9rer vos in=
+formations en vous
+dirigeant sur le site de topinvest
+http://lp1.sendtk=
+2.com/index.php/campaigns/ke771mmoks1ce/track-url/jb692xz74e28c/d5d22d34bad=
+ece6e595e91e95e3d2a49de70ae57.
+
+
+Ne plus recevoir
+http://lp1.sendtk=
+2.com/index.php/campaigns/ke771mmoks1ce/track-url/jb692xz74e28c/d5d66bfd9d3=
+f54b8baac6abd3430b175de8b2046.
+
+=20
+
+--_=_swift_v4_1463924567_fc3ba556c7ae1b332ba0d7fe86ef3b47_=_
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>
+<html><head><meta name=3D"charset" content=3D"utf-8">
+<=
+style type=3D"text/css">
+@viewport{
+    zoom: 1.0;
+    width: device-=
+width;
+}
+</style>
+<title>Untitled</title></head><body>
+
+         =
+   <center>
+<p style=3D"width:100%;padding:10px;margin:0;font-size:12px;b=
+ackground:#222;color:#FFF;text-align:center;font-family:Arial;font-weight:n=
+ormal;"><a href=3D"http://lp1.sendtk2.com/index.php/campaigns/ke771mmoks1ce=
+/track-url/jb692xz74e28c/b2e1776f87a5cbad5659fecd4c61186efe7f4c82" style=3D=
+"color:#FFF;">Lien mirroir</a> - <a href=3D"http://lp1.sendtk2.com/index.ph=
+p/campaigns/ke771mmoks1ce/track-url/jb692xz74e28c/d5d66bfd9d3f54b8baac6abd3=
+430b175de8b2046" style=3D"color:#FFF;">Se d&eacute;sinscrire</a></p>
+</ce=
+nter>
+
+<p style=3D"width:100%;padding:10px;margin:0;font-size:14px;colo=
+r:#ebdcd9;text-align:center;font-family:Arial;font-weight:bold;background-c=
+olor:#a59693;">TOPINVEST : Offre du 22/05/2016</p>
+<img alt=3D"openNaosho=
+ot.php?i=3D8112&amp;c=3D3822&amp;email=3D[EM" height=3D"1" src=3D"http://na=
+owizz.com/openNaoshoot.php?i=3D8112&amp;c=3D3822&amp;email=3Dresp-m2-miage@=
+univ-rennes1.fr&amp;e=3D0&amp;sm=3D0&amp;ip=3D" style=3D"display:none;" wid=
+th=3D"1"><img alt=3D"axciom.php?email=3Dresp-m2-miage@univ-rennes1.fr" bord=
+er=3D"0" height=3D"1" hspace=3D"0" src=3D"http://naowizz.com/axciom.php?ema=
+il=3Dresp-m2-miage@univ-rennes1.fr" style=3D"display:none;" vspace=3D"0" wi=
+dth=3D"1"><div align=3D"center" style=3D"background-color:#F2F2F2;width:100=
+%;">&nbsp;
+<table align=3D"center" bgcolor=3D"#ffffff" border=3D"0" cellp=
+adding=3D"0" cellspacing=3D"0" class=3D"newsletter" style=3D"background:#ff=
+f;" width=3D"600"><tbody><tr><td colspan=3D"2"><a href=3D"http://lp1.sendtk=
+2.com/index.php/campaigns/ke771mmoks1ce/track-url/jb692xz74e28c/eb5bfb6d248=
+3caa79db5b8efe052c5c1e7295b05"><img alt=3D"IER 6%*, Le Placement Eco Renouv=
+elable" border=3D"0" src=3D"http://guimaraesrosa.fr/newsletter18-600px_01.p=
+ng" style=3D"display:block;border:0;"></a></td>
+=09=09</tr><tr><td colspa=
+n=3D"2">
+=09=09=09<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ width=3D"600"><tbody><tr><td width=3D"237"><a href=3D"http://lp1.sendtk2.c=
+om/index.php/campaigns/ke771mmoks1ce/track-url/jb692xz74e28c/eb5bfb6d2483ca=
+a79db5b8efe052c5c1e7295b05"><img alt=3D"IER 6%*, Le Placement Eco Renouvela=
+ble" border=3D"0" height=3D"136" src=3D"http://guimaraesrosa.fr/newsletter1=
+8-600px_03.png" style=3D"display:block;border:0;" width=3D"237"></a></td>=
+
+=09=09=09=09=09=09<td>
+=09=09=09=09=09=09<table border=3D"0" cellpaddi=
+ng=3D"10" width=3D"100%"><tbody><tr><td><strong style=3D"font-family:Tahoma=
+, Geneva, sans-serif;font-size:20px;text-decoration:none;color:#012447;text=
+-transform:uppercase;line-height:20px;">investissement</strong><br><strong =
+style=3D"font-family:Tahoma, Geneva, sans-serif;font-size:50px;text-decorat=
+ion:none;color:#e4308e;text-transform:uppercase;">Eco</strong><br><strong s=
+tyle=3D"font-family:Tahoma, Geneva, sans-serif;font-size:20px;text-decorati=
+on:none;color:#012447;text-transform:uppercase;line-height:20px;">Responsab=
+le</strong></td>
+=09=09=09=09=09=09=09=09</tr></tbody></table></td>
+=09=
+=09=09=09=09=09<td width=3D"29"><a href=3D"http://lp1.sendtk2.com/index.php=
+/campaigns/ke771mmoks1ce/track-url/jb692xz74e28c/eb5bfb6d2483caa79db5b8efe0=
+52c5c1e7295b05"><img alt=3D"IER 6%*, Le Placement Eco Renouvelable" border=
+=3D"0" height=3D"136" src=3D"http://guimaraesrosa.fr/newsletter18-600px_05.=
+png" style=3D"display:block;border:0;" width=3D"29"></a></td>
+=09=09=09=
+=09=09</tr></tbody></table></td>
+=09=09</tr><tr><td colspan=3D"2"><a href=
+=3D"http://lp1.sendtk2.com/index.php/campaigns/ke771mmoks1ce/track-url/jb69=
+2xz74e28c/eb5bfb6d2483caa79db5b8efe052c5c1e7295b05"><img alt=3D"En Savoir +=
+" border=3D"0" src=3D"http://guimaraesrosa.fr/newsletter18-600px_06.png" st=
+yle=3D"display:block;border:0;"></a></td>
+=09=09</tr><tr bgcolor=3D"#007e=
+ff"><td align=3D"center" colspan=3D"2"><a href=3D"http://lp1.sendtk2.com/in=
+dex.php/campaigns/ke771mmoks1ce/track-url/jb692xz74e28c/eb5bfb6d2483caa79db=
+5b8efe052c5c1e7295b05" style=3D"font-family:Tahoma, Geneva, sans-serif;font=
+-size:20px;text-decoration:none;color:#ffffff;text-transform:uppercase;disp=
+lay:block;padding:10px 0;">Investissez au sein de nos<br>
+=09=09=09Centra=
+les Solaires Photovolta&iuml;ques </a></td>
+=09=09</tr><tr bgcolor=3D"#f2=
+f2f2"><td width=3D"237"><a href=3D"http://lp1.sendtk2.com/index.php/campaig=
+ns/ke771mmoks1ce/track-url/jb692xz74e28c/eb5bfb6d2483caa79db5b8efe052c5c1e7=
+295b05"><img alt=3D"IER 6%*" border=3D"0" height=3D"324" src=3D"http://guim=
+araesrosa.fr/newsletter18-600px_09.png" style=3D"display:block;border:0;" w=
+idth=3D"237"></a></td>
+=09=09=09<td valign=3D"top" width=3D"363">
+=09=
+=09=09<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0" class=3D"td3" width=3D"100%"><tbody><tr><td bgcolor=3D"#ffffff" height=
+=3D"52" valign=3D"top" width=3D"4%">&nbsp;</td>
+=09=09=09=09=09=09<td bgc=
+olor=3D"#ffffff" width=3D"96%"><a href=3D"http://lp1.sendtk2.com/index.php/=
+campaigns/ke771mmoks1ce/track-url/jb692xz74e28c/eb5bfb6d2483caa79db5b8efe05=
+2c5c1e7295b05" style=3D"font-family:Tahoma, Geneva, sans-serif;font-size:25=
+px;text-decoration:none;color:#012447;"><img alt=3D"En Savoir +" border=3D"=
+0" src=3D"http://guimaraesrosa.fr/fleche-cn2i.png" style=3D"border:0;"> LES=
+ <strong>AVANTAGES</strong></a></td>
+=09=09=09=09=09</tr><tr><td height=
+=3D"71" valign=3D"top" width=3D"4%">&nbsp;</td>
+=09=09=09=09=09=09<td><a =
+href=3D"http://lp1.sendtk2.com/index.php/campaigns/ke771mmoks1ce/track-url/=
+jb692xz74e28c/eb5bfb6d2483caa79db5b8efe052c5c1e7295b05" style=3D"font-famil=
+y:Tahoma, Geneva, sans-serif;font-size:20px;text-decoration:none;color:#e43=
+08e;text-transform:uppercase;"><strong>revenu annuel s&eacute;curis&eacute;=
+</strong></a></td>
+=09=09=09=09=09</tr><tr><td valign=3D"top" width=3D"4%=
+">&nbsp;</td>
+=09=09=09=09=09=09<td><a href=3D"http://lp1.sendtk2.com/ind=
+ex.php/campaigns/ke771mmoks1ce/track-url/jb692xz74e28c/eb5bfb6d2483caa79db5=
+b8efe052c5c1e7295b05" style=3D"font-family:Tahoma, Geneva, sans-serif;font-=
+size:13px;text-decoration:none;color:#012447;"><strong>EDF</strong> s&rsquo=
+;engage sur 20 ans &agrave; racheter l&rsquo;&eacute;lectricit&eacute; prod=
+uite</a></td>
+=09=09=09=09=09</tr><tr><td>&nbsp;</td>
+=09=09=09=09=09=
+=09<td><a href=3D"http://lp1.sendtk2.com/index.php/campaigns/ke771mmoks1ce/=
+track-url/jb692xz74e28c/eb5bfb6d2483caa79db5b8efe052c5c1e7295b05" style=3D"=
+font-family:Tahoma, Geneva, sans-serif;font-size:13px;text-decoration:none;=
+color:#012447;"><strong>Revenu</strong> annuel de <strong>6%</strong> * non=
+ imposable **</a></td>
+=09=09=09=09=09</tr><tr><td>&nbsp;</td>
+=09=09=
+=09=09=09=09<td><a href=3D"http://lp1.sendtk2.com/index.php/campaigns/ke771=
+mmoks1ce/track-url/jb692xz74e28c/eb5bfb6d2483caa79db5b8efe052c5c1e7295b05" =
+style=3D"font-family:Tahoma, Geneva, sans-serif;font-size:13px;text-decorat=
+ion:none;color:#012447;"><strong>Dur&eacute;e de pr&eacute;sence du client =
+:</strong> <strong>4 &agrave; 7 ans</strong></a></td>
+=09=09=09=09=09</tr=
+><tr><td>&nbsp;</td>
+=09=09=09=09=09=09<td><a href=3D"http://lp1.sendtk2.=
+com/index.php/campaigns/ke771mmoks1ce/track-url/jb692xz74e28c/eb5bfb6d2483c=
+aa79db5b8efe052c5c1e7295b05" style=3D"font-family:Tahoma, Geneva, sans-seri=
+f;font-size:13px;text-decoration:none;color:#012447;"><strong>Axa</strong> =
+assure <strong>l&rsquo;ensemble de nos centrales</strong></a></td>
+=09=09=
+=09=09=09</tr><tr><td colspan=3D"2"><img alt=3D"IER 6%*" border=3D"0" heigh=
+t=3D"5" src=3D"http://guimaraesrosa.fr/pixel.png" style=3D"display:block;bo=
+rder:0;"><span style=3D"font-family:Tahoma, Geneva, sans-serif;letter-spaci=
+ng:-.5px;font-size:11px;text-decoration:none;color:#012447;">* Revenu moyen=
+ annuel esp&eacute;r&eacute; : 6%<br>
+=09=09=09=09=09=09** Dans le cadre =
+du r&eacute;gime BIC accompagn&eacute; de<br>
+=09=09=09=09=09=09l&rsquo;a=
+mortissement annuel &amp; Pr&eacute;sence d&rsquo;une taxe sur la plus-valu=
+e au moment de la sortie du client investisseur.</span></td>
+=09=09=09=09=
+=09</tr></tbody></table></td>
+=09=09</tr><tr><td colspan=3D"2"><a href=3D=
+"http://lp1.sendtk2.com/index.php/campaigns/ke771mmoks1ce/track-url/jb692xz=
+74e28c/eb5bfb6d2483caa79db5b8efe052c5c1e7295b05"><img alt=3D"En Savoir +" b=
+order=3D"0" src=3D"http://guimaraesrosa.fr/newsletter18-600px_11.png" style=
+=3D"display:block;border:0;"></a></td>
+=09=09</tr><tr><td colspan=3D"2"><=
+a href=3D"http://lp1.sendtk2.com/index.php/campaigns/ke771mmoks1ce/track-ur=
+l/jb692xz74e28c/eb5bfb6d2483caa79db5b8efe052c5c1e7295b05"><img alt=3D"En Sa=
+voir +" border=3D"0" src=3D"http://guimaraesrosa.fr/newsletter18-600px_12.p=
+ng" style=3D"display:block;border:0;"></a></td>
+=09=09</tr><tr bgcolor=3D=
+"#007eff"><td align=3D"center" colspan=3D"2"><a href=3D"http://lp1.sendtk2.=
+com/index.php/campaigns/ke771mmoks1ce/track-url/jb692xz74e28c/eb5bfb6d2483c=
+aa79db5b8efe052c5c1e7295b05" style=3D"font-family:Tahoma, Geneva, sans-seri=
+f;font-size:30px;text-decoration:none;color:#ffffff;text-transform:uppercas=
+e;display:block;padding:10px 0;background:#5abc1f;width:250px;border-radius=
+:10px;margin:0 auto;">En Savoir +</a></td>
+=09=09</tr><tr><td colspan=3D"=
+2"><a href=3D"http://lp1.sendtk2.com/index.php/campaigns/ke771mmoks1ce/trac=
+k-url/jb692xz74e28c/eb5bfb6d2483caa79db5b8efe052c5c1e7295b05"><img alt=3D"E=
+n Savoir +" border=3D"0" src=3D"http://guimaraesrosa.fr/newsletter18-600px_=
+14.png" style=3D"display:block;border:0;"></a></td>
+=09=09</tr></tbody></=
+table></div>
+<img alt=3D"informations" border=3D"0" height=3D"1" src=3D"h=
+ttp://shcat1.forkit52.plafonisav.fr/c643e772944m-resp-m2-miage@univ-rennes1=
+.fr.png" width=3D"1"><p style=3D"width:100%;text-align:center;font-size:12p=
+x;">Vous recevez ce message car vous &ecirc;tes inscrit dans la liste de di=
+ffusion de <b>topinvest</b>.<br>
+Vous avez la possibilit&eacute; de g&eac=
+ute;rer vos informations en vous dirigeant sur le site de <a href=3D"http:/=
+/lp1.sendtk2.com/index.php/campaigns/ke771mmoks1ce/track-url/jb692xz74e28c/=
+d5d22d34badece6e595e91e95e3d2a49de70ae57" style=3D"text-decoration:underlin=
+e;font-weight:bold;">topinvest</a>.</p>
+
+<p style=3D"width:100%;text-al=
+ign:center;font-size:12px;"><a href=3D"http://lp1.sendtk2.com/index.php/cam=
+paigns/ke771mmoks1ce/track-url/jb692xz74e28c/d5d66bfd9d3f54b8baac6abd3430b1=
+75de8b2046">Ne plus recevoir</a>.</p>
+<br>
+&nbsp;<img width=3D"1" heigh=
+t=3D"1" src=3D"http://lp1.sendtk2.com/index.php/campaigns/ke771mmoks1ce/tra=
+ck-opening/jb692xz74e28c" alt=3D"" />
+</body></html>
+
+
+--_=_swift_v4_1463924567_fc3ba556c7ae1b332ba0d7fe86ef3b47_=_--
+

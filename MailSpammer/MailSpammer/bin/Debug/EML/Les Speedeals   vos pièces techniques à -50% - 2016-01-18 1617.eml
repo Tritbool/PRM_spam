@@ -1,0 +1,452 @@
+Return-Path: <return-a18-2907-2908-resp-m2-miage=univ-rennes1.fr=4@les-actus.com>
+Received: from mailimailo.univ-rennes1.fr ([unix socket])
+	 by mailimailo.univ-rennes1.fr (Cyrus v2.3.16-Fedora-RPM-2.3.16-6.el6_2.5) with LMTPA;
+	 Fri, 29 Jan 2016 12:32:15 +0100
+X-Sieve: CMU Sieve 2.3
+Received: from mailout1.univ-rennes1.fr (mailout1.univ-rennes1.fr [129.20.128.162])
+	by mailimailo.univ-rennes1.fr (Postfix) with ESMTP id 7E7A826A0E4B
+	for <resp-m2-miage@univ-rennes1.fr>; Fri, 29 Jan 2016 12:32:15 +0100 (CET)
+Received: from localhost (vmscanmail.univ-rennes1.fr [129.20.128.134])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id 78E2560030
+	for <resp-m2-miage@univ-rennes1.fr>; Fri, 29 Jan 2016 12:32:15 +0100 (CET)
+X-Virus-Scanned: amavisd-new at univ-rennes1.fr
+Received: from mailout1.univ-rennes1.fr ([129.20.128.162])
+	by localhost (vmscanmail.univ-rennes1.frm [129.20.128.134]) (amavisd-new, port 10026)
+	with ESMTP id ClHGcqINTaxv for <resp-m2-miage@univ-rennes1.fr>;
+	Fri, 29 Jan 2016 12:32:15 +0100 (CET)
+Received: from vmmailin.univ-rennes1.fr (vmmailin.univ-rennes1.fr [129.20.128.133])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id 5DD7B60277
+	for <resp-m2-miage@univ-rennes1.fr>; Fri, 29 Jan 2016 12:32:15 +0100 (CET)
+Received: from mxb2-2.relay.renater.fr (mxb2-2.relay.renater.fr [194.214.200.9])
+	by vmmailin.univ-rennes1.fr (Postfix) with ESMTP id 54B7B2003A
+	for <resp-m2-miage@univ-rennes1.fr>; Fri, 29 Jan 2016 12:32:15 +0100 (CET)
+Received: from smtp1-63.revue-en-ligne.com (smtp1-63.revue-en-ligne.com [46.105.172.211])
+	by mxb2-2.relay.renater.fr (asm) with SMTP id 15313600861
+	for <resp-m2-miage@univ-rennes1.fr>; Fri, 29 Jan 2016 12:32:15 +0100 (CET)
+Received: (GreenArrow 28907 invoked by uid 410); 29 Jan 2016 11:32:15 -0000
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed;
+	d=les-actus.com; s=default; h=Subject:From:To:Date:
+	List-Unsubscribe:Message-ID:MIME-Version:Content-Type; bh=6/y6Ib
+	6zNLJa3EAZwE1vyhYXD+M=; b=NA7sdo9sGohbUGujG9aFLStVWetwfoVRfTqvvg
+	hGVwnGn/KA5Dq/cXB43MHkECk8iVvNytfvwyXbwVVkpes42/FXfcA1h4mlIpcEH8
+	KWZCbtyOC0xR+KAK9GVI8orD7yHerkTFRBD/SbAFoHbsXYcDJFPQHKFho3AOBHwo
+	1K5j4=
+Subject: =?UTF-8?Q?Les=20Speedeals=20=3A=20vos=20pi=C3=A8ces=20techni?=
+ =?UTF-8?Q?ques=20=C3=A0=20=2D50=25?=
+From: "Speedy par Sociabiliweb" <news@les-actus.com>
+To: resp-m2-miage@univ-rennes1.fr
+Date: 29 Jan 2016 11:32:15 -0000
+List-Unsubscribe: <http://les-actus.com/ga/unsubscribe/2-11527895-18-1506-2908-ed35df89ef15825-2cd30513a8>,
+ <mailto:return-a18-2907-2908-resp-m2-miage=univ-rennes1.fr=4u@les-actus.com>
+X-Mailer: GreenArrow Studio (v4.65.0)
+X-CampaignID: s4:2907-06928277ce4f5134
+Message-ID: <mid-93da041c5dc895a5ae501cec076c2fbc@les-actus.com>
+X-Mailer-Info: 4.hFDO.gM5AzN.IXZzBXLtJTLtlWYnVGQ15Wa21icl5mblNXMuYmc.gM5ADO
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="==5723ad66973378b7fc459a654956d7f0"
+X-UCE-Status: YES
+X-UCE-Type: MCE
+X-Original-Source-IP: 46.105.172.211
+X-Bizanga: IMP - mxb2-2.relay.renater.fr
+X-Renater-SpamState: 11
+X-Renater-SpamScore: 17
+X-Renater-SpamCause: gggruggvucftvghtrhhoucdtuddrfeekjedrtdeigddvlecutefuodetggdotefrodftvfcurfhrohhfihhlvgemucftgffptefvgfftpdggtfgfnhhsuhgsshgtrhhisggvnecuuegrihhlohhuthemuceftddtnecundfotefknffkpffiucdludejmdenucfjughrpefuhffvfffjoffkgggtsegrtderreertdejnecuhfhrohhmpedfufhpvggvugihuchprghrucfuohgtihgrsghilhhifigvsgdfuceonhgvfihssehlvghsqdgrtghtuhhsrdgtohhmqeenucffohhmrghinheplhgvshdqrggtthhushdrtghomhenucfrrghrrghmpehmohguvgepshhmthhppdhhvghlohepshhmthhpuddqieefrdhrvghvuhgvqdgvnhdqlhhighhnvgdrtghomhdpihhnvghtpeegiedruddthedrudejvddrvdduuddpmhgrihhlfhhrohhmpehrvghtuhhrnhdqrgdukedqvdeltdejqddvledtkedqrhgvshhpqdhmvddqmhhirghgvgepuhhnihhvqdhrvghnnhgvshdurdhfrhepgeeslhgvshdqrggtthhushdrtghomhdprhgtphhtthhopehrvghsphdqmhdvqdhmihgrghgvsehunhhivhdqrhgvnhhnvghsuddrfhhr 
+X-Renater-ServerName: mxb2-2.relay.renater.fr
+
+This is a multi-part message in MIME format.
+
+--==5723ad66973378b7fc459a654956d7f0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+( http://les-actus.com/ga/click/2-11527895-18-1506-2908-20904-3fab3adba5-2c=
+d30513a8 )
+
+LES SPEEDEALS : VOS PIECES TECHNIQUES A -50% ! ( http://les-actus.com/ga/cl=
+ick/2-11527895-18-1506-2908-20904-3fab3adba5-2cd30513a8 )
+
+Jusqu'au 13 f=C3=A9vrier chez Speedy, ( http://les-actus.com/ga/click/2-115=
+27895-18-1506-2908-20904-3fab3adba5-2cd30513a8 )
+
+( http://les-actus.com/ga/click/2-11527895-18-1506-2908-20904-3fab3adba5-2c=
+d30513a8 )
+
+Recevez gratuitement un ( http://les-actus.com/ga/click/2-11527895-18-1506-=
+2908-20904-3fab3adba5-2cd30513a8 )
+
+BON DE R=C3=89DUCTION ( http://les-actus.com/ga/click/2-11527895-18-1506-29=
+08-20904-3fab3adba5-2cd30513a8 )
+
+de -50% ( http://les-actus.com/ga/click/2-11527895-18-1506-2908-20904-3fab3=
+adba5-2cd30513a8 )
+
+valable dans
+
+le centre de votre choix. ( http://les-actus.com/ga/click/2-11527895-18-150=
+6-2908-20904-3fab3adba5-2cd30513a8 )
+
+Choisissez votre centre, recevez votre bon et prenez
+rendez-vous !
+
+Profitez-en vite ! Consultez le d=C3=A9tail de l'offre sur
+Speedy.fr ( http://les-actus.com/ga/click/2-11527895-18-1506-2908-20904-3fa=
+b3adba5-2cd30513a8 )
+
+J'EN PROFITE ( http://les-actus.com/ga/click/2-11527895-18-1506-2908-20904-=
+3fab3adba5-2cd30513a8 )=
+
+--==5723ad66973378b7fc459a654956d7f0
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta content=3D"text/html; charset=3Dutf-8" http-equiv=3D"Content-Type" /=
+><!--[if !mso]><!-->
+	<meta content=3D"IE=3Dedge" http-equiv=3D"X-UA-Compatible" /><!--<![endif]=
+-->
+	<meta content=3D"width=3Ddevice-width, initial-scale=3D1.0" name=3D"viewpo=
+rt" />
+	<meta content=3D"telephone=3Dno" name=3D"format-detection" />
+	<title></title>
+	<!--[if (gte mso 9)|(IE)]>
+        <style type=3D"text/css">
+            table, table td {
+                border-collapse: collapse;
+            }
+            table {
+                border-collapse:collapse;
+                mso-table-lspace:0pt;
+                mso-table-rspace:0pt;
+            }
+        </style>
+        <![endif]-->
+	<style type=3D"text/css">#outlook a{
+                padding:0;
+            }
+
+            body{
+                width:100% !important;
+                -webkit-text-size-adjust:100%;
+                -ms-text-size-adjust:100%;
+                margin:0;
+                padding:0;}
+
+            .ExternalClass {
+                width:100%;
+            }
+
+            .ExternalClass, .ExternalClass p, .ExternalClass span, .Externa=
+lClass font, .ExternalClass td, .ExternalClass div {
+                line-height: 100%;
+            }
+	</style>
+	<style type=3D"text/css">/* targets WebKit-supported email clients */
+            @media screen and (-webkit-min-device-pixel-ratio:0) {}
+            /* target Gecko (Firefox) rendering */
+            @-moz-document url-prefix() {}
+	</style>
+</head>
+<body style=3D"
+          margin:0;
+          padding-top:0;
+          padding-bottom:0;
+          padding-right:0;
+          padding-left:0;
+          min-width:100%;
+          background-color:#f0f0f0;">
+<table cellpadding=3D"0" cellspacing=3D"0" style=3D"
+               width:100%;
+               background-color:#f0f0f0;">
+	<tbody>
+		<tr>
+			<td style=3D"
+                    text-align:center;
+                    background-color:#f0f0f0;"><!--[if (gte mso 9)|(IE)]>
+                    <table width=3D"640" align=3D"center" cellpadding=3D"0"=
+ cellspacing=3D"0" border=3D"0">
+                    <tr><td>
+                    <![endif]-->
+			<table align=3D"center" cellpadding=3D"0" cellspacing=3D"0" style=3D"
+                           background-color:#ffffff;
+                           margin:0 auto;
+                           width:100%;
+                           max-width:640px;"><!-- LOGO SPEEDY -->
+				<tbody>
+					<tr>
+						<td>
+						<table cellpadding=3D"0" cellspacing=3D"0" style=3D"
+                                       width:100%;
+                                       background-color: #043767;">
+							<tbody>
+								<tr>
+									<td style=3D"
+                                            padding: 30px 0px;
+                                            text-align: center;"><a href=3D=
+"http://les-actus.com/ga/click/2-11527895-18-1506-2908-20904-3fab3adba5-2cd=
+30513a8" style=3D"text-decoration: none;"><img src=3D"http://static.ccmbg.c=
+om/congrats.ccmbg.com/templates/touchvibes/2016/speedy/img/logospeedy.png" =
+style=3D"
+                                                     display:inline-block;
+                                                     border-width:0;
+                                                     width:100%;
+                                                     max-width:126px;
+                                                     max-height:113px;
+                                                     color: #043767;" width=
+=3D"126" /> </a></td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+					<!-- SPEED DEALS -->
+					<tr>
+						<td style=3D"">
+						<table cellpadding=3D"0" cellspacing=3D"0" style=3D"
+                                       width:100%">
+							<tbody>
+								<tr>
+									<td height=3D"4" style=3D"background-color: #d71220;"><img src=3D"=
+http://static.ccmbg.com/congrats.ccmbg.com/templates/touchvibes/2016/speedy=
+/img/topborder.png" style=3D"
+                                                 height:4px !important;
+                                                 width:100%;
+                                                 vertical-align: top;" /></=
+td>
+								</tr>
+								<tr>
+									<td style=3D"display:block;
+                                            width:100%;
+                                            background-color: #d71220;
+                                            text-align:center;"><a href=3D"=
+http://les-actus.com/ga/click/2-11527895-18-1506-2908-20904-3fab3adba5-2cd3=
+0513a8" style=3D"
+                                               text-decoration: none;
+                                               font-family:'Arial';
+                                               font-size:20px;
+                                               color:#fff;
+                                               line-height:1.3;">LES SPEEDE=
+ALS&nbsp;: VOS PIECES TECHNIQUES A -50%&nbsp;! </a></td>
+								</tr>
+								<tr>
+									<td height=3D"3" style=3D"background-color: #d71220;"><img src=3D"=
+http://static.ccmbg.com/congrats.ccmbg.com/templates/touchvibes/2016/speedy=
+/img/bottomborder.png" style=3D"
+                                                 height:3px !important;
+                                                 width:100%;
+                                                 vertical-align: bottom;" /=
+></td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+					<!-- JUSQU&#039;AU -->
+					<tr>
+						<td>
+						<table cellpadding=3D"0" cellspacing=3D"0" style=3D"width:100%">
+							<tbody>
+								<tr>
+									<td style=3D"
+                                            padding:10px 10px 20px 10px;
+                                            text-align:center;
+                                            background-color: #043767;"><a =
+href=3D"http://les-actus.com/ga/click/2-11527895-18-1506-2908-20904-3fab3ad=
+ba5-2cd30513a8" style=3D"
+                                               font-family:'Arial';
+                                               font-size:33px;
+                                               font-weight: bold;
+                                               color:#fff;
+                                               line-height:1.3;
+                                               text-decoration: none;">Jusq=
+u&#39;au 13 f&eacute;vrier chez Speedy, </a></td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+					<!-- IMAGE ET TEXTE -->
+					<tr>
+						<td style=3D"
+                                text-align:center;
+                                font-size:0;
+                                background-color: #043767;"><!--[if (gte ms=
+o 9)|(IE)]>
+                                <table border=3D"0" cellpadding=3D"0" cells=
+pacing=3D"0" style=3D"width: 100%;">
+                                <tr>
+                                <td style=3D"width: 50%;" valign=3D"top">
+                                <![endif]-->
+						<table cellpadding=3D"0" cellspacing=3D"0" style=3D"
+                                       display:inline-block;
+                                       width:100%;
+                                       max-width:320px;
+                                       vertical-align:top;">
+							<tbody>
+								<tr>
+									<td style=3D""><a href=3D"http://les-actus.com/ga/click/2-11527895=
+-18-1506-2908-20904-3fab3adba5-2cd30513a8" style=3D"text-decoration: none;"=
+><img src=3D"http://static.ccmbg.com/congrats.ccmbg.com/templates/touchvibe=
+s/2016/speedy/img/image.png" style=3D"
+                                                     display:block;
+                                                     border-width:0;
+                                                     width:100%;
+                                                     max-width:320px;
+                                                     max-height:360px;" wid=
+th=3D"320" /> </a></td>
+								</tr>
+							</tbody>
+						</table>
+						<!--[if (gte mso 9)|(IE)]>
+                                </td>
+                                <td style=3D"width: 50%;" valign=3D"top">
+                                <![endif]-->
+
+						<table cellpadding=3D"0" cellspacing=3D"0" style=3D"
+                                       display:inline-block;
+                                       width:100%;
+                                       max-width:320px;
+                                       padding-bottom: 40px;
+                                       vertical-align:top;">
+							<tbody>
+								<tr>
+									<td style=3D"
+                                            padding-left:10px;
+                                            padding-top: 60px;
+                                            text-align:left;
+                                            width:1%;"><a href=3D"http://le=
+s-actus.com/ga/click/2-11527895-18-1506-2908-20904-3fab3adba5-2cd30513a8" s=
+tyle=3D"
+                                               font-family:'Arial';
+                                               font-weight:bold;
+                                               font-size:21px;
+                                               color:#fff;
+                                               text-decoration: none;">Rece=
+vez gratuitement un </a></td>
+								</tr>
+								<tr>
+									<td style=3D"
+                                            padding-left:10px;
+                                            text-align:left;
+                                            width:1%;"><a href=3D"http://le=
+s-actus.com/ga/click/2-11527895-18-1506-2908-20904-3fab3adba5-2cd30513a8" s=
+tyle=3D"
+                                               font-family:'Arial';
+                                               font-weight:bold;
+                                               font-size:25px;
+                                               color:#fff;
+                                               text-decoration: none;">BON =
+DE R&Eacute;DUCTION </a></td>
+								</tr>
+								<tr>
+									<td style=3D"
+                                            text-align:center;
+                                            width:1%;
+                                            padding:0px 10px 0px 0px;"><a h=
+ref=3D"http://les-actus.com/ga/click/2-11527895-18-1506-2908-20904-3fab3adb=
+a5-2cd30513a8" style=3D"
+                                               font-family:'Arial';
+                                               font-weight:bold;
+                                               font-size:33px;
+                                               color:#fff;
+                                               text-decoration: none;">de <=
+span style=3D"font-size: 104px;"> -50%</span> </a></td>
+								</tr>
+								<tr>
+									<td style=3D"
+                                            text-align:center;
+                                            width:1%;
+                                            padding-right: 45px;"><a href=
+=3D"http://les-actus.com/ga/click/2-11527895-18-1506-2908-20904-3fab3adba5-=
+2cd30513a8" style=3D"
+                                               font-family:'Arial';
+                                               font-weight:bold;
+                                               font-size:21px;
+                                               color:#fff;
+                                               text-decoration: none;">vala=
+ble dans<br />
+									le centre de votre choix. </a></td>
+								</tr>
+							</tbody>
+						</table>
+						<!--[if (gte mso 9)|(IE)]>
+                                </td></tr></table><![endif]--></td>
+					</tr>
+					<!-- CHOISISSEZ -->
+					<tr>
+						<td>
+						<table cellpadding=3D"0" cellspacing=3D"0" style=3D"width:100%">
+							<tbody>
+								<tr>
+									<td style=3D"
+                                            background-color: #0078bf;
+                                            padding:15px 0px 15px 0px;
+                                            text-align:center;
+                                            "><a href=3D"http://les-actus.c=
+om/ga/click/2-11527895-18-1506-2908-20904-3fab3adba5-2cd30513a8" style=3D"
+                                               font-family:'Arial';
+                                               font-size:16px;
+                                               color:#fff;
+                                               line-height:1.3;
+                                               text-decoration: none;">Choi=
+sissez votre centre, recevez votre bon et prenez rendez-vous&nbsp;!<br />
+									Profitez-en vite&nbsp;! Consultez le d&eacute;tail de l&#39;offre =
+sur <span style=3D"font-weight: bold;">Speedy.fr</span> </a></td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+					<!-- J&#039;EN PROFITE -->
+					<tr>
+						<td>
+						<table cellpadding=3D"0" cellspacing=3D"0" style=3D"width:100%">
+							<tbody>
+								<tr>
+									<td style=3D"
+                                            padding: 30px;
+                                            background-color: #043767;
+                                            text-align: center;"><a href=3D=
+"http://les-actus.com/ga/click/2-11527895-18-1506-2908-20904-3fab3adba5-2cd=
+30513a8" style=3D"text-decoration: none;"><img alt=3D"J'EN PROFITE" src=3D"=
+http://static.ccmbg.com/congrats.ccmbg.com/templates/touchvibes/2016/speedy=
+/img/bouton.png" style=3D"
+                                                     display:inline-block;
+                                                     border-width:0;
+                                                     width:100%;
+                                                     max-width:252px;
+                                                     max-height:113px;
+                                                     font-size: 20px;
+                                                     font-weight: bold;
+                                                     font-family: 'Arial'
+;                                                    background-color: #d71=
+220;
+                                                     color: #fff;
+                                                     " width=3D"252" /> </a=
+></td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			<!--[if (gte mso 9)|(IE)]>
+            </td>
+            </tr>
+            </table>
+            <![endif]--></td>
+		</tr>
+	</tbody>
+</table>
+
+<center><a href=3D"http://les-actus.com/ga/unsubscribe/2-11527895-18-1506-2=
+908-ed35df89ef15825-2cd30513a8">Je souhaite me d=C3=A9sinscrire et ne plus =
+recevoir les newsletters</a>
+</center><img src=3D"http://les-actus.com/ga/open/2-11527895-18-1506-2908-2=
+cd30513a8" height=3D"2" width=3D"3" alt=3D""></body>
+</html>
+
+--==5723ad66973378b7fc459a654956d7f0--

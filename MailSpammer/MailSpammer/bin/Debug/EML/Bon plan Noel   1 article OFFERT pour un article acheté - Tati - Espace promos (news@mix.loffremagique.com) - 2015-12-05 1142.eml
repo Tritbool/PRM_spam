@@ -1,0 +1,117 @@
+Return-Path: <bounce+nnB-GMrp-eD9K@mix.loffremagique.com>
+Received: from mailimailo.univ-rennes1.fr ([unix socket])
+	 by mailimailo.univ-rennes1.fr (Cyrus v2.3.16-Fedora-RPM-2.3.16-6.el6_2.5) with LMTPA;
+	 Sat, 05 Dec 2015 12:32:57 +0100
+X-Sieve: CMU Sieve 2.3
+Received: from mailout1.univ-rennes1.fr (mailout1.univ-rennes1.fr [129.20.128.162])
+	by mailimailo.univ-rennes1.fr (Postfix) with ESMTP id BFF5726A0BC4
+	for <resp-m2-miage@univ-rennes1.fr>; Sat,  5 Dec 2015 12:32:57 +0100 (CET)
+Received: from localhost (vmscanmail.univ-rennes1.fr [129.20.128.134])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id BCCB86005E
+	for <resp-m2-miage@univ-rennes1.fr>; Sat,  5 Dec 2015 12:32:57 +0100 (CET)
+X-Virus-Scanned: amavisd-new at univ-rennes1.fr
+Received: from mailout1.univ-rennes1.fr ([129.20.128.162])
+	by localhost (vmscanmail.univ-rennes1.frm [129.20.128.134]) (amavisd-new, port 10026)
+	with ESMTP id znVGHv5UVbAR for <resp-m2-miage@univ-rennes1.fr>;
+	Sat,  5 Dec 2015 12:32:57 +0100 (CET)
+Received: from vmmailin.univ-rennes1.fr (vmmailin.univ-rennes1.fr [129.20.128.133])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id 9B3986001F
+	for <resp-m2-miage@univ-rennes1.fr>; Sat,  5 Dec 2015 12:32:57 +0100 (CET)
+Received: from mxb2-1.relay.renater.fr (mxb2-1.relay.renater.fr [194.214.200.8])
+	by vmmailin.univ-rennes1.fr (Postfix) with ESMTP id 95DB120033
+	for <resp-m2-miage@univ-rennes1.fr>; Sat,  5 Dec 2015 12:32:57 +0100 (CET)
+Received: from smtp167.mix.loffremagique.com (smtp167.mix.loffremagique.com [82.196.26.167])
+	by mxb2-1.relay.renater.fr (asm) with ESMTP id 5CFE9600148
+	for <resp-m2-miage@univ-rennes1.fr>; Sat,  5 Dec 2015 12:32:57 +0100 (CET)
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=s2c; d=mix.loffremagique.com;
+ h=Date:To:From:Subject:Message-ID:List-Unsubscribe:MIME-Version:Content-Type; i=news@mix.loffremagique.com;
+ bh=WSJmdmlUWF7cybQgGlb3Xd52GB8=;
+ b=Y3/FLkNlHVoULDTHJKStu2gLbgXROw/0Zol1RTRY9XlTqym+y7pww2nkEpXNa/xonzSzkWRfaxhW
+   g48W+gyrf43juZfohY+hkQvK6FmDipir95m5Sa7mXBIvaBeehqBqV2MlIKW82BMIhAp+Hz5yLOxT
+   fWbg9WAr34t5uxdrfF0=
+Received: by smtp167.mix.loffremagique.com id hcb5mi1vjtgn for <resp-m2-miage@univ-rennes1.fr>; Sat, 5 Dec 2015 11:42:34 +0100 (envelope-from <bounce+nnB-GMrp-eD9K@mix.loffremagique.com>)
+Date: Sat, 5 Dec 2015 11:42:35 +0100
+To: resp-m2-miage@univ-rennes1.fr
+From: Tati - Espace promos <news@mix.loffremagique.com>
+Subject: =?UTF-8?Q?Bon_plan_Noel_:_1_article_OFFERT_pour_un_article_achet=C3=A9?=
+Message-ID: <bounce+nnB-GMrp-eD9K@mix.loffremagique.com>
+List-Unsubscribe: <mailto:bounce+nnB-GMrp-eD9K@mix.loffremagique.com?subject=unsubscribe-nnB-GMrp>,<http://trk.mix.loffremagique.com/usb/nnB-GMrp.php>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="b1_b3c6391a9c228366b34a3d9c50215c32"
+X-UCE-Status: YES
+X-UCE-Type: MCE
+X-Original-Source-IP: 82.196.26.167
+X-Bizanga: IMP - mxb2-1.relay.renater.fr
+X-Renater-SpamState: 11
+X-Renater-SpamScore: 17
+X-Renater-SpamCause: gggruggvucftvghtrhhoucdtuddrfeekiedrtdekgdefvdcutefuodetggdotefrodftvfcurfhrohhfihhlvgemucftgffptefvgfftpdggtfgfnhhsuhgsshgtrhhisggvnecuuegrihhlohhuthemuceftddtnecundfotefknffkpffiucdludejmdenucfjughrpeffvffhuffkjfggtgesrgdtrehptddtjeenucfhrhhomhepvfgrthhiucdqucfgshhprggtvgcuphhrohhmohhsuceonhgvfihssehmihigrdhlohhffhhrvghmrghgihhquhgvrdgtohhmqeenucffohhmrghinheplhhofhhfrhgvmhgrghhiqhhuvgdrtghomhdpthgrthhirdhfrhenucfrrghrrghmpehmohguvgepshhmthhppdhhvghlohepshhmthhpudeijedrmhhigidrlhhofhhfrhgvmhgrghhiqhhuvgdrtghomhdpihhnvghtpeekvddrudeliedrvdeirdduieejpdhmrghilhhfrhhomhepsghouhhntggvodhnnheuqdfiofhrphdqvgfflefmsehmihigrdhlohhffhhrvghmrghgihhquhgvrdgtohhmpdhrtghpthhtoheprhgvshhpqdhmvddqmhhirghgvgesuhhnihhvqdhrvghnnhgvshdurdhfrh 
+X-Renater-ServerName: mxb2-1.relay.renater.fr
+
+
+--b1_b3c6391a9c228366b34a3d9c50215c32
+Content-Type: text/plain; charset = "UTF-8"
+Content-Transfer-Encoding: 8bit
+
+Afficher la version web. (http://trk.mix.loffremagique.com/view/nnB-GMrp.php) | Annuler votre abonnement. (http://trk.mix.loffremagique.com/usb/nnB-GMrp.php) | Signaler comme courrier indésirable. (mailto:abuse@dgcnit.fr)
+
+http://trk.mix.loffremagique.com/tk/nnB-GMrp-oX5.php http://trk.mix.loffremagique.com/tk/nnB-GMrp-oX6.php http://trk.mix.loffremagique.com/tk/nnB-GMrp-oX7.php http://trk.mix.loffremagique.com/tk/nnB-GMrp-oX8.php http://trk.mix.loffremagique.com/tk/nnB-GMrp-oX9.php
+http://trk.mix.loffremagique.com/tk/nnB-GMrp-oXa.php WWW.TATI.FR (http://trk.mix.loffremagique.com/tk/nnB-GMrp-oXb.php)
+FEMME (http://trk.mix.loffremagique.com/tk/nnB-GMrp-oXc.php) HOMME (http://trk.mix.loffremagique.com/tk/nnB-GMrp-oXd.php) ENFANT (http://trk.mix.loffremagique.com/tk/nnB-GMrp-oXe.php) CHAUSSURES (http://trk.mix.loffremagique.com/tk/nnB-GMrp-oXf.php) MAISON (http://trk.mix.loffremagique.com/tk/nnB-GMrp-oXg.php) MEUBLES (http://trk.mix.loffremagique.com/tk/nnB-GMrp-oXh.php) MARIAGE (http://trk.mix.loffremagique.com/tk/nnB-GMrp-oXi.php) MARQUES (http://trk.mix.loffremagique.com/tk/nnB-GMrp-oXj.php) http://trk.mix.loffremagique.com/tk/nnB-GMrp-oXk.php
+http://trk.mix.loffremagique.com/tk/nnB-GMrp-oXl.php
+http://trk.mix.loffremagique.com/tk/nnB-GMrp-oXm.php MARJ15 http://trk.mix.loffremagique.com/tk/nnB-GMrp-oXn.php J'EN PROFITE (http://trk.mix.loffremagique.com/tk/nnB-GMrp-oXo.php) http://trk.mix.loffremagique.com/tk/nnB-GMrp-oXp.php
+http://trk.mix.loffremagique.com/tk/nnB-GMrp-oXq.php
+http://trk.mix.loffremagique.com/tk/nnB-GMrp-oXr.php LES TOPS PRODUITS TATI (http://trk.mix.loffremagique.com/tk/nnB-GMrp-oXs.php) http://trk.mix.loffremagique.com/tk/nnB-GMrp-oXt.php
+http://trk.mix.loffremagique.com/tk/nnB-GMrp-oXA.php
+http://trk.mix.loffremagique.com/tk/nnB-GMrp-oXB.php
+CETTE SEMAINE SUR TATI.FR :
+
+Découvrez nos offres exceptionnelles !
+1 article Acheté = 1 article Offert et Livraison Offerte dès 40€.
+
+*Offre &quot;1 article acheté, 1 article offert&quot; valable du 3 au 7 décembre 2015 jusqu'à minuit sur le site Tati.fr, sur une sélection d'articles identifiés par un pictogramme &quot;NOEL&quot;. Le produit offert est le moins cher des 2 articles mis au panier de commande. Dans la limite de 4 produits offerts. Offre non cumulable avec d'autres promotions en cours. Ce code promotionnel est utilisable une seule fois et ne peut faire l'objet d'aucun remboursement en espèces ni d'aucune contrepartie de quelque nature que ce soit.
+
+Espaces Promos, 12 rue Camille Desmoulins, 92300 Levallois Perret.
+Conformément à l'article 34 de la loi Informatique et Liberté du 6 janvier 1978, vous disposez d'un droit d'accès, de modification,
+de rectification et de suppression des données vous concernant en adressant votre demande à &quot;report@dgcnit.fr&quot;.
+Déclaration CNIL - 1642645
+Vous souhaitez vous désinscrire de cette liste ? Cliquez ici. (http://trk.mix.loffremagique.com/usb/nnB-GMrp.php)
+
+
+--b1_b3c6391a9c228366b34a3d9c50215c32
+Content-Type: text/html; charset = "UTF-8"
+Content-Transfer-Encoding: 8bit
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> <html><body><table width="778" border="0" cellspacing="0" cellpadding="0" align="center" style="border-collapse: collapse;"><tr><td width="778" valign="top" align="center"> <table style="border-collapse: collapse;" align="center" border="0" cellpadding="0" cellspacing="0"><tr><td width="174" align="left" style="text-align:left;"><a href="http://trk.mix.loffremagique.com/view/nnB-GMrp.php" style="color:#000; text-decoration:underline; font-family:Arial,Helvetica,sans-serif; font-size:11px; text-align:left; font-weight:bold;">Afficher la version web.</a></td> <td width="6">|</td> <td width="207" align="center" style="text-align:center;"><a href="http://trk.mix.loffremagique.com/usb/nnB-GMrp.php" style="color:#000; text-decoration:underline; font-family:Arial,Helvetica,sans-serif; font-size:11px; text-align:center; font-weight:bold;">Annuler votre
+abonnement.</a></td> <td width="6">|</td> <td width="207" align="right" style="text-align:right;"><a href="mailto:abuse@dgcnit.fr" style="color:#00F; text-decoration:underline; font-family:Arial,Helvetica,sans-serif; font-size:11px; text-align:right; font-weight:bold;">Signaler comme courrier ind&eacute;sirable.</a></td> </tr></table></td> </tr><tr><td height="WWHTOPWW" align="center"></td> </tr></table><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><meta http-equiv="imagetoolbar" content="no"><title>News - TATI</title>
+
+<style type="text/css"> table { border-collapse:collapse; } </style>
+
+<table border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#ffffff" style="border-collapse: collapse;"><tr><td colspan="3" align="center" valign="bottom"> <table cellpadding="0" cellspacing="0" border="0" style="border-collapse: collapse;"><tr><td align="center" valign="bottom"><a href="http://trk.mix.loffremagique.com/tk/nnB-GMrp-oX5.php" target="_blank" title="TATI.fr"><img src="http://img.tati.fr/news/advertise_bonplan1egal1_20151204/img/top_01.jpg" width="357" height="110" border="0" style="vertical-align:bottom;" alt="TATI.fr"></a></td> <td align="center" valign="bottom"><a href="http://trk.mix.loffremagique.com/tk/nnB-GMrp-oX6.php" title="Application mobile" target="_blank"><img name="top_02" src="http://img.tati.fr/news/advertise_bonplan1egal1_20151204/img/top_02.jpg" width="77" height="110" border="0" style="vertical-align:bottom;" alt="Application mobile"></a></td> <td align="center" valign="bottom"><a
+href="http://trk.mix.loffremagique.com/tk/nnB-GMrp-oX7.php" title="Boutique Cadeaux" target="_blank"><img src="http://img.tati.fr/news/advertise_bonplan1egal1_20151204/img/top_03.jpg" width="44" height="110" border="0" style="vertical-align:bottom;" alt="Boutique Cadeaux"></a></td> <td align="center" valign="bottom"><a href="http://trk.mix.loffremagique.com/tk/nnB-GMrp-oX8.php" title="Parrainage" target="_blank"><img src="http://img.tati.fr/news/advertise_bonplan1egal1_20151204/img/top_04.jpg" width="71" height="110" border="0" style="vertical-align:bottom;" alt="Parrainage"></a></td> <td align="center" valign="bottom"><a href="http://trk.mix.loffremagique.com/tk/nnB-GMrp-oX9.php" title="Pack Livraison" target="_blank"><img src="http://img.tati.fr/news/advertise_bonplan1egal1_20151204/img/top_05.jpg" width="229" height="110" border="0" style="vertical-align:bottom;" alt="Pack Livraison"></a></td> </tr></table></td> </tr><tr><td align="center" valign="bottom" colspan="3"> <tab
+ le
+cellpadding="0" cellspacing="0" width="778" align="center" style="border-collapse: collapse; font-family: Arial, Helvetica, sans-serif; font-size: 11px; color: #242265;"><tr><td width="52" height="25"><a href="http://trk.mix.loffremagique.com/tk/nnB-GMrp-oXa.php" target="_blank" title="TATI.fr"><img src="http://img.tati.fr/news/advertise_bonplan1egal1_20151204/img/left_menu.jpg" alt="TATI.fr" width="52" height="29" border="0"></a></td> <td width="110" height="25" align="center" valign="middle" style="background:#000;font-family:arial;font-size:12px;colocr:#fff;"><a href="http://trk.mix.loffremagique.com/tk/nnB-GMrp-oXb.php" title="WWW.TATI.FR" target="_blank" style="color:#fff;text-decoration:none;">WWW.TATI.FR</a></td> <td align="center" valign="middle"> <table cellpadding="0" cellspacing="0" height="18" style="border-collapse: collapse;"><tr><td align="center" valign="middle" width="62"><a href="http://trk.mix.loffremagique.com/tk/nnB-GMrp-oXc.php" title="FEMME" target="_bl
+ ank"
+style="font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#242265; text-decoration:none;">FEMME</a></td><td width="1" height="18" bgcolor="#DDDDDD" style="font-size: 1px; line-height: 1px;"></td><td align="center" valign="middle" width="59"><a href="http://trk.mix.loffremagique.com/tk/nnB-GMrp-oXd.php" title="HOMME" target="_blank" style="font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#242265; text-decoration:none;">HOMME</a></td><td width="1" height="18" bgcolor="#DDDDDD" style="font-size: 1px; line-height: 1px;"></td><td align="center" valign="middle" width="61"><a href="http://trk.mix.loffremagique.com/tk/nnB-GMrp-oXe.php" title="ENFANT" target="_blank" style="font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#242265; text-decoration:none;">ENFANT</a></td><td width="1" height="18" bgcolor="#DDDDDD" style="font-size: 1px; line-height: 1px;"></td><td align="center" valign="middle" width="97"><a
+href="http://trk.mix.loffremagique.com/tk/nnB-GMrp-oXf.php" title="CHAUSSURES" target="_blank" style="font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#242265; text-decoration:none;">CHAUSSURES</a></td><td width="1" height="18" bgcolor="#DDDDDD" style="font-size: 1px; line-height: 1px;"></td><td align="center" valign="middle" width="60"><a href="http://trk.mix.loffremagique.com/tk/nnB-GMrp-oXg.php" title="MAISON" target="_blank" style="font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#242265; text-decoration:none;">MAISON</a></td><td width="1" height="18" bgcolor="#DDDDDD" style="font-size: 1px; line-height: 1px;"></td><td align="center" valign="middle" width="72"><a href="http://trk.mix.loffremagique.com/tk/nnB-GMrp-oXh.php" title="MEUBLES" target="_blank" style="font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#242265; text-decoration:none;">MEUBLES</a></td><td width="1" height="18" bgcolor="#DDDDDD" style="font-size: 1px; line-h
+ eight:
+1px;"></td><td align="center" valign="middle" width="72"><a href="http://trk.mix.loffremagique.com/tk/nnB-GMrp-oXi.php" title="MARIAGE" target="_blank" style="font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#242265; text-decoration:none;">MARIAGE</a></td><td width="1" height="18" bgcolor="#DDDDDD" style="font-size: 1px; line-height: 1px;"></td><td align="center" valign="middle" width="76"><a href="http://trk.mix.loffremagique.com/tk/nnB-GMrp-oXj.php" title="MARQUES" target="_blank" style="font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#242265; text-decoration:none;">MARQUES</a></td><td width="52" height="25"><a href="http://trk.mix.loffremagique.com/tk/nnB-GMrp-oXk.php" target="_blank" title="TATI.fr"><img src="http://img.tati.fr/news/advertise_bonplan1egal1_20151204/img/right_menu.jpg" alt="TATI.fr" width="52" height="29" border="0"></a></td></tr></table></td> </tr></table></td> </tr><tr><td align="center" valign="bottom" colspan="3"><a
+href="http://trk.mix.loffremagique.com/tk/nnB-GMrp-oXl.php" target="_blank" title="1 article Achet&eacute; = 1 article Offert sur les articles identifi&eacute;s par le pictogramme: No&euml;l"><img name="visu_01" src="http://img.tati.fr/news/advertise_bonplan1egal1_20151204/img/visu_01.jpg" width="778" height="423" id="visu_01" border="0" style="vertical-align:bottom;" alt="1 article Achet&eacute; = 1 article Offert sur les articles identifi&eacute;s par le pictogramme: No&euml;l"></a></td> </tr><tr><td colspan="3" align="center" valign="bottom"> <table cellpadding="0" cellspacing="0" border="0" style="border-collapse: collapse;"><tr><td width="249" height="33" align="center" valign="bottom"><a href="http://trk.mix.loffremagique.com/tk/nnB-GMrp-oXm.php" target="_blank" title="Avec le code promo:"><img name="visu_02" src="http://img.tati.fr/news/advertise_bonplan1egal1_20151204/img/visu_02.jpg" width="249" height="33" id="visu_" border="0" style="vertical-align:bottom;" alt="Av
+ ec le
+code promo:"></a></td> <td width="125" height="33" align="center" valign="middle" style="background-color:#ffffff;font-size:13px;"><font color="#000000" face="Arial,Helvetica, sans-serif"><strong>MARJ15</strong></font></td> <td width="19" height="33" align="center" valign="bottom"><a href="http://trk.mix.loffremagique.com/tk/nnB-GMrp-oXn.php" target="_blank" title="J'en profite"><img name="visu_04" src="http://img.tati.fr/news/advertise_bonplan1egal1_20151204/img/visu_04.jpg" width="19" height="33" id="visu_2" border="0" style="vertical-align:bottom;" alt="J'en profite"></a></td> <td width="125" height="33" align="center" valign="middle" style="background-color:#000000;font-size:13px;"><font face="Arial, Helvetica, sans-serif"><a href="http://trk.mix.loffremagique.com/tk/nnB-GMrp-oXo.php" title="J'en profite" target="_blank" style="text-decoration: none; color:#ffffff; display:block; line-height:26px;"><strong>J'EN PROFITE</strong></a></font></td> <td width="260" height="33"
+align="center" valign="bottom"><a href="http://trk.mix.loffremagique.com/tk/nnB-GMrp-oXp.php" target="_blank" title="J'en profite"><img name="visu_06" src="http://img.tati.fr/news/advertise_bonplan1egal1_20151204/img/visu_06.jpg" width="260" height="33" id="visu_3" border="0" style="vertical-align:bottom;" alt="J'en profite"></a></td> </tr></table></td> </tr><tr><td align="center" valign="bottom" colspan="3"><a href="http://trk.mix.loffremagique.com/tk/nnB-GMrp-oXq.php" target="_blank" title="Les Tops produits Tati"><img name="visu_07" src="http://img.tati.fr/news/advertise_bonplan1egal1_20151204/img/visu_07.jpg" width="778" height="46" id="visu_07" border="0" style="vertical-align:bottom;" alt="Les Tops produits Tati"></a></td> </tr><tr><td colspan="3" align="center" valign="bottom"> <table cellpadding="0" cellspacing="0" border="0" style="border-collapse: collapse;"><tr><td width="204" height="44" align="center" valign="bottom"><a
+href="http://trk.mix.loffremagique.com/tk/nnB-GMrp-oXr.php" target="_blank" title="Les Tops produits Tati"><img name="visu_08" src="http://img.tati.fr/news/advertise_bonplan1egal1_20151204/img/visu_08.jpg" width="204" height="44" id="visu_4" border="0" style="vertical-align:bottom;" alt="Les Tops produits Tati"></a></td> <td align="center" valign="middle" width="367" height="44" style="background:#fff;"><a href="http://trk.mix.loffremagique.com/tk/nnB-GMrp-oXs.php" title="Les Tops produits Tati" target="_blank" style="display:block;font-family:Arial, Helvetica, sans-serif; font-size:24px; color:#ED008E; text-decoration:none; letter-spacing:0.06em;"><strong>LES TOPS PRODUITS TATI</strong></a></td> <td width="207" height="44" align="center" valign="bottom"><a href="http://trk.mix.loffremagique.com/tk/nnB-GMrp-oXt.php" target="_blank" title="Les Tops produits Tati"><img name="visu_10" src="http://img.tati.fr/news/advertise_bonplan1egal1_20151204/img/visu_10.jpg" width="207" heig
+ ht="44"
+id="visu_5" border="0" style="vertical-align:bottom;" alt="Les Tops produits Tati"></a></td> </tr></table></td> </tr><tr><td align="center" valign="bottom" colspan="3"><a href="http://trk.mix.loffremagique.com/tk/nnB-GMrp-oXu.php" target="_blank" title="Le Robe"><img name="visu_11" src="http://img.tati.fr/news/advertise_bonplan1egal1_20151204/img/visu_11.jpg" width="267" height="197" id="visu_11" border="0" style="vertical-align:bottom;" alt="Le Robe"></a><a href="http://trk.mix.loffremagique.com/tk/nnB-GMrp-oXv.php" target="_blank" title="Livraison Offerte*"><img name="visu_12" src="http://img.tati.fr/news/advertise_bonplan1egal1_20151204/img/visu_12.jpg" width="247" height="197" id="visu_12" border="0" style="vertical-align:bottom;" alt="Livraison Offerte*"></a><a href="http://trk.mix.loffremagique.com/tk/nnB-GMrp-oXw.php" target="_blank" title="Kit de d&eacute;coration de sapin"><img name="visu_13" src="http://img.tati.fr/news/advertise_bonplan1egal1_20151204/img/visu_13.j
+ pg"
+width="264" height="197" id="visu_13" border="0" style="vertical-align:bottom;" alt="Kit de d&eacute;coration de sapin"></a></td> </tr><tr><td align="center" valign="bottom" colspan="3"><a href="http://trk.mix.loffremagique.com/tk/nnB-GMrp-oXx.php" target="_blank" title="Voir les promotions"><img name="visu_14" src="http://img.tati.fr/news/advertise_bonplan1egal1_20151204/img/visu_14.jpg" width="267" height="63" id="visu_14" border="0" style="vertical-align:bottom;" alt="Voir les promotions"></a><a href="http://trk.mix.loffremagique.com/tk/nnB-GMrp-oXy.php" target="_blank" title="J'en profite !"><img name="visu_15" src="http://img.tati.fr/news/advertise_bonplan1egal1_20151204/img/visu_15.jpg" width="247" height="63" id="visu_15" border="0" style="vertical-align:bottom;" alt="J'en profite !"></a><a href="http://trk.mix.loffremagique.com/tk/nnB-GMrp-oXz.php" target="_blank" title="Kit de d&eacute;coration de sapin"><img name="visu_16"
+src="http://img.tati.fr/news/advertise_bonplan1egal1_20151204/img/visu_16.jpg" width="264" height="63" id="visu_16" border="0" style="vertical-align:bottom;" alt="Kit de d&eacute;coration de sapin"></a></td> </tr><tr><td align="center"> <table cellpadding="0" cellspacing="0" width="676" style="border-collapse: collapse; border-right: 1px solid #DADADA; border-bottom: 1px solid #DADADA; border-left: 1px solid #DADADA;"><tr><td align="center" valign="top" style="font-family:Arial, Helvetica, sans-serif;font-size:12px;color:#3C3C3C;"><span style="color:#EB2A97;font-size:14px;">CETTE SEMAINE SUR TATI.FR :</span><br><br> D&eacute;couvrez nos <span style="color:#EB2A97;">offres exceptionnelles !</span><br> 1 article Achet&eacute; = 1 article Offert et <span style="color:#EB2A97;">Livraison Offerte d&egrave;s 40&euro;.</span><br><br></td></tr></table></td> </tr><tr><td align="center"> <table cellpadding="0" cellspacing="0" width="676" style="border-collapse: collapse;"><tr><td align
+ ="left"
+valign="top" style="font-family:Arial, Helvetica, sans-serif;font-size:12px;color:#3C3C3C;"><br> *Offre "1 article achet&eacute;, 1 article offert" valable du 3 au 7 d&eacute;cembre 2015 jusqu'&agrave; minuit sur le site Tati.fr, sur une s&eacute;lection d'articles identifi&eacute;s par un pictogramme "NOEL". Le produit offert est le moins cher des 2 articles mis au panier de commande. Dans la limite de 4 produits offerts. Offre non cumulable avec d'autres promotions en cours. Ce code promotionnel est utilisable une seule fois et ne peut faire l'objet d'aucun remboursement en esp&egrave;ces ni d'aucune contrepartie de quelque nature que ce soit.<br><br></td></tr></table></td> </tr></table><img src="http://mtrc1.digital-metric.com/view.php?params=3d8c93debd85b21c5bfaf6685bcbf521" alt="" border="0" width="1" height="1"><div> <table width="778" border="0" cellspacing="0" cellpadding="0" align="center" style="border-collapse: collapse; font-family: Arial, Helvetica, sans-serif;
+font-size: 10px; color: black; text-align: center;"><tr><td style="font-size:10px; text-align:center;"><br> Espaces Promos, 12 rue Camille Desmoulins, 92300 Levallois Perret.<br> Conform&eacute;ment &agrave; l'article 34 de la loi Informatique et Libert&eacute; du 6 janvier 1978, vous disposez d'un droit d'acc&egrave;s, de modification,<br> de rectification et de suppression des donn&eacute;es vous concernant en adressant votre demande &agrave; "report@dgcnit.fr".<br> D&eacute;claration CNIL - 1642645 </td> </tr><tr><td></td></tr><tr><td>Vous souhaitez vous d&eacute;sinscrire de cette liste ? <a href="http://trk.mix.loffremagique.com/usb/nnB-GMrp.php" style="color: #000; text-decoration:underline; font-size: 11px;">Cliquez ici.</a></td></tr></table></div><img src="http://trk.mix.loffremagique.com/pg/nnB-GMrp.php" width="1" height="1" alt="" /></body></html> 
+
+
+
+--b1_b3c6391a9c228366b34a3d9c50215c32--
+
+

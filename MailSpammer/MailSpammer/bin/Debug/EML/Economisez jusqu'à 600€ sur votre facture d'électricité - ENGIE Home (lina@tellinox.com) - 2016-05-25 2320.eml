@@ -1,0 +1,432 @@
+Return-Path: <lina@tellinox.com>
+Received: from mailimailo.univ-rennes1.fr ([unix socket])
+	 by mailimailo.univ-rennes1.fr (Cyrus v2.3.16-Fedora-RPM-2.3.16-6.el6_2.5) with LMTPA;
+	 Thu, 26 May 2016 03:09:38 +0200
+X-Sieve: CMU Sieve 2.3
+Received: from mailout2.univ-rennes1.fr (mailout2.univ-rennes1.fr [129.20.129.120])
+	by mailimailo.univ-rennes1.fr (Postfix) with ESMTP id B51AB1A7
+	for <resp-m2-miage@univ-rennes1.fr>; Thu, 26 May 2016 03:09:38 +0200 (CEST)
+Received: from localhost (vmscanmail.univ-rennes1.fr [129.20.128.134])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id B22986002F
+	for <resp-m2-miage@univ-rennes1.fr>; Thu, 26 May 2016 03:09:38 +0200 (CEST)
+X-Virus-Scanned: amavisd-new at univ-rennes1.fr
+Received: from mailout2.univ-rennes1.fr ([129.20.129.120])
+	by localhost (vmscanmail.univ-rennes1.frm [129.20.128.134]) (amavisd-new, port 10026)
+	with ESMTP id Twd98yL7h_is for <resp-m2-miage@univ-rennes1.fr>;
+	Thu, 26 May 2016 03:09:38 +0200 (CEST)
+Received: from vmmailin.univ-rennes1.fr (vmmailin.univ-rennes1.fr [129.20.128.133])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id 914A160009
+	for <resp-m2-miage@univ-rennes1.fr>; Thu, 26 May 2016 03:09:38 +0200 (CEST)
+Received: from mxb2-1.relay.renater.fr (mxb2-1.relay.renater.fr [194.214.200.8])
+	by vmmailin.univ-rennes1.fr (Postfix) with ESMTP id 87D9720033
+	for <resp-m2-miage@univ-rennes1.fr>; Thu, 26 May 2016 03:09:38 +0200 (CEST)
+Received: from relaya.tellinox.com (relaya.tellinox.com [163.172.248.120])
+	by mxb2-1.relay.renater.fr (asm) with ESMTP id 529C4600034
+	for <resp-m2-miage@univ-rennes1.fr>; Thu, 26 May 2016 03:09:38 +0200 (CEST)
+X-QHPSI: clean
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed;
+	d=tellinox.com; s=default; h=Date:Message-ID:To:From:Reply-To:
+	Subject:List-Unsubscribe:Precedence:Content-Type:MIME-Version;
+	bh=dxfzyaqkWhpHMpYVQE4EjgcdDUE=; b=XXsK+mdjF5eURyYQI2FijCcZGuHdc
+	GFKL4RCTM46CgVPParzwl/BxokgrTLUXrqW+OoH/9mYvC/uGOcD6NmS+QXrQ70y9
+	Fgbc4EkU7fE+0nD2AvU8mivy0ZEyhq4RhVq4jTu4Y3E24kYk0qmlcU7nenfN9XyQ
+	25dG5vFbQ+I7R4=
+DomainKey-Signature: a=rsa-sha1; q=dns; c=simple;
+  s=default; d=tellinox.com;
+  b=A/2LDnXwSX1PClmMveIBiDH1y6Ic2XsPWubMUwwuw0kW3qUbxdjmr4GqIBIIwn9bJQGS5FbbeHqow2YNEr+7hsu2oI5kWn1gjLjobpYIOEQ75rwraxXIsxrkaeuZdRUTfA3R0IaG/iEJLFs3hJRelLu/ibHf2cziObaDSzEIuIo=;
+Received: (qmail 15771 invoked by uid 0); Wed, 25 May 2016 23:20:05 +0200
+Date: Wed, 25 May 2016 23:20:04 +0200
+Message-ID: <20160525212004.15753.qmail@tellinox.comguitoline.com>
+To: resp-m2-miage@univ-rennes1.fr
+From: =?utf-8?B?RU5HSUUgSG9tZQ==?= <lina@tellinox.com>
+Reply-To: lina@tellinox.com <lina@tellinox.com>
+Subject: =?utf-8?B?RWNvbm9taXNleiBqdXNxdSfDoCA2MDDigqwgc3VyIHZvdHJlIGZhY3R1cmUgZCfDqWxlY3RyaWNpdMOp?=
+X-Abuse: abuse@local
+List-Unsubscribe: <http://tellinox.com/_ucUz6rsdzpdNCFtQ9ehrfQnOVn3HC1Zn510Tls18lbjTI0WvJ_gO7_VgeX74NmHY30nsOyPyiR2Mr8sJW6Si5XQ1I5a-dU9T-a_w1G0gQArd8BedvOHOHM_BP5kS7q48JCEsEAplHtAiaTIVrCgs9JXfcAldYrYUfnh-FSP3lPUxDZGKzTX8aFqb5iD315n>
+Precedence: bulk
+Content-Type: multipart/alternative; boundary="Y8k7MN7t59cc0sZq9b568wLZ2z6HKPbtYnjxkaJHYTI="
+MIME-Version: 1.0
+X-Original-Source-IP: 163.172.248.120
+X-Bizanga: IMP - mxb2-1.relay.renater.fr
+X-Renater-SpamState: 0
+X-Renater-SpamScore: 2
+X-Renater-SpamCause: gggruggvucftvghtrhhoucdtuddrfeekledrgeeggdeglecutefuodetggdotefrodftvfcurfhrohhfihhlvgemucftgffptefvgfftpdggtfgfnhhsuhgsshgtrhhisggvnecuuegrihhlohhuthemuceftddtnecuogfuphgrmhfkphculddumdenogfuphgrmhfjughrucdluddmnecujfgurhepfffkvffhrhfujfhptgggsegrtddvredttddunecuhfhrohhmpefgpffikffgucfjohhmvgcuoehlihhnrgesthgvlhhlihhnohigrdgtohhmqeenucffohhmrghinhepthgvlhhlihhnohigrdgtohhmnecukfhppeduieefrddujedvrddvgeekrdduvddtnecurfgrrhgrmhepmhhouggvpehsmhhtphdphhgvlhhopehrvghlrgihrgdrthgvlhhlihhnohigrdgtohhmpdhinhgvthepudeifedrudejvddrvdegkedruddvtddpmhgrihhlfhhrohhmpehlihhnrgesthgvlhhlihhnohigrdgtohhmpdhrtghpthhtoheprhgvshhpqdhmvddqmhhirghgvgesuhhnihhvqdhrvghnnhgvshdurdhfrh 
+X-Renater-ServerName: mxb2-1.relay.renater.fr
+
+--Y8k7MN7t59cc0sZq9b568wLZ2z6HKPbtYnjxkaJHYTI=
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+Pour visualiser la version en ligne, veuillez vous rendre ici :http://tellinox.com/GHN4_BjaM6ue2DonC7gCqs--bIhTvUJHbjbZYi-Nej8cywpRfdAldgtNZ4rQR19w2N3Z_ovrtG4YgsAl11fc1gGonSJBTLCHMHobDa0M3ZLAJ0nGKuA0VkOdfiqHlaLe5D1gyncEVXmwF0GGyVnxTLwl1AkE-cLJSz0dpS-HNbv68o9h2Sk8LEqHkov6hg74_lyoT0JdIXLAkLUbdWU9eQ==Économisez jusqu'à 600€ par an sur votre facture d'électricité !	
+
+
+Optez pour l'offre My Power d'ENGIE Home Performance
+Produisez et consommez votre propre électricité
+
+	
+Jusqu'à 6 900€(2) TTC
+POSE COMPRISE
+Pourquoi choisir l'offre autoconsommation My Power ?	
+
+Prise en charge de vos démarches administratives
+
+Visite technique à domicile gratuite
+
+Pose et mise en service en 1 journée par des installateurs locaux RGE
+
+Matériel haut de gamme sélectionné par nos experts
+Pack services complet(3) :
+
+ Espace client en ligne avec alertes en cas de dysfonctionnement
+
+Bilans mensuels de production
+
+Garantie onduleur étendue à 10 ans
+Mon devis sous 48h	
+
+Les autres avantages de l'autoconsommation : Devenez producteur d'énergie verte, réduisez votre dépendance au réseau électrique et valorisez votre patrimoine grâce à une énergie renouvelable !	
+
+	
+
+(1) Économies réalisées pour une maison située dans la zone d'ensoleillement la plus forte de France et respectant les critères ci-après : toit orienté plein sud et incliné à 35°, pas d'éléments perturbateurs faisant de l'ombre sur la toiture et taux d'autoconsommation de 90%. Le montant en euros est calculé à partir d'un prix moyen du kWh sur 10 ans estimé 0,168€, soit une augmentation de 2,5% par an.
+
+(2) Prix de vente indicatif pour un kit photovoltaïque d'une puissance de 2,55kWc posé en surimposition sur une maison sans difficulté particulière de pose. TVA à 10% (logement de plus de deux ans).
+
+(3) Offre proposée à 10€ TTC / mois donnant accès à un espace client, aux alertes emails en cas de dysfonctionnement de l'installation, à un premier niveau de dépannage à distance et à une garantie onduleur étendue à 10 ans (pièces, main d'œuvre et déplacement). La prestation est assurée par SAVELYS PV, filiale ENGIE Home Services.
+
+(4) Un conseiller vous contactera gratuitement sous 48h ouvrées du lundi au vendredi de 8h à 20h. Il vous proposera un devis en ligne sur la base des informations qui lui seront transmises.
+
+ENGIE Home Performance SAS, au capital de 40 000€, ayant son siège social : 1 place Samuel de Champlain, 92400 Courbevoie immatriculée au Registre du Commerce et des Sociétés de Nanterre sous le numéro 537 694 747.
+Pour vous desinscrire, veuillez vous rendre ici :http://tellinox.com/GHN4_BjaM6ue2DonC7gCqs--bIhTvUJHbjbZYi-Nej8cywpRfdAldgtNZ4rQR19wHfw3Zk5R8gpYG_Fgk7_lFAldG3lpGxWYAvhj_m5IgH4RkDdhiPktLoss8KOHEum1TjUHk7OlhrfoIXdJdGYGMg==
+
+
+--Y8k7MN7t59cc0sZq9b568wLZ2z6HKPbtYnjxkaJHYTI=
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+<html>
+<head>
+	<title></title>
+	<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type">
+	<meta content="width=device-width" name="viewport">
+</head>
+<body><link rel="stylesheet" href="http://tellinox.com/GHN4_BjaM6ue2DonC7gCqs--bIhTvUJHbjbZYi-Nej9LCFiyhxGO0h62m-Wq3muhZAJAQdrcdN4r4fnhT6TAMiFf1J23_tm6a05k_8v1VwH-LnKXFdq9rOcKSxdeKM3t"/>
+<div style="text-align:center;"><div align="center"><font color="#000000" style="font-size:11px;font-family:Verdana,Arial,Helvetica,sans-serif;"><br>Pour visualiser correctement ce message, accédez à la <a href="http://tellinox.com/GHN4_BjaM6ue2DonC7gCqs--bIhTvUJHbjbZYi-Nej8cywpRfdAldgtNZ4rQR19wo_VB4lrNv5en1UfsmcCdXDHoBUCFYPArdMxIrW1_-WvYqoXdUAg9Moky7UmnfyhzoXdDc7W3Mn_v1BJlWwdaSEMGlR69nYYOFkpjdJ_T5pbyakPDrLVJddgeitX4SKmCeCIaFwtAjkALlOcM2zAXF3HDpfBsN_Iyc7dld2THgnZuoenmrRBY_A5v-bq5xl/EGfPWZ2ZchQbMDRVGQpdeWIZpB7Yvv0BMyQKZcsmZiJJg=">version en ligne</a><br><br></font></div></div>
+<style type="text/css">@media only screen and (max-width: 600px) {
+  table[class="body"] img {
+    width: 100% !important;
+    height: auto !important;
+  }
+  table[class="body"] center {
+    min-width: 0 !important;
+  }
+  table[class="body"] .container {
+    width: 95% !important;
+  }
+  table[class="body"] .row {
+    width: 100% !important; display: block !important;
+  }
+  table[class="body"] .wrapper {
+    display: block !important; padding-right: 0 !important;
+  }
+  table[class="body"] .wrapperFirst {
+    padding-bottom: 20px !important;
+  }
+  table[class="body"] .columns {
+    table-layout: fixed !important; float: none !important; width: 100% !important; padding-right: 0px !important; padding-left: 0px !important; display: block !important;
+  }
+  table[class="body"] .column {
+    table-layout: fixed !important; float: none !important; width: 100% !important; padding-right: 0px !important; padding-left: 0px !important; display: block !important;
+  }
+  table[class="body"] .wrapper.first .columns {
+    display: table !important;
+  }
+  table[class="body"] .wrapper.first .column {
+    display: table !important;
+  }
+  table[class="body"] table.columns td {
+    width: 100% !important;
+  }
+  table[class="body"] table.column td {
+    width: 100% !important;
+  }
+  table[class="body"] .columns td.one {
+    width: 8.333333% !important;
+  }
+  table[class="body"] .column td.one {
+    width: 8.333333% !important;
+  }
+  table[class="body"] .columns td.six {
+    width: 50% !important;
+  }
+  table[class="body"] .column td.six {
+    width: 50% !important;
+  }
+  table[class="body"] .columns td.twelve {
+    width: 100% !important;
+  }
+  table[class="body"] .column td.twelve {
+    width: 100% !important;
+  }
+  table[class="body"] table.columns td.expander {
+    width: 1px !important;
+  }
+}
+</style>
+<table class="body" style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: left; height: 100%; width: 100%; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0;">
+	<tbody>
+		<tr align="left" style="vertical-align: top; text-align: left; padding: 0;">
+			<td align="center" class="center" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: center; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0;" valign="top">
+			<center style="width: 100%; min-width: 580px;">
+			<table class="container" style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: inherit; width: 580px; margin: 0 auto; padding: 0;">
+				<tbody>
+					<tr align="left" style="vertical-align: top; text-align: left; padding: 0;">
+						<td align="left" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0;" valign="top">
+						<table class="row" style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: left; width: 100%; position: relative; display: block; padding: 0px;">
+							<tbody>
+								<tr align="left" style="vertical-align: top; text-align: left; padding: 0;">
+									<td align="left" class="wrapper last" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; position: relative; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0px;" valign="top">
+									<table class="twelve columns" style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: left; width: 580px; margin: 0 auto; padding: 0;">
+										<tbody>
+											<tr align="left" style="vertical-align: top; text-align: left; padding: 0;">
+												<td align="left" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0px;" valign="top"><a href="http://tellinox.com/GHN4_BjaM6ue2DonC7gCqs--bIhTvUJHbjbZYi-Nej8cywpRfdAldgtNZ4rQR19wM7UlWWcn9AC_TDW7mmq3zObxcA2cOpUnh4G3Sn-QWzQcj_XzmOZ7KL_dapGrfdfDL4WRglLTJjN0rpn5w6gyHg==" style="color: #2ba6cb; text-decoration: none;" target="_blank"><img align="left" alt="Économisez jusqu'à 600€ par an sur votre facture d'électricité !" height="239" src="http://tellinox.com/img/456/images/1773208797574.jpg" style="outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; width: auto; max-width: 100%; float: left; clear: both; display: block; border: none;" width="580"></a></td>
+												<td align="left" class="expander" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; visibility: hidden; width: 0px; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0;" valign="top"></td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						<br>
+						<!-- Break Tag for row -->
+						<table class="row" style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: left; width: 100%; position: relative; display: block; padding: 0px;">
+							<tbody>
+								<tr align="left" style="vertical-align: top; text-align: left; padding: 0;">
+									<td align="left" class="wrapper wrapperFirst" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; position: relative; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0px;" valign="top">
+									<table class="six columns" style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: left; width: 290px; margin: 0 auto; padding: 0;">
+										<tbody>
+											<tr align="left" style="vertical-align: top; text-align: left; padding: 0;">
+												<td align="left" bgcolor="#6ac7ea" class="panelBlue" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; background: #6ac7ea; margin: 0; padding: 36px;" valign="top"><img align="left" height="2" src="http://tellinox.com/img/456/images/8262590505745.png" style="outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; width: auto; max-width: 22px; float: left; clear: both; display: block;" width="22">
+												<h1 align="left" style="color: #ffffff; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; text-align: left; line-height: 1.3; word-break: normal; font-size: 24px; margin: 0; padding: 0 0 10px;">Optez pour l'offre My Power d'ENGIE Home Performance</h1>
+
+												<p align="left" style="color: #ffffff; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; text-align: left; line-height: 24px; font-size: 19px; margin: 0 0 0 0px; padding: 0;">Produisez et consommez votre propre électricité</p>
+												<br>
+												<img align="left" height="2" src="http://tellinox.com/img/456/images/8262590505745.png" style="outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; width: auto; max-width: 22px; float: left; clear: both; display: block;" width="22"></td>
+												<td align="left" class="expander" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; visibility: hidden; width: 0px; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0;" valign="top"></td>
+											</tr>
+										</tbody>
+									</table>
+
+									<table class="six columns" style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: left; width: 290px; margin: 0 auto; padding: 0;">
+										<tbody>
+											<tr align="left" style="vertical-align: top; text-align: left; padding: 0;">
+												<td align="left" bgcolor="#ad2864" class="panelPink" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; background: #ad2864; margin: 0; padding: 30px 36px;" valign="top">
+												<h2 align="left" style="color: #ffffff; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; text-align: left; line-height: 1.3; word-break: normal; font-size: 19px; margin: 0; padding: 0;">Jusqu'à <strong>6 900€</strong><sup style="font-size: 12px;">(2)</sup> TTC<br>
+												<strong>POSE COMPRISE</strong></h2>
+												</td>
+												<td align="left" class="expander" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; visibility: hidden; width: 0px; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0;" valign="top"></td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+									<td align="left" class="wrapper last" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; position: relative; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0px;" valign="top">
+									<table class="six columns" style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: left; width: 290px; margin: 0 auto; padding: 0;">
+										<tbody>
+											<tr align="left" style="vertical-align: top; text-align: left; padding: 0;">
+												<td align="left" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0px;" valign="top"><img align="left" alt="Pourquoi choisir l'offre autoconsommation My Power ?" height="61" src="http://tellinox.com/img/456/images/662511235745b.jpg" style="outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; width: auto; max-width: 100%; float: left; clear: both; display: block;" width="290"></td>
+												<td align="left" class="expander" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; visibility: hidden; width: 0px; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0;" valign="top"></td>
+											</tr>
+										</tbody>
+									</table>
+
+									<table class="six columns" style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: left; width: 290px; margin: 0 auto; padding: 0;">
+										<tbody>
+											<tr align="left" style="vertical-align: top; text-align: left; padding: 0;">
+												<td align="left" bgcolor="#ffffff" class="panelWhite" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; background: #ffffff; margin: 0; padding: 14px 16px 16px;" valign="top">
+												<table style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: left; padding: 0;">
+													<tbody>
+														<tr align="left" style="vertical-align: top; text-align: left; padding: 0;">
+															<td align="left" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0px;" valign="top"><img align="left" height="15" src="http://tellinox.com/img/456/images/1700525836574.png" style="min-height: 15px !important; min-width: 12px !important; max-height: 15px !important; max-width: 12px !important; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; width: auto; float: left; clear: both; display: block;" width="8">
+															<p align="left" style="color: #4c4d4f; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; text-align: left; line-height: 19px; font-size: 14px; min-width: 258px; margin: 0 0 0 0px; padding: 0;">Prise en charge de vos démarches administratives</p>
+															</td>
+														</tr>
+													</tbody>
+												</table>
+
+												<hr style="color: #ffffff; height: 1px; background: #ffffff; border: none;">
+												<table style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: left; padding: 0;">
+													<tbody>
+														<tr align="left" style="vertical-align: top; text-align: left; padding: 0;">
+															<td align="left" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0px;" valign="top"><img align="left" height="15" src="http://tellinox.com/img/456/images/1700525836574.png" style="min-height: 15px !important; min-width: 12px !important; max-height: 15px !important; max-width: 12px !important; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; width: auto; float: left; clear: both; display: block;" width="8">
+															<p align="left" style="color: #4c4d4f; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; text-align: left; line-height: 19px; font-size: 14px; min-width: 258px; margin: 0 0 0 0px; padding: 0;">Visite technique à domicile <strong>gratuite</strong></p>
+															</td>
+														</tr>
+													</tbody>
+												</table>
+
+												<hr style="color: #ffffff; height: 1px; background: #ffffff; border: none;">
+												<table style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: left; padding: 0;">
+													<tbody>
+														<tr align="left" style="vertical-align: top; text-align: left; padding: 0;">
+															<td align="left" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0px;" valign="top"><img align="left" height="15" src="http://tellinox.com/img/456/images/1700525836574.png" style="min-height: 15px !important; min-width: 12px !important; max-height: 15px !important; max-width: 12px !important; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; width: auto; float: left; clear: both; display: block;" width="8">
+															<p align="left" style="color: #4c4d4f; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; text-align: left; line-height: 19px; font-size: 14px; min-width: 258px; margin: 0 0 0 0px; padding: 0;"><strong>Pose et mise en service en 1 journée</strong> par des installateurs locaux <strong style="color: #4e357c; font-weight: bolder; font-size: 14px;">RGE</strong></p>
+															</td>
+														</tr>
+													</tbody>
+												</table>
+
+												<hr style="color: #ffffff; height: 1px; background: #ffffff; border: none;">
+												<table style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: left; padding: 0;">
+													<tbody>
+														<tr align="left" style="vertical-align: top; text-align: left; padding: 0;">
+															<td align="left" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0px;" valign="top"><img align="left" height="15" src="http://tellinox.com/img/456/images/1700525836574.png" style="min-height: 15px !important; min-width: 12px !important; max-height: 15px !important; max-width: 12px !important; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; width: auto; float: left; clear: both; display: block;" width="8">
+															<p align="left" style="color: #4c4d4f; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; text-align: left; line-height: 19px; font-size: 14px; min-width: 258px; margin: 0 0 0 0px; padding: 0; padding-bottom:10px;">Matériel <strong>haut de gamme</strong> sélectionné par nos experts</p>
+															</td>
+														</tr>
+													</tbody>
+												</table>
+
+												<hr style="color: #cccccc; height: 1px; background: #cccccc; border: none;">
+												<table style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: left; padding: 0;">
+													<tbody>
+														<tr align="left" style="vertical-align: top; text-align: left; padding: 0;">
+															<td align="left" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0px;" valign="top">
+															<p align="left" style="color: #4c4d4f; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; text-align: left; line-height: 19px; font-size: 14px; min-width: 258px; margin: 0 0 0 0px; padding: 0; padding-top:5px;"><strong>Pack services complet</strong><sup style="font-size: 10px;">(3)</sup> :</p>
+															</td>
+														</tr>
+													</tbody>
+												</table>
+
+												<hr style="color: #ffffff; height: 1px; background: #ffffff; border: none;">
+												<table style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: left; padding: 0;">
+													<tbody>
+														<tr align="left" style="vertical-align: top; text-align: left; padding: 0;">
+															<td align="left" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0px;" valign="top"><img align="left" height="15" src="http://tellinox.com/img/456/images/7219086965745.png" style="min-height: 15px !important; min-width: 8px !important; max-height: 15px !important; max-width: 8px !important; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; width: auto; float: left; clear: both; display: block;" width="8">
+															<p align="left" style="color: #4c4d4f; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; text-align: left; line-height: 19px; font-size: 14px; min-width: 258px; margin: 0 0 0 0px; padding: 0;"> <strong>Espace client</strong> en ligne avec alertes en cas de dysfonctionnement</p>
+															</td>
+														</tr>
+													</tbody>
+												</table>
+
+												<hr style="color: #ffffff; height: 1px; background: #ffffff; border: none;">
+												<table style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: left; padding: 0;">
+													<tbody>
+														<tr align="left" style="vertical-align: top; text-align: left; padding: 0;">
+															<td align="left" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0px;" valign="top"><img align="left" height="15" src="http://tellinox.com/img/456/images/7219086965745.png" style="min-height: 15px !important; min-width: 8px !important; max-height: 15px !important; max-width: 8px !important; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; width: auto; float: left; clear: both; display: block;" width="8">
+															<p align="left" style="color: #4c4d4f; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; text-align: left; line-height: 19px; font-size: 14px; min-width: 258px; margin: 0 0 0 0px; padding: 0;"><strong>Bilans mensuels</strong> de production</p>
+															</td>
+														</tr>
+													</tbody>
+												</table>
+
+												<hr style="color: #ffffff; height: 1px; background: #ffffff; border: none;">
+												<table style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: left; padding: 0;">
+													<tbody>
+														<tr align="left" style="vertical-align: top; text-align: left; padding: 0;">
+															<td align="left" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0px;" valign="top"><img align="left" height="15" src="http://tellinox.com/img/456/images/7219086965745.png" style="min-height: 15px !important; min-width: 8px !important; max-height: 15px !important; max-width: 8px !important; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; width: auto; float: left; clear: both; display: block;" width="8">
+															<p align="left" style="color: #4c4d4f; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; text-align: left; line-height: 19px; font-size: 14px; min-width: 258px; margin: 0 0 0 0px; padding: 0;">Garantie onduleur étendue à 10 ans</p>
+															</td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+												<td align="left" class="expander" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; visibility: hidden; width: 0px; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0;" valign="top"></td>
+											</tr>
+										</tbody>
+									</table>
+
+									<table class="six columns" style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: left; width: 290px; margin: 0 auto; padding: 0;">
+										<tbody>
+											<tr align="left" style="vertical-align: top; text-align: left; padding: 0;">
+												<td align="left" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0px;" valign="top"><a href="http://tellinox.com/GHN4_BjaM6ue2DonC7gCqs--bIhTvUJHbjbZYi-Nej8cywpRfdAldgtNZ4rQR19wJsZackWEW1IGQgEZrgd-209TfsbJdcDKLt5W3ydVFClarnZuGJdyeVlmNRSvtL0158pEfPk5kAsYTLp3uDRI7A==" style="color: #2ba6cb; text-decoration: none;" target="_blank"><img align="left" alt="Mon devis sous 48h" height="49" src="http://tellinox.com/img/456/images/2023629150574.png" style="outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; width: auto; max-width: 100%; float: left; clear: both; display: block; border: none;" width="290"></a></td>
+												<td align="left" class="expander" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; visibility: hidden; width: 0px; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0;" valign="top"></td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						<br>
+						<!-- content start -->
+						<table class="row" style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: left; width: 100%; position: relative; display: block; padding: 0px;">
+							<tbody>
+								<tr align="left" style="vertical-align: top; text-align: left; padding: 0;">
+									<td align="left" class="wrapper last" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; position: relative; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0px;" valign="top">
+									<table class="twelve columns" style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: left; width: 580px; margin: 0 auto; padding: 0;">
+										<tbody>
+											<tr align="left" style="vertical-align: top; text-align: left; padding: 0;">
+												<td align="left" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0px;" valign="top"><img align="left" alt="Les autres avantages de l'autoconsommation : Devenez producteur d'énergie verte, réduisez votre dépendance au réseau électrique et valorisez votre patrimoine grâce à une énergie renouvelable !" height="174" src="http://tellinox.com/img/456/images/5386537325745.jpg" style="outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; width: auto; max-width: 100%; float: left; clear: both; display: block;" width="580"></td>
+												<td align="left" class="expander" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; visibility: hidden; width: 0px; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0;" valign="top"></td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						<br>
+						<!-- container end below --></td>
+					</tr>
+				</tbody>
+			</table>
+
+			<table bgcolor="#d8d8d8" class="row footer" style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: left; width: 100%; position: relative; background: #d8d8d8; padding: 0px;">
+				<tbody>
+					<tr align="left" style="vertical-align: top; text-align: left; padding: 0;">
+						<td align="center" class="center" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: center; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0;" valign="top">
+						<center style="width: 100%; min-width: 580px;">
+						<table class="container" style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: inherit; width: 580px; margin: 0 auto; padding: 0;">
+							<tbody>
+								<tr align="left" style="vertical-align: top; text-align: left; padding: 0;">
+									<td align="left" class="wrapper last" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; position: relative; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0px;" valign="top">
+									<table class="twelve columns" style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: left; width: 580px; margin: 0 auto; padding: 0;">
+										<tbody>
+											<tr align="left" style="vertical-align: top; text-align: left; padding: 0;">
+												<td align="left" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0px;" valign="top"><img align="left" height="6" src="http://tellinox.com/img/456/images/7036066215745.jpg" style="outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; width: auto; max-width: 100%; float: left; clear: both; display: block;" width="580"></td>
+												<td align="left" class="expander" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; visibility: hidden; width: 0px; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0;" valign="top"></td>
+											</tr>
+										</tbody>
+									</table>
+
+									<table class="twelve columns" style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: left; width: 580px; margin: 0 auto; padding: 0;">
+										<tbody>
+											<tr align="left" style="vertical-align: top; text-align: left; padding: 0;">
+												<td align="left" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0px;" valign="top"> 
+												<h5 align="center" style="color: #767676; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; text-align: center; line-height: 1.3; word-break: normal; font-size: 10px; margin: 0; padding: 0; padding-left:15px!important; padding-right:15px!important;"><sup>(1)</sup> Économies réalisées pour une maison située dans la zone d'ensoleillement la plus forte de France et respectant les critères ci-après : toit orienté plein sud et incliné à 35°, pas d'éléments perturbateurs faisant de l'ombre sur la toiture et taux d'autoconsommation de 90%. Le montant en euros est calculé à partir d'un prix moyen du kWh sur 10 ans estimé 0,168€, soit une augmentation de 2,5% par an.<br>
+												<br>
+												<sup>(2)</sup> Prix de vente indicatif pour un kit photovoltaïque d'une puissance de 2,55kWc posé en surimposition sur une maison sans difficulté particulière de pose. TVA à 10% (logement de plus de deux ans).<br>
+												<br>
+												<sup>(3)</sup> Offre proposée à 10€ TTC / mois donnant accès à un espace client, aux alertes emails en cas de dysfonctionnement de l'installation, à un premier niveau de dépannage à distance et à une garantie onduleur étendue à 10 ans (pièces, main d'œuvre et déplacement). La prestation est assurée par SAVELYS PV, filiale ENGIE Home Services.<br>
+												<br>
+												<sup>(4)</sup> Un conseiller vous contactera gratuitement sous 48h ouvrées du lundi au vendredi de 8h à 20h. Il vous proposera un devis en ligne sur la base des informations qui lui seront transmises.<br>
+												<br>
+												ENGIE Home Performance SAS, au capital de 40 000€, ayant son siège social : 1 place Samuel de Champlain, 92400 Courbevoie immatriculée au Registre du Commerce et des Sociétés de Nanterre sous le numéro 537 694 747.</h5>
+												</td>
+												<td align="left" class="expander" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; visibility: hidden; width: 0px; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0;" valign="top"></td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</center>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			</center>
+			</td>
+		</tr>
+	</tbody>
+</table>
+<img src="http://track.effimails3bis.com/servlet/effi.pixel?id_compteur=13454845">
+<div style="text-align:center;"><div align="center"><font color="#000000" style="font-size:11px;font-family:Verdana,Arial,Helvetica,sans-serif;"><br>Pour cesser de recevoir nos informations sur l'adresse resp-m2-miage@univ-rennes1.fr, <a href="http://tellinox.com/GHN4_BjaM6ue2DonC7gCqs--bIhTvUJHbjbZYi-Nej8cywpRfdAldgtNZ4rQR19w8kLGnQQAKmNTDsYl3IuGTJAzhIBDRIlMoTb3trq79uBbhlfubqg_gtQsbrhuxE4SMDehejEGzJqynQwscXJ3mw==">désabonnez-vous</a>.</font></div></div>
+</body>
+</html>
+
+
+--Y8k7MN7t59cc0sZq9b568wLZ2z6HKPbtYnjxkaJHYTI=--
+

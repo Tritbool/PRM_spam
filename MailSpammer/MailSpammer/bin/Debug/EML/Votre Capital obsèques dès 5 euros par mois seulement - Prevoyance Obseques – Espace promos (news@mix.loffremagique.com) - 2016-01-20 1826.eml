@@ -1,0 +1,98 @@
+Return-Path: <bounce+sKz-GMrp-eD9K@mix.loffremagique.com>
+Received: from mailimailo.univ-rennes1.fr ([unix socket])
+	 by mailimailo.univ-rennes1.fr (Cyrus v2.3.16-Fedora-RPM-2.3.16-6.el6_2.5) with LMTPA;
+	 Wed, 20 Jan 2016 18:26:45 +0100
+X-Sieve: CMU Sieve 2.3
+Received: from mailout1.univ-rennes1.fr (mailout1.univ-rennes1.fr [129.20.128.162])
+	by mailimailo.univ-rennes1.fr (Postfix) with ESMTP id 000CD26A0F41
+	for <resp-m2-miage@univ-rennes1.fr>; Wed, 20 Jan 2016 18:26:44 +0100 (CET)
+Received: from localhost (vmscanmail.univ-rennes1.fr [129.20.128.134])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id F11FF601F3
+	for <resp-m2-miage@univ-rennes1.fr>; Wed, 20 Jan 2016 18:26:44 +0100 (CET)
+X-Virus-Scanned: amavisd-new at univ-rennes1.fr
+Received: from mailout1.univ-rennes1.fr ([129.20.128.162])
+	by localhost (vmscanmail.univ-rennes1.frm [129.20.128.134]) (amavisd-new, port 10026)
+	with ESMTP id bM3YwC1Tt82v for <resp-m2-miage@univ-rennes1.fr>;
+	Wed, 20 Jan 2016 18:26:44 +0100 (CET)
+Received: from vmmailin.univ-rennes1.fr (vmmailin.univ-rennes1.fr [129.20.128.133])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id CEAA96009F
+	for <resp-m2-miage@univ-rennes1.fr>; Wed, 20 Jan 2016 18:26:44 +0100 (CET)
+Received: from mxb2-1.relay.renater.fr (mxb2-1.relay.renater.fr [194.214.200.8])
+	by vmmailin.univ-rennes1.fr (Postfix) with ESMTP id C753120033
+	for <resp-m2-miage@univ-rennes1.fr>; Wed, 20 Jan 2016 18:26:44 +0100 (CET)
+Received: from smtp166.mix.loffremagique.com (smtp166.mix.loffremagique.com [82.196.26.166])
+	by mxb2-1.relay.renater.fr (asm) with ESMTP id 8322F600124
+	for <resp-m2-miage@univ-rennes1.fr>; Wed, 20 Jan 2016 18:26:44 +0100 (CET)
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=s2c; d=mix.loffremagique.com;
+ h=Date:To:From:Subject:Message-ID:List-Unsubscribe:MIME-Version:Content-Type; i=news@mix.loffremagique.com;
+ bh=ONx0o2dudFDOEeLyd/UV4luTjWs=;
+ b=Dou/n9+jZRN4Zk2QK7tudJg8eaZjP5anZQiTJZGCzzmPcugB5QgZVVToJlkWBt1Uh7flwMS7JVIg
+   28CKAxmJXDBWQbJYoTOkvdhWkYtN4Pg9sYlkUzk/uQKtpFh3jMFI5CYcLPjLAUeqQzrnYSyu/6Bv
+   3rBqDohbeDqNgZ+Qtks=
+Received: by smtp166.mix.loffremagique.com id hjv1l81vjtg1 for <resp-m2-miage@univ-rennes1.fr>; Wed, 20 Jan 2016 18:26:38 +0100 (envelope-from <bounce+sKz-GMrp-eD9K@mix.loffremagique.com>)
+Date: Wed, 20 Jan 2016 18:26:39 +0100
+To: resp-m2-miage@univ-rennes1.fr
+From: =?UTF-8?Q?Prevoyance_Obseques_=E2=80=93_Espace_promos?= <news@mix.loffremagique.com>
+Subject: =?UTF-8?Q?Votre_Capital_obs=C3=A8ques_d=C3=A8s_5_euros_par_mois_seulement?=
+Message-ID: <bounce+sKz-GMrp-eD9K@mix.loffremagique.com>
+List-Unsubscribe: <mailto:bounce+sKz-GMrp-eD9K@mix.loffremagique.com?subject=unsubscribe-sKz-GMrp>,<http://trk.mix.loffremagique.com/usb/sKz-GMrp.php>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="b1_4574a5ed53514b9d8fedbac9135e33c9"
+X-UCE-Status: YES
+X-UCE-Type: MCE
+X-Original-Source-IP: 82.196.26.166
+X-Bizanga: IMP - mxb2-1.relay.renater.fr
+X-Renater-SpamState: 11
+X-Renater-SpamScore: 17
+X-Renater-SpamCause: gggruggvucftvghtrhhoucdtuddrfeekiedruddtuddgleehucetufdoteggodetrfdotffvucfrrhhofhhilhgvmecutffgpfetvffgtfdpggftfghnshhusghstghrihgsvgenuceurghilhhouhhtmecufedttdenucdnofetkffnkffpifculddujedmnecujfgurhepfffvhffukffjgggtsegrtderphdttdejnecuhfhrohhmpefrrhgvvhhohigrnhgtvggpqfgsshgvqhhuvghspgdqpgfgshhprggtvggpphhrohhmohhsuceonhgvfihssehmihigrdhlohhffhhrvghmrghgihhquhgvrdgtohhmqeenucffohhmrghinheplhhofhhfrhgvmhgrghhiqhhuvgdrtghomhenucfrrghrrghmpehmohguvgepshhmthhppdhhvghlohepshhmthhpudeiiedrmhhigidrlhhofhhfrhgvmhgrghhiqhhuvgdrtghomhdpihhnvghtpeekvddrudeliedrvdeirdduieeipdhmrghilhhfrhhomhepsghouhhntggvodhsmfiiqdfiofhrphdqvgfflefmsehmihigrdhlohhffhhrvghmrghgihhquhgvrdgtohhmpdhrtghpthhtoheprhgvshhpqdhmvddqmhhirghgvgesuhhnihhvqdhrvghnnhgvshdurdhfrh 
+X-Renater-ServerName: mxb2-1.relay.renater.fr
+
+
+--b1_4574a5ed53514b9d8fedbac9135e33c9
+Content-Type: text/plain; charset = "UTF-8"
+Content-Transfer-Encoding: 8bit
+
+Afficher la version web. (http://trk.mix.loffremagique.com/view/sKz-GMrp.php) | Annuler votre abonnement. (http://trk.mix.loffremagique.com/usb/sKz-GMrp.php) | Signaler comme courrier indésirable. (mailto:abuse@dgcnit.fr)
+
+En poursuivant votre navigation, vous acceptez l'utilisation de cookies pour vous proposer des services et offres adaptés à vos centres d'intérêts et mesurer la fréquentation de nos services. Pour en savoir plus suivez ce lien (http://trk.mix.loffremagique.com/tk/sKz-GMrp-iWp.php)
+
+http://trk.mix.loffremagique.com/tk/sKz-GMrp-v7P.php http://trk.mix.loffremagique.com/tk/sKz-GMrp-v7P.php http://trk.mix.loffremagique.com/tk/sKz-GMrp-v7P.php
+http://trk.mix.loffremagique.com/tk/sKz-GMrp-v7P.php http://trk.mix.loffremagique.com/tk/sKz-GMrp-v7P.php http://trk.mix.loffremagique.com/tk/sKz-GMrp-v7P.php
+http://trk.mix.loffremagique.com/tk/sKz-GMrp-v7P.php http://trk.mix.loffremagique.com/tk/sKz-GMrp-v7P.php http://trk.mix.loffremagique.com/tk/sKz-GMrp-v7P.php
+http://trk.mix.loffremagique.com/tk/sKz-GMrp-v7P.php http://trk.mix.loffremagique.com/tk/sKz-GMrp-v7P.php http://trk.mix.loffremagique.com/tk/sKz-GMrp-v7P.php
+http://trk.mix.loffremagique.com/tk/sKz-GMrp-v7P.php http://trk.mix.loffremagique.com/tk/sKz-GMrp-v7P.php http://trk.mix.loffremagique.com/tk/sKz-GMrp-v7P.php
+Pourquoi prendre une assurance obsèques?En moyenne, on estime à 4000€ les frais d’obsèques après un décès : cela comprend entre autres les frais liés au cercueil, à la célébration, à l’inhumation ou à la crémation. Pour éviter tout souci d’ordre financier à votre entourage lors de votre décès, la législation permet depuis 2004 de souscrire une assurance obsèques. Souscrire une assurance obsèques permet à vos proches, lors de votre décès, de n’avoir rien à régler de leur poche. (http://trk.mix.loffremagique.com/tk/sKz-GMrp-v7P.php)
+
+Espaces Promos, 12 rue Camille Desmoulins, 92300 Levallois Perret.
+Conformément à l'article 34 de la loi Informatique et Liberté du 6 janvier 1978, vous disposez d'un droit d'accès, de modification,
+de rectification et de suppression des données vous concernant en adressant votre demande à &quot;report@dgcnit.fr&quot;.
+Déclaration CNIL - 1642645
+Vous souhaitez vous désinscrire de cette liste ? Cliquez ici. (http://trk.mix.loffremagique.com/usb/sKz-GMrp.php)
+
+
+--b1_4574a5ed53514b9d8fedbac9135e33c9
+Content-Type: text/html; charset = "UTF-8"
+Content-Transfer-Encoding: 8bit
+
+<table width='600' border='0' cellspacing='0' cellpadding='0' align='center' > <tr> <td width='600' valign='top' align='center'> <table style='' align='center' border='0' cellpadding='0' cellspacing='0' > <tr> <td width='174' align='left' style='text-align:left;'><a href='http://trk.mix.loffremagique.com/view/sKz-GMrp.php' style='color:#000; text-decoration:underline; font-family:Arial,Helvetica,sans-serif; font-size:11px; text-align:left; font-weight:bold;'>Afficher la version web.</a></td> <td width='6'>|</td> <td width='207' align='center' style='text-align:center;'><a href='http://trk.mix.loffremagique.com/usb/sKz-GMrp.php' style='color:#000; text-decoration:underline; font-family:Arial,Helvetica,sans-serif; font-size:11px; text-align:center; font-weight:bold;'>Annuler votre abonnement.</a></td> <td width='6'>|</td> <td width='207' align='right' style='text-align:right;'><a href='mailto:abuse@dgcnit.fr' style='color:#00F; text-decoration:underline;
+font-family:Arial,Helvetica,sans-serif; font-size:11px; text-align:right; font-weight:bold;'>Signaler comme courrier indésirable.</a></td> </tr> </table></td> </tr> <tr> <td width='600' align='center'></td> </tr> </table><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>Assurance Obseques</title><!--Don t remove the next meta--><meta name="pdlbat1tkn" content="XCCDfWJd"></head><body style="background-color:#ffffff;"> <center><table width="600" style="margin:auto;text-align:center;font-family:Lucida Grande,Verdana,sans-serif;"><tr><td align="center"><font size="1" color="#848484">En poursuivant votre navigation, vous acceptez l'utilisation de cookies pour vous proposer des services et offres adaptés à vos centres d'intérêts et mesurer la fréquentation de nos services. Pour en savoir plus <a
+href="http://trk.mix.loffremagique.com/tk/sKz-GMrp-iWp.php" title="informations" target="_blank"><font size="1" color="#848484">suivez ce lien</font></a><br><br></font></td></tr></table><img border="0" hspace="0" vspace="0" alt="" width="1" height="1" src="http://d3nqs6lb9zi193.cloudfront.net/?email_or_md5=51eed63ab5580c7fc8d7f55a6a04c716&id_site=2487"><img src="http://dbkpwi4c6v97q.cloudfront.net/?sc=1410&t=0&l=154339&p=10348" width="1" height="1" alt="" border="0"><table border="0" width="600" cellpadding="0" cellspacing="0" align="center" style="font-family:Arial, Sans-Serif; font-size:12px; border:0px solid #FFFFFF;"><tr><td> <table border="0" width="100%" cellpadding="0" cellspacing="0" align="center"><tr><td width="191" height="106" style="background-color:#ffffff;"> <a href="http://trk.mix.loffremagique.com/tk/sKz-GMrp-v7O.php" target="_blank"> <img style="display:block;" src="http://d31epa2i3egyy4.cloudfront.net/placedelassuranceobseques/051115/assuobse_01.jpg" alt="T
+ rouvez
+l’assurance obsèque qui vous correspond" width="191" height="106" border="0"></a> </td> <td width="222" height="106" style="background-color:#ffffff;"> <a href="http://trk.mix.loffremagique.com/tk/sKz-GMrp-v7O.php" target="_blank"> <img style="display:block;" src="http://d31epa2i3egyy4.cloudfront.net/placedelassuranceobseques/051115/assuobse_02.jpg" alt="Trouvez l’assurance obsèque qui vous correspond" width="222" height="106" border="0"></a> </td> <td width="187" height="106" style="background-color:#ffffff;"> <a href="http://trk.mix.loffremagique.com/tk/sKz-GMrp-v7O.php" target="_blank"> <img style="display:block;" src="http://d31epa2i3egyy4.cloudfront.net/placedelassuranceobseques/051115/assuobse_03.jpg" alt="Trouvez l’assurance obsèque qui vous correspond" width="187" height="106" border="0"></a> </td> </tr></table></td> </tr><tr><td> <table border="0" width="100%" cellpadding="0" cellspacing="0" align="center"><tr><td width="191" height="102"
+style="background-color:#ffffff;"> <a href="http://trk.mix.loffremagique.com/tk/sKz-GMrp-v7O.php" target="_blank"> <img style="display:block;" src="http://d31epa2i3egyy4.cloudfront.net/placedelassuranceobseques/051115/assuobse_04.jpg" alt="Trouvez l’assurance obsèque qui vous correspond" width="191" height="102" border="0"></a> </td> <td width="222" height="102" style="background-color:#ffffff;"> <a href="http://trk.mix.loffremagique.com/tk/sKz-GMrp-v7O.php" target="_blank"> <img style="display:block;" src="http://d31epa2i3egyy4.cloudfront.net/placedelassuranceobseques/051115/assuobse_05.jpg" alt="Trouvez l’assurance obsèque qui vous correspond" width="222" height="102" border="0"></a> </td> <td width="187" height="102" style="background-color:#ffffff;"> <a href="http://trk.mix.loffremagique.com/tk/sKz-GMrp-v7O.php" target="_blank"> <img style="display:block;" src="http://d31epa2i3egyy4.cloudfront.net/placedelassuranceobseques/051115/assuobse_06.jpg" alt="Trouvez l’as
+ surance
+obsèque qui vous correspond" width="187" height="102" border="0"></a> </td> </tr></table></td> </tr><tr><td> <table border="0" width="100%" cellpadding="0" cellspacing="0" align="center"><tr><td width="191" height="164" style="background-color:#ffffff;"> <a href="http://trk.mix.loffremagique.com/tk/sKz-GMrp-v7O.php" target="_blank"> <img style="display:block;" src="http://d31epa2i3egyy4.cloudfront.net/placedelassuranceobseques/051115/assuobse_07.jpg" alt="Trouvez l’assurance obsèque qui vous correspond" width="191" height="164" border="0"></a> </td> <td width="222" height="164" style="background-color:#ffffff;"> <a href="http://trk.mix.loffremagique.com/tk/sKz-GMrp-v7O.php" target="_blank"> <img style="display:block;" src="http://d31epa2i3egyy4.cloudfront.net/placedelassuranceobseques/051115/assuobse_08.jpg" alt="Trouvez l’assurance obsèque qui vous correspond" width="222" height="164" border="0"></a> </td> <td width="187" height="164" style="background-color:#ffffff;"
+ > <a
+href="http://trk.mix.loffremagique.com/tk/sKz-GMrp-v7O.php" target="_blank"> <img style="display:block;" src="http://d31epa2i3egyy4.cloudfront.net/placedelassuranceobseques/051115/assuobse_09.jpg" alt="Trouvez l’assurance obsèque qui vous correspond" width="187" height="164" border="0"></a> </td> </tr></table></td> </tr><tr><td> <table border="0" width="100%" cellpadding="0" cellspacing="0" align="center"><tr><td width="191" height="161" style="background-color:#ffffff;"> <a href="http://trk.mix.loffremagique.com/tk/sKz-GMrp-v7O.php" target="_blank"> <img style="display:block;" src="http://d31epa2i3egyy4.cloudfront.net/placedelassuranceobseques/051115/assuobse_10.jpg" alt="Trouvez l’assurance obsèque qui vous correspond" width="191" height="161" border="0"></a> </td> <td width="222" height="161" style="background-color:#ffffff;"> <a href="http://trk.mix.loffremagique.com/tk/sKz-GMrp-v7O.php" target="_blank"> <img style="display:block;"
+src="http://d31epa2i3egyy4.cloudfront.net/placedelassuranceobseques/051115/assuobse_11.jpg" alt="Trouvez l’assurance obsèque qui vous correspond" width="222" height="161" border="0"></a> </td> <td width="187" height="161" style="background-color:#ffffff;"> <a href="http://trk.mix.loffremagique.com/tk/sKz-GMrp-v7O.php" target="_blank"> <img style="display:block;" src="http://d31epa2i3egyy4.cloudfront.net/placedelassuranceobseques/051115/assuobse_12.jpg" alt="Trouvez l’assurance obsèque qui vous correspond" width="187" height="161" border="0"></a> </td> </tr></table></td> </tr><tr><td> <table border="0" width="100%" cellpadding="0" cellspacing="0" align="center"><tr><td width="191" height="116" style="background-color:#ffffff;"> <a href="http://trk.mix.loffremagique.com/tk/sKz-GMrp-v7O.php" target="_blank"> <img style="display:block;" src="http://d31epa2i3egyy4.cloudfront.net/placedelassuranceobseques/051115/assuobse_13.jpg" alt="Trouvez l’assurance obsèque qui vous
+correspond" width="191" height="116" border="0"></a> </td> <td width="222" height="116" style="background-color:#ffffff;"> <a href="http://trk.mix.loffremagique.com/tk/sKz-GMrp-v7O.php" target="_blank"> <img style="display:block;" src="http://d31epa2i3egyy4.cloudfront.net/placedelassuranceobseques/051115/assuobse_14.jpg" alt="Trouvez l’assurance obsèque qui vous correspond" width="222" height="116" border="0"></a> </td> <td width="187" height="116" style="background-color:#ffffff;"> <a href="http://trk.mix.loffremagique.com/tk/sKz-GMrp-v7O.php" target="_blank"> <img style="display:block;" src="http://d31epa2i3egyy4.cloudfront.net/placedelassuranceobseques/051115/assuobse_15.jpg" alt="Trouvez l’assurance obsèque qui vous correspond" width="187" height="116" border="0"></a> </td> </tr></table></td> </tr><tr><td> <table border="0" width="100%" cellpadding="23" cellspacing="0" align="center"><td width="600" height="65" style="background-color:#ffffff;"> <a
+href="http://trk.mix.loffremagique.com/tk/sKz-GMrp-v7O.php" style="text-decoration:none;" target="_blank"> <font size="2" style="font-family:Arial,Sans-Serif; font-size:15px; color:#000000; font-weight:;"><span style="color:#55a63a;font-size:20px;font-weight:bold;">Pourquoi prendre une assurance obsèques?</span><br><br>En moyenne, on estime à <b>4000€</b> les frais d’obsèques après un décès : cela comprend entre autres les frais liés au cercueil, à la célébration, à l’inhumation ou à la crémation.<br><br> Pour éviter tout souci d’ordre financier à votre entourage lors de votre décès, la législation permet depuis 2004 de souscrire une <b>assurance obsèques.</b><br><br> Souscrire une assurance obsèques permet à vos proches, lors de votre décès, de <b>n’avoir rien à régler de leur poche.</b></font> </a> </td> </table></td> </tr></table></center><div> <table width="600" border="0" cellspacing="0" cellpadding="0" align="center" style="font-family
+ :Arial,
+Helvetica, sans-serif; font-size:10px; color:black; text-align:center;"><tr><td style="font-size:10px; text-align:center;"><br> Espaces Promos, 12 rue Camille Desmoulins, 92300 Levallois Perret.<br> Conformément à l'article 34 de la loi Informatique et Liberté du 6 janvier 1978, vous disposez d'un droit d'accès, de modification,<br> de rectification et de suppression des données vous concernant en adressant votre demande à "report@dgcnit.fr".<br> Déclaration CNIL - 1642645 </td> </tr><tr><td></td></tr><tr><td>Vous souhaitez vous désinscrire de cette liste ? <a href="http://trk.mix.loffremagique.com/usb/sKz-GMrp.php" style="color: #000; text-decoration:underline; font-size: 11px;">Cliquez ici.</a></td></tr></table></div><img src="http://trk.mix.loffremagique.com/pg/sKz-GMrp.php" width="1" height="1" alt="" /></body></html> 
+
+
+
+--b1_4574a5ed53514b9d8fedbac9135e33c9--
+
+

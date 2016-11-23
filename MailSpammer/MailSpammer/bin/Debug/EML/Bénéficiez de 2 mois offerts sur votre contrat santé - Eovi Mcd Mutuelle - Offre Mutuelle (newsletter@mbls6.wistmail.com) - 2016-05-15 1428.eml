@@ -1,0 +1,457 @@
+Return-Path: <newsletter@mbls6.wistmail.com>
+Received: from mailimailo.univ-rennes1.fr ([unix socket])
+	 by mailimailo.univ-rennes1.fr (Cyrus v2.3.16-Fedora-RPM-2.3.16-6.el6_2.5) with LMTPA;
+	 Sun, 15 May 2016 14:28:42 +0200
+X-Sieve: CMU Sieve 2.3
+Received: from mailout2.univ-rennes1.fr (mailout2.univ-rennes1.fr [129.20.129.120])
+	by mailimailo.univ-rennes1.fr (Postfix) with ESMTP id DCFB31A7
+	for <resp-m2-miage@univ-rennes1.fr>; Sun, 15 May 2016 14:28:42 +0200 (CEST)
+Received: from localhost (vmscanmail.univ-rennes1.fr [129.20.128.134])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id DA9B560164
+	for <resp-m2-miage@univ-rennes1.fr>; Sun, 15 May 2016 14:28:42 +0200 (CEST)
+X-Virus-Scanned: amavisd-new at univ-rennes1.fr
+Received: from mailout2.univ-rennes1.fr ([129.20.129.120])
+	by localhost (vmscanmail.univ-rennes1.frm [129.20.128.134]) (amavisd-new, port 10026)
+	with ESMTP id x6xHfxcJAHx5 for <resp-m2-miage@univ-rennes1.fr>;
+	Sun, 15 May 2016 14:28:42 +0200 (CEST)
+Received: from vmmailin.univ-rennes1.fr (vmmailin.univ-rennes1.fr [129.20.128.133])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id B952160030
+	for <resp-m2-miage@univ-rennes1.fr>; Sun, 15 May 2016 14:28:42 +0200 (CEST)
+Received: from mxb1-2.relay.renater.fr (mxb1-2.relay.renater.fr [194.214.201.9])
+	by vmmailin.univ-rennes1.fr (Postfix) with ESMTP id B3DE320033
+	for <resp-m2-miage@univ-rennes1.fr>; Sun, 15 May 2016 14:28:42 +0200 (CEST)
+Received: from mta1fr2.mbls6.wistmail.com (mta1fr2.mbls6.wistmail.com [188.213.140.199])
+	by mxb1-2.relay.renater.fr (asm) with ESMTP id 8352228000A
+	for <resp-m2-miage@univ-rennes1.fr>; Sun, 15 May 2016 14:28:42 +0200 (CEST)
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=dkim; d=mbls6.wistmail.com;
+ h=Message-ID:Date:Subject:From:Reply-To:To:MIME-Version:Content-Type:List-Unsubscribe:List-Id; i=newsletter@mbls6.wistmail.com;
+ bh=mHWuwTBlK0lNS7bqYfag0y/uFlE=;
+ b=NiKnTJ9wfDPX76hUW+HimqkBkXn8fONUGLjz8MTE2mzWWCR/sCG3hqXSv8NcwCtrqz1lepSWWfzb
+   lfsOhdWMclsu8FYF3zdtPcmppd0HOhVSRiYpLVstIbO/rrMksEnb4phscHnUtOQ/tCH+USOu5HiQ
+   +3xYySsYQz74/EYtb9c=
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=dkim; d=mbls6.wistmail.com;
+ b=Dg3KGZJeFf2u1H5IR1V0MtiYwY34BXrABNdPHUE86XFmPMB2f9qMo82+rq+qGUTw+RjyAaosb2Z/
+   5koLKTyZfr0/JKW/sKXowQSNlxvR8cif66gZsTVNrYLBtTc50zqat+0pmGVW41fyILlE+vgUPags
+   /YWYL6jBD+B2C4puz2Y=;
+DKIM-Signature: v=1; a=rsa-sha1; bh=sh8Ons/vKRBovLOAm43xSRylnts=;
+ d=mbls6.wistmail.com; h=Message-ID: Date: Subject: From: Reply-To: To:
+ MIME-Version: Content-Type: X-Mw-Customer-Uid: X-Receiver: X-Mw-Tracking-Did:
+ X-Mw-Campaign-Uid: List-Unsubscribe: X-Mw-Customer-Gid: List-Id:
+ X-Mw-Subscriber-Uid: X-Report-Abuse: X-Sender: Feedback-ID: X-Mw-Mailer:
+ X-Mw-Delivery-Sid; i=@mbls6.wistmail.com; s=mailer; t=1463315320;
+ b=N3WJ7Y1tABYqYEdOTvGywKxMN9VxUvR7MiDn8nGvol2IIU8GqwOmvueMIfIYFcopmMu531JxA
+ 4t3c6YfNhgTm50auT7DZ4I/xGQhb3ol/r3q1PY1AfO1k6LYhQjTofjQRBJ8jrLRUvLNInQAs7
+ v9xy7N8MVv62pGBVcYvAEHT00=
+Message-ID: <e7fa3543b321ed58fddfe0b3a8cb6258@mbls6.wistmail.com>
+Date: Sun, 15 May 2016 12:28:40 +0000
+Subject: =?utf-8?Q?B=C3=A9n=C3=A9ficiez?= de 2 mois offerts sur votre
+ contrat =?utf-8?Q?sant=C3=A9?=
+From: Eovi Mcd Mutuelle - Offre Mutuelle <newsletter@mbls6.wistmail.com>
+Reply-To: Eovi Mcd Mutuelle - Offre Mutuelle <newsletter@mbls6.wistmail.com>
+To: "resp-m2-miage@univ-rennes1.fr" <resp-m2-miage@univ-rennes1.fr>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="_=_swift_v4_1463315320_5a3fb9a032f3cf3907c9688c96c451ee_=_"
+X-Mw-Campaign-Uid: lw767mltzwf50
+List-Unsubscribe: <http://lp1.sendtk2.com/index.php/lists/et662pn6r9252/unsubscribe/jb692xz74e28c/lw767mltzwf50>,
+ <mailto:newsletter@lp2.wistmail.com?subject=Unsubscribe&body=Please
+ unsubscribe me from Liste Wizz list.>
+X-Mw-Customer-Gid: 1
+List-Id: et662pn6r9252 <Liste Wizz>
+X-Receiver: resp-m2-miage@univ-rennes1.fr
+X-Report-Abuse: Please report abuse for this campaign here:
+ http://lp1.sendtk2.com/index.php/campaigns/lw767mltzwf50/report-abuse/et662pn6r9252/jb692xz74e28c
+X-Mw-Subscriber-Uid: jb692xz74e28c
+Feedback-ID: lw767mltzwf50:jb692xz74e28c:et662pn6r9252:qb167cl01b984
+X-Sender: newsletter@mbls6.wistmail.com
+X-Mw-Customer-Uid: qb167cl01b984
+X-Mw-Mailer: SwiftMailer
+X-Mw-Delivery-Sid: 114
+X-Mw-Tracking-Did: 1
+X-UCE-Status: YES
+X-UCE-Type: MCE
+X-Original-Source-IP: 188.213.140.199
+X-Bizanga: IMP - mxb1-2.relay.renater.fr
+X-Renater-SpamState: 11
+X-Renater-SpamScore: 17
+X-Renater-SpamCause: gggruggvucftvghtrhhoucdtuddrfeekledrvdeggdehfecutefuodetggdotefrodftvfcurfhrohhfihhlvgemucftgffptefvgfftpdggtfgfnhhsuhgsshgtrhhisggvnecuuegrihhlohhuthemuceftddtnecundfotefknffkpffiucdludejmdenucfjughrpefkfffuhfhrvfggtgfjjeigsegrtdhjredttdejnecuhfhrohhmpefgohhvihcuofgtugcuofhuthhuvghllhgvucdqucfqfhhfrhgvucfouhhtuhgvlhhlvgcuoehnvgifshhlvghtthgvrhesmhgslhhsiedrfihishhtmhgrihhlrdgtohhmqeenucffohhmrghinhepshgvnhguthhkvddrtghomhenucfkphepudekkedrvddufedrudegtddrudelleenucfrrghrrghmpehmohguvgepshhmthhppdhhvghlohepmhhtrgdufhhrvddrmhgslhhsiedrfihishhtmhgrihhlrdgtohhmpdhinhgvthepudekkedrvddufedrudegtddrudelledpmhgrihhlfhhrohhmpehnvgifshhlvghtthgvrhesmhgslhhsiedrfihishhtmhgrihhlrdgtohhmpdhrtghpthhtoheprhgvshhpqdhmvddqmhhirghgvgesuhhnihhvqdhrvghnnhgvshdurdhfrh 
+X-Renater-ServerName: mxb1-2.relay.renater.fr
+
+
+--_=_swift_v4_1463315320_5a3fb9a032f3cf3907c9688c96c451ee_=_
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+=20
+
+Lien mirroir
+http://lp1.sendtk2.com/index.php/campaigns/lw767mltzw=
+f50/track-url/jb692xz74e28c/12eca32ce17d18edb31e73004c66e9cbb1259a92
+- Se=
+ d=C3=A9sinscrire
+http://lp1.sendtk2.com/index.php/campaigns/lw767mltzwf5=
+0/track-url/jb692xz74e28c/39729eb5de8b87eb7979741b3bdcc05bd4f7d09e
+
+
+=
+OFFREMUTUELLE : Offre du 15/05/2016=20
+
+=09=09Pour Eovi Mcd mutuelle, je =
+ne suis pas un num=C3=A9ro.
+
+=09=09
+http://lp1.sendtk2.com/index.php/=
+campaigns/lw767mltzwf50/track-url/jb692xz74e28c/1b1eabf0d65dc97a8f0d9ec6902=
+8ea61f1e50281
+
+=09=09
+http://lp1.sendtk2.com/index.php/campaigns/lw76=
+7mltzwf50/track-url/jb692xz74e28c/1b1eabf0d65dc97a8f0d9ec69028ea61f1e50281=
+
+
+=09=09
+http://lp1.sendtk2.com/index.php/campaigns/lw767mltzwf50/tra=
+ck-url/jb692xz74e28c/1b1eabf0d65dc97a8f0d9ec69028ea61f1e50281
+
+Pour Eov=
+i Mcd mutuelle vous n'=C3=AAtes pas un num=C3=A9ro.
+ Nous nous adaptons =
+=C3=A0 vos besoins personnels et
+ =C3=A0 votre budget pour une protection=
+ sant=C3=A9 qui vous correspond.=20
+
+=09=09
+http://lp1.sendtk2.com/inde=
+x.php/campaigns/lw767mltzwf50/track-url/jb692xz74e28c/1b1eabf0d65dc97a8f0d9=
+ec69028ea61f1e50281
+
+=09=09
+http://lp1.sendtk2.com/index.php/campaign=
+s/lw767mltzwf50/track-url/jb692xz74e28c/1b1eabf0d65dc97a8f0d9ec69028ea61f1e=
+50281
+
+=09=09
+http://lp1.sendtk2.com/index.php/campaigns/lw767mltzwf5=
+0/track-url/jb692xz74e28c/1b1eabf0d65dc97a8f0d9ec69028ea61f1e50281
+
+=09=
+=09
+http://lp1.sendtk2.com/index.php/campaigns/lw767mltzwf50/track-url/jb=
+692xz74e28c/1b1eabf0d65dc97a8f0d9ec69028ea61f1e50281
+
+=09=09
+http://l=
+p1.sendtk2.com/index.php/campaigns/lw767mltzwf50/track-url/jb692xz74e28c/1b=
+1eabf0d65dc97a8f0d9ec69028ea61f1e50281
+
+=09=09
+http://lp1.sendtk2.com=
+/index.php/campaigns/lw767mltzwf50/track-url/jb692xz74e28c/1b1eabf0d65dc97a=
+8f0d9ec69028ea61f1e50281
+
+=09=09
+http://lp1.sendtk2.com/index.php/cam=
+paigns/lw767mltzwf50/track-url/jb692xz74e28c/1b1eabf0d65dc97a8f0d9ec69028ea=
+61f1e50281
+
+* Offre valable jusqu'au 31 D=C3=A9cembre 2016 pour tout no=
+uvel adh=C3=A9rent
+souscrivant un contrat sant=C3=A9 de la gamme Equit=
+=C3=A9o, Territ=C3=A9o, Tonus
+pro, Vital et Hospit=C3=A9o. Les 2 mois de =
+gratuit=C3=A9 sont r=C3=A9partis comme
+suit : 1 mois la 1=C3=A8re ann=
+=C3=A9e d'adh=C3=A9sion et 1 mois la 2=C3=A8me. Voir
+conditions et limita=
+tions de l'offre en agence Eovi Mcd mutuelle. (1)
+Formule EQUITEO Essenti=
+el HOSPI pour une personne n=C3=A9e en 1998 et
+r=C3=A9sidant dans le d=
+=C3=A9partement 71. Tarif en vigueur jusqu=C2=B4au
+31/12/2016.
+ Conform=
+=C3=A9ment =C3=A0 la loi Informatique et Libert=C3=A9s n=C2=B0 78-17 du 6=
+
+janvier 1978, modifi=C3=A9e le 6 ao=C3=BBt 2004, vous b=C3=A9n=C3=A9fici=
+ez d'un droit
+d'acc=C3=A8s, de modification et de suppression des informa=
+tions qui vous
+concernent.=20
+
+Eovi Mcd mutuelle. Si=C3=A8ge social Eov=
+i Mcd mutuelle : 44 rue Copernic -
+CS 11709 - 75773 Paris Cedex 16.
+ Mu=
+tuelle soumise aux dispositions du livre II du Code de la
+mutualit=C3=
+=A9, N=C2=B0 Sir=C3=A8ne 317 442 176.=20
+
+Vous recevez ce message car vou=
+s =C3=AAtes inscrit dans la liste de
+diffusion de OFFREMUTUELLE.
+ Vous =
+avez la possibilit=C3=A9 de g=C3=A9rer vos informations en vous
+dirigeant=
+ sur le site de offremutuelle
+http://lp1.sendtk2.com/index.php/campaigns/=
+lw767mltzwf50/track-url/jb692xz74e28c/da562af97af6a395f15f7d4ad819be1827dc7=
+701.
+
+
+Ne plus recevoir
+http://lp1.sendtk2.com/index.php/campaigns/=
+lw767mltzwf50/track-url/jb692xz74e28c/39729eb5de8b87eb7979741b3bdcc05bd4f7d=
+09e.
+
+=20
+
+--_=_swift_v4_1463315320_5a3fb9a032f3cf3907c9688c96c451ee_=_
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>
+<html><head><meta http-equiv=3D"X-UA-Compatible" content=
+=3D"IE=3Dedge"><meta name=3D"viewport" content=3D"width=3Ddevice-width, ini=
+tial-scale=3D1.0 "><meta name=3D"format-detection" content=3D"telephone=3Dn=
+o"><meta name=3D"robots" content=3D"noindex, nofollow"><meta name=3D"charse=
+t" content=3D"utf-8">
+<style type=3D"text/css">
+body { margin:0; paddin=
+g:0; width:100% !important; -webkit-text-size-adjust:100%; -ms-text-size-ad=
+just:100%; } img { border:0 none; height:auto; line-height:100%; outline:no=
+ne; text-decoration:none; -ms-interpolation-mode: bicubic; } a img{ border:=
+0 none; } .imageFix{ display:block; } table { border: none; mso-table-lspac=
+e: 0pt; mso-table-rspace: 0pt; table-layout: fixed; margin:0 auto; } table,=
+ td{ border-collapse:collapse; word-break: break-word; } #bodyTable{ height=
+:100% !important; margin:0; padding:0; width:100% !important; } .ExternalCl=
+ass { width: 100%; } .ExternalClass, .ExternalClass p, .ExternalClass span,=
+ .ExternalClass font, .ExternalClass td, .ExternalClass div { line-height: =
+100%; } #outlook a { padding: 0; } p { margin-bottom: 1em; } @media only sc=
+reen and (max-width: 480px) { table[class=3Dwrapper] { width:100%!important=
+; } table[class=3Dcolumn] { width:95%!important; } img[class=3Dimg-responsi=
+ve] { height:auto!important; width:100%!important; } td[class=3Dno-padding]=
+ { padding-left:0!important; padding-right:0!important; text-align:center; =
+} }
+</style>
+<title></title></head><body style=3D"background:#f0f0f0; p=
+adding:0; margin:0;">
+
+            <center>
+<p style=3D"width:100%;pa=
+dding:10px;margin:0;font-size:12px;background:#222;color:#FFF;text-align:ce=
+nter;font-family:Arial;font-weight:normal;"><a href=3D"http://lp1.sendtk2.c=
+om/index.php/campaigns/lw767mltzwf50/track-url/jb692xz74e28c/12eca32ce17d18=
+edb31e73004c66e9cbb1259a92" style=3D"color:#FFF;">Lien mirroir</a> - <a hre=
+f=3D"http://lp1.sendtk2.com/index.php/campaigns/lw767mltzwf50/track-url/jb6=
+92xz74e28c/39729eb5de8b87eb7979741b3bdcc05bd4f7d09e" style=3D"color:#FFF;">=
+Se d&eacute;sinscrire</a></p>
+</center>
+
+<p style=3D"width:100%;paddi=
+ng:10px;margin:0;font-size:14px;color:#2b3b4d;text-align:center;font-family=
+:Arial;font-weight:bold;background-color:#bcc6d1;">OFFREMUTUELLE : Offre du=
+ 15/05/2016</p>
+<img alt=3D"openNaoshoot.php?i=3D7627&amp;c=3D3738&amp;em=
+ail=3D[EM" height=3D"1" src=3D"http://naowizz.com/openNaoshoot.php?i=3D7627=
+&amp;c=3D3738&amp;email=3Dresp-m2-miage@univ-rennes1.fr&amp;e=3D0&amp;sm=3D=
+0&amp;ip=3D" style=3D"display:none;" width=3D"1"><img alt=3D"axciom.php?ema=
+il=3Dresp-m2-miage@univ-rennes1.fr" border=3D"0" height=3D"1" hspace=3D"0" =
+src=3D"http://naowizz.com/axciom.php?email=3Dresp-m2-miage@univ-rennes1.fr"=
+ style=3D"display:none;" vspace=3D"0" width=3D"1"><img alt=3D"" border=3D"0=
+" height=3D"1" src=3D"http://dbkpwi4c6v97q.cloudfront.net/?sc=3D655&amp;t=
+=3D0&amp;l=3D178391&amp;p=3D11170" width=3D"1"><div align=3D"center" style=
+=3D"background-color:#F0F0F0;width:100%;">&nbsp;
+<table align=3D"center" =
+border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"wrapper" style=3D=
+"background:#f0f0f0;margin:0 auto;" width=3D"720"><tbody><tr><td>
+=09=09=
+=09<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ class=3D"wrapper" width=3D"720"><tbody><tr><td align=3D"center" height=3D"=
+35" style=3D"font-family:Arial, Helvetica, sans-serif;font-size:13px;color:=
+#686868;line-height:15px;font-weight:bold;" valign=3D"middle">Pour Eovi Mcd=
+ mutuelle, je ne suis pas un num&eacute;ro.</td>
+=09=09=09=09=09</tr></tb=
+ody></table><table align=3D"center" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" class=3D"wrapper" style=3D"background:#ffffff;margin:0 auto;" wid=
+th=3D"700"><tbody><tr><td>
+=09=09=09=09=09=09<table align=3D"left" border=
+=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"wrapper" width=3D"248">=
+<tbody><tr><td align=3D"center"><a href=3D"http://lp1.sendtk2.com/index.php=
+/campaigns/lw767mltzwf50/track-url/jb692xz74e28c/1b1eabf0d65dc97a8f0d9ec690=
+28ea61f1e50281" target=3D"_blank"><img alt=3D"" height=3D"122" src=3D"http:=
+//d31epa2i3egyy4.cloudfront.net/img/6087/logo.gif" width=3D"248"></a></td>=
+
+=09=09=09=09=09=09=09=09</tr></tbody></table><table align=3D"right" bord=
+er=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"wrapper" width=3D"300=
+"><tbody><tr><td align=3D"center"><a href=3D"http://lp1.sendtk2.com/index.p=
+hp/campaigns/lw767mltzwf50/track-url/jb692xz74e28c/1b1eabf0d65dc97a8f0d9ec6=
+9028ea61f1e50281" target=3D"_blank"><img alt=3D"" height=3D"122" src=3D"htt=
+p://d31epa2i3egyy4.cloudfront.net/img/6087/encart.gif" width=3D"300"></a></=
+td>
+=09=09=09=09=09=09=09=09</tr></tbody></table></td>
+=09=09=09=09=09<=
+/tr></tbody></table><table align=3D"center" border=3D"0" cellpadding=3D"0" =
+cellspacing=3D"0" class=3D"wrapper" style=3D"background:#ffffff;margin:0 au=
+to;" width=3D"700"><tbody><tr><td style=3D"padding-bottom:25px;padding-top:=
+15px;"><a href=3D"http://lp1.sendtk2.com/index.php/campaigns/lw767mltzwf50/=
+track-url/jb692xz74e28c/1b1eabf0d65dc97a8f0d9ec69028ea61f1e50281" target=3D=
+"_blank"><img alt=3D"Pour Eovi Mcd mutuelle, vous n??tes pas un num?ro. Vou=
+s ?tes patricia, paul, sophie..." class=3D"img-responsive" height=3D"118" s=
+rc=3D"http://d31epa2i3egyy4.cloudfront.net/img/6087/accroche.gif" width=3D"=
+700"></a></td>
+=09=09=09=09=09</tr></tbody></table><table align=3D"center=
+" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"wrapper" style=
+=3D"background:#ffffff;margin:0 auto;" width=3D"700"><tbody><tr><td valign=
+=3D"top">
+=09=09=09=09=09=09<table align=3D"left" border=3D"0" cellpaddin=
+g=3D"0" cellspacing=3D"0" class=3D"wrapper" width=3D"400"><tbody><tr><td st=
+yle=3D"padding-left:30px;font-family:Arial, Helvetica, sans-serif;font-size=
+:16px;line-height:26px;color:#626166;"><a href=3D"http://lp1.sendtk2.com/in=
+dex.php/campaigns/lw767mltzwf50/track-url/jb692xz74e28c/1b1eabf0d65dc97a8f0=
+d9ec69028ea61f1e50281" style=3D"text-decoration:none;color:#626166;" target=
+=3D"_blank">Pour Eovi Mcd mutuelle vous n&rsquo;&ecirc;tes pas un num&eacut=
+e;ro.<br>
+=09=09=09=09=09=09=09=09=09Nous nous adaptons &agrave; vos beso=
+ins personnels et<br>
+=09=09=09=09=09=09=09=09=09&agrave; votre budget po=
+ur une protection sant&eacute; qui vous correspond. </a></td>
+=09=09=09=
+=09=09=09=09=09</tr><tr><td height=3D"40">&nbsp;</td>
+=09=09=09=09=09=09=
+=09=09</tr><tr><td style=3D"padding-left:30px;padding-right:30px;"><a href=
+=3D"http://lp1.sendtk2.com/index.php/campaigns/lw767mltzwf50/track-url/jb69=
+2xz74e28c/1b1eabf0d65dc97a8f0d9ec69028ea61f1e50281" target=3D"_blank"><img =
+alt=3D"Demandez vite votre devis sant&eacute; en ligne" class=3D"img-respon=
+sive" height=3D"69" src=3D"http://d31epa2i3egyy4.cloudfront.net/img/6087/ct=
+a-demande.gif" style=3D"border:none;" width=3D"317"></a></td>
+=09=09=09=
+=09=09=09=09=09</tr><tr><td>&nbsp;</td>
+=09=09=09=09=09=09=09=09</tr></tb=
+ody></table><table align=3D"right" border=3D"0" cellpadding=3D"0" cellspaci=
+ng=3D"0" class=3D"wrapper" width=3D"265"><tbody><tr><td align=3D"center"><a=
+ href=3D"http://lp1.sendtk2.com/index.php/campaigns/lw767mltzwf50/track-url=
+/jb692xz74e28c/1b1eabf0d65dc97a8f0d9ec69028ea61f1e50281" target=3D"_blank">=
+<img alt=3D"Votre compl&eacute;mentaire sant&eacute; &agrave; partir de 7,9=
+8&euro; par mois (1)" height=3D"134" src=3D"http://d31epa2i3egyy4.cloudfron=
+t.net/img/6087/price.gif" width=3D"207"></a></td>
+=09=09=09=09=09=09=09=
+=09</tr></tbody></table></td>
+=09=09=09=09=09</tr></tbody></table><table =
+align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"=
+wrapper" style=3D"background:#ffffff;margin:0 auto;" width=3D"700"><tbody><=
+tr><td height=3D"50">&nbsp;</td>
+=09=09=09=09=09</tr></tbody></table><tab=
+le align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=
+=3D"wrapper" style=3D"background:#ffffff;margin:0 auto;" width=3D"700"><tbo=
+dy><tr><td>
+=09=09=09=09=09=09<table align=3D"left" border=3D"0" cellpadd=
+ing=3D"0" cellspacing=3D"0" class=3D"wrapper" width=3D"345"><tbody><tr><td =
+align=3D"center" class=3D"no-padding" style=3D"padding-bottom:25px;padding-=
+left:20px;"><a href=3D"http://lp1.sendtk2.com/index.php/campaigns/lw767mltz=
+wf50/track-url/jb692xz74e28c/1b1eabf0d65dc97a8f0d9ec69028ea61f1e50281"><img=
+ alt=3D"Pour les jeunes retrait&eacute;s" height=3D"241" src=3D"http://d31e=
+pa2i3egyy4.cloudfront.net/img/6087/bloc01.jpg" style=3D"border:none;" width=
+=3D"307"></a></td>
+=09=09=09=09=09=09=09=09</tr></tbody></table><table al=
+ign=3D"right" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"wra=
+pper" width=3D"345"><tbody><tr><td align=3D"center" class=3D"no-padding" st=
+yle=3D"padding-bottom:25px;padding-right:20px;"><a href=3D"http://lp1.sendt=
+k2.com/index.php/campaigns/lw767mltzwf50/track-url/jb692xz74e28c/1b1eabf0d6=
+5dc97a8f0d9ec69028ea61f1e50281"><img alt=3D"Pour les petits budgets" height=
+=3D"241" src=3D"http://d31epa2i3egyy4.cloudfront.net/img/6087/bloc02.jpg" s=
+tyle=3D"border:none;" width=3D"307"></a></td>
+=09=09=09=09=09=09=09=09</t=
+r></tbody></table></td>
+=09=09=09=09=09</tr></tbody></table><table align=
+=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"wrapp=
+er" style=3D"background:#ffffff;margin:0 auto;" width=3D"700"><tbody><tr><t=
+d>
+=09=09=09=09=09=09<table align=3D"left" border=3D"0" cellpadding=3D"0"=
+ cellspacing=3D"0" class=3D"wrapper" width=3D"345"><tbody><tr><td align=3D"=
+center" class=3D"no-padding" style=3D"padding-bottom:25px;padding-left:20px=
+;"><a href=3D"http://lp1.sendtk2.com/index.php/campaigns/lw767mltzwf50/trac=
+k-url/jb692xz74e28c/1b1eabf0d65dc97a8f0d9ec69028ea61f1e50281"><img alt=3D"P=
+our les travailleurs ind&eacute;pendants" height=3D"263" src=3D"http://d31e=
+pa2i3egyy4.cloudfront.net/img/6087/bloc03.jpg" style=3D"border:none;" width=
+=3D"307"></a></td>
+=09=09=09=09=09=09=09=09</tr></tbody></table><table al=
+ign=3D"right" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"wra=
+pper" width=3D"345"><tbody><tr><td align=3D"center" class=3D"no-padding" st=
+yle=3D"padding-bottom:25px;padding-right:20px;"><a href=3D"http://lp1.sendt=
+k2.com/index.php/campaigns/lw767mltzwf50/track-url/jb692xz74e28c/1b1eabf0d6=
+5dc97a8f0d9ec69028ea61f1e50281"><img alt=3D"Pour les jeunes actifs" height=
+=3D"263" src=3D"http://d31epa2i3egyy4.cloudfront.net/img/6087/bloc04.jpg" s=
+tyle=3D"border:none;" width=3D"307"></a></td>
+=09=09=09=09=09=09=09=09</t=
+r></tbody></table></td>
+=09=09=09=09=09</tr></tbody></table><table align=
+=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"wrapp=
+er" style=3D"background:#ffffff;" width=3D"700"><tbody><tr><td class=3D"no-=
+padding" style=3D"padding-left:30px;"><a href=3D"http://lp1.sendtk2.com/ind=
+ex.php/campaigns/lw767mltzwf50/track-url/jb692xz74e28c/1b1eabf0d65dc97a8f0d=
+9ec69028ea61f1e50281"><img alt=3D"Votre devis Sant&eacute; en ligne" height=
+=3D"42" src=3D"http://d31epa2i3egyy4.cloudfront.net/img/6087/bt-demande.jpg=
+" style=3D"border:none;" width=3D"318"></a></td>
+=09=09=09=09=09</tr></tb=
+ody></table><table align=3D"center" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" class=3D"wrapper" style=3D"background:#ffffff;margin:0 auto;" wid=
+th=3D"700"><tbody><tr><td height=3D"40">&nbsp;</td>
+=09=09=09=09=09</tr><=
+/tbody></table><table align=3D"center" border=3D"0" cellpadding=3D"0" cells=
+pacing=3D"0" class=3D"column" style=3D"background:#f0f0f0;margin:0 auto;" w=
+idth=3D"700"><tbody><tr><td height=3D"30">&nbsp;</td>
+=09=09=09=09=09</tr=
+><tr><td align=3D"justify" style=3D"color:#686868;font-family:Arial, Helvet=
+ica, sans-serif;font-size:11px;line-height:18px;">* Offre valable jusqu'au =
+31 D&eacute;cembre 2016 pour tout nouvel adh&eacute;rent souscrivant un con=
+trat sant&eacute; de la gamme Equit&eacute;o, Territ&eacute;o, Tonus pro, V=
+ital et Hospit&eacute;o. Les 2 mois de gratuit&eacute; sont r&eacute;partis=
+ comme suit&nbsp;: 1 mois la 1&egrave;re ann&eacute;e d&rsquo;adh&eacute;si=
+on et 1 mois la 2&egrave;me. Voir conditions et limitations de l&rsquo;offr=
+e en agence Eovi Mcd mutuelle. (1) Formule EQUITEO Essentiel HOSPI pour une=
+ personne n&eacute;e en 1998 et r&eacute;sidant dans le d&eacute;partement =
+71. Tarif en vigueur jusqu&acute;au 31/12/2016.<br>
+=09=09=09=09=09=09Con=
+form&eacute;ment &agrave; la loi Informatique et Libert&eacute;s n&deg; 78-=
+17 du 6 janvier 1978, modifi&eacute;e le 6 ao&ucirc;t 2004, vous b&eacute;n=
+&eacute;ficiez d'un droit d'acc&egrave;s, de modification et de suppression=
+ des informations qui vous concernent.</td>
+=09=09=09=09=09</tr><tr><td h=
+eight=3D"20">&nbsp;</td>
+=09=09=09=09=09</tr><tr><td style=3D"color:#6868=
+68;font-family:Arial, Helvetica, sans-serif;font-size:11px;line-height:18px=
+;">Eovi Mcd mutuelle. Si&egrave;ge social Eovi Mcd mutuelle : 44 rue Copern=
+ic - CS 11709 - 75773 Paris Cedex 16.<br>
+=09=09=09=09=09=09Mutuelle soum=
+ise aux dispositions du livre II du Code de la mutualit&eacute;, N&deg; Sir=
+&egrave;ne 317 442 176.</td>
+=09=09=09=09=09</tr><tr><td height=3D"20">&n=
+bsp;</td>
+=09=09=09=09=09</tr><tr><td height=3D"40">&nbsp;</td>
+=09=09=
+=09=09=09</tr></tbody></table></td>
+=09=09</tr></tbody></table></div>
+=
+
+<p style=3D"width:100%;text-align:center;font-size:12px;">Vous recevez c=
+e message car vous &ecirc;tes inscrit dans la liste de diffusion de <b>offr=
+emutuelle</b>.<br>
+Vous avez la possibilit&eacute; de g&eacute;rer vos in=
+formations en vous dirigeant sur le site de <a href=3D"http://lp1.sendtk2.c=
+om/index.php/campaigns/lw767mltzwf50/track-url/jb692xz74e28c/da562af97af6a3=
+95f15f7d4ad819be1827dc7701" style=3D"text-decoration:underline;font-weight:=
+bold;">offremutuelle</a>.</p>
+
+<p style=3D"width:100%;text-align:center=
+;font-size:12px;"><a href=3D"http://lp1.sendtk2.com/index.php/campaigns/lw7=
+67mltzwf50/track-url/jb692xz74e28c/39729eb5de8b87eb7979741b3bdcc05bd4f7d09e=
+">Ne plus recevoir</a>.</p>
+<br>
+&nbsp;<img width=3D"1" height=3D"1" sr=
+c=3D"http://lp1.sendtk2.com/index.php/campaigns/lw767mltzwf50/track-opening=
+/jb692xz74e28c" alt=3D"" />
+</body></html>
+
+
+--_=_swift_v4_1463315320_5a3fb9a032f3cf3907c9688c96c451ee_=_--
+

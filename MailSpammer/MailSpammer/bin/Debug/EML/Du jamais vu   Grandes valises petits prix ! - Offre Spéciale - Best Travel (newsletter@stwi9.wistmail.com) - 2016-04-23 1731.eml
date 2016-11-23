@@ -1,0 +1,546 @@
+Return-Path: <newsletter@stwi9.wistmail.com>
+Received: from mailimailo.univ-rennes1.fr ([unix socket])
+	 by mailimailo.univ-rennes1.fr (Cyrus v2.3.16-Fedora-RPM-2.3.16-6.el6_2.5) with LMTPA;
+	 Sat, 23 Apr 2016 17:31:56 +0200
+X-Sieve: CMU Sieve 2.3
+Received: from mailout2.univ-rennes1.fr (mailout2.univ-rennes1.fr [129.20.129.120])
+	by mailimailo.univ-rennes1.fr (Postfix) with ESMTP id 4AE2826A1084
+	for <resp-m2-miage@univ-rennes1.fr>; Sat, 23 Apr 2016 17:31:56 +0200 (CEST)
+Received: from localhost (vmscanmail.univ-rennes1.fr [129.20.128.134])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id 4822660170
+	for <resp-m2-miage@univ-rennes1.fr>; Sat, 23 Apr 2016 17:31:56 +0200 (CEST)
+X-Virus-Scanned: amavisd-new at univ-rennes1.fr
+Received: from mailout2.univ-rennes1.fr ([129.20.129.120])
+	by localhost (vmscanmail.univ-rennes1.frm [129.20.128.134]) (amavisd-new, port 10026)
+	with ESMTP id AbtbxKuxzcvp for <resp-m2-miage@univ-rennes1.fr>;
+	Sat, 23 Apr 2016 17:31:56 +0200 (CEST)
+Received: from vmmailin.univ-rennes1.fr (vmmailin.univ-rennes1.fr [129.20.128.133])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id 259156016D
+	for <resp-m2-miage@univ-rennes1.fr>; Sat, 23 Apr 2016 17:31:56 +0200 (CEST)
+Received: from mxb1-1.relay.renater.fr (mxb1-1.relay.renater.fr [194.214.201.8])
+	by vmmailin.univ-rennes1.fr (Postfix) with ESMTP id 1DCBC20033
+	for <resp-m2-miage@univ-rennes1.fr>; Sat, 23 Apr 2016 17:31:56 +0200 (CEST)
+Received: from mta1fr1.stwi9.wistmail.com (mta1fr1.stwi9.wistmail.com [188.213.140.128])
+	by mxb1-1.relay.renater.fr (asm) with ESMTP id D5A5860004C
+	for <resp-m2-miage@univ-rennes1.fr>; Sat, 23 Apr 2016 17:31:55 +0200 (CEST)
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=dkim; d=stwi9.wistmail.com;
+ h=Message-ID:Date:Subject:From:Reply-To:To:MIME-Version:Content-Type:List-Unsubscribe:List-Id; i=newsletter@stwi9.wistmail.com;
+ bh=GlTEOkHXl3cTNM67HxOtN45c/Z8=;
+ b=HssyuMybdmuFYQZmMCu5jQ+jOOI0yC9XCRXfqFS+Cmeld3DEuU5evPi7VvjzPX1dA6tw1zsSxUv4
+   xpsthU9EUo7QreBqbrura6s2BhCD2nmmLtB8SWkLt2phtkralauQxfzb4pyDlockd2RXbhWKIHjD
+   gW/momw1uzdqY1qzO4k=
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=dkim; d=stwi9.wistmail.com;
+ b=394MUzzUXnvf25W5hvoXS2IRXlgoeX2Q/99JVHcfaNWadHXCh6DW4Rt27yAek0H5Jq533DAsfasA
+   J2hVzRdCo7mcGNimpRfzrjZPFHuOHBj21h5jjrzmOeF21cIj4dAHKbqj1Hc6mGFwTh2Ooi1YRdqp
+   7qc3Ah78QQvUwQoLeps=;
+DKIM-Signature: v=1; a=rsa-sha1; bh=pZqGD/o0A81s7BiMkB4+apRTJDE=;
+ d=stwi9.wistmail.com; h=Message-ID: Date: Subject: From: Reply-To: To:
+ MIME-Version: Content-Type: X-Mw-Customer-Uid: X-Receiver: X-Mw-Tracking-Did:
+ X-Mw-Campaign-Uid: List-Unsubscribe: X-Mw-Customer-Gid: List-Id:
+ X-Mw-Subscriber-Uid: X-Report-Abuse: X-Sender: Feedback-ID: X-Mw-Mailer:
+ X-Mw-Delivery-Sid; i=@stwi9.wistmail.com; s=mailer; t=1461425514;
+ b=IMlbE5vsKiz2CrVBB4oFXuMZ97Qz/pGISkJvlwSCDsy5GlwmQNeWdsWyQZfRC4rC8d4If9TQo
+ 1tepaKRaGzu+Nv0TH1uNMj0xTy/OlsYp5yNlfWAZA6VOMs3a2DQNWNfOWXtMYvdAfBkxFgi7K
+ sT9SnZ54FJUELKo8cKE4aUpI0=
+Message-ID: <3341b75cb58fb6d89f95e48052f2a544@stwi9.wistmail.com>
+Date: Sat, 23 Apr 2016 15:31:53 +0000
+Subject: Du jamais vu : Grandes valises petits prix !
+From: Offre =?utf-8?Q?Sp=C3=A9ciale?= - Best Travel
+ <newsletter@stwi9.wistmail.com>
+Reply-To: Offre =?utf-8?Q?Sp=C3=A9ciale?= - Best Travel
+ <newsletter@stwi9.wistmail.com>
+To: "resp-m2-miage@univ-rennes1.fr" <resp-m2-miage@univ-rennes1.fr>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="_=_swift_v4_1461425513_e579e76f25bb441fee914a327f59add5_=_"
+X-Mw-Campaign-Uid: vk001jhyr11ae
+List-Unsubscribe: <http://lp1.sendtk2.com/index.php/lists/et662pn6r9252/unsubscribe/jb692xz74e28c/vk001jhyr11ae>,
+ <mailto:newsletter@lp2.wistmail.com?subject=Unsubscribe&body=Please
+ unsubscribe me from Liste Wizz list.>
+X-Mw-Customer-Gid: 1
+List-Id: et662pn6r9252 <Liste Wizz>
+X-Receiver: resp-m2-miage@univ-rennes1.fr
+X-Report-Abuse: Please report abuse for this campaign here:
+ http://lp1.sendtk2.com/index.php/campaigns/vk001jhyr11ae/report-abuse/et662pn6r9252/jb692xz74e28c
+X-Mw-Subscriber-Uid: jb692xz74e28c
+Feedback-ID: vk001jhyr11ae:jb692xz74e28c:et662pn6r9252:qb167cl01b984
+X-Sender: newsletter@stwi9.wistmail.com
+X-Mw-Customer-Uid: qb167cl01b984
+X-Mw-Mailer: SwiftMailer
+X-Mw-Delivery-Sid: 108
+X-Mw-Tracking-Did: 1
+X-UCE-Status: YES
+X-UCE-Type: MCE
+X-Original-Source-IP: 188.213.140.128
+X-Bizanga: IMP - mxb1-1.relay.renater.fr
+X-Renater-SpamState: 11
+X-Renater-SpamScore: 17
+X-Renater-SpamCause: gggruggvucftvghtrhhoucdtuddrfeekkedrjedvgdelfecutefuodetggdotefrodftvfcurfhrohhfihhlvgemucftgffptefvgfftpdggtfgfnhhsuhgsshgtrhhisggvnecuuegrihhlohhuthemuceftddtnecundfotefknffkpffiucdludejmdenucfjughrpefkfffuhfhrvfggtgfjjeigsegrtdhjredttdejnecuhfhrohhmpefqfhhfrhgvucfuphortghirghlvgcuqdcuuegvshhtucfvrhgrvhgvlhcuoehnvgifshhlvghtthgvrhesshhtfihiledrfihishhtmhgrihhlrdgtohhmqeenucffohhmrghinhepshgvnhguthhkvddrtghomhenucfkphepudekkedrvddufedrudegtddruddvkeenucfrrghrrghmpehmohguvgepshhmthhppdhhvghlohepmhhtrgdufhhruddrshhtfihiledrfihishhtmhgrihhlrdgtohhmpdhinhgvthepudekkedrvddufedrudegtddruddvkedpmhgrihhlfhhrohhmpehnvgifshhlvghtthgvrhesshhtfihiledrfihishhtmhgrihhlrdgtohhmpdhrtghpthhtoheprhgvshhpqdhmvddqmhhirghgvgesuhhnihhvqdhrvghnnhgvshdurdhfrh 
+X-Renater-ServerName: mxb1-1.relay.renater.fr
+
+
+--_=_swift_v4_1461425513_e579e76f25bb441fee914a327f59add5_=_
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+=20
+
+Voir en ligne
+http://lp1.sendtk2.com/index.php/campaigns/vk001jhyr=
+11ae/track-url/jb692xz74e28c/f2b89f72a561b77eb3363ebd09f142070e5069e9
+| N=
+e plus recevoir ce type de courriel
+http://lp1.sendtk2.com/index.php/camp=
+aigns/vk001jhyr11ae/track-url/jb692xz74e28c/816d6520b7db2f31365f1f3cce94f67=
+6976800a3
+| Signaler ce message
+http://lp1.sendtk2.com/index.php/campai=
+gns/vk001jhyr11ae/track-url/jb692xz74e28c/4372fc6273a8aec5cd61dba45ff4b8a1b=
+6031815
+
+
+BESTTRAVEL : Offre du 22/04/2016=20
+
+=09=09DU JAMAIS VU :=
+ GRANDES VALISES =C3=80 PETITS PRIX !
+http://lp1.sendtk2.com/index.php/ca=
+mpaigns/vk001jhyr11ae/track-url/jb692xz74e28c/b1fcd79b075524d27e8a973ed8d9b=
+b43d7a381c2
+
+=09=09
+http://lp1.sendtk2.com/index.php/campaigns/vk001j=
+hyr11ae/track-url/jb692xz74e28c/b1fcd79b075524d27e8a973ed8d9bb43d7a381c2
+=
+
+=09=09
+http://lp1.sendtk2.com/index.php/campaigns/vk001jhyr11ae/track-=
+url/jb692xz74e28c/b1fcd79b075524d27e8a973ed8d9bb43d7a381c2
+
+=09=09
+ht=
+tp://lp1.sendtk2.com/index.php/campaigns/vk001jhyr11ae/track-url/jb692xz74e=
+28c/b1fcd79b075524d27e8a973ed8d9bb43d7a381c2
+
+=09=09
+http://lp1.sendt=
+k2.com/index.php/campaigns/vk001jhyr11ae/track-url/jb692xz74e28c/b1fcd79b07=
+5524d27e8a973ed8d9bb43d7a381c2
+ =09=09
+http://lp1.sendtk2.com/index.php=
+/campaigns/vk001jhyr11ae/track-url/jb692xz74e28c/b1fcd79b075524d27e8a973ed8=
+d9bb43d7a381c2
+
+=09=09
+http://lp1.sendtk2.com/index.php/campaigns/vk0=
+01jhyr11ae/track-url/jb692xz74e28c/b1fcd79b075524d27e8a973ed8d9bb43d7a381c2=
+
+
+=09=09
+http://lp1.sendtk2.com/index.php/campaigns/vk001jhyr11ae/tra=
+ck-url/jb692xz74e28c/b1fcd79b075524d27e8a973ed8d9bb43d7a381c2
+
+=09=09=
+
+http://lp1.sendtk2.com/index.php/campaigns/vk001jhyr11ae/track-url/jb692=
+xz74e28c/b1fcd79b075524d27e8a973ed8d9bb43d7a381c2
+ =09=09
+http://lp1.se=
+ndtk2.com/index.php/campaigns/vk001jhyr11ae/track-url/jb692xz74e28c/b1fcd79=
+b075524d27e8a973ed8d9bb43d7a381c2
+
+=09=09
+http://lp1.sendtk2.com/inde=
+x.php/campaigns/vk001jhyr11ae/track-url/jb692xz74e28c/b1fcd79b075524d27e8a9=
+73ed8d9bb43d7a381c2
+ =09=09
+http://lp1.sendtk2.com/index.php/campaigns/=
+vk001jhyr11ae/track-url/jb692xz74e28c/b1fcd79b075524d27e8a973ed8d9bb43d7a38=
+1c2
+
+=09=09
+http://lp1.sendtk2.com/index.php/campaigns/vk001jhyr11ae/=
+track-url/jb692xz74e28c/b1fcd79b075524d27e8a973ed8d9bb43d7a381c2
+ =09=09=
+
+http://lp1.sendtk2.com/index.php/campaigns/vk001jhyr11ae/track-url/jb692=
+xz74e28c/b1fcd79b075524d27e8a973ed8d9bb43d7a381c2
+
+=09=09
+http://lp1.=
+sendtk2.com/index.php/campaigns/vk001jhyr11ae/track-url/jb692xz74e28c/b1fcd=
+79b075524d27e8a973ed8d9bb43d7a381c2
+ =09=09
+http://lp1.sendtk2.com/inde=
+x.php/campaigns/vk001jhyr11ae/track-url/jb692xz74e28c/b1fcd79b075524d27e8a9=
+73ed8d9bb43d7a381c2
+
+=09=09
+http://lp1.sendtk2.com/index.php/campaign=
+s/vk001jhyr11ae/track-url/jb692xz74e28c/b1fcd79b075524d27e8a973ed8d9bb43d7a=
+381c2
+
+=09=09
+http://lp1.sendtk2.com/index.php/campaigns/vk001jhyr11a=
+e/track-url/jb692xz74e28c/b1fcd79b075524d27e8a973ed8d9bb43d7a381c2
+
+=09=
+=09
+http://lp1.sendtk2.com/index.php/campaigns/vk001jhyr11ae/track-url/jb=
+692xz74e28c/b1fcd79b075524d27e8a973ed8d9bb43d7a381c2
+
+=09=09
+http://l=
+p1.sendtk2.com/index.php/campaigns/vk001jhyr11ae/track-url/jb692xz74e28c/b1=
+fcd79b075524d27e8a973ed8d9bb43d7a381c2
+
+=09=09
+http://lp1.sendtk2.com=
+/index.php/campaigns/vk001jhyr11ae/track-url/jb692xz74e28c/b1fcd79b075524d2=
+7e8a973ed8d9bb43d7a381c2
+
+=09=09* Livraison offerte sur votre lieu de t=
+ravail, ou d=C3=A8s 60EUR en
+relais colis.
+http://lp1.sendtk2.com/index=
+.php/campaigns/vk001jhyr11ae/track-url/jb692xz74e28c/b1fcd79b075524d27e8a97=
+3ed8d9bb43d7a381c2
+
+=09=09NOS MARQUES
+http://lp1.sendtk2.com/index.ph=
+p/campaigns/vk001jhyr11ae/track-url/jb692xz74e28c/b1fcd79b075524d27e8a973ed=
+8d9bb43d7a381c2
+
+=09=09
+http://lp1.sendtk2.com/index.php/campaigns/vk=
+001jhyr11ae/track-url/jb692xz74e28c/b1fcd79b075524d27e8a973ed8d9bb43d7a381c=
+2
+
+EN CE MOMENT LES PRIX BAISSENT DU C=C3=94T=C3=89 DES VALISES...!
+=
+
+ * Leader du bagage en ligne depuis plus de 20 ans !
+ * La qualit=
+=C3=A9 des plus grandes marques fran=C3=A7aises, aux meilleurs
+prix du ne=
+t.
+ * Partez serein en vacances ou en voyage d'affaires avec plus de 1000=
+
+r=C3=A9f=C3=A9rences =C3=A0 petits prix.
+ * Valises, sacs de voyage, a=
+ccessoires indispensables, il y en a pour
+tous les go=C3=BBts et tous les=
+ budgets.
+ * Nouveau : profitez du paiement en 3x sans frais, =C3=A0 part=
+ir de
+100EUR.
+ * De nombreux avantages : SAV premium, exp=C3=A9dition s=
+ous 24h,
+livraison offerte sur votre lieu de travail, garantie 2 an et pr=
+omos
+toute l'ann=C3=A9e !=20
+
+ http://lp1.sendtk2.com/index.php/campaig=
+ns/vk001jhyr11ae/track-url/jb692xz74e28c/2f0cd3f6efb29dee5109b1896822fd261c=
+4d729a
+
+
+Vous recevez ce message car vous =C3=AAtes inscrit dans la l=
+iste de
+diffusion de BESTTRAVEL.OVH.
+ Vous avez la possibilit=C3=A9 de =
+g=C3=A9rer vos informations en vous
+dirigeant sur le site de besttravel.o=
+vh
+http://lp1.sendtk2.com/index.php/campaigns/vk001jhyr11ae/track-url/jb6=
+92xz74e28c/ad0134d392052232ffb74712b8a572635caebb55.
+
+
+Pour personnal=
+iser vos annonces lors de votre navigation
+(internet,email,applications .=
+..), des cookies sont d=C3=A9pos=C3=A9s par
+l'interm=C3=A9diaire de cet e=
+mail.
+ Pour garantir la s=C3=A9curit=C3=A9 de vos donn=C3=A9es, LPM a d=
+=C3=A9clar=C3=A9 sa liste
+=C3=A0 la CNIL sous le num=C3=A9ro 1581284v0.=
+
+ Pour vous y opposer, d=C3=A9sabonnez-vous en cliquant sur ce lien
+htt=
+p://lp1.sendtk2.com/index.php/campaigns/vk001jhyr11ae/track-url/jb692xz74e2=
+8c/816d6520b7db2f31365f1f3cce94f676976800a3.
+
+=20
+
+--_=_swift_v4_1461425513_e579e76f25bb441fee914a327f59add5_=_
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>
+<html><head><meta name=3D"charset" content=3D"utf-8"><tit=
+le></title></head><body style=3D"background:#ffffff;">
+
+            <ce=
+nter>
+<p style=3D"width:100%;padding:10px;margin:0;font-size:12px;backgro=
+und:#222;color:#FFF;text-align:center;font-family:Arial;font-weight:normal;=
+"><a href=3D"http://lp1.sendtk2.com/index.php/campaigns/vk001jhyr11ae/track=
+-url/jb692xz74e28c/f2b89f72a561b77eb3363ebd09f142070e5069e9" style=3D"color=
+:#FFF;">Voir en ligne</a> | <a href=3D"http://lp1.sendtk2.com/index.php/cam=
+paigns/vk001jhyr11ae/track-url/jb692xz74e28c/816d6520b7db2f31365f1f3cce94f6=
+76976800a3" style=3D"color:#FFF;">Ne plus recevoir ce type de courriel</a> =
+| <a href=3D"http://lp1.sendtk2.com/index.php/campaigns/vk001jhyr11ae/track=
+-url/jb692xz74e28c/4372fc6273a8aec5cd61dba45ff4b8a1b6031815" style=3D"color=
+:#FFF;">Signaler ce message</a></p>
+</center>
+
+<p style=3D"width:100%=
+;padding:10px;margin:0;font-size:14px;color:#a5d192;text-align:center;font-=
+family:Arial;font-weight:bold;background-color:#356e1d;">BESTTRAVEL : Offre=
+ du 22/04/2016</p>
+<img alt=3D"openNaoshoot.php?i=3D7383&amp;c=3D3688&amp=
+;email=3D[EM" height=3D"1" src=3D"http://naowizz.com/openNaoshoot.php?i=3D7=
+383&amp;c=3D3688&amp;email=3Dresp-m2-miage@univ-rennes1.fr&amp;e=3D0&amp;sm=
+=3D0&amp;ip=3D" style=3D"display:none;" width=3D"1"><img alt=3D"axciom.php?=
+email=3Dresp-m2-miage@univ-rennes1.fr" border=3D"0" height=3D"1" hspace=3D"=
+0" src=3D"http://naowizz.com/axciom.php?email=3Dresp-m2-miage@univ-rennes1.=
+fr" style=3D"display:none;" vspace=3D"0" width=3D"1"><img alt=3D"openNaosho=
+ot.php?i=3D5415&amp;c=3D3467&amp;email=3D%%e" height=3D"1" src=3D"http://pc=
+lesinfos.fr/openNaoshoot.php?i=3D5415&amp;c=3D3467&amp;email=3D%25%25email%=
+25%25&amp;e=3D0&amp;sm=3D0&amp;ip=3D" style=3D"display:none;" width=3D"1"><=
+img alt=3D"axciom.php?email=3D%%email%%" border=3D"0" height=3D"1" hspace=
+=3D"0" src=3D"http://pclesinfos.fr/axciom.php?email=3D%25%25email%25%25" st=
+yle=3D"display:none;" vspace=3D"0" width=3D"1"><center>&nbsp;
+<table alig=
+n=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"marg=
+in:0 auto;text-align:center;" width=3D"600"><tbody><tr width=3D"600"><td al=
+ign=3D"center" height=3D"25" style=3D"font-size:14px;font-family:Arial, Hel=
+vetica, sans-serif;" valign=3D"bottom"><a href=3D"http://lp1.sendtk2.com/in=
+dex.php/campaigns/vk001jhyr11ae/track-url/jb692xz74e28c/b1fcd79b075524d27e8=
+a973ed8d9bb43d7a381c2" style=3D"text-decoration:none;color:#fa4b72;" title=
+=3D"Accueil"><strong>Du jamais vu : Grandes Valises &agrave; petits prix !<=
+/strong></a></td>
+=09=09</tr><tr><td height=3D"69" width=3D"600"><a href=
+=3D"http://lp1.sendtk2.com/index.php/campaigns/vk001jhyr11ae/track-url/jb69=
+2xz74e28c/b1fcd79b075524d27e8a973ed8d9bb43d7a381c2" style=3D"height:69px;" =
+title=3D"Leader du bagage depuis plus de 20 ans"><img alt=3D"Leader du baga=
+ge depuis plus de 20 ans" height=3D"69" src=3D"http://img.sp-medias.com/new=
+sletter/2016-04.03/images/hea.jpg" style=3D"display:block;border:0;" width=
+=3D"600"></a></td>
+=09=09</tr><tr><td height=3D"40" width=3D"600"><a href=
+=3D"http://lp1.sendtk2.com/index.php/campaigns/vk001jhyr11ae/track-url/jb69=
+2xz74e28c/b1fcd79b075524d27e8a973ed8d9bb43d7a381c2" style=3D"height:40px;" =
+title=3D"livraison entreprise offerte"><img alt=3D"livraison entreprise off=
+erte" height=3D"40" src=3D"http://img.sp-medias.com/newsletter/2016-04.03/i=
+mages/liv.jpg" style=3D"display:block;border:0;" width=3D"600"></a></td>
+=
+=09=09</tr><tr><td height=3D"81" width=3D"600"><a href=3D"http://lp1.sendtk=
+2.com/index.php/campaigns/vk001jhyr11ae/track-url/jb692xz74e28c/b1fcd79b075=
+524d27e8a973ed8d9bb43d7a381c2" style=3D"height:81px;" title=3D"du 15 au 28 =
+avril"><img alt=3D"du 15 au 28 avril" height=3D"81" src=3D"http://img.sp-me=
+dias.com/newsletter/2016-04.03/images/dat.jpg" style=3D"display:block;borde=
+r:0;" width=3D"600"></a></td>
+=09=09</tr></tbody></table><table align=3D"=
+center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"margin:0 =
+auto;text-align:center;" width=3D"600"><tbody><tr><td height=3D"267" width=
+=3D"323"><a href=3D"http://lp1.sendtk2.com/index.php/campaigns/vk001jhyr11a=
+e/track-url/jb692xz74e28c/b1fcd79b075524d27e8a973ed8d9bb43d7a381c2" style=
+=3D"height:267px;" title=3D"grandes valises"><img alt=3D"grandes valises" h=
+eight=3D"267" src=3D"http://img.sp-medias.com/newsletter/2016-04.03/images/=
+gra.gif" style=3D"display:block;border:0;" width=3D"323"></a></td>
+=09=09=
+=09<td height=3D"267" width=3D"277"><a href=3D"http://lp1.sendtk2.com/index=
+.php/campaigns/vk001jhyr11ae/track-url/jb692xz74e28c/b1fcd79b075524d27e8a97=
+3ed8d9bb43d7a381c2" style=3D"height:267px;" title=3D"petits prix"><img alt=
+=3D"petits prix" height=3D"267" src=3D"http://img.sp-medias.com/newsletter/=
+2016-04.03/images/val.jpg" style=3D"display:block;border:0;" width=3D"277">=
+</a></td>
+=09=09</tr></tbody></table><table align=3D"center" border=3D"0"=
+ cellpadding=3D"0" cellspacing=3D"0" style=3D"margin:0 auto;text-align:cent=
+er;" width=3D"600"><tbody><tr><td height=3D"154" width=3D"600"><a href=3D"h=
+ttp://lp1.sendtk2.com/index.php/campaigns/vk001jhyr11ae/track-url/jb692xz74=
+e28c/b1fcd79b075524d27e8a973ed8d9bb43d7a381c2" style=3D"height:154px;" titl=
+e=3D"stock limit&eacute;"><img alt=3D"stock limit&eacute;" height=3D"154" s=
+rc=3D"http://img.sp-medias.com/newsletter/2016-04.03/images/par.jpg" style=
+=3D"display:block;border:0;" width=3D"600"></a></td>
+=09=09</tr><tr><td h=
+eight=3D"107" width=3D"600"><a href=3D"http://lp1.sendtk2.com/index.php/cam=
+paigns/vk001jhyr11ae/track-url/jb692xz74e28c/b1fcd79b075524d27e8a973ed8d9bb=
+43d7a381c2" style=3D"height:107px;" title=3D"voir la collection"><img alt=
+=3D"voir la collection" height=3D"107" src=3D"http://img.sp-medias.com/news=
+letter/2016-04.03/images/jam.jpg" style=3D"display:block;border:0;" width=
+=3D"600"></a></td>
+=09=09</tr></tbody></table><table align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"margin:0 auto;text-a=
+lign:center;" width=3D"600"><tbody><tr><td height=3D"257" width=3D"300"><a =
+href=3D"http://lp1.sendtk2.com/index.php/campaigns/vk001jhyr11ae/track-url/=
+jb692xz74e28c/b1fcd79b075524d27e8a973ed8d9bb43d7a381c2" style=3D"height:257=
+px;" title=3D"valises cabine 39e"><img alt=3D"valises cabine 39e" height=3D=
+"257" src=3D"http://img.sp-medias.com/newsletter/2016-04.03/images/cab.jpg"=
+ style=3D"display:block;border:0;" width=3D"300"></a></td>
+=09=09=09<td h=
+eight=3D"257" width=3D"300"><a href=3D"http://lp1.sendtk2.com/index.php/cam=
+paigns/vk001jhyr11ae/track-url/jb692xz74e28c/b1fcd79b075524d27e8a973ed8d9bb=
+43d7a381c2" style=3D"height:257px;" title=3D"valises semaine 49e"><img alt=
+=3D"valises semaine 49e" height=3D"257" src=3D"http://img.sp-medias.com/new=
+sletter/2016-04.03/images/sem.jpg" style=3D"display:block;border:0;" width=
+=3D"300"></a></td>
+=09=09</tr><tr><td height=3D"257" width=3D"300"><a hre=
+f=3D"http://lp1.sendtk2.com/index.php/campaigns/vk001jhyr11ae/track-url/jb6=
+92xz74e28c/b1fcd79b075524d27e8a973ed8d9bb43d7a381c2" style=3D"height:257px;=
+" title=3D"valises cabine 39e"><img alt=3D"valises cabine 39e" height=3D"25=
+7" src=3D"http://img.sp-medias.com/newsletter/2016-04.03/images/pet.jpg" st=
+yle=3D"display:block;border:0;" width=3D"300"></a></td>
+=09=09=09<td heig=
+ht=3D"257" width=3D"300"><a href=3D"http://lp1.sendtk2.com/index.php/campai=
+gns/vk001jhyr11ae/track-url/jb692xz74e28c/b1fcd79b075524d27e8a973ed8d9bb43d=
+7a381c2" style=3D"height:257px;" title=3D"valises semaine 49e"><img alt=3D"=
+valises semaine 49e" height=3D"257" src=3D"http://img.sp-medias.com/newslet=
+ter/2016-04.03/images/med.jpg" style=3D"display:block;border:0;" width=3D"3=
+00"></a></td>
+=09=09</tr><tr><td height=3D"257" width=3D"300"><a href=3D"=
+http://lp1.sendtk2.com/index.php/campaigns/vk001jhyr11ae/track-url/jb692xz7=
+4e28c/b1fcd79b075524d27e8a973ed8d9bb43d7a381c2" style=3D"height:257px;" tit=
+le=3D"valises magnum 59e"><img alt=3D"valises magnum 59e" height=3D"257" sr=
+c=3D"http://img.sp-medias.com/newsletter/2016-04.03/images/mag.jpg" style=
+=3D"display:block;border:0;" width=3D"300"></a></td>
+=09=09=09<td height=
+=3D"257" width=3D"300"><a href=3D"http://lp1.sendtk2.com/index.php/campaign=
+s/vk001jhyr11ae/track-url/jb692xz74e28c/b1fcd79b075524d27e8a973ed8d9bb43d7a=
+381c2" style=3D"height:257px;" title=3D"sets de 3 valises 129e"><img alt=3D=
+"sets de 3 valises 129e" height=3D"257" src=3D"http://img.sp-medias.com/new=
+sletter/2016-04.03/images/set.jpg" style=3D"display:block;border:0;" width=
+=3D"300"></a></td>
+=09=09</tr><tr><td height=3D"257" width=3D"300"><a hre=
+f=3D"http://lp1.sendtk2.com/index.php/campaigns/vk001jhyr11ae/track-url/jb6=
+92xz74e28c/b1fcd79b075524d27e8a973ed8d9bb43d7a381c2" style=3D"height:257px;=
+" title=3D"valises magnum 59e"><img alt=3D"valises magnum 59e" height=3D"25=
+7" src=3D"http://img.sp-medias.com/newsletter/2016-04.03/images/gra.jpg" st=
+yle=3D"display:block;border:0;" width=3D"300"></a></td>
+=09=09=09<td heig=
+ht=3D"257" width=3D"300"><a href=3D"http://lp1.sendtk2.com/index.php/campai=
+gns/vk001jhyr11ae/track-url/jb692xz74e28c/b1fcd79b075524d27e8a973ed8d9bb43d=
+7a381c2" style=3D"height:257px;" title=3D"sets de 3 valises 129e"><img alt=
+=3D"sets de 3 valises 129e" height=3D"257" src=3D"http://img.sp-medias.com/=
+newsletter/2016-04.03/images/ens.jpg" style=3D"display:block;border:0;" wid=
+th=3D"300"></a></td>
+=09=09</tr></tbody></table><table align=3D"center" b=
+order=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"margin:0 auto;text=
+-align:center;" width=3D"600"><tbody><tr><td height=3D"134" width=3D"600"><=
+a href=3D"http://lp1.sendtk2.com/index.php/campaigns/vk001jhyr11ae/track-ur=
+l/jb692xz74e28c/b1fcd79b075524d27e8a973ed8d9bb43d7a381c2" style=3D"height:1=
+34px;" title=3D"voir toutes les valises"><img alt=3D"voir toutes les valise=
+s" height=3D"134" src=3D"http://img.sp-medias.com/newsletter/2016-04.03/ima=
+ges/tro.jpg" style=3D"display:block;border:0;" width=3D"600"></a></td>
+=
+=09=09</tr><tr><td height=3D"189" width=3D"600"><a href=3D"http://lp1.sendt=
+k2.com/index.php/campaigns/vk001jhyr11ae/track-url/jb692xz74e28c/b1fcd79b07=
+5524d27e8a973ed8d9bb43d7a381c2" style=3D"height:189px;" title=3D"sacs &agra=
+ve; main"><img alt=3D"sacs &agrave; main" height=3D"189" src=3D"http://img.=
+sp-medias.com/newsletter/2016-04.03/images/col.jpg" style=3D"display:block;=
+border:0;" width=3D"600"></a></td>
+=09=09</tr><tr><td height=3D"189" widt=
+h=3D"600"><a href=3D"http://lp1.sendtk2.com/index.php/campaigns/vk001jhyr11=
+ae/track-url/jb692xz74e28c/b1fcd79b075524d27e8a973ed8d9bb43d7a381c2" style=
+=3D"height:189px;" title=3D"sacs &agrave; main"><img alt=3D"sacs &agrave; m=
+ain" height=3D"189" src=3D"http://img.sp-medias.com/newsletter/2016-04.03/i=
+mages/mai.jpg" style=3D"display:block;border:0;" width=3D"600"></a></td>
+=
+=09=09</tr><tr><td height=3D"82" width=3D"600"><a href=3D"http://lp1.sendtk=
+2.com/index.php/campaigns/vk001jhyr11ae/track-url/jb692xz74e28c/b1fcd79b075=
+524d27e8a973ed8d9bb43d7a381c2" style=3D"height:82px;" title=3D"sacs &agrave=
+; main"><img alt=3D"sacs &agrave; main" height=3D"82" src=3D"http://img.sp-=
+medias.com/newsletter/2016-04.03/images/sac.gif" style=3D"display:block;bor=
+der:0;" width=3D"600"></a></td>
+=09=09</tr><tr><td height=3D"170" width=
+=3D"600"><a href=3D"http://lp1.sendtk2.com/index.php/campaigns/vk001jhyr11a=
+e/track-url/jb692xz74e28c/b1fcd79b075524d27e8a973ed8d9bb43d7a381c2" style=
+=3D"height:170px;" title=3D"vos avantages"><img alt=3D"vos avantages" heigh=
+t=3D"170" src=3D"http://img.sp-medias.com/newsletter/2016-04.03/images/rea.=
+jpg" style=3D"display:block;border:0;" width=3D"600"></a></td>
+=09=09</tr=
+><tr><td height=3D"30" style=3D"padding-right:5px;text-align:right;" width=
+=3D"600"><a href=3D"http://lp1.sendtk2.com/index.php/campaigns/vk001jhyr11a=
+e/track-url/jb692xz74e28c/b1fcd79b075524d27e8a973ed8d9bb43d7a381c2" style=
+=3D"height:30px;text-decoration:none;font-family:arial;font-size:13px;color=
+:#111111;" title=3D"livraison">* Livraison offerte sur votre lieu de travai=
+l, ou d&egrave;s 60&euro; en relais colis.</a></td>
+=09=09</tr><tr><td he=
+ight=3D"40" style=3D"padding-left:15px;text-align:left;" width=3D"600"><a h=
+ref=3D"http://lp1.sendtk2.com/index.php/campaigns/vk001jhyr11ae/track-url/j=
+b692xz74e28c/b1fcd79b075524d27e8a973ed8d9bb43d7a381c2" style=3D"height:40px=
+;text-decoration:none;font-family:arial;font-weight:bold;font-size:18px;col=
+or:#ff1668;" title=3D"nos marques">NOS MARQUES</a></td>
+=09=09</tr><tr><t=
+d height=3D"121" width=3D"600"><a href=3D"http://lp1.sendtk2.com/index.php/=
+campaigns/vk001jhyr11ae/track-url/jb692xz74e28c/b1fcd79b075524d27e8a973ed8d=
+9bb43d7a381c2" style=3D"height:121px;" title=3D"nos marques"><img alt=3D"no=
+s marques" height=3D"121" src=3D"http://img.sp-medias.com/newsletter/2016-0=
+4.03/images/mar.jpg" style=3D"display:block;border:0;" width=3D"600"></a></=
+td>
+=09=09</tr><tr><td height=3D"15" width=3D"600">&nbsp;</td>
+=09=09</=
+tr></tbody></table><table align=3D"center" border=3D"0" cellpadding=3D"0" c=
+ellspacing=3D"0" style=3D"margin:0 auto;" width=3D"602"><tbody><tr><td styl=
+e=3D"padding-left:10px;padding-right:10px;" valign=3D"top" width=3D"600">=
+
+=09=09=09<p style=3D"text-align:left;color:#575543;font-family:arial;fon=
+t-size:12px;"><b><font style=3D"color:#ff1668;font-size:16px;">En ce moment=
+ les prix baissent du c&ocirc;t&eacute; des valises...!</font></b><br><br>=
+
+=09=09=09&bull; Leader du bagage en ligne depuis plus de 20 ans !<br>
+=
+=09=09=09&bull; La qualit&eacute; des plus grandes marques fran&ccedil;aise=
+s, aux meilleurs prix du net.<br>
+=09=09=09&bull; Partez serein en vacanc=
+es ou en voyage d'affaires avec plus de 1000 r&eacute;f&eacute;rences &agra=
+ve; petits prix.<br>
+=09=09=09&bull; Valises, sacs de voyage, accessoires=
+ indispensables, il y en a pour tous les go&ucirc;ts et tous les budgets.<b=
+r>
+=09=09=09&bull; Nouveau : profitez du paiement en 3x sans frais, &agra=
+ve; partir de 100&euro;.<br>
+=09=09=09&bull; De nombreux avantages : SAV =
+premium, exp&eacute;dition sous 24h, livraison offerte sur votre lieu de tr=
+avail, garantie 2 an et promos toute l&rsquo;ann&eacute;e !</p>
+=09=09=09=
+</td>
+=09=09</tr></tbody></table></center>
+<img alt=3D"" border=3D"0" h=
+eight=3D"0" src=3D"http://t.iwdt-01.com/view/eb8c6ec4ec22f100b1f0602485081d=
+7a" style=3D"display:block;" width=3D"0"><a href=3D"http://lp1.sendtk2.com/=
+index.php/campaigns/vk001jhyr11ae/track-url/jb692xz74e28c/2f0cd3f6efb29dee5=
+109b1896822fd261c4d729a"><img alt=3D"imagePix.jpg" height=3D"1" src=3D"http=
+://pclesinfos.fr/img/imagePix.jpg" style=3D"display:none;width:1px;height:1=
+px;" width=3D"1"></a>
+
+<p style=3D"width:100%;text-align:center;font-si=
+ze:12px;">Vous recevez ce message car vous &ecirc;tes inscrit dans la liste=
+ de diffusion de <b>besttravel.ovh</b>.<br>
+Vous avez la possibilit&eacut=
+e; de g&eacute;rer vos informations en vous dirigeant sur le site de <a hre=
+f=3D"http://lp1.sendtk2.com/index.php/campaigns/vk001jhyr11ae/track-url/jb6=
+92xz74e28c/ad0134d392052232ffb74712b8a572635caebb55" style=3D"text-decorati=
+on:underline;font-weight:bold;">besttravel.ovh</a>.</p>
+
+<p style=3D"wi=
+dth:100%;text-align:center;font-size:12px;">Pour personnaliser vos annonces=
+ lors de votre navigation (internet,email,applications ...), des cookies so=
+nt d&eacute;pos&eacute;s par l'interm&eacute;diaire de cet email.<br>
+Pou=
+r garantir la s&eacute;curit&eacute; de vos donn&eacute;es, LPM a d&eacute;=
+clar&eacute; sa liste &agrave; la CNIL sous le num&eacute;ro 1581284v0.<br>=
+
+Pour vous y opposer, d&eacute;sabonnez-vous en cliquant <a href=3D"http:=
+//lp1.sendtk2.com/index.php/campaigns/vk001jhyr11ae/track-url/jb692xz74e28c=
+/816d6520b7db2f31365f1f3cce94f676976800a3">sur ce lien</a>.</p>
+<br>
+&n=
+bsp;<img width=3D"1" height=3D"1" src=3D"http://lp1.sendtk2.com/index.php/c=
+ampaigns/vk001jhyr11ae/track-opening/jb692xz74e28c" alt=3D"" />
+</body></=
+html>
+
+
+--_=_swift_v4_1461425513_e579e76f25bb441fee914a327f59add5_=_--
+

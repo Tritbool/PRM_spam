@@ -1,0 +1,814 @@
+Return-Path: <return-a7-517-765-resp-m2-miage=univ-rennes1.fr=4@ga.fr-primeira.com>
+Received: from mailimailo.univ-rennes1.fr ([unix socket])
+	 by mailimailo.univ-rennes1.fr (Cyrus v2.3.16-Fedora-RPM-2.3.16-6.el6_2.5) with LMTPA;
+	 Sat, 14 Nov 2015 13:43:21 +0100
+X-Sieve: CMU Sieve 2.3
+Received: from mailout1.univ-rennes1.fr (mailout1.univ-rennes1.fr [129.20.128.162])
+	by mailimailo.univ-rennes1.fr (Postfix) with ESMTP id CAB2026A0CEC
+	for <resp-m2-miage@univ-rennes1.fr>; Sat, 14 Nov 2015 13:43:21 +0100 (CET)
+Received: from localhost (vmscanmail.univ-rennes1.fr [129.20.128.134])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id BAB4A60008
+	for <resp-m2-miage@univ-rennes1.fr>; Sat, 14 Nov 2015 13:43:21 +0100 (CET)
+X-Virus-Scanned: amavisd-new at univ-rennes1.fr
+Received: from mailout1.univ-rennes1.fr ([129.20.128.162])
+	by localhost (vmscanmail.univ-rennes1.frm [129.20.128.134]) (amavisd-new, port 10026)
+	with ESMTP id pLNOqPY5QHjB for <resp-m2-miage@univ-rennes1.fr>;
+	Sat, 14 Nov 2015 13:43:21 +0100 (CET)
+Received: from vmmailin.univ-rennes1.fr (vmmailin.univ-rennes1.fr [129.20.128.133])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id 8CA5660007
+	for <resp-m2-miage@univ-rennes1.fr>; Sat, 14 Nov 2015 13:43:21 +0100 (CET)
+Received: from mxb1-1.relay.renater.fr (mxb1-1.relay.renater.fr [194.214.201.8])
+	by vmmailin.univ-rennes1.fr (Postfix) with ESMTP id 853F220033
+	for <resp-m2-miage@univ-rennes1.fr>; Sat, 14 Nov 2015 13:43:21 +0100 (CET)
+Received: from smtp1-41.fr-primeira.com (smtp1-41.fr-primeira.com [192.99.137.60])
+	by mxb1-1.relay.renater.fr (asm) with SMTP id 03080600060
+	for <resp-m2-miage@univ-rennes1.fr>; Sat, 14 Nov 2015 13:43:20 +0100 (CET)
+Received: (GreenArrow 20897 invoked from network); 14 Nov 2015 12:43:20 -0000
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed;
+	d=fr-primeira.com; s=default; h=Received:Received:Subject:From:
+	To:Date:List-Unsubscribe:Message-ID:MIME-Version:Content-Type;
+	bh=cH+w/tmNrasC2BcrMRrYPPa5qKY=; b=dIv64gFSk6SXZwhQvvt8NxVkv+s8V
+	8ltvQGQ8BP+u68rl+wqGwmKx8SQNSGNGDVjI+5stdjCBtQKYFObIHV8eTY1AckTH
+	mr6Qm6PLbxvIUf2MvL2MCi034wewoiPfkUCqUMf8rDQzQWbppi9CkNTS5XW2CdIw
+	tEjb7vhoVvkE1o=
+Received: from unknown (HELO ga.fr-primeira.com) (5.135.22.136)
+  by fr-primeira.com with SMTP; 14 Nov 2015 12:43:20 -0000
+Received: (GreenArrow 6826 invoked by uid 410); 14 Nov 2015 12:43:19 -0000
+Subject: Investissez avant qu'il ne soit trop tard...
+From: "Loi Pinel 2015" <news@fr-primeira.com>
+To: resp-m2-miage@univ-rennes1.fr
+Date: 14 Nov 2015 12:43:19 -0000
+List-Unsubscribe: <http://ga.fr-primeira.com/ga/unsubscribe/2-10110713-7-288-765-08ff1e77cb39dad-4fb04edea7>,
+ <mailto:return-a7-517-765-resp-m2-miage=univ-rennes1.fr=4u@ga.fr-primeira.com>
+X-Mailer: GreenArrow Studio (v4.65.0)
+X-CampaignID: s4:517-e84dcaa1ae7607ad
+Message-ID: <mid-f5d41cc97492697764c6e7f25d1bd894@ga.fr-primeira.com>
+X-Mailer-Info: 4.E2N.1EzN.IXZzBXLtJTLtlWYnVGQ15Wa21icl5mblNXMuYmc.3YTN
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="==2cf0e24e62ab683b729ce62229b2aaa5"
+X-UCE-Status: YES
+X-UCE-Type: MCE
+X-Original-Source-IP: 192.99.137.60
+X-Bizanga: IMP - mxb1-1.relay.renater.fr
+X-Renater-SpamState: 11
+X-Renater-SpamScore: 17
+X-Renater-SpamCause: gggruggvucftvghtrhhoucdtuddrfeekhedrheeggddvtdcutefuodetggdotefrodftvfcurfhrohhfihhlvgemucftgffptefvgfftpdggtfgfnhhsuhgsshgtrhhisggvnecuuegrihhlohhuthemuceftddtnecundfotefknffkpffiucdludejmdenucfjughrpefuhffvfffjoffkgggtsegrtderreertdejnecuhfhrohhmpedfnfhoihcurfhinhgvlhcuvddtudehfdcuoehnvgifshesfhhrqdhprhhimhgvihhrrgdrtghomheqnecuffhomhgrihhnpehfrhdqphhrihhmvghirhgrrdgtohhmnecurfgrrhgrmhepmhhouggvpehsmhhtphdphhgvlhhopehsmhhtphduqdeguddrfhhrqdhprhhimhgvihhrrgdrtghomhdpihhnvghtpeduledvrdelledrudefjedriedtpdhmrghilhhfrhhomheprhgvthhurhhnqdgrjedqhedujedqjeeihedqrhgvshhpqdhmvddqmhhirghgvgepuhhnihhvqdhrvghnnhgvshdurdhfrhepgeesghgrrdhfrhdqphhrihhmvghirhgrrdgtohhmpdhrtghpthhtoheprhgvshhpqdhmvddqmhhirghgvgesuhhnihhvqdhrvghnnhgvshdurdhfrh 
+X-Renater-ServerName: mxb1-1.relay.renater.fr
+
+This is a multi-part message in MIME format.
+
+--==2cf0e24e62ab683b729ce62229b2aaa5
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Pour visualiser la version  en ligne : http://ga.fr-primeira.com/ga/webview=
+s/4-10110713-7-288-281-765-4255336628
+( http://ga.fr-primeira.com/ga/click/2-10110713-7-288-765-2165-2510852cfe-4=
+fb04edea7 )
+
+( http://ga.fr-primeira.com/ga/click/2-10110713-7-288-765-2165-2510852cfe-4=
+fb04edea7 )
+
+Revue Finance analyse pour vous les nouvelles lois du Minist=C3=A8re
+des Finances
+
+Vous payez plus de 2500=E2=82=AC d'imp=C3=B4ts ? Voici comment ne plus en
+payer pendant 12 ans!
+
+Le gouvernement a enfin compris que la loi Duflot - suppos=C3=A9e
+cr=C3=A9er plus de logements locatifs en permettant aux contribuables
+d'investir dans l'immobilier et ainsi r=C3=A9duire leurs imp=C3=B4ts -
+=C3=A9tait destin=C3=A9e =C3=A0 l'=C3=A9chec : peu incitative
+
+financi=C3=A8rement, trop de restrictions, et une mise en oeuvre assez
+compliqu=C3=A9e. Finalement, la nouvelle loi Pinel remplace la loi
+Duflot, et l=C3=A0... les choses ont chang=C3=A9. Maintenant vous pouvez
+vraiment =C3=A9viter que le Tr=C3=A9sor Public engloutisse votre argent
+durement gagn=C3=A9, en transformant vos imp=C3=B4ts en patrimoine et
+revenus compl=C3=A9mentaires.
+
+Arnaud Pasquier ne payera pas d'imp=C3=B4ts en 2014, pourtant les
+revenus annuels de son foyer sont de 39 300 =E2=82=AC
+
+Il est maintenant vraiment possible de r=C3=A9duire vos imp=C3=B4ts de
+fa=C3=A7on importante, voire ne plus en payer pendant 12 ans, comment?
+
+Lisez la suite =C2=BB ( http://ga.fr-primeira.com/ga/click/2-10110713-7-288=
+-765-2165-2510852cfe-4fb04edea7 )
+
+Statistique
+
+( http://ga.fr-primeira.com/ga/click/2-10110713-7-288-765-2165-2510852cfe-4=
+fb04edea7 )
+
+Vid=C3=A9os sur le sujet
+
+BFM TV : Le secteur du logement est une priorit=C3=A9 du gouvernement.
+
+( http://ga.fr-primeira.com/ga/click/2-10110713-7-288-765-2165-2510852cfe-4=
+fb04edea7 )
+
+Commentaires de nos lecteurs
+
+C=C3=A9cile Jeudi 04 d=C3=A9cembre 2014 2.35
+Tr=C3=A8s bon article, j'ai t=C3=A9l=C3=A9charg=C3=A9 le guide, j'attend un=
+ appel de
+Placement Premium, MERCI.
+
+Martine Beauchamp Mercredi 03 d=C3=A9cembre 2014 18.26
+je viens de faire les d=C3=A9marches loi Pinel avec Placement Premium
+il y a quelques jours et je peux vous dire que OUI il s'agit d'un
+investissement TRES int=C3=A9ressant
+
+Copyright 2014 - Revue Finance
+
+Pour vous d=C3=A9sinscrire : http://ga.fr-primeira.com/ga/unsubscribe/2-101=
+10713-7-288-765-08ff1e77cb39dad-4fb04edea7=
+
+--==2cf0e24e62ab683b729ce62229b2aaa5
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.=
+w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns=3D"http://www.w3.=
+org/1999/xhtml"><head>
+	<title>Loi Pinelle V2</title>
+	<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8">
+    <meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=
+=3D1">
+<style type=3D"text/css">
+		  body {margin: 10px 0; padding: 0  font-size: 13px; font-family:verdana;=
+ -webkit-text-size-adjust:none; }
+		  #outlook a {padding:0;} /* Force Outlook to provide a "view in browser"=
+ menu link. */
+      	  table {border-collapse: collapse;}
+      	  td {font-family: arial, sans-serif; color: #333333;}
+		.image{max-width:320px}
+		.image img{width:100%}
+		.ExternalClass {width:100%;} /* Force Hotmail to display emails at full w=
+idth */
+         .ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalCl=
+ass font, .ExternalClass td, .ExternalClass div {line-height: 100%;} /* For=
+ce Hotmail to display normal line spacing. */
+		 .hide{display:display:block}
+		 td[class=3Dhide] {display:block!important}
+			table[class=3Dhide] {display:block!important}
+			img[class=3Dhide] {display:block!important}
+		@media only screen and (max-width:500px) {
+			table[class=3D"flexible"]{width:100% !important;}
+			td[class=3D"flexible"]{width:100% !important;}
+			img[class=3D"flexible"]{width:100% !important;}
+			.text-mobile{ font-size:17px !important;text-align:left; padding-left:20=
+px; padding-right:20px;line-height:20px!important}
+			.text-mobile2{ font-size:17px !important;text-align:center; line-height:=
+20px!important}
+			.text-mobile3{ font-size:17px !important;text-align:left; line-height:20=
+px!important}
+			.text-mobile5{ font-size:17px !important;text-align:left;line-height:20p=
+x!important; padding-left:20px; padding-right:20px; padding-top:20px}
+			.text2{ font-size:13px !important}
+			.hide{display:none}
+			table[class=3D"hide"]{display:none !important}
+			td[class=3Dhide] {display:none!important}
+			table[class=3Dhide] {display:none!important}
+			img[class=3Dhide] {display:none!important}
+			img[class=3D"logo"]{max-width:280px !important; height:auto ; margin:aut=
+o!important; display:block}
+			span[class=3D"user"]{ margin-top:-10px!important;padding: 0 !important; =
+font-size:18px!important; margin-bottom:-20px}
+		span[class=3D"data"]{ margin-top:-10px!important; font-size:15px!importan=
+t; margin-bottom:-20px}
+		span[class=3D"hour"]{ margin-top:-10px!important; font-size:15px!importan=
+t; margin-bottom:-20px}
+</style>
+</head><body style=3D"margin:0; padding:0;" bgcolor=3D"#bdbdbd"><table styl=
+e=3D"height: 19px; width: 600px; margin-left: auto; margin-right: auto;" bo=
+rder=3D"0" width=3D"600px" bgcolor=3D"#f1f1f1">
+<tbody>
+<tr>
+<td>&#160;Bonjour resp-m2-miage@univ-rennes1.fr</td>
+<td style=3D"text-align: right;"><a href=3D"http://ga.fr-primeira.com/ga/we=
+bviews/4-10110713-7-288-281-765-4255336628"> Visualiser la version en ligne=
+ </a></td>
+</tr>
+</tbody>
+</table>
+
+<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" bgco=
+lor=3D"#bdbdbd">
+  <tbody><tr>
+		<td align=3D"center" class=3D"flexible" width=3D"600">
+        	<table class=3D"flexible" width=3D"600" border=3D"0" align=3D"cent=
+er" style=3D"margin:0 auto !important;" cellpadding=3D"0" cellspacing=3D"0"=
+ bgcolor=3D"#ffffff">
+	          <tbody><tr>
+			  <td valign=3D"top" class=3D"flexible" width=3D"600">
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20
+                     <!------------------ SECOND ROW LOGO -----------------=
+--------------->
+				    <table width=3D"600" height=3D"56" border=3D"0" cellpadding=3D"0" c=
+ellspacing=3D"0" bgcolor=3D"#f9f9f9" class=3D"flexible">
+						<tbody><tr>
+							<td valign=3D"top" height=3D"95" class=3D"flexible">
+							   <table class=3D"flexible" width=3D"48%" height=3D"95" align=3D"le=
+ft" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"border-collap=
+se:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt; font-size:1px; lin=
+e-height:1px">
+										<tbody><tr>
+											<td width=3D"280" height=3D"95" valign=3D"top" align=3D"left" st=
+yle=3D"font-size: 1px; line-height: 1px;" class=3D"flexible">
+                                            <a href=3D"http://ga.fr-primeir=
+a.com/ga/click/2-10110713-7-288-765-2165-2510852cfe-4fb04edea7">
+												<img src=3D"http://chiligo.s3.amazonaws.com/lbp/05-december/log=
+o.jpg" width=3D"280" height=3D"95" style=3D"width:280px; height:95px;font-s=
+ize: 0;line-height: 0; display:block; margin:auto; text-align:center" class=
+=3D"logo" border=3D"0"></a>
+											</td>
+										</tr>
+									</tbody></table>=09=09=09=09=09=20=20=20=20=20=20=20=20
+                                <table class=3D"hide" width=3D"48%" height=
+=3D"56" align=3D"right" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" st=
+yle=3D"border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt=
+;">
+										<tbody><tr>
+											<td width=3D"170" height=3D"102" class=3D"hide" valign=3D"top" a=
+lign=3D"left" style=3D"font-size: 1px; line-height: 1px;">
+                                            <a href=3D"http://ga.fr-primeir=
+a.com/ga/click/2-10110713-7-288-765-2165-2510852cfe-4fb04edea7">
+												<img src=3D"http://chiligo.s3.amazonaws.com/lbp/05-december/tax=
+_papers.jpg" width=3D"280" height=3D"95" style=3D"width:280px; height:95px =
+;font-size: 0;line-height: 0; display:block; margin:auto; text-align:right;=
+font-size:1px; line-height:1px" class=3D"hide" border=3D"0"></a>
+											</td>
+										</tr>
+								</tbody></table>
+							</td>
+						</tr>
+					</tbody></table>
+                     <table width=3D"600" class=3D"flexible" border=3D"0" c=
+ellpadding=3D"0" cellspacing=3D"0" style=3D"border-collapse:collapse; mso-t=
+able-lspace:0pt; mso-table-rspace:0pt;">
+                      <tbody><tr>
+                          <td bgcolor=3D"#000000" class=3D"flexible">
+                                <table class=3D"flexible" align=3D"center" =
+border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"border-collapse:c=
+ollapse; mso-table-lspace:0pt; mso-table-rspace:0pt">
+                                         <tbody><tr>
+                                            <td class=3D"flexible" valign=
+=3D"top" align=3D"center">
+                                         	 <p style=3D"color:#fff; font-siz=
+e:13px; font-family:Verdana, Geneva, sans-serif" class=3D"text-mobile2">
+                                             Revue Finance analyse pour vou=
+s les nouvelles lois du Minist&egrave;re des Finances</p>
+                                            </td>
+                                      </tr>
+                                </tbody></table>
+                            </td>
+                        </tr>
+                    </tbody></table>
+                 	<table width=3D"600" class=3D"flexible" bgcolor=3D"#fffff=
+f" align=3D"left" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D=
+"border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;">
+						<tbody>
+           				  <tr>
+							<td width=3D"600" valign=3D"top" class=3D"flexible">
+							 	   	<table width=3D"370" class=3D"flexible" align=3D"left" border=
+=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"border-collapse:collaps=
+e; mso-table-lspace:0pt; mso-table-rspace:0pt;">
+                                		<tbody><tr>
+                                        	<td colspan=3D"4" class=3D"flexibl=
+e">
+                                            	<table class=3D"flexible" alig=
+n=3D"left" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"border=
+-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;">
+                                					<tbody><tr>
+                                                    	<td width=3D"15" class=
+=3D"hide"></td>
+                                                        <td class=3D"text-m=
+obile5">
+                                                            <a href=3D"http=
+://ga.fr-primeira.com/ga/click/2-10110713-7-288-765-2165-2510852cfe-4fb04ed=
+ea7" style=3D"font-weight:bold; color:#e53838; text-decoration:none;font-fa=
+mily:Verdana, Geneva, sans-serif">
+           													<p style=3D"font-weight:bold; color:#e53838; text-d=
+ecoration:none; font-size:15px; font-family:Verdana, Geneva, sans-serif"> V=
+ous payez plus de 2500&euro; d'imp&ocirc;ts ? Voici comment ne plus en paye=
+r pendant 12 ans!</p></a>
+            											</td>
+                                                    </tr>
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20
+                                                 </tbody></table>
+                                            </td>
+                                        </tr>
+										<tr>
+                                        	<td valign=3D"top" class=3D"hide">=
+<img src=3D"http://chiligo.s3.amazonaws.com/lbp/05-december/left.jpg" width=
+=3D"151" height=3D"101" class=3D"hide"></td>
+                                        	<td width=3D"10" class=3D"hide"></=
+td>
+											<td class=3D"text-mobile" valign=3D"top" align=3D"left" style=3D=
+"font-size: 12px; line-height: 18px;font-family:Verdana, Geneva, sans-serif=
+">
+                                            Le gouvernement a enfin compris=
+ que la loi Duflot - suppos&eacute;e cr&eacute;er plus de logements locatif=
+s en permettant aux contribuables d'investir dans l'immobilier et ainsi r&e=
+acute;duire leurs imp&ocirc;ts  - &eacute;tait destin&eacute;e &agrave; l'&=
+eacute;chec : peu incitative=20
+											</td>
+                                            <td width=3D"10" class=3D"hide"=
+></td>
+										</tr>
+                                        <tr>
+                                        	<td colspan=3D"4" valign=3D"top" a=
+lign=3D"left" style=3D"font-size: 12px; line-height:15px;" class=3D"flexibl=
+e">
+                                           	<table width=3D"380" class=3D"f=
+lexible" align=3D"left" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" st=
+yle=3D"border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt=
+;">
+												<tbody><tr>
+                                                	<td width=3D"15" class=3D"=
+hide"></td>
+                                                    <td class=3D"text-mobil=
+e" style=3D"font-size: 12px; line-height: 20px;font-family:Verdana, Geneva,=
+ sans-serif">financi&egrave;rement, trop de restrictions, et une mise en oe=
+uvre assez compliqu&eacute;e.
+                                                    Finalement, la nouvelle=
+ loi Pinel remplace la loi Duflot,=20
+                                                    et l&agrave;... les cho=
+ses ont chang&eacute;. Maintenant vous pouvez vraiment &eacute;viter que le=
+ Tr&eacute;sor Public=20
+                                                    engloutisse votre argen=
+t durement gagn&eacute;, en transformant vos imp&ocirc;ts en patrimoine et =
+revenus compl&eacute;mentaires.
+                                                    </td>
+                                                 </tr>
+                                            </tbody></table>
+											</td>
+                                         </tr>
+                                         <tr>
+                                        	<td colspan=3D"4" valign=3D"top" a=
+lign=3D"left" style=3D"font-size: 12px; line-height:15px;" class=3D"flexibl=
+e">
+                                           	<table width=3D"380" class=3D"f=
+lexible" align=3D"left" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" st=
+yle=3D"border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt=
+;">
+												<tbody><tr>
+                                                	<td width=3D"50"></td>
+                                                    <td width=3D"4"><img sr=
+c=3D"http://chiligo.s3.amazonaws.com/lbp/05-december/dot2.gif" width=3D"4" =
+height=3D"90"></td>
+                                                    <td width=3D"10"></td>
+                                                    <td class=3D"text-mobil=
+e3" style=3D"font-size: 17px; line-height: 20px;font-family: Georgia, 'Time=
+s New Roman', Times, serif; font-weight:bold">
+                                                    Arnaud Pasquier ne paye=
+ra pas d'imp&ocirc;ts en 2014, pourtant les revenus annuels de=20
+                                                    son foyer sont de 39 30=
+0 &euro;
+
+                                                    </td>
+                                                     <td width=3D"20"></td>
+                                                 </tr>
+                                            </tbody></table>
+											</td>
+                                         </tr>
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20
+                                        <tr>
+                                         	<td colspan=3D"4" class=3D"flexib=
+le">
+                                            	<table class=3D"flexible" alig=
+n=3D"left" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"border=
+-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;">
+													<tbody><tr>
+                                                    	<td width=3D"15" class=
+=3D"hide"></td>
+                                                        <td>
+                                                            <p class=3D"tex=
+t-mobile" style=3D"font-size: 12px; line-height: 20px;font-family:Verdana, =
+Geneva, sans-serif">
+                                                                Il est main=
+tenant vraiment possible de r&eacute;duire vos imp&ocirc;ts de fa&ccedil;on=
+ importante,=20
+                                                                voire ne pl=
+us en payer pendant 12 ans, comment?=20
+                                                            </p>
+                                                        </td>
+                                                    </tr>
+                                                </tbody></table>
+                                            </td>
+                                         </tr>
+                                        <tr>
+                                         	<td colspan=3D"4" class=3D"flexib=
+le">=20
+                                            <table class=3D"flexible" align=
+=3D"right" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"border=
+-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;">
+													<tbody><tr>
+                                                    	<td width=3D"15"></td>
+                                                        <td class=3D"flexib=
+le">
+                                                        	                  =
+            <p style=3D"font-weight:bold; color:#e53838; text-decoration:no=
+ne; font-size:15px; font-family:Verdana, Geneva, sans-serif"><a style=3D"fo=
+nt-weight:bold; color:#e53838; text-decoration:none; " href=3D"http://ga.fr=
+-primeira.com/ga/click/2-10110713-7-288-765-2165-2510852cfe-4fb04edea7">Lis=
+ez la suite &raquo;</a></p>
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=09=09=09=09
+                                                        </td>
+                                                    </tr>
+                                             </tbody></table>
+                                            </td>
+                                       </tr>
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20
+								    </tbody></table>
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20=20=20=20=20=09=09=09=09=09=20=20=20=20=20=20=20=20
+                                      <table class=3D"flexible" align=3D"ri=
+ght" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"border-colla=
+pse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;">
+=09=09=09=09=09=09=09=09=09=09
+                                         <tbody><tr>
+                                        	<td width=3D"190" style=3D"font-fa=
+mily:Georgia, 'Times New Roman', Times, serif; font-size:14px; font-weight:=
+bold">
+                                            	<p class=3D"text-mobile2">Stat=
+istique</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td valign=3D"top">
+                                                <table class=3D"flexible" w=
+idth=3D"190" align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0" style=3D"border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspa=
+ce:0pt;">
+                                                    <tbody><tr>
+                                                        <td valign=3D"top" =
+align=3D"center" style=3D"font-size: 1px; line-height: 1px;">
+                                                            <img src=3D"htt=
+p://chiligo.s3.amazonaws.com/lbp/05-december/dot.gif" width=3D"98%" height=
+=3D"1">
+                                                        </td>
+                                                    </tr>
+                                                </tbody></table>
+                                            </td>
+                                        </tr>
+                                          <tr>
+											<td width=3D"190" height=3D"167" class=3D"logo" valign=3D"top" a=
+lign=3D"left" style=3D"font-size: 1px; line-height: 1px;">
+                                            <a href=3D"http://ga.fr-primeir=
+a.com/ga/click/2-10110713-7-288-765-2165-2510852cfe-4fb04edea7">
+												<img src=3D"http://chiligo.s3.amazonaws.com/lbp/05-december/gra=
+f1.jpg" width=3D"180" height=3D"150" style=3D"width:180px; height:150px;fon=
+t-size: 0;line-height: 0; display:block; margin:auto; text-align:center" cl=
+ass=3D"logo" border=3D"0"></a>
+											</td>
+                                            <td width=3D"10px" class=3D"hid=
+e"></td>
+										</tr>
+                                         <tr>
+                                            <td valign=3D"top">
+                                                <table class=3D"flexible" w=
+idth=3D"190" align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0" style=3D"border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspa=
+ce:0pt;">
+                                                    <tbody><tr>
+                                                        <td valign=3D"top" =
+align=3D"center" style=3D"font-size: 1px; line-height: 1px; ">
+                                                            <p style=3D" ba=
+ckground-color:#777777; width:98% !important; height:1px!important"></p>
+                                                        </td>
+                                                    </tr>
+                                                </tbody></table>
+                                            </td>
+                                        </tr>
+                                         <tr>
+                                        	<td width=3D"190" style=3D"font-fa=
+mily:Georgia, 'Times New Roman', Times, serif; font-size:14px; font-weight:=
+bold">
+                                            	<p class=3D"text-mobile2">Vid&=
+eacute;os sur le sujet</p>
+                                            </td>
+                                        </tr>
+                                          <tr>
+                                            <td valign=3D"top">
+                                                 <table class=3D"flexible" =
+width=3D"190" align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" style=3D"border-collapse:collapse; mso-table-lspace:0pt; mso-table-r=
+space:0pt;">
+                                                    <tbody><tr>
+                                                        <td valign=3D"top" =
+align=3D"center" style=3D"font-size: 1px; line-height: 1px;">
+                                                            <img src=3D"htt=
+p://chiligo.s3.amazonaws.com/lbp/05-december/dot.gif" width=3D"98%" height=
+=3D"1">
+                                                        </td>
+                                                    </tr>
+                                                </tbody></table>
+                                            </td>
+                                        </tr>
+                                         <tr>
+                                        	<td valign=3D"top">
+                                          		  <table class=3D"flexible" wid=
+th=3D"190" align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" style=3D"border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace=
+:0pt;">
+                                                    <tbody><tr>
+                                                    	<td>
+                                                        <p style=3D"font-we=
+ight:bold; font-family:Verdana, Geneva, sans-serif; font-size:11px" class=
+=3D"text-mobile">
+                                                        BFM TV : Le secteur=
+ du logement est une priorit&eacute; du gouvernement.</p>
+                										<a href=3D"http://ga.fr-primeira.com/ga/click/2-1=
+0110713-7-288-765-2165-2510852cfe-4fb04edea7">
+                                                        <img src=3D"http://=
+chiligo.s3.amazonaws.com/lbp/05-december/yt5.jpg" class=3D"logo" width=3D"1=
+80" height=3D"150" style=3D"width:180px; border:0">  </a>
+        												</td>
+                                                   </tr>
+                                             </tbody></table>
+                                            </td>
+                                        </tr>
+								</tbody></table>
+							</td>
+						</tr>
+					</tbody></table>
+                   <!------------------ /SECOND ROW LOGO ------------------=
+-------------->
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20
+                   <!------------------ TIRD ROW LINE ---------------------=
+----------->
+				    <table width=3D"600" border=3D"0" cellpadding=3D"0" cellspacing=3D"=
+0" class=3D"flexible">
+							<tbody><tr>
+								<td valign=3D"top">
+									<table class=3D"flexible" width=3D"600" align=3D"center" border=3D=
+"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"border-collapse:collapse; =
+mso-table-lspace:0pt; mso-table-rspace:0pt;">
+										<tbody><tr>
+											<td valign=3D"top" align=3D"center" style=3D"font-size: 1px; lin=
+e-height: 1px;">
+                                               <img src=3D"http://chiligo.s=
+3.amazonaws.com/lbp/05-december/dot.gif" width=3D"600" height=3D"1" class=
+=3D"flexible">
+                                            </td>
+										</tr>
+									</tbody></table>
+								</td>
+							</tr>
+					</tbody></table>
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20
+=20=20=20=20=20=20=20=20=20=20=20=20
+=20=20=20=20=20=20=20=20=20=20=20=20
+            </td>
+          </tr>
+          <tr>
+          	<td><table width=3D"600" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" class=3D"flexible">
+							<tbody><tr>
+								<td valign=3D"top">
+									<table class=3D"flexible" width=3D"600" align=3D"center" border=3D=
+"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"border-collapse:collapse; =
+mso-table-lspace:0pt; mso-table-rspace:0pt;">
+										<tbody><tr>
+											<td valign=3D"top" align=3D"center" style=3D"font-family:Georgia=
+, 'Times New Roman', Times, serif; font-size:14px; font-weight:bold" class=
+=3D"text-mobile2">
+                                               <p>Commentaires de nos lecte=
+urs</p>
+                                            </td>
+										</tr>
+									</tbody></table>
+								</td>
+							</tr>
+					</tbody></table>
+                       <table width=3D"600" border=3D"0" cellpadding=3D"0" =
+cellspacing=3D"0" class=3D"flexible">
+							<tbody><tr>
+								<td valign=3D"top">
+									<table class=3D"flexible" width=3D"600" align=3D"center" border=3D=
+"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"border-collapse:collapse; =
+mso-table-lspace:0pt; mso-table-rspace:0pt;">
+										<tbody><tr>
+											<td valign=3D"top" align=3D"center" style=3D"font-size: 1px; lin=
+e-height: 1px;">
+                                               <img src=3D"http://chiligo.s=
+3.amazonaws.com/lbp/05-december/dot.gif" width=3D"600" height=3D"1" class=
+=3D"flexible">
+                                            </td>
+										</tr>
+									</tbody></table>
+								</td>
+							</tr>
+					</tbody></table>
+                     <table width=3D"600" border=3D"0" cellpadding=3D"0" ce=
+llspacing=3D"0" class=3D"flexible">
+							<tbody><tr>
+								<td valign=3D"top"><p></p>
+									<table class=3D"flexible" width=3D"600" align=3D"center" border=3D=
+"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"border-collapse:collapse; =
+mso-table-lspace:0pt; mso-table-rspace:0pt;">
+										<tbody><tr>
+                                        	<td width=3D"20px"></td>
+											<td valign=3D"top" align=3D"center" class=3D"hide">
+                                               <img src=3D"http://chiligo.s=
+3.amazonaws.com/lbp/05-december/cecile.jpg" class=3D"hide" width=3D"50" hei=
+ght=3D"49">
+                                            </td>
+                                            <td width=3D"5px" class=3D"hide=
+"></td>
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20
+                                            <td width=3D"5px" class=3D"hide=
+"></td>
+                                            <td>
+                                               <span style=3D"color:#ff4d00=
+;font-weight:bold; font-size:16px;font-family:Verdana, Geneva, sans-serif" =
+class=3D"user">C&eacute;cile</span>=20
+                                               <span style=3D"color:#777777=
+;  font-size:12px;font-family:Verdana, Geneva, sans-serif" class=3D"data">
+                                                Jeudi 04 d&eacute;cembre 20=
+14</span> <span class=3D"hour" style=3D"font-weight:bold; font-size:12px; c=
+olor:#888888">2.35</span>
+                                                <p style=3D"font-size:12px;=
+ font-family:Verdana, Geneva, sans-serif" class=3D"text-mobile">
+                                                Tr&egrave;s bon article, j'=
+ai t&eacute;l&eacute;charg&eacute; le guide, j'attend un appel de Placement=
+ Premium, MERCI.</p>
+                                           </td>
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20
+                                            <td width=3D"20px"></td>
+							            </tr>
+				                    </tbody></table>
+=09=09=09=09=09
+                    					  <table class=3D"flexible" bgcolor=3D"#ffffff" al=
+ign=3D"right" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"bor=
+der-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;"><tbody>=
+<tr><td height=3D"20"></td></tr></tbody></table>=09
+                                       <table class=3D"flexible" bgcolor=3D=
+"#ffffff" align=3D"right" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" =
+style=3D"border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0=
+pt;"><tbody><tr><td height=3D"20"></td></tr></tbody></table>
+                    				<table width=3D"600" border=3D"0" cellpadding=3D"0"=
+ cellspacing=3D"0" class=3D"flexible">
+							<tbody><tr>
+								<td valign=3D"top">
+									<table class=3D"flexible" width=3D"600" align=3D"center" border=3D=
+"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"border-collapse:collapse; =
+mso-table-lspace:0pt; mso-table-rspace:0pt;">
+										<tbody><tr>
+                                        	<td width=3D"20px"></td>
+											<td valign=3D"top" align=3D"center" class=3D"hide">
+                                               <img src=3D"http://chiligo.s=
+3.amazonaws.com/lbp/05-december/jul.jpg" class=3D"hide" width=3D"50" height=
+=3D"49">
+                                            </td>
+                                            <td width=3D"5px" class=3D"hide=
+"></td>
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20
+                                            <td width=3D"5px" class=3D"hide=
+"></td>
+                                            <td>
+                                               <span style=3D"color:#ff4d00=
+;font-weight:bold; font-size:16px; font-family:Verdana, Geneva, sans-serif"=
+ class=3D"user">Martine Beauchamp</span>=20
+                                               <span style=3D"color:#777777=
+;  font-size:12px;font-family:Verdana, Geneva, sans-serif" class=3D"data">
+                                                Mercredi 03 d&eacute;cembre=
+ 2014</span> <span class=3D"hour" style=3D"font-weight:bold; font-size:12px=
+; color:#888888;font-family:Verdana, Geneva, sans-serif">18.26</span>
+                                                <p style=3D"font-size:12px;=
+ font-family:Verdana, Geneva, sans-serif" class=3D"text-mobile">
+                                                   je viens de faire les d&=
+eacute;marches loi Pinel avec Placement Premium il y a quelques jours et je=
+ peux vous dire que OUI il s'agit d'un investissement TRES int&eacute;ressa=
+nt=20
+                                                </p>
+                                           </td>
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20
+                                            <td width=3D"20px"></td>
+							</tr>
+				   </tbody></table> <p></p>
+                    					 <table height=3D"30" class=3D"flexible" bgcolor=
+=3D"#ffffff" align=3D"right" border=3D"0" cellpadding=3D"0" cellspacing=3D"=
+0" style=3D"border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspac=
+e:0pt;"><tbody><tr><td height=3D"30"></td></tr></tbody></table>
+                                    <table width=3D"600" border=3D"0" cellp=
+adding=3D"0" cellspacing=3D"0" class=3D"flexible">
+							<tbody><tr>
+								<td valign=3D"top">
+									<table class=3D"flexible" width=3D"600" align=3D"center" border=3D=
+"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"border-collapse:collapse; =
+mso-table-lspace:0pt; mso-table-rspace:0pt;">
+										<tbody><tr>
+											<td valign=3D"top" align=3D"center" style=3D"font-size: 1px; lin=
+e-height: 1px;">
+                                               <img src=3D"http://chiligo.s=
+3.amazonaws.com/lbp/05-december/dot.gif" width=3D"600" height=3D"1" class=
+=3D"flexible">
+                                            </td>
+										</tr>
+									</tbody></table>
+								</td>
+							</tr>
+					</tbody></table>
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20
+                    					<table width=3D"600" border=3D"0" cellpadding=3D"0=
+" cellspacing=3D"0" class=3D"flexible" bgcolor=3D"#e7e7e7">
+							<tbody><tr>
+								<td valign=3D"top">
+									<table class=3D"flexible" width=3D"600" align=3D"center" border=3D=
+"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"border-collapse:collapse; =
+mso-table-lspace:0pt; mso-table-rspace:0pt;">
+										<tbody><tr>
+											<td valign=3D"top" align=3D"center" style=3D"font-size:14px; lin=
+e-height:20px;">
+                                               <p style=3D"height:30px; fon=
+t-family:Verdana, Geneva, sans-serif" class=3D"text-mobile">Copyright 2014 =
+- Revue Finance</p>
+                                            </td>
+										</tr>
+									</tbody></table>
+								</td>
+							</tr>
+					      </tbody></table>
+               					</td>
+							</tr>
+    				</tbody></table>
+=20=20=20=20=20=20=20=20=20=20=20=09=09=09=09=09=09
+            </td>
+          </tr>
+       </tbody></table>
+    </td>
+ </tr>
+ </tbody></table>
+<style type=3D"text/css">
+		  body {margin: 10px 0; padding: 0  font-size: 13px; font-family:verdana;=
+ -webkit-text-size-adjust:none; }
+		  #outlook a {padding:0;} /* Force Outlook to provide a "view in browser"=
+ menu link. */
+      	  table {border-collapse: collapse;}
+      	  td {font-family: arial, sans-serif; color: #333333;}
+		.image{max-width:320px}
+		.image img{width:100%}
+		.ExternalClass {width:100%;} /* Force Hotmail to display emails at full w=
+idth */
+         .ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalCl=
+ass font, .ExternalClass td, .ExternalClass div {line-height: 100%;} /* For=
+ce Hotmail to display normal line spacing. */
+		 .hide{display:display:block}
+		 td[class=3Dhide] {display:block!important}
+			table[class=3Dhide] {display:block!important}
+			img[class=3Dhide] {display:block!important}
+		@media only screen and (max-width:500px) {
+			table[class=3D"flexible"]{width:100% !important;}
+			td[class=3D"flexible"]{width:100% !important;}
+			img[class=3D"flexible"]{width:100% !important;}
+			.text-mobile{ font-size:17px !important;text-align:left; padding-left:20=
+px; padding-right:20px;line-height:20px!important}
+			.text-mobile2{ font-size:17px !important;text-align:center; line-height:=
+20px!important}
+			.text-mobile3{ font-size:17px !important;text-align:left; line-height:20=
+px!important}
+			.text-mobile5{ font-size:17px !important;text-align:left;line-height:20p=
+x!important; padding-left:20px; padding-right:20px; padding-top:20px}
+			.text2{ font-size:13px !important}
+			.hide{display:none}
+			table[class=3D"hide"]{display:none !important}
+			td[class=3Dhide] {display:none!important}
+			table[class=3Dhide] {display:none!important}
+			img[class=3Dhide] {display:none!important}
+			img[class=3D"logo"]{max-width:280px !important; height:auto ; margin:aut=
+o!important; display:block}
+			span[class=3D"user"]{ margin-top:-10px!important;padding: 0 !important; =
+font-size:18px!important; margin-bottom:-20px}
+		span[class=3D"data"]{ margin-top:-10px!important; font-size:15px!importan=
+t; margin-bottom:-20px}
+		span[class=3D"hour"]{ margin-top:-10px!important; font-size:15px!importan=
+t; margin-bottom:-20px}
+</style>
+
+</td></tr></tbody></table><img src=3D"http://sop01.eu/i/723/1740/723/primei=
+raposicao/1655/24075" width=3D"1" height=3D"1">
+<p style=3D"text-align: center;">
+<a href=3D"http://ga.fr-primeira.com/ga/unsubscribe/2-10110713-7-288-765-08=
+ff1e77cb39dad-4fb04edea7">Je souhaite me d&#233;sabonner des newsletters</a=
+></p>
+<img src=3D"http://ga.fr-primeira.com/ga/open/2-10110713-7-288-765-4fb04ede=
+a7" height=3D"2" width=3D"3" alt=3D""></body></html>=
+
+--==2cf0e24e62ab683b729ce62229b2aaa5--
+

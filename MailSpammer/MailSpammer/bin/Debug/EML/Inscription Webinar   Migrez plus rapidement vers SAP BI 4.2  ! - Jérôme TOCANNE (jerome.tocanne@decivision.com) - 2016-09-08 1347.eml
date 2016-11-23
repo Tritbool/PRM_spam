@@ -1,0 +1,601 @@
+Return-Path: <sr.kGSk9FSlqU2icVlqJjGEPQ.RBzvb2tY90KblDKw6Zr54Q@mta0.sbr46.net>
+Received: from mailimailo.univ-rennes1.fr ([unix socket])
+	 by mailimailo.univ-rennes1.fr (Cyrus v2.3.16-Fedora-RPM-2.3.16-6.el6_2.5) with LMTPA;
+	 Thu, 08 Sep 2016 13:47:07 +0200
+X-Sieve: CMU Sieve 2.3
+Received: from mailout2.univ-rennes1.fr (mailout2.univ-rennes1.fr [129.20.129.120])
+	by mailimailo.univ-rennes1.fr (Postfix) with ESMTP id D4B9E52
+	for <resp-m2-miage@univ-rennes1.fr>; Thu,  8 Sep 2016 13:47:07 +0200 (CEST)
+Received: from localhost (vmscanmail.univ-rennes1.fr [129.20.128.134])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id D1F56601EF
+	for <resp-m2-miage@univ-rennes1.fr>; Thu,  8 Sep 2016 13:47:07 +0200 (CEST)
+X-Virus-Scanned: amavisd-new at univ-rennes1.fr
+Received: from mailout2.univ-rennes1.fr ([129.20.129.120])
+	by localhost (vmscanmail.univ-rennes1.fr [129.20.128.134]) (amavisd-new, port 10026)
+	with ESMTP id TGI4yb1KUTFC for <resp-m2-miage@univ-rennes1.fr>;
+	Thu,  8 Sep 2016 13:47:07 +0200 (CEST)
+Received: from vmmailin.univ-rennes1.fr (vmmailin.univ-rennes1.fr [129.20.128.133])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id AF64F6009C
+	for <resp-m2-miage@univ-rennes1.fr>; Thu,  8 Sep 2016 13:47:07 +0200 (CEST)
+Received: from mxb2-1.relay.renater.fr (mxb2-1.relay.renater.fr [194.214.200.8])
+	by vmmailin.univ-rennes1.fr (Postfix) with ESMTP id A6A3F20033
+	for <resp-m2-miage@univ-rennes1.fr>; Thu,  8 Sep 2016 13:47:07 +0200 (CEST)
+Received: from mta0.sbr46.net (sbr46.net [185.8.253.139])
+	by mxb2-1.relay.renater.fr (asm) with ESMTP id 67EE8600219
+	for <resp-m2-miage@univ-rennes1.fr>; Thu,  8 Sep 2016 13:47:07 +0200 (CEST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; t=1473335226; s=mta0;
+	d=mta0.sbr46.net;
+	h=Date:From:Reply-To:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe:Sender;
+	bh=CLNxJfxxwuE5qyILCA/MgERaT3PnRZ13YuQXDcCH0z4=;
+	b=ZwCehpERENwTAWj8UDXAtXQ72cYeWTylsffu720mug0us7H+VGPv0dv3UC7C35+M
+	KdD9D2O87gA7a4g9LEu84WVDzr/EZAe80aSx+8Bi56xmzx+ylizbfZKh2/gqzEH2KGq
+	E030Wopl0D30yvnCI7nO/YQWkhLbNoa+PWwjIhvc=
+Date: Thu, 8 Sep 2016 13:47:06 +0200 (CEST)
+From: =?UTF-8?Q?J=C3=A9r=C3=B4me_TOCANNE?= <jerome.tocanne@decivision.com>
+Reply-To: 
+	=?UTF-8?Q?J=C3=A9r=C3=B4me_TOCANNE?= <jerome.tocanne@decivision.com>
+To:  <resp-m2-miage@univ-rennes1.fr>
+Message-ID: <sr.kGSk9FSlqU2icVlqJjGEPQ.RBzvb2tY90KblDKw6Zr54Q@mta0.sbr46.net>
+Subject: Inscription Webinar : Migrez plus rapidement vers SAP BI 4.2  !
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_8959_1397976568.1473335177094"
+List-Unsubscribe: <mailto:nomail@decivision.com?Subject=Desinscription aux emails DeciVision>
+x-priority: 3
+importance: normal
+Organization: 
+Feedback-ID: 67229:1VEi59uO7U6xz8vieKcVdg:none:Sarbacane
+Sender: jerome.tocanne=decivision.com@mta0.sbr46.net
+X-UCE-Status: YES
+X-UCE-Type: PCE
+X-Original-Source-IP: 185.8.253.139
+X-Bizanga: IMP - mxb2-1.relay.renater.fr
+X-Renater-SpamState: 10
+X-Renater-SpamScore: 7
+X-Renater-SpamCause: gggruggvucftvghtrhhoucdtuddrfeeluddriedvgdegieculddtuddrfeeltddrtddtmdcutefuodetggdotefrodftvfcurfhrohhfihhlvgemucftgffptefvgfftpdggtfgfnhhsuhgsshgtrhhisggvnecuuegrihhlohhuthemuceftddtnecutfhouhhtvghrqddqufgrrhgsrggtrghnvgculdejmdenucfjughrpeffhfhrvffkufggtgfjrfgkohhssegrtdersgdttdejnecuhfhrohhmpeflrohrlphmvggpvffqveetpffpgfcuoehjvghrohhmvgdrthhotggrnhhnvgesuggvtghivhhishhiohhnrdgtohhmqeenucffohhmrghinhepshgstgdvledrtghomhenucfkphepudekhedrkedrvdehfedrudefleenucfrrghrrghmpehmohguvgepshhmthhppdhhvghlohepmhhtrgdtrdhssghrgeeirdhnvghtpdhinhgvthepudekhedrkedrvdehfedrudefledpmhgrihhlfhhrohhmpehsrhdrkhfiufhklefhufhlqhgfvdhitggglhhqlfhjiffgrffsrdftueiivhgsvdhtjgeltdfmsghlfffmfieikghrheegsfesmhhtrgdtrdhssghrgeeirdhnvghtpdhrtghpthhtoheprhgvshhpqdhmvddqmhhirghgvgesuhhnihhvqdhrvghnnhgvshdurdhfrh 
+X-Renater-ServerName: mxb2-1.relay.renater.fr
+
+------=_Part_8959_1397976568.1473335177094
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+
+DeciVision vous invite =C3=A0 sa web-conf=C3=A9rence du 22 septembre !
+Visualiser l'emailing dans un navigateur web
+(http://www.decivision.com/webinars2016/mig360septembre/invitation.php)
+
+(http://www.decivision.com)
+L'expertise d=C3=A9cisionnelle SAP
+(http://www.decivision.com/webinars2016/mig360septembre/form_inscr.php)
+DeciVision, acteur majeur du d=C3=A9cisionnel SAP, vous invite =C3=A0 d=C3=
+=A9couvrir"Comment migrer plus rapidement vers SAP Business Objects BI 4.2 =
+avec les outils 360" le jeudi 22 septembre =C3=A0 11h !
+
+Le programme
+
+* Processus de Migration vers SAP BI4.2
+* Dimensionner la plate-forme cible avec 360Viewet 360Eyes
+* Limiter le nombre de rapports =C3=A0 migrer avec 360Eyes
+* Tester la migration avec 360Bind
+Les intervenants
+
+* J=C3=A9r=C3=B4me Tocanne, Directeur G=C3=A9n=C3=A9ral, DeciVision
+* Olivier H=C3=A9bert, Directeur Technique, DeciVision
+
+
+
+Je m'inscris au webinar !
+(http://www.decivision.com/webinars2016/mig360septembre/form_inscr.php)
+
+
+
+
+1er centre de support SAP Business Objects
+DeciVision est le leader du support et de la maintenance SAP Business Objec=
+ts en France !
+Plus de 500 clients en France
+Que ce soient des entreprises ou des organismes publics, de nombreux acteur=
+s nous font confiance !
+
+
+
+Si vous ne souhaitez plus recevoir d'emails de la part de DeciVision, cliqu=
+ez ici (http://eye.sbc29.com/ur?q=3DxBDQkGTQpPRU0KXQqU3QonFZaiYx0IQ9pTY3MjI=
+52UltYWlsdG86bm9tYWlsQGRlY2l2aXNpb24uY29tP1N1YmplY3Q9RGVzaW5zY3JpcHRpb24gYX=
+V4IGVtYWlscyBEZWNpVmlzaW9uxBBEHO9va1j3QtCb0JQy0LDp0Jr54b1yZXNwLW0yLW1pYWdlQ=
+HVuaXYtcmVubmVzMS5mcpA=3D) .        =20
+
+
+(https://www.facebook.com/DeciVision/)
+
+(https://twitter.com/DeciVision)
+
+(https://plus.google.com/104155334617274150906/posts)
+
+(https://www.linkedin.com/company/decivision?trk=3Dbiz-companies-cym)
+
+
+
+
+------=_Part_8959_1397976568.1473335177094
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.=
+w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml">
+
+<head>
+  <meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">
+  <meta http-equiv=3D"Content-Type" content=3D"text/html;charset=3DUTF-8">
+  <meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=3D=
+1, minimum-scale=3D1, maximum-scale=3D1">
+  <title>DeciVision vous invite =C3=A0 sa web-conf=C3=A9rence du 22 septemb=
+re !</title>
+  <style type=3D"text/css">
+.ReadMsgBody { width: 100%; background-color: #ffffff; }
+.ExternalClass { width: 100%; background-color: #ffffff; }
+.ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font,=
+ .ExternalClass td, .ExternalClass div { line-height: 100%; }
+html { width: 100%; }
+body { -webkit-text-size-adjust: none; -ms-text-size-adjust: none; margin: =
+0; padding: 0; }
+table { border-spacing: 0; border-collapse: collapse; table-layout: fixed; =
+margin: 0 auto; }
+table table table { table-layout: auto; }
+img { display: block !important; over-flow: hidden !important; }
+table td { border-collapse: collapse; }
+.yshortcuts a { border-bottom: none !important; }
+img:hover { opacity:0.9 !important;}
+a { color: #6ec8c7; text-decoration: none; }
+.textbutton a { font-family: 'open sans', arial, sans-serif !important; col=
+or: #ffffff !important; }
+.preference-link a { color: #FFFFFF !important; text-decoration: underline =
+!important; }
+
+/*Responsive*/
+@media only screen and (max-width: 640px) {
+body { width: auto !important; }
+table[class=3D"table-inner"] { width: 90% !important; }
+table[class=3D"table-full"] { width: 100% !important; text-align: center !i=
+mportant; background: none !important; }
+/* Image */
+img[class=3D"img1"] { width: 100% !important; height: auto !important; }
+/* ETC */
+td[class=3D"button-side"] { width: 10% !important; }
+}
+
+@media only screen and (max-width: 479px) {
+body { width: auto !important; }
+table[class=3D"table-inner"] { width: 90% !important; }
+table[class=3D"table-full"] { width: 100% !important; text-align: center !i=
+mportant; background: none !important; }
+/* image */
+img[class=3D"img1"] { width: 100% !important; height: auto !important; }
+/* ETC */
+td[class=3D"button-side"] { width: 10% !important; }
+}
+</style>
+</head>
+
+<body>
+  <table bgcolor=3D"#999999" style=3D"background-size:auto 100%; background=
+-position:top;" width=3D"100%" border=3D"0" align=3D"center" cellpadding=3D=
+"0" cellspacing=3D"0">
+    <tr>
+      <td height=3D"50"></td>
+    </tr>
+  </table>
+
+  <table bgcolor=3D"#999999" align=3D"center" width=3D"100%" border=3D"0" c=
+ellspacing=3D"0" cellpadding=3D"0">
+    <tr>
+      <td height=3D"35" align=3D"center">
+=09    <a href=3D"http://eye.sbc29.com/c?p=3DxBDQkGTQpPRU0KXQqU3QonFZaiYx0I=
+Q9xBADYdDeC1kX0L1K0KXQwBfQstC60MfQg9DT2UVodHRwOi8vd3d3LmRlY2l2aXNpb24uY29tL=
+3dlYmluYXJzMjAxNi9taWczNjBzZXB0ZW1icmUvaW52aXRhdGlvbi5waHClNjcyMjnEEEQc729r=
+WPdC0JvQlDLQsOnQmvnhrWV5ZS5zYmMyOS5jb23EFPNwSdDb0JN8PgT_0Ihx0KA_0J0x0NfQgxX=
+Qlu8"><span align=3D"center" style=3D"font-family: Segoe UI, sans-serif; fo=
+nt-size: 12px;color:#fff;line-height: 28px;font-style:italic;">Visualiser l=
+'emailing dans un navigateur web</span></a>
+
+        <table style=3D"border-top-left-radius:10px;border-top-right-radius=
+:10px;" class=3D"table-inner" bgcolor=3D"#FFFFFF" width=3D"600" border=3D"0=
+" align=3D"center" cellpadding=3D"0" cellspacing=3D"0">
+          <tr>
+            <td height=3D"40"></td>
+          </tr>
+          <tr>
+            <td align=3D"center">
+              <table align=3D"center" class=3D"table-inner" width=3D"500" b=
+order=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+
+=09=09=09=09 <tr>
+            <td align=3D"center" style=3D"line-height: 0px;">
+              <a href=3D"http://eye.sbc29.com/c?p=3DxBDQkGTQpPRU0KXQqU3QonF=
+ZaiYx0IQ9xBDibl080MEuXUfQtBkp0KHQy9Cn7ey5aHR0cDovL3d3dy5kZWNpdmlzaW9uLmNvba=
+U2NzIyOcQQRBzvb2tY90LQm9CUMtCw6dCa-eGtZXllLnNiYzI5LmNvbcQU83BJ0NvQk3w-BP_Qi=
+HHQoD_QnTHQ19CDFdCW7w" target=3D"_blank"><img width=3D"300" style=3D"displa=
+y:block; line-height:0px; font-size:0px; border:0px;" src=3D"http://img.sbc=
+29.com/67229/1VEi59uO7U6xz8vieKcVdg/logo_decivision.png" alt=3D"logo"></a>
+            </td>
+          </tr>
+                <tr>
+=09=09=09=09
+                  <td align=3D"center" style=3D"font-family: Segoe UI, sans=
+-serif; font-size: 22px;color:#999999;line-height: 28px;font-style:italic;"=
+>L'expertise d=C3=A9cisionnelle SAP</td>
+                </tr>
+
+                <tr>
+                  <td height=3D"25"></td>
+                </tr>
+
+
+                <tr>
+                  <td align=3D"center" style=3D"line-height: 0px;">
+                    <a href=3D"http://eye.sbc29.com/c?p=3DxBDQkGTQpPRU0KXQq=
+U3QonFZaiYx0IQ9xBDQ3jrQhwhPfdDQQ9CA4mXQigjQzHvQwdlFaHR0cDovL3d3dy5kZWNpdmlz=
+aW9uLmNvbS93ZWJpbmFyczIwMTYvbWlnMzYwc2VwdGVtYnJlL2Zvcm1faW5zY3IucGhwpTY3MjI=
+5xBBEHO9va1j3QtCb0JQy0LDp0Jr54a1leWUuc2JjMjkuY29txBTzcEnQ29CTfD4E_9CIcdCgP9=
+CdMdDX0IMV0Jbv"><img style=3D"display:block; line-height:0px; font-size:0px=
+; border:0px;" class=3D"img1" src=3D"http://img.sbc29.com/67229/1VEi59uO7U6=
+xz8vieKcVdg/webinar_22092016.png" alt=3D"img" width=3D"100%" height=3D"auto=
+"></a>
+                  </td>
+                </tr>
+                <tr>
+                  <td height=3D"30"></td>
+                </tr>
+
+               =09=09=09=09=09=09=09=09<tr>
+=09=09=09=09<td align=3D"justify" style=3D"font-family: Segoe UI, sans-seri=
+f; font-size: 19px;color:#000;line-height: 28px;font-style:italic;">DeciVis=
+ion, <strong>acteur majeur du d=C3=A9cisionnel SAP</strong>, vous invite =
+=C3=A0 d=C3=A9couvrir
+"Comment migrer plus rapidement vers SAP Business Objects BI 4.2 avec les o=
+utils 360" le  <strong>jeudi 22 septembre =C3=A0 11h </strong>!<br><br>
+<span style=3D"font-family: Segoe UI, sans-serif; font-size: 13px;color:#00=
+0;line-height: 28px;font-style:italic;">
+=09<strong>Le programme</strong><br>
+=09<ul>
+
+<li>Processus de Migration vers SAP BI4.2</li>
+<li>Dimensionner la plate-forme cible avec <strong>360View</strong> et <str=
+ong>360Eyes</strong></li>
+<li>Limiter le nombre de rapports =C3=A0 migrer avec <strong>360Eyes</stron=
+g></li>
+<li>Tester la migration avec <strong>360Bind</strong></li>
+
+</ul>
+
+=09
+=09=09=09=09<strong>Les intervenants</strong><br>
+=09=09=09=09
+=09=09=09=09<ul>
+=09=09=09=09<li>J=C3=A9r=C3=B4me Tocanne, Directeur G=C3=A9n=C3=A9ral, <str=
+ong>DeciVision</strong></li>
+=09=09=09=09<li>Olivier H=C3=A9bert, Directeur Technique, <strong>DeciVisio=
+n</strong></li>
+=09=09=09=09</ul>
+=09=09=09=09</span>
+
+
+=09=09=09
+</td>
+
+=09=09=09=09</tr>
+=09=09=09
+=09=09=09=09
+                <!--end-->
+              </table>
+            </td>
+          </tr>
+
+        </table>
+      </td>
+    </tr>
+  </table>
+ =20
+  <!--end-->
+ =20
+  <table bgcolor=3D"#999999" width=3D"100%" border=3D"0" align=3D"center" c=
+ellpadding=3D"0" cellspacing=3D"0">
+    <tr>
+      <td align=3D"center">
+        <table bgcolor=3D"#FFFFFF" class=3D"table-inner" width=3D"600" bord=
+er=3D"0" align=3D"center" cellpadding=3D"0" cellspacing=3D"0">
+
+          <tr>
+            <td align=3D"center" style=3D"border-bottom-left-radius:10px;bo=
+rder-bottom-right-radius:10px;">
+              <table width=3D"100%" border=3D"0" align=3D"center" cellpaddi=
+ng=3D"0" cellspacing=3D"0">
+                <tr>
+                  <td class=3D"button-side" width=3D"150" height=3D"50" ali=
+gn=3D"right" valign=3D"bottom">
+                    <table width=3D"100%" border=3D"0" align=3D"right" cell=
+padding=3D"0" cellspacing=3D"0">
+
+                      <tr>
+                        <td height=3D"25" bgcolor=3D"#484f85"></td>
+                      </tr>
+                    </table>
+                  </td>
+                  <td height=3D"50" align=3D"center" bgcolor=3D"#f78d21">
+                     <table width=3D"100%" border=3D"0" align=3D"center" ce=
+llpadding=3D"0" cellspacing=3D"0" bgcolor=3D"#f78d21" style=3D"border-radiu=
+s:10px;">
+                      <tr>
+                        <td height=3D"50" align=3D"center" class=3D"textbut=
+ton">
+                          <a style=3D"font-family: Segoe UI, sans-serif; co=
+lor:#FFFFFF; font-size:16px; font-weight: bold;padding-left: 25px;padding-r=
+ight: 25px;" href=3D"http://eye.sbc29.com/c?p=3DxBDQkGTQpPRU0KXQqU3QonFZaiY=
+x0IQ9xBA39Gph0I7Qw9C9TNCU0J8iFdDEStCo79lFaHR0cDovL3d3dy5kZWNpdmlzaW9uLmNvbS=
+93ZWJpbmFyczIwMTYvbWlnMzYwc2VwdGVtYnJlL2Zvcm1faW5zY3IucGhwpTY3MjI5xBBEHO9va=
+1j3QtCb0JQy0LDp0Jr54a1leWUuc2JjMjkuY29txBTzcEnQ29CTfD4E_9CIcdCgP9CdMdDX0IMV=
+0Jbv">Je m'inscris au webinar !</a>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                  <td class=3D"button-side" width=3D"150" height=3D"50" ali=
+gn=3D"left" valign=3D"bottom">
+                    <table width=3D"100%" border=3D"0" align=3D"left" cellp=
+adding=3D"0" cellspacing=3D"0">
+
+                      <tr>
+                        <td height=3D"25" bgcolor=3D"#484f85"></td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+ =20
+  <!--end-->
+ =20
+  <table bgcolor=3D"#999999" align=3D"center" width=3D"100%" border=3D"0" c=
+ellspacing=3D"0" cellpadding=3D"0">
+    <tr>
+      <td align=3D"center">
+        <table class=3D"table-inner" bgcolor=3D"#484f85" width=3D"600" bord=
+er=3D"0" align=3D"center" cellpadding=3D"0" cellspacing=3D"0">
+          <tr>
+            <td height=3D"25"></td>
+          </tr>
+          <tr>
+            <td align=3D"center">
+              <table align=3D"center" class=3D"table-inner" width=3D"500" b=
+order=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+                <tr>
+                  <td>
+                    <table class=3D"table-full" width=3D"225" border=3D"0" =
+align=3D"left" cellpadding=3D"0" cellspacing=3D"0">
+                      <tr>
+                        <td align=3D"left">
+                          <table border=3D"0" align=3D"left" cellpadding=3D=
+"0" cellspacing=3D"0">
+                            <tr>
+                              <td height=3D"15" align=3D"center" style=3D"l=
+ine-height: 0px;">
+                                <img style=3D"display:block; line-height:0p=
+x; font-size:0px; border:0px;" src=3D"http://img.sbc29.com/67229/1VEi59uO7U=
+6xz8vieKcVdg/check.png" alt=3D"img">
+                              </td>
+                              <td align=3D"left" style=3D"font-family: 'Ope=
+n sans', Arial, sans-serif; font-weight: bold; color:#FFFFFF; font-size:16p=
+x; padding-left: 20px;">1er centre de support SAP Business Objects</td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td height=3D"10"></td>
+                      </tr>
+                      <tr>
+                        <td align=3D"left" style=3D"font-family: 'Open sans=
+', Arial, sans-serif; color:#FFFFFF; font-size:12px; line-height: 25px;">De=
+ciVision est le leader du support et de la maintenance SAP Business Objects=
+ en France !</td>
+                      </tr>
+                    </table>
+                    <table width=3D"1" border=3D"0" cellpadding=3D"0" cells=
+pacing=3D"0" align=3D"left">
+                      <tr>
+                        <td height=3D"35" style=3D"font-size: 0;line-height=
+: 0px;border-collapse: collapse;">
+                          <p style=3D"padding-left: 24px;">&nbsp;</p>
+                        </td>
+                      </tr>
+                    </table>
+                    <table class=3D"table-full" width=3D"225" border=3D"0" =
+align=3D"right" cellpadding=3D"0" cellspacing=3D"0">
+                      <tr>
+                        <td align=3D"left">
+                          <table border=3D"0" align=3D"left" cellpadding=3D=
+"0" cellspacing=3D"0">
+                            <tr>
+                              <td height=3D"15" align=3D"center" style=3D"l=
+ine-height: 0px;">
+                                <img style=3D"display:block; line-height:0p=
+x; font-size:0px; border:0px;" src=3D"http://img.sbc29.com/67229/1VEi59uO7U=
+6xz8vieKcVdg/check.png" alt=3D"img">
+                              </td>
+                              <td align=3D"left" style=3D"font-family: 'Ope=
+n sans', Arial, sans-serif; font-weight: bold; color:#FFFFFF; font-size:16p=
+x; padding-left: 20px;">Plus de 500 clients en France</td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td height=3D"10"></td>
+                      </tr>
+                      <tr>
+                        <td align=3D"left" style=3D"font-family: 'Open sans=
+', Arial, sans-serif; color:#FFFFFF; font-size:12px; line-height: 25px;">Qu=
+e ce soient des entreprises ou des organismes publics, de nombreux acteurs =
+nous font confiance !</td>
+                      </tr>
+                    </table>
+
+                  </td>
+                </tr>
+=09=09=09=09
+              </table>
+            </td>
+          </tr>
+          <tr>
+          =09<td height=3D"25"></td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+  =09=09=09=09=09
+=09=09=09=09=09 <table bgcolor=3D"#999999" width=3D"100%" border=3D"0" alig=
+n=3D"center" cellpadding=3D"0" cellspacing=3D"0">
+    <tr>
+      <td align=3D"center">
+        <table bgcolor=3D"#FFFFFF" class=3D"table-inner" width=3D"600" bord=
+er=3D"0" align=3D"center" cellpadding=3D"0" cellspacing=3D"0">
+          <tr>
+            <td height=3D"45" align=3D"center" bgcolor=3D"#ffffff">
+              <table align=3D"center" class=3D"table-inner" width=3D"500" b=
+order=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+                <tr>
+                  <td height=3D"10"></td>
+                </tr>
+                <tr>
+                  <td align=3D"center" style=3D"background-color:#ffffff">
+                    <img width=3D"100%" src=3D"http://img.sbc29.com/67229/1=
+VEi59uO7U6xz8vieKcVdg/partenaires_emailing.jpg"><br>
+                  </td>
+                </tr>
+=09=09          <tr>
+                  <td height=3D"10"></td>
+                </tr>
+=09=09=09=09</table>
+=09=09=09=09</td></tr>
+=09=09=09=09</table>
+=09=09=09=09</td></tr>
+=09=09=09=09</table>
+  <!--end-->
+  <!--footer-->
+  <table bgcolor=3D"#999999" width=3D"100%" border=3D"0" align=3D"center" c=
+ellpadding=3D"0" cellspacing=3D"0">
+    <tr>
+      <td align=3D"center">
+        <table bgcolor=3D"#FFFFFF" class=3D"table-inner" style=3D" border-b=
+ottom-left-radius:10px; border-bottom-right-radius:10px;" width=3D"600" bor=
+der=3D"0" align=3D"center" cellpadding=3D"0" cellspacing=3D"0">
+          <tr>
+            <td height=3D"45" align=3D"center" bgcolor=3D"#484f85" style=3D=
+"border-bottom-left-radius:10px;border-bottom-right-radius:10px;">
+              <table align=3D"center" class=3D"table-inner" width=3D"500" b=
+order=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+                <tr>
+                  <td height=3D"10"></td>
+                </tr>
+                <tr>
+                  <td class=3D"preference-link" align=3D"center" style=3D"f=
+ont-family: 'Open sans', Arial, sans-serif; color:#ffffff; font-size:10px; =
+line-height: auto;font-style: italic;">
+                    Si vous ne souhaitez plus recevoir d'emails de la part =
+de DeciVision, <a href=3D"http://eye.sbc29.com/ur?q=3DxBDQkGTQpPRU0KXQqU3Qo=
+nFZaiYx0IQ9pTY3MjI52UltYWlsdG86bm9tYWlsQGRlY2l2aXNpb24uY29tP1N1YmplY3Q9RGVz=
+aW5zY3JpcHRpb24gYXV4IGVtYWlscyBEZWNpVmlzaW9uxBBEHO9va1j3QtCb0JQy0LDp0Jr54b1=
+yZXNwLW0yLW1pYWdlQHVuaXYtcmVubmVzMS5mcpA=3D">cliquez ici</a>.
+                  </td>
+                </tr>
+                <tr>
+                  <td height=3D"10"></td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+        </table>
+        <table align=3D"center" class=3D"table-inner" width=3D"600" border=
+=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+          <tr>
+            <td height=3D"20"></td>
+          </tr>
+          <!--social-->
+          <tr>
+            <td align=3D"center">
+              <table width=3D"120" border=3D"0" align=3D"center" cellpaddin=
+g=3D"0" cellspacing=3D"0">
+                <tr>
+                  <td align=3D"center" style=3D"line-height: 0px;">
+                    <a target=3D"blank" href=3D"http://eye.sbc29.com/c?p=3D=
+xBDQkGTQpPRU0KXQqU3QonFZaiYx0IQ9xBDQ0x7QpDpkM9C6RtCn0NnQw15mCjMD2SRodHRwczo=
+vL3d3dy5mYWNlYm9vay5jb20vRGVjaVZpc2lvbi-lNjcyMjnEEEQc729rWPdC0JvQlDLQsOnQmv=
+nhrWV5ZS5zYmMyOS5jb23EFPNwSdDb0JN8PgT_0Ihx0KA_0J0x0NfQgxXQlu8">
+                      <img style=3D"display:block; line-height:0px; font-si=
+ze:0px; border:0px;" src=3D"http://img.sbc29.com/67229/1VEi59uO7U6xz8vieKcV=
+dg/facebook.png" alt=3D"img">
+                    </a>
+                  </td>
+                  <td width=3D"10"></td>
+                  <td align=3D"center" style=3D"line-height: 0px;">
+                    <a target=3D"blank" href=3D"http://eye.sbc29.com/c?p=3D=
+xBDQkGTQpPRU0KXQqU3QonFZaiYx0IQ9xBAFWHxeIu0OQdC84l8wMtCI0Ih_vmh0dHBzOi8vdHd=
+pdHRlci5jb20vRGVjaVZpc2lvbqU2NzIyOcQQRBzvb2tY90LQm9CUMtCw6dCa-eGtZXllLnNiYz=
+I5LmNvbcQU83BJ0NvQk3w-BP_QiHHQoD_QnTHQ19CDFdCW7w">
+                      <img style=3D"display:block; line-height:0px; font-si=
+ze:0px; border:0px;" src=3D"http://img.sbc29.com/67229/1VEi59uO7U6xz8vieKcV=
+dg/twitter.png" alt=3D"img">
+                    </a>
+                  </td>
+                  <td width=3D"10"></td>
+                  <td align=3D"center" style=3D"line-height: 0px;">
+                    <a target=3D"blank" href=3D"http://eye.sbc29.com/c?p=3D=
+xBDQkGTQpPRU0KXQqU3QonFZaiYx0IQ9xBAzZNCU7eAj0IlE0IjQ09C60KsyUH4P2TNodHRwczo=
+vL3BsdXMuZ29vZ2xlLmNvbS8xMDQxNTUzMzQ2MTcyNzQxNTA5MDYvcG9zdHOlNjcyMjnEEEQc72=
+9rWPdC0JvQlDLQsOnQmvnhrWV5ZS5zYmMyOS5jb23EFPNwSdDb0JN8PgT_0Ihx0KA_0J0x0NfQg=
+xXQlu8">
+                      <img style=3D"display:block; line-height:0px; font-si=
+ze:0px; border:0px;" src=3D"http://img.sbc29.com/67229/1VEi59uO7U6xz8vieKcV=
+dg/google.png" alt=3D"img">
+                    </a>
+                  </td>
+                  <td width=3D"10"></td>
+                  <td align=3D"center" style=3D"line-height: 0px;">
+                    <a target=3D"blank" href=3D"http://eye.sbc29.com/c?p=3D=
+xBDQkGTQpPRU0KXQqU3QonFZaiYx0IQ9xBBhbNCt0KJRXXdK0KxkBW_QrNCh0MrQxdlBaHR0cHM=
+6Ly93d3cubGlua2VkaW4uY29tL2NvbXBhbnkvZGVjaXZpc2lvbj90cms9Yml6LWNvbXBhbmllcy=
+1jeW2lNjcyMjnEEEQc729rWPdC0JvQlDLQsOnQmvnhrWV5ZS5zYmMyOS5jb23EFPNwSdDb0JN8P=
+gT_0Ihx0KA_0J0x0NfQgxXQlu8">
+                      <img style=3D"display:block; line-height:0px; font-si=
+ze:0px; border:0px;" src=3D"http://img.sbc29.com/67229/1VEi59uO7U6xz8vieKcV=
+dg/linkedin.png" alt=3D"img">
+                    </a>
+                  </td>
+                </tr>
+                <!--end-->
+              </table>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+    <tr>
+      <td height=3D"40"></td>
+    </tr>
+  </table>
+  <!--end-->
+<img src=3D"http://eye.sbc29.com/v?q=3DxBDQkGTQpPRU0KXQqU3QonFZaiYx0IQ9xBBE=
+HO9va1j3QtCb0JQy0LDp0Jr54aU2NzIyOQ=3D=3D" border=3D"0" width=3D"2" height=
+=3D"12"><img src=3D"https://eye.tialae.com/tt?q=3DxBDQkGTQpPRU0KXQqU3QonFZa=
+iYx0IQ9xBBEHO9va1j3QtCb0JQy0LDp0Jr54aU2NzIyOQ=3D=3D" border=3D"0" width=3D"=
+2" height=3D"8"></body>
+
+</html>
+------=_Part_8959_1397976568.1473335177094--

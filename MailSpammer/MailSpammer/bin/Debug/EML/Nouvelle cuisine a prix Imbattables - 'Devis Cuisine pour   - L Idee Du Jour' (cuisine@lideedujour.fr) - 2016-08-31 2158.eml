@@ -1,0 +1,472 @@
+Return-Path: <bounce-310475-182ec52e54-146121678@lideedujour.fr>
+Received: from mailimailo.univ-rennes1.fr ([unix socket])
+	 by mailimailo.univ-rennes1.fr (Cyrus v2.3.16-Fedora-RPM-2.3.16-6.el6_2.5) with LMTPA;
+	 Wed, 31 Aug 2016 21:58:40 +0200
+X-Sieve: CMU Sieve 2.3
+Received: from mailout2.univ-rennes1.fr (mailout2.univ-rennes1.fr [129.20.129.120])
+	by mailimailo.univ-rennes1.fr (Postfix) with ESMTP id 7BA1452
+	for <resp-m2-miage@univ-rennes1.fr>; Wed, 31 Aug 2016 21:58:40 +0200 (CEST)
+Received: from localhost (vmscanmail.univ-rennes1.fr [129.20.128.134])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id 78C0F600A0
+	for <resp-m2-miage@univ-rennes1.fr>; Wed, 31 Aug 2016 21:58:40 +0200 (CEST)
+X-Virus-Scanned: amavisd-new at univ-rennes1.fr
+Received: from mailout2.univ-rennes1.fr ([129.20.129.120])
+	by localhost (vmscanmail.univ-rennes1.frm [129.20.128.134]) (amavisd-new, port 10026)
+	with ESMTP id k6fDl7xuAF4P for <resp-m2-miage@univ-rennes1.fr>;
+	Wed, 31 Aug 2016 21:58:40 +0200 (CEST)
+Received: from vmmailin.univ-rennes1.fr (vmmailin.univ-rennes1.fr [129.20.128.133])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id 559CD60017
+	for <resp-m2-miage@univ-rennes1.fr>; Wed, 31 Aug 2016 21:58:40 +0200 (CEST)
+Received: from mxb2-2.relay.renater.fr (mxb2-2.relay.renater.fr [194.214.200.9])
+	by vmmailin.univ-rennes1.fr (Postfix) with ESMTP id 4F66920033
+	for <resp-m2-miage@univ-rennes1.fr>; Wed, 31 Aug 2016 21:58:40 +0200 (CEST)
+Received: from er6.lideedujour.fr (er6.lideedujour.fr [188.213.62.193])
+	(using TLSv1.2 with cipher DHE-RSA-CAMELLIA256-SHA (256/256 bits))
+	(No client certificate requested)
+	by mxb2-2.relay.renater.fr (asm) with ESMTPS id 0E7AE600067
+	for <resp-m2-miage@univ-rennes1.fr>; Wed, 31 Aug 2016 21:58:40 +0200 (CEST)
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=default; d=lideedujour.fr;
+ h=MIME-Version:From:Reply-To:List-Unsubscribe:Feedback-ID:Subject:Content-Type:To:Message-ID:Date; i=cuisine@lideedujour.fr;
+ bh=dNgpdFl861B6kE8Nc4wcMdRgePg=;
+ b=QamVFcOoiyQTtaI3IEm9H/7Dn2LVCz6CmOwzNdKGpPRJ27/fyOVHRQLcxX9Z33SOl8hDXG8xbuvJ
+   qC0kHidtyBsxVh1HhpQltVFAtgbXu5svuA7Wm8iCeYSO2oXBWYhMwZu2HqAtgC5ILiZ6fy5IBaBn
+   Pd4fHZk8bjl8KSQB0dk=
+MIME-Version: 1.0
+Precedence: bulk
+From: "Devis Cuisine pour   - L Idee Du Jour" <cuisine@lideedujour.fr>
+Reply-To: "L Idee Du Jour" <info@lideedujour.fr>
+List-Unsubscribe: <http://clicks.lideedujour.fr/lu/702787234/5773f53/310475.html>
+X-EMID: 1
+Feedback-ID: LEAD658
+Subject: Nouvelle cuisine a prix Imbattables
+Content-Type: multipart/alternative;
+ boundary=ac2e9c68b2292ace307009a98a43ce34
+To: resp-m2-miage@univ-rennes1.fr
+Message-ID: <0.0.399.E03.1D203C204924B8E.0@er6.lideedujour.fr>
+Date: Wed, 31 Aug 2016 21:58:18 +0200
+X-UCE-Status: YES
+X-UCE-Type: MCE
+X-Original-Source-IP: 188.213.62.193
+X-Bizanga: IMP - mxb2-2.relay.renater.fr
+X-Renater-SpamState: 11
+X-Renater-SpamScore: 17
+X-Renater-SpamCause: gggruggvucftvghtrhhoucdtuddrfeeluddrgeelgdegieculddtuddrfeeltddrtddtmdcutefuodetggdotefrodftvfcurfhrohhfihhlvgemucftgffptefvgfftpdggtfgfnhhsuhgsshgtrhhisggvnecuuegrihhlohhuthemuceftddtnecundfotefknffkpffiucdludejmdenucfjughrpeggphfhrhfjufgtvffkffesrgdtreertddtjeenucfhrhhomhepfdffvghvihhsucevuhhishhinhgvuchpohhurhcuuccuqdcunfcukfguvggvucffuhculfhouhhrfdcuoegtuhhishhinhgvsehlihguvggvughujhhouhhrrdhfrheqnecuffhomhgrihhnpehlihguvggvughujhhouhhrrdhfrhenucfkphepudekkedrvddufedriedvrdduleefnecurfgrrhgrmhepmhhouggvpehsmhhtphdphhgvlhhopegvrheirdhlihguvggvughujhhouhhrrdhfrhdpihhnvghtpedukeekrddvudefrdeivddrudelfedpmhgrihhlfhhrohhmpegsohhunhgtvgdqfedutdegjeehqddukedvvggthedvvgehgedqudegieduvdduieejkeeslhhiuggvvgguuhhjohhurhdrfhhrpdhrtghpthhtoheprhgvshhpqdhmvddqmhhirghgvgesuhhnihhvqdhrvghnnhgvshdurdhfrh 
+X-Renater-ServerName: mxb2-2.relay.renater.fr
+
+
+--ac2e9c68b2292ace307009a98a43ce34
+Content-Type: text/plain; 
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Visualiser la version en ligne : http://clicks.lideedujour.fr/v/702787234/5=
+773f53/aSBfddftHpMxvTNtB1Q1sBVNGCH4ZTiOL7RR.html
+Signaler comme courrier ind=C3=A9sirable : http://clicks.lideedujour.fr/u/7=
+02787234/5773f53/aSBfddftHpMxvTNtB1Q1sBVNGCH4ZTiOL7RR.html
+
+http://clicks.lideedujour.fr/cl/702787234/976031/299539/25/uJnEbBtAWXKEhqMz=
+tIAXF1jVvi5e7sYzN2Zf.htm
+
+Nouvelle cuisine a prix Imbattables / Devis Cuisine pour=20
+=C2=A0
+=C2=A0
+=C2=A0
+=C2=A0
+=C2=A0
+cet =C3=A9t=C3=A9
+d=C3=A9couvrez
+=C2=A0
+=C2=A0
+=C2=A0
+DES PRIX
+IMBATTABLES
+CUISINE! =C2=A0
+=C2=A0
+=C2=A0
+=C2=A0
+R=C3=A9novation et installation de
+cuisine
+Demandez votre devis gratuit
+partout en France
+=C2=A0
+=C2=A0
+=C2=A0
+=C2=A0
+=C2=A0
+
+Vous recevez ce message car vous =C3=AAtes membre de Les L Idee Du Jour.
+
+Vous pouvez exercer votre droit d'acc=C3=A8s et de suppression =C3=A0 tout =
+moment en nous contactant =C3=A0 : info@lideedujour.fr, ou en nous =C3=
+=A9crivant =C3=A0 L Idee Du Jour - Av Franc=C3=A9sc Camb=C3=B3 21, 5=C2=
+=BA - 08003 Barcelona.=20
+
+Suivez ce lien pour vous d=C3=A9sabonner.http://clicks.lideedujour.fr/u/702=
+787234/5773f53/aSBfddftHpMxvTNtB1Q1sBVNGCH4ZTiOL7RR.html Politique de confi=
+dentialit=C3=A9.http://www.lideedujour.fr/privacy.html
+
+--ac2e9c68b2292ace307009a98a43ce34
+Content-Type: text/html; 
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.=
+w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8" />
+<title>Nouvelle cuisine a prix Imbattables</title>
+=09
+<style type=3D"text/css">
+=09.ReadMsgBody { width: 100%; }
+=09.ExternalClass { width: 100%; }
+=09td {border-collapse: collapse; }
+=09
+</style>
+
+</head>
+<body><center><table align=3D"center" style=3D"text-align:center; font-fami=
+ly: Arial; font-size: 12px; color: grey;">
+<tr><td style=3D"text-align:center; font-family: Arial; font-size: 12px; co=
+lor: grey;">
+<span style=3D"font-family: Arial;"><a href=3D"http://clicks.lideedujour.fr=
+/v/702787234/5773f53/aSBfddftHpMxvTNtB1Q1sBVNGCH4ZTiOL7RR.html">Visualiser =
+la version en ligne</a> | <a href=3D"http://clicks.lideedujour.fr/u/7027872=
+34/5773f53/aSBfddftHpMxvTNtB1Q1sBVNGCH4ZTiOL7RR.html">Signaler comme courri=
+er ind=C3=A9sirable</a><br /><br /></span>
+</td></tr></table></center><br />
+<title>Nouvelle cuisine a prix Imbattables / Devis Cuisine pour </title>
+=09
+<table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" align=3D"center" st=
+yle=3D"background-color: #E5E5E5;" width=3D"100%">
+<tr>
+<td style=3D"text-align: center;"><br />
+<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" styl=
+e=3D"border-collapse: collapse; ">
+<tr>
+<td style=3D"background-color: #E5E5E5;">
+<table width=3D"600" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" align=
+=3D"center" style=3D"border-collapse: collapse; ">
+<tr>
+<td style=3D"background-color: #FFFFFF;">
+<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" styl=
+e=3D"border-collapse: collapse; ">
+<tr>
+<td height=3D"18" style=3D"background-color: #E5E5E5; line-height: 0px;">=
+=C2=A0</td>
+</tr>
+<tr>
+<td height=3D"10" style=3D"line-height: 0px;">=C2=A0</td>
+</tr>
+<tr>
+<td>
+<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" styl=
+e=3D"border-collapse: collapse; ">
+<tr>
+<td width=3D"10">=C2=A0</td>
+<td>
+<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" styl=
+e=3D"border-collapse: collapse; ">
+<tr>
+<td valign=3D"top" height=3D"680" style=3D"background-color: #33bdeb; ">
+<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" styl=
+e=3D"border-collapse: collapse; ">
+<tr>
+<td height=3D"8" style=3D"line-height: 0px;">=C2=A0</td>
+</tr>
+<tr>
+<td>
+<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" styl=
+e=3D"border-collapse: collapse; ">
+<tr>
+<td width=3D"15">=C2=A0</td>
+<td style=3D"font-family: impact, Arial, Helvetica, sans-serif; font-size: =
+23px; line-height: 25px; color: #ffffff;"><a href=3D"http://clicks.lideeduj=
+our.fr/cl/702787234/976031/299539/1/uJnEbBtAWXKEhqMztIAXF1jVvi5e7sYzN2Zf.ht=
+m" target=3D"_blank" style=3D"font-family: impact, Arial, Helvetica, sans-s=
+erif; font-size: 23px; line-height: 25px; color: #ffffff; text-decoration: =
+none;">cet =C3=A9t=C3=A9
+d=C3=A9couvrez</a></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height=3D"8" style=3D"line-height: 0px;">=C2=A0</td>
+</tr>
+<tr>
+<td style=3D"background-color: #D80100;">
+<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" styl=
+e=3D"border-collapse: collapse; ">
+<tr>
+<td height=3D"8" style=3D"line-height: 0px;">=C2=A0</td>
+</tr>
+<tr>
+<td>
+<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" styl=
+e=3D"border-collapse: collapse; ">
+<tr>
+<td width=3D"110">=C2=A0</td>
+<td align=3D"center">
+<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" styl=
+e=3D"border-collapse: collapse; ">
+<tr>
+<td align=3D"center" style=3D"font-family: impact, Arial, Helvetica, sans-s=
+erif; font-size: 23px; color: #ffffff; text-align: center;"><a href=3D"http=
+://clicks.lideedujour.fr/cl/702787234/976031/299539/2/uJnEbBtAWXKEhqMztIAXF=
+1jVvi5e7sYzN2Zf.htm" target=3D"_blank" style=3D"font-family: impact, Arial,=
+ Helvetica, sans-serif; font-size: 23px; color: #ffffff; text-align: center=
+; text-decoration: none;">DES <span style=3D"font-family: impact, Arial, He=
+lvetica, sans-serif; font-size: 39px; line-height: 41px; color: #ffffff; te=
+xt-align: center;">PRIX</span>
+IMBATTABLES</a></td>
+</tr>
+<tr>
+<td style=3D"font-family: impact, Arial, Helvetica, sans-serif; font-size: =
+62px; line-height: 62px; color: #ffffff; text-align: center;"><a href=3D"ht=
+tp://clicks.lideedujour.fr/cl/702787234/976031/299539/3/uJnEbBtAWXKEhqMztIA=
+XF1jVvi5e7sYzN2Zf.htm" target=3D"_blank" style=3D"font-family: impact, Aria=
+l, Helvetica, sans-serif; font-size: 62px; line-height: 62px; color: #fffff=
+f; text-align: center; text-decoration: none;">CUISINE!</a></td>
+</tr>
+</table>
+</td>
+<td width=3D"110">=C2=A0</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height=3D"14" style=3D"line-height: 0px;">=C2=A0</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"line-height: 0px;">
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td width=3D"180" height=3D"80"><a href=3D"http://clicks.lideedujour.fr/cl/=
+702787234/976031/299539/4/uJnEbBtAWXKEhqMztIAXF1jVvi5e7sYzN2Zf.htm"><img sr=
+c=3D"http://images.lafafr.com/20160825/SKUPVnBDf4S/sInFR2_1.png" border=3D"=
+0" width=3D"180" height=3D"80" style=3D"display:block; background-color: #F=
+CFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; color: #=
+030609; text-decoration: none;" alt=3D"Nouvelle" /></a></td>
+<td width=3D"180" height=3D"80"><a href=3D"http://clicks.lideedujour.fr/cl/=
+702787234/976031/299539/5/uJnEbBtAWXKEhqMztIAXF1jVvi5e7sYzN2Zf.htm"><img sr=
+c=3D"http://images.lafafr.com/20160825/SKUPVnBDf4S/sInFR2_2.png" border=3D"=
+0" width=3D"180" height=3D"80" style=3D"display:block; background-color: #F=
+CFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; color: #=
+030609; text-decoration: none;" alt=3D"cuisine" /></a></td>
+<td width=3D"180" height=3D"80"><a href=3D"http://clicks.lideedujour.fr/cl/=
+702787234/976031/299539/6/uJnEbBtAWXKEhqMztIAXF1jVvi5e7sYzN2Zf.htm"><img sr=
+c=3D"http://images.lafafr.com/20160825/SKUPVnBDf4S/sInFR2_3.png" border=3D"=
+0" width=3D"180" height=3D"80" style=3D"display:block; background-color: #F=
+CFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; color: #=
+030609; text-decoration: none;" alt=3D"a" /></a></td>
+<td width=3D"40" height=3D"80"><a href=3D"http://clicks.lideedujour.fr/cl/7=
+02787234/976031/299539/7/uJnEbBtAWXKEhqMztIAXF1jVvi5e7sYzN2Zf.htm"><img src=
+=3D"http://images.lafafr.com/20160825/SKUPVnBDf4S/sInFR2_4.png" border=3D"0=
+" width=3D"40" height=3D"80" style=3D"display:block; background-color: #FCF=
+DFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; color: #03=
+0609; text-decoration: none;" alt=3D"prix" /></a></td>
+</tr>
+<tr>
+<td width=3D"180" height=3D"80"><a href=3D"http://clicks.lideedujour.fr/cl/=
+702787234/976031/299539/8/uJnEbBtAWXKEhqMztIAXF1jVvi5e7sYzN2Zf.htm"><img sr=
+c=3D"http://images.lafafr.com/20160825/SKUPVnBDf4S/sInFR2_5.png" border=3D"=
+0" width=3D"180" height=3D"80" style=3D"display:block; background-color: #F=
+CFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; color: #=
+030609; text-decoration: none;" alt=3D"Imbattables" /></a></td>
+<td width=3D"180" height=3D"80"><a href=3D"http://clicks.lideedujour.fr/cl/=
+702787234/976031/299539/9/uJnEbBtAWXKEhqMztIAXF1jVvi5e7sYzN2Zf.htm"><img sr=
+c=3D"http://images.lafafr.com/20160825/SKUPVnBDf4S/sInFR2_6.png" border=3D"=
+0" width=3D"180" height=3D"80" style=3D"display:block; background-color: #F=
+CFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; color: #=
+030609; text-decoration: none;" alt=3D"/" /></a></td>
+<td width=3D"180" height=3D"80"><a href=3D"http://clicks.lideedujour.fr/cl/=
+702787234/976031/299539/10/uJnEbBtAWXKEhqMztIAXF1jVvi5e7sYzN2Zf.htm"><img s=
+rc=3D"http://images.lafafr.com/20160825/SKUPVnBDf4S/sInFR2_7.png" border=3D=
+"0" width=3D"180" height=3D"80" style=3D"display:block; background-color: #=
+FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; color: =
+#030609; text-decoration: none;" alt=3D"Devis" /></a></td>
+<td width=3D"40" height=3D"80"><a href=3D"http://clicks.lideedujour.fr/cl/7=
+02787234/976031/299539/11/uJnEbBtAWXKEhqMztIAXF1jVvi5e7sYzN2Zf.htm"><img sr=
+c=3D"http://images.lafafr.com/20160825/SKUPVnBDf4S/sInFR2_8.png" border=3D"=
+0" width=3D"40" height=3D"80" style=3D"display:block; background-color: #FC=
+FDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; color: #0=
+30609; text-decoration: none;" alt=3D"Cuisine" /></a></td>
+</tr>
+<tr>
+<td width=3D"180" height=3D"80"><a href=3D"http://clicks.lideedujour.fr/cl/=
+702787234/976031/299539/12/uJnEbBtAWXKEhqMztIAXF1jVvi5e7sYzN2Zf.htm"><img s=
+rc=3D"http://images.lafafr.com/20160825/SKUPVnBDf4S/sInFR2_9.png" border=3D=
+"0" width=3D"180" height=3D"80" style=3D"display:block; background-color: #=
+FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; color: =
+#030609; text-decoration: none;" alt=3D"pour" /></a></td>
+<td width=3D"180" height=3D"80"><a href=3D"http://clicks.lideedujour.fr/cl/=
+702787234/976031/299539/13/uJnEbBtAWXKEhqMztIAXF1jVvi5e7sYzN2Zf.htm"><img s=
+rc=3D"http://images.lafafr.com/20160825/SKUPVnBDf4S/sInFR2_10.png" border=
+=3D"0" width=3D"180" height=3D"80" style=3D"display:block; background-color=
+: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; colo=
+r: #030609; text-decoration: none;" alt=3D"cet" /></a></td>
+<td width=3D"180" height=3D"80"><a href=3D"http://clicks.lideedujour.fr/cl/=
+702787234/976031/299539/14/uJnEbBtAWXKEhqMztIAXF1jVvi5e7sYzN2Zf.htm"><img s=
+rc=3D"http://images.lafafr.com/20160825/SKUPVnBDf4S/sInFR2_11.png" border=
+=3D"0" width=3D"180" height=3D"80" style=3D"display:block; background-color=
+: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; colo=
+r: #030609; text-decoration: none;" alt=3D"=C3=A9t=C3=A9d=C3=A9couvrezDES" =
+/></a></td>
+<td width=3D"40" height=3D"80"><a href=3D"http://clicks.lideedujour.fr/cl/7=
+02787234/976031/299539/15/uJnEbBtAWXKEhqMztIAXF1jVvi5e7sYzN2Zf.htm"><img sr=
+c=3D"http://images.lafafr.com/20160825/SKUPVnBDf4S/sInFR2_12.png" border=3D=
+"0" width=3D"40" height=3D"80" style=3D"display:block; background-color: #F=
+CFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; color: #=
+030609; text-decoration: none;" alt=3D"PRIXIMBATTABLESCUISINE!R=C3=A9novati=
+on" /></a></td>
+</tr>
+<tr>
+<td width=3D"180" height=3D"59"><a href=3D"http://clicks.lideedujour.fr/cl/=
+702787234/976031/299539/16/uJnEbBtAWXKEhqMztIAXF1jVvi5e7sYzN2Zf.htm"><img s=
+rc=3D"http://images.lafafr.com/20160825/SKUPVnBDf4S/sInFR2_13.png" border=
+=3D"0" width=3D"180" height=3D"59" style=3D"display:block; background-color=
+: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; colo=
+r: #030609; text-decoration: none;" alt=3D"et" /></a></td>
+<td width=3D"180" height=3D"59"><a href=3D"http://clicks.lideedujour.fr/cl/=
+702787234/976031/299539/17/uJnEbBtAWXKEhqMztIAXF1jVvi5e7sYzN2Zf.htm"><img s=
+rc=3D"http://images.lafafr.com/20160825/SKUPVnBDf4S/sInFR2_14.png" border=
+=3D"0" width=3D"180" height=3D"59" style=3D"display:block; background-color=
+: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; colo=
+r: #030609; text-decoration: none;" alt=3D"installation" /></a></td>
+<td width=3D"180" height=3D"59"><a href=3D"http://clicks.lideedujour.fr/cl/=
+702787234/976031/299539/18/uJnEbBtAWXKEhqMztIAXF1jVvi5e7sYzN2Zf.htm"><img s=
+rc=3D"http://images.lafafr.com/20160825/SKUPVnBDf4S/sInFR2_15.png" border=
+=3D"0" width=3D"180" height=3D"59" style=3D"display:block; background-color=
+: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; colo=
+r: #030609; text-decoration: none;" alt=3D"decuisineDemandez" /></a></td>
+<td width=3D"40" height=3D"59"><a href=3D"http://clicks.lideedujour.fr/cl/7=
+02787234/976031/299539/19/uJnEbBtAWXKEhqMztIAXF1jVvi5e7sYzN2Zf.htm"><img sr=
+c=3D"http://images.lafafr.com/20160825/SKUPVnBDf4S/sInFR2_16.png" border=3D=
+"0" width=3D"40" height=3D"59" style=3D"display:block; background-color: #F=
+CFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; color: #=
+030609; text-decoration: none;" alt=3D"votre" /></a></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"background-color: #FFFFFF;">
+<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" styl=
+e=3D"border-collapse: collapse; ">
+<tr>
+<td height=3D"18" style=3D"line-height: 0px;">=C2=A0</td>
+</tr>
+<tr>
+<td>
+<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" styl=
+e=3D"border-collapse: collapse; ">
+<tr>
+<td width=3D"15">=C2=A0</td>
+<td align=3D"center" style=3D"font-family: impact, Arial, Helvetica, sans-s=
+erif; font-size: 29px; line-height: 38px; color: #003882;"><a href=3D"http:=
+//clicks.lideedujour.fr/cl/702787234/976031/299539/20/uJnEbBtAWXKEhqMztIAXF=
+1jVvi5e7sYzN2Zf.htm" target=3D"_blank" style=3D"font-family: impact, Arial,=
+ Helvetica, sans-serif; font-size: 29px; line-height: 38px; color: #003882;=
+ text-decoration: none;">R=C3=A9novation et installation de
+cuisine<br />
+Demandez votre devis gratuit<br />
+partout en France</a></td>
+<td width=3D"15">=C2=A0</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height=3D"21">=C2=A0</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"line-height: 0px;">
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td width=3D"180" height=3D"67"><a href=3D"http://clicks.lideedujour.fr/cl/=
+702787234/976031/299539/21/uJnEbBtAWXKEhqMztIAXF1jVvi5e7sYzN2Zf.htm"><img s=
+rc=3D"http://images.lafafr.com/20160825/SKUPVnBDf4S/sInFR2_17.png" border=
+=3D"0" width=3D"180" height=3D"67" style=3D"display:block; background-color=
+: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; colo=
+r: #030609; text-decoration: none;" alt=3D"devis" /></a></td>
+<td width=3D"180" height=3D"67"><a href=3D"http://clicks.lideedujour.fr/cl/=
+702787234/976031/299539/22/uJnEbBtAWXKEhqMztIAXF1jVvi5e7sYzN2Zf.htm"><img s=
+rc=3D"http://images.lafafr.com/20160825/SKUPVnBDf4S/sInFR2_18.png" border=
+=3D"0" width=3D"180" height=3D"67" style=3D"display:block; background-color=
+: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; colo=
+r: #030609; text-decoration: none;" alt=3D"gratuitpartout" /></a></td>
+<td width=3D"180" height=3D"67"><a href=3D"http://clicks.lideedujour.fr/cl/=
+702787234/976031/299539/23/uJnEbBtAWXKEhqMztIAXF1jVvi5e7sYzN2Zf.htm"><img s=
+rc=3D"http://images.lafafr.com/20160825/SKUPVnBDf4S/sInFR2_19.png" border=
+=3D"0" width=3D"180" height=3D"67" style=3D"display:block; background-color=
+: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; colo=
+r: #030609; text-decoration: none;" alt=3D"en" /></a></td>
+<td width=3D"40" height=3D"67"><a href=3D"http://clicks.lideedujour.fr/cl/7=
+02787234/976031/299539/24/uJnEbBtAWXKEhqMztIAXF1jVvi5e7sYzN2Zf.htm"><img sr=
+c=3D"http://images.lafafr.com/20160825/SKUPVnBDf4S/sInFR2_20.png" border=3D=
+"0" width=3D"40" height=3D"67" style=3D"display:block; background-color: #F=
+CFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; color: #=
+030609; text-decoration: none;" alt=3D"France" /></a></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+<td width=3D"10">=C2=A0</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height=3D"10" style=3D"line-height: 0px;">=C2=A0</td>
+</tr>
+<tr>
+<td height=3D"18" style=3D"background-color: #E5E5E5; line-height: 0px;">=
+=C2=A0</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table><img class=3D"img-cf" src=3D"http://lafafr.com/lead.api?ref=3DJ3Ceq=
+f03DYO" alt=3D"Devis Cuisine pour" style=3D"border: 0; outline: none;" /></=
+td>
+</tr>
+</table>
+
+
+<img src=3D"http://clicks.lideedujour.fr/op/702787234/976031.gif?t=3D147222=
+7917" height=3D"1" width=3D"1" alt=3D"" border=3D"0" />
+<center><table align=3D"center" style=3D"text-align:center; font-family: Ar=
+ial; font-size: 12px; color: grey;">
+<tr><td style=3D"text-align:center; font-family: Arial; font-size: 12px; co=
+lor: grey;">
+<span style=3D"font-family: Arial;">Vous recevez ce message car vous =C3=
+=AAtes membre de Les L Idee Du Jour.<br /><br />
+Vous pouvez exercer votre droit d'acc=C3=A8s et de suppression
+=C3=A0 tout moment en nous contactant =C3=A0 : info@lideedujour.fr,
+ou en nous =C3=A9crivant =C3=A0 L Idee Du Jour - Av Franc=C3=A9sc Camb=
+=C3=B3 21, 5=C2=BA - 08003 Barcelona.
+<br /><br />
+<a href=3D"http://clicks.lideedujour.fr/u/702787234/5773f53/aSBfddftHpMxvTN=
+tB1Q1sBVNGCH4ZTiOL7RR.html" title=3D"d=C3=A9sabonner" style=3D"color:#00000=
+0; font-weight:bold;">Suivez ce lien pour vous d=C3=A9sabonner</a>.=20
+<a href=3D"http://www.lideedujour.fr/privacy.html" style=3D"color:#000000; =
+font-weight:bold;">Politique de confidentialit=C3=A9</a>.
+</span></td></tr></table></center><br /></body></html>
+
+--ac2e9c68b2292ace307009a98a43ce34--

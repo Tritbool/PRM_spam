@@ -1,0 +1,902 @@
+Return-Path: <reply@bounces.promolistee.eu>
+Received: from mailimailo.univ-rennes1.fr ([unix socket])
+	 by mailimailo.univ-rennes1.fr (Cyrus v2.3.16-Fedora-RPM-2.3.16-6.el6_2.5) with LMTPA;
+	 Fri, 06 Nov 2015 04:57:29 +0100
+X-Sieve: CMU Sieve 2.3
+Received: from mailout1.univ-rennes1.fr (mailout1.univ-rennes1.fr [129.20.128.162])
+	by mailimailo.univ-rennes1.fr (Postfix) with ESMTP id 37C0226A10DC
+	for <resp-m2-miage@univ-rennes1.fr>; Fri,  6 Nov 2015 04:57:29 +0100 (CET)
+Received: from localhost (vmscanmail.univ-rennes1.fr [129.20.128.134])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id 2F3E660106
+	for <resp-m2-miage@univ-rennes1.fr>; Fri,  6 Nov 2015 04:57:29 +0100 (CET)
+X-Virus-Scanned: amavisd-new at univ-rennes1.fr
+Received: from mailout1.univ-rennes1.fr ([129.20.128.162])
+	by localhost (vmscanmail.univ-rennes1.frm [129.20.128.134]) (amavisd-new, port 10026)
+	with ESMTP id 7jWEveANRM2Y for <resp-m2-miage@univ-rennes1.fr>;
+	Fri,  6 Nov 2015 04:57:29 +0100 (CET)
+Received: from vmmailin.univ-rennes1.fr (vmmailin.univ-rennes1.fr [129.20.128.133])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id 0057F60098
+	for <resp-m2-miage@univ-rennes1.fr>; Fri,  6 Nov 2015 04:57:29 +0100 (CET)
+Received: from mxb1-1.relay.renater.fr (mxb1-1.relay.renater.fr [194.214.201.8])
+	by vmmailin.univ-rennes1.fr (Postfix) with ESMTP id EB1CB20033
+	for <resp-m2-miage@univ-rennes1.fr>; Fri,  6 Nov 2015 04:57:28 +0100 (CET)
+Received: from mta.49.240.smtp.fr (mta.49.240.smtp.fr [37.60.49.240])
+	by mxb1-1.relay.renater.fr (asm) with ESMTP id B03B660003A
+	for <resp-m2-miage@univ-rennes1.fr>; Fri,  6 Nov 2015 04:57:28 +0100 (CET)
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=smtp; d=bounces.promolistee.eu;
+ h=To:Subject:Message-ID:Date:From:Reply-to:MIME-Version:List-Unsubscribe:Content-Type; i=reply@bounces.promolistee.eu;
+ bh=tOQW89VddLzkVRi3AbEpYw7/b6s=;
+ b=Ii+5ZdOcboRhVLS+RQOYc9z+fs5VjXB+WIe9nwihYKOUpx89Lz/KC2QcUd21wXmhN44/ZCJtKumF
+   ++oO1/6W025+06w4HluDszSZeCgUioPH6ef3Y8nmWseos+ysINsgCcCcskUq6njNVdfOvONVSVng
+   B+U74gQzimI+2l2n7Ww=
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=smtp; d=bounces.promolistee.eu;
+ b=aRNnBsefpFRQY0+Q3VCb8SoU14Nq9GU2Qi7shQDa4C8Sy706SxUT/vlnYGj9bMV/LNlN9dNYnAA3
+   MMabyn0Tt6zpfuD7EmtMLS++J7vZcc5hlb6iA1e5jPNjxj0NPIYRwKrRWDrjsNuOurGRFsPaDAiP
+   1H3b9hnhVF3n21FfLyw=;
+Received: from localhost.localdomain (172.31.255.248) by mta.49.240.smtp.fr id h7giig16t60a for <resp-m2-miage@univ-rennes1.fr>; Fri, 6 Nov 2015 04:57:22 +0100 (envelope-from <reply@bounces.promolistee.eu>)
+To: resp-m2-miage@univ-rennes1.fr
+Subject: =?utf-8?Q?S=C3=A9jours_de_r=C3=AAve_avec_Costa?=
+Message-ID: <2191c68d6a721676a31b3cb78bc40a85@localhost.localdomain>
+Date: Fri, 6 Nov 2015 04:57:22 +0100
+From: Elsa <reply@bounces.promolistee.eu>
+Reply-to: Elsa <reply@bounces.promolistee.eu>
+MIME-Version: 1.0
+List-Unsubscribe: <http://www.promolistee.eu/Bounces.php?M=232898091&N=537933&L=4fc5ef332a&type=34>, <mailto:reply@bounces.promolistee.eu?subject=list-id=a065c159-dfbb-6619-e781-ebef6d94195d_4fc5ef332a_e56892f9-80bf-c661-6bac-4de116432fe8-fbl>
+X-Mailer: JRCG
+X-Mailer-Sid: promolisteeeu
+X-Mailer-RecptId: a065c159-dfbb-6619-e781-ebef6d94195d_4fc5ef332a_e56892f9-80bf-c661-6bac-4de116432fe8
+X-Priority: 3
+Content-Type: multipart/alternative;
+	boundary="b1_2191c68d6a721676a31b3cb78bc40a85"
+X-UCE-Status: YES
+X-UCE-Type: MCE
+X-Original-Source-IP: 37.60.49.240
+X-Bizanga: IMP - mxb1-1.relay.renater.fr
+X-Renater-SpamState: 11
+X-Renater-SpamScore: 17
+X-Renater-SpamCause: gggruggvucftvghtrhhoucdtuddrfeekhedrfeeigdeilecutefuodetggdotefrodftvfcurfhrohhfihhlvgemucftgffptefvgfftpdggtfgfnhhsuhgsshgtrhhisggvnecuuegrihhlohhuthemuceftddtnecundfotefknffkpffiucdludejmdenucfjughrpefvuffkfffhrhggjfforfgtsegrtdhjphertdejnecuhfhrohhmpefglhhsrgcuoehrvghplhihsegsohhunhgtvghsrdhprhhomhholhhishhtvggvrdgvuheqnecuffhomhgrihhnpehprhhomhholhhishhtvggvrdgvuhenucfrrghrrghmpehmohguvgepshhmthhppdhhvghlohepmhhtrgdrgeelrddvgedtrdhsmhhtphdrfhhrpdhinhgvthepfeejrdeitddrgeelrddvgedtpdhmrghilhhfrhhomheprhgvphhlhiessghouhhntggvshdrphhrohhmohhlihhsthgvvgdrvghupdhrtghpthhtoheprhgvshhpqdhmvddqmhhirghgvgesuhhnihhvqdhrvghnnhgvshdurdhfrh 
+X-Renater-ServerName: mxb1-1.relay.renater.fr
+
+
+--b1_2191c68d6a721676a31b3cb78bc40a85
+Content-Type: text/plain; charset = "utf-8"
+Content-Transfer-Encoding: 8bit
+
+*|MC:SUBJECT|*
+Vous recevez ce mail car vous tes inscrits la lettre d'information de
+Promo Listee.
+Vous aimez notre Newsletter ? Pour tre sr(e) de recevoir tous nos
+emails, nous vous conseillons d'ajouter contact@promolistee.eu
+mailto:contact@promolistee.eu votre carnet d'adresses.
+DCOUVREZ L\'OFFRE DU JOUR AVEC PROMO LISTEE suivez ce lien
+http://www.promolistee.eu/n2/537933/232898091/4fc5ef332a. Pour un
+dsabonnement, utilisez ce lien Me dsabonner/Unsubscribe
+http://www.promolistee.eu/u/537933/232898091/4fc5ef332a/fr
+http://www.promolistee.eu/c2/537933/232898091/4fc5ef332a/1
+http://www.promolistee.eu/c2/537933/232898091/4fc5ef332a/2
+Chaque semaine, des bons plans croisire dcouvrir. Ne ratez pas nos
+tarifs exclusifs et nos offres spcialement ngocies pour vous !
+LES CARABES, LA DESTINATION PHARE DE L\'HIVER
+http://www.promolistee.eu/c2/537933/232898091/4fc5ef332a/3
+Les rservations pour les Carabes ont commenc, renseignez-vous ds
+maintenant pour rserver votre place au soleil. De nombreuses offres
+avec vols A/R inclus depuis la France sont disponibles.
+Toutes les croisires aux Carabes hiver 2015/2016 »
+http://www.promolistee.eu/c2/537933/232898091/4fc5ef332a/4
+http://www.promolistee.eu/c2/537933/232898091/4fc5ef332a/5
+NOTRE COUP DE ?
+TROPICALE EN TOUT INCLUS DE CROISIRES DE FRANCE
+Croisire de 7 nuits, vols A/R depuis Paris, pension complte avec
+boissons en illimit toute heure.
+http://www.promolistee.eu/c2/537933/232898091/4fc5ef332a/6
+DPARTS DE MARSEILLE
+http://www.promolistee.eu/c2/537933/232898091/4fc5ef332a/7
+Tout au long de l'anne, Marseille vous ouvre les portes de la
+Mditerrane, de l'Afrique et des Amriques. Pas moins de 10 compagnies
+de croisire desservent la cit phocenne, dont les plus clbres : MSC,
+Costa et Croisires de France.
+Dcouvrez les promotions du moment »
+http://www.promolistee.eu/c2/537933/232898091/4fc5ef332a/8
+A CHACUN SON STYLE : PLUS DE 40 COMPAGNIES DE CROISIRE
+http://www.promolistee.eu/c2/537933/232898091/4fc5ef332a/9
+Les croisires MSC vous emmnent au-del de l'horizon : Mditerrane,
+Grce, Europe du Nord et Amriques.
+http://www.promolistee.eu/c2/537933/232898091/4fc5ef332a/10
+Bateaux taille humaine, plaisir de la table, ambiance chaleureuse
+bord : Croisires de France vous garantit des vacances 100% russies !
+http://www.promolistee.eu/c2/537933/232898091/4fc5ef332a/11
+Comment dit-on "vacances" en italien ? Costa ! Dcouvrez la
+Mditerrane et le monde avec ce croisiriste de renom.
+http://www.promolistee.eu/c2/537933/232898091/4fc5ef332a/12
+Patrimoine, gastronomie et culture : l'Europe a tant vous offrir.
+Pour tout dcouvrir, optez pour les croisires fluviales de CroisiEurope
+http://www.promolistee.eu/c2/537933/232898091/4fc5ef332a/13
+L'exprience Ponant, c'est se sentir unique et privilgi o que vous
+soyez. Dcouvrez leurs itinraires exclusifs.
+http://www.promolistee.eu/c2/537933/232898091/4fc5ef332a/14
+Vivez l'exprience Freestyle bord des navires Norwegian Cruise
+Line. Des croisires dans l'air du temps.
+Toutes les compagnies de croisire en un clic »
+http://www.promolistee.eu/c2/537933/232898091/4fc5ef332a/15
+NOTRE QUIPE EST DISPONIBLE GRATUITEMENT 7JOURS/7
+du lundi au vendredi de 9h 21h et le samedi et dimanche de 10h 19h
+Bientt Sur DREAMLINES.FR
+DREAMLINES FRANCE SAS - 37 avenue Jean Mdecin 06000 Nice
+Numro d'immatriculation : 800 172 405 R.C.S. Nice
+Avec Promo Listee, vous pouvez bnficier ds maintenant des bons plans
+et des rductions exclusives qui correspondent
+aux univers de la famille, la mode, la beaut, la dcoration, le
+voyage...
+Conformment la loi informatique et liberts, vous pouvez tout moment
+accder, faire rectifier
+ou supprimer les informations personnelles vous concernant ou vous
+opposer leur traitement par Promo Listee.
+Pour ne plus bnficier de nos propositions commerciales, vous pouvez
+vous rendre sur cette page
+http://www.promolistee.eu/u/537933/232898091/4fc5ef332a/fr
+Notez que le traitement de cette demande peut prendre jusqu' 48
+heures.
+
+
+--b1_2191c68d6a721676a31b3cb78bc40a85
+Content-Type: text/html; charset = "utf-8"
+Content-Transfer-Encoding: 8bit
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<style type="text/css">
+.ReadMsgBody {width: 100%;}
+.ExternalClass {width: 100%;}
+.ExternalClass * {line-height: 100%;}
+span.yshortcuts { color:#000; background-color:none; border:none;}
+span.yshortcuts:hover,span.yshortcuts:active,span.yshortcuts:focus {color:#000; background-color:none; border:none;}
+body,#bodyTable,#bodyCell{height:100% !important;margin:0;padding:0;width:100% !important;}
+table{border-collapse:collapse;}
+img,a img{border:0;outline:none;text-decoration:none;}
+h1,h2,h3,h4,h5,h6{margin:0;padding:0;}
+p{margin:1em 0;padding:0;}
+a{word-wrap:break-word;}
+.ReadMsgBody{width:100%;}
+.ExternalClass{width:100%;}
+.ExternalClass,.ExternalClass p,.ExternalClass span,.ExternalClass font,.ExternalClass td,.ExternalClass div{line-height:100%;}
+table,td{mso-table-lspace:0pt;mso-table-rspace:0pt;}
+#outlook a{padding:0;}
+img{-ms-interpolation-mode:bicubic;}
+body,table,td,p,a,li,blockquote{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+#bodyCell{padding:20px;}
+.mcnImage{vertical-align:bottom;}
+.mcnTextContent img{height:auto !important;}
+/*@tab Page@section background style@tip Set the background color and top border for your email. You may want to choose colors that match your company's branding.*/body,#bodyTable{/*@editable*/background-color:#ffffff;}
+/*@tab Page@section background style@tip Set the background color and top border for your email. You may want to choose colors that match your company's branding.*/#bodyCell{/*@editable*/border-top:0;}
+/*@tab Page@section email border@tip Set the border for your email.*/#templateContainer{/*@editable*/border:0;}
+/*@tab Page@section heading 1@tip Set the styling for all first-level headings in your emails. These should be the largest of your headings.@style heading 1*/h1{/*@editable*/color:#b1b3b4 !important;display:block;/*@editable*/font-family:Helvetica;/*@editable*/font-size:26px;/*@editable*/font-style:normal;/*@editable*/font-weight:bold;/*@editable*/line-height:100%;/*@editable*/letter-spacing:normal;margin:0;/*@editable*/text-align:left;}
+/*@tab Page@section heading 2@tip Set the styling for all second-level headings in your emails.@style heading 2*/h2{/*@editable*/color:#666666 !important;display:block;/*@editable*/font-family:Helvetica;/*@editable*/font-size:18px;/*@editable*/font-style:normal;/*@editable*/font-weight:normal;/*@editable*/line-height:200%;/*@editable*/letter-spacing:0px;margin:0;/*@editable*/text-align:left;}
+/*@tab Page@section heading 3@tip Set the styling for all third-level headings in your emails.@style heading 3*/h3{/*@editable*/color:#666666 !important;display:block;/*@editable*/font-family:Helvetica;/*@editable*/font-size:16px;/*@editable*/font-style:normal;/*@editable*/font-weight:bold;/*@editable*/line-height:100%;/*@editable*/letter-spacing:-.5px;margin:0;/*@editable*/text-align:left;}
+/*@tab Page@section heading 4@tip Set the styling for all fourth-level headings in your emails. These should be the smallest of your headings.@style heading 4*/h4{/*@editable*/color:#666666 !important;display:block;/*@editable*/font-family:Helvetica;/*@editable*/font-size:30px;/*@editable*/font-style:normal;/*@editable*/font-weight:bold;/*@editable*/line-height:100%;/*@editable*/letter-spacing:normal;margin:0;/*@editable*/text-align:left;}
+/*@tab Preheader@section preheader style@tip Set the background color and borders for your email's preheader area.*/#templatePreheader{/*@editable*/background-color:#ffffff;/*@editable*/border-top:0;/*@editable*/border-bottom:0;}
+/*@tab Preheader@section preheader text@tip Set the styling for your email's preheader text. Choose a size and color that is easy to read.*/.preheaderContainer .mcnTextContent,.preheaderContainer .mcnTextContent p{/*@editable*/color:#aaaaaa;/*@editable*/font-family:Helvetica;/*@editable*/font-size:12px;/*@editable*/line-height:125%;/*@editable*/text-align:left;}
+/*@tab Preheader@section preheader link@tip Set the styling for your email's header links. Choose a color that helps them stand out from your text.*/.preheaderContainer .mcnTextContent a{/*@editable*/color:#606060;/*@editable*/font-weight:normal;/*@editable*/text-decoration:underline;}
+/*@tab Header@section header style@tip Set the background color and borders for your email's header area.*/#templateHeader{/*@editable*/background-color:#FFFFFF;/*@editable*/border-top:0;/*@editable*/border-bottom:0;}
+/*@tab Header@section header text@tip Set the styling for your email's header text. Choose a size and color that is easy to read.*/.headerContainer .mcnTextContent,.headerContainer .mcnTextContent p{/*@editable*/color:#606060;/*@editable*/font-family:Helvetica;/*@editable*/font-size:15px;/*@editable*/line-height:150%;/*@editable*/text-align:left;}
+/*@tab Header@section header link@tip Set the styling for your email's header links. Choose a color that helps them stand out from your text.*/.headerContainer .mcnTextContent a{/*@editable*/color:#06aaee;/*@editable*/font-weight:normal;/*@editable*/text-decoration:none;}
+/*@tab Body@section body style@tip Set the background color and borders for your email's body area.*/#templateBody{/*@editable*/background-color:#FFFFFF;/*@editable*/border-top:0;/*@editable*/border-bottom:0;}
+/*@tab Body@section body text@tip Set the styling for your email's body text. Choose a size and color that is easy to read.*/.bodyContainer .mcnTextContent,.bodyContainer .mcnTextContent p{/*@editable*/color:#666666;/*@editable*/font-family:Helvetica;/*@editable*/font-size:14px;/*@editable*/line-height:125%;/*@editable*/text-align:left;}
+/*@tab Body@section body link@tip Set the styling for your email's body links. Choose a color that helps them stand out from your text.*/.bodyContainer .mcnTextContent a{/*@editable*/color:#06aaee;/*@editable*/font-weight:normal;/*@editable*/text-decoration:none;}
+/*@tab Footer@section footer style@tip Set the background color and borders for your email's footer area.*/#templateFooter{/*@editable*/background-color:#ffffff;/*@editable*/border-top:2px solid #eeeeee;/*@editable*/border-bottom:0;}
+/*@tab Footer@section footer text@tip Set the styling for your email's footer text. Choose a size and color that is easy to read.*/.footerContainer .mcnTextContent,.footerContainer .mcnTextContent p{/*@editable*/color:#aaaaaa;/*@editable*/font-family:Helvetica;/*@editable*/font-size:11px;/*@editable*/line-height:125%;/*@editable*/text-align:left;}
+/*@tab Footer@section footer link@tip Set the styling for your email's footer links. Choose a color that helps them stand out from your text.*/.footerContainer .mcnTextContent a{/*@editable*/color:#606060;/*@editable*/font-weight:normal;/*@editable*/text-decoration:underline;}
+@media only screen and (max-width: 480px){body,table,td,p,a,li,blockquote{-webkit-text-size-adjust:none !important;}
+} @media only screen and (max-width: 480px){
+body{width:100% !important;min-width:100% !important;}
+td[id=bodyCell]{padding:10px !important;}
+table[class=mcnTextContentContainer]{width:100% !important;}
+.mcnBoxedTextContentContainer{max-width:100% !important;min-width:100% !important;width:100% !important;}
+table[class=mcpreview-image-uploader]{width:100% !important;display:none !important;}
+img[class=mcnImage]{width:100% !important;}
+table[class=mcnImageGroupContentContainer]{width:100% !important;}
+td[class=mcnImageGroupContent]{padding:9px !important;}
+td[class=mcnImageGroupBlockInner]{padding-bottom:0 !important;padding-top:0 !important;}
+tbody[class=mcnImageGroupBlockOuter]{padding-bottom:9px !important;padding-top:9px !important;}
+table[class=mcnCaptionTopContent],table[class=mcnCaptionBottomContent]{width:100% !important;}
+table[class=mcnCaptionLeftTextContentContainer],table[class=mcnCaptionRightTextContentContainer],table[class=mcnCaptionLeftImageContentContainer],table[class=mcnCaptionRightImageContentContainer],table[class=mcnImageCardLeftTextContentContainer],table[class=mcnImageCardRightTextContentContainer]{width:100% !important;}
+td[class=mcnImageCardLeftImageContent],td[class=mcnImageCardRightImageContent]{padding-right:18px !important;padding-left:18px !important;padding-bottom:0 !important;}
+td[class=mcnImageCardBottomImageContent]{padding-bottom:9px !important;}
+td[class=mcnImageCardTopImageContent]{padding-top:18px !important;}
+table[class=mcnCaptionLeftContentOuter] td[class=mcnTextContent],table[class=mcnCaptionRightContentOuter] td[class=mcnTextContent]{padding-top:9px !important;}
+td[class=mcnCaptionBlockInner] table[class=mcnCaptionTopContent]:last-child td[class=mcnTextContent]{padding-top:18px !important;}
+td[class=mcnBoxedTextContentColumn]{padding-left:18px !important;padding-right:18px !important;}
+td[class=mcnTextContent]{padding-right:18px !important;padding-left:18px !important;}
+/*@tab Mobile Styles@section template width@tip Make the template fluid for portrait or landscape view adaptability. If a fluid layout doesn't work for you, set the width to 300px instead.*/table[id=templateContainer],table[id=templatePreheader],table[id=templateHeader],table[id=templateBody],table[id=templateFooter]{/*@tab Mobile Styles@section template width@tip Make the template fluid for portrait or landscape view adaptability. If a fluid layout doesn't work for you, set the width to 300px instead.*/max-width:600px !important;/*@editable*/width:100% !important;}
+/*@tab Mobile Styles@section heading 1@tip Make the first-level headings larger in size for better readability on small screens.*/h1{/*@editable*/font-size:22px !important;/*@editable*/line-height:125% !important;}
+/*@tab Mobile Styles@section heading 2@tip Make the second-level headings larger in size for better readability on small screens.*/h2{/*@editable*/font-size:16px !important;/*@editable*/line-height:125% !important;}
+/*@tab Mobile Styles@section heading 3@tip Make the third-level headings larger in size for better readability on small screens.*/h3{/*@editable*/font-size:16px !important;/*@editable*/line-height:125% !important;}
+/*@tab Mobile Styles@section heading 4@tip Make the fourth-level headings larger in size for better readability on small screens.*/h4{/*@editable*/font-size:20px !important;/*@editable*/line-height:125% !important;}
+/*@tab Mobile Styles@section Boxed Text@tip Make the boxed text larger in size for better readability on small screens. We recommend a font size of at least 16px.*/table[class=mcnBoxedTextContentContainer] td[class=mcnTextContent],td[class=mcnBoxedTextContentContainer] td[class=mcnTextContent] p{/*@editable*/font-size:16px !important;/*@editable*/line-height:125% !important;}
+/*@tab Mobile Styles@section Preheader Visibility@tip Set the visibility of the email's preheader on small screens. You can hide it to save space.*/table[id=templatePreheader]{/*@editable*/display:block !important;}
+/*@tab Mobile Styles@section Preheader Text@tip Make the preheader text larger in size for better readability on small screens.*/td[class=preheaderContainer] td[class=mcnTextContent],td[class=preheaderContainer] td[class=mcnTextContent] p{/*@editable*/font-size:12px !important;/*@editable*/line-height:115% !important;}
+/*@tab Mobile Styles@section Header Text@tip Make the header text larger in size for better readability on small screens.*/td[class=headerContainer] td[class=mcnTextContent],td[class=headerContainer] td[class=mcnTextContent] p{/*@editable*/font-size:14px !important;/*@editable*/line-height:125% !important;}
+/*@tab Mobile Styles@section Body Text@tip Make the body text larger in size for better readability on small screens. We recommend a font size of at least 16px.*/td[class=bodyContainer] td[class=mcnTextContent],td[class=bodyContainer] td[class=mcnTextContent] p{/*@editable*/font-size:16px !important;/*@editable*/line-height:125% !important;}
+/*@tab Mobile Styles@section footer text@tip Make the body content text larger in size for better readability on small screens.*/td[class=footerContainer] td[class=mcnTextContent],td[class=footerContainer] td[class=mcnTextContent] p{/*@editable*/font-size:12px !important;/*@editable*/line-height:115% !important;}
+td[class=footerContainer] a[class=utilityLink]{display:block !important;}
+}
+</style>
+<!-- NAME: 1 COLUMN -->
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>*|MC:SUBJECT|*</title>
+</head>
+<body leftmargin="0" marginwidth="0" topmargin="0" marginheight="0" offset="0"><div id="template_header_auto_include" ><center>
+<span style='font-size:11px;text-align:center;font-family:Arial, Helvetica, sans-serif;color:#000'><br />
+Vous recevez ce mail car vous &ecirc;tes inscrits &agrave; la lettre d'information de Promo Listee. <br />
+Vous aimez notre Newsletter ? Pour &ecirc;tre s&ucirc;r(e) de recevoir tous nos emails, nous vous conseillons d'ajouter <a href='mailto:contact@promolistee.eu' target='_blank'> contact@promolistee.eu</a> &agrave; votre carnet d'adresses.<br />
+<br/>
+<strong>D&eacute;couvrez l'offre du jour avec Promo Listee </strong><a href='http://www.promolistee.eu/n2/537933/232898091/4fc5ef332a' target='_blank'> suivez ce lien</a>. Pour un d&eacute;sabonnement, utilisez ce lien <a href='http://www.promolistee.eu/u/537933/232898091/4fc5ef332a/fr' target='_blank'> Me d&eacute;sabonner/Unsubscribe</a>
+</span>
+</center></div><table width="98%" border="0" align="center" cellpadding="0" cellspacing="0">
+<tr><td align="center">
+<center>
+<table align="center" border="0" cellpadding="0" cellspacing="0" height="100%" width="100%" id="bodyTable">
+<tr>
+<td align="center" valign="top" id="bodyCell">
+<!-- BEGIN TEMPLATE // -->
+<table border="0" cellpadding="0" cellspacing="0" width="600" id="templateContainer">
+<tr>
+<td align="center" valign="top">
+<!-- BEGIN PREHEADER // -->
+<table border="0" cellpadding="0" cellspacing="0" width="600" id="templatePreheader">
+<tr>
+<td valign="top" class="preheaderContainer" style="padding-top:9px;"></td>
+</tr>
+</table>
+<!-- // END PREHEADER -->
+</td>
+</tr>
+<tr>
+<td align="center" valign="top">
+<!-- BEGIN HEADER // -->
+<table border="0" cellpadding="0" cellspacing="0" width="600" id="templateHeader">
+<tr>
+<td valign="top" class="headerContainer"><table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnImageBlock" style="min-width:100%;">
+<tbody class="mcnImageBlockOuter">
+<tr>
+<td valign="top" style="padding:9px" class="mcnImageBlockInner">
+<table align="left" width="100%" border="0" cellpadding="0" cellspacing="0" class="mcnImageContentContainer" style="min-width:100%;">
+<tbody><tr>
+<td class="mcnImageContent" valign="top" style="padding-right: 9px; padding-left: 9px; padding-top: 0; padding-bottom: 0; text-align:center;">
+<a href="http://www.promolistee.eu/c2/537933/232898091/4fc5ef332a/1" title="" class="" target="_blank" style="border:none; text-decoration:none;">
+<img align="center" alt="Dreamlines.fr" src="http://img.promolistee.eu/537933/e23a911d-3245-4311-af3c-4376948c8430.png" width="564" style="max-width:564px; padding-bottom: 0; display: inline !important; vertical-align: bottom;" class="mcnImage" height="75"/>
+</a>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody>
+</table><table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnImageBlock" style="min-width:100%;">
+<tbody class="mcnImageBlockOuter">
+<tr>
+<td valign="top" style="padding:9px" class="mcnImageBlockInner">
+<table align="left" width="100%" border="0" cellpadding="0" cellspacing="0" class="mcnImageContentContainer" style="min-width:100%;">
+<tbody><tr>
+<td class="mcnImageContent" valign="top" style="padding-right: 9px; padding-left: 9px; padding-top: 0; padding-bottom: 0; text-align:center;">
+<a href="http://www.promolistee.eu/c2/537933/232898091/4fc5ef332a/2" title="" class="" target="_blank" style="border:none; text-decoration:none;">
+<img align="center" alt="Tous les bons plans pour partir en croisi&egrave;re" src="http://img.promolistee.eu/537933/2f1cbea0-b3d9-4a00-be1d-93b564cc9895.jpg" width="564" style="max-width:564px; padding-bottom: 0; display: inline !important; vertical-align: bottom;" class="mcnImage" height="330"/>
+</a>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody>
+</table></td>
+</tr>
+</table>
+<!-- // END HEADER -->
+</td>
+</tr>
+<tr>
+<td align="center" valign="top">
+<!-- BEGIN BODY // -->
+<table border="0" cellpadding="0" cellspacing="0" width="600" id="templateBody">
+<tr>
+<td valign="top" class="bodyContainer"><table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnTextBlock">
+<tbody class="mcnTextBlockOuter">
+<tr>
+<td valign="top" class="mcnTextBlockInner">
+<table align="left" border="0" cellpadding="0" cellspacing="0" width="600" class="mcnTextContentContainer">
+<tbody><tr>
+<td valign="top" class="mcnTextContent" style="padding-top:9px; padding-right: 18px; padding-bottom: 9px; padding-left: 18px;">
+Chaque semaine, des bons plans croisi&egrave;re &agrave; d&eacute;couvrir. Ne ratez pas nos tarifs exclusifs et nos offres sp&eacute;cialement n&eacute;goci&eacute;es pour vous !
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody>
+</table><table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnDividerBlock" style="min-width: 100%;background-color: #FFFFFF;" bgcolor=" #FFFFFF">
+<tbody class="mcnDividerBlockOuter">
+<tr>
+<td class="mcnDividerBlockInner" style="min-width: 100%; padding: 15px 18px;">
+<table class="mcnDividerContent" border="0" cellpadding="0" cellspacing="0" width="100%" style="min-width: 100%;border-top-width: 1px;border-top-style: none;border-top-color: #D6D6D6;">
+<tbody><tr>
+<td>
+<span></span>
+</td>
+</tr>
+</tbody></table>
+<!--
+<td class="mcnDividerBlockInner" style="padding: 18px;">
+<hr class="mcnDividerContent" style="border-bottom-color:none; border-left-color:none; border-right-color:none; border-bottom-width:0; border-left-width:0; border-right-width:0; margin-top:0; margin-right:0; margin-bottom:0; margin-left:0;" />
+-->
+</td>
+</tr>
+</tbody>
+</table><table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnTextBlock">
+<tbody class="mcnTextBlockOuter">
+<tr>
+<td valign="top" class="mcnTextBlockInner">
+<table align="left" border="0" cellpadding="0" cellspacing="0" width="600" class="mcnTextContentContainer">
+<tbody><tr>
+<td valign="top" class="mcnTextContent" style="padding-top:9px; padding-right: 18px; padding-bottom: 9px; padding-left: 18px;">
+<h1>Les Cara&iuml;bes, la destination phare de l'hiver</h1>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody>
+</table><table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnDividerBlock" style="min-width:100%;">
+<tbody class="mcnDividerBlockOuter">
+<tr>
+<td class="mcnDividerBlockInner" style="min-width: 100%; padding: 0px 18px 18px;">
+<table class="mcnDividerContent" border="0" cellpadding="0" cellspacing="0" width="100%" style="min-width: 100%;border-top-width: 2px;border-top-style: solid;border-top-color: #EAEAEA;">
+<tbody><tr>
+<td>
+<span></span>
+</td>
+</tr>
+</tbody></table>
+<!--
+<td class="mcnDividerBlockInner" style="padding: 18px;">
+<hr class="mcnDividerContent" style="border-bottom-color:none; border-left-color:none; border-right-color:none; border-bottom-width:0; border-left-width:0; border-right-width:0; margin-top:0; margin-right:0; margin-bottom:0; margin-left:0;" />
+-->
+</td>
+</tr>
+</tbody>
+</table><table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnCaptionBlock">
+<tbody class="mcnCaptionBlockOuter">
+<tr>
+<td class="mcnCaptionBlockInner" valign="top" style="padding:9px;">
+<table align="left" border="0" cellpadding="0" cellspacing="0" class="mcnCaptionBottomContent" width="false">
+<tbody><tr>
+<td class="mcnCaptionBottomImageContent" align="center" valign="top" style="padding:0 9px 9px 9px;">
+<a href="http://www.promolistee.eu/c2/537933/232898091/4fc5ef332a/3" title="" class="" target="_blank" style="border:none; text-decoration:none;">
+<img alt="Cara&iuml;bes, Antilles, Bahamas - On y va !" src="http://img.promolistee.eu/537933/051bae29-8444-4188-893d-cae5935663e8.jpg" width="564" style="display:block;max-width:564px;" class="mcnImage" height="190"/>
+</a>
+</td>
+</tr>
+<tr>
+<td class="mcnTextContent" valign="top" style="padding:0 9px 0 9px;" width="564">
+Les r&eacute;servations pour les Cara&iuml;bes ont commenc&eacute;, renseignez-vous d&egrave;s maintenant pour r&eacute;server votre place au soleil. De nombreuses offres avec vols A/R inclus depuis la France sont disponibles.
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody>
+</table><table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnButtonBlock">
+<tbody class="mcnButtonBlockOuter">
+<tr>
+<td style="padding-top:0; padding-right:18px; padding-bottom:18px; padding-left:18px;" valign="top" align="right" class="mcnButtonBlockInner">
+<table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnButtonContentContainer" style="border-collapse: separate !important;border-radius: 0px;background-color: #06AAEE;" bgcolor=" #06AAEE">
+<tbody>
+<tr>
+<td align="center" valign="middle" class="mcnButtonContent" style="font-family: Arial; font-size: 18px; padding: 15px;">
+<a class="mcnButton " title="Toutes les croisi&egrave;res aux Cara&iuml;bes hiver 2015/2016 &#xBB;" href="http://www.promolistee.eu/c2/537933/232898091/4fc5ef332a/4" target="_blank" style="font-weight: bold;letter-spacing: 0px;line-height: 100%;text-align: center;text-decoration: none;color: #FFFFFF; border:none; text-decoration:none;">Toutes les croisi&egrave;res aux Cara&iuml;bes hiver 2015/2016 »</a>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table><table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnImageCardBlock">
+<tbody class="mcnImageCardBlockOuter">
+<tr>
+<td class="mcnImageCardBlockInner" valign="top" style="padding-top:9px; padding-right:18px; padding-bottom:9px; padding-left:18px;">
+<table border="0" cellpadding="0" cellspacing="0" class="mcnImageCardRightContentOuter" width="100%">
+<tbody><tr>
+<td align="center" valign="top" class="mcnImageCardRightContentInner" style="padding: 0px;background-color: #FAFAFA;" bgcolor=" #FAFAFA">
+<table align="left" border="0" cellpadding="0" cellspacing="0" class="mcnImageCardRightImageContentContainer">
+<tbody><tr>
+<td class="mcnImageCardRightImageContentE2E " align="center" valign="top" style="padding-top:0px; padding-right:0; padding-bottom:0px; padding-left:0px;">
+<a href="http://www.promolistee.eu/c2/537933/232898091/4fc5ef332a/5" title="" class="" target="_blank" style="border:none; text-decoration:none;">
+<img alt="La Tropicale" src="http://img.promolistee.eu/537933/b157f75a-f911-473a-9cdf-cd01c969481c.jpg" width="185" style="display:block;max-width:185px;" class="mcnImage" height="190"/>
+</a>
+</td>
+</tr>
+</tbody></table>
+<table class="mcnImageCardRightTextContentContainer" align="right" border="0" cellpadding="0" cellspacing="0" width="352">
+<tbody><tr>
+<td valign="top" class="mcnTextContent" style="padding-right: 18px;padding-top: 18px;padding-bottom: 18px;color: #666666;font-family: Helvetica;font-size: 14px;font-weight: normal;line-height: 18px;text-align: left;">
+<strong>NOTRE COUP DE ?</strong><br />
+<br />
+<strong>Tropicale en TOUT INCLUS de Croisi&egrave;res de France</strong><br />
+Croisi&egrave;re de 7 nuits, vols A/R depuis Paris, pension compl&egrave;te avec boissons en illimit&eacute; &agrave; toute heure. <br />
+<br />
+<a href="http://www.promolistee.eu/c2/537933/232898091/4fc5ef332a/6" target="_blank" style="border:none; text-decoration:none;"><img align="none" height="27" src="http://img.promolistee.eu/537933/fcb99e38-2d12-41af-9d5e-81dfd32ae842.jpg" style="display:block;width: 100px; height: 27px; float: right; margin: 0px;" width="100"/></a>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody>
+</table><table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnDividerBlock" style="min-width: 100%;background-color: #FFFFFF;" bgcolor=" #FFFFFF">
+<tbody class="mcnDividerBlockOuter">
+<tr>
+<td class="mcnDividerBlockInner" style="min-width: 100%; padding: 15px 18px;">
+<table class="mcnDividerContent" border="0" cellpadding="0" cellspacing="0" width="100%" style="min-width: 100%;border-top-width: 1px;border-top-style: none;border-top-color: #D6D6D6;">
+<tbody><tr>
+<td>
+<span></span>
+</td>
+</tr>
+</tbody></table>
+<!--
+<td class="mcnDividerBlockInner" style="padding: 18px;">
+<hr class="mcnDividerContent" style="border-bottom-color:none; border-left-color:none; border-right-color:none; border-bottom-width:0; border-left-width:0; border-right-width:0; margin-top:0; margin-right:0; margin-bottom:0; margin-left:0;" />
+-->
+</td>
+</tr>
+</tbody>
+</table><table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnTextBlock">
+<tbody class="mcnTextBlockOuter">
+<tr>
+<td valign="top" class="mcnTextBlockInner">
+<table align="left" border="0" cellpadding="0" cellspacing="0" width="600" class="mcnTextContentContainer">
+<tbody><tr>
+<td valign="top" class="mcnTextContent" style="padding-top:9px; padding-right: 18px; padding-bottom: 9px; padding-left: 18px;">
+<h1>D&eacute;parts de Marseille</h1>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody>
+</table><table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnDividerBlock" style="min-width:100%;">
+<tbody class="mcnDividerBlockOuter">
+<tr>
+<td class="mcnDividerBlockInner" style="min-width: 100%; padding: 0px 18px 18px;">
+<table class="mcnDividerContent" border="0" cellpadding="0" cellspacing="0" width="100%" style="min-width: 100%;border-top-width: 2px;border-top-style: solid;border-top-color: #EAEAEA;">
+<tbody><tr>
+<td>
+<span></span>
+</td>
+</tr>
+</tbody></table>
+<!--
+<td class="mcnDividerBlockInner" style="padding: 18px;">
+<hr class="mcnDividerContent" style="border-bottom-color:none; border-left-color:none; border-right-color:none; border-bottom-width:0; border-left-width:0; border-right-width:0; margin-top:0; margin-right:0; margin-bottom:0; margin-left:0;" />
+-->
+</td>
+</tr>
+</tbody>
+</table><table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnCaptionBlock">
+<tbody class="mcnCaptionBlockOuter">
+<tr>
+<td class="mcnCaptionBlockInner" valign="top" style="padding:9px;">
+<table align="left" border="0" cellpadding="0" cellspacing="0" class="mcnCaptionBottomContent" width="false">
+<tbody><tr>
+<td class="mcnCaptionBottomImageContent" align="center" valign="top" style="padding:0 9px 9px 9px;">
+<a href="http://www.promolistee.eu/c2/537933/232898091/4fc5ef332a/7" title="" class="" target="_blank" style="border:none; text-decoration:none;">
+<img alt="Tous les d&eacute;parts de Marseille" src="http://img.promolistee.eu/537933/e52cbbeb-7d15-4375-9c67-30bf43375050.jpg" width="564" style="display:block;max-width:564px;" class="mcnImage" height="190"/>
+</a>
+</td>
+</tr>
+<tr>
+<td class="mcnTextContent" valign="top" style="padding:0 9px 0 9px;" width="564">
+Tout au long de l&rsquo;ann&eacute;e, Marseille vous ouvre les portes de la M&eacute;diterran&eacute;e, de l&rsquo;Afrique et des Am&eacute;riques. Pas moins de 10 compagnies de croisi&egrave;re desservent la cit&eacute; phoc&eacute;enne, dont les plus c&eacute;l&egrave;bres : MSC, Costa et Croisi&egrave;res de France.
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody>
+</table><table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnButtonBlock">
+<tbody class="mcnButtonBlockOuter">
+<tr>
+<td style="padding-top:0; padding-right:18px; padding-bottom:18px; padding-left:18px;" valign="top" align="right" class="mcnButtonBlockInner">
+<table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnButtonContentContainer" style="border-collapse: separate !important;border-radius: 0px;background-color: #06AAEE;" bgcolor=" #06AAEE">
+<tbody>
+<tr>
+<td align="center" valign="middle" class="mcnButtonContent" style="font-family: Arial; font-size: 18px; padding: 10px;">
+<a class="mcnButton " title="D&eacute;couvrez les promotions du moment &#xBB;" href="http://www.promolistee.eu/c2/537933/232898091/4fc5ef332a/8" target="_blank" style="font-weight: bold;letter-spacing: 0px;line-height: 100%;text-align: center;text-decoration: none;color: #FFFFFF; border:none; text-decoration:none;">D&eacute;couvrez les promotions du moment »</a>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table><table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnDividerBlock" style="min-width: 100%;background-color: #FFFFFF;" bgcolor=" #FFFFFF">
+<tbody class="mcnDividerBlockOuter">
+<tr>
+<td class="mcnDividerBlockInner" style="min-width: 100%; padding: 15px 18px;">
+<table class="mcnDividerContent" border="0" cellpadding="0" cellspacing="0" width="100%" style="min-width: 100%;border-top-width: 1px;border-top-style: none;border-top-color: #D6D6D6;">
+<tbody><tr>
+<td>
+<span></span>
+</td>
+</tr>
+</tbody></table>
+<!--
+<td class="mcnDividerBlockInner" style="padding: 18px;">
+<hr class="mcnDividerContent" style="border-bottom-color:none; border-left-color:none; border-right-color:none; border-bottom-width:0; border-left-width:0; border-right-width:0; margin-top:0; margin-right:0; margin-bottom:0; margin-left:0;" />
+-->
+</td>
+</tr>
+</tbody>
+</table><table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnTextBlock">
+<tbody class="mcnTextBlockOuter">
+<tr>
+<td valign="top" class="mcnTextBlockInner">
+<table align="left" border="0" cellpadding="0" cellspacing="0" width="600" class="mcnTextContentContainer">
+<tbody><tr>
+<td valign="top" class="mcnTextContent" style="padding-top:9px; padding-right: 18px; padding-bottom: 9px; padding-left: 18px;">
+<h1>A chacun son style : plus de 40 compagnies de croisi&egrave;re</h1>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody>
+</table><table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnDividerBlock" style="min-width:100%;">
+<tbody class="mcnDividerBlockOuter">
+<tr>
+<td class="mcnDividerBlockInner" style="min-width: 100%; padding: 0px 18px 18px;">
+<table class="mcnDividerContent" border="0" cellpadding="0" cellspacing="0" width="100%" style="min-width: 100%;border-top-width: 2px;border-top-style: solid;border-top-color: #EAEAEA;">
+<tbody><tr>
+<td>
+<span></span>
+</td>
+</tr>
+</tbody></table>
+<!--
+<td class="mcnDividerBlockInner" style="padding: 18px;">
+<hr class="mcnDividerContent" style="border-bottom-color:none; border-left-color:none; border-right-color:none; border-bottom-width:0; border-left-width:0; border-right-width:0; margin-top:0; margin-right:0; margin-bottom:0; margin-left:0;" />
+-->
+</td>
+</tr>
+</tbody>
+</table><table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnCaptionBlock">
+<tbody class="mcnCaptionBlockOuter">
+<tr>
+<td class="mcnCaptionBlockInner" valign="top" style="padding:9px;">
+<table align="left" border="0" cellpadding="0" cellspacing="0" class="mcnCaptionBottomContent" width="282">
+<tbody><tr>
+<td class="mcnCaptionBottomImageContent" align="center" valign="top" style="padding:0 9px 9px 9px;">
+<a href="http://www.promolistee.eu/c2/537933/232898091/4fc5ef332a/9" title="" class="" target="_blank" style="border:none; text-decoration:none;">
+<img alt="La compagnie la plus demand&eacute;s" src="http://img.promolistee.eu/537933/11278886-c599-4916-a18f-e96e1f2e0d11.jpg" width="257" style="display:block;max-width:257px;" class="mcnImage" height="190"/>
+</a>
+</td>
+</tr>
+<tr>
+<td class="mcnTextContent" valign="top" style="padding:0 9px 0 9px;" width="264">
+Les croisi&egrave;res MSC vous emm&egrave;nent au-del&agrave; de l'horizon : M&eacute;diterran&eacute;e, Gr&egrave;ce, Europe du Nord et Am&eacute;riques.<br />
+</td>
+</tr>
+</tbody></table>
+<table align="right" border="0" cellpadding="0" cellspacing="0" class="mcnCaptionBottomContent" width="282">
+<tbody><tr>
+<td class="mcnCaptionBottomImageContent" align="center" valign="top" style="padding:0 9px 9px 9px;">
+<a href="http://www.promolistee.eu/c2/537933/232898091/4fc5ef332a/10" title="" class="" target="_blank" style="border:none; text-decoration:none;">
+<img alt="Ambiance chaleureuse garantie" src="http://img.promolistee.eu/537933/fea66bda-b18b-4779-884b-eea762b9ffd3.jpg" width="257" style="display:block;max-width:257px;" class="mcnImage" height="190"/>
+</a>
+</td>
+</tr>
+<tr>
+<td class="mcnTextContent" valign="top" style="padding:0 9px 0 9px;" width="264">
+Bateaux &agrave; taille humaine, plaisir de la table, ambiance chaleureuse &agrave; bord : Croisi&egrave;res de France vous garantit des vacances 100% r&eacute;ussies !
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody>
+</table><table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnCaptionBlock">
+<tbody class="mcnCaptionBlockOuter">
+<tr>
+<td class="mcnCaptionBlockInner" valign="top" style="padding:9px;">
+<table align="left" border="0" cellpadding="0" cellspacing="0" class="mcnCaptionBottomContent" width="282">
+<tbody><tr>
+<td class="mcnCaptionBottomImageContent" align="center" valign="top" style="padding:0 9px 9px 9px;">
+<a href="http://www.promolistee.eu/c2/537933/232898091/4fc5ef332a/11" title="" class="" target="_blank" style="border:none; text-decoration:none;">
+<img alt="Comment dit on &quot;vacances&quot; en italien ?" src="http://img.promolistee.eu/537933/688526df-37c5-4495-8d24-8dc4210522c0.jpg" width="257" style="display:block;max-width:257px;" class="mcnImage" height="190"/>
+</a>
+</td>
+</tr>
+<tr>
+<td class="mcnTextContent" valign="top" style="padding:0 9px 0 9px;" width="264">
+Comment dit-on "vacances" en italien ? Costa ! D&eacute;couvrez la M&eacute;diterran&eacute;e et le monde avec ce croisi&egrave;riste de renom.<br />
+</td>
+</tr>
+</tbody></table>
+<table align="right" border="0" cellpadding="0" cellspacing="0" class="mcnCaptionBottomContent" width="282">
+<tbody><tr>
+<td class="mcnCaptionBottomImageContent" align="center" valign="top" style="padding:0 9px 9px 9px;">
+<a href="http://www.promolistee.eu/c2/537933/232898091/4fc5ef332a/12" title="" class="" target="_blank" style="border:none; text-decoration:none;">
+<img alt="Croisi&egrave;res fluviales en Europe et dans le monde" src="http://img.promolistee.eu/537933/173fb650-b6c1-4b05-b70a-284da232883b.jpg" width="257" style="display:block;max-width:257px;" class="mcnImage" height="190"/>
+</a>
+</td>
+</tr>
+<tr>
+<td class="mcnTextContent" valign="top" style="padding:0 9px 0 9px;" width="264">
+Patrimoine, gastronomie et culture : l'Europe a tant &agrave; vous offrir. Pour tout d&eacute;couvrir, optez pour les croisi&egrave;res fluviales de CroisiEurope
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody>
+</table><table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnCaptionBlock">
+<tbody class="mcnCaptionBlockOuter">
+<tr>
+<td class="mcnCaptionBlockInner" valign="top" style="padding:9px;">
+<table align="left" border="0" cellpadding="0" cellspacing="0" class="mcnCaptionBottomContent" width="282">
+<tbody><tr>
+<td class="mcnCaptionBottomImageContent" align="center" valign="top" style="padding:0 9px 9px 9px;">
+<a href="http://www.promolistee.eu/c2/537933/232898091/4fc5ef332a/13" title="" class="" target="_blank" style="border:none; text-decoration:none;">
+<img alt="La Yachting made in France" src="http://img.promolistee.eu/537933/e48970d3-cc09-4c85-a03f-9102aa29b1fb.jpg" width="257" style="display:block;max-width:257px;" class="mcnImage" height="190"/>
+</a>
+</td>
+</tr>
+<tr>
+<td class="mcnTextContent" valign="top" style="padding:0 9px 0 9px;" width="264">
+L'exp&eacute;rience Ponant, c'est se sentir unique et privil&eacute;gi&eacute; o&ugrave; que vous soyez. D&eacute;couvrez leurs itin&eacute;raires exclusifs.<br />
+</td>
+</tr>
+</tbody></table>
+<table align="right" border="0" cellpadding="0" cellspacing="0" class="mcnCaptionBottomContent" width="282">
+<tbody><tr>
+<td class="mcnCaptionBottomImageContent" align="center" valign="top" style="padding:0 9px 9px 9px;">
+<a href="http://www.promolistee.eu/c2/537933/232898091/4fc5ef332a/14" title="" class="" target="_blank" style="border:none; text-decoration:none;">
+<img alt="D&eacute;couvrez le concept &quot; Freestyle&quot;" src="http://img.promolistee.eu/537933/75faeb14-4116-42df-9b7e-4634560f68c6.jpg" width="257" style="display:block;max-width:257px;" class="mcnImage" height="190"/>
+</a>
+</td>
+</tr>
+<tr>
+<td class="mcnTextContent" valign="top" style="padding:0 9px 0 9px;" width="264">
+Vivez l'exp&eacute;rience Freestyle &agrave; bord des navires Norwegian Cruise Line. Des croisi&egrave;res dans l'air du temps.
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody>
+</table><table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnButtonBlock">
+<tbody class="mcnButtonBlockOuter">
+<tr>
+<td style="padding-top:0; padding-right:18px; padding-bottom:18px; padding-left:18px;" valign="top" align="right" class="mcnButtonBlockInner">
+<table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnButtonContentContainer" style="border-collapse: separate !important;border-radius: 0px;background-color: #06AAEE;" bgcolor=" #06AAEE">
+<tbody>
+<tr>
+<td align="center" valign="middle" class="mcnButtonContent" style="font-family: Arial; font-size: 18px; padding: 10px;">
+<a class="mcnButton " title="Toutes les compagnies de croisi&egrave;re en un clic &#xBB;" href="http://www.promolistee.eu/c2/537933/232898091/4fc5ef332a/15" target="_blank" style="font-weight: bold;letter-spacing: 0px;line-height: 100%;text-align: center;text-decoration: none;color: #FFFFFF; border:none; text-decoration:none;">Toutes les compagnies de croisi&egrave;re en un clic »</a>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table><table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnDividerBlock" style="min-width:100%;">
+<tbody class="mcnDividerBlockOuter">
+<tr>
+<td class="mcnDividerBlockInner" style="min-width: 100%; padding: 5px 18px;">
+<table class="mcnDividerContent" border="0" cellpadding="0" cellspacing="0" width="100%" style="min-width: 100%;border-top-width: 1px;border-top-style: none;border-top-color: #999999;">
+<tbody><tr>
+<td>
+<span></span>
+</td>
+</tr>
+</tbody></table>
+<!--
+<td class="mcnDividerBlockInner" style="padding: 18px;">
+<hr class="mcnDividerContent" style="border-bottom-color:none; border-left-color:none; border-right-color:none; border-bottom-width:0; border-left-width:0; border-right-width:0; margin-top:0; margin-right:0; margin-bottom:0; margin-left:0;" />
+-->
+</td>
+</tr>
+</tbody>
+</table><table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnBoxedTextBlock" style="min-width:100% !important;">
+<!--[if gte mso 9]>
+<table align="center" border="0" cellspacing="0" cellpadding="0" width="100%">
+<![endif]-->
+<tbody class="mcnBoxedTextBlockOuter">
+<tr>
+<td valign="top" class="mcnBoxedTextBlockInner">
+<!--[if gte mso 9]>
+<td align="center" valign="top" ">
+<![endif]-->
+<table align="left" border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnBoxedTextContentContainer" style="min-width:600px; max-width:600px;">
+<tbody><tr>
+<td style="padding-top:9px; padding-left:18px; padding-bottom:9px; padding-right:18px;">
+<table border="0" cellpadding="18" cellspacing="0" class="mcnTextContentContainer" width="100%" style="min-width: 100% !important;background-color: #F2F2F2;" bgcolor=" #F2F2F2">
+<tbody><tr>
+<td valign="top" class="mcnTextContent" style="color: #666666;">
+<div style="text-align: center;"><strong style="font-size:18px; font-weight:bold">Notre &eacute;quipe est disponible gratuitement 7jours/7</strong><br />
+<span style="font-size:11px">du lundi au vendredi de 9h &agrave; 21h et le samedi et dimanche de 10h &agrave; 19h</span></div>
+<h4 style="text-align: center;">&Agrave; bient&ocirc;t sur DREAMLINES.FR</h4>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+<!--[if gte mso 9]>
+</td>
+<![endif]-->
+<!--[if gte mso 9]>
+</tr>
+</table>
+<![endif]-->
+</td>
+</tr>
+</tbody>
+</table><table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnDividerBlock" style="min-width:100%;">
+<tbody class="mcnDividerBlockOuter">
+<tr>
+<td class="mcnDividerBlockInner" style="min-width: 100%; padding: 10px 18px;">
+<table class="mcnDividerContent" border="0" cellpadding="0" cellspacing="0" width="100%" style="min-width:100%;">
+<tbody><tr>
+<td>
+<span></span>
+</td>
+</tr>
+</tbody></table>
+<!--
+<td class="mcnDividerBlockInner" style="padding: 18px;">
+<hr class="mcnDividerContent" style="border-bottom-color:none; border-left-color:none; border-right-color:none; border-bottom-width:0; border-left-width:0; border-right-width:0; margin-top:0; margin-right:0; margin-bottom:0; margin-left:0;" />
+-->
+</td>
+</tr>
+</tbody>
+</table></td>
+</tr>
+</table>
+<!-- // END BODY -->
+</td>
+</tr>
+<tr>
+<td align="center" valign="top">
+<!-- BEGIN FOOTER // -->
+<table border="0" cellpadding="0" cellspacing="0" width="600" id="templateFooter">
+<tr>
+<td valign="top" class="footerContainer" style="padding-bottom:9px;"><table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnTextBlock">
+<tbody class="mcnTextBlockOuter">
+<tr>
+<td valign="top" class="mcnTextBlockInner">
+<table align="left" border="0" cellpadding="0" cellspacing="0" width="600" class="mcnTextContentContainer">
+<tbody><tr>
+<td valign="top" class="mcnTextContent" style="padding-top:9px; padding-right: 18px; padding-bottom: 9px; padding-left: 18px;">
+<div style="text-align: center;">DREAMLINES FRANCE SAS - 37 avenue Jean M&eacute;decin 06000 Nice<br />
+Num&eacute;ro d'immatriculation : 800 172 405 R.C.S. Nice</div>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody>
+</table></td>
+</tr>
+</table>
+<!-- // END FOOTER -->
+</td>
+</tr>
+</table>
+<!-- // END TEMPLATE -->
+</td>
+</tr>
+</table>
+</center>
+<img src="http://www.promolistee.eu/assets/mpt.png" width="1" height="1" border="0" style="display:block;"/>
+</td></tr>
+</table><div id="template_footer_auto_include" ><center>
+<span style='font-size:11px;text-align:center;font-family:Arial, Helvetica, sans-serif;color:#000'><br />
+Avec Promo Listee, vous pouvez b&eacute;n&eacute;ficier d&egrave;s maintenant des bons plans et des r&eacute;ductions exclusives qui correspondent<br /> aux univers de la famille, la mode, la beaut&eacute;, la d&eacute;coration, le voyage... <br />
+<br />
+Conform&eacute;ment &agrave; la loi informatique et libert&eacute;s, vous pouvez &agrave; tout moment acc&eacute;der, faire rectifier<br />
+ou supprimer les informations personnelles vous concernant ou vous opposer &agrave; leur traitement par Promo Listee.<br />
+<br />
+Pour ne plus b&eacute;n&eacute;ficier de nos propositions commerciales, vous pouvez vous rendre sur <a href='http://www.promolistee.eu/u/537933/232898091/4fc5ef332a/fr'>cette page</a><br />
+Notez que le traitement de cette demande peut prendre jusqu'&agrave; 48 heures.<br />
+<br />
+</span>
+</center></div>
+<style type="text/css">
+.ReadMsgBody {width: 100%;}
+.ExternalClass {width: 100%;}
+.ExternalClass * {line-height: 100%;}
+span.yshortcuts { color:#000; background-color:none; border:none;}
+span.yshortcuts:hover,span.yshortcuts:active,span.yshortcuts:focus {color:#000; background-color:none; border:none;}
+body,#bodyTable,#bodyCell{height:100% !important;margin:0;padding:0;width:100% !important;}
+table{border-collapse:collapse;}
+img,a img{border:0;outline:none;text-decoration:none;}
+h1,h2,h3,h4,h5,h6{margin:0;padding:0;}
+p{margin:1em 0;padding:0;}
+a{word-wrap:break-word;}
+.ReadMsgBody{width:100%;}
+.ExternalClass{width:100%;}
+.ExternalClass,.ExternalClass p,.ExternalClass span,.ExternalClass font,.ExternalClass td,.ExternalClass div{line-height:100%;}
+table,td{mso-table-lspace:0pt;mso-table-rspace:0pt;}
+#outlook a{padding:0;}
+img{-ms-interpolation-mode:bicubic;}
+body,table,td,p,a,li,blockquote{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+#bodyCell{padding:20px;}
+.mcnImage{vertical-align:bottom;}
+.mcnTextContent img{height:auto !important;}
+/*@tab Page@section background style@tip Set the background color and top border for your email. You may want to choose colors that match your company's branding.*/body,#bodyTable{/*@editable*/background-color:#ffffff;}
+/*@tab Page@section background style@tip Set the background color and top border for your email. You may want to choose colors that match your company's branding.*/#bodyCell{/*@editable*/border-top:0;}
+/*@tab Page@section email border@tip Set the border for your email.*/#templateContainer{/*@editable*/border:0;}
+/*@tab Page@section heading 1@tip Set the styling for all first-level headings in your emails. These should be the largest of your headings.@style heading 1*/h1{/*@editable*/color:#b1b3b4 !important;display:block;/*@editable*/font-family:Helvetica;/*@editable*/font-size:26px;/*@editable*/font-style:normal;/*@editable*/font-weight:bold;/*@editable*/line-height:100%;/*@editable*/letter-spacing:normal;margin:0;/*@editable*/text-align:left;}
+/*@tab Page@section heading 2@tip Set the styling for all second-level headings in your emails.@style heading 2*/h2{/*@editable*/color:#666666 !important;display:block;/*@editable*/font-family:Helvetica;/*@editable*/font-size:18px;/*@editable*/font-style:normal;/*@editable*/font-weight:normal;/*@editable*/line-height:200%;/*@editable*/letter-spacing:0px;margin:0;/*@editable*/text-align:left;}
+/*@tab Page@section heading 3@tip Set the styling for all third-level headings in your emails.@style heading 3*/h3{/*@editable*/color:#666666 !important;display:block;/*@editable*/font-family:Helvetica;/*@editable*/font-size:16px;/*@editable*/font-style:normal;/*@editable*/font-weight:bold;/*@editable*/line-height:100%;/*@editable*/letter-spacing:-.5px;margin:0;/*@editable*/text-align:left;}
+/*@tab Page@section heading 4@tip Set the styling for all fourth-level headings in your emails. These should be the smallest of your headings.@style heading 4*/h4{/*@editable*/color:#666666 !important;display:block;/*@editable*/font-family:Helvetica;/*@editable*/font-size:30px;/*@editable*/font-style:normal;/*@editable*/font-weight:bold;/*@editable*/line-height:100%;/*@editable*/letter-spacing:normal;margin:0;/*@editable*/text-align:left;}
+/*@tab Preheader@section preheader style@tip Set the background color and borders for your email's preheader area.*/#templatePreheader{/*@editable*/background-color:#ffffff;/*@editable*/border-top:0;/*@editable*/border-bottom:0;}
+/*@tab Preheader@section preheader text@tip Set the styling for your email's preheader text. Choose a size and color that is easy to read.*/.preheaderContainer .mcnTextContent,.preheaderContainer .mcnTextContent p{/*@editable*/color:#aaaaaa;/*@editable*/font-family:Helvetica;/*@editable*/font-size:12px;/*@editable*/line-height:125%;/*@editable*/text-align:left;}
+/*@tab Preheader@section preheader link@tip Set the styling for your email's header links. Choose a color that helps them stand out from your text.*/.preheaderContainer .mcnTextContent a{/*@editable*/color:#606060;/*@editable*/font-weight:normal;/*@editable*/text-decoration:underline;}
+/*@tab Header@section header style@tip Set the background color and borders for your email's header area.*/#templateHeader{/*@editable*/background-color:#FFFFFF;/*@editable*/border-top:0;/*@editable*/border-bottom:0;}
+/*@tab Header@section header text@tip Set the styling for your email's header text. Choose a size and color that is easy to read.*/.headerContainer .mcnTextContent,.headerContainer .mcnTextContent p{/*@editable*/color:#606060;/*@editable*/font-family:Helvetica;/*@editable*/font-size:15px;/*@editable*/line-height:150%;/*@editable*/text-align:left;}
+/*@tab Header@section header link@tip Set the styling for your email's header links. Choose a color that helps them stand out from your text.*/.headerContainer .mcnTextContent a{/*@editable*/color:#06aaee;/*@editable*/font-weight:normal;/*@editable*/text-decoration:none;}
+/*@tab Body@section body style@tip Set the background color and borders for your email's body area.*/#templateBody{/*@editable*/background-color:#FFFFFF;/*@editable*/border-top:0;/*@editable*/border-bottom:0;}
+/*@tab Body@section body text@tip Set the styling for your email's body text. Choose a size and color that is easy to read.*/.bodyContainer .mcnTextContent,.bodyContainer .mcnTextContent p{/*@editable*/color:#666666;/*@editable*/font-family:Helvetica;/*@editable*/font-size:14px;/*@editable*/line-height:125%;/*@editable*/text-align:left;}
+/*@tab Body@section body link@tip Set the styling for your email's body links. Choose a color that helps them stand out from your text.*/.bodyContainer .mcnTextContent a{/*@editable*/color:#06aaee;/*@editable*/font-weight:normal;/*@editable*/text-decoration:none;}
+/*@tab Footer@section footer style@tip Set the background color and borders for your email's footer area.*/#templateFooter{/*@editable*/background-color:#ffffff;/*@editable*/border-top:2px solid #eeeeee;/*@editable*/border-bottom:0;}
+/*@tab Footer@section footer text@tip Set the styling for your email's footer text. Choose a size and color that is easy to read.*/.footerContainer .mcnTextContent,.footerContainer .mcnTextContent p{/*@editable*/color:#aaaaaa;/*@editable*/font-family:Helvetica;/*@editable*/font-size:11px;/*@editable*/line-height:125%;/*@editable*/text-align:left;}
+/*@tab Footer@section footer link@tip Set the styling for your email's footer links. Choose a color that helps them stand out from your text.*/.footerContainer .mcnTextContent a{/*@editable*/color:#606060;/*@editable*/font-weight:normal;/*@editable*/text-decoration:underline;}
+@media only screen and (max-width: 480px){body,table,td,p,a,li,blockquote{-webkit-text-size-adjust:none !important;}
+} @media only screen and (max-width: 480px){
+body{width:100% !important;min-width:100% !important;}
+td[id=bodyCell]{padding:10px !important;}
+table[class=mcnTextContentContainer]{width:100% !important;}
+.mcnBoxedTextContentContainer{max-width:100% !important;min-width:100% !important;width:100% !important;}
+table[class=mcpreview-image-uploader]{width:100% !important;display:none !important;}
+img[class=mcnImage]{width:100% !important;}
+table[class=mcnImageGroupContentContainer]{width:100% !important;}
+td[class=mcnImageGroupContent]{padding:9px !important;}
+td[class=mcnImageGroupBlockInner]{padding-bottom:0 !important;padding-top:0 !important;}
+tbody[class=mcnImageGroupBlockOuter]{padding-bottom:9px !important;padding-top:9px !important;}
+table[class=mcnCaptionTopContent],table[class=mcnCaptionBottomContent]{width:100% !important;}
+table[class=mcnCaptionLeftTextContentContainer],table[class=mcnCaptionRightTextContentContainer],table[class=mcnCaptionLeftImageContentContainer],table[class=mcnCaptionRightImageContentContainer],table[class=mcnImageCardLeftTextContentContainer],table[class=mcnImageCardRightTextContentContainer]{width:100% !important;}
+td[class=mcnImageCardLeftImageContent],td[class=mcnImageCardRightImageContent]{padding-right:18px !important;padding-left:18px !important;padding-bottom:0 !important;}
+td[class=mcnImageCardBottomImageContent]{padding-bottom:9px !important;}
+td[class=mcnImageCardTopImageContent]{padding-top:18px !important;}
+table[class=mcnCaptionLeftContentOuter] td[class=mcnTextContent],table[class=mcnCaptionRightContentOuter] td[class=mcnTextContent]{padding-top:9px !important;}
+td[class=mcnCaptionBlockInner] table[class=mcnCaptionTopContent]:last-child td[class=mcnTextContent]{padding-top:18px !important;}
+td[class=mcnBoxedTextContentColumn]{padding-left:18px !important;padding-right:18px !important;}
+td[class=mcnTextContent]{padding-right:18px !important;padding-left:18px !important;}
+/*@tab Mobile Styles@section template width@tip Make the template fluid for portrait or landscape view adaptability. If a fluid layout doesn't work for you, set the width to 300px instead.*/table[id=templateContainer],table[id=templatePreheader],table[id=templateHeader],table[id=templateBody],table[id=templateFooter]{/*@tab Mobile Styles@section template width@tip Make the template fluid for portrait or landscape view adaptability. If a fluid layout doesn't work for you, set the width to 300px instead.*/max-width:600px !important;/*@editable*/width:100% !important;}
+/*@tab Mobile Styles@section heading 1@tip Make the first-level headings larger in size for better readability on small screens.*/h1{/*@editable*/font-size:22px !important;/*@editable*/line-height:125% !important;}
+/*@tab Mobile Styles@section heading 2@tip Make the second-level headings larger in size for better readability on small screens.*/h2{/*@editable*/font-size:16px !important;/*@editable*/line-height:125% !important;}
+/*@tab Mobile Styles@section heading 3@tip Make the third-level headings larger in size for better readability on small screens.*/h3{/*@editable*/font-size:16px !important;/*@editable*/line-height:125% !important;}
+/*@tab Mobile Styles@section heading 4@tip Make the fourth-level headings larger in size for better readability on small screens.*/h4{/*@editable*/font-size:20px !important;/*@editable*/line-height:125% !important;}
+/*@tab Mobile Styles@section Boxed Text@tip Make the boxed text larger in size for better readability on small screens. We recommend a font size of at least 16px.*/table[class=mcnBoxedTextContentContainer] td[class=mcnTextContent],td[class=mcnBoxedTextContentContainer] td[class=mcnTextContent] p{/*@editable*/font-size:16px !important;/*@editable*/line-height:125% !important;}
+/*@tab Mobile Styles@section Preheader Visibility@tip Set the visibility of the email's preheader on small screens. You can hide it to save space.*/table[id=templatePreheader]{/*@editable*/display:block !important;}
+/*@tab Mobile Styles@section Preheader Text@tip Make the preheader text larger in size for better readability on small screens.*/td[class=preheaderContainer] td[class=mcnTextContent],td[class=preheaderContainer] td[class=mcnTextContent] p{/*@editable*/font-size:12px !important;/*@editable*/line-height:115% !important;}
+/*@tab Mobile Styles@section Header Text@tip Make the header text larger in size for better readability on small screens.*/td[class=headerContainer] td[class=mcnTextContent],td[class=headerContainer] td[class=mcnTextContent] p{/*@editable*/font-size:14px !important;/*@editable*/line-height:125% !important;}
+/*@tab Mobile Styles@section Body Text@tip Make the body text larger in size for better readability on small screens. We recommend a font size of at least 16px.*/td[class=bodyContainer] td[class=mcnTextContent],td[class=bodyContainer] td[class=mcnTextContent] p{/*@editable*/font-size:16px !important;/*@editable*/line-height:125% !important;}
+/*@tab Mobile Styles@section footer text@tip Make the body content text larger in size for better readability on small screens.*/td[class=footerContainer] td[class=mcnTextContent],td[class=footerContainer] td[class=mcnTextContent] p{/*@editable*/font-size:12px !important;/*@editable*/line-height:115% !important;}
+td[class=footerContainer] a[class=utilityLink]{display:block !important;}
+}
+</style>
+<img height="1" width="1" src="http://www.promolistee.eu/i/537933/232898091/4fc5ef332a/2"><img src="http://www.promolistee.eu/i/537933/232898091/4fc5ef332a/0" width="0" height="0" border="0" alt=""></body>
+</html>
+
+
+
+--b1_2191c68d6a721676a31b3cb78bc40a85--
+
+

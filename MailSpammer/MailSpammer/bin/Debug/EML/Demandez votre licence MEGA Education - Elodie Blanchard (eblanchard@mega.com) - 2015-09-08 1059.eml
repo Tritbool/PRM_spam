@@ -1,0 +1,494 @@
+Return-Path: <bounce-10589_HTML-82060713-17481-7218194-3961@bounce.s7.exacttarget.com>
+Received: from mailimailo.univ-rennes1.fr ([unix socket])
+	 by mailimailo.univ-rennes1.fr (Cyrus v2.3.16-Fedora-RPM-2.3.16-6.el6_2.5) with LMTPA;
+	 Tue, 08 Sep 2015 10:59:51 +0200
+X-Sieve: CMU Sieve 2.3
+Received: from vmsmtprexch.univ-rennes1.fr (vmsmtprexch.univ-rennes1.fr [129.20.128.62])
+	by mailimailo.univ-rennes1.fr (Postfix) with ESMTP id D7E1926A0BCF
+	for <resp-m2-miage@univ-rennes1.fr>; Tue,  8 Sep 2015 10:59:51 +0200 (CEST)
+Received: from mbcasexch4.Ur.local (mbcasexch4.univ-rennes1.fr [129.20.125.132])
+	by vmsmtprexch.univ-rennes1.fr (Postfix) with ESMTP id D42DC113
+	for <resp-m2-miage@univ-rennes1.fr>; Tue,  8 Sep 2015 10:59:51 +0200 (CEST)
+X-CrossPremisesHeadersFilteredBySendConnector: mbcasexch4.Ur.local
+Received: from mbcasexch1.Ur.local (2002:8114:7d81::8114:7d81) by
+ mbcasexch4.Ur.local (2002:8114:7d84::8114:7d84) with Microsoft SMTP Server
+ (TLS) id 15.0.913.22; Tue, 8 Sep 2015 10:59:45 +0200
+Received: from mailout1.univ-rennes1.fr (129.20.128.162) by
+ mbcasexch1.Ur.local (129.20.125.129) with Microsoft SMTP Server id
+ 15.0.913.22 via Frontend Transport; Tue, 8 Sep 2015 10:59:45 +0200
+Received: from localhost (vmscanmail.univ-rennes1.fr [129.20.128.134])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id D6C2060552
+	for <resp-m2-miage@univ-rennes1.fr>; Tue,  8 Sep 2015 10:59:44 +0200 (CEST)
+X-Virus-Scanned: amavisd-new at univ-rennes1.fr
+Received: from mailout1.univ-rennes1.fr ([129.20.128.162])
+	by localhost (vmscanmail.univ-rennes1.frm [129.20.128.134]) (amavisd-new, port 10026)
+	with ESMTP id bvuGMV6Ta9WF for <resp-m2-miage@univ-rennes1.fr>;
+	Tue,  8 Sep 2015 10:59:44 +0200 (CEST)
+Received: from vmmailin.univ-rennes1.fr (vmmailin.univ-rennes1.fr [129.20.128.133])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id B0145605BE
+	for <resp-m2-miage@univ-rennes1.fr>; Tue,  8 Sep 2015 10:59:44 +0200 (CEST)
+Received: from mxb1-2.relay.renater.fr (mxb1-2.relay.renater.fr [194.214.201.9])
+	by vmmailin.univ-rennes1.fr (Postfix) with ESMTP id 9B06420033
+	for <resp-m2-miage@univ-rennes1.fr>; Tue,  8 Sep 2015 10:59:44 +0200 (CEST)
+Received: from cr119.mta.exacttarget.com (cr119.mta.exacttarget.com [136.147.176.119])
+	by mxb1-2.relay.renater.fr (asm) with ESMTP id 1FBB6280091
+	for <resp-m2-miage@univ-rennes1.fr>; Tue,  8 Sep 2015 10:59:44 +0200 (CEST)
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=200608; d=mega.com;
+ h=Message-ID:Date:Subject:From:Reply-To:To:MIME-Version:Content-Type:List-Unsubscribe; i=eblanchard@mega.com;
+ bh=xD+Sm9xTLts9WY5IbGIn7PrP1F8=;
+ b=NVtpRVLREcOt4/J4Wco1bFlbXa2ziqkR+Rs7dzqpIHMF0RXadJCNTUKGkwMjDhBxFWfkLvketDYH
+   bGwJDuB4tQNgcaHFKev3RF0XFAfph9ySYK5nMwLD3/G9xNsTunL0D/g38KLLVfuDXc0HIlAovVvi
+   Z85a4bOPSCjPNgnL8t8=
+Received: by cr119.mta.exacttarget.com id htqho0163hsm for <resp-m2-miage@univ-rennes1.fr>; Tue, 8 Sep 2015 08:59:42 +0000 (envelope-from <bounce-10589_HTML-82060713-17481-7218194-3961@bounce.s7.exacttarget.com>)
+x-sender: undelivered+62412+123256091@pd25.com
+x-receiver: resp-m2-miage@univ-rennes1.fr
+Received: from orionsmtp-166.s7.exacttarget.com (172.28.29.7) by QANV1IMS01.qa.local id htqhje1l1h0u for <resp-m2-miage@univ-rennes1.fr>; Tue, 8 Sep 2015 02:58:31 -0600 (envelope-from <undelivered+62412+123256091@pd25.com>)
+Received: from localhost (localhost [127.0.0.1])
+	by orionsmtp-166.s7.exacttarget.com (Postfix) with ESMTP id 50FCFA003F
+	for <resp-m2-miage@univ-rennes1.fr>; Tue,  8 Sep 2015 08:58:31 +0000 (UTC)
+X-Virus-Scanned: amavisd-new at orionsmtp-166.s7.exacttarget.com
+Received: from orionsmtp-166.s7.exacttarget.com ([127.0.0.1])
+	by localhost (orionsmtp-166.s7.exacttarget.com [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id nvg31a-Jbo3c for <resp-m2-miage@univ-rennes1.fr>;
+	Tue,  8 Sep 2015 08:58:31 +0000 (UTC)
+Received: from [127.0.0.1] (unknown [50.97.131.115])
+	(Authenticated sender: pardot@s7)
+	by orionsmtp-166.s7.exacttarget.com (Postfix) with ESMTPSA id 23BEBA0040
+	for <resp-m2-miage@univ-rennes1.fr>; Tue,  8 Sep 2015 08:58:31 +0000 (UTC)
+Message-ID: <99165bab-e614-43a9-bd14-524064bde12d@xtgap4s7mta1153.xt.local>
+Date: Tue, 8 Sep 2015 02:59:42 -0600
+Subject: Demandez votre licence MEGA Education
+From: Elodie Blanchard <eblanchard@mega.com>
+Reply-To: <eblanchard@mega.com>
+To: <resp-m2-miage@univ-rennes1.fr>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="_=_swift_v4_1441702711_8a78922bb515304d20aa719a783c63f5_=_"
+List-Unsubscribe: <http://www2.mega.com/unsubscribe/u/62412/3009f4b3b33124db29061c958b342a9c/123256091>
+X-Report-Abuse-To: abuse@pd25.com
+x-job: 7218194_17481
+X-UCE-Status: YES
+X-UCE-Type: MCE
+X-Original-Source-IP: 136.147.176.119
+X-Bizanga: IMP - mxb1-2.relay.renater.fr
+X-Renater-SpamState: 11
+X-Renater-SpamScore: 17
+X-Renater-SpamCause: gggruggvucftvghtrhhoucdtuddrfeekgedruddvgddtlecutefuodetggdotefrucfrrhhofhhilhgvmecutffgpfetvffgtfdpggftfghnshhusghstghrihgsvgenuceurghilhhouhhtmecufedttdenucdnofetkffnkffpifculddujedmnecujfgurhepkfffuffhrhfvgggtjfesrgdtreertddtjeenucfhrhhomhepgfhlohguihgvuceulhgrnhgthhgrrhguuceovggslhgrnhgthhgrrhgusehmvghgrgdrtghomheqnecuffhomhgrihhnpehmvghgrgdrtghomh 
+X-Renater-ServerName: mxb1-2.relay.renater.fr
+X-OrganizationHeadersPreserved: mbcasexch4.Ur.local
+
+--_=_swift_v4_1441702711_8a78922bb515304d20aa719a783c63f5_=_
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Demandez votre licence MEGA Education !
+
+Bonjour Monsieur Certain,=E2=80=8B
+
+Nous avons le plaisir de vous informer de la disponibilit=C3=A9 de la licen=
+ce
+MEGA Education 2015-2016=2E Cette ann=C3=A9e, nous mettons =C3=A0 votre dis=
+position
+les 8 principaux outils de mod=C3=A9lisation MEGA, dans leur toute derni=
+=C3=A8re
+version : la plateforme logicielle HOPEX V1R3 (release de Juillet 2015)=2E
+=
+
+
+Demande de licence Education :
+http://www2=2Emega=2Ecom/e/62412/ga-education-program-2015-2016/mvlsb/12325=
+6091
+
+En tant que Partenaire Education, vous aurez librement acc=C3=A8s :
+-  A un nombre illimit=C3=A9 de licences pour vos =C3=A9tudiants
+- Aux 8 principaux outils de mod=C3=A9lisation MEGA
+- Aux Guides d'utilisation de nos produits
+- Au support technique et =C3=A0 la Communaut=C3=A9 MEGA
+
+Merci de confirmer votre demande de licence en cliquant sur le bouton
+ci-dessus ou en suivant ce lien : Formulaire de demande de licence
+Education :
+http://www2=2Emega=2Ecom/e/62412/ga-education-program-2015-2016/mvlsb/12325=
+6091
+
+Vous pourrez valider les informations vous concernant et ceci nous
+permettra d=E2=80=99enregistrer votre demande=2E Nous vous enverrons ensuit=
+e par
+email le contrat MEGA Education =C3=A0 signer et =C3=A0 nous retourner=2E
+
+D=C3=A9tail du Pack MEGA Education :
+
+La version MEGA Education HOPEX V1R3, valable jusqu'au 31 Juillet 2016,
+contient les modules suivants : 
+=E2=80=A2  MEGA Process BPMN
+=E2=80=A2  MEGA Architecture
+=E2=80=A2  MEGA System Blueprint
+=E2=80=A2  MEGA Database Builder
+=E2=80=A2  MEGA UML
+=E2=80=A2  MEGA TOGAF 9
+=E2=80=A2  HOPEX IT Portfolio Management
+=E2=80=A2  HOPEX Information Architecture
+
+ Je reste =C3=A0 votre disposition pour toute demande compl=C3=A9mentaire,
+=
+
+
+Cordialement,
+
+Elodie Blanchard
+Corporate Marketing Manager
+MEGA International - France
+
+=C2=A9 MEGA International, 1994 - 2015=2E Tous droits r=C3=A9serv=C3=A9s=2E=
+
+
+Vos pr=C3=A9f=C3=A9rences email chez MEGA :
+http://www2=2Emega=2Ecom/vos-preferences-email?ehash=3D3009f4b3b33124db2906=
+1c958b342a9c&email_id=3D123256091
+
+Contactez-nous :
+http://www2=2Emega=2Ecom/e/62412/fr-contact-contactez-nous/mvlsd/123256091
+=
+
+
+
+--_=_swift_v4_1441702711_8a78922bb515304d20aa719a783c63f5_=_
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4=2E01 Transitional//EN" "http://ww=
+w=2Ew3=2Eorg/TR/html4/loose=2Edtd">
+
+<html lang=3D"fr">
+<head>
+    <meta content=3D"text/html; charset=3Dutf-8" http-equiv=3D"Content-Type=
+">
+    <meta content=3D"initial-scale=3D1=2E0" name=3D"viewport"><!-- So that =
+mobile webkit will display zoomed in -->
+    <meta content=3D"telephone=3Dno" name=3D"format-detection"><!-- disable=
+ auto telephone linking in iOS -->
+
+    <title>Mega International - MEGA Education Program</title>
+
+    
+
+    <style type=3D"text/css">
+
+    /* Resets: see reset=2Ecss for details */
+    =2EReadMsgBody { width: 100%; background-color: #ebebeb;}
+    =2EExternalClass {width: 100%; background-color: #ebebeb;}
+    =2EExternalClass, =2EExternalClass p, =2EExternalClass span, =2EExterna=
+lClass font, =2EExternalClass td, =2EExternalClass div {line-height:100%;}
+=
+
+    body {-webkit-text-size-adjust:none; -ms-text-size-adjust:none;}
+    body {margin:0; padding:0;}
+    table {border-spacing:0;}
+    table td {border-collapse:collapse;}
+    =2Eyshortcuts a {border-bottom: none !important;}
+
+    </style>
+</head>
+
+<body bgcolor=3D"#ebebeb" style=3D"margin:0; padding:10px 0;">
+<!-- 100% wrapper (grey background) -->
+
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"background=
+-color: #ebebeb; width: 100%;" width=3D"600">
+	<tbody>
+		<tr>
+		  
+	  </tr>
+		<tr>
+			<td align=3D"center" style=3D"background-color: #ebebeb;" valign=3D"top"=
+><!-- 600px container (white background) -->
+			<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"contain=
+er" style=3D"background-color: #ffffff; width: 600px;" width=3D"600">
+				<tbody>
+					<tr>
+					  <td class=3D"" bgcolor=3D"#ebebeb" align=3D"right" style=3D"padding:=
+10px"><font style=3D"font-family:Arial, Helvetica, sans-serif; font-size:11=
+px; color:#3a3a3a"><a href=3D"http://www2=2Emega=2Ecom/webmail/62412/123256=
+091/3009f4b3b33124db29061c958b342a9c" style=3D"color: #3a3a3a; text-decorat=
+ion: underline;font-weight:bold;">Voir cet email en ligne</a></font></td>
+				  </tr>
+					<tr>
+						<td class=3D"" bgcolor=3D"#ebebeb" pardot-region=3D"" pardot-data=3D"=
+" style=3D"background: rgb(235, 235, 235);"><a href=3D"http://www2=2Emega=
+=2Ecom/e/62412/ga-education-program-2015-2016/mvlsb/123256091" target=3D"_b=
+lank"><img alt=3D"Les 8 principaux outils de mod=C3=A9lisation MEGA" border=
+=3D"0" height=3D"120" src=3D"http://www2=2Emega=2Ecom/l/62412/2015-07-20/j9=
+dby/62412/51204/CORP_Banner_Education_2015=2Ejpg" style=3D"width: 600px; he=
+ight: 120px; border-width: 0px; border-style: solid;" width=3D"600"></a></t=
+d>
+					</tr>
+					<tr>
+						<td bgcolor=3D"#FFFFFF" style=3D"padding:30px" align=3D"left"><font p=
+ardot-region=3D" " style=3D"font-family:Arial, Helvetica, sans-serif; font-=
+size:24px; color:#3a3a3a; font-weight:bold" class=3D"">Demandez votre licen=
+ce&nbsp;MEGA Education !</font><br><br>
+                                               
+                        <table width=3D"540" border=3D"0" cellspacing=3D"0"=
+ cellpadding=3D"0" style=3D"border-bottom:10px solid #ffffff">
+  <tbody><tr>
+    <td pardot-region=3D" " class=3D""><font style=3D"font-family:Arial, He=
+lvetica, sans-serif; font-size:15px; color:#3a3a3a">Bonjour Monsieur Certai=
+n,=E2=80=8B</font><br>
+<br>
+<font style=3D"font-family:Arial, Helvetica, sans-serif; font-size:13px; co=
+lor:#3a3a3a">Nous avons le plaisir de vous informer de la disponibilit=
+=C3=A9 de la licence MEGA Education 2015-2016=2E Cette ann=C3=A9e, nous met=
+tons =C3=A0 votre disposition les <b>8 principaux outils de mod=C3=A9lisati=
+on MEGA</b>, dans leur toute derni=C3=A8re version : la plateforme logiciel=
+le <b>HOPEX V1R3</b> (release de Juillet 2015)=2E</font></td>
+    <td pardot-region=3D" " valign=3D"top" class=3D""><a href=3D"http://www=
+2=2Emega=2Ecom/e/62412/ga-education-program-2015-2016/mvlsb/123256091" targ=
+et=3D"_blank"><img alt=3D"MEGA Education Program" height=3D"122" src=3D"htt=
+p://www2=2Emega=2Ecom/l/62412/2015-07-21/jcws7/62412/51364/CORP_Logo_MEGA_E=
+ducation_Program_130x122=2Ejpg" width=3D"130"></a></td>
+  </tr>
+</tbody></table><br>
+
+
+<table bgcolor=3D"#ae3361" width=3D"320" border=3D"0" cellspacing=3D"0" cel=
+lpadding=3D"10" align=3D"left">
+								    <tbody><tr>
+								      <td pardot-region=3D"" style=3D"font-weight: bold; color: rgb=
+(255, 255, 255); font-family: Arial, Helvetica, sans-serif; font-size: 19px=
+; background: rgb(174, 51, 97);" align=3D"center" class=3D"" pardot-data=3D=
+""><a href=3D"http://www2=2Emega=2Ecom/e/62412/ga-education-program-2015-20=
+16/mvlsb/123256091" style=3D"display:block; text-decoration:none; color:#FF=
+F" target=3D"_blank">Demande de licence Education</a></td>
+							        </tr>
+					      </tbody></table>
+                        
+
+<br><br>&nbsp;
+
+<p> 
+<font pardot-region=3D" " style=3D"font-family:Arial, Helvetica, sans-serif=
+; font-size:16px; color:#2c425a; font-weight:bold">En tant que Partenaire E=
+ducation, vous aurez librement acc=C3=A8s :</font></p>
+<table width=3D"540" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=
+=3D"border-top:1px solid #ebebeb ; border-bottom:1px solid #ebebeb">
+  <tbody><tr>
+    <td pardot-region=3D" "><img src=3D"http://www2=2Emega=2Ecom/l/62412/20=
+15-07-20/j9ddy/62412/51208/CORP_Picture_Picto_Etudiants_2015=2Ejpg" alt=3D"=
+Nombre illimit=C3=A9 de licences" width=3D"135" height=3D"80">
+    </td>
+    <td pardot-region=3D" "><img src=3D"http://www2=2Emega=2Ecom/l/62412/20=
+15-07-20/j9df3/62412/51210/CORP_Picture_Picto_Outils_2015=2Ejpg" alt=3D"8 O=
+utils" width=3D"135" height=3D"80"></td>
+    <td pardot-region=3D" "><img src=3D"http://www2=2Emega=2Ecom/l/62412/20=
+15-07-20/j9df5/62412/51212/CORP_Picture_Picto_Guides_2015=2Ejpg" alt=3D"Gui=
+des d'utilisation" width=3D"135" height=3D"80"></td>
+    <td pardot-region=3D" "><img src=3D"http://www2=2Emega=2Ecom/l/62412/20=
+15-07-20/j9df1/62412/51206/CORP_Picture_Picto_Support_2015=2Ejpg" alt=3D"Su=
+pport Technique et Communaut=C3=A9" width=3D"135" height=3D"80"></td>
+  </tr>
+  <tr>
+    <td pardot-region=3D" " align=3D"center" valign=3D"top" style=3D"border=
+-left:7px solid #ffffff; border-right:7px solid #ffffff;"><font style=3D"fo=
+nt-family:Arial, Helvetica, sans-serif; font-size:12px; color:#3a3a3a"> A u=
+n nombre illimit=C3=A9 de licences pour vos =C3=A9tudiants</font><br><img a=
+lt=3D"" src=3D"http://www2=2Emega=2Ecom/l/62412/2015-01-06/3d3c/62412/8600/=
+blind=2Egif" style=3D"display:block;" height=3D"7" width=3D"120"></td>
+    <td pardot-region=3D" " align=3D"center" valign=3D"top" style=3D"border=
+-left:7px solid #ffffff; border-right:7px solid #ffffff;"><font style=3D"fo=
+nt-family:Arial, Helvetica, sans-serif; font-size:12px; color:#3a3a3a">Aux =
+8 principaux outils de mod=C3=A9lisation MEGA</font><br><img alt=3D"" src=
+=3D"http://www2=2Emega=2Ecom/l/62412/2015-01-06/3d3c/62412/8600/blind=2Egif=
+" style=3D"display:block;" height=3D"7" width=3D"120"></td>
+    <td pardot-region=3D" " align=3D"center" valign=3D"top" style=3D"border=
+-left:7px solid #ffffff; border-right:7px solid #ffffff;"><font style=3D"fo=
+nt-family:Arial, Helvetica, sans-serif; font-size:12px; color:#3a3a3a">Aux =
+Guides d'utilisation de nos produits</font><br><img alt=3D"" src=3D"http://=
+www2=2Emega=2Ecom/l/62412/2015-01-06/3d3c/62412/8600/blind=2Egif" style=3D"=
+display:block;" height=3D"7" width=3D"120"></td>
+    <td pardot-region=3D" " align=3D"center" valign=3D"top" style=3D"border=
+-left:7px solid #ffffff; border-right:7px solid #ffffff;"><font style=3D"fo=
+nt-family:Arial, Helvetica, sans-serif; font-size:12px; color:#3a3a3a">Au s=
+upport technique et =C3=A0 la Communaut=C3=A9 MEGA</font><br><img alt=3D"" =
+src=3D"http://www2=2Emega=2Ecom/l/62412/2015-01-06/3d3c/62412/8600/blind=2E=
+gif" style=3D"display:block;" height=3D"7" width=3D"120"></td>
+  </tr>
+  </tbody></table>
+<br><br>
+
+                        
+
+
+<font pardot-region=3D" " style=3D"font-family:Arial, Helvetica, sans-serif=
+; font-size:13px; color:#3a3a3a" class=3D"">Merci de confirmer votre demand=
+e de licence en cliquant sur le bouton ci-dessus ou en suivant ce lien : <a=
+ href=3D"http://www2=2Emega=2Ecom/e/62412/ga-education-program-2015-2016/mv=
+lsb/123256091" target=3D"_blank">Formulaire de demande de licence Education=
+</a>=2E<br>
+<br>
+Vous pourrez valider les informations vous concernant et ceci nous permettr=
+a d=E2=80=99enregistrer votre demande=2E Nous vous enverrons ensuite par em=
+ail le contrat MEGA Education =C3=A0 signer et =C3=A0 nous retourner=2E</fo=
+nt><br><br><br>
+
+<font pardot-region=3D" " style=3D"font-family:Arial, Helvetica, sans-serif=
+; font-size:16px; color:#2c425a; font-weight:bold">D=C3=A9tail du Pack MEGA=
+ Education :</font><br>
+<br>
+
+
+
+<table width=3D"540" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" bgcol=
+or=3D"#ebebeb">
+  <tbody><tr>
+    <td pardot-region=3D" " colspan=3D"2" style=3D"border-top: 20px solid #=
+ebebeb;border-left: 20px solid #ebebeb;border-right: 20px solid #ebebeb"><f=
+ont style=3D"font-family:Arial, Helvetica, sans-serif; font-size:13px; colo=
+r:#3a3a3a">La version <b>MEGA Education HOPEX V1R3</b>, valable jusqu'au 31=
+ Juillet 2016, contient les modules suivants : </font><br><br></td>
+    </tr>
+  <tr>
+    <td pardot-region=3D" " style=3D"border-left: 20px solid #ebebeb;border=
+-bottom: 20px solid #ebebeb"><font style=3D"font-family:Arial, Helvetica, s=
+ans-serif; font-size:13px; color:#3a3a3a">=E2=80=A2 &nbsp;<a target=3D"_bla=
+nk" href=3D"http://www2=2Emega=2Ecom/e/62412/roduit-mega-process-bpmn-hopex=
+/mvlsg/123256091" style=3D"color:#3a3a3a">MEGA Process BPMN</a><br>
+          =E2=80=A2 &nbsp;<a target=3D"_blank" href=3D"http://www2=2Emega=
+=2Ecom/e/62412/roduit-mega-architecture-hopex/mvlsj/123256091" style=3D"col=
+or:#3a3a3a">MEGA Architecture</a><br>
+          =E2=80=A2 &nbsp;<a target=3D"_blank" href=3D"http://www2=2Emega=
+=2Ecom/e/62412/it-mega-system-blueprint-hopex/mvlsl/123256091" style=3D"col=
+or:#3a3a3a">MEGA System Blueprint</a><br>
+          =E2=80=A2 &nbsp;<a target=3D"_blank" href=3D"http://www2=2Emega=
+=2Ecom/e/62412/it-mega-database-builder-hopex/mvlsn/123256091" style=3D"col=
+or:#3a3a3a">MEGA Database Builder</a></font></td>
+    <td pardot-region=3D" " style=3D"border-bottom: 20px solid #ebebeb; bor=
+der-right: 20px solid #ebebeb"><font style=3D"font-family:Arial, Helvetica,=
+ sans-serif; font-size:13px; color:#3a3a3a">
+          =E2=80=A2 &nbsp;<a target=3D"_blank" href=3D"http://www2=2Emega=
+=2Ecom/e/62412/fr-produit-mega-uml-hopex/mvlsq/123256091" style=3D"color:#3=
+a3a3a">MEGA UML</a><br>
+          =E2=80=A2 &nbsp;<a target=3D"_blank" href=3D"http://www2=2Emega=
+=2Ecom/e/62412/fr-produit-mega-togaf-9-hopex/mvlss/123256091" style=3D"colo=
+r:#3a3a3a">MEGA TOGAF 9</a><br>
+          =E2=80=A2 &nbsp;<a target=3D"_blank" href=3D"http://www2=2Emega=
+=2Ecom/e/62412/-hopex-it-portfolio-management/mvlsv/123256091" style=3D"col=
+or:#3a3a3a">HOPEX IT Portfolio Management</a><br>
+          =E2=80=A2 &nbsp;<a target=3D"_blank" href=3D"http://www2=2Emega=
+=2Ecom/e/62412/hopex-information-architecture/mvlsx/123256091" style=3D"col=
+or:#3a3a3a">HOPEX Information Architecture</a>
+</font></td>
+  </tr>
+</tbody></table>
+
+<br><br>
+ <font pardot-region=3D" " style=3D"font-family:Arial, Helvetica, sans-seri=
+f; font-size:13px; color:#3a3a3a" class=3D"">Je reste =C3=A0 votre disposit=
+ion pour toute demande compl=C3=A9mentaire,<br>
+<br>
+Cordialement,</font><br><br>
+ 
+<font pardot-region=3D" " style=3D" font-family:Arial, Helvetica, sans-seri=
+f;font-size:13px; font-weight:bold; color:#3a3a3a">Elodie Blanchard</font><=
+br>
+<font pardot-region=3D" " style=3D"font-family:Arial, Helvetica, sans-serif=
+; font-size:12px; color:#3a3a3a">Corporate Marketing Manager<br>
+MEGA International - France<br><br></font>
+ 
+ 
+
+                        
+                    
+                        
+						
+						</td>
+					</tr>
+					<tr>
+						<td align=3D"left" bgcolor=3D"#2c425a" class=3D"container-padding" st=
+yle=3D"padding-left: 45px; padding-right: 45px;">
+						<table align=3D"left" border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" style=3D"padding-bottom: 10px; padding-top: 10px;">
+							<tbody>
+								<tr>
+									<td align=3D"left" style=3D"padding-right: 20px;" valign=3D"middle=
+"><div style=3D"background-color: #2c425a; color: #ffffff; font-family: Ari=
+al, sans-serif; font-size: 19px; font-weight: bold; line-height: 20px; posi=
+tion: relative;">Suivez-nous</div></td>
+									<td align=3D"left" style=3D"padding-right: 20px;" valign=3D"top"><=
+a href=3D"http://www2=2Emega=2Ecom/e/62412/twitter/mvlsz/123256091"><img al=
+t=3D"Twitter" border=3D"0" pardot-region=3D"social-twitter" src=3D"http://w=
+ww2=2Emega=2Ecom/l/62412/2014-12-12/246h/62412/5310/twit=2Epng" style=3D"di=
+splay: block; border: 0 none;"></a></td>
+									<td align=3D"left" style=3D"padding-right: 20px;" valign=3D"top"><=
+a href=3D"http://www2=2Emega=2Ecom/e/62412/linkedin/mvlt2/123256091"><img a=
+lt=3D"LinkedIn" border=3D"0" pardot-region=3D"social-linkedin" src=3D"http:=
+//www2=2Emega=2Ecom/l/62412/2014-12-12/246f/62412/5308/linkedin=2Epng" styl=
+e=3D"display: block; border: 0 none;"></a></td>
+									<td align=3D"left" style=3D"padding-right: 20px;" valign=3D"top"><=
+a href=3D"http://www2=2Emega=2Ecom/e/62412/youtube/mvlt4/123256091"><img al=
+t=3D"YouTube" border=3D"0" pardot-region=3D"social-youtube" src=3D"http://w=
+ww2=2Emega=2Ecom/l/62412/2014-12-12/246m/62412/5314/ytube=2Epng" style=3D"d=
+isplay: block; border: 0 none;"></a></td>
+									<td align=3D"left" style=3D"padding-right: 20px;" valign=3D"top"><=
+a href=3D"http://www2=2Emega=2Ecom/e/62412/slideshare/mvlt6/123256091"><img=
+ alt=3D"SlideShare" border=3D"0" pardot-region=3D"social-slideshare" src=3D=
+"http://www2=2Emega=2Ecom/l/62412/2014-12-12/246c/62412/5306/robot=2Epng" s=
+tyle=3D"display: block; border: 0 none;"></a></td>
+									<td align=3D"left" style=3D"padding-right: 20px;" valign=3D"top"><=
+a href=3D"http://www2=2Emega=2Ecom/e/62412/2015-09-08/mvlt8/123256091"><img=
+ alt=3D"Community" border=3D"0" pardot-region=3D"social-community" src=3D"h=
+ttp://www2=2Emega=2Ecom/l/62412/2014-12-12/246k/62412/5312/wheel=2Epng" sty=
+le=3D"display: block; border: 0 none;"> </a></td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+					<tr>
+						<td align=3D"left" bgcolor=3D"#494949" class=3D"container-padding" st=
+yle=3D"padding-left: 45px; padding-right: 45px;">
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"padd=
+ing-bottom: 10px; padding-top: 10px;">
+							<tbody>
+								<tr>
+									<td align=3D"left" width=3D"100%">
+									<div pardot-region=3D"footer" style=3D"font-size: 10px; line-heigh=
+t: 18px; font-family: Arial, sans-serif; position: relative; color:#FFFFFF;=
+background-color: #494949" class=3D"">=C2=A9 MEGA International, 1994 - 201=
+5=2E Tous droits r=C3=A9serv=C3=A9s=2E<br>
+<a href=3D"http://www2=2Emega=2Ecom/e/62412/fr-site-mentions-legales/mvltb/=
+123256091" style=3D"color: #ffffff; text-decoration: underline;">Mentions l=
+=C3=A9gales</a> &nbsp;|&nbsp; <a href=3D"http://www2=2Emega=2Ecom/e/62412/f=
+r-site-privacy-policy/mvltd/123256091" style=3D"color: #ffffff; text-decora=
+tion: underline;">Confidentialit=C3=A9</a> &nbsp;|&nbsp; <a href=3D"http://=
+www2=2Emega=2Ecom/vos-preferences-email?ehash=3D3009f4b3b33124db29061c958b3=
+42a9c&email_id=3D123256091" style=3D" color: #ffffff;">Vos pr=C3=A9f=C3=A9r=
+ences email chez MEGA</a> &nbsp;|&nbsp; <a href=3D"http://www2=2Emega=2Ecom=
+/e/62412/fr-contact-contactez-nous/mvlsd/123256091" style=3D"color: #ffffff=
+; text-decoration: underline;">Contactez-nous</a></div>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+					<!-- MAIN CONTENT --><!-- SubFooter -->
+				</tbody>
+			</table>
+			<!--/800px container --></td>
+		</tr>
+	</tbody>
+</table>
+<!--/100% wrapper-->
+<img alt=3D"" src=3D"http://www2=2Emega=2Ecom/r/62412/1/123256091/open/1" /=
+><style>@media print{ #_t { background-image: url('https://6zvaa3ag=2Eemltr=
+k=2Ecom/6zvaa3ag?p');}} div=2EOutlookMessageHeader {background-image:url('h=
+ttps://6zvaa3ag=2Eemltrk=2Ecom/6zvaa3ag?f')} table=2Emoz-email-headers-tabl=
+e {background-image:url('https://6zvaa3ag=2Eemltrk=2Ecom/6zvaa3ag?f')} bloc=
+kquote #_t {background-image:url('https://6zvaa3ag=2Eemltrk=2Ecom/6zvaa3ag?=
+f')} #MailContainerBody #_t {background-image:url('https://6zvaa3ag=2Eemltr=
+k=2Ecom/6zvaa3ag?f')}</style><div id=3D"_t"></div>
+<img src=3D"https://6zvaa3ag=2Eemltrk=2Ecom/6zvaa3ag" width=3D"1" height=3D=
+"1" border=3D"0" /></body>
+</html>
+
+--_=_swift_v4_1441702711_8a78922bb515304d20aa719a783c63f5_=_--

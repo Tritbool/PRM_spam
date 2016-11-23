@@ -1,0 +1,612 @@
+Return-Path: <return-a18-3062-3070-resp-m2-miage=univ-rennes1.fr=4@assurance-facile.com>
+Received: from mailimailo.univ-rennes1.fr ([unix socket])
+	 by mailimailo.univ-rennes1.fr (Cyrus v2.3.16-Fedora-RPM-2.3.16-6.el6_2.5) with LMTPA;
+	 Sun, 14 Feb 2016 06:19:04 +0100
+X-Sieve: CMU Sieve 2.3
+Received: from mailout1.univ-rennes1.fr (mailout1.univ-rennes1.fr [129.20.128.162])
+	by mailimailo.univ-rennes1.fr (Postfix) with ESMTP id 58BDC26A0CDF
+	for <resp-m2-miage@univ-rennes1.fr>; Sun, 14 Feb 2016 06:19:04 +0100 (CET)
+Received: from localhost (vmscanmail.univ-rennes1.fr [129.20.128.134])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id 557B260035
+	for <resp-m2-miage@univ-rennes1.fr>; Sun, 14 Feb 2016 06:19:04 +0100 (CET)
+X-Virus-Scanned: amavisd-new at univ-rennes1.fr
+Received: from mailout1.univ-rennes1.fr ([129.20.128.162])
+	by localhost (vmscanmail.univ-rennes1.frm [129.20.128.134]) (amavisd-new, port 10026)
+	with ESMTP id LyLdInJCXqwu for <resp-m2-miage@univ-rennes1.fr>;
+	Sun, 14 Feb 2016 06:19:04 +0100 (CET)
+Received: from vmmailin.univ-rennes1.fr (vmmailin.univ-rennes1.fr [129.20.128.133])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id 2E61E60006
+	for <resp-m2-miage@univ-rennes1.fr>; Sun, 14 Feb 2016 06:19:04 +0100 (CET)
+Received: from mxb1-2.relay.renater.fr (mxb1-2.relay.renater.fr [194.214.201.9])
+	by vmmailin.univ-rennes1.fr (Postfix) with ESMTP id 2762420033
+	for <resp-m2-miage@univ-rennes1.fr>; Sun, 14 Feb 2016 06:19:04 +0100 (CET)
+Received: from smtp1-19.revue-en-ligne.com (smtp1-19.revue-en-ligne.com [5.196.210.146])
+	by mxb1-2.relay.renater.fr (asm) with SMTP id E342F28004C
+	for <resp-m2-miage@univ-rennes1.fr>; Sun, 14 Feb 2016 06:19:03 +0100 (CET)
+Received: (GreenArrow 1303 invoked by uid 410); 14 Feb 2016 05:19:03 -0000
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed;
+	d=assurance-facile.com; s=default; h=Subject:From:To:Date:
+	List-Unsubscribe:Message-ID:MIME-Version:Content-Type; bh=XzukhM
+	RBAtQ7CHHqtmHif/QTExc=; b=fcSTqRW4klogBqsfviBlbDPvdbt4RBelU8GSiH
+	9v8VjBkQvUDPRLQZynPb8q5q2UkE68oRu9unPOk8HQkn1MYfvu6yRJiCWhhp9isR
+	izgVMx1H5sXGCHHkUuzVwofpuIUyDrgvppTt0vDMtNngFyoR0bPvHA6dUfdFmRJ3
+	EaQQI=
+Subject: =?UTF-8?Q?R=C3=A9alisez=20un=20investissement=20locatif=20s?=
+ =?UTF-8?Q?=C3=BBr=20et=20rentable?=
+From: "Pierre & Vacances Conseil Immobilier" <news@assurance-facile.com>
+To: resp-m2-miage@univ-rennes1.fr
+Date: 14 Feb 2016 05:19:03 -0000
+List-Unsubscribe: <http://assurance-facile.com/ga/unsubscribe/2-11527895-18-1588-3070-ed35df89ef15825-2c836da95e>,
+ <mailto:return-a18-3062-3070-resp-m2-miage=univ-rennes1.fr=4u@assurance-facile.com>
+X-Mailer: GreenArrow Studio (v4.65.0)
+X-CampaignID: s4:3062-49b7461bf7a9d4fd
+Message-ID: <mid-10f24ecc404e582bfd1e067ab3a7a198@assurance-facile.com>
+X-Mailer-Info: 4.hFDO.wMwYjM.IXZzBXLtJTLtlWYnVGQ15Wa21icl5mblNXMuYmc.wMwcDM
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="==a432d92fc3c0fc06bf8741548656f2b4"
+X-UCE-Status: YES
+X-UCE-Type: MCE
+X-Original-Source-IP: 5.196.210.146
+X-Bizanga: IMP - mxb1-2.relay.renater.fr
+X-Renater-SpamState: 11
+X-Renater-SpamScore: 17
+X-Renater-SpamCause: gggruggvucftvghtrhhoucdtuddrfeekjedrfeekgddvgeduucetufdoteggodetrfdotffvucfrrhhofhhilhgvmecutffgpfetvffgtfdpggftfghnshhusghstghrihgsvgenuceurghilhhouhhtmecufedttdenucdnofetkffnkffpifculddujedmnecujfgurhepuffhvfffjffokfggtgesrgdtreerredtjeenucfhrhhomhepfdfrihgvrhhrvgcujdcugggrtggrnhgtvghsucevohhnshgvihhlucfkmhhmohgsihhlihgvrhdfuceonhgvfihssegrshhsuhhrrghntggvqdhfrggtihhlvgdrtghomheqnecuffhomhgrihhnpegrshhsuhhrrghntggvqdhfrggtihhlvgdrtghomhenucfrrghrrghmpehmohguvgepshhmthhppdhhvghlohepshhmthhpuddqudelrdhrvghvuhgvqdgvnhdqlhhighhnvgdrtghomhdpihhnvghtpeehrdduleeirddvuddtrddugeeipdhmrghilhhfrhhomheprhgvthhurhhnqdgrudekqdeftdeivddqfedtjedtqdhrvghsphdqmhdvqdhmihgrghgvpehunhhivhdqrhgvnhhnvghsuddrfhhrpeegsegrshhsuhhrrghntggvqdhfrggtihhlvgdrtghomhdprhgtphhtthhopehrvghsphdqmhdvqdhmihgrghgvsehunhhivhdqrhgvnhhnvghsuddrfhhr 
+X-Renater-ServerName: mxb1-2.relay.renater.fr
+
+This is a multi-part message in MIME format.
+
+--==a432d92fc3c0fc06bf8741548656f2b4
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Groupe Pierre & Vacances Center Parcs Conseil Immobilier
+Plus d'informations ( http://assurance-facile.com/ga/click/2-11527895-18-15=
+88-3070-22112-d35cd7e05e-2c836da95e )
+
+D=C3=A9couvrez l'immobilier locatif avec le Groupe Pierre &
+Vacances-Center Parcs.
+
+Tous les =C3=A9l=C3=A9ments sont r=C3=A9unis pour vous garantir un
+investissement s=C3=BBr et rentable : ( http://assurance-facile.com/ga/clic=
+k/2-11527895-18-1588-3070-22112-d35cd7e05e-2c836da95e )
+
+( http://assurance-facile.com/ga/click/2-11527895-18-1588-3070-22113-cc3fc1=
+2b30-2c836da95e )
+Patrimoine de qualit=C3=A9 ( http://assurance-facile.com/ga/click/2-1152789=
+5-18-1588-3070-22112-d35cd7e05e-2c836da95e )
+
+( http://assurance-facile.com/ga/click/2-11527895-18-1588-3070-22113-cc3fc1=
+2b30-2c836da95e )
+Emplacements d'exception ( http://assurance-facile.com/ga/click/2-11527895-=
+18-1588-3070-22112-d35cd7e05e-2c836da95e )
+
+( http://assurance-facile.com/ga/click/2-11527895-18-1588-3070-22112-d35cd7=
+e05e-2c836da95e )
+Compl=C3=A9ment de revenu ( http://assurance-facile.com/ga/click/2-11527895=
+-18-1588-3070-22112-d35cd7e05e-2c836da95e )
+
+( http://assurance-facile.com/ga/click/2-11527895-18-1588-3070-22112-d35cd7=
+e05e-2c836da95e )
+
+( http://assurance-facile.com/ga/click/2-11527895-18-1588-3070-22112-d35cd7=
+e05e-2c836da95e )
+
+Pierre & Vacances-Center Parcs vous accompagne tout au long de
+votre projet. ( http://assurance-facile.com/ga/click/2-11527895-18-1588-307=
+0-22112-d35cd7e05e-2c836da95e )
+
+Le Groupe propose une large gamme de biens immobiliers
+situ=C3=A9s dans les plus belles r=C3=A9gions de France et d'Europe. ( http=
+://assurance-facile.com/ga/click/2-11527895-18-1588-3070-22112-d35cd7e05e-2=
+c836da95e )
+
+( http://assurance-facile.com/ga/click/2-11527895-18-1588-3070-22112-d35cd7=
+e05e-2c836da95e )
+( http://assurance-facile.com/ga/click/2-11527895-18-1588-3070-22112-d35cd7=
+e05e-2c836da95e )
+
+Loyers s=C3=A9curis=C3=A9s(1) ( http://assurance-facile.com/ga/click/2-1152=
+7895-18-1588-3070-22112-d35cd7e05e-2c836da95e )
+Fiscalit=C3=A9 avantageuse ( http://assurance-facile.com/ga/click/2-1152789=
+5-18-1588-3070-22112-d35cd7e05e-2c836da95e )
+
+( http://assurance-facile.com/ga/click/2-11527895-18-1588-3070-22112-d35cd7=
+e05e-2c836da95e )
+( http://assurance-facile.com/ga/click/2-11527895-18-1588-3070-22112-d35cd7=
+e05e-2c836da95e )
+
+Aucun souci de gestion(2) ( http://assurance-facile.com/ga/click/2-11527895=
+-18-1588-3070-22114-774221a233-2c836da95e )
+TVA rembours=C3=A9e(3) ( http://assurance-facile.com/ga/click/2-11527895-18=
+-1588-3070-22112-d35cd7e05e-2c836da95e )
+
+Je d=C3=A9couvre
+
+Je d=C3=A9couvre ( http://assurance-facile.com/ga/click/2-11527895-18-1588-=
+3070-22112-d35cd7e05e-2c836da95e )
+
+(1) Pendant toute la dur=C3=A9e du bail. En tant que
+locataire unique, le Groupe Pierre & Vacances- Center Parcs vous
+assure un revenu, que votre bien soit lou=C3=A9 ou non.
+
+(2) Pleinement propri=C3=A9taire, vous confiez au Groupe
+Pierre & Vacances - Center Parcs la gestion de votre bien. Vous
+profitez de votre placement immobilier en toute s=C3=A9curit=C3=A9, sans
+souci de gestion.
+
+(3) Le remboursement de la TVA est imm=C3=A9diat et soumis =C3=A0
+une exploitation pendant 20 ans.
+
+Le bailleur peut refuser le renouvellement du bail
+conclu avec l'exploitant de la r=C3=A9sidence de Tourisme. Toutefois,
+il devra dans ce cas, sauf exceptions pr=C3=A9vues aux articles L.
+145-17 et suivants du code de commerce, payer =C3=A0 l'exploitant une
+indemnit=C3=A9 dite d'=C3=A9viction =C3=A9gale au pr=C3=A9judice caus=C3=A9=
+ par le d=C3=A9faut
+de renouvellement. Les modalit=C3=A9s de calcul de cette indemnit=C3=A9
+sont fix=C3=A9es au deuxi=C3=A8me alin=C3=A9a de l'article L. 145-14 susvis=
+=C3=A9.
+
+Pierre & Vacances Conseil Immobilier L'Artois - Espace
+Pont de Flandre - 11, rue de Cambrai - 75947 Paris Cedex 19 -
+Soci=C3=A9t=C3=A9 anonyme au capital de 652 245=E2=82=AC ? 380 204 933 RCS =
+Paris ?
+Siret 380 204 933 00119 ? APE 701A - N=C2=B0 Identification
+intracommunautaire FR 56 380 204 933 - Carte professionnelle
+?transactions immobili=C3=A8res? N=C2=B0 T9775 d=C3=A9livr=C3=A9e par la pr=
+=C3=A9fecture
+de police de Paris ? Garantie Financi=C3=A8re Banque Espirito Santo et
+de la V=C3=A9n=C3=A9tie, 45 avenue Georges Mandel 75116 PARIS.
+
+Le Groupe Pierre & Vacances - Center Parcs (ci-apr=C3=A8s
+d=C3=A9sign=C3=A9 =C2=ABPVCP=C2=BB), entendu comme toute soci=C3=A9t=C3=A9 =
+sur laquelle PIERRE
+& VACANCES SA identifi=C3=A9e au RCS de Paris sous le n=C2=B0 316.580.869
+exerce son contr=C3=B4le, l'exercice de ce contr=C3=B4le s'entendant dans
+le sens de l'article L.233-3 du Code de Commerce, est responsable
+du traitement de vos informations personnelles.=
+
+--==a432d92fc3c0fc06bf8741548656f2b4
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.=
+w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+	<title>Pierre Vacances</title>
+	<meta content=3D"text/html; charset=3Dutf-8" http-equiv=3D"Content-Type" />
+	<meta content=3D"width=3Ddevice-width, initial-scale=3D1.0" name=3D"viewpo=
+rt" />
+</head>
+<body>
+<style type=3D"text/css">@media only screen and (max-width: 640px) {
+        table[class=3D"main-table"] {
+            width: 420px!important;
+        }
+        td[class=3D"bloc-50"],
+        table[class=3D"bloc-50"] {
+            display: block!important;
+            width: 100%!important;
+            background: #fff !important;
+        }
+        td[class=3D"bloc-50 pad"] {
+            display: block!important;
+            width: 96%!important;
+        }
+    }
+=20=20=20=20
+    @media only screen and (max-width: 480px) {
+        table[class=3D"main-table"] {
+            width: 320px!important;
+        }
+    }
+</style>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"table-1" s=
+tyle=3D"background: #ffffff; border-collapse: collapse; border-spacing: 0; =
+box-sizing: inherit; line-height: 10px; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-align: center; width: 100%;">
+	<tbody>
+		<tr style=3D"box-sizing: inherit;">
+			<td style=3D"border-collapse: collapse; box-sizing: inherit; padding: 10=
+px;"><br style=3D"box-sizing: inherit;" />
+			<br style=3D"box-sizing: inherit;" />
+			&nbsp;</td>
+		</tr>
+	</tbody>
+</table>
+
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" id=3D"backgroundTab=
+le" style=3D"border-collapse: collapse; border-spacing: 0; box-sizing: inhe=
+rit; line-height: 100%; margin: 0; mso-table-lspace: 0pt; mso-table-rspace:=
+ 0pt; padding: 0; width: 100%;">
+	<tbody>
+		<tr>
+			<td style=3D"text-align:center;border-collapse: collapse; box-sizing: in=
+herit;"><!--[if (gte mso 9)|(IE)]>
+                    <table width=3D"640" align=3D"center" cellpadding=3D"0"=
+ cellspacing=3D"0" border=3D"0">
+                    <tr><td>
+                    <![endif]-->
+			<table align=3D"center" cellpadding=3D"0" cellspacing=3D"0" style=3D"bac=
+kground-color:#ffffff;margin:0 auto;width:100%;max-width:640px"><!-- contai=
+ner-principal -->
+				<tbody>
+					<tr>
+						<td style=3D"border-collapse: collapse; box-sizing: inherit;">
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"tabl=
+e-1" style=3D"background: #1a4b95; border-collapse: collapse; border-spacin=
+g: 0; box-sizing: inherit; mso-table-lspace: 0pt; mso-table-rspace: 0pt; te=
+xt-align: center; width: 100%;">
+							<tbody>
+								<tr>
+									<td style=3D"border-collapse: collapse; box-sizing: inherit;"><a h=
+ref=3D"http://assurance-facile.com/ga/click/2-11527895-18-1588-3070-22112-d=
+35cd7e05e-2c836da95e" style=3D"box-sizing: inherit; color: #fff; font-famil=
+y: sans-serif; font-size: 20px; line-height: 21px; text-decoration: none;" =
+target=3D"_blank"><img alt=3D"Groupe Pierre & Vacances Center Parcs Conseil=
+ Immobilier Plus d'informations" border=3D"0" src=3D"http://digital-program=
+.fr/emailing/pierre_et_vacances/1510/images/img-top.jpg" style=3D"-ms-inter=
+polation-mode: bicubic; border: none; box-sizing: inherit; display: block; =
+outline: none; text-decoration: none; width: 100%;" /></a></td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+					<tr>
+						<td style=3D"font-size:0;text-align:center"><!--[if (gte mso 9)|(IE)]>
+                            <table border=3D"0" cellpadding=3D"0" cellspaci=
+ng=3D"0" style=3D"width: 100%;">
+                            <tr><td style=3D"width: 50%;" valign=3D"middle"=
+><![endif]-->
+						<table cellpadding=3D"0" cellspacing=3D"0" style=3D"display:inline-bl=
+ock;width:100%;max-width:320px;vertical-align:top;">
+							<tbody>
+								<tr>
+									<td style=3D"text-align:left;border-collapse: collapse; box-sizing=
+: inherit;padding:30px 10px 0 15px;line-height:1.2"><a class=3D"pad-top" hr=
+ef=3D"http://assurance-facile.com/ga/click/2-11527895-18-1588-3070-22112-d3=
+5cd7e05e-2c836da95e" style=3D"box-sizing: inherit; color: #1a4b95; display:=
+ block; font-family: sans-serif; font-size: 16px; text-decoration: none;" t=
+arget=3D"_blank">D&eacute;couvrez l&#39;immobilier locatif avec le Groupe P=
+ierre &amp; Vacances-Center Parcs.<br />
+									<br />
+									Tous les &eacute;l&eacute;ments sont r&eacute;unis pour vous garan=
+tir un investissement s&ucirc;r et rentable&nbsp;:</a></td>
+								</tr>
+								<tr>
+									<td style=3D"text-align:left;border-collapse: collapse; box-sizing=
+: inherit;padding-top:15px;line-height:1.2">
+									<table border=3D"0" cellpadding=3D"2" cellspacing=3D"2" class=3D"t=
+able-list" style=3D"border-collapse: collapse; border-spacing: 0; box-sizin=
+g: inherit; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%;">
+										<tbody>
+											<tr>
+												<td style=3D"border-collapse: collapse; box-sizing: inherit; te=
+xt-align: right; width: 20%;" valign=3D"middle"><a href=3D"http://assurance=
+-facile.com/ga/click/2-11527895-18-1588-3070-22113-cc3fc12b30-2c836da95e" s=
+tyle=3D"box-sizing: inherit; color: #1a4b95; display: inline-block; font-fa=
+mily: sans-serif; font-size: 16px; text-decoration: none;" target=3D"_blank=
+"><img border=3D"0" src=3D"http://digital-program.fr/emailing/pierre_et_vac=
+ances/1510/images/list.png" style=3D"-ms-interpolation-mode: bicubic; borde=
+r: none; box-sizing: inherit; display: block; outline: none; text-decoratio=
+n: none;" /></a></td>
+												<td style=3D"border-collapse: collapse; box-sizing: inherit; wi=
+dth: 80%;"><a href=3D"http://assurance-facile.com/ga/click/2-11527895-18-15=
+88-3070-22112-d35cd7e05e-2c836da95e" style=3D"box-sizing: inherit; color: #=
+1a4b95; display: block; font-family: sans-serif; font-size: 16px; text-deco=
+ration: none;" target=3D"_blank">Patrimoine de qualit&eacute;</a></td>
+											</tr>
+											<tr>
+												<td style=3D"border-collapse: collapse; box-sizing: inherit; te=
+xt-align: right; width: 20%;" valign=3D"middle"><a href=3D"http://assurance=
+-facile.com/ga/click/2-11527895-18-1588-3070-22113-cc3fc12b30-2c836da95e" s=
+tyle=3D"box-sizing: inherit; color: #1a4b95; display: inline-block; font-fa=
+mily: sans-serif; font-size: 16px; text-decoration: none;" target=3D"_blank=
+"><img border=3D"0" src=3D"http://digital-program.fr/emailing/pierre_et_vac=
+ances/1510/images/list.png" style=3D"-ms-interpolation-mode: bicubic; borde=
+r: none; box-sizing: inherit; display: block; outline: none; text-decoratio=
+n: none;" /></a></td>
+												<td style=3D"border-collapse: collapse; box-sizing: inherit; wi=
+dth: 80%;"><a href=3D"http://assurance-facile.com/ga/click/2-11527895-18-15=
+88-3070-22112-d35cd7e05e-2c836da95e" style=3D"box-sizing: inherit; color: #=
+1a4b95; display: block; font-family: sans-serif; font-size: 16px; text-deco=
+ration: none;" target=3D"_blank">Emplacements d&#39;exception</a></td>
+											</tr>
+											<tr>
+												<td style=3D"border-collapse: collapse; box-sizing: inherit; te=
+xt-align: right; width: 20%;" valign=3D"middle"><a class=3D"pad-bot" href=
+=3D"http://assurance-facile.com/ga/click/2-11527895-18-1588-3070-22112-d35c=
+d7e05e-2c836da95e" style=3D"box-sizing: inherit; color: #1a4b95; display: i=
+nline-block; font-family: sans-serif; font-size: 16px; padding-bottom: 10px=
+; text-decoration: none;" target=3D"_blank"><img border=3D"0" src=3D"http:/=
+/digital-program.fr/emailing/pierre_et_vacances/1510/images/list.png" style=
+=3D"-ms-interpolation-mode: bicubic; border: none; box-sizing: inherit; dis=
+play: block; outline: none; text-decoration: none;" /></a></td>
+												<td style=3D"border-collapse: collapse; box-sizing: inherit; wi=
+dth: 80%;"><a class=3D"pad-bot" href=3D"http://assurance-facile.com/ga/clic=
+k/2-11527895-18-1588-3070-22112-d35cd7e05e-2c836da95e" style=3D"box-sizing:=
+ inherit; color: #1a4b95; display: block; font-family: sans-serif; font-siz=
+e: 16px; padding-bottom: 10px; text-decoration: none;" target=3D"_blank">Co=
+mpl&eacute;ment de revenu</a></td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						<!--[if (gte mso 9)|(IE)]>
+                            </td><td style=3D"width: 50%;" valign=3D"top"><=
+![endif]-->
+
+						<table cellpadding=3D"0" cellspacing=3D"0" style=3D"display:inline-bl=
+ock;width:100%;max-width:320px;vertical-align:top;">
+							<tbody>
+								<tr>
+									<td align=3D"center" class=3D"bloc-50" style=3D"border-collapse: c=
+ollapse; box-sizing: inherit;"><a href=3D"http://assurance-facile.com/ga/cl=
+ick/2-11527895-18-1588-3070-22112-d35cd7e05e-2c836da95e" style=3D"box-sizin=
+g: inherit; color: #1a4b95; display: block; font-family: sans-serif; font-s=
+ize: 16px; line-height: 21px; text-decoration: none;" target=3D"_blank"><im=
+g border=3D"0" src=3D"http://digital-program.fr/emailing/pierre_et_vacances=
+/1510/images/img2.jpg" style=3D"-ms-interpolation-mode: bicubic; border: no=
+ne; box-sizing: inherit; display: inline-block; outline: none; text-decorat=
+ion: none; width: 100%;" /></a></td>
+								</tr>
+							</tbody>
+						</table>
+						<!--[if (gte mso 9)|(IE)]>
+                            </td></tr></table><![endif]--></td>
+					</tr>
+					<tr>
+						<td style=3D"background-color:#1a4b95;font-size:0;text-align:center">=
+<!--[if (gte mso 9)|(IE)]>
+                            <table border=3D"0" cellpadding=3D"0" cellspaci=
+ng=3D"0" style=3D"width: 100%;">
+                            <tr><td style=3D"width: 50%;" valign=3D"top"><!=
+[endif]-->
+						<table cellpadding=3D"0" cellspacing=3D"0" style=3D"display:inline-bl=
+ock;width:100%;max-width:320px;vertical-align:middle;">
+							<tbody>
+								<tr>
+									<td class=3D"bloc-50" style=3D"border-collapse: collapse; box-sizi=
+ng: inherit;"><a href=3D"http://assurance-facile.com/ga/click/2-11527895-18=
+-1588-3070-22112-d35cd7e05e-2c836da95e" style=3D"box-sizing: inherit; color=
+: #fff; font-family: sans-serif; font-size: 16px; line-height: 21px; text-d=
+ecoration: none;" target=3D"_blank"><img border=3D"0" src=3D"http://digital=
+-program.fr/emailing/pierre_et_vacances/1510/images/img3.jpg" style=3D"-ms-=
+interpolation-mode: bicubic; border: none; box-sizing: inherit; display: bl=
+ock; outline: none; text-decoration: none; width: 100%;" /></a></td>
+								</tr>
+							</tbody>
+						</table>
+						<!--[if (gte mso 9)|(IE)]>
+                            </td><td style=3D"width: 50%;" valign=3D"middle=
+"><![endif]-->
+
+						<table cellpadding=3D"0" cellspacing=3D"0" style=3D"display:inline-bl=
+ock;width:100%;max-width:320px;vertical-align:middle;">
+							<tbody>
+								<tr>
+									<td class=3D"bloc-50 pad" style=3D"text-align:left;background-colo=
+r:#1a4b95;border-collapse: collapse; box-sizing: inherit;padding:15px;line-=
+height: 21px;"><a class=3D"pad-top" href=3D"http://assurance-facile.com/ga/=
+click/2-11527895-18-1588-3070-22112-d35cd7e05e-2c836da95e" style=3D"box-siz=
+ing: inherit; color: #fff; display: block; font-family: sans-serif; font-si=
+ze: 16px;text-decoration: none;" target=3D"_blank">Pierre &amp; Vacances-Ce=
+nter Parcs vous accompagne tout au long de votre projet.</a><br />
+									<br />
+									<a class=3D"pad-bottom" href=3D"http://assurance-facile.com/ga/cli=
+ck/2-11527895-18-1588-3070-22112-d35cd7e05e-2c836da95e" style=3D"box-sizing=
+: inherit; color: #fff; display: block; font-family: sans-serif; font-size:=
+ 16px;  text-decoration: none;" target=3D"_blank">Le Groupe propose une lar=
+ge gamme de biens immobiliers situ&eacute;s dans les plus belles r&eacute;g=
+ions de France et d&#39;Europe.</a></td>
+								</tr>
+							</tbody>
+						</table>
+						<!--[if (gte mso 9)|(IE)]>
+                            </td></tr></table><![endif]--></td>
+					</tr>
+					<tr>
+						<td>
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"tabl=
+e-4" style=3D"border-collapse: collapse; border-spacing: 0; box-sizing: inh=
+erit; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%;">
+							<tbody>
+								<tr>
+									<td class=3D"bloc-50" style=3D"border-collapse: collapse; box-sizi=
+ng: inherit; vertical-align: top; width: 50%;">
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"b=
+order-collapse: collapse; border-spacing: 0; box-sizing: inherit; mso-table=
+-lspace: 0pt; mso-table-rspace: 0pt; width: 100%;">
+										<tbody>
+											<tr>
+												<td align=3D"center" style=3D"border-collapse: collapse; box-si=
+zing: inherit; padding: 0 7px 10px; padding-top: 20px; vertical-align: top;=
+ width: 50%;"><a href=3D"http://assurance-facile.com/ga/click/2-11527895-18=
+-1588-3070-22112-d35cd7e05e-2c836da95e" style=3D"box-sizing: inherit; color=
+: #444545; display: block; font-family: sans-serif; font-size: 16px; line-h=
+eight: 19px; text-decoration: none;" target=3D"_blank"><img border=3D"0" sr=
+c=3D"http://digital-program.fr/emailing/pierre_et_vacances/1510/images/pict=
+o1.png" style=3D"-ms-interpolation-mode: bicubic; border: none; box-sizing:=
+ inherit; display: block; outline: none; text-decoration: none;" /></a></td>
+												<td align=3D"center" style=3D"border-collapse: collapse; box-si=
+zing: inherit; padding: 0 7px 10px; padding-top: 20px; vertical-align: top;=
+ width: 50%;"><a href=3D"http://assurance-facile.com/ga/click/2-11527895-18=
+-1588-3070-22112-d35cd7e05e-2c836da95e" style=3D"box-sizing: inherit; color=
+: #444545; display: block; font-family: sans-serif; font-size: 16px; line-h=
+eight: 19px; text-decoration: none;" target=3D"_blank"><img border=3D"0" sr=
+c=3D"http://digital-program.fr/emailing/pierre_et_vacances/1510/images/pict=
+o2.png" style=3D"-ms-interpolation-mode: bicubic; border: none; box-sizing:=
+ inherit; display: block; outline: none; text-decoration: none;" /></a></td>
+											</tr>
+											<tr>
+												<td align=3D"center" style=3D"border-collapse: collapse; box-si=
+zing: inherit; padding: 0 7px 10px; vertical-align: top; width: 50%;"><a hr=
+ef=3D"http://assurance-facile.com/ga/click/2-11527895-18-1588-3070-22112-d3=
+5cd7e05e-2c836da95e" style=3D"box-sizing: inherit; color: #444545; display:=
+ block; font-family: sans-serif; font-size: 16px; line-height: 19px; text-d=
+ecoration: none;" target=3D"_blank">Loyers s&eacute;curis&eacute;s<sup styl=
+e=3D"box-sizing: inherit; font-size: 9px;">(1)</sup></a></td>
+												<td align=3D"center" style=3D"border-collapse: collapse; box-si=
+zing: inherit; padding: 0 7px 10px; vertical-align: top; width: 50%;"><a hr=
+ef=3D"http://assurance-facile.com/ga/click/2-11527895-18-1588-3070-22112-d3=
+5cd7e05e-2c836da95e" style=3D"box-sizing: inherit; color: #444545; display:=
+ block; font-family: sans-serif; font-size: 16px; line-height: 19px; text-d=
+ecoration: none;" target=3D"_blank">Fiscalit&eacute; avantageuse</a></td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+									<td class=3D"bloc-50" style=3D"border-collapse: collapse; box-sizi=
+ng: inherit; vertical-align: top; width: 50%;">
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"b=
+order-collapse: collapse; border-spacing: 0; box-sizing: inherit; mso-table=
+-lspace: 0pt; mso-table-rspace: 0pt; width: 100%;">
+										<tbody>
+											<tr>
+												<td align=3D"center" style=3D"border-collapse: collapse; box-si=
+zing: inherit; padding: 0 7px 10px; padding-top: 20px; vertical-align: top;=
+ width: 50%;"><a href=3D"http://assurance-facile.com/ga/click/2-11527895-18=
+-1588-3070-22112-d35cd7e05e-2c836da95e" style=3D"box-sizing: inherit; color=
+: #444545; display: block; font-family: sans-serif; font-size: 16px; line-h=
+eight: 19px; text-decoration: none;" target=3D"_blank"><img border=3D"0" sr=
+c=3D"http://digital-program.fr/emailing/pierre_et_vacances/1510/images/pict=
+o3.png" style=3D"-ms-interpolation-mode: bicubic; border: none; box-sizing:=
+ inherit; display: block; outline: none; text-decoration: none;" /></a></td>
+												<td align=3D"center" style=3D"border-collapse: collapse; box-si=
+zing: inherit; padding: 0 7px 10px; padding-top: 20px; vertical-align: top;=
+ width: 50%;"><a href=3D"http://assurance-facile.com/ga/click/2-11527895-18=
+-1588-3070-22112-d35cd7e05e-2c836da95e" style=3D"box-sizing: inherit; color=
+: #444545; display: block; font-family: sans-serif; font-size: 16px; line-h=
+eight: 19px; text-decoration: none;" target=3D"_blank"><img border=3D"0" sr=
+c=3D"http://digital-program.fr/emailing/pierre_et_vacances/1510/images/pict=
+o4.png" style=3D"-ms-interpolation-mode: bicubic; border: none; box-sizing:=
+ inherit; display: block; outline: none; text-decoration: none;" /></a></td>
+											</tr>
+											<tr>
+												<td align=3D"center" style=3D"border-collapse: collapse; box-si=
+zing: inherit; padding: 0 7px 10px; vertical-align: top; width: 50%;"><a hr=
+ef=3D"http://assurance-facile.com/ga/click/2-11527895-18-1588-3070-22114-77=
+4221a233-2c836da95e" style=3D"box-sizing: inherit; color: #444545; display:=
+ block; font-family: sans-serif; font-size: 16px; line-height: 19px; text-d=
+ecoration: none;" target=3D"_blank">Aucun souci de gestion<sup style=3D"box=
+-sizing: inherit; font-size: 9px;">(2)</sup></a></td>
+												<td align=3D"center" style=3D"border-collapse: collapse; box-si=
+zing: inherit; padding: 0 7px 10px; vertical-align: top; width: 50%;"><a hr=
+ef=3D"http://assurance-facile.com/ga/click/2-11527895-18-1588-3070-22112-d3=
+5cd7e05e-2c836da95e" style=3D"box-sizing: inherit; color: #444545; display:=
+ block; font-family: sans-serif; font-size: 16px; line-height: 19px; text-d=
+ecoration: none;" target=3D"_blank">TVA rembours&eacute;e<sup style=3D"box-=
+sizing: inherit; font-size: 9px;">(3)</sup></a></td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+
+						<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0" class=3D"table-6" style=3D"border-collapse: collapse; border-spacing: 0=
+; box-sizing: inherit; mso-table-lspace: 0pt; mso-table-rspace: 0pt; text-a=
+lign: center; width: 100%;">
+							<tbody>
+								<tr>
+									<td style=3D"border-collapse: collapse; box-sizing: inherit; paddi=
+ng-bottom: 25px; padding-top: 25px;"><!--[if mso]>
+                                          <v:roundrect xmlns:v=3D"urn:schem=
+as-microsoft-com:vml" xmlns:w=3D"urn:schemas-microsoft-com:office:word" hre=
+f=3D"http://www.pierreetvacances-immobilier.com/fr/achat-locatif/1601-tch-g=
+en-597-lp?cmp=3D1601_Tch_Gen2" style=3D"height:64px;v-text-anchor:middle;wi=
+dth:250px;" arcsize=3D"19%" strokecolor=3D"#1a4b95" fillcolor=3D"#1a4b95">
+                                            <w:anchorlock/>
+                                            <center style=3D"color:#ffffff;=
+font-family:sans-serif;font-size:26px;font-weight:bold;">Je d&eacute;couvre=
+</center>
+                                          </v:roundrect>
+                                        <![endif]--><a href=3D"http://assur=
+ance-facile.com/ga/click/2-11527895-18-1588-3070-22112-d35cd7e05e-2c836da95=
+e" style=3D"-webkit-text-size-adjust: none; background-color: #1a4b95; bord=
+er: 1px solid #1a4b95; border-radius: 12px; box-sizing: inherit; color: #ff=
+ffff; display: inline-block; font-family: sans-serif; font-size: 26px; font=
+-weight: bold; line-height: 64px; mso-hide: all; text-align: center; text-d=
+ecoration: none; text-transform: uppercase; width: 250px;">Je d&eacute;couv=
+re</a></td>
+								</tr>
+							</tbody>
+						</table>
+
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"tabl=
+e-5" style=3D"border-collapse: collapse; border-spacing: 0; border-top: 1px=
+ dotted #6a6a6a; box-sizing: inherit; mso-table-lspace: 0pt; mso-table-rspa=
+ce: 0pt; width: 100%;">
+							<tbody>
+								<tr>
+									<td style=3D"padding-top:25px;border-collapse: collapse; box-sizin=
+g: inherit;box-sizing: inherit; color: #6a6a6a; display: block; font-family=
+: sans-serif; font-size: 10px; line-height: 13px; text-decoration: none">(1=
+) Pendant toute la dur&eacute;e du bail. En tant que locataire unique, le G=
+roupe Pierre &amp; Vacances- Center Parcs vous assure un revenu, que votre =
+bien soit lou&eacute; ou non.<br />
+									(2) Pleinement propri&eacute;taire, vous confiez au Groupe Pierre =
+&amp; Vacances - Center Parcs la gestion de votre bien. Vous profitez de vo=
+tre placement immobilier en toute s&eacute;curit&eacute;, sans souci de ges=
+tion.<br />
+									(3) Le remboursement de la TVA est imm&eacute;diat et soumis &agra=
+ve; une exploitation pendant 20 ans.<br />
+									<br />
+									Le bailleur peut refuser le renouvellement du bail conclu avec l&#=
+39;exploitant de la r&eacute;sidence de Tourisme. Toutefois, il devra dans =
+ce cas, sauf exceptions pr&eacute;vues aux articles L. 145-17 et suivants d=
+u code de commerce, payer &agrave; l&#39;exploitant une indemnit&eacute; di=
+te d&#39;&eacute;viction &eacute;gale au pr&eacute;judice caus&eacute; par =
+le d&eacute;faut de renouvellement. Les modalit&eacute;s de calcul de cette=
+ indemnit&eacute; sont fix&eacute;es au deuxi&egrave;me alin&eacute;a de l&=
+#39;article L. 145-14 susvis&eacute;.<br />
+									<br />
+									Pierre &amp; Vacances Conseil Immobilier L&#39;Artois - Espace Pon=
+t de Flandre - 11, rue de Cambrai - 75947 Paris Cedex 19 - Soci&eacute;t&ea=
+cute; anonyme au capital de 652 245&euro; ? 380 204 933 RCS Paris ? Siret 3=
+80 204 933 00119 ? APE 701A - N&deg; Identification intracommunautaire FR 5=
+6 380 204 933 - Carte professionnelle ?transactions immobili&egrave;res? N&=
+deg; T9775 d&eacute;livr&eacute;e par la pr&eacute;fecture de police de Par=
+is ? Garantie Financi&egrave;re Banque Espirito Santo et de la V&eacute;n&e=
+acute;tie, 45 avenue Georges Mandel 75116 PARIS.<br />
+									<br />
+									Le Groupe Pierre &amp; Vacances - Center Parcs (ci-apr&egrave;s d&=
+eacute;sign&eacute; &laquo;PVCP&raquo;), entendu comme toute soci&eacute;t&=
+eacute; sur laquelle PIERRE &amp; VACANCES SA identifi&eacute;e au RCS de P=
+aris sous le n&deg; 316.580.869 exerce son contr&ocirc;le, l&#39;exercice d=
+e ce contr&ocirc;le s&#39;entendant dans le sens de l&#39;article L.233-3 d=
+u Code de Commerce, est responsable du traitement de vos informations perso=
+nnelles.</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			<!--[if (gte mso 9)|(IE)]>
+                    </td></tr></table><![endif]--><!-- fin-container-princi=
+pal --></td>
+		</tr>
+	</tbody>
+</table>
+
+<p><img border=3D"0" height=3D"1" src=3D"http://nodes.tvstfzpuln.com/mailin=
+g-360-1610-4248?rgroup=3Dp_15386&group=3D" width=3D"1" /></p>
+
+<center><a href=3D"http://assurance-facile.com/ga/unsubscribe/2-11527895-18=
+-1588-3070-ed35df89ef15825-2c836da95e">Je souhaite me d=C3=A9sinscrire et n=
+e plus recevoir les newsletters</a>
+</center><img src=3D"http://assurance-facile.com/ga/open/2-11527895-18-1588=
+-3070-2c836da95e" height=3D"2" width=3D"3" alt=3D""></body>
+</html>
+
+--==a432d92fc3c0fc06bf8741548656f2b4--

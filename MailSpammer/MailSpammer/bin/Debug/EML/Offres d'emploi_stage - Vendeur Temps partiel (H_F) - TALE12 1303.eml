@@ -1,0 +1,662 @@
+Return-Path: <bounce-md_30378319.56448006.v1-71ec2379bb87499aa9161c5dd4dab8bf@mandrillapp.com>
+Received: from mailimailo.univ-rennes1.fr ([unix socket])
+	 by mailimailo.univ-rennes1.fr (Cyrus v2.3.16-Fedora-RPM-2.3.16-6.el6_2.5) with LMTPA;
+	 Thu, 12 Nov 2015 13:03:20 +0100
+X-Sieve: CMU Sieve 2.3
+Received: from mailout1.univ-rennes1.fr (mailout1.univ-rennes1.fr [129.20.128.162])
+	by mailimailo.univ-rennes1.fr (Postfix) with ESMTP id 1D33826A0B7C
+	for <resp-m2-miage@univ-rennes1.fr>; Thu, 12 Nov 2015 13:03:20 +0100 (CET)
+Received: from localhost (vmscanmail.univ-rennes1.fr [129.20.128.134])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id 194A360155
+	for <resp-m2-miage@univ-rennes1.fr>; Thu, 12 Nov 2015 13:03:20 +0100 (CET)
+X-Virus-Scanned: amavisd-new at univ-rennes1.fr
+Received: from mailout1.univ-rennes1.fr ([129.20.128.162])
+	by localhost (vmscanmail.univ-rennes1.frm [129.20.128.134]) (amavisd-new, port 10026)
+	with ESMTP id 7G0a1_v9zR7V for <resp-m2-miage@univ-rennes1.fr>;
+	Thu, 12 Nov 2015 13:03:19 +0100 (CET)
+Received: from vmmailin.univ-rennes1.fr (vmmailin.univ-rennes1.fr [129.20.128.133])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id E455360103
+	for <resp-m2-miage@univ-rennes1.fr>; Thu, 12 Nov 2015 13:03:19 +0100 (CET)
+Received: from mxb1-2.relay.renater.fr (mxb1-2.relay.renater.fr [194.214.201.9])
+	by vmmailin.univ-rennes1.fr (Postfix) with ESMTP id DBC1020033
+	for <resp-m2-miage@univ-rennes1.fr>; Thu, 12 Nov 2015 13:03:19 +0100 (CET)
+Received: from mail186-18.suw21.mandrillapp.com (mail186-18.suw21.mandrillapp.com [198.2.186.18])
+	by mxb1-2.relay.renater.fr (asm) with ESMTP id 5894B28012A
+	for <resp-m2-miage@univ-rennes1.fr>; Thu, 12 Nov 2015 13:03:19 +0100 (CET)
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=mandrill; d=mail186-18.suw21.mandrillapp.com;
+ h=From:Sender:Subject:To:Message-Id:Date:MIME-Version:Content-Type; i=no-reply@mail186-18.suw21.mandrillapp.com;
+ bh=JvD8d3Ei1X0RF0NV5LR9vQHwBgI=;
+ b=J0wgFec3peFNYt5pkvW3SeXAPlFNEo1gR9MVl7M+Kcbiij07Cxiw8oW/qPybWpHiA1gMWXvdWhLn
+   nt+ASK867WPiSLSB7AEPqN0RBqKlbEjZSt0ojUvrBVExnCVm1rNAAedSOXd9HhsTLw97Ton5tMF0
+   xJT4o0AYU1u4PXHavL0=
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=mandrill; d=mail186-18.suw21.mandrillapp.com;
+ b=oP9TT4XNz9hSvKgr2v2myqeIpY9YNhxv4PqP8gGu9YLt7m6uV2xVqtoPI7Xhcr/mf5Q9SOFThAaf
+   RhEou4hNsCS28y2tEvRQBQ1CnKNsETfINxjKwfWNKVl+01px8sDI3cAqzbL+YFqqNGPulaiNWenO
+   wfVaHFWvsCJltGKhIGM=;
+Received: from pmta02.mandrill.prod.suw01.rsglab.com (127.0.0.1) by mail186-18.suw21.mandrillapp.com id h8i00e174bko for <resp-m2-miage@univ-rennes1.fr>; Thu, 12 Nov 2015 12:03:18 +0000 (envelope-from <bounce-md_30378319.56448006.v1-71ec2379bb87499aa9161c5dd4dab8bf@mandrillapp.com>)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=mandrillapp.com; 
+ i=@mandrillapp.com; q=dns/txt; s=mandrill; t=1447329798; h=From : 
+ Sender : Subject : To : Message-Id : Date : MIME-Version : Content-Type 
+ : From : Subject : Date : X-Mandrill-User : List-Unsubscribe; 
+ bh=MpmpWSPn//Wk0wmy6BKRtykr164iFsCGUBkKNl4Z43U=; 
+ b=p9xHE6sr22EvxRFHc9kV+FAyC1zhldvt+neNKHYJqr+Vt7It0+IeAqdXZ4/BKKyJlaeZLl
+ VjenULwIZomcB2hO0o8CStljzUhWcalD6g7uZPoTgSFkqMiSJcxlRQHZgVdad+w/gOyc9HCf
+ VVSnNHk2g52pUNIe+gnUewOwxOY4I=
+From: TALENTPEOPLE - Recrutement <no-reply@ubiposting.com>
+Sender: TALENTPEOPLE - Recrutement <no-reply@mail186-18.suw21.mandrillapp.com>
+Subject: Offres d'emploi/stage - Vendeur Temps partiel (H/F) - TALENTPEOPLE
+Received: from [5.39.72.10] by mandrillapp.com id 71ec2379bb87499aa9161c5dd4dab8bf; Thu, 12 Nov 2015 12:03:18 +0000
+To: <resp-m2-miage@univ-rennes1.fr>
+X-Report-Abuse: Please forward a copy of this message, including all headers, to abuse@mandrill.com
+X-Report-Abuse: You can also report abuse here: http://mandrillapp.com/contact/abuse?id=30378319.71ec2379bb87499aa9161c5dd4dab8bf
+X-Mandrill-User: md_30378319
+Message-Id: <30378319.20151112120318.56448006b9ade2.41984270@mail186-18.suw21.mandrillapp.com>
+Date: Thu, 12 Nov 2015 12:03:18 +0000
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="_av-ArMV1XD9RLV7DmZkHqNvpg"
+X-UCE-Status: YES
+X-UCE-Type: MCE
+X-Original-Source-IP: 198.2.186.18
+X-Bizanga: IMP - mxb1-2.relay.renater.fr
+X-Renater-SpamState: 11
+X-Renater-SpamScore: 17
+X-Renater-SpamCause: gggruggvucftvghtrhhoucdtuddrfeekhedrgeelgdefgecutefuodetggdotefrodftvfcurfhrohhfihhlvgemucftgffptefvgfftpdggtfgfnhhsuhgsshgtrhhisggvnecuuegrihhlohhuthemuceftddtnecundfotefknffkpffiucdludejmdenucfjughrpefhshfuvffkffggtgesmhdttdertddtjeenucfhrhhomhepvfetnffgpffvrffgqffrnffgucdqucftvggtrhhuthgvmhgvnhhtuceonhhoqdhrvghplhihsehusghiphhoshhtihhnghdrtghomheqnecuffhomhgrihhnpehmrghnughrihhllhgrphhprdgtohhmnecurfgrrhgrmhepmhhouggvpehsmhhtphdphhgvlhhopehmrghilhdukeeiqddukedrshhufidvuddrmhgrnhgurhhilhhlrghpphdrtghomhdpihhnvghtpeduleekrddvrddukeeirddukedpmhgrihhlfhhrohhmpegsohhunhgtvgdqmhgupgeftdefjeekfeduledrheeigeegkedttdeirdhvuddqjeduvggtvdefjeelsggskeejgeellegrrgeludeiudgtheguugeguggrsgeksghfsehmrghnughrihhllhgrphhprdgtohhmpdhrtghpthhtoheprhgvshhpqdhmvddqmhhirghgvgesuhhnihhvqdhrvghnnhgvshdurdhfrh 
+X-Renater-ServerName: mxb1-2.relay.renater.fr
+
+--_av-ArMV1XD9RLV7DmZkHqNvpg
+Content-Type: multipart/alternative; boundary="_av-HSjVwW1rtIyKc6-rGecVaw"
+
+--_av-HSjVwW1rtIyKc6-rGecVaw
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+                       
+    Vendeur Temps partiel (H/F)           Date : 11/12/2015 Localisation :
+Paris - 1er arrondissement    R=C3=A9f. : SE-VENDEUR-DARTY   75 - Paris    =
+Type
+de contrat : CDI R=C3=A9mun=C3=A9ration :    Exp=C3=A9rience : 0-1 an Forma=
+tion : BAC  
+     
+  =3D=3D Description de l'entreprise : =3D=3D
+
+ Avec plus de 250 magasins, Darty, est le leader incontest=C3=A9 sur le mar=
+ch=C3=A9
+de la t=C3=A9l=C3=A9vision, vid=C3=A9o, hifi, =C3=A9lectrom=C3=A9nager, t=
+=C3=A9l=C3=A9phonie et
+multim=C3=A9dia.
+
+Vous d=C3=A9sirez concilier au mieux vos =C3=A9tudes et votre d=C3=A9velopp=
+ement
+professionnel, optez pour le temps partiel choisi en magasin chez Darty !
+De nombreux postes en CDI =C3=A0 temps partiel (dur=C3=A9e de travail selon
+disponibilit=C3=A9 : 20h, 25h, 30h=E2=80=A6) sont =C3=A0 pourvoir =C3=A0 Pa=
+ris et IDF. 
+
+ 
+  =3D=3D Poste propos=C3=A9 : =3D=3D
+
+ Nous vous proposons de faire vivre une exp=C3=A9rience in=C3=A9galable =C3=
+=A0 nos
+clients : les accueillir et les accompagner =C3=A0 travers une relation
+personnalis=C3=A9e construite sur votre comp=C3=A9tence et notre savoir-fai=
+re.
+
+Conseiller, vendre, personnaliser, valoriser nos offres, suivre la
+concurrence, se former en continu, tel est le projet que nous vous
+proposons au sein de nos =C3=A9quipes de vente en magasin. 
+
+ 
+  =3D=3D Profil recherch=C3=A9 : =3D=3D
+
+ Fort(e) d'un r=C3=A9el int=C3=A9r=C3=AAt pour la vente et la relation clie=
+nt, vous
+aurez =C3=A0 coeur de fid=C3=A9liser nos clients et de r=C3=A9aliser vos ob=
+jectifs de
+ventes de produits et de services.
+
+De nombreux postes sont =C3=A0 pourvoir en CDI A TEMPS PARTIEL CHOISI en
+fonction de vos disponibilit=C3=A9s. 
+
+Les postes sont =C3=A0 pourvoir sur les magasins Darty suivants : BNF, Rivo=
+li,
+Montmartre, La Madeleine, Beaugrenelle, Rosny, Ternes et R=C3=A9publique 
+
+     
+        Pour postuler, cliquer ici : talentpeople.3340501@applicount.com
+<mailto:talentpeople.3340501@applicount.com>        
+ 
+ 
+       Cette offre d=E2=80=99emploi vous est envoy=C3=A9e par la soci=C3=A9=
+t=C3=A9
+*TALENTPEOPLE* via la solution de multi-diffusion d=E2=80=99offres d=E2=80=
+=99emploi
+Ubiposting. Ubiposting est une solution de multidiffusion d=E2=80=99offres
+d=E2=80=99emploi qui permet aux entreprises de diffuser leurs offres d=E2=
+=80=99emploi
+et de stage vers une multitude de sites et d=E2=80=99=C3=A9coles en une seu=
+le saisie.
+  - Si l=E2=80=99adresse e-mail utilis=C3=A9e pour l=E2=80=99envoi des offr=
+es n=E2=80=99est pas
+exacte, merci de la corriger en cliquant sur ce lien
+<http://www.mytalentplug.com/configJobboard/configurationFormations.aspx?jI=
+D=3DtMNzrfCvxso=3D>
+  - Nous pouvons =C3=A9galement vous envoyer les offres par flux XML, http =
+Post
+ou webservice afin de vous =C3=A9viter toute ressaisie. Pour plus
+d=E2=80=99information : contact@ubiposting.com <mailto:contact@ubiposting.c=
+om>
+  - Si vous souhaitez ne plus recevoir nos offres, veuillez vous cliquer
+sur ce lien
+<http://www.mytalentplug.com/configJobboard/abonnement.aspx?jID=3DtMNzrfCvx=
+so=3D>
+pour vous d=C3=A9sabonner.
+
+--_av-HSjVwW1rtIyKc6-rGecVaw
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+            <html>
+=09=09=09=09<head>
+=09=09=09=09=09<style type=3D"text/css">
+=09=09=09=09=09=09td { font-family: Arial; font-size: 12px; }
+=09=09=09=09=09</style>
+=09=09=09=09</head>
+=09=09=09=09<body style=3D"font-family:Arial; font-size:12px;">
+=09=09=09=09=09<table>
+=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09<td align=3D"center">
+=09=09=09=09=09=09=09=09<table cellpadding=3D"0" cellspacing=3D"0" width=3D=
+"80%" style=3D"text-align:left;">
+=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09<td style=3D"width:150px;"></td>
+=09=09=09=09=09=09=09=09=09=09<td style=3D"width:150px;"></td>
+=09=09=09=09=09=09=09=09=09=09<td style=3D"width:150px;"></td>
+=09=09=09=09=09=09=09=09=09=09<td style=3D"width:150px;"></td>
+=09=09=09=09=09=09=09=09=09=09<td style=3D"width:150px;"></td>
+=09=09=09=09=09=09=09=09=09=09<td style=3D"width:150px;"></td>
+=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09<td style=3D"text-align:center;" colspan=3D"6=
+"><img src=3D"http://www.mytalentplug.com/ressources/entreprise/LOGO-143.jp=
+g" alt=3D"TALENTPEOPLE" /></td>
+=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09<td colspan=3D"6">&nbsp;<br />&nbsp;</td>
+=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09<td style=3D"font-size:18px; font-weight:bold=
+; text-align:center;" colspan=3D"6">Vendeur Temps partiel (H/F)</td>
+=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09<td colspan=3D"6">&nbsp;</td>
+=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09<td style=3D"border-top: 2px solid #e7e7e7;" =
+colspan=3D"6">&nbsp;</td>
+=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09<td style=3D"font-weight:bold;">Date :</td>
+=09=09=09=09=09=09=09=09=09=09<td colspan=3D"2">11/12/2015</td>
+=09=09=09=09=09=09=09=09=09=09<td style=3D"font-weight:bold;">Localisation =
+:</td>
+=09=09=09=09=09=09=09=09=09=09<td colspan=3D"2">Paris - 1er arrondissement
+                                        </td>
+=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09<td style=3D"font-weight:bold;">R=C3=A9f. :</=
+td>
+=09=09=09=09=09=09=09=09=09=09<td colspan=3D"2">SE-VENDEUR-DARTY  </td>
+=09=09=09=09=09=09=09=09=09=09<td style=3D"font-weight:bold;"></td>
+=09=09=09=09=09=09=09=09=09=09<td colspan=3D"2">75 - Paris
+                                        </td>
+=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09<td style=3D"font-weight:bold;">Type de contr=
+at :</td>
+=09=09=09=09=09=09=09=09=09=09<td colspan=3D"2">CDI</td>
+=09=09=09=09=09=09=09=09=09=09<td style=3D"font-weight:bold;">R=C3=A9mun=C3=
+=A9ration :</td>
+=09=09=09=09=09=09=09=09=09=09<td colspan=3D"2"></td>
+=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09<td style=3D"font-weight:bold;">Exp=C3=A9rien=
+ce :</td>
+=09=09=09=09=09=09=09=09=09=09<td colspan=3D"2">0-1 an</td>
+=09=09=09=09=09=09=09=09=09=09<td style=3D"font-weight:bold;">Formation :</=
+td>
+=09=09=09=09=09=09=09=09=09=09<td colspan=3D"2">BAC</td>
+=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09<td style=3D"border-bottom: 2px solid #e7e7e7=
+;" colspan=3D"6">&nbsp;</td>
+=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09<td colspan=3D"6" style=3D"text-align:left;">
+=09=09=09=09=09=09=09=09=09=09=09<br />
+=09=09=09=09=09=09=09=09=09=09=09<p>
+=09=09=09=09=09=09=09=09=09=09=09=09<h2 style=3D"font-weight:bold; font-siz=
+e:14px; width:100%">Description de l'entreprise :</h2>
+=09=09=09=09=09=09=09=09=09=09=09=09Avec plus de 250 magasins, Darty, est l=
+e leader incontest=C3=A9 sur le march=C3=A9 de la t=C3=A9l=C3=A9vision, vid=
+=C3=A9o, hifi, =C3=A9lectrom=C3=A9nager, t=C3=A9l=C3=A9phonie et multim=C3=
+=A9dia.<br /><br />Vous d=C3=A9sirez concilier au mieux vos =C3=A9tudes et =
+votre d=C3=A9veloppement professionnel, optez pour le temps partiel choisi =
+en magasin chez Darty !<br />De nombreux postes en CDI =C3=A0 temps partiel=
+ (dur=C3=A9e de travail selon disponibilit=C3=A9 : 20h, 25h, 30h=E2=80=A6) =
+sont =C3=A0 pourvoir =C3=A0 Paris et IDF. 
+=09=09=09=09=09=09=09=09=09=09=09</p>
+=09=09=09=09=09=09=09=09=09=09=09<br />
+=09=09=09=09=09=09=09=09=09=09=09<p>
+=09=09=09=09=09=09=09=09=09=09=09=09<h2 style=3D"font-weight:bold; font-siz=
+e:14px; width:100%">Poste propos=C3=A9 :</h2>
+=09=09=09=09=09=09=09=09=09=09=09=09Nous vous proposons de faire vivre une =
+exp=C3=A9rience in=C3=A9galable =C3=A0 nos clients : les accueillir et les =
+accompagner =C3=A0 travers une relation personnalis=C3=A9e construite sur v=
+otre comp=C3=A9tence et notre savoir-faire.<br /><br />Conseiller, vendre, =
+personnaliser, valoriser nos offres, suivre la concurrence, se former en co=
+ntinu, tel est le projet que nous vous proposons au sein de nos =C3=A9quipe=
+s de vente en magasin. 
+=09=09=09=09=09=09=09=09=09=09=09</p>
+=09=09=09=09=09=09=09=09=09=09=09<br />
+=09=09=09=09=09=09=09=09=09=09=09<p>
+=09=09=09=09=09=09=09=09=09=09=09=09<h2 style=3D"font-weight:bold; font-siz=
+e:14px; width:100%">Profil recherch=C3=A9 :</h2>
+=09=09=09=09=09=09=09=09=09=09=09=09Fort(e) d'un r=C3=A9el int=C3=A9r=C3=AA=
+t pour la vente et la relation client, vous aurez =C3=A0 coeur de fid=C3=A9=
+liser nos clients et de r=C3=A9aliser vos objectifs de ventes de produits e=
+t de services.<br /><br />De nombreux postes sont =C3=A0 pourvoir en CDI A =
+TEMPS PARTIEL CHOISI en fonction de vos disponibilit=C3=A9s. <br /><br />Le=
+s postes sont =C3=A0 pourvoir sur les magasins Darty suivants : BNF, Rivoli=
+, Montmartre, La Madeleine, Beaugrenelle, Rosny, Ternes et R=C3=A9publique
+=09=09=09=09=09=09=09=09=09=09=09</p>
+=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09<td colspan=3D"6">&nbsp;<br />&nbsp;</td>
+=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09<td style=3D"border-top: 2px solid #e7e7e7;" =
+colspan=3D"6">&nbsp;</td>
+=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09<td style=3D"font-size: 14px; font-weight: bo=
+ld;" colspan=3D"2">Pour postuler, cliquer ici :</td>
+=09=09=09=09=09=09=09=09=09=09<td style=3D"font-size: 14px;" colspan=3D"4">=
+<a style=3D"color:#000;" href=3D"mailto:talentpeople.3340501@applicount.com=
+">talentpeople.3340501@applicount.com</a></td>
+=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09<td style=3D"border-bottom: 2px solid #e7e7e7=
+;" colspan=3D"6">&nbsp;</td>
+=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09<td colspan=3D"6">&nbsp;<br />&nbsp;<br />&nb=
+sp;<br />&nbsp;</td>
+=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09</table>
+=09=09=09=09=09=09=09=09
+                                <table style=3D"color:#949494; text-align:l=
+eft;" cellpadding=3D"15" cellspacing=3D"0" width=3D"80%">
+=09                                <tr style=3D"background-color:#e7e7e7;">
+=09=09                                <td colspan=3D"2">
+                                            <p>Cette offre d=E2=80=99emploi=
+ vous est envoy=C3=A9e par la soci=C3=A9t=C3=A9 <b>TALENTPEOPLE</b> via la =
+solution de multi-diffusion d=E2=80=99offres d=E2=80=99emploi Ubiposting. 
+Ubiposting est une solution de multidiffusion d=E2=80=99offres d=E2=80=99em=
+ploi qui permet aux entreprises de diffuser leurs offres d=E2=80=99emploi e=
+t de stage vers une multitude de sites et d=E2=80=99=C3=A9coles en une seul=
+e saisie.
+=09=09=09=09=09=09=09                    <ul style=3D"line-height:20px;">
+                                                    <li>Si l=E2=80=99adress=
+e e-mail utilis=C3=A9e pour l=E2=80=99envoi des offres n=E2=80=99est pas ex=
+acte, merci de la corriger en cliquant sur ce <a href=3D"http://mandrillapp=
+.com/track/click/30378319/www.mytalentplug.com?p=3DeyJzIjoiVWdCOV9reUNLV28t=
+XzBDMmRuajFfZllvQWtjIiwidiI6MSwicCI6IntcInVcIjozMDM3ODMxOSxcInZcIjoxLFwidXJ=
+sXCI6XCJodHRwOlxcXC9cXFwvd3d3Lm15dGFsZW50cGx1Zy5jb21cXFwvY29uZmlnSm9iYm9hcm=
+RcXFwvY29uZmlndXJhdGlvbkZvcm1hdGlvbnMuYXNweD9qSUQ9dE1OenJmQ3Z4c289XCIsXCJpZ=
+FwiOlwiNzFlYzIzNzliYjg3NDk5YWE5MTYxYzVkZDRkYWI4YmZcIixcInVybF9pZHNcIjpbXCI5=
+MjdmZDRmMmZiYTE3Y2QyMTY1ZmEwNTg1ZGVjZTg4NDg3OTBjZDczXCJdfSJ9">lien</a></li>
+=09=09=09=09                                    <li>Nous pouvons =C3=A9gale=
+ment vous envoyer les offres par flux XML, http Post ou webservice afin de =
+vous =C3=A9viter toute ressaisie. Pour plus d=E2=80=99information : <a href=
+=3D"mailto:contact@ubiposting.com">contact@ubiposting.com</a></li>
+                                                    <li>Si vous souhaitez n=
+e plus recevoir nos offres, veuillez vous cliquer sur ce <a href=3D"http://=
+mandrillapp.com/track/click/30378319/www.mytalentplug.com?p=3DeyJzIjoianpJT=
+XUyZEhVWU1vMW8tb3UxUmltdms3NDNJIiwidiI6MSwicCI6IntcInVcIjozMDM3ODMxOSxcInZc=
+IjoxLFwidXJsXCI6XCJodHRwOlxcXC9cXFwvd3d3Lm15dGFsZW50cGx1Zy5jb21cXFwvY29uZml=
+nSm9iYm9hcmRcXFwvYWJvbm5lbWVudC5hc3B4P2pJRD10TU56cmZDdnhzbz1cIixcImlkXCI6XC=
+I3MWVjMjM3OWJiODc0OTlhYTkxNjFjNWRkNGRhYjhiZlwiLFwidXJsX2lkc1wiOltcIjEzNTE5N=
+WNlM2NkZTg5YmFhYmIzYjgyOTQ3YzBlYjZmZGNkNzI1MDdcIl19In0">lien</a> pour vous =
+d=C3=A9sabonner.</li>
+                                                </ul>
+=09=09=09=09=09=09                    </p>
+=09=09=09=09=09=09=09=09=09        <div style=3D"text-align:right;"><img sr=
+c=3D"http://www.mytalentplug.com/images/powered_by_ubiposting.png" /></div>
+=09=09                                </td>
+=09                                </tr>
+                                </table>
+                            </td>
+=09=09=09=09=09=09</tr>
+=09=09=09=09=09</table>
+=09=09=09=09<img src=3D"http://mandrillapp.com/track/open.php?u=3D30378319&=
+id=3D71ec2379bb87499aa9161c5dd4dab8bf" height=3D"1" width=3D"1"></body>
+=09=09=09</html>
+
+--_av-HSjVwW1rtIyKc6-rGecVaw--
+
+--_av-ArMV1XD9RLV7DmZkHqNvpg
+Content-Type: application/pdf
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="Offre-emploi_TALENTPEOPLE_SE-VENDEUR-DARTY  .pdf"
+
+JVBERi0xLjQKJdP0zOEKMSAwIG9iago8PAovQ3JlYXRpb25EYXRlKEQ6MjAx
+NTExMTIxMzAzMDErMDEnMDAnKQovQ3JlYXRvcihVYmlwb3N0aW5nKQovQXV0
+aG9yKFViaXBvc3RpbmcpCi9Nb2REYXRlKEQ6MjAxNTExMTIxMzAzMDErMDEn
+MDAnKQovU3ViamVjdChPZmZyZXMgZCdlbXBsb2kvc3RhZ2UgLSBWZW5kZXVy
+IFRlbXBzIHBhcnRpZWwgXChIL0ZcKSAtIFRBTEVOVFBFT1BMRSkKL1RpdGxl
+KE9mZnJlcyBkJ2VtcGxvaS9zdGFnZSAtIFZlbmRldXIgVGVtcHMgcGFydGll
+bCBcKEgvRlwpIC0gVEFMRU5UUEVPUExFKQovUHJvZHVjZXIoUERGc2hhcnAg
+MS4zMS4xNzg5LXcgXCh3d3cucGRmc2hhcnAuY29tXCkpCj4+CmVuZG9iagoy
+IDAgb2JqCjw8Ci9UeXBlL0NhdGFsb2cKL1BhZ2VzIDMgMCBSCj4+CmVuZG9i
+agozIDAgb2JqCjw8Ci9UeXBlL1BhZ2VzCi9Db3VudCAxCi9LaWRzWzQgMCBS
+XQo+PgplbmRvYmoKNCAwIG9iago8PAovVHlwZS9QYWdlCi9NZWRpYUJveFsw
+IDAgNTk1LjI3NiA4NDEuODldCi9QYXJlbnQgMyAwIFIKL0NvbnRlbnRzIDUg
+MCBSCi9SZXNvdXJjZXMKPDwKL1Byb2NTZXQgWy9QREYvVGV4dC9JbWFnZUIv
+SW1hZ2VDL0ltYWdlSV0KL1hPYmplY3QKPDwKL0kwIDYgMCBSCj4+Ci9FeHRH
+U3RhdGUKPDwKL0dTMCA3IDAgUgovR1MxIDEwIDAgUgo+PgovRm9udAo8PAov
+RjAgOSAwIFIKL0YxIDEyIDAgUgo+Pgo+PgovR3JvdXAKPDwKL0NTL0Rldmlj
+ZUNNWUsKL1MvVHJhbnNwYXJlbmN5Ci9JIGZhbHNlCi9LIGZhbHNlCj4+Cj4+
+CmVuZG9iago1IDAgb2JqCjw8Ci9MZW5ndGggMjA0MwovRmlsdGVyL0ZsYXRl
+RGVjb2RlCj4+CnN0cmVhbQp4nLVZ23LbRhJ951cgT3GqTGguGFzytLIpOdqy
+vY7ETVUq3geIHErjAgEIF26S9/3PvGK/Yns4V1BDx9lKimW5OIPp6Tl9uvtg
++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
+ADd9ba6kCvWGoVnIu9q7bvgdWXw7teN9JUyz964EGZAiSXJ1JWi+nLkSZHkR
+0yJliu62i6RxTmfMGZ32gwKQ+YUTPLBanjppJzbCCppiFrFjpzQ+yLqUGmVU
+VlDeWt60FYc3swQxhP9Wtm0lNs1YDzFoYXNWoDssk79ayM/tG4g6HKZAMaYY
+Dg5LpfS3I/L0+meO0A8bBrkUkTgjWCFnvsi138Pnfz85X5gKZW5kc3RyZWFt
+CmVuZG9iago2IDAgb2JqCjw8Ci9UeXBlL1hPYmplY3QKL1N1YnR5cGUvSW1h
+Z2UKL0xlbmd0aCA3NDU2Ci9GaWx0ZXJbL0ZsYXRlRGVjb2RlL0RDVERlY29k
+ZV0KL1dpZHRoIDE1MAovSGVpZ2h0IDU2Ci9CaXRzUGVyQ29tcG9uZW50IDgK
+L0NvbG9yU3BhY2UvRGV2aWNlUkdCCj4+CnN0cmVhbQp4nJ13B0BTy9buTqf3
+XkNvgoD03qvSexUBMWAIHVSKgCJNUKpSpSlFRKQJUqSLikiXKgSRIkgiLVJf
+OOe9c+67777/v//9kp39ZWatyfrWmtmZOf1yugDQGOkZ6gEgEAi4THwBp1gK
+O0NtbVczC1M9w4u6xA4AoDC4iPLFgGkAAO0bFGChr4W0s3dAIj4BYIAUgANS
+AODmHuh3yVLPCiDCUFcbGUg0Av4v7E0AoLP7qLiBGRIJ/M9A6+4XEAQAIDMi
+v+DhGehO5HeI/HpokN9ZO47IGa74nHEw9IwHEAMkcpYz7vUnP/eHzZ9c44x7
+oH09iPwsZj8PtMcZ7yHy+JBgTyKHXCTyuBCUZyiRjxE5//VgNIrICWe+aE+3
+QACAUpy1B3m6XyNySSKnCLCy0CZyFQAgofD6B37lH3iQZ1jQmShtjN+NAJTX
+tSCksLsIUkpRUQFp4Bl63TMoSNzMzd3HLcADqY1B+7n53gCAPzX/Abqz3CKJ
+SZaTUpSTE5eWkPqHRP2Xnf8mzmr7J9s2/6NmIKaPf7f9KztMMQAo7BJz8+Dv
+tiuPAaDpLgCwTP/dxv8EAKiJdWsc+gc9TGfz5VpQkJ/S+fOhoaESKE93ibOE
+/oX/1uDfwD/8nsTZcH+lB6njedUt+HoQ8ixv7pjrmOAAZKCfm7snUvyfJ/F/
+7Piv4zhn4XnVM8DTl+hhQ5xlKF8vYrl9PVBBKIwvEuX7/yvif+j2T/hzXhNB
+X3oCMLhKADRDDABk8yMApScHIE4FxB7QX3W7SGoDnK08W+6VP+f9HwD9v6OC
+U88+AlFef/hpW1gh3YMDQv7sO1uWAAwgA6gBBoAV4AL4AGFAHJAG5AFlQAPQ
+BYwAU8AKsAdcAHfgGoAGAoBQIByIBuKAJOABkAnkAIVAKVABvABeAU1AK9AJ
+9AEfgM/AODADLADLwA8AB+wBh8QHGQJECaIHsYK4QQIgMZA0SAGkBtIFXQRZ
+gOxBl0FeIF9QMCgcFAtKAqWBckBFoApQLagZ1AkaAA2DpkCLoDXQL9ABGAKm
+ADOAOcGC4PNgBbAm2BhsBXYGe4H9wTfBd8Ap4EfgYvBzcCO4E/wBPA5eAP8A
+70IACDmECcIDEYcoQLQhphAHyFVIACQSkgjJghRDXkBaIP2QUcgCZAPyGwqH
+0kORUHGoMtQAag11h/pDI6HJ0BxoObQR2gMdhS5CcdATGCWMAyYGU4IZwuxg
+XrBQWBwsC/YU1gDrhY3DlmF7cDicCS4El4cbwO3h3vBb8GR4PrwG/hY+DF+C
+7yIQCFaEGEIVYYpwQwQh4hCPEc8RHYgRxDKCQEJOwk0iTaJH4kDiSxJDkkVS
+SdJOMkKyQnJISkMqQKpEakrqQXqDNJW0lLSFdIh0mfSQjJZMiEyVzIrMmyya
+7BHZC7JeslmybXJycl5yRXJzchT5bfJH5C/J35Evkv+moKMQpdCmcKIIpkih
+eEbxlmKKYpuSklKQUoPSgTKIMoWygrKbcp6SQEVPJUFlSOVBFUWVS9VINUL1
+k5qUWoBak9qF+iZ1FnUd9RD1Bg0pjSCNNo0bTSRNLk0zzSTNLi09rRStKS2a
+Npm2knaAdpUOQSdIp0vnQXeHroSum26JHkLPR69N704fS19K30u/zABnEGIw
+ZPBmSGKoZvjEgGOkY5RhtGEMY8xlbGNcYIIwCTIZMl1nSmV6xTTBdMDMyazJ
+7MmcwPyCeYR5n4WdRYPFkyWRpYZlnOWAFcmqy+rD+pC1iXWODcomymbOFspW
+wNbLtsHOwK7M7s6eyP6KfZoDzCHKYcFxi6OE4yPHLicXpz6nH+djzm7ODS4m
+Lg0ub64MrnauNW56bjVuFHcGdwf3OpIRqYm8jnyE7EHieDh4DHiCeYp4PvEc
+8grxWvPG8NbwzvGR8SnwXeXL4Oviw/Fz81/iD+ev4p8WIBVQELgmkC3QL7Av
+KCRoK3hPsElwVYhFyFDoplCV0KwwpbC6sL9wsfCYCFxEQcRHJF/ksyhYVFb0
+mmiu6JAYWExODCWWLzZ8DnZO8ZzvueJzk+IU4priIeJV4osSTBIXJWIkmiR+
+nuc/73D+4fn+8yeSspLXJUslZ6TopIykYqRapH5Ji0q7S+dKj12gvKB3IerC
+6wt4GTEZT5kCmS+y9LKXZO/Jdskey8nLBci9kFuT55e/LJ8nP6nAoGCmkKzw
+ThGmqKUYpdiq+FtJTilI6ZXSlrK4so9ypfKqipCKp0qpypIqr6qbapHqghpS
+7bLaE7UFdR51N/VidawGn4aHxlONFU0RTW/N55o/tSS1ArQatPa1lbQjtN/q
+QHT0dRJ1PunS6Vrr5ujO6/HqeelV6eH0ZfVv6b81gBkYGzw0mDTkNHQ3rDDE
+GckbRRj1GFMYWxrnGGMvil4MuNhyCXzJ6FL6pVkTARNfkyZTwNTQNN10zkzI
+zN/sjTnc3Mw81/y7hZRFuEW/Jb2lq2Wl5Z6VllWq1Yy1sHWwdZcNtY2TTYXN
+vq2ObZrtgt15uwi7D/Zs9ij71w4IBxuHpw67jrqOmY7LTrJOcU4TzkLOYc4D
+Lmwu113aXKld3VzrLsMu216uvHzkZupW7LZ7xfBK3hWcu7Z7tvsPDw2PDI81
+T1XPNM+Vq6pX066ueql6pXutXVO/lnVtA6WNykHhvQ28C733fUx9nvmcXre9
+XoMmQV9GN/vS+fr49mC4MGGYYT8xvzi/BX8l/0x/XIBxwNNAUKBz4OsgBuJm
+6mOwcPDd4MUQtZDcEEKoTWhdGG2Yb9jHG6I3Em6s3NS7WXYLesv9Vlc4T3h0
++GKEZkRRJCjySmRXFF/Unajl2/q3y6PJon2iB2MkY9JidmJtY1vucN65fWfp
+rv7dqjiquIC4yXvK9wrjofGo+E8JFxIeJ5wkeiS+T5JMyko6SnZPfn9f6v6j
++6cpV1M+pcqlFjyAP/B9MPFQ/WF5Gm3azbSl9EvpjRnIjMSMnUzXzIEsmazC
+bLLs4OyFRxcfvX7M//jB46OcaznjuVq5NXkceQl5+/ke+SMFGgUvCjkLkwoP
+nqCefCnSL2osFizOKoGXhJR8L7Up7S9TKKt4yvY06enxM99nC+UW5T0V8hUV
+lRyVqVXgquCqtedOzz9X61S/fiH+oqiGqSbpJfAy+OV67eXaiVfGr7rqFOpe
+1AvU5zXQNyQ2ghpvNOKarjUtvLZ/Pdxs1NzVotzS8EbizbNWntbcNsa21Hay
+9jvtpx03O3bf+r3d6PTqXOpy7Zrptuse6zHv+dRr3PuuT6+vu1+zv+Od6rvW
+AaWB5vcK75s+yH1o/Cj7sWFQdrDhk9ynxiH5odefFT+3DKsMt4+oj3SO6oz2
+jRmOfRg3GR+esJ74Muk0ufDF48vq1PUp/HTI9OHM7VnYbOIczVzWPMd88VeR
+rzULcgttizqLH7GW2Jkl96Uf3wK/HS3f+U75PWuFe6ViVXq1dU1v7fO64/ry
+D78fhxtxm7SbeT+Ff9ZvaWx9xNnhlvEB+NNfydus2892ZHa6ds125/fQe4f7
+iQRWQvlvhd/9B7YHK4ehR4ijR8cixy0nxiezp+jT09MZQPvsnPE3wMQ/2TNA
+IRAwBAaFwWBQKBQGR8BhMAQcCoWTwhEkZ4DBSclIScjOvpwN8qcrGEp8kxC9
+SP7HOH0L0JIACkAWBMQLgGlBEFrQaQ/ATdzTwP4M7P9saEBgyFk8JKRk5ESD
+BhoADCKGCoWcBUrsjSD2A1BaGB2PlCac3twNwevPIB39sIiET6u2k9FiGMd/
+4UpADCkZEzMLK5uAoJCwiKiMrJy8gqKSto6unr6BoZGllbWNLXGj5e7hedXr
+Gso7MCg4JDTsxs3YO3fj7sUnJKalZ2RmZT96nFNcUlr29Fl5ReWruvqGxqbX
+zS1d3T29ff3vBt6PjI6NT0x+mZpexC59W/6+srq2jv+1vbO7t0/4fXCmCwRA
+/kr5v9RFS9QFhkIhUMSZLhA49MyAFgrjkYLTaZoj3PzpeaWjSRi0HhbVdpLy
+XbDAMV4JGCZj4pdZFMCfSftD2b8nLOY/UvaXsL91TQMUEBCxeBBaQB04ORGu
+uXMKLBRH1TuvbMwcnj/SwNvek3W+pYk/3sxrVONofzXi0e5oPPIm9qMOhkOU
+QY3LjEZuOO+BaMfG5uHlI4GO44cq3PjU/nn5CRlKZs3P9dXqPTlDCdd9n09H
+6Dho8XtcKG4bSNNXSJPs0gooHa1reHs4kni0NtyxUOH6Sq6smuBlNBZ8CsRH
+Uo42VGU2jsjmR3U5xOWXrUtLvv8dGqhTDuKIQ1elHIve25TCct4yOe6IWsh1
+ECysXp9gkyieV2K7mydP9cAlfueRg7qcpFb7BP/9twt5yWze4m9AB8a64bH4
+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
+1UixkVZW94qwWKzpvXBynJOr8137bxPiU8GKOhZGvctTLBIVDPdjX2/aqsAE
+W3jw6YvKhLjuLmM8XyeiZ9/Hd68RYnlnyE/Q+fPGpakrP7aFgSyO5BQf7I+t
+6Il2gRYCqdtiVPSJKm7yXpBrQogL72T1kXWVRHGND9f9yq66vjrn2aMKlb3u
+K5vK+XYi03Y3MD0/9kbV5FYLKYOEVVixnN7bSwWpWAOXSZvbLg6VawYu89gP
+J2oMfVkb3zWeqvMXUWZ6so50jz7jckAJTIlJLJv4mvwKjfSaVac7BVAdcZGk
+BDe8O1b+norm2VrJ5qIdkZD1mRO7OIZF5fOdKwsoa4x5P/A6BgQNhtp6EDcK
+rdxPZgiFZviVhCPqRUq5fqdsvbgbweX5V4PvCs4Iav223PRyJ521tpJSUIl0
+PTIhMB/qhFuPBB8+VuMKaxztsTiiw5vekaj2Ncn2etb/fM5lja7b55m+72H7
+e938YduMPFFBozq5iMbtRUSqDOUtbH/C184ohmI852TPnE+PC9t4q5Rgvh/O
+wbTUzhESiAoV7Zehl20tt7r//orNew9Z7+qx9J3EvoMhy7r6sZ3DNz7HSlj+
+gvkwAWoO/MvZFymlMaU0mtAYEt7ExRP6acKrD4uu3Y7qXKvt7LitFJ7PMoTd
+fGU9DZlD9kXfmGtoKz+kPlW5EgwgEwGtMZjrAv98Mdp8n5jYQzS0Nsb8HO8f
+4ihn5fBSqYByxSQKg8cZzDVg7nLRRY0vC3jQ7EboG+6S1fhG0/pzXgSd17PM
+MwrFicDU/37AQU6n/hcXVKxHCmVuZHN0cmVhbQplbmRvYmoKNyAwIG9iago8
+PAovVHlwZS9FeHRHU3RhdGUKL2NhIDEKPj4KZW5kb2JqCjggMCBvYmoKPDwK
+L1R5cGUvRm9udERlc2NyaXB0b3IKL0FzY2VudCA5MDUKL0NhcEhlaWdodCA3
+MTYKL0Rlc2NlbnQgLTIxMgovRmxhZ3MgMzIKL0ZvbnRCQm94Wy02MjggLTM3
+NiAyMDAwIDEwNTZdCi9JdGFsaWNBbmdsZSAwCi9TdGVtViAwCi9YSGVpZ2h0
+IDUxOQovRm9udE5hbWUvQXJpYWwsQm9sZAo+PgplbmRvYmoKOSAwIG9iago8
+PAovVHlwZS9Gb250Ci9TdWJ0eXBlL1RydWVUeXBlCi9CYXNlRm9udC9Bcmlh
+bCxCb2xkCi9FbmNvZGluZy9XaW5BbnNpRW5jb2RpbmcKL0ZvbnREZXNjcmlw
+dG9yIDggMCBSCi9GaXJzdENoYXIgMAovTGFzdENoYXIgMjU1Ci9XaWR0aHNb
+NzUwIDc1MCA3NTAgNzUwIDc1MCA3NTAgNzUwIDc1MCA3NTAgNzUwIDc1MCA3
+NTAgNzUwIDc1MCA3NTAgNzUwIDc1MCA3NTAgNzUwIDc1MCA3NTAgNzUwIDc1
+MCA3NTAgNzUwIDc1MCA3NTAgNzUwIDc1MCA3NTAgNzUwIDc1MCAyNzcgMzMz
+IDQ3NCA1NTYgNTU2IDg4OSA3MjIgMjM3IDMzMyAzMzMgMzg5IDU4MyAyNzcg
+MzMzIDI3NyAyNzcgNTU2IDU1NiA1NTYgNTU2IDU1NiA1NTYgNTU2IDU1NiA1
+NTYgNTU2IDMzMyAzMzMgNTgzIDU4MyA1ODMgNjEwIDk3NSA3MjIgNzIyIDcy
+MiA3MjIgNjY2IDYxMCA3NzcgNzIyIDI3NyA1NTYgNzIyIDYxMCA4MzMgNzIy
+IDc3NyA2NjYgNzc3IDcyMiA2NjYgNjEwIDcyMiA2NjYgOTQzIDY2NiA2NjYg
+NjEwIDMzMyAyNzcgMzMzIDU4MyA1NTYgMzMzIDU1NiA2MTAgNTU2IDYxMCA1
+NTYgMzMzIDYxMCA2MTAgMjc3IDI3NyA1NTYgMjc3IDg4OSA2MTAgNjEwIDYx
+MCA2MTAgMzg5IDU1NiAzMzMgNjEwIDU1NiA3NzcgNTU2IDU1NiA1MDAgMzg5
+IDI3OSAzODkgNTgzIDc1MCA1NTYgNzUwIDI3NyA1NTYgNTAwIDEwMDAgNTU2
+IDU1NiAzMzMgMTAwMCA2NjYgMzMzIDEwMDAgNzUwIDYxMCA3NTAgNzUwIDI3
+NyAyNzcgNTAwIDUwMCAzNTAgNTU2IDEwMDAgMzMzIDEwMDAgNTU2IDMzMyA5
+NDMgNzUwIDUwMCA2NjYgMjc3IDMzMyA1NTYgNTU2IDU1NiA1NTYgMjc5IDU1
+NiAzMzMgNzM2IDM3MCA1NTYgNTgzIDMzMyA3MzYgNTUyIDM5OSA1NDggMzMz
+IDMzMyAzMzMgNTc2IDU1NiAzMzMgMzMzIDMzMyAzNjUgNTU2IDgzMyA4MzMg
+ODMzIDYxMCA3MjIgNzIyIDcyMiA3MjIgNzIyIDcyMiAxMDAwIDcyMiA2NjYg
+NjY2IDY2NiA2NjYgMjc3IDI3NyAyNzcgMjc3IDcyMiA3MjIgNzc3IDc3NyA3
+NzcgNzc3IDc3NyA1ODMgNzc3IDcyMiA3MjIgNzIyIDcyMiA2NjYgNjY2IDYx
+MCA1NTYgNTU2IDU1NiA1NTYgNTU2IDU1NiA4ODkgNTU2IDU1NiA1NTYgNTU2
+IDU1NiAyNzcgMjc3IDI3NyAyNzcgNjEwIDYxMCA2MTAgNjEwIDYxMCA2MTAg
+NjEwIDU0OCA2MTAgNjEwIDYxMCA2MTAgNjEwIDU1NiA2MTAgNTU2XQo+Pgpl
+bmRvYmoKMTAgMCBvYmoKPDwKL1R5cGUvRXh0R1N0YXRlCi9DQSAxCj4+CmVu
+ZG9iagoxMSAwIG9iago8PAovVHlwZS9Gb250RGVzY3JpcHRvcgovQXNjZW50
+IDkwNQovQ2FwSGVpZ2h0IDcxNgovRGVzY2VudCAtMjEyCi9GbGFncyAzMgov
+Rm9udEJCb3hbLTY2NSAtMzI1IDIwNDYgMTA0MF0KL0l0YWxpY0FuZ2xlIDAK
+L1N0ZW1WIDAKL1hIZWlnaHQgNTE5Ci9Gb250TmFtZS9BcmlhbAo+PgplbmRv
+YmoKMTIgMCBvYmoKPDwKL1R5cGUvRm9udAovU3VidHlwZS9UcnVlVHlwZQov
+QmFzZUZvbnQvQXJpYWwKL0VuY29kaW5nL1dpbkFuc2lFbmNvZGluZwovRm9u
+dERlc2NyaXB0b3IgMTEgMCBSCi9GaXJzdENoYXIgMAovTGFzdENoYXIgMjU1
+Ci9XaWR0aHNbNzUwIDc1MCA3NTAgNzUwIDc1MCA3NTAgNzUwIDc1MCA3NTAg
+NzUwIDc1MCA3NTAgNzUwIDc1MCA3NTAgNzUwIDc1MCA3NTAgNzUwIDc1MCA3
+NTAgNzUwIDc1MCA3NTAgNzUwIDc1MCA3NTAgNzUwIDc1MCA3NTAgNzUwIDc1
+MCAyNzcgMjc3IDM1NCA1NTYgNTU2IDg4OSA2NjYgMTkwIDMzMyAzMzMgMzg5
+IDU4MyAyNzcgMzMzIDI3NyAyNzcgNTU2IDU1NiA1NTYgNTU2IDU1NiA1NTYg
+NTU2IDU1NiA1NTYgNTU2IDI3NyAyNzcgNTgzIDU4MyA1ODMgNTU2IDEwMTUg
+NjY2IDY2NiA3MjIgNzIyIDY2NiA2MTAgNzc3IDcyMiAyNzcgNTAwIDY2NiA1
+NTYgODMzIDcyMiA3NzcgNjY2IDc3NyA3MjIgNjY2IDYxMCA3MjIgNjY2IDk0
+MyA2NjYgNjY2IDYxMCAyNzcgMjc3IDI3NyA0NjkgNTU2IDMzMyA1NTYgNTU2
+IDUwMCA1NTYgNTU2IDI3NyA1NTYgNTU2IDIyMiAyMjIgNTAwIDIyMiA4MzMg
+NTU2IDU1NiA1NTYgNTU2IDMzMyA1MDAgMjc3IDU1NiA1MDAgNzIyIDUwMCA1
+MDAgNTAwIDMzMyAyNTkgMzMzIDU4MyA3NTAgNTU2IDc1MCAyMjIgNTU2IDMz
+MyAxMDAwIDU1NiA1NTYgMzMzIDEwMDAgNjY2IDMzMyAxMDAwIDc1MCA2MTAg
+NzUwIDc1MCAyMjIgMjIyIDMzMyAzMzMgMzUwIDU1NiAxMDAwIDMzMyAxMDAw
+IDUwMCAzMzMgOTQzIDc1MCA1MDAgNjY2IDI3NyAzMzMgNTU2IDU1NiA1NTYg
+NTU2IDI1OSA1NTYgMzMzIDczNiAzNzAgNTU2IDU4MyAzMzMgNzM2IDU1MiAz
+OTkgNTQ4IDMzMyAzMzMgMzMzIDU3NiA1MzcgMzMzIDMzMyAzMzMgMzY1IDU1
+NiA4MzMgODMzIDgzMyA2MTAgNjY2IDY2NiA2NjYgNjY2IDY2NiA2NjYgMTAw
+MCA3MjIgNjY2IDY2NiA2NjYgNjY2IDI3NyAyNzcgMjc3IDI3NyA3MjIgNzIy
+IDc3NyA3NzcgNzc3IDc3NyA3NzcgNTgzIDc3NyA3MjIgNzIyIDcyMiA3MjIg
+NjY2IDY2NiA2MTAgNTU2IDU1NiA1NTYgNTU2IDU1NiA1NTYgODg5IDUwMCA1
+NTYgNTU2IDU1NiA1NTYgMjc3IDI3NyAyNzcgMjc3IDU1NiA1NTYgNTU2IDU1
+NiA1NTYgNTU2IDU1NiA1NDggNjEwIDU1NiA1NTYgNTU2IDU1NiA1MDAgNTU2
+IDUwMF0KPj4KZW5kb2JqCnhyZWYKMCAxMwowMDAwMDAwMDAwIDY1NTM1IGYg
+CjAwMDAwMDAwMTUgMDAwMDAgbiAKMDAwMDAwMDM1OSAwMDAwMCBuIAowMDAw
+MDAwNDA3IDAwMDAwIG4gCjAwMDAwMDA0NjIgMDAwMDAgbiAKMDAwMDAwMDc3
+MyAwMDAwMCBuIAowMDAwMDAyODg4IDAwMDAwIG4gCjAwMDAwMTA1MjEgMDAw
+MDAgbiAKMDAwMDAxMDU2NCAwMDAwMCBuIAowMDAwMDEwNzQ2IDAwMDAwIG4g
+CjAwMDAwMTE5MzEgMDAwMDAgbiAKMDAwMDAxMTk3NSAwMDAwMCBuIAowMDAw
+MDEyMTUzIDAwMDAwIG4gCnRyYWlsZXIKPDwKL0lEWzxDMTRDRkExQ0NEOEU0
+QTQ1Qjc0QjNCQTAzNTFDQ0ExOD48QzE0Q0ZBMUNDRDhFNEE0NUI3NEIzQkEw
+MzUxQ0NBMTg+XQovSW5mbyAxIDAgUgovUm9vdCAyIDAgUgovU2l6ZSAxMwo+
+PgpzdGFydHhyZWYKMTMzMzYKJSVFT0YK
+
+--_av-ArMV1XD9RLV7DmZkHqNvpg--
+

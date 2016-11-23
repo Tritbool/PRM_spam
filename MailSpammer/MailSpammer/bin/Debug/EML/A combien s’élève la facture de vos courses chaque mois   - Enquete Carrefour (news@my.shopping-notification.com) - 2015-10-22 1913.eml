@@ -1,0 +1,361 @@
+Return-Path: <news@my.shopping-notification.com>
+Received: from mailimailo.univ-rennes1.fr ([unix socket])
+	 by mailimailo.univ-rennes1.fr (Cyrus v2.3.16-Fedora-RPM-2.3.16-6.el6_2.5) with LMTPA;
+	 Thu, 22 Oct 2015 19:13:27 +0200
+X-Sieve: CMU Sieve 2.3
+Received: from vmsmtprexch.univ-rennes1.fr (vmsmtprexch.univ-rennes1.fr [129.20.128.62])
+	by mailimailo.univ-rennes1.fr (Postfix) with ESMTP id E0D2026A0B65
+	for <resp-m2-miage@univ-rennes1.fr>; Thu, 22 Oct 2015 19:13:27 +0200 (CEST)
+Received: from mbcasexch3.Ur.local (mbcasexch3.univ-rennes1.fr [129.20.125.131])
+	by vmsmtprexch.univ-rennes1.fr (Postfix) with ESMTP id DDCDE106
+	for <resp-m2-miage@univ-rennes1.fr>; Thu, 22 Oct 2015 19:13:27 +0200 (CEST)
+X-CrossPremisesHeadersFilteredBySendConnector: mbcasexch3.Ur.local
+Received: from mbcasexch1.Ur.local (2002:8114:7d81::8114:7d81) by
+ mbcasexch3.Ur.local (2002:8114:7d83::8114:7d83) with Microsoft SMTP Server
+ (TLS) id 15.0.913.22; Thu, 22 Oct 2015 19:13:27 +0200
+Received: from mailout1.univ-rennes1.fr (129.20.128.162) by
+ mbcasexch1.Ur.local (129.20.125.129) with Microsoft SMTP Server id
+ 15.0.913.22 via Frontend Transport; Thu, 22 Oct 2015 19:13:27 +0200
+Received: from localhost (vmscanmail.univ-rennes1.fr [129.20.128.134])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id 7846260267
+	for <resp-m2-miage@univ-rennes1.fr>; Thu, 22 Oct 2015 19:13:27 +0200 (CEST)
+X-Virus-Scanned: amavisd-new at univ-rennes1.fr
+Received: from mailout1.univ-rennes1.fr ([129.20.128.162])
+	by localhost (vmscanmail.univ-rennes1.frm [129.20.128.134]) (amavisd-new, port 10026)
+	with ESMTP id IG8_NsH0ZHki for <resp-m2-miage@univ-rennes1.fr>;
+	Thu, 22 Oct 2015 19:13:27 +0200 (CEST)
+Received: from vmmailin.univ-rennes1.fr (vmmailin.univ-rennes1.fr [129.20.128.133])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id 55DFF600FB
+	for <resp-m2-miage@univ-rennes1.fr>; Thu, 22 Oct 2015 19:13:27 +0200 (CEST)
+Received: from mxb2-2.relay.renater.fr (mxb2-2.relay.renater.fr [194.214.200.9])
+	by vmmailin.univ-rennes1.fr (Postfix) with ESMTP id 4E3DC20033
+	for <resp-m2-miage@univ-rennes1.fr>; Thu, 22 Oct 2015 19:13:27 +0200 (CEST)
+Received: from my.shopping-notification.com (mta77.smtp6.azrmta.com [51.254.72.77])
+	by mxb2-2.relay.renater.fr (asm) with SMTP id 225D96006E3
+	for <resp-m2-miage@univ-rennes1.fr>; Thu, 22 Oct 2015 19:13:27 +0200 (CEST)
+DomainKey-Signature: a=rsa-sha1; q=dns; c=nofws;
+  s=mail;d=my.shopping-notification.com;
+  h=from:sender:to:date:message-id:subject:mime-version:content-type;
+  b=Z/RmoCduARVxi/8dUz56yyRIYVEzb+6vRkuLlSAuvDN0+tBbWDs92vEYk191FWkza5pAI+iz
+    tTmZvjlJaWfvZktWRf30pVB4JDmln83u3NT6rxMtXv8XCxXcseFElJa3oaRwo6POgCPk5s+o
+    OF4Re3o5Xkmy/Dl6aAG8ExNWuxE=
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed;
+  s=mail;d=my.shopping-notification.com;
+  h=from:sender:to:date:message-id:subject:mime-version:content-type;
+  bh=v50wk879vQ+FvudQQyM/xahuKEE=;
+  b=Kg5ZteAPIWw3hFICmRL7Pvee4rhYjCFEmHEtmvfoNRXLxXeUP4n6GoSQEc0HYankULKFkKTS
+    d5zZYW+Z1lbGqNZmLLkjnlGocdgeDGkz3rP/HsCiuWrICmYiOPNUZjjIkA8bxLxSQYIBjBvb
+    mRoJVK4xl0Xoz3d9fdTuStJ/DnM=
+X-Customer-Id: 115
+X-Campaign-Id: 28
+List-Unsubscribe: http://my.shopping-notification.com/tr/1/4106277/28/234942/
+From: Enquete Carrefour <news@my.shopping-notification.com>
+Sender: Enquete Carrefour <news@my.shopping-notification.com>
+Reply-To: Enquete Carrefour <news@my.shopping-notification.com>
+To: <resp-m2-miage@univ-rennes1.fr>
+Date: Thu, 22 Oct 2015 17:13:35 +0000
+Organization: my.shopping-notification.com
+Message-ID: <1-4106277-28-234942@my.shopping-notification.com>
+Subject: =?utf-8?B?QSBjb21iaWVuIHPigJnDqWzDqHZlIGxhIGZhY3R1cmUgZGUgdm9zIGNvdXI=?=
+	=?utf-8?B?c2VzIGNoYXF1ZSBtb2lzID8=?=
+MIME-Version: 1.0
+X-Mailer: PHPMailer
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: 8bit
+X-UCE-Status: YES
+X-UCE-Type: MCE
+X-Original-Source-IP: 51.254.72.77
+X-Bizanga: IMP - mxb2-2.relay.renater.fr
+X-Renater-SpamState: 11
+X-Renater-SpamScore: 17
+X-Renater-SpamCause: gggruggvucftvghtrhhoucdtuddrfeekhedrtdeggdduudduucetufdoteggodetrfdotffvucfrrhhofhhilhgvmecutffgpfetvffgtfdpggftfghnshhusghstghrihgsvgenuceurghilhhouhhtmecufedttdenucdnofetkffnkffpifculddujedmnecujfgurhepjffhshhrvfffohfkufggofgtgfeshhekredthedtjeenucfhrhhomhepgfhnqhhuvghtvgcuvegrrhhrvghfohhurhcuoehnvgifshesmhihrdhshhhophhpihhnghdqnhhothhifhhitggrthhiohhnrdgtohhmqeenucffohhmrghinhepshhhohhpphhinhhgqdhnohhtihhfihgtrghtihhonhdrtghomhenucfrrghrrghmpehmohguvgepshhmthhppdhhvghlohepmhihrdhshhhophhpihhnghdqnhhothhifhhitggrthhiohhnrdgtohhmpdhinhgvthephedurddvheegrdejvddrjeejpdhmrghilhhfrhhomhepnhgvfihssehmhidrshhhohhpphhinhhgqdhnohhtihhfihgtrghtihhonhdrtghomhdprhgtphhtthhopehrvghsphdqmhdvqdhmihgrghgvsehunhhivhdqrhgvnhhnvghsuddrfhhr 
+X-Renater-ServerName: mxb2-2.relay.renater.fr
+X-OrganizationHeadersPreserved: mbcasexch3.Ur.local
+
+﻿<html>
+<head>
+<title>&amp;Selonvous.com</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+<body bgcolor="#FFFFFF" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0"><div align="center">
+<font color="#666666" style="font-size:10px;font-family:Verdana,Arial,Helvetica,sans-serif;">
+<b>Bonjour  , vous recevez ce mail car vous êtes abonné avec l'adresse resp-m2-miage@univ-rennes1.fr</b><br>
+Pour cesser de recevoir nos communications <a  href="http://my.shopping-notification.com/tr/?id=59bce6c9e60f502bf596b42aaa33543b67924653172b8fff495ace8cf4459c8f">d&eacute;sabonnez-vous</a><br>
+		Pour visualiser correctement ce message, acc&eacute;dez &agrave; la <a  href="http://my.shopping-notification.com/mr/?id=59bce6c9e60f502bf596b42aaa33543b133080b2e075169aed57f336b94e45308ed8f3317cbb4055">version en ligne</a><br>
+	</font>
+</div>
+<center>	
+
+<STYLE type="text/css">
+
+ReadMsgBody { width: 100%;background-color: #ffffff;}
+ExternalClass {width: 100%;background-color: #ffffff;}
+ td { border-collapse: collapse; }
+ img {outline:none; text-decoration:none; -ms-interpolation-mode: bicubic;}
+ a img {border:none;}
+ body{background-color: #ffffff;}
+ExternalClass * {line-height: 100%;}
+</STYLE>
+
+<img src="http://survey.usitc.us/tracking/trackopen/823/1467/spacer" width="1" height="1" border="0" alt="" />
+
+
+<table width="600" border="0" cellpadding="0" cellspacing="0">
+	<tr>
+		<td bgcolor="#d0dcea" style="text-align:center;background-color:#d0dcea;">
+			<a  href="http://my.shopping-notification.com/tr/?id=59bce6c9e60f502bf596b42aaa33543baffd4fca70389943142ce4849afd44a6">
+				<img style="display:block;" src="http://assets.usitc.us/SURVEYS/FR/supermarket/2015-09-29/images/img01.jpg" width="600" height="31" border="0" alt=""></a></td>
+	</tr>
+</table>
+
+
+<table width="600" border="0" cellpadding="0" cellspacing="0">	
+	<tr>
+		<td bgcolor="#ffffff" style="text-align:center;background-color:#ffffff;">
+			<a  href="http://my.shopping-notification.com/tr/?id=59bce6c9e60f502bf596b42aaa33543b3f60953024c3828287b3da76487fc196" style="font-family: Arial, sans-serif; font-size:18px; color:#314999; text-decoration:none;">
+				<img style="display:block;" src="http://assets.usitc.us/SURVEYS/FR/supermarket/2015-09-29/images/img02.jpg" width="198" height="112" border="0" alt="Carrefour">
+			</a>
+		</td>
+
+
+
+		<td width="340" height="112" bgcolor="#ffffff" style="text-align:right;background-color:#ffffff;padding-right:20px;">
+			<font face="Arial, Verdana, sans-serif" color="#314999" style="font-size:19px;">
+				<b>Bonjour ,</b>
+			</font>
+		</td>
+
+
+		<td bgcolor="#ffffff" style="text-align:center;background-color:#ffffff;">
+			<a  href="http://my.shopping-notification.com/tr/?id=59bce6c9e60f502bf596b42aaa33543bc93f06e15e3df17e73fc1922d5d07cb1">
+				<img style="display:block;" src="http://assets.usitc.us/SURVEYS/FR/supermarket/2015-09-29/images/img04.jpg" width="42" height="112" border="0" alt="">
+			</a>
+		</td>
+	</tr>
+</table>
+
+
+
+
+<table width="600" border="0" cellpadding="0" cellspacing="0">
+	<tr>
+		<td bgcolor="#d0dcea" style="text-align:center;background-color:#d0dcea;">
+			<a  href="http://my.shopping-notification.com/tr/?id=59bce6c9e60f502bf596b42aaa33543b9b918d6915849ccb270ab04fc6fbc4a7">
+				<img style="display:block;" src="http://assets.usitc.us/SURVEYS/FR/supermarket/2015-09-29/images/img05.jpg" width="41" height="78" border="0" alt="">
+			</a>
+		</td>
+
+
+		<td width="517" height="78" bgcolor="#314999" style="text-align:center;background-color:#314999;">
+			<font face="Helvetica, Arial, Verdana, sans-serif" color="#ffffff" style="font-size:16px;">
+				<font face="Helvetica, Arial, Verdana, sans-serif" color="#ffffff" style="font-size:20px;">Nous aimerions conna&icirc;tre votre avis !</font><br/>
+				<b>&Agrave; combien s&rsquo;&eacute;l&egrave;ve la facture de vos courses chaque mois ?</b>
+			</font>
+		</td>
+
+
+		<td bgcolor="#d0dcea" style="text-align:center;background-color:#d0dcea;">
+			<a  href="http://my.shopping-notification.com/tr/?id=59bce6c9e60f502bf596b42aaa33543b7707d77c0d4ced7da01614b669d43e84">
+				<img style="display:block;" src="http://assets.usitc.us/SURVEYS/FR/supermarket/2015-09-29/images/img07.jpg" width="42" height="78" border="0" alt="">
+			</a>
+		</td>
+	</tr>
+</table>
+
+
+
+
+
+<table width="600" border="0" cellpadding="0" cellspacing="0">
+	<tr>
+		<td bgcolor="#d0dcea" style="text-align:center;background-color:#d0dcea;">
+			<a  href="http://my.shopping-notification.com/tr/?id=59bce6c9e60f502bf596b42aaa33543b7fa6777e6c42f57b733ec6126d70c2f1">
+				<img style="display:block;" src="http://assets.usitc.us/SURVEYS/FR/supermarket/2015-09-29/images/img08.jpg" width="41" height="60" border="0" alt="">
+			</a>
+		</td>
+
+
+		<td bgcolor="#ba0623" style="text-align:center;background-color:#ba0623;">
+			<a  href="http://my.shopping-notification.com/tr/?id=59bce6c9e60f502bf596b42aaa33543b853cae65473c140ab3b3af558fbccbcb">
+				<img style="display:block;" src="http://assets.usitc.us/SURVEYS/FR/supermarket/2015-09-29/images/img09.jpg" width="48" height="60" border="0" alt="">
+			</a>
+		</td>
+
+
+		<td width="129" height="60" bgcolor="#ffffff" style="text-align:left;background-color:#ffffff;">
+			<a  href="http://my.shopping-notification.com/tr/?id=59bce6c9e60f502bf596b42aaa33543bbcacfe7f3f523961408b8dbb5c0cd21b" style="text-decoration:none;">
+				<font face="Helvetica, Arial, Verdana, sans-serif" color="#121212" style="font-size:15px;">
+					<b>Moins de 100&euro;</b>
+				</font>
+			</a>
+		</td>
+
+
+		<td bgcolor="#ba0623" style="text-align:center;background-color:#ba0623;">
+			<a  href="http://my.shopping-notification.com/tr/?id=59bce6c9e60f502bf596b42aaa33543b0b8caf6b758d9294197c7a620c4bbf96">
+				<img style="display:block;" src="http://assets.usitc.us/SURVEYS/FR/supermarket/2015-09-29/images/img11.jpg" width="28" height="60" border="0" alt=""></a></td>
+
+
+		<td width="163" height="60" bgcolor="#ffffff" style="text-align:left;background-color:#ffffff;">
+			<a  href="http://my.shopping-notification.com/tr/?id=59bce6c9e60f502bf596b42aaa33543b949a6aa08bec55e3405b13d366545a2d" style="text-decoration:none;">
+				<font face="Helvetica, Arial, Verdana, sans-serif" color="#121212" style="font-size:15px;">
+					<b>Entre 100&euro; et 200&euro;</b>
+				</font>
+			</a>
+		</td>
+
+
+		<td bgcolor="#ba0623" style="text-align:center;background-color:#ba0623;">
+			<a  href="http://my.shopping-notification.com/tr/?id=59bce6c9e60f502bf596b42aaa33543b171378cdedaf83598999ac86e930c6d9">
+				<img style="display:block;" src="http://assets.usitc.us/SURVEYS/FR/supermarket/2015-09-29/images/img13.jpg" width="28" height="60" border="0" alt=""></a></td>
+
+
+		<td width="121" height="60" bgcolor="#ffffff" style="text-align:left;background-color:#ffffff;">
+			<a  href="http://my.shopping-notification.com/tr/?id=59bce6c9e60f502bf596b42aaa33543b02058c5089b9af515cedace6c39c8f0a" style="text-decoration:none;">
+				<font face="Helvetica, Arial, Verdana, sans-serif" color="#121212" style="font-size:15px;">
+					<b>Plus de 200&euro;</b>
+				</font>
+			</a>
+		</td>
+
+
+		<td bgcolor="#d0dcea" style="text-align:center;background-color:#d0dcea;">
+			<a  href="http://my.shopping-notification.com/tr/?id=59bce6c9e60f502bf596b42aaa33543b1670908ea0a8596ce65a88b1204b9564">
+				<img style="display:block;" src="http://assets.usitc.us/SURVEYS/FR/supermarket/2015-09-29/images/img15.jpg" width="42" height="60" border="0" alt=""></a></td>
+	</tr>
+</table>
+
+
+
+
+<table width="600" border="0" cellpadding="0" cellspacing="0">
+	<tr>
+		<td bgcolor="#d0dcea" style="text-align:center;background-color:#d0dcea;">
+			<a  href="http://my.shopping-notification.com/tr/?id=59bce6c9e60f502bf596b42aaa33543b4d1466a517044048a87216c4584a1c68">
+				<img style="display:block;" src="http://assets.usitc.us/SURVEYS/FR/supermarket/2015-09-29/images/img16.jpg" width="41" height="105" border="0" alt=""></a></td>
+
+
+		<td width="517" height="105" bgcolor="#ffffff" style="text-align:center;background-color:#ffffff;">
+			<font face="Helvetica, Arial, Verdana, sans-serif" color="#314999" style="font-size:19px;">
+				En compl&eacute;tant l&rsquo;enqu&ecirc;te vous pourriez avoir la chance<br/> 
+				de repartir avec <font face="Helvetica, Arial, Verdana, sans-serif" color="#a80f27" style="font-size:19px;"><b>500 euros &agrave; d&eacute;penser chez Carrefour</b></font>
+			</font>
+		</td>
+
+
+		<td bgcolor="#d0dcea" style="text-align:center;background-color:#d0dcea;">
+			<a  href="http://my.shopping-notification.com/tr/?id=59bce6c9e60f502bf596b42aaa33543baab0862dca0b068884cf646262bb455a">
+				<img style="display:block;" src="http://assets.usitc.us/SURVEYS/FR/supermarket/2015-09-29/images/img18.jpg" width="42" height="105" border="0" alt=""></a></td>
+	</tr>
+</table>
+
+
+
+
+
+<table width="600" border="0" cellpadding="0" cellspacing="0">
+	<tr>
+		<td bgcolor="#d0dcea" style="text-align:center;background-color:#d0dcea;">
+			<a  href="http://my.shopping-notification.com/tr/?id=59bce6c9e60f502bf596b42aaa33543b16d771f01669e4dfcd1abdb563036979">
+				<img style="display:block;" src="http://assets.usitc.us/SURVEYS/FR/supermarket/2015-09-29/images/img19.jpg" width="124" height="110" border="0" alt="">
+			</a>
+		</td>
+
+
+		<td bgcolor="#a61028" style="text-align:center;background-color:#a61028;">
+			<a  href="http://my.shopping-notification.com/tr/?id=59bce6c9e60f502bf596b42aaa33543b2484ed95dfbfa6b0eec7757efd529414" style="font-family: Arial, sans-serif; font-size:26px; color:#ffffff; text-decoration:none;">
+				<img style="display:block;" src="http://assets.usitc.us/SURVEYS/FR/supermarket/2015-09-29/images/img20.jpg" width="377" height="110" border="0" alt="Commencez l&#39;enqu&#234;te">
+			</a>
+		</td>
+
+
+		<td bgcolor="#d0dcea" style="text-align:center;background-color:#d0dcea;">
+			<a  href="http://my.shopping-notification.com/tr/?id=59bce6c9e60f502bf596b42aaa33543b67ce12050423a409d342e7a6434b3d2f">
+				<img style="display:block;" src="http://assets.usitc.us/SURVEYS/FR/supermarket/2015-09-29/images/img21.jpg" width="99" height="110" border="0" alt="">
+			</a>
+		</td>
+	</tr>
+</table>
+
+
+
+
+<table width="600" border="0" cellpadding="0" cellspacing="0">
+	<tr>
+		<td width="600" height="47" bgcolor="#d0dcea" style="text-align:center;background-color:#d0dcea;">
+			<font face="Helvetica, Arial, Verdana, sans-serif" color="#314999" style="font-size:28px;">
+				Valable pour :
+			</font>
+		</td>
+	</tr>
+</table>
+
+
+
+
+
+<table width="600" border="0" cellpadding="0" cellspacing="0">
+	<tr>
+		<td bgcolor="#eb9f00" style="text-align:center;background-color:#eb9f00;">
+			<a  href="http://my.shopping-notification.com/tr/?id=59bce6c9e60f502bf596b42aaa33543b09691e6212d55931de47cf7fe120ccfd" style="font-family: Arial, sans-serif; font-size:16px; color:#ffffff; text-decoration:none;">
+				<img style="display:block;" src="http://assets.usitc.us/SURVEYS/FR/supermarket/2015-09-29/images/img23.jpg" width="208" height="289" border="0" alt="Alimentaires">
+			</a>
+		</td>
+
+
+
+		<td bgcolor="#e7227c" style="text-align:center;background-color:#e7227c;">
+			<a  href="http://my.shopping-notification.com/tr/?id=59bce6c9e60f502bf596b42aaa33543b53b7bbfc4f41fb4cc228bf6ad058e2e1" style="font-family: Arial, sans-serif; font-size:16px; color:#ffffff; text-decoration:none;">
+				<img style="display:block;" src="http://assets.usitc.us/SURVEYS/FR/supermarket/2015-09-29/images/img24.jpg" width="180" height="289" border="0" alt="V&#234;tements">
+			</a>
+		</td>
+
+
+
+		<td bgcolor="#00aac3" style="text-align:center;background-color:#00aac3;">
+			<a  href="http://my.shopping-notification.com/tr/?id=59bce6c9e60f502bf596b42aaa33543ba4290bff9b6bc2810c0e56c2d6c3bcdf" style="font-family: Arial, sans-serif; font-size:16px; color:#ffffff; text-decoration:none;">
+				<img style="display:block;" src="http://assets.usitc.us/SURVEYS/FR/supermarket/2015-09-29/images/img25.jpg" width="212" height="289" border="0" alt="Essences">
+			</a>
+		</td>
+	</tr>
+</table>
+
+
+
+<table>
+	<tr>
+		<td width="600" height="128" bgcolor="#ffffff" style="text-align:left;background-color:#ffffff;padding-top:10px;">
+			
+				<font face="Arial, verdana, sans-serif" color="#333333" style="font-size:11px;">
+				Carrefour n'est ni l'organisateur ni le sponsor de cette enqu&#234;te<br/><br/>
+				
+				<b>&amp;Selon Vous</b><br/>
+				Depuis 2005 l'institut de sondage &amp;SelonVous publie chaque mois des enqu&ecirc;tes th&eacute;matiques ayant pour but l'&eacute;tude de votre opinion et vos modes de consommation sur Internet.
+				Dans le cadre de chaque nouveau sondage une dotation a gagner est propos&eacute;e a l'ensemble des r&eacute;pondants car l'institut ne pourrait exister sans vous !
+
+				<br/><br/>
+				Ce Jeu gratuit et sans obligation d'achat est ouvert a toute personne majeure residant en France m&eacute;tropolitaine exclusivement (incluant la Corse), a l'exclusion des membres du personnel de l'Organisateur, et d'une facon g&eacute;n&eacute;rale des soci&eacute;t&eacute;s participant a la mise en &oelig;uvre de ce Jeu. 
+				<br/><br/>
+				Les informations nominatives recueillies dans le cadre du pr&eacute;sent jeu sont trait&eacute;es conformement a la loi du 6 janvier 1978, dite &laquo;Informatique et Libert&eacute;&raquo; (modifi&eacute;e par la loi du 6 aout 2004) relative a la protection des personnes physiques a l'&eacute;gard des traitements de donn&eacute;es &agrave; caract&egrave;e personnel. Les participants sont inform&eacute;s que les donn&eacute;es nominatives les concernant enregistr&eacute;es dans le cadre du jeu sont n&eacute;cessaires a la prise en compte de leur participation. Tout participant au jeu, dispose, en application de l'article 27 de cette loi, d'un droit d'acc&eacute;s et de rectification aux donn&eacute;es les concernant.
+				</font>
+			
+		</td>
+	</tr>
+</table>
+
+
+
+
+</center>
+
+<div align="center">
+<font color="#666666" style="font-size:10px;font-family:Verdana,Arial,Helvetica,sans-serif;">
+<b>Vous bénéficiez de cette offre car vous etes inscrit sur le reseau FilWiki</b><br>
+FilWiki vous permet de profiter d'offres spéciales, de bons plans, de code promotion et plus<br>
+À tout moment, vous disposez d'un droit d'accès, de modification, de rectification et de suppression<br>
+ de vos données personnelles (art 34 de la loi Informatique et Libertés du 6 Janvier1978).
+<br>
+Pour cesser de recevoir nos informations sur l'adresse resp-m2-miage@univ-rennes1.fr , <a  href="http://my.shopping-notification.com/tr/?id=59bce6c9e60f502bf596b42aaa33543b0632d97cb0412f05acc6bfc411b64fee">d&eacute;sabonnez-vous</a>.
+</font>
+</div><img height='1' width='1' border='0' alt='' src='http://my.shopping-notification.com/tr/?id=59bce6c9e60f502be58f655e71d791c9e19f1a9ca50f3e485ba070058aea6bfa'></body>
+</html>

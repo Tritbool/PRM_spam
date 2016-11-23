@@ -1,0 +1,1080 @@
+Return-Path: <bounce-mc.us9_32941830.535601-resp-m2-miage=univ-rennes1.fr@mail148.atl61.mcsv.net>
+Received: from mailimailo.univ-rennes1.fr ([unix socket])
+	 by mailimailo.univ-rennes1.fr (Cyrus v2.3.16-Fedora-RPM-2.3.16-6.el6_2.5) with LMTPA;
+	 Fri, 18 Dec 2015 20:59:06 +0100
+X-Sieve: CMU Sieve 2.3
+Received: from mailout1.univ-rennes1.fr (mailout1.univ-rennes1.fr [129.20.128.162])
+	by mailimailo.univ-rennes1.fr (Postfix) with ESMTP id 7842D26A0CAF
+	for <resp-m2-miage@univ-rennes1.fr>; Fri, 18 Dec 2015 20:59:06 +0100 (CET)
+Received: from localhost (vmscanmail.univ-rennes1.fr [129.20.128.134])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id 59FE560321
+	for <resp-m2-miage@univ-rennes1.fr>; Fri, 18 Dec 2015 20:59:06 +0100 (CET)
+X-Virus-Scanned: amavisd-new at univ-rennes1.fr
+Received: from mailout1.univ-rennes1.fr ([129.20.128.162])
+	by localhost (vmscanmail.univ-rennes1.frm [129.20.128.134]) (amavisd-new, port 10026)
+	with ESMTP id UTHxpF915wXL for <resp-m2-miage@univ-rennes1.fr>;
+	Fri, 18 Dec 2015 20:59:06 +0100 (CET)
+Received: from vmmailin.univ-rennes1.fr (vmmailin.univ-rennes1.fr [129.20.128.133])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id 2B86E6002E
+	for <resp-m2-miage@univ-rennes1.fr>; Fri, 18 Dec 2015 20:59:06 +0100 (CET)
+Received: from mxb1-2.relay.renater.fr (mxb1-2.relay.renater.fr [194.214.201.9])
+	by vmmailin.univ-rennes1.fr (Postfix) with ESMTP id 2205020033
+	for <resp-m2-miage@univ-rennes1.fr>; Fri, 18 Dec 2015 20:59:06 +0100 (CET)
+Received: from mail148.atl61.mcsv.net (mail148.atl61.mcsv.net [205.201.135.148])
+	by mxb1-2.relay.renater.fr (asm) with ESMTP id 7C8D228003A
+	for <resp-m2-miage@univ-rennes1.fr>; Fri, 18 Dec 2015 20:59:05 +0100 (CET)
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=k1; d=trello.com;
+ h=Subject:From:Reply-To:To:Date:Message-ID:List-ID:List-Unsubscribe:Content-Type:MIME-Version; i=taco@trello.com;
+ bh=ynPLAjxM3DIQdeqJH0RlQU0VNtg=;
+ b=FJobOLFnNwA+s0bUkaU5PtVyUVEcN/ltD7aXQoWw9CslN7HZbc+V3TzRBiKjZ5QSxcrX9Tn/ajOx
+   i0rbPV8wC0C5935v92PM/gAefQ5M+bCqqIl748q76kyQjMloCkrThYQTTWmQnQWSheID4go1Mvrq
+   EsMkv2Kjesekk0Sm1Ds=
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=k1; d=trello.com;
+ b=PMSz90ygx1AzkCoWMdfu2SlXtK59BfYfqKZ97tVRMX8utK7Ml557/5eKdGbdg4wnfsLMgiuvPQ5O
+   q1fewm/hdjO8uJWxZz+1H7grSkV2XGeZgyNJEHfTL/gWqRJy7VggwuGh3uSLCVtJBefU4qyb2J3e
+   md9WqpJ7g2vpI1gMN2Y=;
+Received: from (127.0.0.1) by mail148.atl61.mcsv.net id hehioi174aci for <resp-m2-miage@univ-rennes1.fr>; Fri, 18 Dec 2015 19:59:01 +0000 (envelope-from <bounce-mc.us9_32941830.535601-resp-m2-miage=univ-rennes1.fr@mail148.atl61.mcsv.net>)
+Subject: =?utf-8?Q?Feeling=20Overwhelmed=3F?=
+From: =?utf-8?Q?Trello?= <taco@trello.com>
+Reply-To: =?utf-8?Q?Trello?= <taco@trello.com>
+To: =?utf-8?Q?Resp?= <resp-m2-miage@univ-rennes1.fr>
+Date: Fri, 18 Dec 2015 19:59:01 +0000
+Message-ID: <5cb712992a906406c5eae28a7652fda39f0.20151218195820@mail148.atl61.mcsv.net>
+X-Mailer: MailChimp Mailer - **CID29066a673f652fda39f0**
+X-Campaign: mailchimp5cb712992a906406c5eae28a7.29066a673f
+X-campaignid: mailchimp5cb712992a906406c5eae28a7.29066a673f
+X-Report-Abuse: Please report abuse for this campaign here: http://www.mailchimp.com/abuse/abuse.phtml?u=5cb712992a906406c5eae28a7&id=29066a673f&e=652fda39f0
+X-MC-User: 5cb712992a906406c5eae28a7
+X-Feedback-ID: 32941830:32941830.535601:us9:mc
+List-ID: 5cb712992a906406c5eae28a7mc list <5cb712992a906406c5eae28a7.414721.list-id.mcsv.net>
+X-Accounttype: pd
+List-Unsubscribe: <mailto:unsubscribe-mc.us9_5cb712992a906406c5eae28a7.29066a673f-652fda39f0@mailin1.us2.mcsv.net?subject=unsubscribe>, <http://trello.us9.list-manage.com/unsubscribe?u=5cb712992a906406c5eae28a7&id=9e84ea01b5&e=652fda39f0&c=29066a673f>
+x-mcda: FALSE
+Content-Type: multipart/alternative; boundary="_----------=_MCPart_120263815"
+MIME-Version: 1.0
+X-UCE-Status: YES
+X-UCE-Type: MCE
+X-Original-Source-IP: 205.201.135.148
+X-Bizanga: IMP - mxb1-2.relay.renater.fr
+X-Renater-SpamState: 11
+X-Renater-SpamScore: 17
+X-Renater-SpamCause: gggruggvucftvghtrhhoucdtuddrfeekiedrfeehgddufedvucetufdoteggodetrfdotffvucfrrhhofhhilhgvmecutffgpfetvffgtfdpggftfghnshhusghstghrihgsvgenuceurghilhhouhhtmecufedttdenucdnofetkffnkffpifculddujedmnecujfgurhepuffhrhfvfffkofejjfgtggesrgdttderredtjeenucfhrhhomhepvfhrvghllhhouceothgrtghosehtrhgvlhhlohdrtghomheqnecuffhomhgrihhnpehlihhsthdqmhgrnhgrghgvuddrtghomhdptggrmhhprghighhnqdgrrhgthhhivhgvuddrtghomhdplhhishhtqdhmrghnrghgvgdrtghomhdplhhishhtqdhmrghnrghgvgdvrdgtohhmnecurfgrrhgrmhepmhhouggvpehsmhhtphdphhgvlhhopehmrghilhdugeekrdgrthhliedurdhmtghsvhdrnhgvthdpihhnvghtpedvtdehrddvtddurddufeehrddugeekpdhmrghilhhfrhhomhepsghouhhntggvqdhmtgdruhhslegpfedvleegudekfedtrdehfeehiedtuddqrhgvshhpqdhmvddqmhhirghgvgepuhhnihhvqdhrvghnnhgvshdurdhfrhesmhgrihhludegkedrrghtlheiuddrmhgtshhvrdhnvghtpdhrtghpthhtoheprhgvshhpqdhmvddqmhhirghgvgesuhhnihhvqdhrvghnnhgvshdurdhfrh 
+X-Renater-ServerName: mxb1-2.relay.renater.fr
+
+This is a multi-part message in MIME format
+
+--_----------=_MCPart_120263815
+Content-Type: text/plain; charset="utf-8"; format="fixed"
+Content-Transfer-Encoding: quoted-printable
+
+Explore twelve ways to make Trello your holiday helper
+------------------------------------------------------------
+View this email in your browser (http://us9.campaign-archive1.com/?u=3D5cb=
+712992a906406c5eae28a7&id=3D29066a673f&e=3D652fda39f0) .
+https://trello.com?utm_source=3Dnewsletter&utm_medium=3Demail&utm_campaign=
+=3DNewsletter-December
+
+
+** Twelve Ways To Trello
+------------------------------------------------------------
+
+Be more productive this holiday season with twelve gift wrapped ways to Tr=
+ello.
+1
+
+Be a holiday (http://blog.trello.com/ideas-for-out-of-town-guest-hosting/?=
+utm_source=3Dnewsletter&utm_medium=3Demail&utm_campaign=3Dholiday-newslett=
+er-2015) host with the most by creating a board with fun activities for gu=
+ests.
+2
+
+Unwrap gifts under the tree: inspiration (https://trello.com/inspiration?u=
+tm_source=3Dnewsletter&utm_medium=3Demail&utm_campaign=3Dholiday-newslette=
+r-2015) from the community.
+3
+
+Plan (http://blog.trello.com/plan-your-ho-ho-holiday-office-party-with-tre=
+llo/?utm_source=3Dnewsletter&utm_medium=3Demail&utm_campaign=3Dholiday-new=
+sletter-2015 ) your ho=2C ho=2C holiday party with Trello.
+4
+
+Give the gift of class=E2=80=A6Business Class (https://trello.com/business=
+-class?utm_source=3Dnewsletter&utm_medium=3Demail&utm_campaign=3Dholiday-n=
+ewsletter-2015) .
+5
+
+Get the party started with an integration celebration (https://trello.com/=
+integrations?utm_source=3Dnewsletter&utm_medium=3Demail&utm_campaign=3Dhol=
+iday-newsletter-2015) .
+6
+
+Follow Trello (https://twitter.com/trello) for tips=2C tricks=2C and merry=
+ gifs.
+7
+
+Power-Up (https://trello.com/power-ups?utm_source=3Dnewsletter&utm_medium=
+=3Demail&utm_campaign=3Dholiday-newsletter-2015) your boards with Slack=2C=
+ Github=2C Google Drive=2C and a partridge in a pear tree.
+8
+
+Light the flames of learning by joining a webinar (https://trello.com/webi=
+nars?utm_source=3Dnewsletter&utm_medium=3Demail&utm_campaign=3Dholiday-new=
+sletter-2015) .
+9
+
+Navigate (http://blog.trello.com/the-countdown-has-begun-holiday-shopping-=
+with-trello/?utm_source=3Dnewsletter&utm_medium=3Demail&utm_campaign=3Dhol=
+iday-newsletter-2015) your naughty and nice lists by creating a holiday sh=
+opping board.
+10
+
+This master board (http://blog.trello.com/dangerously-productive-master-le=
+vel-trello-tips/?utm_source=3Dnewsletter&utm_medium=3Demail&utm_campaign=
+=3Dholiday-newsletter-2015) of tips will be your Trello guiding star.
+11
+
+Set up boards (http://blog.trello.com/cards-community-and-cleaning-the-tre=
+llo-holiday-haul/?utm_source=3Dnewsletter&utm_medium=3Demail&utm_campaign=
+=3Dholiday-newsletter-2015) for holiday cards=2C community=2C cleaning and=
+ caroling.
+12
+
+Get a head start on New Year=E2=80=99s resolutions by learning how to set=
+ goals. (http://blog.trello.com/how-to-set-better-life-goals/?utm_source=
+=3Dnewsletter&utm_medium=3Demail&utm_campaign=3Dholiday-newsletter-2015)
+
+
+** Get Ready For The New Year
+------------------------------------------------------------
+
+Supercharge your team with Trello Business Class.
+
+Show Me How =E2=86=92 (https://trello.com/business-class?utm_source=3Dnews=
+letter&utm_medium=3Demail&utm_campaign=3Dholiday-newsletter-2015)
+
+
+Connect with us:
+https://www.facebook.com/trelloapp?utm_source=3Dnewsletter&utm_medium=3Dem=
+ail&utm_campaign=3DNewsletter-December https://twitter.com/trello?utm_sour=
+ce=3Dnewsletter&utm_medium=3Demail&utm_campaign=3DNewsletter-December http=
+s://www.pinterest.com/trelloapp/?utm_source=3Dnewsletter&utm_medium=3Demai=
+l&utm_campaign=3DNewsletter-December https://www.linkedin.com/company/trel=
+lo?utm_source=3Dnewsletter&utm_medium=3Demail&utm_campaign=3DNewsletter-De=
+cember http://blog.trello.com?utm_source=3Dnewsletter&utm_medium=3Demail&u=
+tm_campaign=3Dholiday-newsletter-2015
+ Copyright =C2=A9 2015 Trello=2C Inc.=2C All rights reserved.
+We periodically send emails to people that signed up for a Trello account.
+unsubscribe (http://trello.us9.list-manage.com/unsubscribe?u=3D5cb712992a9=
+06406c5eae28a7&id=3D9e84ea01b5&e=3D652fda39f0&c=3D29066a673f) | preferences=
+ (http://trello.us9.list-manage.com/profile?u=3D5cb712992a906406c5eae28a7&=
+id=3D9e84ea01b5&e=3D652fda39f0) | view in browser (http://us9.campaign-archi=
+ve1.com/?u=3D5cb712992a906406c5eae28a7&id=3D29066a673f&e=3D652fda39f0)
+--_----------=_MCPart_120263815
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www=
+=2Ew3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3D=
+UTF-8">
+        <meta name=3D"viewport" content=3D"width=3Ddevice-width">
+        <title>Feeling Overwhelmed?</title>
+
+    <style type=3D"text/css">
+=09=09#outlook a{
+=09=09=09padding:0;
+=09=09}
+=09=09.ReadMsgBody{
+=09=09=09width:100%;
+=09=09}
+=09=09.ExternalClass{
+=09=09=09width:100%;
+=09=09}
+=09=09.ExternalClass=2C.ExternalClass p=2C.ExternalClass span=2C.ExternalC=
+lass font=2C.ExternalClass td=2C.ExternalClass div{
+=09=09=09line-height:100%;
+=09=09}
+=09=09body=2Ctable=2Ctd=2Cp=2Ca=2Cli=2Cblockquote{
+=09=09=09-webkit-text-size-adjust:100%;
+=09=09=09-ms-text-size-adjust:100%;
+=09=09}
+=09=09table=2Ctd{
+=09=09=09mso-table-lspace:0pt;
+=09=09=09mso-table-rspace:0pt;
+=09=09}
+=09=09img{
+=09=09=09-ms-interpolation-mode:bicubic;
+=09=09}
+=09=09body{
+=09=09=09margin:0;
+=09=09=09padding:0;
+=09=09=09background:#EEEEEE;
+=09=09}
+=09=09img{
+=09=09=09border:0;
+=09=09=09height:auto;
+=09=09=09line-height:100%;
+=09=09=09outline:none;
+=09=09=09text-decoration:none;
+=09=09=09max-width:100%;
+=09=09}
+=09=09table{
+=09=09=09border-collapse:collapse !important;
+=09=09}
+=09=09body=2C#bodyTable{
+=09=09=09height:100% !important;
+=09=09=09margin:0;
+=09=09=09padding:0;
+=09=09=09width:100% !important;
+=09=09}
+=09=09#bodyTable{
+=09=09=09font-family:Helvetica Neue=2C Helvetica=2C Arial=2C sans-serif;
+=09=09=09min-height:100%;
+=09=09=09background:#eeeeee;
+=09=09=09color:#444444;
+=09=09}
+=09=09.button.clear:hover{
+=09=09=09background:rgba(255=2C255=2C255=2C0.3)!important;
+=09=09}
+=09=09img{
+=09=09=09border:0!important;
+=09=09}
+=09=09a{
+=09=09=09text-decoration:none;
+=09=09}
+=09=09a.blog{
+=09=09=09text-decoration:underline!important;
+=09=09}
+=09=09h1{
+=09=09=09font-family:Helvetica;
+=09=09=09font-size:45px;
+=09=09=09font-style:normal;
+=09=09=09font-weight:bold;
+=09=09=09text-align:center;
+=09=09=09margin:20px auto 10px;
+=09=09}
+=09=09h2{
+=09=09=09font-size:28px;
+=09=09=09font-style:normal;
+=09=09=09font-weight:bold;
+=09=09=09margin:0px auto 25px;
+=09=09=09color:#FFFFFF!important;
+=09=09}
+=09=09h3{
+=09=09=09font-size:20px;
+=09=09=09font-weight:bold;
+=09=09=09margin:25px 0;
+=09=09=09letter-spacing:normal;
+=09=09=09text-align:left;
+=09=09}
+=09=09a h3{
+=09=09=09color:#444444!important;
+=09=09=09text-decoration:none!important;
+=09=09}
+=09=09#header p{
+=09=09=09width:400px;
+=09=09=09font-size:22px;
+=09=09=09line-height:28px;
+=09=09=09margin:5px auto 0;
+=09=09}
+=09=09.list p{
+=09=09=09padding:15px 40px 15px 20px;
+=09=09=09margin:0;
+=09=09}
+=09=09.list a{
+=09=09=09color:#0079bf;
+=09=09=09text-decoration:underline;
+=09=09}
+=09=09.titleLink{
+=09=09=09text-decoration:none!important;
+=09=09}
+=09=09.preheaderContent{
+=09=09=09color:#808080;
+=09=09=09font-size:10px;
+=09=09=09line-height:125%;
+=09=09}
+=09=09.preheaderContent a:link=2C.preheaderContent a:visited=2C.preheaderC=
+ontent a .yshortcuts{
+=09=09=09color:#606060;
+=09=09=09font-weight:normal;
+=09=09=09text-decoration:underline;
+=09=09}
+=09=09p{
+=09=09=09font-size:20px;
+=09=09=09line-height:24px;
+=09=09}
+=09=09#header img{
+=09=09=09width:600px;
+=09=09}
+=09=09#socialIconWrap img{
+=09=09=09line-height:35px!important;
+=09=09=09padding:0px 5px;
+=09=09}
+=09=09.footerContent div{
+=09=09=09color:#707070;
+=09=09=09font-family:Arial;
+=09=09=09font-size:12px;
+=09=09=09line-height:125%;
+=09=09=09text-align:center;
+=09=09=09max-width:100%!important;
+=09=09}
+=09=09.footerContent div a:link=2C.footerContent div a:visited{
+=09=09=09color:#336699;
+=09=09=09font-weight:normal;
+=09=09=09text-decoration:underline;
+=09=09}
+=09=09.footerContent img{
+=09=09=09display:inline;
+=09=09}
+=09=09#socialLinks img{
+=09=09=09margin:10px 2px;
+=09=09}
+=09=09#utility{
+=09=09=09border-top:1px solid #dddddd;
+=09=09}
+=09=09#utility div{
+=09=09=09text-align:center;
+=09=09}
+=09=09#monkeyRewards img{
+=09=09=09max-width:160px;
+=09=09}
+=09=09#emailFooter{
+=09=09=09max-width:100%!important;
+=09=09}
+=09=09#footerTwitter a=2C#footerFacebook a{
+=09=09=09text-decoration:none!important;
+=09=09=09color:#ffffff!important;
+=09=09=09font-size:14px;
+=09=09}
+=09=09#emailButton{
+=09=09=09border-radius:6px;
+=09=09=09background:#70B500!important;
+=09=09=09margin:0px auto 60px;
+=09=09=09box-shadow:0px 4px 0px #578C00;
+=09=09}
+=09=09#socialLinks a{
+=09=09=09width:40px;
+=09=09}
+=09=09#socialLinks #blogLink{
+=09=09=09width:80px!important;
+=09=09}
+=09=09#logoWrap{
+=09=09=09background:url('https://gallery.mailchimp.com/5cb712992a906406c5e=
+ae28a7/images/d7a697bc-1cb3-4334-a1c4-2da3f78473a6.jpg') center center / 6=
+00px 50px no-repeat!important;
+=09=09}
+=09=09.sectionWrap{
+=09=09=09text-align:center;
+=09=09}
+</style></head>
+    <body style=3D"-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 10=
+0%;margin: 0;padding: 0;background: #EEEEEE;height: 100% !important;width:=
+ 100% !important;">
+    <img alt=3D"" src=3D"https://d3k1505f61nl3q.cloudfront.net/i?&e=3Dpv&p=
+age=3D*|MC:SUBJECT|*&aid=3Demail&p=3Dweb&uid=3D5654e36e4e6a785554cfcc01&tv=3Dno-js=
+-0.1.0" style=3D"-ms-interpolation-mode: bicubic;height: auto;line-height:=
+ 100%;outline: none;text-decoration: none;max-width: 100%;border: 0!import=
+ant;">
+
+        <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" height=3D"=
+100%" width=3D"100%" id=3D"bodyTable" style=3D"-webkit-text-size-adjust: 1=
+00%;-ms-text-size-adjust: 100%;mso-table-lspace: 0pt;mso-table-rspace: 0pt=
+;margin: 0;padding: 0;font-family: Helvetica Neue=2C Helvetica=2C Arial=2C=
+ sans-serif;min-height: 100%;background: #eeeeee;color: #444444;border-col=
+lapse: collapse !important;height: 100% !important;width: 100% !important;=
+">
+            <tr>
+                <td align=3D"center" valign=3D"top" style=3D"-webkit-text-=
+size-adjust: 100%;-ms-text-size-adjust: 100%;mso-table-lspace: 0pt;mso-tab=
+le-rspace: 0pt;">
+                    <table align=3D"center" border=3D"0" cellspacing=3D"0"=
+ width=3D"600" id=3D"emailContainer" style=3D"width: 600px!important;min-w=
+idth: 600px!important;-webkit-text-size-adjust: 100%;-ms-text-size-adjust:=
+ 100%;mso-table-lspace: 0pt;mso-table-rspace: 0pt;border-collapse: collaps=
+e !important;">
+                        <tr>
+                            <td align=3D"center" valign=3D"top" style=3D"-=
+webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;mso-table-lspace:=
+ 0pt;mso-table-rspace: 0pt;">
+                                <!-- BEGIN PREHEADER // -->
+                                <table border=3D"0" cellpadding=3D"0" cell=
+spacing=3D"0" width=3D"100%" id=3D"templatePreheader" style=3D"margin: 15p=
+x 0 10px;-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;mso-tab=
+le-lspace: 0pt;mso-table-rspace: 0pt;border-collapse: collapse !important;=
+">
+                                    <tr>
+                                        <td style=3D"-webkit-text-size-adj=
+ust: 100%;-ms-text-size-adjust: 100%;mso-table-lspace: 0pt;mso-table-rspac=
+e: 0pt;">
+                                            <table align=3D"left" border=
+=3D"0" cellspacing=3D"0" width=3D"50%" style=3D"-webkit-text-size-adjust:=
+ 100%;-ms-text-size-adjust: 100%;mso-table-lspace: 0pt;mso-table-rspace: 0=
+pt;border-collapse: collapse !important;">
+                                                <tr>
+                                                    <td valign=3D"top" cla=
+ss=3D"preheaderContent" align=3D"left" style=3D"text-align: left!important=
+;-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;mso-table-lspac=
+e: 0pt;mso-table-rspace: 0pt;color: #808080;font-size: 10px;line-height: 1=
+25%;">
+                                                       Explore twelve ways=
+ to make Trello your holiday helper
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                            <table align=3D"left" border=
+=3D"0" cellspacing=3D"0" width=3D"50%" style=3D"-webkit-text-size-adjust:=
+ 100%;-ms-text-size-adjust: 100%;mso-table-lspace: 0pt;mso-table-rspace: 0=
+pt;border-collapse: collapse !important;">
+                                                <tr>
+                                                    <!--
+ -->
+                                                    <td valign=3D"top" ali=
+gn=3D"right" class=3D"preheaderContent" style=3D"text-align: right!importa=
+nt;-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;mso-table-lsp=
+ace: 0pt;mso-table-rspace: 0pt;color: #808080;font-size: 10px;line-height:=
+ 125%;">
+                                                        <a href=3D"http://=
+us9.campaign-archive1.com/?u=3D5cb712992a906406c5eae28a7&id=3D29066a673f&e=
+=3D652fda39f0" target=3D"_blank" style=3D"-webkit-text-size-adjust: 100%;-ms=
+-text-size-adjust: 100%;text-decoration: underline;color: #606060;font-wei=
+ght: normal;">View this email in your browser</a>.
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                        <!--
+ -->
+                                    </tr>
+                                </table>
+                                <!-- // END PREHEADER -->
+                            </td>
+                        </tr>
+
+=09=09=09=09=09=09<tr>
+                             <td id=3D"logoWrap" align=3D"bottom" style=3D=
+"text-align: center!important;background-image: url('https://gallery.mailc=
+himp.com/5cb712992a906406c5eae28a7/images/d7a697bc-1cb3-4334-a1c4-2da3f784=
+73a6.jpg');background-repeat: no-repeat;background-size: 600px 50px;backgr=
+ound-position: center center;-webkit-text-size-adjust: 100%;-ms-text-size-=
+adjust: 100%;mso-table-lspace: 0pt;mso-table-rspace: 0pt;background: url(h=
+ttps://gallery.mailchimp.com/5cb712992a906406c5eae28a7/images/d7a697bc-1cb=
+3-4334-a1c4-2da3f78473a6.jpg) center center / 600px 50px no-repeat!importa=
+nt;">
+                               <a href=3D"http://trello.us9.list-manage.co=
+m/track/click?u=3D5cb712992a906406c5eae28a7&id=3Dc794f6154e&e=3D=
+652fda39f0" style=3D"-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;text=
+-decoration: none;"><img id=3D"logo" src=3D"https://gallery.mailchimp.com/=
+5cb712992a906406c5eae28a7/images/ca9278a0-af3c-4fd1-b3a4-4bf53136a180.jpg"=
+ width=3D"172" height=3D"50" style=3D"margin: 10px auto 20px;-ms-interpola=
+tion-mode: bicubic;height: auto;line-height: 100%;outline: none;text-decor=
+ation: none;max-width: 100%;border: 0!important;"></a>
+                             </td>
+                        </tr>
+                        <!-- ////////////////////////////
+                        /////// BEGIN CONTENT ///////
+                        /////////////////////////// -->
+
+
+                        <tr>
+                            <td align=3D"center" valign=3D"top" style=3D"-=
+webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;mso-table-lspace:=
+ 0pt;mso-table-rspace: 0pt;">
+                                <table class=3D"sectionWrap" border=3D"0"=
+ cellpadding=3D"0" cellspacing=3D"0" width=3D"600" style=3D"background: #F=
+FFFFF;overflow: hidden;border-radius: 4px;box-shadow: 0px 3px 0px #DDDDDD;=
+max-width: 600px!important;min-width: 600px!important;-webkit-text-size-ad=
+just: 100%;-ms-text-size-adjust: 100%;mso-table-lspace: 0pt;mso-table-rspa=
+ce: 0pt;text-align: center;border-collapse: collapse !important;" id=3D"co=
+ntent">
+                                    <tr>
+                                      <td id=3D"header" valign=3D"top" bgc=
+olor=3D"#9BC9E2" style=3D"padding: 20px 0 0;max-width: 100%!important;back=
+ground: url('https://gallery.mailchimp.com/5cb712992a906406c5eae28a7/image=
+s/7ed29fed-4d11-4481-9dea-b844e54e6854.png') #9BC9E2 top center / 600px 21=
+0px no-repeat;-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;ms=
+o-table-lspace: 0pt;mso-table-rspace: 0pt;">
+
+
+                                            <h1 style=3D"font-family: Helv=
+etica;font-size: 45px;font-style: normal;font-weight: bold;text-align: cen=
+ter;margin: 20px auto 10px;"><font color=3D"#ffffff">Twelve Ways To Trello=
+ </font></h1>
+                                            <img src=3D"https://gallery.ma=
+ilchimp.com/5cb712992a906406c5eae28a7/images/869c155f-fffc-4469-be37-d8a84=
+47f9699.png" width=3D"600" height=3D"60" style=3D"display: block;-ms-inter=
+polation-mode: bicubic;height: auto;line-height: 100%;outline: none;text-d=
+ecoration: none;max-width: 100%;width: 600px;border: 0!important;">
+                                        <p style=3D"-webkit-text-size-adju=
+st: 100%;-ms-text-size-adjust: 100%;font-size: 22px;line-height: 28px;widt=
+h: 400px;margin: 5px auto 0;"><font color=3D"white">Be more productive thi=
+s holiday season with twelve gift wrapped ways to Trello.</font></p>
+                                            <img src=3D"https://gallery.ma=
+ilchimp.com/5cb712992a906406c5eae28a7/images/17060e16-a760-43ea-9a03-32cfd=
+4547e1c.png" width=3D"600" height=3D"90" style=3D"display: block;-ms-inter=
+polation-mode: bicubic;height: auto;line-height: 100%;outline: none;text-d=
+ecoration: none;max-width: 100%;width: 600px;border: 0!important;">
+
+
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                    =09<td style=3D"-webkit-text-size-adju=
+st: 100%;-ms-text-size-adjust: 100%;mso-table-lspace: 0pt;mso-table-rspace=
+: 0pt;">
+                                        <table class=3D"list" style=3D"mar=
+gin: 0 0 20px;-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;ms=
+o-table-lspace: 0pt;mso-table-rspace: 0pt;border-collapse: collapse !impor=
+tant;">
+                                        =09<colgroup>
+                                              <col align=3D"right" valign=
+=3D"top" style=3D"width: 100px">
+                                              </col><col align=3D"left" va=
+lign=3D"top" style=3D"width: 500px">
+                                            </col></colgroup>
+                                            <tr>
+                                            =09<td align=3D"right" style=
+=3D"vertical-align: top;-webkit-text-size-adjust: 100%;-ms-text-size-adjus=
+t: 100%;mso-table-lspace: 0pt;mso-table-rspace: 0pt;">
+                                                =09<img alt=3D"1" src=3D"h=
+ttps://gallery.mailchimp.com/5cb712992a906406c5eae28a7/images/d006bf2b-76d=
+8-41cd-974a-73a037a71f4d.png" width=3D"100" height=3D"80" style=3D"-ms-int=
+erpolation-mode: bicubic;height: auto;line-height: 100%;outline: none;text=
+-decoration: none;max-width: 100%;border: 0!important;">
+                                                </td>
+                                                <td align=3D"left" style=
+=3D"-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;mso-table-ls=
+pace: 0pt;mso-table-rspace: 0pt;">
+                                                <p style=3D"-webkit-text-s=
+ize-adjust: 100%;-ms-text-size-adjust: 100%;font-size: 20px;line-height: 2=
+4px;padding: 15px 40px 15px 20px;margin: 0;">Be a <a href=3D"http://trello=
+=2Eus9.list-manage.com/track/click?u=3D5cb712992a906406c5eae28a7&id=3D7c7422=
+4a74&e=3D652fda39f0" style=3D"-webkit-text-size-adjust: 100%;-ms-text-siz=
+e-adjust: 100%;text-decoration: underline;color: #0079bf;">holiday</a> hos=
+t with the most by creating a board with fun activities for guests.</p>
+
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                            =09<td align=3D"right" style=
+=3D"vertical-align: top;-webkit-text-size-adjust: 100%;-ms-text-size-adjus=
+t: 100%;mso-table-lspace: 0pt;mso-table-rspace: 0pt;">
+                                                <img alt=3D"2" src=3D"http=
+s://gallery.mailchimp.com/5cb712992a906406c5eae28a7/images/618286ba-3f36-4=
+526-bfab-d2f4888f77d7.png" width=3D"100" height=3D"80" style=3D"-ms-interp=
+olation-mode: bicubic;height: auto;line-height: 100%;outline: none;text-de=
+coration: none;max-width: 100%;border: 0!important;">
+                                                </td>
+                                                <td align=3D"left" style=
+=3D"-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;mso-table-ls=
+pace: 0pt;mso-table-rspace: 0pt;">
+                                                <p style=3D"-webkit-text-s=
+ize-adjust: 100%;-ms-text-size-adjust: 100%;font-size: 20px;line-height: 2=
+4px;padding: 15px 40px 15px 20px;margin: 0;">Unwrap gifts under the tree:=
+ <a href=3D"http://trello.us9.list-manage1.com/track/click?u=3D5cb712992a9=
+06406c5eae28a7&id=3D090742aa75&e=3D652fda39f0" style=3D"-webkit-text-size=
+-adjust: 100%;-ms-text-size-adjust: 100%;text-decoration: underline;color:=
+ #0079bf;">inspiration</a> from the community. </p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                            =09<td align=3D"right" style=
+=3D"vertical-align: top;-webkit-text-size-adjust: 100%;-ms-text-size-adjus=
+t: 100%;mso-table-lspace: 0pt;mso-table-rspace: 0pt;">
+                                                <img alt=3D"3" src=3D"http=
+s://gallery.mailchimp.com/5cb712992a906406c5eae28a7/images/1a5d889f-ef68-4=
+1ec-b454-2b36517c170a.png" width=3D"100" height=3D"80" style=3D"-ms-interp=
+olation-mode: bicubic;height: auto;line-height: 100%;outline: none;text-de=
+coration: none;max-width: 100%;border: 0!important;">
+                                                </td>
+                                                <td align=3D"left" style=
+=3D"-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;mso-table-ls=
+pace: 0pt;mso-table-rspace: 0pt;">
+                                                <p style=3D"-webkit-text-s=
+ize-adjust: 100%;-ms-text-size-adjust: 100%;font-size: 20px;line-height: 2=
+4px;padding: 15px 40px 15px 20px;margin: 0;"><a href=3D"http://trello.us9.=
+list-manage1.com/track/click?u=3D5cb712992a906406c5eae28a7&id=3D377ebd6e87=
+&e=3D652fda39f0" style=3D"-webkit-text-size-adjust: 100%;-ms-text-size-ad=
+just: 100%;text-decoration: underline;color: #0079bf;">Plan</a> your ho=2C=
+ ho=2C holiday party with Trello.
+</p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                            =09<td align=3D"right" style=
+=3D"vertical-align: top;-webkit-text-size-adjust: 100%;-ms-text-size-adjus=
+t: 100%;mso-table-lspace: 0pt;mso-table-rspace: 0pt;">
+                                                <img alt=3D"4" src=3D"http=
+s://gallery.mailchimp.com/5cb712992a906406c5eae28a7/images/7ec23fce-aa7c-4=
+387-8c17-4591652ce88b.png" width=3D"100" height=3D"80" style=3D"-ms-interp=
+olation-mode: bicubic;height: auto;line-height: 100%;outline: none;text-de=
+coration: none;max-width: 100%;border: 0!important;">
+                                                </td>
+                                                <td align=3D"left" style=
+=3D"-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;mso-table-ls=
+pace: 0pt;mso-table-rspace: 0pt;">
+                                                <p style=3D"-webkit-text-s=
+ize-adjust: 100%;-ms-text-size-adjust: 100%;font-size: 20px;line-height: 2=
+4px;padding: 15px 40px 15px 20px;margin: 0;">Give the gift of class=E2=80=
+=A6<a href=3D"http://trello.us9.list-manage2.com/track/click?u=3D5cb712992=
+a906406c5eae28a7&id=3Da40df3b16e&e=3D652fda39f0" style=3D"-webkit-text-si=
+ze-adjust: 100%;-ms-text-size-adjust: 100%;text-decoration: underline;colo=
+r: #0079bf;">Business Class</a>.
+</p>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                        </td>
+                                    </tr>
+                                    <!-- SECOND GROUP -->
+                                    <tr>
+                                    =09<td bgcolor=3D"#E2F3FC" style=3D"-w=
+ebkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;mso-table-lspace:=
+ 0pt;mso-table-rspace: 0pt;">
+                                        <img src=3D"https://gallery.mailch=
+imp.com/5cb712992a906406c5eae28a7/images/8d80cb56-0dfb-4eab-8682-b45014a49=
+476.png" width=3D"600" height=3D"10" style=3D"display: block;-ms-interpola=
+tion-mode: bicubic;height: auto;line-height: 100%;outline: none;text-decor=
+ation: none;max-width: 100%;border: 0!important;">
+                                        <table class=3D"list" style=3D"mar=
+gin: 0;-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;mso-table=
+-lspace: 0pt;mso-table-rspace: 0pt;border-collapse: collapse !important;">
+                                        =09<colgroup>
+                                              <col align=3D"right" valign=
+=3D"top" style=3D"width: 100px">
+                                              </col><col align=3D"left" va=
+lign=3D"top" style=3D"width: 500px">
+                                            </col></colgroup>
+                                            <tr>
+                                            =09<td align=3D"right" style=
+=3D"vertical-align: top;-webkit-text-size-adjust: 100%;-ms-text-size-adjus=
+t: 100%;mso-table-lspace: 0pt;mso-table-rspace: 0pt;">
+                                                =09<img alt=3D"5" src=3D"h=
+ttps://gallery.mailchimp.com/5cb712992a906406c5eae28a7/images/36fc2830-8a8=
+6-427a-a9c7-bc5bffdf3afa.png" width=3D"100" height=3D"80" style=3D"-ms-int=
+erpolation-mode: bicubic;height: auto;line-height: 100%;outline: none;text=
+-decoration: none;max-width: 100%;border: 0!important;">
+                                                </td>
+                                                <td align=3D"left" style=
+=3D"-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;mso-table-ls=
+pace: 0pt;mso-table-rspace: 0pt;">
+                                                <p style=3D"-webkit-text-s=
+ize-adjust: 100%;-ms-text-size-adjust: 100%;font-size: 20px;line-height: 2=
+4px;padding: 15px 40px 15px 20px;margin: 0;">Get the party started with <a=
+ href=3D"http://trello.us9.list-manage.com/track/click?u=3D5cb712992a90640=
+6c5eae28a7&id=3D160ccd8ae7&e=3D652fda39f0" style=3D"-webkit-text-size-adj=
+ust: 100%;-ms-text-size-adjust: 100%;text-decoration: underline;color: #00=
+79bf;">an integration celebration</a>.
+</p>
+
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                            =09<td align=3D"right" style=
+=3D"vertical-align: top;-webkit-text-size-adjust: 100%;-ms-text-size-adjus=
+t: 100%;mso-table-lspace: 0pt;mso-table-rspace: 0pt;">
+                                                <img alt=3D"6" src=3D"http=
+s://gallery.mailchimp.com/5cb712992a906406c5eae28a7/images/cde68f3d-516d-4=
+b64-9021-cb0f082d4b87.png" width=3D"100" height=3D"80" style=3D"-ms-interp=
+olation-mode: bicubic;height: auto;line-height: 100%;outline: none;text-de=
+coration: none;max-width: 100%;border: 0!important;">
+                                                </td>
+                                                <td align=3D"left" style=
+=3D"-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;mso-table-ls=
+pace: 0pt;mso-table-rspace: 0pt;">
+                                                <p style=3D"-webkit-text-s=
+ize-adjust: 100%;-ms-text-size-adjust: 100%;font-size: 20px;line-height: 2=
+4px;padding: 15px 40px 15px 20px;margin: 0;"><a href=3D"http://trello.us9.=
+list-manage.com/track/click?u=3D5cb712992a906406c5eae28a7&id=3D293210ed64&=
+e=3D652fda39f0" style=3D"-webkit-text-size-adjust: 100%;-ms-text-size-adj=
+ust: 100%;text-decoration: underline;color: #0079bf;">Follow Trello</a> fo=
+r tips=2C tricks=2C and merry gifs.
+ </p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                            =09<td align=3D"right" style=
+=3D"vertical-align: top;-webkit-text-size-adjust: 100%;-ms-text-size-adjus=
+t: 100%;mso-table-lspace: 0pt;mso-table-rspace: 0pt;">
+                                                <img alt=3D"7" src=3D"http=
+s://gallery.mailchimp.com/5cb712992a906406c5eae28a7/images/e6cc4e5f-8a1f-4=
+ee5-af80-51730d6f692b.png" width=3D"100" height=3D"80" style=3D"-ms-interp=
+olation-mode: bicubic;height: auto;line-height: 100%;outline: none;text-de=
+coration: none;max-width: 100%;border: 0!important;">
+                                                </td>
+                                                <td align=3D"left" style=
+=3D"-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;mso-table-ls=
+pace: 0pt;mso-table-rspace: 0pt;">
+                                                <p style=3D"-webkit-text-s=
+ize-adjust: 100%;-ms-text-size-adjust: 100%;font-size: 20px;line-height: 2=
+4px;padding: 15px 40px 15px 20px;margin: 0;"><a href=3D"http://trello.us9.=
+list-manage.com/track/click?u=3D5cb712992a906406c5eae28a7&id=3D586a125973&=
+e=3D652fda39f0" style=3D"-webkit-text-size-adjust: 100%;-ms-text-size-adj=
+ust: 100%;text-decoration: underline;color: #0079bf;">Power-Up</a> your bo=
+ards with Slack=2C Github=2C Google Drive=2C and a partridge in a pear tre=
+e.
+
+
+</p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                            =09<td align=3D"right" style=
+=3D"vertical-align: top;-webkit-text-size-adjust: 100%;-ms-text-size-adjus=
+t: 100%;mso-table-lspace: 0pt;mso-table-rspace: 0pt;">
+                                                <img alt=3D"8" src=3D"http=
+s://gallery.mailchimp.com/5cb712992a906406c5eae28a7/images/fbf1564e-7c7b-4=
+c4d-8f8f-8540f5044b62.png" width=3D"100" height=3D"80" style=3D"-ms-interp=
+olation-mode: bicubic;height: auto;line-height: 100%;outline: none;text-de=
+coration: none;max-width: 100%;border: 0!important;">
+                                                </td>
+                                                <td align=3D"left" style=
+=3D"-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;mso-table-ls=
+pace: 0pt;mso-table-rspace: 0pt;">
+                                                <p style=3D"-webkit-text-s=
+ize-adjust: 100%;-ms-text-size-adjust: 100%;font-size: 20px;line-height: 2=
+4px;padding: 15px 40px 15px 20px;margin: 0;">Light the flames of learning=
+ by <a href=3D"http://trello.us9.list-manage.com/track/click?u=3D5cb712992=
+a906406c5eae28a7&id=3Dd0571d5e7d&e=3D652fda39f0" style=3D"-webkit-text-si=
+ze-adjust: 100%;-ms-text-size-adjust: 100%;text-decoration: underline;colo=
+r: #0079bf;">joining a webinar</a>.
+
+</p>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                        <img src=3D"https://gallery.mailch=
+imp.com/5cb712992a906406c5eae28a7/images/53f28f0f-b408-47b3-935a-d81d7225d=
+16f.png" width=3D"600" height=3D"10" style=3D"display: block;-ms-interpola=
+tion-mode: bicubic;height: auto;line-height: 100%;outline: none;text-decor=
+ation: none;max-width: 100%;border: 0!important;">
+                                        </td>
+                                    </tr>
+                                    <!-- THIRD GROUP -->
+                                    <tr>
+                                    =09<td style=3D"-webkit-text-size-adju=
+st: 100%;-ms-text-size-adjust: 100%;mso-table-lspace: 0pt;mso-table-rspace=
+: 0pt;">
+                                        <table class=3D"list" style=3D"mar=
+gin: 20px 0;-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;mso-=
+table-lspace: 0pt;mso-table-rspace: 0pt;border-collapse: collapse !importa=
+nt;">
+                                        =09<colgroup>
+                                              <col align=3D"right" valign=
+=3D"top" style=3D"width: 100px">
+                                              </col><col align=3D"left" va=
+lign=3D"top" style=3D"width: 500px">
+                                            </col></colgroup>
+                                            <tr>
+                                            =09<td align=3D"right" style=
+=3D"vertical-align: top;-webkit-text-size-adjust: 100%;-ms-text-size-adjus=
+t: 100%;mso-table-lspace: 0pt;mso-table-rspace: 0pt;">
+                                                =09<img alt=3D"9" src=3D"h=
+ttps://gallery.mailchimp.com/5cb712992a906406c5eae28a7/images/a84883b6-e86=
+3-4717-ab4a-ee4d37f26e95.png" width=3D"100" height=3D"80" style=3D"-ms-int=
+erpolation-mode: bicubic;height: auto;line-height: 100%;outline: none;text=
+-decoration: none;max-width: 100%;border: 0!important;">
+                                                </td>
+                                                <td align=3D"left" style=
+=3D"-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;mso-table-ls=
+pace: 0pt;mso-table-rspace: 0pt;">
+                                                <p style=3D"-webkit-text-s=
+ize-adjust: 100%;-ms-text-size-adjust: 100%;font-size: 20px;line-height: 2=
+4px;padding: 15px 40px 15px 20px;margin: 0;"><a href=3D"http://trello.us9.=
+list-manage1.com/track/click?u=3D5cb712992a906406c5eae28a7&id=3Df4bf2b0ccd=
+&e=3D652fda39f0" style=3D"-webkit-text-size-adjust: 100%;-ms-text-size-ad=
+just: 100%;text-decoration: underline;color: #0079bf;">Navigate</a> your n=
+aughty and nice lists by creating a holiday shopping board.
+</p>
+
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                            =09<td align=3D"right" style=
+=3D"vertical-align: top;-webkit-text-size-adjust: 100%;-ms-text-size-adjus=
+t: 100%;mso-table-lspace: 0pt;mso-table-rspace: 0pt;">
+                                                <img alt=3D"10" src=3D"htt=
+ps://gallery.mailchimp.com/5cb712992a906406c5eae28a7/images/b8c46eea-d940-=
+4101-933a-fb92f3d2c796.png" width=3D"100" height=3D"80" style=3D"-ms-inter=
+polation-mode: bicubic;height: auto;line-height: 100%;outline: none;text-d=
+ecoration: none;max-width: 100%;border: 0!important;">
+                                                </td>
+                                                <td align=3D"left" style=
+=3D"-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;mso-table-ls=
+pace: 0pt;mso-table-rspace: 0pt;">
+                                                <p style=3D"-webkit-text-s=
+ize-adjust: 100%;-ms-text-size-adjust: 100%;font-size: 20px;line-height: 2=
+4px;padding: 15px 40px 15px 20px;margin: 0;">This <a href=3D"http://trello=
+=2Eus9.list-manage1.com/track/click?u=3D5cb712992a906406c5eae28a7&id=3D03ad1=
+349a5&e=3D652fda39f0" style=3D"-webkit-text-size-adjust: 100%;-ms-text-si=
+ze-adjust: 100%;text-decoration: underline;color: #0079bf;">master board</=
+a> of tips will be your Trello guiding star. </p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                            =09<td align=3D"right" style=
+=3D"vertical-align: top;-webkit-text-size-adjust: 100%;-ms-text-size-adjus=
+t: 100%;mso-table-lspace: 0pt;mso-table-rspace: 0pt;">
+                                                <img alt=3D"11" src=3D"htt=
+ps://gallery.mailchimp.com/5cb712992a906406c5eae28a7/images/7978b67f-ea4e-=
+4a8b-961f-fdb360a8e936.png" width=3D"100" height=3D"80" style=3D"-ms-inter=
+polation-mode: bicubic;height: auto;line-height: 100%;outline: none;text-d=
+ecoration: none;max-width: 100%;border: 0!important;">
+                                                </td>
+                                                <td align=3D"left" style=
+=3D"-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;mso-table-ls=
+pace: 0pt;mso-table-rspace: 0pt;">
+                                                <p style=3D"-webkit-text-s=
+ize-adjust: 100%;-ms-text-size-adjust: 100%;font-size: 20px;line-height: 2=
+4px;padding: 15px 40px 15px 20px;margin: 0;"><a href=3D"http://trello.us9.=
+list-manage.com/track/click?u=3D5cb712992a906406c5eae28a7&id=3D4a756ec170&=
+e=3D652fda39f0" style=3D"-webkit-text-size-adjust: 100%;-ms-text-size-adj=
+ust: 100%;text-decoration: underline;color: #0079bf;">Set up boards</a> fo=
+r holiday cards=2C community=2C cleaning and caroling.
+</p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                            =09<td align=3D"right" style=
+=3D"vertical-align: top;-webkit-text-size-adjust: 100%;-ms-text-size-adjus=
+t: 100%;mso-table-lspace: 0pt;mso-table-rspace: 0pt;">
+                                                <img alt=3D"12" src=3D"htt=
+ps://gallery.mailchimp.com/5cb712992a906406c5eae28a7/images/153df062-0eaf-=
+4451-a5e6-d91ac67aef77.png" width=3D"100" height=3D"80" style=3D"-ms-inter=
+polation-mode: bicubic;height: auto;line-height: 100%;outline: none;text-d=
+ecoration: none;max-width: 100%;border: 0!important;">
+                                                </td>
+                                                <td align=3D"left" style=
+=3D"-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;mso-table-ls=
+pace: 0pt;mso-table-rspace: 0pt;">
+                                                <p style=3D"-webkit-text-s=
+ize-adjust: 100%;-ms-text-size-adjust: 100%;font-size: 20px;line-height: 2=
+4px;padding: 15px 40px 15px 20px;margin: 0;">Get a head start on New Year=
+=E2=80=99s resolutions by learning how to <a href=3D"http://trello.us9.lis=
+t-manage.com/track/click?u=3D5cb712992a906406c5eae28a7&id=3D8f230c8e5e&e=
+=3D652fda39f0" style=3D"-webkit-text-size-adjust: 100%;-ms-text-size-adju=
+st: 100%;text-decoration: underline;color: #0079bf;">set goals.</a>
+</p>
+                                                </td>
+                                            </tr>
+                                        </table>
+
+                                        </td>
+                                    </tr>
+
+
+                                    <tr>
+                                    <td id=3D"bc" bgcolor=3D"#42548E" styl=
+e=3D"background: url('https://gallery.mailchimp.com/5cb712992a906406c5eae2=
+8a7/images/a4878fd1-1e64-421c-905f-528e233597e8.png') #42548E center cente=
+r / 135px 135px repeat;-webkit-text-size-adjust: 100%;-ms-text-size-adjust=
+: 100%;mso-table-lspace: 0pt;mso-table-rspace: 0pt;">
+                                    <img src=3D"https://gallery.mailchimp.=
+com/5cb712992a906406c5eae28a7/images/8ab40f89-4723-4e79-9812-73e4b3e513ca.=
+png" width=3D"600" height=3D"80" style=3D"display: block;-ms-interpolation=
+-mode: bicubic;height: auto;line-height: 100%;outline: none;text-decoratio=
+n: none;max-width: 100%;border: 0!important;">
+                                    =09<h2 style=3D"font-size: 28px;font-s=
+tyle: normal;font-weight: bold;margin: 0px auto 25px;color: #FFFFFF!import=
+ant;">Get Ready For The New Year</h2>
+                                     =09<p style=3D"margin: 0px 30px 20px;=
+text-align: center;-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 10=
+0%;font-size: 20px;line-height: 24px;"><font color=3D"white">
+                                        Supercharge your team with Trello=
+ Business Class.
+                                        </font>
+                                        </p>
+
+                                        <table class=3D"button main" borde=
+r=3D"0" cellpadding=3D"14" cellspacing=3D"0" style=3D"display: inline-bloc=
+k;margin: 10px auto 0;border-radius: 6px;font-weight: bold;font-size: 18px=
+;text-align: center;cursor: pointer;color: #FFFFFF;background: #61BD4F;box=
+-shadow: 0px 4px 0px #49852E;-webkit-text-size-adjust: 100%;-ms-text-size-=
+adjust: 100%;mso-table-lspace: 0pt;mso-table-rspace: 0pt;border-collapse:=
+ collapse !important;" align=3D"center">
+                                                          <tr>
+                                                              <td align=3D=
+"center" valign=3D"middle" class=3D"emailButtonContent" style=3D"-webkit-t=
+ext-size-adjust: 100%;-ms-text-size-adjust: 100%;mso-table-lspace: 0pt;mso=
+-table-rspace: 0pt;">
+                                                                  <a href=
+=3D"http://trello.us9.list-manage1.com/track/click?u=3D5cb712992a906406c5e=
+ae28a7&id=3D449c64af19&e=3D652fda39f0" target=3D"_blank" style=3D"text-de=
+coration: none;padding: 10px;-webkit-text-size-adjust: 100%;-ms-text-size-=
+adjust: 100%;"><font color=3D"white">Show Me How &rarr;</font></a>
+
+
+
+                                                              </td>
+                                                          </tr>
+                                                      </table>
+                                                  <br>  <br>   <!--<p><a h=
+ref=3D"http://bit.ly/1LK7rEL"><font color=3D"white"><strong><u>Sign up for=
+ the Business Class webinar <br>Thursday=2C October 8 at 3pm EDT </u></str=
+ong></font></a> </p>-->
+                                      <table border=3D"0" cellpadding=3D"1=
+0" style=3D"-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;mso-=
+table-lspace: 0pt;mso-table-rspace: 0pt;border-collapse: collapse !importa=
+nt;">
+                                      =09<tr>
+                                        =09<td style=3D"-webkit-text-size-=
+adjust: 100%;-ms-text-size-adjust: 100%;mso-table-lspace: 0pt;mso-table-rs=
+pace: 0pt;">&nbsp;</td>
+                                        </tr>
+                                      </table>
+                                    </td>
+                                    </tr>
+
+                                </table>
+                            </td>
+                        </tr>
+                        <!-- ////////////////////////////
+                        //////////// FOOTER ////////////
+                        /////////////////////////// -->
+                        <tr>
+                        =09<td style=3D"-webkit-text-size-adjust: 100%;-ms=
+-text-size-adjust: 100%;mso-table-lspace: 0pt;mso-table-rspace: 0pt;">
+                            =09<p style=3D"margin: 20px auto 0;text-align:=
+ center;color: #aaaaaa;font-weight: bold;-webkit-text-size-adjust: 100%;-m=
+s-text-size-adjust: 100%;font-size: 20px;line-height: 24px;">Connect with=
+ us:</p>
+                            </td>
+                        </tr>
+                        <tr>
+                        =09<td id=3D"socialLinks" style=3D"text-align: cen=
+ter!important;-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;ms=
+o-table-lspace: 0pt;mso-table-rspace: 0pt;">
+                            =09<a href=3D"http://trello.us9.list-manage2.c=
+om/track/click?u=3D5cb712992a906406c5eae28a7&id=3Da5cc2019ac&e=3D=
+652fda39f0" style=3D"-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;tex=
+t-decoration: none;width: 40px;"><img src=3D"https://gallery.mailchimp.com=
+/5cb712992a906406c5eae28a7/images/e1edb4e7-5b33-4c3d-a010-e15b628929af.png=
+" width=3D"40" height=3D"40" style=3D"-ms-interpolation-mode: bicubic;heig=
+ht: auto;line-height: 100%;outline: none;text-decoration: none;max-width:=
+ 100%;margin: 10px 2px;border: 0!important;"></a>
+                                <a href=3D"http://trello.us9.list-manage1.=
+com/track/click?u=3D5cb712992a906406c5eae28a7&id=3D42713f8d2c&e=3D=
+652fda39f0" style=3D"-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;te=
+xt-decoration: none;width: 40px;"><img src=3D"https://gallery.mailchimp.co=
+m/5cb712992a906406c5eae28a7/images/24847ca6-6a1d-4069-88b5-80e353cebbac.pn=
+g" width=3D"40" height=3D"40" style=3D"-ms-interpolation-mode: bicubic;hei=
+ght: auto;line-height: 100%;outline: none;text-decoration: none;max-width:=
+ 100%;margin: 10px 2px;border: 0!important;"></a>
+                                <a href=3D"http://trello.us9.list-manage2.=
+com/track/click?u=3D5cb712992a906406c5eae28a7&id=3D76c02463e0&e=3D=
+652fda39f0" style=3D"-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;te=
+xt-decoration: none;width: 40px;"><img src=3D"https://gallery.mailchimp.co=
+m/5cb712992a906406c5eae28a7/images/430ac536-4998-4f57-b8e7-747ef53d32af.pn=
+g" width=3D"40" height=3D"40" style=3D"-ms-interpolation-mode: bicubic;hei=
+ght: auto;line-height: 100%;outline: none;text-decoration: none;max-width:=
+ 100%;margin: 10px 2px;border: 0!important;"></a>
+                                <a href=3D"http://trello.us9.list-manage.c=
+om/track/click?u=3D5cb712992a906406c5eae28a7&id=3D58c057b354&e=3D=
+652fda39f0" style=3D"-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;tex=
+t-decoration: none;width: 40px;"><img src=3D"https://gallery.mailchimp.com=
+/5cb712992a906406c5eae28a7/images/ab734e10-e4d9-4829-99c7-421e4daa175f.png=
+" width=3D"40" height=3D"40" style=3D"-ms-interpolation-mode: bicubic;heig=
+ht: auto;line-height: 100%;outline: none;text-decoration: none;max-width:=
+ 100%;margin: 10px 2px;border: 0!important;"></a>
+                                <a id=3D"blogLink" href=3D"http://trello.u=
+s9.list-manage.com/track/click?u=3D5cb712992a906406c5eae28a7&id=3D5bbcb368=
+49&e=3D652fda39f0" style=3D"-webkit-text-size-adjust: 100%;-ms-text-size-=
+adjust: 100%;text-decoration: none;width: 80px!important;"><img src=3D"htt=
+ps://gallery.mailchimp.com/5cb712992a906406c5eae28a7/images/f470fd65-3f90-=
+477b-802e-8d84567280b7.png" width=3D"80" height=3D"40" style=3D"-ms-interp=
+olation-mode: bicubic;height: auto;line-height: 100%;outline: none;text-de=
+coration: none;max-width: 100%;margin: 10px 2px;border: 0!important;"></a>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td align=3D"center" valign=3D"top" style=3D"-=
+webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;mso-table-lspace:=
+ 0pt;mso-table-rspace: 0pt;">
+                                <table border=3D"0" align=3D"center" cellp=
+adding=3D"10" cellspacing=3D"0" width=3D"600" id=3D"emailFooter" style=3D"=
+-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;mso-table-lspace=
+: 0pt;mso-table-rspace: 0pt;border-collapse: collapse !important;max-width=
+: 100%!important;">
+                                        <tr>
+                                            <td valign=3D"top" class=3D"fo=
+oterContent" style=3D"-webkit-text-size-adjust: 100%;-ms-text-size-adjust:=
+ 100%;mso-table-lspace: 0pt;mso-table-rspace: 0pt;">
+
+                                                <!-- // Begin Module: Stan=
+dard Footer \\ -->
+                                                <table border=3D"0" cellpa=
+dding=3D"10" cellspacing=3D"0" width=3D"100%" style=3D"-webkit-text-size-a=
+djust: 100%;-ms-text-size-adjust: 100%;mso-table-lspace: 0pt;mso-table-rsp=
+ace: 0pt;border-collapse: collapse !important;">
+
+
+                                                    <tr>
+                                                        <td valign=3D"top"=
+ style=3D"-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;mso-ta=
+ble-lspace: 0pt;mso-table-rspace: 0pt;">
+                                                            <br>
+                                                            <div style=3D"=
+color: #707070;font-family: Arial;font-size: 12px;line-height: 125%;text-a=
+lign: center;max-width: 100%!important;">
+                                                                <em>Copyri=
+ght &copy; 2015 Trello=2C Inc.=2C All rights reserved.</em>
+                                                                <br>
+                                                                <!--
+ -->
+                                                                We periodi=
+cally send emails to people that signed up for a Trello account.
+
+                                                                <br>
+                                                                <!--
+ -->
+                                                            </div>
+                                                            <br>
+                                                        </td>
+
+                                                    </tr>
+                                                    <tr>
+                                                        <td colspan=3D"2"=
+ valign=3D"middle" id=3D"utility" style=3D"-webkit-text-size-adjust: 100%;=
+-ms-text-size-adjust: 100%;mso-table-lspace: 0pt;mso-table-rspace: 0pt;bor=
+der-top: 1px solid #dddddd;">
+                                                            <div style=3D"=
+color: #707070;font-family: Arial;font-size: 12px;line-height: 125%;text-a=
+lign: center;max-width: 100%!important;">
+                                                                &nbsp;<a h=
+ref=3D"http://trello.us9.list-manage.com/unsubscribe?u=3D5cb712992a906406c=
+5eae28a7&id=3D9e84ea01b5&e=3D652fda39f0&c=3D29066a673f" style=3D"-webkit-tex=
+t-size-adjust: 100%;-ms-text-size-adjust: 100%;text-decoration: underline;=
+color: #336699;font-weight: normal;">unsubscribe</a> | <a href=3D"http://t=
+rello.us9.list-manage.com/profile?u=3D5cb712992a906406c5eae28a7&id=3D9e84e=
+a01b5&e=3D652fda39f0" style=3D"-webkit-text-size-adjust: 100%;-ms-text-size-=
+adjust: 100%;text-decoration: underline;color: #336699;font-weight: normal=
+;">preferences</a><!--
+ --> | <a href=3D"http://us9.campaign-archive1.com/?u=3D5cb712992a906406c5=
+eae28a7&id=3D29066a673f&e=3D652fda39f0" style=3D"-webkit-text-size-adjust: 1=
+00%;-ms-text-size-adjust: 100%;text-decoration: underline;color: #336699;f=
+ont-weight: normal;">view in browser</a><!--
+ -->&nbsp;
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                                <!-- // End Module: Standa=
+rd Footer \\ -->
+
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <!-- // End Template Footer \\ -->
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    <img src=3D"http://trello.us9.list-manage.com/track/open.php?u=3D5cb71=
+2992a906406c5eae28a7&id=3D29066a673f&e=3D652fda39f0" height=3D"1" width=
+=3D"1"></body>
+</html>
+--_----------=_MCPart_120263815--

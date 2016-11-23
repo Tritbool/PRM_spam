@@ -1,0 +1,622 @@
+Return-Path: <return-a18-2591-2595-resp-m2-miage=univ-rennes1.fr=4@solutionmaison.fr>
+Received: from mailimailo.univ-rennes1.fr ([unix socket])
+	 by mailimailo.univ-rennes1.fr (Cyrus v2.3.16-Fedora-RPM-2.3.16-6.el6_2.5) with LMTPA;
+	 Thu, 24 Dec 2015 18:45:02 +0100
+X-Sieve: CMU Sieve 2.3
+Received: from mailout1.univ-rennes1.fr (mailout1.univ-rennes1.fr [129.20.128.162])
+	by mailimailo.univ-rennes1.fr (Postfix) with ESMTP id A1BF826A0F65
+	for <resp-m2-miage@univ-rennes1.fr>; Thu, 24 Dec 2015 18:45:02 +0100 (CET)
+Received: from localhost (vmscanmail.univ-rennes1.fr [129.20.128.134])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id 9E2DF6016D
+	for <resp-m2-miage@univ-rennes1.fr>; Thu, 24 Dec 2015 18:45:02 +0100 (CET)
+X-Virus-Scanned: amavisd-new at univ-rennes1.fr
+Received: from mailout1.univ-rennes1.fr ([129.20.128.162])
+	by localhost (vmscanmail.univ-rennes1.frm [129.20.128.134]) (amavisd-new, port 10026)
+	with ESMTP id e7T0r4O61wh7 for <resp-m2-miage@univ-rennes1.fr>;
+	Thu, 24 Dec 2015 18:45:02 +0100 (CET)
+Received: from vmmailin.univ-rennes1.fr (vmmailin.univ-rennes1.fr [129.20.128.133])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id 7C23E6001E
+	for <resp-m2-miage@univ-rennes1.fr>; Thu, 24 Dec 2015 18:45:02 +0100 (CET)
+Received: from mxb2-2.relay.renater.fr (mxb2-2.relay.renater.fr [194.214.200.9])
+	by vmmailin.univ-rennes1.fr (Postfix) with ESMTP id 74A4B20033
+	for <resp-m2-miage@univ-rennes1.fr>; Thu, 24 Dec 2015 18:45:02 +0100 (CET)
+Received: from smtp1-05.revue-en-ligne.com (smtp1-05.revue-en-ligne.com [5.196.201.136])
+	by mxb2-2.relay.renater.fr (asm) with SMTP id 515FF600604
+	for <resp-m2-miage@univ-rennes1.fr>; Thu, 24 Dec 2015 18:45:02 +0100 (CET)
+Received: (GreenArrow 30998 invoked by uid 410); 24 Dec 2015 17:45:02 -0000
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed;
+	d=solutionmaison.fr; s=default; h=Subject:From:To:Date:
+	List-Unsubscribe:Message-ID:MIME-Version:Content-Type; bh=M1fFOP
+	03cLsHNTeDgcUXqU7EMpA=; b=qtRaAatK5R8oGGRBw5iIG+pcc1Ri+12NCUr+4K
+	R2hGsxMKzuOyvoPJt6mkAPgLsymYb31mnRY4arzBlAwW/2c1eISghb1Pi+7J46m6
+	PffZqT+g1QWnDVzQq9OiiX8gTHMaF8RtnLc8IQZyBvxqoP4UmJkW/dUDNcm8FYb5
+	JJmxA=
+Subject: =?UTF-8?Q?No=C3=ABl=20approche=2C=20d=C3=A9couvrez=20les=20m?=
+ =?UTF-8?Q?usts=20de=20L=27Occitane=20en=20Provence?=
+From: "L'Occitane" <news@solutionmaison.fr>
+To: resp-m2-miage@univ-rennes1.fr
+Date: 24 Dec 2015 17:45:02 -0000
+List-Unsubscribe: <http://solutionmaison.fr/ga/unsubscribe/2-11527895-18-1348-2595-ed35df89ef15825-e4a7068e4b>,
+ <mailto:return-a18-2591-2595-resp-m2-miage=univ-rennes1.fr=4u@solutionmaison.fr>
+X-Mailer: GreenArrow Studio (v4.65.0)
+X-CampaignID: s4:2591-7b3e052c9534b761
+Message-ID: <mid-4f9ea8111dd06f6f8246f1cdbe649c8f@solutionmaison.fr>
+X-Mailer-Info: 4.hFDO.gM1kTM.IXZzBXLtJTLtlWYnVGQ15Wa21icl5mblNXMuYmc.gM1kTN
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="==1b2d29686f42af7db0dbe9651799c131"
+X-UCE-Status: YES
+X-UCE-Type: MCE
+X-Original-Source-IP: 5.196.201.136
+X-Bizanga: IMP - mxb2-2.relay.renater.fr
+X-Renater-SpamState: 11
+X-Renater-SpamScore: 17
+X-Renater-SpamCause: gggruggvucftvghtrhhoucdtuddrfeekiedrhedugddutdefucetufdoteggodetrfdotffvucfrrhhofhhilhgvmecutffgpfetvffgtfdpggftfghnshhusghstghrihgsvgenuceurghilhhouhhtmecufedttdenucdnofetkffnkffpifculddujedmnecujfgurhepuffhvfffjffokfggtgesrgdtreerredtjeenucfhrhhomhepfdfnkdfqtggtihhtrghnvgdfuceonhgvfihssehsohhluhhtihhonhhmrghishhonhdrfhhrqeenucffohhmrghinhepshholhhuthhiohhnmhgrihhsohhnrdhfrhenucfrrghrrghmpehmohguvgepshhmthhppdhhvghlohepshhmthhpuddqtdehrdhrvghvuhgvqdgvnhdqlhhighhnvgdrtghomhdpihhnvghtpeehrdduleeirddvtddurddufeeipdhmrghilhhfrhhomheprhgvthhurhhnqdgrudekqddvheeluddqvdehleehqdhrvghsphdqmhdvqdhmihgrghgvpehunhhivhdqrhgvnhhnvghsuddrfhhrpeegsehsohhluhhtihhonhhmrghishhonhdrfhhrpdhrtghpthhtoheprhgvshhpqdhmvddqmhhirghgvgesuhhnihhvqdhrvghnnhgvshdurdhfrh 
+X-Renater-ServerName: mxb2-2.relay.renater.fr
+
+This is a multi-part message in MIME format.
+
+--==1b2d29686f42af7db0dbe9651799c131
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Le journal des femmes & l'Occitane en provence
+
+LES MUSTS DE L'OCCITANE EN PROVENCE
+
+Voyage gourmand en Provence ( http://solutionmaison.fr/ga/click/2-11527895-=
+18-1348-2595-18395-bde8236e53-e4a7068e4b )
+
+D=C3=A9couvrez la nouvelle collection parfum=C3=A9e L'Occitane cr=C3=A9=C3=
+=A9e =C3=A0
+quatre mains par Olivier Baussan et Pierre Herm=C3=A9. Une collection
+de parfums =C3=A9l=C3=A9gants qui rappellent la Corse et la m=C3=A9diterran=
+=C3=A9e. ( http://solutionmaison.fr/ga/click/2-11527895-18-1348-2595-18395-=
+bde8236e53-e4a7068e4b )
+
+J'en profite ( http://solutionmaison.fr/ga/click/2-11527895-18-1348-2595-18=
+395-bde8236e53-e4a7068e4b )
+
+No=C3=ABl approche ! ( http://solutionmaison.fr/ga/click/2-11527895-18-1348=
+-2595-18396-52c5c15117-e4a7068e4b )
+
+No=C3=ABl arrive =C3=A0 grand pas et chaque ann=C3=A9e, c'est la course !
+D=C3=A9couvrez la s=C3=A9lection de coffrets L'Occitane, il y en a pour
+tous les go=C3=BBts et toutes les envies! ( http://solutionmaison.fr/ga/cli=
+ck/2-11527895-18-1348-2595-18396-52c5c15117-e4a7068e4b )
+
+J'ach=C3=A8te mon coffret ( http://solutionmaison.fr/ga/click/2-11527895-18=
+-1348-2595-18396-52c5c15117-e4a7068e4b )
+
+VOTRE RITUEL MAINS POUR L'HIVER
+
+Vos 10 Astuces anti peau s=C3=A8che ( http://solutionmaison.fr/ga/click/2-1=
+1527895-18-1348-2595-18397-e89f8e53df-e4a7068e4b )
+
+Cr=C3=A8me hydratante, massage, masque naturel, gommage maison, soin
+du visage? Retrouvez toutes les astuces pour avoir une belle peau
+bien douce cet hiver. ( http://solutionmaison.fr/ga/click/2-11527895-18-134=
+8-2595-18397-e89f8e53df-e4a7068e4b )
+
+J'ach=C3=A8te mon coffret ( http://solutionmaison.fr/ga/click/2-11527895-18=
+-1348-2595-18397-e89f8e53df-e4a7068e4b )
+
+Ces produits fran=C3=A7ais que les =C3=A9trang=C3=A8res nous envient ! ( ht=
+tp://solutionmaison.fr/ga/click/2-11527895-18-1348-2595-18398-038ecc723b-e4=
+a7068e4b )
+
+Malgr=C3=A9 toutes les marques =C3=A9trang=C3=A8res pr=C3=A9sentes sur le m=
+arch=C3=A9, les
+maisons de beaut=C3=A9 fran=C3=A7aises d=C3=A9cha=C3=AEnent toujours autant=
+ les
+foules. La preuve avec ces dix produits cultes que le monde
+entier nous envie. ( http://solutionmaison.fr/ga/click/2-11527895-18-1348-2=
+595-18398-038ecc723b-e4a7068e4b )
+
+Je veux en savoir plus ( http://solutionmaison.fr/ga/click/2-11527895-18-13=
+48-2595-18398-038ecc723b-e4a7068e4b )
+
+Comment garder des mains douces en hiver ? ( http://solutionmaison.fr/ga/cl=
+ick/2-11527895-18-1348-2595-18399-07a7db04a1-e4a7068e4b )
+
+Chaque hiver vos mains souffrent. Prenez-en soin et
+chouchoutez-les avec les Cr=C3=A8mes Mains L'Occitane x Pierre Herm=C3=A9
+aux senteurs gourmandes et d=C3=A9licates. ( http://solutionmaison.fr/ga/cl=
+ick/2-11527895-18-1348-2595-18399-07a7db04a1-e4a7068e4b )
+
+J'ach=C3=A8te ma Beauty Box ( http://solutionmaison.fr/ga/click/2-11527895-=
+18-1348-2595-18399-07a7db04a1-e4a7068e4b )
+
+GRAND JEU NO=C3=8BL !
+
+Grand Jeu No=C3=ABl ! ( http://solutionmaison.fr/ga/click/2-11527895-18-134=
+8-2595-18400-085e35d3de-e4a7068e4b )
+
+Tentez de gagner 1 an de produits ou des coffrets cadeaux
+L'Occitane en jouant au grand jeu de No=C3=ABl ! 1 surprise pour
+chaque participant ! ( http://solutionmaison.fr/ga/click/2-11527895-18-1348=
+-2595-18400-085e35d3de-e4a7068e4b )
+
+Je gagne 1 an de produits ( http://solutionmaison.fr/ga/click/2-11527895-18=
+-1348-2595-18400-085e35d3de-e4a7068e4b )
+
+D=C3=A9couvrez les =C3=A9ditions limit=C3=A9es L'Occitane & Pierre Herm=C3=
+=A9 ( http://solutionmaison.fr/ga/click/2-11527895-18-1348-2595-18401-dd3d6=
+0a489-e4a7068e4b )=
+
+--==1b2d29686f42af7db0dbe9651799c131
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta content=3D"text/html; charset=3Dutf-8" http-equiv=3D"Content-Type" /=
+><!--[if !mso]><!-->
+	<meta content=3D"IE=3Dedge" http-equiv=3D"X-UA-Compatible" /><!--<![endif]=
+-->
+	<meta content=3D"width=3Ddevice-width, initial-scale=3D1.0" name=3D"viewpo=
+rt" />
+	<meta content=3D"telephone=3Dno" name=3D"format-detection" />
+	<title>Occitane</title>
+	<!--[if (gte mso 9)|(IE)]>
+        <style type=3D"text/css">
+            table,
+            table td {border-collapse: collapse;}
+            table { border-collapse:collapse; mso-table-lspace:0pt; mso-tab=
+le-rspace:0pt; }
+        </style>
+        <![endif]-->
+	<style type=3D"text/css">#outlook a{padding:0;}
+        body{width:100% !important; -webkit-text-size-adjust:100%; -ms-text=
+-size-adjust:100%; margin:0; padding:0;}
+        .ExternalClass {width:100%;}
+        .ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalCla=
+ss font, .ExternalClass td, .ExternalClass div {line-height: 100%;}
+        img{-ms-interpolation-mode: bicubic;}
+	</style>
+	<style type=3D"text/css">/* targets WebKit-supported email clients */
+        @media screen and (-webkit-min-device-pixel-ratio:0) {
+=20=20=20=20=20=20=20=20=20=20=20=20
+        }
+        /* target Gecko (Firefox) rendering */
+        @-moz-document url-prefix() {
+=20=20=20=20=20=20=20=20=20=20=20=20
+        }
+	</style>
+</head>
+<body style=3D"margin:0;padding-top:0;padding-bottom:0;padding-right:0;padd=
+ing-left:0;min-width:100%;background-color:#ffffff;">
+<center>
+<table cellpadding=3D"0" cellspacing=3D"0" style=3D"width:100%;background-c=
+olor:#ffffff">
+	<tbody>
+		<tr>
+			<td style=3D"text-align:center;background-color:#ffffff"><!--[if (gte ms=
+o 9)|(IE)]>
+                    <table width=3D"640" align=3D"center" cellpadding=3D"0"=
+ cellspacing=3D"0" border=3D"0">
+                    <tr><td>
+                    <![endif]-->
+			<table align=3D"center" cellpadding=3D"0" cellspacing=3D"0" style=3D"bac=
+kground-color:#ffffff;margin:0 auto;width:100%;max-width:640px"><!-- ONE CO=
+LUM -->
+				<tbody>
+					<tr>
+						<td>
+						<table cellpadding=3D"0" cellspacing=3D"0" style=3D"width:100%">
+							<tbody>
+								<tr>
+									<td><img alt=3D"Le journal des femmes & l'Occitane en provence" sr=
+c=3D"http://static.ccmbg.com/congrats.ccmbg.com/img/2015/occitane/top.jpg" =
+style=3D"display:block;border-width:0;width:100%;max-width:640px;max-height=
+:196px;font-family:sans-serif;font-size:25px;color:#ffffff;background-color=
+:#ad1b42;line-height:50px" /></td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+					<tr>
+						<td style=3D"padding:0 10px;">
+						<table cellpadding=3D"0" cellspacing=3D"0" style=3D"width:100%">
+							<tbody>
+								<tr>
+									<td style=3D"padding:10px;text-align:left;background-color:#ea236a=
+;color:#ffffff;font-family:sans-serif;font-size:20px;color:#ffffff;line-hei=
+ght:18px">LES MUSTS DE L&#39;OCCITANE EN PROVENCE</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+					<!-- TWO COLUMNS -->
+					<tr>
+						<td style=3D"text-align:center;font-size:0;padding:9px 0 0 0"><!--[if=
+ (gte mso 9)|(IE)]>
+                                <table border=3D"0" cellpadding=3D"0" cells=
+pacing=3D"0" style=3D"width: 100%;">
+                                <tr><td style=3D"width: 218px;" valign=3D"t=
+op"><![endif]-->
+						<table cellpadding=3D"0" cellspacing=3D"0" style=3D"display:inline-bl=
+ock;width:100%;max-width:218px;vertical-align:top;">
+							<tbody>
+								<tr>
+									<td style=3D"width:1%;padding:9px 10px 10px 28px"><a href=3D"http:=
+//solutionmaison.fr/ga/click/2-11527895-18-1348-2595-18395-bde8236e53-e4a70=
+68e4b" style=3D"text-decoration:none"><img src=3D"http://static.ccmbg.com/c=
+ongrats.ccmbg.com/img/2015/occitane/ct1.jpg" style=3D"display:block;border-=
+width:0;width:100%;max-width:180px;max-height:125px;background-color:#99999=
+9;font-family:sans-serif;font-size:16px;color:#ffffff;" /></a></td>
+								</tr>
+							</tbody>
+						</table>
+						<!--[if (gte mso 9)|(IE)]>
+                                </td><td style=3D"width: 480px" valign=3D"t=
+op"><![endif]-->
+
+						<table cellpadding=3D"0" cellspacing=3D"0" style=3D"display:inline-bl=
+ock;width:100%;max-width:422px;vertical-align:top;">
+							<tbody>
+								<tr>
+									<td style=3D"text-align:left;width:1%;padding:9px 10px 0 10px;"><a=
+ href=3D"http://solutionmaison.fr/ga/click/2-11527895-18-1348-2595-18395-bd=
+e8236e53-e4a7068e4b" style=3D"font-family:sans-serif;font-size:18px;color:#=
+303030;font-weight:bold;text-decoration:none">Voyage gourmand en Provence <=
+/a></td>
+								</tr>
+								<tr>
+									<td style=3D"text-align:left;width:1%;padding:10px 10px 0 10px;lin=
+e-height:11px"><a href=3D"http://solutionmaison.fr/ga/click/2-11527895-18-1=
+348-2595-18395-bde8236e53-e4a7068e4b" style=3D"font-family:sans-serif;font-=
+size:13px;color:#303030;text-decoration:none">D&eacute;couvrez la nouvelle =
+collection parfum&eacute;e L&#39;Occitane cr&eacute;&eacute;e &agrave; quat=
+re mains par Olivier Baussan et Pierre Herm&eacute;. Une collection de parf=
+ums &eacute;l&eacute;gants qui rappellent la Corse et la m&eacute;diterran&=
+eacute;e. </a></td>
+								</tr>
+								<tr>
+									<td style=3D"text-align:left;width:1%;padding:10px 10px 10px 10px;=
+"><a href=3D"http://solutionmaison.fr/ga/click/2-11527895-18-1348-2595-1839=
+5-bde8236e53-e4a7068e4b" style=3D"font-family:sans-serif;font-size:15px;col=
+or:#ea236a;">J&#39;en profite </a></td>
+								</tr>
+							</tbody>
+						</table>
+						<!--[if (gte mso 9)|(IE)]>
+                                </td></tr></table><![endif]--></td>
+					</tr>
+					<tr>
+						<td style=3D"text-align:center;font-size:0;padding:0 0 9px 0"><!--[if=
+ (gte mso 9)|(IE)]>
+                                <table border=3D"0" cellpadding=3D"0" cells=
+pacing=3D"0" style=3D"width: 100%;">
+                                <tr><td style=3D"width: 218px;" valign=3D"t=
+op"><![endif]-->
+						<table cellpadding=3D"0" cellspacing=3D"0" style=3D"display:inline-bl=
+ock;width:100%;max-width:218px;vertical-align:top;">
+							<tbody>
+								<tr>
+									<td style=3D"width:1%;padding:9px 10px 10px 28px"><a href=3D"http:=
+//solutionmaison.fr/ga/click/2-11527895-18-1348-2595-18402-380166e1cd-e4a70=
+68e4b" style=3D"text-decoration:none"><img src=3D"http://static.ccmbg.com/c=
+ongrats.ccmbg.com/img/2015/occitane/ct2.jpg" style=3D"display:block;border-=
+width:0;width:100%;max-width:180px;max-height:125px;background-color:#99999=
+9;font-family:sans-serif;font-size:16px;color:#ffffff;" /></a></td>
+								</tr>
+							</tbody>
+						</table>
+						<!--[if (gte mso 9)|(IE)]>
+                                </td><td style=3D"width: 480px" valign=3D"t=
+op"><![endif]-->
+
+						<table cellpadding=3D"0" cellspacing=3D"0" style=3D"display:inline-bl=
+ock;width:100%;max-width:422px;vertical-align:top;">
+							<tbody>
+								<tr>
+									<td style=3D"text-align:left;width:1%;padding:9px 10px 0 10px;"><a=
+ href=3D"http://solutionmaison.fr/ga/click/2-11527895-18-1348-2595-18396-52=
+c5c15117-e4a7068e4b" style=3D"font-family:sans-serif;font-size:18px;color:#=
+303030;font-weight:bold;text-decoration:none">No&euml;l approche ! </a></td>
+								</tr>
+								<tr>
+									<td style=3D"text-align:left;width:1%;padding:10px 10px 0 10px;lin=
+e-height:11px"><a href=3D"http://solutionmaison.fr/ga/click/2-11527895-18-1=
+348-2595-18396-52c5c15117-e4a7068e4b" style=3D"font-family:sans-serif;font-=
+size:13px;color:#303030;text-decoration:none">No&euml;l arrive &agrave; gra=
+nd pas et chaque ann&eacute;e, c&#39;est la course ! D&eacute;couvrez la s&=
+eacute;lection de coffrets L&#39;Occitane, il y en a pour tous les go&ucirc=
+;ts et toutes les envies! </a></td>
+								</tr>
+								<tr>
+									<td style=3D"text-align:left;width:1%;padding:10px 10px 10px 10px;=
+"><a href=3D"http://solutionmaison.fr/ga/click/2-11527895-18-1348-2595-1839=
+6-52c5c15117-e4a7068e4b" style=3D"font-family:sans-serif;font-size:15px;col=
+or:#ea236a;">J&#39;ach&egrave;te mon coffret </a></td>
+								</tr>
+							</tbody>
+						</table>
+						<!--[if (gte mso 9)|(IE)]>
+                                </td></tr></table><![endif]--></td>
+					</tr>
+					<tr>
+						<td style=3D"padding:0 10px;">
+						<table cellpadding=3D"0" cellspacing=3D"0" style=3D"width:100%">
+							<tbody>
+								<tr>
+									<td style=3D"padding:10px;text-align:left;background-color:#ea236a=
+;color:#ffffff;font-family:sans-serif;font-size:20px;color:#ffffff;line-hei=
+ght:18px">VOTRE RITUEL MAINS POUR L&#39;HIVER</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+					<tr>
+						<td style=3D"text-align:center;font-size:0;padding:9px 0 0 0"><!--[if=
+ (gte mso 9)|(IE)]>
+                                <table border=3D"0" cellpadding=3D"0" cells=
+pacing=3D"0" style=3D"width: 100%;">
+                                <tr><td style=3D"width: 218px;" valign=3D"t=
+op"><![endif]-->
+						<table cellpadding=3D"0" cellspacing=3D"0" style=3D"display:inline-bl=
+ock;width:100%;max-width:218px;vertical-align:top;">
+							<tbody>
+								<tr>
+									<td style=3D"width:1%;padding:9px 10px 10px 28px"><a href=3D"http:=
+//solutionmaison.fr/ga/click/2-11527895-18-1348-2595-18397-e89f8e53df-e4a70=
+68e4b" style=3D"text-decoration:none"><img src=3D"http://static.ccmbg.com/c=
+ongrats.ccmbg.com/img/2015/occitane/ct3.jpg" style=3D"display:block;border-=
+width:0;width:100%;max-width:180px;max-height:125px;background-color:#99999=
+9;font-family:sans-serif;font-size:16px;color:#ffffff;" /></a></td>
+								</tr>
+							</tbody>
+						</table>
+						<!--[if (gte mso 9)|(IE)]>
+                                </td><td style=3D"width: 480px" valign=3D"t=
+op"><![endif]-->
+
+						<table cellpadding=3D"0" cellspacing=3D"0" style=3D"display:inline-bl=
+ock;width:100%;max-width:422px;vertical-align:top;">
+							<tbody>
+								<tr>
+									<td style=3D"text-align:left;width:1%;padding:9px 10px 0 10px;"><a=
+ href=3D"http://solutionmaison.fr/ga/click/2-11527895-18-1348-2595-18397-e8=
+9f8e53df-e4a7068e4b" style=3D"font-family:sans-serif;font-size:18px;color:#=
+303030;font-weight:bold;text-decoration:none">Vos 10 Astuces anti peau s&eg=
+rave;che </a></td>
+								</tr>
+								<tr>
+									<td style=3D"text-align:left;width:1%;padding:10px 10px 0 10px;lin=
+e-height:11px"><a href=3D"http://solutionmaison.fr/ga/click/2-11527895-18-1=
+348-2595-18397-e89f8e53df-e4a7068e4b" style=3D"font-family:sans-serif;font-=
+size:13px;color:#303030;text-decoration:none">Cr&egrave;me hydratante, mass=
+age, masque naturel, gommage maison, soin du visage? Retrouvez toutes les a=
+stuces pour avoir une belle peau bien douce cet hiver. </a></td>
+								</tr>
+								<tr>
+									<td style=3D"text-align:left;width:1%;padding:10px 10px 10px 10px;=
+"><a href=3D"http://solutionmaison.fr/ga/click/2-11527895-18-1348-2595-1839=
+7-e89f8e53df-e4a7068e4b" style=3D"font-family:sans-serif;font-size:15px;col=
+or:#ea236a;">J&#39;ach&egrave;te mon coffret </a></td>
+								</tr>
+							</tbody>
+						</table>
+						<!--[if (gte mso 9)|(IE)]>
+                                </td></tr></table><![endif]--></td>
+					</tr>
+					<tr>
+						<td style=3D"text-align:center;font-size:0;"><!--[if (gte mso 9)|(IE)=
+]>
+                                <table border=3D"0" cellpadding=3D"0" cells=
+pacing=3D"0" style=3D"width: 100%;">
+                                <tr><td style=3D"width: 218px;" valign=3D"t=
+op"><![endif]-->
+						<table cellpadding=3D"0" cellspacing=3D"0" style=3D"display:inline-bl=
+ock;width:100%;max-width:218px;vertical-align:top;">
+							<tbody>
+								<tr>
+									<td style=3D"width:1%;padding:9px 10px 10px 28px"><a href=3D"http:=
+//solutionmaison.fr/ga/click/2-11527895-18-1348-2595-18398-038ecc723b-e4a70=
+68e4b" style=3D"text-decoration:none"><img src=3D"http://static.ccmbg.com/c=
+ongrats.ccmbg.com/img/2015/occitane/ct4.jpg" style=3D"display:block;border-=
+width:0;width:100%;max-width:180px;max-height:125px;background-color:#99999=
+9;font-family:sans-serif;font-size:16px;color:#ffffff;" /></a></td>
+								</tr>
+							</tbody>
+						</table>
+						<!--[if (gte mso 9)|(IE)]>
+                                </td><td style=3D"width: 480px" valign=3D"t=
+op"><![endif]-->
+
+						<table cellpadding=3D"0" cellspacing=3D"0" style=3D"display:inline-bl=
+ock;width:100%;max-width:422px;vertical-align:top;">
+							<tbody>
+								<tr>
+									<td style=3D"text-align:left;width:1%;padding:9px 10px 0 10px;"><a=
+ href=3D"http://solutionmaison.fr/ga/click/2-11527895-18-1348-2595-18398-03=
+8ecc723b-e4a7068e4b" style=3D"font-family:sans-serif;font-size:18px;color:#=
+303030;font-weight:bold;text-decoration:none">Ces produits fran&ccedil;ais =
+que les &eacute;trang&egrave;res nous envient ! </a></td>
+								</tr>
+								<tr>
+									<td style=3D"text-align:left;width:1%;padding:10px 10px 0 10px;lin=
+e-height:11px"><a href=3D"http://solutionmaison.fr/ga/click/2-11527895-18-1=
+348-2595-18398-038ecc723b-e4a7068e4b" style=3D"font-family:sans-serif;font-=
+size:13px;color:#303030;text-decoration:none">Malgr&eacute; toutes les marq=
+ues &eacute;trang&egrave;res pr&eacute;sentes sur le march&eacute;, les mai=
+sons de beaut&eacute; fran&ccedil;aises d&eacute;cha&icirc;nent toujours au=
+tant les foules. La preuve avec ces dix produits cultes que le monde entier=
+ nous envie. </a></td>
+								</tr>
+								<tr>
+									<td style=3D"text-align:left;width:1%;padding:10px 10px 10px 10px;=
+"><a href=3D"http://solutionmaison.fr/ga/click/2-11527895-18-1348-2595-1839=
+8-038ecc723b-e4a7068e4b" style=3D"font-family:sans-serif;font-size:15px;col=
+or:#ea236a;">Je veux en savoir plus </a></td>
+								</tr>
+							</tbody>
+						</table>
+						<!--[if (gte mso 9)|(IE)]>
+                                </td></tr></table><![endif]--></td>
+					</tr>
+					<tr>
+						<td style=3D"text-align:center;font-size:0;padding:0 0 9px 0"><!--[if=
+ (gte mso 9)|(IE)]>
+                                <table border=3D"0" cellpadding=3D"0" cells=
+pacing=3D"0" style=3D"width: 100%;">
+                                <tr><td style=3D"width: 218px;" valign=3D"t=
+op"><![endif]-->
+						<table cellpadding=3D"0" cellspacing=3D"0" style=3D"display:inline-bl=
+ock;width:100%;max-width:218px;vertical-align:top;">
+							<tbody>
+								<tr>
+									<td style=3D"width:1%;padding:9px 10px 10px 28px"><a href=3D"http:=
+//solutionmaison.fr/ga/click/2-11527895-18-1348-2595-18399-07a7db04a1-e4a70=
+68e4b" style=3D"text-decoration:none"><img src=3D"http://emailmerci.fr/medi=
+a/OccitaneNL/Occitane-main.jpg" style=3D"display:block;border-width:0;width=
+:100%;max-width:180px;max-height:125px;background-color:#999999;font-family=
+:sans-serif;font-size:16px;color:#ffffff;" /></a></td>
+								</tr>
+							</tbody>
+						</table>
+						<!--[if (gte mso 9)|(IE)]>
+                                </td><td style=3D"width: 480px" valign=3D"t=
+op"><![endif]-->
+
+						<table cellpadding=3D"0" cellspacing=3D"0" style=3D"display:inline-bl=
+ock;width:100%;max-width:422px;vertical-align:top;">
+							<tbody>
+								<tr>
+									<td style=3D"text-align:left;width:1%;padding:9px 10px 0 10px;"><a=
+ href=3D"http://solutionmaison.fr/ga/click/2-11527895-18-1348-2595-18399-07=
+a7db04a1-e4a7068e4b" style=3D"font-family:sans-serif;font-size:18px;color:#=
+303030;font-weight:bold;text-decoration:none">Comment garder des mains douc=
+es en hiver ? </a></td>
+								</tr>
+								<tr>
+									<td style=3D"text-align:left;width:1%;padding:10px 10px 10px 10px;=
+line-height:11px"><a href=3D"http://solutionmaison.fr/ga/click/2-11527895-1=
+8-1348-2595-18399-07a7db04a1-e4a7068e4b" style=3D"font-family:sans-serif;fo=
+nt-size:13px;color:#303030;text-decoration:none">Chaque hiver vos mains sou=
+ffrent. Prenez-en soin et chouchoutez-les avec les Cr&egrave;mes Mains L&#3=
+9;Occitane x Pierre Herm&eacute; aux senteurs gourmandes et d&eacute;licate=
+s. </a></td>
+								</tr>
+								<tr>
+									<td style=3D"text-align:left;width:1%;padding:0 10px 10px 10px;"><=
+a href=3D"http://solutionmaison.fr/ga/click/2-11527895-18-1348-2595-18399-0=
+7a7db04a1-e4a7068e4b" style=3D"font-family:sans-serif;font-size:15px;color:=
+#ea236a;">J&#39;ach&egrave;te ma Beauty Box </a></td>
+								</tr>
+							</tbody>
+						</table>
+						<!--[if (gte mso 9)|(IE)]>
+                                </td></tr></table><![endif]--></td>
+					</tr>
+					<tr>
+						<td style=3D"padding:0 10px;">
+						<table cellpadding=3D"0" cellspacing=3D"0" style=3D"width:100%">
+							<tbody>
+								<tr>
+									<td style=3D"padding:10px;text-align:left;background-color:#ea236a=
+;color:#ffffff;font-family:sans-serif;font-size:20px;color:#ffffff;line-hei=
+ght:18px">GRAND JEU NO&Euml;L !</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+					<tr>
+						<td style=3D"text-align:center;font-size:0;padding:9px 0 0 0"><!--[if=
+ (gte mso 9)|(IE)]>
+                                <table border=3D"0" cellpadding=3D"0" cells=
+pacing=3D"0" style=3D"width: 100%;">
+                                <tr><td style=3D"width: 218px;" valign=3D"t=
+op"><![endif]-->
+						<table cellpadding=3D"0" cellspacing=3D"0" style=3D"display:inline-bl=
+ock;width:100%;max-width:218px;vertical-align:top;">
+							<tbody>
+								<tr>
+									<td style=3D"width:1%;padding:9px 10px 10px 28px"><a href=3D"http:=
+//solutionmaison.fr/ga/click/2-11527895-18-1348-2595-18400-085e35d3de-e4a70=
+68e4b" style=3D"text-decoration:none"><img src=3D"http://static.ccmbg.com/c=
+ongrats.ccmbg.com/img/2015/occitane/ct6.jpg" style=3D"display:block;border-=
+width:0;width:100%;max-width:180px;max-height:125px;background-color:#99999=
+9;font-family:sans-serif;font-size:16px;color:#ffffff;" /></a></td>
+								</tr>
+							</tbody>
+						</table>
+						<!--[if (gte mso 9)|(IE)]>
+                                </td><td style=3D"width: 480px" valign=3D"t=
+op"><![endif]-->
+
+						<table cellpadding=3D"0" cellspacing=3D"0" style=3D"display:inline-bl=
+ock;width:100%;max-width:422px;vertical-align:top;">
+							<tbody>
+								<tr>
+									<td style=3D"text-align:left;width:1%;padding:9px 10px 0 10px;"><a=
+ href=3D"http://solutionmaison.fr/ga/click/2-11527895-18-1348-2595-18400-08=
+5e35d3de-e4a7068e4b" style=3D"font-family:sans-serif;font-size:18px;color:#=
+303030;font-weight:bold;text-decoration:none">Grand Jeu No&euml;l ! </a></t=
+d>
+								</tr>
+								<tr>
+									<td style=3D"text-align:left;width:1%;padding:10px 10px 0 10px;lin=
+e-height:11px"><a href=3D"http://solutionmaison.fr/ga/click/2-11527895-18-1=
+348-2595-18400-085e35d3de-e4a7068e4b" style=3D"font-family:sans-serif;font-=
+size:13px;color:#303030;text-decoration:none">Tentez de gagner 1 an de prod=
+uits ou des coffrets cadeaux L&#39;Occitane en jouant au grand jeu de No&eu=
+ml;l ! 1 surprise pour chaque participant ! </a></td>
+								</tr>
+								<tr>
+									<td style=3D"text-align:left;width:1%;padding:10px 10px 10px 10px;=
+"><a href=3D"http://solutionmaison.fr/ga/click/2-11527895-18-1348-2595-1840=
+0-085e35d3de-e4a7068e4b" style=3D"font-family:sans-serif;font-size:15px;col=
+or:#ea236a;">Je gagne 1 an de produits </a></td>
+								</tr>
+							</tbody>
+						</table>
+						<!--[if (gte mso 9)|(IE)]>
+                                </td></tr></table><![endif]--></td>
+					</tr>
+					<tr>
+						<td style=3D"padding-top:40px">
+						<table cellpadding=3D"0" cellspacing=3D"0" style=3D"width:100%">
+							<tbody>
+								<tr>
+									<td style=3D"padding:0 15px 15px 15px;text-align:center;"><a href=
+=3D"http://solutionmaison.fr/ga/click/2-11527895-18-1348-2595-18401-dd3d60a=
+489-e4a7068e4b" style=3D"text-decoration:none"><img alt=3D"D=C3=A9couvrez l=
+es =C3=A9ditions limit=C3=A9es L'Occitane & Pierre Herm=C3=A9" src=3D"http:=
+//static.ccmbg.com/congrats.ccmbg.com/img/2015/occitane/bt.png" style=3D"di=
+splay:block;border-width:0;width:100%;max-width:610px;max-height:177px;font=
+-family:sans-serif;font-size:25px;color:#ffffff;background-color:#ad1b42;li=
+ne-height:50px" /></a></td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			<!--[if (gte mso 9)|(IE)]>
+                    </td></tr></table><![endif]--></td>
+		</tr>
+	</tbody>
+</table>
+
+<p><img src=3D"http://t.myvisualiq.net/impression_pixel?r=3D[CACHEBUSTER]&e=
+t=3Di&ago=3D212&ao=3D664&aca=3D-10001&si=3D-10000&ci=3D-10000&pi=3D-20001&a=
+d=3D-228&sv1=3D-7&advt=3D-7&chnl=3D-7&vndr=3D1125&u=3DDispFRDirectBuy&pt=3D=
+i" /></p>
+</center>
+
+<center><a href=3D"http://solutionmaison.fr/ga/unsubscribe/2-11527895-18-13=
+48-2595-ed35df89ef15825-e4a7068e4b">Je souhaite me d=C3=A9sinscrire et ne p=
+lus recevoir les newsletters</a>
+</center><img src=3D"http://solutionmaison.fr/ga/open/2-11527895-18-1348-25=
+95-e4a7068e4b" height=3D"2" width=3D"3" alt=3D""></body>
+</html>
+
+--==1b2d29686f42af7db0dbe9651799c131--

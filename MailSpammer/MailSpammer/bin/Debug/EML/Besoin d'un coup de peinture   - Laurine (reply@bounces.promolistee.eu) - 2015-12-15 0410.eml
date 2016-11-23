@@ -1,0 +1,420 @@
+Return-Path: <reply@bounces.promolistee.eu>
+Received: from mailimailo.univ-rennes1.fr ([unix socket])
+	 by mailimailo.univ-rennes1.fr (Cyrus v2.3.16-Fedora-RPM-2.3.16-6.el6_2.5) with LMTPA;
+	 Tue, 15 Dec 2015 04:11:00 +0100
+X-Sieve: CMU Sieve 2.3
+Received: from mailout1.univ-rennes1.fr (mailout1.univ-rennes1.fr [129.20.128.162])
+	by mailimailo.univ-rennes1.fr (Postfix) with ESMTP id 0CC2826A074D
+	for <resp-m2-miage@univ-rennes1.fr>; Tue, 15 Dec 2015 04:11:00 +0100 (CET)
+Received: from localhost (vmscanmail.univ-rennes1.fr [129.20.128.134])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id F1D9960014
+	for <resp-m2-miage@univ-rennes1.fr>; Tue, 15 Dec 2015 04:10:59 +0100 (CET)
+X-Virus-Scanned: amavisd-new at univ-rennes1.fr
+Received: from mailout1.univ-rennes1.fr ([129.20.128.162])
+	by localhost (vmscanmail.univ-rennes1.frm [129.20.128.134]) (amavisd-new, port 10026)
+	with ESMTP id kTZPAnqFN8os for <resp-m2-miage@univ-rennes1.fr>;
+	Tue, 15 Dec 2015 04:10:59 +0100 (CET)
+Received: from vmmailin.univ-rennes1.fr (vmmailin.univ-rennes1.fr [129.20.128.133])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id CF867601A2
+	for <resp-m2-miage@univ-rennes1.fr>; Tue, 15 Dec 2015 04:10:59 +0100 (CET)
+Received: from mxb2-2.relay.renater.fr (mxb2-2.relay.renater.fr [194.214.200.9])
+	by vmmailin.univ-rennes1.fr (Postfix) with ESMTP id C81D420033
+	for <resp-m2-miage@univ-rennes1.fr>; Tue, 15 Dec 2015 04:10:59 +0100 (CET)
+Received: from mta.49.240.smtp.fr (mta.49.240.smtp.fr [37.60.49.240])
+	by mxb2-2.relay.renater.fr (asm) with ESMTP id A15CC600460
+	for <resp-m2-miage@univ-rennes1.fr>; Tue, 15 Dec 2015 04:10:59 +0100 (CET)
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=smtp; d=bounces.promolistee.eu;
+ h=To:Subject:Message-ID:Date:From:Reply-to:MIME-Version:List-Unsubscribe:Content-Type; i=reply@bounces.promolistee.eu;
+ bh=SCZg3RutZWPF3/9xEFNmXqFRLiA=;
+ b=Xzopyv/X72PEX+I5JaQCE/v2lZsNACi2PE6odcPQ9ivnd8g23DlYvFIyxHmcjCPPap+sbZnVlIx/
+   kYr27cDb+30ttg9WB5DJIoAETHhux4Su+roTdpwqSTiplyY+Rkx4VOFgPi8dmg3DcbPG03dK2/TP
+   1W5b3jZEpfmGKOwWQkI=
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=smtp; d=bounces.promolistee.eu;
+ b=rCYjBDZZ4bajROIU/B9IejHvvGkQW27Twz/v1sBrYA6vnjvNhCqOPsM+Z+ut/VpwmnkhiZvXeyJP
+   sJw4GpZ9+jKGXsEWPY0TKKTafm0sYUAAbGdpe9SODTl3+FxMBCfELhAUic7y9jWS7Ox0fRYJzsrj
+   Kz4t+bRm6NuAB73qDl8=;
+Received: from localhost.localdomain (172.31.255.248) by mta.49.240.smtp.fr id hdu2c616t60m for <resp-m2-miage@univ-rennes1.fr>; Tue, 15 Dec 2015 04:10:59 +0100 (envelope-from <reply@bounces.promolistee.eu>)
+To: resp-m2-miage@univ-rennes1.fr
+Subject: Besoin d'un coup de peinture ?
+Message-ID: <5ab0d3db9ba09a2ebb02994433feeee8@localhost.localdomain>
+Date: Tue, 15 Dec 2015 04:10:59 +0100
+From: Laurine <reply@bounces.promolistee.eu>
+Reply-to: Laurine <reply@bounces.promolistee.eu>
+MIME-Version: 1.0
+List-Unsubscribe: <http://www.promolistee.eu/Bounces.php?M=232898091&N=553810&L=4fc5ef332a&type=34>, <mailto:reply@bounces.promolistee.eu?subject=list-id=a065c159-dfbb-6619-e781-ebef6d94195d_4fc5ef332a_73d1db09-5701-a9ad-f94e-6919ba548ea8-fbl>
+X-Mailer: JRCG
+X-Mailer-Sid: promolisteeeu
+X-Mailer-RecptId: a065c159-dfbb-6619-e781-ebef6d94195d_4fc5ef332a_73d1db09-5701-a9ad-f94e-6919ba548ea8
+X-Priority: 3
+Content-Type: multipart/alternative;
+	boundary="b1_5ab0d3db9ba09a2ebb02994433feeee8"
+X-UCE-Status: YES
+X-UCE-Type: MCE
+X-Original-Source-IP: 37.60.49.240
+X-Bizanga: IMP - mxb2-2.relay.renater.fr
+X-Renater-SpamState: 11
+X-Renater-SpamScore: 17
+X-Renater-SpamCause: gggruggvucftvghtrhhoucdtuddrfeekiedrvdeigdehlecutefuodetggdotefrodftvfcurfhrohhfihhlvgemucftgffptefvgfftpdggtfgfnhhsuhgsshgtrhhisggvnecuuegrihhlohhuthemuceftddtnecundfotefknffkpffiucdludejmdenucfjughrpefvuffkfffhrhggjfforfgtsegrtdhjphertdejnecuhfhrohhmpefnrghurhhinhgvuceorhgvphhlhiessghouhhntggvshdrphhrohhmohhlihhsthgvvgdrvghuqeenucffohhmrghinhepphhrohhmohhlihhsthgvvgdrvghunecurfgrrhgrmhepmhhouggvpehsmhhtphdphhgvlhhopehmthgrrdegledrvdegtddrshhmthhprdhfrhdpihhnvghtpeefjedriedtrdegledrvdegtddpmhgrihhlfhhrohhmpehrvghplhihsegsohhunhgtvghsrdhprhhomhholhhishhtvggvrdgvuhdprhgtphhtthhopehrvghsphdqmhdvqdhmihgrghgvsehunhhivhdqrhgvnhhnvghsuddrfhhr 
+X-Renater-ServerName: mxb2-2.relay.renater.fr
+
+
+--b1_5ab0d3db9ba09a2ebb02994433feeee8
+Content-Type: text/plain; charset = "utf-8"
+Content-Transfer-Encoding: 8bit
+
+Devis Peinture Intrieure
+Vous recevez ce mail car vous tes inscrits la lettre d'information de
+Promo Listee.
+Vous aimez notre Newsletter ? Pour tre sr(e) de recevoir tous nos
+emails, nous vous conseillons d'ajouter contact@promolistee.eu
+mailto:contact@promolistee.eu votre carnet d'adresses.
+DCOUVREZ L\'OFFRE DU JOUR AVEC PROMO LISTEE suivez ce lien
+http://www.promolistee.eu/n2/553810/232898091/4fc5ef332a. Pour un
+dsabonnement, utilisez ce lien Me dsabonner/Unsubscribe
+http://www.promolistee.eu/u/553810/232898091/4fc5ef332a/fr
+http://www.promolistee.eu/c2/553810/232898091/4fc5ef332a/1
+comparez - choisissez - economisez
+Devis Peinture Intrieur
+http://www.promolistee.eu/c2/553810/232898091/4fc5ef332a/2
+Pourquoi payer plus cher ?
+Votre Devis Peinture
+http://www.promolistee.eu/c2/553810/232898091/4fc5ef332a/3
+50% moins cher
+http://www.promolistee.eu/c2/553810/232898091/4fc5ef332a/4
+Comparez gratuitement les artisans de votre rgion
+Trouvez le peintre qui rpond a vos besoins au meilleur prix.
+J'en profite
+http://www.promolistee.eu/c2/553810/232898091/4fc5ef332a/5
+http://www.promolistee.eu/c2/553810/232898091/4fc5ef332a/6
+http://www.promolistee.eu/c2/553810/232898091/4fc5ef332a/7
+Tous Droits Rservs.
+Nous comparons et slectionnons les meilleurs offres promotionnells
+pour vous permettre d'conomiser sur votre budget.
+Avec Promo Listee, vous pouvez bnficier ds maintenant des bons plans
+et des rductions exclusives qui correspondent
+aux univers de la famille, la mode, la beaut, la dcoration, le
+voyage...
+Conformment la loi informatique et liberts, vous pouvez tout moment
+accder, faire rectifier
+ou supprimer les informations personnelles vous concernant ou vous
+opposer leur traitement par Promo Listee.
+Pour ne plus bnficier de nos propositions commerciales, vous pouvez
+vous rendre sur cette page
+http://www.promolistee.eu/u/553810/232898091/4fc5ef332a/fr
+Notez que le traitement de cette demande peut prendre jusqu' 48
+heures.
+
+
+--b1_5ab0d3db9ba09a2ebb02994433feeee8
+Content-Type: text/html; charset = "utf-8"
+Content-Transfer-Encoding: 8bit
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<style type="text/css">
+.ReadMsgBody {width: 100%;}
+.ExternalClass {width: 100%;}
+.ExternalClass * {line-height: 100%;}
+span.yshortcuts { color:#000; background-color:none; border:none;}
+span.yshortcuts:hover,span.yshortcuts:active,span.yshortcuts:focus {color:#000; background-color:none; border:none;}
+* { margin-top: 0px; margin-bottom: 0px; padding: 0px; border: none; line-height: normal; outline: none; list-style: none; font-family: Arial, Helvetica, sans-serif;-webkit-text-size-adjust: none;}
+body { margin-top: 0 !important; margin-bottom: 0 !important; padding-top: 0 !important; padding-bottom: 0 !important; width: 100% !important; -webkit-text-size-adjust: 100% !important; -ms-text-size-adjust: 100% !important; -webkit-font-smoothing: antialiased !important;}
+img { border: 0 !important; outline: none !important;}
+table { border-collapse: collapse; mso-table-lspace: 0px; mso-table-rspace: 0px;}
+td { border-collapse: collapse; mso-line-height-rule: exactly;}
+.ExternalClass * { line-height: 100%}
+span { border-collapse: collapse; mso-line-height-rule: exactly;}
+@media only screen and (max-width: 480px) {table[class=full] { width: 100% !important;}
+td[class=hide] { display: none !important;}
+table[class=primary_table] { width: 320px !important;}
+td[class=sides] { width: 15px !important;}
+td[class=heights] { height: 15px !important;}
+td[class=padding_top] { padding-top: 15px !important;}
+td[class=font_size]{ font-size:26px !important; line-height:29px !important;}
+span[class=percentage]{ font-size:45px !important; line-height:48px !important;}
+td[class=votre]{ font-size:25px !important; line-height:27px !important;}
+td[class=center]{ text-align:center !important;}
+table[class=width_tablet]{ width:100% !important;}
+table[class=button_size]{ width:100% !important;}
+td[class=size_size]{ font-size:30px !important; line-height:33px !important;}
+td[class=main_size]{ font-size:35px !important; line-height:38px !important;}
+}
+@media only screen and (min-width: 480px) and (max-width: 599px) {table[class=full] { width: 100% !important;}
+table[class=primary_table] { width: 480px !important;}
+td[class=font_size]{ font-size:28px !important; line-height:31px !important;}
+span[class=percentage]{ font-size:75px !important; line-height:78px !important;}
+td[class=votre]{ font-size:35px !important; line-height:37px !important;}
+table[class=width_tablet]{ width:360px !important;}
+table[class=button_size]{ width:315px !important;}
+td[class=size_size]{ font-size:35px !important; line-height:38px !important;}
+td[class=main_size]{ font-size:40px !important; line-height:43px !important;}
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Devis Peinture Int&eacute;rieure</title>
+</head>
+<body marginwidth="0" marginheight="0" bgcolor="#e5e5e5" style="font-family:Arial, Helvetica, sans-serif; color:#000000; margin-top: 0; margin-bottom: 0; padding-top: 0; padding-bottom: 0; width: 100% !important; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; -webkit-font-smoothing: antialiased;" offset="0" topmargin="0" leftmargin="0"><div id="template_header_auto_include" ><center>
+<span style='font-size:11px;text-align:center;font-family:Arial, Helvetica, sans-serif;color:#000'><br />
+Vous recevez ce mail car vous &ecirc;tes inscrits &agrave; la lettre d'information de Promo Listee. <br />
+Vous aimez notre Newsletter ? Pour &ecirc;tre s&ucirc;r(e) de recevoir tous nos emails, nous vous conseillons d'ajouter <a href='mailto:contact@promolistee.eu' target='_blank'> contact@promolistee.eu</a> &agrave; votre carnet d'adresses.<br />
+<br/>
+<strong>D&eacute;couvrez l'offre du jour avec Promo Listee </strong><a href='http://www.promolistee.eu/n2/553810/232898091/4fc5ef332a' target='_blank'> suivez ce lien</a>. Pour un d&eacute;sabonnement, utilisez ce lien <a href='http://www.promolistee.eu/u/553810/232898091/4fc5ef332a/fr' target='_blank'> Me d&eacute;sabonner/Unsubscribe</a>
+</span>
+</center></div><table width="98%" border="0" align="center" cellpadding="0" cellspacing="0">
+<tr><td align="center">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td bgcolor="#e5e5e5" style="background-color:#e5e5e5;"><table width="600" border="0" cellspacing="0" cellpadding="0" align="center" class="full">
+<tr>
+<td bgcolor="#ffffff" style="background-color:#ffffff;"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td bgcolor="#eaf7fd" style="background-color:#eaf7fd;"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td height="11" style="font-size:0px; line-height:0px;"> </td>
+</tr>
+<tr>
+<td align="center"><a href="http://www.promolistee.eu/c2/553810/232898091/4fc5ef332a/1" target="_blank" style="border:none; text-decoration:none;"><img src="http://img.promolistee.eu/553810/logo.png" alt="devis-travaux.pro" width="197" height="54" border="0" style="display:block;"/></a></td>
+</tr>
+<tr>
+<td height="5" style="font-size:0px; line-height:0px;"> </td>
+</tr>
+<tr>
+<td style="font-family:'trebuchet MS', Arial, Helvetica, sans-serif; font-size:15px; line-height:18px; color:#0a65a5; text-align:center;">comparez - choisissez - economisez</td>
+</tr>
+<tr>
+<td height="14" style="font-size:0px; line-height:0px;"> </td>
+</tr>
+</table></td>
+</tr>
+<tr>
+<td bgcolor="#0a65a5" style="background-color:#0a65a5;"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td><img src="http://img.promolistee.eu/553810/i1.jpg" alt="" width="100%" height="14px" border="0" style="display:block;"/></td>
+</tr>
+<tr>
+<td class="font_size" style="font-family:'trebuchet MS', Arial, Helvetica, sans-serif; font-size:32px; line-height:35px; color:#ffffff; text-align:center;">
+<a href="http://www.promolistee.eu/c2/553810/232898091/4fc5ef332a/2" style="font-family:'trebuchet MS', Arial, Helvetica, sans-serif; font-size:32px; line-height:35px; color:#ffffff; text-align:center; border:none; text-decoration:none;" target="_blank">Devis Peinture Int&eacute;rieur</a></td>
+</tr>
+<tr>
+<td height="9" style="font-size:0px; line-height:0px;"> </td>
+</tr>
+<tr>
+<td style="font-family:'trebuchet MS', Arial, Helvetica, sans-serif; font-size:22px; line-height:24px; color:#ffffff; font-style:italic; text-align:center;">Pourquoi payer plus cher ?</td>
+</tr>
+<tr>
+<td height="6" style="font-size:0px; line-height:0px;"> </td>
+</tr>
+<tr>
+<td><img src="http://img.promolistee.eu/553810/i2.jpg" alt="" width="100%" height="14px" border="0" style="display:block;"/></td>
+</tr>
+</table></td>
+</tr>
+<tr>
+<td valign="top" height="413" bgcolor="#f1f0ec" background="http://www.devis-travaux.pro/newsletter/peinture/01/images/bac.jpg" style="background-position:center; background-repeat:no-repeat; background-color:#f1f0ec;">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td height="20"> </td>
+</tr>
+<tr>
+<td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="18" class="sides"> </td>
+<td><table width="360" border="0" cellspacing="0" cellpadding="0" align="left" class="width_tablet">
+<tr>
+<td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td class="size_size" style="font-family:impact, Arial, Helvetica, sans-serif; font-size:35px; line-height:58px; color:#ec451f; font-style:italic;">
+<a href="http://www.promolistee.eu/c2/553810/232898091/4fc5ef332a/3" style="text-decoration:none;font-family:impact, Arial, Helvetica, sans-serif; font-size:35px; line-height:58px; color:#ec451f; font-style:italic; border:none;" target="_blank">Votre Devis Peinture</a>
+</td>
+</tr>
+<tr>
+<td height="3" style="font-size:0px; line-height:0px;"> </td>
+</tr>
+<tr>
+<td class="main_size" style="font-family:impact, Arial, Helvetica, sans-serif; font-size:40px; line-height:63px; color:#ec451f; font-style:italic;"><a href="http://www.promolistee.eu/c2/553810/232898091/4fc5ef332a/4" style="text-decoration:none;font-family:impact, Arial, Helvetica, sans-serif; color:#ec451f; font-style:italic; border:none;" target="_blank"><span class="percentage" style="font-family:impact, Arial, Helvetica, sans-serif; font-size:60px; line-height:63px; color:#ed451f; font-style:italic;">50%</span> moins cher</a></td>
+</tr>
+<tr>
+<td height="38"> </td>
+</tr>
+<tr>
+<td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="45"><img src="http://img.promolistee.eu/553810/arrow.png" alt="" width="28" height="28" border="0" style="display:block;"/></td>
+<td style="font-family:'trebuchet MS', Arial, Helvetica, sans-serif; font-size:16px; line-height:19px; color:#5a5a5a; font-style:italic;"><span style="font-family:'trebuchet MS', Arial, Helvetica, sans-serif; font-size:16px; line-height:19px; color:#5a5a5a; font-style:italic; font-weight:bold;">Comparez gratuitement</span> les artisans de votre r&eacute;gion</td>
+</tr>
+</table></td>
+</tr>
+<tr>
+<td height="19" style="font-size:0px; line-height:0px;"> </td>
+</tr>
+<tr>
+<td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="45"><img src="http://img.promolistee.eu/553810/arrow.png" alt="" width="28" height="28" border="0" style="display:block;"/></td>
+<td style="font-family:'trebuchet MS', Arial, Helvetica, sans-serif; font-size:16px; line-height:19px; color:#5a5a5a; font-style:italic;"><span style="font-family:'trebuchet MS', Arial, Helvetica, sans-serif; font-size:16px; line-height:19px; color:#5a5a5a; font-style:italic; font-weight:bold;">Trouvez le peintre qui r&eacute;pond a vos besoins au meilleur prix.</span></td>
+</tr>
+</table></td>
+</tr>
+<tr>
+<td height="40"> </td>
+</tr>
+<tr>
+<td><table width="315" border="0" cellspacing="0" cellpadding="0" align="left" class="button_size">
+<tr>
+<td bgcolor="#ef4521" style="background-color:#ef4521;"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td height="5" style="font-size:0px; line-height:0px;"> </td>
+</tr>
+<tr>
+<td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="70"> </td>
+<td style="font-family:impact, Arial, Helvetica, sans-serif; font-size:28px; line-height:31px; color:#ffffff; text-transform:uppercase;"><a href="http://www.promolistee.eu/c2/553810/232898091/4fc5ef332a/5" target="_blank" style="font-family:impact, Arial, Helvetica, sans-serif; font-size:28px; line-height:31px; color:#ffffff; text-transform:uppercase; text-decoration:none; border:none;">J'en profite</a></td>
+<td width="55"><a href="http://www.promolistee.eu/c2/553810/232898091/4fc5ef332a/6" target="_blank" style="border:none; text-decoration:none;"><img src="http://img.promolistee.eu/553810/button.jpg" alt="" width="48" height="49" border="0" style="display:block;"/></a></td>
+</tr>
+</table></td>
+</tr>
+<tr>
+<td height="5" style="font-size:0px; line-height:0px;"> </td>
+</tr>
+</table></td>
+</tr>
+</table>
+</td>
+</tr>
+</table></td>
+</tr>
+</table></td>
+<td width="18" class="sides"> </td>
+</tr>
+</table></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td bgcolor="#444444" style="background-color:#444444;"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td height="15" style="font-size:0px; line-height:0px;"> </td>
+</tr>
+<tr>
+<td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="25" class="sides"> </td>
+<td><table width="415" border="0" cellspacing="0" cellpadding="0" align="left" class="full">
+<tr>
+<td><table width="162" border="0" cellspacing="0" cellpadding="0" align="left" class="full">
+<tr>
+<td><table width="162" border="0" cellspacing="0" cellpadding="0" align="center">
+<tr>
+<td><a href="http://www.promolistee.eu/c2/553810/232898091/4fc5ef332a/7" target="_blank" style="border:none; text-decoration:none;"><img src="http://img.promolistee.eu/553810/footer-logo.png" alt="devis-travaux.pro" width="162" height="44" border="0" style="display:block;"/></a></td>
+</tr>
+<tr>
+<td height="7" style="font-size:0px; line-height:0px;"> </td>
+</tr>
+<tr>
+<td class="center" style="font-family:Arial, Helvetica, sans-serif; font-size:12px; line-height:14px; color:#ffffff;">Tous Droits R&eacute;serv&eacute;s.</td>
+</tr>
+</table></td>
+</tr>
+</table><table width="233" border="0" cellspacing="0" cellpadding="0" align="right" class="full">
+<tr>
+<td class="padding_top"><table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+<tr>
+<td height="6" style="font-size:0px; line-height:0px;"> </td>
+</tr>
+<tr>
+<td class="center" style="font-family:Arial, Helvetica, sans-serif; font-size:12px; line-height:14px; color:#ffffff;">Nous comparons et s&eacute;lectionnons les meilleurs offres promotionnells pour vous permettre d&rsquo;&eacute;conomiser sur votre budget.</td>
+</tr>
+</table></td>
+</tr>
+</table>
+</td>
+</tr>
+</table><table width="113" border="0" cellspacing="0" cellpadding="0" align="right" class="full">
+<tr>
+<td class="padding_top"><table width="113" border="0" cellspacing="0" cellpadding="0" align="center">
+<tr>
+<td height="6" style="font-size:0px; line-height:0px;"> </td>
+</tr>
+<tr>
+<td class="center"><img src="http://img.promolistee.eu/553810/brand.png" alt="Exclusive Internet" width="113" height="36" border="0" style="display:block;"/></td>
+</tr>
+</table></td>
+</tr>
+</table>
+</td>
+<td width="25" class="sides"> </td>
+</tr>
+</table></td>
+</tr>
+<tr>
+<td height="24"> </td>
+</tr>
+</table></td>
+</tr>
+</table></td>
+</tr>
+</table></td>
+</tr>
+</table>
+<img src="http://www.promolistee.eu/assets/mpt.png" alt="" width="" height="" style="display:block;"/>
+</td></tr>
+</table><div id="template_footer_auto_include" ><center>
+<span style='font-size:11px;text-align:center;font-family:Arial, Helvetica, sans-serif;color:#000'><br />
+Avec Promo Listee, vous pouvez b&eacute;n&eacute;ficier d&egrave;s maintenant des bons plans et des r&eacute;ductions exclusives qui correspondent<br /> aux univers de la famille, la mode, la beaut&eacute;, la d&eacute;coration, le voyage... <br />
+<br />
+Conform&eacute;ment &agrave; la loi informatique et libert&eacute;s, vous pouvez &agrave; tout moment acc&eacute;der, faire rectifier<br />
+ou supprimer les informations personnelles vous concernant ou vous opposer &agrave; leur traitement par Promo Listee.<br />
+<br />
+Pour ne plus b&eacute;n&eacute;ficier de nos propositions commerciales, vous pouvez vous rendre sur <a href='http://www.promolistee.eu/u/553810/232898091/4fc5ef332a/fr'>cette page</a><br />
+Notez que le traitement de cette demande peut prendre jusqu'&agrave; 48 heures.<br />
+<br />
+</span>
+</center></div>
+<style type="text/css">
+.ReadMsgBody {width: 100%;}
+.ExternalClass {width: 100%;}
+.ExternalClass * {line-height: 100%;}
+span.yshortcuts { color:#000; background-color:none; border:none;}
+span.yshortcuts:hover,span.yshortcuts:active,span.yshortcuts:focus {color:#000; background-color:none; border:none;}
+* { margin-top: 0px; margin-bottom: 0px; padding: 0px; border: none; line-height: normal; outline: none; list-style: none; font-family: Arial, Helvetica, sans-serif;-webkit-text-size-adjust: none;}
+body { margin-top: 0 !important; margin-bottom: 0 !important; padding-top: 0 !important; padding-bottom: 0 !important; width: 100% !important; -webkit-text-size-adjust: 100% !important; -ms-text-size-adjust: 100% !important; -webkit-font-smoothing: antialiased !important;}
+img { border: 0 !important; outline: none !important;}
+table { border-collapse: collapse; mso-table-lspace: 0px; mso-table-rspace: 0px;}
+td { border-collapse: collapse; mso-line-height-rule: exactly;}
+.ExternalClass * { line-height: 100%}
+span { border-collapse: collapse; mso-line-height-rule: exactly;}
+@media only screen and (max-width: 480px) {table[class=full] { width: 100% !important;}
+td[class=hide] { display: none !important;}
+table[class=primary_table] { width: 320px !important;}
+td[class=sides] { width: 15px !important;}
+td[class=heights] { height: 15px !important;}
+td[class=padding_top] { padding-top: 15px !important;}
+td[class=font_size]{ font-size:26px !important; line-height:29px !important;}
+span[class=percentage]{ font-size:45px !important; line-height:48px !important;}
+td[class=votre]{ font-size:25px !important; line-height:27px !important;}
+td[class=center]{ text-align:center !important;}
+table[class=width_tablet]{ width:100% !important;}
+table[class=button_size]{ width:100% !important;}
+td[class=size_size]{ font-size:30px !important; line-height:33px !important;}
+td[class=main_size]{ font-size:35px !important; line-height:38px !important;}
+}
+@media only screen and (min-width: 480px) and (max-width: 599px) {table[class=full] { width: 100% !important;}
+table[class=primary_table] { width: 480px !important;}
+td[class=font_size]{ font-size:28px !important; line-height:31px !important;}
+span[class=percentage]{ font-size:75px !important; line-height:78px !important;}
+td[class=votre]{ font-size:35px !important; line-height:37px !important;}
+table[class=width_tablet]{ width:360px !important;}
+table[class=button_size]{ width:315px !important;}
+td[class=size_size]{ font-size:35px !important; line-height:38px !important;}
+td[class=main_size]{ font-size:40px !important; line-height:43px !important;}
+</style>
+<img height="1" width="1" src="http://www.promolistee.eu/i/553810/232898091/4fc5ef332a/2"><img src="http://www.promolistee.eu/i/553810/232898091/4fc5ef332a/0" width="0" height="0" border="0" alt=""></body>
+</html>
+
+
+
+--b1_5ab0d3db9ba09a2ebb02994433feeee8--
+
+

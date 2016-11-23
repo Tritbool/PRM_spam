@@ -1,0 +1,839 @@
+Return-Path: <reply@bounces.promolistee.eu>
+Received: from mailimailo.univ-rennes1.fr ([unix socket])
+	 by mailimailo.univ-rennes1.fr (Cyrus v2.3.16-Fedora-RPM-2.3.16-6.el6_2.5) with LMTPA;
+	 Tue, 10 Nov 2015 05:29:23 +0100
+X-Sieve: CMU Sieve 2.3
+Received: from mailout1.univ-rennes1.fr (mailout1.univ-rennes1.fr [129.20.128.162])
+	by mailimailo.univ-rennes1.fr (Postfix) with ESMTP id 0B4E326A0B8F
+	for <resp-m2-miage@univ-rennes1.fr>; Tue, 10 Nov 2015 05:29:23 +0100 (CET)
+Received: from localhost (vmscanmail.univ-rennes1.fr [129.20.128.134])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id 0726F60025
+	for <resp-m2-miage@univ-rennes1.fr>; Tue, 10 Nov 2015 05:29:23 +0100 (CET)
+X-Virus-Scanned: amavisd-new at univ-rennes1.fr
+Received: from mailout1.univ-rennes1.fr ([129.20.128.162])
+	by localhost (vmscanmail.univ-rennes1.frm [129.20.128.134]) (amavisd-new, port 10026)
+	with ESMTP id ySBQdgSiwhVs for <resp-m2-miage@univ-rennes1.fr>;
+	Tue, 10 Nov 2015 05:29:22 +0100 (CET)
+Received: from vmmailin.univ-rennes1.fr (vmmailin.univ-rennes1.fr [129.20.128.133])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id D29A760019
+	for <resp-m2-miage@univ-rennes1.fr>; Tue, 10 Nov 2015 05:29:22 +0100 (CET)
+Received: from mxb1-2.relay.renater.fr (mxb1-2.relay.renater.fr [194.214.201.9])
+	by vmmailin.univ-rennes1.fr (Postfix) with ESMTP id CADF820033
+	for <resp-m2-miage@univ-rennes1.fr>; Tue, 10 Nov 2015 05:29:22 +0100 (CET)
+Received: from mta.57.240.smtp.fr (mta.57.240.smtp.fr [37.60.57.240])
+	by mxb1-2.relay.renater.fr (asm) with ESMTP id 9135F280053
+	for <resp-m2-miage@univ-rennes1.fr>; Tue, 10 Nov 2015 05:29:22 +0100 (CET)
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=smtp; d=bounces.promolistee.eu;
+ h=To:Subject:Message-ID:Date:From:Reply-to:MIME-Version:List-Unsubscribe:Content-Type; i=reply@bounces.promolistee.eu;
+ bh=gCsRMe10tdhQ7L8/pQLL096+bH0=;
+ b=Y6HnYuf3W+guU3hBHTLvUxYCuiMRxd+0GdTYB80c/NkNameqRBc6Z1PQHmuTVHHdV0r+SH0zwqTL
+   FUJ71zH8FFzVlRODaqIjN/hg9EPC3ouOv7cUvyqLjYtNnYRxvKRrrvf+79GpdFckx5z56EG2Ie+e
+   dJBYGmHGLtGkdf7rBRU=
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=smtp; d=bounces.promolistee.eu;
+ b=lI3TGGGlpwSyDrehZNrar4sM3HLgOVFAfk/EiX3a+IfzwJrEOvTGwOWPSK50mYnUoxZAYQ08Itbt
+   DQ7BXRTRpX8MFMWwab7rzXVrq9NNCz1x8WCMs7PS0zJaH+8ExH79QCd/PxCURLM8SHywbY1CaVNY
+   VzD2kcB/1NCMKcmzBhI=;
+Received: from localhost.localdomain (172.31.255.248) by mta.57.240.smtp.fr id h85pa6199b47 for <resp-m2-miage@univ-rennes1.fr>; Tue, 10 Nov 2015 05:29:23 +0100 (envelope-from <reply@bounces.promolistee.eu>)
+To: resp-m2-miage@univ-rennes1.fr
+Subject: =?utf-8?Q?Moiti=C3=A9_prix_sur_tous_les_pneus?=
+Message-ID: <60cc8e41eb5c906397cb86afcebdfc77@localhost.localdomain>
+Date: Tue, 10 Nov 2015 05:29:22 +0100
+From: Adrien <reply@bounces.promolistee.eu>
+Reply-to: Adrien <reply@bounces.promolistee.eu>
+MIME-Version: 1.0
+List-Unsubscribe: <http://www.promolistee.eu/Bounces.php?M=232898091&N=539142&L=4fc5ef332a&type=34>, <mailto:reply@bounces.promolistee.eu?subject=list-id=a065c159-dfbb-6619-e781-ebef6d94195d_4fc5ef332a_e9963b47-a670-2b6d-88fa-35bcd7ae5a41-fbl>
+X-Mailer: JRCG
+X-Mailer-Sid: promolisteeeu
+X-Mailer-RecptId: a065c159-dfbb-6619-e781-ebef6d94195d_4fc5ef332a_e9963b47-a670-2b6d-88fa-35bcd7ae5a41
+X-Priority: 3
+Content-Type: multipart/alternative;
+	boundary="b1_60cc8e41eb5c906397cb86afcebdfc77"
+X-UCE-Status: YES
+X-UCE-Type: MCE
+X-Original-Source-IP: 37.60.57.240
+X-Bizanga: IMP - mxb1-2.relay.renater.fr
+X-Renater-SpamState: 11
+X-Renater-SpamScore: 17
+X-Renater-SpamCause: gggruggvucftvghtrhhoucdtuddrfeekhedrgeeggdejvdcutefuodetggdotefrodftvfcurfhrohhfihhlvgemucftgffptefvgfftpdggtfgfnhhsuhgsshgtrhhisggvnecuuegrihhlohhuthemuceftddtnecundfotefknffkpffiucdludejmdenucfjughrpefvuffkfffhrhggjfforfgtsegrtdhjphertdejnecuhfhrohhmpeetughrihgvnhcuoehrvghplhihsegsohhunhgtvghsrdhprhhomhholhhishhtvggvrdgvuheqnecuffhomhgrihhnpehprhhomhholhhishhtvggvrdgvuhdprghllhhophhnvghushdrtghomhenucfrrghrrghmpehmohguvgepshhmthhppdhhvghlohepmhhtrgdrheejrddvgedtrdhsmhhtphdrfhhrpdhinhgvthepfeejrdeitddrheejrddvgedtpdhmrghilhhfrhhomheprhgvphhlhiessghouhhntggvshdrphhrohhmohhlihhsthgvvgdrvghupdhrtghpthhtoheprhgvshhpqdhmvddqmhhirghgvgesuhhnihhvqdhrvghnnhgvshdurdhfrh 
+X-Renater-ServerName: mxb1-2.relay.renater.fr
+
+
+--b1_60cc8e41eb5c906397cb86afcebdfc77
+Content-Type: text/plain; charset = "utf-8"
+Content-Transfer-Encoding: 8bit
+
+Jusqu'à 50? offerts
+Vous recevez ce mail car vous tes inscrits la lettre d'information de
+Promo Listee.
+Vous aimez notre Newsletter ? Pour tre sr(e) de recevoir tous nos
+emails, nous vous conseillons d'ajouter contact@promolistee.eu
+mailto:contact@promolistee.eu votre carnet d'adresses.
+DCOUVREZ L\'OFFRE DU JOUR AVEC PROMO LISTEE suivez ce lien
+http://www.promolistee.eu/n2/539142/232898091/4fc5ef332a. Pour un
+dsabonnement, utilisez ce lien Me dsabonner/Unsubscribe
+http://www.promolistee.eu/u/539142/232898091/4fc5ef332a/fr
+http://www.promolistee.eu/c2/539142/232898091/4fc5ef332a/1
+TOURISME / 4X4 / UTILITAIRE
+http://www.promolistee.eu/c2/539142/232898091/4fc5ef332a/2 | MOTO
+http://www.promolistee.eu/c2/539142/232898091/4fc5ef332a/3 | QUAD
+http://www.promolistee.eu/c2/539142/232898091/4fc5ef332a/4 |
+AGRICOLE
+http://www.promolistee.eu/c2/539142/232898091/4fc5ef332a/5 | POIDS
+LOURD http://www.promolistee.eu/c2/539142/232898091/4fc5ef332a/6 |
+ACCESSOIRES
+http://www.promolistee.eu/c2/539142/232898091/4fc5ef332a/7 | JANTE
+ALU http://www.promolistee.eu/c2/539142/232898091/4fc5ef332a/8
+DU 20OCTOBRE AU 15 NOVEMBRE 2015
+http://www.promolistee.eu/c2/539142/232898091/4fc5ef332a/9
+http://www.promolistee.eu/c2/539142/232898091/4fc5ef332a/10
+http://www.promolistee.eu/c2/539142/232898091/4fc5ef332a/11
+http://www.promolistee.eu/c2/539142/232898091/4fc5ef332a/12
+http://www.promolistee.eu/c2/539142/232898091/4fc5ef332a/13
+http://www.promolistee.eu/c2/539142/232898091/4fc5ef332a/14
+Présentation du Vector 4Seasons Gen-2
+Goodyear nous a présenté les améliorations techniques de leur
+pneu toutes saisons, sur sol mouillé et sur sol verglacé.
+Lire la suite
+http://www.promolistee.eu/c2/539142/232898091/4fc5ef332a/17
+http://www.promolistee.eu/c2/539142/232898091/4fc5ef332a/18
+Notre essai du Vector 4Seasons Gen-2
+En vidéo, retrouvez notre essai du nouveau pneu toutes saisons de
+Goodyear, sur sol sec et sur sol mouillé sur le circuit de Deauville.
+Lire la suite
+http://www.promolistee.eu/c2/539142/232898091/4fc5ef332a/21
+http://www.promolistee.eu/c2/539142/232898091/4fc5ef332a/22
+http://www.promolistee.eu/c2/539142/232898091/4fc5ef332a/23
+http://www.promolistee.eu/c2/539142/232898091/4fc5ef332a/24
+http://www.promolistee.eu/c2/539142/232898091/4fc5ef332a/25
+http://www.promolistee.eu/c2/539142/232898091/4fc5ef332a/26
+http://www.promolistee.eu/c2/539142/232898091/4fc5ef332a/27
+**Pour l'achat de 4 pneus Goodyear Vector 4 Seasons Tourisme ou 4x4,
+bénéficiez d'un remboursement par virement bancaire jusqu'à 50
+euros.
+***Tous les participants à cette offre de remboursement et dont le
+dossier est reçu conforme, seront automatiquement inscrits au tirage
+au sort pour tenter de gagner un des week-ends "4 saisons" pour quatre
+personnes à Colmar, Annecy, l'Ile de Ré ou Disneyland Paris.
+Voir règlement en cliquant ici
+http://www.promolistee.eu/c2/539142/232898091/4fc5ef332a/29
+LES SOLUTIONS DE MONTAGE PRÈS DE CHEZ VOUS
+HTTP://WWW.PROMOLISTEE.EU/C2/539142///30
+http://www.promolistee.eu/c2/539142/232898091/4fc5ef332a/31
+http://www.promolistee.eu/c2/539142/232898091/4fc5ef332a/32
+http://www.promolistee.eu/c2/539142/232898091/4fc5ef332a/33
+http://www.promolistee.eu/c2/539142/232898091/4fc5ef332a/34
+http://www.promolistee.eu/c2/539142/232898091/4fc5ef332a/35
+http://www.promolistee.eu/c2/539142/232898091/4fc5ef332a/36
+http://www.promolistee.eu/c2/539142/232898091/4fc5ef332a/37
+http://www.promolistee.eu/c2/539142/232898091/4fc5ef332a/38
+Paiement
+sécurisé
++ 6000 centres
+de montage
+Montage
+à domicile
+Livraison
+gratuite*
+Service
+clients
+http://www.promolistee.eu/c2/539142/232898091/4fc5ef332a/44
+http://www.promolistee.eu/c2/539142/232898091/4fc5ef332a/45
+http://www.promolistee.eu/c2/539142/232898091/4fc5ef332a/46
+*Voir conditions générales de vente sur www.allopneus.com
+http://www.promolistee.eu/c2/539142/232898091/4fc5ef332a/47 :
+CLIQUEZ ICI
+http://www.promolistee.eu/c2/539142/232898091/4fc5ef332a/48
+Avec Promo Listee, vous pouvez bnficier ds maintenant des bons plans
+et des rductions exclusives qui correspondent
+aux univers de la famille, la mode, la beaut, la dcoration, le
+voyage...
+Conformment la loi informatique et liberts, vous pouvez tout moment
+accder, faire rectifier
+ou supprimer les informations personnelles vous concernant ou vous
+opposer leur traitement par Promo Listee.
+Pour ne plus bnficier de nos propositions commerciales, vous pouvez
+vous rendre sur cette page
+http://www.promolistee.eu/u/539142/232898091/4fc5ef332a/fr
+Notez que le traitement de cette demande peut prendre jusqu' 48
+heures.
+
+
+--b1_60cc8e41eb5c906397cb86afcebdfc77
+Content-Type: text/html; charset = "utf-8"
+Content-Transfer-Encoding: 8bit
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="format-detection" content="telephone=no">
+<title>Jusqu'à 50? offerts</title>
+<style type="text/css">
+#outlook a { padding:0;}
+.ReadMsgBody { width:100%;}
+.ExternalClass { width:100%;}
+body { -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; -moz-text-size-adjust:100%; text-size-adjust:100%;margin:0;padding:0;}
+.table td { border-collapse:collapse;}
+table {border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;}
+[class="appleLink"] {color:#ffffff !important; text-decoration:none !important;}
+@media only screen and (max-width:659px)
+{
+[class="hidden"] {display:none !important;}
+[class="redim"] {width:100% !important;text-align:center;}
+img[class="redim"]{height:auto !important; width:100% !important;}
+a span,a b,a em {font-size:16px !important; line-height:18px !important;}
+[class="headerfooter"] span {font-size:10px !important;}
+[class="tel"] {font-size:22px !important;}
+[class="tel"] span {font-size:12px !important;}
+[class="date"] p {font-size:14px !important;}
+}
+</style>
+</head>
+<body><div id="template_header_auto_include" ><center>
+<span style='font-size:11px;text-align:center;font-family:Arial, Helvetica, sans-serif;color:#000'><br />
+Vous recevez ce mail car vous &ecirc;tes inscrits &agrave; la lettre d'information de Promo Listee. <br />
+Vous aimez notre Newsletter ? Pour &ecirc;tre s&ucirc;r(e) de recevoir tous nos emails, nous vous conseillons d'ajouter <a href='mailto:contact@promolistee.eu' target='_blank'> contact@promolistee.eu</a> &agrave; votre carnet d'adresses.<br />
+<br/>
+<strong>D&eacute;couvrez l'offre du jour avec Promo Listee </strong><a href='http://www.promolistee.eu/n2/539142/232898091/4fc5ef332a' target='_blank'> suivez ce lien</a>. Pour un d&eacute;sabonnement, utilisez ce lien <a href='http://www.promolistee.eu/u/539142/232898091/4fc5ef332a/fr' target='_blank'> Me d&eacute;sabonner/Unsubscribe</a>
+</span>
+</center></div>
+<table width="98%" border="0" align="center" cellpadding="0" cellspacing="0">
+<tr><td align="center">
+<!--[if mso]><!----><table bgcolor="#1a1a1a" border="0" cellpadding="0" cellspacing="0" width="98%"><tbody><tr><td><!--<![endif]-->
+<table class="redim" align="center" bgcolor="#1a1a1a" border="0" cellpadding="0" cellspacing="0" width="650">
+<tbody><tr>
+<td valign="top">
+<table class="redim" align="center" border="0" cellpadding="0" cellspacing="0" width="650">
+<tbody><tr><td colspan="3" height="10"></td></tr>
+<tr align="center">
+<td border="0" class="headerfooter">
+<p style="font-family: Arial, Verdana, sans-serif; color:#cccccc; font-size:11px; margin:0; padding-top:4px; text-decoration:none;">
+</p>
+</td>
+</tr>
+<tr><td colspan="3" height="20"></td></tr>
+</tbody></table>
+</td>
+</tr>
+<tr>
+<td>
+<table class="redim" align="center" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" width="650">
+<tbody><tr>
+<td class="hidden" width="115">
+<img src="http://img.promolistee.eu/539142/header_left_1a1a1a_115.jpg" alt="" style="display:block;" height="113" width="115">
+</td>
+<td>
+<a href="http://www.promolistee.eu/c2/539142/232898091/4fc5ef332a/1" style="font-family: Arial, Verdana, sans-serif; color:#ff6600; line-height:113px;font-size:25px; margin:0; padding:0; text-decoration:none;font-weight:bold;" target="_blank">
+<img class="redim" src="http://img.promolistee.eu/539142/header_logo_1a1a1a_420.jpg" alt="Allopneus.com" style="display:block; margin:0; padding:0;" border="0" height="113" width="420">
+</a>
+</td>
+<td class="hidden" width="115">
+<img src="http://img.promolistee.eu/539142/header_right_1a1a1a_115.jpg" alt="" style="display:block;" height="113" width="115">
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+<tr>
+<td>
+<table class="hidden" align="center" border="0" cellpadding="0" cellspacing="0">
+<tbody><tr>
+<td bgcolor="#ffffff" width="20"></td>
+<td align="center" bgcolor="#ffffff" height="70" width="610">
+<p border="0" style="display:block; padding:0; margin: 0;">
+<a href="http://www.promolistee.eu/c2/539142/232898091/4fc5ef332a/2" style="font-family: Arial, Verdana, sans-serif; color:#666666; font-size:11px; margin:0; padding:0; text-decoration:none;" target="_blank">
+<strong>TOURISME / 4X4 / UTILITAIRE</strong></a>
+<span style="color:#ff6600;">|</span>
+<a href="http://www.promolistee.eu/c2/539142/232898091/4fc5ef332a/3" style="font-family: Arial, Verdana, sans-serif; color:#666666; font-size:11px; margin:0; padding:0; text-decoration:none;" target="_blank">
+<strong>MOTO</strong></a>
+<span style="color:#ff6600;">|</span>
+<a href="http://www.promolistee.eu/c2/539142/232898091/4fc5ef332a/4" style="font-family: Arial, Verdana, sans-serif; color:#666666; font-size:11px; margin:0; padding:0; text-decoration:none;" target="_blank">
+<strong>QUAD</strong></a>
+<span style="color:#ff6600;">|</span>
+<a href="http://www.promolistee.eu/c2/539142/232898091/4fc5ef332a/5" style="font-family: Arial, Verdana, sans-serif; color:#666666; font-size:11px; margin:0; padding:0; text-decoration:none;" target="_blank">
+<strong>AGRICOLE</strong></a>
+<span style="color:#ff6600;">|</span>
+<a href="http://www.promolistee.eu/c2/539142/232898091/4fc5ef332a/6" style="font-family: Arial, Verdana, sans-serif; color:#666666; font-size:11px; margin:0; padding:0; text-decoration:none;" target="_blank">
+<strong>POIDS LOURD</strong></a>
+<span style="color:#ff6600;">|</span>
+<a href="http://www.promolistee.eu/c2/539142/232898091/4fc5ef332a/7" style="font-family: Arial, Verdana, sans-serif; color:#666666; font-size:11px; margin:0; padding:0; text-decoration:none;" target="_blank">
+<strong>ACCESSOIRES</strong></a>
+<span style="color:#ff6600;">|</span>
+<a href="http://www.promolistee.eu/c2/539142/232898091/4fc5ef332a/8" style="font-family: Arial, Verdana, sans-serif; color:#666666; font-size:11px; margin:0; padding:0; text-decoration:none;" target="_blank">
+<strong>JANTE ALU</strong></a>
+</p>
+</td>
+<td bgcolor="#ffffff" width="20"></td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+<table id="date-content" class="redim" align="center" border="0" cellpadding="0" cellspacing="0" width="650">
+<tbody><tr>
+<td>
+<table class="redim" align="center" border="0" cellpadding="0" cellspacing="0" width="650">
+<tbody><tr>
+<td colspan="5" class="date" align="center" bgcolor="#40509e" height="50">
+<font style="font-family: Arial, Verdana, sans-serif; font-size:20px; line-height:50px;color:#ffffff; margin:0px; padding:0px; text-decoration:none; text-transform:uppercase; font-weight:bold;"><a href="http://www.promolistee.eu/c2/539142/232898091/4fc5ef332a/9" style="text-decoration:none;font-family: Arial, Verdana, sans-serif; font-size:20px; line-height:50px;color:#ffffff; margin:0px; padding:0px; text-decoration:none; text-transform:uppercase; font-weight:bold;">
+<span class="appleLink">DU 20OCTOBRE AU 15 NOVEMBRE 2015</span>
+</a></font>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+<tr>
+<td style="font-size:0;line-height:0;" bgcolor="#FFFFFF" height="10"></td>
+</tr>
+</tbody></table>
+<table id="content" class="redim" align="center" border="0" cellpadding="0" cellspacing="0" width="650">
+<tbody><tr>
+<td class="hidden" bgcolor="#ffffff" width="10"></td>
+<!--[if !mso]><!---->
+<td border="0" class="redim" bgcolor="#ffffff">
+<table class="redim" align="left" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" width="450">
+<tbody><tr>
+<!--<![endif]-->
+<td class="" bgcolor="#ffffff" valign="top">
+<table class="redim" border="0" cellpadding="0" cellspacing="0">
+<tbody><tr>
+<td align="center" bgcolor="#5f9ea5">
+<a href="http://www.promolistee.eu/c2/539142/232898091/4fc5ef332a/10" style="text-decoration:none;" target="_blank">
+<font face="Verdana, sans-serif" color="#ffffff" size="4">
+<b style="font-size:30px;line-height:375px;font-style:italic;">
+<img class="redim" src="http://img.promolistee.eu/539142/new.jpg" alt="NOUVEAUTE 2015" style="display:block;" border="0" height="375" width="450">
+</b>
+</font>
+</a>
+</td>
+</tr>
+<tr>
+<td align="center" bgcolor="#ffffff">
+<a href="http://www.promolistee.eu/c2/539142/232898091/4fc5ef332a/11" style="text-decoration:none;" target="_blank">
+<font face="Verdana, sans-serif" color="#40509e" size="4">
+<b style="font-size:30px;line-height:170px;font-style:italic;">
+<img class="redim" src="http://img.promolistee.eu/539142/50e.jpg" alt="JUSQU'À 50? OFFERTS" style="display:block;" border="0" height="170" width="450">
+</b>
+</font>
+</a>
+</td>
+</tr>
+<tr>
+<td align="center" bgcolor="#ffffff">
+<a href="http://www.promolistee.eu/c2/539142/232898091/4fc5ef332a/12" style="text-decoration:none;" target="_blank">
+<font face="Verdana, sans-serif" color="#40509e" size="4">
+<b style="font-size:20px;line-height:170px;font-style:italic;">
+<img class="redim" src="http://img.promolistee.eu/539142/pour.jpg" alt="POUR L'ACHAT DE 4 PNEUS GOODYEAR" style="display:block;" border="0" height="170" width="450">
+</b>
+</font>
+</a>
+</td>
+</tr>
+<tr>
+<td style="font-size:0;line-height:0;" bgcolor="#FFFFFF" height="10"></td>
+</tr>
+</tbody></table>
+</td>
+<!--[if !mso]><!---->
+</tr>
+</tbody></table>
+<table class="redim" align="left" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" width="190">
+<tbody><tr>
+<!--<![endif]-->
+<td class="hidden" bgcolor="#ffffff" width="10"></td>
+<td class="" bgcolor="#ffffff">
+<table class="redim" border="0" cellpadding="0" cellspacing="0">
+<tbody><tr>
+<td colspan="3" align="center" bgcolor="#E54E53" height="34">
+<a href="http://www.promolistee.eu/c2/539142/232898091/4fc5ef332a/13" style="font-family: Arial, Verdana, sans-serif; color:#dddddd; font-size:20px; margin:0; padding:0; text-decoration:none; text-transform:uppercase;" target="_blank">
+<img style="display:block; margin:0; padding:0;" alt="Chewing Gomme" src="http://img.promolistee.eu/539142/blog_logo_chewing_gomme.jpg" border="0" width="165">
+</a>
+</td>
+</tr>
+<tr>
+<td colspan="3" style="font-size:0;line-height:0;" bgcolor="#FFFFFF" height="10"></td>
+</tr>
+<tr>
+<td colspan="3" bgcolor="#FFFFFF" height="10">
+<a href="http://www.promolistee.eu/c2/539142/232898091/4fc5ef332a/14" style="font-family: Arial, Verdana, sans-serif; color:#dddddd; font-size:20px; margin:0; padding:0; text-decoration:none; text-transform:uppercase;" target="_blank">
+<img class="redim" src="http://img.promolistee.eu/539142/blog_1.jpg" alt="" style="display:block;" border="0" width="170">
+</a>
+</td>
+</tr>
+<tr>
+<td colspan="3" style="font-size:0;line-height:0;" bgcolor="#EEEEEE" height="10"></td>
+</tr>
+<tr>
+<td bgcolor="#EEEEEE" width="10"> </td>
+<td align="left" bgcolor="#EEEEEE" height="168" valign="top">
+<font face="Arial, Verdana, sans-serif;" color="#333333" size="2">
+<b style="font-size:12px;line-height: 15px;text-transform:uppercase;text-align:center;"><a href="http://www.promolistee.eu/c2/539142/232898091/4fc5ef332a/15" style="text-decoration:none;font-size:12px;line-height: 15px;text-transform:uppercase;text-align:center;">
+Présentation du Vector 4Seasons Gen-2<br>
+</a></b><br>
+<span style="font-size:11px;line-height: 15px;text-align:left;color:#999999;"><a href="http://www.promolistee.eu/c2/539142/232898091/4fc5ef332a/16" style="text-decoration:none;font-size:11px;line-height: 15px;text-align:left;color:#999999;">
+Goodyear nous a présenté les améliorations techniques de
+leur pneu toutes saisons, sur sol mouillé et sur sol verglacé.<br>
+</a></span>
+</font>
+<table align="left" bgcolor="#e95140" border="0" cellpadding="0" cellspacing="0">
+<tbody><tr>
+<td style="font-size:0;line-height:0;" bgcolor="#EEEEEE" height="10"></td>
+</tr>
+<tr>
+<td align="center" height="30" valign="middle" width="100">
+<a href="http://www.promolistee.eu/c2/539142/232898091/4fc5ef332a/17" style="font-family: Arial, Verdana, sans-serif; color:#ffffff; font-size:11px; margin: 0; text-decoration:none;" target="_blank">
+&raquo; Lire la suite
+</a>
+</td>
+</tr>
+<tr>
+<td style="font-size:0;line-height:0;" bgcolor="#EEEEEE" height="10"></td>
+</tr>
+</tbody></table>
+</td>
+<td bgcolor="#EEEEEE" width="10"> </td>
+</tr>
+<tr>
+<td colspan="3" style="font-size:0;line-height:0;" bgcolor="#FFFFFF" height="12"></td>
+</tr>
+<tr>
+<td colspan="3" align="center" bgcolor="#EEEEEE" valign="top">
+<a href="http://www.promolistee.eu/c2/539142/232898091/4fc5ef332a/18" style="font-family: Arial, Verdana, sans-serif; color:#dddddd; font-size:20px; margin:0; padding:0; text-decoration:none; text-transform:uppercase;" target="_blank">
+<img class="redim" src="http://img.promolistee.eu/539142/blog_2.jpg" alt="" style="display:block;" border="0" width="170">
+</a>
+</td>
+</tr>
+<tr>
+<td colspan="3" style="font-size:0;line-height:0;" bgcolor="#EEEEEE" height="10"></td>
+</tr>
+<tr>
+<td bgcolor="#EEEEEE" width="10"> </td>
+<td align="left" bgcolor="#EEEEEE" height="176" valign="top">
+<font face="Arial, Verdana, sans-serif;" color="#333333" size="2">
+<b style="font-size:12px;line-height: 15px;text-transform:uppercase;text-align:center;"><a href="http://www.promolistee.eu/c2/539142/232898091/4fc5ef332a/19" style="text-decoration:none;font-size:12px;line-height: 15px;text-transform:uppercase;text-align:center;">
+Notre essai du Vector 4Seasons Gen-2<br>
+</a></b><br>
+<span style="font-size:11px;line-height: 15px;text-align:left;color:#999999;"><a href="http://www.promolistee.eu/c2/539142/232898091/4fc5ef332a/20" style="text-decoration:none;font-size:11px;line-height: 15px;text-align:left;color:#999999;">
+En vidéo, retrouvez notre essai du nouveau pneu toutes
+saisons de Goodyear, sur sol sec et sur sol mouillé sur le circuit de
+Deauville.<br>
+</a></span>
+</font>
+<table align="left" bgcolor="#e95140" border="0" cellpadding="0" cellspacing="0">
+<tbody><tr>
+<td style="font-size:0;line-height:0;" bgcolor="#EEEEEE" height="10"></td>
+</tr>
+<tr>
+<td align="center" height="30" valign="middle" width="100">
+<a href="http://www.promolistee.eu/c2/539142/232898091/4fc5ef332a/21" style="font-family: Arial, Verdana, sans-serif; color:#ffffff; font-size:11px; margin: 0; text-decoration:none;" target="_blank">
+&raquo; Lire la suite
+</a>
+</td>
+</tr>
+<tr>
+<td style="font-size:0;line-height:0;" bgcolor="#EEEEEE" height="10"></td>
+</tr>
+</tbody></table>
+</td>
+<td bgcolor="#EEEEEE" width="10"> </td>
+</tr>
+<tr>
+<td colspan="3" style="font-size:0;line-height:0;" bgcolor="#FFFFFF" height="10"></td>
+</tr>
+</tbody></table>
+</td>
+<td class="hidden" bgcolor="#ffffff" width="10"></td>
+<!--[if !mso]><!---->
+</tr>
+</tbody></table>
+</td>
+<!--<![endif]-->
+</tr>
+</tbody></table>
+<table id="montages" class="redim" align="center" border="0" cellpadding="0" cellspacing="0" width="650">
+<tbody><tr>
+<!--[if !mso]><!---->
+<td border="0" class="redim" bgcolor="#ffffff" width="650">
+<table class="redim" align="left" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" width="320">
+<tbody><tr>
+<!--<![endif]-->
+<td class="" bgcolor="#ffffff" width="320">
+<table class="redim" align="left" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" width="320">
+<tbody><tr>
+<td class="hidden" width="10"></td>
+<td align="left" bgcolor="#ffffff">
+<a href="http://www.promolistee.eu/c2/539142/232898091/4fc5ef332a/22" style="text-decoration:none;" target="_blank">
+<font face="Verdana, sans-serif" color="#ffd50f" size="2">
+<b style="font-size:15px;line-height:33px;">
+<img class="redim" src="http://img.promolistee.eu/539142/ete1.jpg" alt="DECOUVREZ LA GAMME" style="display:block;" border="0" height="33" width="310">
+</b>
+</font>
+</a>
+</td>
+</tr>
+<tr>
+<td class="hidden" width="10"></td>
+<td align="left" bgcolor="#ffffff">
+<a href="http://www.promolistee.eu/c2/539142/232898091/4fc5ef332a/23" style="text-decoration:none;" target="_blank">
+<font face="Verdana, sans-serif" color="#ffd50f" size="2">
+<b style="font-size:20px;line-height:33px;">
+<img class="redim" src="http://img.promolistee.eu/539142/ete2.jpg" alt="GOODYEAR ÉTÉ" style="display:block;" border="0" height="33" width="310">
+</b>
+</font>
+</a>
+</td>
+</tr>
+<tr>
+<td class="hidden" width="10"></td>
+<td align="left" bgcolor="#ffffff">
+<a href="http://www.promolistee.eu/c2/539142/232898091/4fc5ef332a/24" style="text-decoration:none;" target="_blank">
+<font face="Verdana, sans-serif" color="#f26122" size="4">
+<b style="font-size:30px;line-height:115px;">
+<img class="redim" src="http://img.promolistee.eu/539142/ete3.jpg" alt="GO !" style="display:block;" border="0" height="115" width="310">
+</b>
+</font>
+</a>
+</td>
+</tr>
+<tr>
+<td class="hidden" width="10"></td>
+<td align="left" bgcolor="#ffffff" height="10"></td>
+</tr>
+</tbody></table>
+</td>
+<!--[if !mso]><!---->
+</tr>
+</tbody></table>
+<!--<![endif]-->
+<!--[if !mso]><!---->
+<table class="redim" align="left" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" width="330">
+<tbody><tr>
+<!--<![endif]-->
+<td class="" bgcolor="#ffffff" width="320">
+<table class="redim" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0">
+<tbody><tr>
+<td class="hidden" width="10"></td>
+<td align="left" bgcolor="#ffffff">
+<a href="http://www.promolistee.eu/c2/539142/232898091/4fc5ef332a/25" style="text-decoration:none;" target="_blank">
+<font face="Verdana, sans-serif" color="#3F5E63" size="4">
+<b style="font-size:15px;line-height:33px;">
+<img class="redim" src="http://img.promolistee.eu/539142/hiver1.jpg" alt="DECOUVREZ LA GAMME" style="display:block;" border="0" height="33" width="310">
+</b>
+</font>
+</a>
+</td>
+<td class="hidden" width="10"></td>
+</tr>
+<tr>
+<td class="hidden" width="10"></td>
+<td align="left" bgcolor="#ffffff">
+<a href="http://www.promolistee.eu/c2/539142/232898091/4fc5ef332a/26" style="text-decoration:none;" target="_blank">
+<font face="Verdana, sans-serif" color="#3F5E63" size="4">
+<b style="font-size:20px;line-height:33px;">
+<img class="redim" src="http://img.promolistee.eu/539142/hiver2.jpg" alt="GOODYEAR HIVER" style="display:block;" border="0" height="33" width="310">
+</b>
+</font>
+</a>
+</td>
+<td class="hidden" width="10"></td>
+</tr>
+<tr>
+<td class="hidden" width="10"></td>
+<td align="left" bgcolor="#ffffff">
+<a href="http://www.promolistee.eu/c2/539142/232898091/4fc5ef332a/27" style="text-decoration:none;" target="_blank">
+<font face="Verdana, sans-serif" color="#f26122" size="4">
+<b style="font-size:30px;line-height:115px;">
+<img class="redim" src="http://img.promolistee.eu/539142/hiver3.jpg" alt="GO !" style="display:block;" border="0" height="115" width="310">
+</b>
+</font>
+</a>
+</td>
+<td class="hidden" width="10"></td>
+</tr>
+<tr>
+<td class="hidden" width="10"></td>
+<td align="left" bgcolor="#ffffff" height="10"></td>
+<td class="hidden" width="10"></td>
+</tr>
+</tbody></table>
+</td>
+<!--[if !mso]><!---->
+</tr>
+</tbody></table>
+</td>
+<!--<![endif]-->
+</tr>
+</tbody></table>
+<table id="mentions" class="redim" align="center" border="0" cellpadding="0" cellspacing="0" width="650">
+<tbody><tr>
+<td align="left" bgcolor="#5e5e5e" height="30">
+<p style="font-family: Arial, Verdana, sans-serif; color:#ffffff; font-size:11px; margin:0px; padding:10px 20px; text-decoration:none;"><a href="http://www.promolistee.eu/c2/539142/232898091/4fc5ef332a/28" style="text-decoration:none;font-family: Arial, Verdana, sans-serif; color:#ffffff; font-size:11px; margin:0px; padding:0px; text-decoration:none;">
+**Pour l'achat de 4 pneus Goodyear Vector 4 Seasons Tourisme ou
+4x4, bénéficiez d'un remboursement par virement bancaire jusqu'à 50
+euros.<br>
+***Tous les participants à cette offre de remboursement et dont le
+dossier est reçu conforme, seront automatiquement inscrits au tirage au
+sort pour tenter de gagner un des week-ends "4 saisons" pour quatre
+personnes à Colmar, Annecy,
+l'Ile de Ré ou Disneyland Paris.<br>
+Voir règlement en <a target="_blank" href="http://www.promolistee.eu/c2/539142/232898091/4fc5ef332a/29" style="color:#ffffff;text-decoration:none;">cliquant ici</a>
+</a></p>
+</td>
+</tr>
+</tbody></table>
+<table id="montages-titre" class="redim" align="center" bgcolor="#1D1D1F" border="0" cellpadding="0" cellspacing="0" width="650">
+<tbody><tr>
+<td align="right" bgcolor="#1c1c1c">
+<img class="hidden" src="http://img.promolistee.eu/539142/solutionsL.png" alt="" style="display:block;" border="0" height="29" width="131">
+</td>
+<td class="redim" align="center" bgcolor="#1c1c1c">
+<font face="Verdana, sans-serif" color="#ffffff" size="4">
+<b style="font-size:12px;line-height:15px;"><a href="http://www.promolistee.eu/c2/539142/232898091/4fc5ef332a/30" style="text-decoration:none;font-size:12px;line-height:15px;color:white">
+LES SOLUTIONS DE MONTAGE PRÈS DE CHEZ VOUS
+</a></b>
+</font>
+</td>
+<td align="left" bgcolor="#1c1c1c">
+<img class="hidden" src="http://img.promolistee.eu/539142/solutionsR.png" alt="" style="display:block;" border="0" height="29" width="132">
+</td>
+</tr>
+</tbody></table>
+<table id="montages" class="redim" align="center" border="0" cellpadding="0" cellspacing="0" width="650">
+<tbody><tr>
+<!--[if !mso]><!---->
+<td border="0" class="redim" bgcolor="#ffffff" width="650">
+<table class="redim" align="left" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" width="325">
+<tbody><tr>
+<!--<![endif]-->
+<td class="">
+<table class="redim" border="0" cellpadding="0" cellspacing="0">
+<tbody><tr>
+<td align="center" bgcolor="#5f9ea5">
+<a href="http://www.promolistee.eu/c2/539142/232898091/4fc5ef332a/31" style="text-decoration:none;" target="_blank">
+<font face="Verdana, sans-serif" color="#ffffff" size="4">
+<b style="font-size:20px;line-height:42px;">
+<img class="redim" src="http://img.promolistee.eu/539142/fixe1.jpg" alt="MONTAGE" style="display:block;" border="0" height="42" width="325">
+</b>
+</font>
+</a>
+</td>
+</tr>
+<tr>
+<td align="center" bgcolor="#5f9ea5">
+<a href="http://www.promolistee.eu/c2/539142/232898091/4fc5ef332a/32" style="text-decoration:none;" target="_blank">
+<font face="Verdana, sans-serif" color="#ffffff" size="4">
+<b style="font-size:20px;line-height:41px;">
+<img class="redim" src="http://img.promolistee.eu/539142/fixe2.jpg" alt="FIXE" style="display:block;" border="0" height="41" width="325">
+</b>
+</font>
+</a>
+</td>
+</tr>
+<tr>
+<td align="center" bgcolor="#5f9ea5">
+<a href="http://www.promolistee.eu/c2/539142/232898091/4fc5ef332a/33" style="text-decoration:none;" target="_blank">
+<font face="Verdana, sans-serif" color="#ffffff" size="4">
+<b style="font-size:15px;line-height:42px;">
+<img class="redim" src="http://img.promolistee.eu/539142/fixe3.jpg" alt="+ DE 6000 CENTRES AGRÉÉS" style="display:block;" border="0" height="42" width="325">
+</b>
+</font>
+</a>
+</td>
+</tr>
+<tr>
+<td align="center" bgcolor="#fd6900">
+<a href="http://www.promolistee.eu/c2/539142/232898091/4fc5ef332a/34" style="text-decoration:none;" target="_blank">
+<font face="Verdana, sans-serif" color="#ffffff" size="4">
+<b style="font-size:20px;line-height:33px;">
+<img class="redim" src="http://img.promolistee.eu/539142/fixeCTA.jpg" alt="TROUVER UN CENTRE" style="display:block;" border="0" height="33" width="325">
+</b>
+</font>
+</a>
+</td>
+</tr>
+</tbody></table>
+</td>
+<!--[if !mso]><!---->
+</tr>
+</tbody></table>
+<table class="redim" align="left" bgcolor="#474C62" border="0" cellpadding="0" cellspacing="0" width="325">
+<tbody><tr>
+<!--<![endif]-->
+<td class="">
+<table class="redim" border="0" cellpadding="0" cellspacing="0">
+<tbody><tr>
+<td align="center" bgcolor="#735988">
+<a href="http://www.promolistee.eu/c2/539142/232898091/4fc5ef332a/35" style="text-decoration:none;" target="_blank">
+<font face="Verdana, sans-serif" color="#ffffff" size="4">
+<b style="font-size:20px;line-height:42px;">
+<img class="redim" src="http://img.promolistee.eu/539142/domicile1.jpg" alt="MONTAGE" style="display:block;" border="0" height="42" width="325">
+</b>
+</font>
+</a>
+</td>
+</tr>
+<tr>
+<td align="center" bgcolor="#735988">
+<a href="http://www.promolistee.eu/c2/539142/232898091/4fc5ef332a/36" style="text-decoration:none;" target="_blank">
+<font face="Verdana, sans-serif" color="#ffffff" size="4">
+<b style="font-size:20px;line-height:41px;">
+<img class="redim" src="http://img.promolistee.eu/539142/domicile2.jpg" alt="À DOMICILE" style="display:block;" border="0" height="41" width="325">
+</b>
+</font>
+</a>
+</td>
+</tr>
+<tr>
+<td align="center" bgcolor="#735988">
+<a href="http://www.promolistee.eu/c2/539142/232898091/4fc5ef332a/37" style="text-decoration:none;" target="_blank">
+<font face="Verdana, sans-serif" color="#ffffff" size="4">
+<b style="font-size:15px;line-height:42px;">
+<img class="redim" src="http://img.promolistee.eu/539142/domicile3.jpg" alt="+ DE 100 VÉHICULES ATELIER" style="display:block;" border="0" height="42" width="325">
+</b>
+</font>
+</a>
+</td>
+</tr>
+<tr>
+<td align="center" bgcolor="#fd6900">
+<a href="http://www.promolistee.eu/c2/539142/232898091/4fc5ef332a/38" style="text-decoration:none;" target="_blank">
+<font face="Verdana, sans-serif" color="#ffffff" size="4">
+<b style="font-size:20px;line-height:33px;">
+<img class="redim" src="http://img.promolistee.eu/539142/domicileCTA.jpg" alt="TROUVER UNE STATION" style="display:block;" border="0" height="33" width="325">
+</b>
+</font>
+</a>
+</td>
+</tr>
+</tbody></table>
+</td>
+<!--[if !mso]><!---->
+</tr>
+</tbody></table>
+</td>
+<!--<![endif]-->
+</tr>
+</tbody></table>
+<table id="footer" class="redim" align="center" border="0" cellpadding="0" cellspacing="0" width="650">
+<tbody><tr>
+<td bgcolor="#ffffff">
+<img class="redim" src="http://img.promolistee.eu/539142/footer_top_shadow_650.jpg" alt="" style="display:block; margin:0; padding:0;" border="0" height="33" width="650">
+</td>
+</tr>
+<tr>
+<td>
+<table class="redim" align="center" border="0" cellpadding="0" cellspacing="0">
+<tbody><tr>
+<td class="hidden" align="center" bgcolor="#ffffff" height="58" valign="top" width="130">
+<a target="_blank" href="http://www.promolistee.eu/c2/539142/232898091/4fc5ef332a/39" style="font-family: Arial, Verdana, sans-serif; color:#666666; font-size:11px; margin:0; padding-top:4px; text-decoration:none; text-transform:uppercase;font-weight:bold;">
+<img src="http://img.promolistee.eu/539142/ico_1.jpg" alt="" border="0" height="25" width="76">
+<br>Paiement<br>sécurisé
+</a>
+</td>
+<td align="center" bgcolor="#ffffff" height="58" valign="top" width="130">
+<a target="_blank" href="http://www.promolistee.eu/c2/539142/232898091/4fc5ef332a/40" style="font-family: Arial, Verdana, sans-serif; color:#666666; font-size:11px; margin:0; padding-top:4px; text-decoration:none; text-transform:uppercase;font-weight:bold;">
+<img src="http://img.promolistee.eu/539142/ico_2.jpg" alt="" border="0" height="25" width="76">
+<br>+ 6000 centres<br>de montage
+</a>
+</td>
+<td align="center" bgcolor="#ffffff" height="58" valign="top" width="130">
+<a target="_blank" href="http://www.promolistee.eu/c2/539142/232898091/4fc5ef332a/41" style="font-family: Arial, Verdana, sans-serif; color:#666666; font-size:11px; margin:0; padding-top:4px; text-decoration:none; text-transform:uppercase;font-weight:bold;">
+<img src="http://img.promolistee.eu/539142/ico_3.jpg" alt="" border="0" height="25" width="76">
+<br>Montage<br>à domicile
+</a>
+</td>
+<td align="center" bgcolor="#ffffff" height="58" valign="top" width="130">
+<a target="_blank" href="http://www.promolistee.eu/c2/539142/232898091/4fc5ef332a/42" style="font-family: Arial, Verdana, sans-serif; color:#666666; font-size:11px; margin:0; padding-top:4px; text-decoration:none; text-transform:uppercase;font-weight:bold;">
+<img src="http://img.promolistee.eu/539142/ico_4.jpg" alt="" border="0" height="25" width="76">
+<br>Livraison<br>gratuite*
+</a>
+</td>
+<td class="hidden" align="center" bgcolor="#ffffff" height="58" valign="top" width="130">
+<a target="_blank" href="http://www.promolistee.eu/c2/539142/232898091/4fc5ef332a/43" style="font-family: Arial, Verdana, sans-serif; color:#666666; font-size:11px; margin:0; padding-top:4px; text-decoration:none; text-transform:uppercase;font-weight:bold;">
+<img src="http://img.promolistee.eu/539142/ico_5.jpg" alt="" border="0" height="25" width="76">
+<br>Service<br>clients
+</a>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+<tr>
+<td border="0" bgcolor="#ffffff" height="20"></td>
+</tr>
+<tr>
+<td>
+<table class="redim" align="center" border="0" cellpadding="0" cellspacing="0" width="650">
+<tbody><tr>
+<td bgcolor="#ffffff" width="30"></td>
+<td align="left" bgcolor="#ffffff">
+<!-- Contact : TC4 / JANTES / QUAD -->
+</td>
+<td class="hidden" bgcolor="#ffffff" valign="top" width="105">
+<table align="right" border="0" cellpadding="0" cellspacing="0">
+<tbody><tr>
+<td align="right" height="46" valign="middle" width="35">
+<a href="http://www.promolistee.eu/c2/539142/232898091/4fc5ef332a/44" title="Le blog Allopneus" target="_blank" style="text-decoration:none;">
+<img src="http://img.promolistee.eu/539142/social_30x30_blog.jpg" alt="blog" style="font-family: Arial, Verdana, sans-serif; color:#EA5141; font-size:9px; margin:0; padding:0;" border="0" height="30" width="30">
+</a>
+</td>
+<td align="right" height="46" valign="middle" width="35">
+<a href="http://www.promolistee.eu/c2/539142/232898091/4fc5ef332a/45" title="Suivez Allopneus sur Twitter" target="_blank" style="text-decoration:none;">
+<img src="http://img.promolistee.eu/539142/social_30x30_twitter.jpg" alt="twitter" style="font-family: Arial, Verdana, sans-serif; color:#55ACEF; font-size:9px; margin:0; padding:0;" border="0" height="30" width="30">
+</a>
+</td>
+<td align="right" height="46" valign="middle" width="35">
+<a href="http://www.promolistee.eu/c2/539142/232898091/4fc5ef332a/46" title="Suivez Allopneus sur Facebook" target="_blank" style="text-decoration:none;">
+<img src="http://img.promolistee.eu/539142/social_30x30_facebook.jpg" alt="facebook" style="font-family: Arial, Verdana, sans-serif; color:#3C5A98; font-size:9px; margin:0; padding:0;" border="0" height="30" width="30">
+</a>
+</td>
+</tr>
+</tbody></table>
+</td>
+<td bgcolor="#ffffff" width="30"></td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+<tr>
+<td border="0" bgcolor="#ffffff" height="30"></td>
+</tr>
+<tr>
+<td>
+<img class="redim" src="http://img.promolistee.eu/539142/footer_bottom_shadow_1a1a1a_650.jpg" alt="" style="display:inline;" border="0" height="33" width="650">
+</td>
+</tr>
+</tbody></table>
+<table id="mentions" class="redim" align="center" bgcolor="#1a1a1a" border="0" cellpadding="0" cellspacing="0" width="650">
+<tbody><tr>
+<td class="headerfooter" align="center" width="650">
+<p style="font-family: Arial, Verdana, sans-serif; color:#cccccc; font-size:11px; margin:0; padding:0px; text-decoration:none;">
+*Voir conditions générales de vente sur <a href="http://www.promolistee.eu/c2/539142/232898091/4fc5ef332a/47" style="color:#cccccc;">www.allopneus.com</a> : <a href="http://www.promolistee.eu/c2/539142/232898091/4fc5ef332a/48" target="_blank" style="color:#ff6600;">CLIQUEZ ICI</a>
+</p>
+</td>
+</tr>
+<tr><td border="0" height="50" width="650"></td></tr>
+</tbody></table>
+<!--[if mso]><!----></td></tr></tbody></table><!--<![endif]-->
+</td></tr>
+</table><div id="template_footer_auto_include" ><center>
+<span style='font-size:11px;text-align:center;font-family:Arial, Helvetica, sans-serif;color:#000'><br />
+Avec Promo Listee, vous pouvez b&eacute;n&eacute;ficier d&egrave;s maintenant des bons plans et des r&eacute;ductions exclusives qui correspondent<br /> aux univers de la famille, la mode, la beaut&eacute;, la d&eacute;coration, le voyage... <br />
+<br />
+Conform&eacute;ment &agrave; la loi informatique et libert&eacute;s, vous pouvez &agrave; tout moment acc&eacute;der, faire rectifier<br />
+ou supprimer les informations personnelles vous concernant ou vous opposer &agrave; leur traitement par Promo Listee.<br />
+<br />
+Pour ne plus b&eacute;n&eacute;ficier de nos propositions commerciales, vous pouvez vous rendre sur <a href='http://www.promolistee.eu/u/539142/232898091/4fc5ef332a/fr'>cette page</a><br />
+Notez que le traitement de cette demande peut prendre jusqu'&agrave; 48 heures.<br />
+<br />
+</span>
+</center></div>
+<img src="http://www.promolistee.eu/assets/mpt.png" height="1" width="1">
+<img height="1" width="1" src="http://www.promolistee.eu/i/539142/232898091/4fc5ef332a/2"><img src="http://www.promolistee.eu/i/539142/232898091/4fc5ef332a/0" width="0" height="0" border="0" alt=""></body></html>
+
+
+
+--b1_60cc8e41eb5c906397cb86afcebdfc77--
+
+
+

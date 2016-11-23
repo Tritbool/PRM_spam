@@ -1,0 +1,794 @@
+Return-Path: <reply@bounces.promolistee.eu>
+Received: from mailimailo.univ-rennes1.fr ([unix socket])
+	 by mailimailo.univ-rennes1.fr (Cyrus v2.3.16-Fedora-RPM-2.3.16-6.el6_2.5) with LMTPA;
+	 Fri, 18 Dec 2015 03:51:24 +0100
+X-Sieve: CMU Sieve 2.3
+Received: from mailout1.univ-rennes1.fr (mailout1.univ-rennes1.fr [129.20.128.162])
+	by mailimailo.univ-rennes1.fr (Postfix) with ESMTP id 5705226A13CB
+	for <resp-m2-miage@univ-rennes1.fr>; Fri, 18 Dec 2015 03:51:24 +0100 (CET)
+Received: from localhost (vmscanmail.univ-rennes1.fr [129.20.128.134])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id 53AD5600D3
+	for <resp-m2-miage@univ-rennes1.fr>; Fri, 18 Dec 2015 03:51:24 +0100 (CET)
+X-Virus-Scanned: amavisd-new at univ-rennes1.fr
+Received: from mailout1.univ-rennes1.fr ([129.20.128.162])
+	by localhost (vmscanmail.univ-rennes1.frm [129.20.128.134]) (amavisd-new, port 10026)
+	with ESMTP id KpnyXnEwJdO8 for <resp-m2-miage@univ-rennes1.fr>;
+	Fri, 18 Dec 2015 03:51:24 +0100 (CET)
+Received: from vmmailin.univ-rennes1.fr (vmmailin.univ-rennes1.fr [129.20.128.133])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id 3894560011
+	for <resp-m2-miage@univ-rennes1.fr>; Fri, 18 Dec 2015 03:51:24 +0100 (CET)
+Received: from mxb2-1.relay.renater.fr (mxb2-1.relay.renater.fr [194.214.200.8])
+	by vmmailin.univ-rennes1.fr (Postfix) with ESMTP id 30D0220033
+	for <resp-m2-miage@univ-rennes1.fr>; Fri, 18 Dec 2015 03:51:24 +0100 (CET)
+Received: from mta.57.240.smtp.fr (mta.57.240.smtp.fr [37.60.57.240])
+	by mxb2-1.relay.renater.fr (asm) with ESMTP id EFCCF60012D
+	for <resp-m2-miage@univ-rennes1.fr>; Fri, 18 Dec 2015 03:51:23 +0100 (CET)
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=smtp; d=bounces.promolistee.eu;
+ h=To:Subject:Message-ID:Date:From:Reply-to:MIME-Version:List-Unsubscribe:Content-Type; i=reply@bounces.promolistee.eu;
+ bh=yBU+e10fPySYswux4C+Qx5rmkPg=;
+ b=synIgwmvL9mKozHU95gt7J3bBv+KT4y+qE4v3vsT/UcX6yecAzEFtqEeqjNuD026b5jMy0lcvPuA
+   AiHK50ePypn2BphT6Vj3d/x1xset+qPko2g273P8F5d8O6Qv+XWYXiazaamQWKMHq5htOta0VOQk
+   uwR/C5Tvb5Nkgfmulf8=
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=smtp; d=bounces.promolistee.eu;
+ b=t1TZeo5oCRNSMU8IiralIQ3GcotmciUc1pABcKLMBCreelaFnzDGQJOUUTKPGh+A5QhzJRb/z3U2
+   spbEsk+yZcNVGprAC8ncQSvPLNzg/TkSO1f4a2GVop473kB2Kd5BdsZbZHKS1Gf8GrERgjNQpbGV
+   mH/xrL2SaH2i9dM3PNU=;
+Received: from localhost.localdomain (172.31.255.248) by mta.57.240.smtp.fr id hedqam199b4q for <resp-m2-miage@univ-rennes1.fr>; Fri, 18 Dec 2015 03:51:23 +0100 (envelope-from <reply@bounces.promolistee.eu>)
+To: resp-m2-miage@univ-rennes1.fr
+Subject: =?utf-8?Q?Inscrivez-vous_aux_Ventes_Priv=C3=A9es_Salomon?=
+Message-ID: <694b51f25de5d6b2072b8bc3e4d176db@localhost.localdomain>
+Date: Fri, 18 Dec 2015 03:51:23 +0100
+From: Loic <reply@bounces.promolistee.eu>
+Reply-to: Loic <reply@bounces.promolistee.eu>
+MIME-Version: 1.0
+List-Unsubscribe: <http://www.promolistee.eu/Bounces.php?M=232898091&N=555926&L=4fc5ef332a&type=34>, <mailto:reply@bounces.promolistee.eu?subject=list-id=a065c159-dfbb-6619-e781-ebef6d94195d_4fc5ef332a_aefd2cc7-ccdc-aa60-5639-9b73281d5c98-fbl>
+X-Mailer: JRCG
+X-Mailer-Sid: promolisteeeu
+X-Mailer-RecptId: a065c159-dfbb-6619-e781-ebef6d94195d_4fc5ef332a_aefd2cc7-ccdc-aa60-5639-9b73281d5c98
+X-Priority: 3
+Content-Type: multipart/alternative;
+	boundary="b1_694b51f25de5d6b2072b8bc3e4d176db"
+X-UCE-Status: YES
+X-UCE-Type: MCE
+X-Original-Source-IP: 37.60.57.240
+X-Bizanga: IMP - mxb2-1.relay.renater.fr
+X-Renater-SpamState: 11
+X-Renater-SpamScore: 17
+X-Renater-SpamCause: gggruggvucftvghtrhhoucdtuddrfeekiedrfeeggdefvdcutefuodetggdotefrodftvfcurfhrohhfihhlvgemucftgffptefvgfftpdggtfgfnhhsuhgsshgtrhhisggvnecuuegrihhlohhuthemuceftddtnecundfotefknffkpffiucdludejmdenucfjughrpefvuffkfffhrhggjfforfgtsegrtdhjphertdejnecuhfhrohhmpefnohhitgcuoehrvghplhihsegsohhunhgtvghsrdhprhhomhholhhishhtvggvrdgvuheqnecuffhomhgrihhnpehprhhomhholhhishhtvggvrdgvuhdpshgrlhhomhhonhdrtghomhenucfrrghrrghmpehmohguvgepshhmthhppdhhvghlohepmhhtrgdrheejrddvgedtrdhsmhhtphdrfhhrpdhinhgvthepfeejrdeitddrheejrddvgedtpdhmrghilhhfrhhomheprhgvphhlhiessghouhhntggvshdrphhrohhmohhlihhsthgvvgdrvghupdhrtghpthhtoheprhgvshhpqdhmvddqmhhirghgvgesuhhnihhvqdhrvghnnhgvshdurdhfrh 
+X-Renater-ServerName: mxb2-1.relay.renater.fr
+
+
+--b1_694b51f25de5d6b2072b8bc3e4d176db
+Content-Type: text/plain; charset = "utf-8"
+Content-Transfer-Encoding: 8bit
+
+Salomon
+Vous recevez ce mail car vous tes inscrits la lettre d'information de
+Promo Listee.
+Vous aimez notre Newsletter ? Pour tre sr(e) de recevoir tous nos
+emails, nous vous conseillons d'ajouter contact@promolistee.eu
+mailto:contact@promolistee.eu votre carnet d'adresses.
+DCOUVREZ L\'OFFRE DU JOUR AVEC PROMO LISTEE suivez ce lien
+http://www.promolistee.eu/n2/555926/232898091/4fc5ef332a. Pour un
+dsabonnement, utilisez ce lien Me dsabonner/Unsubscribe
+http://www.promolistee.eu/u/555926/232898091/4fc5ef332a/fr
+http://www.promolistee.eu/c2/555926/232898091/4fc5ef332a/1
+http://www.promolistee.eu/c2/555926/232898091/4fc5ef332a/2
+http://www.promolistee.eu/c2/555926/232898091/4fc5ef332a/3
+http://www.promolistee.eu/c2/555926/232898091/4fc5ef332a/4
+http://www.promolistee.eu/c2/555926/232898091/4fc5ef332a/5
+Bnficiez d'une offre exclusive
+en vous inscrivant
+la newsletter salomon
+J\'EN PROFITE
+http://www.promolistee.eu/c2/555926/232898091/4fc5ef332a/6
+http://www.promolistee.eu/c2/555926/232898091/4fc5ef332a/7
+LA SOCIT SALOMON EST NE EN 1947 AU CUR DES ALPES FRANAISES.
+NOTRE PASSION POUR L'INNOVATION,
+LE DVELOPPEMENT DE PRODUITS, NOUS A AMEN A CRER DES
+EQUIPEMENTS QUI VOUS OFFRENT UNE LIBERT TOTALE ET VOUS AIDENT A
+REPOUSSER VOS LIMITES EN MONTAGNE.
+http://www.promolistee.eu/c2/555926/232898091/4fc5ef332a/8
+http://www.promolistee.eu/c2/555926/232898091/4fc5ef332a/9
+http://www.promolistee.eu/c2/555926/232898091/4fc5ef332a/10
+http://www.promolistee.eu/c2/555926/232898091/4fc5ef332a/11
+http://www.promolistee.eu/c2/555926/232898091/4fc5ef332a/12
+http://www.promolistee.eu/c2/555926/232898091/4fc5ef332a/13
+http://www.promolistee.eu/c2/555926/232898091/4fc5ef332a/14
+* Cette offre est valable sur salomon.com pour une commande en
+France mtropolitaine, pour toute commande suprieure 100€ et hors
+produits fin de saison, jusqu'au 04 janvier 2016. Offre non cumulable
+avec un autre code promotionnel en cours, code usage unique, un seul
+code par compte.
+Avec Promo Listee, vous pouvez bnficier ds maintenant des bons plans
+et des rductions exclusives qui correspondent
+aux univers de la famille, la mode, la beaut, la dcoration, le
+voyage...
+Conformment la loi informatique et liberts, vous pouvez tout moment
+accder, faire rectifier
+ou supprimer les informations personnelles vous concernant ou vous
+opposer leur traitement par Promo Listee.
+Pour ne plus bnficier de nos propositions commerciales, vous pouvez
+vous rendre sur cette page
+http://www.promolistee.eu/u/555926/232898091/4fc5ef332a/fr
+Notez que le traitement de cette demande peut prendre jusqu' 48
+heures.
+
+
+--b1_694b51f25de5d6b2072b8bc3e4d176db
+Content-Type: text/html; charset = "utf-8"
+Content-Transfer-Encoding: 8bit
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<style type="text/css">
+.ReadMsgBody {width: 100%;}
+.ExternalClass {width: 100%;}
+.ExternalClass * {line-height: 100%;}
+span.yshortcuts { color:#000; background-color:none; border:none;}
+span.yshortcuts:hover,span.yshortcuts:active,span.yshortcuts:focus {color:#000; background-color:none; border:none;}
+@import url(http://image.email.salomon.com/lib/fe8a12717c67017b72/m/2/nl_tpl_fontBold.css?family=intestateSalomonBold);@import url(http://image.email.salomon.com/lib/fe8a12717c67017b72/m/2/nl_tpl_fontRegular.css?family=intestateSalomonRegular); .ExternalClass * {line-height:100%;} .ReadMsgBody {width: 100%;} .ExternalClass {width: 100%;} img{ } *[class=intBold]{font-family:'intestateSalomonBold',arial,helvetica!important;font-weight:bold;} *[class=intRegular]{font-family:'intestateSalomonRegular',arial,helvetica!important;} a:visited{text-decoration:none!important;color:inherit!important;} @media screen and (min-width: 0px) and (max-width: 600px) { *[class=largMob]{width:320px!important;} *[class=largMobInt]{width:304px!important;margin:auto!important;margin-left:8px!important;margin-right:8px!important;} *{-webkit-text-size-adjust:none!important;} *{text-size-adjust:none!important;} *[class=float]{display:block!important;margin:0!important;} *[class=cent]{display:none!import
+ ant;}
+*[class=hide]{display:none!important;} *[class=width151]{width:151px!important;} *[class=height23]{height:23px!important;} *[class=margeTop10]{padding-top:10px!important;} *[class=height5]{height:5px!important;} *[class=height10]{height:10px!important;} *[class=height12]{height:12px!important;} *[class=centPourcent]{width:100%!important;height:auto!important;} *[class=widthAuto]{display:block!important;width:auto!important;height:auto!important;max-width:320px!important;} *[class=font20]{font-size:20px!important;} *[class=font18]{font-size:18px!important;} *[class=font14]{font-size:14px!important;} *[class=font12]{font-size:12px!important;} *[class=bgcolorE7]{background-color:#e7e7e7!important;} *[class=color66]{color:#666666!important;} *[class=titreProduit]{font-size:14px!important;color:#46a7d600a9d9!important;} *[class=prixProduits]{font-size:24px!important;text-align:right!important;width:100%!important}
+*[class=prixProduitsBarres]{font-size:16px!important;text-align:right!important;width:100%!important} *[class=prixProduitsCentimes]{font-size:14px!important;} *[class=blockLien]{display:block!important;padding-top:6px!important;padding-bottom:6px!important;} *[class=typoPictoFooter]{font-size:15px!important;color:#666666!important;} *[class=hackYahoo]{display:none!important;} *[class=hackGmailApp]{width:100%!important;min-width:320px!important;} *[class=resize300]{max-width:100%!important;min-width:320px!important;width:100%!important;} *[class=mobile] { width:100%!important; margin:auto!important; height:auto!important; display:block!important; overflow:visible!important; line-height:100%!important; } *[class=gmailMobile] { display:block!important; width:auto!important; overflow:visible!important; float:none !important; height:inherit!important; max-height:inherit!important; } }
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, width=320" /><meta name="apple-mobile-web-app-capable" content="yes" /><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<title>Salomon</title>
+</head>
+<body bgcolor="#ffffff" style="padding:0; margin:auto;"><div id="template_header_auto_include" ><center>
+<span style='font-size:11px;text-align:center;font-family:Arial, Helvetica, sans-serif;color:#000'><br />
+Vous recevez ce mail car vous &ecirc;tes inscrits &agrave; la lettre d'information de Promo Listee. <br />
+Vous aimez notre Newsletter ? Pour &ecirc;tre s&ucirc;r(e) de recevoir tous nos emails, nous vous conseillons d'ajouter <a href='mailto:contact@promolistee.eu' target='_blank'> contact@promolistee.eu</a> &agrave; votre carnet d'adresses.<br />
+<br/>
+<strong>D&eacute;couvrez l'offre du jour avec Promo Listee </strong><a href='http://www.promolistee.eu/n2/555926/232898091/4fc5ef332a' target='_blank'> suivez ce lien</a>. Pour un d&eacute;sabonnement, utilisez ce lien <a href='http://www.promolistee.eu/u/555926/232898091/4fc5ef332a/fr' target='_blank'> Me d&eacute;sabonner/Unsubscribe</a>
+</span>
+</center></div><table width="98%" border="0" align="center" cellpadding="0" cellspacing="0">
+<tr><td align="center">
+<custom name="opencounter" type="tracking">
+<!--[if !IE]><!-->
+<!--<![endif]-->
+<div style="background-color:#ffffff;margin:0;padding:0;" class="resize300" bgcolor="#ffffff">
+<center>
+<table width="100%" class="resize300" cellpadding="0" cellspacing="0" border="0" style="margin:0; padding:0; min-width:700px; background-color:#ffffff;" bgcolor="#ffffff">
+<tr>
+<td align="center" style="min-width:700px;" class="hackGmailApp">
+<table width="636" class="hide" align="center" cellpadding="0" cellspacing="0" border="0">
+<tr>
+<td>
+<img src="http://img.promolistee.eu/555926/nl_tpl_emailTop.gif" border="0" style=" " width="636" height="22"/>
+</td>
+</tr>
+</table>
+<table width="636" class="largMob" align="center" cellpadding="0" cellspacing="0" border="0">
+<tr>
+<td class="hide">
+<img src="http://img.promolistee.eu/555926/nl_tpl_miroirLeft.gif" border="0" style=" " width="30" height="56"/>
+</td>
+<td width="100%" valign="bottom">
+<table align="center" cellpadding="0" cellspacing="0" border="0">
+<tr>
+<td>
+<img src="http://img.promolistee.eu/555926/mpt.png" width="1" height="7" border="0" style=" "/>
+</td>
+</tr>
+<tr>
+<td align="center" style="text-decoration:none;font-family:arial,helvetica;font-size:9px;color:#000001;">
+<a href="http://www.promolistee.eu/c2/555926/232898091/4fc5ef332a/1" target="_blank" style="text-decoration:none;font-size:9px;color:#000001; border:none;">
+</a>
+</td>
+</tr>
+<tr>
+<td>
+<img src="http://img.promolistee.eu/555926/mpt.png" width="1" height="7" border="0" style=" "/>
+</td>
+</tr>
+</table>
+</td>
+<td class="hide">
+<img src="http://img.promolistee.eu/555926/nl_tpl_miroirRight.gif" border="0" style=" " width="30" height="56"/>
+</td>
+</tr>
+</table>
+<table width="636" class="largMob" align="center" cellpadding="0" cellspacing="0" border="0">
+<tr>
+<td width="1" bgcolor="#ffffff" class="hide" style="background-color:#ffffff;">
+<img src="http://img.promolistee.eu/555926/mpt.png" width="1" height="1" border="0" style=" "/>
+</td>
+<td width="1" bgcolor="#ffffff" class="hide" style="background-color:#ffffff;">
+<img src="http://img.promolistee.eu/555926/mpt.png" width="1" height="1" border="0" style=" "/>
+</td>
+<td width="1" bgcolor="#fefefe" class="hide" style="background-color:#fefefe;">
+<img src="http://img.promolistee.eu/555926/mpt.png" width="1" height="1" border="0" style=" "/>
+</td>
+<td width="1" bgcolor="#fefefe" class="hide" style="background-color:#fefefe;">
+<img src="http://img.promolistee.eu/555926/mpt.png" width="1" height="1" border="0" style=" "/>
+</td>
+<td width="1" bgcolor="#fdfdfd" class="hide" style="background-color:#fdfdfd;">
+<img src="http://img.promolistee.eu/555926/mpt.png" width="1" height="1" border="0" style=" "/>
+</td>
+<td width="1" bgcolor="#fcfcfc" class="hide" style="background-color:#fcfcfc;">
+<img src="http://img.promolistee.eu/555926/mpt.png" width="1" height="1" border="0" style=" "/>
+</td>
+<td width="1" bgcolor="#fbfbfb" class="hide" style="background-color:#fbfbfb;">
+<img src="http://img.promolistee.eu/555926/mpt.png" width="1" height="1" border="0" style=" "/>
+</td>
+<td width="1" bgcolor="#fafafa" class="hide" style="background-color:#fafafa;">
+<img src="http://img.promolistee.eu/555926/mpt.png" width="1" height="1" border="0" style=" "/>
+</td>
+<td width="1" bgcolor="#f9f9f9" class="hide" style="background-color:#f9f9f9;">
+<img src="http://img.promolistee.eu/555926/mpt.png" width="1" height="1" border="0" style=" "/>
+</td>
+<td width="1" bgcolor="#f8f8f8" class="hide" style="background-color:#f8f8f8;">
+<img src="http://img.promolistee.eu/555926/mpt.png" width="1" height="1" border="0" style=" "/>
+</td>
+<td width="1" bgcolor="#f6f6f6" class="hide" style="background-color:#f6f6f6;">
+<img src="http://img.promolistee.eu/555926/mpt.png" width="1" height="1" border="0" style=" "/>
+</td>
+<td width="1" bgcolor="#f5f5f5" class="hide" style="background-color:#f5f5f5;">
+<img src="http://img.promolistee.eu/555926/mpt.png" width="1" height="1" border="0" style=" "/>
+</td>
+<td width="1" bgcolor="#f2f2f2" class="hide" style="background-color:#f2f2f2;">
+<img src="http://img.promolistee.eu/555926/mpt.png" width="1" height="1" border="0" style=" "/>
+</td>
+<td width="1" bgcolor="#f1f1f1" class="hide" style="background-color:#f1f1f1;">
+<img src="http://img.promolistee.eu/555926/mpt.png" width="1" height="1" border="0" style=" "/>
+</td>
+<td class="hide">
+<img src="http://img.promolistee.eu/555926/mpt.png" width="16" height="1" border="0" style=" "/>
+</td>
+<td>
+<!--SEPARATEUR-->
+<table width="576" class="largMob" align="center" cellpadding="0" cellspacing="0" border="0">
+<tr>
+<td style="font-size:1px;line-height:1px;">
+<img src="http://img.promolistee.eu/555926/mpt.png" width="" border="0" style=" " height="4"/>
+</td>
+<td class="hide" style="font-size:1px;line-height:1px;">
+<img src="http://img.promolistee.eu/555926/nl_tpl_emailSepRight.gif" border="0" style=" " width="256" height="4"/>
+</td>
+</tr>
+</table>
+<table width="576" class="largMob" align="center" cellpadding="0" cellspacing="0" border="0">
+<tr>
+<td style="font-size:1px;line-height:1px;">
+<img src="http://img.promolistee.eu/555926/mpt.png" width="1" height="12" border="0" style=" " class="height23"/>
+</td>
+</tr>
+</table>
+<!--LOGO simple-->
+<table width="545" class="hide" align="center" cellpadding="0" cellspacing="0" border="0">
+<tr>
+<td align="center">
+<a href="http://www.promolistee.eu/c2/555926/232898091/4fc5ef332a/2" target="_blank" style="text-decoration:none; border:none;">
+<img src="http://img.promolistee.eu/555926/logo.png" width="106"height="65" alt="" />
+</a>
+</td>
+</tr>
+</table>
+<table width="576" class="hide" align="center" cellpadding="0" cellspacing="0" border="0">
+<tr>
+<td style="font-size:1px;line-height:1px;">
+<img src="http://img.promolistee.eu/555926/mpt.png" width="1" height="10" border="0" style=" " class="height23"/>
+</td>
+</tr>
+</table>
+<!--LOGO Responsive-->
+<table width="576" class="largMob" align="center" cellpadding="0" cellspacing="0" border="0">
+<tr>
+<td align="left">
+<table class="largMob" align="left" cellpadding="0" cellspacing="0" border="0">
+<tr>
+<td align="center" style="font-size:1px;line-height:1px;">
+<a href="http://www.promolistee.eu/c2/555926/232898091/4fc5ef332a/3" target="_blank" style="text-decoration:none; border:none;">
+<img src="http://img.promolistee.eu/555926/mpt.png" width="1" height="1" border="0" style=" " class="widthAuto" alt="Salomon"/>
+</a>
+</td>
+</tr>
+</table>
+<table width="576" class="largMob" align="center" cellpadding="0" cellspacing="0" border="0">
+<tr>
+<td style="font-size:1px;line-height:1px;">
+<img src="http://img.promolistee.eu/555926/mpt.png" width="1" height="1" border="0" style=" " class="height10"/>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<!--PLV-->
+<table width="576" class="hide" align="center" cellpadding="0" cellspacing="0" border="0">
+<tr>
+<td align="center">
+<a href="http://www.promolistee.eu/c2/555926/232898091/4fc5ef332a/4" target="_blank" style="text-decoration:none; border:none;">
+<img src="http://img.promolistee.eu/555926/plv.jpg" border="0" style=" " width="576" class="centPourcent" height="323"/>
+</a>
+</td>
+</tr>
+</table>
+<!--[if !mso]><!-->
+<table width="576" class="largMob" align="center" cellpadding="0" cellspacing="0" border="0">
+<tr>
+<td align="center">
+<a href="http://www.promolistee.eu/c2/555926/232898091/4fc5ef332a/5" target="_blank" style="text-decoration:none; border:none;">
+<img src="http://img.promolistee.eu/555926/mpt.png" width="1" height="1" border="0" style="display:none;" class="widthAuto"/>
+</a>
+</td>
+</tr>
+</table>
+<!--<![endif]-->
+<table width="576" class="largMob" align="center" cellpadding="0" cellspacing="0" border="0">
+<tr>
+<td align="center" style="font-size:1px;line-height:1px;">
+<img src="http://img.promolistee.eu/555926/mpt.png" width="1" height="10" border="0" style=" "/>
+</td>
+</tr>
+</table>
+<table width="576" class="largMob" align="center" cellpadding="0" cellspacing="0" border="0">
+<tr>
+<td valign="bottom">
+<table class="largMobInt" align="left" cellpadding="0" cellspacing="0" border="0">
+<tr>
+<td width="8" class="hide">
+<img src="http://img.promolistee.eu/555926/mpt.png" width="8" height="10" border="0" style=" "/>
+</td>
+<td width="305" align="left" class="centPourcent">
+<!--TITRES ET SOUS TITRES-->
+<table class="centPourcent" align="left" cellpadding="0" cellspacing="0" border="0">
+<tr>
+<td colspan="2" align="left" style="font-size:1px;line-height:1px;">
+<img src="http://img.promolistee.eu/555926/mpt.png" width="1" height="3" border="0" style=" "/>
+</td>
+</tr>
+<tr>
+<td width="14" class="hide">
+<img src="http://img.promolistee.eu/555926/mpt.png" width="8" height="10" border="0" style=" "/>
+</td>
+<td align="left" style="text-decoration:none;font-family:arial,helvetica;font-size:15px;color:#5d5a5a">
+<b>B&eacute;n&eacute;ficiez d'une offre exclusive
+<br/>en vous inscrivant &agrave;<br/>la newsletter salomon</b>
+</td>
+</tr>
+<tr>
+<td colspan="2" class="height5" style="font-size:1px;line-height:1px;">
+<img src="http://img.promolistee.eu/555926/mpt.png" width="1" height="1" border="0" style=" "/>
+</td>
+</tr>
+<tr>
+<td colspan="2" class="height5" style="font-size:1px;line-height:1px;">
+<img src="http://img.promolistee.eu/555926/mpt.png" width="1" height="1" border="0" style=" "/>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<!--[if mso]>
+</td>
+<td valign="bottom">
+<![endif]-->
+<table class="largMobInt" align="left" cellpadding="0" cellspacing="0" border="0">
+<tr>
+<td width="255" align="right" valign="bottom" class="centPourcent">
+<!--BOUTON-->
+<table cellspacing="0" cellpadding="0" border="0" align="right" class="centPourcent">
+<tr>
+<td class="margeTop10">
+<table cellspacing="0" cellpadding="0" border="0" align="center" class="centPourcent">
+<tr>
+<td>
+<table cellspacing="0" cellpadding="0" border="0" align="center" class="centPourcent">
+<tr>
+<td colspan="3" rowspan="2" style="font-size:1px;line-height:1px;">
+<img src="http://img.promolistee.eu/555926/nl_tpl_btnTopLeftUn.png" width="6" height="4" style=" " border="0"/>
+</td>
+<td bgcolor="#cbcbcb" style="font-size:1px; line-height:1px; background-color:#cbcbcb;">
+<img src="http://img.promolistee.eu/555926/mpt.png" width="1" height="3" style=" " border="0"/>
+</td>
+<td colspan="3" rowspan="2" style="font-size:1px;line-height:1px;">
+<img src="http://img.promolistee.eu/555926/nl_tpl_btnTopRightUn.png" width="6" height="4" style=" " border="0"/>
+</td>
+</tr>
+<tr>
+<td height="1" bgcolor="#000000" style="font-size:1px; line-height:1px; background-color:#000000;">
+<img src="http://img.promolistee.eu/555926/mpt.png" width="1" height="1" style=" " border="0"/>
+</td>
+</tr>
+<tr>
+<td colspan="2" style="font-size:1px;line-height:1px;">
+<img src="http://img.promolistee.eu/555926/nl_tpl_btnTopLeftDeux.gif" width="4" height="7" style=" " border="0"/>
+</td>
+<td bgcolor="#3a9acf" background="http://img.promolistee.eu/555926/mpt.png" style="font-size:1px; line-height:1px; background-images:url(http://img.promolistee.eu/555926/mpt.png); background-color:#3a9acf;">
+<img src="http://img.promolistee.eu/555926/nl_tpl_btnTopLeftTrois.png" width="2" height="7" style=" " border="0"/>
+</td>
+<td bgcolor="#3a9acf" background="http://img.promolistee.eu/555926/mpt.png" style="font-size:1px; line-height:1px; background-images:url(http://img.promolistee.eu/555926/mpt.png); background-color:#3a9acf;">
+<img src="http://img.promolistee.eu/555926/mpt.png" height="" style=" " border="0" width="1"/>
+</td>
+<td bgcolor="#3a9acf" background="http://img.promolistee.eu/555926/mpt.png" style="font-size:1px; line-height:1px; background-images:url(http://img.promolistee.eu/555926/mpt.png); background-color:#3a9acf;">
+<img src="http://img.promolistee.eu/555926/nl_tpl_btnTopRightTrois.png" width="2" height="7" style=" " border="0"/>
+</td>
+<td colspan="2" style="font-size:1px;line-height:1px;">
+<img src="http://img.promolistee.eu/555926/nl_tpl_btnTopRightDeux.gif" width="4" height="7" style=" " border="0"/>
+</td>
+</tr>
+<tr>
+<td bgcolor="#cbcbcb" width="3" style="background-color:#cbcbcb;">
+<img src="http://img.promolistee.eu/555926/mpt.png" width="3" height="1" style=" " border="0"/>
+</td>
+<td width="1" bgcolor="#000000" style="background-color:#000000;">
+<img src="http://img.promolistee.eu/555926/mpt.png" width="1" height="1" style=" " border="0"/>
+</td>
+<td width="2" bgcolor="#3a9acf" style="background-color:#3a9acf;">
+<img src="http://img.promolistee.eu/555926/mpt.png" width="2" height="1" style=" " border="0"/>
+</td>
+<td bgcolor="#3a9acf" style="background-color:#3a9acf;">
+<table cellspacing="0" cellpadding="0" border="0" align="center"class="centPourcent">
+<tr>
+<td>
+<img src="http://img.promolistee.eu/555926/mpt.png" width="15" height="1" style=" " border="0"/>
+</td>
+<td align="center" style="text-decoration:none;font-family:arial,helvetica;font-size:18px;color:#ffffff;" class="centPourcent">
+<a href="http://www.promolistee.eu/c2/555926/232898091/4fc5ef332a/6" target="_blank" style="text-decoration:none;color:#ffffff; border:none;" title="J'en profite" class="blockLien">
+<span class="font18">
+<b class="intBold">J'EN PROFITE</b>
+</span>
+</a>
+</td>
+<td>
+<img src="http://img.promolistee.eu/555926/mpt.png" width="15" height="1" style=" " border="0"/>
+</td>
+<td>
+<a href="http://www.promolistee.eu/c2/555926/232898091/4fc5ef332a/7" target="_blank" style="text-decoration:none; border:none;" title="J'en profite">
+<img src="http://img.promolistee.eu/555926/mpt.png" height="" style=" " border="0" class="widthAuto" width="40"/>
+</a>
+</td>
+</tr>
+</table>
+<table cellspacing="0" cellpadding="0" border="0" align="center">
+<tr>
+<td style="font-size:1px;line-height:1px;">
+<img src="http://img.promolistee.eu/555926/mpt.png" width="1" height="3" style=" " border="0"/>
+</td>
+</tr>
+</table>
+</td>
+<td width="2" bgcolor="#3a9acf" style="background-color:#3a9acf;">
+<img src="http://img.promolistee.eu/555926/mpt.png" width="2" height="1" style=" " border="0"/>
+</td>
+<td width="1" bgcolor="#000000" style="background-color:#000000;">
+<img src="http://img.promolistee.eu/555926/mpt.png" width="1" height="1" style=" " border="0"/>
+</td>
+<td width="3" bgcolor="#cbcbcb" style="background-color:#cbcbcb;">
+<img src="http://img.promolistee.eu/555926/mpt.png" width="3" height="1" style=" " border="0"/>
+</td>
+</tr>
+<tr>
+<td colspan="3" rowspan="4" style="font-size:1px;line-height:1px;">
+<img src="http://img.promolistee.eu/555926/nl_tpl_btnBottomLeftUn.png" width="6" height="8" style=" " border="0"/>
+</td>
+<td bgcolor="#3a9acf" style="font-size:1px; line-height:1px; background-color:#3a9acf;">
+<img src="http://img.promolistee.eu/555926/mpt.png" width="1" height="2" style=" " border="0"/>
+</td>
+<td colspan="3" rowspan="4" style="font-size:1px;line-height:1px;">
+<img src="http://img.promolistee.eu/555926/nl_tpl_btnBottomRightUn.png" width="6" height="8" style=" " border="0"/>
+</td>
+</tr>
+<tr>
+<td bgcolor="#3a62a8" style="font-size:1px; line-height:1px; background-color:#3a62a8;">
+<img src="http://img.promolistee.eu/555926/mpt.png" width="1" height="2" style=" " border="0"/>
+</td>
+</tr>
+<tr>
+<td height="1" bgcolor="#000000" style="font-size:1px; line-height:1px; background-color:#000000;">
+<img src="http://img.promolistee.eu/555926/mpt.png" width="1" height="1" style=" " border="0"/>
+</td>
+</tr>
+<tr>
+<td bgcolor="#cbcbcb" style="font-size:1px; line-height:1px; background-color:#cbcbcb;">
+<img src="http://img.promolistee.eu/555926/mpt.png" width="1" height="3" style=" " border="0"/>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<table cellspacing="0" cellpadding="0" border="0" align="center">
+<tr>
+<td style="font-size:1px;line-height:1px;">
+<img src="http://img.promolistee.eu/555926/mpt.png" width="1" height="5" style=" " border="0"/>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+<td width="8" class="hide">
+<img src="http://img.promolistee.eu/555926/mpt.png" width="8" height="10" border="0" style=" "/>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<table width="576" class="largMob" align="center" cellpadding="0" cellspacing="0" border="0">
+<tr>
+<td>
+<img src="http://img.promolistee.eu/555926/mpt.png" width="1" height="20" border="0" style=" "/>
+</td>
+</tr>
+</table>
+<!--Titre produits-->
+<table width="576" class="largMobInt" align="center" cellpadding="0" cellspacing="0" border="0">
+<tr>
+<td width="8" class="hide">
+<img src="http://img.promolistee.eu/555926/mpt.png" width="8" height="10" border="0" style=" "/>
+</td>
+<td>
+<table width="100%" align="center" cellpadding="0" cellspacing="0" border="0" bgcolor="#eeeeee" style="background-color:#eeeeee;">
+<tr>
+<td>
+<img src="http://img.promolistee.eu/555926/mpt.png" width="15" height="10" border="0" style=" "/>
+</td>
+<td>
+<table width="100%" align="center" cellpadding="0" cellspacing="0" border="0" bgcolor="#eeeeee" style="background-color:#eeeeee;">
+<tr>
+<td style="font-size:1px;line-height:1px;">
+<img src="http://img.promolistee.eu/555926/mpt.png" width="15" height="15" border="0" style=" "/>
+</td>
+</tr>
+<tr>
+<td align="left">
+<img src="http://img.promolistee.eu/555926/titreFutur.gif" border="0" style=" " width="261" height="53"/>
+</td>
+</tr>
+<tr>
+<td align="left" style="text-decoration:none;font-family:arial,helvetica;font-size:14px;color:#5d5a5a;">
+LA SOCI&Eacute;T&Eacute; SALOMON EST N&Eacute;E EN 1947 AU C&#338;UR DES ALPES FRAN&Ccedil;AISES.
+<br/>NOTRE PASSION POUR L'INNOVATION, <br class="hide"/>LE D&Eacute;VELOPPEMENT DE PRODUITS, NOUS A AMEN&Eacute; A CR&Eacute;ER DES <br class="hide"/>EQUIPEMENTS QUI VOUS OFFRENT UNE LIBERT&Eacute; TOTALE ET VOUS AIDENT A REPOUSSER VOS LIMITES EN MONTAGNE.
+</td>
+</tr>
+<tr>
+<td style="font-size:1px;line-height:1px;">
+<img src="http://img.promolistee.eu/555926/mpt.png" width="15" height="25" border="0" style=" "/>
+</td>
+</tr>
+</table>
+</td>
+<td>
+<img src="http://img.promolistee.eu/555926/mpt.png" width="15" height="10" border="0" style=" "/>
+</td>
+</tr>
+</table>
+</td>
+<td width="8" class="hide">
+<img src="http://img.promolistee.eu/555926/mpt.png" width="8" height="10" border="0" style=" "/>
+</td>
+</tr>
+</table>
+<table width="576" class="largMob" align="center" cellpadding="0" cellspacing="0" border="0">
+<tr>
+<td>
+<img src="http://img.promolistee.eu/555926/mpt.png" width="1" height="25" border="0" style=" "/>
+</td>
+</tr>
+</table><!--Footer-->
+<table width="576" class="hide" align="center" cellpadding="0" cellspacing="0" border="0">
+<tr>
+<td>
+<a href="http://www.promolistee.eu/c2/555926/232898091/4fc5ef332a/8" target="_blank" style="text-decoration:none; border:none;" title="Salomon">
+<img src="http://img.promolistee.eu/555926/nl_tpl_footer_top.gif" border="0" style=" " width="576" height="81"/>
+</a>
+</td>
+</tr>
+</table>
+<table width="576" class="hide" align="center" cellpadding="0" cellspacing="0" border="0">
+<tr>
+<td>
+<img src="http://img.promolistee.eu/555926/nl_tpl_footer_left.gif" border="0" style=" " width="239" height="32"/>
+</td>
+<td>
+<a href="http://www.promolistee.eu/c2/555926/232898091/4fc5ef332a/9" target="_blank" style="text-decoration:none; border:none;" title="Facebook">
+<img src="http://img.promolistee.eu/555926/nl_tpl_picto_footer_facebook.gif" border="0" style=" " alt="Facebook" width="27" height="32"/>
+</a>
+</td>
+<td>
+<img src="http://img.promolistee.eu/555926/nl_tpl_footer_sep_un.gif" border="0" style=" " width="8" height="32"/>
+</td>
+<td>
+<a href="http://www.promolistee.eu/c2/555926/232898091/4fc5ef332a/10" target="_blank" style="text-decoration:none; border:none;" title="Twitter">
+<img src="http://img.promolistee.eu/555926/nl_tpl_picto_footer_twitter.gif" border="0" style=" " alt="Twitter" width="27" height="32"/>
+</a>
+</td>
+<td>
+<img src="http://img.promolistee.eu/555926/nl_tpl_footer_sep_deux.gif" border="0" style=" " width="7" height="32"/>
+</td>
+<td>
+<a href="http://www.promolistee.eu/c2/555926/232898091/4fc5ef332a/11" target="_blank" style="text-decoration:none; border:none;" title="YouTube">
+<img src="http://img.promolistee.eu/555926/nl_tpl_picto_footer_youtube.gif" border="0" style=" " alt="YouTube" width="27" height="32"/>
+</a>
+</td>
+<td>
+<img src="http://img.promolistee.eu/555926/nl_tpl_footer_right.gif" border="0" style=" " width="241" height="32"/>
+</td>
+</tr>
+</table>
+<!--Footer Resp-->
+<table width="576" class="largMob" align="center" cellpadding="0" cellspacing="0" border="0">
+<tr>
+<td style="font-size:1px;line-height:1px;">
+<img src="http://img.promolistee.eu/555926/mpt.png" width="1" height="1" border="0" style=" " class="widthAuto"/>
+</td>
+</tr>
+</table>
+<table width="576" class="largMob" align="center" cellpadding="0" cellspacing="0" border="0">
+<tr>
+<td style="font-size:1px;line-height:1px;">
+<img src="http://img.promolistee.eu/555926/mpt.png" width="1" height="1" border="0" style=" " class="widthAuto"/>
+</td>
+<td style="font-size:1px;line-height:1px;">
+<a href="http://www.promolistee.eu/c2/555926/232898091/4fc5ef332a/12" target="_blank" style="text-decoration:none; border:none;" title="Facebook">
+<img src="http://img.promolistee.eu/555926/mpt.png" width="1" height="1" border="0" style=" " alt="Facebook" class="widthAuto"/>
+</a>
+</td>
+<td style="font-size:1px;line-height:1px;">
+<a href="http://www.promolistee.eu/c2/555926/232898091/4fc5ef332a/13" target="_blank" style="text-decoration:none; border:none;" title="Twitter">
+<img src="http://img.promolistee.eu/555926/mpt.png" width="1" height="1" border="0" style=" " alt="Twitter" class="widthAuto"/>
+</a>
+</td>
+<td style="font-size:1px;line-height:1px;">
+<a href="http://www.promolistee.eu/c2/555926/232898091/4fc5ef332a/14" target="_blank" style="text-decoration:none; border:none;" title="YouTube">
+<img src="http://img.promolistee.eu/555926/mpt.png" width="1" height="1" border="0" style=" " alt="YouTube" class="widthAuto"/>
+</a>
+</td>
+<td style="font-size:1px;line-height:1px;">
+<img src="http://img.promolistee.eu/555926/mpt.png" width="1" height="1" border="0" style=" " class="widthAuto"/>
+</td>
+</tr>
+</table>
+<!--Spacer 15-->
+<table width="576" class="largMob" align="center" cellpadding="0" cellspacing="0" border="0">
+<tr>
+<td style="font-size:1px;line-height:1px;">
+<img src="http://img.promolistee.eu/555926/mpt.png" width="1" height="15" border="0" style=" "/>
+</td>
+</tr>
+</table>
+<table width="576" class="largMob" align="center" cellpadding="0" cellspacing="0" border="0">
+<tr>
+<td style="font-size:1px;line-height:1px;">
+<img src="http://img.promolistee.eu/555926/mpt.png" width="1" height="1" border="0" style=" " class="height5"/>
+</td>
+</tr>
+</table>
+<!--Spacer 15-->
+<table width="576" class="largMob" align="center" cellpadding="0" cellspacing="0" border="0">
+<tr>
+<td style="font-size:1px;line-height:1px;">
+<img src="http://img.promolistee.eu/555926/mpt.png" width="1" height="15" border="0" style=" "/>
+</td>
+</tr>
+</table>
+<!--Lien D&eacute;sabo-->
+<table width="576" class="largMobInt" align="center" cellpadding="0" cellspacing="0" border="0">
+<tr>
+<td width="8" class="hide">
+<img src="http://img.promolistee.eu/555926/mpt.png" width="8" height="1" border="0" style=" "/>
+</td>
+<td align="center" style="text-decoration:none;font-family:arial,helvetica;font-size:10px;color:#999999">
+* Cette offre est valable sur salomon.com pour une commande en France m&eacute;tropolitaine, pour toute commande sup&eacute;rieure &agrave; 100&euro; et hors produits fin de saison, jusqu&#8217;au 04 janvier 2016. Offre non cumulable avec un autre code promotionnel en cours, code &agrave; usage unique, un seul code par compte.
+</td>
+<td width="8" class="hide">
+<img src="http://img.promolistee.eu/555926/mpt.png" width="8" height="1" border="0" style=" "/>
+</td>
+</tr>
+</table>
+</td>
+<td class="hide">
+<img src="http://img.promolistee.eu/555926/mpt.png" width="16" height="1" border="0" style=" "/>
+</td>
+<td width="1" bgcolor="#f1f1f1" class="hide" style="background-color:#f1f1f1;">
+<img src="http://img.promolistee.eu/555926/mpt.png" width="1" height="1" border="0" style=" "/>
+</td>
+<td width="1" bgcolor="#f2f2f2" class="hide" style="background-color:#f2f2f2;">
+<img src="http://img.promolistee.eu/555926/mpt.png" width="1" height="1" border="0" style=" "/>
+</td>
+<td width="1" bgcolor="#f5f5f5" class="hide" style="background-color:#f5f5f5;">
+<img src="http://img.promolistee.eu/555926/mpt.png" width="1" height="1" border="0" style=" "/>
+</td>
+<td width="1" bgcolor="#f6f6f6" class="hide" style="background-color:#f6f6f6;">
+<img src="http://img.promolistee.eu/555926/mpt.png" width="1" height="1" border="0" style=" "/>
+</td>
+<td width="1" bgcolor="#f8f8f8" class="hide" style="background-color:#f8f8f8;">
+<img src="http://img.promolistee.eu/555926/mpt.png" width="1" height="1" border="0" style=" "/>
+</td>
+<td width="1" bgcolor="#f9f9f9" class="hide" style="background-color:#f9f9f9;">
+<img src="http://img.promolistee.eu/555926/mpt.png" width="1" height="1" border="0" style=" "/>
+</td>
+<td width="1" bgcolor="#fafafa" class="hide" style="background-color:#fafafa;">
+<img src="http://img.promolistee.eu/555926/mpt.png" width="1" height="1" border="0" style=" "/>
+</td>
+<td width="1" bgcolor="#fbfbfb" class="hide" style="background-color:#fbfbfb;">
+<img src="http://img.promolistee.eu/555926/mpt.png" width="1" height="1" border="0" style=" "/>
+</td>
+<td width="1" bgcolor="#fcfcfc" class="hide" style="background-color:#fcfcfc;">
+<img src="http://img.promolistee.eu/555926/mpt.png" width="1" height="1" border="0" style=" "/>
+</td>
+<td width="1" bgcolor="#fdfdfd" class="hide" style="background-color:#fdfdfd;">
+<img src="http://img.promolistee.eu/555926/mpt.png" width="1" height="1" border="0" style=" "/>
+</td>
+<td width="1" bgcolor="#fefefe" class="hide" style="background-color:#fefefe;">
+<img src="http://img.promolistee.eu/555926/mpt.png" width="1" height="1" border="0" style=" "/>
+</td>
+<td width="1" bgcolor="#fefefe" class="hide" style="background-color:#fefefe;">
+<img src="http://img.promolistee.eu/555926/mpt.png" width="1" height="1" border="0" style=" "/>
+</td>
+<td width="1" bgcolor="#ffffff" class="hide" style="background-color:#ffffff;">
+<img src="http://img.promolistee.eu/555926/mpt.png" width="1" height="1" border="0" style=" "/>
+</td>
+<td width="1" bgcolor="#ffffff" class="hide" style="background-color:#ffffff;">
+<img src="http://img.promolistee.eu/555926/mpt.png" width="1" height="1" border="0" style=" "/>
+</td>
+</tr>
+</table>
+<table width="636" class="hide" align="center" cellpadding="0" cellspacing="0" border="0">
+<tr>
+<td>
+<img src="http://img.promolistee.eu/555926/nl_tpl_bottomEmail.gif" border="0" style=" " width="636" height="45"/>
+</td>
+</tr>
+</table>
+<table width="636" class="largMob" align="center" cellpadding="0" cellspacing="0" border="0">
+<tr>
+<td style="font-size:1px;line-height:1px;">
+<img src="http://img.promolistee.eu/555926/mpt.png" width="1" height="15" border="0" style=" "/>
+</td>
+</tr>
+</table>
+<!--HACK Yahoo-->
+<table width="700" cellspacing="0" cellpadding="0" border="0" align="center" class="hackYahoo" style=" width:100%!important;min-width:700px!important;max-width:1060px!important;">
+<tr>
+<td>
+<img src="http://img.promolistee.eu/555926/nl_tpl_spacerBig.gif" width="700" height="1" class="hackYahoo" border="0" alt="" style=" width:100%!important;min-width:700px!important;max-width:1060px!important;"/>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</center>
+</div>
+<img src="http://img.promolistee.eu/555926/mpt.png" width="" height="" style=" "/>
+</td></tr>
+</table><div id="template_footer_auto_include" ><center>
+<span style='font-size:11px;text-align:center;font-family:Arial, Helvetica, sans-serif;color:#000'><br />
+Avec Promo Listee, vous pouvez b&eacute;n&eacute;ficier d&egrave;s maintenant des bons plans et des r&eacute;ductions exclusives qui correspondent<br /> aux univers de la famille, la mode, la beaut&eacute;, la d&eacute;coration, le voyage... <br />
+<br />
+Conform&eacute;ment &agrave; la loi informatique et libert&eacute;s, vous pouvez &agrave; tout moment acc&eacute;der, faire rectifier<br />
+ou supprimer les informations personnelles vous concernant ou vous opposer &agrave; leur traitement par Promo Listee.<br />
+<br />
+Pour ne plus b&eacute;n&eacute;ficier de nos propositions commerciales, vous pouvez vous rendre sur <a href='http://www.promolistee.eu/u/555926/232898091/4fc5ef332a/fr'>cette page</a><br />
+Notez que le traitement de cette demande peut prendre jusqu'&agrave; 48 heures.<br />
+<br />
+</span>
+</center></div>
+<style type="text/css">
+.ReadMsgBody {width: 100%;}
+.ExternalClass {width: 100%;}
+.ExternalClass * {line-height: 100%;}
+span.yshortcuts { color:#000; background-color:none; border:none;}
+span.yshortcuts:hover,span.yshortcuts:active,span.yshortcuts:focus {color:#000; background-color:none; border:none;}
+@import url(http://image.email.salomon.com/lib/fe8a12717c67017b72/m/2/nl_tpl_fontBold.css?family=intestateSalomonBold);@import url(http://image.email.salomon.com/lib/fe8a12717c67017b72/m/2/nl_tpl_fontRegular.css?family=intestateSalomonRegular); .ExternalClass * {line-height:100%;} .ReadMsgBody {width: 100%;} .ExternalClass {width: 100%;} img{ } *[class=intBold]{font-family:'intestateSalomonBold',arial,helvetica!important;font-weight:bold;} *[class=intRegular]{font-family:'intestateSalomonRegular',arial,helvetica!important;} a:visited{text-decoration:none!important;color:inherit!important;} @media screen and (min-width: 0px) and (max-width: 600px) { *[class=largMob]{width:320px!important;} *[class=largMobInt]{width:304px!important;margin:auto!important;margin-left:8px!important;margin-right:8px!important;} *{-webkit-text-size-adjust:none!important;} *{text-size-adjust:none!important;} *[class=float]{display:block!important;margin:0!important;} *[class=cent]{display:none!import
+ ant;}
+*[class=hide]{display:none!important;} *[class=width151]{width:151px!important;} *[class=height23]{height:23px!important;} *[class=margeTop10]{padding-top:10px!important;} *[class=height5]{height:5px!important;} *[class=height10]{height:10px!important;} *[class=height12]{height:12px!important;} *[class=centPourcent]{width:100%!important;height:auto!important;} *[class=widthAuto]{display:block!important;width:auto!important;height:auto!important;max-width:320px!important;} *[class=font20]{font-size:20px!important;} *[class=font18]{font-size:18px!important;} *[class=font14]{font-size:14px!important;} *[class=font12]{font-size:12px!important;} *[class=bgcolorE7]{background-color:#e7e7e7!important;} *[class=color66]{color:#666666!important;} *[class=titreProduit]{font-size:14px!important;color:#46a7d600a9d9!important;} *[class=prixProduits]{font-size:24px!important;text-align:right!important;width:100%!important}
+*[class=prixProduitsBarres]{font-size:16px!important;text-align:right!important;width:100%!important} *[class=prixProduitsCentimes]{font-size:14px!important;} *[class=blockLien]{display:block!important;padding-top:6px!important;padding-bottom:6px!important;} *[class=typoPictoFooter]{font-size:15px!important;color:#666666!important;} *[class=hackYahoo]{display:none!important;} *[class=hackGmailApp]{width:100%!important;min-width:320px!important;} *[class=resize300]{max-width:100%!important;min-width:320px!important;width:100%!important;} *[class=mobile] { width:100%!important; margin:auto!important; height:auto!important; display:block!important; overflow:visible!important; line-height:100%!important; } *[class=gmailMobile] { display:block!important; width:auto!important; overflow:visible!important; float:none !important; height:inherit!important; max-height:inherit!important; } }
+</style>
+<img height="1" width="1" src="http://www.promolistee.eu/i/555926/232898091/4fc5ef332a/17"><img src="http://www.promolistee.eu/i/555926/232898091/4fc5ef332a/0" width="0" height="0" border="0" alt=""></body>
+</html>
+
+
+
+--b1_694b51f25de5d6b2072b8bc3e4d176db--
+
+
+

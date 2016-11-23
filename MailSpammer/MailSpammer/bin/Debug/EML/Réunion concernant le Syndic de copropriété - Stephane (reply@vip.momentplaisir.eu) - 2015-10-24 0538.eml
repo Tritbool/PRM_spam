@@ -1,0 +1,464 @@
+Return-Path: <bnc-129-data_sendout_562afb98db97a_106-354@bounce.vip.momentplaisir.eu>
+Received: from mailimailo.univ-rennes1.fr ([unix socket])
+	 by mailimailo.univ-rennes1.fr (Cyrus v2.3.16-Fedora-RPM-2.3.16-6.el6_2.5) with LMTPA;
+	 Sat, 24 Oct 2015 05:38:48 +0200
+X-Sieve: CMU Sieve 2.3
+Received: from vmsmtprexch.univ-rennes1.fr (vmsmtprexch.univ-rennes1.fr [129.20.128.62])
+	by mailimailo.univ-rennes1.fr (Postfix) with ESMTP id 8E85A26A0D31
+	for <resp-m2-miage@univ-rennes1.fr>; Sat, 24 Oct 2015 05:38:48 +0200 (CEST)
+Received: from mbcasexch2.Ur.local (mbcasexch2.univ-rennes1.fr [129.20.125.130])
+	by vmsmtprexch.univ-rennes1.fr (Postfix) with ESMTP id 8B82B11F
+	for <resp-m2-miage@univ-rennes1.fr>; Sat, 24 Oct 2015 05:38:48 +0200 (CEST)
+X-CrossPremisesHeadersFilteredBySendConnector: mbcasexch2.Ur.local
+Received: from mbcasexch1.Ur.local (2002:8114:7d81::8114:7d81) by
+ mbcasexch2.Ur.local (2002:8114:7d82::8114:7d82) with Microsoft SMTP Server
+ (TLS) id 15.0.913.22; Sat, 24 Oct 2015 05:38:48 +0200
+Received: from mailout1.univ-rennes1.fr (129.20.128.162) by
+ mbcasexch1.Ur.local (129.20.125.129) with Microsoft SMTP Server id
+ 15.0.913.22 via Frontend Transport; Sat, 24 Oct 2015 05:38:48 +0200
+Received: from localhost (vmscanmail.univ-rennes1.fr [129.20.128.134])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id 1CE5C600F2
+	for <resp-m2-miage@univ-rennes1.fr>; Sat, 24 Oct 2015 05:38:48 +0200 (CEST)
+X-Virus-Scanned: amavisd-new at univ-rennes1.fr
+Received: from mailout1.univ-rennes1.fr ([129.20.128.162])
+	by localhost (vmscanmail.univ-rennes1.frm [129.20.128.134]) (amavisd-new, port 10026)
+	with ESMTP id uL_8kldSqDtC for <resp-m2-miage@univ-rennes1.fr>;
+	Sat, 24 Oct 2015 05:38:47 +0200 (CEST)
+Received: from vmmailin.univ-rennes1.fr (vmmailin.univ-rennes1.fr [129.20.128.133])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id ED61C600A5
+	for <resp-m2-miage@univ-rennes1.fr>; Sat, 24 Oct 2015 05:38:47 +0200 (CEST)
+Received: from mxb1-1.relay.renater.fr (mxb1-1.relay.renater.fr [194.214.201.8])
+	by vmmailin.univ-rennes1.fr (Postfix) with ESMTP id E595020033
+	for <resp-m2-miage@univ-rennes1.fr>; Sat, 24 Oct 2015 05:38:47 +0200 (CEST)
+Received: from mta10.vip.actusduweb.eu (mta10.vip.actusduweb.eu [92.39.249.121])
+	by mxb1-1.relay.renater.fr (asm) with ESMTP id AEB2560010A
+	for <resp-m2-miage@univ-rennes1.fr>; Sat, 24 Oct 2015 05:38:47 +0200 (CEST)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by mta10.vip.actusduweb.eu (Postfix) with ESMTP id 482F7564321
+	for <resp-m2-miage@univ-rennes1.fr>; Sat, 24 Oct 2015 05:38:47 +0200 (CEST)
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; d=vip.momentplaisir.eu;
+	s=default; t=1445657927; bh=WzbKC75bfbdTQllj7Pjo8i2gjE8=;
+	h=Date:From:Reply-To:To:Subject:List-Unsubscribe;
+	b=RVPRMFdFoOtrLLYhyO7CkEnrty1A5WIVRcJLYTm8OeQyegBgd7N518+rq79/IX34H
+	 uuzSuvTioy5cu1veMOARW5zfycn9HdBhcVMiwwszVBdLRGTiSdY1DcO/LfBfk/lZGu
+	 0gG92FxLXnt0K8mxEcjTRYEnb6vr3qatKdjI4ey0=
+Date: Sat, 24 Oct 2015 03:38:47 +0000
+From: Stephane <reply@vip.momentplaisir.eu>
+Reply-To: <reply@vip.momentplaisir.eu>
+To: <resp-m2-miage@univ-rennes1.fr>
+Message-ID: <1445657927-data_sendout_562afb98db97a_106567845345AB@vip.momentplaisir.eu>
+Subject: =?UTF-8?B?UsOpdW5pb24gY29uY2VybmFudCBsZSBTeW5kaWMgZGUgY29wcm9wcmnDqXQ=?=
+ =?UTF-8?B?w6k=?=
+List-Unsubscribe: <http://red.vip.actusduweb.eu/Unsubscribe.php?email=resp-m2-miage%40univ-rennes1.fr&mid=289421>
+X-Slip-uID: 2257721
+X-Slip-active: N|desactivated|
+X-BeverlyMail-Recipient: resp-m2-miage@univ-rennes1.fr
+X-BeverlyMail-MTA: 354
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="=_c9e2d549fb659f3290db618637c1ff0d"
+Precedence: Bulk
+Feedback-ID: data_sendout_562afb98db97a_106:2257721:129:SLIPSOFTWARE
+X-UCE-Status: YES
+X-UCE-Type: MCE
+X-Original-Source-IP: 92.39.249.121
+X-Bizanga: IMP - mxb1-1.relay.renater.fr
+X-Renater-SpamState: 11
+X-Renater-SpamScore: 17
+X-Renater-SpamCause: gggruggvucftvghtrhhoucdtuddrfeekhedrtdejgdejgecutefuodetggdotefrodftvfcurfhrohhfihhlvgemucftgffptefvgfftpdggtfgfnhhsuhgsshgtrhhisggvnecuuegrihhlohhuthemuceftddtnecundfotefknffkpffiucdludejmdenucfjughrpeffhfhrvffkuffjgggtphesrgdtreertddtudenucfhrhhomhepfdfuthgvphhhrghnvgdfuceorhgvphhlhiesvhhiphdrmhhomhgvnhhtphhlrghishhirhdrvghuqeenucffohhmrghinhepmhhomhgvnhhtphhlrghishhirhdrvghunecurfgrrhgrmhepmhhouggvpehsmhhtphdphhgvlhhopehmthgruddtrdhvihhprdgrtghtuhhsughufigvsgdrvghupdhinhgvthepledvrdefledrvdegledruddvuddpmhgrihhlfhhrohhmpegsnhgtqdduvdelqdgurghtrggpshgvnhguohhuthgpheeivdgrfhgsleekuggsleejrggpuddtiedqfeehgeessghouhhntggvrdhvihhprdhmohhmvghnthhplhgrihhsihhrrdgvuhdprhgtphhtthhopehrvghsphdqmhdvqdhmihgrghgvsehunhhivhdqrhgvnhhnvghsuddrfhhr 
+X-Renater-ServerName: mxb1-1.relay.renater.fr
+X-OrganizationHeadersPreserved: mbcasexch2.Ur.local
+
+--=_c9e2d549fb659f3290db618637c1ff0d
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain; charset="utf-8"
+
+SERGIC | Syndic One
+Les bons plans du web vous sont proposs par Moment Plaisir
+Pour afficher l'ensemble du message, rendez-vous ici
+http://www.momentplaisir.eu/n2/531833/232898091/112b529cd4
+Vous tes copropritaire ? Choisissez un syndic avantageux
+http://www.momentplaisir.eu/c2/531833/232898091/112b529cd4/1
+VOUS TES COPROPRITAIRE ?
+http://www.momentplaisir.eu/c2/531833/232898091/112b529cd4/3
+http://www.momentplaisir.eu/c2/531833/232898091/112b529cd4/4
+http://www.momentplaisir.eu/c2/531833/232898091/112b529cd4/5
+Coproprits jusqu'
+30 logements
+http://www.momentplaisir.eu/c2/531833/232898091/112b529cd4/7
+http://www.momentplaisir.eu/c2/531833/232898091/112b529cd4/8
+Plus efficace
+et plus simple
+http://www.momentplaisir.eu/c2/531833/232898091/112b529cd4/10
+http://www.momentplaisir.eu/c2/531833/232898091/112b529cd4/11
+Nombreux
+services
+http://www.momentplaisir.eu/c2/531833/232898091/112b529cd4/13
+http://www.momentplaisir.eu/c2/531833/232898091/112b529cd4/14
+http://www.momentplaisir.eu/c2/531833/232898091/112b529cd4/15
+* Minimum de 540 =C2=80 ttc par an pour les coproprits de 2 5 lots.
+Si vous ne voulez plus recevoir ces lettres d'information, vous
+pouvez vous dsabonner
+http://www.momentplaisir.eu/u/531833/232898091/112b529cd4/fr
+--=_c9e2d549fb659f3290db618637c1ff0d
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset="utf-8"
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www=
+=2Ew3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<style type=3D"text/css">
+=2EReadMsgBody {width: 100%;}
+=2EExternalClass {width: 100%;}
+=2EExternalClass * {line-height: 100%;}
+span.yshortcuts { color:#000; background-color:none; border:none;}
+span.yshortcuts:hover,span.yshortcuts:active,span.yshortcuts:focus {color:#=
+000; background-color:none; border:none;}
+</style>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-8859-=
+1"/>
+<title>SERGIC | Syndic One</title>
+</head>
+<body><div id=3D"template_header_auto_include" ><center>
+<p style=3D"font-size:13px;text-align:center;font-family:Arial, Helvetica, =
+sans-serif;color:#000">
+Les bons plans du web vous sont propos&eacute;s par Moment Plaisir
+</p>
+<p style=3D"font-size:13px;text-align:center;font-family:Arial, Helvetica, =
+sans-serif;color:#000">
+Pour afficher l'ensemble du message, rendez-vous <a href=3D"http://red.vip=
+=2Emomentplaisir.eu/click/YToxOntzOjM6InRhZyI7czozMDoiZGF0YV9zZW5kb3V0XzU2M=
+mFmYjk4ZGI5N2FfMTA2Ijt9/cmVzcC1tMi1taWFnZSU0MHVuaXYtcmVubmVzMS5mcg=3D=3D/50=
+48095/289421" target=3D"_blank">ici</a>
+</p>
+</center></div><table width=3D"98%" border=3D"0" align=3D"center" cellpaddi=
+ng=3D"0" cellspacing=3D"0">
+<tr><td align=3D"center">
+<table summary=3D"" width=3D"602" border=3D"0" cellspacing=3D"0" cellpaddin=
+g=3D"0" align=3D"center">
+<tr>
+<td width=3D"600" height=3D"0" bgcolor=3D"#FFFFFF" style=3D"text-align:cent=
+er; vertical-align:top; background-color:#FFFFFF;">
+<font face=3D"Arial, Helvetica, sans-serif" style=3D"font-size:0px; color:#=
+ffffff">Vous &ecirc;tes copropri&eacute;taire ? Choisissez un syndic avanta=
+geux</font>
+</td>
+</tr>
+<tr>
+<td width=3D"600" height=3D"20" bgcolor=3D"#FFFFFF" style=3D"text-align:cen=
+ter; vertical-align:top; background-color:#FFFFFF;">
+<font face=3D"Arial, Helvetica, sans-serif" style=3D"font-size:10px; color:=
+#000000"></font>
+</td>
+</tr>
+</table>
+<table summary=3D"" width=3D"602" border=3D"0" cellspacing=3D"0" cellpaddin=
+g=3D"0" align=3D"center" style=3D"border:#d3d3d3 1px solid">
+<tr>
+<td width=3D"600" height=3D"79">
+<a href=3D"http://red.vip.momentplaisir.eu/click/YToxOntzOjM6InRhZyI7czozMD=
+oiZGF0YV9zZW5kb3V0XzU2MmFmYjk4ZGI5N2FfMTA2Ijt9/cmVzcC1tMi1taWFnZSU0MHVuaXYt=
+cmVubmVzMS5mcg=3D=3D/5048096/289421" title=3D"Cliquez ici pour d&eacute;cou=
+vrir la solution Syndic One" target=3D"_blank" style=3D"border:none; text-d=
+ecoration:none;">
+<img src=3D"http://img.momentplaisir.eu/531833/header.jpg" width=3D"600" he=
+ight=3D"79" alt=3D"Syndic One - Sergic" border=3D"0" style=3D"display:block=
+; border:none;"/>
+</a>
+</td>
+</tr>
+<tr>
+<td width=3D"600" height=3D"50" bgcolor=3D"#FFFFFF" align=3D"center" valign=
+=3D"bottom" style=3D"background-color:#FFFFFF;">
+<a href=3D"http://red.vip.momentplaisir.eu/click/YToxOntzOjM6InRhZyI7czozMD=
+oiZGF0YV9zZW5kb3V0XzU2MmFmYjk4ZGI5N2FfMTA2Ijt9/cmVzcC1tMi1taWFnZSU0MHVuaXYt=
+cmVubmVzMS5mcg=3D=3D/5048097/289421" title=3D"Cliquez ici pour d&eacute;cou=
+vrir la solution Syndic One" target=3D"_blank" style=3D"text-decoration:non=
+e; border:none;">
+<font face=3D"Arial, Helvetica, sans-serif" style=3D"font-size:26px; color:=
+#000000">
+<strong>Vous &ecirc;tes copropri&eacute;taire ?</strong><br />
+</font>
+</a>
+</td>
+</tr>
+<tr>
+<td width=3D"600" height=3D"50">
+<a href=3D"http://red.vip.momentplaisir.eu/click/YToxOntzOjM6InRhZyI7czozMD=
+oiZGF0YV9zZW5kb3V0XzU2MmFmYjk4ZGI5N2FfMTA2Ijt9/cmVzcC1tMi1taWFnZSU0MHVuaXYt=
+cmVubmVzMS5mcg=3D=3D/5048098/289421" title=3D"Cliquez ici pour d&eacute;cou=
+vrir la solution Syndic One" target=3D"_blank" style=3D"border:none; text-d=
+ecoration:none;">
+<img src=3D"http://img.momentplaisir.eu/531833/moins_02.jpg" width=3D"600" =
+height=3D"50" alt=3D"Le syndic des petites copropri&eacute;t&eacute;s" bord=
+er=3D"0" style=3D"display:block; border:none;"/>
+</a>
+</td>
+</tr>
+<tr>
+<td width=3D"600" height=3D"247">
+<a href=3D"http://red.vip.momentplaisir.eu/click/YToxOntzOjM6InRhZyI7czozMD=
+oiZGF0YV9zZW5kb3V0XzU2MmFmYjk4ZGI5N2FfMTA2Ijt9/cmVzcC1tMi1taWFnZSU0MHVuaXYt=
+cmVubmVzMS5mcg=3D=3D/5048099/289421" title=3D"Cliquez ici pour d&eacute;cou=
+vrir la solution Syndic One" target=3D"_blank" style=3D"border:none; text-d=
+ecoration:none;"><img src=3D"http://img.momentplaisir.eu/531833/slide.jpg" =
+width=3D"600" height=3D"247" alt=3D"Syndic One - 9 &euro; TTC par mois et p=
+ar logement, forfait tout compris ! D&eacute;couvrez la solution Syndic One=
+" border=3D"0" style=3D"display:block; border:none;"/></a>
+</td>
+</tr>
+<tr>
+<td width=3D"600" height=3D"20" bgcolor=3D"#FFFFFF" style=3D"background-col=
+or:#FFFFFF;"></td>
+</tr>
+<tr>
+<td width=3D"600" height=3D"82" bgcolor=3D"#FFFFFF" style=3D"background-col=
+or:#FFFFFF;">
+<table summary=3D"" width=3D"600" border=3D"0" cellspacing=3D"0" cellpaddin=
+g=3D"0">
+<tr>
+<td width=3D"25" height=3D"82"></td>
+<td width=3D"150" height=3D"82">
+<table summary=3D"" width=3D"150" border=3D"0" cellspacing=3D"0" cellpaddin=
+g=3D"0">
+<tr>
+<td width=3D"150" height=3D"44" align=3D"center">
+<a href=3D"http://red.vip.momentplaisir.eu/click/YToxOntzOjM6InRhZyI7czozMD=
+oiZGF0YV9zZW5kb3V0XzU2MmFmYjk4ZGI5N2FfMTA2Ijt9/cmVzcC1tMi1taWFnZSU0MHVuaXYt=
+cmVubmVzMS5mcg=3D=3D/5048100/289421" title=3D"Cliquez ici pour d&eacute;cou=
+vrir la solution Syndic One" target=3D"_blank" style=3D"border:none; text-d=
+ecoration:none;">
+<img src=3D"http://img.momentplaisir.eu/531833/picto1.jpg" width=3D"74" hei=
+ght=3D"44" alt=3D"" border=3D"0" style=3D"display:block; border:none;"/>
+</a>
+</td>
+</tr>
+<tr>
+<td width=3D"150" height=3D"10"></td>
+</tr>
+<tr>
+<td width=3D"150" height=3D"28" align=3D"center">
+<a href=3D"http://red.vip.momentplaisir.eu/click/YToxOntzOjM6InRhZyI7czozMD=
+oiZGF0YV9zZW5kb3V0XzU2MmFmYjk4ZGI5N2FfMTA2Ijt9/cmVzcC1tMi1taWFnZSU0MHVuaXYt=
+cmVubmVzMS5mcg=3D=3D/5048101/289421" title=3D"Cliquez ici pour d&eacute;cou=
+vrir la solution Syndic One" target=3D"_blank" style=3D"text-decoration:non=
+e; border:none;">
+<font face=3D"Arial, Helvetica, sans-serif" style=3D"font-size:14px; color:=
+#009a93">
+<strong>Copropri&eacute;t&eacute;s jusqu'&agrave;<br />30 logements</strong=
+>
+</font>
+<a/>
+</a></td>
+</tr>
+</table>
+</td>
+<td width=3D"30" height=3D"82" align=3D"center">
+<a href=3D"http://red.vip.momentplaisir.eu/click/YToxOntzOjM6InRhZyI7czozMD=
+oiZGF0YV9zZW5kb3V0XzU2MmFmYjk4ZGI5N2FfMTA2Ijt9/cmVzcC1tMi1taWFnZSU0MHVuaXYt=
+cmVubmVzMS5mcg=3D=3D/5048102/289421" title=3D"Cliquez ici pour d&eacute;cou=
+vrir la solution Syndic One" target=3D"_blank" style=3D"text-decoration:non=
+e; border:none;">
+<img src=3D"http://img.momentplaisir.eu/531833/trait.jpg" width=3D"3" heigh=
+t=3D"82" alt=3D"" border=3D"0" style=3D"display:block; border:none;"/>
+</a>
+</td>
+<td width=3D"104" height=3D"82">
+<table summary=3D"" width=3D"104" border=3D"0" cellspacing=3D"0" cellpaddin=
+g=3D"0">
+<tr>
+<td width=3D"104" height=3D"44" align=3D"center">
+<a href=3D"http://red.vip.momentplaisir.eu/click/YToxOntzOjM6InRhZyI7czozMD=
+oiZGF0YV9zZW5kb3V0XzU2MmFmYjk4ZGI5N2FfMTA2Ijt9/cmVzcC1tMi1taWFnZSU0MHVuaXYt=
+cmVubmVzMS5mcg=3D=3D/5048103/289421" title=3D"Cliquez ici pour d&eacute;cou=
+vrir la solution Syndic One" target=3D"_blank" style=3D"text-decoration:non=
+e; border:none;">
+<img src=3D"http://img.momentplaisir.eu/531833/picto2.jpg" width=3D"71" hei=
+ght=3D"44" alt=3D"" border=3D"0" style=3D"display:block; border:none;"/>
+</a>
+</td>
+</tr>
+<tr>
+<td width=3D"104" height=3D"10"></td>
+</tr>
+<tr>
+<td width=3D"104" height=3D"28" align=3D"center">
+<a href=3D"http://red.vip.momentplaisir.eu/click/YToxOntzOjM6InRhZyI7czozMD=
+oiZGF0YV9zZW5kb3V0XzU2MmFmYjk4ZGI5N2FfMTA2Ijt9/cmVzcC1tMi1taWFnZSU0MHVuaXYt=
+cmVubmVzMS5mcg=3D=3D/5048104/289421" title=3D"Cliquez ici pour d&eacute;cou=
+vrir la solution Syndic One" target=3D"_blank" style=3D"text-decoration:non=
+e; border:none;">
+<font face=3D"Arial, Helvetica, sans-serif" style=3D"font-size:14px; color:=
+#009a93">
+<strong>Plus efficace<br />et plus simple</strong>
+</font>
+</a>
+</td>
+</tr>
+</table>
+</td>
+<td width=3D"30" height=3D"82" align=3D"center">
+<a href=3D"http://red.vip.momentplaisir.eu/click/YToxOntzOjM6InRhZyI7czozMD=
+oiZGF0YV9zZW5kb3V0XzU2MmFmYjk4ZGI5N2FfMTA2Ijt9/cmVzcC1tMi1taWFnZSU0MHVuaXYt=
+cmVubmVzMS5mcg=3D=3D/5048105/289421" title=3D"Cliquez ici pour d&eacute;cou=
+vrir la solution Syndic One" target=3D"_blank" style=3D"text-decoration:non=
+e; border:none;">
+<img src=3D"http://img.momentplaisir.eu/531833/trait.jpg" width=3D"3" heigh=
+t=3D"82" alt=3D"" border=3D"0" style=3D"display:block; border:none;"/>
+</a>
+</td>
+<td width=3D"104" height=3D"82">
+<table summary=3D"" width=3D"104" border=3D"0" cellspacing=3D"0" cellpaddin=
+g=3D"0">
+<tr>
+<td width=3D"104" height=3D"44" align=3D"center">
+<a href=3D"http://red.vip.momentplaisir.eu/click/YToxOntzOjM6InRhZyI7czozMD=
+oiZGF0YV9zZW5kb3V0XzU2MmFmYjk4ZGI5N2FfMTA2Ijt9/cmVzcC1tMi1taWFnZSU0MHVuaXYt=
+cmVubmVzMS5mcg=3D=3D/5048106/289421" title=3D"Cliquez ici pour d&eacute;cou=
+vrir la solution Syndic One" target=3D"_blank" style=3D"text-decoration:non=
+e; border:none;">
+<img src=3D"http://img.momentplaisir.eu/531833/picto3.jpg" width=3D"67" hei=
+ght=3D"44" alt=3D"" border=3D"0" style=3D"display:block; border:none;"/>
+</a>
+</td>
+</tr>
+<tr>
+<td width=3D"104" height=3D"10"></td>
+</tr>
+<tr>
+<td width=3D"104" height=3D"28" align=3D"center">
+<a href=3D"http://red.vip.momentplaisir.eu/click/YToxOntzOjM6InRhZyI7czozMD=
+oiZGF0YV9zZW5kb3V0XzU2MmFmYjk4ZGI5N2FfMTA2Ijt9/cmVzcC1tMi1taWFnZSU0MHVuaXYt=
+cmVubmVzMS5mcg=3D=3D/5048107/289421" title=3D"Cliquez ici pour d&eacute;cou=
+vrir la solution Syndic One" target=3D"_blank" style=3D"text-decoration:non=
+e; border:none;">
+<font face=3D"Arial, Helvetica, sans-serif" style=3D"font-size:14px; color:=
+#009a93">
+<strong>Nombreux<br />services</strong>
+</font>
+</a>
+</td>
+</tr>
+</table>
+</td>
+<td width=3D"30" height=3D"82" align=3D"center">
+<a href=3D"http://red.vip.momentplaisir.eu/click/YToxOntzOjM6InRhZyI7czozMD=
+oiZGF0YV9zZW5kb3V0XzU2MmFmYjk4ZGI5N2FfMTA2Ijt9/cmVzcC1tMi1taWFnZSU0MHVuaXYt=
+cmVubmVzMS5mcg=3D=3D/5048108/289421" title=3D"Cliquez ici pour d&eacute;cou=
+vrir la solution Syndic One" target=3D"_blank" style=3D"text-decoration:non=
+e; border:none;">
+<img src=3D"http://img.momentplaisir.eu/531833/trait.jpg" width=3D"3" heigh=
+t=3D"82" alt=3D"" border=3D"0" style=3D"display:block; border:none;"/>
+</a>
+</td>
+<td width=3D"102" height=3D"82">
+<table summary=3D"" width=3D"102" border=3D"0" cellspacing=3D"0" cellpaddin=
+g=3D"0">
+<tr>
+<td width=3D"102" height=3D"44" align=3D"center">
+<a href=3D"http://red.vip.momentplaisir.eu/click/YToxOntzOjM6InRhZyI7czozMD=
+oiZGF0YV9zZW5kb3V0XzU2MmFmYjk4ZGI5N2FfMTA2Ijt9/cmVzcC1tMi1taWFnZSU0MHVuaXYt=
+cmVubmVzMS5mcg=3D=3D/5048109/289421" title=3D"Cliquez ici pour d&eacute;cou=
+vrir la solution Syndic One" target=3D"_blank" style=3D"text-decoration:non=
+e; border:none;">
+<img src=3D"http://img.momentplaisir.eu/531833/picto4.jpg" width=3D"69" hei=
+ght=3D"44" alt=3D"" border=3D"0" style=3D"display:block; border:none;"/>
+</a>
+</td>
+</tr>
+<tr>
+<td width=3D"102" height=3D"10"></td>
+</tr>
+<tr>
+<td width=3D"102" height=3D"28" align=3D"center">
+<a href=3D"http://red.vip.momentplaisir.eu/click/YToxOntzOjM6InRhZyI7czozMD=
+oiZGF0YV9zZW5kb3V0XzU2MmFmYjk4ZGI5N2FfMTA2Ijt9/cmVzcC1tMi1taWFnZSU0MHVuaXYt=
+cmVubmVzMS5mcg=3D=3D/5048110/289421" title=3D"Cliquez ici pour d&eacute;cou=
+vrir la solution Syndic One" target=3D"_blank" style=3D"text-decoration:non=
+e; border:none;">
+<img src=3D"http://img.momentplaisir.eu/531833/moins.jpg" width=3D"102" hei=
+ght=3D"28" alt=3D"Deux fois plus interressant" border=3D"0" style=3D"displa=
+y:block; border:none;"/>
+</a>
+</td>
+</tr>
+</table>
+</td>
+<td width=3D"25" height=3D"82"></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td width=3D"600" height=3D"20" bgcolor=3D"#FFFFFF" style=3D"background-col=
+or:#FFFFFF;"></td>
+</tr>
+<tr>
+<td width=3D"600" height=3D"5" bgcolor=3D"#009a93" style=3D"background-colo=
+r:#009a93;"></td>
+</tr>
+<tr>
+<td width=3D"600" bgcolor=3D"#f3f3f3" style=3D"text-align:justify; backgrou=
+nd-color:#f3f3f3;">
+<table summary=3D"" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tr>
+<td width=3D"25"></td>
+<td width=3D"550" height=3D"50">
+<font face=3D"Arial, Helvetica, sans-serif" style=3D"font-size:10px; color:=
+#676767">
+* Minimum de 540 &euro; ttc par an pour les copropri&eacute;t&eacute;s de 2=
+ &agrave; 5 lots.
+</font>
+</td>
+<td width=3D"25"></td>
+</tr>
+<tr>
+<td width=3D"25"></td>
+<td width=3D"600" bgcolor=3D"#f3f3f3" style=3D"text-align:justify; backgrou=
+nd-color:#f3f3f3;">
+<font face=3D"Arial, Helvetica, sans-serif" style=3D"font-size:10px; color:=
+#676767"></font><br />
+</td>
+<td width=3D"25"></td>
+</tr>
+<tr>
+<td width=3D"25"></td>
+<td width=3D"550" height=3D"10"></td>
+<td width=3D"25"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<img src=3D"http://www.momentplaisir.eu/assets/mpt.png" width=3D"1" height=
+=3D"1" style=3D"display:block;"/>
+</td></tr>
+</table><div id=3D"template_footer_auto_include" ><center>
+<p style=3D"font-size:13px;text-align:center;font-family:Arial, Helvetica, =
+sans-serif;color:#000">
+<br />
+Si vous ne voulez plus recevoir ces lettres d'information, vous pouvez vous=
+ <a href=3D"http://red.vip.momentplaisir.eu/click/YToxOntzOjM6InRhZyI7czozM=
+DoiZGF0YV9zZW5kb3V0XzU2MmFmYjk4ZGI5N2FfMTA2Ijt9/cmVzcC1tMi1taWFnZSU0MHVuaXY=
+tcmVubmVzMS5mcg=3D=3D/5048111/289421">d&eacute;sabonner</a>
+</p>
+</center>
+<img src=3D"http://www.momentplaisir.eu/i/531833/232898091/112b529cd4" alt=
+=3D"" width=3D"1" height=3D"1" /></div>
+<style type=3D"text/css">
+=2EReadMsgBody {width: 100%;}
+=2EExternalClass {width: 100%;}
+=2EExternalClass * {line-height: 100%;}
+span.yshortcuts { color:#000; background-color:none; border:none;}
+span.yshortcuts:hover,span.yshortcuts:active,span.yshortcuts:focus {color:#=
+000; background-color:none; border:none;}
+</style>
+<img height=3D"1" width=3D"1" src=3D"http://www.momentplaisir.eu/i/531833/2=
+32898091/112b529cd4/2"/><img alt=3D"" src=3D"http://red.vip.momentplaisir=
+=2Eeu/imp/YToxOntzOjM6InRhZyI7czozMDoiZGF0YV9zZW5kb3V0XzU2MmFmYjk4ZGI5N2FfM=
+TA2Ijt9/cmVzcC1tMi1taWFnZSU0MHVuaXYtcmVubmVzMS5mcg=3D=3D/289421" width=3D"1=
+" height=3D"1" border=3D"0" />
+</body>
+</html>
+--=_c9e2d549fb659f3290db618637c1ff0d--

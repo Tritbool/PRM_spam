@@ -1,0 +1,737 @@
+Return-Path: <return-a5-6115-6117-resp-m2-miage=univ-rennes1.fr=4@lagazette-du-jour.com>
+Received: from mailimailo.univ-rennes1.fr ([unix socket])
+	 by mailimailo.univ-rennes1.fr (Cyrus v2.3.16-Fedora-RPM-2.3.16-6.el6_2.5) with LMTPA;
+	 Thu, 04 Feb 2016 18:11:48 +0100
+X-Sieve: CMU Sieve 2.3
+Received: from mailout1.univ-rennes1.fr (mailout1.univ-rennes1.fr [129.20.128.162])
+	by mailimailo.univ-rennes1.fr (Postfix) with ESMTP id CA29326A0AA8
+	for <resp-m2-miage@univ-rennes1.fr>; Thu,  4 Feb 2016 18:11:48 +0100 (CET)
+Received: from localhost (vmscanmail.univ-rennes1.fr [129.20.128.134])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id C6A6E60218
+	for <resp-m2-miage@univ-rennes1.fr>; Thu,  4 Feb 2016 18:11:48 +0100 (CET)
+X-Virus-Scanned: amavisd-new at univ-rennes1.fr
+Received: from mailout1.univ-rennes1.fr ([129.20.128.162])
+	by localhost (vmscanmail.univ-rennes1.frm [129.20.128.134]) (amavisd-new, port 10026)
+	with ESMTP id 0TmR7ehjpk-S for <resp-m2-miage@univ-rennes1.fr>;
+	Thu,  4 Feb 2016 18:11:48 +0100 (CET)
+Received: from vmmailin.univ-rennes1.fr (vmmailin.univ-rennes1.fr [129.20.128.133])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id 9CEF560214
+	for <resp-m2-miage@univ-rennes1.fr>; Thu,  4 Feb 2016 18:11:48 +0100 (CET)
+Received: from mxb1-1.relay.renater.fr (mxb1-1.relay.renater.fr [194.214.201.8])
+	by vmmailin.univ-rennes1.fr (Postfix) with ESMTP id 957D620033
+	for <resp-m2-miage@univ-rennes1.fr>; Thu,  4 Feb 2016 18:11:48 +0100 (CET)
+Received: from smtp1-3.gazette-du-jour.com (smtp1-3.gazette-du-jour.com [5.135.22.138])
+	by mxb1-1.relay.renater.fr (asm) with SMTP id 48D0960003D
+	for <resp-m2-miage@univ-rennes1.fr>; Thu,  4 Feb 2016 18:11:48 +0100 (CET)
+Received: (GreenArrow 4227 invoked by uid 410); 4 Feb 2016 17:11:48 -0000
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed;
+	d=lagazette-du-jour.com; s=default; h=Subject:From:To:Date:
+	List-Unsubscribe:Message-ID:MIME-Version:Content-Type; bh=8narcX
+	P0ZS6x7vYLtnPEkqEoEg0=; b=ohqUDbh0kx4XZ6QN734PqpXD3HPLblGx4vzgcu
+	T+DXVG+QXL8hATvuGUH1iK3RzCGUlX9XF+x63pR7+tFWF5KNooOAnuDlCDpKlsrq
+	qdEwCGNqDdjt0MXlQiHo/ZIr54uscYCYxnoExrhVID772g5iLIjEQstDnz0mJL+r
+	y1baw=
+Subject: =?UTF-8?Q?En=20avant=20pour=20la=20derni=C3=A8re?=
+From: =?UTF-8?B?RnJhbsOnb2lzZSBTYWdldCBwYXIgU29jaWFiaWxpd2Vi?= <news@lagazette-du-jour.com>
+To: resp-m2-miage@univ-rennes1.fr
+Date: 04 Feb 2016 17:11:48 -0000
+List-Unsubscribe: <http://lagazette-du-jour.com/ga/unsubscribe/2-23408395-5-3182-6117-114eca03668ab6f-c4b022f1b4>,
+ <mailto:return-a5-6115-6117-resp-m2-miage=univ-rennes1.fr=4u@lagazette-du-jour.com>
+X-Mailer: GreenArrow Studio (v4.65.0)
+X-CampaignID: s4:6115-42ab983bde0d4509
+Message-ID: <mid-d9b31c36629f44edd1e0de70080b7bdf@lagazette-du-jour.com>
+X-Mailer-Info: 4.EWN.gNxETN.IXZzBXLtJTLtlWYnVGQ15Wa21icl5mblNXMuYmc.gNxEzN
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="==8cc098e4e4712c098516ef706258c20c"
+X-UCE-Status: YES
+X-UCE-Type: MCE
+X-Original-Source-IP: 5.135.22.138
+X-Bizanga: IMP - mxb1-1.relay.renater.fr
+X-Renater-SpamState: 11
+X-Renater-SpamScore: 17
+X-Renater-SpamCause: gggruggvucftvghtrhhoucdtuddrfeekjedrvddtgdelhecutefuodetggdotefrodftvfcurfhrohhfihhlvgemucftgffptefvgfftpdggtfgfnhhsuhgsshgtrhhisggvnecuuegrihhlohhuthemuceftddtnecundfotefknffkpffiucdludejmdenucfjughrpefuhffvfffjoffkgggtsegrtderreertdejnecuhfhrohhmpefhrhgrnhopohhishgvucfurghgvghtuchprghrucfuohgtihgrsghilhhifigvsgcuoehnvgifsheslhgrghgriigvthhtvgdqughuqdhjohhurhdrtghomheqnecuffhomhgrihhnpehfrhgrnhgtohhishgvshgrghgvthdrtghomhdplhgrghgriigvthhtvgdqughuqdhjohhurhdrtghomhenucfrrghrrghmpehmohguvgepshhmthhppdhhvghlohepshhmthhpuddqfedrghgriigvthhtvgdqughuqdhjohhurhdrtghomhdpihhnvghtpeehrddufeehrddvvddrudefkedpmhgrihhlfhhrohhmpehrvghtuhhrnhdqrgehqdeiudduhedqieduudejqdhrvghsphdqmhdvqdhmihgrghgvpehunhhivhdqrhgvnhhnvghsuddrfhhrpeegsehlrghgrgiivghtthgvqdguuhdqjhhouhhrrdgtohhmpdhrtghpthhtoheprhgvshhpqdhmvddqmhhirghgvgesuhhnihhvqdhrvghnnhgvshdurdhfrh 
+X-Renater-ServerName: mxb1-1.relay.renater.fr
+
+This is a multi-part message in MIME format.
+
+--==8cc098e4e4712c098516ef706258c20c
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<a href=3D"http://lagazette-du-jour.com/ga/webviews/4-23408395-5-3182-3161-=
+6117-2f85412537">Visualiser la version en ligne</a>
+
+Fran=C3=A7oise Saget ( http://lagazette-du-jour.com/ga/click/2-23408395-5-3=
+182-6117-25305-b7acb64fb5-c4b022f1b4 )
+
+Calendrierde l'Avent ( http://lagazette-du-jour.com/ga/click/2-23408395-5-3=
+182-6117-25306-21ea6a7e7d-c4b022f1b4 )
+1er commande?
+
+LIVRAISON OFFERTE
+
+d=C3=A8s 15=E2=82=AC d'achat
+
+avec le code : COLLECTION ( http://lagazette-du-jour.com/ga/click/2-2340839=
+5-5-3182-6117-25307-d4ebb21d15-c4b022f1b4 )
+
+CHAMBRE ( http://lagazette-du-jour.com/ga/click/2-23408395-5-3182-6117-2530=
+8-b502897414-c4b022f1b4 )
+SALLE DE BAIN ( http://lagazette-du-jour.com/ga/click/2-23408395-5-3182-611=
+7-25309-1c8e2e48f6-c4b022f1b4 )
+TABLE ( http://lagazette-du-jour.com/ga/click/2-23408395-5-3182-6117-25310-=
+79cae5167c-c4b022f1b4 )
+MAISON ( http://lagazette-du-jour.com/ga/click/2-23408395-5-3182-6117-25311=
+-1db33f6dde-c4b022f1b4 )
+LINGERIE DE NUIT ( http://lagazette-du-jour.com/ga/click/2-23408395-5-3182-=
+6117-25312-d14fca1c69-c4b022f1b4 )
+LINGERIE DE JOUR ( http://lagazette-du-jour.com/ga/click/2-23408395-5-3182-=
+6117-25313-263524eb97-c4b022f1b4 )
+
+Du 6 janvier au 16 f=C3=A9vrier 2016 Soldes ( http://lagazette-du-jour.com/=
+ga/click/2-23408395-5-3182-6117-25314-c14bbfecc2-c4b022f1b4 )
+
+Tout =C3=A0 -70% Derni=C3=A8re D=C3=A9marque ( http://lagazette-du-jour.com=
+/ga/click/2-23408395-5-3182-6117-25315-441680bf39-c4b022f1b4 )
+
+j'en profite Stocks Limit=C3=A9s ( http://lagazette-du-jour.com/ga/click/2-=
+23408395-5-3182-6117-25316-87e7be1324-c4b022f1b4 )
+
+Vos Avantages!
+
+satisfait ou rembours=C3=A9 ( http://lagazette-du-jour.com/ga/click/2-23408=
+395-5-3182-6117-25317-dbb71d1896-c4b022f1b4 )
+
+si votre achat
+
+ne vous pla=C3=AEt pas ( http://lagazette-du-jour.com/ga/click/2-23408395-5=
+-3182-6117-25318-9b74f5bb84-c4b022f1b4 )
+
+Un cadeau OFFERT ( http://lagazette-du-jour.com/ga/click/2-23408395-5-3182-=
+6117-25319-d1e801fb18-c4b022f1b4 )
+
+pour toute
+
+commande ( http://lagazette-du-jour.com/ga/click/2-23408395-5-3182-6117-253=
+20-0454a99db7-c4b022f1b4 )
+
+1 ERE commande ? livraison offerte ( http://lagazette-du-jour.com/ga/click/=
+2-23408395-5-3182-6117-25321-8a9a1b9d12-c4b022f1b4 )
+
+d=C3=A8s15=E2=82=AC d'achat
+
+avec le code : COLLECTION ( http://lagazette-du-jour.com/ga/click/2-2340839=
+5-5-3182-6117-25322-84c288ff9d-c4b022f1b4 )
+
+D=C3=A9couvrez les secrets du bien-=C3=AAtre int=C3=A9rieur...
+
+Nouvelles collections Printemps-=C3=A9t=C3=A9 2016
+
+-60% sur l'article le plus cher de votre panier ( http://lagazette-du-jour.=
+com/ga/click/2-23408395-5-3182-6117-25323-971468e85b-c4b022f1b4 )
+
+-60% sur l'article le plus cher de votre panier ( http://lagazette-du-jour.=
+com/ga/click/2-23408395-5-3182-6117-25324-7d7a224a95-c4b022f1b4 )
+
+-60% sur l'article le plus cher de votre panier ( http://lagazette-du-jour.=
+com/ga/click/2-23408395-5-3182-6117-25325-ed414a881a-c4b022f1b4 )
+
+JE d=C3=A9couvre la collection printemps-=C3=A9t=C3=A9 ( http://lagazette-d=
+u-jour.com/ga/click/2-23408395-5-3182-6117-25326-a056a0a444-c4b022f1b4 )
+
+PAIEMENT S=C3=89CURIS=C3=89 ( http://lagazette-du-jour.com/ga/click/2-23408=
+395-5-3182-6117-25327-23ede24c89-c4b022f1b4 )
+GARANTIE SATISFAIT OU REMBOURS=C3=89 ( http://lagazette-du-jour.com/ga/clic=
+k/2-23408395-5-3182-6117-25328-47d4ad9e50-c4b022f1b4 )
+LIVRAISON GRATUITE D=C3=88S 40=E2=82=AC D'ACHAT ( http://lagazette-du-jour.=
+com/ga/click/2-23408395-5-3182-6117-25329-67c73f24f5-c4b022f1b4 )
+UN CADEAU OFFERT POUR CHAQUE COMMANDE ( http://lagazette-du-jour.com/ga/cli=
+ck/2-23408395-5-3182-6117-25330-d89a062756-c4b022f1b4 )
+
+PAIEMENT
+
+S=C3=89CURIS=C3=89 ( http://lagazette-du-jour.com/ga/click/2-23408395-5-318=
+2-6117-25331-9217a82a47-c4b022f1b4 )
+GARANTIE
+
+SATISFAIT OU REMBOURS=C3=89 ( http://lagazette-du-jour.com/ga/click/2-23408=
+395-5-3182-6117-25332-a7f20453b6-c4b022f1b4 )
+LIVRAISON GRATUITE
+
+D=C3=88S 40=E2=82=AC D'ACHAT ( http://lagazette-du-jour.com/ga/click/2-2340=
+8395-5-3182-6117-25333-524226fd85-c4b022f1b4 )
+UN CADEAU OFFERT
+
+POUR CHAQUE COMMANDE ( http://lagazette-du-jour.com/ga/click/2-23408395-5-3=
+182-6117-25334-1cf635d1e3-c4b022f1b4 )
+
+SUIVEZ-NOUS SUR PINTEREST ( http://lagazette-du-jour.com/ga/click/2-2340839=
+5-5-3182-6117-25335-1275b5c03b-c4b022f1b4 )
+
+SUIVEZ-NOUS SUR
+
+PINTEREST ( http://lagazette-du-jour.com/ga/click/2-23408395-5-3182-6117-25=
+336-d0314d29d1-c4b022f1b4 )
+
+SUIVEZ-NOUS SUR FACEBOOK ( http://lagazette-du-jour.com/ga/click/2-23408395=
+-5-3182-6117-25337-412b46a805-c4b022f1b4 )
+
+SUIVEZ-NOUS SUR ( http://lagazette-du-jour.com/ga/click/2-23408395-5-3182-6=
+117-25338-d8b4b76b85-c4b022f1b4 )
+
+FACEBOOK ( http://lagazette-du-jour.com/ga/click/2-23408395-5-3182-6117-253=
+39-e8f351f1d4-c4b022f1b4 )
+
+CONTACTEZ-NOUS
+
+0 892 027 576
+
+Service 0,35=E2=82=AC/min + prix appel
+
+Offre SOLDES valable du 06/01 au 16/02/2016 dans la limite des
+stocks disponibles.
+
+(1) TOUT =C3=A0 -70% sur une s=C3=A9lection de linge de maison sold=C3=A9s
+(dans les cat=C3=A9gories chambre, salle de bain, table).
+
+(2) TOUT =C3=A0 -50% sur une s=C3=A9lection d'articles sold=C3=A9s dans
+les cat=C3=A9gories de lingerie de nuit, lingerie de jour, collection
+enfant et
+
+maison.
+
+Offre CATALOGUE Printemps-=C3=A9t=C3=A9 2016 valable du 03/02 au
+29/02/2016 dans la limite des stocks disponibles.
+
+(3) Offre de lancement : -60% sur l'article le plus cher de
+votre panier, hors produits sold=C3=A9s, d=C3=A9stock=C3=A9s et articles en=
+ lot
+
+(4) -50% et plus sur une s=C3=A9lection de linge de maison (dans
+les cat=C3=A9gories chambre, salle de bain, table).
+
+(5) -30% sur une s=C3=A9lection de lingerie de nuit, lingerie de
+jour et articles de la cat=C3=A9gorie "maison".
+
+Code promo COLLECTION : frais de livraison standard offerts
+pour toute commande sup=C3=A9rieure =C3=A0 15=E2=82=AC sur le site
+
+http://lagazette-du-jour.com/ga/click/2-23408395-5-3182-6117-25340-5d0ec7de=
+4d-c4b022f1b4 ( http://lagazette-du-jour.com/ga/click/2-23408395-5-3182-611=
+7-25341-bb729e5e0d-c4b022f1b4 ).
+
+Les codes de r=C3=A9duction sont valables une fois et ne sont
+pas cumulables avec d'autres codes promotionnels. La r=C3=A9duction
+s'applique
+
+sur le montant total du panier hors frais de port.
+
+<a href=3D"http://lagazette-du-jour.com/ga/unsubscribe/2-23408395-5-3182-61=
+17-114eca03668ab6f-c4b022f1b4">Je souhaite me d=C3=A9sabonner</a>=
+
+--==8cc098e4e4712c098516ef706258c20c
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.=
+w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml">
+<head>
+	<meta content=3D"text/html; charset=3DUTF-8" http-equiv=3D"Content-Type" />
+	<title>Email SOLDES 3eme dem 2</title>
+</head>
+<body><a href=3D"http://lagazette-du-jour.com/ga/webviews/4-23408395-5-3182=
+-3161-6117-2f85412537">Visualiser la version en ligne</a>
+
+
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" st=
+yle=3D"font-size:0px;" width=3D"700">
+	<tbody>
+		<tr>
+			<td align=3D"left">
+			<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" height=3D"100" w=
+idth=3D"700">
+				<tbody>
+					<tr>
+						<td height=3D"123" valign=3D"bottom" width=3D"316"><a href=3D"http://=
+lagazette-du-jour.com/ga/click/2-23408395-5-3182-6117-25305-b7acb64fb5-c4b0=
+22f1b4" target=3D"_blank"><img alt=3D"Fran=C3=A7oise Saget" height=3D"118" =
+src=3D"http://img.digital-metric.com/1/1744/1224/105131/0/img_affiliation_0=
+2.jpg" style=3D"display:block; border:none; outline:none; text-decoration:n=
+one;" width=3D"316" /> </a></td>
+						<td valign=3D"middle"></td>
+						<td valign=3D"bottom" width=3D"324">
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%=
+">
+							<tbody>
+								<tr>
+									<td width=3D"86"><a href=3D"http://lagazette-du-jour.com/ga/click/=
+2-23408395-5-3182-6117-25306-21ea6a7e7d-c4b022f1b4" target=3D"_blank"><img =
+alt=3D"Calendrierde l'Avent" border=3D"0" height=3D"118" src=3D"http://img.=
+digital-metric.com/1/1744/1224/105131/0/img_email-soldes-3eme-dem-1_03.jpg"=
+ style=3D"display:block" width=3D"86" /></a></td>
+									<td align=3D"center" bgcolor=3D"#f4f5de"><a href=3D"http://lagazet=
+te-du-jour.com/ga/click/2-23408395-5-3182-6117-25307-d4ebb21d15-c4b022f1b4"=
+ style=3D"text-decoration:none;" target=3D"_blank"><font color=3D"#aa0062" =
+face=3D"Arial, Helvetica, sans-serif" size=3D"5" style=3D"font-size:25px;">=
+<strong>1<sup style=3D"font-size:15px;">er</sup> commande?</strong><br />
+									<font style=3D"font-size:18px;"><font color=3D"#c7323d"><strong>LI=
+VRAISON</strong></font><strong> OFFERTE</strong></font><br />
+									<font style=3D"font-size:12px; "><strong>d&egrave;s 15&euro; d&#39=
+;achat<br />
+									avec le code :</strong></font> <font color=3D"#8da539" style=3D"fo=
+nt-size:18px;"><strong>COLLECTION</strong></font></font></a></td>
+									<td align=3D"center" width=3D"11"></td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			</td>
+		</tr>
+		<tr>
+			<td>
+			<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" height=3D"33" wi=
+dth=3D"700">
+				<tbody>
+					<tr>
+						<td width=3D"5"></td>
+						<td height=3D"33"><a href=3D"http://lagazette-du-jour.com/ga/click/2-=
+23408395-5-3182-6117-25308-b502897414-c4b022f1b4" target=3D"_blank"><img al=
+t=3D"CHAMBRE" border=3D"0" height=3D"44" src=3D"http://img.digital-metric.c=
+om/1/1744/1224/105131/0/img_newsletter-s3_08.jpg" style=3D"display:block;" =
+width=3D"87" /></a></td>
+						<td><a href=3D"http://lagazette-du-jour.com/ga/click/2-23408395-5-318=
+2-6117-25309-1c8e2e48f6-c4b022f1b4" target=3D"_blank"><img alt=3D"SALLE DE =
+BAIN" border=3D"0" height=3D"44" src=3D"http://img.digital-metric.com/1/174=
+4/1224/105131/0/img_newsletter-s3_09.jpg" style=3D"display:block;" width=3D=
+"135" /></a></td>
+						<td><a href=3D"http://lagazette-du-jour.com/ga/click/2-23408395-5-318=
+2-6117-25310-79cae5167c-c4b022f1b4" target=3D"_blank"><img alt=3D"TABLE" bo=
+rder=3D"0" height=3D"44" src=3D"http://img.digital-metric.com/1/1744/1224/1=
+05131/0/img_newsletter-s3_10.jpg" style=3D"display:block;" width=3D"78" /><=
+/a></td>
+						<td><a href=3D"http://lagazette-du-jour.com/ga/click/2-23408395-5-318=
+2-6117-25311-1db33f6dde-c4b022f1b4" target=3D"_blank"><img alt=3D"MAISON" b=
+order=3D"0" height=3D"44" src=3D"http://img.digital-metric.com/1/1744/1224/=
+105131/0/img_newsletter-s3_11.jpg" style=3D"display:block;" width=3D"89" />=
+</a></td>
+						<td><a href=3D"http://lagazette-du-jour.com/ga/click/2-23408395-5-318=
+2-6117-25312-d14fca1c69-c4b022f1b4" target=3D"_blank"><img alt=3D"LINGERIE =
+DE NUIT" border=3D"0" height=3D"44" src=3D"http://img.digital-metric.com/1/=
+1744/1224/105131/0/img_newsletter-s3_12.jpg" style=3D"display:block;" width=
+=3D"160" /></a></td>
+						<td><a href=3D"http://lagazette-du-jour.com/ga/click/2-23408395-5-318=
+2-6117-25313-263524eb97-c4b022f1b4" target=3D"_blank"><img alt=3D"LINGERIE =
+DE JOUR" border=3D"0" height=3D"44" src=3D"http://img.digital-metric.com/1/=
+1744/1224/105131/0/img_newsletter-s3_13.jpg" style=3D"display:block;" width=
+=3D"151" /></a></td>
+					</tr>
+				</tbody>
+			</table>
+			</td>
+		</tr>
+		<tr>
+			<td align=3D"center"><a href=3D"http://lagazette-du-jour.com/ga/click/2-=
+23408395-5-3182-6117-25314-c14bbfecc2-c4b022f1b4" target=3D"_blank"><img al=
+t=3D"Du 6 janvier au 16 f=C3=A9vrier 2016 Soldes" border=3D"0" height=3D"19=
+8" src=3D"http://img.digital-metric.com/1/1744/1224/105131/0/img_email-sold=
+es-3eme-dem-2_03.jpg" style=3D" display: block; border:0;" width=3D"674" />=
+</a></td>
+		</tr>
+		<tr>
+			<td align=3D"center"><a href=3D"http://lagazette-du-jour.com/ga/click/2-=
+23408395-5-3182-6117-25315-441680bf39-c4b022f1b4" target=3D"_blank"><img al=
+t=3D"Tout =C3=A0 -70% Derni=C3=A8re D=C3=A9marque" border=3D"0" height=3D"1=
+54" src=3D"http://img.digital-metric.com/1/1744/1224/105131/0/img_email-sol=
+des-3eme-dem-2_05.jpg" style=3D" display: block; border:0;" width=3D"674" /=
+></a></td>
+		</tr>
+		<tr>
+			<td align=3D"center"><a href=3D"http://lagazette-du-jour.com/ga/click/2-=
+23408395-5-3182-6117-25316-87e7be1324-c4b022f1b4" target=3D"_blank"><img al=
+t=3D" j'en profite Stocks Limit=C3=A9s" border=3D"0" height=3D"158" src=3D"=
+http://img.digital-metric.com/1/1744/1224/105131/0/img_email-soldes-3eme-de=
+m-2_06.jpg" style=3D" display: block; border:0;" width=3D"674" /></a></td>
+		</tr>
+		<tr>
+			<td align=3D"center"><img alt=3D"Vos Avantages!" border=3D"0" height=3D"=
+60" src=3D"http://img.digital-metric.com/1/1744/1224/105131/0/img_email-sol=
+des-3eme-dem-1_13.jpg" style=3D" display: block; border:0;" width=3D"674" /=
+></td>
+		</tr>
+		<tr>
+			<td align=3D"center">
+			<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ width=3D"674">
+				<tbody>
+					<tr>
+						<td valign=3D"top" width=3D"12"><img border=3D"0" height=3D"177" src=
+=3D"http://img.digital-metric.com/1/1744/1224/105131/0/img_email-soldes-3em=
+e-dem-1_14.jpg" style=3D"display:block" width=3D"12" /></td>
+						<td valign=3D"top">
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"204">
+							<tbody>
+								<tr>
+									<td><a href=3D"http://lagazette-du-jour.com/ga/click/2-23408395-5-=
+3182-6117-25317-dbb71d1896-c4b022f1b4" target=3D"_blank"><img alt=3D"satisf=
+ait ou rembours=C3=A9" border=3D"0" height=3D"113" src=3D"http://img.digita=
+l-metric.com/1/1744/1224/105131/0/img_email-soldes-3eme-dem-1_15.jpg" style=
+=3D"display:block" width=3D"204" /></a></td>
+								</tr>
+								<tr>
+									<td align=3D"center" background=3D"http://media.francoisesaget.com=
+/bannieres/20160201/images2/img_email-affiliation-noel-1_b_34.jpg" style=3D=
+" font:16px 'Roboto', sans-serif; color:#aa0062; text-align: center; line-h=
+eight:16px;" valign=3D"top">
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"1=
+00%">
+										<tbody>
+											<tr>
+												<td width=3D"42"><img border=3D"0" height=3D"64" src=3D"http://=
+img.digital-metric.com/1/1744/1224/105131/0/img_email-soldes-3eme-dem-1_22.=
+jpg" style=3D"display:block" width=3D"42" /></td>
+												<td align=3D"center" valign=3D"top"><a href=3D"http://lagazette=
+-du-jour.com/ga/click/2-23408395-5-3182-6117-25318-9b74f5bb84-c4b022f1b4" s=
+tyle=3D"text-decoration:none" target=3D"_blank"><font color=3D"#aa0062">si =
+votre achat<br />
+												ne vous pla&icirc;t pas</font></a></td>
+												<td width=3D"39"></td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+						<td valign=3D"top" width=3D"17"><img border=3D"0" height=3D"177" src=
+=3D"http://img.digital-metric.com/1/1744/1224/105131/0/img_email-soldes-3em=
+e-dem-1_16.jpg" style=3D"display:block" width=3D"24" /></td>
+						<td valign=3D"top">
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"198">
+							<tbody>
+								<tr>
+									<td><a href=3D"http://lagazette-du-jour.com/ga/click/2-23408395-5-=
+3182-6117-25319-d1e801fb18-c4b022f1b4" target=3D"_blank"><img alt=3D"Un cad=
+eau OFFERT" border=3D"0" height=3D"113" src=3D"http://img.digital-metric.co=
+m/1/1744/1224/105131/0/img_email-soldes-3eme-dem-1_17.jpg" style=3D"display=
+:block" width=3D"198" /></a></td>
+								</tr>
+								<tr>
+									<td align=3D"center" background=3D"http://media.francoisesaget.com=
+/bannieres/20160201/images2/img_email-affiliation-noel-1_b_35.jpg" bgcolor=
+=3D"#fefefe" style=3D" font:17px 'Roboto', sans-serif; color:#aa0062; text-=
+align: center; line-height:16px;" valign=3D"top"><a href=3D"http://lagazett=
+e-du-jour.com/ga/click/2-23408395-5-3182-6117-25320-0454a99db7-c4b022f1b4" =
+style=3D"text-decoration:none" target=3D"_blank"><font color=3D"#aa0062">po=
+ur toute<br />
+									commande</font></a></td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+						<td valign=3D"top" width=3D"19"><img border=3D"0" height=3D"177" src=
+=3D"http://img.digital-metric.com/1/1744/1224/105131/0/img_email-soldes-3em=
+e-dem-1_18.jpg" style=3D"display:block" width=3D"24" /></td>
+						<td valign=3D"top">
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"199">
+							<tbody>
+								<tr>
+									<td><a href=3D"http://lagazette-du-jour.com/ga/click/2-23408395-5-=
+3182-6117-25321-8a9a1b9d12-c4b022f1b4" target=3D"_blank"><img alt=3D"1 ERE =
+commande ? livraison offerte" border=3D"0" height=3D"111" src=3D"http://img=
+.digital-metric.com/1/1744/1224/105131/0/img_email-soldes-3eme-dem-1_19.jpg=
+" style=3D"display:block" width=3D"199" /></a></td>
+								</tr>
+								<tr>
+									<td align=3D"center" background=3D"http://media.francoisesaget.com=
+/bannieres/20160201/images2/img_email-affiliation-noel-1_b_36.jpg" style=3D=
+" font:17px 'Roboto', sans-serif; color:#aa0062; text-align: center; line-h=
+eight:18px;" valign=3D"top"><a href=3D"http://lagazette-du-jour.com/ga/clic=
+k/2-23408395-5-3182-6117-25322-84c288ff9d-c4b022f1b4" style=3D"text-decorat=
+ion:none" target=3D"_blank"><font color=3D"#aa0062">d&egrave;s15&euro; d&#3=
+9;achat<br />
+									<font style=3D"font-size:12px">avec le code : </font> <font color=
+=3D"#8da539" style=3D"font-size:17px"><strong>COLLECTION</strong></font></f=
+ont></a></td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+						<td valign=3D"top" width=3D"13"><img border=3D"0" height=3D"177" src=
+=3D"http://img.digital-metric.com/1/1744/1224/105131/0/img_email-soldes-3em=
+e-dem-1_20.jpg" style=3D"display:block" width=3D"13" /></td>
+					</tr>
+				</tbody>
+			</table>
+			</td>
+		</tr>
+		<tr>
+			<td align=3D"center" height=3D"24"></td>
+		</tr>
+		<tr>
+			<td align=3D"center" height=3D"34" valign=3D"top"><font color=3D"#aa0062=
+" face=3D"Arial, Helvetica, sans-serif" size=3D"5" style=3D"font-size:28px"=
+>D&eacute;couvrez les secrets du bien-&ecirc;tre int&eacute;rieur...</font>=
+</td>
+		</tr>
+		<tr>
+			<td align=3D"center"><img alt=3D"Nouvelles collections Printemps-=C3=A9t=
+=C3=A9 2016" border=3D"0" height=3D"38" src=3D"http://img.digital-metric.co=
+m/1/1744/1224/105131/0/img_email-soldes-3eme-dem-2_17.jpg" style=3D" displa=
+y: block; border:0;" width=3D"674" /></td>
+		</tr>
+		<tr>
+			<td align=3D"center"><a href=3D"http://lagazette-du-jour.com/ga/click/2-=
+23408395-5-3182-6117-25323-971468e85b-c4b022f1b4" target=3D"_blank"><img al=
+t=3D"-60% sur l'article le plus cher de votre panier" border=3D"0" height=
+=3D"100" src=3D"http://img.digital-metric.com/1/1744/1224/105131/0/img_emai=
+l-soldes-3eme-dem-2_18_01.jpg" style=3D" display: block; border:0;" width=
+=3D"674" /></a></td>
+		</tr>
+		<tr>
+			<td align=3D"center"><a href=3D"http://lagazette-du-jour.com/ga/click/2-=
+23408395-5-3182-6117-25324-7d7a224a95-c4b022f1b4" target=3D"_blank"><img al=
+t=3D"-60% sur l'article le plus cher de votre panier" border=3D"0" height=
+=3D"81" src=3D"http://img.digital-metric.com/1/1744/1224/105131/0/img_email=
+-soldes-3eme-dem-2_18_02.jpg" style=3D" display: block; border:0;" width=3D=
+"674" /></a></td>
+		</tr>
+		<tr>
+			<td align=3D"center"><a href=3D"http://lagazette-du-jour.com/ga/click/2-=
+23408395-5-3182-6117-25325-ed414a881a-c4b022f1b4" target=3D"_blank"><img al=
+t=3D"-60% sur l'article le plus cher de votre panier" border=3D"0" height=
+=3D"83" src=3D"http://img.digital-metric.com/1/1744/1224/105131/0/img_email=
+-soldes-3eme-dem-2_18_03.jpg" style=3D" display: block; border:0;" width=3D=
+"674" /></a></td>
+		</tr>
+		<tr>
+			<td align=3D"center"><a href=3D"http://lagazette-du-jour.com/ga/click/2-=
+23408395-5-3182-6117-25326-a056a0a444-c4b022f1b4" target=3D"_blank"><img al=
+t=3D"JE d=C3=A9couvre la collection printemps-=C3=A9t=C3=A9" border=3D"0" h=
+eight=3D"71" src=3D"http://img.digital-metric.com/1/1744/1224/105131/0/img_=
+email-soldes-3eme-dem-2_19.jpg" style=3D" display: block; border:0;" width=
+=3D"674" /></a></td>
+		</tr>
+		<tr>
+			<td align=3D"right" height=3D"6" style=3D"line-height:6px; font-size:6px=
+;" valign=3D"bottom"><img border=3D"0" height=3D"6" src=3D"http://img.digit=
+al-metric.com/1/1744/1224/105131/0/img_newsletter-s3_35.jpg" style=3D"displ=
+ay:block;" width=3D"700" /></td>
+		</tr>
+		<tr>
+			<td align=3D"right">
+			<table align=3D"right" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" =
+style=3D" background-color:#FEFCFF;" width=3D"700">
+				<tbody>
+					<tr>
+						<td align=3D"center" style=3D" border-right:dotted; border-right-colo=
+r:#d6c9d2; border-right-width:1px;" valign=3D"middle" width=3D"128"><a href=
+=3D"http://lagazette-du-jour.com/ga/click/2-23408395-5-3182-6117-25327-23ed=
+e24c89-c4b022f1b4" style=3D"color:#5B413B; text-decoration:none;" target=3D=
+"_blank"><img alt=3D"PAIEMENT S=C3=89CURIS=C3=89" border=3D"0" height=3D"62=
+" src=3D"http://img.digital-metric.com/1/1744/1224/105131/0/paiement.jpg" s=
+tyle=3D"display:block;" width=3D"93" /></a></td>
+						<td align=3D"center" style=3D"border-right:dotted; border-right-color=
+:#d6c9d2; border-right-width:1px;" valign=3D"middle"><a href=3D"http://laga=
+zette-du-jour.com/ga/click/2-23408395-5-3182-6117-25328-47d4ad9e50-c4b022f1=
+b4" style=3D"color:#5B413B; text-decoration:none;" target=3D"_blank"><img a=
+lt=3D"GARANTIE SATISFAIT OU REMBOURS=C3=89" border=3D"0" height=3D"54" src=
+=3D"http://img.digital-metric.com/1/1744/1224/105131/0/garantie.jpg" style=
+=3D"display:block;" width=3D"82" /></a></td>
+						<td align=3D"center" style=3D" border-right:dotted; border-right-colo=
+r:#d6c9d2; border-right-width:1px;" valign=3D"middle" width=3D"184"><a href=
+=3D"http://lagazette-du-jour.com/ga/click/2-23408395-5-3182-6117-25329-67c7=
+3f24f5-c4b022f1b4" style=3D"color:#5B413B; text-decoration:none;" target=3D=
+"_blank"><img alt=3D"LIVRAISON GRATUITE D=C3=88S 40=E2=82=AC D'ACHAT" borde=
+r=3D"0" height=3D"54" src=3D"http://img.digital-metric.com/1/1744/1224/1051=
+31/0/livraison_72.jpg" style=3D"display:block;" width=3D"182" /></a></td>
+						<td align=3D"center" style=3D"" valign=3D"middle" width=3D"173"><a hr=
+ef=3D"http://lagazette-du-jour.com/ga/click/2-23408395-5-3182-6117-25330-d8=
+9a062756-c4b022f1b4" style=3D"color:#5B413B; text-decoration:none;" target=
+=3D"_blank"><img alt=3D"UN CADEAU OFFERT POUR CHAQUE COMMANDE" border=3D"0"=
+ height=3D"60" src=3D"http://img.digital-metric.com/1/1744/1224/105131/0/ca=
+deau.jpg" style=3D"display:block;" width=3D"77" /></a></td>
+					</tr>
+					<tr>
+						<td style=3D"font: Normal 12px 'Arial', sans-serif; padding-bottom:2p=
+x; text-transform:none; text-align:center; border-right:dotted; border-righ=
+t-color:#d6c9d2; border-right-width:1px;" width=3D"128"><a href=3D"http://l=
+agazette-du-jour.com/ga/click/2-23408395-5-3182-6117-25331-9217a82a47-c4b02=
+2f1b4" style=3D"color:#333; text-decoration:none;" target=3D"_blank"><stron=
+g>PAIEMENT<br />
+						S&Eacute;CURIS&Eacute; </strong></a></td>
+						<td style=3D"font: Normal 12px 'Arial', sans-serif; padding-bottom:2p=
+x; text-transform:none; text-align:center; border-right:dotted; border-righ=
+t-color:#d6c9d2; border-right-width:1px;"><a href=3D"http://lagazette-du-jo=
+ur.com/ga/click/2-23408395-5-3182-6117-25332-a7f20453b6-c4b022f1b4" style=
+=3D"color: #333; text-decoration:none;" target=3D"_blank"><strong>GARANTIE<=
+br />
+						SATISFAIT OU REMBOURS&Eacute; </strong></a></td>
+						<td style=3D"font: Normal 12px 'Arial', sans-serif; padding-bottom:2p=
+x; text-transform:none; text-align:center; border-right:dotted; border-righ=
+t-color:#d6c9d2; border-right-width:1px;" width=3D"183"><a href=3D"http://l=
+agazette-du-jour.com/ga/click/2-23408395-5-3182-6117-25333-524226fd85-c4b02=
+2f1b4" style=3D"color: #333; text-decoration:none;" target=3D"_blank"><stro=
+ng>LIVRAISON GRATUITE</strong><br />
+						<strong>D&Egrave;S 40&euro; D&#39;ACHAT</strong></a></td>
+						<td style=3D"font: Normal 12px 'Arial', sans-serif; padding-bottom:2p=
+x; text-transform:none; text-align:center;" width=3D"175"><a href=3D"http:/=
+/lagazette-du-jour.com/ga/click/2-23408395-5-3182-6117-25334-1cf635d1e3-c4b=
+022f1b4" style=3D"color: #333; text-decoration:none;" target=3D"_blank"><st=
+rong>UN CADEAU OFFERT</strong><br />
+						<strong>POUR CHAQUE COMMANDE</strong></a></td>
+					</tr>
+				</tbody>
+			</table>
+			</td>
+		</tr>
+		<tr>
+			<td align=3D"right">
+			<table align=3D"right" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" =
+style=3D"background-color:#fffbff; border-top:dotted; border-top-color:#d6c=
+9d2; border-top-width:1px; height:1px;" width=3D"700">
+			</table>
+			</td>
+		</tr>
+		<tr>
+			<td align=3D"right">
+			<table align=3D"right" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" =
+style=3D"background-color:#fffbff;" width=3D"700">
+				<tbody>
+					<tr>
+						<td style=3D"background-color:#fffbff;" width=3D"42"><a href=3D"http:=
+//lagazette-du-jour.com/ga/click/2-23408395-5-3182-6117-25335-1275b5c03b-c4=
+b022f1b4" style=3D"color: #333; text-decoration:none;" target=3D"_blank"><i=
+mg alt=3D"SUIVEZ-NOUS SUR PINTEREST" border=3D"0" height=3D"44" src=3D"http=
+://img.digital-metric.com/1/1744/1224/105131/0/footer_02.jpg" style=3D"disp=
+lay:block;" width=3D"42" /></a></td>
+						<td style=3D"background-color:#fffbff;" width=3D"163">
+						<p style=3D"font: Normal 12px 'Arial', sans-serif; text-transform:non=
+e; width: auto; text-align:left;"><a href=3D"http://lagazette-du-jour.com/g=
+a/click/2-23408395-5-3182-6117-25336-d0314d29d1-c4b022f1b4" style=3D"color:=
+#333; text-decoration:none;" target=3D"_blank"><strong>SUIVEZ-NOUS SUR<br />
+						PINTEREST</strong></a></p>
+						</td>
+						<td style=3D"background-color:#fffbff;" width=3D"37"><a href=3D"http:=
+//lagazette-du-jour.com/ga/click/2-23408395-5-3182-6117-25337-412b46a805-c4=
+b022f1b4" style=3D"color: #333; text-decoration:none;" target=3D"_blank"><i=
+mg alt=3D"SUIVEZ-NOUS SUR FACEBOOK" border=3D"0" height=3D"35" src=3D"http:=
+//img.digital-metric.com/1/1744/1224/105131/0/footer_03.jpg" style=3D"displ=
+ay:block;" width=3D"34" /></a></td>
+						<td style=3D"background-color:#fffbff;" width=3D"133">
+						<p style=3D"font: Normal 12px 'Arial', sans-serif; text-transform:non=
+e; width: auto; text-align:left;"><a href=3D"http://lagazette-du-jour.com/g=
+a/click/2-23408395-5-3182-6117-25338-d8b4b76b85-c4b022f1b4" style=3D"color:=
+#333; text-decoration:none;" target=3D"_blank"><strong>SUIVEZ-NOUS SUR</str=
+ong></a><br />
+						<a href=3D"http://lagazette-du-jour.com/ga/click/2-23408395-5-3182-61=
+17-25339-e8f351f1d4-c4b022f1b4" style=3D"color:#333; text-decoration:none;"=
+ target=3D"_blank"><b>FACEBOOK</b></a></p>
+						</td>
+						<td style=3D"background-color:#fffbff;" valign=3D"middle" width=3D"20=
+6">
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%=
+">
+							<tbody>
+								<tr>
+									<td width=3D"60"></td>
+									<td><span style=3D"font: Normal 12px 'Arial', sans-serif; text-tra=
+nsform:none; width: auto; text-align:left;">CONTACTEZ-NOUS<br />
+									<font color=3D"#8b0f73" size=3D"5" style=3D"font-size:20px"><stron=
+g>0 892 027 576</strong></font></span></td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+						<td style=3D"background-color:#fffbff;" width=3D"119"><img alt=3D"Ser=
+vice 0,35=E2=82=AC/min + prix appel" border=3D"0" height=3D"35" src=3D"http=
+://img.digital-metric.com/1/1744/1224/105131/0/img_nl151209_46.jpg" style=
+=3D"display:block;" width=3D"119" /></td>
+					</tr>
+				</tbody>
+			</table>
+			</td>
+		</tr>
+		<tr>
+			<td align=3D"right">
+			<table align=3D"right" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" =
+style=3D"background-color:#fffbff; border-top:dotted; border-top-color:#d6c=
+9d2; border-top-width:1px; height:1px;" width=3D"700">
+			</table>
+			</td>
+		</tr>
+		<tr>
+			<td align=3D"left" valign=3D"top">
+			<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%">
+				<tbody>
+					<tr>
+						<td align=3D"left" bgcolor=3D"#fffbff" style=3D"text-align:left; font=
+:normal 11px Arial, Helvetica, sans-serif; color:#666; line-height:16px; pa=
+dding:10px;" valign=3D"top"><strong>Offre SOLDES </strong>valable du 06/01 =
+au 16/02/2016 dans la limite des stocks disponibles.<br />
+						(1) <strong>TOUT &agrave; -70%</strong> sur une s&eacute;lection de l=
+inge de maison sold&eacute;s (dans les cat&eacute;gories chambre, salle de =
+bain, table).<br />
+						(2)<strong> TOUT &agrave; -50%</strong> sur une s&eacute;lection d&#3=
+9;articles sold&eacute;s dans les cat&eacute;gories de lingerie de nuit, li=
+ngerie de jour, collection enfant et<br />
+						maison.<br />
+						<br />
+						<strong>Offre CATALOGUE Printemps-&eacute;t&eacute; 2016 valable du 0=
+3/02 au 29/02/2016 </strong>dans la limite des stocks disponibles.<br />
+						(3) <strong>Offre de lancement : -60% sur l&#39;article le plus cher =
+de votre panier, </strong>hors produits sold&eacute;s, d&eacute;stock&eacut=
+e;s et articles en lot<br />
+						(4)<strong> -50% et plus </strong>sur une s&eacute;lection de linge d=
+e maison (dans les cat&eacute;gories chambre, salle de bain, table).<br />
+						(5)<strong> -30%</strong> sur une s&eacute;lection de lingerie de nui=
+t, lingerie de jour et articles de la cat&eacute;gorie &quot;maison&quot;.<=
+br />
+						<br />
+						<strong>Code promo COLLECTION :</strong> frais de livraison standard =
+offerts pour toute commande sup&eacute;rieure &agrave; 15&euro; sur le site=
+<br />
+						<a href=3D"http://lagazette-du-jour.com/ga/click/2-23408395-5-3182-61=
+17-25341-bb729e5e0d-c4b022f1b4" style=3D"text-decoration:none;" target=3D"_=
+blank"><font color=3D"#666666">http://www.francoisesaget.com/fr</font></a>.=
+<br />
+						<br />
+						Les codes de r&eacute;duction sont valables une fois et ne sont pas c=
+umulables avec d&#39;autres codes promotionnels. La r&eacute;duction s&#39;=
+applique<br />
+						sur le montant total du panier hors frais de port.<br />
+						&nbsp;</td>
+					</tr>
+				</tbody>
+			</table>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<p><img border=3D"0" height=3D"1" nosend=3D"" src=3D"http://ea.francoisesag=
+et.com/view/francoisesaget/EMfNwnYS.kZtdivW2YFF1ZIHL7ajCWVhpYWmiYY-/pix.gif=
+?&eemail=3D" style=3D"display:none;" width=3D"1" /> <img border=3D"0" heigh=
+t=3D"1" src=3D"http://mtrc1.digital-metric.com/view.php?params=3D0092c16458=
+9458af04894fdf65fa71f5" width=3D"1" /></p>
+
+
+<a href=3D"http://lagazette-du-jour.com/ga/unsubscribe/2-23408395-5-3182-61=
+17-114eca03668ab6f-c4b022f1b4">Je souhaite me d=C3=A9sabonner</a><img alt=
+=3D"track" height=3D"1" src=3D"http://er.sociabiliweb.fr/EREO/E/458/730c3/r=
+esp-m2-miage@univ-rennes1.fr/pixel.gif" /> <img alt=3D"track" height=3D"1" =
+src=3D"http://asset.email-match.com/849/asset?type=3DIMG&optin=3D1&email=3D=
+resp-m2-miage@univ-rennes1.fr" width=3D"1" /><img alt=3D"track" height=3D"1=
+" src=3D"http://adtrack.adleadevent.com/adtckrtg.php?ids=3D37&email=3Dresp-=
+m2-miage@univ-rennes1.fr" />=20
+
+<img src=3D"http://lagazette-du-jour.com/ga/open/2-23408395-5-3182-6117-c4b=
+022f1b4" height=3D"2" width=3D"3" alt=3D""></body>
+</html>
+
+--==8cc098e4e4712c098516ef706258c20c--

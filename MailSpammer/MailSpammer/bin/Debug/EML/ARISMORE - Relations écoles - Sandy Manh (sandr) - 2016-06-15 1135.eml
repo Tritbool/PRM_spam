@@ -1,0 +1,144 @@
+Return-Path: <sandy.manh@arismore.fr>
+Received: from mailimailo.univ-rennes1.fr ([unix socket])
+	 by mailimailo.univ-rennes1.fr (Cyrus v2.3.16-Fedora-RPM-2.3.16-6.el6_2.5) with LMTPA;
+	 Wed, 15 Jun 2016 11:35:50 +0200
+X-Sieve: CMU Sieve 2.3
+Received: from mailout2.univ-rennes1.fr (mailout2.univ-rennes1.fr [129.20.129.120])
+	by mailimailo.univ-rennes1.fr (Postfix) with ESMTP id 37E8D52
+	for <resp-m2-miage@univ-rennes1.fr>; Wed, 15 Jun 2016 11:35:50 +0200 (CEST)
+Received: from localhost (vmscanmail.univ-rennes1.fr [129.20.128.134])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id 0DB1360275
+	for <resp-m2-miage@univ-rennes1.fr>; Wed, 15 Jun 2016 11:35:49 +0200 (CEST)
+X-Virus-Scanned: amavisd-new at univ-rennes1.fr
+Received: from mailout2.univ-rennes1.fr ([129.20.129.120])
+	by localhost (vmscanmail.univ-rennes1.frm [129.20.128.134]) (amavisd-new, port 10026)
+	with ESMTP id ZH6rbSpLP8ui for <resp-m2-miage@univ-rennes1.fr>;
+	Wed, 15 Jun 2016 11:35:49 +0200 (CEST)
+Received: from vmmailin.univ-rennes1.fr (vmmailin.univ-rennes1.fr [129.20.128.133])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id AA8CA6026C
+	for <resp-m2-miage@univ-rennes1.fr>; Wed, 15 Jun 2016 11:35:49 +0200 (CEST)
+Received: from mxb2-2.relay.renater.fr (mxb2-2.relay.renater.fr [194.214.200.9])
+	by vmmailin.univ-rennes1.fr (Postfix) with ESMTP id A46EF20033
+	for <resp-m2-miage@univ-rennes1.fr>; Wed, 15 Jun 2016 11:35:49 +0200 (CEST)
+Received: from mail-wm0-x236.google.com (mail-wm0-x236.google.com [IPv6:2a00:1450:400c:c09::236])
+	by mxb2-2.relay.renater.fr (asm) with ESMTP id 664DC60071E
+	for <resp-m2-miage@univ-rennes1.fr>; Wed, 15 Jun 2016 11:35:49 +0200 (CEST)
+Received: by mail-wm0-x236.google.com with SMTP id m124so27057187wme.1
+        for <resp-m2-miage@univ-rennes1.fr>; Wed, 15 Jun 2016 02:35:49 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=arismore-fr.20150623.gappssmtp.com; s=20150623;
+        h=mime-version:from:date:message-id:subject:to;
+        bh=erekckS6AmGkspfZiKXatlCXdu5q+pUeomFp/Wm/Arw=;
+        b=Kld/OopPju/OZlKzP9bWfYa9fQmCv5j03fqocKKqUgW7K319DqtsVhU5vAhYaZuP2J
+         AjLdNBEnKMDGPFlUJW3hjHGuGLGwxM3uJ5EjTxYeANyZieVBOqiXthPO+722doj6f0jo
+         wEKZ/CBjKwLlPsNR6VCKh0wCeAJkvEs2Hiae5mcQamVCJ9BdoO8W0QHj+OwBzfNReqNi
+         eub6i+opVjmgRJUVFGE5/wxfh75q4nCPAU3y5btiZzRanKPeqOWLiLFr0qVg2nEk/aSo
+         dKe+qD9qHVQDNvewZeFKRIGNe7jF9pPhXTI7RHFdQyzVlfFx44jxNkXcEkZ4EOGiZKOV
+         vSUw==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:from:date:message-id:subject:to;
+        bh=erekckS6AmGkspfZiKXatlCXdu5q+pUeomFp/Wm/Arw=;
+        b=FGaQ/gTUjDF2VauyvmSzY1uwQElX0x2U6fvvyx5SQqkN5/A3gshOobrwC0d9tLCKCQ
+         WPvUtJ+1CISrMB09ry3hhyYFIrb/asR4dVXho6ibcOMUuhBxBGpuMkK/FqMJqMvknYDg
+         CsmqHu70RcoOO6oOQNgCSYL3mQRgHhQ3+6gAOV1UUgq5ViQwz+FdWUMwJi7rJyFJ+5YT
+         Kf4ycKAVaImkqV/T2935B3zefzd0VJvCwYuf5O0CpDkfqs5samVb/+OzbQkcGuhWCucS
+         s/sDvRqrTGWb0Yxd0RtcswDf5I2w7k224zc/tIbr7gpyyxTZLW8XtDT0rZS880K+18aj
+         ZfmQ==
+X-Gm-Message-State: ALyK8tI0I34ZBOs0HyWrJMlNVefneLMturbqpPQeIOgmNy6h/Zn3HfipArHyR7xA5ZLXBy3GBcCcEipEHter+J9n
+X-Received: by 10.28.89.6 with SMTP id n6mr8819806wmb.4.1465983349080; Wed, 15
+ Jun 2016 02:35:49 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 10.194.246.199 with HTTP; Wed, 15 Jun 2016 02:35:29 -0700 (PDT)
+From: Sandy Manh <sandy.manh@arismore.fr>
+Date: Wed, 15 Jun 2016 11:35:29 +0200
+Message-ID: <CALmFLiahHwW+tC5OmSSFOo8L7jKUJ5-u7XQE5_rHWMq1jEyjRw@mail.gmail.com>
+Subject: =?UTF-8?Q?ARISMORE_=2D_Relations_=C3=A9coles?=
+To: resp-m2-miage@univ-rennes1.fr
+Content-Type: multipart/alternative; boundary=001a11410bf4c4d6c805354dd801
+X-Original-Source-IP: 2a00:1450:400c:c09::236
+X-Bizanga: IMP - mxb2-2.relay.renater.fr
+X-Renater-SpamState: 0
+X-Renater-SpamScore: 0
+X-Renater-SpamCause: gggruggvucftvghtrhhoucdtuddrfeekledrkeeigddujecutefuodetggdotefrodftvfcurfhrohhfihhlvgemucftgffptefvgfftpdggtfgfnhhsuhgsshgtrhhisggvnecuuegrihhlohhuthemuceftddtnecunecujfgurhephfffkffuvfgtsegrtderredttdejnecuhfhrohhmpefurghnugihucforghnhhcuoehsrghnugihrdhmrghnhhesrghrihhsmhhorhgvrdhfrheqnecuffhomhgrihhnpegrrhhishhmohhrvgdrfhhrnecukfhppedvrgdttdemudeghedtmeegtddttgemtgdtleemmedvfeeinecurfgrrhgrmhepmhhouggvpehsmhhtphdphhgvlhhopehmrghilhdqfihmtddqgidvfeeirdhgohhoghhlvgdrtghomhdpihhnvghtpedvrgdttdemudeghedtmeegtddttgemtgdtleemmedvfeeipdhmrghilhhfrhhomhepshgrnhguhidrmhgrnhhhsegrrhhishhmohhrvgdrfhhrpdhrtghpthhtoheprhgvshhpqdhmvddqmhhirghgvgesuhhnihhvqdhrvghnnhgvshdurdhfrh 
+X-Renater-ServerName: mxb2-2.relay.renater.fr
+
+--001a11410bf4c4d6c805354dd801
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Bonjour Monsieur Certain,
+
+Je me permets de vous contacter dans le cadre du d=C3=A9veloppement de nos
+relations =C3=A9coles.
+
+En effet, Arismore, Entreprise de Service du num=C3=A9rique, recrute
+r=C3=A9guli=C3=A8rement des consultants.
+Nous sommes particuli=C3=A8rement int=C3=A9ress=C3=A9s par des candidats ay=
+ant suivi la
+formation MIAGE qui leur permet d'avoir des comp=C3=A9tences =C3=A0 la fois
+techniques et fonctionnelles.
+J'ai pu constater que votre =C3=A9cole dispensait cette formation.
+
+Serait-il possible d'=C3=A9changer =C3=A0 ce sujet ?
+
+Je vous remercie d'avance,
+
+
+Bien cordialement,
+*Sandy Manh*
+Charg=C3=A9e de recrutement
+[image: logo]
+------------------------------
+arismore - www.arismore.fr
+Si=C3=A8ge : 137 Bureaux de la Colline - 92213 Saint-Cloud Cedex - France
+Agence Nord : 70 rue de l'Harmonie - Parc de la Haute Borne - 59650
+Villeneuve d'Ascq
+Agence M=C3=A9diterran=C3=A9e : 375 avenue du mistral 13600 La Ciotat
+*Ligne directe* : 01 78 16 48 38 - *Portable* : 06 99 25 89 53
+Standard : 01 55 57 21 60 - Fax : 01 55 57 04 45
+
+--001a11410bf4c4d6c805354dd801
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><span style=3D"font-size:12.8px">Bonjour Monsieur Certain,=
+=C2=A0</span><div style=3D"font-size:12.8px"><br></div><div style=3D"font-s=
+ize:12.8px">Je me permets de vous contacter dans le cadre du d=C3=A9veloppe=
+ment de nos relations =C3=A9coles.</div><div style=3D"font-size:12.8px"><br=
+></div><div style=3D"font-size:12.8px">En effet, Arismore, Entreprise de Se=
+rvice du num=C3=A9rique, recrute r=C3=A9guli=C3=A8rement des consultants.</=
+div><div style=3D"font-size:12.8px">Nous sommes particuli=C3=A8rement int=
+=C3=A9ress=C3=A9s par des candidats ayant suivi la formation MIAGE qui leur=
+ permet d&#39;avoir des comp=C3=A9tences =C3=A0 la fois techniques et fonct=
+ionnelles.</div><div style=3D"font-size:12.8px">J&#39;ai pu constater que v=
+otre =C3=A9cole dispensait cette formation.</div><div style=3D"font-size:12=
+.8px"><br></div><div style=3D"font-size:12.8px">Serait-il possible d&#39;=
+=C3=A9changer =C3=A0 ce sujet ?</div><div style=3D"font-size:12.8px"><br></=
+div><div style=3D"font-size:12.8px">Je vous remercie d&#39;avance,</div><di=
+v style=3D"font-size:12.8px"><br></div><div style=3D"font-size:12.8px"><br>=
+</div><div><div class=3D"gmail_signature" data-smartmail=3D"gmail_signature=
+"><div dir=3D"ltr"><div><div dir=3D"ltr"><div>    <div><span style=3D"font-=
+size:small">Bien cordialement,</span><br clear=3D"all" style=3D"font-size:s=
+mall"><div style=3D"font-size:small"><div><table style=3D"width:418px"><tbo=
+dy><tr><td style=3D"width:268px;height:64px"><div style=3D"font-size:12pt">=
+<b>Sandy Manh</b></div><div style=3D"font-size:10pt">Charg=C3=A9e de recrut=
+ement</div></td><td style=3D"width:132px;height:64px"><img alt=3D"logo" src=
+=3D"http://www.arismore.fr/arismore.png">=C2=A0=C2=A0 =C2=A0=C2=A0 =C2=A0=
+=C2=A0 =C2=A0=C2=A0 =C2=A0=C2=A0 =C2=A0</td></tr><tr><td colspan=3D"2"><hr =
+style=3D"width:418px;height:1px;color:rgb(47,192,239);background-color:rgb(=
+47,192,239)"></td></tr><tr><td align=3D"center" colspan=3D"2" style=3D"font=
+-family:Arial,sans-serif;font-size:12pt">arismore -=C2=A0<a href=3D"http://=
+www.arismore.fr/" style=3D"color:rgb(17,85,204)" target=3D"_blank">www.aris=
+more.fr</a></td></tr><tr><td align=3D"center" colspan=3D"2" style=3D"font-f=
+amily:Arial,sans-serif;font-size:8pt">Si=C3=A8ge : 137 Bureaux de la Collin=
+e - 92213 Saint-Cloud Cedex - France=C2=A0<br>Agence Nord : 70 rue de l&#39=
+;Harmonie - Parc de la Haute Borne - 59650 Villeneuve d&#39;Ascq=C2=A0<br>A=
+gence M=C3=A9diterran=C3=A9e : 375 avenue du mistral 13600 La Ciotat=C2=A0<=
+br><b>Ligne directe</b>=C2=A0: 01 78 16 48 38 -=C2=A0<b>Portable</b>=C2=A0:=
+ 06 99 25 89 53=C2=A0<br>Standard : 01 55 57 21 60 - Fax : 01 55 57 04 45</=
+td></tr></tbody></table></div></div></div></div></div></div></div></div></d=
+iv>
+</div>
+
+--001a11410bf4c4d6c805354dd801--

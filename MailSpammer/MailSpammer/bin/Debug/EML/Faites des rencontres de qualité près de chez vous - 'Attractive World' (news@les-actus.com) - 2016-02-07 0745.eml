@@ -1,0 +1,754 @@
+Return-Path: <return-a18-2995-3000-resp-m2-miage=univ-rennes1.fr=4@les-actus.com>
+Received: from mailimailo.univ-rennes1.fr ([unix socket])
+	 by mailimailo.univ-rennes1.fr (Cyrus v2.3.16-Fedora-RPM-2.3.16-6.el6_2.5) with LMTPA;
+	 Sun, 07 Feb 2016 07:45:18 +0100
+X-Sieve: CMU Sieve 2.3
+Received: from mailout1.univ-rennes1.fr (mailout1.univ-rennes1.fr [129.20.128.162])
+	by mailimailo.univ-rennes1.fr (Postfix) with ESMTP id E604126A0E68
+	for <resp-m2-miage@univ-rennes1.fr>; Sun,  7 Feb 2016 07:45:18 +0100 (CET)
+Received: from localhost (vmscanmail.univ-rennes1.fr [129.20.128.134])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id E2F8260024
+	for <resp-m2-miage@univ-rennes1.fr>; Sun,  7 Feb 2016 07:45:18 +0100 (CET)
+X-Virus-Scanned: amavisd-new at univ-rennes1.fr
+Received: from mailout1.univ-rennes1.fr ([129.20.128.162])
+	by localhost (vmscanmail.univ-rennes1.frm [129.20.128.134]) (amavisd-new, port 10026)
+	with ESMTP id 5fmijga-LnVX for <resp-m2-miage@univ-rennes1.fr>;
+	Sun,  7 Feb 2016 07:45:18 +0100 (CET)
+Received: from vmmailin.univ-rennes1.fr (vmmailin.univ-rennes1.fr [129.20.128.133])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id BF28F60005
+	for <resp-m2-miage@univ-rennes1.fr>; Sun,  7 Feb 2016 07:45:18 +0100 (CET)
+Received: from mxb2-1.relay.renater.fr (mxb2-1.relay.renater.fr [194.214.200.8])
+	by vmmailin.univ-rennes1.fr (Postfix) with ESMTP id B7D5920033
+	for <resp-m2-miage@univ-rennes1.fr>; Sun,  7 Feb 2016 07:45:18 +0100 (CET)
+Received: from smtp1-63.revue-en-ligne.com (smtp1-63.revue-en-ligne.com [46.105.172.211])
+	by mxb2-1.relay.renater.fr (asm) with SMTP id 78347600033
+	for <resp-m2-miage@univ-rennes1.fr>; Sun,  7 Feb 2016 07:45:18 +0100 (CET)
+Received: (GreenArrow 19038 invoked by uid 410); 7 Feb 2016 06:45:16 -0000
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed;
+	d=les-actus.com; s=default; h=Subject:From:To:Date:
+	List-Unsubscribe:Message-ID:MIME-Version:Content-Type; bh=49nr0K
+	MF7JqV0B3LEAMbGxY+DUc=; b=IggxQ+/A7U5dsKBVRQyeJP9yj484oKU+CW0aXY
+	bkR72sc1oBA7eId/9vgnqJWkwhzkkBTLxLgGGSsFnq80giQ/qmbLI4LQjPKEnwP6
+	dRsMg+ApvJAvWS5wo5KKW2ZjF2lD8dKfgFw0Bc7dqxqHMuYCkuq9O8vCXLFmydy3
+	pASAg=
+Subject: =?UTF-8?Q?Faites=20des=20rencontres=20de=20qualit=C3=A9=20?=
+ =?UTF-8?Q?pr=C3=A8s=20de=20chez=20vous?=
+From: "Attractive World" <news@les-actus.com>
+To: resp-m2-miage@univ-rennes1.fr
+Date: 07 Feb 2016 06:45:16 -0000
+List-Unsubscribe: <http://les-actus.com/ga/unsubscribe/2-11527895-18-1552-3000-ed35df89ef15825-f267eb72c0>,
+ <mailto:return-a18-2995-3000-resp-m2-miage=univ-rennes1.fr=4u@les-actus.com>
+X-Mailer: GreenArrow Studio (v4.65.0)
+X-CampaignID: s4:2995-c368c00df960abb1
+Message-ID: <mid-51ad7b90622b02900719c6ec94200780@les-actus.com>
+X-Mailer-Info: 4.hFDO.gM5kTN.IXZzBXLtJTLtlWYnVGQ15Wa21icl5mblNXMuYmc.wMwADM
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="==bba0b11ed1987ec6a52e13b930d3f418"
+X-UCE-Status: YES
+X-UCE-Type: MCE
+X-Original-Source-IP: 46.105.172.211
+X-Bizanga: IMP - mxb2-1.relay.renater.fr
+X-Renater-SpamState: 11
+X-Renater-SpamScore: 17
+X-Renater-SpamCause: gggruggvucftvghtrhhoucdtuddrfeekjedrvdeggddvheelucetufdoteggodetrfdotffvucfrrhhofhhilhgvmecutffgpfetvffgtfdpggftfghnshhusghstghrihgsvgenuceurghilhhouhhtmecufedttdenucdnofetkffnkffpifculddujedmnecujfgurhepuffhvfffjffokfggtgesrgdtreerredtjeenucfhrhhomhepfdetthhtrhgrtghtihhvvgcuhghorhhlugdfuceonhgvfihssehlvghsqdgrtghtuhhsrdgtohhmqeenucffohhmrghinheplhgvshdqrggtthhushdrtghomhenucfrrghrrghmpehmohguvgepshhmthhppdhhvghlohepshhmthhpuddqieefrdhrvghvuhgvqdgvnhdqlhhighhnvgdrtghomhdpihhnvghtpeegiedruddthedrudejvddrvdduuddpmhgrihhlfhhrohhmpehrvghtuhhrnhdqrgdukedqvdelleehqdeftddttddqrhgvshhpqdhmvddqmhhirghgvgepuhhnihhvqdhrvghnnhgvshdurdhfrhepgeeslhgvshdqrggtthhushdrtghomhdprhgtphhtthhopehrvghsphdqmhdvqdhmihgrghgvsehunhhivhdqrhgvnhhnvghsuddrfhhr 
+X-Renater-ServerName: mxb2-1.relay.renater.fr
+
+This is a multi-part message in MIME format.
+
+--==bba0b11ed1987ec6a52e13b930d3f418
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Attractive World | Partagez plus que des rencontres. ( http://les-actus.com=
+/ga/click/2-11527895-18-1552-3000-21551-ac5d2e5244-f267eb72c0 )
+
+Je m'inscris gratuitement ! ( http://les-actus.com/ga/click/2-11527895-18-1=
+552-3000-21551-ac5d2e5244-f267eb72c0 )
+
+( http://les-actus.com/ga/click/2-11527895-18-1552-3000-21551-ac5d2e5244-f2=
+67eb72c0 )
+
+En 2016, trouvez l'amour ! ( http://les-actus.com/ga/click/2-11527895-18-15=
+52-3000-21551-ac5d2e5244-f267eb72c0 )
+
+( http://les-actus.com/ga/click/2-11527895-18-1552-3000-21551-ac5d2e5244-f2=
+67eb72c0 )
+
+( http://les-actus.com/ga/click/2-11527895-18-1552-3000-21551-ac5d2e5244-f2=
+67eb72c0 )
+
+Le 1er site de
+
+rencontres
+
+avec s=C3=A9lection
+
+=C3=A0 l'entr=C3=A9e ( http://les-actus.com/ga/click/2-11527895-18-1552-300=
+0-21551-ac5d2e5244-f267eb72c0 )
+
+( http://les-actus.com/ga/click/2-11527895-18-1552-3000-21551-ac5d2e5244-f2=
+67eb72c0 )
+
+Une s=C3=A9curit=C3=A9
+
+garantie :
+
+(des profils v=C3=A9rifi=C3=A9s,
+
+service client bas=C3=A9
+
+en France...) ( http://les-actus.com/ga/click/2-11527895-18-1552-3000-21551=
+-ac5d2e5244-f267eb72c0 )
+
+( http://les-actus.com/ga/click/2-11527895-18-1552-3000-21551-ac5d2e5244-f2=
+67eb72c0 )
+
+86% des membres
+
+diplom=C3=A9s de
+
+l'enseignement
+
+sup=C3=A9rieur * ( http://les-actus.com/ga/click/2-11527895-18-1552-3000-21=
+551-ac5d2e5244-f267eb72c0 )
+
+( http://les-actus.com/ga/click/2-11527895-18-1552-3000-21551-ac5d2e5244-f2=
+67eb72c0 )
+
+100 =C3=A9v=C3=A8nements
+
+par mois pr=C3=A8s
+
+de chez vous... ( http://les-actus.com/ga/click/2-11527895-18-1552-3000-215=
+51-ac5d2e5244-f267eb72c0 )
+
+En savoir plus ( http://les-actus.com/ga/click/2-11527895-18-1552-3000-2155=
+1-ac5d2e5244-f267eb72c0 )
+
+* Source interne =C2=A9 Copyright Attractive World 2007 - 2016=
+
+--==bba0b11ed1987ec6a52e13b930d3f418
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta content=3D"text/html; charset=3Dutf-8" http-equiv=3D"Content-Type" />
+	<meta content=3D"initial-scale=3D1, minimum-scale=3D0.5, maximum-scale=3D2=
+.0, user-scalable=3Dyes, target-densitydpi=3Ddevice-dpi, width=3Ddevice-wid=
+th" name=3D"viewport" />
+	<title>Attractive World</title>
+	<style type=3D"text/css">* {
+
+	-webkit-text-size-adjust: 100%;
+
+	-ms-text-size-adjust: 100%;
+
+	line-height: 100%;
+
+}
+
+body {
+
+	width: 100%;
+
+	margin: 0;
+
+	padding: 0;
+
+    font-family: Arial, sans serif;
+
+    -webkit-text-size-adjust: none;
+
+}
+
+.ReadMsgBody {
+
+	width: 100%;
+
+}
+
+.ExternalClass {
+
+	width: 100%;
+
+}
+
+.ExternalClass *, .ExternalClass p, .ExternalClass span, .ExternalClass fon=
+t, .ExternalClass td, .ExternalClass div {
+
+	line-height: 100%;
+
+}
+
+a {
+
+    padding:0;
+
+    margin:0;
+
+}
+
+img {
+
+	outline: none;
+
+	text-decoration: none;
+
+	-ms-interpolation-mode: bicubic;
+
+}
+
+a img {
+
+	border: none;
+
+s
+
+}
+
+table {
+
+	border-spacing: 0;
+
+	border-collapse: collapse;
+
+}
+
+table td {
+
+	border-collapse: collapse;
+
+}
+
+
+
+@media only screen and (max-width: 480px) {
+
+table[class=3D"w100"], td[class=3D"w100"], img[class=3D"w100"], div[class=
+=3D"w100"] {
+
+	width: 100% !important;
+
+    float: none !important;
+
+    height: auto !important;
+
+	margin: 0 auto !important;
+
+	padding: 0 !important;
+
+}
+
+table[class=3D"w100mt20"] {
+
+	width: 100% !important;
+
+    float: none !important;
+
+    height: auto !important;
+
+	margin: 20px auto !important;
+
+	padding: 0 !important;
+
+}
+
+table[class=3D"w85"], img[class=3D"w85"] {
+
+	width: 85% !important;
+
+    height: auto !important;
+
+	margin: 0 auto !important;
+
+	padding: 0 !important;
+
+	float: none !important;
+
+}
+
+table[class=3D"w75"], img[class=3D"w75"] {
+
+	width: 75% !important;
+
+    height: auto !important;
+
+	margin: 0 auto !important;
+
+	padding: 0 !important;
+
+	float: none !important;
+
+}
+
+table[class=3D"w26"], td[class=3D"w26"], img[class=3D"w26"], div[class=3D"w=
+26"] {
+
+	width: 26% !important;
+
+    float: none !important;
+
+    height: auto !important;
+
+	margin: 0 auto !important;
+
+	padding: 0 !important;
+
+}
+
+table[class=3D"w22"], td[class=3D"w22"], img[class=3D"w22"], div[class=3D"w=
+22"] {
+
+	width: 21% !important;
+
+    float: none !important;
+
+    height: auto !important;
+
+	margin: 0 auto !important;
+
+	padding: 0 !important;
+
+}
+
+table[class=3D"w52"], td[class=3D"w52"], img[class=3D"w52"], div[class=3D"w=
+52"] {
+
+	width: 52% !important;
+
+    float: none !important;
+
+    height: auto !important;
+
+	margin: 0 auto !important;
+
+	padding: 0 !important;
+
+}
+
+table[class=3D"w50block"], td[class=3D"w50block"], img[class=3D"w50block"],=
+ div[class=3D"w50block"] {
+
+    display: block;
+
+	width: 70% !important;
+
+    float: none !important;
+
+    height: auto !important;
+
+	margin: 0 auto !important;
+
+	padding: 0 !important;
+
+    text-align:center!important;
+
+}
+
+table[class=3D"w100block"], td[class=3D"w100block"], img[class=3D"w100block=
+"], div[class=3D"w100block"] {
+
+    display: block;
+
+	width: 100% !important;
+
+    float: none !important;
+
+    height: auto !important;
+
+	margin: 0 auto !important;
+
+	padding: 0 !important;
+
+}
+
+table[class=3D"w95"], img[class=3D"w95"] {
+
+	width: 95% !important;
+
+    height: auto !important;
+
+	margin: 0 auto !important;
+
+	padding: 0 !important;
+
+	float: none !important;
+
+}
+
+table[class=3D"hide"], a[class=3D"hide"], img[class=3D"hide"], tr[class=3D"=
+hide"], td[class=3D"hide"], br[class=3D"hide"], span[class=3D"hide"], img[c=
+lass=3D"hide"] {
+
+	display: none !important;
+
+	width: 0 !important;
+
+}
+
+.hide {
+
+	display: none !important;
+
+	width: 0 !important;
+
+}
+
+td[class=3D"txtCenter"] {
+
+	text-align: center !important;
+
+	width: 100% !important;
+
+	margin: 0 auto !important;
+
+	padding: 0 !important;
+
+}
+
+td[class=3D"imgCenter"] img {
+
+	text-align: center !important;
+
+	margin: 0 auto !important;
+
+	padding: 0 !important;
+
+}
+
+*[class=3D"col100"] {
+
+	width: 100% !important;
+
+	float: left !important;
+
+}
+
+*[class=3D"col100txtcenter"] {
+
+	text-align: center !important;
+
+	width: 100% !important;
+
+	float: left !important;
+
+}
+
+td[class=3D"row"]{
+
+    display:block;
+
+    margin:0 auto 20px;
+
+    width: 100% !important;
+
+}
+
+td[class=3D"center"], img[class=3D"center"] {
+
+    text-align: center;
+
+    margin:0 auto;
+
+}
+
+tr[class=3D"bigger"] td font {
+
+    font-size: 108% !important;
+
+    line-height: 150% !important;
+
+}
+
+tr[class=3D"autoheight"] {
+
+    height: auto!important;
+
+    display: block;
+
+    padding:0 0 20px;
+
+}
+
+tr[class=3D"autoheight"] td[class=3D"w50block"] font {
+
+    font-size: 113% !important;
+
+}
+
+
+
+tr[class=3D"halfbigger"] {
+
+    height: auto!important;
+
+    display: block;
+
+    padding:0 0 20px;
+
+}
+
+tr[class=3D"halfbigger"] font {
+
+    font-size: 102% !important;
+
+    line-height: 150% !important;
+
+}
+
+}
+	</style>
+</head>
+<body bgcolor=3D"#ffffff" leftmargin=3D"0" marginheight=3D"0" marginwidth=
+=3D"0" style=3D"-webkit-font-smoothing: antialiased; width:100% !important;=
+ background:#eeeeee;-webkit-text-size-adjust:none;" topmargin=3D"0">
+<table align=3D"center" bgcolor=3D"#ffffff" border=3D"0" cellpadding=3D"0" =
+cellspacing=3D"0" width=3D"100%">
+	<tbody>
+		<tr>
+			<td align=3D"center" bgcolor=3D"#ffffff" width=3D"100%">
+			<table align=3D"center" bgcolor=3D"#3c3c3d" border=3D"0" cellpadding=3D"=
+0" cellspacing=3D"0" class=3D"w100" width=3D"620">
+				<tbody>
+					<tr bgcolor=3D"#010101" valign=3D"top">
+						<td bgcolor=3D"#010101"><a href=3D"http://les-actus.com/ga/click/2-11=
+527895-18-1552-3000-21551-ac5d2e5244-f267eb72c0" style=3D"text-decoration:n=
+one; display:block;" target=3D"_blank"><img align=3D"left" alt=3D"Attractiv=
+e World | Partagez plus que des rencontres." border=3D"0" class=3D"w85" hei=
+ght=3D"65" src=3D"http://emailmerci.fr/media/AWfev16/Rencontre1/attractivew=
+orld_nl_fevrier_01.gif" style=3D"display:block" width=3D"225" /></a></td>
+					</tr>
+					<tr valign=3D"top">
+						<td class=3D"w100"><a href=3D"http://les-actus.com/ga/click/2-1152789=
+5-18-1552-3000-21551-ac5d2e5244-f267eb72c0" style=3D"text-decoration:none; =
+display:block; margin:0; padding:0" target=3D"_blank"><img align=3D"middle"=
+ alt=3D"Je m'inscris gratuitement !" border=3D"0" class=3D"w100" src=3D"htt=
+p://emailmerci.fr/media/AWfev16/Rencontre1/attractiveworld_visuel.gif" styl=
+e=3D"display:block; margin:0" width=3D"620" /></a></td>
+					</tr>
+					<tr height=3D"20">
+						<td><a href=3D"http://les-actus.com/ga/click/2-11527895-18-1552-3000-=
+21551-ac5d2e5244-f267eb72c0" style=3D"text-decoration:none; display:block" =
+target=3D"_blank"><img border=3D"0" height=3D"10" src=3D"http://emailmerci.=
+fr/media/AWfev16/Rencontre1/spacer.gif" style=3D"display:block;" width=3D"1=
+00%" /></a></td>
+					</tr>
+					<tr>
+						<td align=3D"center" class=3D"w100"><a href=3D"http://les-actus.com/g=
+a/click/2-11527895-18-1552-3000-21551-ac5d2e5244-f267eb72c0" style=3D"text-=
+decoration:none; display:block" target=3D"_blank"><img align=3D"middle" alt=
+=3D"En 2016, trouvez l'amour !" border=3D"0" class=3D"w85" src=3D"http://em=
+ailmerci.fr/media/AWfev16/Rencontre1/attractiveworld_nl_fevrier_10.gif" sty=
+le=3D"display:block" width=3D"412" /></a></td>
+					</tr>
+					<tr height=3D"15">
+						<td><a href=3D"http://les-actus.com/ga/click/2-11527895-18-1552-3000-=
+21551-ac5d2e5244-f267eb72c0" style=3D"text-decoration:none; display:block" =
+target=3D"_blank"><img border=3D"0" height=3D"10" src=3D"http://emailmerci.=
+fr/media/AWfev16/Rencontre1/spacer.gif" style=3D"display:block;" width=3D"1=
+00%" /></a></td>
+					</tr>
+					<tr valign=3D"top">
+						<td class=3D"w100">
+						<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0" class=3D"w100" width=3D"620">
+							<tbody>
+								<tr valign=3D"top">
+									<td class=3D"hide" width=3D"12"></td>
+									<td><!--[if (gte mso 9)|(IE)]><table align=3D"left" width=3D"592" =
+border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"w100"><tr><td wid=
+th=3D"297" align=3D"left"><![endif]-->
+									<table align=3D"left" border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" class=3D"w100mt20" width=3D"296">
+										<tbody>
+											<tr>
+												<td align=3D"center" class=3D"w50" valign=3D"top" width=3D"148">
+												<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" class=3D"w100" width=3D"148">
+													<tbody>
+														<tr>
+															<td align=3D"center" class=3D"w100" width=3D"148"><a href=3D=
+"http://les-actus.com/ga/click/2-11527895-18-1552-3000-21551-ac5d2e5244-f26=
+7eb72c0" style=3D"text-decoration:none; display:block" target=3D"_blank"><i=
+mg border=3D"0" height=3D"104" src=3D"http://emailmerci.fr/media/AWfev16/Re=
+ncontre1/attractiveworld_nl_fevrier_16.gif" style=3D"display:block" width=
+=3D"148" /></a></td>
+														</tr>
+														<tr>
+															<td height=3D"10" style=3D"font-size:0; line-height:0"></td>
+														</tr>
+														<tr class=3D"bigger" valign=3D"top">
+															<td align=3D"center" class=3D"w100" valign=3D"top" width=3D"=
+148"><a href=3D"http://les-actus.com/ga/click/2-11527895-18-1552-3000-21551=
+-ac5d2e5244-f267eb72c0" style=3D"text-decoration:none; color:#3c3c3d; displ=
+ay:block" target=3D"_blank"><font color=3D"#ffffff" face=3D"arial" style=3D=
+"font-size:14px; text-decoration:none;"><span style=3D"text-decoration:none=
+; color:#ffffff">Le 1er site de<br />
+															rencontres<br />
+															avec s&eacute;lection<br />
+															&agrave; l&#39;entr&eacute;e</span></font> </a></td>
+														</tr>
+														<tr>
+															<td height=3D"10" style=3D"font-size:0; line-height:0"></td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+												<td align=3D"center" class=3D"w50" valign=3D"top" width=3D"148">
+												<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" class=3D"w100" width=3D"148">
+													<tbody>
+														<tr>
+															<td align=3D"center" class=3D"w100" width=3D"149"><a href=3D=
+"http://les-actus.com/ga/click/2-11527895-18-1552-3000-21551-ac5d2e5244-f26=
+7eb72c0" style=3D"text-decoration:none; display:block" target=3D"_blank"><i=
+mg border=3D"0" height=3D"104" src=3D"http://emailmerci.fr/media/AWfev16/Re=
+ncontre1/attractiveworld_nl_fevrier_17.gif" style=3D"display:block" width=
+=3D"148" /></a></td>
+														</tr>
+														<tr>
+															<td height=3D"10" style=3D"font-size:0; line-height:0"></td>
+														</tr>
+														<tr class=3D"bigger" valign=3D"top">
+															<td align=3D"center" class=3D"w100" valign=3D"top" width=3D"=
+148"><a href=3D"http://les-actus.com/ga/click/2-11527895-18-1552-3000-21551=
+-ac5d2e5244-f267eb72c0" style=3D"text-decoration:none; color:#3c3c3d; displ=
+ay:block" target=3D"_blank"><font color=3D"#ffffff" face=3D"arial" style=3D=
+"font-size:14px; text-decoration:none;"><span style=3D"text-decoration:none=
+; color:#ffffff">Une s&eacute;curit&eacute;<br />
+															garantie :<br />
+															(des profils v&eacute;rifi&eacute;s,<br />
+															service client bas&eacute;<br />
+															en France...)</span></font> </a></td>
+														</tr>
+														<tr>
+															<td height=3D"10" style=3D"font-size:0; line-height:0"></td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									<!--[if (gte mso 9)|(IE)]></td><td width=3D"297" align=3D"left"><!=
+[endif]-->
+
+									<table align=3D"right" border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" class=3D"w100mt20" width=3D"296">
+										<tbody>
+											<tr>
+												<td align=3D"center" class=3D"w50" valign=3D"top" width=3D"148">
+												<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" class=3D"w100" width=3D"148">
+													<tbody>
+														<tr>
+															<td align=3D"center" class=3D"w100" width=3D"148"><a href=3D=
+"http://les-actus.com/ga/click/2-11527895-18-1552-3000-21551-ac5d2e5244-f26=
+7eb72c0" style=3D"text-decoration:none; display:block" target=3D"_blank"><i=
+mg border=3D"0" height=3D"104" src=3D"http://emailmerci.fr/media/AWfev16/Re=
+ncontre1/attractiveworld_nl_fevrier_18.gif" style=3D"display:block" width=
+=3D"148" /></a></td>
+														</tr>
+														<tr>
+															<td height=3D"10" style=3D"font-size:0; line-height:0"></td>
+														</tr>
+														<tr class=3D"bigger" valign=3D"top">
+															<td align=3D"center" class=3D"w100" valign=3D"top" width=3D"=
+148"><a href=3D"http://les-actus.com/ga/click/2-11527895-18-1552-3000-21551=
+-ac5d2e5244-f267eb72c0" style=3D"text-decoration:none; color:#3c3c3d; displ=
+ay:block" target=3D"_blank"><font color=3D"#ffffff" face=3D"arial" style=3D=
+"font-size:14px; text-decoration:none;"><span style=3D"text-decoration:none=
+; color:#ffffff">86% des membres<br />
+															diplom&eacute;s de<br />
+															l&#39;enseignement<br />
+															sup&eacute;rieur *</span></font> </a></td>
+														</tr>
+														<tr>
+															<td height=3D"10" style=3D"font-size:0; line-height:0"></td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+												<td align=3D"center" class=3D"w50" valign=3D"top" width=3D"148">
+												<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" class=3D"w100" width=3D"148">
+													<tbody>
+														<tr>
+															<td align=3D"center" class=3D"w100" width=3D"148"><a href=3D=
+"http://les-actus.com/ga/click/2-11527895-18-1552-3000-21551-ac5d2e5244-f26=
+7eb72c0" style=3D"text-decoration:none; display:block" target=3D"_blank"><i=
+mg border=3D"0" height=3D"104" src=3D"http://emailmerci.fr/media/AWfev16/Re=
+ncontre1/attractiveworld_nl_fevrier_19.gif" style=3D"display:block" width=
+=3D"148" /></a></td>
+														</tr>
+														<tr>
+															<td height=3D"10" style=3D"font-size:0; line-height:0"></td>
+														</tr>
+														<tr class=3D"bigger" valign=3D"top">
+															<td align=3D"center" class=3D"w100" valign=3D"top" width=3D"=
+148"><a href=3D"http://les-actus.com/ga/click/2-11527895-18-1552-3000-21551=
+-ac5d2e5244-f267eb72c0" style=3D"text-decoration:none; color:#3c3c3d; displ=
+ay:block" target=3D"_blank"><font color=3D"#ffffff" face=3D"arial" style=3D=
+"font-size:14px; text-decoration:none;"><span style=3D"text-decoration:none=
+; color:#ffffff">100 &eacute;v&egrave;nements<br />
+															par mois pr&egrave;s<br />
+															de chez vous...</span></font> </a></td>
+														</tr>
+														<tr>
+															<td height=3D"10" style=3D"font-size:0; line-height:0"></td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									<!--[if (gte mso 9)|(IE)]></td></tr></table><![endif]--></td>
+									<td class=3D"hide" width=3D"12"></td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+					<tr>
+						<td height=3D"20" style=3D"font-size:0; line-height:0"></td>
+					</tr>
+					<tr height=3D"37">
+						<td align=3D"center"><a href=3D"http://les-actus.com/ga/click/2-11527=
+895-18-1552-3000-21551-ac5d2e5244-f267eb72c0" style=3D"text-decoration:none=
+; display:block" target=3D"_blank"><img alt=3D"En savoir plus" border=3D"0"=
+ height=3D"64" src=3D"http://emailmerci.fr/media/AWfev16/Rencontre1/attract=
+iveworld_btn.gif" style=3D"display:block;" width=3D"216" /></a></td>
+					</tr>
+					<tr>
+						<td height=3D"30" style=3D"font-size:0; line-height:0">
+						<div style=3D"display:none; white-space:nowrap; font:15px courier; li=
+ne-height:0;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp=
+; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nb=
+sp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</=
+div>
+						</td>
+					</tr>
+					<tr height=3D"37">
+						<td align=3D"center"><font color=3D"#ffffff" face=3D"arial" size=3D"1=
+" style=3D"font-size:10px">* Source interne &copy; Copyright Attractive Wor=
+ld 2007 - 2016</font></td>
+					</tr>
+				</tbody>
+			</table>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<center><a href=3D"http://les-actus.com/ga/unsubscribe/2-11527895-18-1552-3=
+000-ed35df89ef15825-f267eb72c0">Je souhaite me d=C3=A9sinscrire et ne plus =
+recevoir les newsletters</a>
+</center><img src=3D"http://les-actus.com/ga/open/2-11527895-18-1552-3000-f=
+267eb72c0" height=3D"2" width=3D"3" alt=3D""></body>
+</html>
+
+--==bba0b11ed1987ec6a52e13b930d3f418--

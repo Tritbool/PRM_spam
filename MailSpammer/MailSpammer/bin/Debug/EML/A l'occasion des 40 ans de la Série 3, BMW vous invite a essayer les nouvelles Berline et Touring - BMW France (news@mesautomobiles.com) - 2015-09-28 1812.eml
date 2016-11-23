@@ -1,0 +1,804 @@
+Return-Path: <return-a18-1712-1728-resp-m2-miage=univ-rennes1.fr=4@mesautomobiles.com>
+Received: from mailimailo.univ-rennes1.fr ([unix socket])
+	 by mailimailo.univ-rennes1.fr (Cyrus v2.3.16-Fedora-RPM-2.3.16-6.el6_2.5) with LMTPA;
+	 Mon, 28 Sep 2015 18:12:41 +0200
+X-Sieve: CMU Sieve 2.3
+Received: from vmsmtprexch.univ-rennes1.fr (vmsmtprexch.univ-rennes1.fr [129.20.128.62])
+	by mailimailo.univ-rennes1.fr (Postfix) with ESMTP id 20CD926A077B
+	for <resp-m2-miage@univ-rennes1.fr>; Mon, 28 Sep 2015 18:12:41 +0200 (CEST)
+Received: from mbcasexch4.Ur.local (mbcasexch4.univ-rennes1.fr [129.20.125.132])
+	by vmsmtprexch.univ-rennes1.fr (Postfix) with ESMTP id 1D61BF7
+	for <resp-m2-miage@univ-rennes1.fr>; Mon, 28 Sep 2015 18:12:41 +0200 (CEST)
+X-CrossPremisesHeadersFilteredBySendConnector: mbcasexch4.Ur.local
+Received: from mbcasexch1.Ur.local (2002:8114:7d81::8114:7d81) by
+ mbcasexch4.Ur.local (2002:8114:7d84::8114:7d84) with Microsoft SMTP Server
+ (TLS) id 15.0.913.22; Mon, 28 Sep 2015 18:12:40 +0200
+Received: from mailout1.univ-rennes1.fr (129.20.128.162) by
+ mbcasexch1.Ur.local (129.20.125.129) with Microsoft SMTP Server id
+ 15.0.913.22 via Frontend Transport; Mon, 28 Sep 2015 18:12:40 +0200
+Received: from localhost (vmscanmail.univ-rennes1.fr [129.20.128.134])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id B4413600DA
+	for <resp-m2-miage@univ-rennes1.fr>; Mon, 28 Sep 2015 18:12:40 +0200 (CEST)
+X-Virus-Scanned: amavisd-new at univ-rennes1.fr
+Received: from mailout1.univ-rennes1.fr ([129.20.128.162])
+	by localhost (vmscanmail.univ-rennes1.frm [129.20.128.134]) (amavisd-new, port 10026)
+	with ESMTP id GOR5Yp0MAu3E for <resp-m2-miage@univ-rennes1.fr>;
+	Mon, 28 Sep 2015 18:12:40 +0200 (CEST)
+Received: from vmmailin.univ-rennes1.fr (vmmailin.univ-rennes1.fr [129.20.128.133])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id 8D4BE600C7
+	for <resp-m2-miage@univ-rennes1.fr>; Mon, 28 Sep 2015 18:12:40 +0200 (CEST)
+Received: from mxb2-2.relay.renater.fr (mxb2-2.relay.renater.fr [194.214.200.9])
+	by vmmailin.univ-rennes1.fr (Postfix) with ESMTP id 853E320033
+	for <resp-m2-miage@univ-rennes1.fr>; Mon, 28 Sep 2015 18:12:40 +0200 (CEST)
+Received: from smtp1-38.revue-en-ligne.com (smtp1-38.revue-en-ligne.com [5.196.214.173])
+	by mxb2-2.relay.renater.fr (asm) with SMTP id 47CC1600641
+	for <resp-m2-miage@univ-rennes1.fr>; Mon, 28 Sep 2015 18:12:40 +0200 (CEST)
+Received: (GreenArrow 415 invoked by uid 410); 28 Sep 2015 16:12:40 -0000
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed;
+	d=mesautomobiles.com; s=default; h=Subject:From:To:Date:
+	List-Unsubscribe:Message-ID:MIME-Version:Content-Type; bh=QpzN+b
+	SJhS9UvYWMga3J14bo9bI=; b=HRpKIgFgaNUt4TegLol0J9wllQQkBO81JcWG3m
+	R0eZz5CschjSmN1vGXTuYvb/qw+JRM8lDhwfkcdm9mV8EB0ek/1WGxqzgdYKGd/G
+	2F1e6O1B9vv7fP+CwKNQaY9Isogl0qKlOZlYEFmP7Q1cG1uYA9c7h7c59N3Cu9yx
+	a55SA=
+Subject: =?UTF-8?Q?A=20l=27occasion=20des=2040=20ans=20de=20la=20?=
+ =?UTF-8?Q?S=C3=A9rie=203=2C=20BMW=20vous=20invite=20a=20essayer=20l?=
+ =?UTF-8?Q?es=20nouvelles=20Berline=20et=20Touring?=
+From: BMW France <news@mesautomobiles.com>
+To: <resp-m2-miage@univ-rennes1.fr>
+Date: Mon, 28 Sep 2015 16:12:40 +0000
+List-Unsubscribe: <http://mesautomobiles.com/ga/unsubscribe/2-11527895-18-903-1728-ed35df89ef15825-6fb5678ce3>,
+ <mailto:return-a18-1712-1728-resp-m2-miage=univ-rennes1.fr=4u@mesautomobiles.com>
+X-Mailer: GreenArrow Studio (v4.44.0)
+X-CampaignID: s4:1712-45b06a85f45567aa
+Message-ID: <mid-d8e70a3cafcf44eac879ac56aa3bddf5@mesautomobiles.com>
+X-Mailer-Info: 4.hFDO.QM3EjM.IXZzBXLtJTLtlWYnVGQ15Wa21icl5mblNXMuYmc.QM3IDO
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="==a4c2219ca7ff3ed0af3f9957d3d12a6a"
+X-UCE-Status: YES
+X-UCE-Type: MCE
+X-Original-Source-IP: 5.196.214.173
+X-Bizanga: IMP - mxb2-2.relay.renater.fr
+X-Renater-SpamState: 11
+X-Renater-SpamScore: 17
+X-Renater-SpamCause: gggruggvucftvghtrhhoucdtuddrfeekgedrheehgddutdduucetufdoteggodetrfcurfhrohhfihhlvgemucftgffptefvgfftpdggtfgfnhhsuhgsshgtrhhisggvnecuuegrihhlohhuthemuceftddtnecundfotefknffkpffiucdludejmdenucfjughrpefuhffvfffjoffkgggtsegrtderreertdhsnecuhfhrohhmpedfuefohgcuhfhrrghntggvfdcuoehnvgifshesmhgvshgruhhtohhmohgsihhlvghsrdgtohhmqeenucffohhmrghinhepmhgvshgruhhtohhmohgsihhlvghsrdgtohhmpdhorhhirghsrdhfrh 
+X-Renater-ServerName: mxb2-2.relay.renater.fr
+X-OrganizationHeadersPreserved: mbcasexch4.Ur.local
+
+--==a4c2219ca7ff3ed0af3f9957d3d12a6a
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+BMW S=C3=A9rie 3 ( http://mesautomobiles.com/ga/click/2-11527895-18-903-172=
+8-12079-ea0b90822a-6fb5678ce3 )
+
+BMW ( http://mesautomobiles.com/ga/click/2-11527895-18-903-1728-12080-91a64=
+0e9bf-6fb5678ce3 )BMW S=C3=A9rie 3 ( http://mesautomobiles.com/ga/click/2-1=
+1527895-18-903-1728-12079-ea0b90822a-6fb5678ce3 )
+
+BMW S=C3=A9rie 3 ( http://mesautomobiles.com/ga/click/2-11527895-18-903-172=
+8-12079-ea0b90822a-6fb5678ce3 )
+
+BMW S=C3=A9rie 3 ( http://mesautomobiles.com/ga/click/2-11527895-18-903-172=
+8-12079-ea0b90822a-6fb5678ce3 )
+
+BMW S=C3=A9rie 3 ( http://mesautomobiles.com/ga/click/2-11527895-18-903-172=
+8-12079-ea0b90822a-6fb5678ce3 )
+
+=C3=80 l'occasion des 40 ans
+de l'ic=C3=B4ne BMW, vendue
+=C3=A0 14 millions d'exemplaires
+dans le monde, d=C3=A9couvrez
+les nouvelles BMW S=C3=A9rie 3
+Berline et Touring.
+
+BMW S=C3=A9rie 3 ( http://mesautomobiles.com/ga/click/2-11527895-18-903-172=
+8-12079-ea0b90822a-6fb5678ce3 ) BMW S=C3=A9rie 3 ( http://mesautomobiles.co=
+m/ga/click/2-11527895-18-903-1728-12079-ea0b90822a-6fb5678ce3 )
+
+BMW S=C3=A9rie 3 ( http://mesautomobiles.com/ga/click/2-11527895-18-903-172=
+8-12079-ea0b90822a-6fb5678ce3 )
+
+BMW S=C3=A9rie 3 ( http://mesautomobiles.com/ga/click/2-11527895-18-903-172=
+8-12079-ea0b90822a-6fb5678ce3 )
+
+BMW S=C3=A9rie 3 ( http://mesautomobiles.com/ga/click/2-11527895-18-903-172=
+8-12079-ea0b90822a-6fb5678ce3 )
+BMW ( http://mesautomobiles.com/ga/click/2-11527895-18-903-1728-12080-91a64=
+0e9bf-6fb5678ce3 )
+
+BMW S=C3=A9rie 3 ( http://mesautomobiles.com/ga/click/2-11527895-18-903-172=
+8-12079-ea0b90822a-6fb5678ce3 )
+
+BMW S=C3=A9rie 3 ( http://mesautomobiles.com/ga/click/2-11527895-18-903-172=
+8-12079-ea0b90822a-6fb5678ce3 )
+
+=C3=80 l'occasion des 40 ans
+de l'ic=C3=B4ne BMW, vendue
+=C3=A0 14 millions d'exemplaires
+dans le monde, d=C3=A9couvrez
+les nouvelles BMW S=C3=A9rie 3
+Berline et Touring.
+
+BMW S=C3=A9rie 3 ( http://mesautomobiles.com/ga/click/2-11527895-18-903-172=
+8-12079-ea0b90822a-6fb5678ce3 )
+
+BMW S=C3=A9rie 3 ( http://mesautomobiles.com/ga/click/2-11527895-18-903-172=
+8-12079-ea0b90822a-6fb5678ce3 )
+
+BMW S=C3=A9rie 3 ( http://mesautomobiles.com/ga/click/2-11527895-18-903-172=
+8-12079-ea0b90822a-6fb5678ce3 )
+
+Une ligne redessin=C3=A9e, des mat=C3=A9riaux
+nobles et des nouvelles finitions
+d'exception sont propos=C3=A9s sur les
+Nouvelles BMW S=C3=A9rie 3 Berline
+et Touring.
+
+BMW S=C3=A9rie 3 ( http://mesautomobiles.com/ga/click/2-11527895-18-903-172=
+8-12079-ea0b90822a-6fb5678ce3 )
+
+BMW S=C3=A9rie 3 ( http://mesautomobiles.com/ga/click/2-11527895-18-903-172=
+8-12079-ea0b90822a-6fb5678ce3 )
+
+D=C3=A9couvrez le style
+et le confort d'utilisation
+de l'=C3=A9l=C3=A9gante signature
+lumineuse des Nouvelles
+BMW S=C3=A9rie 3.
+
+BMW S=C3=A9rie 3 ( http://mesautomobiles.com/ga/click/2-11527895-18-903-172=
+8-12079-ea0b90822a-6fb5678ce3 )
+
+BMW S=C3=A9rie 3 ( http://mesautomobiles.com/ga/click/2-11527895-18-903-172=
+8-12079-ea0b90822a-6fb5678ce3 )
+
+Technologie BMW ConnectedDrive
+avec carte sim int=C3=A9gr=C3=A9e,
+trafic en temps r=C3=A9el.
+Profitez du meilleur des
+services BMW.
+
+BMW S=C3=A9rie 3 ( http://mesautomobiles.com/ga/click/2-11527895-18-903-172=
+8-12079-ea0b90822a-6fb5678ce3 )
+
+BMW S=C3=A9rie 3 ( http://mesautomobiles.com/ga/click/2-11527895-18-903-172=
+8-12079-ea0b90822a-6fb5678ce3 )
+
+Une ligne redessin=C3=A9e, des mat=C3=A9riaux nobles
+et des nouvelles finitions d'exception sont propos=C3=A9s
+sur les Nouvelles BMW S=C3=A9rie 3 Berline et Touring.
+
+BMW S=C3=A9rie 3 ( http://mesautomobiles.com/ga/click/2-11527895-18-903-172=
+8-12079-ea0b90822a-6fb5678ce3 )
+
+BMW S=C3=A9rie 3 ( http://mesautomobiles.com/ga/click/2-11527895-18-903-172=
+8-12079-ea0b90822a-6fb5678ce3 )
+
+D=C3=A9couvrez le style et le confort d'utilisation de l'=C3=A9l=C3=A9gante
+signature lumineuse des Nouvelles BMW S=C3=A9rie 3.
+
+BMW S=C3=A9rie 3 ( http://mesautomobiles.com/ga/click/2-11527895-18-903-172=
+8-12079-ea0b90822a-6fb5678ce3 )
+
+BMW S=C3=A9rie 3 ( http://mesautomobiles.com/ga/click/2-11527895-18-903-172=
+8-12079-ea0b90822a-6fb5678ce3 )
+
+Technologie BMW ConnectedDrive avec carte sim
+int=C3=A9gr=C3=A9e, trafic en temps r=C3=A9el.
+Profitez du meilleur des services BMW.
+
+*A partir de 360=E2=82=AC/mois sans apport entretien et garantie inclus
+
+Exemple de loyer pour une BMW 316d 116 ch Berline Lounge en
+Location Longue Dur=C3=A9e sur 36 mois et pour 45 000 km. 36 loyers
+lin=C3=A9aires hors assurances facultatives : 333,24 =E2=82=AC/mois. Contrat
+national d'entretien facultatif au prix de 26,76 =E2=82=AC/mois pour 36
+mois et/ou 45 000 km (au 1er des deux termes atteint) comprenant
+l'entretien, l'assistance du v=C3=A9hicule, le v=C3=A9hicule relais panne
+cat=C3=A9gorie B pendant 5 jours maximum, souscrit aupr=C3=A8s de BMW
+Finance. Co=C3=BBt total du contrat d'entretien : 963,36 =E2=82=AC. Offre
+r=C3=A9serv=C3=A9e aux particuliers valable pour toute commande d'une BMW
+316d 116 ch Berline Lounge avant le 30/09/15 dans les concessions
+BMW participantes. Sous r=C3=A9serve d'acceptation par BMW Finance SNC
+au capital de 87 000 000 =E2=82=AC RCS Versailles B 343 606 448 TVA FR 65
+343 606 448. Etablissement de Cr=C3=A9dit Sp=C3=A9cialis=C3=A9 agr=C3=A9=C3=
+=A9 par
+l'Autorit=C3=A9 de Contr=C3=B4le Prudentiel et de R=C3=A9solution sous le
+n=C2=B014670 Courtier en Assurances immatricul=C3=A9 =C3=A0 l'ORIAS sous le
+n=C2=B007 008 883. V=C3=A9rifiable sur www.orias.fr ( http://mesautomobiles=
+.com/ga/click/2-11527895-18-903-1728-12081-bae7c51e40-6fb5678ce3 ). Consomm=
+ations de la BMW 316d 116 ch Berline Lounge :3,9 l/100.
+Emissions de CO2 : 102g/km selon la norme Europ=C3=A9enne NEDC.
+L'ext=C3=A9rieur du v=C3=A9hicule comporte des =C3=A9quipements en option.
+
+Conform=C3=A9ment =C3=A0 la Loi Informatique et Libert=C3=A9s du 06/01/1978,
+vous disposez d'un droit d'acc=C3=A8s, de rectification et de
+suppression des donn=C3=A9es vous concernant et d'opposition =C3=A0 leur
+traitement.
+
+*A partir de 360=E2=82=AC/mois sans apport entretien et garantie inclus
+
+Exemple de loyer pour une BMW 316d 116 ch Berline Lounge en
+Location Longue Dur=C3=A9e sur 36 mois et pour 45 000 km. 36 loyers
+lin=C3=A9aires hors assurances facultatives : 333,24 =E2=82=AC/mois. Contrat
+national d'entretien facultatif au prix de 26,76 =E2=82=AC/mois pour 36
+mois et/ou 45 000 km (au 1er des deux termes atteint) comprenant
+l'entretien, l'assistance du v=C3=A9hicule, le v=C3=A9hicule relais panne
+cat=C3=A9gorie B pendant 5 jours maximum, souscrit aupr=C3=A8s de BMW
+Finance. Co=C3=BBt total du contrat d'entretien : 963,36 =E2=82=AC. Offre
+r=C3=A9serv=C3=A9e aux particuliers valable pour toute commande d'une BMW
+316d 116 ch Berline Lounge avant le 30/09/15 dans les concessions
+BMW participantes. Sous r=C3=A9serve d'acceptation par BMW Finance SNC
+au capital de 87 000 000 =E2=82=AC RCS Versailles B 343 606 448 TVA FR 65
+343 606 448. Etablissement de Cr=C3=A9dit Sp=C3=A9cialis=C3=A9 agr=C3=A9=C3=
+=A9 par
+l'Autorit=C3=A9 de Contr=C3=B4le Prudentiel et de R=C3=A9solution sous le
+n=C2=B014670 Courtier en Assurances immatricul=C3=A9 =C3=A0 l'ORIAS sous le
+n=C2=B007 008 883. V=C3=A9rifiable sur www.orias.fr ( http://mesautomobiles=
+.com/ga/click/2-11527895-18-903-1728-12081-bae7c51e40-6fb5678ce3 ). Consomm=
+ations de la BMW 316d 116 ch Berline Lounge :3,9 l/100.
+Emissions de CO2 : 102g/km selon la norme Europ=C3=A9enne NEDC.
+L'ext=C3=A9rieur du v=C3=A9hicule comporte des =C3=A9quipements en option.
+
+Conform=C3=A9ment =C3=A0 la Loi Informatique et Libert=C3=A9s du 06/01/1978,
+vous disposez d'un droit d'acc=C3=A8s, de rectification et de
+suppression des donn=C3=A9es vous concernant et d'opposition =C3=A0 leur
+traitement.=
+
+--==a4c2219ca7ff3ed0af3f9957d3d12a6a
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML5>
+<html>
+<head>
+	<meta content=3D"text/html; charset=3Diso-8859-2" http-equiv=3D"Content-Ty=
+pe" />
+	<title>emai BMW GranCoupe</title>
+	<style type=3D"text/css">* { -webkit-text-size-adjust:100%; -ms-text-size-=
+adjust:100%;text-size-adjust:100%;}
+	body { width:100%; margin:0px; padding:0px; }
+	img { outline:none; text-decoration:none; -ms-interpolation-mode:bicubic; }
+	img { outline:none;}
+	a img { border:none; }
+tr[class=3Dhide] {
+			line-height:0px !important;
+			max-height:0px !important;
+			font-size:0px !important;
+			display:none;
+			float:left;
+			overflow:hidden;
+				}
+	@media only screen and (max-width:480px)
+	{
+		tr[class=3Dhide] {
+			line-height: 18px !important;
+			max-height: 3000px !important;
+			height: auto !important;
+			font-size: auto !important;
+			display:block !important;
+			float:none !important;
+			overflow:visible !important;
+		}
+		font[class=3Dfs_12]
+		{
+			font-size:12px !important;
+		}
+		table[class=3Drsz_320],td[class=3Drsz_320],img[class=3Drsz_320]{
+			width:310px !important;
+			margin:0 auto !important;
+		}
+		table[class=3Dd_b],
+		td[class=3Dd_b],
+		img[class=3Dd_b],
+		br[class=3Dd_b],
+		span[class=3Dd_b],
+		a[class=3Dd_b],
+		table[id=3Dd_b],
+		td[id=3Dd_b],
+		img[id=3Dd_b],
+		br[id=3Dd_b],
+		span[id=3Dd_b],
+		a[id=3Dd_b]{
+		display:block !important;
+		}
+		table[class=3Dd_n],tr[class=3Dd_n],
+		td[class=3Dd_n],
+		img[class=3Dd_n],
+		br[class=3Dd_n],
+		span[class=3Dd_n],
+		a[class=3Dd_n],
+		table[id=3Dd_n],
+		td[id=3Dd_n],tr[id=3Dd_n],
+		img[id=3Dd_n],
+		br[id=3Dd_n],
+		span[id=3Dd_n],
+		a[id=3Dd_n]{
+		display:none !important;
+		}
+	}
+	</style>
+</head>
+<body>
+<table align=3D"center" bgcolor=3D"#ffffff" border=3D"0" cellpadding=3D"0" =
+cellspacing=3D"0" class=3D"rsz_320" style=3D"font-size:0px;" width=3D"620">
+	<tbody>
+		<tr class=3D"d_n">
+			<td>
+			<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"620">
+				<tbody>
+					<tr>
+						<td width=3D"406"><a href=3D"http://mesautomobiles.com/ga/click/2-115=
+27895-18-903-1728-12082-fb76927257-6fb5678ce3" target=3D"_blank"><img alt=
+=3D"BMW S=C3=A9rie 3" border=3D"0" height=3D"133" src=3D"http://emailmerci.=
+fr/media/BMWseri3/img_template_4_01.jpg" style=3D"display:block" width=3D"4=
+06" /></a></td>
+						<td width=3D"179"><a href=3D"http://mesautomobiles.com/ga/click/2-115=
+27895-18-903-1728-12080-91a640e9bf-6fb5678ce3" target=3D"_blank"><img alt=
+=3D"BMW" border=3D"0" height=3D"87" src=3D"http://emailmerci.fr/media/BMWse=
+ri3/img_template_4_02.jpg" style=3D"display:block" width=3D"179" /></a><a h=
+ref=3D"http://mesautomobiles.com/ga/click/2-11527895-18-903-1728-12082-fb76=
+927257-6fb5678ce3" target=3D"_blank"><img alt=3D"BMW S=C3=A9rie 3" border=
+=3D"0" height=3D"46" src=3D"http://emailmerci.fr/media/BMWseri3/img_templat=
+e_4_04.jpg" style=3D"display:block" width=3D"179" /></a></td>
+						<td width=3D"35"><a href=3D"http://mesautomobiles.com/ga/click/2-1152=
+7895-18-903-1728-12082-fb76927257-6fb5678ce3" target=3D"_blank"><img alt=3D=
+"BMW S=C3=A9rie 3" border=3D"0" height=3D"133" src=3D"http://emailmerci.fr/=
+media/BMWseri3/img_template_4_03.jpg" style=3D"display:block" width=3D"35" =
+/></a></td>
+					</tr>
+				</tbody>
+			</table>
+			</td>
+		</tr>
+		<tr class=3D"d_n">
+			<td>
+			<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"620">
+				<tbody>
+					<tr>
+						<td width=3D"378"><a href=3D"http://mesautomobiles.com/ga/click/2-115=
+27895-18-903-1728-12082-fb76927257-6fb5678ce3" target=3D"_blank"><img alt=
+=3D"BMW S=C3=A9rie 3" border=3D"0" height=3D"310" src=3D"http://emailmerci.=
+fr/media/BMWseri3/img_template_4_05.jpg" style=3D"display:block" width=3D"3=
+78" /></a></td>
+						<td width=3D"207"><a href=3D"http://mesautomobiles.com/ga/click/2-115=
+27895-18-903-1728-12082-fb76927257-6fb5678ce3" target=3D"_blank"><img alt=
+=3D"BMW S=C3=A9rie 3" border=3D"0" height=3D"103" src=3D"http://emailmerci.=
+fr/media/BMWseri3/img_template_4_06.jpg" style=3D"display:block" width=3D"2=
+07" /></a>
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"207">
+							<tbody>
+								<tr>
+									<td align=3D"left" height=3D"98" valign=3D"top" width=3D"19"></td>
+									<td align=3D"left" valign=3D"top"><font color=3D"#000000" face=3D"=
+Arial" size=3D"1" style=3D"font-size:12px;">&Agrave; l&#39;occasion des 40 =
+ans<br />
+									de l&#39;ic&ocirc;ne BMW, vendue<br />
+									&agrave; 14 millions d&#39;exemplaires<br />
+									dans le monde, d&eacute;couvrez<br />
+									les nouvelles BMW S&eacute;rie 3<br />
+									Berline et Touring.</font></td>
+								</tr>
+							</tbody>
+						</table>
+						<a href=3D"http://mesautomobiles.com/ga/click/2-11527895-18-903-1728-=
+12082-fb76927257-6fb5678ce3" target=3D"_blank"><img alt=3D"BMW S=C3=A9rie 3=
+" border=3D"0" height=3D"53" src=3D"http://emailmerci.fr/media/BMWseri3/img=
+_template_4_09.jpg" style=3D"display:block" width=3D"207" /></a> <a href=3D=
+"http://mesautomobiles.com/ga/click/2-11527895-18-903-1728-12082-fb76927257=
+-6fb5678ce3" target=3D"_blank"><img alt=3D"BMW S=C3=A9rie 3" border=3D"0" h=
+eight=3D"56" src=3D"http://emailmerci.fr/media/BMWseri3/img_template_4_10.j=
+pg" style=3D"display:block" width=3D"207" /></a></td>
+						<td width=3D"35"><a href=3D"http://mesautomobiles.com/ga/click/2-1152=
+7895-18-903-1728-12082-fb76927257-6fb5678ce3" target=3D"_blank"><img alt=3D=
+"BMW S=C3=A9rie 3" border=3D"0" height=3D"310" src=3D"http://emailmerci.fr/=
+media/BMWseri3/img_template_4_07.jpg" style=3D"display:block" width=3D"35" =
+/></a></td>
+					</tr>
+				</tbody>
+			</table>
+			</td>
+		</tr>
+		<tr>
+			<td bgcolor=3D"#FFFFFF" height=3D"3" style=3D"font-size:3px;line-height:=
+3px;"><img border=3D"0" height=3D"3" src=3D"http://emailmerci.fr/media/BMWs=
+eri3/spacer.gif" width=3D"12" /></td>
+		</tr>
+		<!--[if !mso]><!-->
+		<tr class=3D"hide" height=3D"0" style=3D"line-height:18px; display:none; =
+font-size:0px; max-height:0px;=20
+			height:0px; float:left; overflow:hidden">
+			<td align=3D"center">
+			<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ width=3D"310">
+				<tbody>
+					<tr>
+						<td><a href=3D"http://mesautomobiles.com/ga/click/2-11527895-18-903-1=
+728-12082-fb76927257-6fb5678ce3" target=3D"_blank"><img alt=3D"BMW S=C3=A9r=
+ie 3" border=3D"0" height=3D"46" src=3D"http://emailmerci.fr/media/BMWseri3=
+/img_bmw_03_mobile_02.jpg" style=3D"display:block" width=3D"310" /></a></td>
+					</tr>
+					<tr>
+						<td>
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"310">
+							<tbody>
+								<tr>
+									<td width=3D"133"><a href=3D"http://mesautomobiles.com/ga/click/2-=
+11527895-18-903-1728-12082-fb76927257-6fb5678ce3" target=3D"_blank"><img al=
+t=3D"BMW S=C3=A9rie 3" border=3D"0" height=3D"87" src=3D"http://emailmerci.=
+fr/media/BMWseri3/img_bmw_03_mobile_03.jpg" style=3D"display:block" width=
+=3D"133" /></a></td>
+									<td width=3D"177"><a href=3D"http://mesautomobiles.com/ga/click/2-=
+11527895-18-903-1728-12080-91a640e9bf-6fb5678ce3" target=3D"_blank"><img al=
+t=3D"BMW" border=3D"0" height=3D"87" src=3D"http://emailmerci.fr/media/BMWs=
+eri3/img_bmw_03_mobile_04.jpg" style=3D"display:block" width=3D"177" /></a>=
+</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+					<tr>
+						<td><a href=3D"http://mesautomobiles.com/ga/click/2-11527895-18-903-1=
+728-12082-fb76927257-6fb5678ce3" target=3D"_blank"><img alt=3D"BMW S=C3=A9r=
+ie 3" border=3D"0" height=3D"251" src=3D"http://emailmerci.fr/media/BMWseri=
+3/img_bmw_03_mobile_05.jpg" style=3D"display:block" width=3D"310" /></a></t=
+d>
+					</tr>
+					<tr>
+						<td><a href=3D"http://mesautomobiles.com/ga/click/2-11527895-18-903-1=
+728-12082-fb76927257-6fb5678ce3" target=3D"_blank"><img alt=3D"BMW S=C3=A9r=
+ie 3" border=3D"0" height=3D"204" src=3D"http://emailmerci.fr/media/BMWseri=
+3/img_bmw_03_mobile_06.jpg" style=3D"display:block" width=3D"310" /></a></t=
+d>
+					</tr>
+				</tbody>
+			</table>
+
+			<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"310">
+				<tbody>
+					<tr>
+						<td align=3D"left" valign=3D"top" width=3D"21"></td>
+						<td align=3D"left" height=3D"152" valign=3D"top"><font color=3D"#0000=
+00" face=3D"Arial" size=3D"3" style=3D"font-size:16px;">&Agrave; l&#39;occa=
+sion des 40 ans<br />
+						de l&#39;ic&ocirc;ne BMW, vendue<br />
+						&agrave; 14 millions d&#39;exemplaires<br />
+						dans le monde, d&eacute;couvrez<br />
+						les nouvelles BMW S&eacute;rie 3<br />
+						Berline et Touring.</font></td>
+					</tr>
+				</tbody>
+			</table>
+			<a href=3D"http://mesautomobiles.com/ga/click/2-11527895-18-903-1728-120=
+82-fb76927257-6fb5678ce3" target=3D"_blank"><img alt=3D"BMW S=C3=A9rie 3" b=
+order=3D"0" height=3D"52" src=3D"http://emailmerci.fr/media/BMWseri3/img_bm=
+w_03_mobile_08.jpg" style=3D"display:block" width=3D"310" /></a></td>
+		</tr>
+		<!--<![endif]-->
+		<tr class=3D"d_n">
+			<td>
+			<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"620">
+				<tbody>
+					<tr>
+						<td valign=3D"top" width=3D"205">
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%=
+">
+							<tbody>
+								<tr>
+									<td><a href=3D"http://mesautomobiles.com/ga/click/2-11527895-18-90=
+3-1728-12082-fb76927257-6fb5678ce3" target=3D"_blank"><img alt=3D"BMW S=C3=
+=A9rie 3" border=3D"0" height=3D"155" src=3D"http://emailmerci.fr/media/BMW=
+seri3/img_template_4_12.jpg" style=3D"display:block" width=3D"205" /></a></=
+td>
+								</tr>
+								<tr>
+									<td><a href=3D"http://mesautomobiles.com/ga/click/2-11527895-18-90=
+3-1728-12082-fb76927257-6fb5678ce3" target=3D"_blank"><img alt=3D"BMW S=C3=
+=A9rie 3" border=3D"0" height=3D"72" src=3D"http://emailmerci.fr/media/BMWs=
+eri3/img_template_4_17.jpg" style=3D"display:block" width=3D"205" /></a></t=
+d>
+								</tr>
+								<tr>
+									<td align=3D"center" height=3D"89" valign=3D"top"><font color=3D"#=
+000000" face=3D"Arial, Helvitica, sans-serif" size=3D"1" style=3D"font-size=
+:11px;">Une ligne redessin&eacute;e, des mat&eacute;riaux<br />
+									nobles et des nouvelles finitions<br />
+									d&#39;exception sont propos&eacute;s sur les<br />
+									Nouvelles BMW S&eacute;rie 3 Berline<br />
+									et Touring.</font></td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+						<td valign=3D"bottom" width=3D"3"><img border=3D"0" height=3D"148" sr=
+c=3D"http://emailmerci.fr/media/BMWseri3/img_template_4_16_25.jpg" style=3D=
+"display:block" width=3D"3" /></td>
+						<td valign=3D"top" width=3D"203">
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%=
+">
+							<tbody>
+								<tr>
+									<td><a href=3D"http://mesautomobiles.com/ga/click/2-11527895-18-90=
+3-1728-12082-fb76927257-6fb5678ce3" target=3D"_blank"><img alt=3D"BMW S=C3=
+=A9rie 3" border=3D"0" height=3D"155" src=3D"http://emailmerci.fr/media/BMW=
+seri3/img_template_4_14.jpg" style=3D"display:block" width=3D"203" /></a></=
+td>
+								</tr>
+								<tr>
+									<td><a href=3D"http://mesautomobiles.com/ga/click/2-11527895-18-90=
+3-1728-12082-fb76927257-6fb5678ce3" target=3D"_blank"><img alt=3D"BMW S=C3=
+=A9rie 3" border=3D"0" height=3D"72" src=3D"http://emailmerci.fr/media/BMWs=
+eri3/img_template_4_18.jpg" style=3D"display:block" width=3D"203" /></a></t=
+d>
+								</tr>
+								<tr>
+									<td align=3D"center" height=3D"89" valign=3D"top"><font color=3D"#=
+000000" face=3D"Arial, Helvitica, sans-serif" size=3D"1" style=3D"font-size=
+:11px;">D&eacute;couvrez le style<br />
+									et le confort d&#39;utilisation<br />
+									de l&#39;&eacute;l&eacute;gante signature<br />
+									lumineuse des Nouvelles<br />
+									BMW S&eacute;rie 3.</font></td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+						<td valign=3D"bottom" width=3D"3"><img border=3D"0" height=3D"148" sr=
+c=3D"http://emailmerci.fr/media/BMWseri3/img_template_4_16_25.jpg" style=3D=
+"display:block" width=3D"3" /></td>
+						<td valign=3D"top" width=3D"206">
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%=
+">
+							<tbody>
+								<tr>
+									<td><a href=3D"http://mesautomobiles.com/ga/click/2-11527895-18-90=
+3-1728-12082-fb76927257-6fb5678ce3" target=3D"_blank"><img alt=3D"BMW S=C3=
+=A9rie 3" border=3D"0" height=3D"155" src=3D"http://emailmerci.fr/media/BMW=
+seri3/img_template_4_16.jpg" style=3D"display:block" width=3D"206" /></a></=
+td>
+								</tr>
+								<tr>
+									<td><a href=3D"http://mesautomobiles.com/ga/click/2-11527895-18-90=
+3-1728-12082-fb76927257-6fb5678ce3" target=3D"_blank"><img alt=3D"BMW S=C3=
+=A9rie 3" border=3D"0" height=3D"72" src=3D"http://emailmerci.fr/media/BMWs=
+eri3/img_template_4_19.jpg" style=3D"display:block" width=3D"206" /></a></t=
+d>
+								</tr>
+								<tr>
+									<td align=3D"center" height=3D"89" valign=3D"top"><font color=3D"#=
+000000" face=3D"Arial, Helvitica, sans-serif" size=3D"1" style=3D"font-size=
+:11px;">Technologie BMW ConnectedDrive<br />
+									avec carte sim int&eacute;gr&eacute;e,<br />
+									trafic en temps r&eacute;el.<br />
+									Profitez du meilleur des<br />
+									services BMW.</font></td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			</td>
+		</tr>
+		<!--[if !mso]><!-->
+		<tr class=3D"hide" height=3D"0" style=3D"line-height:18px; display:none; =
+font-size:0px; max-height:0px;=20
+			height:0px; float:left; overflow:hidden">
+			<td align=3D"center">
+			<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"310">
+				<tbody>
+					<tr>
+						<td><a href=3D"http://mesautomobiles.com/ga/click/2-11527895-18-903-1=
+728-12082-fb76927257-6fb5678ce3" target=3D"_blank"><img alt=3D"BMW S=C3=A9r=
+ie 3" border=3D"0" height=3D"180" src=3D"http://emailmerci.fr/media/BMWseri=
+3/img_bmw_03_mobile_09.jpg" style=3D"display:block" width=3D"310" /></a></t=
+d>
+					</tr>
+					<tr>
+						<td><a href=3D"http://mesautomobiles.com/ga/click/2-11527895-18-903-1=
+728-12082-fb76927257-6fb5678ce3" target=3D"_blank"><img alt=3D"BMW S=C3=A9r=
+ie 3" border=3D"0" height=3D"69" src=3D"http://emailmerci.fr/media/BMWseri3=
+/img_bmw_03_mobile_10.jpg" style=3D"display:block" width=3D"310" /></a></td>
+					</tr>
+					<tr>
+						<td align=3D"center" height=3D"64" valign=3D"top"><font color=3D"#000=
+000" face=3D"Arial, Helvitica, sans-serif" size=3D"1" style=3D"font-size:11=
+px;line-height:13px;">Une ligne redessin&eacute;e, des mat&eacute;riaux nob=
+les<br />
+						et des nouvelles finitions d&#39;exception sont propos&eacute;s<br />
+						sur les Nouvelles BMW S&eacute;rie 3 Berline et Touring.</font></td>
+					</tr>
+				</tbody>
+			</table>
+
+			<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"310">
+				<tbody>
+					<tr>
+						<td><a href=3D"http://mesautomobiles.com/ga/click/2-11527895-18-903-1=
+728-12082-fb76927257-6fb5678ce3" target=3D"_blank"><img alt=3D"BMW S=C3=A9r=
+ie 3" border=3D"0" height=3D"181" src=3D"http://emailmerci.fr/media/BMWseri=
+3/img_bmw_03_mobile_12.jpg" style=3D"display:block" width=3D"310" /></a></t=
+d>
+					</tr>
+					<tr>
+						<td><a href=3D"http://mesautomobiles.com/ga/click/2-11527895-18-903-1=
+728-12082-fb76927257-6fb5678ce3" target=3D"_blank"><img alt=3D"BMW S=C3=A9r=
+ie 3" border=3D"0" height=3D"67" src=3D"http://emailmerci.fr/media/BMWseri3=
+/img_bmw_03_mobile_13.jpg" style=3D"display:block" width=3D"310" /></a></td>
+					</tr>
+					<tr>
+						<td align=3D"center" height=3D"79" valign=3D"top"><font color=3D"#000=
+000" face=3D"Arial, Helvitica, sans-serif" size=3D"1" style=3D"font-size:11=
+px;line-height:13px;">D&eacute;couvrez le style et le confort d&#39;utilisa=
+tion de l&#39;&eacute;l&eacute;gante<br />
+						signature lumineuse des Nouvelles BMW S&eacute;rie 3.</font></td>
+					</tr>
+				</tbody>
+			</table>
+
+			<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"310">
+				<tbody>
+					<tr>
+						<td><a href=3D"http://mesautomobiles.com/ga/click/2-11527895-18-903-1=
+728-12082-fb76927257-6fb5678ce3" target=3D"_blank"><img alt=3D"BMW S=C3=A9r=
+ie 3" border=3D"0" height=3D"181" src=3D"http://emailmerci.fr/media/BMWseri=
+3/img_bmw_03_mobile_15.jpg" style=3D"display:block" width=3D"310" /></a></t=
+d>
+					</tr>
+					<tr>
+						<td><a href=3D"http://mesautomobiles.com/ga/click/2-11527895-18-903-1=
+728-12082-fb76927257-6fb5678ce3" target=3D"_blank"><img alt=3D"BMW S=C3=A9r=
+ie 3" border=3D"0" height=3D"68" src=3D"http://emailmerci.fr/media/BMWseri3=
+/img_bmw_03_mobile_16.jpg" style=3D"display:block" width=3D"310" /></a></td>
+					</tr>
+					<tr>
+						<td align=3D"center" height=3D"64" valign=3D"top"><font color=3D"#000=
+000" face=3D"Arial, Helvitica, sans-serif" size=3D"1" style=3D"font-size:11=
+px;line-height:13px;">Technologie BMW ConnectedDrive avec carte sim<br />
+						int&eacute;gr&eacute;e, trafic en temps r&eacute;el.<br />
+						Profitez du meilleur des services BMW.</font></td>
+					</tr>
+				</tbody>
+			</table>
+			</td>
+		</tr>
+		<!--<![endif]-->
+		<tr class=3D"d_n">
+			<td bgcolor=3D"#7f7f7f">
+			<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"620">
+				<tbody>
+					<tr>
+						<td width=3D"29"></td>
+						<td height=3D"27"></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td></td>
+						<td align=3D"justify" style=3D"text-align:justify"><font color=3D"#ff=
+ffff" face=3D"Arial, Helvitica, sans-serif" size=3D"1" style=3D"font-size:8=
+px;">*A partir de 360&euro;/mois sans apport entretien et garantie inclus<b=
+r />
+						<br />
+						<br />
+						<strong>Exemple de loyer pour une BMW 316d 116 ch Berline Lounge en L=
+ocation Longue Dur&eacute;e sur 36 mois et pour 45 000 km. 36 loyers lin&ea=
+cute;aires hors assurances facultatives : 333,24 &euro;/mois.</strong> Cont=
+rat national d&#39;entretien facultatif au prix de 26,76 &euro;/mois pour 3=
+6 mois et/ou 45 000 km (au 1er des deux termes atteint) comprenant l&#39;en=
+tretien, l&#39;assistance du v&eacute;hicule, le v&eacute;hicule relais pan=
+ne cat&eacute;gorie B pendant 5 jours maximum, souscrit aupr&egrave;s de BM=
+W Finance. Co&ucirc;t total du contrat d&#39;entretien : 963,36 &euro;. Off=
+re r&eacute;serv&eacute;e aux particuliers valable pour toute commande d&#3=
+9;une BMW 316d 116 ch Berline Lounge <strong>avant le 30/09/15</strong> dan=
+s les concessions BMW participantes. Sous r&eacute;serve d&#39;acceptation =
+par BMW Finance SNC au capital de 87 000 000 &euro; RCS Versailles B 343 60=
+6 448 TVA FR 65 343 606 448. Etablissement de Cr&eacute;dit Sp&eacute;ciali=
+s&eacute; agr&eacute;&eacute; par l&#39;Autorit&eacute; de Contr&ocirc;le P=
+rudentiel et de R&eacute;solution sous le n&deg;14670 Courtier en Assurance=
+s immatricul&eacute; &agrave; l&#39;ORIAS sous le n&deg;07&nbsp; 008 883. V=
+&eacute;rifiable sur <a href=3D"http://mesautomobiles.com/ga/click/2-115278=
+95-18-903-1728-12081-bae7c51e40-6fb5678ce3" style=3D"color:#ffffff" target=
+=3D"_blank">www.orias.fr</a>. Consommations de la BMW 316d 116 ch Berline L=
+ounge :3,9 l/100. Emissions de CO2 : 102g/km selon la norme Europ&eacute;en=
+ne NEDC. L&#39;ext&eacute;rieur du v&eacute;hicule comporte des &eacute;qui=
+pements en option.<br />
+						<br />
+						Conform&eacute;ment &agrave; la Loi Informatique et Libert&eacute;s d=
+u 06/01/1978, vous disposez d&#39;un droit d&#39;acc&egrave;s, de rectifica=
+tion et de suppression des donn&eacute;es vous concernant et d&#39;oppositi=
+on &agrave; leur traitement. </font></td>
+						<td align=3D"left" width=3D"29"></td>
+					</tr>
+					<tr>
+						<td></td>
+						<td height=3D"28"></td>
+						<td></td>
+					</tr>
+				</tbody>
+			</table>
+			</td>
+		</tr>
+		<!--[if !mso]><!-->
+		<tr class=3D"hide" height=3D"0" style=3D"line-height:18px; display:none; =
+font-size:0px; max-height:0px;=20
+			height:0px; float:left; overflow:hidden">
+			<td align=3D"center" bgcolor=3D"#d8d8d8">
+			<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"310">
+				<tbody>
+					<tr>
+						<td width=3D"30"></td>
+						<td height=3D"38"></td>
+						<td width=3D"29"></td>
+					</tr>
+					<tr>
+						<td></td>
+						<td align=3D"justify" style=3D"text-align:justify;line-height: 13px !=
+important;"><font color=3D"#494949" face=3D"Arial, Helvitica, sans-serif" s=
+ize=3D"1" style=3D"font-size:9px;">*A partir de 360&euro;/mois sans apport =
+entretien et garantie inclus<br />
+						<br />
+						<br />
+						<strong>Exemple de loyer pour une BMW 316d 116 ch Berline Lounge en L=
+ocation Longue Dur&eacute;e sur 36 mois et pour 45 000 km. 36 loyers lin&ea=
+cute;aires hors assurances facultatives : 333,24 &euro;/mois.</strong> Cont=
+rat national d&#39;entretien facultatif au prix de 26,76 &euro;/mois pour 3=
+6 mois et/ou 45 000 km (au 1er des deux termes atteint) comprenant l&#39;en=
+tretien, l&#39;assistance du v&eacute;hicule, le v&eacute;hicule relais pan=
+ne cat&eacute;gorie B pendant 5 jours maximum, souscrit aupr&egrave;s de BM=
+W Finance. Co&ucirc;t total du contrat d&#39;entretien : 963,36 &euro;. Off=
+re r&eacute;serv&eacute;e aux particuliers valable pour toute commande d&#3=
+9;une BMW 316d 116 ch Berline Lounge <strong>avant le 30/09/15</strong> dan=
+s les concessions BMW participantes. Sous r&eacute;serve d&#39;acceptation =
+par BMW Finance SNC au capital de 87 000 000 &euro; RCS Versailles B 343 60=
+6 448 TVA FR 65 343 606 448. Etablissement de Cr&eacute;dit Sp&eacute;ciali=
+s&eacute; agr&eacute;&eacute; par l&#39;Autorit&eacute; de Contr&ocirc;le P=
+rudentiel et de R&eacute;solution sous le n&deg;14670 Courtier en Assurance=
+s immatricul&eacute; &agrave; l&#39;ORIAS sous le n&deg;07&nbsp; 008 883. V=
+&eacute;rifiable sur <a href=3D"http://mesautomobiles.com/ga/click/2-115278=
+95-18-903-1728-12081-bae7c51e40-6fb5678ce3" style=3D"color:#494949" target=
+=3D"_blank">www.orias.fr</a>. <strong>Consommations de la BMW 316d 116 ch B=
+erline Lounge :3,9 l/100. Emissions de CO2</strong> : 102g/km selon la norm=
+e Europ&eacute;enne NEDC. L&#39;ext&eacute;rieur du v&eacute;hicule comport=
+e des &eacute;quipements en option.<br />
+						<br />
+						Conform&eacute;ment &agrave; la Loi Informatique et Libert&eacute;s d=
+u 06/01/1978, vous disposez d&#39;un droit d&#39;acc&egrave;s, de rectifica=
+tion et de suppression des donn&eacute;es vous concernant et d&#39;oppositi=
+on &agrave; leur traitement. </font></td>
+						<td align=3D"left" width=3D"29"></td>
+					</tr>
+					<tr>
+						<td></td>
+						<td height=3D"27"></td>
+						<td></td>
+					</tr>
+				</tbody>
+			</table>
+			</td>
+		</tr>
+		<!--<![endif]-->
+		<tr>
+			<td height=3D"20"></td>
+		</tr>
+	</tbody>
+</table>
+
+<center><a href=3D"http://mesautomobiles.com/ga/unsubscribe/2-11527895-18-9=
+03-1728-ed35df89ef15825-6fb5678ce3">Je souhaite me d=C3=A9sinscrire et ne p=
+lus recevoir les newsletters</a>
+ <img alt=3D"track" height=3D"1" src=3D"http://er.sociabiliweb.fr/EREO/E/45=
+8/730c3/resp-m2-miage@univ-rennes1.fr/pixel.gif" />=20
+ <img alt=3D"track" height=3D"1" src=3D"http://asset.email-match.com/849/as=
+set?type=3DIMG&optin=3D1&email=3Dresp-m2-miage@univ-rennes1.fr" width=3D"1"=
+ />
+ <img alt=3D"track" height=3D"1" src=3D"http://adtrack.adleadevent.com/adtc=
+krtg.php?ids=3D37&email=3Dresp-m2-miage@univ-rennes1.fr" /> </center><img s=
+rc=3D"http://mesautomobiles.com/ga/open/2-11527895-18-903-1728-6fb5678ce3" =
+height=3D"2" width=3D"3" alt=3D""></body>
+</html>
+
+--==a4c2219ca7ff3ed0af3f9957d3d12a6a--

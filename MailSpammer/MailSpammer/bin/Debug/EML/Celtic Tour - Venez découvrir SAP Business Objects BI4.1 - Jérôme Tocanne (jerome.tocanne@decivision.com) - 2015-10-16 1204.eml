@@ -1,0 +1,406 @@
+Return-Path: <8448-422-0-0000000562@sbr33.net>
+Received: from mailimailo.univ-rennes1.fr ([unix socket])
+	 by mailimailo.univ-rennes1.fr (Cyrus v2.3.16-Fedora-RPM-2.3.16-6.el6_2.5) with LMTPA;
+	 Fri, 16 Oct 2015 12:08:15 +0200
+X-Sieve: CMU Sieve 2.3
+Received: from vmsmtprexch.univ-rennes1.fr (vmsmtprexch.univ-rennes1.fr [129.20.128.62])
+	by mailimailo.univ-rennes1.fr (Postfix) with ESMTP id 706B926A0C4D
+	for <resp-m2-miage@univ-rennes1.fr>; Fri, 16 Oct 2015 12:08:15 +0200 (CEST)
+Received: from mbcasexch3.Ur.local (mbcasexch3.univ-rennes1.fr [129.20.125.131])
+	by vmsmtprexch.univ-rennes1.fr (Postfix) with ESMTP id 6D2E9194
+	for <resp-m2-miage@univ-rennes1.fr>; Fri, 16 Oct 2015 12:08:15 +0200 (CEST)
+X-CrossPremisesHeadersFilteredBySendConnector: mbcasexch3.Ur.local
+Received: from mbcasexch1.Ur.local (2002:8114:7d81::8114:7d81) by
+ mbcasexch3.Ur.local (2002:8114:7d83::8114:7d83) with Microsoft SMTP Server
+ (TLS) id 15.0.913.22; Fri, 16 Oct 2015 12:08:15 +0200
+Received: from mailout1.univ-rennes1.fr (129.20.128.162) by
+ mbcasexch1.Ur.local (129.20.125.129) with Microsoft SMTP Server id
+ 15.0.913.22 via Frontend Transport; Fri, 16 Oct 2015 12:08:14 +0200
+Received: from localhost (vmscanmail.univ-rennes1.fr [129.20.128.134])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id 189CE603F9
+	for <resp-m2-miage@univ-rennes1.fr>; Fri, 16 Oct 2015 12:08:15 +0200 (CEST)
+X-Virus-Scanned: amavisd-new at univ-rennes1.fr
+Received: from mailout1.univ-rennes1.fr ([129.20.128.162])
+	by localhost (vmscanmail.univ-rennes1.frm [129.20.128.134]) (amavisd-new, port 10026)
+	with ESMTP id 9_Y6oG1SLw4k for <resp-m2-miage@univ-rennes1.fr>;
+	Fri, 16 Oct 2015 12:08:14 +0200 (CEST)
+Received: from vmmailin.univ-rennes1.fr (vmmailin.univ-rennes1.fr [129.20.128.133])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id EA87F603E3
+	for <resp-m2-miage@univ-rennes1.fr>; Fri, 16 Oct 2015 12:08:14 +0200 (CEST)
+Received: from mxb2-2.relay.renater.fr (mxb2-2.relay.renater.fr [194.214.200.9])
+	by vmmailin.univ-rennes1.fr (Postfix) with ESMTP id E2CA220033
+	for <resp-m2-miage@univ-rennes1.fr>; Fri, 16 Oct 2015 12:08:14 +0200 (CEST)
+Received: from mta0.sbr33.net (mta0.sbr33.net [194.242.112.43])
+	by mxb2-2.relay.renater.fr (asm) with ESMTP id A4F6160043B
+	for <resp-m2-miage@univ-rennes1.fr>; Fri, 16 Oct 2015 12:08:14 +0200 (CEST)
+Received: from sb10mta23.sarbatech.com (localhost.localdomain [127.0.0.1])
+	by mta0.sbr33.net (Postfix) with ESMTP id B64AA20884B2
+	for <resp-m2-miage@univ-rennes1.fr>; Fri, 16 Oct 2015 12:05:08 +0200 (CEST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=sbr33.net; s=mta0;
+	t=1444989908; bh=9zrBIvMvaOTQxHU96qN03EqqjF7hgeh+DWExbIN0MEw=;
+	h=Date:From:Reply-To:To:Subject:List-Unsubscribe;
+	b=mf+Q9eWiJna05cR28RuzpaF6GC3oyu5md9bfVnjL4WAyVVoYfueAFGKWyCUEHahN/
+	 6rYZ0WBYYvCu7qg4YD09K9nPI+D1SjwLzgbpP4Gs3sarj2IoZ6eSCPlHB6mksIf0Xu
+	 zM6pteBat95cBuAhqywIbuaRoUyVPaJtcMSRfu+4=
+Date: Fri, 16 Oct 2015 12:04:36 +0200
+From: =?utf-8?Q?J=C3=A9r=C3=B4me_Tocanne?= <jerome.tocanne@decivision.com>
+Reply-To: =?utf-8?Q?J=C3=A9r=C3=B4me_Tocanne?= <jerome.tocanne@decivision.com>
+To: <resp-m2-miage@univ-rennes1.fr>
+Message-ID: <8448-422-0-0000000562@sbr33.net>
+Subject: =?utf-8?Q?Celtic_Tour_-_Venez_d=C3=A9couvrir_SAP_Business_Objects?=
+	=?utf-8?Q?_BI4=2E1?=
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_Part_3503001_1165852398.1444989899588"
+Importance: high
+Organization: DeciVision
+X-Priority: 1
+List-Unsubscribe: <http://www.decivision.com/download/newsletter.php?3&8448-133&7&Ue7WOrVYDH%2FI1%2FVaagTHFg>
+Sender: <jerome.tocanne=decivision.com@sbr33.net>
+X-virtual-MTA: mta0
+X-Mailer: Professional Routing Service
+X-UCE-Status: YES
+X-UCE-Type: PCE
+X-Original-Source-IP: 194.242.112.43
+X-Bizanga: IMP - mxb2-2.relay.renater.fr
+X-Renater-SpamState: 10
+X-Renater-SpamScore: 7
+X-Renater-SpamCause: gggruggvucftvghtrhhoucdtuddrfeekgedrledugddvhecutefuodetggdotefrucfrrhhofhhilhgvmecutffgpfetvffgtfdpggftfghnshhusghstghrihgsvgenuceurghilhhouhhtmecufedttdenucftohhuthgvrhdqqdfurghrsggrtggrnhgvucdljedmnecujfgurhepfffhrhfvkffugggtkghorffjshfosegrtdersgertdejnecuhfhrohhmpeflrohrlphmvggpvfhotggrnhhnvgcuoehjvghrohhmvgdrthhotggrnhhnvgesuggvtghivhhishhiohhnrdgtohhmqeenucffohhmrghinhepuggvtghivhhishhiohhnrdgtohhmnecurfgrrhgrmhepmhhouggvpehsmhhtphdphhgvlhhopehmthgrtddrshgsrheffedrnhgvthdpihhnvghtpeduleegrddvgedvrdduuddvrdegfedpmhgrihhlfhhrohhmpeekgeegkedqgedvvddqtddqtddttddttddttdehiedvsehssghrfeefrdhnvghtpdhrtghpthhtoheprhgvshhpqdhmvddqmhhirghgvgesuhhnihhvqdhrvghnnhgvshdurdhfrh 
+X-Renater-ServerName: mxb2-2.relay.renater.fr
+X-OrganizationHeadersPreserved: mbcasexch3.Ur.local
+
+------=_Part_3503001_1165852398.1444989899588
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Si ce message ne s'affiche pas correctement, vous pouvez le visualiser ici =
+( "http://www.decivision.com/webinars2015/CelticTour/invitation_rappel.php"=
+ ).
+
+
+en partenariat avec
+
+vous invite au
+ CELTIC TOUR 2015
+Nantes - Rennes - Brest
+
+
+Plus que quelques jours pour vous inscrire ...
+
+Les 3, 4 et 5 Novembre 2015,
+DeciVision vient =C3=A0 votre rencontre
+pour vous pr=C3=A9senter
+Les derni=C3=A8res innovations SAP Business Objects BI4.1
+
+
+=C2=A0=C2=A0=C2=A0=C2=A0 =C2=A0 Agenda
+=C2=A0=C2=A0=C2=A0=C2=A008h30 : Accueil et petit-d=C3=A9jeuner
+=C2=A0=C2=A0=C2=A0=C2=A009h00 : Introduction
+=C2=A0=C2=A0=C2=A0=C2=A009h15 : Les nouvelles fonctionnalit=C3=A9s de la su=
+ite BI 4.1
+=C2=A0=C2=A0=C2=A0=C2=A009h45 : SAP Lumira pour l'exploitation interactive =
+des donn=C3=A9es
+=C2=A0=C2=A0=C2=A0=C2=A010h15 : Pause
+=C2=A0=C2=A0=C2=A0=C2=A010h30 : GeoBI pour la cr=C3=A9ation de Tableaux de =
+Bord Cartographiques
+=C2=A0=C2=A0=C2=A0=C2=A011h00 : Predictive Analytics pour pr=C3=A9voir les =
+tendances =C3=A0 partir de vos donn=C3=A9es m=C3=A9tiers
+=C2=A0=C2=A0=C2=A0=C2=A011h30 : La Suite 360 pour l'administration SAP Busi=
+ness Objects
+=C2=A0=C2=A0=C2=A0=C2=A012h00 : La marche =C3=A0 suivre pour migrer en BI 4=
+.1
+=C2=A0=C2=A0=C2=A0=C2=A012h30 : Cocktail dinatoire
+
+
+
+ =C2=A0=C2=A0=C2=A0=C2=A0 =C2=A0 Intervenants J=C3=A9r=C3=B4me Tocanne, Dir=
+ecteur G=C3=A9n=C3=A9ral, DeciVision Olivier H=C3=A9bert, Directeur Techniq=
+ue, DeciVision Joachim Thibaut, Ing=C3=A9nieur d'Affaires, DeciVision Franc=
+k Bonnamour, Partner Business Manager SAP David Gangarossa, Ing=C3=A9nieur =
+d'Affaires Business Geografic David Duplantier, Ing=C3=A9nieur d'Affaires G=
+B&Smith Cl=C3=A9ment Lefebvre, Avant-Vente GB&Smith
+
+
+
+Le 3 Novembre =C3=A0 Nantes
+Horaire : de 08h30 =C3=A0 13h30
+
+Lieu : Hotel WESTOTEL
+34 Rue de la Vri=C3=A8re
+44240 LA CHAPELLE SUR ERDRE
+
+
+
+Plan d'acc=C3=A8s ( "https://www.google.fr/maps/place/Westotel+Nantes+Atlan=
+tique/@47.282715,-1.550413,15z/data=3D!4m2!3m1!1s0x0:0x20ff49df18a4ca9f" )
+
+
+
+
+( "http://www.decivision.com/webinars2015/CelticTour/form_inscr_Nantes.php"=
+ )
+Le 4 Novembre =C3=A0 Rennes
+Horaire : de 08h30 =C3=A0 13h30
+
+Lieu : Hotel NOVOTEL
+22 avenue Janvier
+35000 RENNES
+
+
+
+Plan d'acc=C3=A8s ( "https://www.google.fr/maps/place/Hotel+Novotel+Rennes+=
+Centre+Gare/@48.1056477,-1.6730167,15z/data=3D!4m2!3m1!1s0x0:0x40703c73f180=
+113b?sa=3DX&ved=3D0CHEQ_BIwC2oVChMIye7w3veqyAIVAn4aCh3yjArD" )
+
+
+
+
+( "http://www.decivision.com/webinars2015/CelticTour/form_inscr_Rennes.php"=
+ )
+Le 5 Novembre =C3=A0 Brest
+Horaire : de 08h30 =C3=A0 13h30
+
+Lieu : Hotel OCEANIA
+82, rue de Siam
+29200 BREST
+
+
+
+Plan d'acc=C3=A8s ( "https://www.google.fr/maps/place/H%C3%B4tel+Oceania+Br=
+est+Centre/@48.389161,-4.4901317,17z/data=3D!3m1!4b1!4m2!3m1!1s0x4816b95853=
+eaa0b9:0xf22cff99d97634d9" )
+
+
+
+
+( "http://www.decivision.com/webinars2015/CelticTour/form_inscr_Brest.php" =
+)
+Si vous ne souhaitez plus recevoir d'email de notre part, merci de cliquer =
+ici ( "mailto:nomail@decivision.com&subject=3DD=C3=A9sabonnement newsletter=
+" )
+
+------=_Part_3503001_1165852398.1444989899588
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<HTML>
+<HEAD>
+
+</HEAD>
+<BODY>
+<FONT size=3D2 face=3Dverdana>
+<CENTER>
+<FONT color=3Dgrey size=3D1>
+Si ce message ne s'affiche pas correctement, vous pouvez le <A href=3D"http=
+://www.decivision.com/download/newsletter.php?3&amp;8448-133&amp;8&amp;Ue7W=
+OrVYDH%2FI1%2FVaagTHFg">visualiser ici</A>.
+</FONT>
+
+<br><br>
+
+<table width=3D800 border=3D0>
+<tr>
+<td valign=3D"top">
+<table width=3D800 border=3D0>
+=09<tr>
+=09=09<td colspan=3D3 width=3D100% align=3Dcenter><IMG src=3D"http://www.de=
+civision.com/webinars2015/CelticTour/images/logoDV.gif"></td>
+=09</tr>
+=09<tr>
+=09=09<td width=3D100% align=3Dcenter colspan=3D"3"><FONT color=3D#335384 s=
+ize=3D5 face=3Darial>en partenariat avec</td>
+=09</tr>
+=09<tr>
+=09=09<td width=3D30% align=3Dcenter><IMG src=3D"http://www.decivision.com/=
+webinars2015/CelticTour/images/Logo GBS.png" width=3D"150"></td>
+=09=09<td width=3D30% align=3Dcenter><IMG src=3D"http://www.decivision.com/=
+webinars2015/CelticTour/images/logoSAP.png" width=3D"100"></td>
+=09=09<td width=3D30% align=3Dcenter><IMG src=3D"http://www.decivision.com/=
+webinars2015/CelticTour/images/logo-bg.jpg"></td>
+=09</tr>
+=09<tr>
+=09=09<td width=3D100% align=3Dcenter colspan=3D"3"><FONT color=3D#335384 s=
+ize=3D5 face=3Darial>vous invite au</td>
+=09</tr>
+</table>
+<table width=3D800 border=3D0>
+=09<tr>
+=09=09<td align=3D"center" width=3D20%><IMG src=3D"http://www.decivision.co=
+m/webinars2015/CelticTour/images/Hermine.jpg" width=3D"50"></td>
+=09=09<td align=3D"center" width=3D60%><font size=3D5 color=3D#335384><font=
+ size=3D7>CELTIC TOUR 2015</font><br><b>Nantes - Rennes - Brest</b></td>
+=09=09<td align=3D"center" width=3D20%><IMG src=3D"http://www.decivision.co=
+m/webinars2015/CelticTour/images/Hermine.jpg" width=3D"50"></td>
+=09</tr>
+</table>
+<table width=3D800 border=3D0>
+=09<tr>
+=09=09<td align=3D"center" colspan=3D2><!--<img src=3D"http://www.decivisio=
+n.com/webinars2015/CelticTour/images/Bretagne.png">--></td>
+=09</tr>
+=09<TR>
+  =09=09<TD align=3D"center" colspan=3D2>
+=09=09<br>
+=09=09<FONT color=3D#335384 size=3D5 face=3Darial>
+=09=09=09Plus que quelques jours pour vous inscrire ...
+=09=09=09<br><br>
+=09=09=09Les 3, 4 et 5 Novembre 2015,<br>
+=09=09=09DeciVision vient =C3=A0 votre rencontre<br>pour vous pr=C3=A9sente=
+r<br>
+=09=09=09<FONT color=3D#ef8800><b>Les derni=C3=A8res innovations SAP Busine=
+ss Objects BI4.1</b></FONT>
+=09=09</FONT>
+=09=09</TD>
+=09</TR>
+=09<TR>
+    =09<td width=3D50></td>
+    =09<TD width=3D554 align=3Dleft><BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;<IMG sr=
+c=3D"http://www.decivision.com/webinars2015/CelticTour/pts.png" align=3D"mi=
+ddle" border=3D"no">
+      =09&nbsp; <FONT color=3D#ef8800 size=3D2 face=3Darial><B><U>Agenda</U=
+></B></FONT> <FONT size=3D2>
+        <FONT
+      size=3D2><BR>&nbsp;&nbsp;&nbsp;&nbsp;<FONT color=3D#ef8800><B>08h30 :
+      </B></FONT>Accueil et petit-d=C3=A9jeuner <BR>&nbsp;&nbsp;&nbsp;&nbsp=
+;<FONT
+      color=3D#ef8800><B>09h00 : </B></FONT>Introduction
+      <BR>&nbsp;&nbsp;&nbsp;&nbsp;<FONT color=3D#ef8800><B>09h15 :
+      </B></FONT>Les nouvelles fonctionnalit=C3=A9s de <b>la suite BI 4.1</=
+b>
+      <BR>&nbsp;&nbsp;&nbsp;&nbsp;<FONT color=3D#ef8800><B>09h45 :
+      </B></FONT><b>SAP Lumira</b> pour l'exploitation interactive des donn=
+=C3=A9es  <BR>&nbsp;&nbsp;&nbsp;&nbsp;<FONT
+      color=3D#ef8800><B>10h15 : </B></FONT>Pause <BR>&nbsp;&nbsp;&nbsp;&nb=
+sp;<FONT color=3D#ef8800><B>10h30 :
+      </B></FONT>GeoBI pour la cr=C3=A9ation de <b>Tableaux de Bord Cartogr=
+aphiques</b><BR>&nbsp;&nbsp;&nbsp;&nbsp;<FONT color=3D#ef8800><B>11h00
+      : </B></FONT><b>Predictive Analytics</b> pour pr=C3=A9voir les tendan=
+ces =C3=A0 partir de vos donn=C3=A9es m=C3=A9tiers
+      <BR>&nbsp;&nbsp;&nbsp;&nbsp;<FONT color=3D#ef8800><B>11h30 :
+      </B></FONT>La <b>Suite 360</b> pour l'administration SAP Business Obj=
+ects
+      <BR>&nbsp;&nbsp;&nbsp;&nbsp;<FONT color=3D#ef8800><B>12h00 :
+      </B></FONT>La marche =C3=A0 suivre pour <b>migrer en BI 4.1</b><BR>&n=
+bsp;&nbsp;&nbsp;&nbsp;<FONT
+      color=3D#ef8800><B>12h30 : </B></FONT>Cocktail dinatoire<BR><BR></FON=
+T></FONT><BR>
+=09=09</TD>
+=09</TR>
+
+=09<TR>
+    =09<td width=3D50></td>
+    =09<TD width=3D554 align=3Dleft>
+=09=09&nbsp;&nbsp;&nbsp;&nbsp;<IMG src=3D"http://www.decivision.com/webinar=
+s2015/CelticTour/pts.png" align=3D"middle" border=3D"no">
+=09=09&nbsp; <FONT color=3D#ef8800 size=3D2 face=3Darial><B><U>Intervenants=
+</U></B></FONT> <FONT size=3D2>
+      <UL>
+        <LI>J=C3=A9r=C3=B4me Tocanne, Directeur G=C3=A9n=C3=A9ral, DeciVisi=
+on
+        <LI>Olivier H=C3=A9bert, Directeur Technique, DeciVision
+        <LI>Joachim Thibaut, Ing=C3=A9nieur d'Affaires, DeciVision
+        <LI>Franck Bonnamour, Partner Business Manager SAP
+        <LI>David Gangarossa, Ing=C3=A9nieur d'Affaires Business Geografic=
+=09=09
+=09=09<LI>David Duplantier, Ing=C3=A9nieur d'Affaires GB&amp;Smith
+=09=09<LI>Cl=C3=A9ment Lefebvre, Avant-Vente GB&amp;Smith
+</UL></FONT>
+=09  </TD>
+=09</TR>
+</table>
+<br><br>
+</td>
+
+<td align=3Dcenter>
+=09=09<div align=3Dleft>
+=09=09<font color=3D#335384 size=3D2 face=3Darial>
+=09=09<b>
+=09=09<br><center><font size=3D5>Le 3 Novembre =C3=A0 Nantes</font></center=
+>
+=09=09<br>Horaire : de 08h30 =C3=A0 13h30
+=09=09<br><br>Lieu : Hotel WESTOTEL
+=09=09<br>34 Rue de la Vri=C3=A8re
+=09=09<br>44240 LA CHAPELLE SUR ERDRE
+=09=09<br><br>
+=09=09<div id=3D"map_canvas"></div>
+=09=09<center><A href=3D"http://www.decivision.com/download/newsletter.php?=
+3&amp;8448-133&amp;1&amp;Ue7WOrVYDH%2FI1%2FVaagTHFg" target=3D"_blank">Plan=
+ d'acc=C3=A8s</a></center>
+=09=09<br><IMG src=3D"http://www.decivision.com/webinars2015/CelticTour/ima=
+ges/3-11-Westhotel_Img.jpg" width=3D"200">
+=09=09<br><br>
+=09=09</b>
+=09=09</font>
+=09=09</div><A href=3D"http://www.decivision.com/download/newsletter.php?3&=
+amp;8448-133&amp;2&amp;Ue7WOrVYDH%2FI1%2FVaagTHFg"><IMG border=3D"no" src=
+=3D"http://www.decivision.com/webinars2015/CelticTour/inscrit2.png" align=
+=3D"middle" border=3D"no"></A>=09
+=09=09<hr>
+=09=09<div align=3Dleft>
+=09=09<font color=3D#335384 size=3D2 face=3Darial>
+=09=09<b>
+=09=09<br><center><font size=3D5>Le 4 Novembre =C3=A0 Rennes</font></center=
+>
+=09=09<br>Horaire : de 08h30 =C3=A0 13h30=09=09
+=09=09<br><br>Lieu : Hotel NOVOTEL
+=09=09<br>22 avenue Janvier
+=09=09<br>35000 RENNES
+=09=09<br><br>
+=09=09<div id=3D"map_canvas"></div>
+=09=09<center><A href=3D"http://www.decivision.com/download/newsletter.php?=
+3&amp;8448-133&amp;3&amp;Ue7WOrVYDH%2FI1%2FVaagTHFg" target=3D"_blank">Plan=
+ d'acc=C3=A8s</a></center>
+=09=09<br><IMG src=3D"http://www.decivision.com/webinars2015/CelticTour/ima=
+ges/4-11-Novotel_Img.jpg" width=3D"200">
+=09=09<br><br>
+=09=09</b>
+=09=09</font>
+=09=09</div><A href=3D"http://www.decivision.com/download/newsletter.php?3&=
+amp;8448-133&amp;4&amp;Ue7WOrVYDH%2FI1%2FVaagTHFg"><IMG border=3D"no" src=
+=3D"http://www.decivision.com/webinars2015/CelticTour/inscrit2.png" align=
+=3D"middle" border=3D"no"></A>=09
+=09=09<hr>
+=09=09<div align=3Dleft>
+=09=09<font color=3D#335384 size=3D2 face=3Darial>
+=09=09<b>
+=09=09<br><center><font size=3D5>Le 5 Novembre =C3=A0 Brest</font></center>
+=09=09<br>Horaire : de 08h30 =C3=A0 13h30=09=09
+=09=09<br><br>Lieu : Hotel OCEANIA
+=09=09<br>82, rue de Siam
+=09=09<br>29200 BREST
+=09=09<br><br>
+=09=09<div id=3D"map_canvas"></div>
+=09=09<center><A href=3D"http://www.decivision.com/download/newsletter.php?=
+3&amp;8448-133&amp;5&amp;Ue7WOrVYDH%2FI1%2FVaagTHFg" target=3D"_blank">Plan=
+ d'acc=C3=A8s</a></center>
+=09=09<br><IMG src=3D"http://www.decivision.com/webinars2015/CelticTour/ima=
+ges/5-11-Oceania_Img.jpg" width=3D"200">
+=09=09<br><br>
+=09=09</b>
+=09=09</font>
+=09=09</div><A href=3D"http://www.decivision.com/download/newsletter.php?3&=
+amp;8448-133&amp;6&amp;Ue7WOrVYDH%2FI1%2FVaagTHFg"><IMG border=3D"no" src=
+=3D"http://www.decivision.com/webinars2015/CelticTour/inscrit2.png" align=
+=3D"middle" border=3D"no"></A>=09
+=09=09<hr>
+</td>
+</tr>
+</table>
+
+<FONT color=3Dgrey size=3D1>
+Si vous ne souhaitez plus recevoir d'email de notre part, merci de cliquer=
+=20
+   <A href=3D"http://www.decivision.com/download/newsletter.php?3&amp;8448-=
+133&amp;7&amp;Ue7WOrVYDH%2FI1%2FVaagTHFg">ici</A>
+</FONT>
+
+</CENTER>
+</FONT><img src=3D"http://www.decivision.com/download/newsletter.php?3&amp;=
+8448-133&amp;-1&amp;Ue7WOrVYDH%2FI1%2FVaagTHFg" border=3D"0" width=3D"1" he=
+ight=3D"1">
+
+
+</BODY>
+</HTML>
+
+------=_Part_3503001_1165852398.1444989899588--

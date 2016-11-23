@@ -1,0 +1,928 @@
+Return-Path: <return-a18-1916-1917-resp-m2-miage=univ-rennes1.fr=4@cuisiner-pour-tous.com>
+Received: from mailimailo.univ-rennes1.fr ([unix socket])
+	 by mailimailo.univ-rennes1.fr (Cyrus v2.3.16-Fedora-RPM-2.3.16-6.el6_2.5) with LMTPA;
+	 Mon, 19 Oct 2015 13:27:49 +0200
+X-Sieve: CMU Sieve 2.3
+Received: from vmsmtprexch.univ-rennes1.fr (vmsmtprexch.univ-rennes1.fr [129.20.128.62])
+	by mailimailo.univ-rennes1.fr (Postfix) with ESMTP id C43DC26A068A
+	for <resp-m2-miage@univ-rennes1.fr>; Mon, 19 Oct 2015 13:27:49 +0200 (CEST)
+Received: from mbcasexch2.Ur.local (mbcasexch2.univ-rennes1.fr [129.20.125.130])
+	by vmsmtprexch.univ-rennes1.fr (Postfix) with ESMTP id C01B971
+	for <resp-m2-miage@univ-rennes1.fr>; Mon, 19 Oct 2015 13:27:49 +0200 (CEST)
+X-CrossPremisesHeadersFilteredBySendConnector: mbcasexch2.Ur.local
+Received: from mbcasexch1.Ur.local (2002:8114:7d81::8114:7d81) by
+ mbcasexch2.Ur.local (2002:8114:7d82::8114:7d82) with Microsoft SMTP Server
+ (TLS) id 15.0.913.22; Mon, 19 Oct 2015 13:27:43 +0200
+Received: from mailout1.univ-rennes1.fr (129.20.128.162) by
+ mbcasexch1.Ur.local (129.20.125.129) with Microsoft SMTP Server id
+ 15.0.913.22 via Frontend Transport; Mon, 19 Oct 2015 13:27:43 +0200
+Received: from localhost (vmscanmail.univ-rennes1.fr [129.20.128.134])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id 54D3060097
+	for <resp-m2-miage@univ-rennes1.fr>; Mon, 19 Oct 2015 13:27:43 +0200 (CEST)
+X-Virus-Scanned: amavisd-new at univ-rennes1.fr
+Received: from mailout1.univ-rennes1.fr ([129.20.128.162])
+	by localhost (vmscanmail.univ-rennes1.frm [129.20.128.134]) (amavisd-new, port 10026)
+	with ESMTP id K-pQkwhR7YAu for <resp-m2-miage@univ-rennes1.fr>;
+	Mon, 19 Oct 2015 13:27:43 +0200 (CEST)
+Received: from vmmailin.univ-rennes1.fr (vmmailin.univ-rennes1.fr [129.20.128.133])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id 2DD6360008
+	for <resp-m2-miage@univ-rennes1.fr>; Mon, 19 Oct 2015 13:27:43 +0200 (CEST)
+Received: from mxb1-1.relay.renater.fr (mxb1-1.relay.renater.fr [194.214.201.8])
+	by vmmailin.univ-rennes1.fr (Postfix) with ESMTP id 25A7E20033
+	for <resp-m2-miage@univ-rennes1.fr>; Mon, 19 Oct 2015 13:27:43 +0200 (CEST)
+Received: from smtp1-34.revue-en-ligne.com (smtp1-34.revue-en-ligne.com [5.196.213.221])
+	by mxb1-1.relay.renater.fr (asm) with SMTP id DFB156000C9
+	for <resp-m2-miage@univ-rennes1.fr>; Mon, 19 Oct 2015 13:27:42 +0200 (CEST)
+Received: (GreenArrow 2718 invoked by uid 410); 19 Oct 2015 11:27:42 -0000
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed;
+	d=cuisiner-pour-tous.com; s=default; h=Subject:From:To:Date:
+	List-Unsubscribe:Message-ID:MIME-Version:Content-Type; bh=Ws+Ob5
+	CMqcp030HuFjkrInkf0JY=; b=ja/6xhyQJyBdxu/qYu78vwlsIzj7nIwwjzTBwm
+	ZGq7kS/oIOkYQ9bQc4JvX6gRBP19Q0e7qNKktril6DGUQSO9USG6GWE37YOQyW0L
+	X/VnKLCV9wGRq2ec2/ruL7Kzp/vJZPPVgAjoCaAkr52XT5oCBiJmZeOI9mjF7wv4
+	0ObtA=
+Subject: =?UTF-8?Q?Petits=20prix=20de=20saison=20=3A=20s=C3=A9jour?=
+ =?UTF-8?Q?s=2C=20croisi=C3=A8res=20et=20week=2Dends=20d=C3=A8s=2069?=
+ =?UTF-8?Q?=20euros?=
+From: =?UTF-8?B?VmFjYW5jZXMgUsOpdXNzaWVzIHBhciBTb2NpYWJpbGl3ZWI=?=
+	<news@cuisiner-pour-tous.com>
+To: <resp-m2-miage@univ-rennes1.fr>
+Date: Mon, 19 Oct 2015 11:27:42 +0000
+List-Unsubscribe: <http://cuisiner-pour-tous.com/ga/unsubscribe/2-11527895-18-1001-1917-ed35df89ef15825-9bc92ae921>,
+ <mailto:return-a18-1916-1917-resp-m2-miage=univ-rennes1.fr=4u@cuisiner-pour-tous.com>
+X-Mailer: GreenArrow Studio (v4.65.0)
+X-CampaignID: s4:1916-5d3feb411f7329e4
+Message-ID: <mid-9945484fadd25370979dbe31b600d515@cuisiner-pour-tous.com>
+X-Mailer-Info: 4.hFDO.QM5EjN.IXZzBXLtJTLtlWYnVGQ15Wa21icl5mblNXMuYmc.QM5EzN
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="==9afefc55b2320829a5c971bcccdabdd8"
+X-UCE-Status: YES
+X-UCE-Type: MCE
+X-Original-Source-IP: 5.196.213.221
+X-Bizanga: IMP - mxb1-1.relay.renater.fr
+X-Renater-SpamState: 11
+X-Renater-SpamScore: 17
+X-Renater-SpamCause: gggruggvucftvghtrhhoucdtuddrfeekgedrleeigdegvdcutefuodetggdotefrucfrrhhofhhilhgvmecutffgpfetvffgtfdpggftfghnshhusghstghrihgsvgenuceurghilhhouhhtmecufedttdenucdnofetkffnkffpifculddujedmnecujfgurhepuffhvfffjffokfggtgesrgdtreerredtjeenucfhrhhomhepgggrtggrnhgtvghsucftrohushhsihgvshcuphgrrhcuufhotghirggsihhlihifvggsuceonhgvfihssegtuhhishhinhgvrhdqphhouhhrqdhtohhushdrtghomheqnecuffhomhgrihhnpegtuhhishhinhgvrhdqphhouhhrqdhtohhushdrtghomhenucfrrghrrghmpehmohguvgepshhmthhppdhhvghlohepshhmthhpuddqfeegrdhrvghvuhgvqdgvnhdqlhhighhnvgdrtghomhdpihhnvghtpeehrdduleeirddvudefrddvvddupdhmrghilhhfrhhomheprhgvthhurhhnqdgrudekqdduleduiedqudeludejqdhrvghsphdqmhdvqdhmihgrghgvpehunhhivhdqrhgvnhhnvghsuddrfhhrpeegsegtuhhishhinhgvrhdqphhouhhrqdhtohhushdrtghomhdprhgtphhtthhopehrvghsphdqmhdvqdhmihgrghgvsehunhhivhdqrhgvnhhnvghsuddrfhhr 
+X-Renater-ServerName: mxb1-1.relay.renater.fr
+X-OrganizationHeadersPreserved: mbcasexch2.Ur.local
+
+--==9afefc55b2320829a5c971bcccdabdd8
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+Vacances r=C3=A9ussies.com - FLASH DERNIERES MINUTES
+
+Locasun VP
+Locasun VP=09=20
+VENTE FLASH WEEK-ENDS
+Partez jusqu'=C3=A0 -76%
+=C3=80 partir de 69=E2=82=AC	D=C3=89COUVRIR=20
+ABCroisi=C3=A8re
+ABCroisi=C3=A8re=09=20
+EXCLU CROISIERES 5* COSTA
+Bal=C3=A9ares, Italie, Sicile, Gr=C3=A8ce
+=C3=80 partir de 389=E2=82=AC	D=C3=89COUVRIR=20
+Locasun VP
+Locasun VP=09=20
+ARCACHON DUNE DU PYLA 3*
+4j/3n en appt 47m=C2=B2
+=C3=80 partir de 96=E2=82=AC	D=C3=89COUVRIR=20
+Carrefour Voyages
+Carrefour Voyages=09=20
+GRANDE CANARIE 4* ALL IN
+8j/7n en formule tout compris
+=C3=80 partir de 499=E2=82=AC	D=C3=89COUVRIR=20
+Promo Croisi=C3=A8re
+Promo Croisi=C3=A8re=09=20
+CROISIERE MSC 4* CUBA
+Vol inclus 9j/8n pens. compl=C3=A8te
+=C3=80 partir de 1374=E2=82=AC	D=C3=89COUVRIR=20
+Locasun VP
+Locasun VP=09=20
+CHATEAUX DE LA LOIRE 3*
+3j/2n en chalet 4 personnes
+=C3=80 partir de 89=E2=82=AC	D=C3=89COUVRIR=20
+Carrefour Voyages
+Carrefour Voyages=09=20
+VALFREJUS SKI TOUT COMPRIS
+8j/7n + location skis + forfait
+=C3=80 partir de 249=E2=82=AC	D=C3=89COUVRIR=20
+Locasun VP
+Locasun VP=09=20
+NORMANDIE B'O RESORT & SPA
+3j/2n en appt 39m=C2=B2
+=C3=80 partir de 103=E2=82=AC	D=C3=89COUVRIR=20
+* Les prix affich=C3=A9s sur cette newsletter ont =C3=A9t=C3=A9 relev=C3=A9=
+s sur les sites internets mentionn=C3=A9s le 14/10/2015 =C3=A0 15h.
+
+--==9afefc55b2320829a5c971bcccdabdd8
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w=
+3.org/TR/REC-html40/loose.dtd">
+<html>
+<head>
+	<meta content=3D"text/html; charset=3Dutf-8" http-equiv=3D"Content-Type" />
+	<title>VacancesReussies.com - FLASH DERNI&Egrave;RES MINUTES</title>
+</head>
+<body style=3D"background-color:#CECCC8;"><!-- BANNIERE: FLASH DERNIERES MI=
+NUTES -->
+<div style=3D"background-color:#CECCC8;">
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0">
+	<tbody>
+		<tr>
+			<td>
+			<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ width=3D"650">
+				<tbody>
+					<tr>
+						<td bgcolor=3D"#F6F6F6"><a href=3D"http://cuisiner-pour-tous.com/ga/c=
+lick/2-11527895-18-1001-1917-13278-833e92fa95-9bc92ae921" target=3D"_blank"=
+><img alt=3D"Vacances r=C3=A9ussies.com - FLASH DERNIERES MINUTES" border=
+=3D"0" height=3D"150" src=3D"http://vacancesreussies.com/newsletter/2015_fl=
+ash/haeder_bp.jpg" style=3D"display:block;" width=3D"650" /></a></td>
+					</tr>
+					<tr>
+						<td bgcolor=3D"#FFFFFF"><img border=3D"0" height=3D"12" src=3D"http:/=
+/46.101.7.34/vacances/vr-151015/header_under.gif" style=3D"display:block;" =
+width=3D"650" /></td>
+					</tr>
+				</tbody>
+			</table>
+			<!-- CONTENU BDD(INFOS) -->
+
+			<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ width=3D"650">
+				<tbody>
+					<tr>
+						<td align=3D"left" bgcolor=3D"#FFFFFF" valign=3D"top" width=3D"50%">
+						<table border=3D"0" cellpadding=3D"8" cellspacing=3D"0" width=3D"100%=
+">
+							<tbody>
+								<tr>
+									<td>
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"2=
+98">
+										<tbody>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"top"><a href=3D"http://cui=
+siner-pour-tous.com/ga/click/2-11527895-18-1001-1917-13279-eed85bb775-9bc92=
+ae921" target=3D"_blank"><img alt=3D"Locasun VP" border=3D"0" height=3D"160=
+" src=3D"http://46.101.7.34/vacances/vr-151015/IP1.jpg" style=3D"display:bl=
+ock;" width=3D"290" /></a></td>
+											</tr>
+										</tbody>
+									</table>
+
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"2=
+98">
+										<tbody>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"top" width=3D"60"><a href=
+=3D"http://cuisiner-pour-tous.com/ga/click/2-11527895-18-1001-1917-13279-ee=
+d85bb775-9bc92ae921" target=3D"_blank"><img alt=3D"Locasun VP" border=3D"0"=
+ height=3D"28" src=3D"http://46.101.7.34/vacances/vr-151015/locasun104x40.j=
+pg" style=3D"display:block;" width=3D"78" /></a></td>
+												<td align=3D"left" style=3D"border-bottom:1px solid #D9DADB;" v=
+align=3D"top"></td>
+											</tr>
+										</tbody>
+									</table>
+
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"2=
+98">
+										<tbody>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"middle"><strong><a href=3D=
+"http://cuisiner-pour-tous.com/ga/click/2-11527895-18-1001-1917-13279-eed85=
+bb775-9bc92ae921" style=3D" color:#707173; text-decoration:none;" target=3D=
+"_blank">VENTE FLASH WEEK-ENDS</a></strong></td>
+											</tr>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"top"><span style=3D"font-f=
+amily:Arial, Helvetica, sans-serif; font-size:12px; color:#707173;"><a href=
+=3D"http://cuisiner-pour-tous.com/ga/click/2-11527895-18-1001-1917-13279-ee=
+d85bb775-9bc92ae921" style=3D" color:#707173; text-decoration:none;" target=
+=3D"_blank">Partez jusqu&#39;&agrave; -76%</a></span></td>
+											</tr>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"top">
+												<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=
+=3D"290">
+													<tbody>
+														<tr>
+															<td align=3D"center" bgcolor=3D"#02CCBD" style=3D"font-famil=
+y:Arial, Helvetica, sans-serif; font-size:14px; color:#FFFFFF;" valign=3D"m=
+iddle"><span style=3D"font-size:8px"><a href=3D"http://cuisiner-pour-tous.c=
+om/ga/click/2-11527895-18-1001-1917-13279-eed85bb775-9bc92ae921" style=3D" =
+color:#FFFFFF; text-decoration:none;" target=3D"_blank">&Agrave; partir de<=
+/a></span><a href=3D"http://cuisiner-pour-tous.com/ga/click/2-11527895-18-1=
+001-1917-13279-eed85bb775-9bc92ae921" style=3D" color:#FFFFFF; text-decorat=
+ion:none;" target=3D"_blank"> <strong style=3D"font-size:24px">69&euro;</st=
+rong></a></td>
+															<td align=3D"center" bgcolor=3D"#FF5012" style=3D"font-famil=
+y:Arial, Helvetica, sans-serif; font-size:9px; color:#FFFFFF;" valign=3D"mi=
+ddle" width=3D"100"><span style=3D"font-size:9px"><a href=3D"http://cuisine=
+r-pour-tous.com/ga/click/2-11527895-18-1001-1917-13279-eed85bb775-9bc92ae92=
+1" style=3D" color:#FFFFFF; text-decoration:none;" target=3D"_blank">D&Eacu=
+te;COUVRIR <img border=3D"0" height=3D"9" src=3D"http://46.101.7.34/vacance=
+s/vr-151015/fleche.gif" width=3D"6" /></a></span></td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						<!-- td --></td>
+						<td align=3D"left" bgcolor=3D"#FFFFFF" valign=3D"top" width=3D"50%">
+						<table border=3D"0" cellpadding=3D"8" cellspacing=3D"0" width=3D"100%=
+">
+							<tbody>
+								<tr>
+									<td>
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"2=
+98">
+										<tbody>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"top"><a href=3D"http://cui=
+siner-pour-tous.com/ga/click/2-11527895-18-1001-1917-13280-9ab99b9663-9bc92=
+ae921" target=3D"_blank"><img alt=3D"ABCroisi=C3=A8re" border=3D"0" height=
+=3D"160" src=3D"http://46.101.7.34/vacances/vr-151015/IP2.jpg" style=3D"dis=
+play:block;" width=3D"290" /></a></td>
+											</tr>
+										</tbody>
+									</table>
+
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"2=
+98">
+										<tbody>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"top" width=3D"60"><a href=
+=3D"http://cuisiner-pour-tous.com/ga/click/2-11527895-18-1001-1917-13280-9a=
+b99b9663-9bc92ae921" target=3D"_blank"><img alt=3D"ABCroisi=C3=A8re" border=
+=3D"0" height=3D"28" src=3D"http://46.101.7.34/vacances/vr-151015/AB_104x40=
+.jpg" style=3D"display:block;" width=3D"78" /></a></td>
+												<td align=3D"left" style=3D"border-bottom:1px solid #D9DADB;" v=
+align=3D"top"></td>
+											</tr>
+										</tbody>
+									</table>
+
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"2=
+98">
+										<tbody>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"middle"><strong><a href=3D=
+"http://cuisiner-pour-tous.com/ga/click/2-11527895-18-1001-1917-13280-9ab99=
+b9663-9bc92ae921" style=3D" color:#707173; text-decoration:none;" target=3D=
+"_blank">EXCLU CROISIERES 5* COSTA</a></strong></td>
+											</tr>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"top"><span style=3D"font-f=
+amily:Arial, Helvetica, sans-serif; font-size:12px; color:#707173;"><a href=
+=3D"http://cuisiner-pour-tous.com/ga/click/2-11527895-18-1001-1917-13280-9a=
+b99b9663-9bc92ae921" style=3D" color:#707173; text-decoration:none;" target=
+=3D"_blank">Bal&eacute;ares, Italie, Sicile, Gr&egrave;ce</a></span></td>
+											</tr>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"top">
+												<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=
+=3D"290">
+													<tbody>
+														<tr>
+															<td align=3D"center" bgcolor=3D"#02CCBD" style=3D"font-famil=
+y:Arial, Helvetica, sans-serif; font-size:14px; color:#FFFFFF;" valign=3D"m=
+iddle"><span style=3D"font-size:8px"><a href=3D"http://cuisiner-pour-tous.c=
+om/ga/click/2-11527895-18-1001-1917-13280-9ab99b9663-9bc92ae921" style=3D" =
+color:#FFFFFF; text-decoration:none;" target=3D"_blank">&Agrave; partir de<=
+/a></span><a href=3D"http://cuisiner-pour-tous.com/ga/click/2-11527895-18-1=
+001-1917-13280-9ab99b9663-9bc92ae921" style=3D" color:#FFFFFF; text-decorat=
+ion:none;" target=3D"_blank"> <strong style=3D"font-size:24px">389&euro;</s=
+trong></a></td>
+															<td align=3D"center" bgcolor=3D"#FF5012" style=3D"font-famil=
+y:Arial, Helvetica, sans-serif; font-size:9px; color:#FFFFFF;" valign=3D"mi=
+ddle" width=3D"100"><span style=3D"font-size:9px"><a href=3D"http://cuisine=
+r-pour-tous.com/ga/click/2-11527895-18-1001-1917-13280-9ab99b9663-9bc92ae92=
+1" style=3D" color:#FFFFFF; text-decoration:none;" target=3D"_blank">D&Eacu=
+te;COUVRIR <img border=3D"0" height=3D"9" src=3D"http://46.101.7.34/vacance=
+s/vr-151015/fleche.gif" width=3D"6" /></a></span></td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						<!-- td --></td>
+					</tr>
+				</tbody>
+			</table>
+
+			<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ width=3D"650">
+				<tbody>
+					<tr>
+						<td align=3D"left" bgcolor=3D"#FFFFFF" valign=3D"top" width=3D"50%">
+						<table border=3D"0" cellpadding=3D"8" cellspacing=3D"0" width=3D"100%=
+">
+							<tbody>
+								<tr>
+									<td>
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"2=
+98">
+										<tbody>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"top"><a href=3D"http://cui=
+siner-pour-tous.com/ga/click/2-11527895-18-1001-1917-13281-9ecdf6eedd-9bc92=
+ae921" target=3D"_blank"><img alt=3D"Locasun VP" border=3D"0" height=3D"160=
+" src=3D"http://46.101.7.34/vacances/vr-151015/IP3.jpg" style=3D"display:bl=
+ock;" width=3D"290" /></a></td>
+											</tr>
+										</tbody>
+									</table>
+
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"2=
+98">
+										<tbody>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"top" width=3D"60"><a href=
+=3D"http://cuisiner-pour-tous.com/ga/click/2-11527895-18-1001-1917-13281-9e=
+cdf6eedd-9bc92ae921" target=3D"_blank"><img alt=3D"Locasun VP" border=3D"0"=
+ height=3D"28" src=3D"http://46.101.7.34/vacances/vr-151015/locasun104x40.j=
+pg" style=3D"display:block;" width=3D"78" /></a></td>
+												<td align=3D"left" style=3D"border-bottom:1px solid #D9DADB;" v=
+align=3D"top"></td>
+											</tr>
+										</tbody>
+									</table>
+
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"2=
+98">
+										<tbody>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"middle"><strong><a href=3D=
+"http://cuisiner-pour-tous.com/ga/click/2-11527895-18-1001-1917-13281-9ecdf=
+6eedd-9bc92ae921" style=3D" color:#707173; text-decoration:none;" target=3D=
+"_blank">ARCACHON DUNE DU PYLA 3*</a></strong></td>
+											</tr>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"top"><span style=3D"font-f=
+amily:Arial, Helvetica, sans-serif; font-size:12px; color:#707173;"><a href=
+=3D"http://cuisiner-pour-tous.com/ga/click/2-11527895-18-1001-1917-13281-9e=
+cdf6eedd-9bc92ae921" style=3D" color:#707173; text-decoration:none;" target=
+=3D"_blank">4j/3n en appt 47m&sup2;</a></span></td>
+											</tr>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"top">
+												<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=
+=3D"290">
+													<tbody>
+														<tr>
+															<td align=3D"center" bgcolor=3D"#02CCBD" style=3D"font-famil=
+y:Arial, Helvetica, sans-serif; font-size:14px; color:#FFFFFF;" valign=3D"m=
+iddle"><span style=3D"font-size:8px"><a href=3D"http://cuisiner-pour-tous.c=
+om/ga/click/2-11527895-18-1001-1917-13281-9ecdf6eedd-9bc92ae921" style=3D" =
+color:#FFFFFF; text-decoration:none;" target=3D"_blank">&Agrave; partir de<=
+/a></span><a href=3D"http://cuisiner-pour-tous.com/ga/click/2-11527895-18-1=
+001-1917-13281-9ecdf6eedd-9bc92ae921" style=3D" color:#FFFFFF; text-decorat=
+ion:none;" target=3D"_blank"> <strong style=3D"font-size:24px">96&euro;</st=
+rong></a></td>
+															<td align=3D"center" bgcolor=3D"#FF5012" style=3D"font-famil=
+y:Arial, Helvetica, sans-serif; font-size:9px; color:#FFFFFF;" valign=3D"mi=
+ddle" width=3D"100"><span style=3D"font-size:9px"><a href=3D"http://cuisine=
+r-pour-tous.com/ga/click/2-11527895-18-1001-1917-13281-9ecdf6eedd-9bc92ae92=
+1" style=3D" color:#FFFFFF; text-decoration:none;" target=3D"_blank">D&Eacu=
+te;COUVRIR <img border=3D"0" height=3D"9" src=3D"http://46.101.7.34/vacance=
+s/vr-151015/fleche.gif" width=3D"6" /></a></span></td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						<!-- td --></td>
+						<td align=3D"left" bgcolor=3D"#FFFFFF" valign=3D"top" width=3D"50%">
+						<table border=3D"0" cellpadding=3D"8" cellspacing=3D"0" width=3D"100%=
+">
+							<tbody>
+								<tr>
+									<td>
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"2=
+98">
+										<tbody>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"top"><a href=3D"http://cui=
+siner-pour-tous.com/ga/click/2-11527895-18-1001-1917-13282-4a59345285-9bc92=
+ae921" target=3D"_blank"><img alt=3D"Carrefour Voyages" border=3D"0" height=
+=3D"160" src=3D"http://46.101.7.34/vacances/vr-151015/IP4.jpg" style=3D"dis=
+play:block;" width=3D"290" /></a></td>
+											</tr>
+										</tbody>
+									</table>
+
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"2=
+98">
+										<tbody>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"top" width=3D"60"><a href=
+=3D"http://cuisiner-pour-tous.com/ga/click/2-11527895-18-1001-1917-13282-4a=
+59345285-9bc92ae921" target=3D"_blank"><img alt=3D"Carrefour Voyages" borde=
+r=3D"0" height=3D"28" src=3D"http://46.101.7.34/vacances/vr-151015/logo-CV-=
+104x40.jpg" style=3D"display:block;" width=3D"78" /></a></td>
+												<td align=3D"left" style=3D"border-bottom:1px solid #D9DADB;" v=
+align=3D"top"></td>
+											</tr>
+										</tbody>
+									</table>
+
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"2=
+98">
+										<tbody>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"middle"><strong><a href=3D=
+"http://cuisiner-pour-tous.com/ga/click/2-11527895-18-1001-1917-13282-4a593=
+45285-9bc92ae921" style=3D" color:#707173; text-decoration:none;" target=3D=
+"_blank">GRANDE CANARIE 4* ALL IN</a></strong></td>
+											</tr>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"top"><span style=3D"font-f=
+amily:Arial, Helvetica, sans-serif; font-size:12px; color:#707173;"><a href=
+=3D"http://cuisiner-pour-tous.com/ga/click/2-11527895-18-1001-1917-13282-4a=
+59345285-9bc92ae921" style=3D" color:#707173; text-decoration:none;" target=
+=3D"_blank">8j/7n en formule tout compris</a></span></td>
+											</tr>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"top">
+												<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=
+=3D"290">
+													<tbody>
+														<tr>
+															<td align=3D"center" bgcolor=3D"#02CCBD" style=3D"font-famil=
+y:Arial, Helvetica, sans-serif; font-size:14px; color:#FFFFFF;" valign=3D"m=
+iddle"><span style=3D"font-size:8px"><a href=3D"http://cuisiner-pour-tous.c=
+om/ga/click/2-11527895-18-1001-1917-13282-4a59345285-9bc92ae921" style=3D" =
+color:#FFFFFF; text-decoration:none;" target=3D"_blank">&Agrave; partir de<=
+/a></span><a href=3D"http://cuisiner-pour-tous.com/ga/click/2-11527895-18-1=
+001-1917-13282-4a59345285-9bc92ae921" style=3D" color:#FFFFFF; text-decorat=
+ion:none;" target=3D"_blank"> <strong style=3D"font-size:24px">499&euro;</s=
+trong></a></td>
+															<td align=3D"center" bgcolor=3D"#FF5012" style=3D"font-famil=
+y:Arial, Helvetica, sans-serif; font-size:9px; color:#FFFFFF;" valign=3D"mi=
+ddle" width=3D"100"><span style=3D"font-size:9px"><a href=3D"http://cuisine=
+r-pour-tous.com/ga/click/2-11527895-18-1001-1917-13282-4a59345285-9bc92ae92=
+1" style=3D" color:#FFFFFF; text-decoration:none;" target=3D"_blank">D&Eacu=
+te;COUVRIR <img border=3D"0" height=3D"9" src=3D"http://46.101.7.34/vacance=
+s/vr-151015/fleche.gif" width=3D"6" /></a></span></td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						<!-- td --></td>
+					</tr>
+				</tbody>
+			</table>
+
+			<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ width=3D"650">
+				<tbody>
+					<tr>
+						<td align=3D"left" bgcolor=3D"#FFFFFF" valign=3D"top" width=3D"50%">
+						<table border=3D"0" cellpadding=3D"8" cellspacing=3D"0" width=3D"100%=
+">
+							<tbody>
+								<tr>
+									<td>
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"2=
+98">
+										<tbody>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"top"><a href=3D"http://cui=
+siner-pour-tous.com/ga/click/2-11527895-18-1001-1917-13283-fb4a0b043e-9bc92=
+ae921" target=3D"_blank"><img alt=3D"Promo Croisi=C3=A8re" border=3D"0" hei=
+ght=3D"160" src=3D"http://46.101.7.34/vacances/vr-151015/IP5.jpg" style=3D"=
+display:block;" width=3D"290" /></a></td>
+											</tr>
+										</tbody>
+									</table>
+
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"2=
+98">
+										<tbody>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"top" width=3D"60"><a href=
+=3D"http://cuisiner-pour-tous.com/ga/click/2-11527895-18-1001-1917-13283-fb=
+4a0b043e-9bc92ae921" target=3D"_blank"><img alt=3D"Promo Croisi=C3=A8re" bo=
+rder=3D"0" height=3D"28" src=3D"http://46.101.7.34/vacances/vr-151015/promo=
+croisiere104x40.jpg" style=3D"display:block;" width=3D"78" /></a></td>
+												<td align=3D"left" style=3D"border-bottom:1px solid #D9DADB;" v=
+align=3D"top"></td>
+											</tr>
+										</tbody>
+									</table>
+
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"2=
+98">
+										<tbody>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"middle"><strong><a href=3D=
+"http://cuisiner-pour-tous.com/ga/click/2-11527895-18-1001-1917-13283-fb4a0=
+b043e-9bc92ae921" style=3D" color:#707173; text-decoration:none;" target=3D=
+"_blank">CROISIERE MSC 4* CUBA</a></strong></td>
+											</tr>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"top"><span style=3D"font-f=
+amily:Arial, Helvetica, sans-serif; font-size:12px; color:#707173;"><a href=
+=3D"http://cuisiner-pour-tous.com/ga/click/2-11527895-18-1001-1917-13283-fb=
+4a0b043e-9bc92ae921" style=3D" color:#707173; text-decoration:none;" target=
+=3D"_blank">Vol inclus 9j/8n pens. compl&egrave;te</a></span></td>
+											</tr>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"top">
+												<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=
+=3D"290">
+													<tbody>
+														<tr>
+															<td align=3D"center" bgcolor=3D"#02CCBD" style=3D"font-famil=
+y:Arial, Helvetica, sans-serif; font-size:14px; color:#FFFFFF;" valign=3D"m=
+iddle"><span style=3D"font-size:8px"><a href=3D"http://cuisiner-pour-tous.c=
+om/ga/click/2-11527895-18-1001-1917-13283-fb4a0b043e-9bc92ae921" style=3D" =
+color:#FFFFFF; text-decoration:none;" target=3D"_blank">&Agrave; partir de<=
+/a></span><a href=3D"http://cuisiner-pour-tous.com/ga/click/2-11527895-18-1=
+001-1917-13283-fb4a0b043e-9bc92ae921" style=3D" color:#FFFFFF; text-decorat=
+ion:none;" target=3D"_blank"> <strong style=3D"font-size:24px">1374&euro;</=
+strong></a></td>
+															<td align=3D"center" bgcolor=3D"#FF5012" style=3D"font-famil=
+y:Arial, Helvetica, sans-serif; font-size:9px; color:#FFFFFF;" valign=3D"mi=
+ddle" width=3D"100"><span style=3D"font-size:9px"><a href=3D"http://cuisine=
+r-pour-tous.com/ga/click/2-11527895-18-1001-1917-13283-fb4a0b043e-9bc92ae92=
+1" style=3D" color:#FFFFFF; text-decoration:none;" target=3D"_blank">D&Eacu=
+te;COUVRIR <img border=3D"0" height=3D"9" src=3D"http://46.101.7.34/vacance=
+s/vr-151015/fleche.gif" width=3D"6" /></a></span></td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						<!-- td --></td>
+						<td align=3D"left" bgcolor=3D"#FFFFFF" valign=3D"top" width=3D"50%">
+						<table border=3D"0" cellpadding=3D"8" cellspacing=3D"0" width=3D"100%=
+">
+							<tbody>
+								<tr>
+									<td>
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"2=
+98">
+										<tbody>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"top"><a href=3D"http://cui=
+siner-pour-tous.com/ga/click/2-11527895-18-1001-1917-13284-0cefa9d5bf-9bc92=
+ae921" target=3D"_blank"><img alt=3D"Locasun VP" border=3D"0" height=3D"160=
+" src=3D"http://46.101.7.34/vacances/vr-151015/IP6.jpg" style=3D"display:bl=
+ock;" width=3D"290" /></a></td>
+											</tr>
+										</tbody>
+									</table>
+
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"2=
+98">
+										<tbody>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"top" width=3D"60"><a href=
+=3D"http://cuisiner-pour-tous.com/ga/click/2-11527895-18-1001-1917-13284-0c=
+efa9d5bf-9bc92ae921" target=3D"_blank"><img alt=3D"Locasun VP" border=3D"0"=
+ height=3D"28" src=3D"http://46.101.7.34/vacances/vr-151015/locasun104x40.j=
+pg" style=3D"display:block;" width=3D"78" /></a></td>
+												<td align=3D"left" style=3D"border-bottom:1px solid #D9DADB;" v=
+align=3D"top"></td>
+											</tr>
+										</tbody>
+									</table>
+
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"2=
+98">
+										<tbody>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"middle"><strong><a href=3D=
+"http://cuisiner-pour-tous.com/ga/click/2-11527895-18-1001-1917-13284-0cefa=
+9d5bf-9bc92ae921" style=3D" color:#707173; text-decoration:none;" target=3D=
+"_blank">CHATEAUX DE LA LOIRE 3*</a></strong></td>
+											</tr>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"top"><span style=3D"font-f=
+amily:Arial, Helvetica, sans-serif; font-size:12px; color:#707173;"><a href=
+=3D"http://cuisiner-pour-tous.com/ga/click/2-11527895-18-1001-1917-13284-0c=
+efa9d5bf-9bc92ae921" style=3D" color:#707173; text-decoration:none;" target=
+=3D"_blank">3j/2n en chalet 4 personnes</a></span></td>
+											</tr>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"top">
+												<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=
+=3D"290">
+													<tbody>
+														<tr>
+															<td align=3D"center" bgcolor=3D"#02CCBD" style=3D"font-famil=
+y:Arial, Helvetica, sans-serif; font-size:14px; color:#FFFFFF;" valign=3D"m=
+iddle"><span style=3D"font-size:8px"><a href=3D"http://cuisiner-pour-tous.c=
+om/ga/click/2-11527895-18-1001-1917-13284-0cefa9d5bf-9bc92ae921" style=3D" =
+color:#FFFFFF; text-decoration:none;" target=3D"_blank">&Agrave; partir de<=
+/a></span><a href=3D"http://cuisiner-pour-tous.com/ga/click/2-11527895-18-1=
+001-1917-13284-0cefa9d5bf-9bc92ae921" style=3D" color:#FFFFFF; text-decorat=
+ion:none;" target=3D"_blank"> <strong style=3D"font-size:24px">89&euro;</st=
+rong></a></td>
+															<td align=3D"center" bgcolor=3D"#FF5012" style=3D"font-famil=
+y:Arial, Helvetica, sans-serif; font-size:9px; color:#FFFFFF;" valign=3D"mi=
+ddle" width=3D"100"><span style=3D"font-size:9px"><a href=3D"http://cuisine=
+r-pour-tous.com/ga/click/2-11527895-18-1001-1917-13284-0cefa9d5bf-9bc92ae92=
+1" style=3D" color:#FFFFFF; text-decoration:none;" target=3D"_blank">D&Eacu=
+te;COUVRIR <img border=3D"0" height=3D"9" src=3D"http://46.101.7.34/vacance=
+s/vr-151015/fleche.gif" width=3D"6" /></a></span></td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						<!-- td --></td>
+					</tr>
+				</tbody>
+			</table>
+
+			<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ width=3D"650">
+				<tbody>
+					<tr>
+						<td align=3D"left" bgcolor=3D"#FFFFFF" valign=3D"top" width=3D"50%">
+						<table border=3D"0" cellpadding=3D"8" cellspacing=3D"0" width=3D"100%=
+">
+							<tbody>
+								<tr>
+									<td>
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"2=
+98">
+										<tbody>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"top"><a href=3D"http://cui=
+siner-pour-tous.com/ga/click/2-11527895-18-1001-1917-13285-39f5c49a67-9bc92=
+ae921" target=3D"_blank"><img alt=3D"Carrefour Voyages" border=3D"0" height=
+=3D"160" src=3D"http://46.101.7.34/vacances/vr-151015/IP7.jpg" style=3D"dis=
+play:block;" width=3D"290" /></a></td>
+											</tr>
+										</tbody>
+									</table>
+
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"2=
+98">
+										<tbody>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"top" width=3D"60"><a href=
+=3D"http://cuisiner-pour-tous.com/ga/click/2-11527895-18-1001-1917-13285-39=
+f5c49a67-9bc92ae921" target=3D"_blank"><img alt=3D"Carrefour Voyages" borde=
+r=3D"0" height=3D"28" src=3D"http://46.101.7.34/vacances/vr-151015/logo-CV-=
+104x40.jpg" style=3D"display:block;" width=3D"78" /></a></td>
+												<td align=3D"left" style=3D"border-bottom:1px solid #D9DADB;" v=
+align=3D"top"></td>
+											</tr>
+										</tbody>
+									</table>
+
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"2=
+98">
+										<tbody>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"middle"><strong><a href=3D=
+"http://cuisiner-pour-tous.com/ga/click/2-11527895-18-1001-1917-13285-39f5c=
+49a67-9bc92ae921" style=3D" color:#707173; text-decoration:none;" target=3D=
+"_blank">VALFREJUS SKI TOUT COMPRIS</a></strong></td>
+											</tr>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"top"><span style=3D"font-f=
+amily:Arial, Helvetica, sans-serif; font-size:12px; color:#707173;"><a href=
+=3D"http://cuisiner-pour-tous.com/ga/click/2-11527895-18-1001-1917-13285-39=
+f5c49a67-9bc92ae921" style=3D" color:#707173; text-decoration:none;" target=
+=3D"_blank">8j/7n + location skis + forfait</a></span></td>
+											</tr>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"top">
+												<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=
+=3D"290">
+													<tbody>
+														<tr>
+															<td align=3D"center" bgcolor=3D"#02CCBD" style=3D"font-famil=
+y:Arial, Helvetica, sans-serif; font-size:14px; color:#FFFFFF;" valign=3D"m=
+iddle"><span style=3D"font-size:8px"><a href=3D"http://cuisiner-pour-tous.c=
+om/ga/click/2-11527895-18-1001-1917-13285-39f5c49a67-9bc92ae921" style=3D" =
+color:#FFFFFF; text-decoration:none;" target=3D"_blank">&Agrave; partir de<=
+/a></span><a href=3D"http://cuisiner-pour-tous.com/ga/click/2-11527895-18-1=
+001-1917-13285-39f5c49a67-9bc92ae921" style=3D" color:#FFFFFF; text-decorat=
+ion:none;" target=3D"_blank"> <strong style=3D"font-size:24px">249&euro;</s=
+trong></a></td>
+															<td align=3D"center" bgcolor=3D"#FF5012" style=3D"font-famil=
+y:Arial, Helvetica, sans-serif; font-size:9px; color:#FFFFFF;" valign=3D"mi=
+ddle" width=3D"100"><span style=3D"font-size:9px"><a href=3D"http://cuisine=
+r-pour-tous.com/ga/click/2-11527895-18-1001-1917-13285-39f5c49a67-9bc92ae92=
+1" style=3D" color:#FFFFFF; text-decoration:none;" target=3D"_blank">D&Eacu=
+te;COUVRIR <img border=3D"0" height=3D"9" src=3D"http://46.101.7.34/vacance=
+s/vr-151015/fleche.gif" width=3D"6" /></a></span></td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						<!-- td --></td>
+						<td align=3D"left" bgcolor=3D"#FFFFFF" valign=3D"top" width=3D"50%">
+						<table border=3D"0" cellpadding=3D"8" cellspacing=3D"0" width=3D"100%=
+">
+							<tbody>
+								<tr>
+									<td>
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"2=
+98">
+										<tbody>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"top"><a href=3D"http://cui=
+siner-pour-tous.com/ga/click/2-11527895-18-1001-1917-13286-3b7481f3df-9bc92=
+ae921" target=3D"_blank"><img alt=3D"Locasun VP" border=3D"0" height=3D"160=
+" src=3D"http://46.101.7.34/vacances/vr-151015/IP8.jpg" style=3D"display:bl=
+ock;" width=3D"290" /></a></td>
+											</tr>
+										</tbody>
+									</table>
+
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"2=
+98">
+										<tbody>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"top" width=3D"60"><a href=
+=3D"http://cuisiner-pour-tous.com/ga/click/2-11527895-18-1001-1917-13286-3b=
+7481f3df-9bc92ae921" target=3D"_blank"><img alt=3D"Locasun VP" border=3D"0"=
+ height=3D"28" src=3D"http://46.101.7.34/vacances/vr-151015/locasun104x40.j=
+pg" style=3D"display:block;" width=3D"78" /></a></td>
+												<td align=3D"left" style=3D"border-bottom:1px solid #D9DADB;" v=
+align=3D"top"></td>
+											</tr>
+										</tbody>
+									</table>
+
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"2=
+98">
+										<tbody>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"middle"><strong><a href=3D=
+"http://cuisiner-pour-tous.com/ga/click/2-11527895-18-1001-1917-13286-3b748=
+1f3df-9bc92ae921" style=3D" color:#707173; text-decoration:none;" target=3D=
+"_blank">NORMANDIE B&#39;O RESORT &amp; SPA</a></strong></td>
+											</tr>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"top"><span style=3D"font-f=
+amily:Arial, Helvetica, sans-serif; font-size:12px; color:#707173;"><a href=
+=3D"http://cuisiner-pour-tous.com/ga/click/2-11527895-18-1001-1917-13286-3b=
+7481f3df-9bc92ae921" style=3D" color:#707173; text-decoration:none;" target=
+=3D"_blank">3j/2n en appt 39m&sup2;</a></span></td>
+											</tr>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"top">
+												<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=
+=3D"290">
+													<tbody>
+														<tr>
+															<td align=3D"center" bgcolor=3D"#02CCBD" style=3D"font-famil=
+y:Arial, Helvetica, sans-serif; font-size:14px; color:#FFFFFF;" valign=3D"m=
+iddle"><span style=3D"font-size:8px"><a href=3D"http://cuisiner-pour-tous.c=
+om/ga/click/2-11527895-18-1001-1917-13286-3b7481f3df-9bc92ae921" style=3D" =
+color:#FFFFFF; text-decoration:none;" target=3D"_blank">&Agrave; partir de<=
+/a></span><a href=3D"http://cuisiner-pour-tous.com/ga/click/2-11527895-18-1=
+001-1917-13286-3b7481f3df-9bc92ae921" style=3D" color:#FFFFFF; text-decorat=
+ion:none;" target=3D"_blank"> <strong style=3D"font-size:24px">103&euro;</s=
+trong></a></td>
+															<td align=3D"center" bgcolor=3D"#FF5012" style=3D"font-famil=
+y:Arial, Helvetica, sans-serif; font-size:9px; color:#FFFFFF;" valign=3D"mi=
+ddle" width=3D"100"><span style=3D"font-size:9px"><a href=3D"http://cuisine=
+r-pour-tous.com/ga/click/2-11527895-18-1001-1917-13286-3b7481f3df-9bc92ae92=
+1" style=3D" color:#FFFFFF; text-decoration:none;" target=3D"_blank">D&Eacu=
+te;COUVRIR <img border=3D"0" height=3D"9" src=3D"http://46.101.7.34/vacance=
+s/vr-151015/fleche.gif" width=3D"6" /></a></span></td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						<!-- td --></td>
+					</tr>
+				</tbody>
+			</table>
+			<!-- Footer -->
+
+			<table align=3D"center" border=3D"0" cellpadding=3D"12" cellspacing=3D"0=
+" width=3D"650">
+				<tbody>
+					<tr>
+						<td align=3D"center" style=3D"color:#44443E; font-size:10px;-webkit-t=
+ext-size-adjust:none; font-family:Arial, Helvetica, sans-serif">* Les prix =
+affich&eacute;s sur cette newsletter ont &eacute;t&eacute; relev&eacute;s s=
+ur les sites internets mentionn&eacute;s le 14/10/2015 &agrave; 15h.</td>
+					</tr>
+				</tbody>
+			</table>
+			</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+
+<p><img id=3D"pictureoct" src=3D"http://vacancesreussies.com/tracking/displ=
+ay.php?name=3D20151015+NL+VR+SW" /></p>
+
+<center><a href=3D"http://cuisiner-pour-tous.com/ga/unsubscribe/2-11527895-=
+18-1001-1917-ed35df89ef15825-9bc92ae921">Je souhaite me d=C3=A9sinscrire et=
+ ne plus recevoir les newsletters</a>
+</center><img src=3D"http://cuisiner-pour-tous.com/ga/open/2-11527895-18-10=
+01-1917-9bc92ae921" height=3D"2" width=3D"3" alt=3D""></body>
+</html>
+
+--==9afefc55b2320829a5c971bcccdabdd8--

@@ -1,0 +1,864 @@
+Return-Path: <bnc-129-data_sendout_55db99d95a7c5_106-766@bounce.vip.momentplaisir.eu>
+Received: from mailimailo.univ-rennes1.fr ([unix socket])
+	 by mailimailo.univ-rennes1.fr (Cyrus v2.3.16-Fedora-RPM-2.3.16-6.el6_2.5) with LMTPA;
+	 Tue, 25 Aug 2015 00:34:09 +0200
+X-Sieve: CMU Sieve 2.3
+Received: from vmsmtprexch.univ-rennes1.fr (vmsmtprexch.univ-rennes1.fr [129.20.128.62])
+	by mailimailo.univ-rennes1.fr (Postfix) with ESMTP id CC21F26A09D8
+	for <resp-m2-miage@univ-rennes1.fr>; Tue, 25 Aug 2015 00:34:09 +0200 (CEST)
+Received: from mbcasexch2.Ur.local (mbcasexch2.univ-rennes1.fr [129.20.125.130])
+	by vmsmtprexch.univ-rennes1.fr (Postfix) with ESMTP id C52DA195
+	for <resp-m2-miage@univ-rennes1.fr>; Tue, 25 Aug 2015 00:34:09 +0200 (CEST)
+X-CrossPremisesHeadersFilteredBySendConnector: mbcasexch2.Ur.local
+Received: from mbcasexch1.Ur.local (2002:8114:7d81::8114:7d81) by
+ mbcasexch2.Ur.local (2002:8114:7d82::8114:7d82) with Microsoft SMTP Server
+ (TLS) id 15.0.913.22; Tue, 25 Aug 2015 00:34:06 +0200
+Received: from vmrelais.univ-rennes1.fr (129.20.131.133) by
+ mbcasexch1.Ur.local (129.20.125.129) with Microsoft SMTP Server id
+ 15.0.913.22 via Frontend Transport; Tue, 25 Aug 2015 00:34:06 +0200
+Received: from localhost (vmscanmail.univ-rennes1.fr [129.20.128.134])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id 2301660017
+	for <resp-m2-miage@univ-rennes1.fr>; Tue, 25 Aug 2015 00:34:06 +0200 (CEST)
+X-Virus-Scanned: amavisd-new at univ-rennes1.fr
+Received: from vmrelais.univ-rennes1.fr ([129.20.131.133])
+	by localhost (vmscanmail.univ-rennes1.frm [129.20.128.134]) (amavisd-new, port 10026)
+	with ESMTP id lHQ9_mt6uiWK for <resp-m2-miage@univ-rennes1.fr>;
+	Tue, 25 Aug 2015 00:34:05 +0200 (CEST)
+Received: from vmmailin.univ-rennes1.fr (vmmailin.univ-rennes1.fr [129.20.128.133])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id E836960054
+	for <resp-m2-miage@univ-rennes1.fr>; Tue, 25 Aug 2015 00:34:05 +0200 (CEST)
+Received: from mxb2-2.relay.renater.fr (mxb2-2.relay.renater.fr [194.214.200.9])
+	by vmmailin.univ-rennes1.fr (Postfix) with ESMTP id DE63220033
+	for <resp-m2-miage@univ-rennes1.fr>; Tue, 25 Aug 2015 00:34:05 +0200 (CEST)
+Received: from mta5.vip.actusduweb.eu (mta5.vip.actusduweb.eu [92.39.249.28])
+	by mxb2-2.relay.renater.fr (asm) with ESMTP id A661D6000C2
+	for <resp-m2-miage@univ-rennes1.fr>; Tue, 25 Aug 2015 00:34:05 +0200 (CEST)
+Received: from localhost (localhost [127.0.0.1])
+	by mta5.vip.actusduweb.eu (Postfix) with ESMTP id 777E567AB87
+	for <resp-m2-miage@univ-rennes1.fr>; Tue, 25 Aug 2015 00:33:55 +0200 (CEST)
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; d=vip.momentplaisir.eu;
+	s=default; t=1440455635; bh=aK61sRNjVWOGwRBNpv7TSM/HmUM=;
+	h=Date:From:Reply-To:To:Subject:List-Unsubscribe;
+	b=hO3VgXvT0KPlKWOZYvq7ElsKgb2u0RdZVr5mWlw4XsPGKaiGObawoGNpBKMKxqTJM
+	 NQqtiGFS8StwoiL5UT7SCKXetbJbYIpsEU8vjb7mJBJemaRg4zrIadleeB85A4y1LB
+	 Lt6yTiyrfbkBwA6ahvHfNswjhr0YJD8RmRczWGhU=
+Date: Mon, 24 Aug 2015 22:33:55 +0000
+From: Morgane <reply@vip.momentplaisir.eu>
+Reply-To: <reply@vip.momentplaisir.eu>
+To: <resp-m2-miage@univ-rennes1.fr>
+Message-ID: <1440455635-data_sendout_55db99d95a7c5_106567845345AB@vip.momentplaisir.eu>
+Subject: Passez les comptes au vert en faisant confiance
+ =?UTF-8?B?w6Agbm90cmUg?=
+ =?UTF-8?B?b3JnYW5pc21lICE=?=
+List-Unsubscribe: <http://red.vip.actusduweb.eu/Unsubscribe.php?email=resp-m2-miage%40univ-rennes1.fr&mid=254831>
+X-Slip-uID: 2257721
+X-Slip-active: N|desactivated|
+X-BeverlyMail-Recipient: resp-m2-miage@univ-rennes1.fr
+X-BeverlyMail-MTA: 766
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="=_7f22d59e9edb9f66c8635fa823a24ba4"
+Precedence: Bulk
+Feedback-ID: data_sendout_55db99d95a7c5_106:2257721:129:SLIPSOFTWARE
+X-UCE-Status: YES
+X-UCE-Type: MCE
+X-Original-Source-IP: 92.39.249.28
+X-Bizanga: IMP - mxb2-2.relay.renater.fr
+X-Renater-SpamState: 11
+X-Renater-SpamScore: 17
+X-Renater-SpamCause: gggruggvucftvghtrhhoucdtuddrfeekfedrheeigddugecutefuodetggdotefrucfrrhhofhhilhgvmecutffgpfetvffgtfdpggftfghnshhusghstghrihgsvgenuceurghilhhouhhtmecufedttdenucdnofetkffnkffpifculddujedmnecujfgurhepfffhrhfvkffujfggtghpsegrtderredttdejnecuhfhrohhmpedfofhorhhgrghnvgdfuceorhgvphhlhiesvhhiphdrmhhomhgvnhhtphhlrghishhirhdrvghuqeenucffohhmrghinhepmhhomhgvnhhtphhlrghishhirhdrvghu 
+X-Renater-ServerName: mxb2-2.relay.renater.fr
+X-OrganizationHeadersPreserved: mbcasexch2.Ur.local
+
+--=_7f22d59e9edb9f66c8635fa823a24ba4
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain; charset="utf-8"
+
+Revue Conso
+Les bons plans du web vous sont proposs par Moment Plaisir
+Pour afficher l'ensemble du message, rendez-vous ici
+http://www.momentplaisir.eu/n2/502958/232898091/112b529cd4
+http://www.momentplaisir.eu/c2/502958/232898091/112b529cd4/1
+Toute l'actualit du consommateur
+Endetts jusque 80% ? Comment simplifier la gestion de vos crdits
+avec cette astuce.
+http://www.momentplaisir.eu/c2/502958/232898091/112b529cd4/2
+http://www.momentplaisir.eu/c2/502958/232898091/112b529cd4/3
+En 2015, plus de 25 millions de foyers franais sont endetts
+hauteur de 30%, ils ont gnralement du mal payer
+leurs factures, ce qui rend leurs fins de mois difficiles. Avant
+la crise de 2008, il tait facile de retrouver son pouvoir d'achat car
+les tablissements financiers accordaient trs facilement des crdits
+immobiliers ou la consommation. Mais aujourd'hui avec une conomie au
+ralenti et des revenus qui stagnent, les banques sont devenues trs
+frileuses.
+En France, quatre mnages sur cinq sont endetts hauteur de 30% et il
+faut savoir qu'au del de 33% il n'est plus possible d'obtenir de crdit
+supplmentaire.
+Ce seuil est rapidement atteint,
+Il est donc devenu difficile d'amliorer son quotidien ou de financer
+un nouveau projet.
+Certains Franais ont trouve la solution grce au rachat de crdit ...
+lisez la suite #
+Les avantages du
+rachat de crdit:
+http://www.momentplaisir.eu/c2/502958/232898091/112b529cd4/4
+Le rachat de crdit en 2 minutes
+http://www.momentplaisir.eu/c2/502958/232898091/112b529cd4/5
+Taux fixes en France depuis 10 ans
+http://www.momentplaisir.eu/c2/502958/232898091/112b529cd4/6
+http://www.momentplaisir.eu/c2/502958/232898091/112b529cd4/7
+Commentaires de nos lecteurs
+Laura mercredi 8 Juillet 2015 2h35
+Je saurais bientt si je suis ligible au rachat de crdit. J'attends
+un appel dans la journe. Merci pour les conseils!
+Michelle mercredi 8 Juillet 2015 18h26
+Je n'y croyais pas trop, mais j'ai fais les demarches et un
+organisme vient de racheter mes credits.
+Copyright (c) 2015 - CONSEIL CONSO Conditions gnrales d'utilisation
+http://www.momentplaisir.eu/c2/502958/232898091/112b529cd4/8
+Si vous ne voulez plus recevoir ces lettres d'information, vous
+pouvez vous dsabonner
+http://www.momentplaisir.eu/u/502958/232898091/112b529cd4/fr
+--=_7f22d59e9edb9f66c8635fa823a24ba4
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset="utf-8"
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml">
+<head>
+<style type=3D"text/css">
+=2EReadMsgBody {width: 100%;}
+=2EExternalClass {width: 100%;}
+=2EExternalClass * {line-height: 100%;}
+span.yshortcuts { color:#000; background-color:none; border:none;}
+span.yshortcuts:hover,span.yshortcuts:active,span.yshortcuts:focus {color:#=
+000; background-color:none; border:none;}
+* {-webkit-text-size-adjust: none}
+#outlook a {padding:0;}
+body{width:100% !important; -webkit-text-size-adjust:100%; -ms-text-size-ad=
+just:100%; margin:0; padding:0;}
+=2EExternalClass {width:100%;} /* Force Hotmail to display emails at full w=
+idth */
+=2EExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass fon=
+t, .ExternalClass td, .ExternalClass div {line-height: 100%;} /* Force Hotm=
+ail to display normal line spacing. */
+#backgroundTable {margin:0; padding:0; width:100% !important; line-height: =
+100% !important;}
+img {outline:none; text-decoration:none;border:none; -ms-interpolation-mode=
+: bicubic;}
+a img {border:none;}
+=2Eimage_fix {display:block;}
+p {margin: 0px 0px !important;}
+table td {border-collapse: collapse;}
+table { border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0p=
+t; }
+a {color: #9ec459;text-decoration: none;text-decoration:none!important;}
+/*STYLES*/table[class=3Dfull] { width: 100%; clear: both; }
+=2Etop{ background-color:#007CBC}
+@media only screen and (max-width: 640px) {a[href^=3D"tel"], a[href^=3D"sms=
+"] {text-decoration: none;color: #9ec459;pointer-events: none;cursor: defau=
+lt;}
+=2Emobile_link a[href^=3D"tel"], .mobile_link a[href^=3D"sms"] {text-decora=
+tion: default;color: #9ec459 !important;pointer-events: auto;cursor: defaul=
+t;}
+table[class=3Ddevicewidth] {width: 440px!important;text-align:center!import=
+ant;}
+td[class=3Ddevicewidth] {width: 440px!important;text-align:center!important=
+;}
+img[class=3Ddevicewidth] {width: 440px!important;text-align:center!importan=
+t;}
+img[class=3Dbanner] {width: 440px!important;height:147px!important;}
+table[class=3Ddevicewidthinner] {width: 420px!important;text-align:center!i=
+mportant;}
+table[class=3Dicontext] {width: 345px!important;text-align:center!important=
+;}
+img[class=3D"colimg2"] {width:280px!important;height:auto!important; margin=
+:auto !important; text-align:center!important; display:block !important}
+table[class=3D"emhide"]{display: none!important;}
+img[class=3D"logo"]{margin:auto; text-align:center; display:block}
+img[class=3D"logo2"]{ width:127px; height:auto!important;margin:auto; text-=
+align:center; display:block}
+img[class=3D"header"]{ width:100%; height:auto!important;margin:auto; text-=
+align:center; display:block}
+td[class=3Dhide] {display:none!important;}
+td[class=3Dhide2] {height:10px!important;}
+}
+@media only screen and (max-width: 480px) {a[href^=3D"tel"], a[href^=3D"sms=
+"] {text-decoration: none;color: #9ec459;pointer-events: none;cursor: defau=
+lt;}
+table[class=3Ddevicewidth] {width: 100%!important;text-align:center!importa=
+nt;}
+td[class=3Ddevicewidth] {width: 100%!important;text-align:center!important;=
+}
+img[class=3Ddevicewidth] {width: 100%!important;text-align:center!important=
+;}
+img[class=3Dbanner] {width: 100%!important;height:auto!important;}
+table[class=3Ddevicewidthinner] {width: 100%!important;text-align:center!im=
+portant;}
+table[class=3Dicontext] {width: 100%!important;text-align:center!important;=
+}
+td[class=3Dtext-mobile] {padding-left:20px!important; padding-right:20px!im=
+portant; font-size:20px !important}
+a[class=3Dtext-mobile] {font-size:20px !important}
+=2Ecta{ width:100%!important; height:auto !important; text-align:center; ma=
+rgin:auto; display:block}
+span[class=3D"user"]{ margin-top:-10px!important;padding: 0 !important; fon=
+t-size:18px!important; margin-bottom:-20px}
+span[class=3D"data"]{ margin-top:-10px!important; font-size:15px!important;=
+ margin-bottom:-20px}
+span[class=3D"hour"]{ margin-top:-10px!important; font-size:15px!important;=
+ margin-bottom:-20px}
+=2Etext-mobile2{ font-size:17px !important;text-align:center; line-height:2=
+0px!important}
+=2Etext-mobile3{ font-size:17px !important;text-align:left; line-height:20p=
+x!important}
+=2Etext-mobile5{ font-size:17px !important;text-align:left;line-height:20px=
+!important; padding-left:20px; padding-right:20px; padding-top:20px}
+img[class=3D"colimg2"] {width:280px!important;height:auto!important; margin=
+:auto; text-align:center; display:block}
+</style>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=3D1=
+=2E0"/>
+<meta name=3D?format-detection? content=3D?telephone=3Dno?/>
+<title>Revue Conso</title>
+</head>
+<body bgcolor=3D"#DEDEDE"><div id=3D"template_header_auto_include" ><center=
+>
+<p style=3D"font-size:13px;text-align:center;font-family:Arial, Helvetica, =
+sans-serif;color:#000">
+Les bons plans du web vous sont propos&eacute;s par Moment Plaisir
+</p>
+<p style=3D"font-size:13px;text-align:center;font-family:Arial, Helvetica, =
+sans-serif;color:#000">
+Pour afficher l'ensemble du message, rendez-vous <a href=3D"http://red.vip=
+=2Emomentplaisir.eu/click/YToxOntzOjM6InRhZyI7czozMDoiZGF0YV9zZW5kb3V0XzU1Z=
+GI5OWQ5NWE3YzVfMTA2Ijt9/cmVzcC1tMi1taWFnZSU0MHVuaXYtcmVubmVzMS5mcg=3D=3D/44=
+30090/254831" target=3D"_blank">ici</a>
+</p>
+</center></div><table width=3D"98%" border=3D"0" align=3D"center" cellpaddi=
+ng=3D"0" cellspacing=3D"0">
+<tr><td align=3D"center">
+<table width=3D"100%" bgcolor=3D"#DEDEDE" cellpadding=3D"0" cellspacing=3D"=
+0" border=3D"0" align=3D"center" id=3D"backgroundTable" style=3D"background=
+-color:#DEDEDE;">
+<tbody>
+<tr><td align=3D"center">
+<!-- LOGO -->
+<table width=3D"100%" bgcolor=3D"#DEDEDE" cellpadding=3D"0" cellspacing=3D"=
+0" border=3D"0" style=3D"background-color:#DEDEDE;" class=3D"top">
+<tbody>
+<tr>
+<td align=3D"center" bgcolor=3D"#DEDEDE" style=3D"background-color:#DEDEDE;=
+ background:#DEDEDE;">
+<table width=3D"600" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" align=
+=3D"center" class=3D"devicewidth" bgcolor=3D"#DEDEDE" style=3D"background-c=
+olor:#DEDEDE; background:#007CBC;">
+<tbody>
+<tr>
+<td width=3D"100%" bgcolor=3D"#007CBC" style=3D"background-color:#007CBC; b=
+ackground:#007CBC" align=3D"center">
+<table width=3D"600" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" align=
+=3D"center" class=3D"devicewidth" bgcolor=3D"#007CBC" style=3D"background-c=
+olor:#007CBC; background:#007CBC;">
+<tbody>
+<tr>
+<td bgcolor=3D"#007CBC" style=3D"background-color:#007CBC; background:#007C=
+BC;" align=3D"center">
+<table width=3D"100%" align=3D"left" border=3D"0" cellpadding=3D"0" cellspa=
+cing=3D"0" class=3D"devicewidthinner" bgcolor=3D"#007CBC" style=3D"backgrou=
+nd-color:#007CBC; background:#007CBC;">
+<tbody>
+<!---------- TRANSLATION ------------->
+<tr>
+<td width=3D"160" align=3D"left" valign=3D"middle" bgcolor=3D"#007CBC" styl=
+e=3D"font-family: Helvetica, arial, sans-serif; font-size:0; background-col=
+or:#007CBC; background:#007CBC;">
+<a href=3D"http://red.vip.momentplaisir.eu/click/YToxOntzOjM6InRhZyI7czozMD=
+oiZGF0YV9zZW5kb3V0XzU1ZGI5OWQ5NWE3YzVfMTA2Ijt9/cmVzcC1tMi1taWFnZSU0MHVuaXYt=
+cmVubmVzMS5mcg=3D=3D/4430091/254831" style=3D"border:none; text-decoration:=
+none;">
+<img src=3D"http://img.momentplaisir.eu/502958/logo.jpg" width=3D"160" heig=
+ht=3D"57" style=3D"display:block; border:none; outline:none; text-decoratio=
+n:none; background:#007CBC" class=3D"logo"/></a>
+</td>
+<td align=3D"left" style=3D"font-family: Helvetica, arial, sans-serif; font=
+-size: 17px; color: #333333; text-align:center;line-height: 24px; color:#ff=
+ffff" class=3D"text-mobile">
+Toute l'actualit&eacute; du consommateur
+</td>
+</tr>
+<!---------- /TRANSLATION ------------->
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td width=3D"100%" height=3D"5" bgcolor=3D"#007CBC" style=3D"background-col=
+or:#007CBC; background:#007CBC;"></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- /LOGO -->
+<!-- TEXT TOP TRANSLATION -->
+<table width=3D"100%" bgcolor=3D"#DEDEDE" cellpadding=3D"0" cellspacing=3D"=
+0" border=3D"0" style=3D"background-color:#DEDEDE;">
+<tbody>
+<tr>
+<td align=3D"center">
+<table width=3D"600" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" align=
+=3D"center" class=3D"devicewidth">
+<tbody>
+<tr>
+<td width=3D"100%" align=3D"center">
+<table bgcolor=3D"#ffffff" width=3D"600" cellpadding=3D"0" cellspacing=3D"0=
+" border=3D"0" align=3D"center" class=3D"devicewidth" style=3D"background-c=
+olor:#ffffff;">
+<tbody>
+<tr>
+<td>
+<table bgcolor=3D"#ffffff" width=3D"5" cellpadding=3D"0" cellspacing=3D"0" =
+border=3D"0" align=3D"left" class=3D"devicewidth" style=3D"background-color=
+:#ffffff;"><tr><td width=3D"10"><img src=3D"http://img.momentplaisir.eu/502=
+958/spacer.gif" width=3D"5" height=3D"1" style=3D"display:block;"/></td></t=
+r></table>
+<table width=3D"350" align=3D"left" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" class=3D"devicewidth">
+<tbody>
+<tr>
+<td width=3D"100%" height=3D"10" class=3D"hide"></td>
+</tr>
+<tr>
+<td>
+<table width=3D"330" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=
+=3D"devicewidth">
+<tr><td width=3D"10" class=3D"hide"> </td>
+<td align=3D"left" style=3D"font-size: 16px; line-height: 20px;font-family:=
+ Georgia, 'Times New Roman', Times, serif; font-weight:bold; color:#ff0000;=
+ text-decoration:underline; text-align:left" class=3D"text-mobile">
+<a href=3D"http://red.vip.momentplaisir.eu/click/YToxOntzOjM6InRhZyI7czozMD=
+oiZGF0YV9zZW5kb3V0XzU1ZGI5OWQ5NWE3YzVfMTA2Ijt9/cmVzcC1tMi1taWFnZSU0MHVuaXYt=
+cmVubmVzMS5mcg=3D=3D/4430092/254831" style=3D"font-size: 18px; line-height:=
+ 20px;font-family: Georgia, 'Times New Roman', Times, serif; font-weight:bo=
+ld; color:#ff0000; text-decoration:underline; border:none; text-decoration:=
+none;" class=3D"text-mobile">Endett&eacute;s jusque 80% ? Comment simplifie=
+r la gestion de vos cr&eacute;dits avec cette astuce.
+</a></td>
+</tr>
+</table>
+<table width=3D"330" align=3D"center" border=3D"0" cellpadding=3D"0" cellsp=
+acing=3D"0" class=3D"devicewidthinner">
+<tbody>
+<tr>
+<td colspan=3D"2" width=3D"100%" height=3D"10" class=3D"hide"></td>
+</tr>
+<tr>
+<td style=3D"font-size:0; line-height:0x; display:inline-block" valign=3D"t=
+op" align=3D"left" width=3D"130" height=3D"111" class=3D"hide">
+<a href=3D"http://red.vip.momentplaisir.eu/click/YToxOntzOjM6InRhZyI7czozMD=
+oiZGF0YV9zZW5kb3V0XzU1ZGI5OWQ5NWE3YzVfMTA2Ijt9/cmVzcC1tMi1taWFnZSU0MHVuaXYt=
+cmVubmVzMS5mcg=3D=3D/4430093/254831" style=3D"font-size: 0; line-height: 0;=
+ border:none; text-decoration:none;">
+<img src=3D"http://img.momentplaisir.eu/502958/money.jpg" width=3D"130" hei=
+ght=3D"111" style=3D"display:block; border:none;" class=3D"hide"/></a>
+</td>
+<td style=3D"font-family: Helvetica, arial, sans-serif; font-size: 13px; co=
+lor: #333333; text-align:left;line-height: 24px;" class=3D"text-mobile">
+En 2015, plus de 25 millions de foyers fran&ccedil;ais sont endett&eacute;s=
+ &agrave; hauteur de 30%, ils ont g&eacute;n&eacute;ralement du mal &agrave=
+; payer </td>
+</tr>
+<tr>
+<td valign=3D"top" colspan=3D"2" style=3D"font-family: Helvetica, arial, sa=
+ns-serif; font-size: 13px; color: #333333; text-align:left;line-height: 24p=
+x;" class=3D"text-mobile">
+leurs factures, ce qui rend leurs fins de mois difficiles.
+Avant la crise de 2008, il &eacute;tait facile de retrouver son pouvoir d'a=
+chat car les &eacute;tablissements financiers accordaient tr&egrave;s facil=
+ement des cr&eacute;dits immobiliers ou &agrave; la consommation. Mais aujo=
+urd'hui avec une &eacute;conomie au ralenti et des revenus qui stagnent, le=
+s banques sont devenues tr&egrave;s frileuses.
+</td>
+</tr>
+</tbody>
+</table>
+<table width=3D"330" class=3D"devicewidth" align=3D"left" border=3D"0" cell=
+padding=3D"0" cellspacing=3D"0" style=3D"border-collapse:collapse; mso-tabl=
+e-lspace:0pt; mso-table-rspace:0pt; text-align:left">
+<tbody>
+<tr>
+<td width=3D"10"></td>
+<td width=3D"4" height=3D"120">
+<img src=3D"http://img.momentplaisir.eu/502958/dot2.gif" width=3D"4" height=
+=3D"120" style=3D"display:block;"/>
+</td>
+<td width=3D"10"></td>
+<td class=3D"text-mobile3" style=3D"font-size: 14px; line-height: 20px;font=
+-family: Georgia, 'Times New Roman', Times, serif; font-weight:bold; text-a=
+lign:left">
+En France, quatre m&eacute;nages sur cinq sont endett&eacute;s &agrave; hau=
+teur de 30% et il faut savoir qu'au del&agrave; de 33% il n'est plus possib=
+le d'obtenir de cr&eacute;dit suppl&eacute;mentaire.<br /> Ce seuil est rap=
+idement atteint,
+</td>
+<td width=3D"10"></td>
+</tr>
+<tr>
+<td colspan=3D"5">
+<table class=3D"devicewidth" align=3D"left" border=3D"0" cellpadding=3D"0" =
+cellspacing=3D"0" style=3D"border-collapse:collapse; mso-table-lspace:0pt; =
+mso-table-rspace:0pt;">
+<tr>
+<td width=3D"10"></td>
+<td style=3D"font-family: Helvetica, arial, sans-serif; font-size: 13px; co=
+lor: #333333; text-align:left;line-height: 24px;" class=3D"text-mobile" val=
+ign=3D"top">Il est donc devenu difficile d'am&eacute;liorer son quotidien o=
+u de financer un nouveau projet. <br />Certains Fran&ccedil;ais ont trouve =
+la solution gr&acirc;ce au rachat de cr&eacute;dit
+<a href=3D"http://red.vip.momentplaisir.eu/click/YToxOntzOjM6InRhZyI7czozMD=
+oiZGF0YV9zZW5kb3V0XzU1ZGI5OWQ5NWE3YzVfMTA2Ijt9/cmVzcC1tMi1taWFnZSU0MHVuaXYt=
+cmVubmVzMS5mcg=3D=3D/4430094/254831" style=3D"color:#e26e00; font-weight:bo=
+ld; font-size:13px; border:none; text-decoration:none;" class=3D"text-mobil=
+e">
+=2E.. lisez la suite </a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<table width=3D"220" align=3D"right" border=3D"1" bordercolor=3D"dfdfdf" st=
+yle=3D"border:1px solid #dfdfdf !important; background-color:#FBFBFB;" cell=
+padding=3D"0" cellspacing=3D"0" class=3D"devicewidth" bgcolor=3D"#FBFBFB">
+<tbody>
+<tr>
+<td width=3D"100%" class=3D"devicewidth">
+<!-- start of text content table -->
+<table width=3D"200" align=3D"center" border=3D"0" cellpadding=3D"0" cellsp=
+acing=3D"0" class=3D"devicewidth" bgcolor=3D"#FBFBFB" style=3D"background-c=
+olor:#FBFBFB;">
+<tbody>
+<tr>
+<td>
+<table bgcolor=3D"#FBFBFB" width=3D"100%" cellpadding=3D"0" cellspacing=3D"=
+0" border=3D"0" align=3D"left" class=3D"hide" style=3D"background-color:#FB=
+FBFB;"><tr><td style=3D"font-family: Helvetica, arial, sans-serif; font-siz=
+e: 15px; color: #333333; text-align:left;line-height: 24px;" class=3D"text-=
+mobile">
+Les avantages du <br />
+<span style=3D"font-family: Helvetica, arial, sans-serif; font-size: 19px; =
+color: #333333; text-align:left;line-height: 24px; font-weight:bold">rachat=
+ de cr&eacute;dit: </span></td></tr></table>
+</td>
+</tr>
+<tr>
+<td width=3D"160" height=3D"234" align=3D"center" class=3D"devicewidth" bgc=
+olor=3D"#FBFBFB" style=3D"background-color:#FBFBFB;">
+<a href=3D"http://red.vip.momentplaisir.eu/click/YToxOntzOjM6InRhZyI7czozMD=
+oiZGF0YV9zZW5kb3V0XzU1ZGI5OWQ5NWE3YzVfMTA2Ijt9/cmVzcC1tMi1taWFnZSU0MHVuaXYt=
+cmVubmVzMS5mcg=3D=3D/4430095/254831" style=3D"font-size: 0; line-height: 0;=
+ border:none; text-decoration:none;">
+<img src=3D"http://img.momentplaisir.eu/502958/vantages.jpg" alt=3D"" borde=
+r=3D"0" width=3D"160" height=3D"234" style=3D"display:block; border:none; o=
+utline:none; text-decoration:none;text-align:center; margin:auto" class=3D"=
+colimg2"/>
+</a>
+</td>
+</tr>
+<tr>
+<td>
+<table bgcolor=3D"#FBFBFB" width=3D"100%" cellpadding=3D"0" cellspacing=3D"=
+0" border=3D"0" align=3D"left" class=3D"hide" style=3D"background-color:#FB=
+FBFB;"><tr><td style=3D"font-family: Helvetica, arial, sans-serif; font-siz=
+e: 11px; color: #333333; text-align:left;line-height: 24px; font-weight:bol=
+d" class=3D"text-mobile">
+Le rachat de cr&eacute;dit en 2 minutes<br />
+</td></tr></table>
+</td>
+</tr>
+<tr>
+<td width=3D"160" height=3D"90" align=3D"center" class=3D"devicewidth" bgco=
+lor=3D"#FBFBFB" style=3D"background-color:#FBFBFB;">
+<a href=3D"http://red.vip.momentplaisir.eu/click/YToxOntzOjM6InRhZyI7czozMD=
+oiZGF0YV9zZW5kb3V0XzU1ZGI5OWQ5NWE3YzVfMTA2Ijt9/cmVzcC1tMi1taWFnZSU0MHVuaXYt=
+cmVubmVzMS5mcg=3D=3D/4430096/254831" style=3D"font-size: 0; line-height: 0;=
+ border:none; text-decoration:none;">
+<img src=3D"http://img.momentplaisir.eu/502958/video.jpg" alt=3D"" border=
+=3D"0" width=3D"160" height=3D"90" style=3D"display:block; border:none; out=
+line:none; text-decoration:none;text-align:center; margin:auto" class=3D"co=
+limg2"/>
+</a>
+</td>
+</tr>
+<tr>
+<td width=3D"100%" height=3D"20" ></td>
+</tr>
+<tr>
+<td>
+<table bgcolor=3D"#FBFBFB" width=3D"100%" cellpadding=3D"0" cellspacing=3D"=
+0" border=3D"0" align=3D"left" class=3D"hide" style=3D"background-color:#FB=
+FBFB;"><tr><td style=3D"font-family: Helvetica, arial, sans-serif; font-siz=
+e: 11px; color: #333333; text-align:left;line-height: 24px; font-weight:bol=
+d" class=3D"text-mobile">
+Taux fixes en France depuis 10 ans <br />
+</table>
+</td>
+</tr>
+<tr>
+<td width=3D"160" height=3D"90" align=3D"center" class=3D"devicewidth" bgco=
+lor=3D"#FBFBFB" style=3D"background-color:#FBFBFB;">
+<a href=3D"http://red.vip.momentplaisir.eu/click/YToxOntzOjM6InRhZyI7czozMD=
+oiZGF0YV9zZW5kb3V0XzU1ZGI5OWQ5NWE3YzVfMTA2Ijt9/cmVzcC1tMi1taWFnZSU0MHVuaXYt=
+cmVubmVzMS5mcg=3D=3D/4430097/254831" style=3D"font-size: 0; line-height: 0;=
+ border:none; text-decoration:none;">
+<img src=3D"http://img.momentplaisir.eu/502958/chart2.jpg" alt=3D"" border=
+=3D"0" width=3D"160" height=3D"90" style=3D"display:block; border:none; out=
+line:none; text-decoration:none;text-align:center; margin:auto" class=3D"co=
+limg2"/>
+</a>
+</td>
+</tr>
+<tr>
+<td width=3D"100%" height=3D"40"></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td align=3D"center" width=3D"600" style=3D"font-size:0; text-align:center;=
+line-height: 0; margin:auto" class=3D"devicewidth">
+<table width=3D"100%" height=3D"69" align=3D"center" border=3D"0" cellpaddi=
+ng=3D"0" cellspacing=3D"0" class=3D"devicewidth" bgcolor=3D"#ffffff" style=
+=3D"font-size:0; text-align:center; line-height: 0; margin:auto; background=
+-color:#ffffff;">
+<tr><td align=3D"center" style=3D"font-size:0; text-align:center;line-heigh=
+t: 0; margin:auto">
+<a href=3D"http://red.vip.momentplaisir.eu/click/YToxOntzOjM6InRhZyI7czozMD=
+oiZGF0YV9zZW5kb3V0XzU1ZGI5OWQ5NWE3YzVfMTA2Ijt9/cmVzcC1tMi1taWFnZSU0MHVuaXYt=
+cmVubmVzMS5mcg=3D=3D/4430098/254831" style=3D"font-size: 0; line-height: 0;=
+ text-align:center; margin:auto; border:none; text-decoration:none;"><img s=
+rc=3D"http://img.momentplaisir.eu/502958/cta.gif" width=3D"417" height=3D"4=
+9" style=3D"display:block; border:none; outline:none; text-decoration:none;=
+ text-align:center; margin: auto" class=3D"cta"/></a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>
+<table bgcolor=3D"#ffffff" width=3D"100%" cellpadding=3D"0" cellspacing=3D"=
+0" border=3D"0" align=3D"left" class=3D"hide" style=3D"background-color:#ff=
+ffff;"><tr><td width=3D"10" class=3D"hide"><img src=3D"http://img.momentpla=
+isir.eu/502958/spacer.gif" width=3D"100%" height=3D"10" class=3D"hide" styl=
+e=3D"display:block;"/></td></tr></table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"devicewidth" width=3D"600" align=3D"center" border=3D"1" bo=
+rdercolor=3D"#dfdfdf" cellpadding=3D"0" cellspacing=3D"0" style=3D"border-c=
+ollapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt; border:1px so=
+lid #dfdfdf!important; background-color:#FBFBFB;" bgcolor=3D"#FBFBFB">
+<tbody>
+<tr>
+<td bgcolor=3D"#FBFBFB" valign=3D"middle" align=3D"center" style=3D"font-fa=
+mily:Georgia, 'Times New Roman', Times, serif; font-size:14px; font-weight:=
+bold" class=3D"text-mobile2" height=3D"50" width=3D"100%">
+<p>Commentaires de nos lecteurs</p>
+</td>
+</tr>
+</tbody>
+</table>
+<table width=3D"100%" bgcolor=3D"#DEDEDE" cellpadding=3D"0" cellspacing=3D"=
+0" border=3D"0" style=3D"background-color:#DEDEDE;">
+<tbody>
+<tr>
+<td align=3D"center">
+<table width=3D"600" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" align=
+=3D"center" class=3D"devicewidth" bgcolor=3D"#FBFBFB" style=3D"background-c=
+olor:#FBFBFB;">
+<tbody>
+<tr>
+<td width=3D"100%" align=3D"center">
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0"><tr> <td height=3D"=
+20"> </td></tr></table>
+<table class=3D"devicewidth" width=3D"600" align=3D"center" border=3D"0" ce=
+llpadding=3D"0" cellspacing=3D"0" style=3D"border-collapse:collapse; mso-ta=
+ble-lspace:0pt; mso-table-rspace:0pt; background-color:#FBFBFB;" bgcolor=3D=
+"#FBFBFB">
+<tbody>
+<tr>
+<td width=3D"20px" class=3D"hide"></td>
+<td valign=3D"top" align=3D"center" class=3D"hide">
+<img src=3D"http://img.momentplaisir.eu/502958/cecile.jpg" class=3D"hide" w=
+idth=3D"50" height=3D"49" style=3D"display:block;"/>
+</td>
+<td width=3D"5px" class=3D"hide"></td>
+<td width=3D"5px" ></td>
+<td align=3D"left">
+<span style=3D"color:#ff4d00;font-weight:bold; font-size:15px;font-family:V=
+erdana, Geneva, sans-serif; text-align:left" class=3D"user">Laura</span>
+<span style=3D"color:#777777; font-size:12px;font-family:Verdana, Geneva, s=
+ans-serif; text-align:left" class=3D"data">
+mercredi 8 Juillet 2015</span> <span class=3D"hour" style=3D"font-weight:bo=
+ld; font-size:12px; color:#888888; text-align:left">2h35</span>
+<p style=3D"font-size:12px; font-family:Verdana, Geneva, sans-serif; text-a=
+lign:left" class=3D"text-mobile">
+Je saurais bient&ocirc;t si je suis &eacute;ligible au rachat de cr&eacute;=
+dit. J'attends un appel dans la journ&eacute;e. Merci pour les conseils! </=
+p>
+</td>
+<td width=3D"20px"></td>
+</tr>
+</tbody>
+</table>
+<table><tr> <td height=3D"20"> </td></tr></table>
+</td>
+</tr>
+</tbody>
+</table>
+<table width=3D"600" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" align=
+=3D"center" class=3D"devicewidth" bgcolor=3D"#FBFBFB" style=3D"background-c=
+olor:#FBFBFB;">
+<tbody>
+<tr>
+<td width=3D"100%" align=3D"center">
+<table><tr> <td height=3D"20"> </td></tr></table>
+<table class=3D"devicewidth" width=3D"600" align=3D"center" border=3D"0" ce=
+llpadding=3D"0" cellspacing=3D"0" style=3D"border-collapse:collapse; mso-ta=
+ble-lspace:0pt; mso-table-rspace:0pt; background-color:#FBFBFB;" bgcolor=3D=
+"#FBFBFB">
+<tbody>
+<tr>
+<td width=3D"20px" class=3D"hide"></td>
+<td valign=3D"top" align=3D"center" class=3D"hide">
+<img src=3D"http://img.momentplaisir.eu/502958/jul.jpg" class=3D"hide" widt=
+h=3D"50" height=3D"49" style=3D"display:block;"/>
+</td>
+<td width=3D"5px" class=3D"hide"></td>
+<td width=3D"5px" ></td>
+<td align=3D"left">
+<span style=3D"color:#ff4d00;font-weight:bold; font-size:15px;font-family:V=
+erdana, Geneva, sans-serif; text-align:left" class=3D"user">Michelle</span>
+<span style=3D"color:#777777; font-size:12px;font-family:Verdana, Geneva, s=
+ans-serif; text-align:left" class=3D"data">
+mercredi 8 Juillet 2015 </span> <span class=3D"hour" style=3D"font-weight:b=
+old; font-size:12px; color:#888888; text-align:left">18h26</span>
+<p style=3D"font-size:12px; font-family:Verdana, Geneva, sans-serif; text-a=
+lign:left" class=3D"text-mobile">
+Je n'y croyais pas trop, mais j'ai fais les demarches et un organisme vient=
+ de racheter mes credits. </p>
+</td>
+<td width=3D"20px"></td>
+</tr>
+</tbody>
+</table>
+<table><tr> <td height=3D"20"> </td></tr></table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<table width=3D"100%" bgcolor=3D"#DEDEDE" cellpadding=3D"0" cellspacing=3D"=
+0" border=3D"0" align=3D"center" style=3D"background-color:#DEDEDE; backgro=
+und:#DEDEDE;">
+<tbody>
+<tr>
+<td align=3D"center" bgcolor=3D"#DEDEDE" style=3D"background-color:#DEDEDE;=
+ background:#DEDEDE;">
+<table width=3D"600" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" align=
+=3D"center" class=3D"devicewidth" bgcolor=3D"#3B3B3B" style=3D"background-c=
+olor:#3B3B3B; background:#3B3B3B;">
+<tbody>
+<tr>
+<td width=3D"100%" align=3D"center" bgcolor=3D"#4C4C4C" style=3D"background=
+-color:#4C4C4C; background:#4C4C4C;">
+<table width=3D"600" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" align=
+=3D"center" class=3D"devicewidth" bgcolor=3D"#4C4C4C" style=3D"background-c=
+olor:#4C4C4C; background:#3B3B3BC;">
+<tbody>
+<tr>
+<td width=3D"100%" height=3D"5" bgcolor=3D"#3B3B3B" style=3D"background-col=
+or:#3B3B3B; background:#3B3B3B;"></td>
+</tr>
+<tr>
+<td width=3D"100%" height=3D"5" bgcolor=3D"#3B3B3B" style=3D"background-col=
+or:#3B3B3B; background:#3B3B3B;"></td>
+</tr>
+<tr>
+<td width=3D"100%" height=3D"5" bgcolor=3D"#3B3B3B" style=3D"background-col=
+or:#3B3B3B; background:#3B3B3B; color:#ffffff; text-align:center; font-fami=
+ly: Helvetica, arial, sans-serif; font-size: 11px;">
+<p style=3D"background-color:#4C4C4C; background:#3B3B3B; color:#ffffff; te=
+xt-align:center;font-family: Helvetica, arial, sans-serif; font-size: 11px;=
+ "> Copyright &copy; 2015 - <b>Conseil Conso</b> </p>
+<a href=3D"http://red.vip.momentplaisir.eu/click/YToxOntzOjM6InRhZyI7czozMD=
+oiZGF0YV9zZW5kb3V0XzU1ZGI5OWQ5NWE3YzVfMTA2Ijt9/cmVzcC1tMi1taWFnZSU0MHVuaXYt=
+cmVubmVzMS5mcg=3D=3D/4430099/254831" style=3D"background-color:#4C4C4C; bac=
+kground:#3B3B3B; color:#ffffff; text-align:center;font-family: Helvetica, a=
+rial, sans-serif; font-size: 11px; text-decoration:underline !important; bo=
+rder:none; text-decoration:none;" bgcolor=3D"#4C4C4C">Conditions g&eacute;n=
+&eacute;rales d'utilisation</a></td>
+</tr>
+<tr>
+<td width=3D"100%" height=3D"10" bgcolor=3D"#3B3B3B" style=3D"background-co=
+lor:#3B3B3B; background:#3B3B3B;"></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td></tr>
+</table><div id=3D"template_footer_auto_include" ><center>
+<p style=3D"font-size:13px;text-align:center;font-family:Arial, Helvetica, =
+sans-serif;color:#000">
+<br />
+Si vous ne voulez plus recevoir ces lettres d'information, vous pouvez vous=
+ <a href=3D"http://red.vip.momentplaisir.eu/click/YToxOntzOjM6InRhZyI7czozM=
+DoiZGF0YV9zZW5kb3V0XzU1ZGI5OWQ5NWE3YzVfMTA2Ijt9/cmVzcC1tMi1taWFnZSU0MHVuaXY=
+tcmVubmVzMS5mcg=3D=3D/4430100/254831">d&eacute;sabonner</a>
+</p>
+</center>
+<img src=3D"http://www.momentplaisir.eu/i/502958/232898091/112b529cd4" alt=
+=3D"" width=3D"1" height=3D"1" /></div>
+<style type=3D"text/css">
+=2EReadMsgBody {width: 100%;}
+=2EExternalClass {width: 100%;}
+=2EExternalClass * {line-height: 100%;}
+span.yshortcuts { color:#000; background-color:none; border:none;}
+span.yshortcuts:hover,span.yshortcuts:active,span.yshortcuts:focus {color:#=
+000; background-color:none; border:none;}
+* {-webkit-text-size-adjust: none}
+#outlook a {padding:0;}
+body{width:100% !important; -webkit-text-size-adjust:100%; -ms-text-size-ad=
+just:100%; margin:0; padding:0;}
+=2EExternalClass {width:100%;} /* Force Hotmail to display emails at full w=
+idth */
+=2EExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass fon=
+t, .ExternalClass td, .ExternalClass div {line-height: 100%;} /* Force Hotm=
+ail to display normal line spacing. */
+#backgroundTable {margin:0; padding:0; width:100% !important; line-height: =
+100% !important;}
+img {outline:none; text-decoration:none;border:none; -ms-interpolation-mode=
+: bicubic;}
+a img {border:none;}
+=2Eimage_fix {display:block;}
+p {margin: 0px 0px !important;}
+table td {border-collapse: collapse;}
+table { border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0p=
+t; }
+a {color: #9ec459;text-decoration: none;text-decoration:none!important;}
+/*STYLES*/table[class=3Dfull] { width: 100%; clear: both; }
+=2Etop{ background-color:#007CBC}
+@media only screen and (max-width: 640px) {a[href^=3D"tel"], a[href^=3D"sms=
+"] {text-decoration: none;color: #9ec459;pointer-events: none;cursor: defau=
+lt;}
+=2Emobile_link a[href^=3D"tel"], .mobile_link a[href^=3D"sms"] {text-decora=
+tion: default;color: #9ec459 !important;pointer-events: auto;cursor: defaul=
+t;}
+table[class=3Ddevicewidth] {width: 440px!important;text-align:center!import=
+ant;}
+td[class=3Ddevicewidth] {width: 440px!important;text-align:center!important=
+;}
+img[class=3Ddevicewidth] {width: 440px!important;text-align:center!importan=
+t;}
+img[class=3Dbanner] {width: 440px!important;height:147px!important;}
+table[class=3Ddevicewidthinner] {width: 420px!important;text-align:center!i=
+mportant;}
+table[class=3Dicontext] {width: 345px!important;text-align:center!important=
+;}
+img[class=3D"colimg2"] {width:280px!important;height:auto!important; margin=
+:auto !important; text-align:center!important; display:block !important}
+table[class=3D"emhide"]{display: none!important;}
+img[class=3D"logo"]{margin:auto; text-align:center; display:block}
+img[class=3D"logo2"]{ width:127px; height:auto!important;margin:auto; text-=
+align:center; display:block}
+img[class=3D"header"]{ width:100%; height:auto!important;margin:auto; text-=
+align:center; display:block}
+td[class=3Dhide] {display:none!important;}
+td[class=3Dhide2] {height:10px!important;}
+}
+@media only screen and (max-width: 480px) {a[href^=3D"tel"], a[href^=3D"sms=
+"] {text-decoration: none;color: #9ec459;pointer-events: none;cursor: defau=
+lt;}
+table[class=3Ddevicewidth] {width: 100%!important;text-align:center!importa=
+nt;}
+td[class=3Ddevicewidth] {width: 100%!important;text-align:center!important;=
+}
+img[class=3Ddevicewidth] {width: 100%!important;text-align:center!important=
+;}
+img[class=3Dbanner] {width: 100%!important;height:auto!important;}
+table[class=3Ddevicewidthinner] {width: 100%!important;text-align:center!im=
+portant;}
+table[class=3Dicontext] {width: 100%!important;text-align:center!important;=
+}
+td[class=3Dtext-mobile] {padding-left:20px!important; padding-right:20px!im=
+portant; font-size:20px !important}
+a[class=3Dtext-mobile] {font-size:20px !important}
+=2Ecta{ width:100%!important; height:auto !important; text-align:center; ma=
+rgin:auto; display:block}
+span[class=3D"user"]{ margin-top:-10px!important;padding: 0 !important; fon=
+t-size:18px!important; margin-bottom:-20px}
+span[class=3D"data"]{ margin-top:-10px!important; font-size:15px!important;=
+ margin-bottom:-20px}
+span[class=3D"hour"]{ margin-top:-10px!important; font-size:15px!important;=
+ margin-bottom:-20px}
+=2Etext-mobile2{ font-size:17px !important;text-align:center; line-height:2=
+0px!important}
+=2Etext-mobile3{ font-size:17px !important;text-align:left; line-height:20p=
+x!important}
+=2Etext-mobile5{ font-size:17px !important;text-align:left;line-height:20px=
+!important; padding-left:20px; padding-right:20px; padding-top:20px}
+img[class=3D"colimg2"] {width:280px!important;height:auto!important; margin=
+:auto; text-align:center; display:block}
+</style>
+<img height=3D"1" width=3D"1" src=3D"http://www.momentplaisir.eu/i/502958/2=
+32898091/112b529cd4/1"/><img alt=3D"" src=3D"http://red.vip.momentplaisir=
+=2Eeu/imp/YToxOntzOjM6InRhZyI7czozMDoiZGF0YV9zZW5kb3V0XzU1ZGI5OWQ5NWE3YzVfM=
+TA2Ijt9/cmVzcC1tMi1taWFnZSU0MHVuaXYtcmVubmVzMS5mcg=3D=3D/254831" width=3D"1=
+" height=3D"1" border=3D"0" />
+</body>
+</html>
+--=_7f22d59e9edb9f66c8635fa823a24ba4--

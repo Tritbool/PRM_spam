@@ -1,0 +1,683 @@
+Return-Path: <return-a18-2389-2393-resp-m2-miage=univ-rennes1.fr=4@mes-montres.com>
+Received: from mailimailo.univ-rennes1.fr ([unix socket])
+	 by mailimailo.univ-rennes1.fr (Cyrus v2.3.16-Fedora-RPM-2.3.16-6.el6_2.5) with LMTPA;
+	 Fri, 04 Dec 2015 18:59:11 +0100
+X-Sieve: CMU Sieve 2.3
+Received: from mailout1.univ-rennes1.fr (mailout1.univ-rennes1.fr [129.20.128.162])
+	by mailimailo.univ-rennes1.fr (Postfix) with ESMTP id 3A12626A0C97
+	for <resp-m2-miage@univ-rennes1.fr>; Fri,  4 Dec 2015 18:59:11 +0100 (CET)
+Received: from localhost (vmscanmail.univ-rennes1.fr [129.20.128.134])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id 36A496003F
+	for <resp-m2-miage@univ-rennes1.fr>; Fri,  4 Dec 2015 18:59:11 +0100 (CET)
+X-Virus-Scanned: amavisd-new at univ-rennes1.fr
+Received: from mailout1.univ-rennes1.fr ([129.20.128.162])
+	by localhost (vmscanmail.univ-rennes1.frm [129.20.128.134]) (amavisd-new, port 10026)
+	with ESMTP id CgUqJXO58Gyr for <resp-m2-miage@univ-rennes1.fr>;
+	Fri,  4 Dec 2015 18:59:11 +0100 (CET)
+Received: from vmmailin.univ-rennes1.fr (vmmailin.univ-rennes1.fr [129.20.128.133])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id 1226060003
+	for <resp-m2-miage@univ-rennes1.fr>; Fri,  4 Dec 2015 18:59:11 +0100 (CET)
+Received: from mxb1-1.relay.renater.fr (mxb1-1.relay.renater.fr [194.214.201.8])
+	by vmmailin.univ-rennes1.fr (Postfix) with ESMTP id 0ABBB20033
+	for <resp-m2-miage@univ-rennes1.fr>; Fri,  4 Dec 2015 18:59:11 +0100 (CET)
+Received: from smtp1-24.revue-en-ligne.com (smtp1-24.revue-en-ligne.com [5.196.210.207])
+	by mxb1-1.relay.renater.fr (asm) with SMTP id B06CB60013A
+	for <resp-m2-miage@univ-rennes1.fr>; Fri,  4 Dec 2015 18:59:10 +0100 (CET)
+Received: (GreenArrow 885 invoked by uid 410); 4 Dec 2015 17:59:10 -0000
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed;
+	d=mes-montres.com; s=default; h=Subject:From:To:Date:
+	List-Unsubscribe:Message-ID:MIME-Version:Content-Type; bh=ZVo8AV
+	l0AR+ZC2YlSPSdPw6nutg=; b=eqnYreEpCimkxLKo0iV/f7ZU/suFZmpJaMaaA3
+	yaGVOkOflBsD/jMi1DYGnWhl/8d1TzPc8V0yunlv6ZZm+Dj08SIEgeD7InFT3zAT
+	SjdsMG093gm57fX06cuW/GDI5YAbogezpLqrWE7NxkncCGDpAAAFHbFC8XQNjCW/
+	bSlC0=
+Subject: Une offre surnaturelle
+From: "Red by SFR" <news@mes-montres.com>
+To: resp-m2-miage@univ-rennes1.fr
+Date: 04 Dec 2015 17:59:10 -0000
+List-Unsubscribe: <http://mes-montres.com/ga/unsubscribe/2-11527895-18-1246-2393-ed35df89ef15825-f75cf1b9fa>,
+ <mailto:return-a18-2389-2393-resp-m2-miage=univ-rennes1.fr=4u@mes-montres.com>
+X-Mailer: GreenArrow Studio (v4.65.0)
+X-CampaignID: s4:2389-0f15f03a1e83da38
+Message-ID: <mid-9f4b0ff7b2b552d6d1c76666595d01b6@mes-montres.com>
+X-Mailer-Info: 4.hFDO.gMzgTO.IXZzBXLtJTLtlWYnVGQ15Wa21icl5mblNXMuYmc.gMzkzM
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="==5eed43f0a0dc924a0b58a07dff3a7aec"
+X-UCE-Status: YES
+X-UCE-Type: MCE
+X-Original-Source-IP: 5.196.210.207
+X-Bizanga: IMP - mxb1-1.relay.renater.fr
+X-Renater-SpamState: 11
+X-Renater-SpamScore: 17
+X-Renater-SpamCause: gggruggvucftvghtrhhoucdtuddrfeekiedrtdeigddutdejucetufdoteggodetrfdotffvucfrrhhofhhilhgvmecutffgpfetvffgtfdpggftfghnshhusghstghrihgsvgenuceurghilhhouhhtmecufedttdenucdnofetkffnkffpifculddujedmnecujfgurhepuffhvfffjffokfggtgesrgdtreerredtjeenucfhrhhomhepfdftvgguucgshicuuffhtfdfuceonhgvfihssehmvghsqdhmohhnthhrvghsrdgtohhmqeenucffohhmrghinhepmhgvshdqmhhonhhtrhgvshdrtghomhenucfrrghrrghmpehmohguvgepshhmthhppdhhvghlohepshhmthhpuddqvdegrdhrvghvuhgvqdgvnhdqlhhighhnvgdrtghomhdpihhnvghtpeehrdduleeirddvuddtrddvtdejpdhmrghilhhfrhhomheprhgvthhurhhnqdgrudekqddvfeekledqvdefleefqdhrvghsphdqmhdvqdhmihgrghgvpehunhhivhdqrhgvnhhnvghsuddrfhhrpeegsehmvghsqdhmohhnthhrvghsrdgtohhmpdhrtghpthhtoheprhgvshhpqdhmvddqmhhirghgvgesuhhnihhvqdhrvghnnhgvshdurdhfrh 
+X-Renater-ServerName: mxb1-1.relay.renater.fr
+
+This is a multi-part message in MIME format.
+
+--==5eed43f0a0dc924a0b58a07dff3a7aec
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Jusqu'au 6 d=C3=A9cembre, profitez d'une offre surnaturelle ! ( http://mes-=
+montres.com/ga/click/2-11527895-18-1246-2393-17094-8cbaefca77-f75cf1b9fa )
+
+RED BY SFR ( http://mes-montres.com/ga/click/2-11527895-18-1246-2393-17095-=
+884d843686-f75cf1b9fa )
+
+Rejoignez-nous :
+
+Facebook ( http://mes-montres.com/ga/click/2-11527895-18-1246-2393-17096-d6=
+9eebd26e-f75cf1b9fa )
+Twitter ( http://mes-montres.com/ga/click/2-11527895-18-1246-2393-17097-2c6=
+5f21013-f75cf1b9fa )
+Google + ( http://mes-montres.com/ga/click/2-11527895-18-1246-2393-17098-4e=
+0bf0cb16-f75cf1b9fa )
+
+Une offre surnaturelle ( http://mes-montres.com/ga/click/2-11527895-18-1246=
+-2393-17099-ceb08742a4-f75cf1b9fa )
+
+Jusqu'au 6 d=C3=A9cembre ( http://mes-montres.com/ga/click/2-11527895-18-12=
+46-2393-17100-a88df4fa91-f75cf1b9fa )
+
+20 Go ( http://mes-montres.com/ga/click/2-11527895-18-1246-2393-17101-f56d6=
+8d05b-f75cf1b9fa )
+
+D'INTERNET ( http://mes-montres.com/ga/click/2-11527895-18-1246-2393-17102-=
+e24225b788-f75cf1b9fa )
+
+Appels & SMS / MMS illimit=C3=A9s
+Sans engagement ( http://mes-montres.com/ga/click/2-11527895-18-1246-2393-1=
+7103-799474084b-f75cf1b9fa )
+
+3 ( http://mes-montres.com/ga/click/2-11527895-18-1246-2393-17104-afdcb5ac1=
+d-f75cf1b9fa )
+,99=E2=82=AC
+/MOIS ( http://mes-montres.com/ga/click/2-11527895-18-1246-2393-17105-70a04=
+e20d8-f75cf1b9fa )
+
+Pendant 12 mois puis 19,99=E2=82=AC ( http://mes-montres.com/ga/click/2-115=
+27895-18-1246-2393-17106-69ee95e550-f75cf1b9fa )
+
+J'en profite ( http://mes-montres.com/ga/click/2-11527895-18-1246-2393-1710=
+7-08daeb2fd4-f75cf1b9fa )
+
+LES PLUS DE RED BY SFR
+
+Parrainage ( http://mes-montres.com/ga/click/2-11527895-18-1246-2393-17108-=
+2700df2c91-f75cf1b9fa )
+Parrainage 100% digital
+1 ami =3D 1 mois de forfait ( http://mes-montres.com/ga/click/2-11527895-18=
+-1246-2393-17109-0c06d81465-f75cf1b9fa )
+
+Bons plans ( http://mes-montres.com/ga/click/2-11527895-18-1246-2393-17110-=
+a4ff0cb3fe-f75cf1b9fa )
+Bons plans RED by SFR
+Ne passez pas =C3=A0 c=C3=B4t=C3=A9 ! ( http://mes-montres.com/ga/click/2-1=
+1527895-18-1246-2393-17111-361803f4b0-f75cf1b9fa )
+
+Appels ILLIMITES: 3 heures maximum par appel, puis coup=C3=A9. Voir
+tarification des appels au-del=C3=A0 vers les destinations
+internationales dans les documents tarifaires. Appels illimit=C3=A9s
+vers les mobiles m=C3=A9tropolitains et d=E2=80=99Am=C3=A9rique du Nord (ho=
+rs
+Alaska, Hawa=C3=AF, Porto Rico et Iles Vierges Am=C3=A9ricaines) et des DOM
+(hors Mayotte) et appels illimit=C3=A9s depuis la France vers les
+fixes de France m=C3=A9tropolitaine et de 52 destinations (voir liste
+des destinations sur la fiche d=E2=80=99information standardis=C3=A9e), hors
+num=C3=A9ros sp=C3=A9ciaux, services et appels depuis bo=C3=AEtiers radio.
+Limit=C3=A9s =C3=A0 200 destinataires diff=C3=A9rents par mois
+SMS/MMS ILLIMITES : Limit=C3=A9s =C3=A0 200 destinataires diff=C3=A9rents p=
+ar
+mois. SMS/MMS illimit=C3=A9s m=C3=A9tropolitains non surtax=C3=A9s, hors Te=
+xto
+/MMS Chat et Chat Wap.
+Offre soumise =C3=A0 condition, valable en France m=C3=A9tropolitaine du
+03/12/2015 =C3=A0 9h au 07/12/2015 =C3=A0 8h59, exclusivement sur
+redbysfr.fr. Offre r=C3=A9serv=C3=A9e aux nouveaux clients RED et aux
+clients La Carte. Offre non disponible pour les clients SFR
+encore engag=C3=A9s qui souhaiteraient changer d=E2=80=99offre pour une off=
+re
+RED. Offre sans engagement, disponible en gardant votre mobile
+(ou avec un mobile neuf ou d=E2=80=99occasion). Offre non compatible avec
+les remises RED Fibre, les Multi-Packs de SFR, et les services
+Carr=C3=A9s. Pas de migration possible vers un forfait 4G de SFR avec
+option de blocage ou une offre SFR La Carte.
+INTERNET 20Go en France m=C3=A9tropolitaine : Mode modem autoris=C3=A9.
+D=C3=A9bit jusqu=E2=80=99=C3=A0 112,5 Mbits/s en 4G et jusqu=E2=80=99=C3=A0=
+ 42 Mbits/s en 3G
+selon capacit=C3=A9 du mobile compatible, dans la limite des zones
+couvertes par les r=C3=A9seaux GSM/GPRS/3G/4G et des op=C3=A9rateurs
+=C3=A9trangers ayant conclu un accord d=E2=80=99itin=C3=A9rance. Les surtax=
+es des
+t=C3=A9l=C3=A9chargements et services restent payantes. Pour un acc=C3=A8s =
+au
+r=C3=A9seau SFR dans des conditions optimales, en France
+m=C3=A9tropolitaine, le d=C3=A9bit maximum de connexion d=E2=80=99=C3=A9cha=
+nges de
+donn=C3=A9es par mois sera r=C3=A9duit au-del=C3=A0 de 20Go par mois, jusqu=
+=E2=80=99=C3=A0 la
+prochaine date de facturation=
+
+--==5eed43f0a0dc924a0b58a07dff3a7aec
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.=
+w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml">
+<head>
+	<title></title>
+	<meta content=3D"text/html; charset=3Dutf-8" http-equiv=3D"Content-Type" />
+	<meta content=3D"width=3Ddevice-width, user-scalable=3Dno, initial-scale=
+=3D1.0, minimum-scale=3D1.0, maximum-scale=3D1.0" name=3D"viewport" />
+	<style type=3D"text/css">table, td {
+		border-collapse: collapse;
+		mso-table-lspace:0pt;=20
+		mso-table-rspace:0pt;
+	}
+	table[class=3D"bradius"] {
+		-webkit-border-radius: 5px;=20
+		-moz-border-radius: 5px;=20
+		border-radius: 5px;
+		border-collapse: initial;
+	}
+
+	table[class=3D"bradius1"] {
+		-webkit-border-radius: 5px;=20
+		-moz-border-radius: 5px;=20
+		border-radius: 5px;
+		border-collapse: initial;
+		border:1px solid #FFFFFF;
+	}
+	.ReadMsgBody {width: 100%;}
+	.ExternalClass {width: 100%;}
+	.ExternalClass * {line-height: 110% !important}
+	body {-webkit-text-size-adjust: none; -ms-text-size-adjust: 100%;}
+	a.white:link{ color:#FFFFFF !important;}
+	a.white:visited{ color:#FFFFFF !important;}
+	a.black:link{ color:#010101 !important;}
+	a.black:visited{ color:#010101 !important;}
+	a.red:link{ color:#d90019 !important;}
+	a.red:visited{ color:#d90019 !important;}
+	a.grey:link{ color:#8e8e8e !important;}
+	a.grey:visited{ color:#8e8e8e !important;}
+
+	@media only screen and (max-width: 600px) {
+		table[class=3D"table100"] {
+			width:98% !important;
+			min-width: 370px !important;
+		}
+		table[class=3D"table100a"] {
+			width:100% !important;
+		}
+		table[class=3D"bradius"] {
+			width: 98% !important;
+		}
+		table[class=3D"bradius"] td {
+			height: 37px !important;
+		}
+		table[class=3D"bradius"] td a {
+			font-size: 14px !important;
+		}
+		table[class=3D"bradius1"] {
+			width: 98% !important;
+		}
+		table[class=3D"bradius1"] td {
+			height: 37px !important;
+		}
+		table[class=3D"bradius1"] td a {
+			font-size: 14px !important;
+		}
+		td[class=3D"nobg"] {
+			background: none !important;
+			background-color:#FFFFFF !important;
+		}
+		table[class=3D"td45"] {
+			width: 100% !important;
+		}
+		table[class=3D"td50"] {
+			width: auto !important;
+		}
+		td[class=3D"h40"] {
+			height: 80px !important;
+		}
+		td[class=3D"h15"] {
+			height: 25px !important;
+			background: none !important;
+		}
+		td[class=3D"h20"] {
+			height: 15px !important;
+		}
+		table[class=3D"table33"] {
+			width:100% !important;
+		}
+		table[class=3D"table33"] td * {
+			font-size:13px !important;
+		}
+		table[class=3D"table33"] br {
+			display:none;
+		}
+		td[class=3D"table33s"] {
+			width:100px !important;
+		}
+		td[class=3D"td15"] {
+			width:1px !important;
+		}
+		td[class=3D"tdcenter"] {
+			text-align:center !important;
+		}
+		img[class=3D"img100"] {
+			width:80% !important;
+		}
+		img[class=3D"img100a"] {
+			width:100% !important;
+		}
+		img[class=3D"img80"] {
+			width:30% !important;
+		}
+		td[class=3D"bgnone"] {
+			background-image: none !important;
+		}
+	}
+	</style>
+</head>
+<body bgcolor=3D"#FFFFFF" style=3D"height: auto; padding:0; margivalin:0; -=
+webkit-text-size-adjust:none; -ms-text-size-adjust: 100%;">
+<p><img border=3D"0" height=3D"1" nosend=3D"" src=3D"http://elr.sfr.fr/view=
+/sfr-fr/DEQwyRwgEDJm_8YpRfix617IX5NoMQYslZSAm4Rp/pix.gif?ea-rnd=3D[RANDOM]&=
+eseg-name=3Didrouteur&eseg-item=3D48&eemail=3D" style=3D"display:none;" wid=
+th=3D"1" /></p>
+
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"font-size:=
+12px; color:#010101; font-family:Arial;" width=3D"100%">
+	<tbody>
+		<tr>
+			<td align=3D"center" bgcolor=3D"#FFFFFF"><a class=3D"red" href=3D"http:/=
+/mes-montres.com/ga/click/2-11527895-18-1246-2393-17112-3af0fb364d-f75cf1b9=
+fa" style=3D"color:#d90019;" target=3D"_blank" title=3D"Jusqu'au 6 d=C3=A9c=
+embre, profitez d'une offre surnaturelle !"><font style=3D"color:#d90019; f=
+ont-size:11px; line-height:15px;">Jusqu&#39;au 6 d&eacute;cembre, profitez =
+d&#39;une offre surnaturelle !</font></a></td>
+		</tr>
+		<tr>
+			<td align=3D"center">
+			<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"table10=
+0" style=3D"font-size:12px; color:#010101; font-family:Arial; text-align:le=
+ft;" width=3D"599">
+				<tbody>
+					<tr>
+						<td background=3D"http://i.stupremesw.com/content/sfr20151203/Reveil-=
+RED.jpg" bgcolor=3D"#FFFFFF" style=3D"background-image:url('http://i.stupre=
+mesw.com/content/sfr20151203/Reveil-RED.jpg') no-repeat top left" valign=3D=
+"top" width=3D"100%">
+						<table align=3D"left" border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" style=3D"font-size:12px; color:#010101; font-family:Arial; text-align:lef=
+t;" width=3D"38%">
+							<tbody>
+								<tr>
+									<td><a class=3D"red" href=3D"http://mes-montres.com/ga/click/2-115=
+27895-18-1246-2393-17113-bb6dc62a47-f75cf1b9fa" style=3D"color:#d90019; tex=
+t-decoration:none;" target=3D"_blank" title=3D"RED BY SFR"><img alt=3D"RED =
+BY SFR" src=3D"http://i.stupremesw.com/content/sfr20151203/logo.jpg" style=
+=3D"display:block; border:0;" /> </a></td>
+								</tr>
+							</tbody>
+						</table>
+
+						<table align=3D"right" border=3D"0" cellpadding=3D"0" cellspacing=3D"=
+0" style=3D"font-size:12px; color:#010101; font-family:Arial; text-align:le=
+ft;" width=3D"183">
+							<tbody>
+								<tr>
+									<td align=3D"center" colspan=3D"3" height=3D"30"><font style=3D"fo=
+nt-size:13px; color:#7b7b7b;">Rejoignez-nous :</font></td>
+								</tr>
+								<tr>
+									<td align=3D"center" height=3D"41" width=3D"61"><a class=3D"black"=
+ href=3D"http://mes-montres.com/ga/click/2-11527895-18-1246-2393-17114-a616=
+3968d3-f75cf1b9fa" style=3D"color:#FEFEFE; text-decoration:none;" target=3D=
+"_blank" title=3D"Facebook"><img alt=3D"Facebook" src=3D"http://i.stupremes=
+w.com/content/sfr20151203/facebook_head.png" style=3D"display:block; border=
+:0;" /></a></td>
+									<td align=3D"center" height=3D"41" width=3D"61"><a class=3D"black"=
+ href=3D"http://mes-montres.com/ga/click/2-11527895-18-1246-2393-17115-4b21=
+94ae65-f75cf1b9fa" style=3D"color:#FEFEFE; text-decoration:none;" target=3D=
+"_blank" title=3D"Twitter"><img alt=3D"Twitter" src=3D"http://i.stupremesw.=
+com/content/sfr20151203/twitter_head.png" style=3D"display:block; border:0;=
+" /></a></td>
+									<td align=3D"center" height=3D"41" width=3D"61"><a class=3D"black"=
+ href=3D"http://mes-montres.com/ga/click/2-11527895-18-1246-2393-17116-7e47=
+ae800d-f75cf1b9fa" style=3D"color:#FEFEFE; text-decoration:none;" target=3D=
+"_blank" title=3D"Google +"><img alt=3D"Google +" src=3D"http://i.stupremes=
+w.com/content/sfr20151203/google_head.png" style=3D"display:block; border:0=
+;" /></a></td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+					<tr>
+						<td align=3D"left" background=3D"http://i.stupremesw.com/content/sfr2=
+0151203/bg.jpg" bgcolor=3D"#FFFFF" class=3D"nobg" style=3D"background-image=
+:url(http://i.stupremesw.com/content/sfr20151203/bg.jpg); background-repeat=
+:no-repeat;" valign=3D"top" width=3D"100%">
+						<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0" style=3D"font-size:12px; color:#010101; font-family:Arial; text-align:l=
+eft;" width=3D"100%">
+							<tbody>
+								<tr>
+									<td align=3D"center" valign=3D"top"><a class=3D"red" href=3D"http:=
+//mes-montres.com/ga/click/2-11527895-18-1246-2393-17117-4521d8abf4-f75cf1b=
+9fa" style=3D"color:#d90019; text-decoration:none;" target=3D"_blank" title=
+=3D"Une offre surnaturelle"><img alt=3D"Une offre surnaturelle" class=3D"im=
+g100a" src=3D"http://i.stupremesw.com/content/sfr20151203/offre.jpg" style=
+=3D"display:block; border:0;" /> </a></td>
+								</tr>
+								<tr>
+									<td align=3D"center" valign=3D"top"><a class=3D"red" href=3D"http:=
+//mes-montres.com/ga/click/2-11527895-18-1246-2393-17118-1e84eea26b-f75cf1b=
+9fa" style=3D"color:#d90019; text-decoration:none; font-size:16px;" target=
+=3D"_blank" title=3D"Jusqu'au 6 d=C3=A9cembre">Jusqu&#39;au 6 d&eacute;cemb=
+re </a></td>
+								</tr>
+								<tr>
+									<td class=3D"h15" height=3D"30"></td>
+								</tr>
+								<tr>
+									<td>
+									<table align=3D"left" border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" class=3D"td45" style=3D"font-size:13px; color:#010101; font-family:A=
+rial; text-align:left;" width=3D"49%">
+										<tbody>
+											<tr>
+												<td align=3D"center" bgcolor=3D"#FFFFFF" height=3D"70" valign=
+=3D"top">
+												<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" width=3D"100%">
+													<tbody>
+														<tr>
+															<td align=3D"center">
+															<table align=3D"center" border=3D"0" cellpadding=3D"0" cells=
+pacing=3D"0">
+																<tbody>
+																	<tr>
+																		<td align=3D"center" valign=3D"top"><a class=3D"red" href=
+=3D"http://mes-montres.com/ga/click/2-11527895-18-1246-2393-17119-02bc6df8f=
+6-f75cf1b9fa" style=3D"font-size:96px; color:#d90019; text-decoration:none;=
+" target=3D"_blank" title=3D"20 Go"><b>20</b><font style=3D"font-size:25px;=
+"> Go</font> </a></td>
+																	</tr>
+																	<tr>
+																		<td align=3D"center" valign=3D"top"><a class=3D"black" hr=
+ef=3D"http://mes-montres.com/ga/click/2-11527895-18-1246-2393-17120-a491e7c=
+20b-f75cf1b9fa" style=3D"color:#010101; font-size:18px; text-decoration:non=
+e;" target=3D"_blank" title=3D"D'INTERNET">D&#39;INTERNET </a></td>
+																	</tr>
+																	<tr>
+																		<td align=3D"center" valign=3D"top"><a class=3D"black" hr=
+ef=3D"http://mes-montres.com/ga/click/2-11527895-18-1246-2393-17121-c509951=
+962-f75cf1b9fa" style=3D"color:#010101; font-size:12px; text-decoration:non=
+e;" target=3D"_blank" title=3D"Appels & SMS / MMS illimit=C3=A9s Sans engag=
+ement">Appels &amp; SMS / MMS illimit&eacute;s<br />
+																		Sans engagement </a></td>
+																	</tr>
+																</tbody>
+															</table>
+															</td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+
+									<table align=3D"left" border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" class=3D"table100" width=3D"1">
+										<tbody>
+											<tr>
+												<td align=3D"center" bgcolor=3D"#9c9e9f" class=3D"h15" height=
+=3D"140"></td>
+											</tr>
+										</tbody>
+									</table>
+
+									<table align=3D"left" border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" class=3D"td45" style=3D"font-size:13px; color:#010101; font-family:A=
+rial; text-align:left;" width=3D"49%">
+										<tbody>
+											<tr>
+												<td align=3D"center" bgcolor=3D"#FFFFFF" height=3D"70" valign=
+=3D"top">
+												<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" width=3D"100%">
+													<tbody>
+														<tr>
+															<td align=3D"center">
+															<table align=3D"center" border=3D"0" cellpadding=3D"0" cells=
+pacing=3D"0">
+																<tbody>
+																	<tr>
+																		<td align=3D"center" height=3D"12"></td>
+																	</tr>
+																	<tr>
+																		<td align=3D"center" valign=3D"top">
+																		<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0">
+																			<tbody>
+																				<tr>
+																					<td align=3D"right" valign=3D"top"><a class=3D"black" =
+href=3D"http://mes-montres.com/ga/click/2-11527895-18-1246-2393-17122-2e791=
+c7eea-f75cf1b9fa" style=3D"font-size:96px; color:#010101; line-height:96px;=
+ text-decoration:none;" target=3D"_blank" title=3D"3"><b>3</b> </a></td>
+																					<td align=3D"left" valign=3D"top"><a class=3D"black" h=
+ref=3D"http://mes-montres.com/ga/click/2-11527895-18-1246-2393-17123-997b0a=
+c228-f75cf1b9fa" style=3D"font-size:40px; color:#010101; text-decoration:no=
+ne; line-height:45px;" target=3D"_blank" title=3D",99=E2=82=AC"><b>,99&euro=
+;</b><br />
+																					<font style=3D"font-size:23px;">&nbsp;&nbsp;/MOIS</fon=
+t> </a></td>
+																				</tr>
+																			</tbody>
+																		</table>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td align=3D"center" valign=3D"top"><a class=3D"black" hr=
+ef=3D"http://mes-montres.com/ga/click/2-11527895-18-1246-2393-17124-9b7ea94=
+cb3-f75cf1b9fa" style=3D"color:#010101; font-size:12px; text-decoration:non=
+e;" target=3D"_blank" title=3D"D'INTERNET">Pendant 12 mois puis 19,99&euro;=
+ </a></td>
+																	</tr>
+																</tbody>
+															</table>
+															</td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+					<tr>
+						<td class=3D"h15" height=3D"30"></td>
+					</tr>
+					<tr>
+						<td align=3D"center" bgcolor=3D"#FFFFFF">
+						<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0" style=3D"font-size:14px; font-family:Arial; text-align:center;" width=
+=3D"120">
+							<tbody>
+								<tr>
+									<td align=3D"center" bgcolor=3D"#d90019" class=3D"bradius" height=
+=3D"33" style=3D"background:#d90019; -webkit-border-radius: 5px; -moz-borde=
+r-radius: 5px; border-radius: 5px;"><a class=3D"white" href=3D"http://mes-m=
+ontres.com/ga/click/2-11527895-18-1246-2393-17125-d0166d0983-f75cf1b9fa" st=
+yle=3D"color:#FEFEFE; font-size:14px; line-height:34px; text-decoration:non=
+e;" target=3D"_blank" title=3D"J'en profite"><b>J&#39;en profite</b> </a></=
+td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+					<tr>
+						<td class=3D"h15" height=3D"30"></td>
+					</tr>
+					<tr>
+						<td bgcolor=3D"#606262">
+						<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0" style=3D"font-size:13px; color:#010101; font-family:Arial; text-align:l=
+eft;" width=3D"96%">
+							<tbody>
+								<tr>
+									<td bgcolor=3D"#606262" width=3D"2%"></td>
+									<td bgcolor=3D"#606262" height=3D"40" width=3D"95%"><font style=3D=
+"font-size:14px; color:#FEFEFE;"><b>LES PLUS DE RED BY SFR</b></font></td>
+									<td bgcolor=3D"#606262" width=3D"2%"></td>
+								</tr>
+								<tr>
+									<td align=3D"center" bgcolor=3D"#606262" colspan=3D"3" height=3D"6=
+0" valign=3D"top">
+									<table align=3D"left" border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" class=3D"table33" style=3D"font-size:13px; color:#010101; font-famil=
+y:Arial; text-align:left;" width=3D"49%">
+										<tbody>
+											<tr>
+												<td align=3D"center" class=3D"table33s" height=3D"76" valign=3D=
+"top" width=3D"73"><a href=3D"http://mes-montres.com/ga/click/2-11527895-18=
+-1246-2393-17126-2d0236f206-f75cf1b9fa" style=3D"color:#FEFEFE; text-decora=
+tion:none;" target=3D"_blank" title=3D"Parrainage 100% digital 1 ami =3D 1 =
+mois de forfait"><img alt=3D"Parrainage" src=3D"http://i.stupremesw.com/con=
+tent/sfr20151203/parrainage.png" style=3D"display:block; border:0;" /></a><=
+/td>
+												<td><a href=3D"http://mes-montres.com/ga/click/2-11527895-18-12=
+46-2393-17127-e27814968a-f75cf1b9fa" style=3D"color:#FEFEFE; text-decoratio=
+n:none;" target=3D"_blank" title=3D"Parrainage 100% digital 1 ami =3D 1 moi=
+s de forfait"><font style=3D"font-size:11px; color:#FEFEFE; line-height:14p=
+x;"><b>Parrainage 100% digital</b><br />
+												1 ami =3D 1 mois de forfait</font></a></td>
+											</tr>
+											<tr>
+												<td class=3D"tdspacer" colspan=3D"2" height=3D"1"></td>
+											</tr>
+										</tbody>
+									</table>
+
+									<table align=3D"left" border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" class=3D"table33" style=3D"font-size:13px; color:#010101; font-famil=
+y:Arial; text-align:left;" width=3D"49%">
+										<tbody>
+											<tr>
+												<td align=3D"center" class=3D"table33s" height=3D"76" valign=3D=
+"middle" width=3D"93"><a href=3D"http://mes-montres.com/ga/click/2-11527895=
+-18-1246-2393-17128-fdef3206cb-f75cf1b9fa" style=3D"color:#FEFEFE; text-dec=
+oration:none;" target=3D"_blank" title=3D"Bons plans RED by SFR Ne passez p=
+as =C3=A0 c=C3=B4t=C3=A9 !"><img alt=3D"Bons plans" src=3D"http://i.stuprem=
+esw.com/content/sfr20151203/bonplan.png" style=3D"display:block; border:0;"=
+ /></a></td>
+												<td><a href=3D"http://mes-montres.com/ga/click/2-11527895-18-12=
+46-2393-17129-4da3896982-f75cf1b9fa" style=3D"color:#FEFEFE; text-decoratio=
+n:none;" target=3D"_blank" title=3D"Bons plans RED by SFR Ne passez pas =C3=
+=A0 c=C3=B4t=C3=A9 !"><font style=3D"font-size:11px; color:#FEFEFE; line-he=
+ight:14px;"><b>Bons plans RED by SFR</b><br />
+												Ne passez pas &agrave; c&ocirc;t&eacute; !</font></a></td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+								<tr>
+									<td colspan=3D"3" height=3D"10" width=3D"100%"></td>
+								</tr>
+								<tr>
+									<td bgcolor=3D"#FEFEFE" colspan=3D"3" height=3D"1" width=3D"100%">=
+</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+					<tr>
+						<td valign=3D"top">
+						<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0" style=3D"font-size:13px; color:#010101; font-family:Arial; text-align:l=
+eft;" width=3D"100%">
+							<tbody>
+								<tr>
+									<td bgcolor=3D"#606262" colspan=3D"3" height=3D"20" width=3D"100%"=
+></td>
+								</tr>
+								<tr>
+									<td bgcolor=3D"#606262" width=3D"2%"></td>
+									<td bgcolor=3D"#606262" height=3D"40" style=3D"text-align:justify;=
+" width=3D"95%"><font style=3D"font-size:9px; line-height:12px; color:#FEFE=
+FE;"><u>Appels ILLIMITES:</u> 3 heures maximum par appel, puis coup&eacute;=
+. Voir tarification des appels au-del&agrave; vers les destinations interna=
+tionales dans les documents tarifaires. Appels illimit&eacute;s vers les mo=
+biles m&eacute;tropolitains et d&rsquo;Am&eacute;rique du Nord (hors Alaska=
+, Hawa&iuml;, Porto Rico et Iles Vierges Am&eacute;ricaines) et des DOM (ho=
+rs Mayotte) et appels illimit&eacute;s depuis la France vers les fixes de F=
+rance m&eacute;tropolitaine et de 52 destinations (voir liste des destinati=
+ons sur la fiche d&rsquo;information standardis&eacute;e), hors num&eacute;=
+ros sp&eacute;ciaux, services et appels depuis bo&icirc;tiers radio. Limit&=
+eacute;s &agrave; 200 destinataires diff&eacute;rents par mois<br />
+									<u>SMS/MMS ILLIMITES :</u> Limit&eacute;s &agrave; 200 destinatair=
+es diff&eacute;rents par mois. SMS/MMS illimit&eacute;s m&eacute;tropolitai=
+ns non surtax&eacute;s, hors Texto /MMS Chat et Chat Wap.<br />
+									Offre soumise &agrave; condition, valable en France m&eacute;tropo=
+litaine du 03/12/2015 &agrave; 9h au 07/12/2015 &agrave; 8h59, exclusivemen=
+t sur redbysfr.fr. Offre r&eacute;serv&eacute;e aux nouveaux clients RED et=
+ aux clients La Carte. Offre non disponible pour les clients SFR encore eng=
+ag&eacute;s qui souhaiteraient changer d&rsquo;offre pour une offre RED. Of=
+fre sans engagement, disponible en gardant votre mobile (ou avec un mobile =
+neuf ou d&rsquo;occasion). Offre non compatible avec les remises RED Fibre,=
+ les Multi-Packs de SFR, et les services Carr&eacute;s. Pas de migration po=
+ssible vers un forfait 4G de SFR avec option de blocage ou une offre SFR La=
+ Carte.<br />
+									<u>INTERNET 20Go</u> en France m&eacute;tropolitaine : Mode modem =
+autoris&eacute;. D&eacute;bit jusqu&rsquo;&agrave; 112,5 Mbits/s en 4G et j=
+usqu&rsquo;&agrave; 42 Mbits/s en 3G selon capacit&eacute; du mobile compat=
+ible, dans la limite des zones couvertes par les r&eacute;seaux GSM/GPRS/3G=
+/4G et des op&eacute;rateurs &eacute;trangers ayant conclu un accord d&rsqu=
+o;itin&eacute;rance. Les surtaxes des t&eacute;l&eacute;chargements et serv=
+ices restent payantes. Pour un acc&egrave;s au r&eacute;seau SFR dans des c=
+onditions optimales, en France m&eacute;tropolitaine, le d&eacute;bit maxim=
+um de connexion d&rsquo;&eacute;changes de donn&eacute;es par mois sera r&e=
+acute;duit au-del&agrave; de 20Go par mois, jusqu&rsquo;&agrave; la prochai=
+ne date de facturation</font><br />
+									&nbsp;</td>
+									<td bgcolor=3D"#606262" width=3D"2%"></td>
+								</tr>
+								<tr>
+									<td bgcolor=3D"#606262" colspan=3D"3" height=3D"20" width=3D"100%"=
+></td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<p><img height=3D"1" src=3D"http://o.stupremesw.com/56-29-48-2712-23694/uni=
+queId" width=3D"1" /></p>
+
+<center><a href=3D"http://mes-montres.com/ga/unsubscribe/2-11527895-18-1246=
+-2393-ed35df89ef15825-f75cf1b9fa">Je souhaite me d=C3=A9sinscrire et ne plu=
+s recevoir les newsletters</a>
+</center><img src=3D"http://mes-montres.com/ga/open/2-11527895-18-1246-2393=
+-f75cf1b9fa" height=3D"2" width=3D"3" alt=3D""></body>
+</html>
+
+--==5eed43f0a0dc924a0b58a07dff3a7aec--

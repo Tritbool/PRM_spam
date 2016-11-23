@@ -1,0 +1,822 @@
+Return-Path: <jis_1028_heheec_gadfh@votre-kiosque.com>
+Received: from mailimailo.univ-rennes1.fr ([unix socket])
+	 by mailimailo.univ-rennes1.fr (Cyrus v2.3.16-Fedora-RPM-2.3.16-6.el6_2.5) with LMTPA;
+	 Tue, 05 Jul 2016 21:10:32 +0200
+X-Sieve: CMU Sieve 2.3
+Received: from mailout2.univ-rennes1.fr (mailout2.univ-rennes1.fr [129.20.129.120])
+	by mailimailo.univ-rennes1.fr (Postfix) with ESMTP id 92C3352
+	for <resp-m2-miage@univ-rennes1.fr>; Tue,  5 Jul 2016 21:10:32 +0200 (CEST)
+Received: from localhost (vmscanmail.univ-rennes1.fr [129.20.128.134])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id 8FDB560149
+	for <resp-m2-miage@univ-rennes1.fr>; Tue,  5 Jul 2016 21:10:32 +0200 (CEST)
+X-Virus-Scanned: amavisd-new at univ-rennes1.fr
+Received: from mailout2.univ-rennes1.fr ([129.20.129.120])
+	by localhost (vmscanmail.univ-rennes1.frm [129.20.128.134]) (amavisd-new, port 10026)
+	with ESMTP id 48mftr3g82ud for <resp-m2-miage@univ-rennes1.fr>;
+	Tue,  5 Jul 2016 21:10:32 +0200 (CEST)
+Received: from vmmailin.univ-rennes1.fr (vmmailin.univ-rennes1.fr [129.20.128.133])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id 695FE60142
+	for <resp-m2-miage@univ-rennes1.fr>; Tue,  5 Jul 2016 21:10:32 +0200 (CEST)
+Received: from mxb1-2.relay.renater.fr (mxb1-2.relay.renater.fr [194.214.201.9])
+	by vmmailin.univ-rennes1.fr (Postfix) with ESMTP id 61FD220033
+	for <resp-m2-miage@univ-rennes1.fr>; Tue,  5 Jul 2016 21:10:32 +0200 (CEST)
+Received: from mailn135.votre-kiosque.com (mailn135.votre-kiosque.com [82.97.28.194])
+	by mxb1-2.relay.renater.fr (asm) with ESMTP id 2989A28008A
+	for <resp-m2-miage@univ-rennes1.fr>; Tue,  5 Jul 2016 21:10:32 +0200 (CEST)
+Received: from TRT-74 (trt-74.novfarm.lan [192.168.203.74])
+	by mailn135 (Postfix) with SMTP id 11969595C3D9
+	for <resp-m2-miage@univ-rennes1.fr>; Tue,  5 Jul 2016 21:10:32 +0200 (CEST)
+From: "=?iso-8859-1?B?U2VjdXJpdGFzIERpcmVjdA==?=" <news@votre-kiosque.com>
+To: resp-m2-miage@univ-rennes1.fr
+Subject: =?iso-8859-1?B?VW4gY2FtYnJpb2xhZ2UgdG91?=
+ =?iso-8859-1?B?dGVzIGxlcyA5MCBzZWNvbmRlcw==?=
+Date: Tue, 05 Jul 2016 21:10:31 +0200
+Message-ID: <20160705-191031-11869870931@votre-kiosque.com>
+List-Unsubscribe: <mailto:abuse@votre-kiosque.com?subject=11869870931>, <http://stats.votre-kiosque.com/u/yHQkCX9t6gnV9hI_2bugLriWZiwtH3A0zE7gHlJUUwEIskrv2tm2STXJ4LmTFU2ib7ls0WdXCbP_2b4_3d/i.htm>
+List-Abuse: <mailto:abuse@votre-kiosque.com?subject=11869870931>, <http://stats.votre-kiosque.com/u/a/yHQkCX9t6gnV9hI_2bugLriWZiwtH3A0zE7gHlJUUwEIskrv2tm2STXJ4LmTFU2ib7ls0WdXCbP_2b4_3d/i.htm>
+X-Mailer: EmailStrategie
+X-1028-Campaign-ID: 747442
+X-1028-Message-ID: 11869870931
+DKIM-Signature: v=1; a=rsa-sha256; c=simple/simple;
+	d=votre-kiosque.com; s=mail;
+	h=From:To:Subject:Date:Message-ID:MIME-Version:Content-Type;
+	bh=OHj6/atUAeMBUHlZJSH3WvSqZUmLlnIR/4GHLPSvxxQ=;
+	b=fd2eR2EmfEaU2RwZb9LrtkOy1Lmd9l5eP4GeJgbni3/Z9n2+c1bF6tGdkOO5grrG
+		G9e+cVxe/SW0QqHxQ1exEc1r3TWb5RdSRk+fClcWvVbDijNcjJSnlCvROhW7Hc8I
+		U700TYjr1e0bhlJbqkbwbNsqBeWZfsqT0muvA95LdCA=
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--=aea876b1_b9f0_4625_ac5f_69fa28e3b67a"
+X-UCE-Status: YES
+X-UCE-Type: MCE
+X-Original-Source-IP: 82.97.28.194
+X-Bizanga: IMP - mxb1-2.relay.renater.fr
+X-Renater-SpamState: 11
+X-Renater-SpamScore: 17
+X-Renater-SpamCause: gggruggvucftvghtrhhoucdtuddrfeeltddrvdeggddufeegucetufdoteggodetrfdotffvucfrrhhofhhilhgvmecutffgpfetvffgtfdpggftfghnshhusghstghrihgsvgenuceurghilhhouhhtmecufedttdenucdnofetkffnkffpifculddujedmnecujfgurhephffvufffkffjofggtgesmhdtreerredtudenucfhrhhomhepfdfuvggtuhhrihhtrghsucffihhrvggtthdfuceonhgvfihssehvohhtrhgvqdhkihhoshhquhgvrdgtohhmqeenucffohhmrghinhepvhhothhrvgdqkhhiohhsqhhuvgdrtghomhenucfkphepkedvrdeljedrvdekrdduleegnecurfgrrhgrmhepmhhouggvpehsmhhtphdphhgvlhhopehmrghilhhnudefhedrvhhothhrvgdqkhhiohhsqhhuvgdrtghomhdpihhnvghtpeekvddrleejrddvkedrudelgedpmhgrihhlfhhrohhmpehjihhspgdutddvkegphhgvhhgvvggtpghgrggufhhhsehvohhtrhgvqdhkihhoshhquhgvrdgtohhmpdhrtghpthhtoheprhgvshhpqdhmvddqmhhirghgvgesuhhnihhvqdhrvghnnhgvshdurdhfrh 
+X-Renater-ServerName: mxb1-2.relay.renater.fr
+
+----=aea876b1_b9f0_4625_ac5f_69fa28e3b67a
+Content-Type: multipart/alternative;
+	boundary="--=00179d37_fbd9_4b3e_baac_912dbeabcade"
+
+----=00179d37_fbd9_4b3e_baac_912dbeabcade
+Content-Type: text/plain;charset="iso-8859-1"
+Content-Transfer-Encoding: Quoted-Printable
+
+http://stats.votre-kiosque.com/m/yHQkCX9t6gnV9hI_2bugLriWZiwtH3A0zE7gHl=
+JUUwEIskrv2tm2STXJ4LmTFU2ib7ls0WdXCbP_2b4_3d/i.htm
+
+----=00179d37_fbd9_4b3e_baac_912dbeabcade
+Content-Type: text/html;charset="iso-8859-1"
+Content-Transfer-Encoding: Quoted-Printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://=
+www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml">
+<head>
+	<meta content=3D"text/html; charset=3Diso-8859-1" http-equiv=3D"Conten=
+t-Type" />
+	<title>Votre s&eacute;curit&eacute; est notre m&eacute;tier</title>
+</head>
+<body><br/><table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+  <tr>
+    <td height=3D"18" align=3D"center" bgcolor=3D"#efefef">&nbsp;</td>
+    <td width=3D"200" align=3D"center" bgcolor=3D"#d7d4d4" style=3D"fon=
+t-family:Arial, Helvetica, sans-serif; color:#393636; font-size:13px">&=
+nbsp;<a style=3D"font-family:Arial, Helvetica, sans-serif; color:#39363=
+6; font-size:13px" href=3D"http://stats.votre-kiosque.com/asa/FR/yHQkCX=
+9t6gnV9hI_2bugLriWZiwtH3A0zE7gHlJUUwEIskrv2tm2STXJ4LmTFU2ib7ls0WdXCbP_2=
+b4_3d/i.htm">Signaler comme SPAM</a>&nbsp;</td>
+    <td height=3D"18" align=3D"center" bgcolor=3D"#efefef">&nbsp;</td>
+  </tr>
+</table><br/><div align=3D"left"><table align=3D"center" border=3D"0" c=
+ellpadding=3D"2" cellspacing=3D"0" height=3D"111" width=3D"700">
+	<tbody>
+		<tr>
+			<td>
+			<div align=3D"center"><span style=3D"font-size:12px;"><span style=3D=
+"color:#808080;">Ce message a pour destinataire resp-m2-miage@univ-renn=
+es1.fr<br />
+			Ajoutez-nous &agrave; vos contacts pour &ecirc;tre certain de recevo=
+ir nos e-mails.</span><br />
+			<a href=3D"http://stats.votre-kiosque.com/m/yHQkCX9t6gnV9hI_2bugLriW=
+ZiwtH3A0zE7gHlJUUwEIskrv2tm2STXJ4LmTFU2ib7ls0WdXCbP_2b4_3d/i.htm"><span=
+ style=3D"color:#0000ff;">Visualiser la version en ligne</span></a></sp=
+an></div>
+
+			<p align=3D"center"><span style=3D"font-size:11px;"><span style=3D"c=
+olor:#a9a9a9;">Pour personnaliser vos publicit&eacute;s lors de votre n=
+avigation (internet, email, applications...), des cookies sont d&eacute=
+;pos&eacute;s gr=E2ce &agrave; cet email.<br />
+			<a href=3D"http://stats.votre-kiosque.com/l/61120668/yHQkCX9t6gnV9hI=
+_2bugLriWZiwtH3A0zE7gHlJUUwEIskrv2tm2STXJ4LmTFU2ib7ls0WdXCbP_2b4_3d/i.h=
+tm"><span style=3D"color:#0000ff;">Pour en savoir plus ou vous y oppose=
+r</span></a></span></span></p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+<style type=3D"text/css">body {
+  -webkit-text-size-adjust: none;
+  -ms-text-size-adjust: none;
+}
+* {
+  line-height: 100%;
+}
+
+ @media only screen and (max-width: 480px) {
+
+table {
+  margin: 0 auto;
+}
+table[class=3Dcolonne-g] {
+  width: 322px !important;
+  height: auto !important;
+  display: block;
+}
+td[class=3Dcolonne-g] {
+  width: 320px !important;
+  height: auto !important;
+  display: block;
+}
+table[class=3Dcolonne] {
+  width: 320px !important;
+  height: auto !important;
+  display: block;
+}
+
+table[class=3Ddeuxcent] {
+  width: 200px !important;
+  height: auto !important;
+  display: block;
+  margin-bottom:20px !important;
+}
+
+td[class=3Dcolonne] {
+  width: 320px !important;
+  height: auto !important;
+  display: block;
+}
+
+td[class=3Ddeuxcent] {
+  width: 200px !important;
+  height: auto !important;
+  display: block;
+}
+
+img[class=3Dcolonne] {
+  width: 320px !important;
+  height: auto !important;
+  display: block;
+}
+
+a[class=3Ddeuxcent] {
+  width: 200px !important;
+  height: auto !important;
+  display: block;
+}
+
+
+[class=3Dhide] {
+display:none;
+}
+
+.img-sep { display: none; }
+
+}
+.ExternalClass {
+  width: 100%;
+}
+.ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass f=
+ont, .ExternalClass td, .ExternalClass div {
+  line-height: 100%;
+}
+table {
+  border-collapse: collapse;
+  mso-table-lspace: 0pt;
+  mso-table-rspace: 0pt;
+}
+table td {
+  border-collapse: collapse;
+  mso-table-lspace: 0pt;
+  mso-table-rspace: 0pt;
+}
+</style>
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" class=3D"colonne-g" width=3D"602">
+	<tbody>
+		<tr>
+			<td align=3D"center" bordercolor=3D"#b0b2b5" class=3D"colonne" style=
+=3D"border:1px solid #c8c8c8; background-color:#FFF;" valign=3D"top" wi=
+dth=3D"602">
+			<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0" class=3D"colonne" width=3D"600">
+				<tbody>
+					<tr>
+						<td align=3D"center" class=3D"colonne" valign=3D"top" width=3D"60=
+0">
+						<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacin=
+g=3D"0" class=3D"colonne" width=3D"600">
+							<tbody>
+								<tr>
+									<td align=3D"center" class=3D"colonne" valign=3D"top" width=3D=
+"270">
+									<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspa=
+cing=3D"0" width=3D"269">
+										<tbody>
+											<tr>
+												<td align=3D"left" valign=3D"top" width=3D"134"><a href=3D"=
+http://stats.votre-kiosque.com/l/61120669/yHQkCX9t6gnV9hI_2bugLriWZiwtH=
+3A0zE7gHlJUUwEIskrv2tm2STXJ4LmTFU2ib7ls0WdXCbP_2b4_3d/i.htm"><img alt=3D=
+"Verisure" border=3D"0" height=3D"88" src=3D"http://stats.votre-kiosque=
+.com//o/yHQkCX9t6gnV9hI_2bugLriWZiwtH3A0zE7gHlJUUwEIskrv2tm2STXJ4LmTFU2=
+ib7ls0WdXCbP_2b4_3d/o.gif" style=3D"display:block;" width=3D"135" /></a=
+></td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+									<td align=3D"center" class=3D"hide" valign=3D"top" width=3D"33=
+0">
+									<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspa=
+cing=3D"0" class=3D"colonne" width=3D"330">
+										<tbody>
+											<tr>
+												<td align=3D"center" class=3D"colonne" valign=3D"top" width=
+=3D"280"><a href=3D"http://stats.votre-kiosque.com/l/61120670/yHQkCX9t6=
+gnV9hI_2bugLriWZiwtH3A0zE7gHlJUUwEIskrv2tm2STXJ4LmTFU2ib7ls0WdXCbP_2b4_=
+3d/i.htm"><img  border=3D"0" class=3D"colonne" height=3D"31" src=3D"htt=
+p://crdi07.net/Securitas/k/1607F_NT/img/marge-slogan-haut.jpg" style=3D=
+"display:block;" width=3D"330" /></a></td>
+											</tr>
+											<tr>
+												<td align=3D"center" class=3D"colonne" valign=3D"top" width=
+=3D"300">
+												<table align=3D"center" border=3D"0" cellpadding=3D"0" cell=
+spacing=3D"0" class=3D"colonne" width=3D"300">
+													<tbody>
+														<tr>
+															<td align=3D"right" bgcolor=3D"#ffffff" valign=3D"top" w=
+idth=3D"300"><a href=3D"http://stats.votre-kiosque.com/l/61120671/yHQkC=
+X9t6gnV9hI_2bugLriWZiwtH3A0zE7gHlJUUwEIskrv2tm2STXJ4LmTFU2ib7ls0WdXCbP_=
+2b4_3d/i.htm" style=3D"color:#0067bc; font-family:Arial, Helvetica, san=
+s-serif; font-size:14px; text-decoration:none;">N&deg;1 DES ALARMES<br =
+/>
+															<font style=3D"color:#000000;">AVEC T&Eacute;L&Eacute;SU=
+RVEILLANCE EN EUROPE</font></a></td>
+															<td align=3D"center" class=3D"colonne" valign=3D"top" wi=
+dth=3D"20"><a href=3D"http://stats.votre-kiosque.com/l/61120672/yHQkCX9=
+t6gnV9hI_2bugLriWZiwtH3A0zE7gHlJUUwEIskrv2tm2STXJ4LmTFU2ib7ls0WdXCbP_2b=
+4_3d/i.htm"><img  border=3D"0" class=3D"colonne" height=3D"57" src=3D"h=
+ttp://crdi07.net/Securitas/k/1607F_NT/img/marge-slogan-droite.jpg" styl=
+e=3D"display:block;" width=3D"20" /></a></td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+					<tr>
+						<td align=3D"center" class=3D"colonne" valign=3D"top" width=3D"60=
+0">
+						<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacin=
+g=3D"0" class=3D"hide" width=3D"600">
+							<tbody>
+								<tr>
+									<td align=3D"center" bgcolor=3D"#E2E2E4" class=3D"colonne" hei=
+ght=3D"40" valign=3D"middle" width=3D"600"><a href=3D"http://stats.votr=
+e-kiosque.com/l/61120673/yHQkCX9t6gnV9hI_2bugLriWZiwtH3A0zE7gHlJUUwEIsk=
+rv2tm2STXJ4LmTFU2ib7ls0WdXCbP_2b4_3d/i.htm" style=3D"color: #000; font-=
+family: Arial, Helvetica, sans-serif; text-decoration:none; font-size: =
+19px; font-weight: bold;"><strong>Prot&eacute;gez votre domicile 24h/24=
+ !</strong></a></td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+					<tr>
+						<td align=3D"center" class=3D"colonne" valign=3D"top" width=3D"60=
+0">
+						<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacin=
+g=3D"0" class=3D"colonne" width=3D"600">
+							<tbody>
+								<tr>
+									<td align=3D"center" class=3D"colonne" valign=3D"top" width=3D=
+"600"><a href=3D"http://stats.votre-kiosque.com/l/61120674/yHQkCX9t6gnV=
+9hI_2bugLriWZiwtH3A0zE7gHlJUUwEIskrv2tm2STXJ4LmTFU2ib7ls0WdXCbP_2b4_3d/=
+i.htm"><img alt=3D"Engagement - Flabilit&eacute; - Innovation - Simplic=
+it&eacute;" border=3D"0" class=3D"colonne" height=3D"242" src=3D"http:/=
+/crdi07.net/Securitas/k/1607F_NT/img/girl01.jpg" style=3D"display:block=
+;" width=3D"600" /></a></td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+					<tr>
+						<td align=3D"center" class=3D"colonne" valign=3D"top" width=3D"60=
+0">
+						<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacin=
+g=3D"0" class=3D"hide" width=3D"600">
+							<tbody>
+								<tr>
+									<td align=3D"center" class=3D"colonne" height=3D"20" valign=3D=
+"middle" width=3D"600"></td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+					<tr>
+						<td align=3D"center" class=3D"colonne" valign=3D"top" width=3D"60=
+0">
+						<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacin=
+g=3D"0" class=3D"hide" width=3D"600">
+							<tbody>
+								<tr>
+									<td align=3D"left" class=3D"colonne" valign=3D"top" width=3D"1=
+35"><a href=3D"http://stats.votre-kiosque.com/l/61120675/yHQkCX9t6gnV9h=
+I_2bugLriWZiwtH3A0zE7gHlJUUwEIskrv2tm2STXJ4LmTFU2ib7ls0WdXCbP_2b4_3d/i.=
+htm"><img alt=3D"Securitas Direct" border=3D"0" height=3D"88" src=3D"ht=
+tp://crdi07.net/Securitas/k/1607F_NT/img/logo-securitas.jpg" style=3D"d=
+isplay:block;" width=3D"135" /></a></td>
+									<td align=3D"center" class=3D"colonne" style=3D"color:#000000;=
+ font-family:Arial, Helvetica, sans-serif; font-size:16px; font-weight:=
+bold; text-decoration:none;" valign=3D"center" width=3D"334">Verisure, =
+c&#39;est toute l&#39;exp&eacute;rience du num&eacute;ro 1 europ&eacute=
+;en de l&#39;alarme t&eacute;l&eacute;surveill&eacute;e</td>
+									<td width=3D"30px"></td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+					<tr>
+						<td align=3D"center" class=3D"colonne" valign=3D"top" width=3D"60=
+0">
+						<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacin=
+g=3D"0" class=3D"hide" width=3D"600">
+							<tbody>
+								<tr>
+									<td align=3D"center" class=3D"colonne" valign=3D"top" width=3D=
+"600"><a href=3D"http://stats.votre-kiosque.com/l/61120676/yHQkCX9t6gnV=
+9hI_2bugLriWZiwtH3A0zE7gHlJUUwEIskrv2tm2STXJ4LmTFU2ib7ls0WdXCbP_2b4_3d/=
+i.htm"><img  border=3D"0" class=3D"colonne" height=3D"27" src=3D"http:/=
+/crdi07.net/Securitas/k/1607F_NT/img/trait-01.jpg" style=3D"display:blo=
+ck;" width=3D"600" /></a></td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+					<tr>
+						<td align=3D"center" class=3D"colonne" valign=3D"top" width=3D"60=
+0">
+						<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacin=
+g=3D"0" class=3D"colonne" width=3D"600">
+							<tbody>
+								<tr>
+									<td align=3D"center" class=3D"colonne" valign=3D"top" width=3D=
+"600"><a href=3D"http://stats.votre-kiosque.com/l/61120677/yHQkCX9t6gnV=
+9hI_2bugLriWZiwtH3A0zE7gHlJUUwEIskrv2tm2STXJ4LmTFU2ib7ls0WdXCbP_2b4_3d/=
+i.htm"><img  border=3D"0" class=3D"colonne" height=3D"68" src=3D"http:/=
+/crdi07.net/Securitas/k/1607F_NT/img/cta.jpg" style=3D"display:block;" =
+width=3D"600" /></a></td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+					<tr>
+						<td align=3D"center" class=3D"colonne" valign=3D"top" width=3D"60=
+0">
+						<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacin=
+g=3D"0" class=3D"colonne" width=3D"600">
+							<tbody>
+								<tr>
+									<td align=3D"center" class=3D"colonne" valign=3D"top" width=3D=
+"600"><a href=3D"http://stats.votre-kiosque.com/l/61120678/yHQkCX9t6gnV=
+9hI_2bugLriWZiwtH3A0zE7gHlJUUwEIskrv2tm2STXJ4LmTFU2ib7ls0WdXCbP_2b4_3d/=
+i.htm"><img  border=3D"0" class=3D"colonne" height=3D"42" src=3D"http:/=
+/crdi07.net/Securitas/k/1607F_NT/img/trait-02.jpg" style=3D"display:blo=
+ck;" width=3D"600" /></a></td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+					<tr>
+						<td align=3D"center" class=3D"colonne" valign=3D"top" width=3D"60=
+0">
+						<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacin=
+g=3D"0" class=3D"hide" width=3D"600">
+							<tbody>
+								<tr>
+									<td align=3D"center" bgcolor=3D"#ffffff" valign=3D"top" width=3D=
+"600"><a href=3D"http://stats.votre-kiosque.com/l/61120679/yHQkCX9t6gnV=
+9hI_2bugLriWZiwtH3A0zE7gHlJUUwEIskrv2tm2STXJ4LmTFU2ib7ls0WdXCbP_2b4_3d/=
+i.htm" style=3D"color:#0067bc; font-family:Arial, Helvetica, sans-serif=
+; font-size:19px; font-weight:bold; text-decoration:none;">D&eacute;cou=
+vrez nos solutions pour prot&eacute;ger<br />
+									votre habitation, vos proches et vous-m&ecirc;me</a></td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+					<tr>
+						<td align=3D"center" class=3D"colonne" valign=3D"top" width=3D"60=
+0">
+						<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacin=
+g=3D"0" class=3D"hide" width=3D"600">
+							<tbody>
+								<tr>
+									<td align=3D"center" class=3D"colonne" valign=3D"top" width=3D=
+"100">
+									<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspa=
+cing=3D"0" class=3D"colonne" width=3D"100">
+										<tbody>
+											<tr>
+												<td align=3D"center" class=3D"colonne" valign=3D"top" width=
+=3D"100"><a href=3D"http://stats.votre-kiosque.com/l/61120680/yHQkCX9t6=
+gnV9hI_2bugLriWZiwtH3A0zE7gHlJUUwEIskrv2tm2STXJ4LmTFU2ib7ls0WdXCbP_2b4_=
+3d/i.htm"><img  border=3D"0" class=3D"colonne" height=3D"64" src=3D"htt=
+p://crdi07.net/Securitas/k/1607F_NT/img/icon-01.jpg" style=3D"display:b=
+lock;" width=3D"100" /></a></td>
+											</tr>
+											<tr>
+												<td align=3D"center" bgcolor=3D"#ffffff" valign=3D"top" wid=
+th=3D"100"><a href=3D"http://stats.votre-kiosque.com/l/61120681/yHQkCX9=
+t6gnV9hI_2bugLriWZiwtH3A0zE7gHlJUUwEIskrv2tm2STXJ4LmTFU2ib7ls0WdXCbP_2b=
+4_3d/i.htm" style=3D"color:#000000; font-family:Arial, Helvetica, sans-=
+serif; font-size:11px; text-decoration:none;">Intrusion trait&eacute;e =
+en moins de<br />
+												<strong>30 secondes **</strong></a></td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+									<td align=3D"center" class=3D"colonne" valign=3D"top" width=3D=
+"100">
+									<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspa=
+cing=3D"0" class=3D"colonne" width=3D"100">
+										<tbody>
+											<tr>
+												<td align=3D"center" class=3D"colonne" valign=3D"top" width=
+=3D"100"><a href=3D"http://stats.votre-kiosque.com/l/61120682/yHQkCX9t6=
+gnV9hI_2bugLriWZiwtH3A0zE7gHlJUUwEIskrv2tm2STXJ4LmTFU2ib7ls0WdXCbP_2b4_=
+3d/i.htm"><img  border=3D"0" class=3D"colonne" height=3D"64" src=3D"htt=
+p://crdi07.net/Securitas/k/1607F_NT/img/icon-02.jpg" style=3D"display:b=
+lock;" width=3D"100" /></a></td>
+											</tr>
+											<tr>
+												<td align=3D"center" bgcolor=3D"#ffffff" valign=3D"top" wid=
+th=3D"100"><a href=3D"http://stats.votre-kiosque.com/l/61120683/yHQkCX9=
+t6gnV9hI_2bugLriWZiwtH3A0zE7gHlJUUwEIskrv2tm2STXJ4LmTFU2ib7ls0WdXCbP_2b=
+4_3d/i.htm" style=3D"color:#000000; font-family:Arial, Helvetica, sans-=
+serif; font-size:11px; text-decoration:none;"><strong>Appel<br />
+												de la police</strong><br />
+												apr&egrave;s v&eacute;rification**</a></td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+									<td align=3D"center" class=3D"colonne" valign=3D"top" width=3D=
+"100">
+									<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspa=
+cing=3D"0" class=3D"colonne" width=3D"100">
+										<tbody>
+											<tr>
+												<td align=3D"center" class=3D"colonne" valign=3D"top" width=
+=3D"100"><a href=3D"http://stats.votre-kiosque.com/l/61120684/yHQkCX9t6=
+gnV9hI_2bugLriWZiwtH3A0zE7gHlJUUwEIskrv2tm2STXJ4LmTFU2ib7ls0WdXCbP_2b4_=
+3d/i.htm"><img  border=3D"0" class=3D"colonne" height=3D"64" src=3D"htt=
+p://crdi07.net/Securitas/k/1607F_NT/img/icon-03.jpg" style=3D"display:b=
+lock;" width=3D"100" /></a></td>
+											</tr>
+											<tr>
+												<td align=3D"center" bgcolor=3D"#ffffff" valign=3D"top" wid=
+th=3D"100"><a href=3D"http://stats.votre-kiosque.com/l/61120685/yHQkCX9=
+t6gnV9hI_2bugLriWZiwtH3A0zE7gHlJUUwEIskrv2tm2STXJ4LmTFU2ib7ls0WdXCbP_2b=
+4_3d/i.htm" style=3D"color:#000000; font-family:Arial, Helvetica, sans-=
+serif; font-size:11px; text-decoration:none;">Installation<br />
+												en moins<br />
+												<strong>d&#39;1 heure</strong></a></td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+									<td align=3D"center" class=3D"colonne" valign=3D"top" width=3D=
+"100">
+									<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspa=
+cing=3D"0" class=3D"colonne" width=3D"100">
+										<tbody>
+											<tr>
+												<td align=3D"center" class=3D"colonne" valign=3D"top" width=
+=3D"100"><a href=3D"http://stats.votre-kiosque.com/l/61120686/yHQkCX9t6=
+gnV9hI_2bugLriWZiwtH3A0zE7gHlJUUwEIskrv2tm2STXJ4LmTFU2ib7ls0WdXCbP_2b4_=
+3d/i.htm"><img  border=3D"0" class=3D"colonne" height=3D"64" src=3D"htt=
+p://crdi07.net/Securitas/k/1607F_NT/img/icon-04.jpg" style=3D"display:b=
+lock;" width=3D"100" /></a></td>
+											</tr>
+											<tr>
+												<td align=3D"center" bgcolor=3D"#ffffff" valign=3D"top" wid=
+th=3D"100"><a href=3D"http://stats.votre-kiosque.com/l/61120687/yHQkCX9=
+t6gnV9hI_2bugLriWZiwtH3A0zE7gHlJUUwEIskrv2tm2STXJ4LmTFU2ib7ls0WdXCbP_2b=
+4_3d/i.htm" style=3D"color:#000000; font-family:Arial, Helvetica, sans-=
+serif; font-size:11px; text-decoration:none;">Contr&ocirc;le<br />
+												depuis votre<br />
+												<strong>smartphone</strong></a></td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+									<td align=3D"center" class=3D"colonne" valign=3D"top" width=3D=
+"100">
+									<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspa=
+cing=3D"0" class=3D"colonne" width=3D"100">
+										<tbody>
+											<tr>
+												<td align=3D"center" class=3D"colonne" valign=3D"top" width=
+=3D"100"><a href=3D"http://stats.votre-kiosque.com/l/61120688/yHQkCX9t6=
+gnV9hI_2bugLriWZiwtH3A0zE7gHlJUUwEIskrv2tm2STXJ4LmTFU2ib7ls0WdXCbP_2b4_=
+3d/i.htm"><img  border=3D"0" class=3D"colonne" height=3D"64" src=3D"htt=
+p://crdi07.net/Securitas/k/1607F_NT/img/icon-05.jpg" style=3D"display:b=
+lock;" width=3D"100" /></a></td>
+											</tr>
+											<tr>
+												<td align=3D"center" bgcolor=3D"#ffffff" valign=3D"top" wid=
+th=3D"100"><a href=3D"http://stats.votre-kiosque.com/l/61120689/yHQkCX9=
+t6gnV9hI_2bugLriWZiwtH3A0zE7gHlJUUwEIskrv2tm2STXJ4LmTFU2ib7ls0WdXCbP_2b=
+4_3d/i.htm" style=3D"color:#000000; font-family:Arial, Helvetica, sans-=
+serif; font-size:11px; text-decoration:none;"><strong>2 millions</stron=
+g><br />
+												de clients</a></td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+									<td align=3D"center" class=3D"colonne" valign=3D"top" width=3D=
+"100">
+									<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspa=
+cing=3D"0" class=3D"colonne" width=3D"100">
+										<tbody>
+											<tr>
+												<td align=3D"center" class=3D"colonne" valign=3D"top" width=
+=3D"100"><a href=3D"http://stats.votre-kiosque.com/l/61120690/yHQkCX9t6=
+gnV9hI_2bugLriWZiwtH3A0zE7gHlJUUwEIskrv2tm2STXJ4LmTFU2ib7ls0WdXCbP_2b4_=
+3d/i.htm"><img  border=3D"0" class=3D"colonne" height=3D"64" src=3D"htt=
+p://crdi07.net/Securitas/k/1607F_NT/img/icon-06.jpg" style=3D"display:b=
+lock;" width=3D"100" /></a></td>
+											</tr>
+											<tr>
+												<td align=3D"center" bgcolor=3D"#ffffff" valign=3D"top" wid=
+th=3D"100"><a href=3D"http://stats.votre-kiosque.com/l/61120691/yHQkCX9=
+t6gnV9hI_2bugLriWZiwtH3A0zE7gHlJUUwEIskrv2tm2STXJ4LmTFU2ib7ls0WdXCbP_2b=
+4_3d/i.htm" style=3D"color:#000000; font-family:Arial, Helvetica, sans-=
+serif; font-size:11px; text-decoration:none;">Expert<br />
+												de la s&eacute;curit&eacute;<br />
+												<strong>depuis 25 ans </strong></a></td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+					<tr>
+						<td align=3D"center" class=3D"colonne" valign=3D"top" width=3D"60=
+0">
+						<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacin=
+g=3D"0" class=3D"colonne" width=3D"600">
+							<tbody>
+								<tr>
+									<td align=3D"center" class=3D"colonne" valign=3D"top" width=3D=
+"600"><a href=3D"http://stats.votre-kiosque.com/l/61120692/yHQkCX9t6gnV=
+9hI_2bugLriWZiwtH3A0zE7gHlJUUwEIskrv2tm2STXJ4LmTFU2ib7ls0WdXCbP_2b4_3d/=
+i.htm"><img  border=3D"0" class=3D"colonne" height=3D"42" src=3D"http:/=
+/crdi07.net/Securitas/k/1607F_NT/img/trait-02.jpg" style=3D"display:blo=
+ck;" width=3D"600" /></a></td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+					<tr>
+						<td align=3D"center" class=3D"colonne" valign=3D"top" width=3D"60=
+0">
+						<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacin=
+g=3D"0" class=3D"colonne" width=3D"600">
+							<tbody>
+								<tr>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+					<tr>
+						<td align=3D"center" class=3D"colonne" valign=3D"top" width=3D"60=
+0">
+						<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacin=
+g=3D"0" class=3D"deuxcent" width=3D"600">
+							<tbody>
+								<tr>
+									<td align=3D"center" class=3D"deuxcent" valign=3D"top" width=3D=
+"200">
+									<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspa=
+cing=3D"0" class=3D"deuxcent" width=3D"200">
+										<tbody>
+											<tr>
+												<td align=3D"center" bgcolor=3D"#ffffff" class=3D"deuxcent"=
+ valign=3D"top" width=3D"200"><a href=3D"http://stats.votre-kiosque.com=
+/l/61120693/yHQkCX9t6gnV9hI_2bugLriWZiwtH3A0zE7gHlJUUwEIskrv2tm2STXJ4Lm=
+TFU2ib7ls0WdXCbP_2b4_3d/i.htm" style=3D"color:#000000; font-family:Aria=
+l, Helvetica, sans-serif; font-size:14px; font-weight:bold; text-decora=
+tion:none;">Alarme avec<br />
+												interpellation par la voix</a></td>
+											</tr>
+											<tr>
+												<td align=3D"center" class=3D"deuxcent" valign=3D"top" widt=
+h=3D"200"><a href=3D"http://stats.votre-kiosque.com/l/61120694/yHQkCX9t=
+6gnV9hI_2bugLriWZiwtH3A0zE7gHlJUUwEIskrv2tm2STXJ4LmTFU2ib7ls0WdXCbP_2b4=
+_3d/i.htm"><img  border=3D"0" height=3D"112" src=3D"http://crdi07.net/S=
+ecuritas/k/1607F_NT/img/img-50.jpg" style=3D"display:block;" width=3D"2=
+00" /></a></td>
+											</tr>
+											<tr>
+												<td align=3D"center" bgcolor=3D"#ffffff" class=3D"deuxcent"=
+ valign=3D"top" width=3D"200"><a href=3D"http://stats.votre-kiosque.com=
+/l/61120695/yHQkCX9t6gnV9hI_2bugLriWZiwtH3A0zE7gHlJUUwEIskrv2tm2STXJ4Lm=
+TFU2ib7ls0WdXCbP_2b4_3d/i.htm" style=3D"color:#000000; font-family:Aria=
+l, Helvetica, sans-serif; font-size:10px; text-decoration:none;">L&#39;=
+op&eacute;rateur de t&eacute;l&eacute;surveillance<br />
+												&eacute;coute et interpelle l&#39;intrus gr&acirc;ce &agrav=
+e;<br />
+												un micro et un haut-parleur<br />
+												plac&eacute;s dans votre clavier.</a></td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+									<td align=3D"center" class=3D"deuxcent" valign=3D"top" width=3D=
+"200">
+									<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspa=
+cing=3D"0" class=3D"deuxcent" width=3D"200">
+										<tbody>
+											<tr>
+												<td align=3D"center" bgcolor=3D"#ffffff" class=3D"deuxcent"=
+ valign=3D"top" width=3D"200"><a href=3D"http://stats.votre-kiosque.com=
+/l/61120696/yHQkCX9t6gnV9hI_2bugLriWZiwtH3A0zE7gHlJUUwEIskrv2tm2STXJ4Lm=
+TFU2ib7ls0WdXCbP_2b4_3d/i.htm" style=3D"color:#000000; font-family:Aria=
+l, Helvetica, sans-serif; font-size:14px; font-weight:bold;text-decorat=
+ion:none;">D&eacute;couvrez la cam&eacute;ra<br />
+												SmartCamPRO</a></td>
+											</tr>
+											<tr>
+												<td align=3D"center" class=3D"deuxcent" valign=3D"top" widt=
+h=3D"200"><a href=3D"http://stats.votre-kiosque.com/l/61120697/yHQkCX9t=
+6gnV9hI_2bugLriWZiwtH3A0zE7gHlJUUwEIskrv2tm2STXJ4LmTFU2ib7ls0WdXCbP_2b4=
+_3d/i.htm"><img  border=3D"0" height=3D"112" src=3D"http://crdi07.net/S=
+ecuritas/k/1607F_NT/img/img-022.png" style=3D"display:block;" width=3D"=
+200" /></a></td>
+											</tr>
+											<tr>
+												<td align=3D"center" bgcolor=3D"#ffffff" class=3D"deuxcent"=
+ valign=3D"top" width=3D"200"><a href=3D"http://stats.votre-kiosque.com=
+/l/61120698/yHQkCX9t6gnV9hI_2bugLriWZiwtH3A0zE7gHlJUUwEIskrv2tm2STXJ4Lm=
+TFU2ib7ls0WdXCbP_2b4_3d/i.htm" style=3D"color:#000000; font-family:Aria=
+l, Helvetica, sans-serif; font-size:10px; text-decoration:none;">La Sma=
+rtCamPRO assure une<br />
+												visibilit&eacute; optimale de jour et de nuit<br />
+												gr&acirc;ce &agrave; la rotation verticale et<br />
+												horizontale et une image full HD.</a><br />
+												&nbsp;</td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+									<td align=3D"center" class=3D"deuxcent" valign=3D"top" width=3D=
+"200">
+									<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspa=
+cing=3D"0" class=3D"deuxcent" width=3D"200">
+										<tbody>
+											<tr>
+												<td align=3D"center" bgcolor=3D"#ffffff" class=3D"deuxcent"=
+ valign=3D"top" width=3D"200"><a href=3D"http://stats.votre-kiosque.com=
+/l/61120699/yHQkCX9t6gnV9hI_2bugLriWZiwtH3A0zE7gHlJUUwEIskrv2tm2STXJ4Lm=
+TFU2ib7ls0WdXCbP_2b4_3d/i.htm" style=3D"color:#000000; font-family:Aria=
+l, Helvetica, sans-serif; font-size:14px; font-weight:bold; text-decora=
+tion:none;">Alarme<br />
+												intelligente</a></td>
+											</tr>
+											<tr>
+												<td align=3D"center" class=3D"deuxcent" valign=3D"top" widt=
+h=3D"200"><a href=3D"http://stats.votre-kiosque.com/l/61120700/yHQkCX9t=
+6gnV9hI_2bugLriWZiwtH3A0zE7gHlJUUwEIskrv2tm2STXJ4LmTFU2ib7ls0WdXCbP_2b4=
+_3d/i.htm"><img  border=3D"0" height=3D"112" src=3D"http://crdi07.net/S=
+ecuritas/k/1607F_NT/img/img-03.jpg" style=3D"display:block;" width=3D"2=
+00" /></a></td>
+											</tr>
+											<tr>
+												<td align=3D"center" bgcolor=3D"#ffffff" class=3D"deuxcent"=
+ valign=3D"top" width=3D"200"><a href=3D"http://stats.votre-kiosque.com=
+/l/61120701/yHQkCX9t6gnV9hI_2bugLriWZiwtH3A0zE7gHlJUUwEIskrv2tm2STXJ4Lm=
+TFU2ib7ls0WdXCbP_2b4_3d/i.htm" style=3D"color:#000000; font-family:Aria=
+l, Helvetica, sans-serif; font-size:10px; text-decoration:none;">Contr&=
+ocirc;lez votre syst&egrave;me &agrave;<br />
+												distance : demande d&#39;images,<br />
+												&eacute;coute silencieuse, activation/<br />
+												d&eacute;sactivation, domotique...</a></td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<table align=3D"center">
+	<tbody>
+		<tr>
+		</tr>
+	</tbody>
+</table>
+
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" class=3D"colonne" width=3D"600">
+	<tbody>
+		<tr>
+			<td align=3D"center" class=3D"colonne" valign=3D"top" width=3D"600">=
+<a href=3D"http://stats.votre-kiosque.com/l/61120702/yHQkCX9t6gnV9hI_2b=
+ugLriWZiwtH3A0zE7gHlJUUwEIskrv2tm2STXJ4LmTFU2ib7ls0WdXCbP_2b4_3d/i.htm"=
+><img alt=3D"image vide" border=3D"0" class=3D"colonne" height=3D"244" =
+src=3D"http://crdi07.net/Securitas/k/1607F_NT/img/infos-legales.jpg" st=
+yle=3D"display:block;" width=3D"600" /></a></td>
+		</tr>
+	</tbody>
+</table>
+
+<p><img height=3D"1" src=3D"https://impfr.tradedoubler.com/imp?type(img=
+)g(23419126)a(2843122)" width=3D"1" /> <img height=3D"1" src=3D"http://=
+sd.securitasdirect.fr/dynview/sd-france/pix1x1.gif?eml-publisher=3Dsecu=
+ritasdirect&eml-name=3Dsecuritasdirect-ins_new_template_sans_produit_01=
+072016_famille&eseg-name=3Dimage&eseg-item=3Dsociabiliweb-940&ea-rnd=3D=
+RANDOM" width=3D"1" /></p>
+<div align=3D"left"><table align=3D"center" border=3D"0" cellpadding=3D=
+"2" cellspacing=3D"0" height=3D"130" width=3D"799">
+	<tbody>
+		<tr>
+			<td>
+			<div align=3D"center"><font size=3D"1">Conform&eacute;ment &agrave; =
+la loi &laquo;Informatique et Libert&eacute;s&raquo; du 6 janvier 1978,=
+ vous disposez d'un droit d'acc&egrave;s, de rectification et d'opposit=
+ion, aux informations qui vous concernent.<br />
+			Vous recevez ce mail car vous &ecirc;tes abonn&eacute;(e) sur l'un d=
+e nos sites partenaires ou &agrave; Sociabiliweb, enregistr&eacute; aup=
+r&egrave;s de la CNIL sous le num&eacute;ro 1577961 v 0</font><br />
+			<span style=3D"font-size: 10px"><span style=3D"font-family: Arial, H=
+elvetica, sans-serif">Sociabiliweb, 7 rue Pel&eacute;e, 75011 Paris</sp=
+an></span><br />
+			<font size=3D"1">Si vous ne souhaitez pas recevoir des propositions =
+commerciales de notre part ou de nos partenaires par voie &eacute;lectr=
+onique, merci de proc&eacute;der &agrave; votre <a href=3D"http://stats=
+.votre-kiosque.com/u/yHQkCX9t6gnV9hI_2bugLriWZiwtH3A0zE7gHlJUUwEIskrv2t=
+m2STXJ4LmTFU2ib7ls0WdXCbP_2b4_3d/i.htm">d&eacute;sinscription</a>.</fon=
+t></div>
+			</td>
+		</tr>
+	</tbody>
+</table>
+<br />
+<img alt=3D"track" height=3D"1" src=3D"http://asset.email-match.com/849=
+/asset?type=3DIMG&optin=3D1&email=3Dresp-m2-miage@univ-rennes1.fr" widt=
+h=3D"1" /><img alt=3D"track" height=3D"1" src=3D"http://adtrack.adleade=
+vent.com/adtckrtg.php?ids=3D37&email=3Dresp-m2-miage@univ-rennes1.fr" /=
+></div></body>
+</html>
+
+
+----=00179d37_fbd9_4b3e_baac_912dbeabcade--
+
+----=aea876b1_b9f0_4625_ac5f_69fa28e3b67a--

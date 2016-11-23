@@ -1,0 +1,116 @@
+Return-Path: <bounce+obP-GMrp-eD9K@mix.loffremagique.com>
+Received: from mailimailo.univ-rennes1.fr ([unix socket])
+	 by mailimailo.univ-rennes1.fr (Cyrus v2.3.16-Fedora-RPM-2.3.16-6.el6_2.5) with LMTPA;
+	 Sat, 12 Dec 2015 16:11:48 +0100
+X-Sieve: CMU Sieve 2.3
+Received: from mailout1.univ-rennes1.fr (mailout1.univ-rennes1.fr [129.20.128.162])
+	by mailimailo.univ-rennes1.fr (Postfix) with ESMTP id 9DED226A0D43
+	for <resp-m2-miage@univ-rennes1.fr>; Sat, 12 Dec 2015 16:11:48 +0100 (CET)
+Received: from localhost (vmscanmail.univ-rennes1.fr [129.20.128.134])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id 9B13E6003B
+	for <resp-m2-miage@univ-rennes1.fr>; Sat, 12 Dec 2015 16:11:48 +0100 (CET)
+X-Virus-Scanned: amavisd-new at univ-rennes1.fr
+Received: from mailout1.univ-rennes1.fr ([129.20.128.162])
+	by localhost (vmscanmail.univ-rennes1.frm [129.20.128.134]) (amavisd-new, port 10026)
+	with ESMTP id 9aXnTi4H0R7s for <resp-m2-miage@univ-rennes1.fr>;
+	Sat, 12 Dec 2015 16:11:48 +0100 (CET)
+Received: from vmmailin.univ-rennes1.fr (vmmailin.univ-rennes1.fr [129.20.128.133])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id 77FF66001D
+	for <resp-m2-miage@univ-rennes1.fr>; Sat, 12 Dec 2015 16:11:48 +0100 (CET)
+Received: from mxb1-1.relay.renater.fr (mxb1-1.relay.renater.fr [194.214.201.8])
+	by vmmailin.univ-rennes1.fr (Postfix) with ESMTP id 70C8D20033
+	for <resp-m2-miage@univ-rennes1.fr>; Sat, 12 Dec 2015 16:11:48 +0100 (CET)
+Received: from smtp166.mix.loffremagique.com (smtp166.mix.loffremagique.com [82.196.26.166])
+	by mxb1-1.relay.renater.fr (asm) with ESMTP id 2CC7B6000A8
+	for <resp-m2-miage@univ-rennes1.fr>; Sat, 12 Dec 2015 16:11:48 +0100 (CET)
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=s2c; d=mix.loffremagique.com;
+ h=Date:To:From:Subject:Message-ID:List-Unsubscribe:MIME-Version:Content-Type; i=news@mix.loffremagique.com;
+ bh=nGD1KYMV1BxSVh4gYP979eyw56Y=;
+ b=FVO+CXhgW+YnYg03VtmVT8neYwLz8HBtCMySkWW4KxlZQMVRCfgUfkwWVJ8F3UOg4uBpVqkFZOwt
+   vusZRoUhXSCMYvgyEZKj8nHcoIRwwXYt9VP8S01Cf7cSHTm2Yb03FJXgx0SKaKrtM2I5ogBbjmgF
+   Cd5cxnnSthfS8X26zK0=
+Received: by smtp166.mix.loffremagique.com id hdgsj81vjtgb for <resp-m2-miage@univ-rennes1.fr>; Sat, 12 Dec 2015 15:39:05 +0100 (envelope-from <bounce+obP-GMrp-eD9K@mix.loffremagique.com>)
+Date: Sat, 12 Dec 2015 15:39:05 +0100
+To: resp-m2-miage@univ-rennes1.fr
+From: Comparateur mutuelle <news@mix.loffremagique.com>
+Subject: =?UTF-8?Q?Votre_Mutuelle_sant=C3=A9_d=C3=A8s_7_euros_par_mois?=
+Message-ID: <bounce+obP-GMrp-eD9K@mix.loffremagique.com>
+List-Unsubscribe: <mailto:bounce+obP-GMrp-eD9K@mix.loffremagique.com?subject=unsubscribe-obP-GMrp>,<http://trk.mix.loffremagique.com/usb/obP-GMrp.php>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="b1_18cbb55a9e5117188669bf6825e6f2f8"
+X-UCE-Status: YES
+X-UCE-Type: MCE
+X-Original-Source-IP: 82.196.26.166
+X-Bizanga: IMP - mxb1-1.relay.renater.fr
+X-Renater-SpamState: 11
+X-Renater-SpamScore: 17
+X-Renater-SpamCause: gggruggvucftvghtrhhoucdtuddrfeekiedrvddugdejgecutefuodetggdotefrodftvfcurfhrohhfihhlvgemucftgffptefvgfftpdggtfgfnhhsuhgsshgtrhhisggvnecuuegrihhlohhuthemuceftddtnecundfotefknffkpffiucdludejmdenucfjughrpeffvffhuffkjfggtgesrgdtrehptddtjeenucfhrhhomhepvehomhhprghrrghtvghurhcumhhuthhuvghllhgvuceonhgvfihssehmihigrdhlohhffhhrvghmrghgihhquhgvrdgtohhmqeenucffohhmrghinheplhhofhhfrhgvmhgrghhiqhhuvgdrtghomhdpmhgvihhllhgvuhhrtghomhhprghrrghtvghurhdrtghomhenucfrrghrrghmpehmohguvgepshhmthhppdhhvghlohepshhmthhpudeiiedrmhhigidrlhhofhhfrhgvmhgrghhiqhhuvgdrtghomhdpihhnvghtpeekvddrudeliedrvdeirdduieeipdhmrghilhhfrhhomhepsghouhhntggvodhosgfrqdfiofhrphdqvgfflefmsehmihigrdhlohhffhhrvghmrghgihhquhgvrdgtohhmpdhrtghpthhtoheprhgvshhpqdhmvddqmhhirghgvgesuhhnihhvqdhrvghnnhgvshdurdhfrh 
+X-Renater-ServerName: mxb1-1.relay.renater.fr
+
+
+--b1_18cbb55a9e5117188669bf6825e6f2f8
+Content-Type: text/plain; charset = "UTF-8"
+Content-Transfer-Encoding: 8bit
+
+Afficher la version web. (http://trk.mix.loffremagique.com/view/obP-GMrp.php) | Annuler votre abonnement. (http://trk.mix.loffremagique.com/usb/obP-GMrp.php) | Signaler comme courrier indésirable. (mailto:abuse@dgcnit.fr)
+
+MeilleurComparateur.com (http://trk.mix.loffremagique.com/tk/obP-GMrp-q4J.phpresp-m2-miage@univ-rennes1.fr&amp;advcuid=[UNIQUE_VALUE]&amp;uadv=aHR0cDovL3d3dy5tZWlsbGV1cmNvbXBhcmF0ZXVyLmNvbS8/dXRtX3NvdXJjZT1hZHZlbnR1cmUmdXRtX21lZGl1bT1lbWFpbCZ1dG1fY2FtcGFpZ249ZW1haWw1LW1laWxsZXVyY29tcGFyYXRldXI=) http://trk.mix.loffremagique.com/tk/obP-GMrp-q4F.phpresp-m2-miage@univ-rennes1.fr&amp;advcuid=[UNIQUE_VALUE]&amp;uadv=aHR0cDovL3d3dy5tZWlsbGV1cmNvbXBhcmF0ZXVyLmNvbS8/dXRtX3NvdXJjZT1hZHZlbnR1cmUmdXRtX21lZGl1bT1lbWFpbCZ1dG1fY2FtcGFpZ249ZW1haWw1LW1laWxsZXVyY29tcGFyYXRldXI=
+
+
+Pour les mêmes garanties, (http://trk.mix.loffremagique.com/tk/obP-GMrp-q4G.phpresp-m2-miage@univ-rennes1.fr&amp;advcuid=[UNIQUE_VALUE]&amp;uadv=aHR0cDovL3d3dy5tZWlsbGV1cmNvbXBhcmF0ZXVyLmNvbS8/dXRtX3NvdXJjZT1hZHZlbnR1cmUmdXRtX21lZGl1bT1lbWFpbCZ1dG1fY2FtcGFpZ249ZW1haWw1LW1laWxsZXVyY29tcGFyYXRldXI=)
+économisez jusqu'à 45% sur votre mutuelle santé (http://trk.mix.loffremagique.com/tk/obP-GMrp-q4H.phpresp-m2-miage@univ-rennes1.fr&amp;advcuid=[UNIQUE_VALUE]&amp;uadv=aHR0cDovL3d3dy5tZWlsbGV1cmNvbXBhcmF0ZXVyLmNvbS8/dXRtX3NvdXJjZT1hZHZlbnR1cmUmdXRtX21lZGl1bT1lbWFpbCZ1dG1fY2FtcGFpZ249ZW1haWw1LW1laWxsZXVyY29tcGFyYXRldXI=)
+
+http://trk.mix.loffremagique.com/tk/obP-GMrp-q4I.phpresp-m2-miage@univ-rennes1.fr&amp;advcuid=[UNIQUE_VALUE]&amp;uadv=aHR0cDovL3d3dy5tZWlsbGV1cmNvbXBhcmF0ZXVyLmNvbS8/dXRtX3NvdXJjZT1hZHZlbnR1cmUmdXRtX21lZGl1bT1lbWFpbCZ1dG1fY2FtcGFpZ249ZW1haWw1LW1laWxsZXVyY29tcGFyYXRldXI=
+http://trk.mix.loffremagique.com/tk/obP-GMrp-q4E.phpresp-m2-miage@univ-rennes1.fr&amp;advcuid=[UNIQUE_VALUE]&amp;uadv=aHR0cDovL3d3dy5tZWlsbGV1cmNvbXBhcmF0ZXVyLmNvbS8/dXRtX3NvdXJjZT1hZHZlbnR1cmUmdXRtX21lZGl1bT1lbWFpbCZ1dG1fY2FtcGFpZ249ZW1haWw1LW1laWxsZXVyY29tcGFyYXRldXI=
+et je reÃ§ois un devis immédiat et sans engagement (http://trk.mix.loffremagique.com/tk/obP-GMrp-q4D.phpresp-m2-miage@univ-rennes1.fr&amp;advcuid=[UNIQUE_VALUE]&amp;uadv=aHR0cDovL3d3dy5tZWlsbGV1cmNvbXBhcmF0ZXVyLmNvbS8/dXRtX3NvdXJjZT1hZHZlbnR1cmUmdXRtX21lZGl1bT1lbWFpbCZ1dG1fY2FtcGFpZ249ZW1haWw1LW1laWxsZXVyY29tcGFyYXRldXI=)
+
+
+
+
+Comparez les garanties de (http://trk.mix.loffremagique.com/tk/obP-GMrp-q4A.phpresp-m2-miage@univ-rennes1.fr&amp;advcuid=[UNIQUE_VALUE]&amp;uadv=aHR0cDovL3d3dy5tZWlsbGV1cmNvbXBhcmF0ZXVyLmNvbS8/dXRtX3NvdXJjZT1hZHZlbnR1cmUmdXRtX21lZGl1bT1lbWFpbCZ1dG1fY2FtcGFpZ249ZW1haWw1LW1laWxsZXVyY29tcGFyYXRldXI=) 2000 formules santé (http://trk.mix.loffremagique.com/tk/obP-GMrp-q4B.phpresp-m2-miage@univ-rennes1.fr&amp;advcuid=[UNIQUE_VALUE]&amp;uadv=aHR0cDovL3d3dy5tZWlsbGV1cmNvbXBhcmF0ZXVyLmNvbS8/dXRtX3NvdXJjZT1hZHZlbnR1cmUmdXRtX21lZGl1bT1lbWFpbCZ1dG1fY2FtcGFpZ249ZW1haWw1LW1laWxsZXVyY29tcGFyYXRldXI=)
+
+http://trk.mix.loffremagique.com/tk/obP-GMrp-q4C.phpresp-m2-miage@univ-rennes1.fr&amp;advcuid=[UNIQUE_VALUE]&amp;uadv=aHR0cDovL3d3dy5tZWlsbGV1cmNvbXBhcmF0ZXVyLmNvbS8/dXRtX3NvdXJjZT1hZHZlbnR1cmUmdXRtX21lZGl1bT1lbWFpbCZ1dG1fY2FtcGFpZ249ZW1haWw1LW1laWxsZXVyY29tcGFyYXRldXI=
+
+
+
+
+http://trk.mix.loffremagique.com/tk/obP-GMrp-q4z.phpresp-m2-miage@univ-rennes1.fr&amp;advcuid=[UNIQUE_VALUE]&amp;uadv=aHR0cDovL3d3dy5tZWlsbGV1cmNvbXBhcmF0ZXVyLmNvbS8/dXRtX3NvdXJjZT1hZHZlbnR1cmUmdXRtX21lZGl1bT1lbWFpbCZ1dG1fY2FtcGFpZ249ZW1haWw1LW1laWxsZXVyY29tcGFyYXRldXI=
+
+
+* Tarif constaté sur MeilleurComparateur.com le 09 mars 2015 pour une mutuelle standard complète pour un demandeur d'emploi de 22 ans habitant à Metz. (http://trk.mix.loffremagique.com/tk/obP-GMrp-q4y.phpresp-m2-miage@univ-rennes1.fr&amp;advcuid=[UNIQUE_VALUE]&amp;uadv=aHR0cDovL3d3dy5tZWlsbGV1cmNvbXBhcmF0ZXVyLmNvbS8/dXRtX3NvdXJjZT1hZHZlbnR1cmUmdXRtX21lZGl1bT1lbWFpbCZ1dG1fY2FtcGFpZ249ZW1haWw1LW1laWxsZXVyY29tcGFyYXRldXI=)
+
+Espaces Promos, 12 rue Camille Desmoulins, 92300 Levallois Perret.
+Conformément à l'article 34 de la loi Informatique et Liberté du 6 janvier 1978, vous disposez d'un droit d'accès, de modification,
+de rectification et de suppression des données vous concernant en adressant votre demande à &quot;report@dgcnit.fr&quot;.
+Déclaration CNIL - 1642645
+Vous souhaitez vous désinscrire de cette liste ? Cliquez ici. (http://trk.mix.loffremagique.com/usb/obP-GMrp.php)
+
+
+--b1_18cbb55a9e5117188669bf6825e6f2f8
+Content-Type: text/html; charset = "UTF-8"
+Content-Transfer-Encoding: 8bit
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd"> <html style="font-family: Arial; font-size: 12px;"><body style="font-family: Arial; font-size: 12px;"><table width="600" border="0" cellspacing="0" cellpadding="0" align="center"><tr><td width="600" valign="top" align="center"> <table style="" align="center" border="0" cellpadding="0" cellspacing="0"><tr><td width="174" align="left" style="text-align:left;"><a href="http://trk.mix.loffremagique.com/view/obP-GMrp.php" style="color:#000; text-decoration:underline; font-family:Arial,Helvetica,sans-serif; font-size:11px; text-align:left; font-weight:bold;">Afficher la version web.</a></td> <td width="6">|</td> <td width="207" align="center" style="text-align:center;"><a href="http://trk.mix.loffremagique.com/usb/obP-GMrp.php" style="color:#000; text-decoration:underline; font-family:Arial,Helvetica,sans-serif; font-size:11px; text-align:center; font-weight:bold;">Annuler vot
+ re
+abonnement.</a></td> <td width="6">|</td> <td width="207" align="right" style="text-align:right;"><a href="mailto:abuse@dgcnit.fr" style="color:#00F; text-decoration:underline; font-family:Arial,Helvetica,sans-serif; font-size:11px; text-align:right; font-weight:bold;">Signaler comme courrier ind&eacute;sirable.</a></td> </tr></table></td> </tr><tr><td height="WWHTOPWW" align="center"></td> </tr></table><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+<style> html, body { font-family:Arial; font-size:12px; } </style>
+
+<title>Envie d'economiser sur votre mutuelle sante ?</title><table width="100%" height="100%" cellspacing="0" cellpadding="0" border="0" bgcolor="#bcd3ec"><tr><td valign="top" align="center"> <br><table width="600" cellpadding="0" cellspacing="0" align="center" border="0" style="font-family:Arial; font-size:41px;"><tr><td width="15" height="60">&nbsp;</td> <td align="right" height="60"><a href="http://trk.mix.loffremagique.com/tk/obP-GMrp-q4m.php" target="_blank" style="text-decoration:none; color: #334d5c;"><strong>Meilleur<span style="color:#e68d02">Comparateur</span><span style="font-size: 23px;">.com</span></strong></a></td> <td align="left" height="60"><a href="http://trk.mix.loffremagique.com/tk/obP-GMrp-q4n.php" target="_blank"><img src="http://i.stupremesw.com/newsletters/20150317_comparateurs/img_1.png" width="60" height="60" alt="" border="0" style="display: block; overflow: hidden; padding-bottom: 20px;"></a></td> <td width="15" height="60">&nbsp;</td> </tr></table
+ ><table
+width="600" cellpadding="0" cellspacing="0" align="center" border="0" bgcolor="#ffffff" style="font-family:Arial; font-size:0px;"><tr><td bgcolor="#ff7f00" height="4px">&nbsp;</td> </tr><tr><td height="20px">&nbsp;</td> </tr></table><table width="600" cellpadding="0" cellspacing="0" align="center" border="0" bgcolor="#ffffff" color="#334d5c" style="font-family:Arial; font-size:12px;"><tr><td align="center"><a href="http://trk.mix.loffremagique.com/tk/obP-GMrp-q4o.php" target="_blank" style="text-decoration:none; color:#334d5c; font-family:Arial; font-size:28px;"><strong>Pour les m&ecirc;mes garanties,</strong></a></td> </tr><tr><td align="center"><a href="http://trk.mix.loffremagique.com/tk/obP-GMrp-q4p.php" target="_blank" style="text-decoration:none; color:#ff7f00; font-family:Arial;font-size:20px;"><strong>&eacute;conomisez jusqu'&agrave; 45% sur votre mutuelle sant&eacute;</strong></a></td> </tr><tr><td height="15px">&nbsp;</td> </tr></table><table width="600" cellpadding
+ ="0"
+cellspacing="0" align="center" border="0" bgcolor="#ffffff" color="#334d5c" style="font-family:Arial; font-size:12px;"><tr><td align="center"><a href="http://trk.mix.loffremagique.com/tk/obP-GMrp-q4q.php" target="_blank"><img src="http://i.stupremesw.com/newsletters/20150317_comparateurs/img_2.png" width="559" height="302" alt="Pour les memes garanties, economisez jusqu'a 45% sur votre complementaire sante" border="0"></a></td> </tr></table><table width="600" cellpadding="0" cellspacing="0" align="center" border="0" bgcolor="#ffffff" color="#334d5c" style="font-family:Arial; font-size:12px;"><tr><td align="center"><a href="http://trk.mix.loffremagique.com/tk/obP-GMrp-q4r.php" target="_blank"><h1><img src="http://i.stupremesw.com/newsletters/20150317_comparateurs/img_3.gif" width="559" height="112" alt="JE COMPARE LES MUTUELLES" border="0"></h1></a></td> </tr></table><table width="600" cellpadding="0" cellspacing="0" align="center" border="0" bgcolor="#ffffff" color="#334d5c"
+style="font-family:Arial; font-size:12px;"><tr><td align="center" color="#334d5c"><a href="http://trk.mix.loffremagique.com/tk/obP-GMrp-q4s.php" target="_blank" style="text-decoration:none; color:#334d5c; font-family:Arial; font-size:12px;">et je re&Atilde;&sect;ois un devis imm&eacute;diat et sans engagement</a></td> </tr><tr><td height="25px">&nbsp;</td> </tr></table><table width="600" cellpadding="0" cellspacing="0" align="center" border="0" style="font-family:Arial; font-size:0px;"><tr><td height="20px">&nbsp;</td> </tr><tr><td bgcolor="#ff7f00" height="4px">&nbsp;</td> </tr><tr><td bgcolor="#ffffff" height="20px">&nbsp;</td> </tr></table><table width="600" cellpadding="0" bgcolor="#ffffff" cellspacing="0" align="center" border="0" style="font-family:Arial; font-size:23px;"><tr><td align="center" height="25"><a href="http://trk.mix.loffremagique.com/tk/obP-GMrp-q4t.php" target="_blank" style="text-decoration:none; color:#334d5c; font-family:Arial;
+font-size:23px;"><strong>Comparez les garanties de </strong></a> <a href="http://trk.mix.loffremagique.com/tk/obP-GMrp-q4u.php" target="_blank" style="text-decoration:none; color:#e68d02; font-family:Arial; font-size:23px;"><strong>2000 formules sant&eacute;</strong></a></td> </tr><tr><td height="30">&nbsp;</td> </tr></table><table width="600" cellpadding="0" cellspacing="0" align="center" border="0" style="font-family:Arial; font-size:0px;"><tr><td bgcolor="#ffffff" height="55" align="center"><a href="http://trk.mix.loffremagique.com/tk/obP-GMrp-q4v.php" target="_blank"><img style="font-size:12px;" src="http://i.stupremesw.com/newsletters/20150317_comparateurs/img_4.png" width="559" height="55" alt="Soins optiques, soins dentaires, soins medicaux, hospitalisation" border="0"></a></td> </tr><tr><td bgcolor="#ffffff" height="20">&nbsp;</td> </tr><tr><td height="20">&nbsp;</td> </tr><tr><td height="4" bgcolor="#e68d02">&nbsp;</td> </tr><tr><td height="20" bgcolor="#ffffff">&nbs
+ p;</td>
+</tr><tr><td align="center" bgcolor="#ffffff"><a href="http://trk.mix.loffremagique.com/tk/obP-GMrp-q4w.php" target="_blank"><img src="http://i.stupremesw.com/newsletters/20150317_comparateurs/img_5.png" width="559" height="33" alt="Nos partenaires" border="0" style="font-size:12px;"></a></td> </tr><tr><td height="20" bgcolor="#ffffff">&nbsp;</td> </tr><tr><td height="20">&nbsp;</td> </tr></table><table width="600" cellpadding="0" cellspacing="0" align="center" color="#334d5c" border="0" style="font-family:Arial; font-size:10px;"><tr><td color="#334d5c"><a href="http://trk.mix.loffremagique.com/tk/obP-GMrp-q4x.php" target="_blank" style="text-decoration:none; color:#334d5c; font-family:Arial; font-size:10px;">* Tarif constat&eacute; sur MeilleurComparateur.com le 09 mars 2015 pour une mutuelle standard compl&egrave;te pour un demandeur d'emploi de 22 ans habitant &agrave; Metz.</a></td> </tr></table><br></td> </tr></table><img
+src="http://o.stupremesw.com/7-11-1126-1849-24342/uniqueId" width="1" height="1"><div> <table width="600" border="0" cellspacing="0" cellpadding="0" align="center" style="font-family:Arial, Helvetica, sans-serif; font-size:10px; color:black; text-align:center;"><tr><td style="font-size:10px; text-align:center;"><br> Espaces Promos, 12 rue Camille Desmoulins, 92300 Levallois Perret.<br> Conform&eacute;ment &agrave; l'article 34 de la loi Informatique et Libert&eacute; du 6 janvier 1978, vous disposez d'un droit d'acc&egrave;s, de modification,<br> de rectification et de suppression des donn&eacute;es vous concernant en adressant votre demande &agrave; "report@dgcnit.fr".<br> D&eacute;claration CNIL - 1642645 </td> </tr><tr><td></td></tr><tr><td>Vous souhaitez vous d&eacute;sinscrire de cette liste ? <a href="http://trk.mix.loffremagique.com/usb/obP-GMrp.php" style="color: #000; text-decoration:underline; font-size: 11px;">Cliquez ici.</a></td></tr></table></div><img
+src="http://trk.mix.loffremagique.com/pg/obP-GMrp.php" width="1" height="1" alt="" /></body></html> 
+
+
+
+--b1_18cbb55a9e5117188669bf6825e6f2f8--
+
+

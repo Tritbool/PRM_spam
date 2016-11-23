@@ -1,0 +1,581 @@
+Return-Path: <jis_1643_hcfjaf_cagfdh@primeirafr.com>
+Received: from mailimailo.univ-rennes1.fr ([unix socket])
+	 by mailimailo.univ-rennes1.fr (Cyrus v2.3.16-Fedora-RPM-2.3.16-6.el6_2.5) with LMTPA;
+	 Thu, 28 Apr 2016 22:10:43 +0200
+X-Sieve: CMU Sieve 2.3
+Received: from mailout2.univ-rennes1.fr (mailout2.univ-rennes1.fr [129.20.129.120])
+	by mailimailo.univ-rennes1.fr (Postfix) with ESMTP id 860D026A0001
+	for <resp-m2-miage@univ-rennes1.fr>; Thu, 28 Apr 2016 22:10:43 +0200 (CEST)
+Received: from localhost (vmscanmail.univ-rennes1.fr [129.20.128.134])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id 839346010E
+	for <resp-m2-miage@univ-rennes1.fr>; Thu, 28 Apr 2016 22:10:43 +0200 (CEST)
+X-Virus-Scanned: amavisd-new at univ-rennes1.fr
+Received: from mailout2.univ-rennes1.fr ([129.20.129.120])
+	by localhost (vmscanmail.univ-rennes1.frm [129.20.128.134]) (amavisd-new, port 10026)
+	with ESMTP id NiOwZDBYK99e for <resp-m2-miage@univ-rennes1.fr>;
+	Thu, 28 Apr 2016 22:10:43 +0200 (CEST)
+Received: from vmmailin.univ-rennes1.fr (vmmailin.univ-rennes1.fr [129.20.128.133])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id 634496000C
+	for <resp-m2-miage@univ-rennes1.fr>; Thu, 28 Apr 2016 22:10:43 +0200 (CEST)
+Received: from mxb2-1.relay.renater.fr (mxb2-1.relay.renater.fr [194.214.200.8])
+	by vmmailin.univ-rennes1.fr (Postfix) with ESMTP id 5D19D20033
+	for <resp-m2-miage@univ-rennes1.fr>; Thu, 28 Apr 2016 22:10:43 +0200 (CEST)
+Received: from mail239.primeirafr.com (mail239.primeirafr.com [82.97.62.232])
+	by mxb2-1.relay.renater.fr (asm) with ESMTP id 19B1360009E
+	for <resp-m2-miage@univ-rennes1.fr>; Thu, 28 Apr 2016 22:10:43 +0200 (CEST)
+From: "=?iso-8859-1?B?TmV4ZWN1cg==?=" <eva@primeirafr.com>
+To: resp-m2-miage@univ-rennes1.fr
+Subject: =?iso-8859-1?B?Vm90cmUgcGFjayBz6WN1cml0?=
+ =?iso-8859-1?B?6SDgIHBhcnRpciBkZSAyOS45MCBldXJvcyBwYXIgbW9pcw==?=
+Date: Thu, 28 Apr 2016 22:10:41 +0200
+Message-ID: <20160428-201041-11498478458@primeirafr.com>
+List-Unsubscribe: <mailto:abuse@primeirafr.com?subject=11498478458>, <http://stats.primeirafr.com/u/oJ1_2fSN_2br9cikYXETrvf1bUYdRcsCYE28yjRkvKhwx_2fZamQxrE9LhgAQKNzZln0NdZY4jrl1HpTA_3d/i.htm>
+List-Abuse: <mailto:abuse@primeirafr.com?subject=11498478458>, <http://stats.primeirafr.com/u/a/oJ1_2fSN_2br9cikYXETrvf1bUYdRcsCYE28yjRkvKhwx_2fZamQxrE9LhgAQKNzZln0NdZY4jrl1HpTA_3d/i.htm>
+X-Mailer: EmailStrategie
+X-1643-Campaign-ID: 725905
+X-1643-Message-ID: 11498478458
+DKIM-Signature: v=1; a=rsa-sha256; c=simple/simple;
+	d=primeirafr.com; s=mail;
+	h=From:To:Subject:Date:Message-ID:MIME-Version:Content-Type;
+	bh=SHh3kIWSUvg9FsK1YlLT5fHHFQRbhXF0vGg8lLlNdKM=;
+	b=s4BBwjExIZPjNUsCeD0hb/aJl8JsB+oRiB5Cy5avzEumQJJ6jXCCbbzi7wqJxAN1
+		hF8j/qxgJ48ctdM7m8EIyYtmdcY3QXxF2gZ/9B3D3yRQb4vUFhq+fSKSPO/5tEex
+		2Gen1h2FfuwXxy9XbMNlV4fakNu+GBcogD8n8/5r0W8=
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--=fd450708_2f1f_4f32_a37b_3f7a4137c2a7"
+X-UCE-Status: YES
+X-UCE-Type: MCE
+X-Original-Source-IP: 82.97.62.232
+X-Bizanga: IMP - mxb2-1.relay.renater.fr
+X-Renater-SpamState: 11
+X-Renater-SpamScore: 17
+X-Renater-SpamCause: gggruggvucftvghtrhhoucdtuddrfeekkedrkeeggddugeeiucetufdoteggodetrfdotffvucfrrhhofhhilhgvmecutffgpfetvffgtfdpggftfghnshhusghstghrihgsvgenuceurghilhhouhhtmecufedttdenucdnofetkffnkffpifculddujedmnecujfgurhephffvufffkffjofggtgesmhdtreerredtshenucfhrhhomhepfdfpvgigvggtuhhrfdcuoegvvhgrsehprhhimhgvihhrrghfrhdrtghomheqnecuffhomhgrihhnpehprhhimhgvihhrrghfrhdrtghomhdprghvihhsqdhnvgigvggtuhhrqdhprhhothgvtghtihhonhdrtghomhenucfkphepkedvrdeljedriedvrddvfedvnecurfgrrhgrmhepmhhouggvpehsmhhtphdphhgvlhhopehmrghilhdvfeelrdhprhhimhgvihhrrghfrhdrtghomhdpihhnvghtpeekvddrleejrdeivddrvdefvddpmhgrihhlfhhrohhmpehjihhspgduieegfegphhgtfhhjrghfpggtrghgfhguhhesphhrihhmvghirhgrfhhrrdgtohhmpdhrtghpthhtoheprhgvshhpqdhmvddqmhhirghgvgesuhhnihhvqdhrvghnnhgvshdurdhfrh 
+X-Renater-ServerName: mxb2-1.relay.renater.fr
+
+----=fd450708_2f1f_4f32_a37b_3f7a4137c2a7
+Content-Type: multipart/alternative;
+	boundary="--=6ae9272c_7a9c_44a8_b720_d51744d86cae"
+
+----=6ae9272c_7a9c_44a8_b720_d51744d86cae
+Content-Type: text/plain;charset="iso-8859-1"
+Content-Transfer-Encoding: Quoted-Printable
+
+http://stats.primeirafr.com/m/oJ1_2fSN_2br9cikYXETrvf1bUYdRcsCYE28yjRkv=
+Khwx_2fZamQxrE9LhgAQKNzZln0NdZY4jrl1HpTA_3d/i.htm
+
+----=6ae9272c_7a9c_44a8_b720_d51744d86cae
+Content-Type: text/html;charset="iso-8859-1"
+Content-Transfer-Encoding: Quoted-Printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://=
+www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+	<meta content=3D"text/html; charset=3Diso-8859-2" http-equiv=3D"Conten=
+t-Type" />
+	<title>NEXECUR</title>
+	<style type=3D"text/css">/* GLOBAL */
+
+	* { -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%;}
+	body { width:100%; margin:0px; padding:0px; }
+	img { outline:none; text-decoration:none; -ms-interpolation-mode:bicub=
+ic; }
+	a img { border:none; }
+=09
+/*HIDING BLOCK*/
+
+	td[class=3Dhide],tr[class=3Dhide] {
+	max-height:0px !important;
+	font-size:0px !important;
+	display:none;
+	float:left;
+	overflow:hidden;
+	height:0px;
+	}
+	.rsz_300{
+	}
+		.d_n{
+		}
+/* MEDIA QUERIES */=09
+
+	@media only screen and (max-width:480px)
+	{
+/* HIDING BLOCK */
+
+	tr[class=3Dhide],td[class=3Dhide] {
+	=20
+	max-height: 1000px !important;
+	height: auto !important;
+	font-size: auto !important;
+	display:block !important;
+	float:none !important;
+	overflow:visible !important;
+		}
+	=09
+/* Resizing full Tables, TDs, and IMGs*/
+
+	table[class=3Drsz_320],td[class=3Drsz_320],img[class=3Drsz_320]{
+		width:320px !important;
+		margin:0 auto !important;
+	}
+	table[class=3Drsz_300],td[class=3Drsz_300],img[class=3Drsz_300]{
+		width:300px !important;
+		margin-right:10px !important;
+		=20
+	}
+=09
+	table[class=3Drsz_280],td[class=3Drsz_280],img[class=3Drsz_280]{
+		width:280px !important;
+		=20
+		=20
+	}
+/* BLOCK DISPLAYING */
+
+	table[class=3Dd_b],
+	td[class=3Dd_b],
+	img[class=3Dd_b],
+	br[class=3Dd_b],
+	span[class=3Dd_b],
+	a[class=3Dd_b],
+	table[id=3Dd_b],
+	td[id=3Dd_b],
+	img[id=3Dd_b],
+	br[id=3Dd_b],
+	span[id=3Dd_b],
+	a[id=3Dd_b]{
+	display:block !important;
+	width:100% !important;
+	}=09
+=09
+	/* NONE DISPLAYING */
+	table[class=3Dd_n],
+	td[class=3Dd_n],tr[class=3Dd_n],
+	img[class=3Dd_n],
+	br[class=3Dd_n],
+	span[class=3Dd_n],
+	a[class=3Dd_n],
+	table[id=3Dd_n],
+	td[id=3Dd_n],tr[id=3Dd_n],
+	img[id=3Dd_n],
+	br[id=3Dd_n],
+	span[id=3Dd_n],
+	a[id=3Dd_n]{
+	display:none !important;
+	}
+	td[class=3D"ajusterHeader"]{text-align:center !important;height:60px !=
+important;width:100% !important;}
+	td[class=3D"w20"]{width:20px !important;}td[class=3D"center"]{text-ali=
+gn:center !important}
+	}
+	</style>
+</head>
+<body bgcolor=3D"#642a85"><div align=3D"center"><table align=3D"center"=
+ border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"width: 600px=
+">=0A	<tbody>=0A		<tr>=0A			<td><span style=3D"font-size: 12px"><span s=
+tyle=3D"font-family: verdana, geneva, sans-serif">Bonjour #email#</span=
+></span></td>=0A			<td style=3D"text-align: right"><span style=3D"font-=
+size: 12px"><span style=3D"font-family: verdana, geneva, sans-serif"><a=
+ href=3D"http://stats.primeirafr.com/m/oJ1_2fSN_2br9cikYXETrvf1bUYdRcsC=
+YE28yjRkvKhwx_2fZamQxrE9LhgAQKNzZln0NdZY4jrl1HpTA_3d/i.htm">Visualiser =
+la version en ligne</a></span></span></td>=0A		</tr>=0A	</tbody>=0A</ta=
+ble>=0A</div>
+<table bgcolor=3D"#642a85" border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0" style=3D"font-size:0px;" width=3D"100%">
+	<tbody>
+		<tr>
+			<td align=3D"center">
+			<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0" class=3D"rsz_320" width=3D"602">
+				<tbody>
+					<tr>
+						<td height=3D"11" style=3D"font-size:11px;line-height:11px;" widt=
+h=3D"15"></td>
+						<td height=3D"11" style=3D"font-size:11px;line-height:11px;"></td=
+>
+						<td height=3D"11" style=3D"font-size:11px;line-height:11px;" widt=
+h=3D"15"></td>
+					</tr>
+					<tr>
+						<td></td>
+						<td align=3D"center"><font color=3D"#ffffff" face=3D"Arial, Helvi=
+tica, sans-serif" size=3D"1" style=3D"font-size:11px;"><strong>Diagnost=
+ic s&eacute;curit&eacute; gratuit en 3 clics !</strong></font></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td height=3D"11" style=3D"font-size:11px;line-height:11px;"></td=
+>
+						<td height=3D"11" style=3D"font-size:11px;line-height:11px;"></td=
+>
+						<td height=3D"11" style=3D"font-size:11px;line-height:11px;"></td=
+>
+					</tr>
+				</tbody>
+			</table>
+
+			<table align=3D"center" bgcolor=3D"#FFFFFF" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" class=3D"rsz_320" width=3D"602">
+				<tbody>
+					<tr>
+						<td valign=3D"middle"><!--[if (gte mso 9)|(IE)]><table width=3D"6=
+02" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" class=3D"rsz_320">=
+
+            <tr>
+              <td width=3D"209">   <![endif]-->
+						<table align=3D"left" border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0" class=3D"rsz_320" width=3D"209">
+							<tbody>
+								<tr>
+									<td align=3D"center" width=3D"209"><img alt=3D"NEXECURE GROUPE=
+ CREDIT AGRICOLE" border=3D"0" height=3D"92" src=3D"http://stats.primei=
+rafr.com//o/oJ1_2fSN_2br9cikYXETrvf1bUYdRcsCYE28yjRkvKhwx_2fZamQxrE9Lhg=
+AQKNzZln0NdZY4jrl1HpTA_3d/o.gif" style=3D"display:block" width=3D"209" =
+/></td>
+								</tr>
+							</tbody>
+						</table>
+						<!--[if (gte mso 9)|(IE)]></td>
+              <td width=3D"194" height=3D"92" valign=3D"middle"><![endi=
+f]-->
+
+						<table align=3D"left" border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0" class=3D"rsz_320" width=3D"194">
+							<tbody>
+								<tr class=3D"rsz_320">
+									<td align=3D"left" class=3D"ajusterHeader" height=3D"92" valig=
+n=3D"middle"><font color=3D"#444444" face=3D"Arial, Helvitica, sans-ser=
+if" size=3D"1" style=3D"font-size:10px;">ALARME &amp; TELESURVEILLANCE<=
+br />
+									POUR VOTRE HABITATION</font></td>
+								</tr>
+							</tbody>
+						</table>
+						<!--[if (gte mso 9)|(IE)]></td>
+              <td width=3D"180" height=3D"92" align=3D"left" valign=3D"=
+middle"><![endif]-->
+
+						<table align=3D"left" border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0" class=3D"rsz_320" width=3D"180">
+							<tbody>
+								<tr>
+									<td align=3D"center" class=3D"ajusterHeader" height=3D"92" val=
+ign=3D"middle"><a href=3D"http://stats.primeirafr.com/l/60793065/oJ1_2f=
+SN_2br9cikYXETrvf1bUYdRcsCYE28yjRkvKhwx_2fZamQxrE9LhgAQKNzZln0NdZY4jrl1=
+HpTA_3d/i.htm" style=3D"text-decoration:none;" target=3D"_blank"><img a=
+lt=3D"DIAGNOSTIC IMM&Eacute;DIAT" border=3D"0" height=3D"42" src=3D"htt=
+p://img.publicidees.com/nexecure/2016/fevrier/emailing1/img_emailing1_0=
+9.jpg" width=3D"180" /></a></td>
+								</tr>
+							</tbody>
+						</table>
+						<!--[if (gte mso 9)|(IE)]></td>
+              <td width=3D"19"><![endif]-->
+
+						<table align=3D"left" border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0" class=3D"rsz_320" width=3D"10">
+							<tbody>
+								<tr>
+									<td height=3D"20"></td>
+								</tr>
+							</tbody>
+						</table>
+						<!--[if (gte mso 9)|(IE)]>
+</td>
+            </tr>
+          </table><![endif]--></td>
+					</tr>
+					<tr>
+						<td bgcolor=3D"#f1f1f1">
+						<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacin=
+g=3D"0" class=3D"rsz_320" width=3D"602">
+							<tbody>
+								<tr>
+									<td height=3D"8" style=3D"font-size:8px;line-height:8px;" widt=
+h=3D"10"></td>
+									<td height=3D"8" style=3D"font-size:8px;line-height:8px;"></td=
+>
+									<td height=3D"8" style=3D"font-size:8px;line-height:8px;" widt=
+h=3D"10"></td>
+								</tr>
+								<tr>
+									<td></td>
+									<td align=3D"center"><font color=3D"#454545" face=3D"Arial, He=
+lvitica, sans-serif" size=3D"2" style=3D"font-size:13px;">LA PROTECTION=
+ NOUVELLE G&Eacute;N&Eacute;RATION AVEC LA T&Eacute;L&Eacute;SURVEILLAN=
+CE NEXECUR</font></td>
+									<td></td>
+								</tr>
+								<tr>
+									<td height=3D"8" style=3D"font-size:8px;line-height:8px;"></td=
+>
+									<td height=3D"8" style=3D"font-size:8px;line-height:8px;"></td=
+>
+									<td height=3D"8" style=3D"font-size:8px;line-height:8px;"></td=
+>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+					<tr>
+						<td><a href=3D"http://stats.primeirafr.com/l/60793066/oJ1_2fSN_2b=
+r9cikYXETrvf1bUYdRcsCYE28yjRkvKhwx_2fZamQxrE9LhgAQKNzZln0NdZY4jrl1HpTA_=
+3d/i.htm" style=3D"text-decoration:none;" target=3D"_blank"><img alt=3D=
+"FAITES-VOUS RAPPELER" border=3D"0" src=3D"http://img.publicidees.com/n=
+execure/2016/fevrier/emailing1/img_emailing1_13.jpg" style=3D"display:b=
+lock" width=3D"100%" /></a></td>
+					</tr>
+					<tr>
+						<td>
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"=
+rsz_320" width=3D"602">
+							<tbody>
+								<tr>
+									<td width=3D"15"></td>
+									<td height=3D"24"></td>
+									<td width=3D"15"></td>
+								</tr>
+								<tr>
+									<td></td>
+									<td align=3D"center"><strong><font color=3D"#454545" face=3D"A=
+rial, Helvitica, sans-serif" size=3D"2" style=3D"font-size:14px;">FACIL=
+E ET RAPIDE, ESTIMEZ LE CO&Ucirc;T DE VOTRE CONFORT AU QUOTIDIEN</font>=
+</strong></td>
+									<td></td>
+								</tr>
+								<tr>
+									<td></td>
+									<td height=3D"18"></td>
+									<td></td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+					<tr>
+						<td><!--[if (gte mso 9)|(IE)]><table width=3D"602" border=3D"0" c=
+ellspacing=3D"0" cellpadding=3D"0" class=3D"rsz_320">
+            <tr>
+              <td width=3D"18"><![endif]-->
+						<table align=3D"left" border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0" class=3D"d_n" width=3D"18">
+							<tbody>
+								<tr>
+									<td height=3D"30" valign=3D"middle" width=3D"18"></td>
+								</tr>
+							</tbody>
+						</table>
+						<!--[if (gte mso 9)|(IE)]></td>
+              <td width=3D"165"><![endif]-->
+
+						<table align=3D"left" border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0" class=3D"rsz_300" width=3D"165">
+							<tbody>
+								<tr>
+									<td valign=3D"middle" width=3D"49"><a href=3D"http://stats.pri=
+meirafr.com/l/60793067/oJ1_2fSN_2br9cikYXETrvf1bUYdRcsCYE28yjRkvKhwx_2f=
+ZamQxrE9LhgAQKNzZln0NdZY4jrl1HpTA_3d/i.htm" style=3D"text-decoration:no=
+ne;" target=3D"_blank"><img alt=3D"1" border=3D"0" src=3D"http://img.pu=
+blicidees.com/nexecure/2016/fevrier/emailing1/img_emailing1_17.jpg" sty=
+le=3D"display:block" width=3D"49" /></a></td>
+									<td align=3D"left" height=3D"45" valign=3D"middle"><a href=3D"=
+http://stats.primeirafr.com/l/60793068/oJ1_2fSN_2br9cikYXETrvf1bUYdRcsC=
+YE28yjRkvKhwx_2fZamQxrE9LhgAQKNzZln0NdZY4jrl1HpTA_3d/i.htm" style=3D"te=
+xt-decoration:none;" target=3D"_blank"><font color=3D"#562381" face=3D"=
+Arial, Helvitica, sans-serif" size=3D"1" style=3D"font-size:11px;">Je c=
+lique ici pour<br class=3D"d_n" />
+									vivre une<br class=3D"d_n" />
+									Nexp&eacute;rience unique.</font></a></td>
+								</tr>
+							</tbody>
+						</table>
+						<!--[if (gte mso 9)|(IE)]></td>
+              <td width=3D"20" valign=3D"middle"><![endif]-->
+
+						<table align=3D"left" border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0" width=3D"20">
+							<tbody>
+								<tr>
+									<td height=3D"20"><img border=3D"0" class=3D"d_n" height=3D"45=
+" src=3D"http://img.publicidees.com/nexecure/2016/fevrier/emailing1/img=
+_emailing1_19.jpg" style=3D"display:block" width=3D"20" /></td>
+								</tr>
+							</tbody>
+						</table>
+						<!--[if (gte mso 9)|(IE)]></td>
+              <td width=3D"181" valign=3D"middle"><![endif]-->
+
+						<table align=3D"left" border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0" class=3D"rsz_300" width=3D"181">
+							<tbody>
+								<tr>
+									<td valign=3D"middle" width=3D"51"><a href=3D"http://stats.pri=
+meirafr.com/l/60793069/oJ1_2fSN_2br9cikYXETrvf1bUYdRcsCYE28yjRkvKhwx_2f=
+ZamQxrE9LhgAQKNzZln0NdZY4jrl1HpTA_3d/i.htm" style=3D"text-decoration:no=
+ne;" target=3D"_blank"><img alt=3D"2" border=3D"0" height=3D"38" src=3D=
+"http://img.publicidees.com/nexecure/2016/fevrier/emailing1/img_emailin=
+g1_20.jpg" style=3D"display:block" width=3D"51" /></a></td>
+									<td align=3D"left" height=3D"45" valign=3D"middle"><a href=3D"=
+http://stats.primeirafr.com/l/60793070/oJ1_2fSN_2br9cikYXETrvf1bUYdRcsC=
+YE28yjRkvKhwx_2fZamQxrE9LhgAQKNzZln0NdZY4jrl1HpTA_3d/i.htm" style=3D"te=
+xt-decoration:none;" target=3D"_blank"><font color=3D"#562381" face=3D"=
+Arial, Helvitica, sans-serif" size=3D"1" style=3D"font-size:11px;">Je c=
+ompl&egrave;te ma<br class=3D"d_n" />
+									demande de diagnostic<br class=3D"d_n" />
+									s&eacute;curit&eacute; gratuit.</font></a></td>
+								</tr>
+							</tbody>
+						</table>
+						<!--[if (gte mso 9)|(IE)]></td>
+              <td width=3D"12" valign=3D"middle"><![endif]-->
+
+						<table align=3D"left" border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0" width=3D"12">
+							<tbody>
+								<tr>
+									<td height=3D"20" width=3D"12"><img border=3D"0" class=3D"d_n"=
+ height=3D"45" src=3D"http://img.publicidees.com/nexecure/2016/fevrier/=
+emailing1/img_emailing1_22.jpg" style=3D"display:block" width=3D"12" />=
+</td>
+								</tr>
+							</tbody>
+						</table>
+						<!--[if (gte mso 9)|(IE)]></td>
+              <td width=3D"206" valign=3D"middle"><![endif]-->
+
+						<table align=3D"left" border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0" class=3D"rsz_300" width=3D"206">
+							<tbody>
+								<tr>
+									<td valign=3D"middle" width=3D"51"><a href=3D"http://stats.pri=
+meirafr.com/l/60793071/oJ1_2fSN_2br9cikYXETrvf1bUYdRcsCYE28yjRkvKhwx_2f=
+ZamQxrE9LhgAQKNzZln0NdZY4jrl1HpTA_3d/i.htm" style=3D"text-decoration:no=
+ne;" target=3D"_blank"><img alt=3D"3" border=3D"0" height=3D"38" src=3D=
+"http://img.publicidees.com/nexecure/2016/fevrier/emailing1/img_emailin=
+g1_23.jpg" style=3D"display:block" width=3D"53" /></a></td>
+									<td align=3D"left" height=3D"45" valign=3D"middle"><a href=3D"=
+http://stats.primeirafr.com/l/60793072/oJ1_2fSN_2br9cikYXETrvf1bUYdRcsC=
+YE28yjRkvKhwx_2fZamQxrE9LhgAQKNzZln0NdZY4jrl1HpTA_3d/i.htm" style=3D"te=
+xt-decoration:none;" target=3D"_blank"><font color=3D"#562381" face=3D"=
+Arial, Helvitica, sans-serif" size=3D"1" style=3D"font-size:11px;">Je s=
+uis accompagn&eacute; par<br class=3D"d_n" />
+									un conseiller pour &eacute;tablir<br class=3D"d_n" />
+									mon diagnostic.</font></a></td>
+								</tr>
+							</tbody>
+						</table>
+						<!--[if (gte mso 9)|(IE)]></td>
+            </tr>
+          </table><![endif]--></td>
+					</tr>
+					<tr>
+						<td align=3D"center" height=3D"34"></td>
+					</tr>
+					<tr>
+						<td align=3D"center"><a href=3D"http://stats.primeirafr.com/l/607=
+93073/oJ1_2fSN_2br9cikYXETrvf1bUYdRcsCYE28yjRkvKhwx_2fZamQxrE9LhgAQKNzZ=
+ln0NdZY4jrl1HpTA_3d/i.htm" style=3D"text-decoration:none;" target=3D"_b=
+lank"><img alt=3D"R&eacute;alisez votre diagnostic s&eacute;curit&eacut=
+e; gratuit" border=3D"0" class=3D"rsz_280" src=3D"http://img.publicidee=
+s.com/nexecure/2016/fevrier/emailing1/img_emailing1_29.jpg" style=3D"di=
+splay:block" width=3D"374" /></a></td>
+					</tr>
+					<tr>
+						<td height=3D"23"></td>
+					</tr>
+					<tr>
+						<td>
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"=
+rsz_320" width=3D"602">
+							<tbody>
+								<tr>
+									<td class=3D"w20" width=3D"31"></td>
+									<td align=3D"left"><font color=3D"#444444" face=3D"Arial, Helv=
+itica, sans-serif" size=3D"1" style=3D"font-size:13px;"><strong>Simple,=
+ et sans engagement,</strong> nous vous accompagnons dans la s&eacute;c=
+urisation et le confort<br class=3D"d_n" />
+									de votre habitation. Ce diagnostic vous permet d&rsquo;identif=
+ier les zones sensibles de votre<br class=3D"d_n" />
+									habitation et de d&eacute;finir la protection adapt&eacute;e &=
+agrave; votre logement et habitudes.</font></td>
+									<td width=3D"15"></td>
+								</tr>
+								<tr>
+									<td></td>
+									<td align=3D"left" height=3D"22"></td>
+									<td></td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+					<tr>
+						<td bgcolor=3D"#562381">
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"=
+rsz_320" width=3D"602">
+							<tbody>
+								<tr>
+									<td width=3D"24"></td>
+									<td height=3D"18"></td>
+									<td width=3D"24"></td>
+								</tr>
+								<tr>
+									<td></td>
+									<td align=3D"left"><font color=3D"#ffffff" face=3D"Arial, Helv=
+itica, sans-serif" size=3D"1" style=3D"font-size:9px;">* Bas&eacute; su=
+r 778 avis authentiques r&eacute;colt&eacute;s entre juillet 2015 et ja=
+nvier 2016. source :<br />
+									<a href=3D"http://stats.primeirafr.com/l/60793074/oJ1_2fSN_2br=
+9cikYXETrvf1bUYdRcsCYE28yjRkvKhwx_2fZamQxrE9LhgAQKNzZln0NdZY4jrl1HpTA_3=
+d/i.htm" style=3D"text-decoration:none" target=3D"_blank"><font color=3D=
+"#ffffff"><u>www.avis-nexecur-protection.com/avis/particulier</u></font=
+></a><br />
+									<br />
+									** 360 000 cambriolages enregistr&eacute;s par la Gendarmerie =
+Nationale et Police Nationale en 2014. Source : ONDRP, 2015.<br />
+									<br />
+									NEXECUR PROTECTION SAS au capital de 12 547 360 euros Si&egrav=
+e;ge social : 13, rue de Belle Ile 72190 COULAINES, SIREN 799 869 342 R=
+CS LE MANS n&deg; TVA FR 19 799869342 Agr&eacute;ment CNAPS AUT-072-211=
+3-07-09-20140389180 &laquo; l&rsquo;autorisation d&rsquo;exercice ne co=
+nf&egrave;re aucune pr&eacute;rogative de puissance publique &agrave; l=
+&rsquo;entreprise ou aux personnes qui en b&eacute;n&eacute;ficient &ra=
+quo;</font></td>
+									<td></td>
+								</tr>
+								<tr>
+									<td></td>
+									<td height=3D"40"></td>
+									<td></td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			</td>
+		</tr>
+		<tr>
+			<td></td>
+		</tr>
+	</tbody>
+</table>
+
+<p><img src=3D"http://tracking.publicidees.com/link.php?promoid=3D12666=
+0&progid=3D4080&partid=3D44781" /></p>
+<div align=3D"center"><div style=3D"text-align: center"><span style=3D"=
+font-size: 11px"><span style=3D"font-family: verdana, geneva, sans-seri=
+f">Vous recevez cet email car vous &ecirc;tes abonn&eacute; sur l'un de=
+ nos sites partenaires.&nbsp;<br>=0ASi vous souhaitez ne plus recevoir =
+d'offres promotionnelles, <a href=3D"http://stats.primeirafr.com/u/oJ1_=
+2fSN_2br9cikYXETrvf1bUYdRcsCYE28yjRkvKhwx_2fZamQxrE9LhgAQKNzZln0NdZY4jr=
+l1HpTA_3d/i.htm">proc&eacute;dez &agrave; votre d&eacute;sinscription</=
+a>.&nbsp;</span></span></div>=0A</div></body>
+</html>
+
+
+----=6ae9272c_7a9c_44a8_b720_d51744d86cae--
+
+----=fd450708_2f1f_4f32_a37b_3f7a4137c2a7--

@@ -1,0 +1,585 @@
+Return-Path: <bounce-285939-89bcbbedc8-146121678@lideedujour.fr>
+Received: from mailimailo.univ-rennes1.fr ([unix socket])
+	 by mailimailo.univ-rennes1.fr (Cyrus v2.3.16-Fedora-RPM-2.3.16-6.el6_2.5) with LMTPA;
+	 Sat, 09 Jul 2016 09:14:45 +0200
+X-Sieve: CMU Sieve 2.3
+Received: from mailout2.univ-rennes1.fr (mailout2.univ-rennes1.fr [129.20.129.120])
+	by mailimailo.univ-rennes1.fr (Postfix) with ESMTP id 2AC7852
+	for <resp-m2-miage@univ-rennes1.fr>; Sat,  9 Jul 2016 09:14:45 +0200 (CEST)
+Received: from localhost (vmscanmail.univ-rennes1.fr [129.20.128.134])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id 285BA6001C
+	for <resp-m2-miage@univ-rennes1.fr>; Sat,  9 Jul 2016 09:14:45 +0200 (CEST)
+X-Virus-Scanned: amavisd-new at univ-rennes1.fr
+Received: from mailout2.univ-rennes1.fr ([129.20.129.120])
+	by localhost (vmscanmail.univ-rennes1.frm [129.20.128.134]) (amavisd-new, port 10026)
+	with ESMTP id klz3-HAFMj6L for <resp-m2-miage@univ-rennes1.fr>;
+	Sat,  9 Jul 2016 09:14:45 +0200 (CEST)
+Received: from vmmailin.univ-rennes1.fr (vmmailin.univ-rennes1.fr [129.20.128.133])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id 0802D60012
+	for <resp-m2-miage@univ-rennes1.fr>; Sat,  9 Jul 2016 09:14:45 +0200 (CEST)
+Received: from mxb2-1.relay.renater.fr (mxb2-1.relay.renater.fr [194.214.200.8])
+	by vmmailin.univ-rennes1.fr (Postfix) with ESMTP id 0208320033
+	for <resp-m2-miage@univ-rennes1.fr>; Sat,  9 Jul 2016 09:14:45 +0200 (CEST)
+Received: from er3.lideedujour.fr (er3.lideedujour.fr [188.213.62.190])
+	by mxb2-1.relay.renater.fr (asm) with ESMTP id BA8C060015D
+	for <resp-m2-miage@univ-rennes1.fr>; Sat,  9 Jul 2016 09:14:44 +0200 (CEST)
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=default; d=lideedujour.fr;
+ h=MIME-Version:From:Reply-To:List-Unsubscribe:Feedback-ID:Subject:Content-Type:To:Message-ID:Date; i=isolation@lideedujour.fr;
+ bh=F0QWQS3xafT9y471sEJxme/jqmY=;
+ b=PFzz+D0aATvbaEUnGIwOxTkJRhuY4LsR++1IlXJkB3H/SCnK35TjhICwOv1VtNmpzeg+Eq0vI2AG
+   OTeNBwO7aDacJI95nKxiX6FW+Jb2L3z8jKnFU08faTqqmVlRxwlhBgpSjf2RwGVN4Dc650vWIpc0
+   d2g55gi5GADKEBMJKow=
+MIME-Version: 1.0
+Precedence: bulk
+From: "Votre devis en 2 min - L Idee Du Jour" <isolation@lideedujour.fr>
+Reply-To: "L Idee Du Jour" <info@lideedujour.fr>
+List-Unsubscribe: <http://clicks.lideedujour.fr/lu/702787234/143c603/285939.html>
+X-EMID: 0
+Feedback-ID: LEAD658
+Subject: Renforcer l'isolation de votre habitation
+Content-Type: multipart/alternative;
+ boundary=1da9f4ef049473c519611bdf63a7119f
+To: resp-m2-miage@univ-rennes1.fr
+Message-ID: <0.0.1F9.FC1.1D1D9B1889CAB94.0@er3.lideedujour.fr>
+Date: Sat, 9 Jul 2016 09:14:29 +0200
+X-UCE-Status: YES
+X-UCE-Type: MCE
+X-Original-Source-IP: 188.213.62.190
+X-Bizanga: IMP - mxb2-1.relay.renater.fr
+X-Renater-SpamState: 11
+X-Renater-SpamScore: 17
+X-Renater-SpamCause: gggruggvucftvghtrhhoucdtuddrfeeltddrfedvgdduvdegucetufdoteggodetrfdotffvucfrrhhofhhilhgvmecutffgpfetvffgtfdpggftfghnshhusghstghrihgsvgenuceurghilhhouhhtmecufedttdenucdnofetkffnkffpifculddujedmnecujfgurhepgghphfhrjffutgfvkfffsegrtderredttdejnecuhfhrohhmpedfgghothhrvgcuuggvvhhishcuvghnucdvuchmihhnucdqucfnucfkuggvvgcuffhuucflohhurhdfuceoihhsohhlrghtihhonheslhhiuggvvgguuhhjohhurhdrfhhrqeenucffohhmrghinheplhhiuggvvgguuhhjohhurhdrfhhrnecukfhppedukeekrddvudefrdeivddrudeltdenucfrrghrrghmpehmohguvgepshhmthhppdhhvghlohepvghrfedrlhhiuggvvgguuhhjohhurhdrfhhrpdhinhgvthepudekkedrvddufedriedvrdduledtpdhmrghilhhfrhhomhepsghouhhntggvqddvkeehleefledqkeelsggtsggsvggutgekqddugeeiuddvudeijeeksehlihguvggvughujhhouhhrrdhfrhdprhgtphhtthhopehrvghsphdqmhdvqdhmihgrghgvsehunhhivhdqrhgvnhhnvghsuddrfhhr 
+X-Renater-ServerName: mxb2-1.relay.renater.fr
+
+
+--1da9f4ef049473c519611bdf63a7119f
+Content-Type: text/plain; 
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Visualiser la version en ligne : http://clicks.lideedujour.fr/v/702787234/1=
+43c603/2gGN6C82qQbmGuD9hFNFqnjCbnYLCidKGeqo.html
+Signaler comme courrier ind=C3=A9sirable : http://clicks.lideedujour.fr/u/7=
+02787234/143c603/2gGN6C82qQbmGuD9hFNFqnjCbnYLCidKGeqo.html
+
+http://clicks.lideedujour.fr/cl/702787234/841595/276674/24/NiwSW8TuIoPXS1h7=
+aV4sItDBGUMnSyDWQSpc.htm
+
+...
+=C2=A0
+=C2=A0
+Isolation des combles et des
+murs
+=C2=A0
+Pourquoi payer plus cher ? On compare
+tout !
+=C2=A0
+=C2=A0
+=C2=A0
+=C2=A0
+1er courtier national
+en travaux de r=C3=A9novation
+Profitez des beaux jours pour renforcer
+l'isolation
+de votre habitation. Et b=C3=A9n=C3=A9ficiez des aides de
+l'Etat mis a votre disposition
+=C2=A0
+=C2=A0
+Mon devis
+offert
+=C2=A0
+=C2=A0
+=C2=A0
+=C2=A0
+=C2=A0
+=C2=A0
+=C2=A0
+Cumulez les avantages et
+subventions
+=C2=A0
+=C2=A0
+=C2=A0
+
+=C2=A0
+Subvention ANAH=20
+
+=C2=A0
+Prime Habiter Mieux=20
+
+=C2=A0
+Cr=C3=A9dit d'imp=C3=B4t=20
+=C2=A0
+=C2=A0
+=C2=A0
+=C2=A0
+
+Vous recevez ce message car vous =C3=AAtes membre de Les L Idee Du Jour.
+
+Vous pouvez exercer votre droit d'acc=C3=A8s et de suppression =C3=A0 tout =
+moment en nous contactant =C3=A0 : info@lideedujour.fr, ou en nous =C3=
+=A9crivant =C3=A0 L Idee Du Jour - Av Franc=C3=A9sc Camb=C3=B3 21, 5=C2=
+=BA - 08003 Barcelona.=20
+
+Suivez ce lien pour vous d=C3=A9sabonner.http://clicks.lideedujour.fr/u/702=
+787234/143c603/2gGN6C82qQbmGuD9hFNFqnjCbnYLCidKGeqo.html Politique de confi=
+dentialit=C3=A9.http://www.lideedujour.fr/privacy.html
+
+--1da9f4ef049473c519611bdf63a7119f
+Content-Type: text/html; 
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.=
+w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8" />
+<title>Renforcer l'isolation de votre habitation</title>
+=09
+<style type=3D"text/css">
+=09.ReadMsgBody { width: 100%; }
+=09.ExternalClass { width: 100%; }
+=09td {border-collapse: collapse; }
+=09
+</style>
+
+</head>
+<body><center><table align=3D"center" style=3D"text-align:center; font-fami=
+ly: Arial; font-size: 12px; color: grey;">
+<tr><td style=3D"text-align:center; font-family: Arial; font-size: 12px; co=
+lor: grey;">
+<span style=3D"font-family: Arial;"><a href=3D"http://clicks.lideedujour.fr=
+/v/702787234/143c603/2gGN6C82qQbmGuD9hFNFqnjCbnYLCidKGeqo.html">Visualiser =
+la version en ligne</a> | <a href=3D"http://clicks.lideedujour.fr/u/7027872=
+34/143c603/2gGN6C82qQbmGuD9hFNFqnjCbnYLCidKGeqo.html">Signaler comme courri=
+er ind=C3=A9sirable</a><br /><br /></span>
+</td></tr></table></center><br />
+
+<center><table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" align=3D"ce=
+nter" style=3D"background-color: #FFFFFF;" width=3D"100%">
+<tr>
+<td style=3D"text-align: center;"><br />
+<center><table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D=
+"0" style=3D"border-collapse: collapse;  ">
+<tr>
+<td style=3D"background-color: #FFFFFF;">
+<center><table width=3D"602" border=3D"0" cellspacing=3D"0" cellpadding=3D"=
+0" align=3D"center" style=3D"border-collapse: collapse; ">
+<tr>
+<td>
+<center><table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D=
+"0" style=3D"border-collapse: collapse;  ">
+<tr>
+  <td>
+  <center><table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0" style=3D"border-collapse: collapse;  ">
+  <tr>
+  <td width=3D"18">=C2=A0</td>
+  <td>
+  <center><table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0" style=3D"border-collapse: collapse;  ">
+  <tr>
+  <td style=3D"font-family: Arial, Helvetica, sans-serif; font-size: 23px; =
+line-height: 26px; color: #395362; text-align: center;"><a href=3D"http://c=
+licks.lideedujour.fr/cl/702787234/841595/276672/1/0aq0a32V5V57gBP3cWJBVBh7s=
+o8Qt9m5MKQA.htm" target=3D"_blank" style=3D"font-family: Arial, Helvetica, =
+sans-serif; font-size: 23px; line-height: 26px; color: #395362; text-align:=
+ center; text-decoration: none;">Isolation des combles et des
+    murs</a></td>
+  </tr>
+  <tr>
+  <td height=3D"12" style=3D" ">=C2=A0</td>
+  </tr>
+  <tr>
+  <td style=3D"font-family: Arial, Helvetica, sans-serif; font-size: 26px; =
+line-height: 29px; color: #ee4520; text-align: center;"><a href=3D"http://c=
+licks.lideedujour.fr/cl/702787234/841595/276672/2/0aq0a32V5V57gBP3cWJBVBh7s=
+o8Qt9m5MKQA.htm" target=3D"_blank" style=3D"font-family: Arial, Helvetica, =
+sans-serif; font-size: 26px; line-height: 29px; color: #ee4520; text-align:=
+ center; text-decoration: none;">Pourquoi payer plus cher ? On compare
+    tout !</a></td>
+  </tr>
+  </table></center>
+  </td>
+  <td width=3D"18">=C2=A0</td>
+  </tr>
+  </table></center>
+  </td>
+</tr>
+<tr>
+<td height=3D"30">=C2=A0</td>
+</tr>
+<tr>
+  <td>
+  <center><table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0" style=3D"border-collapse: collapse;  ">
+  <tr>
+  <td width=3D"1" style=3D"background-color: #E8E8E8;"></td>
+  <td>
+  <center><table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0" style=3D"border-collapse: collapse;  border-bottom: 1px solid #E8E8E=
+8;">
+  <tr>
+  <td valign=3D"top" height=3D"247" style=3D"background-color: #C9BDB1; bac=
+kground-position: center; background-repeat: no-repeat;"><center><table bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0">
+    <tr>
+  <td width=3D"180" height=3D"80"><a href=3D"http://clicks.lideedujour.fr/c=
+l/702787234/841595/276673/3/qz2bw2sY4DyCybu2rmKeAfyZR0oq6GxGahQJ.htm"><img =
+src=3D"http://images.lideedujour.fr/20160708/jbvyRamMSbA/72DrwR_1.png" bord=
+er=3D"0" width=3D"180" height=3D"80" style=3D"display:block; background-col=
+or: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; co=
+lor: #030609; text-decoration: none;" alt=3D"... Isolation des" /></a></td>
+  <td width=3D"180" height=3D"80"><a href=3D"http://clicks.lideedujour.fr/c=
+l/702787234/841595/276673/4/qz2bw2sY4DyCybu2rmKeAfyZR0oq6GxGahQJ.htm"><img =
+src=3D"http://images.lideedujour.fr/20160708/jbvyRamMSbA/72DrwR_2.png" bord=
+er=3D"0" width=3D"180" height=3D"80" style=3D"display:block; background-col=
+or: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; co=
+lor: #030609; text-decoration: none;" alt=3D"combles et desmursPourquoi" />=
+</a></td>
+  <td width=3D"180" height=3D"80"><a href=3D"http://clicks.lideedujour.fr/c=
+l/702787234/841595/276673/5/qz2bw2sY4DyCybu2rmKeAfyZR0oq6GxGahQJ.htm"><img =
+src=3D"http://images.lideedujour.fr/20160708/jbvyRamMSbA/72DrwR_3.png" bord=
+er=3D"0" width=3D"180" height=3D"80" style=3D"display:block; background-col=
+or: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; co=
+lor: #030609; text-decoration: none;" alt=3D"payer plus cher" /></a></td>
+  <td width=3D"60" height=3D"80"><a href=3D"http://clicks.lideedujour.fr/cl=
+/702787234/841595/276673/6/qz2bw2sY4DyCybu2rmKeAfyZR0oq6GxGahQJ.htm"><img s=
+rc=3D"http://images.lideedujour.fr/20160708/jbvyRamMSbA/72DrwR_4.png" borde=
+r=3D"0" width=3D"60" height=3D"80" style=3D"display:block; background-color=
+: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; colo=
+r: #030609; text-decoration: none;" alt=3D"? On comparetout" /></a></td>
+  </tr>
+  <tr>
+  <td width=3D"180" height=3D"80"><a href=3D"http://clicks.lideedujour.fr/c=
+l/702787234/841595/276673/7/qz2bw2sY4DyCybu2rmKeAfyZR0oq6GxGahQJ.htm"><img =
+src=3D"http://images.lideedujour.fr/20160708/jbvyRamMSbA/72DrwR_5.png" bord=
+er=3D"0" width=3D"180" height=3D"80" style=3D"display:block; background-col=
+or: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; co=
+lor: #030609; text-decoration: none;" alt=3D"!1er courtier nationalen" /></=
+a></td>
+  <td width=3D"180" height=3D"80"><a href=3D"http://clicks.lideedujour.fr/c=
+l/702787234/841595/276673/8/qz2bw2sY4DyCybu2rmKeAfyZR0oq6GxGahQJ.htm"><img =
+src=3D"http://images.lideedujour.fr/20160708/jbvyRamMSbA/72DrwR_6.png" bord=
+er=3D"0" width=3D"180" height=3D"80" style=3D"display:block; background-col=
+or: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; co=
+lor: #030609; text-decoration: none;" alt=3D"travaux de r=C3=A9novationProf=
+itez" /></a></td>
+  <td width=3D"180" height=3D"80"><a href=3D"http://clicks.lideedujour.fr/c=
+l/702787234/841595/276673/9/qz2bw2sY4DyCybu2rmKeAfyZR0oq6GxGahQJ.htm"><img =
+src=3D"http://images.lideedujour.fr/20160708/jbvyRamMSbA/72DrwR_7.png" bord=
+er=3D"0" width=3D"180" height=3D"80" style=3D"display:block; background-col=
+or: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; co=
+lor: #030609; text-decoration: none;" alt=3D"des beaux jours" /></a></td>
+  <td width=3D"60" height=3D"80"><a href=3D"http://clicks.lideedujour.fr/cl=
+/702787234/841595/276673/10/qz2bw2sY4DyCybu2rmKeAfyZR0oq6GxGahQJ.htm"><img =
+src=3D"http://images.lideedujour.fr/20160708/jbvyRamMSbA/72DrwR_8.png" bord=
+er=3D"0" width=3D"60" height=3D"80" style=3D"display:block; background-colo=
+r: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; col=
+or: #030609; text-decoration: none;" alt=3D"pour renforcerl'isolationde vot=
+re" /></a></td>
+  </tr>
+  <tr>
+  <td width=3D"180" height=3D"87"><a href=3D"http://clicks.lideedujour.fr/c=
+l/702787234/841595/276673/11/qz2bw2sY4DyCybu2rmKeAfyZR0oq6GxGahQJ.htm"><img=
+ src=3D"http://images.lideedujour.fr/20160708/jbvyRamMSbA/72DrwR_9.png" bor=
+der=3D"0" width=3D"180" height=3D"87" style=3D"display:block; background-co=
+lor: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; c=
+olor: #030609; text-decoration: none;" alt=3D"habitation. Et b=C3=A9n=C3=
+=A9ficiez" /></a></td>
+  <td width=3D"180" height=3D"87"><a href=3D"http://clicks.lideedujour.fr/c=
+l/702787234/841595/276673/12/qz2bw2sY4DyCybu2rmKeAfyZR0oq6GxGahQJ.htm"><img=
+ src=3D"http://images.lideedujour.fr/20160708/jbvyRamMSbA/72DrwR_10.png" bo=
+rder=3D"0" width=3D"180" height=3D"87" style=3D"display:block; background-c=
+olor: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; =
+color: #030609; text-decoration: none;" alt=3D"des aides del'Etat" /></a></=
+td>
+  <td width=3D"180" height=3D"87"><a href=3D"http://clicks.lideedujour.fr/c=
+l/702787234/841595/276673/13/qz2bw2sY4DyCybu2rmKeAfyZR0oq6GxGahQJ.htm"><img=
+ src=3D"http://images.lideedujour.fr/20160708/jbvyRamMSbA/72DrwR_11.png" bo=
+rder=3D"0" width=3D"180" height=3D"87" style=3D"display:block; background-c=
+olor: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; =
+color: #030609; text-decoration: none;" alt=3D"mis a votre" /></a></td>
+  <td width=3D"60" height=3D"87"><a href=3D"http://clicks.lideedujour.fr/cl=
+/702787234/841595/276673/14/qz2bw2sY4DyCybu2rmKeAfyZR0oq6GxGahQJ.htm"><img =
+src=3D"http://images.lideedujour.fr/20160708/jbvyRamMSbA/72DrwR_12.png" bor=
+der=3D"0" width=3D"60" height=3D"87" style=3D"display:block; background-col=
+or: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; co=
+lor: #030609; text-decoration: none;" alt=3D"dispositionMon devisoffertCumu=
+lez les" /></a></td>
+  </tr>
+  </table></center>
+  </td>
+  </tr>
+  <tr>
+  <td height=3D"21">=C2=A0</td>
+  </tr>
+  <tr>
+  <td style=3D"border-bottom: 1px solid #757575;">
+  <center><table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0" style=3D"border-collapse: collapse;  ">
+  <tr >
+  <td width=3D"18">=C2=A0</td>
+  <td>
+  <center><table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0" style=3D"border-collapse: collapse;  ">
+  <tr>
+  <td style=3D"font-family: Arial, Helvetica, sans-serif; font-size: 16px; =
+line-height: 22px; color: #395362; text-align: center;"><a href=3D"http://c=
+licks.lideedujour.fr/cl/702787234/841595/276672/15/0aq0a32V5V57gBP3cWJBVBh7=
+so8Qt9m5MKQA.htm" target=3D"_blank" style=3D"font-family: Arial, Helvetica,=
+ sans-serif; font-size: 16px; line-height: 22px; color: #395362; text-align=
+: center; text-decoration: none;"><span style=3D"font-family: Arial, Helvet=
+ica, sans-serif; font-size: 16px; line-height: 22px; color: #ee4520; text-a=
+lign: center; font-weight: bold;">1er courtier national
+    en travaux de r=C3=A9novation</span><br />
+    Profitez des beaux jours pour <span style=3D"font-family: Arial, Helvet=
+ica, sans-serif; font-size: 16px; line-height: 22px; color: #395362; text-a=
+lign: center; font-weight: bold;">renforcer
+      l'isolation<br />
+      de votre habitation.</span> Et b=C3=A9n=C3=A9ficiez des aides de
+    l'Etat mis a votre disposition</a></td>
+  </tr>
+  <tr>
+  <td height=3D"21">=C2=A0</td>
+  </tr>
+  <tr>
+  <td>
+  <center><table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0" style=3D"border-collapse: collapse;  ">
+  <tr>
+  <td width=3D"122">=C2=A0</td>
+  <td>
+  <center><table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0" align=3D"center" style=3D"border-collapse: collapse;  ">
+  <tr>
+  <td style=3D"background-color: #EE4520;">
+  <center><table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0" style=3D"border-collapse: collapse; border-bottom:4px solid #CD3412;=
+">
+  <tr>
+  <td  height=3D"48" valign=3D"middle" align=3D"center" style=3D"font-famil=
+y: Arial, Helvetica, sans-serif; font-size: 20px; line-height: 22px; color:=
+ #ffffff; text-align: center;"><a href=3D"http://clicks.lideedujour.fr/cl/7=
+02787234/841595/276672/16/0aq0a32V5V57gBP3cWJBVBh7so8Qt9m5MKQA.htm" target=
+=3D"_blank" style=3D"font-family: Arial, Helvetica, sans-serif; font-size: =
+20px; line-height: 22px; color: #ffffff; text-align: center; text-decoratio=
+n: none;"><span style=3D"font-family: Arial, Helvetica, sans-serif; font-si=
+ze: 20px; line-height: 22px; color: #ffffff; text-align: center; font-weigh=
+t: bold; border-bottom:5px #CD3412;">Mon devis</span>
+    offert</a></td>
+  </tr>
+  <tr>
+ =20
+  </tr>
+  </table></center>
+  </td>
+  </tr>
+  </table></center>
+  </td>
+  <td width=3D"122">=C2=A0</td>
+  </tr>
+  </table></center>
+  </td>
+  </tr>
+  <tr>
+  <td height=3D"18" style=3D" ">=C2=A0</td>
+  </tr>
+  </table></center>
+  </td>
+  <td width=3D"18">=C2=A0</td>
+  </tr>
+  </table></center>
+  </td>
+  </tr>
+  <tr>
+  </tr>
+  <tr>
+  <td height=3D"20" style=3D" ">=C2=A0</td>
+  </tr>
+  <tr>
+  <td>
+  <center><table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0" style=3D"border-collapse: collapse;  ">
+  <tr>
+  <td width=3D"18">=C2=A0</td>
+  <td>
+  <center><table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0" style=3D"border-collapse: collapse;  ">
+  <tr>
+  <td style=3D"font-family: Arial, Helvetica, sans-serif; font-size: 18px; =
+line-height: 21px; color: #395362; text-align: center;"><a href=3D"http://c=
+licks.lideedujour.fr/cl/702787234/841595/276672/17/0aq0a32V5V57gBP3cWJBVBh7=
+so8Qt9m5MKQA.htm" target=3D"_blank" style=3D"font-family: Arial, Helvetica,=
+ sans-serif; font-size: 18px; line-height: 21px; color: #395362; text-align=
+: center; text-decoration: none;">Cumulez les avantages et
+    subventions</a></td>
+  </tr>
+  </table></center>
+  </td>
+  <td width=3D"18">=C2=A0</td>
+  </tr>
+  </table></center>
+  </td>
+  </tr>
+  <tr>
+  <td height=3D"26">=C2=A0</td>
+  </tr>
+  <tr>
+  <td>
+  <center><table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0" style=3D"border-collapse: collapse;  ">
+  <tr>
+  <td width=3D"30">=C2=A0</td>
+  <td>
+  <center><table width=3D"355" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0" align=3D"left" style=3D"border-collapse: collapse;  ">
+  <tr>
+  <td>
+  <center><table width=3D"135" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0" align=3D"left" style=3D"border-collapse: collapse;  ">
+  <tr>
+  <td>
+  <center><table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0" style=3D"border-collapse: collapse;  ">
+  <tr>
+  <td align=3D"center"><a href=3D"http://clicks.lideedujour.fr/cl/702787234=
+/841595/276672/18/0aq0a32V5V57gBP3cWJBVBh7so8Qt9m5MKQA.htm"><img src=3D"htt=
+p://images.lideedujour.fr/20160707/PhZBUqOtD4K/GnudDq_1.jpg" border=3D"0" w=
+idth=3D"94" height=3D"51" alt=3D"-35%" style=3D"display: block;" /></a></td=
+>
+  </tr>
+  <tr>
+  <td height=3D"15" style=3D" ">=C2=A0</td>
+  </tr>
+  <tr>
+  <td style=3D"font-family: Arial, Helvetica, sans-serif; font-size: 13px; =
+line-height: 16px; color: #395362; text-align: center; text-transform: uppe=
+rcase; font-weight: bold;"><a href=3D"http://clicks.lideedujour.fr/cl/70278=
+7234/841595/276672/19/0aq0a32V5V57gBP3cWJBVBh7so8Qt9m5MKQA.htm" target=3D"_=
+blank" style=3D"font-family: Arial, Helvetica, sans-serif; font-size: 13px;=
+ line-height: 16px; color: #395362; text-align: center; text-transform: upp=
+ercase; font-weight: bold; text-decoration: none;">Subvention ANAH</a></td>
+  </tr>
+  </table></center>
+  </td>
+  </tr>
+  </table></center>
+  <center><table width=3D"160" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0" align=3D"right" style=3D"border-collapse: collapse;  ">
+  <tr>
+  <td>
+  <center><table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0" style=3D"border-collapse: collapse;  ">
+  <tr>
+  <td align=3D"center"><a href=3D"http://clicks.lideedujour.fr/cl/702787234=
+/841595/276672/20/0aq0a32V5V57gBP3cWJBVBh7so8Qt9m5MKQA.htm"><img src=3D"htt=
+p://images.lideedujour.fr/20160707/PhZBUqOtD4K/GnudDq_2.jpg" border=3D"0" w=
+idth=3D"94" height=3D"51" alt=3D"-10%" style=3D"display: block;" /></a></td=
+>
+  </tr>
+  <tr>
+  <td height=3D"15" style=3D" ">=C2=A0</td>
+  </tr>
+  <tr>
+  <td style=3D"font-family: Arial, Helvetica, sans-serif; font-size: 13px; =
+line-height: 16px; color: #395362; text-align: center; text-transform: uppe=
+rcase; font-weight: bold;"><a href=3D"http://clicks.lideedujour.fr/cl/70278=
+7234/841595/276672/21/0aq0a32V5V57gBP3cWJBVBh7so8Qt9m5MKQA.htm" target=3D"_=
+blank" style=3D"font-family: Arial, Helvetica, sans-serif; font-size: 13px;=
+ line-height: 16px; color: #395362; text-align: center; text-transform: upp=
+ercase; font-weight: bold; text-decoration: none;">Prime Habiter Mieux</a><=
+/td>
+  </tr>
+  </table></center>
+  </td>
+  </tr>
+  </table></center>
+  </td>
+  </tr>
+  </table></center>
+  <center><table width=3D"130" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0" align=3D"right" style=3D"border-collapse: collapse;  ">
+  <tr>
+  <td>
+  <center><table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0" style=3D"border-collapse: collapse;  ">
+  <tr>
+  <td align=3D"center"><a href=3D"http://clicks.lideedujour.fr/cl/702787234=
+/841595/276672/22/0aq0a32V5V57gBP3cWJBVBh7so8Qt9m5MKQA.htm"><img src=3D"htt=
+p://images.lideedujour.fr/20160707/PhZBUqOtD4K/GnudDq_3.jpg" border=3D"0" w=
+idth=3D"94" height=3D"51" alt=3D"-35%" style=3D"display: block;" /></a></td=
+>
+  </tr>
+  <tr>
+  <td height=3D"15" style=3D" ">=C2=A0</td>
+  </tr>
+  <tr>
+  <td style=3D"font-family: Arial, Helvetica, sans-serif; font-size: 13px; =
+line-height: 16px; color: #395362; text-align: center; text-transform: uppe=
+rcase; font-weight: bold;"><a href=3D"http://clicks.lideedujour.fr/cl/70278=
+7234/841595/276672/23/0aq0a32V5V57gBP3cWJBVBh7so8Qt9m5MKQA.htm" target=3D"_=
+blank" style=3D"font-family: Arial, Helvetica, sans-serif; font-size: 13px;=
+ line-height: 16px; color: #395362; text-align: center; text-transform: upp=
+ercase; font-weight: bold; text-decoration: none;">Cr=C3=A9dit d'imp=C3=
+=B4t</a></td>
+  </tr>
+  </table></center>
+  </td>
+  </tr>
+  </table></center>
+  </td>
+  <td width=3D"30">=C2=A0</td>
+  </tr>
+  </table></center>
+  </td>
+  </tr>
+  <tr>
+  <td height=3D"10" style=3D" ">=C2=A0</td>
+  </tr>
+  </table></center>
+  </td>
+  <td width=3D"1" style=3D"background-color: #E8E8E8; "></td>
+  </tr>
+  </table></center>
+  </td>
+</tr>
+<tr>
+</tr>
+<tr>
+<td height=3D"21">=C2=A0</td>
+</tr>
+</table></center>
+</td>
+</tr>
+</table></center>
+</td>
+</tr>
+</table></center><img class=3D"img-cf" src=3D"http://tkgrr21.com/display_c(=
+733)-s(991)-m(2338)-e(7796)" alt=3D"... Isolation des" style=3D"border: 0; =
+outline: none;" /></td>
+</tr>
+</table></center>
+
+
+<img src=3D"http://clicks.lideedujour.fr/op/702787234/841595.gif?t=3D146799=
+6432" height=3D"1" width=3D"1" alt=3D"" border=3D"0" />
+<center><table align=3D"center" style=3D"text-align:center; font-family: Ar=
+ial; font-size: 12px; color: grey;">
+<tr><td style=3D"text-align:center; font-family: Arial; font-size: 12px; co=
+lor: grey;">
+<span style=3D"font-family: Arial;">Vous recevez ce message car vous =C3=
+=AAtes membre de Les L Idee Du Jour.<br /><br />
+Vous pouvez exercer votre droit d'acc=C3=A8s et de suppression
+=C3=A0 tout moment en nous contactant =C3=A0 : info@lideedujour.fr,
+ou en nous =C3=A9crivant =C3=A0 L Idee Du Jour - Av Franc=C3=A9sc Camb=
+=C3=B3 21, 5=C2=BA - 08003 Barcelona.
+<br /><br />
+<a href=3D"http://clicks.lideedujour.fr/u/702787234/143c603/2gGN6C82qQbmGuD=
+9hFNFqnjCbnYLCidKGeqo.html" title=3D"d=C3=A9sabonner" style=3D"color:#00000=
+0; font-weight:bold;">Suivez ce lien pour vous d=C3=A9sabonner</a>.=20
+<a href=3D"http://www.lideedujour.fr/privacy.html" style=3D"color:#000000; =
+font-weight:bold;">Politique de confidentialit=C3=A9</a>.
+</span></td></tr></table></center><br /></body></html>
+
+--1da9f4ef049473c519611bdf63a7119f--

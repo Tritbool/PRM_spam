@@ -1,0 +1,823 @@
+Return-Path: <contact@marc-louis.fr>
+Received: from mailimailo.univ-rennes1.fr ([unix socket])
+	 by mailimailo.univ-rennes1.fr (Cyrus v2.3.16-Fedora-RPM-2.3.16-6.el6_2.5) with LMTPA;
+	 Fri, 19 Feb 2016 08:55:52 +0100
+X-Sieve: CMU Sieve 2.3
+Received: from mailout1.univ-rennes1.fr (mailout1.univ-rennes1.fr [129.20.128.162])
+	by mailimailo.univ-rennes1.fr (Postfix) with ESMTP id AA4EE26A126A
+	for <resp-m2-miage@univ-rennes1.fr>; Fri, 19 Feb 2016 08:55:52 +0100 (CET)
+Received: from vmmailin.univ-rennes1.fr (vmmailin.univ-rennes1.fr [129.20.128.133])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id A7B7060233
+	for <resp-m2-miage@univ-rennes1.fr>; Fri, 19 Feb 2016 08:55:52 +0100 (CET)
+Received: from mxb2-2.relay.renater.fr (mxb2-2.relay.renater.fr [194.214.200.9])
+	by vmmailin.univ-rennes1.fr (Postfix) with ESMTP id A03F720033
+	for <resp-m2-miage@univ-rennes1.fr>; Fri, 19 Feb 2016 08:55:52 +0100 (CET)
+Received: from mail.marc-louis.fr (mail.marc-louis.fr [37.187.220.200])
+	by mxb2-2.relay.renater.fr (asm) with ESMTP id 548FA600662
+	for <resp-m2-miage@univ-rennes1.fr>; Fri, 19 Feb 2016 08:55:52 +0100 (CET)
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns;
+        d=marc-louis.fr; s=marc-louis;
+        h=received:list-unsubscribe:list-id:precedence:message-id:from:to
+          :subject:date:mime-version:content-type;
+        b=hVY5K3ZKPkV7hy7ZZekPP/IFLrjUbDANuE/9tdwLR+AL4JnbVnl65FFEikVOJLD84
+          JtCLTp6bityaAOqa0U64rMNFMcF2cyTM50T32hTuTr1vuQGvjBKo0/ctlfa3A7KBj
+          PZyOFNBSFdcKAU8LfBwYjhSyMIXjWPubu44PjT93s=
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=marc-louis.fr; s=marc-louis;
+        h=content-type:mime-version:date:subject:to:from:message-id
+          :precedence:list-id:list-unsubscribe;
+        bh=Vjw1q0K1WPmsHnGY5faFEh45vfN2WLaNVEdKGr6YYts=;
+        b=vqMAu0Xr4hsetnwZBEdWonWIxY0fKC+FWZmD0GQH6fbETL8Su+aDmqagy5IOh+swU
+          ev8JoPS20TCRbTTqIFpGItv6Z5LOvSNdHgJg3TAwGEhFIcDYUuO3CYxE10x3wU6iB
+          gzJac8QJYejF7Avgz+Bfnh4bbhwQi1CvQl28HOv04=
+Received: from ns3311973.local (mail.jean-martin.fr [5.135.164.18]) by mail.marc-louis.fr with SMTP;
+   Fri, 19 Feb 2016 08:37:30 +0100
+List-Unsubscribe: <mailto:contact@marc-louis.fr?subject=unsubscribe>
+List-Id: contact.marc-louis.fr.72150
+Precedence: bulk
+Message-ID: <b7881b7681e473a19362942500186076@marc-louis.fr>
+From: "Loi Pinel 2016" <contact@marc-louis.fr>
+To: <resp-m2-miage@univ-rennes1.fr>
+Subject: =?windows-1252?B?TG9pIFBpbmVsIDogQXJuYXF1ZSA/IC0gQ29tcHJlbmRyZSBs?=
+	=?windows-1252?B?ZXMgcGnoZ2VzPw==?=
+Date: Fri, 19 Feb 2016 08:37:29 +0100
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="205f01ccbdf20207c0b0e0d79e017"
+X-UCE-Status: YES
+X-UCE-Type: MCE
+X-Original-Source-IP: 37.187.220.200
+X-Bizanga: IMP - mxb2-2.relay.renater.fr
+X-Renater-SpamState: 11
+X-Renater-SpamScore: 17
+X-Renater-SpamCause: gggruggvucftvghtrhhoucdtuddrfeekjedrgeelgdduudegucetufdoteggodetrfdotffvucfrrhhofhhilhgvmecutffgpfetvffgtfdpggftfghnshhusghstghrihgsvgenuceurghilhhouhhtmecufedttdenucdnofetkffnkffpifculddujedmnecujfgurhepjfejphfkhffvufffgggtsegrtdhjredttdehnecuhfhrohhmpedfnfhoihcurfhinhgvlhcuvddtudeifdcuoegtohhnthgrtghtsehmrghrtgdqlhhouhhishdrfhhrqeenucffohhmrghinhepjhgvrghnqdhmrghrthhinhdrfhhrnecukfhppeefjedrudekjedrvddvtddrvddttddphedrudefhedrudeigedrudeknecurfgrrhgrmhepmhhouggvpehsmhhtphdphhgvlhhopehmrghilhdrmhgrrhgtqdhlohhuihhsrdhfrhdpihhnvghtpeefjedrudekjedrvddvtddrvddttddpmhgrihhlfhhrohhmpegtohhnthgrtghtsehmrghrtgdqlhhouhhishdrfhhrpdhrtghpthhtoheprhgvshhpqdhmvddqmhhirghgvgesuhhnihhvqdhrvghnnhgvshdurdhfrh 
+X-Renater-ServerName: mxb2-2.relay.renater.fr
+
+
+--205f01ccbdf20207c0b0e0d79e017
+Content-Type: text/plain;
+	charset="windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+
+
+=20
+=20
+=20
+=20
+=20
+ =20
+=20
+Ma-News-Immo=20
+=20
+		=20
+
+			body {
+				text-size-adjust: none;
+				-webkit-text-size-adjust: none;
+				-ms-text-size-adjust: none;
+			}
+			.container {
+				max-width:600px!important;
+				display:block!important;
+				margin:0 auto!important; /* centrer */
+				clear:both!important;
+			  }
+			 .red {
+				color:#e01e3b!important;
+			  }
+			  .mention{
+				font-family:Gotham, 'Helvetica Neue', Helvetica, Arial, =
+sans-serif!important;
+				font-size:12px!important;
+				color:#727272!important;
+			  }
+			  .solutions{
+				font-family:Gotham, 'Helvetica Neue', Helvetica, Arial, =
+sans-serif!important;
+				font-size:15px!important;
+				color:#2f689f!important;
+				text-align:center!important;
+			  }
+			  .titre{
+				font-family:Gotham, 'Helvetica Neue', Helvetica, Arial, =
+sans-serif!important;
+				font-size:24px!important;
+				color:#ffffff!important;
+				background-color:#2f689f!important;
+				text-align:center!important;
+			  }
+         =20
+=20
+
+
+
+ =20
+ =20
+    =20
+   =20
+     =20
+       =20
+       =20
+           =20
+          Si vous ne pouvez pas voir  =20
+                                                                           =
+     =20
+                         correctement ce mail,              cliquez=20
+                                                                           =
+     =20
+                          ici=20
+           =20
+
+       =20
+          =20
+
+       =20
+          DEVENEZ PROPRI=C9TAIRE GR=C2CE =C0 VOS IMP=D4TS=20
+
+       =20
+          =20
+
+       =20
+           =20
+           =20
+          =20
+           =20
+           =20
+
+       =20
+          =20
+
+       =20
+           =20
+         =20
+            Il=20
+                                                                           =
+     =20
+                                                                           =
+     =20
+                  EXISTE                         DES                       =
+     =20
+                                            SOLUTIONS
+POUR                                   =20
+                                                                           =
+     =20
+                            GOMMER                         VOTRE           =
+     =20
+                                IMPOSITION                               =20
+                             LE SECRET             R=C9SIDE DANS           =
+       =20
+                                                                           =
+  =20
+            L'ANTICIPATION                                     ET LE CHOIX =
+DES  =20
+                                                                     =20
+            PARTENAIRES QUI VOUS                                           =
+     =20
+                                    PERMETTRONT                           =
+D'OPTIMISER            =20
+                                                                        =
+VOTRE   =20
+                     FISCALIT=C9                                           =
+       =20
+                    !=20
+           =20
+
+       =20
+          =20
+
+       =20
+         =20
+            Qu'est=20
+                                                                           =
+     =20
+                                                                           =
+     =20
+                  ce que                         la Loi Pinel              =
+     =20
+                 ?
+
+            Le=20
+                                                                           =
+     =20
+                                                                           =
+     =20
+                  nouveau                         dispositif               =
+     =20
+                Pinel vous                                     permet      =
+     =20
+                                     d'effacer vos                         =
+     =20
+                              imp=F4ts sur 6, 9                            =
+       =20
+                                     ou 12 ans et                          =
+     =20
+                                         ainsi d=E9duire jusqu'=E0         =
+    21%  =20
+                                                                      =
+maximum du=20
+            prix de                         revient                        =
+ de  =20
+                                                          votre            =
+     =20
+                   investissement                                          =
+     =20
+                                     locatif (dans la limite               =
+     =20
+                d'un                                                 prix  =
+     =20
+                             plafond             d'achat fix=E9            =
+       =20
+                 =E0                         5             500=80/m2       =
+         =20
+                                                                    et =
+d'un=20
+            montant total                         d'investissement         =
+   =20
+            de                                                 300         =
+     =20
+                                                                           =
+     =20
+             000=80/an) soit 36 000 =80 de                         =
+r=E9duction        =20
+                            d'imp=F4ts             sur 6             ans,  =
+       =20
+               54             000 =80                                      =
+       =20
+                                                                       sur =
+9 ans=20
+            et             jusqu'=E0 63 000                                =
+       =20
+            =80              sur             12 ans en                     =
+   =20
+            contrepartie                                                   =
+     =20
+                            d'un                                           =
+     =20
+                        engagement de location de                          =
+     =20
+                 la             m=EAme                                    =
+=20
+            dur=E9e=2E
+=20
+
+       =20
+         =20
+           =20
+            =20
+            Mentions legales : soucieux de rendre cette zone=20
+                                                                           =
+     =20
+                                                   compatible avec l       =
+     =20
+            ensemble des                         lecteurs de               =
+     =20
+                messageries,                                     nous =
+avons     =20
+                                           deliberemment                   =
+     =20
+                        supprime les             accents et                =
+     =20
+                           caracteres speciaux.                         ce =
+mail=20
+            a                                     caractere            =20
+            commercial                                     est            =
+=20
+            conforme a la             legislation en                       =
+     =20
+                                vigueur et aux                             =
+     =20
+                          deliberations             de                     =
+     =20
+                      la CNIL sur la             prospection par courrier  =
+     =20
+                                                                           =
+     =20
+                    =E9lectronique.             Ce courriel vous a ete     =
+       =20
+                        envoye via les             systemes             et =
+     =20
+                                                                           =
+  =20
+            technologies de notre             societe. votre               =
+     =20
+                adresse                         email et toutes            =
+     =20
+                   les                                                 =
+donnees=20
+            sy             rapportant n                         ont en =
+aucun cas=20
+            ete                                                 transmises =
+     =20
+                  a l                                                      =
+     =20
+                         annonceur=2E
+            =20
+            Dispositions relatives aux cookies et autres    =20
+                                                                           =
+     =20
+                                   traceurs             publicitaires :    =
+     =20
+               nous                         analysons le                   =
+     =20
+            comportement des                                               =
+     =20
+                                destinataires de nos                       =
+ =20
+            messages             : ces analyses             nous           =
+     =20
+                                permettent de vous                         =
+     =20
+                                          offrir une             =
+exp=E9rience=20
+            am=E9lior=E9e dans                                             =
+    le=20
+            ciblage des                                     offres que     =
+     =20
+              vous                         recevez par             notre   =
+     =20
+                                                                           =
+=20
+            interm=E9diaire : vous pouvez nous aider a             mieux   =
+       =20
+                          vous                                             =
+     =20
+                                  connaitre, mais si vous consid=E9rez ce  =
+       =20
+               message                                     comme           =
+     =20
+                                                                    =
+ind=E9sirable,=20
+            vous avez la             possibilite d             exercer =
+votre    =20
+                                            droit d                        =
+     =20
+                                           opposition                      =
+  =20
+            (attention : le             desabonnement est                  =
+     =20
+                                     irreversible, il s                    =
+     =20
+                                               effectue en                 =
+     =20
+              un clic sans                         renseigner votre =
+adresse=20
+            email,                                                         =
+     =20
+                      l emetteur             ne pourra plus vous           =
+     =20
+                                contacter suite a votre                    =
+     =20
+                                                           demande). =
+Toute=20
+            demande                         de             desabonnement   =
+     =20
+                est                                     prise en           =
+ =20
+            compte dans un                                     d=E9lai     =
+       =20
+            maximum de 24                                                 =
+heures=20
+            suivant                                     reception de la    =
+     =20
+                           demande=2E
+En=20
+                                                                           =
+     =20
+                                       suivant             ce lien de      =
+     =20
+                                     d=E9sabonnement                   =20
+                                                                =20
+         
+ 
+     
+
+
+--205f01ccbdf20207c0b0e0d79e017
+Content-Type: text/html;
+	charset="windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">=20
+<META http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">=20
+<META http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">=20
+<META http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">=20
+<META http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">=20
+<META http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge"> =20
+<META http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">=20
+<TITLE>Ma-News-Immo</TITLE>=20
+<META http-equiv=3D"Content-Type" content=3D"text/html; =
+charset=3Dwindows-1252">=20
+<META name=3D"viewport" content=3D"width=3Ddevice-width">		=20
+<STYLE type=3D"text/css">
+			body {
+				text-size-adjust: none;
+				-webkit-text-size-adjust: none;
+				-ms-text-size-adjust: none;
+			}
+			.container {
+				max-width:600px!important;
+				display:block!important;
+				margin:0 auto!important; /* centrer */
+				clear:both!important;
+			  }
+			 .red {
+				color:#e01e3b!important;
+			  }
+			  .mention{
+				font-family:Gotham, 'Helvetica Neue', Helvetica, Arial, =
+sans-serif!important;
+				font-size:12px!important;
+				color:#727272!important;
+			  }
+			  .solutions{
+				font-family:Gotham, 'Helvetica Neue', Helvetica, Arial, =
+sans-serif!important;
+				font-size:15px!important;
+				color:#2f689f!important;
+				text-align:center!important;
+			  }
+			  .titre{
+				font-family:Gotham, 'Helvetica Neue', Helvetica, Arial, =
+sans-serif!important;
+				font-size:24px!important;
+				color:#ffffff!important;
+				background-color:#2f689f!important;
+				text-align:center!important;
+			  }</STYLE>
+         =20
+<META name=3D"GENERATOR" content=3D"MSHTML 10.00.9200.17606"></HEAD>=20
+<BODY topmargin=3D"0" leftmargin=3D"0" style=3D"font-family: Calibri;"=20
+contenteditable=3D"false" spellcheck=3D"true" bgcolor=3D"#ffffff" =
+marginwidth=3D"0"=20
+marginheight=3D"0">
+<CENTER>
+<TABLE>
+  <TBODY>
+  <TR>
+    <TD></TD>
+    <TD align=3D"center" class=3D"container">
+      <TABLE width=3D"600" align=3D"center" id=3D"Tableau_01" border=3D"0" =
+cellspacing=3D"0"=20
+      cellpadding=3D"0">
+        <TBODY>
+        <TR>
+          <TD width=3D"13" height=3D"1051" rowspan=3D"9">&nbsp;</TD>
+          <TD width=3D"572" height=3D"11" colspan=3D"5">Si vous ne pouvez =
+pas voir  =20
+                                                                           =
+     =20
+                         correctement ce mail,              <A =
+name=3D"coc_trackinglink"=20
+            id=3D"coc_link_1" =
+href=3D"http://www.jean-martin.fr/Link_Manager/LinkFollow.aspx?ContactID=3D=
+2273364&amp;FieldID_BOOL=3D156&amp;FieldID_DATE=3D175&amp;Database=3DWC1&am=
+p;TargetPage=3D69&amp;MailID=3D72150">cliquez=20
+                                                                           =
+     =20
+                          ici</A></TD>
+          <TD width=3D"15" height=3D"1051" rowspan=3D"9">&nbsp;</TD></TR>
+        <TR>
+          <TD width=3D"572" height=3D"156" colspan=3D"5"><A =
+name=3D"coc_trackinglink"=20
+            id=3D"coc_link_2" =
+href=3D"http://www.jean-martin.fr/Link_Manager/LinkFollow.aspx?ContactID=3D=
+2273364&amp;FieldID_BOOL=3D156&amp;FieldID_DATE=3D175&amp;Database=3DWC1&am=
+p;TargetPage=3D28&amp;MailID=3D72150"><IMG=20
+            width=3D"572" height=3D"156" id=3D"Kit_pinelOK_04" =
+style=3D"display: block;"=20
+            alt=3D"ma news immo" =
+src=3D"http://newsletter.reflexepatrimoine.com/?id_source=3D1868&amp;id_cam=
+pagne=3D6565&amp;idAction=3D1&amp;url=3Dhttp://reflexenews.com/kit/ed/mni_l=
+oi-pi/Kit_pinelOK_04.jpg"></A></TD></TR>
+        <TR>
+          <TD width=3D"572" height=3D"58" class=3D"titre" =
+style=3D'text-align: center; color: rgb(255, 255, 255); font-family: =
+Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 24px; =
+background-color: rgb(47, 104, 159);'=20
+          colspan=3D"5">DEVENEZ <B>PROPRI=C9TAIRE GR=C2CE =C0 VOS =
+IMP=D4TS</B></TD></TR>
+        <TR>
+          <TD width=3D"572" height=3D"328" colspan=3D"5"><A =
+name=3D"coc_trackinglink"=20
+            id=3D"coc_link_3" =
+href=3D"http://www.jean-martin.fr/Link_Manager/LinkFollow.aspx?ContactID=3D=
+2273364&amp;FieldID_BOOL=3D156&amp;FieldID_DATE=3D175&amp;Database=3DWC1&am=
+p;TargetPage=3D28&amp;MailID=3D72150"><IMG=20
+            width=3D"572" height=3D"328" id=3D"Kit_pinelOK_06" =
+style=3D"display: block;"=20
+            alt=3D"ma news immo" =
+src=3D"http://newsletter.reflexepatrimoine.com/?id_source=3D1868&amp;id_cam=
+pagne=3D6565&amp;idAction=3D1&amp;url=3Dhttp://reflexenews.com/kit/ed/mni_l=
+oi-pi/Kit_pinelOK_06.jpg"></A></TD></TR>
+        <TR>
+          <TD width=3D"28" height=3D"108">&nbsp;</TD>
+          <TD width=3D"33" height=3D"108">&nbsp;</TD>
+          <TD width=3D"452" height=3D"108"><A name=3D"coc_trackinglink" =
+id=3D"coc_link_4"=20
+            =
+href=3D"http://www.jean-martin.fr/Link_Manager/LinkFollow.aspx?ContactID=3D=
+2273364&amp;FieldID_BOOL=3D156&amp;FieldID_DATE=3D175&amp;Database=3DWC1&am=
+p;TargetPage=3D28&amp;MailID=3D72150"><IMG=20
+            width=3D"452" height=3D"108" id=3D"Kit_pinelOK_09" =
+style=3D"display: block;"=20
+            alt=3D"ma news immo" =
+src=3D"http://newsletter.reflexepatrimoine.com/?id_source=3D1868&amp;id_cam=
+pagne=3D6565&amp;idAction=3D1&amp;url=3Dhttp://reflexenews.com/kit/ed/mni_l=
+oi-pi/Kit_pinelOK_09.jpg"></A></TD>
+          <TD width=3D"31" height=3D"108">&nbsp;</TD>
+          <TD width=3D"28" height=3D"108">&nbsp;</TD></TR>
+        <TR>
+          <TD width=3D"572" height=3D"21" colspan=3D"5"><IMG width=3D"1" =
+height=3D"1"=20
+            alt=3D'name=3D"coc_imagetracking"' =
+src=3D"http://www.jean-martin.fr/Link_Manager/OpenFollow.aspx?ContactID=3D2=
+273364&amp;FieldID_BOOL=3D155&amp;FieldID_DATE=3D178&amp;Database=3DWC1&amp=
+;MailID=3D72150"></TD></TR>
+        <TR>
+          <TD width=3D"28" height=3D"120">&nbsp;</TD>
+          <TD width=3D"516" height=3D"120" align=3D"center" =
+class=3D"solutions" style=3D'text-align: center; color: rgb(47, 104, 159); =
+font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif; =
+font-size: 15px;'=20
+          colspan=3D"3">
+            <P style=3D'text-align: center; color: rgb(47, 104, 159); =
+font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif; =
+font-size: 15px;'><B=20
+            style=3D'text-align: center; color: rgb(47, 104, 159); =
+font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif; =
+font-size: 24px;'>Il=20
+                                                                           =
+     =20
+                                                                           =
+     =20
+                  EXISTE                         DES                       =
+     =20
+                                            SOLUTIONS</B></P>POUR<SPAN =
+class=3D"red"=20
+            style=3D"color: rgb(224, 30, 59);">                            =
+       =20
+                                                                           =
+     =20
+                            GOMMER                         VOTRE           =
+     =20
+                                IMPOSITION</SPAN>                          =
+     =20
+                             LE SECRET             R=C9SIDE DANS           =
+       =20
+                                                                           =
+  =20
+            L'ANTICIPATION                                     ET LE CHOIX =
+DES  =20
+                                                                     =20
+            PARTENAIRES QUI VOUS                                           =
+     =20
+                                    PERMETTRONT                           =
+<SPAN=20
+            class=3D"red" style=3D"color: rgb(224, 30, 59);">D'OPTIMISER   =
+         =20
+                                                                        =
+VOTRE   =20
+                     FISCALIT=C9                                           =
+       =20
+                    !</SPAN></TD>
+          <TD width=3D"28" height=3D"120">&nbsp;</TD></TR>
+        <TR>
+          <TD width=3D"572" height=3D"156" colspan=3D"5"><A =
+name=3D"coc_trackinglink"=20
+            id=3D"coc_link_5" =
+href=3D"http://www.jean-martin.fr/Link_Manager/LinkFollow.aspx?ContactID=3D=
+2273364&amp;FieldID_BOOL=3D156&amp;FieldID_DATE=3D175&amp;Database=3DWC1&am=
+p;TargetPage=3D28&amp;MailID=3D72150"><IMG=20
+            width=3D"572" height=3D"156" id=3D"Kit_pinelOK_16" =
+style=3D"display: block;"=20
+            alt=3D"ma news immo" =
+src=3D"http://newsletter.reflexepatrimoine.com/?id_source=3D1868&amp;id_cam=
+pagne=3D6565&amp;idAction=3D1&amp;url=3Dhttp://reflexenews.com/kit/ed/mni_l=
+oi-pi/Kit_pinelOK_16.jpg"></A></TD></TR>
+        <TR>
+          <TD width=3D"572" height=3D"93" class=3D"mention" =
+style=3D'color: rgb(114, 114, 114); font-family: Gotham, "Helvetica Neue", =
+Helvetica, Arial, sans-serif; font-size: 12px;'=20
+          colspan=3D"5">
+            <P style=3D'color: rgb(114, 114, 114); font-family: Gotham, =
+"Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 12px;'>Qu'est=20
+                                                                           =
+     =20
+                                                                           =
+     =20
+                  ce que                         la Loi Pinel              =
+     =20
+                 ?</P>
+            <P style=3D'color: rgb(114, 114, 114); font-family: Gotham, =
+"Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 12px;'>Le=20
+                                                                           =
+     =20
+                                                                           =
+     =20
+                  nouveau                         dispositif               =
+     =20
+                Pinel vous                                     permet      =
+     =20
+                                     d'effacer vos                         =
+     =20
+                              imp=F4ts sur 6, 9                            =
+       =20
+                                     ou 12 ans et                          =
+     =20
+                                         ainsi d=E9duire jusqu'=E0         =
+    21%  =20
+                                                                      =
+maximum du=20
+            prix de                         revient                        =
+ de  =20
+                                                          votre            =
+     =20
+                   investissement                                          =
+     =20
+                                     locatif (dans la limite               =
+     =20
+                d'un                                                 prix  =
+     =20
+                             plafond             d'achat fix=E9            =
+       =20
+                 =E0                         5             500=80/m2       =
+         =20
+                                                                    et =
+d'un=20
+            montant total                         d'investissement         =
+   =20
+            de                                                 300         =
+     =20
+                                                                           =
+     =20
+             000=80/an) soit 36 000 =80 de                         =
+r=E9duction        =20
+                            d'imp=F4ts             sur 6             ans,  =
+       =20
+               54             000 =80                                      =
+       =20
+                                                                       sur =
+9 ans=20
+            et             jusqu'=E0 63 000                                =
+       =20
+            =80              sur             12 ans en                     =
+   =20
+            contrepartie                                                   =
+     =20
+                            d'un                                           =
+     =20
+                        engagement de location de                          =
+     =20
+                 la             m=EAme                                    =
+=20
+            dur=E9e.</P></TD></TR>
+        <TR>
+          <TD width=3D"600" height=3D"71" colspan=3D"7">
+            <DIV><A name=3D"coc_trackinglink" id=3D"coc_link_6" =
+href=3D"http://www.jean-martin.fr/Link_Manager/LinkFollow.aspx?ContactID=3D=
+2273364&amp;FieldID_BOOL=3D156&amp;FieldID_DATE=3D175&amp;Database=3DWC1&am=
+p;TargetPage=3D28&amp;MailID=3D72150"><IMG=20
+            width=3D"600" height=3D"71" id=3D"Kit_pinelOK_18" =
+style=3D"display: block;"=20
+            alt=3D"ma news immo" =
+src=3D"http://newsletter.reflexepatrimoine.com/?id_source=3D1868&amp;id_cam=
+pagne=3D6565&amp;idAction=3D1&amp;url=3Dhttp://reflexenews.com/kit/ed/mni_l=
+oi-pi/Kit_pinelOK_18.jpg"></A></DIV>
+            <DIV>&nbsp;</DIV>
+            <DIV><FONT size=3D"1">Mentions legales : soucieux de rendre =
+cette zone=20
+                                                                           =
+     =20
+                                                   compatible avec l       =
+     =20
+            ensemble des                         lecteurs de               =
+     =20
+                messageries,                                     nous =
+avons     =20
+                                           deliberemment                   =
+     =20
+                        supprime les             accents et                =
+     =20
+                           caracteres speciaux.                         ce =
+mail=20
+            a                                     caractere            =20
+            commercial                                     est            =
+=20
+            conforme a la             legislation en                       =
+     =20
+                                vigueur et aux                             =
+     =20
+                          deliberations             de                     =
+     =20
+                      la CNIL sur la             prospection par courrier  =
+     =20
+                                                                           =
+     =20
+                    =E9lectronique.             Ce courriel vous a ete     =
+       =20
+                        envoye via les             systemes             et =
+     =20
+                                                                           =
+  =20
+            technologies de notre             societe. votre               =
+     =20
+                adresse                         email et toutes            =
+     =20
+                   les                                                 =
+donnees=20
+            sy             rapportant n                         ont en =
+aucun cas=20
+            ete                                                 transmises =
+     =20
+                  a l                                                      =
+     =20
+                         annonceur.</FONT></DIV>
+            <DIV><FONT size=3D"1"></FONT>&nbsp;</DIV>
+            <DIV><FONT size=3D"1">Dispositions relatives aux cookies et =
+autres    =20
+                                                                           =
+     =20
+                                   traceurs             publicitaires :    =
+     =20
+               nous                         analysons le                   =
+     =20
+            comportement des                                               =
+     =20
+                                destinataires de nos                       =
+ =20
+            messages             : ces analyses             nous           =
+     =20
+                                permettent de vous                         =
+     =20
+                                          offrir une             =
+exp=E9rience=20
+            am=E9lior=E9e dans                                             =
+    le=20
+            ciblage des                                     offres que     =
+     =20
+              vous                         recevez par             notre   =
+     =20
+                                                                           =
+=20
+            interm=E9diaire : vous pouvez nous aider a             mieux   =
+       =20
+                          vous                                             =
+     =20
+                                  connaitre, mais si vous consid=E9rez ce  =
+       =20
+               message                                     comme           =
+     =20
+                                                                    =
+ind=E9sirable,=20
+            vous avez la             possibilite d             exercer =
+votre    =20
+                                            droit d                        =
+     =20
+                                           opposition                      =
+  =20
+            (attention : le             desabonnement est                  =
+     =20
+                                     irreversible, il s                    =
+     =20
+                                               effectue en                 =
+     =20
+              un clic sans                         renseigner votre =
+adresse=20
+            email,                                                         =
+     =20
+                      l emetteur             ne pourra plus vous           =
+     =20
+                                contacter suite a votre                    =
+     =20
+                                                           demande). =
+Toute=20
+            demande                         de             desabonnement   =
+     =20
+                est                                     prise en           =
+ =20
+            compte dans un                                     d=E9lai     =
+       =20
+            maximum de 24                                                 =
+heures=20
+            suivant                                     reception de la    =
+     =20
+                           demande.<BR><A id=3D"coc_link_7" =
+href=3D"http://www.jean-martin.fr/Link_Manager/LinkFollow.aspx?ContactID=3D=
+2273364&amp;FieldID_BOOL=3D-67&amp;FieldID_DATE=3D176&amp;Database=3DWC1&am=
+p;TargetPage=3D24&amp;MailID=3D72150">En=20
+                                                                           =
+     =20
+                                       suivant             ce lien de      =
+     =20
+                                     d=E9sabonnement</A></FONT>            =
+       =20
+                                                                =20
+        </DIV></TD></TR></TBODY></TABLE></TD>
+    <TD></TD></TR></TBODY></TABLE></CENTER></BODY></HTML>
+
+--205f01ccbdf20207c0b0e0d79e017--
+
+

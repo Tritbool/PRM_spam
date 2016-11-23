@@ -1,0 +1,471 @@
+Return-Path: <bounce-314346-a4a422ee85-146121678@lideedujour.fr>
+Received: from mailimailo.univ-rennes1.fr ([unix socket])
+	 by mailimailo.univ-rennes1.fr (Cyrus v2.3.16-Fedora-RPM-2.3.16-6.el6_2.5) with LMTPA;
+	 Sun, 04 Sep 2016 10:59:14 +0200
+X-Sieve: CMU Sieve 2.3
+Received: from mailout2.univ-rennes1.fr (mailout2.univ-rennes1.fr [129.20.129.120])
+	by mailimailo.univ-rennes1.fr (Postfix) with ESMTP id A255252
+	for <resp-m2-miage@univ-rennes1.fr>; Sun,  4 Sep 2016 10:59:14 +0200 (CEST)
+Received: from localhost (vmscanmail.univ-rennes1.fr [129.20.128.134])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id 9FAC9600CA
+	for <resp-m2-miage@univ-rennes1.fr>; Sun,  4 Sep 2016 10:59:14 +0200 (CEST)
+X-Virus-Scanned: amavisd-new at univ-rennes1.fr
+Received: from mailout2.univ-rennes1.fr ([129.20.129.120])
+	by localhost (vmscanmail.univ-rennes1.frm [129.20.128.134]) (amavisd-new, port 10026)
+	with ESMTP id Hy0UITT09B-i for <resp-m2-miage@univ-rennes1.fr>;
+	Sun,  4 Sep 2016 10:59:14 +0200 (CEST)
+Received: from vmmailin.univ-rennes1.fr (vmmailin.univ-rennes1.fr [129.20.128.133])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id 7A5D16003A
+	for <resp-m2-miage@univ-rennes1.fr>; Sun,  4 Sep 2016 10:59:14 +0200 (CEST)
+Received: from mxb2-1.relay.renater.fr (mxb2-1.relay.renater.fr [194.214.200.8])
+	by vmmailin.univ-rennes1.fr (Postfix) with ESMTP id 735E320033
+	for <resp-m2-miage@univ-rennes1.fr>; Sun,  4 Sep 2016 10:59:14 +0200 (CEST)
+Received: from er4.lideedujour.fr (er4.lideedujour.fr [188.213.62.191])
+	(using TLSv1.2 with cipher DHE-RSA-CAMELLIA256-SHA (256/256 bits))
+	(No client certificate requested)
+	by mxb2-1.relay.renater.fr (asm) with ESMTPS id 35B7660001A
+	for <resp-m2-miage@univ-rennes1.fr>; Sun,  4 Sep 2016 10:59:14 +0200 (CEST)
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=default; d=lideedujour.fr;
+ h=MIME-Version:From:Reply-To:List-Unsubscribe:Feedback-ID:Subject:Content-Type:To:Message-ID:Date; i=news@lideedujour.fr;
+ bh=paOoFNSwBta703/vj4nJl9MFWhs=;
+ b=nQsq8EfZYxoZp00+GnagyduPq6QzlBCnuld0ZBRpu4HUu9uLfkZHJQSaGKa+Tw2mAzVpkHsYw/jA
+   2oIYzaim1aHPlaWh8/6pUCwU+8Wt6lhiEHd7g6cMZCNfKf2bhAomIwU8vID/uXXm0oP0YAtHnVx3
+   EYL0jSK5M5vF+zisFpA=
+MIME-Version: 1.0
+Precedence: bulk
+From: "Immobilier entre particuliers - L Idee du Jour" <news@lideedujour.fr>
+Reply-To: "L Idee Du Jour" <info@lideedujour.fr>
+List-Unsubscribe: <http://clicks.lideedujour.fr/lu/702787234/c07a86c/314346.html>
+X-EMID: 1
+Feedback-ID: LEAD658
+Subject: =?UTF-8?B?VmVuZGV6IGRlIHBhcnRpY3VsaWVyIMOgIHBhcnRpY3VsaWVy?=
+Content-Type: multipart/alternative;
+ boundary=7519f8328f5c05cb1dd6894580b395e2
+To: resp-m2-miage@univ-rennes1.fr
+Message-ID: <0.0.1B9.B8C.1D2068A8EC33C26.0@er4.lideedujour.fr>
+Date: Sun, 4 Sep 2016 10:58:52 +0200
+X-UCE-Status: YES
+X-UCE-Type: MCE
+X-Original-Source-IP: 188.213.62.191
+X-Bizanga: IMP - mxb2-1.relay.renater.fr
+X-Renater-SpamState: 11
+X-Renater-SpamScore: 17
+X-Renater-SpamCause: gggruggvucftvghtrhhoucdtuddrfeeluddrheeigdefgeculddtuddrfeeltddrtddtmdcutefuodetggdotefrodftvfcurfhrohhfihhlvgemucftgffptefvgfftpdggtfgfnhhsuhgsshgtrhhisggvnecuuegrihhlohhuthemuceftddtnecundfotefknffkpffiucdludejmdenucfjughrpeggphfhrhfjufgtvffkffesrgdtreertddtjeenucfhrhhomhepfdfkmhhmohgsihhlihgvrhcuvghnthhrvgcuphgrrhhtihgtuhhlihgvrhhsucdqucfnucfkuggvvgcuughuucflohhurhdfuceonhgvfihssehlihguvggvughujhhouhhrrdhfrheqnecuffhomhgrihhnpehlihguvggvughujhhouhhrrdhfrhenucfkphepudekkedrvddufedriedvrdduledunecurfgrrhgrmhepmhhouggvpehsmhhtphdphhgvlhhopegvrhegrdhlihguvggvughujhhouhhrrdhfrhdpihhnvghtpedukeekrddvudefrdeivddrudeluddpmhgrihhlfhhrohhmpegsohhunhgtvgdqfedugeefgeeiqdgrgegrgedvvdgvvgekhedqudegieduvdduieejkeeslhhiuggvvgguuhhjohhurhdrfhhrpdhrtghpthhtoheprhgvshhpqdhmvddqmhhirghgvgesuhhnihhvqdhrvghnnhgvshdurdhfrh 
+X-Renater-ServerName: mxb2-1.relay.renater.fr
+
+
+--7519f8328f5c05cb1dd6894580b395e2
+Content-Type: text/plain; 
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Visualiser la version en ligne : http://clicks.lideedujour.fr/v/702787234/c=
+07a86c/WLxF08fR62lDabPUS28izKEmauqVgQ9Mz7fC.html
+Signaler comme courrier ind=C3=A9sirable : http://clicks.lideedujour.fr/u/7=
+02787234/c07a86c/WLxF08fR62lDabPUS28izKEmauqVgQ9Mz7fC.html
+
+..
+
+Vous recevez ce message car vous =C3=AAtes membre de Les L Idee Du Jour.
+
+Vous pouvez exercer votre droit d'acc=C3=A8s et de suppression =C3=A0 tout =
+moment en nous contactant =C3=A0 : info@lideedujour.fr, ou en nous =C3=
+=A9crivant =C3=A0 L Idee Du Jour - Av Franc=C3=A9sc Camb=C3=B3 21, 5=C2=
+=BA - 08003 Barcelona.=20
+
+Suivez ce lien pour vous d=C3=A9sabonner.http://clicks.lideedujour.fr/u/702=
+787234/c07a86c/WLxF08fR62lDabPUS28izKEmauqVgQ9Mz7fC.html Politique de confi=
+dentialit=C3=A9.http://www.lideedujour.fr/privacy.html
+
+--7519f8328f5c05cb1dd6894580b395e2
+Content-Type: text/html; 
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.=
+w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8" />
+<title>Vendez de particulier =C3=A0 particulier</title>
+=09
+<style type=3D"text/css">
+=09.ReadMsgBody { width: 100%; }
+=09.ExternalClass { width: 100%; }
+=09td {border-collapse: collapse; }
+=09.ReadMsgBody {  }
+.ExternalClass {  }
+</style>
+
+</head>
+<body><center><table align=3D"center" style=3D"text-align:center; font-fami=
+ly: Arial; font-size: 12px; color: grey;">
+<tr><td style=3D"text-align:center; font-family: Arial; font-size: 12px; co=
+lor: grey;">
+<span style=3D"font-family: Arial;"><a href=3D"http://clicks.lideedujour.fr=
+/v/702787234/c07a86c/WLxF08fR62lDabPUS28izKEmauqVgQ9Mz7fC.html">Visualiser =
+la version en ligne</a> | <a href=3D"http://clicks.lideedujour.fr/u/7027872=
+34/c07a86c/WLxF08fR62lDabPUS28izKEmauqVgQ9Mz7fC.html">Signaler comme courri=
+er ind=C3=A9sirable</a><br /><br /></span>
+</td></tr></table></center><br />
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" >
+<tr>
+<td align=3D"center">
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"579">
+<tr>
+<td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%">
+<tr>
+<td><img src=3D"http://kits.prosprm10c.com/2016/06/partenaireeuropeen/image=
+s/clear.gif" width=3D"1" height=3D"1" border=3D"0" alt=3D" " />
+</td>
+<td>
+<table border=3D"0" align=3D"center" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td width=3D"180" height=3D"80"><a href=3D"http://clicks.lideedujour.fr/cl/=
+702787234/970902/302255/1/tbDsviYrPG7hMQJw1TMsH1D45eYH71T1AqHF.htm"><img sr=
+c=3D"http://images.lesfolieshopping.fr/20160802/U0E7U6rHOcB/YqQ47A_1.jpg" b=
+order=3D"0" width=3D"180" height=3D"80" style=3D"display:block; background-=
+color: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px;=
+ color: #030609; text-decoration: none;" alt=3D"Partenaire" /></a></td>
+<td width=3D"179" height=3D"80"><a href=3D"http://clicks.lideedujour.fr/cl/=
+702787234/970902/302255/2/tbDsviYrPG7hMQJw1TMsH1D45eYH71T1AqHF.htm"><img sr=
+c=3D"http://images.lesfolieshopping.fr/20160802/U0E7U6rHOcB/YqQ47A_2.jpg" b=
+order=3D"0" width=3D"179" height=3D"80" style=3D"display:block; background-=
+color: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px;=
+ color: #030609; text-decoration: none;" alt=3D"europ=C3=A9en" /></a></td>
+</tr>
+<tr>
+<td width=3D"180" height=3D"53"><a href=3D"http://clicks.lideedujour.fr/cl/=
+702787234/970902/302255/3/tbDsviYrPG7hMQJw1TMsH1D45eYH71T1AqHF.htm"><img sr=
+c=3D"http://images.lesfolieshopping.fr/20160802/U0E7U6rHOcB/YqQ47A_3.jpg" b=
+order=3D"0" width=3D"180" height=3D"53" style=3D"display:block; background-=
+color: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px;=
+ color: #030609; text-decoration: none;" alt=3D"Partenaire" /></a></td>
+<td width=3D"179" height=3D"53"><a href=3D"http://clicks.lideedujour.fr/cl/=
+702787234/970902/302255/4/tbDsviYrPG7hMQJw1TMsH1D45eYH71T1AqHF.htm"><img sr=
+c=3D"http://images.lesfolieshopping.fr/20160802/U0E7U6rHOcB/YqQ47A_4.jpg" b=
+order=3D"0" width=3D"179" height=3D"53" style=3D"display:block; background-=
+color: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px;=
+ color: #030609; text-decoration: none;" alt=3D"europ=C3=A9en" /></a></td>
+</tr>
+</table>
+</td>
+<td><img src=3D"http://kits.prosprm10c.com/2016/06/partenaireeuropeen/image=
+s/clear.gif" width=3D"1" height=3D"1" border=3D"0" alt=3D" " />
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%">
+<tr>
+<td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td width=3D"180" height=3D"80"><a href=3D"http://clicks.lideedujour.fr/cl/=
+702787234/970902/302255/5/tbDsviYrPG7hMQJw1TMsH1D45eYH71T1AqHF.htm"><img sr=
+c=3D"http://images.lesfolieshopping.fr/20160802/U0E7U6rHOcB/YqQ47A_5.jpg" b=
+order=3D"0" width=3D"180" height=3D"80" style=3D"display:block; background-=
+color: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px;=
+ color: #030609; text-decoration: none;" alt=3D"Vendez" /></a></td>
+<td width=3D"174" height=3D"80"><a href=3D"http://clicks.lideedujour.fr/cl/=
+702787234/970902/302255/6/tbDsviYrPG7hMQJw1TMsH1D45eYH71T1AqHF.htm"><img sr=
+c=3D"http://images.lesfolieshopping.fr/20160802/U0E7U6rHOcB/YqQ47A_6.jpg" b=
+order=3D"0" width=3D"174" height=3D"80" style=3D"display:block; background-=
+color: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px;=
+ color: #030609; text-decoration: none;" alt=3D"votre" /></a></td>
+</tr>
+<tr>
+<td width=3D"180" height=3D"80"><a href=3D"http://clicks.lideedujour.fr/cl/=
+702787234/970902/302255/7/tbDsviYrPG7hMQJw1TMsH1D45eYH71T1AqHF.htm"><img sr=
+c=3D"http://images.lesfolieshopping.fr/20160802/U0E7U6rHOcB/YqQ47A_7.jpg" b=
+order=3D"0" width=3D"180" height=3D"80" style=3D"display:block; background-=
+color: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px;=
+ color: #030609; text-decoration: none;" alt=3D"bien" /></a></td>
+<td width=3D"174" height=3D"80"><a href=3D"http://clicks.lideedujour.fr/cl/=
+702787234/970902/302255/8/tbDsviYrPG7hMQJw1TMsH1D45eYH71T1AqHF.htm"><img sr=
+c=3D"http://images.lesfolieshopping.fr/20160802/U0E7U6rHOcB/YqQ47A_8.jpg" b=
+order=3D"0" width=3D"174" height=3D"80" style=3D"display:block; background-=
+color: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px;=
+ color: #030609; text-decoration: none;" alt=3D"immobilier" /></a></td>
+</tr>
+<tr>
+<td width=3D"180" height=3D"80"><a href=3D"http://clicks.lideedujour.fr/cl/=
+702787234/970902/302255/9/tbDsviYrPG7hMQJw1TMsH1D45eYH71T1AqHF.htm"><img sr=
+c=3D"http://images.lesfolieshopping.fr/20160802/U0E7U6rHOcB/YqQ47A_9.jpg" b=
+order=3D"0" width=3D"180" height=3D"80" style=3D"display:block; background-=
+color: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px;=
+ color: #030609; text-decoration: none;" alt=3D"Vendez" /></a></td>
+<td width=3D"174" height=3D"80"><a href=3D"http://clicks.lideedujour.fr/cl/=
+702787234/970902/302255/10/tbDsviYrPG7hMQJw1TMsH1D45eYH71T1AqHF.htm"><img s=
+rc=3D"http://images.lesfolieshopping.fr/20160802/U0E7U6rHOcB/YqQ47A_10.jpg"=
+ border=3D"0" width=3D"174" height=3D"80" style=3D"display:block; backgroun=
+d-color: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14p=
+x; color: #030609; text-decoration: none;" alt=3D"votre" /></a></td>
+</tr>
+<tr>
+<td width=3D"180" height=3D"80"><a href=3D"http://clicks.lideedujour.fr/cl/=
+702787234/970902/302255/11/tbDsviYrPG7hMQJw1TMsH1D45eYH71T1AqHF.htm"><img s=
+rc=3D"http://images.lesfolieshopping.fr/20160802/U0E7U6rHOcB/YqQ47A_11.jpg"=
+ border=3D"0" width=3D"180" height=3D"80" style=3D"display:block; backgroun=
+d-color: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14p=
+x; color: #030609; text-decoration: none;" alt=3D"bien" /></a></td>
+<td width=3D"174" height=3D"80"><a href=3D"http://clicks.lideedujour.fr/cl/=
+702787234/970902/302255/12/tbDsviYrPG7hMQJw1TMsH1D45eYH71T1AqHF.htm"><img s=
+rc=3D"http://images.lesfolieshopping.fr/20160802/U0E7U6rHOcB/YqQ47A_12.jpg"=
+ border=3D"0" width=3D"174" height=3D"80" style=3D"display:block; backgroun=
+d-color: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14p=
+x; color: #030609; text-decoration: none;" alt=3D"immobilier" /></a></td>
+</tr>
+<tr>
+<td width=3D"180" height=3D"71"><a href=3D"http://clicks.lideedujour.fr/cl/=
+702787234/970902/302255/13/tbDsviYrPG7hMQJw1TMsH1D45eYH71T1AqHF.htm"><img s=
+rc=3D"http://images.lesfolieshopping.fr/20160802/U0E7U6rHOcB/YqQ47A_13.jpg"=
+ border=3D"0" width=3D"180" height=3D"71" style=3D"display:block; backgroun=
+d-color: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14p=
+x; color: #030609; text-decoration: none;" alt=3D"Vendez" /></a></td>
+<td width=3D"174" height=3D"71"><a href=3D"http://clicks.lideedujour.fr/cl/=
+702787234/970902/302255/14/tbDsviYrPG7hMQJw1TMsH1D45eYH71T1AqHF.htm"><img s=
+rc=3D"http://images.lesfolieshopping.fr/20160802/U0E7U6rHOcB/YqQ47A_14.jpg"=
+ border=3D"0" width=3D"174" height=3D"71" style=3D"display:block; backgroun=
+d-color: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14p=
+x; color: #030609; text-decoration: none;" alt=3D"votre" /></a></td>
+</tr>
+</table>
+</td>
+<td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td width=3D"180" height=3D"80"><a href=3D"http://clicks.lideedujour.fr/cl/=
+702787234/970902/302255/15/tbDsviYrPG7hMQJw1TMsH1D45eYH71T1AqHF.htm"><img s=
+rc=3D"http://images.lesfolieshopping.fr/20160802/U0E7U6rHOcB/YqQ47A_15.jpg"=
+ border=3D"0" width=3D"180" height=3D"80" style=3D"display:block; backgroun=
+d-color: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14p=
+x; color: #030609; text-decoration: none;" alt=3D"Entre" /></a></td>
+<td width=3D"45" height=3D"80"><a href=3D"http://clicks.lideedujour.fr/cl/7=
+02787234/970902/302255/16/tbDsviYrPG7hMQJw1TMsH1D45eYH71T1AqHF.htm"><img sr=
+c=3D"http://images.lesfolieshopping.fr/20160802/U0E7U6rHOcB/YqQ47A_16.jpg" =
+border=3D"0" width=3D"45" height=3D"80" style=3D"display:block; background-=
+color: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px;=
+ color: #030609; text-decoration: none;" alt=3D"particulier -" /></a></td>
+</tr>
+<tr>
+<td width=3D"180" height=3D"80"><a href=3D"http://clicks.lideedujour.fr/cl/=
+702787234/970902/302255/17/tbDsviYrPG7hMQJw1TMsH1D45eYH71T1AqHF.htm"><img s=
+rc=3D"http://images.lesfolieshopping.fr/20160802/U0E7U6rHOcB/YqQ47A_17.jpg"=
+ border=3D"0" width=3D"180" height=3D"80" style=3D"display:block; backgroun=
+d-color: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14p=
+x; color: #030609; text-decoration: none;" alt=3D"Pas de" /></a></td>
+<td width=3D"45" height=3D"80"><a href=3D"http://clicks.lideedujour.fr/cl/7=
+02787234/970902/302255/18/tbDsviYrPG7hMQJw1TMsH1D45eYH71T1AqHF.htm"><img sr=
+c=3D"http://images.lesfolieshopping.fr/20160802/U0E7U6rHOcB/YqQ47A_18.jpg" =
+border=3D"0" width=3D"45" height=3D"80" style=3D"display:block; background-=
+color: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px;=
+ color: #030609; text-decoration: none;" alt=3D"commision =C3=A0" /></a></t=
+d>
+</tr>
+<tr>
+<td width=3D"180" height=3D"80"><a href=3D"http://clicks.lideedujour.fr/cl/=
+702787234/970902/302255/19/tbDsviYrPG7hMQJw1TMsH1D45eYH71T1AqHF.htm"><img s=
+rc=3D"http://images.lesfolieshopping.fr/20160802/U0E7U6rHOcB/YqQ47A_19.jpg"=
+ border=3D"0" width=3D"180" height=3D"80" style=3D"display:block; backgroun=
+d-color: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14p=
+x; color: #030609; text-decoration: none;" alt=3D"la vente" /></a></td>
+<td width=3D"45" height=3D"80"><a href=3D"http://clicks.lideedujour.fr/cl/7=
+02787234/970902/302255/20/tbDsviYrPG7hMQJw1TMsH1D45eYH71T1AqHF.htm"><img sr=
+c=3D"http://images.lesfolieshopping.fr/20160802/U0E7U6rHOcB/YqQ47A_20.jpg" =
+border=3D"0" width=3D"45" height=3D"80" style=3D"display:block; background-=
+color: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px;=
+ color: #030609; text-decoration: none;" alt=3D"- Vendez" /></a></td>
+</tr>
+<tr>
+<td width=3D"180" height=3D"80"><a href=3D"http://clicks.lideedujour.fr/cl/=
+702787234/970902/302255/21/tbDsviYrPG7hMQJw1TMsH1D45eYH71T1AqHF.htm"><img s=
+rc=3D"http://images.lesfolieshopping.fr/20160802/U0E7U6rHOcB/YqQ47A_21.jpg"=
+ border=3D"0" width=3D"180" height=3D"80" style=3D"display:block; backgroun=
+d-color: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14p=
+x; color: #030609; text-decoration: none;" alt=3D"au meilleur" /></a></td>
+<td width=3D"45" height=3D"80"><a href=3D"http://clicks.lideedujour.fr/cl/7=
+02787234/970902/302255/22/tbDsviYrPG7hMQJw1TMsH1D45eYH71T1AqHF.htm"><img sr=
+c=3D"http://images.lesfolieshopping.fr/20160802/U0E7U6rHOcB/YqQ47A_22.jpg" =
+border=3D"0" width=3D"45" height=3D"80" style=3D"display:block; background-=
+color: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px;=
+ color: #030609; text-decoration: none;" alt=3D"prix -" /></a></td>
+</tr>
+<tr>
+<td width=3D"180" height=3D"71"><a href=3D"http://clicks.lideedujour.fr/cl/=
+702787234/970902/302255/23/tbDsviYrPG7hMQJw1TMsH1D45eYH71T1AqHF.htm"><img s=
+rc=3D"http://images.lesfolieshopping.fr/20160802/U0E7U6rHOcB/YqQ47A_23.jpg"=
+ border=3D"0" width=3D"180" height=3D"71" style=3D"display:block; backgroun=
+d-color: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14p=
+x; color: #030609; text-decoration: none;" alt=3D"Diffusion nationale" /></=
+a></td>
+<td width=3D"45" height=3D"71"><a href=3D"http://clicks.lideedujour.fr/cl/7=
+02787234/970902/302255/24/tbDsviYrPG7hMQJw1TMsH1D45eYH71T1AqHF.htm"><img sr=
+c=3D"http://images.lesfolieshopping.fr/20160802/U0E7U6rHOcB/YqQ47A_24.jpg" =
+border=3D"0" width=3D"45" height=3D"71" style=3D"display:block; background-=
+color: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px;=
+ color: #030609; text-decoration: none;" alt=3D"et internationale" /></a></=
+td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td width=3D"180" height=3D"100"><a href=3D"http://clicks.lideedujour.fr/cl=
+/702787234/970902/302255/25/tbDsviYrPG7hMQJw1TMsH1D45eYH71T1AqHF.htm"><img =
+src=3D"http://images.lesfolieshopping.fr/20160802/U0E7U6rHOcB/YqQ47A_25.jpg=
+" border=3D"0" width=3D"180" height=3D"100" style=3D"display:block; backgro=
+und-color: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 1=
+4px; color: #030609; text-decoration: none;" alt=3D"Profitez de" /></a></td=
+>
+<td width=3D"180" height=3D"100"><a href=3D"http://clicks.lideedujour.fr/cl=
+/702787234/970902/302255/26/tbDsviYrPG7hMQJw1TMsH1D45eYH71T1AqHF.htm"><img =
+src=3D"http://images.lesfolieshopping.fr/20160802/U0E7U6rHOcB/YqQ47A_26.jpg=
+" border=3D"0" width=3D"180" height=3D"100" style=3D"display:block; backgro=
+und-color: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 1=
+4px; color: #030609; text-decoration: none;" alt=3D"notre fichier" /></a></=
+td>
+<td width=3D"180" height=3D"100"><a href=3D"http://clicks.lideedujour.fr/cl=
+/702787234/970902/302255/27/tbDsviYrPG7hMQJw1TMsH1D45eYH71T1AqHF.htm"><img =
+src=3D"http://images.lesfolieshopping.fr/20160802/U0E7U6rHOcB/YqQ47A_27.jpg=
+" border=3D"0" width=3D"180" height=3D"100" style=3D"display:block; backgro=
+und-color: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 1=
+4px; color: #030609; text-decoration: none;" alt=3D"- Plus" /></a></td>
+<td width=3D"39" height=3D"100"><a href=3D"http://clicks.lideedujour.fr/cl/=
+702787234/970902/302255/28/tbDsviYrPG7hMQJw1TMsH1D45eYH71T1AqHF.htm"><img s=
+rc=3D"http://images.lesfolieshopping.fr/20160802/U0E7U6rHOcB/YqQ47A_28.jpg"=
+ border=3D"0" width=3D"39" height=3D"100" style=3D"display:block; backgroun=
+d-color: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14p=
+x; color: #030609; text-decoration: none;" alt=3D"de 20000" /></a></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td width=3D"180" height=3D"100"><a href=3D"http://clicks.lideedujour.fr/cl=
+/702787234/970902/302255/29/tbDsviYrPG7hMQJw1TMsH1D45eYH71T1AqHF.htm"><img =
+src=3D"http://images.lesfolieshopping.fr/20160802/U0E7U6rHOcB/YqQ47A_29.jpg=
+" border=3D"0" width=3D"180" height=3D"100" style=3D"display:block; backgro=
+und-color: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 1=
+4px; color: #030609; text-decoration: none;" alt=3D"Diffusez" /></a></td>
+<td width=3D"180" height=3D"100"><a href=3D"http://clicks.lideedujour.fr/cl=
+/702787234/970902/302255/30/tbDsviYrPG7hMQJw1TMsH1D45eYH71T1AqHF.htm"><img =
+src=3D"http://images.lesfolieshopping.fr/20160802/U0E7U6rHOcB/YqQ47A_30.jpg=
+" border=3D"0" width=3D"180" height=3D"100" style=3D"display:block; backgro=
+und-color: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 1=
+4px; color: #030609; text-decoration: none;" alt=3D"votre" /></a></td>
+<td width=3D"180" height=3D"100"><a href=3D"http://clicks.lideedujour.fr/cl=
+/702787234/970902/302255/31/tbDsviYrPG7hMQJw1TMsH1D45eYH71T1AqHF.htm"><img =
+src=3D"http://images.lesfolieshopping.fr/20160802/U0E7U6rHOcB/YqQ47A_31.jpg=
+" border=3D"0" width=3D"180" height=3D"100" style=3D"display:block; backgro=
+und-color: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 1=
+4px; color: #030609; text-decoration: none;" alt=3D"annonce" /></a></td>
+<td width=3D"39" height=3D"100"><a href=3D"http://clicks.lideedujour.fr/cl/=
+702787234/970902/302255/32/tbDsviYrPG7hMQJw1TMsH1D45eYH71T1AqHF.htm"><img s=
+rc=3D"http://images.lesfolieshopping.fr/20160802/U0E7U6rHOcB/YqQ47A_32.jpg"=
+ border=3D"0" width=3D"39" height=3D"100" style=3D"display:block; backgroun=
+d-color: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14p=
+x; color: #030609; text-decoration: none;" alt=3D"Diffusez" /></a></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>
+<table cellspacing=3D"15" width=3D"100%">
+<tr>
+<td align=3D"center" style=3D"padding: 10px;"><a href=3D"http://clicks.lide=
+edujour.fr/cl/702787234/970902/302255/33/tbDsviYrPG7hMQJw1TMsH1D45eYH71T1Aq=
+HF.htm" target=3D"_blank" style=3D"text-decoration: none; outline: 0; borde=
+r: 0;"><span style=3D"font-size: 16px; font-family: arial; color: #414141;"=
+><strong>Pourquoi ai-je
+int=C3=A9r=C3=AAt =C3=A0 choisir L'Immobilier 100% entre
+Particuliers ?<br />
+<br />
+</strong></span></a></td>
+</tr>
+<tr>
+<td style=3D"font-size: 16px; font-family: arial; text-align:justify;"><a h=
+ref=3D"http://clicks.lideedujour.fr/cl/702787234/970902/302255/34/tbDsviYrP=
+G7hMQJw1TMsH1D45eYH71T1AqHF.htm" target=3D"_blank" style=3D"text-decoration=
+: none; outline: 0; border: 0; color: #636363;">Tout simplement parce
+qu'en choisissant L'immobilier 100% entre Particuliers,
+votre bien est mis en sc=C3=A8ne puis multi-diffus=C3=A9 en France
+et =C3=A0 l'=C3=A9tranger gr=C3=A2ce =C3=A0 des m=C3=A9dias
+performants et compl=C3=A9mentaires. Les acheteurs potentiels
+disposent d'informations compl=C3=A8tes gr=C3=A2ce au Dossier
+Descriptif, et vos coordonn=C3=A9es afin de pouvoir vous contacter
+directement s=E2=80=99ils le souhaitent.<br />
+<br />
+Vous b=C3=A9n=C3=A9ficiez d'un accompagnement personnalis=C3=A9
+par une interlocutrice d=C3=A9di=C3=A9e. Et cela en toute
+libert=C3=A9 et s=C3=A9r=C3=A9nit=C3=A9. Avec nous, vous optimisez
+vos chances de vendre votre bien.<br />
+<br />
+</a></td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"background-color: #e4e4e4; padding: 10px 0; "=
+><a href=3D"http://clicks.lideedujour.fr/cl/702787234/970902/302255/35/tbDs=
+viYrPG7hMQJw1TMsH1D45eYH71T1AqHF.htm" target=3D"_blank" style=3D"text-decor=
+ation: none; outline: 0; border: 0;"></a>
+<span>VOTRE PROJET IMMOBILIER M=C3=89RITE DE
+R=C3=89USSIR !</span>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td align=3D"left" valign=3D"top" width=3D"600" style=3D"font-family: Arial=
+, Helvetica, sans-serif; font-size: 9px; text-align: center; color: #5b5b5b=
+;"><br />
+  LE PARTENAIRE
+EUROPEEN- SAS - Capital 38 417,15 =E2=82=AC - RCS 384 194 668/ SIRET
+384 194 668 00040 / Code APE 5819 Z<br />
+<br /></td>
+</tr>
+</table>
+</td>
+</tr>
+</table><img src=3D"http://tracking.prosprm18c.com/aff_i?offer_id=3D460&aff=
+_id=3D510&aff_sub=3DIdeeDuJour&url_id=3D1776&file_id=3D5529" width=3D"1" he=
+ight=3D"1" border=3D"0" alt=3D" " />
+
+
+
+
+<img src=3D"http://clicks.lideedujour.fr/op/702787234/970902.gif?t=3D147282=
+5253" height=3D"1" width=3D"1" alt=3D"" border=3D"0" />
+<center><table align=3D"center" style=3D"text-align:center; font-family: Ar=
+ial; font-size: 12px; color: grey;">
+<tr><td style=3D"text-align:center; font-family: Arial; font-size: 12px; co=
+lor: grey;">
+<span style=3D"font-family: Arial;">Vous recevez ce message car vous =C3=
+=AAtes membre de Les L Idee Du Jour.<br /><br />
+Vous pouvez exercer votre droit d'acc=C3=A8s et de suppression
+=C3=A0 tout moment en nous contactant =C3=A0 : info@lideedujour.fr,
+ou en nous =C3=A9crivant =C3=A0 L Idee Du Jour - Av Franc=C3=A9sc Camb=
+=C3=B3 21, 5=C2=BA - 08003 Barcelona.
+<br /><br />
+<a href=3D"http://clicks.lideedujour.fr/u/702787234/c07a86c/WLxF08fR62lDabP=
+US28izKEmauqVgQ9Mz7fC.html" title=3D"d=C3=A9sabonner" style=3D"color:#00000=
+0; font-weight:bold;">Suivez ce lien pour vous d=C3=A9sabonner</a>.=20
+<a href=3D"http://www.lideedujour.fr/privacy.html" style=3D"color:#000000; =
+font-weight:bold;">Politique de confidentialit=C3=A9</a>.
+</span></td></tr></table></center><br /></body></html>
+
+--7519f8328f5c05cb1dd6894580b395e2--

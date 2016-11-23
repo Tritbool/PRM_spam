@@ -1,0 +1,719 @@
+Return-Path: <bounce-308205-eb53b96663-146121678@lideedujour.fr>
+Received: from mailimailo.univ-rennes1.fr ([unix socket])
+	 by mailimailo.univ-rennes1.fr (Cyrus v2.3.16-Fedora-RPM-2.3.16-6.el6_2.5) with LMTPA;
+	 Wed, 24 Aug 2016 15:56:00 +0200
+X-Sieve: CMU Sieve 2.3
+Received: from mailout2.univ-rennes1.fr (mailout2.univ-rennes1.fr [129.20.129.120])
+	by mailimailo.univ-rennes1.fr (Postfix) with ESMTP id 5025442
+	for <resp-m2-miage@univ-rennes1.fr>; Wed, 24 Aug 2016 15:56:00 +0200 (CEST)
+Received: from localhost (vmscanmail.univ-rennes1.fr [129.20.128.134])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id 4D3BB600B3
+	for <resp-m2-miage@univ-rennes1.fr>; Wed, 24 Aug 2016 15:56:00 +0200 (CEST)
+X-Virus-Scanned: amavisd-new at univ-rennes1.fr
+Received: from mailout2.univ-rennes1.fr ([129.20.129.120])
+	by localhost (vmscanmail.univ-rennes1.frm [129.20.128.134]) (amavisd-new, port 10026)
+	with ESMTP id DcTnwLZN8SSc for <resp-m2-miage@univ-rennes1.fr>;
+	Wed, 24 Aug 2016 15:56:00 +0200 (CEST)
+Received: from vmmailin.univ-rennes1.fr (vmmailin.univ-rennes1.fr [129.20.128.133])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id 234EB60039
+	for <resp-m2-miage@univ-rennes1.fr>; Wed, 24 Aug 2016 15:56:00 +0200 (CEST)
+Received: from mxb1-1.relay.renater.fr (mxb1-1.relay.renater.fr [194.214.201.8])
+	by vmmailin.univ-rennes1.fr (Postfix) with ESMTP id 1A95220033
+	for <resp-m2-miage@univ-rennes1.fr>; Wed, 24 Aug 2016 15:56:00 +0200 (CEST)
+Received: from er6.lideedujour.fr (er6.lideedujour.fr [188.213.62.193])
+	(using TLSv1.2 with cipher DHE-RSA-CAMELLIA256-SHA (256/256 bits))
+	(No client certificate requested)
+	by mxb1-1.relay.renater.fr (asm) with ESMTPS id B5EA2600047
+	for <resp-m2-miage@univ-rennes1.fr>; Wed, 24 Aug 2016 15:55:59 +0200 (CEST)
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=default; d=lideedujour.fr;
+ h=MIME-Version:From:Reply-To:List-Unsubscribe:Feedback-ID:Subject:Content-Type:To:Message-ID:Date; i=EHPAD@lideedujour.fr;
+ bh=0kBchHNTJ/VVlntAEFrqQNNAusU=;
+ b=Ej6OSs+HKPg23MOld6Aem8ZiZBliTWzArbvgh6dy1y7RV4BU3SAJIJAmiu26XHro6gCEgbHHinwW
+   Jh1LB2YBOxTbs/PH1LaDczlb6cgE9opzPmxiWdafFu05SGf4sKQsn9kd1WgmEOU0ZneHCNfugKrl
+   lNMDFg2h8vgEuKfliqw=
+MIME-Version: 1.0
+Precedence: bulk
+From: =?UTF-8?B?Vm90cmUgY2FzIGEgbCfDqXR1ZGUgLSBMIElkZWUgRHUgSm91cg==?= <EHPAD@lideedujour.fr>
+Reply-To: "L Idee Du Jour" <info@lideedujour.fr>
+List-Unsubscribe: <http://clicks.lideedujour.fr/lu/702787234/9a9de87/308205.html>
+X-EMID: 1
+Feedback-ID: LEAD658
+Subject: =?UTF-8?B?SW52ZXN0aXNzZXogZGFucyBsJ2ltbW9iaWxpZXIgZGUgcmVuZGVtZW50IGdyw6JjZSDDoCBsJ0VIUEFEICE=?=
+Content-Type: multipart/alternative;
+ boundary=1bcc62b46409b8928a11fceac99c3872
+To: resp-m2-miage@univ-rennes1.fr
+Message-ID: <0.0.1BA.789.1D1FE0F321053AC.0@er6.lideedujour.fr>
+Date: Wed, 24 Aug 2016 15:55:38 +0200
+X-UCE-Status: YES
+X-UCE-Type: MCE
+X-Original-Source-IP: 188.213.62.193
+X-Bizanga: IMP - mxb1-1.relay.renater.fr
+X-Renater-SpamState: 11
+X-Renater-SpamScore: 17
+X-Renater-SpamCause: gggruggvucftvghtrhhoucdtuddrfeeluddrfeeigdejudculddtuddrfeeltddrtddtmdcutefuodetggdotefrodftvfcurfhrohhfihhlvgemucftgffptefvgfftpdggtfgfnhhsuhgsshgtrhhisggvnecuuegrihhlohhuthemuceftddtnecundfotefknffkpffiucdludejmdenucfjughrpeggphfhrhfjufgtvffkffesrgdtreertddtjeenucfhrhhomhepgghothhrvgcutggrshcurgculhdkrohtuhguvgcuqdcunfcukfguvggvucffuhculfhouhhruceogffjrfetffeslhhiuggvvgguuhhjohhurhdrfhhrqeenucffohhmrghinheplhhiuggvvgguuhhjohhurhdrfhhrnecukfhppedukeekrddvudefrdeivddrudelfeenucfrrghrrghmpehmohguvgepshhmthhppdhhvghlohepvghriedrlhhiuggvvgguuhhjohhurhdrfhhrpdhinhgvthepudekkedrvddufedriedvrdduleefpdhmrghilhhfrhhomhepsghouhhntggvqdeftdekvddthedqvggsheefsgelieeiieefqddugeeiuddvudeijeeksehlihguvggvughujhhouhhrrdhfrhdprhgtphhtthhopehrvghsphdqmhdvqdhmihgrghgvsehunhhivhdqrhgvnhhnvghsuddrfhhr 
+X-Renater-ServerName: mxb1-1.relay.renater.fr
+
+
+--1bcc62b46409b8928a11fceac99c3872
+Content-Type: text/plain; 
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Visualiser la version en ligne : http://clicks.lideedujour.fr/v/702787234/9=
+a9de87/MJ8MmLD6R3jSVbY0Ti1O6ey4xNe3tjUmf3nw.html
+Signaler comme courrier ind=C3=A9sirable : http://clicks.lideedujour.fr/u/7=
+02787234/9a9de87/MJ8MmLD6R3jSVbY0Ti1O6ey4xNe3tjUmf3nw.html
+
+http://clicks.lideedujour.fr/cl/702787234/964861/297204/29/MksBTMLEAqCZ9ihR=
+JdNwKX4W1bcTIPs4U41D.htm
+
+Investissez dans l'immobilier de rendement gr=C3=A2ce =C3=A0 l'EHPAD !
+Investissez dans
+l'immobilier
+de rendement gr=C3=A2ce =C3=A0 l'EHPAD
+Si cet email ne
+s'affiche pas correctement,
+consultez la version en ligne.
+
+
+
+
+
+Plus de
+30%*
+de gain
+fiscal
+Entre 4 et 5% de rentabilit=C3=89
+Des loyers garantis par un bail commercial
+Un investissement s=C3=89curis=C3=89, et
+encadr=C3=89 par l=E2=80=99=C3=89tat
+De nombreux avantages fiscaux
+Une gestion totale du bien
+Un actif r=C3=A9el et tangible adapt=C3=A9 aux
+p=C3=A9riodes de crise importante
+Une fiscalit=C3=A9 attractive permettant
+d=E2=80=99obtenir des revenus nets d=E2=80=99imp=C3=B4ts malgr=C3=A9 la
+hausse de la pression fiscale
+Des rendement attractifs et
+s=C3=A9curis=C3=A9s
+Une gestion simplifi=C3=A9e et
+d=C3=A9l=C3=A9gu=C3=A9e
+Un excellent moyen de d=C3=A9fendre son pouvoir
+d=E2=80=99achat contre l=E2=80=99inflation
+
+Si vous ne souhaitez plus recevoir de
+newsletter,
+veuillez cliquez ici
+[mailto:desabonnement@investissement-ehpad-neuf-et-occasion.fr].
+
+Vous recevez ce message car vous =C3=AAtes membre de Les L Idee Du Jour.
+
+Vous pouvez exercer votre droit d'acc=C3=A8s et de suppression =C3=A0 tout =
+moment en nous contactant =C3=A0 : info@lideedujour.fr, ou en nous =C3=
+=A9crivant =C3=A0 L Idee Du Jour - Av Franc=C3=A9sc Camb=C3=B3 21, 5=C2=
+=BA - 08003 Barcelona.=20
+
+Suivez ce lien pour vous d=C3=A9sabonner.http://clicks.lideedujour.fr/u/702=
+787234/9a9de87/MJ8MmLD6R3jSVbY0Ti1O6ey4xNe3tjUmf3nw.html Politique de confi=
+dentialit=C3=A9.http://www.lideedujour.fr/privacy.html
+
+--1bcc62b46409b8928a11fceac99c3872
+Content-Type: text/html; 
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.=
+w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8" />
+<title>Investissez dans l'immobilier de rendement gr=C3=A2ce =C3=A0 l'EHPAD=
+ !</title>
+=09
+<style type=3D"text/css">
+=09.ReadMsgBody { width: 100%; }
+=09.ExternalClass { width: 100%; }
+=09td {border-collapse: collapse; }
+=09
+</style>
+
+</head>
+<body><center><table align=3D"center" style=3D"text-align:center; font-fami=
+ly: Arial; font-size: 12px; color: grey;">
+<tr><td style=3D"text-align:center; font-family: Arial; font-size: 12px; co=
+lor: grey;">
+<span style=3D"font-family: Arial;"><a href=3D"http://clicks.lideedujour.fr=
+/v/702787234/9a9de87/MJ8MmLD6R3jSVbY0Ti1O6ey4xNe3tjUmf3nw.html">Visualiser =
+la version en ligne</a> | <a href=3D"http://clicks.lideedujour.fr/u/7027872=
+34/9a9de87/MJ8MmLD6R3jSVbY0Ti1O6ey4xNe3tjUmf3nw.html">Signaler comme courri=
+er ind=C3=A9sirable</a><br /><br /></span>
+</td></tr></table></center><br />
+<center><table width=3D"700" border=3D"0" align=3D"center" cellpadding=3D"0=
+" cellspacing=3D"0" style=3D"max-width: 760px; height: auto;">
+
+<tr>
+<td width=3D"640" align=3D"center" valign=3D"top" style=3D"max-width: 760px=
+; height: auto;">
+<center><table width=3D"100%" border=3D"0" align=3D"center" cellpadding=3D"=
+0" cellspacing=3D"0" style=3D"max-width: 760px; height: auto;">
+
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"max-width: 760px; height: auto;"=
+>
+<center><table width=3D"100%" border=3D"0" align=3D"center" cellpadding=3D"=
+0" cellspacing=3D"0" style=3D"max-width: 760px; height: auto;">
+
+<tr>
+<td align=3D"center" valign=3D"top"></td>
+</tr>
+
+</table></center>
+</td>
+</tr>
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"max-width: 760px; height: auto;"=
+>
+<center><table width=3D"50%" border=3D"0" align=3D"left" cellpadding=3D"0" =
+cellspacing=3D"0" style=3D"max-width: 760px; height: auto;">
+
+<tr>
+<td align=3D"center" valign=3D"top">
+<p style=3D"font-size: 12px; margin: 0; margin-bottom: 5px;"><span style=3D=
+"font-family: Arial, Helvetica, sans-serif; font-size: 11px; color: #666666=
+;">Investissez dans
+l'immobilier<br />
+de rendement gr=C3=A2ce =C3=A0 l'EHPAD</span></p>
+</td>
+</tr>
+
+</table></center>
+<center><table width=3D"50%" border=3D"0" align=3D"left" cellpadding=3D"0" =
+cellspacing=3D"0" style=3D"max-width: 760px; height: auto;">
+
+<tr>
+<td align=3D"center" valign=3D"top">
+<p style=3D"font-size: 12px; margin: 0; margin-bottom: 5px;"><span style=3D=
+"font-family: Arial, Helvetica, sans-serif; font-size: 11px; color: #666666=
+;">Si cet email ne
+s'affiche pas correctement,<br />
+consultez <a href=3D"http://clicks.lideedujour.fr/cl/702787234/964861/29720=
+4/1/MksBTMLEAqCZ9ihRJdNwKX4W1bcTIPs4U41D.htm" target=3D"_blank" style=3D"ou=
+tline: none; color: #666666; font-weight: bold; border: none;">la version e=
+n ligne.</a></span></p>
+</td>
+</tr>
+
+</table></center>
+</td>
+</tr>
+<tr>
+<td align=3D"center" valign=3D"bottom" style=3D"max-width: 760px; height: a=
+uto;">
+<center><table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D=
+"0">
+
+<tr>
+<td align=3D"left" valign=3D"bottom">
+<center><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td width=3D"180" height=3D"12"><img src=3D"http://images.lideedujour.fr/20=
+160823/eIKCTrrVv2P/ToUb6t_1.jpg" border=3D"0" width=3D"180" height=3D"12" s=
+tyle=3D"display:block; background-color: #FCFDFE; font-family: Arial, Helve=
+tica, sans-serif; font-size: 14px; color: #030609; text-decoration: none;" =
+alt=3D"Investissement" /></td>
+<td width=3D"180" height=3D"12"><img src=3D"http://images.lideedujour.fr/20=
+160823/eIKCTrrVv2P/ToUb6t_2.jpg" border=3D"0" width=3D"180" height=3D"12" s=
+tyle=3D"display:block; background-color: #FCFDFE; font-family: Arial, Helve=
+tica, sans-serif; font-size: 14px; color: #030609; text-decoration: none;" =
+alt=3D"Ehpad" /></td>
+<td width=3D"180" height=3D"12"><img src=3D"http://images.lideedujour.fr/20=
+160823/eIKCTrrVv2P/ToUb6t_3.jpg" border=3D"0" width=3D"180" height=3D"12" s=
+tyle=3D"display:block; background-color: #FCFDFE; font-family: Arial, Helve=
+tica, sans-serif; font-size: 14px; color: #030609; text-decoration: none;" =
+alt=3D"et" /></td>
+<td width=3D"160" height=3D"12"><img src=3D"http://images.lideedujour.fr/20=
+160823/eIKCTrrVv2P/ToUb6t_4.jpg" border=3D"0" width=3D"160" height=3D"12" s=
+tyle=3D"display:block; background-color: #FCFDFE; font-family: Arial, Helve=
+tica, sans-serif; font-size: 14px; color: #030609; text-decoration: none;" =
+alt=3D"seniors" /></td>
+</tr>
+</table></center>
+</td>
+</tr>
+<tr>
+<td align=3D"center" valign=3D"top">
+<center><table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D=
+"0">
+
+<tr>
+<td align=3D"left" valign=3D"top">
+<center><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td width=3D"180" height=3D"80"><a href=3D"http://clicks.lideedujour.fr/cl/=
+702787234/964861/297204/2/MksBTMLEAqCZ9ihRJdNwKX4W1bcTIPs4U41D.htm"><img sr=
+c=3D"http://images.lideedujour.fr/20160823/eIKCTrrVv2P/ToUb6t_5.jpg" border=
+=3D"0" width=3D"180" height=3D"80" style=3D"display:block; background-color=
+: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; colo=
+r: #030609; text-decoration: none;" alt=3D"Investissez" /></a></td>
+<td width=3D"170" height=3D"80"><a href=3D"http://clicks.lideedujour.fr/cl/=
+702787234/964861/297204/3/MksBTMLEAqCZ9ihRJdNwKX4W1bcTIPs4U41D.htm"><img sr=
+c=3D"http://images.lideedujour.fr/20160823/eIKCTrrVv2P/ToUb6t_6.jpg" border=
+=3D"0" width=3D"170" height=3D"80" style=3D"display:block; background-color=
+: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; colo=
+r: #030609; text-decoration: none;" alt=3D"dans" /></a></td>
+</tr>
+<tr>
+<td width=3D"180" height=3D"80"><a href=3D"http://clicks.lideedujour.fr/cl/=
+702787234/964861/297204/4/MksBTMLEAqCZ9ihRJdNwKX4W1bcTIPs4U41D.htm"><img sr=
+c=3D"http://images.lideedujour.fr/20160823/eIKCTrrVv2P/ToUb6t_7.jpg" border=
+=3D"0" width=3D"180" height=3D"80" style=3D"display:block; background-color=
+: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; colo=
+r: #030609; text-decoration: none;" alt=3D"l=E2=80=99immobilier" /></a></td=
+>
+<td width=3D"170" height=3D"80"><a href=3D"http://clicks.lideedujour.fr/cl/=
+702787234/964861/297204/5/MksBTMLEAqCZ9ihRJdNwKX4W1bcTIPs4U41D.htm"><img sr=
+c=3D"http://images.lideedujour.fr/20160823/eIKCTrrVv2P/ToUb6t_8.jpg" border=
+=3D"0" width=3D"170" height=3D"80" style=3D"display:block; background-color=
+: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; colo=
+r: #030609; text-decoration: none;" alt=3D"de" /></a></td>
+</tr>
+<tr>
+<td width=3D"180" height=3D"51"><a href=3D"http://clicks.lideedujour.fr/cl/=
+702787234/964861/297204/6/MksBTMLEAqCZ9ihRJdNwKX4W1bcTIPs4U41D.htm"><img sr=
+c=3D"http://images.lideedujour.fr/20160823/eIKCTrrVv2P/ToUb6t_9.jpg" border=
+=3D"0" width=3D"180" height=3D"51" style=3D"display:block; background-color=
+: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; colo=
+r: #030609; text-decoration: none;" alt=3D"rendement gr=C3=A2ce" /></a></td=
+>
+<td width=3D"170" height=3D"51"><a href=3D"http://clicks.lideedujour.fr/cl/=
+702787234/964861/297204/7/MksBTMLEAqCZ9ihRJdNwKX4W1bcTIPs4U41D.htm"><img sr=
+c=3D"http://images.lideedujour.fr/20160823/eIKCTrrVv2P/ToUb6t_10.jpg" borde=
+r=3D"0" width=3D"170" height=3D"51" style=3D"display:block; background-colo=
+r: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; col=
+or: #030609; text-decoration: none;" alt=3D"=C3=A0 l=E2=80=99EHPAD" /></a><=
+/td>
+</tr>
+</table></center>
+</td>
+<td align=3D"left" valign=3D"top">
+<center><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td width=3D"180" height=3D"80"><a href=3D"http://clicks.lideedujour.fr/cl/=
+702787234/964861/297204/8/MksBTMLEAqCZ9ihRJdNwKX4W1bcTIPs4U41D.htm"><img sr=
+c=3D"http://images.lideedujour.fr/20160823/eIKCTrrVv2P/ToUb6t_11.jpg" borde=
+r=3D"0" width=3D"180" height=3D"80" style=3D"display:block; background-colo=
+r: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; col=
+or: #030609; text-decoration: none;" alt=3D"Obtenez" /></a></td>
+<td width=3D"170" height=3D"80"><a href=3D"http://clicks.lideedujour.fr/cl/=
+702787234/964861/297204/9/MksBTMLEAqCZ9ihRJdNwKX4W1bcTIPs4U41D.htm"><img sr=
+c=3D"http://images.lideedujour.fr/20160823/eIKCTrrVv2P/ToUb6t_12.jpg" borde=
+r=3D"0" width=3D"170" height=3D"80" style=3D"display:block; background-colo=
+r: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; col=
+or: #030609; text-decoration: none;" alt=3D"des revenus" /></a></td>
+</tr>
+<tr>
+<td width=3D"180" height=3D"80"><a href=3D"http://clicks.lideedujour.fr/cl/=
+702787234/964861/297204/10/MksBTMLEAqCZ9ihRJdNwKX4W1bcTIPs4U41D.htm"><img s=
+rc=3D"http://images.lideedujour.fr/20160823/eIKCTrrVv2P/ToUb6t_13.jpg" bord=
+er=3D"0" width=3D"180" height=3D"80" style=3D"display:block; background-col=
+or: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; co=
+lor: #030609; text-decoration: none;" alt=3D"compl=C3=A9mentaires et" /></a=
+></td>
+<td width=3D"170" height=3D"80"><a href=3D"http://clicks.lideedujour.fr/cl/=
+702787234/964861/297204/11/MksBTMLEAqCZ9ihRJdNwKX4W1bcTIPs4U41D.htm"><img s=
+rc=3D"http://images.lideedujour.fr/20160823/eIKCTrrVv2P/ToUb6t_14.jpg" bord=
+er=3D"0" width=3D"170" height=3D"80" style=3D"display:block; background-col=
+or: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; co=
+lor: #030609; text-decoration: none;" alt=3D"pr=C3=A9parez votre" /></a></t=
+d>
+</tr>
+<tr>
+<td width=3D"180" height=3D"51"><a href=3D"http://clicks.lideedujour.fr/cl/=
+702787234/964861/297204/12/MksBTMLEAqCZ9ihRJdNwKX4W1bcTIPs4U41D.htm"><img s=
+rc=3D"http://images.lideedujour.fr/20160823/eIKCTrrVv2P/ToUb6t_15.jpg" bord=
+er=3D"0" width=3D"180" height=3D"51" style=3D"display:block; background-col=
+or: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; co=
+lor: #030609; text-decoration: none;" alt=3D"retraite en" /></a></td>
+<td width=3D"170" height=3D"51"><a href=3D"http://clicks.lideedujour.fr/cl/=
+702787234/964861/297204/13/MksBTMLEAqCZ9ihRJdNwKX4W1bcTIPs4U41D.htm"><img s=
+rc=3D"http://images.lideedujour.fr/20160823/eIKCTrrVv2P/ToUb6t_16.jpg" bord=
+er=3D"0" width=3D"170" height=3D"51" style=3D"display:block; background-col=
+or: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; co=
+lor: #030609; text-decoration: none;" alt=3D"toute s=C3=A9curit=C3=A9" /></=
+a></td>
+</tr>
+</table></center>
+</td>
+</tr>
+<tr>
+<td align=3D"left" valign=3D"top">
+<center><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td width=3D"180" height=3D"80"><a href=3D"http://clicks.lideedujour.fr/cl/=
+702787234/964861/297204/14/MksBTMLEAqCZ9ihRJdNwKX4W1bcTIPs4U41D.htm"><img s=
+rc=3D"http://images.lideedujour.fr/20160823/eIKCTrrVv2P/ToUb6t_17.jpg" bord=
+er=3D"0" width=3D"180" height=3D"80" style=3D"display:block; background-col=
+or: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; co=
+lor: #030609; text-decoration: none;" alt=3D"Recevoir" /></a></td>
+<td width=3D"170" height=3D"80"><a href=3D"http://clicks.lideedujour.fr/cl/=
+702787234/964861/297204/15/MksBTMLEAqCZ9ihRJdNwKX4W1bcTIPs4U41D.htm"><img s=
+rc=3D"http://images.lideedujour.fr/20160823/eIKCTrrVv2P/ToUb6t_18.jpg" bord=
+er=3D"0" width=3D"170" height=3D"80" style=3D"display:block; background-col=
+or: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; co=
+lor: #030609; text-decoration: none;" alt=3D"notre" /></a></td>
+</tr>
+<tr>
+<td width=3D"180" height=3D"80"><a href=3D"http://clicks.lideedujour.fr/cl/=
+702787234/964861/297204/16/MksBTMLEAqCZ9ihRJdNwKX4W1bcTIPs4U41D.htm"><img s=
+rc=3D"http://images.lideedujour.fr/20160823/eIKCTrrVv2P/ToUb6t_19.jpg" bord=
+er=3D"0" width=3D"180" height=3D"80" style=3D"display:block; background-col=
+or: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; co=
+lor: #030609; text-decoration: none;" alt=3D"guide" /></a></td>
+<td width=3D"170" height=3D"80"><a href=3D"http://clicks.lideedujour.fr/cl/=
+702787234/964861/297204/17/MksBTMLEAqCZ9ihRJdNwKX4W1bcTIPs4U41D.htm"><img s=
+rc=3D"http://images.lideedujour.fr/20160823/eIKCTrrVv2P/ToUb6t_20.jpg" bord=
+er=3D"0" width=3D"170" height=3D"80" style=3D"display:block; background-col=
+or: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; co=
+lor: #030609; text-decoration: none;" alt=3D"complet" /></a></td>
+</tr>
+<tr>
+<td width=3D"180" height=3D"49"><a href=3D"http://clicks.lideedujour.fr/cl/=
+702787234/964861/297204/18/MksBTMLEAqCZ9ihRJdNwKX4W1bcTIPs4U41D.htm"><img s=
+rc=3D"http://images.lideedujour.fr/20160823/eIKCTrrVv2P/ToUb6t_21.jpg" bord=
+er=3D"0" width=3D"180" height=3D"49" style=3D"display:block; background-col=
+or: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; co=
+lor: #030609; text-decoration: none;" alt=3D"Recevoir" /></a></td>
+<td width=3D"170" height=3D"49"><a href=3D"http://clicks.lideedujour.fr/cl/=
+702787234/964861/297204/19/MksBTMLEAqCZ9ihRJdNwKX4W1bcTIPs4U41D.htm"><img s=
+rc=3D"http://images.lideedujour.fr/20160823/eIKCTrrVv2P/ToUb6t_22.jpg" bord=
+er=3D"0" width=3D"170" height=3D"49" style=3D"display:block; background-col=
+or: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; co=
+lor: #030609; text-decoration: none;" alt=3D"notre" /></a></td>
+</tr>
+</table></center>
+</td>
+<td align=3D"left" valign=3D"top">
+<center><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td width=3D"180" height=3D"80"><a href=3D"http://clicks.lideedujour.fr/cl/=
+702787234/964861/297204/20/MksBTMLEAqCZ9ihRJdNwKX4W1bcTIPs4U41D.htm"><img s=
+rc=3D"http://images.lideedujour.fr/20160823/eIKCTrrVv2P/ToUb6t_23.jpg" bord=
+er=3D"0" width=3D"180" height=3D"80" style=3D"display:block; background-col=
+or: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; co=
+lor: #030609; text-decoration: none;" alt=3D"Loi" /></a></td>
+<td width=3D"170" height=3D"80"><a href=3D"http://clicks.lideedujour.fr/cl/=
+702787234/964861/297204/21/MksBTMLEAqCZ9ihRJdNwKX4W1bcTIPs4U41D.htm"><img s=
+rc=3D"http://images.lideedujour.fr/20160823/eIKCTrrVv2P/ToUb6t_24.jpg" bord=
+er=3D"0" width=3D"170" height=3D"80" style=3D"display:block; background-col=
+or: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; co=
+lor: #030609; text-decoration: none;" alt=3D"bouvard" /></a></td>
+</tr>
+<tr>
+<td width=3D"180" height=3D"80"><a href=3D"http://clicks.lideedujour.fr/cl/=
+702787234/964861/297204/22/MksBTMLEAqCZ9ihRJdNwKX4W1bcTIPs4U41D.htm"><img s=
+rc=3D"http://images.lideedujour.fr/20160823/eIKCTrrVv2P/ToUb6t_25.jpg" bord=
+er=3D"0" width=3D"180" height=3D"80" style=3D"display:block; background-col=
+or: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; co=
+lor: #030609; text-decoration: none;" alt=3D"Loi" /></a></td>
+<td width=3D"170" height=3D"80"><a href=3D"http://clicks.lideedujour.fr/cl/=
+702787234/964861/297204/23/MksBTMLEAqCZ9ihRJdNwKX4W1bcTIPs4U41D.htm"><img s=
+rc=3D"http://images.lideedujour.fr/20160823/eIKCTrrVv2P/ToUb6t_26.jpg" bord=
+er=3D"0" width=3D"170" height=3D"80" style=3D"display:block; background-col=
+or: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; co=
+lor: #030609; text-decoration: none;" alt=3D"bouvard" /></a></td>
+</tr>
+<tr>
+<td width=3D"180" height=3D"49"><a href=3D"http://clicks.lideedujour.fr/cl/=
+702787234/964861/297204/24/MksBTMLEAqCZ9ihRJdNwKX4W1bcTIPs4U41D.htm"><img s=
+rc=3D"http://images.lideedujour.fr/20160823/eIKCTrrVv2P/ToUb6t_27.jpg" bord=
+er=3D"0" width=3D"180" height=3D"49" style=3D"display:block; background-col=
+or: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; co=
+lor: #030609; text-decoration: none;" alt=3D"Loi" /></a></td>
+<td width=3D"170" height=3D"49"><a href=3D"http://clicks.lideedujour.fr/cl/=
+702787234/964861/297204/25/MksBTMLEAqCZ9ihRJdNwKX4W1bcTIPs4U41D.htm"><img s=
+rc=3D"http://images.lideedujour.fr/20160823/eIKCTrrVv2P/ToUb6t_28.jpg" bord=
+er=3D"0" width=3D"170" height=3D"49" style=3D"display:block; background-col=
+or: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; co=
+lor: #030609; text-decoration: none;" alt=3D"bouvard" /></a></td>
+</tr>
+</table></center>
+</td>
+</tr>
+
+</table></center>
+</td>
+</tr>
+
+</table></center>
+</td>
+</tr>
+<tr>
+<td align=3D"center" valign=3D"top" style=3D"max-width: 760px; height: auto=
+; background: #FFFFFF;">
+<center><table width=3D"700" border=3D"0" align=3D"center" cellpadding=3D"0=
+" cellspacing=3D"0" style=3D"max-width: 760px; height: auto;">
+
+<tr>
+<td height=3D"126" valign=3D"top" style=3D"background-color: #FFFFFF;">
+<center><table width=3D"176" border=3D"0" align=3D"left" cellpadding=3D"0" =
+cellspacing=3D"0">
+
+<tr>
+<td height=3D"126" align=3D"center" valign=3D"middle" style=3D"background-c=
+olor: #F7941D; color: #FFFFFF; font-family: Arial, Helvetica, sans-serif; f=
+ont-size: 2Opx; font-weight: bold; line-height: 17px; text-align: center; t=
+ext-transform: uppercase;">
+<p style=3D"margin: 0;">Plus de<br />
+<span style=3D"font-size: 48px; line-height: 42px;">30%*</span><br />
+de gain<br />
+fiscal</p>
+</td>
+</tr>
+
+</table></center>
+<center><table width=3D"524" border=3D"0" align=3D"left" cellpadding=3D"0" =
+cellspacing=3D"0">
+
+<tr>
+<td height=3D"126" align=3D"center" valign=3D"middle" style=3D"background-c=
+olor: #82358C;">
+<center><table width=3D"90%" border=3D"0" align=3D"center" cellpadding=3D"3=
+" cellspacing=3D"0">
+
+<tr>
+<td align=3D"left" valign=3D"baseline"><img src=3D"http://images.lideedujou=
+r.fr/20160823/eIKCTrrVv2P/ToUb6t_29.jpg" border=3D"0" width=3D"13" height=
+=3D"13" style=3D"display:block;" alt=3D"Investissez dans l'immobilier" /></=
+td>
+<td style=3D"font-family: Arial, Helvetica, sans-serif; font-size: 12px; co=
+lor: #FFFFFF; text-transform: uppercase;">Entre 4 et 5% de rentabilit=C3=
+=89</td>
+</tr>
+<tr>
+<td align=3D"left" valign=3D"baseline"><img src=3D"http://images.lideedujou=
+r.fr/20160823/eIKCTrrVv2P/ToUb6t_30.jpg" border=3D"0" width=3D"13" height=
+=3D"13" style=3D"display:block;" alt=3D"de rendement gr=C3=A2ce" /></td>
+<td style=3D"font-family: Arial, Helvetica, sans-serif; font-size: 12px; co=
+lor: #FFFFFF; text-transform: uppercase;">Des loyers garantis par un bail c=
+ommercial</td>
+</tr>
+<tr>
+<td align=3D"left" valign=3D"baseline"><img src=3D"http://images.lideedujou=
+r.fr/20160823/eIKCTrrVv2P/ToUb6t_31.jpg" border=3D"0" width=3D"13" height=
+=3D"13" style=3D"display:block;" alt=3D"=C3=A0 l'EHPAD !" /></td>
+<td style=3D"font-family: Arial, Helvetica, sans-serif; font-size: 12px; co=
+lor: #FFFFFF; text-transform: uppercase;">Un investissement s=C3=89curis=
+=C3=89, et
+encadr=C3=89 par l=E2=80=99=C3=89tat</td>
+</tr>
+<tr>
+<td align=3D"left" valign=3D"baseline"><img src=3D"http://images.lideedujou=
+r.fr/20160823/eIKCTrrVv2P/ToUb6t_32.jpg" border=3D"0" width=3D"13" height=
+=3D"13" style=3D"display:block;" alt=3D"Investissez dansl'immobilierde rend=
+ement" /></td>
+<td style=3D"font-family: Arial, Helvetica, sans-serif; font-size: 12px; co=
+lor: #FFFFFF; text-transform: uppercase;">De nombreux avantages fiscaux</td=
+>
+</tr>
+<tr>
+<td align=3D"left" valign=3D"baseline"><img src=3D"http://images.lideedujou=
+r.fr/20160823/eIKCTrrVv2P/ToUb6t_33.jpg" border=3D"0" width=3D"13" height=
+=3D"13" style=3D"display:block;" alt=3D"gr=C3=A2ce =C3=A0 l'EHPADSi" /></td=
+>
+<td style=3D"font-family: Arial, Helvetica, sans-serif; font-size: 12px; co=
+lor: #FFFFFF; text-transform: uppercase;">Une gestion totale du bien</td>
+</tr>
+
+</table></center>
+</td>
+</tr>
+
+</table></center>
+</td>
+</tr>
+<tr>
+<td valign=3D"top" style=3D"background-color: #FFFFFF;">
+<center><table width=3D"100%" border=3D"0" align=3D"left" cellpadding=3D"0"=
+ cellspacing=3D"0">
+
+<tr>
+<td valign=3D"bottom" style=3D"background-color: #00C1F3;">
+<center><table width=3D"71%" border=3D"0" align=3D"center" cellpadding=3D"5=
+" cellspacing=3D"5">
+
+<tr>
+<td align=3D"center" valign=3D"top">
+<center><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td width=3D"180" height=3D"19"><img src=3D"http://images.lideedujour.fr/20=
+160823/eIKCTrrVv2P/ToUb6t_34.jpg" border=3D"0" width=3D"180" height=3D"19" =
+style=3D"display:block; background-color: #FCFDFE; font-family: Arial, Helv=
+etica, sans-serif; font-size: 14px; color: #030609; text-decoration: none;"=
+ alt=3D"5" /></td>
+<td width=3D"180" height=3D"19"><img src=3D"http://images.lideedujour.fr/20=
+160823/eIKCTrrVv2P/ToUb6t_35.jpg" border=3D"0" width=3D"180" height=3D"19" =
+style=3D"display:block; background-color: #FCFDFE; font-family: Arial, Helv=
+etica, sans-serif; font-size: 14px; color: #030609; text-decoration: none;"=
+ alt=3D"raisons dinvestir" /></td>
+<td width=3D"53" height=3D"19"><img src=3D"http://images.lideedujour.fr/201=
+60823/eIKCTrrVv2P/ToUb6t_36.jpg" border=3D"0" width=3D"53" height=3D"19" st=
+yle=3D"display:block; background-color: #FCFDFE; font-family: Arial, Helvet=
+ica, sans-serif; font-size: 14px; color: #030609; text-decoration: none;" a=
+lt=3D"en ehpad" /></td>
+</tr>
+</table></center>
+</td>
+</tr>
+<tr>
+<td align=3D"left" valign=3D"top">
+<center><table width=3D"100%" border=3D"0" cellpadding=3D"3" cellspacing=3D=
+"0">
+
+<tr>
+<td align=3D"left" valign=3D"baseline"><img src=3D"http://images.lideedujou=
+r.fr/20160823/eIKCTrrVv2P/ToUb6t_37.jpg" border=3D"0" width=3D"17" height=
+=3D"17" style=3D"display:block;" alt=3D"cet email nes'affiche" /></td>
+<td style=3D"font-family: Arial, Helvetica, sans-serif; font-size: 14px; co=
+lor: #FFFFFF; font-weight: bold;">Un actif r=C3=A9el et tangible adapt=
+=C3=A9 aux
+p=C3=A9riodes de crise importante</td>
+</tr>
+<tr>
+<td align=3D"left" valign=3D"baseline"><img src=3D"http://images.lideedujou=
+r.fr/20160823/eIKCTrrVv2P/ToUb6t_38.jpg" border=3D"0" width=3D"17" height=
+=3D"17" style=3D"display:block;" alt=3D"pas correctement,consultez la" /></=
+td>
+<td style=3D"font-family: Arial, Helvetica, sans-serif; font-size: 14px; co=
+lor: #FFFFFF; font-weight: bold;">Une fiscalit=C3=A9 attractive permettant
+d=E2=80=99obtenir des revenus nets d=E2=80=99imp=C3=B4ts malgr=C3=A9 la
+hausse de la pression fiscale</td>
+</tr>
+<tr>
+<td align=3D"left" valign=3D"baseline"><img src=3D"http://images.lideedujou=
+r.fr/20160823/eIKCTrrVv2P/ToUb6t_39.jpg" border=3D"0" width=3D"17" height=
+=3D"17" style=3D"display:block;" alt=3D"version en ligne.Plus" /></td>
+<td style=3D"font-family: Arial, Helvetica, sans-serif; font-size: 14px; co=
+lor: #FFFFFF; font-weight: bold;">Des rendement attractifs et
+s=C3=A9curis=C3=A9s</td>
+</tr>
+<tr>
+<td align=3D"left" valign=3D"baseline"><img src=3D"http://images.lideedujou=
+r.fr/20160823/eIKCTrrVv2P/ToUb6t_40.jpg" border=3D"0" width=3D"17" height=
+=3D"17" style=3D"display:block;" alt=3D"de30%*de gainfiscalEntre 4" /></td>
+<td style=3D"font-family: Arial, Helvetica, sans-serif; font-size: 14px; co=
+lor: #FFFFFF; font-weight: bold;">Une gestion simplifi=C3=A9e et
+d=C3=A9l=C3=A9gu=C3=A9e</td>
+</tr>
+<tr>
+<td align=3D"left" valign=3D"baseline"><img src=3D"http://images.lideedujou=
+r.fr/20160823/eIKCTrrVv2P/ToUb6t_41.jpg" border=3D"0" width=3D"17" height=
+=3D"17" style=3D"display:block;" alt=3D"et 5% de" /></td>
+<td style=3D"font-family: Arial, Helvetica, sans-serif; font-size: 14px; co=
+lor: #FFFFFF; font-weight: bold;">Un excellent moyen de d=C3=A9fendre son p=
+ouvoir
+d=E2=80=99achat contre l=E2=80=99inflation</td>
+</tr>
+
+</table></center>
+</td>
+</tr>
+<tr>
+<td align=3D"center">
+<center><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td width=3D"180" height=3D"45"><a href=3D"http://clicks.lideedujour.fr/cl/=
+702787234/964861/297204/26/MksBTMLEAqCZ9ihRJdNwKX4W1bcTIPs4U41D.htm"><img s=
+rc=3D"http://images.lideedujour.fr/20160823/eIKCTrrVv2P/ToUb6t_42.jpg" bord=
+er=3D"0" width=3D"180" height=3D"45" style=3D"display:block; background-col=
+or: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; co=
+lor: #030609; text-decoration: none;" alt=3D"Je souhaite recevoir" /></a></=
+td>
+<td width=3D"155" height=3D"45"><a href=3D"http://clicks.lideedujour.fr/cl/=
+702787234/964861/297204/27/MksBTMLEAqCZ9ihRJdNwKX4W1bcTIPs4U41D.htm"><img s=
+rc=3D"http://images.lideedujour.fr/20160823/eIKCTrrVv2P/ToUb6t_43.jpg" bord=
+er=3D"0" width=3D"155" height=3D"45" style=3D"display:block; background-col=
+or: #FCFDFE; font-family: Arial, Helvetica, sans-serif; font-size: 14px; co=
+lor: #030609; text-decoration: none;" alt=3D"le guide complet" /></a></td>
+</tr>
+</table></center>
+</td>
+</tr>
+
+</table></center>
+</td>
+</tr>
+
+</table></center>
+</td>
+</tr>
+
+</table></center>
+</td>
+</tr>
+<tr>
+<td align=3D"center" valign=3D"top" style=3D"max-width: 760px; height: auto=
+;">
+<center><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td width=3D"180" height=3D"14"><img src=3D"http://images.lideedujour.fr/20=
+160823/eIKCTrrVv2P/ToUb6t_44.jpg" border=3D"0" width=3D"180" height=3D"14" =
+style=3D"display:block; background-color: #FCFDFE; font-family: Arial, Helv=
+etica, sans-serif; font-size: 14px; color: #030609; text-decoration: none;"=
+ alt=3D"rentabilit=C3=89Des loyers garantis" /></td>
+<td width=3D"180" height=3D"14"><img src=3D"http://images.lideedujour.fr/20=
+160823/eIKCTrrVv2P/ToUb6t_45.jpg" border=3D"0" width=3D"180" height=3D"14" =
+style=3D"display:block; background-color: #FCFDFE; font-family: Arial, Helv=
+etica, sans-serif; font-size: 14px; color: #030609; text-decoration: none;"=
+ alt=3D"par un bail" /></td>
+<td width=3D"180" height=3D"14"><img src=3D"http://images.lideedujour.fr/20=
+160823/eIKCTrrVv2P/ToUb6t_46.jpg" border=3D"0" width=3D"180" height=3D"14" =
+style=3D"display:block; background-color: #FCFDFE; font-family: Arial, Helv=
+etica, sans-serif; font-size: 14px; color: #030609; text-decoration: none;"=
+ alt=3D"commercialUn investissement s=C3=89curis=C3=89," /></td>
+<td width=3D"160" height=3D"14"><img src=3D"http://images.lideedujour.fr/20=
+160823/eIKCTrrVv2P/ToUb6t_47.jpg" border=3D"0" width=3D"160" height=3D"14" =
+style=3D"display:block; background-color: #FCFDFE; font-family: Arial, Helv=
+etica, sans-serif; font-size: 14px; color: #030609; text-decoration: none;"=
+ alt=3D"etencadr=C3=89 par l=E2=80=99=C3=89tatDe" /></td>
+</tr>
+</table></center>
+</td>
+</tr>
+
+</table></center>
+<p style=3D"color: #666666; font-family: Arial, Helvetica, sans-serif; font=
+-size: 11px; text-align: center;">Si vous ne souhaitez plus recevoir de
+newsletter,<br />
+veuillez <a href=3D"http://clicks.lideedujour.fr/cl/702787234/964861/215154=
+/28/V7dnITGBQ7BJcGZXHH8fG8KFTRapvfnykZN2.htm" target=3D"_blank" style=3D"ou=
+tline: none; color: #666666; font-weight: bold; border: none;">cliquez ici<=
+/a>.</p>
+</td>
+</tr>
+
+</table></center><img src=3D"http://tracketclick.com/scripts/imp.php?a_aid=
+=3D53106420001b0&a_bid=3D3sl8al40" width=3D"1" height=3D"1" border=3D"0" al=
+t=3D" " />
+
+
+<img src=3D"http://clicks.lideedujour.fr/op/702787234/964861.gif?t=3D147196=
+9977" height=3D"1" width=3D"1" alt=3D"" border=3D"0" />
+<center><table align=3D"center" style=3D"text-align:center; font-family: Ar=
+ial; font-size: 12px; color: grey;">
+<tr><td style=3D"text-align:center; font-family: Arial; font-size: 12px; co=
+lor: grey;">
+<span style=3D"font-family: Arial;">Vous recevez ce message car vous =C3=
+=AAtes membre de Les L Idee Du Jour.<br /><br />
+Vous pouvez exercer votre droit d'acc=C3=A8s et de suppression
+=C3=A0 tout moment en nous contactant =C3=A0 : info@lideedujour.fr,
+ou en nous =C3=A9crivant =C3=A0 L Idee Du Jour - Av Franc=C3=A9sc Camb=
+=C3=B3 21, 5=C2=BA - 08003 Barcelona.
+<br /><br />
+<a href=3D"http://clicks.lideedujour.fr/u/702787234/9a9de87/MJ8MmLD6R3jSVbY=
+0Ti1O6ey4xNe3tjUmf3nw.html" title=3D"d=C3=A9sabonner" style=3D"color:#00000=
+0; font-weight:bold;">Suivez ce lien pour vous d=C3=A9sabonner</a>.=20
+<a href=3D"http://www.lideedujour.fr/privacy.html" style=3D"color:#000000; =
+font-weight:bold;">Politique de confidentialit=C3=A9</a>.
+</span></td></tr></table></center><br /></body></html>
+
+--1bcc62b46409b8928a11fceac99c3872--

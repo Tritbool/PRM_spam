@@ -1,0 +1,718 @@
+Return-Path: <return-a18-2961-2962-resp-m2-miage=univ-rennes1.fr=4@les-actus.com>
+Received: from mailimailo.univ-rennes1.fr ([unix socket])
+	 by mailimailo.univ-rennes1.fr (Cyrus v2.3.16-Fedora-RPM-2.3.16-6.el6_2.5) with LMTPA;
+	 Wed, 03 Feb 2016 21:04:18 +0100
+X-Sieve: CMU Sieve 2.3
+Received: from mailout1.univ-rennes1.fr (mailout1.univ-rennes1.fr [129.20.128.162])
+	by mailimailo.univ-rennes1.fr (Postfix) with ESMTP id 72DE826A1037
+	for <resp-m2-miage@univ-rennes1.fr>; Wed,  3 Feb 2016 21:04:18 +0100 (CET)
+Received: from localhost (vmscanmail.univ-rennes1.fr [129.20.128.134])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id 6F6276004D
+	for <resp-m2-miage@univ-rennes1.fr>; Wed,  3 Feb 2016 21:04:18 +0100 (CET)
+X-Virus-Scanned: amavisd-new at univ-rennes1.fr
+Received: from mailout1.univ-rennes1.fr ([129.20.128.162])
+	by localhost (vmscanmail.univ-rennes1.frm [129.20.128.134]) (amavisd-new, port 10026)
+	with ESMTP id BT8PLePTUPrQ for <resp-m2-miage@univ-rennes1.fr>;
+	Wed,  3 Feb 2016 21:04:18 +0100 (CET)
+Received: from vmmailin.univ-rennes1.fr (vmmailin.univ-rennes1.fr [129.20.128.133])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id 470206004C
+	for <resp-m2-miage@univ-rennes1.fr>; Wed,  3 Feb 2016 21:04:18 +0100 (CET)
+Received: from mxb2-2.relay.renater.fr (mxb2-2.relay.renater.fr [194.214.200.9])
+	by vmmailin.univ-rennes1.fr (Postfix) with ESMTP id 3FC6F20033
+	for <resp-m2-miage@univ-rennes1.fr>; Wed,  3 Feb 2016 21:04:18 +0100 (CET)
+Received: from smtp1-63.revue-en-ligne.com (smtp1-63.revue-en-ligne.com [46.105.172.211])
+	by mxb2-2.relay.renater.fr (asm) with SMTP id EF09F6000C8
+	for <resp-m2-miage@univ-rennes1.fr>; Wed,  3 Feb 2016 21:04:17 +0100 (CET)
+Received: (GreenArrow 8041 invoked by uid 410); 3 Feb 2016 20:04:11 -0000
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed;
+	d=les-actus.com; s=default; h=Subject:From:To:Date:
+	List-Unsubscribe:Message-ID:MIME-Version:Content-Type; bh=ErMzhT
+	TbLqWeR806lWuobbpnTCo=; b=MUShAYe7IQMiAodvNxVX/+6aUkhsAGy1Ovstwx
+	sHBzXhff/88O7QlEAdFWd4lXg7bqOZl6pJ52yVB4GGv3IrRLdKyZMCLAgB7BoJVq
+	m+Gy9TNDnizuCgGO/th6Iyz1GGIrz6nBkqzuZrfGgAOYDceQ0IfGj19pQaxm9eCL
+	JJ4jU=
+Subject: =?UTF-8?Q?En=20avant=20pour=20la=20derni=C3=A8re?=
+From: =?UTF-8?B?RnJhbsOnb2lzZSBTYWdldCBwYXIgU29jaWFiaWxpd2Vi?= <news@les-actus.com>
+To: resp-m2-miage@univ-rennes1.fr
+Date: 03 Feb 2016 20:04:10 -0000
+List-Unsubscribe: <http://les-actus.com/ga/unsubscribe/2-11527895-18-1535-2962-ed35df89ef15825-12d7eb9977>,
+ <mailto:return-a18-2961-2962-resp-m2-miage=univ-rennes1.fr=4u@les-actus.com>
+X-Mailer: GreenArrow Studio (v4.65.0)
+X-CampaignID: s4:2961-efd40e9fd1c7c753
+Message-ID: <mid-7a44a5e2483c7a304fea81f9bd42510e@les-actus.com>
+X-Mailer-Info: 4.hFDO.gM5YTM.IXZzBXLtJTLtlWYnVGQ15Wa21icl5mblNXMuYmc.gM5YjM
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="==4dd1e92901895b9c6d62d164edd64f3a"
+X-UCE-Status: YES
+X-UCE-Type: MCE
+X-Original-Source-IP: 46.105.172.211
+X-Bizanga: IMP - mxb2-2.relay.renater.fr
+X-Renater-SpamState: 11
+X-Renater-SpamScore: 17
+X-Renater-SpamCause: gggruggvucftvghtrhhoucdtuddrfeekjedrudeigddutdelucetufdoteggodetrfdotffvucfrrhhofhhilhgvmecutffgpfetvffgtfdpggftfghnshhusghstghrihgsvgenuceurghilhhouhhtmecufedttdenucdnofetkffnkffpifculddujedmnecujfgurhepuffhvfffjffokfggtgesrgdtreerredtjeenucfhrhhomhephfhrrghnpohoihhsvgcuufgrghgvthcuphgrrhcuufhotghirggsihhlihifvggsuceonhgvfihssehlvghsqdgrtghtuhhsrdgtohhmqeenucffohhmrghinhepfhhrrghntghoihhsvghsrghgvghtrdgtohhmpdhlvghsqdgrtghtuhhsrdgtohhmnecurfgrrhgrmhepmhhouggvpehsmhhtphdphhgvlhhopehsmhhtphduqdeifedrrhgvvhhuvgdqvghnqdhlihhgnhgvrdgtohhmpdhinhgvthepgeeirddutdehrddujedvrddvuddupdhmrghilhhfrhhomheprhgvthhurhhnqdgrudekqddvleeiuddqvdeliedvqdhrvghsphdqmhdvqdhmihgrghgvpehunhhivhdqrhgvnhhnvghsuddrfhhrpeegsehlvghsqdgrtghtuhhsrdgtohhmpdhrtghpthhtoheprhgvshhpqdhmvddqmhhirghgvgesuhhnihhvqdhrvghnnhgvshdurdhfrh 
+X-Renater-ServerName: mxb2-2.relay.renater.fr
+
+This is a multi-part message in MIME format.
+
+--==4dd1e92901895b9c6d62d164edd64f3a
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Fran=C3=A7oise Saget ( http://les-actus.com/ga/click/2-11527895-18-1535-296=
+2-21298-6b981783e7-12d7eb9977 )
+
+Calendrierde l'Avent ( http://les-actus.com/ga/click/2-11527895-18-1535-296=
+2-21299-1db2ef7915-12d7eb9977 )
+1er commande?
+
+LIVRAISON OFFERTE
+
+d=C3=A8s 15=E2=82=AC d'achat
+
+avec le code : COLLECTION ( http://les-actus.com/ga/click/2-11527895-18-153=
+5-2962-21300-39d5bc12af-12d7eb9977 )
+
+CHAMBRE ( http://les-actus.com/ga/click/2-11527895-18-1535-2962-21301-6e5f8=
+74c86-12d7eb9977 )
+SALLE DE BAIN ( http://les-actus.com/ga/click/2-11527895-18-1535-2962-21302=
+-205381bea0-12d7eb9977 )
+TABLE ( http://les-actus.com/ga/click/2-11527895-18-1535-2962-21303-5c67660=
+011-12d7eb9977 )
+MAISON ( http://les-actus.com/ga/click/2-11527895-18-1535-2962-21304-5d3120=
+22a1-12d7eb9977 )
+LINGERIE DE NUIT ( http://les-actus.com/ga/click/2-11527895-18-1535-2962-21=
+305-3e558d26fd-12d7eb9977 )
+LINGERIE DE JOUR ( http://les-actus.com/ga/click/2-11527895-18-1535-2962-21=
+306-a3c6e3b28f-12d7eb9977 )
+
+Du 6 janvier au 16 f=C3=A9vrier 2016 Soldes ( http://les-actus.com/ga/click=
+/2-11527895-18-1535-2962-21307-d23fe3b9a2-12d7eb9977 )
+
+Tout =C3=A0 -70% Derni=C3=A8re D=C3=A9marque ( http://les-actus.com/ga/clic=
+k/2-11527895-18-1535-2962-21308-f63624a8fd-12d7eb9977 )
+
+j'en profite Stocks Limit=C3=A9s ( http://les-actus.com/ga/click/2-11527895=
+-18-1535-2962-21309-07313683b7-12d7eb9977 )
+
+Vos Avantages!
+
+satisfait ou rembours=C3=A9 ( http://les-actus.com/ga/click/2-11527895-18-1=
+535-2962-21310-8dd12fdbc9-12d7eb9977 )
+
+si votre achat
+
+ne vous pla=C3=AEt pas ( http://les-actus.com/ga/click/2-11527895-18-1535-2=
+962-21311-626239a516-12d7eb9977 )
+
+Un cadeau OFFERT ( http://les-actus.com/ga/click/2-11527895-18-1535-2962-21=
+312-064109cbaf-12d7eb9977 )
+
+pour toute
+
+commande ( http://les-actus.com/ga/click/2-11527895-18-1535-2962-21313-39e0=
+7dba37-12d7eb9977 )
+
+1 ERE commande ? livraison offerte ( http://les-actus.com/ga/click/2-115278=
+95-18-1535-2962-21314-64e91e65bc-12d7eb9977 )
+
+d=C3=A8s15=E2=82=AC d'achat
+
+avec le code : COLLECTION ( http://les-actus.com/ga/click/2-11527895-18-153=
+5-2962-21315-cc0df8befb-12d7eb9977 )
+
+D=C3=A9couvrez les secrets du bien-=C3=AAtre int=C3=A9rieur...
+
+Nouvelles collections Printemps-=C3=A9t=C3=A9 2016
+
+-60% sur l'article le plus cher de votre panier ( http://les-actus.com/ga/c=
+lick/2-11527895-18-1535-2962-21316-259cee4454-12d7eb9977 )
+
+-60% sur l'article le plus cher de votre panier ( http://les-actus.com/ga/c=
+lick/2-11527895-18-1535-2962-21317-046b21e162-12d7eb9977 )
+
+-60% sur l'article le plus cher de votre panier ( http://les-actus.com/ga/c=
+lick/2-11527895-18-1535-2962-21318-be79bbaebf-12d7eb9977 )
+
+JE d=C3=A9couvre la collection printemps-=C3=A9t=C3=A9 ( http://les-actus.c=
+om/ga/click/2-11527895-18-1535-2962-21319-2dba035ae2-12d7eb9977 )
+
+PAIEMENT S=C3=89CURIS=C3=89 ( http://les-actus.com/ga/click/2-11527895-18-1=
+535-2962-21320-aa3abd6dfb-12d7eb9977 )
+GARANTIE SATISFAIT OU REMBOURS=C3=89 ( http://les-actus.com/ga/click/2-1152=
+7895-18-1535-2962-21321-83760d3255-12d7eb9977 )
+LIVRAISON GRATUITE D=C3=88S 40=E2=82=AC D'ACHAT ( http://les-actus.com/ga/c=
+lick/2-11527895-18-1535-2962-21322-111192df77-12d7eb9977 )
+UN CADEAU OFFERT POUR CHAQUE COMMANDE ( http://les-actus.com/ga/click/2-115=
+27895-18-1535-2962-21323-860d89697d-12d7eb9977 )
+
+PAIEMENT
+
+S=C3=89CURIS=C3=89 ( http://les-actus.com/ga/click/2-11527895-18-1535-2962-=
+21324-02bd232a20-12d7eb9977 )
+GARANTIE
+
+SATISFAIT OU REMBOURS=C3=89 ( http://les-actus.com/ga/click/2-11527895-18-1=
+535-2962-21325-1b969700c3-12d7eb9977 )
+LIVRAISON GRATUITE
+
+D=C3=88S 40=E2=82=AC D'ACHAT ( http://les-actus.com/ga/click/2-11527895-18-=
+1535-2962-21326-a66763b1b4-12d7eb9977 )
+UN CADEAU OFFERT
+
+POUR CHAQUE COMMANDE ( http://les-actus.com/ga/click/2-11527895-18-1535-296=
+2-21327-01ccd4e541-12d7eb9977 )
+
+SUIVEZ-NOUS SUR PINTEREST ( http://les-actus.com/ga/click/2-11527895-18-153=
+5-2962-21328-d9b069ec23-12d7eb9977 )
+
+SUIVEZ-NOUS SUR
+
+PINTEREST ( http://les-actus.com/ga/click/2-11527895-18-1535-2962-21329-671=
+6d44f8d-12d7eb9977 )
+
+SUIVEZ-NOUS SUR FACEBOOK ( http://les-actus.com/ga/click/2-11527895-18-1535=
+-2962-21330-f611e74a0f-12d7eb9977 )
+
+SUIVEZ-NOUS SUR ( http://les-actus.com/ga/click/2-11527895-18-1535-2962-213=
+31-7a385f74fd-12d7eb9977 )
+
+FACEBOOK ( http://les-actus.com/ga/click/2-11527895-18-1535-2962-21332-4b1e=
+6b0b0a-12d7eb9977 )
+
+CONTACTEZ-NOUS
+
+0 892 027 576
+
+Service 0,35=E2=82=AC/min + prix appel
+
+Offre SOLDES valable du 06/01 au 16/02/2016 dans la limite des
+stocks disponibles.
+
+(1) TOUT =C3=A0 -70% sur une s=C3=A9lection de linge de maison sold=C3=A9s
+(dans les cat=C3=A9gories chambre, salle de bain, table).
+
+(2) TOUT =C3=A0 -50% sur une s=C3=A9lection d'articles sold=C3=A9s dans
+les cat=C3=A9gories de lingerie de nuit, lingerie de jour, collection
+enfant et
+
+maison.
+
+Offre CATALOGUE Printemps-=C3=A9t=C3=A9 2016 valable du 03/02 au
+29/02/2016 dans la limite des stocks disponibles.
+
+(3) Offre de lancement : -60% sur l'article le plus cher de
+votre panier, hors produits sold=C3=A9s, d=C3=A9stock=C3=A9s et articles en=
+ lot
+
+(4) -50% et plus sur une s=C3=A9lection de linge de maison (dans
+les cat=C3=A9gories chambre, salle de bain, table).
+
+(5) -30% sur une s=C3=A9lection de lingerie de nuit, lingerie de
+jour et articles de la cat=C3=A9gorie "maison".
+
+Code promo COLLECTION : frais de livraison standard offerts
+pour toute commande sup=C3=A9rieure =C3=A0 15=E2=82=AC sur le site
+
+http://les-actus.com/ga/click/2-11527895-18-1535-2962-21333-cc01d98142-12d7=
+eb9977 ( http://les-actus.com/ga/click/2-11527895-18-1535-2962-21334-f92d79=
+3246-12d7eb9977 ).
+
+Les codes de r=C3=A9duction sont valables une fois et ne sont
+pas cumulables avec d'autres codes promotionnels. La r=C3=A9duction
+s'applique
+
+sur le montant total du panier hors frais de port.=
+
+--==4dd1e92901895b9c6d62d164edd64f3a
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.=
+w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml">
+<head>
+	<meta content=3D"text/html; charset=3DUTF-8" http-equiv=3D"Content-Type" />
+	<title>Email SOLDES 3eme dem 2</title>
+</head>
+<body>
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" st=
+yle=3D"font-size:0px;" width=3D"700">
+	<tbody>
+		<tr>
+			<td align=3D"left">
+			<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" height=3D"100" w=
+idth=3D"700">
+				<tbody>
+					<tr>
+						<td height=3D"123" valign=3D"bottom" width=3D"316"><a href=3D"http://=
+les-actus.com/ga/click/2-11527895-18-1535-2962-21298-6b981783e7-12d7eb9977"=
+ target=3D"_blank"><img alt=3D"Fran=C3=A7oise Saget" height=3D"118" src=3D"=
+http://img.digital-metric.com/1/1744/1224/105131/0/img_affiliation_02.jpg" =
+style=3D"display:block; border:none; outline:none; text-decoration:none;" w=
+idth=3D"316" /> </a></td>
+						<td valign=3D"middle"></td>
+						<td valign=3D"bottom" width=3D"324">
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%=
+">
+							<tbody>
+								<tr>
+									<td width=3D"86"><a href=3D"http://les-actus.com/ga/click/2-115278=
+95-18-1535-2962-21299-1db2ef7915-12d7eb9977" target=3D"_blank"><img alt=3D"=
+Calendrierde l'Avent" border=3D"0" height=3D"118" src=3D"http://img.digital=
+-metric.com/1/1744/1224/105131/0/img_email-soldes-3eme-dem-1_03.jpg" style=
+=3D"display:block" width=3D"86" /></a></td>
+									<td align=3D"center" bgcolor=3D"#f4f5de"><a href=3D"http://les-act=
+us.com/ga/click/2-11527895-18-1535-2962-21300-39d5bc12af-12d7eb9977" style=
+=3D"text-decoration:none;" target=3D"_blank"><font color=3D"#aa0062" face=
+=3D"Arial, Helvetica, sans-serif" size=3D"5" style=3D"font-size:25px;"><str=
+ong>1<sup style=3D"font-size:15px;">er</sup> commande?</strong><br />
+									<font style=3D"font-size:18px;"><font color=3D"#c7323d"><strong>LI=
+VRAISON</strong></font><strong> OFFERTE</strong></font><br />
+									<font style=3D"font-size:12px; "><strong>d&egrave;s 15&euro; d&#39=
+;achat<br />
+									avec le code :</strong></font> <font color=3D"#8da539" style=3D"fo=
+nt-size:18px;"><strong>COLLECTION</strong></font></font></a></td>
+									<td align=3D"center" width=3D"11"></td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			</td>
+		</tr>
+		<tr>
+			<td>
+			<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" height=3D"33" wi=
+dth=3D"700">
+				<tbody>
+					<tr>
+						<td width=3D"5"></td>
+						<td height=3D"33"><a href=3D"http://les-actus.com/ga/click/2-11527895=
+-18-1535-2962-21301-6e5f874c86-12d7eb9977" target=3D"_blank"><img alt=3D"CH=
+AMBRE" border=3D"0" height=3D"44" src=3D"http://img.digital-metric.com/1/17=
+44/1224/105131/0/img_newsletter-s3_08.jpg" style=3D"display:block;" width=
+=3D"87" /></a></td>
+						<td><a href=3D"http://les-actus.com/ga/click/2-11527895-18-1535-2962-=
+21302-205381bea0-12d7eb9977" target=3D"_blank"><img alt=3D"SALLE DE BAIN" b=
+order=3D"0" height=3D"44" src=3D"http://img.digital-metric.com/1/1744/1224/=
+105131/0/img_newsletter-s3_09.jpg" style=3D"display:block;" width=3D"135" /=
+></a></td>
+						<td><a href=3D"http://les-actus.com/ga/click/2-11527895-18-1535-2962-=
+21303-5c67660011-12d7eb9977" target=3D"_blank"><img alt=3D"TABLE" border=3D=
+"0" height=3D"44" src=3D"http://img.digital-metric.com/1/1744/1224/105131/0=
+/img_newsletter-s3_10.jpg" style=3D"display:block;" width=3D"78" /></a></td>
+						<td><a href=3D"http://les-actus.com/ga/click/2-11527895-18-1535-2962-=
+21304-5d312022a1-12d7eb9977" target=3D"_blank"><img alt=3D"MAISON" border=
+=3D"0" height=3D"44" src=3D"http://img.digital-metric.com/1/1744/1224/10513=
+1/0/img_newsletter-s3_11.jpg" style=3D"display:block;" width=3D"89" /></a><=
+/td>
+						<td><a href=3D"http://les-actus.com/ga/click/2-11527895-18-1535-2962-=
+21305-3e558d26fd-12d7eb9977" target=3D"_blank"><img alt=3D"LINGERIE DE NUIT=
+" border=3D"0" height=3D"44" src=3D"http://img.digital-metric.com/1/1744/12=
+24/105131/0/img_newsletter-s3_12.jpg" style=3D"display:block;" width=3D"160=
+" /></a></td>
+						<td><a href=3D"http://les-actus.com/ga/click/2-11527895-18-1535-2962-=
+21306-a3c6e3b28f-12d7eb9977" target=3D"_blank"><img alt=3D"LINGERIE DE JOUR=
+" border=3D"0" height=3D"44" src=3D"http://img.digital-metric.com/1/1744/12=
+24/105131/0/img_newsletter-s3_13.jpg" style=3D"display:block;" width=3D"151=
+" /></a></td>
+					</tr>
+				</tbody>
+			</table>
+			</td>
+		</tr>
+		<tr>
+			<td align=3D"center"><a href=3D"http://les-actus.com/ga/click/2-11527895=
+-18-1535-2962-21307-d23fe3b9a2-12d7eb9977" target=3D"_blank"><img alt=3D"Du=
+ 6 janvier au 16 f=C3=A9vrier 2016 Soldes" border=3D"0" height=3D"198" src=
+=3D"http://img.digital-metric.com/1/1744/1224/105131/0/img_email-soldes-3em=
+e-dem-2_03.jpg" style=3D" display: block; border:0;" width=3D"674" /></a></=
+td>
+		</tr>
+		<tr>
+			<td align=3D"center"><a href=3D"http://les-actus.com/ga/click/2-11527895=
+-18-1535-2962-21308-f63624a8fd-12d7eb9977" target=3D"_blank"><img alt=3D"To=
+ut =C3=A0 -70% Derni=C3=A8re D=C3=A9marque" border=3D"0" height=3D"154" src=
+=3D"http://img.digital-metric.com/1/1744/1224/105131/0/img_email-soldes-3em=
+e-dem-2_05.jpg" style=3D" display: block; border:0;" width=3D"674" /></a></=
+td>
+		</tr>
+		<tr>
+			<td align=3D"center"><a href=3D"http://les-actus.com/ga/click/2-11527895=
+-18-1535-2962-21309-07313683b7-12d7eb9977" target=3D"_blank"><img alt=3D" j=
+'en profite Stocks Limit=C3=A9s" border=3D"0" height=3D"158" src=3D"http://=
+img.digital-metric.com/1/1744/1224/105131/0/img_email-soldes-3eme-dem-2_06.=
+jpg" style=3D" display: block; border:0;" width=3D"674" /></a></td>
+		</tr>
+		<tr>
+			<td align=3D"center"><img alt=3D"Vos Avantages!" border=3D"0" height=3D"=
+60" src=3D"http://img.digital-metric.com/1/1744/1224/105131/0/img_email-sol=
+des-3eme-dem-1_13.jpg" style=3D" display: block; border:0;" width=3D"674" /=
+></td>
+		</tr>
+		<tr>
+			<td align=3D"center">
+			<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ width=3D"674">
+				<tbody>
+					<tr>
+						<td valign=3D"top" width=3D"12"><img border=3D"0" height=3D"177" src=
+=3D"http://img.digital-metric.com/1/1744/1224/105131/0/img_email-soldes-3em=
+e-dem-1_14.jpg" style=3D"display:block" width=3D"12" /></td>
+						<td valign=3D"top">
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"204">
+							<tbody>
+								<tr>
+									<td><a href=3D"http://les-actus.com/ga/click/2-11527895-18-1535-29=
+62-21310-8dd12fdbc9-12d7eb9977" target=3D"_blank"><img alt=3D"satisfait ou =
+rembours=C3=A9" border=3D"0" height=3D"113" src=3D"http://img.digital-metri=
+c.com/1/1744/1224/105131/0/img_email-soldes-3eme-dem-1_15.jpg" style=3D"dis=
+play:block" width=3D"204" /></a></td>
+								</tr>
+								<tr>
+									<td align=3D"center" background=3D"http://media.francoisesaget.com=
+/bannieres/20160201/images2/img_email-affiliation-noel-1_b_34.jpg" style=3D=
+" font:16px 'Roboto', sans-serif; color:#aa0062; text-align: center; line-h=
+eight:16px;" valign=3D"top">
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"1=
+00%">
+										<tbody>
+											<tr>
+												<td width=3D"42"><img border=3D"0" height=3D"64" src=3D"http://=
+img.digital-metric.com/1/1744/1224/105131/0/img_email-soldes-3eme-dem-1_22.=
+jpg" style=3D"display:block" width=3D"42" /></td>
+												<td align=3D"center" valign=3D"top"><a href=3D"http://les-actus=
+.com/ga/click/2-11527895-18-1535-2962-21311-626239a516-12d7eb9977" style=3D=
+"text-decoration:none" target=3D"_blank"><font color=3D"#aa0062">si votre a=
+chat<br />
+												ne vous pla&icirc;t pas</font></a></td>
+												<td width=3D"39"></td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+						<td valign=3D"top" width=3D"17"><img border=3D"0" height=3D"177" src=
+=3D"http://img.digital-metric.com/1/1744/1224/105131/0/img_email-soldes-3em=
+e-dem-1_16.jpg" style=3D"display:block" width=3D"24" /></td>
+						<td valign=3D"top">
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"198">
+							<tbody>
+								<tr>
+									<td><a href=3D"http://les-actus.com/ga/click/2-11527895-18-1535-29=
+62-21312-064109cbaf-12d7eb9977" target=3D"_blank"><img alt=3D"Un cadeau OFF=
+ERT" border=3D"0" height=3D"113" src=3D"http://img.digital-metric.com/1/174=
+4/1224/105131/0/img_email-soldes-3eme-dem-1_17.jpg" style=3D"display:block"=
+ width=3D"198" /></a></td>
+								</tr>
+								<tr>
+									<td align=3D"center" background=3D"http://media.francoisesaget.com=
+/bannieres/20160201/images2/img_email-affiliation-noel-1_b_35.jpg" bgcolor=
+=3D"#fefefe" style=3D" font:17px 'Roboto', sans-serif; color:#aa0062; text-=
+align: center; line-height:16px;" valign=3D"top"><a href=3D"http://les-actu=
+s.com/ga/click/2-11527895-18-1535-2962-21313-39e07dba37-12d7eb9977" style=
+=3D"text-decoration:none" target=3D"_blank"><font color=3D"#aa0062">pour to=
+ute<br />
+									commande</font></a></td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+						<td valign=3D"top" width=3D"19"><img border=3D"0" height=3D"177" src=
+=3D"http://img.digital-metric.com/1/1744/1224/105131/0/img_email-soldes-3em=
+e-dem-1_18.jpg" style=3D"display:block" width=3D"24" /></td>
+						<td valign=3D"top">
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"199">
+							<tbody>
+								<tr>
+									<td><a href=3D"http://les-actus.com/ga/click/2-11527895-18-1535-29=
+62-21314-64e91e65bc-12d7eb9977" target=3D"_blank"><img alt=3D"1 ERE command=
+e ? livraison offerte" border=3D"0" height=3D"111" src=3D"http://img.digita=
+l-metric.com/1/1744/1224/105131/0/img_email-soldes-3eme-dem-1_19.jpg" style=
+=3D"display:block" width=3D"199" /></a></td>
+								</tr>
+								<tr>
+									<td align=3D"center" background=3D"http://media.francoisesaget.com=
+/bannieres/20160201/images2/img_email-affiliation-noel-1_b_36.jpg" style=3D=
+" font:17px 'Roboto', sans-serif; color:#aa0062; text-align: center; line-h=
+eight:18px;" valign=3D"top"><a href=3D"http://les-actus.com/ga/click/2-1152=
+7895-18-1535-2962-21315-cc0df8befb-12d7eb9977" style=3D"text-decoration:non=
+e" target=3D"_blank"><font color=3D"#aa0062">d&egrave;s15&euro; d&#39;achat=
+<br />
+									<font style=3D"font-size:12px">avec le code : </font> <font color=
+=3D"#8da539" style=3D"font-size:17px"><strong>COLLECTION</strong></font></f=
+ont></a></td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+						<td valign=3D"top" width=3D"13"><img border=3D"0" height=3D"177" src=
+=3D"http://img.digital-metric.com/1/1744/1224/105131/0/img_email-soldes-3em=
+e-dem-1_20.jpg" style=3D"display:block" width=3D"13" /></td>
+					</tr>
+				</tbody>
+			</table>
+			</td>
+		</tr>
+		<tr>
+			<td align=3D"center" height=3D"24"></td>
+		</tr>
+		<tr>
+			<td align=3D"center" height=3D"34" valign=3D"top"><font color=3D"#aa0062=
+" face=3D"Arial, Helvetica, sans-serif" size=3D"5" style=3D"font-size:28px"=
+>D&eacute;couvrez les secrets du bien-&ecirc;tre int&eacute;rieur...</font>=
+</td>
+		</tr>
+		<tr>
+			<td align=3D"center"><img alt=3D"Nouvelles collections Printemps-=C3=A9t=
+=C3=A9 2016" border=3D"0" height=3D"38" src=3D"http://img.digital-metric.co=
+m/1/1744/1224/105131/0/img_email-soldes-3eme-dem-2_17.jpg" style=3D" displa=
+y: block; border:0;" width=3D"674" /></td>
+		</tr>
+		<tr>
+			<td align=3D"center"><a href=3D"http://les-actus.com/ga/click/2-11527895=
+-18-1535-2962-21316-259cee4454-12d7eb9977" target=3D"_blank"><img alt=3D"-6=
+0% sur l'article le plus cher de votre panier" border=3D"0" height=3D"100" =
+src=3D"http://img.digital-metric.com/1/1744/1224/105131/0/img_email-soldes-=
+3eme-dem-2_18_01.jpg" style=3D" display: block; border:0;" width=3D"674" />=
+</a></td>
+		</tr>
+		<tr>
+			<td align=3D"center"><a href=3D"http://les-actus.com/ga/click/2-11527895=
+-18-1535-2962-21317-046b21e162-12d7eb9977" target=3D"_blank"><img alt=3D"-6=
+0% sur l'article le plus cher de votre panier" border=3D"0" height=3D"81" s=
+rc=3D"http://img.digital-metric.com/1/1744/1224/105131/0/img_email-soldes-3=
+eme-dem-2_18_02.jpg" style=3D" display: block; border:0;" width=3D"674" /><=
+/a></td>
+		</tr>
+		<tr>
+			<td align=3D"center"><a href=3D"http://les-actus.com/ga/click/2-11527895=
+-18-1535-2962-21318-be79bbaebf-12d7eb9977" target=3D"_blank"><img alt=3D"-6=
+0% sur l'article le plus cher de votre panier" border=3D"0" height=3D"83" s=
+rc=3D"http://img.digital-metric.com/1/1744/1224/105131/0/img_email-soldes-3=
+eme-dem-2_18_03.jpg" style=3D" display: block; border:0;" width=3D"674" /><=
+/a></td>
+		</tr>
+		<tr>
+			<td align=3D"center"><a href=3D"http://les-actus.com/ga/click/2-11527895=
+-18-1535-2962-21319-2dba035ae2-12d7eb9977" target=3D"_blank"><img alt=3D"JE=
+ d=C3=A9couvre la collection printemps-=C3=A9t=C3=A9" border=3D"0" height=
+=3D"71" src=3D"http://img.digital-metric.com/1/1744/1224/105131/0/img_email=
+-soldes-3eme-dem-2_19.jpg" style=3D" display: block; border:0;" width=3D"67=
+4" /></a></td>
+		</tr>
+		<tr>
+			<td align=3D"right" height=3D"6" style=3D"line-height:6px; font-size:6px=
+;" valign=3D"bottom"><img border=3D"0" height=3D"6" src=3D"http://img.digit=
+al-metric.com/1/1744/1224/105131/0/img_newsletter-s3_35.jpg" style=3D"displ=
+ay:block;" width=3D"700" /></td>
+		</tr>
+		<tr>
+			<td align=3D"right">
+			<table align=3D"right" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" =
+style=3D" background-color:#FEFCFF;" width=3D"700">
+				<tbody>
+					<tr>
+						<td align=3D"center" style=3D" border-right:dotted; border-right-colo=
+r:#d6c9d2; border-right-width:1px;" valign=3D"middle" width=3D"128"><a href=
+=3D"http://les-actus.com/ga/click/2-11527895-18-1535-2962-21320-aa3abd6dfb-=
+12d7eb9977" style=3D"color:#5B413B; text-decoration:none;" target=3D"_blank=
+"><img alt=3D"PAIEMENT S=C3=89CURIS=C3=89" border=3D"0" height=3D"62" src=
+=3D"http://img.digital-metric.com/1/1744/1224/105131/0/paiement.jpg" style=
+=3D"display:block;" width=3D"93" /></a></td>
+						<td align=3D"center" style=3D"border-right:dotted; border-right-color=
+:#d6c9d2; border-right-width:1px;" valign=3D"middle"><a href=3D"http://les-=
+actus.com/ga/click/2-11527895-18-1535-2962-21321-83760d3255-12d7eb9977" sty=
+le=3D"color:#5B413B; text-decoration:none;" target=3D"_blank"><img alt=3D"G=
+ARANTIE SATISFAIT OU REMBOURS=C3=89" border=3D"0" height=3D"54" src=3D"http=
+://img.digital-metric.com/1/1744/1224/105131/0/garantie.jpg" style=3D"displ=
+ay:block;" width=3D"82" /></a></td>
+						<td align=3D"center" style=3D" border-right:dotted; border-right-colo=
+r:#d6c9d2; border-right-width:1px;" valign=3D"middle" width=3D"184"><a href=
+=3D"http://les-actus.com/ga/click/2-11527895-18-1535-2962-21322-111192df77-=
+12d7eb9977" style=3D"color:#5B413B; text-decoration:none;" target=3D"_blank=
+"><img alt=3D"LIVRAISON GRATUITE D=C3=88S 40=E2=82=AC D'ACHAT" border=3D"0"=
+ height=3D"54" src=3D"http://img.digital-metric.com/1/1744/1224/105131/0/li=
+vraison_72.jpg" style=3D"display:block;" width=3D"182" /></a></td>
+						<td align=3D"center" style=3D"" valign=3D"middle" width=3D"173"><a hr=
+ef=3D"http://les-actus.com/ga/click/2-11527895-18-1535-2962-21323-860d89697=
+d-12d7eb9977" style=3D"color:#5B413B; text-decoration:none;" target=3D"_bla=
+nk"><img alt=3D"UN CADEAU OFFERT POUR CHAQUE COMMANDE" border=3D"0" height=
+=3D"60" src=3D"http://img.digital-metric.com/1/1744/1224/105131/0/cadeau.jp=
+g" style=3D"display:block;" width=3D"77" /></a></td>
+					</tr>
+					<tr>
+						<td style=3D"font: Normal 12px 'Arial', sans-serif; padding-bottom:2p=
+x; text-transform:none; text-align:center; border-right:dotted; border-righ=
+t-color:#d6c9d2; border-right-width:1px;" width=3D"128"><a href=3D"http://l=
+es-actus.com/ga/click/2-11527895-18-1535-2962-21324-02bd232a20-12d7eb9977" =
+style=3D"color:#333; text-decoration:none;" target=3D"_blank"><strong>PAIEM=
+ENT<br />
+						S&Eacute;CURIS&Eacute; </strong></a></td>
+						<td style=3D"font: Normal 12px 'Arial', sans-serif; padding-bottom:2p=
+x; text-transform:none; text-align:center; border-right:dotted; border-righ=
+t-color:#d6c9d2; border-right-width:1px;"><a href=3D"http://les-actus.com/g=
+a/click/2-11527895-18-1535-2962-21325-1b969700c3-12d7eb9977" style=3D"color=
+: #333; text-decoration:none;" target=3D"_blank"><strong>GARANTIE<br />
+						SATISFAIT OU REMBOURS&Eacute; </strong></a></td>
+						<td style=3D"font: Normal 12px 'Arial', sans-serif; padding-bottom:2p=
+x; text-transform:none; text-align:center; border-right:dotted; border-righ=
+t-color:#d6c9d2; border-right-width:1px;" width=3D"183"><a href=3D"http://l=
+es-actus.com/ga/click/2-11527895-18-1535-2962-21326-a66763b1b4-12d7eb9977" =
+style=3D"color: #333; text-decoration:none;" target=3D"_blank"><strong>LIVR=
+AISON GRATUITE</strong><br />
+						<strong>D&Egrave;S 40&euro; D&#39;ACHAT</strong></a></td>
+						<td style=3D"font: Normal 12px 'Arial', sans-serif; padding-bottom:2p=
+x; text-transform:none; text-align:center;" width=3D"175"><a href=3D"http:/=
+/les-actus.com/ga/click/2-11527895-18-1535-2962-21327-01ccd4e541-12d7eb9977=
+" style=3D"color: #333; text-decoration:none;" target=3D"_blank"><strong>UN=
+ CADEAU OFFERT</strong><br />
+						<strong>POUR CHAQUE COMMANDE</strong></a></td>
+					</tr>
+				</tbody>
+			</table>
+			</td>
+		</tr>
+		<tr>
+			<td align=3D"right">
+			<table align=3D"right" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" =
+style=3D"background-color:#fffbff; border-top:dotted; border-top-color:#d6c=
+9d2; border-top-width:1px; height:1px;" width=3D"700">
+			</table>
+			</td>
+		</tr>
+		<tr>
+			<td align=3D"right">
+			<table align=3D"right" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" =
+style=3D"background-color:#fffbff;" width=3D"700">
+				<tbody>
+					<tr>
+						<td style=3D"background-color:#fffbff;" width=3D"42"><a href=3D"http:=
+//les-actus.com/ga/click/2-11527895-18-1535-2962-21328-d9b069ec23-12d7eb997=
+7" style=3D"color: #333; text-decoration:none;" target=3D"_blank"><img alt=
+=3D"SUIVEZ-NOUS SUR PINTEREST" border=3D"0" height=3D"44" src=3D"http://img=
+.digital-metric.com/1/1744/1224/105131/0/footer_02.jpg" style=3D"display:bl=
+ock;" width=3D"42" /></a></td>
+						<td style=3D"background-color:#fffbff;" width=3D"163">
+						<p style=3D"font: Normal 12px 'Arial', sans-serif; text-transform:non=
+e; width: auto; text-align:left;"><a href=3D"http://les-actus.com/ga/click/=
+2-11527895-18-1535-2962-21329-6716d44f8d-12d7eb9977" style=3D"color:#333; t=
+ext-decoration:none;" target=3D"_blank"><strong>SUIVEZ-NOUS SUR<br />
+						PINTEREST</strong></a></p>
+						</td>
+						<td style=3D"background-color:#fffbff;" width=3D"37"><a href=3D"http:=
+//les-actus.com/ga/click/2-11527895-18-1535-2962-21330-f611e74a0f-12d7eb997=
+7" style=3D"color: #333; text-decoration:none;" target=3D"_blank"><img alt=
+=3D"SUIVEZ-NOUS SUR FACEBOOK" border=3D"0" height=3D"35" src=3D"http://img.=
+digital-metric.com/1/1744/1224/105131/0/footer_03.jpg" style=3D"display:blo=
+ck;" width=3D"34" /></a></td>
+						<td style=3D"background-color:#fffbff;" width=3D"133">
+						<p style=3D"font: Normal 12px 'Arial', sans-serif; text-transform:non=
+e; width: auto; text-align:left;"><a href=3D"http://les-actus.com/ga/click/=
+2-11527895-18-1535-2962-21331-7a385f74fd-12d7eb9977" style=3D"color:#333; t=
+ext-decoration:none;" target=3D"_blank"><strong>SUIVEZ-NOUS SUR</strong></a=
+><br />
+						<a href=3D"http://les-actus.com/ga/click/2-11527895-18-1535-2962-2133=
+2-4b1e6b0b0a-12d7eb9977" style=3D"color:#333; text-decoration:none;" target=
+=3D"_blank"><b>FACEBOOK</b></a></p>
+						</td>
+						<td style=3D"background-color:#fffbff;" valign=3D"middle" width=3D"20=
+6">
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%=
+">
+							<tbody>
+								<tr>
+									<td width=3D"60"></td>
+									<td><span style=3D"font: Normal 12px 'Arial', sans-serif; text-tra=
+nsform:none; width: auto; text-align:left;">CONTACTEZ-NOUS<br />
+									<font color=3D"#8b0f73" size=3D"5" style=3D"font-size:20px"><stron=
+g>0 892 027 576</strong></font></span></td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+						<td style=3D"background-color:#fffbff;" width=3D"119"><img alt=3D"Ser=
+vice 0,35=E2=82=AC/min + prix appel" border=3D"0" height=3D"35" src=3D"http=
+://img.digital-metric.com/1/1744/1224/105131/0/img_nl151209_46.jpg" style=
+=3D"display:block;" width=3D"119" /></td>
+					</tr>
+				</tbody>
+			</table>
+			</td>
+		</tr>
+		<tr>
+			<td align=3D"right">
+			<table align=3D"right" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" =
+style=3D"background-color:#fffbff; border-top:dotted; border-top-color:#d6c=
+9d2; border-top-width:1px; height:1px;" width=3D"700">
+			</table>
+			</td>
+		</tr>
+		<tr>
+			<td align=3D"left" valign=3D"top">
+			<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%">
+				<tbody>
+					<tr>
+						<td align=3D"left" bgcolor=3D"#fffbff" style=3D"text-align:left; font=
+:normal 11px Arial, Helvetica, sans-serif; color:#666; line-height:16px; pa=
+dding:10px;" valign=3D"top"><strong>Offre SOLDES </strong>valable du 06/01 =
+au 16/02/2016 dans la limite des stocks disponibles.<br />
+						(1) <strong>TOUT &agrave; -70%</strong> sur une s&eacute;lection de l=
+inge de maison sold&eacute;s (dans les cat&eacute;gories chambre, salle de =
+bain, table).<br />
+						(2)<strong> TOUT &agrave; -50%</strong> sur une s&eacute;lection d&#3=
+9;articles sold&eacute;s dans les cat&eacute;gories de lingerie de nuit, li=
+ngerie de jour, collection enfant et<br />
+						maison.<br />
+						<br />
+						<strong>Offre CATALOGUE Printemps-&eacute;t&eacute; 2016 valable du 0=
+3/02 au 29/02/2016 </strong>dans la limite des stocks disponibles.<br />
+						(3) <strong>Offre de lancement : -60% sur l&#39;article le plus cher =
+de votre panier, </strong>hors produits sold&eacute;s, d&eacute;stock&eacut=
+e;s et articles en lot<br />
+						(4)<strong> -50% et plus </strong>sur une s&eacute;lection de linge d=
+e maison (dans les cat&eacute;gories chambre, salle de bain, table).<br />
+						(5)<strong> -30%</strong> sur une s&eacute;lection de lingerie de nui=
+t, lingerie de jour et articles de la cat&eacute;gorie &quot;maison&quot;.<=
+br />
+						<br />
+						<strong>Code promo COLLECTION :</strong> frais de livraison standard =
+offerts pour toute commande sup&eacute;rieure &agrave; 15&euro; sur le site=
+<br />
+						<a href=3D"http://les-actus.com/ga/click/2-11527895-18-1535-2962-2133=
+4-f92d793246-12d7eb9977" style=3D"text-decoration:none;" target=3D"_blank">=
+<font color=3D"#666666">http://www.francoisesaget.com/fr</font></a>.<br />
+						<br />
+						Les codes de r&eacute;duction sont valables une fois et ne sont pas c=
+umulables avec d&#39;autres codes promotionnels. La r&eacute;duction s&#39;=
+applique<br />
+						sur le montant total du panier hors frais de port.<br />
+						&nbsp;</td>
+					</tr>
+				</tbody>
+			</table>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<p><img border=3D"0" height=3D"1" nosend=3D"" src=3D"http://ea.francoisesag=
+et.com/view/francoisesaget/EMfNwnYS.kZtdivW2YFF1ZIHL7ajCWVhpYWmiYY-/pix.gif=
+?&eemail=3D" style=3D"display:none;" width=3D"1" /> <img border=3D"0" heigh=
+t=3D"1" src=3D"http://mtrc1.digital-metric.com/view.php?params=3D0092c16458=
+9458af04894fdf65fa71f5" width=3D"1" /></p>
+
+<center><a href=3D"http://les-actus.com/ga/unsubscribe/2-11527895-18-1535-2=
+962-ed35df89ef15825-12d7eb9977">Je souhaite me d=C3=A9sinscrire et ne plus =
+recevoir les newsletters</a>
+</center><img src=3D"http://les-actus.com/ga/open/2-11527895-18-1535-2962-1=
+2d7eb9977" height=3D"2" width=3D"3" alt=3D""></body>
+</html>
+
+--==4dd1e92901895b9c6d62d164edd64f3a--

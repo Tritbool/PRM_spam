@@ -1,0 +1,1541 @@
+Return-Path: <return-a18-3077-3078-resp-m2-miage=univ-rennes1.fr=4@les-actus.com>
+Received: from mailimailo.univ-rennes1.fr ([unix socket])
+	 by mailimailo.univ-rennes1.fr (Cyrus v2.3.16-Fedora-RPM-2.3.16-6.el6_2.5) with LMTPA;
+	 Mon, 15 Feb 2016 16:53:12 +0100
+X-Sieve: CMU Sieve 2.3
+Received: from mailout1.univ-rennes1.fr (mailout1.univ-rennes1.fr [129.20.128.162])
+	by mailimailo.univ-rennes1.fr (Postfix) with ESMTP id 0C8D026A0A40
+	for <resp-m2-miage@univ-rennes1.fr>; Mon, 15 Feb 2016 16:53:12 +0100 (CET)
+Received: from localhost (vmscanmail.univ-rennes1.fr [129.20.128.134])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id 0844060144
+	for <resp-m2-miage@univ-rennes1.fr>; Mon, 15 Feb 2016 16:53:12 +0100 (CET)
+X-Virus-Scanned: amavisd-new at univ-rennes1.fr
+Received: from mailout1.univ-rennes1.fr ([129.20.128.162])
+	by localhost (vmscanmail.univ-rennes1.frm [129.20.128.134]) (amavisd-new, port 10026)
+	with ESMTP id 1uAtsJ6kJP2Q for <resp-m2-miage@univ-rennes1.fr>;
+	Mon, 15 Feb 2016 16:53:11 +0100 (CET)
+Received: from vmmailin.univ-rennes1.fr (vmmailin.univ-rennes1.fr [129.20.128.133])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id C9F80600E4
+	for <resp-m2-miage@univ-rennes1.fr>; Mon, 15 Feb 2016 16:53:11 +0100 (CET)
+Received: from mxb2-2.relay.renater.fr (mxb2-2.relay.renater.fr [194.214.200.9])
+	by vmmailin.univ-rennes1.fr (Postfix) with ESMTP id BE7BA20033
+	for <resp-m2-miage@univ-rennes1.fr>; Mon, 15 Feb 2016 16:53:11 +0100 (CET)
+Received: from smtp1-08.revue-en-ligne.com (smtp1-08.revue-en-ligne.com [5.196.201.139])
+	by mxb2-2.relay.renater.fr (asm) with SMTP id 6F3E96004AE
+	for <resp-m2-miage@univ-rennes1.fr>; Mon, 15 Feb 2016 16:53:11 +0100 (CET)
+Received: (GreenArrow 28377 invoked by uid 410); 15 Feb 2016 15:53:11 -0000
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed;
+	d=les-actus.com; s=default; h=Subject:From:To:Date:
+	List-Unsubscribe:Message-ID:MIME-Version:Content-Type; bh=WhrTfy
+	6KZRRUiaPs/oN7jw16ISw=; b=SCSAghmExe8tJjxMMApiCMRHZ1/QkYdPxdktv2
+	pBINppAaKMaUIwnt1XnXaXrZXtX0Y4f9XezumBuOIDi8ziQ5GqneUDLxkKwbMO1v
+	1wv4dquGeos7aI06M+jRGvHvhJQ1jEalHRo1M0D27vRDmcB2VeiYA9HLCSIBjwEF
+	oEjGc=
+Subject: =?UTF-8?Q?D=C3=A9stockage=20jusqu=27=C3=A0=20=E2=80=9380=25?=
+From: =?UTF-8?B?UHJvbW9jcm9pc2nDqHJlIHBhciBTb2NpYWJpbGl3ZWI=?= <news@les-actus.com>
+To: resp-m2-miage@univ-rennes1.fr
+Date: 15 Feb 2016 15:53:11 -0000
+List-Unsubscribe: <http://les-actus.com/ga/unsubscribe/2-11527895-18-1594-3078-ed35df89ef15825-c958795976>,
+ <mailto:return-a18-3077-3078-resp-m2-miage=univ-rennes1.fr=4u@les-actus.com>
+X-Mailer: GreenArrow Studio (v4.65.0)
+X-CampaignID: s4:3077-e1afcdcdb99ff936
+Message-ID: <mid-73e1239fbe62418ca48c6143e0791c58@les-actus.com>
+X-Mailer-Info: 4.hFDO.wMwczN.IXZzBXLtJTLtlWYnVGQ15Wa21icl5mblNXMuYmc.wMwcDO
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="==0ff4e7792fded77d4f8d2ff9165f0a54"
+X-UCE-Status: YES
+X-UCE-Type: MCE
+X-Original-Source-IP: 5.196.201.139
+X-Bizanga: IMP - mxb2-2.relay.renater.fr
+X-Renater-SpamState: 11
+X-Renater-SpamScore: 17
+X-Renater-SpamCause: gggruggvucftvghtrhhoucdtuddrfeekjedrgedugdekvdcutefuodetggdotefrodftvfcurfhrohhfihhlvgemucftgffptefvgfftpdggtfgfnhhsuhgsshgtrhhisggvnecuuegrihhlohhuthemuceftddtnecundfotefknffkpffiucdludejmdenucfjughrpefuhffvfffjoffkgggtsegrtderreertdejnecuhfhrohhmpefrrhhomhhotghrohhishhiqohrvgcuphgrrhcuufhotghirggsihhlihifvggsuceonhgvfihssehlvghsqdgrtghtuhhsrdgtohhmqeenucffohhmrghinhepphhrohhmohgtrhhoihhsihgvrhgvrdgtohhmpdhlvghsqdgrtghtuhhsrdgtohhmnecurfgrrhgrmhepmhhouggvpehsmhhtphdphhgvlhhopehsmhhtphduqddtkedrrhgvvhhuvgdqvghnqdhlihhgnhgvrdgtohhmpdhinhgvthephedrudeliedrvddtuddrudefledpmhgrihhlfhhrohhmpehrvghtuhhrnhdqrgdukedqfedtjeejqdeftdejkedqrhgvshhpqdhmvddqmhhirghgvgepuhhnihhvqdhrvghnnhgvshdurdhfrhepgeeslhgvshdqrggtthhushdrtghomhdprhgtphhtthhopehrvghsphdqmhdvqdhmihgrghgvsehunhhivhdqrhgvnhhnvghsuddrfhhr 
+X-Renater-ServerName: mxb2-2.relay.renater.fr
+
+This is a multi-part message in MIME format.
+
+--==0ff4e7792fded77d4f8d2ff9165f0a54
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+PROMOCroisi=C3=A8re.com ( http://les-actus.com/ga/click/2-11527895-18-1594-=
+3078-22184-6f57050fff-c958795976 )
+
+Infos et R=C3=A9servations 0826 103 100 ( http://les-actus.com/ga/click/2-1=
+1527895-18-1594-3078-22185-87269bffc0-c958795976 )
+
+Destockage jusqu'=C3=A0 - 80% ( http://les-actus.com/ga/click/2-11527895-18=
+-1594-3078-22186-adc104539f-c958795976 )
+
+( http://les-actus.com/ga/click/2-11527895-18-1594-3078-22186-adc104539f-c9=
+58795976 )
+J'en profite ( http://les-actus.com/ga/click/2-11527895-18-1594-3078-22187-=
+352909cddf-c958795976 )
+( http://les-actus.com/ga/click/2-11527895-18-1594-3078-22186-adc104539f-c9=
+58795976 )
+
+( http://les-actus.com/ga/click/2-11527895-18-1594-3078-22186-adc104539f-c9=
+58795976 )
+
+M=C3=A9diterran=C3=A9e ( http://les-actus.com/ga/click/2-11527895-18-1594-3=
+078-22188-014bf974cb-c958795976 )
+
+Cara=C3=AFbes ( http://les-actus.com/ga/click/2-11527895-18-1594-3078-22189=
+-5bffc5d5d5-c958795976 )
+
+Iles grecques ( http://les-actus.com/ga/click/2-11527895-18-1594-3078-22190=
+-a1131b9096-c958795976 )
+
+Canaries Mad=C3=A8re ( http://les-actus.com/ga/click/2-11527895-18-1594-307=
+8-22191-d15715fbe8-c958795976 )
+
+Fjords ( http://les-actus.com/ga/click/2-11527895-18-1594-3078-22192-ea4f09=
+829c-c958795976 )
+
+Asie ( http://les-actus.com/ga/click/2-11527895-18-1594-3078-22193-5a02a4dc=
+c2-c958795976 )
+
+LIQUIDATION DES STOCKS
+LIQUIDATION DES STOCKS
+
+Tarif Choc jusqu'=C3=A0 -67% ( http://les-actus.com/ga/click/2-11527895-18-=
+1594-3078-22194-e70efbabff-c958795976 )
+
+Croisi=C3=A8re Cit=C3=A9s du Soleil : Italie, Sicile, Malte,
+Bal=C3=A9ares et Espagne ( http://les-actus.com/ga/click/2-11527895-18-1594=
+-3078-22194-e70efbabff-c958795976 )
+
+Italie Malte EspagneMSC Preziosa 4* ( http://les-actus.com/ga/click/2-11527=
+895-18-1594-3078-22194-e70efbabff-c958795976 )
+
+-50% pour le 2=C3=A8me passager Forfait boissons
+OFFERT** ( http://les-actus.com/ga/click/2-11527895-18-1594-3078-22194-e70e=
+fbabff-c958795976 )
+
+8 jours =C3=A0 bord ( http://les-actus.com/ga/click/2-11527895-18-1594-3078=
+-22194-e70efbabff-c958795976 )
+
+=C3=A0 partir de ( http://les-actus.com/ga/click/2-11527895-18-1594-3078-22=
+194-e70efbabff-c958795976 )
+
+502=E2=82=AC ( http://les-actus.com/ga/click/2-11527895-18-1594-3078-22194-=
+e70efbabff-c958795976 )
+TTC* ( http://les-actus.com/ga/click/2-11527895-18-1594-3078-22194-e70efbab=
+ff-c958795976 )
+
+J'y vais ( http://les-actus.com/ga/click/2-11527895-18-1594-3078-22194-e70e=
+fbabff-c958795976 )
+
+Exclusivit=C3=A9 jusqu'=C3=A0 -80% ( http://les-actus.com/ga/click/2-115278=
+95-18-1594-3078-22195-26b3757893-c958795976 )
+
+Croisi=C3=A8re Cit=C3=A9s du Soleil : Italie, Sicile, Malte,
+Bal=C3=A9ares et Espagne ( http://les-actus.com/ga/click/2-11527895-18-1594=
+-3078-22196-483bbfbe8a-c958795976 )
+
+Italie Espagne Bal=C3=A9aresCosta Fascinosa 5* ( http://les-actus.com/ga/cl=
+ick/2-11527895-18-1594-3078-22196-483bbfbe8a-c958795976 )
+
+Pension Compl=C3=A8te ( http://les-actus.com/ga/click/2-11527895-18-1594-30=
+78-22196-483bbfbe8a-c958795976 )
+
+8 jours =C3=A0 bord
+
+D=C3=A9part de Savone ( http://les-actus.com/ga/click/2-11527895-18-1594-30=
+78-22196-483bbfbe8a-c958795976 )
+
+=C3=A0 partir de ( http://les-actus.com/ga/click/2-11527895-18-1594-3078-22=
+196-483bbfbe8a-c958795976 )
+
+356=E2=82=AC ( http://les-actus.com/ga/click/2-11527895-18-1594-3078-22196-=
+483bbfbe8a-c958795976 )
+TTC* ( http://les-actus.com/ga/click/2-11527895-18-1594-3078-22196-483bbfbe=
+8a-c958795976 )
+
+J'y vais ( http://les-actus.com/ga/click/2-11527895-18-1594-3078-22196-483b=
+bfbe8a-c958795976 )
+
+Imbattable jusqu'=C3=A0 -58% ( http://les-actus.com/ga/click/2-11527895-18-=
+1594-3078-22197-f1c010cc3c-c958795976 )
+
+Croisi=C3=A8re Cit=C3=A9s du Soleil : Italie, Sicile, Malte,
+Bal=C3=A9ares et Espagne ( http://les-actus.com/ga/click/2-11527895-18-1594=
+-3078-22197-f1c010cc3c-c958795976 )
+
+Italie Espagne Maroc Portugal MSC Splendida 5*
+( http://les-actus.com/ga/click/2-11527895-18-1594-3078-22197-f1c010cc3c-c9=
+58795976 )
+
+-50% pour le 2=C3=A8me passager Forfait boissons
+OFFERT** ( http://les-actus.com/ga/click/2-11527895-18-1594-3078-22197-f1c0=
+10cc3c-c958795976 )
+
+8 jours =C3=A0 bord
+
+D=C3=A9part de Marseille ( http://les-actus.com/ga/click/2-11527895-18-1594=
+-3078-22197-f1c010cc3c-c958795976 )
+
+=C3=A0 partir de ( http://les-actus.com/ga/click/2-11527895-18-1594-3078-22=
+197-f1c010cc3c-c958795976 )
+
+599=E2=82=AC ( http://les-actus.com/ga/click/2-11527895-18-1594-3078-22197-=
+f1c010cc3c-c958795976 )
+TTC* ( http://les-actus.com/ga/click/2-11527895-18-1594-3078-22197-f1c010cc=
+3c-c958795976 )
+
+J'y vais ( http://les-actus.com/ga/click/2-11527895-18-1594-3078-22198-0d87=
+208f2b-c958795976 )
+
+Tarif Choc jusqu'=C3=A0 -50% ( http://les-actus.com/ga/click/2-11527895-18-=
+1594-3078-22199-ffc6d2fc8d-c958795976 )
+
+Croisi=C3=A8re Cit=C3=A9s du Soleil : Italie, Sicile, Malte,
+Bal=C3=A9ares et Espagne ( http://les-actus.com/ga/click/2-11527895-18-1594=
+-3078-22199-ffc6d2fc8d-c958795976 )
+
+Italie Malte Espagne MSC Poesia 4* ( http://les-actus.com/ga/click/2-115278=
+95-18-1594-3078-22199-ffc6d2fc8d-c958795976 )
+
+-50% pour le 2=C3=A8me passager Forfait boissons
+OFFERT** ( http://les-actus.com/ga/click/2-11527895-18-1594-3078-22199-ffc6=
+d2fc8d-c958795976 )
+
+8 jours =C3=A0 bord
+
+D=C3=A9part de Marseille ( http://les-actus.com/ga/click/2-11527895-18-1594=
+-3078-22199-ffc6d2fc8d-c958795976 )
+
+=C3=A0 partir de ( http://les-actus.com/ga/click/2-11527895-18-1594-3078-22=
+199-ffc6d2fc8d-c958795976 )
+
+502=E2=82=AC ( http://les-actus.com/ga/click/2-11527895-18-1594-3078-22199-=
+ffc6d2fc8d-c958795976 )
+TTC* ( http://les-actus.com/ga/click/2-11527895-18-1594-3078-22199-ffc6d2fc=
+8d-c958795976 )
+
+J'y vais ( http://les-actus.com/ga/click/2-11527895-18-1594-3078-22199-ffc6=
+d2fc8d-c958795976 )
+
+Imbattable jusqu'=C3=A0 -52% ( http://les-actus.com/ga/click/2-11527895-18-=
+1594-3078-22200-ad71c69292-c958795976 )
+
+Croisi=C3=A8re Cit=C3=A9s du Soleil : Italie, Sicile, Malte,
+Bal=C3=A9ares et Espagne ( http://les-actus.com/ga/click/2-11527895-18-1594=
+-3078-22201-8ddbf84d57-c958795976 )
+
+Gr=C3=A8ce, Croatie, Italie MSC Magnifica 5* ( http://les-actus.com/ga/clic=
+k/2-11527895-18-1594-3078-22201-8ddbf84d57-c958795976 )
+
+-50% pour le 2=C3=A8me passager Forfait boissons
+OFFERT** ( http://les-actus.com/ga/click/2-11527895-18-1594-3078-22201-8ddb=
+f84d57-c958795976 )
+
+8 jours =C3=A0 bord
+
+D=C3=A9part de Venise ( http://les-actus.com/ga/click/2-11527895-18-1594-30=
+78-22201-8ddbf84d57-c958795976 )
+
+=C3=A0 partir de ( http://les-actus.com/ga/click/2-11527895-18-1594-3078-22=
+201-8ddbf84d57-c958795976 )
+
+524=E2=82=AC ( http://les-actus.com/ga/click/2-11527895-18-1594-3078-22201-=
+8ddbf84d57-c958795976 )
+TTC* ( http://les-actus.com/ga/click/2-11527895-18-1594-3078-22201-8ddbf84d=
+57-c958795976 )
+
+J'y vais ( http://les-actus.com/ga/click/2-11527895-18-1594-3078-22201-8ddb=
+f84d57-c958795976 )
+
+Coup de Coeur ( http://les-actus.com/ga/click/2-11527895-18-1594-3078-22202=
+-f82c978df4-c958795976 )
+
+Croisi=C3=A8re Cit=C3=A9s du Soleil : Italie, Sicile, Malte,
+Bal=C3=A9ares et Espagne ( http://les-actus.com/ga/click/2-11527895-18-1594=
+-3078-22202-f82c978df4-c958795976 )
+
+Italie, Gr=C3=A8ce et Sicile Costa Neoclassica 3* 5*
+( http://les-actus.com/ga/click/2-11527895-18-1594-3078-22202-f82c978df4-c9=
+58795976 )
+
+Pension Compl=C3=A8te ( http://les-actus.com/ga/click/2-11527895-18-1594-30=
+78-22202-f82c978df4-c958795976 )
+
+13 jours =C3=A0 bord ( http://les-actus.com/ga/click/2-11527895-18-1594-307=
+8-22202-f82c978df4-c958795976 )
+
+=C3=A0 partir de ( http://les-actus.com/ga/click/2-11527895-18-1594-3078-22=
+202-f82c978df4-c958795976 )
+
+679=E2=82=AC ( http://les-actus.com/ga/click/2-11527895-18-1594-3078-22202-=
+f82c978df4-c958795976 )
+TTC* ( http://les-actus.com/ga/click/2-11527895-18-1594-3078-22202-f82c978d=
+f4-c958795976 )
+
+J'y vais ( http://les-actus.com/ga/click/2-11527895-18-1594-3078-22202-f82c=
+978df4-c958795976 )
+
+POURQUOI PROMOCROISIERE ? ( http://les-actus.com/ga/click/2-11527895-18-159=
+4-3078-22203-1478759df9-c958795976 )
+
+Promotions toute l=C2=B4ann=C3=A9e
+
+90% de clients satisfaits
+
+Service client 7 J / 7J
+
+*Nos prix sont affich=C3=A9s en TTC (soit le prix de la croisiere HT
+compl=C3=A9t=C3=A9 des taxes portuaires et/ou a=C3=A9roportuaires): prix "a
+partir de" correspondant au prix brochure du fournisseur concern=C3=A9
+et =C3=A9tabli sur la base d'une cabine double de la cat=C3=A9gorie la plus
+simple pour chaque type de cabines (int=C3=A9rieure, ext=C3=A9rieure, avec
+balcon, et suite) et sous r=C3=A9serve de disponibilit=C3=A9s. Les tarifs
+varient en fonction du navire, de la date de la croisiere, et de
+la cat=C3=A9gorie de cabine. Ces tarifs n'incluent pas les frais de
+dossier et de derniere minute, ni les suppl=C3=A9ments sp=C3=A9cifiques
+susceptibles de s'appliquer a certaines croisieres. Le prix
+effectif sera confirm=C3=A9 au moment de la r=C3=A9servation.
+
+**Du lundi au vendredi de 8h =C3=A0 23h, le samedi de 9h =C3=A0
+23h, le dimanche de 10h =C3=A0 23h (0.15 =E2=82=AC TTC/min) Afin de respect=
+er
+les dispositions l=C3=A9gales concernant les courriers =C3=A9lectroniques.
+Vous disposez d'un droit d'acc=C3=A8s, de modification, de
+rectification et de suppression des donn=C3=A9es qui vous concernent
+(articles 38 et suivants de la loi du 6 janvier 1978 relative =C3=A0
+l'informatique, aux fichiers et aux libert=C3=A9s).
+
+La vente de voyages sous la marque promocroisiere.com
+est assur=C3=A9e par Karavel, 17 rue de l'Echiquier 75010 Paris - SAS
+au Capital de 39 838 060 =E2=82=AC - RCS PARIS B 499 668 606 -
+Immatriculation =C2=AB Atout France =C2=BB : IM075110099 - T=C3=A9l. : 0826=
+ 103
+100 (0,15=E2=82=AC/mn TTC depuis un poste fixe en France) - Garant: APS,
+15 av Carnot, 75017 Paris - RCP : Hiscox, 19, rue Louis le Grand,
+75002 Paris.=
+
+--==0ff4e7792fded77d4f8d2ff9165f0a54
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+	<meta content=3D"text/html; charset=3Dutf-8" http-equiv=3D"Content-Type" />
+	<title>Newsletter</title>
+	<style type=3D"text/css">#outlook a {padding:0;}
+        table *{
+            -webkit-text-size-adjust:none !important;
+            -moz-text-size-adjust:none !important;
+            -ms-text-size-adjust:none !important;
+            line-height:normal;
+            line-height:100%\9;
+            +line-height:normal;
+        }
+        .ExternalClass {width:100%;}
+        .ExternalClass, .ExternalClass span, .ExternalClass td {line-height=
+: 100%;}
+        #backgroundTable {margin:0; padding:0; width:100% !important; line-=
+height: 100% !important;}
+        img {outline:none; text-decoration:none; -ms-interpolation-mode: bi=
+cubic;}
+        a img {border:none;}
+        table td {border-collapse: collapse;}
+        table { border-collapse:collapse; mso-table-lspace:0pt; mso-table-r=
+space:0pt; }
+	</style>
+</head>
+<body bgcolor=3D"#f1f1f1">
+<table align=3D"center" bgcolor=3D"#ffffff" border=3D"0" cellpadding=3D"0" =
+cellspacing=3D"0" summary=3D"" width=3D"640">
+	<tbody>
+		<tr>
+			<td align=3D"center"><!--Debut Header-->
+			<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ summary=3D"" width=3D"640">
+				<tbody>
+					<tr>
+						<td><a href=3D"http://les-actus.com/ga/click/2-11527895-18-1594-3078-=
+22184-6f57050fff-c958795976" style=3D"text-decoration:none; border:none;" t=
+arget=3D"_blank" title=3D"PROMOCroisi=C3=A8re.com"><img alt=3D"PROMOCroisi=
+=C3=A8re.com" border=3D"0" height=3D"108" src=3D"http://affiliation.service=
+-voyages.com/PMC/2016/S02/logo.jpg" style=3D"display: block; color:#ffffff;=
+ background-color:#47b5fe; font-family: Arial; font-size: 12px; font-weight=
+: bold; text-align: center; line-height:normal" width=3D"363" /></a></td>
+						<td><img border=3D"0" height=3D"108" src=3D"http://affiliation.servic=
+e-voyages.com/PMC/2016/S02/head.jpg" style=3D"display:block; background-col=
+or:#47b5fe;" width=3D"47" /></td>
+						<td><a href=3D"http://les-actus.com/ga/click/2-11527895-18-1594-3078-=
+22185-87269bffc0-c958795976" style=3D"text-decoration:none; border:none;" t=
+arget=3D"_blank" title=3D"Infos et R=C3=A9servations 0826 103 100"><img alt=
+=3D"Infos et R=C3=A9servations 0826 103 100" border=3D"0" height=3D"108" sr=
+c=3D"http://affiliation.service-voyages.com/PMC/2016/S02/contact.jpg" style=
+=3D"display: block; color:#ffffff; font-family: Arial; font-size: 12px; fon=
+t-weight: bold; text-align: center; line-height:normal; background-color:#4=
+7b5fe;" width=3D"230" /></a></td>
+					</tr>
+				</tbody>
+			</table>
+
+			<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ summary=3D"" width=3D"640">
+				<tbody>
+					<tr>
+						<td><a href=3D"http://les-actus.com/ga/click/2-11527895-18-1594-3078-=
+22186-adc104539f-c958795976" style=3D"text-decoration:none; border:none;" t=
+arget=3D"_blank" title=3D"Destockage jusqu'=C3=A0 - 80%"><img alt=3D"Destoc=
+kage jusqu'=C3=A0 - 80%" border=3D"0" height=3D"222" src=3D"http://affiliat=
+ion.service-voyages.com/PMC/2016/S02/banniere-top.png" style=3D"display: bl=
+ock; color:#0253BF; font-family: Arial; font-size: 12px; font-weight: bold;=
+ text-align: center; line-height:normal" width=3D"640" /></a></td>
+					</tr>
+					<tr>
+						<td align=3D"center">
+						<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0" summary=3D"" width=3D"640">
+							<tbody>
+								<tr>
+									<td><a href=3D"http://les-actus.com/ga/click/2-11527895-18-1594-30=
+78-22186-adc104539f-c958795976" style=3D"text-decoration:none; border:none;=
+" target=3D"_blank" title=3D"Destockage jusqu'=C3=A0 - 80%"><img border=3D"=
+0" height=3D"27" src=3D"http://affiliation.service-voyages.com/PMC/2016/S02=
+/banniere_mid_1.jpg" style=3D"display: block; line-height:normal" width=3D"=
+479" /></a></td>
+									<td><a href=3D"http://les-actus.com/ga/click/2-11527895-18-1594-30=
+78-22187-352909cddf-c958795976" style=3D"text-decoration:none; border:none;=
+" target=3D"_blank" title=3D"J'en profite"><img alt=3D"J'en profite" border=
+=3D"0" height=3D"27" src=3D"http://affiliation.service-voyages.com/PMC/2016=
+/S02/j-en-profite.jpg" style=3D"display: block; color:#ffffff;background-co=
+lor:#0B9BA1; font-family: Arial; font-size: 12px; font-weight: bold; text-a=
+lign: center; line-height:normal" width=3D"149" /></a></td>
+									<td><a href=3D"http://les-actus.com/ga/click/2-11527895-18-1594-30=
+78-22186-adc104539f-c958795976" style=3D"text-decoration:none; border:none;=
+" target=3D"_blank" title=3D"Destockage jusqu'=C3=A0 - 80%"><img border=3D"=
+0" height=3D"27" src=3D"http://affiliation.service-voyages.com/PMC/2016/S02=
+/banniere_mid_2.gif" style=3D"display: block; line-height:normal" width=3D"=
+12" /></a></td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+					<tr>
+						<td><a href=3D"http://les-actus.com/ga/click/2-11527895-18-1594-3078-=
+22186-adc104539f-c958795976" style=3D"text-decoration:none; border:none;" t=
+arget=3D"_blank" title=3D"Destockage jusqu'=C3=A0 - 80%"><img border=3D"0" =
+height=3D"15" src=3D"http://affiliation.service-voyages.com/PMC/2016/S02/ba=
+nniere_bot.jpg" style=3D"display: block; line-height:normal" width=3D"640" =
+/></a></td>
+					</tr>
+					<tr>
+						<td><!--Debut menu-->
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" summary=3D"" =
+width=3D"640">
+							<tbody>
+								<tr>
+									<td align=3D"center" height=3D"27" style=3D"font-family:Arial; fon=
+t-size:14px" width=3D"120"><a href=3D"http://les-actus.com/ga/click/2-11527=
+895-18-1594-3078-22188-014bf974cb-c958795976" style=3D"text-decoration:none=
+; color:#010101" target=3D"_blank" title=3D"M=C3=A9dit=C3=A9rran=C3=A9e">M&=
+eacute;diterran&eacute;e</a></td>
+									<td><img height=3D"27" src=3D"http://affiliation.service-voyages.c=
+om/PMC/2016/S02/sep_menu.gif" style=3D"display:block" width=3D"3" /></td>
+									<td align=3D"center" style=3D"font-family:Arial; font-size:14px" w=
+idth=3D"88"><a href=3D"http://les-actus.com/ga/click/2-11527895-18-1594-307=
+8-22189-5bffc5d5d5-c958795976" style=3D"text-decoration:none; color:#010101=
+" target=3D"_blank" title=3D"Cara=C3=AFbes">Cara&iuml;bes</a></td>
+									<td><img height=3D"27" src=3D"http://affiliation.service-voyages.c=
+om/PMC/2016/S02/sep_menu.gif" style=3D"display:block" width=3D"3" /></td>
+									<td align=3D"center" style=3D"font-family:Arial; font-size:14px" w=
+idth=3D"117"><a href=3D"http://les-actus.com/ga/click/2-11527895-18-1594-30=
+78-22190-a1131b9096-c958795976" style=3D"text-decoration:none; color:#01010=
+1" target=3D"_blank" title=3D"Iles grecques">Iles grecques</a></td>
+									<td><img height=3D"27" src=3D"http://affiliation.service-voyages.c=
+om/PMC/2016/S02/sep_menu.gif" style=3D"display:block" width=3D"3" /></td>
+									<td align=3D"center" style=3D"font-family:Arial; font-size:14px" w=
+idth=3D"142"><a href=3D"http://les-actus.com/ga/click/2-11527895-18-1594-30=
+78-22191-d15715fbe8-c958795976" style=3D"text-decoration:none; color:#01010=
+1" target=3D"_blank" title=3D"Canaries Mad=C3=A8re">Canaries Mad&egrave;re<=
+/a></td>
+									<td><img height=3D"27" src=3D"http://affiliation.service-voyages.c=
+om/PMC/2016/S02/sep_menu.gif" style=3D"display:block" width=3D"3" /></td>
+									<td align=3D"center" style=3D"font-family:Arial; font-size:14px" w=
+idth=3D"74"><a href=3D"http://les-actus.com/ga/click/2-11527895-18-1594-307=
+8-22192-ea4f09829c-c958795976" style=3D"text-decoration:none; color:#010101=
+" target=3D"_blank" title=3D"Fjords">Fjords</a></td>
+									<td><img height=3D"27" src=3D"http://affiliation.service-voyages.c=
+om/PMC/2016/S02/sep_menu.gif" style=3D"display:block" width=3D"3" /></td>
+									<td align=3D"center" style=3D"font-family:Arial; font-size:14px" w=
+idth=3D"82"><a href=3D"http://les-actus.com/ga/click/2-11527895-18-1594-307=
+8-22193-5a02a4dcc2-c958795976" style=3D"text-decoration:none; color:#010101=
+" target=3D"_blank" title=3D"Asie">Asie</a></td>
+								</tr>
+							</tbody>
+						</table>
+						<!--Fin menu--></td>
+					</tr>
+				</tbody>
+			</table>
+			<!--Fin Header--></td>
+		</tr>
+		<tr>
+			<td><img height=3D"8" src=3D"http://affiliation.service-voyages.com/PMC/=
+2016/S02/menu_shad.png" style=3D"display:block;" width=3D"640" /></td>
+		</tr>
+		<tr>
+			<td height=3D"13"></td>
+		</tr>
+		<tr>
+			<td align=3D"center">
+			<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ summary=3D"">
+				<tbody>
+					<tr>
+						<td><img alt=3D"LIQUIDATION DES STOCKS" height=3D"48" src=3D"http://a=
+ffiliation.service-voyages.com/PMC/2016/S02/liquidation.jpg" style=3D"displ=
+ay:block; color:#ffffff; background-color:0b9ba1; font-size:20px; line-heig=
+ht:none; font-family:Arial; font-weight:bold;" width=3D"616" /></td>
+						<!--td bgcolor=3D"#1da1d8" width=3D"393" align=3D"center"><span style=
+=3D"color:#ffffff; font-size:28px; font-family:Arial;">LIQUIDATION DES STOC=
+KS</span></td>
+      <td><img src=3D"http://affiliation.service-voyages.com/PMC/2016/S02/r=
+bg_title.jpg" width=3D"113" height=3D"48"  style=3D"display:block;"/></td-->
+					</tr>
+				</tbody>
+			</table>
+			</td>
+		</tr>
+		<tr>
+			<td height=3D"10"></td>
+		</tr>
+		<tr>
+			<td><!--Debut Produit-->
+			<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" summary=3D"">
+				<tbody>
+					<tr>
+						<td align=3D"center">
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" summary=3D"">
+							<tbody>
+								<tr>
+									<td valign=3D"top"><!-- DEBUT PRODUIT 1 -->
+									<table bgcolor=3D"#FFFFFF" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" summary=3D"" width=3D"302">
+										<tbody>
+											<tr>
+												<td align=3D"center" bgcolor=3D"#0b9ba1" height=3D"27" valign=
+=3D"middle"><a href=3D"http://les-actus.com/ga/click/2-11527895-18-1594-307=
+8-22194-e70efbabff-c958795976" style=3D"text-decoration:none; border:none; =
+color:#fefefe; font-size:16px; line-height:normal; font-weight:bold; font-f=
+amily:Myriad Pro;" target=3D"_blank" title=3D"Croisi=C3=A8re Italie, Malte =
+et Espagne">Tarif Choc jusqu&#39;&agrave; -67%</a></td>
+											</tr>
+											<tr>
+												<td align=3D"center"><a href=3D"http://les-actus.com/ga/click/2=
+-11527895-18-1594-3078-22194-e70efbabff-c958795976" style=3D"text-decoratio=
+n:none; border:none" target=3D"_blank" title=3D"Croisi=C3=A8re Italie, Malt=
+e et Espagne"><img alt=3D"Croisi=C3=A8re Cit=C3=A9s du Soleil : Italie, Sic=
+ile, Malte, Bal=C3=A9ares et Espagne" height=3D"111" src=3D"http://static.a=
+bcroisiere.com/images/fr/escales/escale,Marseille-France_zoom,FR,MRS,26265.=
+jpg" style=3D"display: block; color:#0253BF; font-family: Arial; font-size:=
+ 12px; font-weight: bold; text-align: center; line-height:normal" width=3D"=
+302" /></a></td>
+											</tr>
+											<tr>
+												<td height=3D"10"></td>
+											</tr>
+											<tr>
+												<td align=3D"center">
+												<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" summary=3D"">
+													<tbody>
+														<tr>
+															<td align=3D"center" valign=3D"top">
+															<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" summ=
+ary=3D"" width=3D"144">
+																<tbody>
+																	<tr>
+																		<td align=3D"center"><a href=3D"http://les-actus.com/ga/c=
+lick/2-11527895-18-1594-3078-22194-e70efbabff-c958795976" style=3D"text-dec=
+oration:none; border:none;line-height:normal;color:#0a838a;font-size:14px; =
+font-weight:bold;  font-family:Myriad Pro;" target=3D"_blank" title=3D"Croi=
+si=C3=A8re Italie, Malte et Espagne">Italie Malte EspagneMSC Preziosa 4*</a=
+></td>
+																	</tr>
+																	<tr>
+																		<td height=3D"2"></td>
+																	</tr>
+																	<tr>
+																		<td align=3D"center"><a href=3D"http://les-actus.com/ga/c=
+lick/2-11527895-18-1594-3078-22194-e70efbabff-c958795976" style=3D"text-dec=
+oration:none; border:none; color:#333333; font-size:12px; line-height:norma=
+l;font-weight:bold; font-family:Myriad Pro;" target=3D"_blank" title=3D"Cro=
+isi=C3=A8re Italie, Malte et Espagne">-50% pour le 2&egrave;me passager For=
+fait boissons OFFERT**</a></td>
+																	</tr>
+																	<tr>
+																		<td height=3D"8"></td>
+																	</tr>
+																	<tr>
+																		<td align=3D"center"><a href=3D"http://les-actus.com/ga/c=
+lick/2-11527895-18-1594-3078-22194-e70efbabff-c958795976" style=3D"text-dec=
+oration:none; border:none; color:#333333; font-size:12px; line-height:norma=
+l; font-family:Myriad Pro;" target=3D"_blank" title=3D"Croisi=C3=A8re Itali=
+e, Malte et Espagne">8 jours &agrave; bord</a></td>
+																	</tr>
+																</tbody>
+															</table>
+															</td>
+															<td width=3D"10"></td>
+															<td valign=3D"top">
+															<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" summ=
+ary=3D"">
+																<tbody>
+																	<tr>
+																		<td height=3D"2"></td>
+																	</tr>
+																	<tr>
+																		<td align=3D"left"><a href=3D"http://les-actus.com/ga/cli=
+ck/2-11527895-18-1594-3078-22194-e70efbabff-c958795976" style=3D"text-decor=
+ation:none; border:none; color:#ff0000; font-size:11px; line-height:normal;=
+font-family:Myriad Pro; display:block; height:10px; font-weight:bold;" targ=
+et=3D"_blank" title=3D"Croisi=C3=A8re Italie, Malte et Espagne">&agrave; pa=
+rtir de</a></td>
+																	</tr>
+																	<tr>
+																		<td height=3D"3"></td>
+																	</tr>
+																	<tr>
+																		<td valign=3D"bottom">
+																		<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" s=
+ummary=3D"">
+																			<tbody>
+																				<tr>
+																					<td align=3D"center"><a href=3D"http://les-actus.com/g=
+a/click/2-11527895-18-1594-3078-22194-e70efbabff-c958795976" style=3D"text-=
+decoration:none; border:none; color:#ff0000; font-size:26px; line-height:no=
+rmal; font-weight:bold; font-family:Arial;" target=3D"_blank" title=3D"Croi=
+si=C3=A8re Italie, Malte et Espagne">502&euro;</a></td>
+																					<td align=3D"center" style=3D"padding-top:4px;" valign=
+=3D"top" width=3D"32"><a href=3D"http://les-actus.com/ga/click/2-11527895-1=
+8-1594-3078-22194-e70efbabff-c958795976" style=3D"text-decoration:none; bor=
+der:none; color:#ff0000; font-size:11px; line-height:normal;font-family:Myr=
+iad Pro; display:block; height:10px; font-weight:bold;" target=3D"_blank" t=
+itle=3D"Croisi=C3=A8re Italie, Malte et Espagne">TTC*</a></td>
+																				</tr>
+																			</tbody>
+																		</table>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td height=3D"3"></td>
+																	</tr>
+																	<tr>
+																		<td align=3D"center" height=3D"23"><a href=3D"http://les-=
+actus.com/ga/click/2-11527895-18-1594-3078-22194-e70efbabff-c958795976" sty=
+le=3D"text-decoration:none; border:none;" target=3D"_blank" title=3D"J'y va=
+is"><img alt=3D"J'y vais" border=3D"0" height=3D"23" src=3D"http://affiliat=
+ion.service-voyages.com/PMC/2016/S02/jy_vais.jpg" style=3D"display: block; =
+color:#ffffff; background-color:#0B9BA1; font-family: Arial; font-size: 12p=
+x; font-weight: bold; text-align: center; line-height:normal" width=3D"126"=
+ /></a></td>
+																	</tr>
+																</tbody>
+															</table>
+															</td>
+															<td width=3D"22"></td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									<!-- FIN PRODUIT 1 --></td>
+									<td width=3D"12"></td>
+									<td valign=3D"top"><!-- DEBUT PRODUIT 2 -->
+									<table bgcolor=3D"#FFFFFF" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" summary=3D"" width=3D"302">
+										<tbody>
+											<tr>
+												<td align=3D"center" bgcolor=3D"#0b9ba1" height=3D"27" valign=
+=3D"middle"><a href=3D"http://les-actus.com/ga/click/2-11527895-18-1594-307=
+8-22195-26b3757893-c958795976" style=3D"text-decoration:none; border:none; =
+color:#fefefe; font-size:16px; line-height:normal; font-weight:bold; font-f=
+amily:Myriad Pro;" target=3D"_blank" title=3D"Croisi=C3=A8re Italie, Bal=C3=
+=A9ares et Espagne">Exclusivit&eacute; jusqu&#39;&agrave; -80%</a></td>
+											</tr>
+											<tr>
+												<td align=3D"center"><a href=3D"http://les-actus.com/ga/click/2=
+-11527895-18-1594-3078-22196-483bbfbe8a-c958795976" style=3D"text-decoratio=
+n:none; border:none" target=3D"_blank" title=3D"Croisi=C3=A8re Italie, Bal=
+=C3=A9ares et Espagne"><img alt=3D"Croisi=C3=A8re Cit=C3=A9s du Soleil : It=
+alie, Sicile, Malte, Bal=C3=A9ares et Espagne" height=3D"111" src=3D"http:/=
+/static.abcroisiere.com/images/fr/escales/escale,Palma%20de%20Majorque-Espa=
+gne_zoom,ES,PMI,25204.jpg" style=3D"display: block; color:#0253BF; font-fam=
+ily: Arial; font-size: 12px; font-weight: bold; text-align: center; line-he=
+ight:normal" width=3D"302" /></a></td>
+											</tr>
+											<tr>
+												<td height=3D"10"></td>
+											</tr>
+											<tr>
+												<td align=3D"center">
+												<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" summary=3D"">
+													<tbody>
+														<tr>
+															<td align=3D"center" valign=3D"top">
+															<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" summ=
+ary=3D"" width=3D"144">
+																<tbody>
+																	<tr>
+																		<td align=3D"center"><a href=3D"http://les-actus.com/ga/c=
+lick/2-11527895-18-1594-3078-22196-483bbfbe8a-c958795976" style=3D"text-dec=
+oration:none; border:none;line-height:normal;color:#0a838a;font-size:14px; =
+font-weight:bold;  font-family:Myriad Pro;" target=3D"_blank" title=3D"Croi=
+si=C3=A8re Italie, Bal=C3=A9ares et Espagne">Italie Espagne Bal&eacute;ares=
+Costa Fascinosa 5*</a></td>
+																	</tr>
+																	<tr>
+																		<td height=3D"2"></td>
+																	</tr>
+																	<tr>
+																		<td align=3D"center"><a href=3D"http://les-actus.com/ga/c=
+lick/2-11527895-18-1594-3078-22196-483bbfbe8a-c958795976" style=3D"text-dec=
+oration:none; border:none; color:#333333; font-size:12px; line-height:norma=
+l;font-weight:bold; font-family:Myriad Pro;" target=3D"_blank" title=3D"Cro=
+isi=C3=A8re Italie, Bal=C3=A9ares et Espagne">Pension Compl&egrave;te</a></=
+td>
+																	</tr>
+																	<tr>
+																		<td height=3D"8"></td>
+																	</tr>
+																	<tr>
+																		<td align=3D"center"><a href=3D"http://les-actus.com/ga/c=
+lick/2-11527895-18-1594-3078-22196-483bbfbe8a-c958795976" style=3D"text-dec=
+oration:none; border:none; color:#333333; font-size:12px; line-height:norma=
+l; font-family:Myriad Pro;" target=3D"_blank" title=3D"Croisi=C3=A8re Itali=
+e, Bal=C3=A9ares et Espagne">8 jours &agrave; bord<br />
+																		D&eacute;part de Savone</a></td>
+																	</tr>
+																</tbody>
+															</table>
+															</td>
+															<td width=3D"10"></td>
+															<td valign=3D"top">
+															<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" summ=
+ary=3D"">
+																<tbody>
+																	<tr>
+																		<td height=3D"2"></td>
+																	</tr>
+																	<tr>
+																		<td align=3D"left"><a href=3D"http://les-actus.com/ga/cli=
+ck/2-11527895-18-1594-3078-22196-483bbfbe8a-c958795976" style=3D"text-decor=
+ation:none; border:none; color:#ff0000; font-size:11px; line-height:normal;=
+font-family:Myriad Pro; display:block; height:10px; font-weight:bold;" targ=
+et=3D"_blank" title=3D"Croisi=C3=A8re Italie, Bal=C3=A9ares et Espagne">&ag=
+rave; partir de</a></td>
+																	</tr>
+																	<tr>
+																		<td height=3D"3"></td>
+																	</tr>
+																	<tr>
+																		<td valign=3D"bottom">
+																		<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" s=
+ummary=3D"">
+																			<tbody>
+																				<tr>
+																					<td align=3D"center"><a href=3D"http://les-actus.com/g=
+a/click/2-11527895-18-1594-3078-22196-483bbfbe8a-c958795976" style=3D"text-=
+decoration:none; border:none; color:#ff0000; font-size:26px; line-height:no=
+rmal; font-weight:bold; font-family:Arial;" target=3D"_blank" title=3D"Croi=
+si=C3=A8re Italie, Bal=C3=A9ares et Espagne">356&euro;</a></td>
+																					<td align=3D"center" style=3D"padding-top:4px;" valign=
+=3D"top" width=3D"32"><a href=3D"http://les-actus.com/ga/click/2-11527895-1=
+8-1594-3078-22196-483bbfbe8a-c958795976" style=3D"text-decoration:none; bor=
+der:none; color:#ff0000; font-size:11px; line-height:normal;font-family:Myr=
+iad Pro; display:block; height:10px; font-weight:bold;" target=3D"_blank" t=
+itle=3D"Croisi=C3=A8re Italie, Bal=C3=A9ares et Espagne">TTC*</a></td>
+																				</tr>
+																			</tbody>
+																		</table>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td height=3D"3"></td>
+																	</tr>
+																	<tr>
+																		<td align=3D"center" height=3D"23"><a href=3D"http://les-=
+actus.com/ga/click/2-11527895-18-1594-3078-22196-483bbfbe8a-c958795976" sty=
+le=3D"text-decoration:none; border:none;" target=3D"_blank" title=3D"J'y va=
+is"><img alt=3D"J'y vais" border=3D"0" height=3D"23" src=3D"http://affiliat=
+ion.service-voyages.com/PMC/2016/S02/jy_vais.jpg" style=3D"display: block; =
+color:#ffffff; background-color:#0B9BA1; font-family: Arial; font-size: 12p=
+x; font-weight: bold; text-align: center; line-height:normal" width=3D"126"=
+ /></a></td>
+																	</tr>
+																</tbody>
+															</table>
+															</td>
+															<td width=3D"22"></td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									<!-- FIN PRODUIT 2 --></td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+					<tr>
+						<td bgcolor=3D"#ffffff" height=3D"15" width=3D"640"></td>
+					</tr>
+				</tbody>
+			</table>
+
+			<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" summary=3D"">
+				<tbody>
+					<tr>
+						<td align=3D"center">
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" summary=3D"">
+							<tbody>
+								<tr>
+									<td valign=3D"top"><!-- DEBUT PRODUIT 3 -->
+									<table bgcolor=3D"#FFFFFF" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" summary=3D"" width=3D"302">
+										<tbody>
+											<tr>
+												<td align=3D"center" bgcolor=3D"#0b9ba1" height=3D"27" valign=
+=3D"middle"><a href=3D"http://les-actus.com/ga/click/2-11527895-18-1594-307=
+8-22197-f1c010cc3c-c958795976" style=3D"text-decoration:none; border:none; =
+color:#fefefe; font-size:16px; line-height:normal; font-weight:bold; font-f=
+amily:Myriad Pro;" target=3D"_blank" title=3D"Croisi=C3=A8re Italie, Maroc,=
+ Portugal et Espagne">Imbattable jusqu&#39;&agrave; -58%</a></td>
+											</tr>
+											<tr>
+												<td align=3D"center"><a href=3D"http://les-actus.com/ga/click/2=
+-11527895-18-1594-3078-22197-f1c010cc3c-c958795976" style=3D"text-decoratio=
+n:none; border:none" target=3D"_blank" title=3D"Croisi=C3=A8re Italie, Maro=
+c, Portugal et Espagne"><img alt=3D"Croisi=C3=A8re Cit=C3=A9s du Soleil : I=
+talie, Sicile, Malte, Bal=C3=A9ares et Espagne" height=3D"111" src=3D"http:=
+//static.abcroisiere.com/images/fr/escales/escale,Marseille-France_zoom,FR,=
+MRS,25255.jpg" style=3D"display: block; color:#0253BF; font-family: Arial; =
+font-size: 12px; font-weight: bold; text-align: center; line-height:normal"=
+ width=3D"302" /></a></td>
+											</tr>
+											<tr>
+												<td height=3D"10"></td>
+											</tr>
+											<tr>
+												<td align=3D"center">
+												<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" summary=3D"">
+													<tbody>
+														<tr>
+															<td align=3D"center" valign=3D"top">
+															<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" summ=
+ary=3D"" width=3D"144">
+																<tbody>
+																	<tr>
+																		<td align=3D"center"><a href=3D"http://les-actus.com/ga/c=
+lick/2-11527895-18-1594-3078-22197-f1c010cc3c-c958795976" style=3D"text-dec=
+oration:none; border:none;line-height:normal;color:#0a838a;font-size:14px; =
+font-weight:bold;  font-family:Myriad Pro;" target=3D"_blank" title=3D"Croi=
+si=C3=A8re Italie, Maroc, Portugal et Espagne">Italie Espagne Maroc Portuga=
+l MSC Splendida 5*</a></td>
+																	</tr>
+																	<tr>
+																		<td height=3D"2"></td>
+																	</tr>
+																	<tr>
+																		<td align=3D"center"><a href=3D"http://les-actus.com/ga/c=
+lick/2-11527895-18-1594-3078-22197-f1c010cc3c-c958795976" style=3D"text-dec=
+oration:none; border:none; color:#333333; font-size:12px; line-height:norma=
+l;font-weight:bold; font-family:Myriad Pro;" target=3D"_blank" title=3D"Cro=
+isi=C3=A8re Italie, Maroc, Portugal et Espagne">-50% pour le 2&egrave;me pa=
+ssager Forfait boissons OFFERT**</a></td>
+																	</tr>
+																	<tr>
+																		<td height=3D"8"></td>
+																	</tr>
+																	<tr>
+																		<td align=3D"center"><a href=3D"http://les-actus.com/ga/c=
+lick/2-11527895-18-1594-3078-22197-f1c010cc3c-c958795976" style=3D"text-dec=
+oration:none; border:none; color:#333333; font-size:12px; line-height:norma=
+l; font-family:Myriad Pro;" target=3D"_blank" title=3D"Croisi=C3=A8re Itali=
+e, Maroc, Portugal et Espagne">8 jours &agrave; bord<br />
+																		D&eacute;part de Marseille</a></td>
+																	</tr>
+																</tbody>
+															</table>
+															</td>
+															<td width=3D"10"></td>
+															<td valign=3D"top">
+															<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" summ=
+ary=3D"">
+																<tbody>
+																	<tr>
+																		<td height=3D"2"></td>
+																	</tr>
+																	<tr>
+																		<td align=3D"left"><a href=3D"http://les-actus.com/ga/cli=
+ck/2-11527895-18-1594-3078-22197-f1c010cc3c-c958795976" style=3D"text-decor=
+ation:none; border:none; color:#ff0000; font-size:11px; line-height:normal;=
+font-family:Myriad Pro; display:block; height:10px; font-weight:bold;" targ=
+et=3D"_blank" title=3D"Croisi=C3=A8re Italie, Maroc, Portugal et Espagne">&=
+agrave; partir de</a></td>
+																	</tr>
+																	<tr>
+																		<td height=3D"3"></td>
+																	</tr>
+																	<tr>
+																		<td valign=3D"bottom">
+																		<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" s=
+ummary=3D"">
+																			<tbody>
+																				<tr>
+																					<td align=3D"center"><a href=3D"http://les-actus.com/g=
+a/click/2-11527895-18-1594-3078-22197-f1c010cc3c-c958795976" style=3D"text-=
+decoration:none; border:none; color:#ff0000; font-size:26px; line-height:no=
+rmal; font-weight:bold; font-family:Arial;" target=3D"_blank" title=3D"Croi=
+si=C3=A8re Italie, Maroc, Portugal et Espagne">599&euro;</a></td>
+																					<td align=3D"center" style=3D"padding-top:4px;" valign=
+=3D"top" width=3D"32"><a href=3D"http://les-actus.com/ga/click/2-11527895-1=
+8-1594-3078-22197-f1c010cc3c-c958795976" style=3D"text-decoration:none; bor=
+der:none; color:#ff0000; font-size:11px; line-height:normal;font-family:Myr=
+iad Pro; display:block; height:10px; font-weight:bold;" target=3D"_blank" t=
+itle=3D"Croisi=C3=A8re Italie, Maroc, Portugal et Espagne">TTC*</a></td>
+																				</tr>
+																			</tbody>
+																		</table>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td height=3D"3"></td>
+																	</tr>
+																	<tr>
+																		<td align=3D"center" height=3D"23"><a href=3D"http://les-=
+actus.com/ga/click/2-11527895-18-1594-3078-22198-0d87208f2b-c958795976" sty=
+le=3D"text-decoration:none; border:none;" target=3D"_blank" title=3D"J'y va=
+is"><img alt=3D"J'y vais" border=3D"0" height=3D"23" src=3D"http://affiliat=
+ion.service-voyages.com/PMC/2016/S02/jy_vais.jpg" style=3D"display: block; =
+color:#ffffff; background-color:#0B9BA1; font-family: Arial; font-size: 12p=
+x; font-weight: bold; text-align: center; line-height:normal" width=3D"126"=
+ /></a></td>
+																	</tr>
+																</tbody>
+															</table>
+															</td>
+															<td width=3D"22"></td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									<!-- FIN PRODUIT 3 --></td>
+									<td width=3D"12"></td>
+									<td valign=3D"top"><!-- DEBUT PRODUIT 4 -->
+									<table bgcolor=3D"#FFFFFF" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" summary=3D"" width=3D"302">
+										<tbody>
+											<tr>
+												<td align=3D"center" bgcolor=3D"#0b9ba1" height=3D"27" valign=
+=3D"middle"><a href=3D"http://les-actus.com/ga/click/2-11527895-18-1594-307=
+8-22199-ffc6d2fc8d-c958795976" style=3D"text-decoration:none; border:none; =
+color:#fefefe; font-size:16px; line-height:normal; font-weight:bold; font-f=
+amily:Myriad Pro;" target=3D"_blank" title=3D"Croisi=C3=A8re France, Italie=
+, Malte et Espagne">Tarif Choc jusqu&#39;&agrave; -50% </a></td>
+											</tr>
+											<tr>
+												<td align=3D"center"><a href=3D"http://les-actus.com/ga/click/2=
+-11527895-18-1594-3078-22199-ffc6d2fc8d-c958795976" style=3D"text-decoratio=
+n:none; border:none" target=3D"_blank" title=3D"Croisi=C3=A8re France, Ital=
+ie, Malte et Espagne"><img alt=3D"Croisi=C3=A8re Cit=C3=A9s du Soleil : Ita=
+lie, Sicile, Malte, Bal=C3=A9ares et Espagne" height=3D"111" src=3D"http://=
+static.abcroisiere.com/images/fr/escales/escale,Messine-Italie_zoom,IT,MSN,=
+25449.jpg" style=3D"display: block; color:#0253BF; font-family: Arial; font=
+-size: 12px; font-weight: bold; text-align: center; line-height:normal" wid=
+th=3D"302" /></a></td>
+											</tr>
+											<tr>
+												<td height=3D"10"></td>
+											</tr>
+											<tr>
+												<td align=3D"center">
+												<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" summary=3D"">
+													<tbody>
+														<tr>
+															<td align=3D"center" valign=3D"top">
+															<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" summ=
+ary=3D"" width=3D"144">
+																<tbody>
+																	<tr>
+																		<td align=3D"center"><a href=3D"http://les-actus.com/ga/c=
+lick/2-11527895-18-1594-3078-22199-ffc6d2fc8d-c958795976" style=3D"text-dec=
+oration:none; border:none;line-height:normal;color:#0a838a;font-size:14px; =
+font-weight:bold;  font-family:Myriad Pro;" target=3D"_blank" title=3D"Croi=
+si=C3=A8re France, Italie, Malte et Espagne">Italie Malte Espagne MSC Poesi=
+a 4*</a></td>
+																	</tr>
+																	<tr>
+																		<td height=3D"2"></td>
+																	</tr>
+																	<tr>
+																		<td align=3D"center"><a href=3D"http://les-actus.com/ga/c=
+lick/2-11527895-18-1594-3078-22199-ffc6d2fc8d-c958795976" style=3D"text-dec=
+oration:none; border:none; color:#333333; font-size:12px; line-height:norma=
+l;font-weight:bold; font-family:Myriad Pro;" target=3D"_blank" title=3D"Cro=
+isi=C3=A8re France, Italie, Malte et Espagne">-50% pour le 2&egrave;me pass=
+ager Forfait boissons OFFERT** </a></td>
+																	</tr>
+																	<tr>
+																		<td height=3D"8"></td>
+																	</tr>
+																	<tr>
+																		<td align=3D"center"><a href=3D"http://les-actus.com/ga/c=
+lick/2-11527895-18-1594-3078-22199-ffc6d2fc8d-c958795976" style=3D"text-dec=
+oration:none; border:none; color:#333333; font-size:12px; line-height:norma=
+l; font-family:Myriad Pro;" target=3D"_blank" title=3D"Croisi=C3=A8re Franc=
+e, Italie, Malte et Espagne">8 jours &agrave; bord<br />
+																		D&eacute;part de Marseille</a></td>
+																	</tr>
+																</tbody>
+															</table>
+															</td>
+															<td width=3D"10"></td>
+															<td valign=3D"top">
+															<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" summ=
+ary=3D"">
+																<tbody>
+																	<tr>
+																		<td height=3D"2"></td>
+																	</tr>
+																	<tr>
+																		<td align=3D"left"><a href=3D"http://les-actus.com/ga/cli=
+ck/2-11527895-18-1594-3078-22199-ffc6d2fc8d-c958795976" style=3D"text-decor=
+ation:none; border:none; color:#ff0000; font-size:11px; line-height:normal;=
+font-family:Myriad Pro; display:block; height:10px; font-weight:bold;" targ=
+et=3D"_blank" title=3D"Croisi=C3=A8re France, Italie, Malte et Espagne">&ag=
+rave; partir de</a></td>
+																	</tr>
+																	<tr>
+																		<td height=3D"3"></td>
+																	</tr>
+																	<tr>
+																		<td valign=3D"bottom">
+																		<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" s=
+ummary=3D"">
+																			<tbody>
+																				<tr>
+																					<td align=3D"center"><a href=3D"http://les-actus.com/g=
+a/click/2-11527895-18-1594-3078-22199-ffc6d2fc8d-c958795976" style=3D"text-=
+decoration:none; border:none; color:#ff0000; font-size:26px; line-height:no=
+rmal; font-weight:bold; font-family:Arial;" target=3D"_blank" title=3D"Croi=
+si=C3=A8re France, Italie, Malte et Espagne">502&euro;</a></td>
+																					<td align=3D"center" style=3D"padding-top:4px;" valign=
+=3D"top" width=3D"32"><a href=3D"http://les-actus.com/ga/click/2-11527895-1=
+8-1594-3078-22199-ffc6d2fc8d-c958795976" style=3D"text-decoration:none; bor=
+der:none; color:#ff0000; font-size:11px; line-height:normal;font-family:Myr=
+iad Pro; display:block; height:10px; font-weight:bold;" target=3D"_blank" t=
+itle=3D"Croisi=C3=A8re France, Italie, Malte et Espagne">TTC*</a></td>
+																				</tr>
+																			</tbody>
+																		</table>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td height=3D"3"></td>
+																	</tr>
+																	<tr>
+																		<td align=3D"center" height=3D"23"><a href=3D"http://les-=
+actus.com/ga/click/2-11527895-18-1594-3078-22199-ffc6d2fc8d-c958795976" sty=
+le=3D"text-decoration:none; border:none;" target=3D"_blank" title=3D"J'y va=
+is"><img alt=3D"J'y vais" border=3D"0" height=3D"23" src=3D"http://affiliat=
+ion.service-voyages.com/PMC/2016/S02/jy_vais.jpg" style=3D"display: block; =
+color:#ffffff; background-color:#0B9BA1; font-family: Arial; font-size: 12p=
+x; font-weight: bold; text-align: center; line-height:normal" width=3D"126"=
+ /></a></td>
+																	</tr>
+																</tbody>
+															</table>
+															</td>
+															<td width=3D"22"></td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									<!-- FIN PRODUIT 4 --></td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+					<tr>
+						<td bgcolor=3D"#ffffff" height=3D"15" width=3D"640"></td>
+					</tr>
+				</tbody>
+			</table>
+
+			<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" summary=3D"">
+				<tbody>
+					<tr>
+						<td align=3D"center">
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" summary=3D"">
+							<tbody>
+								<tr>
+									<td valign=3D"top"><!-- DEBUT PRODUIT 5 -->
+									<table bgcolor=3D"#FFFFFF" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" summary=3D"" width=3D"302">
+										<tbody>
+											<tr>
+												<td align=3D"center" bgcolor=3D"#0b9ba1" height=3D"27" valign=
+=3D"middle"><a href=3D"http://les-actus.com/ga/click/2-11527895-18-1594-307=
+8-22200-ad71c69292-c958795976" style=3D"text-decoration:none; border:none; =
+color:#fefefe; font-size:16px; line-height:normal; font-weight:bold; font-f=
+amily:Myriad Pro;" target=3D"_blank" title=3D"Croisi=C3=A8re Cit=C3=A9s du =
+Soleil : Italie, Sicile, Malte, Bal=C3=A9ares et Espagne">Imbattable jusqu&=
+#39;&agrave; -52%</a></td>
+											</tr>
+											<tr>
+												<td align=3D"center"><a href=3D"http://les-actus.com/ga/click/2=
+-11527895-18-1594-3078-22201-8ddbf84d57-c958795976" style=3D"text-decoratio=
+n:none; border:none" target=3D"_blank" title=3D"Croisi=C3=A8re Italie, Iles=
+ Grecques et Mont=C3=A9n=C3=A9gro"><img alt=3D"Croisi=C3=A8re Cit=C3=A9s du=
+ Soleil : Italie, Sicile, Malte, Bal=C3=A9ares et Espagne" height=3D"111" s=
+rc=3D"http://static.abcroisiere.com/images/fr/escales/escale,Katakolon-Gr%C=
+3%A8ce_zoom,GR,KAK,8963.jpg" style=3D"display: block; color:#0253BF; font-f=
+amily: Arial; font-size: 12px; font-weight: bold; text-align: center; line-=
+height:normal" width=3D"302" /></a></td>
+											</tr>
+											<tr>
+												<td height=3D"10"></td>
+											</tr>
+											<tr>
+												<td align=3D"center">
+												<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" summary=3D"">
+													<tbody>
+														<tr>
+															<td align=3D"center" valign=3D"top">
+															<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" summ=
+ary=3D"" width=3D"144">
+																<tbody>
+																	<tr>
+																		<td align=3D"center"><a href=3D"http://les-actus.com/ga/c=
+lick/2-11527895-18-1594-3078-22201-8ddbf84d57-c958795976" style=3D"text-dec=
+oration:none; border:none;line-height:normal;color:#0a838a;font-size:14px; =
+font-weight:bold;  font-family:Myriad Pro;" target=3D"_blank" title=3D"Croi=
+si=C3=A8re Italie, Iles Grecques et Mont=C3=A9n=C3=A9gro">Gr&egrave;ce, Cro=
+atie, Italie MSC Magnifica 5*</a></td>
+																	</tr>
+																	<tr>
+																		<td height=3D"2"></td>
+																	</tr>
+																	<tr>
+																		<td align=3D"center"><a href=3D"http://les-actus.com/ga/c=
+lick/2-11527895-18-1594-3078-22201-8ddbf84d57-c958795976" style=3D"text-dec=
+oration:none; border:none; color:#333333; font-size:12px; line-height:norma=
+l;font-weight:bold; font-family:Myriad Pro;" target=3D"_blank" title=3D"Cro=
+isi=C3=A8re Italie, Iles Grecques et Mont=C3=A9n=C3=A9gro">-50% pour le 2&e=
+grave;me passager Forfait boissons OFFERT**</a></td>
+																	</tr>
+																	<tr>
+																		<td height=3D"8"></td>
+																	</tr>
+																	<tr>
+																		<td align=3D"center"><a href=3D"http://les-actus.com/ga/c=
+lick/2-11527895-18-1594-3078-22201-8ddbf84d57-c958795976" style=3D"text-dec=
+oration:none; border:none; color:#333333; font-size:12px; line-height:norma=
+l; font-family:Myriad Pro;" target=3D"_blank" title=3D"Croisi=C3=A8re Itali=
+e, Iles Grecques et Mont=C3=A9n=C3=A9gro">8 jours &agrave; bord<br />
+																		D&eacute;part de Venise</a></td>
+																	</tr>
+																</tbody>
+															</table>
+															</td>
+															<td width=3D"10"></td>
+															<td valign=3D"top">
+															<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" summ=
+ary=3D"">
+																<tbody>
+																	<tr>
+																		<td height=3D"2"></td>
+																	</tr>
+																	<tr>
+																		<td align=3D"left"><a href=3D"http://les-actus.com/ga/cli=
+ck/2-11527895-18-1594-3078-22201-8ddbf84d57-c958795976" style=3D"text-decor=
+ation:none; border:none; color:#ff0000; font-size:11px; line-height:normal;=
+font-family:Myriad Pro; display:block; height:10px; font-weight:bold;" targ=
+et=3D"_blank" title=3D"Croisi=C3=A8re Italie, Iles Grecques et Mont=C3=A9n=
+=C3=A9gro">&agrave; partir de</a></td>
+																	</tr>
+																	<tr>
+																		<td height=3D"3"></td>
+																	</tr>
+																	<tr>
+																		<td valign=3D"bottom">
+																		<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" s=
+ummary=3D"">
+																			<tbody>
+																				<tr>
+																					<td align=3D"center"><a href=3D"http://les-actus.com/g=
+a/click/2-11527895-18-1594-3078-22201-8ddbf84d57-c958795976" style=3D"text-=
+decoration:none; border:none; color:#ff0000; font-size:26px; line-height:no=
+rmal; font-weight:bold; font-family:Arial;" target=3D"_blank" title=3D"Croi=
+si=C3=A8re Italie, Iles Grecques et Mont=C3=A9n=C3=A9gro">524&euro;</a></td>
+																					<td align=3D"center" style=3D"padding-top:4px;" valign=
+=3D"top" width=3D"32"><a href=3D"http://les-actus.com/ga/click/2-11527895-1=
+8-1594-3078-22201-8ddbf84d57-c958795976" style=3D"text-decoration:none; bor=
+der:none; color:#ff0000; font-size:11px; line-height:normal;font-family:Myr=
+iad Pro; display:block; height:10px; font-weight:bold;" target=3D"_blank" t=
+itle=3D"Croisi=C3=A8re Italie, Iles Grecques et Montenegro">TTC*</a></td>
+																				</tr>
+																			</tbody>
+																		</table>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td height=3D"3"></td>
+																	</tr>
+																	<tr>
+																		<td align=3D"center" height=3D"23"><a href=3D"http://les-=
+actus.com/ga/click/2-11527895-18-1594-3078-22201-8ddbf84d57-c958795976" sty=
+le=3D"text-decoration:none; border:none;" target=3D"_blank" title=3D"J'y va=
+is"><img alt=3D"J'y vais" border=3D"0" height=3D"23" src=3D"http://affiliat=
+ion.service-voyages.com/PMC/2016/S02/jy_vais.jpg" style=3D"display: block; =
+color:#ffffff; background-color:#0B9BA1; font-family: Arial; font-size: 12p=
+x; font-weight: bold; text-align: center; line-height:normal" width=3D"126"=
+ /></a></td>
+																	</tr>
+																</tbody>
+															</table>
+															</td>
+															<td width=3D"22"></td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									<!-- FIN PRODUIT 5 --></td>
+									<td width=3D"12"></td>
+									<td valign=3D"top"><!-- DEBUT PRODUIT 6 -->
+									<table bgcolor=3D"#FFFFFF" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" summary=3D"" width=3D"302">
+										<tbody>
+											<tr>
+												<td align=3D"center" bgcolor=3D"#0b9ba1" height=3D"27" valign=
+=3D"middle"><a href=3D"http://les-actus.com/ga/click/2-11527895-18-1594-307=
+8-22202-f82c978df4-c958795976" style=3D"text-decoration:none; border:none; =
+color:#fefefe; font-size:16px; line-height:normal; font-weight:bold; font-f=
+amily:Myriad Pro;" target=3D"_blank" title=3D"Croisi=C3=A8re Cara=C3=AFbes =
+: R=C3=A8,publique Dominicaine, Antilles, Antigua">Coup de Coeur</a></td>
+											</tr>
+											<tr>
+												<td align=3D"center"><a href=3D"http://les-actus.com/ga/click/2=
+-11527895-18-1594-3078-22202-f82c978df4-c958795976" style=3D"text-decoratio=
+n:none; border:none" target=3D"_blank" title=3D"Croisi=C3=A8re Cara=C3=AFbe=
+s : R=C3=A8,publique Dominicaine, Antilles, Antigua"><img alt=3D"Croisi=C3=
+=A8re Cit=C3=A9s du Soleil : Italie, Sicile, Malte, Bal=C3=A9ares et Espagn=
+e" height=3D"111" src=3D"http://static.abcroisiere.com/images/fr/escales/es=
+cale,V%C3%B3los-Gr%C3%A8ce_zoom,GR,VOL,26620.jpg" style=3D"display: block; =
+color:#0253BF; font-family: Arial; font-size: 12px; font-weight: bold; text=
+-align: center; line-height:normal" width=3D"302" /></a></td>
+											</tr>
+											<tr>
+												<td height=3D"10"></td>
+											</tr>
+											<tr>
+												<td align=3D"center">
+												<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" summary=3D"">
+													<tbody>
+														<tr>
+															<td align=3D"center" valign=3D"top">
+															<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" summ=
+ary=3D"" width=3D"144">
+																<tbody>
+																	<tr>
+																		<td align=3D"center"><a href=3D"http://les-actus.com/ga/c=
+lick/2-11527895-18-1594-3078-22202-f82c978df4-c958795976" style=3D"text-dec=
+oration:none; border:none;line-height:normal;color:#0a838a;font-size:14px; =
+font-weight:bold;  font-family:Myriad Pro;" target=3D"_blank" title=3D"Croi=
+si=C3=A8re Cara=C3=AFbes : R=C3=A8,publique Dominicaine, Antilles, Antigua"=
+>Italie, Gr&egrave;ce et Sicile Costa Neoclassica 3* 5*</a></td>
+																	</tr>
+																	<tr>
+																		<td height=3D"2"></td>
+																	</tr>
+																	<tr>
+																		<td align=3D"center"><a href=3D"http://les-actus.com/ga/c=
+lick/2-11527895-18-1594-3078-22202-f82c978df4-c958795976" style=3D"text-dec=
+oration:none; border:none; color:#333333; font-size:12px; line-height:norma=
+l;font-weight:bold; font-family:Myriad Pro;" target=3D"_blank" title=3D"Cro=
+isi=C3=A8re Cara=C3=AFbes : R=C3=A8,publique Dominicaine, Antilles, Antigua=
+">Pension Compl&egrave;te</a></td>
+																	</tr>
+																	<tr>
+																		<td height=3D"8"></td>
+																	</tr>
+																	<tr>
+																		<td align=3D"center"><a href=3D"http://les-actus.com/ga/c=
+lick/2-11527895-18-1594-3078-22202-f82c978df4-c958795976" style=3D"text-dec=
+oration:none; border:none; color:#333333; font-size:12px; line-height:norma=
+l; font-family:Myriad Pro;" target=3D"_blank" title=3D"Croisi=C3=A8re Cara=
+=C3=AFbes : R=C3=A8,publique Dominicaine, Antilles, Antigua">13 jours &agra=
+ve; bord</a></td>
+																	</tr>
+																</tbody>
+															</table>
+															</td>
+															<td width=3D"10"></td>
+															<td valign=3D"top">
+															<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" summ=
+ary=3D"">
+																<tbody>
+																	<tr>
+																		<td height=3D"2"></td>
+																	</tr>
+																	<tr>
+																		<td align=3D"left"><a href=3D"http://les-actus.com/ga/cli=
+ck/2-11527895-18-1594-3078-22202-f82c978df4-c958795976" style=3D"text-decor=
+ation:none; border:none; color:#ff0000; font-size:11px; line-height:normal;=
+font-family:Myriad Pro; display:block; height:10px; font-weight:bold;" targ=
+et=3D"_blank" title=3D"Croisi=C3=A8re Cara=C3=AFbes : R=C3=A8,publique Domi=
+nicaine, Antilles, Antigua">&agrave; partir de</a></td>
+																	</tr>
+																	<tr>
+																		<td height=3D"3"></td>
+																	</tr>
+																	<tr>
+																		<td valign=3D"bottom">
+																		<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" s=
+ummary=3D"">
+																			<tbody>
+																				<tr>
+																					<td align=3D"center"><a href=3D"http://les-actus.com/g=
+a/click/2-11527895-18-1594-3078-22202-f82c978df4-c958795976" style=3D"text-=
+decoration:none; border:none; color:#ff0000; font-size:26px; line-height:no=
+rmal; font-weight:bold; font-family:Arial;" target=3D"_blank" title=3D"Croi=
+si=C3=A8re Cara=C3=AFbes : R=C3=A8,publique Dominicaine, Antilles, Antigua"=
+>679&euro;</a></td>
+																					<td align=3D"center" style=3D"padding-top:4px;" valign=
+=3D"top" width=3D"32"><a href=3D"http://les-actus.com/ga/click/2-11527895-1=
+8-1594-3078-22202-f82c978df4-c958795976" style=3D"text-decoration:none; bor=
+der:none; color:#ff0000; font-size:11px; line-height:normal;font-family:Myr=
+iad Pro; display:block; height:10px; font-weight:bold;" target=3D"_blank" t=
+itle=3D"Croisi=C3=A8re Cara=C3=AFbes : R=C3=A8,publique Dominicaine, Antill=
+es, Antigua">TTC*</a></td>
+																				</tr>
+																			</tbody>
+																		</table>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td height=3D"3"></td>
+																	</tr>
+																	<tr>
+																		<td align=3D"center" height=3D"23"><a href=3D"http://les-=
+actus.com/ga/click/2-11527895-18-1594-3078-22202-f82c978df4-c958795976" sty=
+le=3D"text-decoration:none; border:none;" target=3D"_blank" title=3D"J'y va=
+is"><img alt=3D"J'y vais" border=3D"0" height=3D"23" src=3D"http://affiliat=
+ion.service-voyages.com/PMC/2016/S02/jy_vais.jpg" style=3D"display: block; =
+color:#ffffff; background-color:#0B9BA1; font-family: Arial; font-size: 12p=
+x; font-weight: bold; text-align: center; line-height:normal" width=3D"126"=
+ /></a></td>
+																	</tr>
+																</tbody>
+															</table>
+															</td>
+															<td width=3D"22"></td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									<!-- FIN PRODUIT 6 --></td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+					<tr>
+						<td bgcolor=3D"#ffffff" height=3D"15" width=3D"640"></td>
+					</tr>
+				</tbody>
+			</table>
+			<!--Fin Produit--></td>
+		</tr>
+		<tr>
+			<td height=3D"24"></td>
+		</tr>
+		<tr>
+			<td><!--Debut footer-->
+			<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" summary=3D"" wid=
+th=3D"640">
+				<tbody>
+					<tr>
+						<td align=3D"center" bgcolor=3D"#0B9BA1" height=3D"49" style=3D"font-=
+family:Arial;font-size:15px;color:#FFFFFF"><a href=3D"http://les-actus.com/=
+ga/click/2-11527895-18-1594-3078-22203-1478759df9-c958795976" style=3D"text=
+-decoration:none; border:none; color:#FFFFFF; font-size:17px; line-height:n=
+ormal; font-family:Arial; text-transform:uppercase;" target=3D"_blank" titl=
+e=3D"POURQUOI PROMOCROISIERE ?">POURQUOI PROMOCROISIERE ?</a></td>
+					</tr>
+					<tr>
+						<td>
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" summary=3D"">
+							<tbody>
+								<tr>
+									<td width=3D"206">
+									<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" summary=3D"" width=3D"206">
+										<tbody>
+											<tr>
+												<td height=3D"18"></td>
+											</tr>
+											<tr>
+												<td align=3D"center"><img height=3D"54" src=3D"http://affiliati=
+on.service-voyages.com/PMC/2016/S02/promotion.jpg" style=3D"display:block" =
+width=3D"53" /></td>
+											</tr>
+											<tr>
+												<td align=3D"center" height=3D"45" style=3D"font-family:FuturaB=
+T,Arial;font-size:16px;color:#333333"><span>Promotions toute l&acute;ann&ea=
+cute;e</span></td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+									<td><img height=3D"117" src=3D"http://affiliation.service-voyages.=
+com/PMC/2016/S02/sep_bot.jpg" style=3D"display:block" width=3D"3" /></td>
+									<td width=3D"220">
+									<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" summary=3D"" width=3D"220">
+										<tbody>
+											<tr>
+												<td height=3D"18"></td>
+											</tr>
+											<tr>
+												<td align=3D"center"><img height=3D"54" src=3D"http://affiliati=
+on.service-voyages.com/PMC/2016/S02/clients.jpg" style=3D"display:block" wi=
+dth=3D"53" /></td>
+											</tr>
+											<tr>
+												<td align=3D"center" height=3D"45" style=3D"font-family:FuturaB=
+T,Arial;font-size:16px;color:#333333"><span>90% de clients satisfaits</span=
+></td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+									<td><img height=3D"117" src=3D"http://affiliation.service-voyages.=
+com/PMC/2016/S02/sep_bot.jpg" style=3D"display:block" width=3D"3" /></td>
+									<td width=3D"208">
+									<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" summary=3D"" width=3D"208">
+										<tbody>
+											<tr>
+												<td height=3D"18"></td>
+											</tr>
+											<tr>
+												<td align=3D"center"><img height=3D"54" src=3D"http://affiliati=
+on.service-voyages.com/PMC/2016/S02/services.jpg" style=3D"display:block" w=
+idth=3D"53" /></td>
+											</tr>
+											<tr>
+												<td align=3D"center" height=3D"45" style=3D"font-family:FuturaB=
+T,Arial;font-size:16px;color:#333333"><span>Service client 7 J / 7J</span><=
+/td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+					<tr>
+						<td>
+						<table bgcolor=3D"#F3F3F3" border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" summary=3D"" width=3D"640">
+							<tbody>
+								<tr>
+									<td height=3D"11"></td>
+								</tr>
+								<tr>
+									<td style=3D"font-family:Arial;font-size:10px;color:#333333; paddi=
+ng-left:5px; padding-right:5px; text-align:justify;" width=3D"640"><span st=
+yle=3D"line-height:100%;">*Nos prix sont affich&eacute;s en TTC (soit le pr=
+ix de la croisiere HT compl&eacute;t&eacute; des taxes portuaires et/ou a&e=
+acute;roportuaires): prix &quot;a partir de&quot; correspondant au prix bro=
+chure du fournisseur concern&eacute; et &eacute;tabli sur la base d&#39;une=
+ cabine double de la cat&eacute;gorie la plus simple pour chaque type de ca=
+bines (int&eacute;rieure, ext&eacute;rieure, avec balcon, et suite) et sous=
+ r&eacute;serve de disponibilit&eacute;s. Les tarifs varient en fonction du=
+ navire, de la date de la croisiere, et de la cat&eacute;gorie de cabine. C=
+es tarifs n&#39;incluent pas les frais de dossier et de derniere minute, ni=
+ les suppl&eacute;ments sp&eacute;cifiques susceptibles de s&#39;appliquer =
+a certaines croisieres. Le prix effectif sera confirm&eacute; au moment de =
+la r&eacute;servation.<br />
+									&nbsp;</span><br />
+									<span style=3D"line-height:100%;">**Du lundi au vendredi de 8h &ag=
+rave; 23h, le samedi de 9h &agrave; 23h, le dimanche de 10h &agrave; 23h (0=
+.15 &euro; TTC/min) Afin de respecter les dispositions l&eacute;gales conce=
+rnant les courriers &eacute;lectroniques. Vous disposez d&#39;un droit d&#3=
+9;acc&egrave;s, de modification, de rectification et de suppression des don=
+n&eacute;es qui vous concernent (articles 38 et suivants de la loi du 6 jan=
+vier 1978 relative &agrave; l&#39;informatique, aux fichiers et aux libert&=
+eacute;s).<br />
+									&nbsp;</span><br />
+									<img height=3D"4" src=3D"http://affiliation.service-voyages.com/PM=
+C/2016/S02/footer.jpg" style=3D"display:block" width=3D"629" /><br />
+									<span style=3D"line-height:100%;">La vente de voyages sous la marq=
+ue promocroisiere.com est assur&eacute;e par Karavel, 17 rue de l&#39;Echiq=
+uier 75010 Paris - SAS au Capital de 39 838 060 &euro; - RCS PARIS B 499 66=
+8 606 - Immatriculation &laquo; Atout France &raquo; : IM075110099 - T&eacu=
+te;l. : 0826 103 100 (0,15&euro;/mn TTC depuis un poste fixe en France) - G=
+arant: APS, 15 av Carnot, 75017 Paris - RCP : Hiscox, 19, rue Louis le Gran=
+d, 75002 Paris.</span></td>
+								</tr>
+								<tr>
+									<td height=3D"11"></td>
+									<td width=3D"9"></td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			<!--Fin footer--></td>
+		</tr>
+	</tbody>
+</table>
+
+<p><img id=3D"pictureoct" src=3D"http://email.mediapleez.com/tracking/displ=
+ay.php?name=3D20160215+PMC+DESTOCK+SW" /></p>
+
+<center><a href=3D"http://les-actus.com/ga/unsubscribe/2-11527895-18-1594-3=
+078-ed35df89ef15825-c958795976">Je souhaite me d=C3=A9sinscrire et ne plus =
+recevoir les newsletters</a>
+</center><img src=3D"http://les-actus.com/ga/open/2-11527895-18-1594-3078-c=
+958795976" height=3D"2" width=3D"3" alt=3D""></body>
+</html>
+
+--==0ff4e7792fded77d4f8d2ff9165f0a54--

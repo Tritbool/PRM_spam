@@ -1,0 +1,286 @@
+Return-Path: <MD-NO--36335-135-FR-PR--resp+2Dm2+2Dmiage=univ-rennes1.fr@lists.mdirector.com>
+Received: from mailimailo.univ-rennes1.fr ([unix socket])
+	 by mailimailo.univ-rennes1.fr (Cyrus v2.3.16-Fedora-RPM-2.3.16-6.el6_2.5) with LMTPA;
+	 Wed, 09 Mar 2016 13:20:33 +0100
+X-Sieve: CMU Sieve 2.3
+Received: from mailout1.univ-rennes1.fr (mailout1.univ-rennes1.fr [129.20.128.162])
+	by mailimailo.univ-rennes1.fr (Postfix) with ESMTP id 4143C26A0DB1
+	for <resp-m2-miage@univ-rennes1.fr>; Wed,  9 Mar 2016 13:20:33 +0100 (CET)
+Received: from localhost (vmscanmail.univ-rennes1.fr [129.20.128.134])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id 374CC601AC
+	for <resp-m2-miage@univ-rennes1.fr>; Wed,  9 Mar 2016 13:20:33 +0100 (CET)
+X-Virus-Scanned: amavisd-new at univ-rennes1.fr
+Received: from mailout1.univ-rennes1.fr ([129.20.128.162])
+	by localhost (vmscanmail.univ-rennes1.frm [129.20.128.134]) (amavisd-new, port 10026)
+	with ESMTP id efJTlcygM4XZ for <resp-m2-miage@univ-rennes1.fr>;
+	Wed,  9 Mar 2016 13:20:33 +0100 (CET)
+Received: from vmmailin.univ-rennes1.fr (vmmailin.univ-rennes1.fr [129.20.128.133])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id 117336002E
+	for <resp-m2-miage@univ-rennes1.fr>; Wed,  9 Mar 2016 13:20:33 +0100 (CET)
+Received: from mxb2-2.relay.renater.fr (mxb2-2.relay.renater.fr [194.214.200.9])
+	by vmmailin.univ-rennes1.fr (Postfix) with ESMTP id 088D220033
+	for <resp-m2-miage@univ-rennes1.fr>; Wed,  9 Mar 2016 13:20:33 +0100 (CET)
+Received: from mta141.183.mdrctr.com (mta141.183.mdrctr.com [62.97.141.183])
+	by mxb2-2.relay.renater.fr (asm) with ESMTP id 7F81A60053F
+	for <resp-m2-miage@univ-rennes1.fr>; Wed,  9 Mar 2016 13:20:32 +0100 (CET)
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=md2; d=fiskars.newsletterofficielle.com;
+ h=From:Reply-To:To:Date:List-Id:List-Unsubscribe:Subject:MIME-Version:Content-Type:Message-ID; i=info@fiskars.newsletterofficielle.com;
+ bh=VtUyJY1IHQH13THNV53+QTA5Gds=;
+ b=UiO1+GWePo7gbhaTatrP/mmDzGLoDwx4wzMUtrxcLbNH60z6ZfV4WX4Dtu9Lwbils74idnH5YTXW
+   IkfQCkYvyk2Gn1nFIU5Cs22yYFnhuBuoz96nSBMz0xJLD2dP4TKF/89R4gyOSNTNHmemm4rBbqHK
+   9qUT0a6lsTyAntTn17A=
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=md2; d=fiskars.newsletterofficielle.com;
+ b=HaTlCC5nHS7pVG+EIXASBzAH3vRJ+TdNo6UNcUryak9iUIJyZ0X6q1sWrpbm7vWL5UiXwYIYpXVx
+   h1yU55XRxH335SwrREnJugsBdLS9vkwMsPzm3wHfQG3ppd9daG3Y+FvGp3uA5JAOcJGxXTVJwrO2
+   Lc4arRuhs+NHQCyfXyk=;
+Received: from pmta2.mdrctr.local (172.16.18.12) by mta141.181.mdrctr.com id hs0aoq15miot for <resp-m2-miage@univ-rennes1.fr>; Wed, 9 Mar 2016 13:17:56 +0100 (envelope-from <MD-NO--36335-135-FR-PR--resp+2Dm2+2Dmiage=univ-rennes1.fr@lists.mdirector.com>)
+From: "=?UTF-8?B?VU5FIEVYQ0xVU0lWSVTDiSBGSVNLQVJT?=" <info@fiskars.newsletterofficielle.com>
+Reply-To: "FISKARS CULINAIRE" <no-reply@uneexclusivitefiskars.fr>
+To:  <resp-m2-miage@univ-rennes1.fr>
+Precedence: bulk
+X-rpcampaign: mdMDNO36335135FRPR
+X-rpcampaignok: mdmdMD-NO--36335-135-FR-PR
+X-reputation: -1
+Date: Wed, 9 Mar 2016 13:17:56 +0100
+List-Id: 36335-29.mdirector.com
+List-Unsubscribe: <mailto:unsubscribe-md36335-135-29-26169-1c590bf7fe1d27925648128d4be9535c@lists.mdirector.com>, <http://www.mdirector.com/track/unsubscribe/empId/36335/subId/135/listId/29/conId/26169/conEmail/resp-m2-miage@univ-rennes1.fr/type/8/motivo/list-unsubscribe/signature/1c590bf7fe1d27925648128d4be9535c>
+X-LU: <mailto:unsubscribe-md36335-135-29-26169-1c590bf7fe1d27925648128d4be9535c@lists.mdirector.com>, <http://www.mdirector.com/track/unsubscribe/empId/36335/subId/135/listId/29/conId/26169/conEmail/resp-m2-miage@univ-rennes1.fr/type/8/motivo/list-unsubscribe/signature/1c590bf7fe1d27925648128d4be9535c>
+Subject: FISKARS,=?UTF-8?Q?=20la=20c=C3=A9l=C3=A8bre=20marque=20?= =?UTF-8?Q?=21?=
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="boundaryTagForMixed"
+Message-ID: <0.0.D.DDC.1D179FDB66A6F66.1D4ACE4@mta141.181.mdrctr.com>
+X-UCE-Status: YES
+X-UCE-Type: MCE
+X-Original-Source-IP: 62.97.141.183
+X-Bizanga: IMP - mxb2-2.relay.renater.fr
+X-Renater-SpamState: 11
+X-Renater-SpamScore: 17
+X-Renater-SpamCause: gggruggvucftvghtrhhoucdtuddrfeekjedrkeeigdeflecutefuodetggdotefrodftvfcurfhrohhfihhlvgemucftgffptefvgfftpdggtfgfnhhsuhgsshgtrhhisggvnecuuegrihhlohhuthemuceftddtnecundfotefknffkpffiucdludejmdenucfjughrpefhrhfvphffjefjufggtgesmhdttdertddtjeenucfhrhhomhepfdgfpffgucfgigevnfgfuffkggfkvfmtucfhkffumfettffufdcuoehinhhfohesfhhishhkrghrshdrnhgvfihslhgvthhtvghrohhffhhitghivghllhgvrdgtohhmqeenucffohhmrghinhepmhguihhrvggtthhorhdrtghomhenucfkphepiedvrdeljedrudeguddrudekfedpudejvddrudeirddukedruddvnecurfgrrhgrmhepmhhouggvpehsmhhtphdphhgvlhhopehmthgrudeguddrudekfedrmhgurhgtthhrrdgtohhmpdhinhgvthepiedvrdeljedrudeguddrudekfedpmhgrihhlfhhrohhmpefoffdqpffqqddqfeeifeefhedqudefhedqhfftqdfrtfdqqdhrvghsphdovdffmhdvoddvffhmihgrghgvpehunhhivhdqrhgvnhhnvghsuddrfhhrsehlihhsthhsrdhmughirhgvtghtohhrrdgtohhmpdhrtghpthhtoheprhgvshhpqdhmvddqmhhirghgvgesuhhnihhvqdhrvghnnhgvshdurdhfrh 
+X-Renater-ServerName: mxb2-2.relay.renater.fr
+
+--boundaryTagForMixed
+Content-Type: multipart/alternative; boundary="boundaryTagForAlternative"
+
+--boundaryTagForAlternative
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+
+
+**********************************************************************
+
+Vous pourrez exercer vos droits dÂ´accÃ¨s, annulation, rectification et opposition concernant vos donnÃ©es Ã  caractÃ¨re personnel, en cliquant
+ * annulation
+//www.mdirector.com/track/pre-unsubscribe/category/EMAIL/empId/36335/subId/135/listId/29/conId/26169/signature/1c590bf7fe1d27925648128d4be9535c/conEmail/resp-m2-miage@univ-rennes1.fr/conMovil/-
+
+
+--boundaryTagForAlternative
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta name="viewport" content="width=device-width">
+ <title>Une exclusivit&eacute; Fiskars</title>
+ <style media="screen" type="text/css">/* RESET */
+body, p{margin:0; padding:0; margin-bottom:0; -webkit-text-size-adjust:none; -ms-text-size-adjust:none;} img{line-height:100%; outline:none; text-decoration:none; -ms-interpolation-mode: bicubic; border:0; display:block;} a img{border: none;} #backgroundTable {margin:0; padding:0; width:100% !important; } a, a:link{color:#2A5DB0; text-decoration: underline;} .ExternalClass {display: block !important; width:100%;} .ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td,
+.ExternalClass div { line-height: 100%; } table td {border-collapse:collapse;} sup{position: relative; top: 4px; line-height:7px !important;font-size:11px !important;} .mobile_link a[href^="tel"], .mobile_link a[href^="sms"] {text-decoration: default; color: #a9a9a9 !important; /* set link color */ pointer-events: auto; cursor: default;} .no-detect a{text-decoration: none; color: #666; /* set text color */ pointer-events: auto; cursor: default;} .no-detect-local a{color: #a9a9a9;} span {color: inherit;
+border-bottom: none;} span:hover { background-color: transparent; }
+
+/* RESPONSIVE */
+@media only screen and (max-width: 599px) {
+ 
+ table[class="total"]{
+ display:block;
+ width:100% !important;
+ }
+ td[class="total"]{ width:100% !important;}
+ td[class="td92"] { width:100% !important;}
+ td[class="td72"] { width:72% !important;}
+ td[class="td50"] { width:35% !important;}
+ td[class="td35"] { width:35% !important;}
+ td[class="td30"] { width:30% !important;}
+ td[class="td28"] { width:28% !important;}
+ td[class="td10"] { width:10% !important;}
+ td[class="td5"] { width:5% !important;}
+ td[class="td4"] { width:4% !important;}
+ 
+ span[class="f26"]{ font-size:24px !important;} span[class="f18"]{ font-size:17px !important;} span[class="f16"]{ font-size:14px !important;} span[class="f14"]{ font-size:12px !important;} span[class="f13"]{ font-size:11px !important;} span[class="f12"]{ font-size:10px !important;} span[class="f10"]{ font-size:9px !important;} 
+ 
+}
+@media only screen and (max-width: 499px) {
+ 
+ span[class="f26"]{ font-size:21px !important;} span[class="f18"]{ font-size:16px !important;} span[class="f16"]{ font-size:13px !important;} span[class="f14"]{ font-size:11px !important;} span[class="f13"]{ font-size:10px !important;} span[class="f12"]{ font-size:9px !important;} span[class="f10"]{ font-size:8px !important;} 
+}
+@media only screen and (max-width: 449px) {
+ 
+ span[class="f26"]{ font-size:18px !important;} span[class="f18"]{ font-size:14px !important;} span[class="f16"]{ font-size:12px !important;} span[class="f14"]{ font-size:10px !important;} span[class="f13"]{ font-size:9px !important;} span[class="f12"]{ font-size:9px !important;} span[class="f10"]{ font-size:7px !important;} 
+}
+@media only screen and (max-width: 399px) {
+ 
+ td[class="td50"] { width:50% !important;}
+ td[class="td15"] { display:none !important;}
+ 
+ span[class="f26"]{ font-size:16px !important;} span[class="f18"]{ font-size:13px !important;} span[class="f16"]{ font-size:10px !important;} span[class="f14"]{ font-size:8px !important;} span[class="f13"]{ font-size:9px !important;} span[class="f12"]{ font-size:8px !important;} 
+}
+ </style>
+</head>
+<body style="background:#ffffff; font-family:Arial, Helvetica, sans-serif; font-size:12px;"><img src="http://www.mdirector.com/track/open/key/36335-135-29-26169/signature/1c590bf7fe1d27925648128d4be9535c/userid/51eed63ab5580c7fc8d7f55a6a04c716" style="display:none;" border=0 width=1 height=1 alt="">
+<table border="0" cellpadding="0" cellspacing="0" style="background:#ffffff; width:100%">
+ <tbody>
+ <tr>
+ <td align="center" class="wrap" style="background:#ffffff;" valign="top" width="100%"><!-- LIEN MIROIR -->
+ <table align="center" border="0" cellpadding="0" cellspacing="0" class="total" style="width:600px">
+ <tbody>
+ <tr height="70" valign="middle">
+ <td align="center" class="total" width="100%"><a data-linkid="link_56df0eb9af048" href="http://www.mdirector.com/track/link/key/36335-135-3878-29-26169/signature/1c590bf7fe1d27925648128d4be9535c/contactInfo/Y29uSWQ9MjYxNjl%2BfmVtYWlsPXJlc3AtbTItbWlhZ2VAdW5pdi1yZW5uZXMxLmZyfn5tb3ZpbD0tfn5zdWJJZD0xMzV%2Bfmxpc3RJZD0yOX5%2Bc25hcElkPTIyNzI0MzJ%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT01MWVlZDYzYWI1NTgwYzdmYzhkN2Y1NWE2YTA0YzcxNn5%2BY29uX21kNT1jY2EyYWQyYzJmY2Y1ZTllMmE1OGMzMjc2MzAyYzYwMg%3D%3D/userid/51eed63ab5580c7fc8d7f55a6a04c716" style="color:#4b4b4b; text-decoration:none; display:inline-block;" target="_blank"><span class="f12" style="color:#4b4b4b; font-family:arial,sans-serif; font-size:12px">&nbsp; Si vous n&rsquo;arrivez pas &agrave; visualiser cet email, <u>cliquez ici</u>. &nbsp;</span></a></td>
+ </tr>
+ </tbody>
+ </table>
+ <!-- LOGO -->
+
+ <table align="center" border="0" cellpadding="0" cellspacing="0" class="total" style="width:600px">
+ <tbody>
+ <tr valign="middle">
+ <td align="center" class="total" width="100%"><a data-linkid="link_56df0eb9af25c" href="http://www.mdirector.com/track/link/key/36335-135-3879-29-26169/signature/1c590bf7fe1d27925648128d4be9535c/contactInfo/Y29uSWQ9MjYxNjl%2BfmVtYWlsPXJlc3AtbTItbWlhZ2VAdW5pdi1yZW5uZXMxLmZyfn5tb3ZpbD0tfn5zdWJJZD0xMzV%2Bfmxpc3RJZD0yOX5%2Bc25hcElkPTIyNzI0MzJ%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT01MWVlZDYzYWI1NTgwYzdmYzhkN2Y1NWE2YTA0YzcxNn5%2BY29uX21kNT1jY2EyYWQyYzJmY2Y1ZTllMmE1OGMzMjc2MzAyYzYwMg%3D%3D/userid/51eed63ab5580c7fc8d7f55a6a04c716" style="color:#000000; text-decoration:none;" target="_blank"><span class="f14" style="color:#000000; font-family:arial,sans-serif; font-size:14px"><strong><img alt="Une exclusivit&#233; FISKARS" border="0" src="http://imagemiroir.com/fiskars/img/une-exclusivite.jpg" style="border:0;
+display:block; width:100%" /></strong></span></a></td>
+ </tr>
+ </tbody>
+ </table>
+ <!-- MENU -->
+
+ <table align="center" border="0" cellpadding="0" cellspacing="0" class="total" style="width:600px">
+ <tbody>
+ <tr valign="middle">
+ <td align="center" class="total" width="100%"><a data-linkid="link_56df0eb9af3df" href="http://www.mdirector.com/track/link/key/36335-135-3880-29-26169/signature/1c590bf7fe1d27925648128d4be9535c/contactInfo/Y29uSWQ9MjYxNjl%2BfmVtYWlsPXJlc3AtbTItbWlhZ2VAdW5pdi1yZW5uZXMxLmZyfn5tb3ZpbD0tfn5zdWJJZD0xMzV%2Bfmxpc3RJZD0yOX5%2Bc25hcElkPTIyNzI0MzJ%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT01MWVlZDYzYWI1NTgwYzdmYzhkN2Y1NWE2YTA0YzcxNn5%2BY29uX21kNT1jY2EyYWQyYzJmY2Y1ZTllMmE1OGMzMjc2MzAyYzYwMg%3D%3D/userid/51eed63ab5580c7fc8d7f55a6a04c716" style="color:#ff8e01; text-decoration:none;" target="_blank"><span class="f14" style="color:#ff8e01; font-family:arial,sans-serif; font-size:14px"><strong><img alt="Les ustensiles" border="0" src="http://imagemiroir.com/fiskars/img/les-sets.jpg" style="border:0; display:inline-block;
+width:20%" /></strong></span></a><a data-linkid="link_56df0eb9af54d" href="http://www.mdirector.com/track/link/key/36335-135-3881-29-26169/signature/1c590bf7fe1d27925648128d4be9535c/contactInfo/Y29uSWQ9MjYxNjl%2BfmVtYWlsPXJlc3AtbTItbWlhZ2VAdW5pdi1yZW5uZXMxLmZyfn5tb3ZpbD0tfn5zdWJJZD0xMzV%2Bfmxpc3RJZD0yOX5%2Bc25hcElkPTIyNzI0MzJ%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT01MWVlZDYzYWI1NTgwYzdmYzhkN2Y1NWE2YTA0YzcxNn5%2BY29uX21kNT1jY2EyYWQyYzJmY2Y1ZTllMmE1OGMzMjc2MzAyYzYwMg%3D%3D/userid/51eed63ab5580c7fc8d7f55a6a04c716" style="color:#ff8e01; text-decoration:none;" target="_blank"><span class="f14" style="color:#ff8e01; font-family:arial,sans-serif; font-size:14px"><strong><img alt="Les ustensiles" border="0" src="http://imagemiroir.com/fiskars/img/les-couteaux.jpg" style="border:0; display:inline-block; width:20%"
+/></strong></span></a><a data-linkid="link_56df0eb9af6a6" href="http://www.mdirector.com/track/link/key/36335-135-3882-29-26169/signature/1c590bf7fe1d27925648128d4be9535c/contactInfo/Y29uSWQ9MjYxNjl%2BfmVtYWlsPXJlc3AtbTItbWlhZ2VAdW5pdi1yZW5uZXMxLmZyfn5tb3ZpbD0tfn5zdWJJZD0xMzV%2Bfmxpc3RJZD0yOX5%2Bc25hcElkPTIyNzI0MzJ%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT01MWVlZDYzYWI1NTgwYzdmYzhkN2Y1NWE2YTA0YzcxNn5%2BY29uX21kNT1jY2EyYWQyYzJmY2Y1ZTllMmE1OGMzMjc2MzAyYzYwMg%3D%3D/userid/51eed63ab5580c7fc8d7f55a6a04c716" style="color:#ff8e01; text-decoration:none;" target="_blank"><span class="f14" style="color:#ff8e01; font-family:arial,sans-serif; font-size:14px"><strong><img alt="Les ustensiles" border="0" src="http://imagemiroir.com/fiskars/img/les-ciseaux.jpg" style="border:0; display:inline-block; width:20%"
+/></strong></span></a><a data-linkid="link_56df0eb9af802" href="http://www.mdirector.com/track/link/key/36335-135-3883-29-26169/signature/1c590bf7fe1d27925648128d4be9535c/contactInfo/Y29uSWQ9MjYxNjl%2BfmVtYWlsPXJlc3AtbTItbWlhZ2VAdW5pdi1yZW5uZXMxLmZyfn5tb3ZpbD0tfn5zdWJJZD0xMzV%2Bfmxpc3RJZD0yOX5%2Bc25hcElkPTIyNzI0MzJ%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT01MWVlZDYzYWI1NTgwYzdmYzhkN2Y1NWE2YTA0YzcxNn5%2BY29uX21kNT1jY2EyYWQyYzJmY2Y1ZTllMmE1OGMzMjc2MzAyYzYwMg%3D%3D/userid/51eed63ab5580c7fc8d7f55a6a04c716" style="color:#ff8e01; text-decoration:none;" target="_blank"><span class="f14" style="color:#ff8e01; font-family:arial,sans-serif; font-size:14px"><strong><img alt="Les ustensiles" border="0" src="http://imagemiroir.com/fiskars/img/les-ustensiles.jpg" style="border:0; display:inline-block; width:20%"
+/></strong></span></a><a data-linkid="link_56df0eb9af948" href="http://www.mdirector.com/track/link/key/36335-135-3884-29-26169/signature/1c590bf7fe1d27925648128d4be9535c/contactInfo/Y29uSWQ9MjYxNjl%2BfmVtYWlsPXJlc3AtbTItbWlhZ2VAdW5pdi1yZW5uZXMxLmZyfn5tb3ZpbD0tfn5zdWJJZD0xMzV%2Bfmxpc3RJZD0yOX5%2Bc25hcElkPTIyNzI0MzJ%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT01MWVlZDYzYWI1NTgwYzdmYzhkN2Y1NWE2YTA0YzcxNn5%2BY29uX21kNT1jY2EyYWQyYzJmY2Y1ZTllMmE1OGMzMjc2MzAyYzYwMg%3D%3D/userid/51eed63ab5580c7fc8d7f55a6a04c716" style="color:#ff8e01; text-decoration:none;" target="_blank"><span class="f14" style="color:#ff8e01; font-family:arial,sans-serif; font-size:14px"><strong><img alt="Les ustensiles" border="0" src="http://imagemiroir.com/fiskars/img/les-offres.jpg" style="border:0; display:inline-block; width:20%"
+/></strong></span></a></td>
+ </tr>
+ </tbody>
+ </table>
+ <!-- CADEAU -->
+
+ <table align="center" border="0" cellpadding="0" cellspacing="0" class="total" style="width:600px">
+ <tbody>
+ <tr height="40">
+ <td class="total" width="100%">&nbsp;</td>
+ </tr>
+ <tr valign="middle">
+ <td align="center" class="total" width="100%"><a data-linkid="link_56df0eb9afab2" href="http://www.mdirector.com/track/link/key/36335-135-3885-29-26169/signature/1c590bf7fe1d27925648128d4be9535c/contactInfo/Y29uSWQ9MjYxNjl%2BfmVtYWlsPXJlc3AtbTItbWlhZ2VAdW5pdi1yZW5uZXMxLmZyfn5tb3ZpbD0tfn5zdWJJZD0xMzV%2Bfmxpc3RJZD0yOX5%2Bc25hcElkPTIyNzI0MzJ%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT01MWVlZDYzYWI1NTgwYzdmYzhkN2Y1NWE2YTA0YzcxNn5%2BY29uX21kNT1jY2EyYWQyYzJmY2Y1ZTllMmE1OGMzMjc2MzAyYzYwMg%3D%3D/userid/51eed63ab5580c7fc8d7f55a6a04c716" style="color:#ff8e01; text-decoration:none;" target="_blank"><span class="f26" style="color:#ff8e01; font-family:arial,sans-serif; font-size:26px">D&eacute;couvrez l&#39;univers Cuisine FISKARS !</span></a></td>
+ </tr>
+ <tr height="20">
+ <td class="total" width="100%">&nbsp;</td>
+ </tr>
+ </tbody>
+ </table>
+ <!-- D&#201;COUVREZ -->
+
+ <table align="center" border="0" cellpadding="0" cellspacing="0" class="total" style="width:600px">
+ <tbody>
+ <tr valign="middle">
+ <td align="center" class="total" width="100%"><a data-linkid="link_56df0eb9afc0c" href="http://www.mdirector.com/track/link/key/36335-135-3886-29-26169/signature/1c590bf7fe1d27925648128d4be9535c/contactInfo/Y29uSWQ9MjYxNjl%2BfmVtYWlsPXJlc3AtbTItbWlhZ2VAdW5pdi1yZW5uZXMxLmZyfn5tb3ZpbD0tfn5zdWJJZD0xMzV%2Bfmxpc3RJZD0yOX5%2Bc25hcElkPTIyNzI0MzJ%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT01MWVlZDYzYWI1NTgwYzdmYzhkN2Y1NWE2YTA0YzcxNn5%2BY29uX21kNT1jY2EyYWQyYzJmY2Y1ZTllMmE1OGMzMjc2MzAyYzYwMg%3D%3D/userid/51eed63ab5580c7fc8d7f55a6a04c716" style="color:#000000; text-decoration:none;" target="_blank"><span class="f26" style="color:#000000; font-family:arial,sans-serif; font-size:26px"><strong><img alt="D&#233;couvrez l'univers Cuisine FISKARS" border="0" src="http://imagemiroir.com/fiskars/2/img/je-decouvre.jpg"
+style="border:0; display:block; width:100%" /></strong></span></a></td>
+ </tr>
+ <tr height="20">
+ <td class="total" width="100%">&nbsp;</td>
+ </tr>
+ </tbody>
+ </table>
+ <!-- COUTEAUX -->
+
+ <table align="center" border="0" cellpadding="0" cellspacing="0" class="total" style="width:600px">
+ <tbody>
+ <tr valign="middle">
+ <td align="center" class="total" width="100%"><a data-linkid="link_56df0eb9afd91" href="http://www.mdirector.com/track/link/key/36335-135-3887-29-26169/signature/1c590bf7fe1d27925648128d4be9535c/contactInfo/Y29uSWQ9MjYxNjl%2BfmVtYWlsPXJlc3AtbTItbWlhZ2VAdW5pdi1yZW5uZXMxLmZyfn5tb3ZpbD0tfn5zdWJJZD0xMzV%2Bfmxpc3RJZD0yOX5%2Bc25hcElkPTIyNzI0MzJ%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT01MWVlZDYzYWI1NTgwYzdmYzhkN2Y1NWE2YTA0YzcxNn5%2BY29uX21kNT1jY2EyYWQyYzJmY2Y1ZTllMmE1OGMzMjc2MzAyYzYwMg%3D%3D/userid/51eed63ab5580c7fc8d7f55a6a04c716" style="color:#000000; text-decoration:none;" target="_blank"><span class="f14" style="color:#000000; font-family:arial,sans-serif; font-size:14px"><strong><img alt="Couteaux &#224; l&#233;gumes EDGE" border="0" src="http://imagemiroir.com/fiskars/img/couteaux-legumes.jpg" style="border:0;
+display:inline-block; width:50%" /></strong></span></a><a data-linkid="link_56df0eb9afee9" href="http://www.mdirector.com/track/link/key/36335-135-3888-29-26169/signature/1c590bf7fe1d27925648128d4be9535c/contactInfo/Y29uSWQ9MjYxNjl%2BfmVtYWlsPXJlc3AtbTItbWlhZ2VAdW5pdi1yZW5uZXMxLmZyfn5tb3ZpbD0tfn5zdWJJZD0xMzV%2Bfmxpc3RJZD0yOX5%2Bc25hcElkPTIyNzI0MzJ%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT01MWVlZDYzYWI1NTgwYzdmYzhkN2Y1NWE2YTA0YzcxNn5%2BY29uX21kNT1jY2EyYWQyYzJmY2Y1ZTllMmE1OGMzMjc2MzAyYzYwMg%3D%3D/userid/51eed63ab5580c7fc8d7f55a6a04c716" style="color:#ff8e01; text-decoration:none;" target="_blank"><span class="f14" style="color:#ff8e01; font-family:arial,sans-serif; font-size:14px"><strong><img alt="Bloc de 5 couteaux EDGE" border="0" src="http://imagemiroir.com/fiskars/img/couteaux-5.jpg" style="border:0;
+display:inline-block; width:50%" /></strong></span></a><a data-linkid="link_56df0eb9b0049" href="http://www.mdirector.com/track/link/key/36335-135-3889-29-26169/signature/1c590bf7fe1d27925648128d4be9535c/contactInfo/Y29uSWQ9MjYxNjl%2BfmVtYWlsPXJlc3AtbTItbWlhZ2VAdW5pdi1yZW5uZXMxLmZyfn5tb3ZpbD0tfn5zdWJJZD0xMzV%2Bfmxpc3RJZD0yOX5%2Bc25hcElkPTIyNzI0MzJ%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT01MWVlZDYzYWI1NTgwYzdmYzhkN2Y1NWE2YTA0YzcxNn5%2BY29uX21kNT1jY2EyYWQyYzJmY2Y1ZTllMmE1OGMzMjc2MzAyYzYwMg%3D%3D/userid/51eed63ab5580c7fc8d7f55a6a04c716" style="color:#ff8e01; text-decoration:none;" target="_blank"><span class="f14" style="color:#ff8e01; font-family:arial,sans-serif; font-size:14px"><strong><img alt="Set P&#226;tes" border="0" src="http://imagemiroir.com/fiskars/img/set-pates.jpg" style="border:0;
+display:inline-block; width:50%" /></strong></span></a><a data-linkid="link_56df0eb9b017b" href="http://www.mdirector.com/track/link/key/36335-135-3890-29-26169/signature/1c590bf7fe1d27925648128d4be9535c/contactInfo/Y29uSWQ9MjYxNjl%2BfmVtYWlsPXJlc3AtbTItbWlhZ2VAdW5pdi1yZW5uZXMxLmZyfn5tb3ZpbD0tfn5zdWJJZD0xMzV%2Bfmxpc3RJZD0yOX5%2Bc25hcElkPTIyNzI0MzJ%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT01MWVlZDYzYWI1NTgwYzdmYzhkN2Y1NWE2YTA0YzcxNn5%2BY29uX21kNT1jY2EyYWQyYzJmY2Y1ZTllMmE1OGMzMjc2MzAyYzYwMg%3D%3D/userid/51eed63ab5580c7fc8d7f55a6a04c716" style="color:#000000; text-decoration:none;" target="_blank"><span class="f14" style="color:#000000; font-family:arial,sans-serif; font-size:14px"><strong><img alt="Couteau de chef edge 19cm" border="0" src="http://imagemiroir.com/fiskars/img/couteaux-chef.jpg" style="border:0;
+display:inline-block; width:50%" /></strong></span></a></td>
+ </tr>
+ </tbody>
+ </table>
+ <!-- INFOS + PAIEMENTS -->
+
+ <table align="center" border="0" cellpadding="0" cellspacing="0" class="total" style="width:600px">
+ <tbody>
+ <tr height="20">
+ <td class="total" width="100%">&nbsp;</td>
+ </tr>
+ <tr valign="middle">
+ <td align="center" class="total" width="100%"><span class="f14" style="color:#aaaaaa; font-family:arial,sans-serif; font-size:14px"><strong><img alt="Paiement en 3 fois sans frais - Livraison 24h - Design &amp; Qualit&#233;" border="0" src="http://imagemiroir.com/fiskars/img/infos.jpg" style="border:0; display:block; width:100%" /></strong></span></td>
+ </tr>
+ <tr height="50">
+ <td class="total" width="100%">&nbsp;</td>
+ </tr>
+ <tr valign="middle">
+ <td align="center" class="total" width="100%"><span class="f14" style="color:#014a96; font-family:arial,sans-serif; font-size:14px"><strong><img alt="Visa - MasterCard - Paypal" border="0" src="http://imagemiroir.com/fiskars/img/paiements.jpg" style="border:0; display:block; width:100%" /></strong></span></td>
+ </tr>
+ </tbody>
+ </table>
+ <!-- D&#201;SINSCRIPTION -->
+
+ <table align="center" border="0" cellpadding="0" cellspacing="0" class="total" style="width:600px">
+ <tbody>
+ <tr height="30">
+ <td align="center" class="total" width="600">&nbsp;</td>
+ </tr>
+ <tr valign="middle">
+ <td align="center" class="total" width="100%"><span class="f10" style="color:#666; font-family:arial,sans-serif; font-size:10px">Conform&eacute;ment &agrave; la loi &laquo;informatique et libert&eacute;s&raquo; du 6 janvier 1978, vous b&eacute;n&eacute;ficiez d&rsquo;un droit d&rsquo;acc&egrave;s, de modification, de rectification et de suppression des donn&eacute;es qui vous concernent. Si vous souhaitez exercer ce droit et obtenir communication des informations vous concernant, veuillez vous adresser
+&agrave; : Une exclusivit&eacute; Fiskars / VENISE HBA 7-13 Boulevard Paul Emile Victor, 92200 Neuilly-sur-Seine</span></td>
+ </tr>
+ <tr height="20">
+ <td align="center" class="total" width="600">&nbsp;</td>
+ </tr>
+ <tr height="70" valign="middle">
+ <td align="center" class="total" width="100%"><a data-linkid="link_56df0eb9b02d8" href="http://www.mdirector.com/track/link/key/36335-135-3891-29-26169/signature/1c590bf7fe1d27925648128d4be9535c/contactInfo/Y29uSWQ9MjYxNjl%2BfmVtYWlsPXJlc3AtbTItbWlhZ2VAdW5pdi1yZW5uZXMxLmZyfn5tb3ZpbD0tfn5zdWJJZD0xMzV%2Bfmxpc3RJZD0yOX5%2Bc25hcElkPTIyNzI0MzJ%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT01MWVlZDYzYWI1NTgwYzdmYzhkN2Y1NWE2YTA0YzcxNn5%2BY29uX21kNT1jY2EyYWQyYzJmY2Y1ZTllMmE1OGMzMjc2MzAyYzYwMg%3D%3D/userid/51eed63ab5580c7fc8d7f55a6a04c716" style="color:#999999; text-decoration:none; display:inline-block;" target="_blank"><span class="f12" style="color:#999999; font-family:arial,sans-serif; font-size:12px">&nbsp; Si vous ne souhaitez plus recevoir d&#39;email de notre part, <u>cliquez ici</u>. &nbsp;</span></a></td>
+ </tr>
+ </tbody>
+ </table>
+ </td>
+ </tr>
+ </tbody>
+</table>
+<style>
+.txtPie {
+font-family: Tahoma, Arial, Verdana;
+font-size: 10px;
+color: #8c8c8c;
+text-align: justify;
+}
+.txtPie a {
+color: #FF8549;
+}
+</style>
+<center>
+<table style="max-width:550px;" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td style="max-width:6px;" height="6"><img src="http://static.2013.mdirector.com/images/email/footer/esq_sup_izq.gif"></td>
+    <td style="max-width:538px;" bgcolor="#ffffff"></td>
+    <td style="max-width:6px;" height="6"><img src="http://static.2013.mdirector.com/images/email/footer/esq_sup_dcha.gif"></td>
+  </tr>
+  <tr>
+    <td style="max-width:6px;" bgcolor="#ffffff"></td>
+    <td style="max-width:538px;" bgcolor="#ffffff" valign="top" class="txtPie">
+Vous pourrez exercer vos droits d&acute;acc&egrave;s, annulation, rectification et opposition concernant vos donn&eacute;es &agrave; caract&egrave;re personnel, en cliquant <a href='http://www.mdirector.com/track/pre-unsubscribe/category/EMAIL/empId/36335/subId/135/listId/29/conId/26169/signature/1c590bf7fe1d27925648128d4be9535c/conEmail/resp-m2-miage@univ-rennes1.fr/conMovil/-'>annulation</a>.
+    </td>
+    <td style="max-width:6px;" bgcolor="#ffffff"></td>
+  </tr>
+  <tr>
+    <td style="max-width:6px;" height="6"><img src="http://static.2013.mdirector.com/images/email/footer/esq_inf_izq.gif"></td>
+    <td style="max-width:538px;" bgcolor="#ffffff"></td>
+    <td style="max-width:6px;" height="6"><img src="http://static.2013.mdirector.com/images/email/footer/esq_inf_dcha.gif"></td>
+  </tr>
+</table>
+</center>
+
+
+
+</body>
+</html>
+
+--boundaryTagForAlternative--
+
+--boundaryTagForMixed--

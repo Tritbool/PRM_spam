@@ -1,0 +1,813 @@
+Return-Path: <return-a18-1622-1623-resp-m2-miage=univ-rennes1.fr=4@renover-maison.com>
+Received: from mailimailo.univ-rennes1.fr ([unix socket])
+	 by mailimailo.univ-rennes1.fr (Cyrus v2.3.16-Fedora-RPM-2.3.16-6.el6_2.5) with LMTPA;
+	 Thu, 17 Sep 2015 12:48:48 +0200
+X-Sieve: CMU Sieve 2.3
+Received: from vmsmtprexch.univ-rennes1.fr (vmsmtprexch.univ-rennes1.fr [129.20.128.62])
+	by mailimailo.univ-rennes1.fr (Postfix) with ESMTP id A93DC26A10A2
+	for <resp-m2-miage@univ-rennes1.fr>; Thu, 17 Sep 2015 12:48:48 +0200 (CEST)
+Received: from mbcasexch1.Ur.local (mbcasexch1.univ-rennes1.fr [129.20.125.129])
+	by vmsmtprexch.univ-rennes1.fr (Postfix) with ESMTP id A6614D4
+	for <resp-m2-miage@univ-rennes1.fr>; Thu, 17 Sep 2015 12:48:48 +0200 (CEST)
+X-CrossPremisesHeadersFilteredBySendConnector: mbcasexch1.Ur.local
+Received: from mbcasexch1.Ur.local (2002:8114:7d81::8114:7d81) by
+ mbcasexch1.Ur.local (2002:8114:7d81::8114:7d81) with Microsoft SMTP Server
+ (TLS) id 15.0.913.22; Thu, 17 Sep 2015 12:48:48 +0200
+Received: from mailout1.univ-rennes1.fr (129.20.128.162) by
+ mbcasexch1.Ur.local (129.20.125.129) with Microsoft SMTP Server id
+ 15.0.913.22 via Frontend Transport; Thu, 17 Sep 2015 12:48:48 +0200
+Received: from localhost (vmscanmail.univ-rennes1.fr [129.20.128.134])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id 401A860161
+	for <resp-m2-miage@univ-rennes1.fr>; Thu, 17 Sep 2015 12:48:48 +0200 (CEST)
+X-Virus-Scanned: amavisd-new at univ-rennes1.fr
+Received: from mailout1.univ-rennes1.fr ([129.20.128.162])
+	by localhost (vmscanmail.univ-rennes1.frm [129.20.128.134]) (amavisd-new, port 10026)
+	with ESMTP id nfsfTDuzsTBt for <resp-m2-miage@univ-rennes1.fr>;
+	Thu, 17 Sep 2015 12:48:48 +0200 (CEST)
+Received: from vmmailin.univ-rennes1.fr (vmmailin.univ-rennes1.fr [129.20.128.133])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id 19DF160154
+	for <resp-m2-miage@univ-rennes1.fr>; Thu, 17 Sep 2015 12:48:48 +0200 (CEST)
+Received: from mxb1-2.relay.renater.fr (mxb1-2.relay.renater.fr [194.214.201.9])
+	by vmmailin.univ-rennes1.fr (Postfix) with ESMTP id 120D120033
+	for <resp-m2-miage@univ-rennes1.fr>; Thu, 17 Sep 2015 12:48:48 +0200 (CEST)
+Received: from smtp1-13.revue-en-ligne.com (smtp1-13.revue-en-ligne.com [5.196.204.56])
+	by mxb1-2.relay.renater.fr (asm) with SMTP id C7554280097
+	for <resp-m2-miage@univ-rennes1.fr>; Thu, 17 Sep 2015 12:48:47 +0200 (CEST)
+Received: (GreenArrow 14610 invoked by uid 410); 17 Sep 2015 10:48:47 -0000
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed;
+	d=renover-maison.com; s=default; h=Subject:From:To:Date:
+	List-Unsubscribe:Message-ID:MIME-Version:Content-Type; bh=Mkh8RF
+	vGIe0CgUkRQ6tg8YZi3B4=; b=FCPxjOZB9/2T4YdXH00Jge+kifhK0rQon+VtWP
+	A1gIri2Ng2xHZpEahcy/KHSpedFzYx/zQTr2OTBrQZb5l5Q2jgQRz4RrUw8O/vXC
+	2V8fC40FT/5556s8GZSQ55NlBQ4h5gfK8EINDOB7F6w2lfe2BGeoZm5PEYx9mhEh
+	DIvK0=
+Subject: =?UTF-8?Q?Jusqu=27=C3=A0=20=2D50=25=20en=20magasin=20et=20sur?=
+ =?UTF-8?Q?=20T=2DA=2DO=2Ecom=20pendant=20les=20Original=20Days=20=21?=
+From: =?UTF-8?B?VGFwZSDDoCBs?='oeil par Sociabiliweb <news@renover-maison.com>
+To: <resp-m2-miage@univ-rennes1.fr>
+Date: Thu, 17 Sep 2015 10:48:47 +0000
+List-Unsubscribe: <http://renover-maison.com/ga/unsubscribe/2-11527895-18-853-1623-ed35df89ef15825-f0a53662a6>,
+ <mailto:return-a18-1622-1623-resp-m2-miage=univ-rennes1.fr=4u@renover-maison.com>
+X-Mailer: GreenArrow Studio (v4.44.0)
+X-CampaignID: s4:1622-0c69b9d8aac54466
+Message-ID: <mid-a38b412c516ea734361bea69d185c98d@renover-maison.com>
+X-Mailer-Info: 4.hFDO.QM2IjM.IXZzBXLtJTLtlWYnVGQ15Wa21icl5mblNXMuYmc.QM2IzM
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="==f5f2ca64e9de94b575a73b259c9b06e6"
+X-UCE-Status: YES
+X-UCE-Type: MCE
+X-Original-Source-IP: 5.196.204.56
+X-Bizanga: IMP - mxb1-2.relay.renater.fr
+X-Renater-SpamState: 11
+X-Renater-SpamScore: 17
+X-Renater-SpamCause: gggruggvucftvghtrhhoucdtuddrfeekgedrfedugdefvdcutefuodetggdotefrucfrrhhofhhilhgvmecutffgpfetvffgtfdpggftfghnshhusghstghrihgsvgenuceurghilhhouhhtmecufedttdenucdnofetkffnkffpifculddujedmnecujfgurhepuffhvfffjffokfggtgesrgdtreerredtjeenucfhrhhomhepfdfvrghpvgcuioculhdkohgvihhluchprghrucfuohgtihgrsghilhhifigvsgdfuceonhgvfihssehrvghnohhvvghrqdhmrghishhonhdrtghomheqnecuffhomhgrihhnpehrvghnohhvvghrqdhmrghishhonhdrtghomhdpthdqrgdqohdrtghomh 
+X-Renater-ServerName: mxb1-2.relay.renater.fr
+X-OrganizationHeadersPreserved: mbcasexch1.Ur.local
+
+--==f5f2ca64e9de94b575a73b259c9b06e6
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+=20
+=20
+ORIGINAL DAYS : jusqu'=C3=A0 -50% !
+TAO - Tape =C3=A0 l'oeil
+FILLE
+2-14 ans	GAR=C3=87ON
+2-14 ans	B=C3=89B=C3=89 FILLE
+3-36 mois	B=C3=89B=C3=89 GAR=C3=87ON
+3-36 mois	NAISSANCE
+0-12 mois	CHAUSSURES
+Livraison gratuite d=C3=A8s 10=E2=82=AC d'achat
+ORIGINAL DAYS - Crazy Prices	Jusqu'=C3=A0 -50%=09
+=20
+Je fonce en magasin	 	Je fonce sur T-A-O.com
+=20
+	BASICS=09
+Fille	 	Gar=C3=A7on
+=20=09
+B=C3=A9b=C3=A9 fille	 	B=C3=A9b=C3=A9 gar=C3=A7on
+=20
+=20
+My TAO Community
+TAO POINTS 10=E2=82=AC d'achat =3D 1 POINT
+15 points =3D 10=E2=82=AC
+EN CH=C3=A8QUE FID=C3=89LIT=C3=89	 	HAPPY BIRTHDEAL Un ch=C3=A8que annivers=
+aire de
+5=E2=82=AC OFFERT pour
+vos Original Kids !
+=20=09
+Assurance Fashion Life Une fermeture =C3=A9clair cass=C3=A9e, un tee-shirt =
+qui r=C3=A9tr=C3=A9cit au lavage ? Tape =C3=A0 l'oeil =C3=A9change les prod=
+uits qui pr=C3=A9senteraient un d=C3=A9faut, tout au long de la saison.	 	G=
+arantie Tape =C3=A0 l'oeil =C3=89CHANGE OU REMBOURSE les v=C3=AAtements non=
+ port=C3=A9s, m=C3=AAme sans ticket de caisse pendant toute la saison.
+et bien plus encore
+tous les avantages
+=20
+=20
+Livraison	Echange
+LIVRAISON GRATUITE
+en magasin d=C3=A8s 10=E2=82=AC d'achat	=C3=89CHANGE &
+REMBOURSEMENT
+sur toute la saison
+Nouveaut=C3=A9s	Magasin
+100 NOUVEAUT=C3=89S
+par semaine	> TROUVEZ
+VOTRE MAGASIN
+=20
+=20
+=20
+Shop&Share	Facebook	Instagram	YouTube	Twitter	Pinterest
+=20
+* Offre valable du 16/09/2015 au 27/09/2015 inclus en magasin et sur www.t-=
+a-o.com (France m=C3=A9tropolitaine, Belgique, Pologne), selon =C3=A9tiquet=
+age et stocks disponibles. Les produits anciennes collections ne sont ni =
+=C3=A9changeables ni remboursables en magasin mais uniquement en point rela=
+is pour une livraison en point relais ou par voie postale pour une livraiso=
+n pas La Poste.
+=20
+
+--==f5f2ca64e9de94b575a73b259c9b06e6
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.=
+w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml">
+<head>
+	<title>TAO</title>
+	<meta content=3D"text/html; charset=3Dutf-8" http-equiv=3D"Content-Type" />
+	<meta content=3D"width=3Ddevice-width" name=3D"viewport" />
+	<style type=3D"text/css">body { text-size-adjust:none; -webkit-text-size-a=
+djust:none; -ms-text-size-adjust:none; word-wrap: normal; }
+	.ReadMsgBody { width:100%; }
+	.ExternalClass { width:100%; }
+	.ExternalClass * { line-height:100%; }
+	.linkHeader a { color:#010101; text-decoration:none; }
+    .linkBody a { color:#ffffff; text-decoration:none; }
+	.linkFooter a { color:#68686f; text-decoration:none; }
+	.linkEncart a { color:#302d31; text-decoration:none; }
+	@media only screen and (max-width: 450px) {
+	table[class=3Dwrapper] { width:100% !important; }
+	td[class=3Dnewline] { float:left; clear:both; width:100% !important; }
+	img[class=3DresponsiveImage] { width:100% !important; height:auto !importa=
+nt; }
+    img[class=3D"widthResize"] { width:100% !important; }
+	*[class=3DhideMobile] { display:none; }
+    *[class=3DalignCenter] { text-align:center !important; }
+	*[class=3DalignLeft] { text-align:left !important; }
+    img[class=3D"logo"] { width:200px !important; height:auto !important; }
+}
+	</style>
+</head>
+<body bgcolor=3D"#ffffff" style=3D"margin:0;padding:0;">
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" cl=
+ass=3D"wrapper" width=3D"650">
+	<tbody>
+		<tr>
+			<td>
+			<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ width=3D"100%">
+				<tbody>
+					<tr>
+						<td bgcolor=3D"#ffffff" height=3D"5" width=3D"650"></td>
+					</tr>
+				</tbody>
+			</table>
+
+			<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ class=3D"hideMobile" width=3D"100%">
+				<tbody>
+					<tr>
+						<td bgcolor=3D"#ffffff" height=3D"10" width=3D"650"></td>
+					</tr>
+				</tbody>
+			</table>
+
+			<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ width=3D"100%">
+				<tbody>
+					<tr>
+						<td width=3D"650">
+						<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0" width=3D"100%">
+							<tbody>
+								<tr>
+									<td align=3D"center" bgcolor=3D"#ffffff" style=3D"font-family:Aria=
+l;color:#e94a35;font-size:11px;text-decoration:none;" valign=3D"middle" wid=
+th=3D"650"><strong>ORIGINAL DAYS : jusqu&#39;&agrave; -50% !</strong></td>
+								</tr>
+							</tbody>
+						</table>
+						<!-- HEADER -->
+
+						<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0" width=3D"100%">
+							<tbody>
+								<tr>
+									<td align=3D"center"><a href=3D"http://renover-maison.com/ga/click=
+/2-11527895-18-853-1623-11424-bf0ca78a52-f0a53662a6" target=3D"_blank"><img=
+ alt=3D"TAO - Tape =C3=A0 l'oeil" border=3D"0" class=3D"responsiveImage" he=
+ight=3D"118" src=3D"
+http://tao.emsecure.net/images/FRANCE/OP_CO/2015/SEPTEMBRE/LANCEMENT_OD/new=
+logo.gif" style=3D"display:block;max-width:234px;" title=3D"TAO - Tape =C3=
+=A0 l'oeil" width=3D"234" /></a></td>
+								</tr>
+							</tbody>
+						</table>
+						<!-- NAV -->
+
+						<table align=3D"center" bgcolor=3D"#343231" border=3D"0" cellpadding=
+=3D"5" cellspacing=3D"0" class=3D"hideMobile" width=3D"100%">
+							<tbody>
+								<tr>
+									<td align=3D"center" width=3D"100"><a href=3D"http://renover-maiso=
+n.com/ga/click/2-11527895-18-853-1623-11425-dde2fe9d32-f0a53662a6" style=3D=
+"text-decoration:none;" target=3D"_blank"><font color=3D"#FFFFFF" face=3D"A=
+rial, sans-serif" style=3D"font-size:11px;">FILLE</font><br />
+									<font color=3D"#CCCCCC" face=3D"Arial, sans-serif" style=3D"font-s=
+ize:11px;">2-14 ans</font></a></td>
+									<td align=3D"center" width=3D"100"><a href=3D"http://renover-maiso=
+n.com/ga/click/2-11527895-18-853-1623-11426-176eadac65-f0a53662a6" style=3D=
+"text-decoration:none;" target=3D"_blank"><font color=3D"#FFFFFF" face=3D"A=
+rial, sans-serif" style=3D"font-size:11px;">GAR&Ccedil;ON</font><br />
+									<font color=3D"#CCCCCC" face=3D"Arial, sans-serif" style=3D"font-s=
+ize:11px;">2-14 ans</font></a></td>
+									<td align=3D"center" width=3D"100"><a href=3D"http://renover-maiso=
+n.com/ga/click/2-11527895-18-853-1623-11427-bb9055d4b6-f0a53662a6" style=3D=
+"text-decoration:none;" target=3D"_blank"><font color=3D"#FFFFFF" face=3D"A=
+rial, sans-serif" style=3D"font-size:11px;">B&Eacute;B&Eacute; FILLE</font>=
+<br />
+									<font color=3D"#CCCCCC" face=3D"Arial, sans-serif" style=3D"font-s=
+ize:11px;">3-36 mois</font></a></td>
+									<td align=3D"center" width=3D"100"><a href=3D"http://renover-maiso=
+n.com/ga/click/2-11527895-18-853-1623-11428-55b4545209-f0a53662a6" style=3D=
+"text-decoration:none;" target=3D"_blank"><font color=3D"#FFFFFF" face=3D"A=
+rial, sans-serif" style=3D"font-size:11px;">B&Eacute;B&Eacute; GAR&Ccedil;O=
+N</font><br />
+									<font color=3D"#CCCCCC" face=3D"Arial, sans-serif" style=3D"font-s=
+ize:11px;">3-36 mois</font></a></td>
+									<td align=3D"center" width=3D"100"><a href=3D"http://renover-maiso=
+n.com/ga/click/2-11527895-18-853-1623-11429-87873dc56c-f0a53662a6" style=3D=
+"text-decoration:none;" target=3D"_blank"><font color=3D"#FFFFFF" face=3D"A=
+rial, sans-serif" style=3D"font-size:11px;">NAISSANCE</font><br />
+									<font color=3D"#CCCCCC" face=3D"Arial, sans-serif" style=3D"font-s=
+ize:11px;">0-12 mois</font></a></td>
+									<td align=3D"center" width=3D"100"><a href=3D"http://renover-maiso=
+n.com/ga/click/2-11527895-18-853-1623-11430-de2bde7bf1-f0a53662a6" style=3D=
+"text-decoration:none;" target=3D"_blank"><font color=3D"#FFFFFF" face=3D"A=
+rial, sans-serif" style=3D"font-size:11px;">CHAUSSURES</font></a></td>
+								</tr>
+							</tbody>
+						</table>
+						<!-- CONTENU -->
+
+						<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0" width=3D"100%">
+							<tbody>
+								<tr>
+									<td align=3D"center" valign=3D"top"><a href=3D"http://renover-mais=
+on.com/ga/click/2-11527895-18-853-1623-11431-13b4315652-f0a53662a6" style=
+=3D"text-decoration:none;color:#000000;" target=3D"_blank"><img alt=3D"Livr=
+aison gratuite d=C3=A8s 10=E2=82=AC d'achat" border=3D"0" class=3D"responsi=
+veImage" height=3D"54" src=3D"
+http://tao.emsecure.net/images/FRANCE/OP_CO/2015/SEPTEMBRE/LANCEMENT_OD/FDP=
+.gif" style=3D"display:block;max-width:535px;" title=3D"Livraison gratuite =
+d=C3=A8s 10=E2=82=AC d'achat" width=3D"535" /></a></td>
+								</tr>
+							</tbody>
+						</table>
+
+						<table align=3D"center" bgcolor=3D"#e84a36" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" width=3D"100%">
+							<tbody>
+								<tr>
+									<td align=3D"center" class=3D"newline" valign=3D"top"><a href=3D"h=
+ttp://renover-maison.com/ga/click/2-11527895-18-853-1623-11431-13b4315652-f=
+0a53662a6" style=3D"text-decoration:none;color:#000000;" target=3D"_blank">=
+<img alt=3D"ORIGINAL DAYS - Crazy Prices" border=3D"0" class=3D"responsiveI=
+mage" height=3D"390" src=3D"
+http://tao.emsecure.net/images/FRANCE/OP_CO/2015/SEPTEMBRE/LANCEMENT_OD/tit=
+re.gif" style=3D"display:block;max-width:365px;color:#FFFFFF;font-family:Ar=
+ial; font-size:30px;" title=3D"ORIGINAL DAYS - Crazy Prices" width=3D"365" =
+/></a></td>
+									<td align=3D"center" class=3D"newline" valign=3D"top"><a href=3D"h=
+ttp://renover-maison.com/ga/click/2-11527895-18-853-1623-11431-13b4315652-f=
+0a53662a6" style=3D"text-decoration:none;color:#000000;" target=3D"_blank">=
+<img alt=3D"Jusqu'=C3=A0 -50%" border=3D"0" class=3D"responsiveImage" heigh=
+t=3D"390" src=3D"
+http://tao.emsecure.net/images/FRANCE/OP_CO/2015/SEPTEMBRE/LANCEMENT_OD/off=
+re.gif" style=3D"display:block;max-width:365px;color:#000000;font-family:Ar=
+ial; font-size:60px;" title=3D"Jusqu'=C3=A0 -50%" width=3D"255" /></a></td>
+									<td align=3D"center" class=3D"hideMobile" valign=3D"top"><a href=
+=3D"http://renover-maison.com/ga/click/2-11527895-18-853-1623-11431-13b4315=
+652-f0a53662a6" style=3D"text-decoration:none;color:#000000;" target=3D"_bl=
+ank"><img border=3D"0" class=3D"responsiveImage" height=3D"390" src=3D"
+http://tao.emsecure.net/images/FRANCE/OP_CO/2015/SEPTEMBRE/LANCEMENT_OD/bor=
+d.gif" style=3D"display:block;max-width:30px;" title=3D"" width=3D"30" /></=
+a></td>
+								</tr>
+							</tbody>
+						</table>
+
+						<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0" width=3D"100%">
+							<tbody>
+								<tr>
+									<td height=3D"3"></td>
+								</tr>
+							</tbody>
+						</table>
+
+						<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0" width=3D"100%">
+							<tbody>
+								<tr>
+									<td align=3D"center" bgcolor=3D"#000000" class=3D"newline" valign=
+=3D"top"><a href=3D"http://renover-maison.com/ga/click/2-11527895-18-853-16=
+23-11432-6a6216c79a-f0a53662a6" style=3D"text-decoration:none;color:#000000=
+;" target=3D"_blank"><img alt=3D"Je fonce en magasin" border=3D"0" class=3D=
+"responsiveImage" height=3D"49" src=3D"
+http://tao.emsecure.net/images/FRANCE/OP_CO/2015/SEPTEMBRE/LANCEMENT_OD/cta=
+-mag.gif" style=3D"display:block;max-width:320px;color:#FFFFFF;font-family:=
+Arial; font-size:20px;" title=3D"Je fonce en magasin" width=3D"320" /></a><=
+/td>
+									<td class=3D"newline" height=3D"3" width=3D"3"></td>
+									<td align=3D"center" bgcolor=3D"#000000" class=3D"newline" valign=
+=3D"top"><a href=3D"http://renover-maison.com/ga/click/2-11527895-18-853-16=
+23-11431-13b4315652-f0a53662a6" style=3D"text-decoration:none;color:#000000=
+;" target=3D"_blank"><img alt=3D"Je fonce sur T-A-O.com" border=3D"0" class=
+=3D"responsiveImage" height=3D"49" src=3D"
+http://tao.emsecure.net/images/FRANCE/OP_CO/2015/SEPTEMBRE/LANCEMENT_OD/cta=
+-web.gif" style=3D"display:block;max-width:320px;color:#FFFFFF;font-family:=
+Arial; font-size:20px;" title=3D"Je fonce sur T-A-O.com" width=3D"320" /></=
+a></td>
+								</tr>
+							</tbody>
+						</table>
+
+						<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0" width=3D"100%">
+							<tbody>
+								<tr>
+									<td height=3D"20"></td>
+								</tr>
+							</tbody>
+						</table>
+
+						<table align=3D"center" bgcolor=3D"#CCCCCC" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"1" width=3D"100%">
+							<tbody>
+								<tr>
+									<td bgcolor=3D"#f4f5f0">
+									<table align=3D"center" bgcolor=3D"#f4f5f0" border=3D"0" cellpaddi=
+ng=3D"0" cellspacing=3D"0" width=3D"100%">
+										<tbody>
+											<tr>
+												<td align=3D"center" class=3D"hideMobile" valign=3D"top"><a hre=
+f=3D"http://renover-maison.com/ga/click/2-11527895-18-853-1623-11431-13b431=
+5652-f0a53662a6" style=3D"text-decoration:none;color:#000000;" target=3D"_b=
+lank"><img border=3D"0" class=3D"responsiveImage" height=3D"345" src=3D"
+http://tao.emsecure.net/images/FRANCE/OP_CO/2015/SEPTEMBRE/LANCEMENT_OD/bas=
+ics2.jpg" style=3D"display:block;max-width:124px;" title=3D"" width=3D"124"=
+ /></a></td>
+												<td align=3D"center" valign=3D"top"><a href=3D"http://renover-m=
+aison.com/ga/click/2-11527895-18-853-1623-11431-13b4315652-f0a53662a6" styl=
+e=3D"text-decoration:none;color:#000000;" target=3D"_blank"><img alt=3D"BAS=
+ICS" border=3D"0" class=3D"responsiveImage" height=3D"345" src=3D"
+http://tao.emsecure.net/images/FRANCE/OP_CO/2015/SEPTEMBRE/LANCEMENT_OD/bas=
+ics1.gif" style=3D"display:block;max-width:389px;color:#000000;font-family:=
+Arial; font-size:20px;" title=3D"BASICS" width=3D"389" /></a></td>
+												<td align=3D"center" class=3D"hideMobile" valign=3D"top"><a hre=
+f=3D"http://renover-maison.com/ga/click/2-11527895-18-853-1623-11431-13b431=
+5652-f0a53662a6" style=3D"text-decoration:none;color:#000000;" target=3D"_b=
+lank"><img border=3D"0" class=3D"responsiveImage" height=3D"345" src=3D"
+http://tao.emsecure.net/images/FRANCE/OP_CO/2015/SEPTEMBRE/LANCEMENT_OD/bas=
+ics3.jpg" style=3D"display:block;max-width:135px;" title=3D"" width=3D"135"=
+ /></a></td>
+											</tr>
+										</tbody>
+									</table>
+
+									<table align=3D"center" bgcolor=3D"#f4f5f0" border=3D"0" cellpaddi=
+ng=3D"0" cellspacing=3D"0">
+										<tbody>
+											<tr>
+												<td class=3D"newline">
+												<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0">
+													<tbody>
+														<tr>
+															<td align=3D"center"><a href=3D"http://renover-maison.com/ga=
+/click/2-11527895-18-853-1623-11433-ceebf10671-f0a53662a6" style=3D"text-de=
+coration:none;color:#000000;" target=3D"_blank"><img alt=3D"Fille" border=
+=3D"0" class=3D"responsiveImage" height=3D"33" src=3D"
+http://tao.emsecure.net/images/FRANCE/OP_CO/2015/SEPTEMBRE/LANCEMENT_OD/cta=
+1.gif" style=3D"display:block;max-width:126px;" title=3D"Fille" width=3D"12=
+6" /></a></td>
+															<td width=3D"10"></td>
+															<td align=3D"center"><a href=3D"http://renover-maison.com/ga=
+/click/2-11527895-18-853-1623-11434-5dfbb0bf66-f0a53662a6" style=3D"text-de=
+coration:none;color:#000000;" target=3D"_blank"><img alt=3D"Gar=C3=A7on" bo=
+rder=3D"0" class=3D"responsiveImage" height=3D"33" src=3D"
+http://tao.emsecure.net/images/FRANCE/OP_CO/2015/SEPTEMBRE/LANCEMENT_OD/cta=
+2.gif" style=3D"display:block;max-width:126px;" title=3D"Gar=C3=A7on" width=
+=3D"126" /></a></td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+												<td class=3D"newline" height=3D"10" width=3D"10"></td>
+												<td class=3D"newline">
+												<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0">
+													<tbody>
+														<tr>
+															<td align=3D"center"><a href=3D"http://renover-maison.com/ga=
+/click/2-11527895-18-853-1623-11435-74b2515824-f0a53662a6" style=3D"text-de=
+coration:none;color:#000000;" target=3D"_blank"><img alt=3D"B=C3=A9b=C3=A9 =
+fille" border=3D"0" class=3D"responsiveImage" height=3D"33" src=3D"
+http://tao.emsecure.net/images/FRANCE/OP_CO/2015/SEPTEMBRE/LANCEMENT_OD/cta=
+3.gif" style=3D"display:block;max-width:126px;" title=3D"B=C3=A9b=C3=A9 fil=
+le" width=3D"126" /></a></td>
+															<td width=3D"10"></td>
+															<td align=3D"center"><a href=3D"http://renover-maison.com/ga=
+/click/2-11527895-18-853-1623-11436-8232aa3c9a-f0a53662a6" style=3D"text-de=
+coration:none;color:#000000;" target=3D"_blank"><img alt=3D"B=C3=A9b=C3=A9 =
+gar=C3=A7on" border=3D"0" class=3D"responsiveImage" height=3D"33" src=3D"
+http://tao.emsecure.net/images/FRANCE/OP_CO/2015/SEPTEMBRE/LANCEMENT_OD/cta=
+4.gif" style=3D"display:block;max-width:126px;" title=3D"B=C3=A9b=C3=A9 gar=
+=C3=A7on" width=3D"126" /></a></td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+
+									<table align=3D"center" bgcolor=3D"#f4f5f0" border=3D"0" cellpaddi=
+ng=3D"0" cellspacing=3D"0" width=3D"100%">
+										<tbody>
+											<tr>
+												<td height=3D"20"></td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						<!-- TAO COMMUNITY -->
+
+						<table align=3D"center" bgcolor=3D"#FFFFFF" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" width=3D"100%">
+							<tbody>
+								<tr>
+									<td height=3D"10"></td>
+								</tr>
+							</tbody>
+						</table>
+
+						<table align=3D"center" bgcolor=3D"#CCCCCC" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"1" width=3D"100%">
+							<tbody>
+								<tr>
+									<td align=3D"center">
+									<table align=3D"center" bgcolor=3D"#FFFFFF" border=3D"0" cellpaddi=
+ng=3D"0" cellspacing=3D"0" width=3D"100%">
+										<tbody>
+											<tr>
+												<td align=3D"center"><a href=3D"http://renover-maison.com/ga/cl=
+ick/2-11527895-18-853-1623-11437-83f1b1e198-f0a53662a6" target=3D"_blank"><=
+img alt=3D"My TAO Community" border=3D"0" class=3D"responsiveImage" height=
+=3D"73" src=3D"
+http://tao.emsecure.net/images/FRANCE/OP_CO/2015/SEPTEMBRE/LANCEMENT_OD/tit=
+nonfid.gif" style=3D"display:block;max-width:px;" title=3D"My TAO Community=
+" width=3D"542" /></a></td>
+											</tr>
+										</tbody>
+									</table>
+
+									<table align=3D"center" bgcolor=3D"#FFFFFF" border=3D"0" cellpaddi=
+ng=3D"0" cellspacing=3D"5" width=3D"100%">
+										<tbody>
+											<tr>
+												<td class=3D"newline">
+												<table align=3D"center" bgcolor=3D"#FFFFFF" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0" height=3D"170" width=3D"100%">
+													<tbody>
+														<tr>
+															<td align=3D"center" bgcolor=3D"#78cdd1" style=3D"line-heigh=
+t:10px" valign=3D"top" width=3D"152"><a href=3D"http://renover-maison.com/g=
+a/click/2-11527895-18-853-1623-11437-83f1b1e198-f0a53662a6" style=3D"text-d=
+ecoration:none;" target=3D"_blank"><img alt=3D"TAO POINTS" border=3D"0" cla=
+ss=3D"responsiveImage" height=3D"105" src=3D"
+http://tao.emsecure.net/images/FRANCE/OP_CO/2015/SEPTEMBRE/LANCEMENT_OD/ava=
+ntage1.gif" style=3D"display:block;max-width:152px;" title=3D"TAO POINTS" w=
+idth=3D"152" /> <font color=3D"#FFFFFF" face=3D"Arial, sans-serif" style=3D=
+"font-size:10px;"> 10&euro; d&#39;achat =3D 1 POINT<br />
+															15 points =3D 10&euro;<br />
+															EN CH&egrave;QUE FID&Eacute;LIT&Eacute;</font></a></td>
+															<td bgcolor=3D"#FFFFFF" class=3D"hideMobile" width=3D"10"></=
+td>
+															<td align=3D"center" bgcolor=3D"#b9d87f" style=3D"line-heigh=
+t:10px" valign=3D"top" width=3D"152"><a href=3D"http://renover-maison.com/g=
+a/click/2-11527895-18-853-1623-11437-83f1b1e198-f0a53662a6" style=3D"text-d=
+ecoration:none;" target=3D"_blank"><img alt=3D"HAPPY BIRTHDEAL" border=3D"0=
+" class=3D"responsiveImage" height=3D"105" src=3D"
+http://tao.emsecure.net/images/FRANCE/OP_CO/2015/SEPTEMBRE/LANCEMENT_OD/ava=
+ntage2.gif" style=3D"display:block;max-width:152px;" title=3D"HAPPY BIRTHDE=
+AL" width=3D"152" /> <font color=3D"#FFFFFF" face=3D"Arial, sans-serif" sty=
+le=3D"font-size:10px;"> Un ch&egrave;que anniversaire de<br />
+															5&euro; OFFERT pour<br />
+															vos Original Kids !</font></a></td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+												<td class=3D"hideMobile" height=3D"5" width=3D"5"></td>
+												<td class=3D"newline">
+												<table align=3D"center" bgcolor=3D"#FFFFFF" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0" height=3D"170" width=3D"100%">
+													<tbody>
+														<tr>
+															<td align=3D"center" bgcolor=3D"#ffd25e" style=3D"line-heigh=
+t:10px" valign=3D"top" width=3D"152"><a href=3D"http://renover-maison.com/g=
+a/click/2-11527895-18-853-1623-11437-83f1b1e198-f0a53662a6" style=3D"text-d=
+ecoration:none;" target=3D"_blank"><img alt=3D"Assurance Fashion Life" bord=
+er=3D"0" class=3D"responsiveImage" height=3D"99" src=3D"
+http://tao.emsecure.net/images/FRANCE/OP_CO/2015/SEPTEMBRE/LANCEMENT_OD/ava=
+ntage3.gif" style=3D"display:block;max-width:152px;" title=3D"Assurance Fas=
+hion Life" width=3D"152" /> <font color=3D"#FFFFFF" face=3D"Arial, sans-ser=
+if" style=3D"font-size:10px;"> Une fermeture &eacute;clair cass&eacute;e, u=
+n tee-shirt qui r&eacute;tr&eacute;cit au lavage ? Tape &agrave; l&#39;oeil=
+ &eacute;change les produits qui pr&eacute;senteraient un d&eacute;faut, to=
+ut au long de la saison.</font></a></td>
+															<td bgcolor=3D"#FFFFFF" class=3D"hideMobile" width=3D"10"></=
+td>
+															<td align=3D"center" bgcolor=3D"#79afdf" style=3D"line-heigh=
+t:10px" valign=3D"top" width=3D"152"><a href=3D"http://renover-maison.com/g=
+a/click/2-11527895-18-853-1623-11437-83f1b1e198-f0a53662a6" style=3D"text-d=
+ecoration:none;" target=3D"_blank"><img alt=3D"Garantie" border=3D"0" class=
+=3D"responsiveImage" height=3D"99" src=3D"
+http://tao.emsecure.net/images/FRANCE/OP_CO/2015/SEPTEMBRE/LANCEMENT_OD/ava=
+ntage4.gif" style=3D"display:block;max-width:152px;" title=3D"Garantie" wid=
+th=3D"152" /> <font color=3D"#FFFFFF" face=3D"Arial, sans-serif" style=3D"f=
+ont-size:10px;"> Tape &agrave; l&#39;oeil &Eacute;CHANGE OU REMBOURSE les v=
+&ecirc;tements non port&eacute;s, m&ecirc;me sans ticket de caisse pendant =
+toute la saison. </font></a></td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+
+									<table align=3D"center" bgcolor=3D"#FFFFFF" border=3D"0" cellpaddi=
+ng=3D"0" cellspacing=3D"0" width=3D"100%">
+										<tbody>
+											<tr>
+												<td align=3D"center"><a href=3D"http://renover-maison.com/ga/cl=
+ick/2-11527895-18-853-1623-11437-83f1b1e198-f0a53662a6" target=3D"_blank"><=
+img alt=3D"et bien plus encore" border=3D"0" class=3D"responsiveImage" heig=
+ht=3D"40" src=3D"
+http://tao.emsecure.net/images/FRANCE/OP_CO/2015/SEPTEMBRE/LANCEMENT_OD/fid=
+ouv.gif" style=3D"display:block;max-width:169px;" title=3D"et bien plus enc=
+ore" width=3D"169" /></a></td>
+											</tr>
+											<tr>
+												<td align=3D"center"><a href=3D"http://renover-maison.com/ga/cl=
+ick/2-11527895-18-853-1623-11437-83f1b1e198-f0a53662a6" target=3D"_blank"><=
+img alt=3D"tous les avantages" border=3D"0" class=3D"responsiveImage" heigh=
+t=3D"30" src=3D"
+http://tao.emsecure.net/images/FRANCE/OP_CO/2015/SEPTEMBRE/LANCEMENT_OD/cta=
+nonfid.gif" style=3D"display:block;max-width:304px;" title=3D"tous les avan=
+tages" width=3D"304" /></a></td>
+											</tr>
+											<tr>
+												<td height=3D"10"></td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						<!-- FOOTER -->
+
+						<table align=3D"center" bgcolor=3D"#FFFFFF" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" width=3D"100%">
+							<tbody>
+								<tr>
+									<td height=3D"10"></td>
+								</tr>
+							</tbody>
+						</table>
+
+						<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0" width=3D"100%">
+							<tbody>
+								<tr>
+									<td class=3D"newline" valign=3D"top">
+									<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" width=3D"100%">
+										<tbody>
+											<tr>
+												<td align=3D"center" valign=3D"top" width=3D"150"><a href=3D"ht=
+tp://renover-maison.com/ga/click/2-11527895-18-853-1623-11438-e5cc405f8f-f0=
+a53662a6" style=3D"text-decoration:none;" target=3D"_blank"><img alt=3D"Liv=
+raison" border=3D"0" height=3D"49" src=3D"
+http://tao.emsecure.net/images/FRANCE/OP_CO/2015/SEPTEMBRE/LANCEMENT_OD/liv=
+raison.gif" style=3D"display:block;" title=3D"Livraison" width=3D"56" /> </=
+a></td>
+												<td align=3D"center" valign=3D"top" width=3D"150"><a href=3D"ht=
+tp://renover-maison.com/ga/click/2-11527895-18-853-1623-11439-6927b69714-f0=
+a53662a6" style=3D"text-decoration:none;" target=3D"_blank"><img alt=3D"Ech=
+ange" border=3D"0" height=3D"49" src=3D"
+http://tao.emsecure.net/images/FRANCE/OP_CO/2015/SEPTEMBRE/LANCEMENT_OD/ech=
+ange.gif" style=3D"display:block;" title=3D"Echange" width=3D"56" /> </a></=
+td>
+											</tr>
+											<tr>
+												<td align=3D"center" valign=3D"top"><a href=3D"http://renover-m=
+aison.com/ga/click/2-11527895-18-853-1623-11438-e5cc405f8f-f0a53662a6" styl=
+e=3D"text-decoration:none;" target=3D"_blank"><font color=3D"#000000" face=
+=3D"Arial, sans-serif" style=3D"font-size:11px;"><strong>LIVRAISON GRATUITE=
+</strong><br />
+												en magasin d&egrave;s 10&euro; d&#39;achat</font></a></td>
+												<td align=3D"center" valign=3D"top"><a href=3D"http://renover-m=
+aison.com/ga/click/2-11527895-18-853-1623-11439-6927b69714-f0a53662a6" styl=
+e=3D"text-decoration:none;" target=3D"_blank"><font color=3D"#000000" face=
+=3D"Arial, sans-serif" style=3D"font-size:11px;"><strong>&Eacute;CHANGE &am=
+p;<br />
+												REMBOURSEMENT</strong><br />
+												sur toute la saison</font></a></td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+									<td class=3D"newline" valign=3D"top">
+									<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" width=3D"100%">
+										<tbody>
+											<tr>
+												<td align=3D"center" valign=3D"top" width=3D"150"><a href=3D"ht=
+tp://renover-maison.com/ga/click/2-11527895-18-853-1623-11440-5d2a6b2626-f0=
+a53662a6" style=3D"text-decoration:none;" target=3D"_blank"><img alt=3D"Nou=
+veaut=C3=A9s" border=3D"0" height=3D"49" src=3D"
+http://tao.emsecure.net/images/FRANCE/OP_CO/2015/SEPTEMBRE/LANCEMENT_OD/new=
+.gif" style=3D"display:block;" title=3D"Nouveaut=C3=A9s" width=3D"56" /> </=
+a></td>
+												<td align=3D"center" valign=3D"top" width=3D"150"><a href=3D"ht=
+tp://renover-maison.com/ga/click/2-11527895-18-853-1623-11432-6a6216c79a-f0=
+a53662a6" style=3D"text-decoration:none;" target=3D"_blank"><img alt=3D"Mag=
+asin" border=3D"0" height=3D"49" src=3D"
+http://tao.emsecure.net/images/FRANCE/OP_CO/2015/SEPTEMBRE/LANCEMENT_OD/mag=
+asins.gif" style=3D"display:block;" title=3D"Magasin" width=3D"56" /> </a><=
+/td>
+											</tr>
+											<tr>
+												<td align=3D"center" valign=3D"top"><a href=3D"http://renover-m=
+aison.com/ga/click/2-11527895-18-853-1623-11440-5d2a6b2626-f0a53662a6" styl=
+e=3D"text-decoration:none;" target=3D"_blank"><font color=3D"#000000" face=
+=3D"Arial, sans-serif" style=3D"font-size:11px;"><strong>100 NOUVEAUT&Eacut=
+e;S</strong><br />
+												par semaine</font></a></td>
+												<td align=3D"center" valign=3D"top"><a href=3D"http://renover-m=
+aison.com/ga/click/2-11527895-18-853-1623-11432-6a6216c79a-f0a53662a6" styl=
+e=3D"text-decoration:none;" target=3D"_blank"><font color=3D"#000000" face=
+=3D"Arial, sans-serif" style=3D"font-size:11px;"><font color=3D"#e74c39">&g=
+t; </font><strong>TROUVEZ<br />
+												VOTRE MAGASIN</strong></font></a></td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						<!-- RESEAUX SOCIAUX -->
+
+						<table align=3D"center" bgcolor=3D"#FFFFFF" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" width=3D"100%">
+							<tbody>
+								<tr>
+									<td height=3D"20"></td>
+								</tr>
+							</tbody>
+						</table>
+
+						<table align=3D"center" bgcolor=3D"#595959" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" width=3D"100%">
+							<tbody>
+								<tr>
+									<td height=3D"1"></td>
+								</tr>
+							</tbody>
+						</table>
+
+						<table align=3D"center" bgcolor=3D"#FFFFFF" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" width=3D"100%">
+							<tbody>
+								<tr>
+									<td height=3D"20"></td>
+								</tr>
+							</tbody>
+						</table>
+
+						<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0">
+							<tbody>
+								<tr>
+									<td><img alt=3D"Shop&Share" border=3D"0" height=3D"26" src=3D"
+http://tao.emsecure.net/images/FRANCE/OP_CO/2015/SEPTEMBRE/LANCEMENT_OD/sha=
+re.gif" style=3D"display:block;" title=3D"Shop&Share" width=3D"79" /></td>
+									<td><a href=3D"http://renover-maison.com/ga/click/2-11527895-18-85=
+3-1623-11441-223a17d2e3-f0a53662a6" style=3D"text-decoration:none;" target=
+=3D"_blank"><img alt=3D"Facebook" border=3D"0" height=3D"26" src=3D"
+http://tao.emsecure.net/images/FRANCE/OP_CO/2015/SEPTEMBRE/LANCEMENT_OD/fac=
+ebook.gif" style=3D"display:block;" title=3D"Facebook" width=3D"21" /></a><=
+/td>
+									<td><a href=3D"http://renover-maison.com/ga/click/2-11527895-18-85=
+3-1623-11442-cfb8a95a57-f0a53662a6" style=3D"text-decoration:none;" target=
+=3D"_blank"><img alt=3D"Instagram" border=3D"0" height=3D"26" src=3D"
+http://tao.emsecure.net/images/FRANCE/OP_CO/2015/SEPTEMBRE/LANCEMENT_OD/ins=
+tagram.gif" style=3D"display:block;" title=3D"Instagram" width=3D"21" /></a=
+></td>
+									<td><a href=3D"http://renover-maison.com/ga/click/2-11527895-18-85=
+3-1623-11443-de4fc802cb-f0a53662a6" style=3D"text-decoration:none;" target=
+=3D"_blank"><img alt=3D"YouTube" border=3D"0" height=3D"26" src=3D"
+http://tao.emsecure.net/images/FRANCE/OP_CO/2015/SEPTEMBRE/LANCEMENT_OD/you=
+tube.gif" style=3D"display:block;" title=3D"YouTube" width=3D"21" /></a></t=
+d>
+									<td><a href=3D"http://renover-maison.com/ga/click/2-11527895-18-85=
+3-1623-11444-ce54d93ecd-f0a53662a6" style=3D"text-decoration:none;" target=
+=3D"_blank"><img alt=3D"Twitter" border=3D"0" height=3D"26" src=3D"
+http://tao.emsecure.net/images/FRANCE/OP_CO/2015/SEPTEMBRE/LANCEMENT_OD/twi=
+tter.gif" style=3D"display:block;" title=3D"Twitter" width=3D"21" /></a></t=
+d>
+									<td><a href=3D"http://renover-maison.com/ga/click/2-11527895-18-85=
+3-1623-11445-daa26d08d8-f0a53662a6" style=3D"text-decoration:none;" target=
+=3D"_blank"><img alt=3D"Pinterest" border=3D"0" height=3D"26" src=3D"
+http://tao.emsecure.net/images/FRANCE/OP_CO/2015/SEPTEMBRE/LANCEMENT_OD/pin=
+terest.gif" style=3D"display:block;" title=3D"Pinterest" width=3D"21" /></a=
+></td>
+								</tr>
+							</tbody>
+						</table>
+
+						<table align=3D"center" bgcolor=3D"#FFFFFF" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" width=3D"100%">
+							<tbody>
+								<tr>
+									<td height=3D"20"></td>
+								</tr>
+							</tbody>
+						</table>
+						<!-- ML -->
+
+						<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0" width=3D"100%">
+							<tbody>
+								<tr>
+									<td align=3D"center" class=3D"linkFooter" style=3D"font-family:Ari=
+al;color:#68686f;font-size:9px;text-decoration:none;" width=3D"650">* Offre=
+ valable du 16/09/2015 au 27/09/2015 inclus en magasin et sur www.t-a-o.com=
+ (France m&eacute;tropolitaine, Belgique, Pologne), selon &eacute;tiquetage=
+ et stocks disponibles. Les produits anciennes collections ne sont ni &eacu=
+te;changeables ni remboursables en magasin mais uniquement en point relais =
+pour une livraison en point relais ou par voie postale pour une livraison p=
+as La Poste.</td>
+								</tr>
+							</tbody>
+						</table>
+
+						<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0" width=3D"100%">
+							<tbody>
+								<tr>
+									<td bgcolor=3D"#ffffff" height=3D"25" width=3D"650"></td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			<img src=3D"http://er.t-a-o.com/EREO/E/394/16dcc/{email}/pixel.gif" styl=
+e=3D"border :0px ;" /></td>
+		</tr>
+	</tbody>
+</table>
+
+<a href=3D"http://renover-maison.com/ga/unsubscribe/2-11527895-18-853-1623-=
+ed35df89ef15825-f0a53662a6">Je souhaite me d=C3=A9sinscrire et ne plus rece=
+voir les newsletters</a><img src=3D"http://renover-maison.com/ga/open/2-115=
+27895-18-853-1623-f0a53662a6" height=3D"2" width=3D"3" alt=3D""></body>
+</html>
+
+--==f5f2ca64e9de94b575a73b259c9b06e6--

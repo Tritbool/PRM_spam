@@ -1,0 +1,942 @@
+Return-Path: <jis_1028_hejbhc_bchfie@mes-news.fr>
+Received: from mailimailo.univ-rennes1.fr ([unix socket])
+	 by mailimailo.univ-rennes1.fr (Cyrus v2.3.16-Fedora-RPM-2.3.16-6.el6_2.5) with LMTPA;
+	 Wed, 13 Jul 2016 19:07:48 +0200
+X-Sieve: CMU Sieve 2.3
+Received: from mailout2.univ-rennes1.fr (mailout2.univ-rennes1.fr [129.20.129.120])
+	by mailimailo.univ-rennes1.fr (Postfix) with ESMTP id 336FF52
+	for <resp-m2-miage@univ-rennes1.fr>; Wed, 13 Jul 2016 19:07:48 +0200 (CEST)
+Received: from localhost (vmscanmail.univ-rennes1.fr [129.20.128.134])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id 30A6B600A2
+	for <resp-m2-miage@univ-rennes1.fr>; Wed, 13 Jul 2016 19:07:48 +0200 (CEST)
+X-Virus-Scanned: amavisd-new at univ-rennes1.fr
+Received: from mailout2.univ-rennes1.fr ([129.20.129.120])
+	by localhost (vmscanmail.univ-rennes1.frm [129.20.128.134]) (amavisd-new, port 10026)
+	with ESMTP id VxHSYGfoMvOA for <resp-m2-miage@univ-rennes1.fr>;
+	Wed, 13 Jul 2016 19:07:48 +0200 (CEST)
+Received: from vmmailin.univ-rennes1.fr (vmmailin.univ-rennes1.fr [129.20.128.133])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id 061706008A
+	for <resp-m2-miage@univ-rennes1.fr>; Wed, 13 Jul 2016 19:07:48 +0200 (CEST)
+Received: from mxb1-2.relay.renater.fr (mxb1-2.relay.renater.fr [194.214.201.9])
+	by vmmailin.univ-rennes1.fr (Postfix) with ESMTP id F149220033
+	for <resp-m2-miage@univ-rennes1.fr>; Wed, 13 Jul 2016 19:07:47 +0200 (CEST)
+Received: from mailn135.mes-news.fr (mailn135.mes-news.fr [82.97.28.192])
+	by mxb1-2.relay.renater.fr (asm) with ESMTP id AB6282800CC
+	for <resp-m2-miage@univ-rennes1.fr>; Wed, 13 Jul 2016 19:07:47 +0200 (CEST)
+Received: from TRT-68 (trt-68.novfarm.lan [192.168.203.68])
+	by mailn135 (Postfix) with SMTP id ADB3059FF38F
+	for <resp-m2-miage@univ-rennes1.fr>; Wed, 13 Jul 2016 19:07:46 +0200 (CEST)
+From: "=?iso-8859-1?B?U2VjdXJpdGFzIERpcmVjdA==?=" <news@mes-news.fr>
+To: resp-m2-miage@univ-rennes1.fr
+Subject: =?iso-8859-1?B?VW4gY2FtYnJpb2xhZ2UgdG91?=
+ =?iso-8859-1?B?dGVzIGxlcyA5MCBzZWNvbmRlcw==?=
+Date: Wed, 13 Jul 2016 19:07:23 +0200
+Message-ID: <20160713-170723-11926772281@mes-news.fr>
+List-Unsubscribe: <mailto:abuse@mes-news.fr?subject=11926772281>, <http://stats.mes-news.fr/u/NTaI_2bGl9pJbiPhmmt_2fy1HXrNimpryAp6Z5BqfE7NSDJ5SVq3ch20pdId0KBStS6GSAl_2bIOfJ_2f1I_3d/i.htm>
+List-Abuse: <mailto:abuse@mes-news.fr?subject=11926772281>, <http://stats.mes-news.fr/u/a/NTaI_2bGl9pJbiPhmmt_2fy1HXrNimpryAp6Z5BqfE7NSDJ5SVq3ch20pdId0KBStS6GSAl_2bIOfJ_2f1I_3d/i.htm>
+X-Mailer: EmailStrategie
+X-1028-Campaign-ID: 749172
+X-1028-Message-ID: 11926772281
+DKIM-Signature: v=1; a=rsa-sha256; c=simple/simple;
+	d=mes-news.fr; s=mail;
+	h=From:To:Subject:Date:Message-ID:MIME-Version:Content-Type;
+	bh=lnpiyhiLxSEzGW9M8ukTIdAR9uQwJQ1bNdOWBlcQ/x8=;
+	b=EYROtVqfi24zfhCdjrg24sv787fig+XlHr5Pzvst0SE/Q5vHg9d3mu3mHm5e10x+
+		D33VOCYzAKy3UTwqwIWfi4olWkp/YMReh68w9jisAv7NtiHNjM77D5wlPmK1eNxC
+		oAf43dPbyK/QPyMVPiArN5FQsMTbTYLQRd0+9BujRq0=
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--=50001cb8_b3b2_4b23_9969_23a5f6684a68"
+X-UCE-Status: YES
+X-UCE-Type: MCE
+X-Original-Source-IP: 82.97.28.192
+X-Bizanga: IMP - mxb1-2.relay.renater.fr
+X-Renater-SpamState: 11
+X-Renater-SpamScore: 17
+X-Renater-SpamCause: gggruggvucftvghtrhhoucdtuddrfeeltddrgedtgdeludcutefuodetggdotefrodftvfcurfhrohhfihhlvgemucftgffptefvgfftpdggtfgfnhhsuhgsshgtrhhisggvnecuuegrihhlohhuthemuceftddtnecundfotefknffkpffiucdludejmdenucfjughrpefhvffufffkjffogggtsehmtderreertdehnecuhfhrohhmpedfufgvtghurhhithgrshcuffhirhgvtghtfdcuoehnvgifshesmhgvshdqnhgvfihsrdhfrheqnecuffhomhgrihhnpehmvghsqdhnvgifshdrfhhrnecukfhppeekvddrleejrddvkedrudelvdenucfrrghrrghmpehmohguvgepshhmthhppdhhvghlohepmhgrihhlnhdufeehrdhmvghsqdhnvgifshdrfhhrpdhinhgvthepkedvrdeljedrvdekrdduledvpdhmrghilhhfrhhomhepjhhishgpuddtvdekpghhvghjsghhtggpsggthhhfihgvsehmvghsqdhnvgifshdrfhhrpdhrtghpthhtoheprhgvshhpqdhmvddqmhhirghgvgesuhhnihhvqdhrvghnnhgvshdurdhfrh 
+X-Renater-ServerName: mxb1-2.relay.renater.fr
+
+----=50001cb8_b3b2_4b23_9969_23a5f6684a68
+Content-Type: multipart/alternative;
+	boundary="--=4c54cc2e_5592_4ccc_8e69_c11940cf8c5e"
+
+----=4c54cc2e_5592_4ccc_8e69_c11940cf8c5e
+Content-Type: text/plain;charset="iso-8859-1"
+Content-Transfer-Encoding: Quoted-Printable
+
+http://stats.mes-news.fr/m/NTaI_2bGl9pJbiPhmmt_2fy1HXrNimpryAp6Z5BqfE7N=
+SDJ5SVq3ch20pdId0KBStS6GSAl_2bIOfJ_2f1I_3d/i.htm
+
+----=4c54cc2e_5592_4ccc_8e69_c11940cf8c5e
+Content-Type: text/html;charset="iso-8859-1"
+Content-Transfer-Encoding: Quoted-Printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://=
+www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml">
+<head>
+	<meta content=3D"text/html; charset=3Dwindows-1252" http-equiv=3D"Cont=
+ent-Type" />
+	<title>T&eacute;l&eacute;surveillance</title>
+</head>
+<body><br/><table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+  <tr>
+    <td height=3D"18" align=3D"center" bgcolor=3D"#efefef">&nbsp;</td>
+    <td width=3D"200" align=3D"center" bgcolor=3D"#d7d4d4" style=3D"fon=
+t-family:Arial, Helvetica, sans-serif; color:#393636; font-size:13px">&=
+nbsp;<a style=3D"font-family:Arial, Helvetica, sans-serif; color:#39363=
+6; font-size:13px" href=3D"http://stats.mes-news.fr/asa/FR/NTaI_2bGl9pJ=
+biPhmmt_2fy1HXrNimpryAp6Z5BqfE7NSDJ5SVq3ch20pdId0KBStS6GSAl_2bIOfJ_2f1I=
+_3d/i.htm">Signaler comme SPAM</a>&nbsp;</td>
+    <td height=3D"18" align=3D"center" bgcolor=3D"#efefef">&nbsp;</td>
+  </tr>
+</table><br/><div align=3D"left"><table align=3D"center" border=3D"0" c=
+ellpadding=3D"2" cellspacing=3D"0" height=3D"111" width=3D"700">
+	<tbody>
+		<tr>
+			<td>
+			<div align=3D"center"><span style=3D"font-size:12px;"><span style=3D=
+"color:#808080;">Ce message a pour destinataire resp-m2-miage@univ-renn=
+es1.fr<br />
+			Ajoutez-nous &agrave; vos contacts pour &ecirc;tre certain de recevo=
+ir nos e-mails.</span><br />
+			<a href=3D"http://stats.mes-news.fr/m/NTaI_2bGl9pJbiPhmmt_2fy1HXrNim=
+pryAp6Z5BqfE7NSDJ5SVq3ch20pdId0KBStS6GSAl_2bIOfJ_2f1I_3d/i.htm"><span s=
+tyle=3D"color:#0000ff;">Visualiser la version en ligne</span></a></span=
+></div>
+
+			<p align=3D"center"><span style=3D"font-size:11px;"><span style=3D"c=
+olor:#a9a9a9;">Pour personnaliser vos publicit&eacute;s lors de votre n=
+avigation (internet, email, applications...), des cookies sont d&eacute=
+;pos&eacute;s gr=E2ce &agrave; cet email.<br />
+			<a href=3D"http://stats.mes-news.fr/l/61155706/NTaI_2bGl9pJbiPhmmt_2=
+fy1HXrNimpryAp6Z5BqfE7NSDJ5SVq3ch20pdId0KBStS6GSAl_2bIOfJ_2f1I_3d/i.htm=
+"><span style=3D"color:#0000ff;">Pour en savoir plus ou vous y opposer<=
+/span></a></span></span></p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+<style type=3D"text/css">body {
+	-webkit-text-size-adjust: none;
+	-ms-text-size-adjust: none;
+}
+* {
+	line-height: 100%;
+}
+
+ @media only screen and (max-width: 480px) {
+
+table {
+	margin: 0 auto;
+}
+table[class=3Dcolonne-g] {
+	width: 322px !important;
+	height: auto !important;
+	display: block;
+}
+td[class=3Dcolonne-g] {
+	width: 320px !important;
+	height: auto !important;
+	display: block;
+}
+table[class=3Dcolonne] {
+	width: 320px !important;
+	height: auto !important;
+	display: block;
+}
+td[class=3Dcolonne] {
+	width: 320px !important;
+	height: auto !important;
+	display: block;
+}
+
+
+td[class=3Dcolonnetitre] {
+	width: 320px !important;
+	height: auto !important;
+	display: block;
+	text-align:center !important;
+}
+
+
+td[class=3Dtextegrise] {
+	width: 270px !important;
+	height:30px !important;
+	text-align:center !important;
+	font-size:17px !important;
+}
+table[class=3Dcolonnecomo] {
+	width: 300px !important;
+	height:auto!important;
+
+}
+
+td[class=3Dcolonnecomo] {
+	width: 300px !important;
+	height:40px !important;
+	text-align:center !important;
+	font-size:12px !important;
+}
+
+a[class=3Dcolonnecomo] {
+	font-size:12px !important;
+}
+
+
+td[class=3Dcolonnebleu] {
+	width:280px !important;
+	height:auto !important;
+	text-align:center !important;
+	font-size:13px !important;
+}
+
+a[class=3Dcolonnebleu] {
+	font-size:13px !important;
+}
+
+
+td[class=3Dmarginbleu] {
+	width: 20px !important;
+	height:55px !important;
+}
+
+a[class=3Dtextegrise] {
+	font-size:17px !important;
+}
+
+img[class=3Dcolonne] {
+	width: 320px !important;
+	height: auto !important;
+	display: block;
+}
+
+
+[class=3Dhide] {
+display:none;
+}
+
+}
+.ExternalClass {
+	width: 100%;
+}
+.ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass f=
+ont, .ExternalClass td, .ExternalClass div {
+	line-height: 100%;
+}
+table {
+	border-collapse: collapse;
+	mso-table-lspace: 0pt;
+	mso-table-rspace: 0pt;
+}
+table td {
+	border-collapse: collapse;
+	mso-table-lspace: 0pt;
+	mso-table-rspace: 0pt;
+}
+</style>
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" class=3D"colonne-g" width=3D"602">
+	<tbody>
+		<tr>
+			<td align=3D"center" bordercolor=3D"#e2e2e4" class=3D"colonne" style=
+=3D"border:1px solid #e2e2e4; background-color:#FFF;" valign=3D"top" wi=
+dth=3D"602">
+			<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0" class=3D"colonne" width=3D"600">
+				<tbody>
+					<tr>
+						<td align=3D"center" class=3D"colonne" valign=3D"top" width=3D"60=
+0">
+						<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacin=
+g=3D"0" class=3D"colonne" width=3D"600">
+							<tbody>
+								<tr>
+									<td align=3D"center" class=3D"colonne" valign=3D"top" width=3D=
+"191"><a href=3D"http://stats.mes-news.fr/l/61155707/NTaI_2bGl9pJbiPhmm=
+t_2fy1HXrNimpryAp6Z5BqfE7NSDJ5SVq3ch20pdId0KBStS6GSAl_2bIOfJ_2f1I_3d/i.=
+htm"><img alt=3D"Logo" border=3D"0" height=3D"82" src=3D"http://stats.m=
+es-news.fr//o/NTaI_2bGl9pJbiPhmmt_2fy1HXrNimpryAp6Z5BqfE7NSDJ5SVq3ch20p=
+dId0KBStS6GSAl_2bIOfJ_2f1I_3d/o.gif" style=3D"display:block;" width=3D"=
+191" /></a></td>
+									<td align=3D"center" class=3D"hide" height=3D"82" valign=3D"to=
+p" width=3D"76"></td>
+									<td align=3D"right" class=3D"colonne" valign=3D"top" width=3D"=
+304">
+									<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspa=
+cing=3D"0" class=3D"colonne" width=3D"304">
+										<tbody>
+											<tr>
+												<td align=3D"center" class=3D"colonne" height=3D"35" valign=
+=3D"top" width=3D"304"></td>
+											</tr>
+											<tr>
+												<td align=3D"right" class=3D"colonnetitre" style=3D"color:#=
+000000; font-family:Arial, Helvetica, sans-serif; font-size:14px; font-=
+weight:normal; text-decoration:none;" valign=3D"top" width=3D"304"><a h=
+ref=3D"http://stats.mes-news.fr/l/61155708/NTaI_2bGl9pJbiPhmmt_2fy1HXrN=
+impryAp6Z5BqfE7NSDJ5SVq3ch20pdId0KBStS6GSAl_2bIOfJ_2f1I_3d/i.htm" style=
+=3D"color:#000000; font-family:Arial, Helvetica, sans-serif; font-size:=
+14px; font-weight:normal; text-decoration:none;"><span style=3D"color:#=
+0067bc">N&deg;1 DES ALARMES</span><br />
+												AVEC T&Eacute;L&Eacute;SURVEILLANCE EN EUROPE</a></td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+									<td align=3D"center" class=3D"hide" height=3D"82" valign=3D"to=
+p" width=3D"29"></td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+					<tr>
+						<td align=3D"center" class=3D"colonne" valign=3D"top" width=3D"60=
+0">
+						<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacin=
+g=3D"0" class=3D"colonne" width=3D"600">
+							<tbody>
+								<tr>
+									<td align=3D"center" class=3D"hide" valign=3D"top" width=3D"14=
+0"><a href=3D"http://stats.mes-news.fr/l/61155709/NTaI_2bGl9pJbiPhmmt_2=
+fy1HXrNimpryAp6Z5BqfE7NSDJ5SVq3ch20pdId0KBStS6GSAl_2bIOfJ_2f1I_3d/i.htm=
+"><img alt=3D"espace" border=3D"0" class=3D"hide" height=3D"20" src=3D"=
+http://crdi07.net/Securitas/k/1607F/img/ligne-grise-a.jpg" style=3D"dis=
+play:block;" width=3D"140" /></a></td>
+									<td align=3D"center" class=3D"colonne" valign=3D"top" width=3D=
+"320"><a href=3D"http://stats.mes-news.fr/l/61155710/NTaI_2bGl9pJbiPhmm=
+t_2fy1HXrNimpryAp6Z5BqfE7NSDJ5SVq3ch20pdId0KBStS6GSAl_2bIOfJ_2f1I_3d/i.=
+htm"><img alt=3D"espace" border=3D"0" height=3D"20" src=3D"http://crdi0=
+7.net/Securitas/k/1607F/img/ligne-grise.jpg" style=3D"display:block;" w=
+idth=3D"320" /></a></td>
+									<td align=3D"center" class=3D"hide" valign=3D"top" width=3D"14=
+0"><a href=3D"http://stats.mes-news.fr/l/61155711/NTaI_2bGl9pJbiPhmmt_2=
+fy1HXrNimpryAp6Z5BqfE7NSDJ5SVq3ch20pdId0KBStS6GSAl_2bIOfJ_2f1I_3d/i.htm=
+"><img alt=3D"espace" border=3D"0" class=3D"hide" height=3D"20" src=3D"=
+http://crdi07.net/Securitas/k/1607F/img/ligne-grise-b.jpg" style=3D"dis=
+play:block;" width=3D"140" /></a></td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+					<tr>
+						<td align=3D"center" class=3D"colonne" valign=3D"top" width=3D"60=
+0">
+						<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacin=
+g=3D"0" class=3D"colonne" width=3D"600">
+							<tbody>
+								<tr>
+									<td align=3D"center" bgcolor=3D"#e2e2e4" height=3D"28" valign=3D=
+"top" width=3D"25"></td>
+									<td align=3D"center" bgcolor=3D"#e2e2e4" class=3D"textegrise" =
+style=3D"color:#000000; font-family:Arial, Helvetica, sans-serif; font-=
+size:20px; font-weight:bold; text-decoration:none;" valign=3D"top" widt=
+h=3D"550"><a class=3D"textegrise" href=3D"http://stats.mes-news.fr/l/61=
+155712/NTaI_2bGl9pJbiPhmmt_2fy1HXrNimpryAp6Z5BqfE7NSDJ5SVq3ch20pdId0KBS=
+tS6GSAl_2bIOfJ_2f1I_3d/i.htm" style=3D"color:#000000; font-family:Arial=
+, Helvetica, sans-serif; font-size:20px; font-weight:bold; text-decorat=
+ion:none;">Votre s&eacute;curit&eacute; est notre m&eacute;tier</a></td=
+>
+									<td align=3D"center" bgcolor=3D"#e2e2e4" height=3D"28" valign=3D=
+"top" width=3D"25"></td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+					<tr>
+						<td align=3D"center" class=3D"colonne" valign=3D"top" width=3D"60=
+0">
+						<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacin=
+g=3D"0" class=3D"colonne" width=3D"600">
+							<tbody>
+								<tr>
+									<td align=3D"center" class=3D"colonne" valign=3D"top" width=3D=
+"600"><a href=3D"http://stats.mes-news.fr/l/61155713/NTaI_2bGl9pJbiPhmm=
+t_2fy1HXrNimpryAp6Z5BqfE7NSDJ5SVq3ch20pdId0KBStS6GSAl_2bIOfJ_2f1I_3d/i.=
+htm"><img alt=3D"Video" border=3D"0" class=3D"colonne" height=3D"242" s=
+rc=3D"http://crdi07.net/Securitas/k/1607F/img/video.jpg" style=3D"displ=
+ay:block;" width=3D"600" /></a></td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+					<tr>
+						<td align=3D"center" class=3D"hide" valign=3D"top" width=3D"600">=
+
+						<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacin=
+g=3D"0" class=3D"hide" width=3D"600">
+							<tbody>
+								<tr>
+									<td align=3D"center" class=3D"hide" valign=3D"top" width=3D"10=
+0">
+									<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspa=
+cing=3D"0" class=3D"hide" width=3D"100">
+										<tbody>
+											<tr>
+												<td align=3D"center" valign=3D"top" width=3D"100"><a href=3D=
+"http://stats.mes-news.fr/l/61155714/NTaI_2bGl9pJbiPhmmt_2fy1HXrNimpryA=
+p6Z5BqfE7NSDJ5SVq3ch20pdId0KBStS6GSAl_2bIOfJ_2f1I_3d/i.htm"><img alt=3D=
+"Rapidit&eacute;" border=3D"0" height=3D"67" src=3D"http://crdi07.net/S=
+ecuritas/k/1607F/img/chronometre.jpg" style=3D"display:block;" width=3D=
+"100" /></a></td>
+											</tr>
+											<tr>
+												<td align=3D"center" height=3D"50" style=3D"color:#000000; =
+font-family:Arial, Helvetica, sans-serif; font-size:11px; font-weight:n=
+ormal; text-decoration:none;" valign=3D"top" width=3D"100"><a href=3D"h=
+ttp://stats.mes-news.fr/l/61155715/NTaI_2bGl9pJbiPhmmt_2fy1HXrNimpryAp6=
+Z5BqfE7NSDJ5SVq3ch20pdId0KBStS6GSAl_2bIOfJ_2f1I_3d/i.htm" style=3D"colo=
+r:#000000; font-family:Arial, Helvetica, sans-serif; font-size:11px; fo=
+nt-weight:normal; text-decoration:none;">Intrusion trait&eacute;e<br />=
+
+												en moins de<br />
+												<strong>30 secondes</strong> **</a></td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+									<td align=3D"center" class=3D"hide" valign=3D"top" width=3D"10=
+0">
+									<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspa=
+cing=3D"0" class=3D"hide" width=3D"100">
+										<tbody>
+											<tr>
+												<td align=3D"center" valign=3D"top" width=3D"100"><a href=3D=
+"http://stats.mes-news.fr/l/61155716/NTaI_2bGl9pJbiPhmmt_2fy1HXrNimpryA=
+p6Z5BqfE7NSDJ5SVq3ch20pdId0KBStS6GSAl_2bIOfJ_2f1I_3d/i.htm"><img alt=3D=
+"Appel" border=3D"0" height=3D"67" src=3D"http://crdi07.net/Securitas/k=
+/1607F/img/sirene-police.jpg" style=3D"display:block;" width=3D"100" />=
+</a></td>
+											</tr>
+											<tr>
+												<td align=3D"center" height=3D"50" style=3D"color:#000000; =
+font-family:Arial, Helvetica, sans-serif; font-size:11px; font-weight:n=
+ormal; text-decoration:none;" valign=3D"top" width=3D"100"><a href=3D"h=
+ttp://stats.mes-news.fr/l/61155717/NTaI_2bGl9pJbiPhmmt_2fy1HXrNimpryAp6=
+Z5BqfE7NSDJ5SVq3ch20pdId0KBStS6GSAl_2bIOfJ_2f1I_3d/i.htm" style=3D"colo=
+r:#000000; font-family:Arial, Helvetica, sans-serif; font-size:11px; fo=
+nt-weight:normal; text-decoration:none;"><strong>Appel<br />
+												de la police</strong><br />
+												apr&egrave;s v&eacute;rification**</a></td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+									<td align=3D"center" class=3D"hide" valign=3D"top" width=3D"10=
+0">
+									<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspa=
+cing=3D"0" class=3D"hide" width=3D"100">
+										<tbody>
+											<tr>
+												<td align=3D"center" valign=3D"top" width=3D"100"><a href=3D=
+"http://stats.mes-news.fr/l/61155718/NTaI_2bGl9pJbiPhmmt_2fy1HXrNimpryA=
+p6Z5BqfE7NSDJ5SVq3ch20pdId0KBStS6GSAl_2bIOfJ_2f1I_3d/i.htm"><img alt=3D=
+"Installation" border=3D"0" height=3D"67" src=3D"http://crdi07.net/Secu=
+ritas/k/1607F/img/outils.jpg" style=3D"display:block;" width=3D"100" />=
+</a></td>
+											</tr>
+											<tr>
+												<td align=3D"center" height=3D"50" style=3D"color:#000000; =
+font-family:Arial, Helvetica, sans-serif; font-size:11px; font-weight:n=
+ormal; text-decoration:none;" valign=3D"top" width=3D"100"><a href=3D"h=
+ttp://stats.mes-news.fr/l/61155719/NTaI_2bGl9pJbiPhmmt_2fy1HXrNimpryAp6=
+Z5BqfE7NSDJ5SVq3ch20pdId0KBStS6GSAl_2bIOfJ_2f1I_3d/i.htm" style=3D"colo=
+r:#000000; font-family:Arial, Helvetica, sans-serif; font-size:11px; fo=
+nt-weight:normal; text-decoration:none;">Installation<br />
+												en moins<br />
+												<strong>d&#39;1 heure</strong></a></td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+									<td align=3D"center" class=3D"hide" valign=3D"top" width=3D"10=
+0">
+									<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspa=
+cing=3D"0" class=3D"hide" width=3D"100">
+										<tbody>
+											<tr>
+												<td align=3D"center" valign=3D"top" width=3D"100"><a href=3D=
+"http://stats.mes-news.fr/l/61155720/NTaI_2bGl9pJbiPhmmt_2fy1HXrNimpryA=
+p6Z5BqfE7NSDJ5SVq3ch20pdId0KBStS6GSAl_2bIOfJ_2f1I_3d/i.htm"><img alt=3D=
+"Smartphone" border=3D"0" height=3D"67" src=3D"http://crdi07.net/Securi=
+tas/k/1607F/img/smartphone.jpg" style=3D"display:block;" width=3D"100" =
+/></a></td>
+											</tr>
+											<tr>
+												<td align=3D"center" height=3D"50" style=3D"color:#000000; =
+font-family:Arial, Helvetica, sans-serif; font-size:11px; font-weight:n=
+ormal; text-decoration:none;" valign=3D"top" width=3D"100"><a href=3D"h=
+ttp://stats.mes-news.fr/l/61155721/NTaI_2bGl9pJbiPhmmt_2fy1HXrNimpryAp6=
+Z5BqfE7NSDJ5SVq3ch20pdId0KBStS6GSAl_2bIOfJ_2f1I_3d/i.htm" style=3D"colo=
+r:#000000; font-family:Arial, Helvetica, sans-serif; font-size:11px; fo=
+nt-weight:normal; text-decoration:none;">Contr&ocirc;le<br />
+												depuis votre<br />
+												<strong>smartphone</strong></a></td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+									<td align=3D"center" class=3D"hide" valign=3D"top" width=3D"10=
+0">
+									<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspa=
+cing=3D"0" class=3D"hide" width=3D"100">
+										<tbody>
+											<tr>
+												<td align=3D"center" valign=3D"top" width=3D"100"><a href=3D=
+"http://stats.mes-news.fr/l/61155722/NTaI_2bGl9pJbiPhmmt_2fy1HXrNimpryA=
+p6Z5BqfE7NSDJ5SVq3ch20pdId0KBStS6GSAl_2bIOfJ_2f1I_3d/i.htm"><img alt=3D=
+"Satisfaits" border=3D"0" height=3D"67" src=3D"http://crdi07.net/Securi=
+tas/k/1607F/img/clientes.jpg" style=3D"display:block;" width=3D"100" />=
+</a></td>
+											</tr>
+											<tr>
+												<td align=3D"center" height=3D"50" style=3D"color:#000000; =
+font-family:Arial, Helvetica, sans-serif; font-size:11px; font-weight:n=
+ormal; text-decoration:none;" valign=3D"top" width=3D"100"><a href=3D"h=
+ttp://stats.mes-news.fr/l/61155723/NTaI_2bGl9pJbiPhmmt_2fy1HXrNimpryAp6=
+Z5BqfE7NSDJ5SVq3ch20pdId0KBStS6GSAl_2bIOfJ_2f1I_3d/i.htm" style=3D"colo=
+r:#000000; font-family:Arial, Helvetica, sans-serif; font-size:11px; fo=
+nt-weight:normal; text-decoration:none;"><strong>2 millions</strong><br=
+ />
+												de clients</a></td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+									<td align=3D"center" class=3D"hide" valign=3D"top" width=3D"10=
+0">
+									<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspa=
+cing=3D"0" class=3D"hide" width=3D"100">
+										<tbody>
+											<tr>
+												<td align=3D"center" valign=3D"top" width=3D"100"><a href=3D=
+"http://stats.mes-news.fr/l/61155724/NTaI_2bGl9pJbiPhmmt_2fy1HXrNimpryA=
+p6Z5BqfE7NSDJ5SVq3ch20pdId0KBStS6GSAl_2bIOfJ_2f1I_3d/i.htm"><img alt=3D=
+"Label" border=3D"0" height=3D"67" src=3D"http://crdi07.net/Securitas/k=
+/1607F/img/label.jpg" style=3D"display:block;" width=3D"100" /></a></td=
+>
+											</tr>
+											<tr>
+												<td align=3D"center" height=3D"50" style=3D"color:#000000; =
+font-family:Arial, Helvetica, sans-serif; font-size:11px; font-weight:n=
+ormal; text-decoration:none;" valign=3D"top" width=3D"100"><a href=3D"h=
+ttp://stats.mes-news.fr/l/61155725/NTaI_2bGl9pJbiPhmmt_2fy1HXrNimpryAp6=
+Z5BqfE7NSDJ5SVq3ch20pdId0KBStS6GSAl_2bIOfJ_2f1I_3d/i.htm" style=3D"colo=
+r:#000000; font-family:Arial, Helvetica, sans-serif; font-size:11px; fo=
+nt-weight:normal; text-decoration:none;">Expert<br />
+												de la s&eacute;curit&eacute;<br />
+												<strong>depuis 25 ans</strong></a></td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+					<tr>
+						<td align=3D"center" class=3D"colonne" valign=3D"top" width=3D"60=
+0">
+						<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacin=
+g=3D"0" class=3D"colonne" width=3D"600">
+							<tbody>
+								<tr>
+									<td align=3D"center" class=3D"hide" valign=3D"top" width=3D"14=
+0"><a href=3D"http://stats.mes-news.fr/l/61155726/NTaI_2bGl9pJbiPhmmt_2=
+fy1HXrNimpryAp6Z5BqfE7NSDJ5SVq3ch20pdId0KBStS6GSAl_2bIOfJ_2f1I_3d/i.htm=
+"><img alt=3D"espace" border=3D"0" class=3D"hide" height=3D"23" src=3D"=
+http://crdi07.net/Securitas/k/1607F/img/ligne-fine-a.jpg" style=3D"disp=
+lay:block;" width=3D"140" /></a></td>
+									<td align=3D"center" class=3D"colonne" valign=3D"top" width=3D=
+"320"><a href=3D"http://stats.mes-news.fr/l/61155727/NTaI_2bGl9pJbiPhmm=
+t_2fy1HXrNimpryAp6Z5BqfE7NSDJ5SVq3ch20pdId0KBStS6GSAl_2bIOfJ_2f1I_3d/i.=
+htm"><img alt=3D"espace" border=3D"0" height=3D"23" src=3D"http://crdi0=
+7.net/Securitas/k/1607F/img/ligne-fine.jpg" style=3D"display:block;" wi=
+dth=3D"320" /></a></td>
+									<td align=3D"center" class=3D"hide" valign=3D"top" width=3D"14=
+0"><a href=3D"http://stats.mes-news.fr/l/61155728/NTaI_2bGl9pJbiPhmmt_2=
+fy1HXrNimpryAp6Z5BqfE7NSDJ5SVq3ch20pdId0KBStS6GSAl_2bIOfJ_2f1I_3d/i.htm=
+"><img alt=3D"espace" border=3D"0" class=3D"hide" height=3D"23" src=3D"=
+http://crdi07.net/Securitas/k/1607F/img/ligne-fine-b.jpg" style=3D"disp=
+lay:block;" width=3D"140" /></a></td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+					<tr>
+						<td align=3D"center" class=3D"colonne" valign=3D"top" width=3D"60=
+0">
+						<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacin=
+g=3D"0" class=3D"colonne" width=3D"600">
+							<tbody>
+								<tr>
+									<td align=3D"center" class=3D"colonne" valign=3D"top" width=3D=
+"179"><a href=3D"http://stats.mes-news.fr/l/61155729/NTaI_2bGl9pJbiPhmm=
+t_2fy1HXrNimpryAp6Z5BqfE7NSDJ5SVq3ch20pdId0KBStS6GSAl_2bIOfJ_2f1I_3d/i.=
+htm"><img alt=3D"Logo" border=3D"0" height=3D"92" src=3D"http://crdi07.=
+net/Securitas/k/1607F/img/logo.jpg" style=3D"display:block;" width=3D"1=
+79" /></a></td>
+									<td align=3D"center" class=3D"hide" height=3D"92" valign=3D"to=
+p" width=3D"20"></td>
+									<td align=3D"center" class=3D"colonne" valign=3D"top" width=3D=
+"365">
+									<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspa=
+cing=3D"0" class=3D"colonnecomo" width=3D"365">
+										<tbody>
+											<tr>
+												<td align=3D"center" class=3D"hide" height=3D"20" valign=3D=
+"top" width=3D"365"></td>
+											</tr>
+											<tr>
+												<td align=3D"center" class=3D"colonne" valign=3D"top" width=
+=3D"365"><a href=3D"http://stats.mes-news.fr/l/61155730/NTaI_2bGl9pJbiP=
+hmmt_2fy1HXrNimpryAp6Z5BqfE7NSDJ5SVq3ch20pdId0KBStS6GSAl_2bIOfJ_2f1I_3d=
+/i.htm"><img alt=3D"Experience" border=3D"0" class=3D"colonne" height=3D=
+"37" src=3D"http://crdi07.net/Securitas/k/1607F/img/texte.jpg" style=3D=
+"display:block;" width=3D"365" /></a></td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+									<td align=3D"center" class=3D"hide" height=3D"92" valign=3D"to=
+p" width=3D"36"></td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+					<tr>
+						<td align=3D"center" class=3D"colonne" valign=3D"top" width=3D"60=
+0">
+						<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacin=
+g=3D"0" class=3D"colonne" width=3D"600">
+							<tbody>
+								<tr>
+									<td align=3D"center" class=3D"hide" valign=3D"top" width=3D"14=
+0"><a href=3D"http://stats.mes-news.fr/l/61155731/NTaI_2bGl9pJbiPhmmt_2=
+fy1HXrNimpryAp6Z5BqfE7NSDJ5SVq3ch20pdId0KBStS6GSAl_2bIOfJ_2f1I_3d/i.htm=
+"><img alt=3D"espace" border=3D"0" class=3D"hide" height=3D"23" src=3D"=
+http://crdi07.net/Securitas/k/1607F/img/ligne-fine-a.jpg" style=3D"disp=
+lay:block;" width=3D"140" /></a></td>
+									<td align=3D"center" class=3D"colonne" valign=3D"top" width=3D=
+"320"><a href=3D"http://stats.mes-news.fr/l/61155732/NTaI_2bGl9pJbiPhmm=
+t_2fy1HXrNimpryAp6Z5BqfE7NSDJ5SVq3ch20pdId0KBStS6GSAl_2bIOfJ_2f1I_3d/i.=
+htm"><img alt=3D"espace" border=3D"0" height=3D"23" src=3D"http://crdi0=
+7.net/Securitas/k/1607F/img/ligne-fine.jpg" style=3D"display:block;" wi=
+dth=3D"320" /></a></td>
+									<td align=3D"center" class=3D"hide" valign=3D"top" width=3D"14=
+0"><a href=3D"http://stats.mes-news.fr/l/61155733/NTaI_2bGl9pJbiPhmmt_2=
+fy1HXrNimpryAp6Z5BqfE7NSDJ5SVq3ch20pdId0KBStS6GSAl_2bIOfJ_2f1I_3d/i.htm=
+"><img alt=3D"espace" border=3D"0" class=3D"hide" height=3D"23" src=3D"=
+http://crdi07.net/Securitas/k/1607F/img/ligne-fine-b.jpg" style=3D"disp=
+lay:block;" width=3D"140" /></a></td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+					<tr>
+						<td align=3D"center" class=3D"colonne" valign=3D"top" width=3D"60=
+0">
+						<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacin=
+g=3D"0" class=3D"colonne" width=3D"600">
+							<tbody>
+								<tr>
+									<td align=3D"center" class=3D"colonne" valign=3D"top" width=3D=
+"236"><a href=3D"http://stats.mes-news.fr/l/61155734/NTaI_2bGl9pJbiPhmm=
+t_2fy1HXrNimpryAp6Z5BqfE7NSDJ5SVq3ch20pdId0KBStS6GSAl_2bIOfJ_2f1I_3d/i.=
+htm"><img alt=3D"Abonnement" border=3D"0" height=3D"217" src=3D"http://=
+crdi07.net/Securitas/k/1607F/img/pendant-un-mois1.jpg" style=3D"display=
+:block;" width=3D"236" /></a></td>
+									<td align=3D"center" class=3D"colonne" valign=3D"top" width=3D=
+"325">
+									<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspa=
+cing=3D"0" class=3D"colonne" width=3D"325">
+										<tbody>
+											<tr>
+												<td align=3D"center" class=3D"colonne" valign=3D"top" width=
+=3D"325"><a href=3D"http://stats.mes-news.fr/l/61155735/NTaI_2bGl9pJbiP=
+hmmt_2fy1HXrNimpryAp6Z5BqfE7NSDJ5SVq3ch20pdId0KBStS6GSAl_2bIOfJ_2f1I_3d=
+/i.htm"><img alt=3D"Demande" border=3D"0" class=3D"colonne" height=3D"9=
+7" src=3D"http://crdi07.net/Securitas/k/1607F/img/ligne.jpg" style=3D"d=
+isplay:block;" width=3D"325" /></a></td>
+											</tr>
+											<tr>
+												<td align=3D"center" class=3D"colonne" valign=3D"top" width=
+=3D"325"><a href=3D"http://stats.mes-news.fr/l/61155736/NTaI_2bGl9pJbiP=
+hmmt_2fy1HXrNimpryAp6Z5BqfE7NSDJ5SVq3ch20pdId0KBStS6GSAl_2bIOfJ_2f1I_3d=
+/i.htm"><img alt=3D"Conseiller" border=3D"0" class=3D"colonne" height=3D=
+"108" src=3D"http://crdi07.net/Securitas/k/1607F/img/conseiller.jpg" st=
+yle=3D"display:block;" width=3D"325" /></a></td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+					<tr>
+						<td align=3D"center" class=3D"colonne" valign=3D"top" width=3D"60=
+0">
+						<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacin=
+g=3D"0" class=3D"colonne" width=3D"600">
+							<tbody>
+								<tr>
+									<td align=3D"center" class=3D"marginbleu" height=3D"76" valign=
+=3D"top" width=3D"28"></td>
+									<td align=3D"right" class=3D"colonnebleu" style=3D"color:#0067=
+bc; font-family:Arial, Helvetica, sans-serif; font-size:19px; font-weig=
+ht:bold; text-decoration:none;" valign=3D"top" width=3D"544"><a class=3D=
+"colonnebleu" href=3D"http://stats.mes-news.fr/l/61155737/NTaI_2bGl9pJb=
+iPhmmt_2fy1HXrNimpryAp6Z5BqfE7NSDJ5SVq3ch20pdId0KBStS6GSAl_2bIOfJ_2f1I_=
+3d/i.htm" style=3D"color:#0067bc; font-family:Arial, Helvetica, sans-se=
+rif; font-size:19px; font-weight:bold; text-decoration:none;">D&eacute;=
+couvrez nos solutions pour prot&eacute;ger<br />
+									votre habitation, vos proches et vous-m&ecirc;me</a></td>
+									<td align=3D"center" class=3D"marginbleu" height=3D"76" valign=
+=3D"top" width=3D"28"></td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+					<tr>
+						<td align=3D"center" class=3D"colonne" valign=3D"top" width=3D"60=
+0">
+						<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacin=
+g=3D"0" class=3D"colonne" width=3D"600">
+							<tbody>
+								<tr>
+									<td align=3D"center" class=3D"hide" valign=3D"top" width=3D"14=
+0"><a href=3D"http://stats.mes-news.fr/l/61155738/NTaI_2bGl9pJbiPhmmt_2=
+fy1HXrNimpryAp6Z5BqfE7NSDJ5SVq3ch20pdId0KBStS6GSAl_2bIOfJ_2f1I_3d/i.htm=
+"><img alt=3D"espace" border=3D"0" class=3D"hide" height=3D"23" src=3D"=
+http://crdi07.net/Securitas/k/1607F/img/ligne-fine-a.jpg" style=3D"disp=
+lay:block;" width=3D"140" /></a></td>
+									<td align=3D"center" class=3D"colonne" valign=3D"top" width=3D=
+"320"><a href=3D"http://stats.mes-news.fr/l/61155739/NTaI_2bGl9pJbiPhmm=
+t_2fy1HXrNimpryAp6Z5BqfE7NSDJ5SVq3ch20pdId0KBStS6GSAl_2bIOfJ_2f1I_3d/i.=
+htm"><img alt=3D"espace" border=3D"0" height=3D"23" src=3D"http://crdi0=
+7.net/Securitas/k/1607F/img/ligne-fine.jpg" style=3D"display:block;" wi=
+dth=3D"320" /></a></td>
+									<td align=3D"center" class=3D"hide" valign=3D"top" width=3D"14=
+0"><a href=3D"http://stats.mes-news.fr/l/61155740/NTaI_2bGl9pJbiPhmmt_2=
+fy1HXrNimpryAp6Z5BqfE7NSDJ5SVq3ch20pdId0KBStS6GSAl_2bIOfJ_2f1I_3d/i.htm=
+"><img alt=3D"espace" border=3D"0" class=3D"hide" height=3D"23" src=3D"=
+http://crdi07.net/Securitas/k/1607F/img/ligne-fine-b.jpg" style=3D"disp=
+lay:block;" width=3D"140" /></a></td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+					<tr>
+						<td align=3D"center" class=3D"colonne" valign=3D"top" width=3D"60=
+0">
+						<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacin=
+g=3D"0" class=3D"colonne" width=3D"600">
+							<tbody>
+								<tr>
+									<td align=3D"center" class=3D"colonne" valign=3D"top" width=3D=
+"200">
+									<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspa=
+cing=3D"0" class=3D"colonne" width=3D"200">
+										<tbody>
+											<tr>
+												<td align=3D"center" height=3D"45" style=3D"color:#000000; =
+font-family:Arial, Helvetica, sans-serif; font-size:14px; font-weight:b=
+old; text-decoration:none;" valign=3D"top" width=3D"200"><a href=3D"htt=
+p://stats.mes-news.fr/l/61155741/NTaI_2bGl9pJbiPhmmt_2fy1HXrNimpryAp6Z5=
+BqfE7NSDJ5SVq3ch20pdId0KBStS6GSAl_2bIOfJ_2f1I_3d/i.htm" style=3D"color:=
+#000000; font-family:Arial, Helvetica, sans-serif; font-size:14px; font=
+-weight:bold; text-decoration:none;">Alarme avec<br />
+												interpellation par la voix</a></td>
+											</tr>
+											<tr>
+												<td align=3D"center" class=3D"colonne" valign=3D"top" width=
+=3D"200"><a href=3D"http://stats.mes-news.fr/l/61155742/NTaI_2bGl9pJbiP=
+hmmt_2fy1HXrNimpryAp6Z5BqfE7NSDJ5SVq3ch20pdId0KBStS6GSAl_2bIOfJ_2f1I_3d=
+/i.htm"><img alt=3D"Op&eacute;rateur" border=3D"0" height=3D"93" src=3D=
+"http://crdi07.net/Securitas/k/1607F/img/homme.jpg" style=3D"display:bl=
+ock;" width=3D"200" /></a></td>
+											</tr>
+											<tr>
+												<td align=3D"center" height=3D"70" style=3D"color:#000000; =
+font-family:Arial, Helvetica, sans-serif; font-size:10px; font-weight:n=
+ormal; text-decoration:none;" valign=3D"top" width=3D"200"><a href=3D"h=
+ttp://stats.mes-news.fr/l/61155743/NTaI_2bGl9pJbiPhmmt_2fy1HXrNimpryAp6=
+Z5BqfE7NSDJ5SVq3ch20pdId0KBStS6GSAl_2bIOfJ_2f1I_3d/i.htm" style=3D"colo=
+r:#000000; font-family:Arial, Helvetica, sans-serif; font-size:10px; fo=
+nt-weight:normal; text-decoration:none;">L&#39;op&eacute;rateur de t&ea=
+cute;l&eacute;surveillance<br />
+												&eacute;coute et interpelle l&#39;intrus gr&acirc;ce &agrav=
+e;<br />
+												un micro et un haut-parleur<br />
+												plac&eacute;s dans votre clavier.</a></td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+									<td align=3D"center" class=3D"colonne" valign=3D"top" width=3D=
+"200">
+									<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspa=
+cing=3D"0" class=3D"colonne" width=3D"200">
+										<tbody>
+											<tr>
+												<td align=3D"center" height=3D"45" style=3D"color:#000000; =
+font-family:Arial, Helvetica, sans-serif; font-size:14px; font-weight:b=
+old; text-decoration:none;" valign=3D"top" width=3D"200"><a href=3D"htt=
+p://stats.mes-news.fr/l/61155744/NTaI_2bGl9pJbiPhmmt_2fy1HXrNimpryAp6Z5=
+BqfE7NSDJ5SVq3ch20pdId0KBStS6GSAl_2bIOfJ_2f1I_3d/i.htm" style=3D"color:=
+#000000; font-family:Arial, Helvetica, sans-serif; font-size:14px; font=
+-weight:bold; text-decoration:none;">D&eacute;couvrez la cam&eacute;ra<=
+br />
+												SmartCamPRO</a></td>
+											</tr>
+											<tr>
+												<td align=3D"center" class=3D"colonne" valign=3D"top" width=
+=3D"200"><a href=3D"http://stats.mes-news.fr/l/61155745/NTaI_2bGl9pJbiP=
+hmmt_2fy1HXrNimpryAp6Z5BqfE7NSDJ5SVq3ch20pdId0KBStS6GSAl_2bIOfJ_2f1I_3d=
+/i.htm"><img alt=3D"SmartCamPro" border=3D"0" height=3D"93" src=3D"http=
+://crdi07.net/Securitas/k/1607F/img/smartcam-pro.jpg" style=3D"display:=
+block;" width=3D"200" /></a></td>
+											</tr>
+											<tr>
+												<td align=3D"center" height=3D"70" style=3D"color:#000000; =
+font-family:Arial, Helvetica, sans-serif; font-size:10px; font-weight:n=
+ormal; text-decoration:none;" valign=3D"top" width=3D"200"><a href=3D"h=
+ttp://stats.mes-news.fr/l/61155746/NTaI_2bGl9pJbiPhmmt_2fy1HXrNimpryAp6=
+Z5BqfE7NSDJ5SVq3ch20pdId0KBStS6GSAl_2bIOfJ_2f1I_3d/i.htm" style=3D"colo=
+r:#000000; font-family:Arial, Helvetica, sans-serif; font-size:10px; fo=
+nt-weight:normal; text-decoration:none;">La SmartCamPRO assure une<br /=
+>
+												visibilit&eacute; optimale de jour et de nuit<br />
+												gr&acirc;ce &agrave; la rotation verticale et<br />
+												horizontale et une image full HD.</a></td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+									<td align=3D"center" class=3D"colonne" valign=3D"top" width=3D=
+"200">
+									<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspa=
+cing=3D"0" class=3D"colonne" width=3D"200">
+										<tbody>
+											<tr>
+												<td align=3D"center" height=3D"45" style=3D"color:#000000; =
+font-family:Arial, Helvetica, sans-serif; font-size:14px; font-weight:b=
+old; text-decoration:none;" valign=3D"top" width=3D"200"><a href=3D"htt=
+p://stats.mes-news.fr/l/61155747/NTaI_2bGl9pJbiPhmmt_2fy1HXrNimpryAp6Z5=
+BqfE7NSDJ5SVq3ch20pdId0KBStS6GSAl_2bIOfJ_2f1I_3d/i.htm" style=3D"color:=
+#000000; font-family:Arial, Helvetica, sans-serif; font-size:14px; font=
+-weight:bold; text-decoration:none;">Alarme<br />
+												intelligente</a></td>
+											</tr>
+											<tr>
+												<td align=3D"center" class=3D"colonne" valign=3D"top" width=
+=3D"200"><a href=3D"http://stats.mes-news.fr/l/61155748/NTaI_2bGl9pJbiP=
+hmmt_2fy1HXrNimpryAp6Z5BqfE7NSDJ5SVq3ch20pdId0KBStS6GSAl_2bIOfJ_2f1I_3d=
+/i.htm"><img alt=3D"Intelligente" border=3D"0" height=3D"93" src=3D"htt=
+p://crdi07.net/Securitas/k/1607F/img/alarme-intelligente.jpg" style=3D"=
+display:block;" width=3D"200" /></a></td>
+											</tr>
+											<tr>
+												<td align=3D"center" height=3D"70" style=3D"color:#000000; =
+font-family:Arial, Helvetica, sans-serif; font-size:10px; font-weight:n=
+ormal; text-decoration:none;" valign=3D"top" width=3D"200"><a href=3D"h=
+ttp://stats.mes-news.fr/l/61155749/NTaI_2bGl9pJbiPhmmt_2fy1HXrNimpryAp6=
+Z5BqfE7NSDJ5SVq3ch20pdId0KBStS6GSAl_2bIOfJ_2f1I_3d/i.htm" style=3D"colo=
+r:#000000; font-family:Arial, Helvetica, sans-serif; font-size:10px; fo=
+nt-weight:normal; text-decoration:none;">Contr&ocirc;lez votre syst&egr=
+ave;me &agrave;<br />
+												distance : demande d&#39;images,<br />
+												&eacute;coute silencieuse, activation/<br />
+												d&eacute;sactivation, domotique...</a></td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			</td>
+		</tr>
+		<tr>
+			<td align=3D"center" class=3D"colonne" valign=3D"top" width=3D"602">=
+
+			<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0" class=3D"colonne" width=3D"600">
+				<tbody>
+					<tr>
+						<td align=3D"center" class=3D"colonne" valign=3D"top" width=3D"60=
+0"><a href=3D"http://stats.mes-news.fr/l/61155750/NTaI_2bGl9pJbiPhmmt_2=
+fy1HXrNimpryAp6Z5BqfE7NSDJ5SVq3ch20pdId0KBStS6GSAl_2bIOfJ_2f1I_3d/i.htm=
+"><img alt=3D"image vide" border=3D"0" class=3D"colonne" height=3D"244"=
+ src=3D"http://crdi07.net/Securitas/k/1607F/img/infos-legales.jpg" styl=
+e=3D"display:block;" width=3D"600" /></a></td>
+					</tr>
+				</tbody>
+			</table>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<p><img height=3D"1" src=3D"http://impfr.tradedoubler.com/imp?type(img)=
+g(23335956)a(2843122)" width=3D"1" /> <img height=3D"1" src=3D"http://s=
+d.securitasdirect.fr/dynview/sd-france/pix1x1.gif?eml-publisher=3Dsecur=
+itasdirect&eml-name=3Dsecuritasdirect-ins_new_template_sans_produit_010=
+72016_familleTV&eseg-name=3Dimage&eseg-item=3Dsociabiliweb-940&ea-rnd=3D=
+RANDOM" width=3D"1" /></p>
+<div align=3D"left"><table align=3D"center" border=3D"0" cellpadding=3D=
+"2" cellspacing=3D"0" height=3D"130" width=3D"799">
+	<tbody>
+		<tr>
+			<td>
+			<div align=3D"center"><font size=3D"1">Conform&eacute;ment &agrave; =
+la loi &laquo;Informatique et Libert&eacute;s&raquo; du 6 janvier 1978,=
+ vous disposez d'un droit d'acc&egrave;s, de rectification et d'opposit=
+ion, aux informations qui vous concernent.<br />
+			Vous recevez ce mail car vous &ecirc;tes abonn&eacute;(e) sur l'un d=
+e nos sites partenaires ou &agrave; Sociabiliweb, enregistr&eacute; aup=
+r&egrave;s de la CNIL sous le num&eacute;ro 1577961 v 0</font><br />
+			<span style=3D"font-size: 10px"><span style=3D"font-family: Arial, H=
+elvetica, sans-serif">Sociabiliweb, 7 rue Pel&eacute;e, 75011 Paris</sp=
+an></span><br />
+			<font size=3D"1">Si vous ne souhaitez pas recevoir des propositions =
+commerciales de notre part ou de nos partenaires par voie &eacute;lectr=
+onique, merci de proc&eacute;der &agrave; votre <a href=3D"http://stats=
+.mes-news.fr/u/NTaI_2bGl9pJbiPhmmt_2fy1HXrNimpryAp6Z5BqfE7NSDJ5SVq3ch20=
+pdId0KBStS6GSAl_2bIOfJ_2f1I_3d/i.htm">d&eacute;sinscription</a>.</font>=
+</div>
+			</td>
+		</tr>
+	</tbody>
+</table>
+<br />
+<img alt=3D"track" height=3D"1" src=3D"http://asset.email-match.com/849=
+/asset?type=3DIMG&optin=3D1&email=3Dresp-m2-miage@univ-rennes1.fr" widt=
+h=3D"1" /><img alt=3D"track" height=3D"1" src=3D"http://adtrack.adleade=
+vent.com/adtckrtg.php?ids=3D37&email=3Dresp-m2-miage@univ-rennes1.fr" /=
+></div></body>
+</html>
+
+
+----=4c54cc2e_5592_4ccc_8e69_c11940cf8c5e--
+
+----=50001cb8_b3b2_4b23_9969_23a5f6684a68--
+

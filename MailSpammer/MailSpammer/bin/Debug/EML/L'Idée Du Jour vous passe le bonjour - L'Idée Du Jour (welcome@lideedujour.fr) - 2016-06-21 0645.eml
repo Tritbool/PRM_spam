@@ -1,0 +1,192 @@
+Return-Path: <bounce-211174-6d15567125-146121678@lideedujour.fr>
+Received: from mailimailo.univ-rennes1.fr ([unix socket])
+	 by mailimailo.univ-rennes1.fr (Cyrus v2.3.16-Fedora-RPM-2.3.16-6.el6_2.5) with LMTPA;
+	 Tue, 21 Jun 2016 06:45:34 +0200
+X-Sieve: CMU Sieve 2.3
+Received: from mailout2.univ-rennes1.fr (mailout2.univ-rennes1.fr [129.20.129.120])
+	by mailimailo.univ-rennes1.fr (Postfix) with ESMTP id 3BBC452
+	for <resp-m2-miage@univ-rennes1.fr>; Tue, 21 Jun 2016 06:45:34 +0200 (CEST)
+Received: from localhost (vmscanmail.univ-rennes1.fr [129.20.128.134])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id 397D2601A8
+	for <resp-m2-miage@univ-rennes1.fr>; Tue, 21 Jun 2016 06:45:34 +0200 (CEST)
+X-Virus-Scanned: amavisd-new at univ-rennes1.fr
+Received: from mailout2.univ-rennes1.fr ([129.20.129.120])
+	by localhost (vmscanmail.univ-rennes1.frm [129.20.128.134]) (amavisd-new, port 10026)
+	with ESMTP id PIiQmnaCzoRF for <resp-m2-miage@univ-rennes1.fr>;
+	Tue, 21 Jun 2016 06:45:34 +0200 (CEST)
+Received: from vmmailin.univ-rennes1.fr (vmmailin.univ-rennes1.fr [129.20.128.133])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id 1F44A6000B
+	for <resp-m2-miage@univ-rennes1.fr>; Tue, 21 Jun 2016 06:45:34 +0200 (CEST)
+Received: from mxb2-2.relay.renater.fr (mxb2-2.relay.renater.fr [194.214.200.9])
+	by vmmailin.univ-rennes1.fr (Postfix) with ESMTP id 19ACB20033
+	for <resp-m2-miage@univ-rennes1.fr>; Tue, 21 Jun 2016 06:45:34 +0200 (CEST)
+Received: from er3.lideedujour.fr (er3.lideedujour.fr [188.213.62.190])
+	by mxb2-2.relay.renater.fr (asm) with ESMTP id DFD096001F4
+	for <resp-m2-miage@univ-rennes1.fr>; Tue, 21 Jun 2016 06:45:33 +0200 (CEST)
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=default; d=lideedujour.fr;
+ h=MIME-Version:From:Reply-To:List-Unsubscribe:Feedback-ID:Subject:Content-Type:To:Message-ID:Date; i=welcome@lideedujour.fr;
+ bh=5Rz42bkGcsh3Sol+v+4YTuDaq9A=;
+ b=lzIohmGUL14W92icE819oW20i/+iVUq2CS0wcN84jfJtNvv8ePW6o2TdzBmcedzSDIUCtvh9arE5
+   ijv2yXcnl35/7NhlX1UuPSAHOdQsAQT+W27Zmoq9BrmE/NkQol9H6aDmaakzfGKYkpjqBbfMAg1O
+   AsBNiWQ6GxSk0BkmW1A=
+MIME-Version: 1.0
+Precedence: bulk
+From: =?UTF-8?B?TCdJZMOpZSBEdSBKb3Vy?= <welcome@lideedujour.fr>
+Reply-To: =?UTF-8?B?TCdJZMOpZSBEdSBKb3Vy?= <info@lideedujour.fr>
+List-Unsubscribe: <http://clicks.lideedujour.fr/lu/702787234/f67578c/211174.html>
+X-EMID: 0
+Feedback-ID: LEAD658
+Subject: =?UTF-8?B?TCdJZMOpZSBEdSBKb3VyIHZvdXMgcGFzc2UgbGUgYm9uam91cg==?=
+Content-Type: multipart/alternative;
+ boundary=cf92e3ba79bfec26d6fd57f57221a2eb
+To: resp-m2-miage@univ-rennes1.fr
+Message-ID: <0.0.149.4D1.1D1CB77B720E68A.0@er3.lideedujour.fr>
+Date: Tue, 21 Jun 2016 06:45:20 +0200
+X-UCE-Status: YES
+X-UCE-Type: MCE
+X-Original-Source-IP: 188.213.62.190
+X-Bizanga: IMP - mxb2-2.relay.renater.fr
+X-Renater-SpamState: 11
+X-Renater-SpamScore: 17
+X-Renater-SpamCause: gggruggvucftvghtrhhoucdtuddrfeekledrleeigdeltdcutefuodetggdotefrodftvfcurfhrohhfihhlvgemucftgffptefvgfftpdggtfgfnhhsuhgsshgtrhhisggvnecuuegrihhlohhuthemuceftddtnecundfotefknffkpffiucdludejmdenucfjughrpeggphfhrhfjufgtvffkffesrgdtreertddtjeenucfhrhhomhepnfdkkfgurogvucffuhculfhouhhruceofigvlhgtohhmvgeslhhiuggvvgguuhhjohhurhdrfhhrqeenucffohhmrghinheplhhiuggvvgguuhhjohhurhdrfhhrnecukfhppedukeekrddvudefrdeivddrudeltdenucfrrghrrghmpehmohguvgepshhmthhppdhhvghlohepvghrfedrlhhiuggvvgguuhhjohhurhdrfhhrpdhinhgvthepudekkedrvddufedriedvrdduledtpdhmrghilhhfrhhomhepsghouhhntggvqddvudduudejgedqieguudehheeijeduvdehqddugeeiuddvudeijeeksehlihguvggvughujhhouhhrrdhfrhdprhgtphhtthhopehrvghsphdqmhdvqdhmihgrghgvsehunhhivhdqrhgvnhhnvghsuddrfhhr 
+X-Renater-ServerName: mxb2-2.relay.renater.fr
+
+
+--cf92e3ba79bfec26d6fd57f57221a2eb
+Content-Type: text/plain; 
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Visualiser la version en ligne : http://clicks.lideedujour.fr/v/702787234/f=
+67578c/GR9j5iviaWGosOTgV1pbtQiXvAZBYXzS3gff.html
+Signaler comme courrier ind=C3=A9sirable : http://clicks.lideedujour.fr/u/7=
+02787234/f67578c/GR9j5iviaWGosOTgV1pbtQiXvAZBYXzS3gff.html
+
+L'ID=C3=89E DU JOUR
+Bonjour ,
+
+ProwebMedia a le plaisir de vous pr=C3=A9senter L'Id=C3=A9e Du Jour.
+
+Nous vous souhaitons la bienvenue ! En nous rejoignant, vous pourrez b=
+=C3=A9n=C3=A9ficier des meilleures offres et bons plans du web ! Chaque Jou=
+r, vous pourrez ainsi profiter d=E2=80=99une offre unique sur les voyages, =
+shopping, assurance, ou m=C3=AAme pour votre carri=C3=A8re professionnelle.=
+ Vous l=E2=80=99aurez donc compris, rejoindre notre club vous permettra de =
+faciliter votre vie au quotidien. Soyez donc un consommateur averti, rejoig=
+nez L'Id=C3=A9e Du Jour!=20
+
+Vous recevrez ces newsletters en tant que membre de L'Id=C3=A9e Du Jour=20
+
+Si vous ne d=C3=A9sirez pas recevoir ces offres, cliquez ici.
+
+Cordialement, l=E2=80=99=C3=A9quipe de L'Id=C3=A9e Du Jour
+
+Vous recevez ce message car vous =C3=AAtes membre de Les L Idee Du Jour.
+
+Vous pouvez exercer votre droit d'acc=C3=A8s et de suppression =C3=A0 tout =
+moment en nous contactant =C3=A0 : info@lideedujour.fr, ou en nous =C3=
+=A9crivant =C3=A0 Les L Idee Du Jour - C/ Pau Claris 115 3=C2=BA 4=C2=AA - =
+08009 Barcelona.=20
+
+Suivez ce lien pour vous d=C3=A9sabonner. Politique de confidentialit=C3=
+=A9.=20
+
+http://clicks.lideedujour.fr/u/702787234/f67578c/GR9j5iviaWGosOTgV1pbtQiXvA=
+ZBYXzS3gff.html
+http://www.lideedujour.fr/privacy.html
+
+--cf92e3ba79bfec26d6fd57f57221a2eb
+Content-Type: text/html; 
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.=
+w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8" />
+<title>L'Id=C3=A9e Du Jour vous passe le bonjour</title>
+=09
+<style type=3D"text/css">
+=09.ReadMsgBody { width: 100%; }
+=09.ExternalClass { width: 100%; }
+=09td {border-collapse: collapse; }
+=09
+</style>
+
+</head>
+<body><center><div align=3D"center"><center>
+<span style=3D"font-family: Arial;"><a href=3D"http://clicks.lideedujour.fr=
+/v/702787234/f67578c/GR9j5iviaWGosOTgV1pbtQiXvAZBYXzS3gff.html">Visualiser =
+la version en ligne</a> | <a href=3D"http://clicks.lideedujour.fr/u/7027872=
+34/f67578c/GR9j5iviaWGosOTgV1pbtQiXvAZBYXzS3gff.html">Signaler comme courri=
+er ind=C3=A9sirable</a><br /><br /></span>
+</center></div></center>
+<center>
+<table width=3D"100%"  align=3D"center" style=3D"background-color:#F5F5F5; =
+text-align:center;">
+
+<tr><td >
+
+<table align=3D"center" style=3D"text-align:
+center;background-color:rgb(20, 143, 213);" width=3D"607">
+  <tr>
+  <td height=3D"77" style=3D"text-align:center; font-family: sans-serif; pa=
+dding: 20px 25px 0px 25px; line-height: 26px;">
+                        <span style=3D"color:#ffffff; font-size:30px;text-t=
+ransform: uppercase;font-style: italic;font-weight: 900;">L'Id=C3=89e Du Jo=
+ur</span><br>
+                       =20
+                       =20
+                    </td>
+</tr>
+<tr><td style=3D"color:#ffffff; font-size:16px;font-style: italic;font-weig=
+ht:normal;font-family: UbuntuRegular, Arial, sans-serif;">
+
+Bonjour ,<br /><br />
+
+ProwebMedia a le plaisir de vous pr=C3=A9senter L'Id=C3=A9e Du Jour.<br /><=
+br />
+
+Nous vous souhaitons la bienvenue ! En nous rejoignant, vous pourrez b=
+=C3=A9n=C3=A9ficier des meilleures offres et bons plans du web ! Chaque Jou=
+r, vous pourrez ainsi profiter d=E2=80=99une offre unique sur les voyages, =
+shopping, assurance, ou m=C3=AAme pour votre carri=C3=A8re professionnelle.=
+ Vous l=E2=80=99aurez donc compris, rejoindre notre club vous permettra de =
+faciliter votre vie au quotidien. Soyez donc un consommateur averti, rejoig=
+nez L'Id=C3=A9e Du Jour!
+<br /><br />
+Vous recevrez ces newsletters en tant que membre de L'Id=C3=A9e Du Jour <br=
+ /><br />
+
+
+Si vous ne d=C3=A9sirez pas recevoir ces offres, <a target=3D"_blank" href=
+=3D"http://clicks.lideedujour.fr/cl/702787234/877730/197097/1/z5gApW4tjtrhY=
+qON8Hv0yXZ2EfzrhzpW7Bqj.htm">cliquez ici.</a><br /><br />
+
+Cordialement, l=E2=80=99=C3=A9quipe de <a target=3D"_blank"  style=3D"color=
+:#ffffff;font-weight:bold; text-decoration:none;" href=3D"http://clicks.lid=
+eedujour.fr/cl/702787234/877730/197098/2/kas99UERXywfa4LkoPi48N92H4yEHLUVbB=
+TA.htm"
+ >L'Id=C3=A9e Du Jour </a><br /><br />
+</td></tr></table>
+</td></tr></table></center>
+
+<img src=3D"http://clicks.lideedujour.fr/op/702787234/877730.gif?t=3D145734=
+6771" height=3D"1" width=3D"1" alt=3D"" border=3D"0" />
+<center><div align=3D"center"><center>
+<span style=3D"font-family: Arial;">Vous recevez ce message car vous =C3=
+=AAtes membre de Les L Idee Du Jour.<br /><br />
+Vous pouvez exercer votre droit d'acc=C3=A8s et de suppression
+=C3=A0 tout moment en nous contactant =C3=A0 : info@lideedujour.fr,
+ou en nous =C3=A9crivant =C3=A0 Les L Idee Du Jour - C/ Pau Claris 115 3=
+=C2=BA 4=C2=AA - 08009 Barcelona.
+<br /><br />
+<a href=3D"http://clicks.lideedujour.fr/u/702787234/f67578c/GR9j5iviaWGosOT=
+gV1pbtQiXvAZBYXzS3gff.html" title=3D"d=C3=A9sabonner" style=3D"color:#00000=
+0; font-weight:bold;">Suivez ce lien pour vous d=C3=A9sabonner</a>.=20
+<a href=3D"http://www.lideedujour.fr/privacy.html" style=3D"color:#000000; =
+font-weight:bold;">Politique de confidentialit=C3=A9</a>.
+</span></center></div></center></body></html>
+
+--cf92e3ba79bfec26d6fd57f57221a2eb--

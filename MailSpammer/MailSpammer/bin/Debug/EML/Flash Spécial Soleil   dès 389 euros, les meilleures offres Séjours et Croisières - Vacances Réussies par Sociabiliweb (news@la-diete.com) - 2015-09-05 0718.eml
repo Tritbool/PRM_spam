@@ -1,0 +1,885 @@
+Return-Path: <return-a16-1512-1520-resp-m2-miage=univ-rennes1.fr=4@la-diete.com>
+Received: from mailimailo.univ-rennes1.fr ([unix socket])
+	 by mailimailo.univ-rennes1.fr (Cyrus v2.3.16-Fedora-RPM-2.3.16-6.el6_2.5) with LMTPA;
+	 Sat, 05 Sep 2015 07:18:45 +0200
+X-Sieve: CMU Sieve 2.3
+Received: from vmsmtprexch.univ-rennes1.fr (vmsmtprexch.univ-rennes1.fr [129.20.128.62])
+	by mailimailo.univ-rennes1.fr (Postfix) with ESMTP id 8463026A0BEA
+	for <resp-m2-miage@univ-rennes1.fr>; Sat,  5 Sep 2015 07:18:45 +0200 (CEST)
+Received: from mbcasexch4.Ur.local (mbcasexch4.univ-rennes1.fr [129.20.125.132])
+	by vmsmtprexch.univ-rennes1.fr (Postfix) with ESMTP id 80116B7
+	for <resp-m2-miage@univ-rennes1.fr>; Sat,  5 Sep 2015 07:18:45 +0200 (CEST)
+X-CrossPremisesHeadersFilteredBySendConnector: mbcasexch4.Ur.local
+Received: from mbcasexch1.Ur.local (2002:8114:7d81::8114:7d81) by
+ mbcasexch4.Ur.local (2002:8114:7d84::8114:7d84) with Microsoft SMTP Server
+ (TLS) id 15.0.913.22; Sat, 5 Sep 2015 07:18:39 +0200
+Received: from mailout1.univ-rennes1.fr (129.20.128.162) by
+ mbcasexch1.Ur.local (129.20.125.129) with Microsoft SMTP Server id
+ 15.0.913.22 via Frontend Transport; Sat, 5 Sep 2015 07:18:39 +0200
+Received: from localhost (vmscanmail.univ-rennes1.fr [129.20.128.134])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id A3CA360325
+	for <resp-m2-miage@univ-rennes1.fr>; Sat,  5 Sep 2015 07:18:39 +0200 (CEST)
+X-Virus-Scanned: amavisd-new at univ-rennes1.fr
+Received: from mailout1.univ-rennes1.fr ([129.20.128.162])
+	by localhost (vmscanmail.univ-rennes1.frm [129.20.128.134]) (amavisd-new, port 10026)
+	with ESMTP id wLRG-Ef3f3nb for <resp-m2-miage@univ-rennes1.fr>;
+	Sat,  5 Sep 2015 07:18:39 +0200 (CEST)
+Received: from vmmailin.univ-rennes1.fr (vmmailin.univ-rennes1.fr [129.20.128.133])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id 7EAED6031E
+	for <resp-m2-miage@univ-rennes1.fr>; Sat,  5 Sep 2015 07:18:39 +0200 (CEST)
+Received: from mxb1-1.relay.renater.fr (mxb1-1.relay.renater.fr [194.214.201.8])
+	by vmmailin.univ-rennes1.fr (Postfix) with ESMTP id 773B120033
+	for <resp-m2-miage@univ-rennes1.fr>; Sat,  5 Sep 2015 07:18:39 +0200 (CEST)
+Received: from smtp1-25.revue-en-ligne.com (smtp1-25.revue-en-ligne.com [5.196.212.72])
+	by mxb1-1.relay.renater.fr (asm) with SMTP id 379F56000F2
+	for <resp-m2-miage@univ-rennes1.fr>; Sat,  5 Sep 2015 07:18:39 +0200 (CEST)
+Received: (GreenArrow 5743 invoked by uid 410); 5 Sep 2015 05:18:39 -0000
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed;
+	d=la-diete.com; s=default; h=Subject:From:To:Date:
+	List-Unsubscribe:Message-ID:MIME-Version:Content-Type; bh=Oqzj+M
+	NMl0dMVLswB7RZZSdi7Ac=; b=EalgiquQopoQQN4/IE/q6BQgKtMlYl96fOsJTP
+	4XHnERZx7G+REIsXpWdkPfsCURkzs7nkxTFgc4UhmYvVY9CYVVoFsPJ6mfcHBp0c
+	IM9NNUK8/Q9WehUlgiGPh+ehGc2Bw/mjuBaK9SMNzI8JIY4sC2m7pfKMNJHJ4I9e
+	NGyc4=
+Subject: =?UTF-8?Q?Flash=20Sp=C3=A9cial=20Soleil=20=3A=20d=C3=A8s=20389?=
+ =?UTF-8?Q?=20euros=2C=20les=20meilleures=20offres=20S=C3=A9jours=20e?=
+ =?UTF-8?Q?t=20Croisi=C3=A8res?=
+From: =?UTF-8?B?VmFjYW5jZXMgUsOpdXNzaWVzIHBhciBTb2NpYWJpbGl3ZWI=?=
+	<news@la-diete.com>
+To: <resp-m2-miage@univ-rennes1.fr>
+Date: Sat, 5 Sep 2015 05:18:39 +0000
+List-Unsubscribe: <http://la-diete.com/ga/unsubscribe/2-9431079-16-793-1520-7a2e817f59de34b-8912f88a77>,
+ <mailto:return-a16-1512-1520-resp-m2-miage=univ-rennes1.fr=4u@la-diete.com>
+X-Mailer: GreenArrow Studio (v4.44.0)
+X-CampaignID: s4:1512-c1cb4414f050f3e6
+Message-ID: <mid-2cdec823ac4908e21a7f92b40615024a@la-diete.com>
+X-Mailer-Info: 4.hFjN.QM1EjM.IXZzBXLtJTLtlWYnVGQ15Wa21icl5mblNXMuYmc.QM1IDM
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="==de4c1cd134d0256f62b077e768e56814"
+X-UCE-Status: YES
+X-UCE-Type: MCE
+X-Original-Source-IP: 5.196.212.72
+X-Bizanga: IMP - mxb1-1.relay.renater.fr
+X-Renater-SpamState: 11
+X-Renater-SpamScore: 17
+X-Renater-SpamCause: gggruggvucftvghtrhhoucdtuddrfeekgedrtdejgdelvdcutefuodetggdotefrucfrrhhofhhilhgvmecutffgpfetvffgtfdpggftfghnshhusghstghrihgsvgenuceurghilhhouhhtmecufedttdenucdnofetkffnkffpifculddujedmnecujfgurhepuffhvfffjffokfggtgesrgdtreerredtjeenucfhrhhomhepgggrtggrnhgtvghsucftrohushhsihgvshcuphgrrhcuufhotghirggsihhlihifvggsuceonhgvfihssehlrgdqughivghtvgdrtghomheqnecuffhomhgrihhnpehlrgdqughivghtvgdrtghomh 
+X-Renater-ServerName: mxb1-1.relay.renater.fr
+X-OrganizationHeadersPreserved: mbcasexch4.Ur.local
+
+--==de4c1cd134d0256f62b077e768e56814
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+Vacances r=C3=A9ussies.com - FLASH DERNIERES MINUTES
+
+Marmara
+Marmara=09=20
+PROLONGEZ L'=C3=89T=C3=89 AU CALME
+Canaries, Marrakech, Bal=C3=A9ares
+=C3=80 partir de 409=E2=82=AC	D=C3=89COUVRIR=20
+Marmara
+Marmara=09=20
+SICILE SELINUNTE 4*
+8j/7n en tout compris
+=C3=80 partir de 559=E2=82=AC	D=C3=89COUVRIR=20
+Marmara
+Marmara=09=20
+CANARIES ROYAL MONICA 4*
+8j/7n en tout compris
+=C3=80 partir de 479=E2=82=AC	D=C3=89COUVRIR=20
+ABCroisi=C3=A0?e
+ABCroisi=C3=A0?e=09=20
+COSTA FAVOLOSA 5*
+Italie, Malte et Sardaigne
+=C3=80 partir de 389=E2=82=AC	D=C3=89COUVRIR=20
+Promo Croisi=C3=A0?e
+Promo Croisi=C3=A0?e=09=20
+MSC PREZIOSA 5*
+Sicile, Sardaigne, Bal=C3=A9ares
+=C3=80 partir de 629=E2=82=AC	D=C3=89COUVRIR=20
+Marmara
+Marmara=09=20
+CRETE RHODES LINDOS 4*
+8j/7n en tout compris
+=C3=80 partir de 509=E2=82=AC	D=C3=89COUVRIR=20
+Marmara
+Marmara=09=20
+AGADIR CLUB BORD DE PLAGE
+8j/7n en tout compris
+=C3=80 partir de 419=E2=82=AC	D=C3=89COUVRIR=20
+Marmara
+Marmara=09=20
+CRETE ZORBAS BEACH 4*
+8j/7n en tout compris
+=C3=80 partir de 599=E2=82=AC	D=C3=89COUVRIR=20
+* Les prix affich=C3=A9s sur cette newsletter ont =C3=A9t=C3=A9 relev=C3=A9=
+s sur les sites internets mentionn=C3=A9s le 02/09/2015 =C3=A015h.
+=20
+
+Me d=C3=A9sabonner
+
+--==de4c1cd134d0256f62b077e768e56814
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.=
+w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+	<meta content=3D"text/html; charset=3Dutf-8" http-equiv=3D"Content-Type" />
+	<title>VacancesReussies.com - FLASH DERNI&Egrave;RES MINUTES</title>
+</head>
+<body style=3D"background-color:#CECCC8;"><!-- BANNIERE: FLASH DERNIERES MI=
+NUTES -->
+<div style=3D"background-color:#CECCC8;">
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" wi=
+dth=3D"650">
+	<tbody>
+		<tr>
+			<td bgcolor=3D"#F6F6F6"><a href=3D"http://la-diete.com/ga/click/2-943107=
+9-16-793-1520-10460-0ca69332d8-8912f88a77" target=3D"_blank"><img alt=3D"Va=
+cances r=C3=A9ussies.com - FLASH DERNIERES MINUTES" border=3D"0" height=3D"=
+150" src=3D"http://46.101.7.34/vacances/vr-020915/header_bp_2.jpg" style=3D=
+"display:block;" width=3D"650" /></a></td>
+		</tr>
+		<tr>
+			<td bgcolor=3D"#FFFFFF"><img border=3D"0" height=3D"12" src=3D"http://46=
+.101.7.34/vacances/vr-020915/header_under.gif" style=3D"display:block;" wid=
+th=3D"650" /></td>
+		</tr>
+	</tbody>
+</table>
+<!-- CONTENU BDD(INFOS) -->
+
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" wi=
+dth=3D"650">
+	<tbody>
+		<tr>
+			<td align=3D"left" bgcolor=3D"#FFFFFF" valign=3D"top" width=3D"50%">
+			<table border=3D"0" cellpadding=3D"8" cellspacing=3D"0" width=3D"100%">
+				<tbody>
+					<tr>
+						<td>
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"298">
+							<tbody>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top"><a href=3D"http://la-die=
+te.com/ga/click/2-9431079-16-793-1520-10461-aedcdc8954-8912f88a77" target=
+=3D"_blank"><img alt=3D"Marmara" border=3D"0" height=3D"160" src=3D"http://=
+46.101.7.34/vacances/vr-020915/IP1.jpg" style=3D"display:block;" width=3D"2=
+90" /></a></td>
+								</tr>
+							</tbody>
+						</table>
+
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"298">
+							<tbody>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top" width=3D"60"><a href=3D"=
+http://la-diete.com/ga/click/2-9431079-16-793-1520-10461-aedcdc8954-8912f88=
+a77" target=3D"_blank"><img alt=3D"Marmara" border=3D"0" height=3D"28" src=
+=3D"http://46.101.7.34/vacances/vr-020915/marmara104x40.jpg" style=3D"displ=
+ay:block;" width=3D"78" /></a></td>
+									<td align=3D"left" style=3D"border-bottom:1px solid #D9DADB;" vali=
+gn=3D"top"></td>
+								</tr>
+							</tbody>
+						</table>
+
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"298">
+							<tbody>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"middle"><strong><a href=3D"ht=
+tp://la-diete.com/ga/click/2-9431079-16-793-1520-10461-aedcdc8954-8912f88a7=
+7" style=3D" color:#707173; text-decoration:none;" target=3D"_blank">PROLON=
+GEZ L&#39;&Eacute;T&Eacute; AU CALME</a></strong></td>
+								</tr>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top"><span style=3D"font-fami=
+ly:Arial, Helvetica, sans-serif; font-size:12px; color:#707173;"><a href=3D=
+"http://la-diete.com/ga/click/2-9431079-16-793-1520-10461-aedcdc8954-8912f8=
+8a77" style=3D" color:#707173; text-decoration:none;" target=3D"_blank">Can=
+aries, Marrakech, Bal&eacute;ares</a></span></td>
+								</tr>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top">
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"2=
+90">
+										<tbody>
+											<tr>
+												<td align=3D"center" bgcolor=3D"#02CCBD" style=3D"font-family:A=
+rial, Helvetica, sans-serif; font-size:14px; color:#FFFFFF;" valign=3D"midd=
+le"><span style=3D"font-size:8px"><a href=3D"http://la-diete.com/ga/click/2=
+-9431079-16-793-1520-10461-aedcdc8954-8912f88a77" style=3D" color:#FFFFFF; =
+text-decoration:none;" target=3D"_blank">&Agrave; partir de</a></span><a hr=
+ef=3D"http://la-diete.com/ga/click/2-9431079-16-793-1520-10461-aedcdc8954-8=
+912f88a77" style=3D" color:#FFFFFF; text-decoration:none;" target=3D"_blank=
+"> <strong style=3D"font-size:24px">409&euro;</strong></a></td>
+												<td align=3D"center" bgcolor=3D"#FF5012" style=3D"font-family:A=
+rial, Helvetica, sans-serif; font-size:9px; color:#FFFFFF;" valign=3D"middl=
+e" width=3D"100"><span style=3D"font-size:9px"><a href=3D"http://la-diete.c=
+om/ga/click/2-9431079-16-793-1520-10461-aedcdc8954-8912f88a77" style=3D" co=
+lor:#FFFFFF; text-decoration:none;" target=3D"_blank">D&Eacute;COUVRIR <img=
+ border=3D"0" height=3D"9" src=3D"http://46.101.7.34/vacances/vr-020915/fle=
+che.gif" width=3D"6" /></a></span></td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			<!-- td --></td>
+			<td align=3D"left" bgcolor=3D"#FFFFFF" valign=3D"top" width=3D"50%">
+			<table border=3D"0" cellpadding=3D"8" cellspacing=3D"0" width=3D"100%">
+				<tbody>
+					<tr>
+						<td>
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"298">
+							<tbody>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top"><a href=3D"http://la-die=
+te.com/ga/click/2-9431079-16-793-1520-10462-705fa47958-8912f88a77" target=
+=3D"_blank"><img alt=3D"Marmara" border=3D"0" height=3D"160" src=3D"http://=
+46.101.7.34/vacances/vr-020915/IP2.jpg" style=3D"display:block;" width=3D"2=
+90" /></a></td>
+								</tr>
+							</tbody>
+						</table>
+
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"298">
+							<tbody>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top" width=3D"60"><a href=3D"=
+http://la-diete.com/ga/click/2-9431079-16-793-1520-10462-705fa47958-8912f88=
+a77" target=3D"_blank"><img alt=3D"Marmara" border=3D"0" height=3D"28" src=
+=3D"http://46.101.7.34/vacances/vr-020915/marmara104x40.jpg" style=3D"displ=
+ay:block;" width=3D"78" /></a></td>
+									<td align=3D"left" style=3D"border-bottom:1px solid #D9DADB;" vali=
+gn=3D"top"></td>
+								</tr>
+							</tbody>
+						</table>
+
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"298">
+							<tbody>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"middle"><strong><a href=3D"ht=
+tp://la-diete.com/ga/click/2-9431079-16-793-1520-10462-705fa47958-8912f88a7=
+7" style=3D" color:#707173; text-decoration:none;" target=3D"_blank">SICILE=
+ SELINUNTE 4*</a></strong></td>
+								</tr>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top"><span style=3D"font-fami=
+ly:Arial, Helvetica, sans-serif; font-size:12px; color:#707173;"><a href=3D=
+"http://la-diete.com/ga/click/2-9431079-16-793-1520-10462-705fa47958-8912f8=
+8a77" style=3D" color:#707173; text-decoration:none;" target=3D"_blank">8j/=
+7n en tout compris</a></span></td>
+								</tr>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top">
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"2=
+90">
+										<tbody>
+											<tr>
+												<td align=3D"center" bgcolor=3D"#02CCBD" style=3D"font-family:A=
+rial, Helvetica, sans-serif; font-size:14px; color:#FFFFFF;" valign=3D"midd=
+le"><span style=3D"font-size:8px"><a href=3D"http://la-diete.com/ga/click/2=
+-9431079-16-793-1520-10462-705fa47958-8912f88a77" style=3D" color:#FFFFFF; =
+text-decoration:none;" target=3D"_blank">&Agrave; partir de</a></span><a hr=
+ef=3D"http://la-diete.com/ga/click/2-9431079-16-793-1520-10462-705fa47958-8=
+912f88a77" style=3D" color:#FFFFFF; text-decoration:none;" target=3D"_blank=
+"> <strong style=3D"font-size:24px">559&euro;</strong></a></td>
+												<td align=3D"center" bgcolor=3D"#FF5012" style=3D"font-family:A=
+rial, Helvetica, sans-serif; font-size:9px; color:#FFFFFF;" valign=3D"middl=
+e" width=3D"100"><span style=3D"font-size:9px"><a href=3D"http://la-diete.c=
+om/ga/click/2-9431079-16-793-1520-10462-705fa47958-8912f88a77" style=3D" co=
+lor:#FFFFFF; text-decoration:none;" target=3D"_blank">D&Eacute;COUVRIR <img=
+ border=3D"0" height=3D"9" src=3D"http://46.101.7.34/vacances/vr-020915/fle=
+che.gif" width=3D"6" /></a></span></td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			<!-- td --></td>
+		</tr>
+	</tbody>
+</table>
+
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" wi=
+dth=3D"650">
+	<tbody>
+		<tr>
+			<td align=3D"left" bgcolor=3D"#FFFFFF" valign=3D"top" width=3D"50%">
+			<table border=3D"0" cellpadding=3D"8" cellspacing=3D"0" width=3D"100%">
+				<tbody>
+					<tr>
+						<td>
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"298">
+							<tbody>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top"><a href=3D"http://la-die=
+te.com/ga/click/2-9431079-16-793-1520-10463-75380a56b1-8912f88a77" target=
+=3D"_blank"><img alt=3D"Marmara" border=3D"0" height=3D"160" src=3D"http://=
+46.101.7.34/vacances/vr-020915/IP3.jpg" style=3D"display:block;" width=3D"2=
+90" /></a></td>
+								</tr>
+							</tbody>
+						</table>
+
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"298">
+							<tbody>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top" width=3D"60"><a href=3D"=
+http://la-diete.com/ga/click/2-9431079-16-793-1520-10463-75380a56b1-8912f88=
+a77" target=3D"_blank"><img alt=3D"Marmara" border=3D"0" height=3D"28" src=
+=3D"http://46.101.7.34/vacances/vr-020915/marmara104x40.jpg" style=3D"displ=
+ay:block;" width=3D"78" /></a></td>
+									<td align=3D"left" style=3D"border-bottom:1px solid #D9DADB;" vali=
+gn=3D"top"></td>
+								</tr>
+							</tbody>
+						</table>
+
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"298">
+							<tbody>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"middle"><strong><a href=3D"ht=
+tp://la-diete.com/ga/click/2-9431079-16-793-1520-10463-75380a56b1-8912f88a7=
+7" style=3D" color:#707173; text-decoration:none;" target=3D"_blank">CANARI=
+ES ROYAL MONICA 4*</a></strong></td>
+								</tr>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top"><span style=3D"font-fami=
+ly:Arial, Helvetica, sans-serif; font-size:12px; color:#707173;"><a href=3D=
+"http://la-diete.com/ga/click/2-9431079-16-793-1520-10463-75380a56b1-8912f8=
+8a77" style=3D" color:#707173; text-decoration:none;" target=3D"_blank">8j/=
+7n en tout compris</a></span></td>
+								</tr>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top">
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"2=
+90">
+										<tbody>
+											<tr>
+												<td align=3D"center" bgcolor=3D"#02CCBD" style=3D"font-family:A=
+rial, Helvetica, sans-serif; font-size:14px; color:#FFFFFF;" valign=3D"midd=
+le"><span style=3D"font-size:8px"><a href=3D"http://la-diete.com/ga/click/2=
+-9431079-16-793-1520-10463-75380a56b1-8912f88a77" style=3D" color:#FFFFFF; =
+text-decoration:none;" target=3D"_blank">&Agrave; partir de</a></span><a hr=
+ef=3D"http://la-diete.com/ga/click/2-9431079-16-793-1520-10463-75380a56b1-8=
+912f88a77" style=3D" color:#FFFFFF; text-decoration:none;" target=3D"_blank=
+"> <strong style=3D"font-size:24px">479&euro;</strong></a></td>
+												<td align=3D"center" bgcolor=3D"#FF5012" style=3D"font-family:A=
+rial, Helvetica, sans-serif; font-size:9px; color:#FFFFFF;" valign=3D"middl=
+e" width=3D"100"><span style=3D"font-size:9px"><a href=3D"http://la-diete.c=
+om/ga/click/2-9431079-16-793-1520-10463-75380a56b1-8912f88a77" style=3D" co=
+lor:#FFFFFF; text-decoration:none;" target=3D"_blank">D&Eacute;COUVRIR <img=
+ border=3D"0" height=3D"9" src=3D"http://46.101.7.34/vacances/vr-020915/fle=
+che.gif" width=3D"6" /></a></span></td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			<!-- td --></td>
+			<td align=3D"left" bgcolor=3D"#FFFFFF" valign=3D"top" width=3D"50%">
+			<table border=3D"0" cellpadding=3D"8" cellspacing=3D"0" width=3D"100%">
+				<tbody>
+					<tr>
+						<td>
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"298">
+							<tbody>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top"><a href=3D"http://la-die=
+te.com/ga/click/2-9431079-16-793-1520-10464-9b9e91137f-8912f88a77" target=
+=3D"_blank"><img alt=3D"ABCroisi=C3=A0?e" border=3D"0" height=3D"160" src=
+=3D"http://46.101.7.34/vacances/vr-020915/IP4.jpg" style=3D"display:block;"=
+ width=3D"290" /></a></td>
+								</tr>
+							</tbody>
+						</table>
+
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"298">
+							<tbody>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top" width=3D"60"><a href=3D"=
+http://la-diete.com/ga/click/2-9431079-16-793-1520-10464-9b9e91137f-8912f88=
+a77" target=3D"_blank"><img alt=3D"ABCroisi=C3=A0?e" border=3D"0" height=3D=
+"28" src=3D"http://46.101.7.34/vacances/vr-020915/AB_104x40.jpg" style=3D"d=
+isplay:block;" width=3D"78" /></a></td>
+									<td align=3D"left" style=3D"border-bottom:1px solid #D9DADB;" vali=
+gn=3D"top"></td>
+								</tr>
+							</tbody>
+						</table>
+
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"298">
+							<tbody>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"middle"><strong><a href=3D"ht=
+tp://la-diete.com/ga/click/2-9431079-16-793-1520-10464-9b9e91137f-8912f88a7=
+7" style=3D" color:#707173; text-decoration:none;" target=3D"_blank">COSTA =
+FAVOLOSA 5*</a></strong></td>
+								</tr>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top"><span style=3D"font-fami=
+ly:Arial, Helvetica, sans-serif; font-size:12px; color:#707173;"><a href=3D=
+"http://la-diete.com/ga/click/2-9431079-16-793-1520-10464-9b9e91137f-8912f8=
+8a77" style=3D" color:#707173; text-decoration:none;" target=3D"_blank">Ita=
+lie, Malte et Sardaigne</a></span></td>
+								</tr>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top">
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"2=
+90">
+										<tbody>
+											<tr>
+												<td align=3D"center" bgcolor=3D"#02CCBD" style=3D"font-family:A=
+rial, Helvetica, sans-serif; font-size:14px; color:#FFFFFF;" valign=3D"midd=
+le"><span style=3D"font-size:8px"><a href=3D"http://la-diete.com/ga/click/2=
+-9431079-16-793-1520-10464-9b9e91137f-8912f88a77" style=3D" color:#FFFFFF; =
+text-decoration:none;" target=3D"_blank">&Agrave; partir de</a></span><a hr=
+ef=3D"http://la-diete.com/ga/click/2-9431079-16-793-1520-10464-9b9e91137f-8=
+912f88a77" style=3D" color:#FFFFFF; text-decoration:none;" target=3D"_blank=
+"> <strong style=3D"font-size:24px">389&euro;</strong></a></td>
+												<td align=3D"center" bgcolor=3D"#FF5012" style=3D"font-family:A=
+rial, Helvetica, sans-serif; font-size:9px; color:#FFFFFF;" valign=3D"middl=
+e" width=3D"100"><span style=3D"font-size:9px"><a href=3D"http://la-diete.c=
+om/ga/click/2-9431079-16-793-1520-10464-9b9e91137f-8912f88a77" style=3D" co=
+lor:#FFFFFF; text-decoration:none;" target=3D"_blank">D&Eacute;COUVRIR <img=
+ border=3D"0" height=3D"9" src=3D"http://46.101.7.34/vacances/vr-020915/fle=
+che.gif" width=3D"6" /></a></span></td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			<!-- td --></td>
+		</tr>
+	</tbody>
+</table>
+
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" wi=
+dth=3D"650">
+	<tbody>
+		<tr>
+			<td align=3D"left" bgcolor=3D"#FFFFFF" valign=3D"top" width=3D"50%">
+			<table border=3D"0" cellpadding=3D"8" cellspacing=3D"0" width=3D"100%">
+				<tbody>
+					<tr>
+						<td>
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"298">
+							<tbody>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top"><a href=3D"http://la-die=
+te.com/ga/click/2-9431079-16-793-1520-10465-00b95a2f4b-8912f88a77" target=
+=3D"_blank"><img alt=3D"Promo Croisi=C3=A0?e" border=3D"0" height=3D"160" s=
+rc=3D"http://46.101.7.34/vacances/vr-020915/IP5.jpg" style=3D"display:block=
+;" width=3D"290" /></a></td>
+								</tr>
+							</tbody>
+						</table>
+
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"298">
+							<tbody>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top" width=3D"60"><a href=3D"=
+http://la-diete.com/ga/click/2-9431079-16-793-1520-10465-00b95a2f4b-8912f88=
+a77" target=3D"_blank"><img alt=3D"Promo Croisi=C3=A0?e" border=3D"0" heigh=
+t=3D"28" src=3D"http://46.101.7.34/vacances/vr-020915/promocroisiere104x40.=
+jpg" style=3D"display:block;" width=3D"78" /></a></td>
+									<td align=3D"left" style=3D"border-bottom:1px solid #D9DADB;" vali=
+gn=3D"top"></td>
+								</tr>
+							</tbody>
+						</table>
+
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"298">
+							<tbody>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"middle"><strong><a href=3D"ht=
+tp://la-diete.com/ga/click/2-9431079-16-793-1520-10465-00b95a2f4b-8912f88a7=
+7" style=3D" color:#707173; text-decoration:none;" target=3D"_blank">MSC PR=
+EZIOSA 5*</a></strong></td>
+								</tr>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top"><span style=3D"font-fami=
+ly:Arial, Helvetica, sans-serif; font-size:12px; color:#707173;"><a href=3D=
+"http://la-diete.com/ga/click/2-9431079-16-793-1520-10465-00b95a2f4b-8912f8=
+8a77" style=3D" color:#707173; text-decoration:none;" target=3D"_blank">Sic=
+ile, Sardaigne, Bal&eacute;ares</a></span></td>
+								</tr>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top">
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"2=
+90">
+										<tbody>
+											<tr>
+												<td align=3D"center" bgcolor=3D"#02CCBD" style=3D"font-family:A=
+rial, Helvetica, sans-serif; font-size:14px; color:#FFFFFF;" valign=3D"midd=
+le"><span style=3D"font-size:8px"><a href=3D"http://la-diete.com/ga/click/2=
+-9431079-16-793-1520-10465-00b95a2f4b-8912f88a77" style=3D" color:#FFFFFF; =
+text-decoration:none;" target=3D"_blank">&Agrave; partir de</a></span><a hr=
+ef=3D"http://la-diete.com/ga/click/2-9431079-16-793-1520-10465-00b95a2f4b-8=
+912f88a77" style=3D" color:#FFFFFF; text-decoration:none;" target=3D"_blank=
+"> <strong style=3D"font-size:24px">629&euro;</strong></a></td>
+												<td align=3D"center" bgcolor=3D"#FF5012" style=3D"font-family:A=
+rial, Helvetica, sans-serif; font-size:9px; color:#FFFFFF;" valign=3D"middl=
+e" width=3D"100"><span style=3D"font-size:9px"><a href=3D"http://la-diete.c=
+om/ga/click/2-9431079-16-793-1520-10465-00b95a2f4b-8912f88a77" style=3D" co=
+lor:#FFFFFF; text-decoration:none;" target=3D"_blank">D&Eacute;COUVRIR <img=
+ border=3D"0" height=3D"9" src=3D"http://46.101.7.34/vacances/vr-020915/fle=
+che.gif" width=3D"6" /></a></span></td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			<!-- td --></td>
+			<td align=3D"left" bgcolor=3D"#FFFFFF" valign=3D"top" width=3D"50%">
+			<table border=3D"0" cellpadding=3D"8" cellspacing=3D"0" width=3D"100%">
+				<tbody>
+					<tr>
+						<td>
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"298">
+							<tbody>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top"><a href=3D"http://la-die=
+te.com/ga/click/2-9431079-16-793-1520-10466-c2d47a01d7-8912f88a77" target=
+=3D"_blank"><img alt=3D"Marmara" border=3D"0" height=3D"160" src=3D"http://=
+46.101.7.34/vacances/vr-020915/IP6.jpg" style=3D"display:block;" width=3D"2=
+90" /></a></td>
+								</tr>
+							</tbody>
+						</table>
+
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"298">
+							<tbody>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top" width=3D"60"><a href=3D"=
+http://la-diete.com/ga/click/2-9431079-16-793-1520-10466-c2d47a01d7-8912f88=
+a77" target=3D"_blank"><img alt=3D"Marmara" border=3D"0" height=3D"28" src=
+=3D"http://46.101.7.34/vacances/vr-020915/marmara104x40.jpg" style=3D"displ=
+ay:block;" width=3D"78" /></a></td>
+									<td align=3D"left" style=3D"border-bottom:1px solid #D9DADB;" vali=
+gn=3D"top"></td>
+								</tr>
+							</tbody>
+						</table>
+
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"298">
+							<tbody>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"middle"><strong><a href=3D"ht=
+tp://la-diete.com/ga/click/2-9431079-16-793-1520-10466-c2d47a01d7-8912f88a7=
+7" style=3D" color:#707173; text-decoration:none;" target=3D"_blank">CRETE =
+RHODES LINDOS 4*</a></strong></td>
+								</tr>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top"><span style=3D"font-fami=
+ly:Arial, Helvetica, sans-serif; font-size:12px; color:#707173;"><a href=3D=
+"http://la-diete.com/ga/click/2-9431079-16-793-1520-10466-c2d47a01d7-8912f8=
+8a77" style=3D" color:#707173; text-decoration:none;" target=3D"_blank">8j/=
+7n en tout compris</a></span></td>
+								</tr>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top">
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"2=
+90">
+										<tbody>
+											<tr>
+												<td align=3D"center" bgcolor=3D"#02CCBD" style=3D"font-family:A=
+rial, Helvetica, sans-serif; font-size:14px; color:#FFFFFF;" valign=3D"midd=
+le"><span style=3D"font-size:8px"><a href=3D"http://la-diete.com/ga/click/2=
+-9431079-16-793-1520-10466-c2d47a01d7-8912f88a77" style=3D" color:#FFFFFF; =
+text-decoration:none;" target=3D"_blank">&Agrave; partir de</a></span><a hr=
+ef=3D"http://la-diete.com/ga/click/2-9431079-16-793-1520-10466-c2d47a01d7-8=
+912f88a77" style=3D" color:#FFFFFF; text-decoration:none;" target=3D"_blank=
+"> <strong style=3D"font-size:24px">509&euro;</strong></a></td>
+												<td align=3D"center" bgcolor=3D"#FF5012" style=3D"font-family:A=
+rial, Helvetica, sans-serif; font-size:9px; color:#FFFFFF;" valign=3D"middl=
+e" width=3D"100"><span style=3D"font-size:9px"><a href=3D"http://la-diete.c=
+om/ga/click/2-9431079-16-793-1520-10466-c2d47a01d7-8912f88a77" style=3D" co=
+lor:#FFFFFF; text-decoration:none;" target=3D"_blank">D&Eacute;COUVRIR <img=
+ border=3D"0" height=3D"9" src=3D"http://46.101.7.34/vacances/vr-020915/fle=
+che.gif" width=3D"6" /></a></span></td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			<!-- td --></td>
+		</tr>
+	</tbody>
+</table>
+
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" wi=
+dth=3D"650">
+	<tbody>
+		<tr>
+			<td align=3D"left" bgcolor=3D"#FFFFFF" valign=3D"top" width=3D"50%">
+			<table border=3D"0" cellpadding=3D"8" cellspacing=3D"0" width=3D"100%">
+				<tbody>
+					<tr>
+						<td>
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"298">
+							<tbody>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top"><a href=3D"http://la-die=
+te.com/ga/click/2-9431079-16-793-1520-10467-87770f6412-8912f88a77" target=
+=3D"_blank"><img alt=3D"Marmara" border=3D"0" height=3D"160" src=3D"http://=
+46.101.7.34/vacances/vr-020915/IP7.jpg" style=3D"display:block;" width=3D"2=
+90" /></a></td>
+								</tr>
+							</tbody>
+						</table>
+
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"298">
+							<tbody>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top" width=3D"60"><a href=3D"=
+http://la-diete.com/ga/click/2-9431079-16-793-1520-10467-87770f6412-8912f88=
+a77" target=3D"_blank"><img alt=3D"Marmara" border=3D"0" height=3D"28" src=
+=3D"http://46.101.7.34/vacances/vr-020915/marmara104x40.jpg" style=3D"displ=
+ay:block;" width=3D"78" /></a></td>
+									<td align=3D"left" style=3D"border-bottom:1px solid #D9DADB;" vali=
+gn=3D"top"></td>
+								</tr>
+							</tbody>
+						</table>
+
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"298">
+							<tbody>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"middle"><strong><a href=3D"ht=
+tp://la-diete.com/ga/click/2-9431079-16-793-1520-10467-87770f6412-8912f88a7=
+7" style=3D" color:#707173; text-decoration:none;" target=3D"_blank">AGADIR=
+ CLUB BORD DE PLAGE</a></strong></td>
+								</tr>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top"><span style=3D"font-fami=
+ly:Arial, Helvetica, sans-serif; font-size:12px; color:#707173;"><a href=3D=
+"http://la-diete.com/ga/click/2-9431079-16-793-1520-10467-87770f6412-8912f8=
+8a77" style=3D" color:#707173; text-decoration:none;" target=3D"_blank">8j/=
+7n en tout compris</a></span></td>
+								</tr>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top">
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"2=
+90">
+										<tbody>
+											<tr>
+												<td align=3D"center" bgcolor=3D"#02CCBD" style=3D"font-family:A=
+rial, Helvetica, sans-serif; font-size:14px; color:#FFFFFF;" valign=3D"midd=
+le"><span style=3D"font-size:8px"><a href=3D"http://la-diete.com/ga/click/2=
+-9431079-16-793-1520-10467-87770f6412-8912f88a77" style=3D" color:#FFFFFF; =
+text-decoration:none;" target=3D"_blank">&Agrave; partir de</a></span><a hr=
+ef=3D"http://la-diete.com/ga/click/2-9431079-16-793-1520-10467-87770f6412-8=
+912f88a77" style=3D" color:#FFFFFF; text-decoration:none;" target=3D"_blank=
+"> <strong style=3D"font-size:24px">419&euro;</strong></a></td>
+												<td align=3D"center" bgcolor=3D"#FF5012" style=3D"font-family:A=
+rial, Helvetica, sans-serif; font-size:9px; color:#FFFFFF;" valign=3D"middl=
+e" width=3D"100"><span style=3D"font-size:9px"><a href=3D"http://la-diete.c=
+om/ga/click/2-9431079-16-793-1520-10467-87770f6412-8912f88a77" style=3D" co=
+lor:#FFFFFF; text-decoration:none;" target=3D"_blank">D&Eacute;COUVRIR <img=
+ border=3D"0" height=3D"9" src=3D"http://46.101.7.34/vacances/vr-020915/fle=
+che.gif" width=3D"6" /></a></span></td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			<!-- td --></td>
+			<td align=3D"left" bgcolor=3D"#FFFFFF" valign=3D"top" width=3D"50%">
+			<table border=3D"0" cellpadding=3D"8" cellspacing=3D"0" width=3D"100%">
+				<tbody>
+					<tr>
+						<td>
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"298">
+							<tbody>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top"><a href=3D"http://la-die=
+te.com/ga/click/2-9431079-16-793-1520-10468-12e8bdc167-8912f88a77" target=
+=3D"_blank"><img alt=3D"Marmara" border=3D"0" height=3D"160" src=3D"http://=
+46.101.7.34/vacances/vr-020915/IP8.jpg" style=3D"display:block;" width=3D"2=
+90" /></a></td>
+								</tr>
+							</tbody>
+						</table>
+
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"298">
+							<tbody>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top" width=3D"60"><a href=3D"=
+http://la-diete.com/ga/click/2-9431079-16-793-1520-10468-12e8bdc167-8912f88=
+a77" target=3D"_blank"><img alt=3D"Marmara" border=3D"0" height=3D"28" src=
+=3D"http://46.101.7.34/vacances/vr-020915/marmara104x40.jpg" style=3D"displ=
+ay:block;" width=3D"78" /></a></td>
+									<td align=3D"left" style=3D"border-bottom:1px solid #D9DADB;" vali=
+gn=3D"top"></td>
+								</tr>
+							</tbody>
+						</table>
+
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"298">
+							<tbody>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"middle"><strong><a href=3D"ht=
+tp://la-diete.com/ga/click/2-9431079-16-793-1520-10468-12e8bdc167-8912f88a7=
+7" style=3D" color:#707173; text-decoration:none;" target=3D"_blank">CRETE =
+ZORBAS BEACH 4*</a></strong></td>
+								</tr>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top"><span style=3D"font-fami=
+ly:Arial, Helvetica, sans-serif; font-size:12px; color:#707173;"><a href=3D=
+"http://la-diete.com/ga/click/2-9431079-16-793-1520-10468-12e8bdc167-8912f8=
+8a77" style=3D" color:#707173; text-decoration:none;" target=3D"_blank">8j/=
+7n en tout compris</a></span></td>
+								</tr>
+								<tr>
+									<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-ser=
+if; font-size:14px; color:#707173;" valign=3D"top">
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"2=
+90">
+										<tbody>
+											<tr>
+												<td align=3D"center" bgcolor=3D"#02CCBD" style=3D"font-family:A=
+rial, Helvetica, sans-serif; font-size:14px; color:#FFFFFF;" valign=3D"midd=
+le"><span style=3D"font-size:8px"><a href=3D"http://la-diete.com/ga/click/2=
+-9431079-16-793-1520-10468-12e8bdc167-8912f88a77" style=3D" color:#FFFFFF; =
+text-decoration:none;" target=3D"_blank">&Agrave; partir de</a></span><a hr=
+ef=3D"http://la-diete.com/ga/click/2-9431079-16-793-1520-10468-12e8bdc167-8=
+912f88a77" style=3D" color:#FFFFFF; text-decoration:none;" target=3D"_blank=
+"> <strong style=3D"font-size:24px">599&euro;</strong></a></td>
+												<td align=3D"center" bgcolor=3D"#FF5012" style=3D"font-family:A=
+rial, Helvetica, sans-serif; font-size:9px; color:#FFFFFF;" valign=3D"middl=
+e" width=3D"100"><span style=3D"font-size:9px"><a href=3D"http://la-diete.c=
+om/ga/click/2-9431079-16-793-1520-10468-12e8bdc167-8912f88a77" style=3D" co=
+lor:#FFFFFF; text-decoration:none;" target=3D"_blank">D&Eacute;COUVRIR <img=
+ border=3D"0" height=3D"9" src=3D"http://46.101.7.34/vacances/vr-020915/fle=
+che.gif" width=3D"6" /></a></span></td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			<!-- td --></td>
+		</tr>
+	</tbody>
+</table>
+<!-- Footer -->
+
+<table align=3D"center" border=3D"0" cellpadding=3D"12" cellspacing=3D"0" w=
+idth=3D"650">
+	<tbody>
+		<tr>
+			<td align=3D"center" style=3D"color:#44443E; font-size:10px;-webkit-text=
+-size-adjust:none; font-family:Arial, Helvetica, sans-serif">* Les prix aff=
+ich&eacute;s sur cette newsletter ont &eacute;t&eacute; relev&eacute;s sur =
+les sites internets mentionn&eacute;s le 02/09/2015 &agrave;15h.</td>
+		</tr>
+	</tbody>
+</table>
+</div><img src=3D"http://er.sociabiliweb.fr/EREO/E/458/730c3/resp-m2-miage@=
+univ-rennes1.fr/pixel.gif" alt=3D"" height=3D"1" /> <img src=3D"http://asse=
+t.email-match.com/849/asset?type=3DIMG&amp;optin=3D1&amp;email=3Dresp-m2-mi=
+age@univ-rennes1.fr" alt=3D"" width=3D"1" height=3D"1" /></p>
+<!-- Adlead NTF IDENTIFICATION Tag -->
+<p style=3D"text-align: center;"><img src=3D"http://adtrack.adleadevent.com=
+/adtckrtg.php?ids=3D37&amp;email=3Dresp-m2-miage@univ-rennes1.fr" alt=3D"" =
+height=3D"1" /><a href=3D"http://la-diete.com/ga/unsubscribe/2-9431079-16-7=
+93-1520-7a2e817f59de34b-8912f88a77">Me d&#233;sabonner</a></p>
+<!-- End of NTF IDENTIFICATION Tag -->
+<img src=3D"http://la-diete.com/ga/open/2-9431079-16-793-1520-8912f88a77" h=
+eight=3D"2" width=3D"3" alt=3D""></body>
+</html>
+
+--==de4c1cd134d0256f62b077e768e56814--

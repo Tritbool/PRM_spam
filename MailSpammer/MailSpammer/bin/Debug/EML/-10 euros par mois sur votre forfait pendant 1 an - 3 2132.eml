@@ -1,0 +1,823 @@
+Return-Path: <return-a18-3060-3069-resp-m2-miage=univ-rennes1.fr=4@assurance-facile.com>
+Received: from mailimailo.univ-rennes1.fr ([unix socket])
+	 by mailimailo.univ-rennes1.fr (Cyrus v2.3.16-Fedora-RPM-2.3.16-6.el6_2.5) with LMTPA;
+	 Sat, 13 Feb 2016 21:32:31 +0100
+X-Sieve: CMU Sieve 2.3
+Received: from mailout1.univ-rennes1.fr (mailout1.univ-rennes1.fr [129.20.128.162])
+	by mailimailo.univ-rennes1.fr (Postfix) with ESMTP id 3791326A0C66
+	for <resp-m2-miage@univ-rennes1.fr>; Sat, 13 Feb 2016 21:32:31 +0100 (CET)
+Received: from localhost (vmscanmail.univ-rennes1.fr [129.20.128.134])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id 341CB6000D
+	for <resp-m2-miage@univ-rennes1.fr>; Sat, 13 Feb 2016 21:32:31 +0100 (CET)
+X-Virus-Scanned: amavisd-new at univ-rennes1.fr
+Received: from mailout1.univ-rennes1.fr ([129.20.128.162])
+	by localhost (vmscanmail.univ-rennes1.frm [129.20.128.134]) (amavisd-new, port 10026)
+	with ESMTP id XTDWR2AnSg-E for <resp-m2-miage@univ-rennes1.fr>;
+	Sat, 13 Feb 2016 21:32:31 +0100 (CET)
+Received: from vmmailin.univ-rennes1.fr (vmmailin.univ-rennes1.fr [129.20.128.133])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id 0C73460006
+	for <resp-m2-miage@univ-rennes1.fr>; Sat, 13 Feb 2016 21:32:31 +0100 (CET)
+Received: from mxb1-1.relay.renater.fr (mxb1-1.relay.renater.fr [194.214.201.8])
+	by vmmailin.univ-rennes1.fr (Postfix) with ESMTP id 04F5420033
+	for <resp-m2-miage@univ-rennes1.fr>; Sat, 13 Feb 2016 21:32:31 +0100 (CET)
+Received: from smtp1-19.revue-en-ligne.com (smtp1-19.revue-en-ligne.com [5.196.210.146])
+	by mxb1-1.relay.renater.fr (asm) with SMTP id AFA4D600059
+	for <resp-m2-miage@univ-rennes1.fr>; Sat, 13 Feb 2016 21:32:30 +0100 (CET)
+Received: (GreenArrow 8629 invoked by uid 410); 13 Feb 2016 20:32:30 -0000
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed;
+	d=assurance-facile.com; s=default; h=Subject:From:To:Date:
+	List-Unsubscribe:Message-ID:MIME-Version:Content-Type; bh=e0m04n
+	OJQ3aUh14l46ZwSzCQvIw=; b=BX/En86FAPQOfs6xmJui5yv16C5qVPu5jlh0sU
+	WPmpikJHS0Z7vg5EWeILfqVQtwz9esMqW1lhiVYsmqPGxNC+rm9VE1oRIeqrzvng
+	oKfupygpXRoHyc5TjYLz0REW6OBzS3AVyEF7rZiTAgUl8l9XdFhes1mBzBoHg/UN
+	ZtIew=
+Subject: -10 euros par mois sur votre forfait pendant 1 an
+From: "SFR par Sociabiliweb" <news@assurance-facile.com>
+To: resp-m2-miage@univ-rennes1.fr
+Date: 13 Feb 2016 20:32:30 -0000
+List-Unsubscribe: <http://assurance-facile.com/ga/unsubscribe/2-11527895-18-1586-3069-ed35df89ef15825-f821e3b053>,
+ <mailto:return-a18-3060-3069-resp-m2-miage=univ-rennes1.fr=4u@assurance-facile.com>
+X-Mailer: GreenArrow Studio (v4.65.0)
+X-CampaignID: s4:3060-c62e795e8e41e11b
+Message-ID: <mid-cd02b0ac472d70532a5bdfbb663e6c30@assurance-facile.com>
+X-Mailer-Info: 4.hFDO.wMwYDM.IXZzBXLtJTLtlWYnVGQ15Wa21icl5mblNXMuYmc.wMwYTO
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="==e382a2c4a225880514fea1a91ceb735d"
+X-UCE-Status: YES
+X-UCE-Type: MCE
+X-Original-Source-IP: 5.196.210.146
+X-Bizanga: IMP - mxb1-1.relay.renater.fr
+X-Renater-SpamState: 11
+X-Renater-SpamScore: 17
+X-Renater-SpamCause: gggruggvucftvghtrhhoucdtuddrfeekjedrfeekgddufeeiucetufdoteggodetrfdotffvucfrrhhofhhilhgvmecutffgpfetvffgtfdpggftfghnshhusghstghrihgsvgenuceurghilhhouhhtmecufedttdenucdnofetkffnkffpifculddujedmnecujfgurhepuffhvfffjffokfggtgesrgdtreerredtjeenucfhrhhomhepfdfuhfftuchprghrucfuohgtihgrsghilhhifigvsgdfuceonhgvfihssegrshhsuhhrrghntggvqdhfrggtihhlvgdrtghomheqnecuffhomhgrihhnpehoughrrdhfrhdprghsshhurhgrnhgtvgdqfhgrtghilhgvrdgtohhmnecurfgrrhgrmhepmhhouggvpehsmhhtphdphhgvlhhopehsmhhtphduqdduledrrhgvvhhuvgdqvghnqdhlihhgnhgvrdgtohhmpdhinhgvthephedrudeliedrvddutddrudegiedpmhgrihhlfhhrohhmpehrvghtuhhrnhdqrgdukedqfedtiedtqdeftdeiledqrhgvshhpqdhmvddqmhhirghgvgepuhhnihhvqdhrvghnnhgvshdurdhfrhepgeesrghsshhurhgrnhgtvgdqfhgrtghilhgvrdgtohhmpdhrtghpthhtoheprhgvshhpqdhmvddqmhhirghgvgesuhhnihhvqdhrvghnnhgvshdurdhfrh 
+X-Renater-ServerName: mxb1-1.relay.renater.fr
+
+This is a multi-part message in MIME format.
+
+--==e382a2c4a225880514fea1a91ceb735d
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Vivez en tr=C3=A8s haut d=C3=A9bit en mobilit=C3=A9 avec la 4G ( http://ass=
+urance-facile.com/ga/click/2-11527895-18-1586-3069-22070-e569555107-f821e3b=
+053 )
+
+SFR ( http://assurance-facile.com/ga/click/2-11527895-18-1586-3069-22071-99=
+57f234bc-f821e3b053 )
+ET TOUT S=E2=80=99ACC=C3=89L=C3=88RE ( http://assurance-facile.com/ga/click=
+/2-11527895-18-1586-3069-22072-55d90b601b-f821e3b053 )
+
+VOTRE FORFAIT
+
+POWER 5GO
+
+=C3=80 PRIX CANON ( http://assurance-facile.com/ga/click/2-11527895-18-1586=
+-3069-22073-ca3bcac8eb-f821e3b053 )
+
+-10 ( http://assurance-facile.com/ga/click/2-11527895-18-1586-3069-22074-ff=
+a03272f8-f821e3b053 )
+=E2=82=AC
+
+/MOIS ( http://assurance-facile.com/ga/click/2-11527895-18-1586-3069-22075-=
+dc10ad7904-f821e3b053 )
+
+PENDANT 1 AN
+
+en conservant votre num=C3=A9ro ( http://assurance-facile.com/ga/click/2-11=
+527895-18-1586-3069-22076-ff02524639-f821e3b053 )
+
+EXCLU
+
+NOUVEAU
+
+CLIENT ( http://assurance-facile.com/ga/click/2-11527895-18-1586-3069-22077=
+-8b92030444-f821e3b053 )
+
+J'EN PROFITE ( http://assurance-facile.com/ga/click/2-11527895-18-1586-3069=
+-22078-2786d49e35-f821e3b053 )
+
+VOD ( http://assurance-facile.com/ga/click/2-11527895-18-1586-3069-22079-31=
+2cec533f-f821e3b053 )
+
+Avec la 4G on vous sert quoi ?
+
+Boostez votre forfait avec 1 Extra de SFR au
+
+choix* : Zive, Napster, L'=C3=89quipe, iCoyote, LeKiosk
+
+et SFR Jeux ( http://assurance-facile.com/ga/click/2-11527895-18-1586-3069-=
+22080-a7537694d4-f821e3b053 )
+
+JE D=C3=89COUVRE ( http://assurance-facile.com/ga/click/2-11527895-18-1586-=
+3069-22081-aba44909e1-f821e3b053 )
+
+Les plus de la boutique en ligne
+
+( http://assurance-facile.com/ga/click/2-11527895-18-1586-3069-22082-47645f=
+61ab-f821e3b053 )
+
+Offres Fibre ( http://assurance-facile.com/ga/click/2-11527895-18-1586-3069=
+-22083-2bee60083f-f821e3b053 )
+
+( http://assurance-facile.com/ga/click/2-11527895-18-1586-3069-22084-8dec3b=
+67e2-f821e3b053 )
+
+Offres Mobile ( http://assurance-facile.com/ga/click/2-11527895-18-1586-306=
+9-22085-eeace138c5-f821e3b053 )
+
+( http://assurance-facile.com/ga/click/2-11527895-18-1586-3069-22086-9cc200=
+dd6c-f821e3b053 )
+
+Bons plans ( http://assurance-facile.com/ga/click/2-11527895-18-1586-3069-2=
+2087-b5c0185c55-f821e3b053 )
+
+REJOIGNEZ-NOUS
+
+Facebook ( http://assurance-facile.com/ga/click/2-11527895-18-1586-3069-220=
+88-ee075d114c-f821e3b053 )
+
+Twitter ( http://assurance-facile.com/ga/click/2-11527895-18-1586-3069-2208=
+9-1eb1c3e34f-f821e3b053 )
+
+Google Plus ( http://assurance-facile.com/ga/click/2-11527895-18-1586-3069-=
+22090-03810c48c7-f821e3b053 )
+
+*Extras inclus =C3=A0 partir du forfait Power 5Go
+
+Le DAS (d=C3=A9bit d'absorption sp=C3=A9cifique) des t=C3=A9l=C3=A9phones
+mobiles quantifie le niveau d'exposition maximal de l'utilisateur
+aux ondes =C3=A9lectromagn=C3=A9tiques, pour une utilisation =C3=A0 l'oreil=
+le.
+La r=C3=A9glementation fran=C3=A7aise impose que le DAS ne d=C3=A9passe pas
+2W/kg.Remise de 5=E2=82=AC/mois pendant 12 mois pour toute nouvelle
+souscription =C3=A0 un forfait Starter 1Go ou Power 5Go, entre le 2
+f=C3=A9vrier et le 29 mars 2016 inclus. En cas de changement d'offre
+au cours des 12 mois, perte de la remise. Au terme des 12 mois de
+remise, le client sera factur=C3=A9 au tarif mensuel en vigueur.
+Remise incompatible avec toute offre promotionnelle en
+cours.offre sur demande r=C3=A9serv=C3=A9e =C3=A0 tout nouvel abonn=C3=A9 S=
+FR,
+pr=C3=A9c=C3=A9demment client d'un autre op=C3=A9rateur mobile et demandant=
+ la
+portabilit=C3=A9 de son num=C3=A9ro. Remise de 5=E2=82=AC/mois pendant 1 an=
+ pour
+toute souscription d'un Forfait Power ou Premium.Au terme des 12
+mois de remise, le client sera factur=C3=A9 au tarif mensuel en
+vigueur. En cas de changement d'offre au cours des 12 mois, perte
+des remises. Voir d=C3=A9tails sur sfr.fr et sfr.odr.fr. D=C3=A9tails et
+conditions en point de vente.
+
+Appels illimit=C3=A9s : 3 heures maximum par appel, puis
+appel coup=C3=A9 au bout des 3H. Appels illimit=C3=A9s vers les mobiles et
+fixes m=C3=A9tropolitains, des DOM (hors Mayotte), hors num=C3=A9ros
+sp=C3=A9ciaux, services (dont services de radiomessagerie) et appels
+depuis bo=C3=AEtiers radio. Limit=C3=A9s =C3=A0 200 destinataires diff=C3=
+=A9rents
+par mois.SMS/ MMS illimit=C3=A9s : hors SMS/MMS depuis et vers
+l=E2=80=99=C3=A9tranger, surtax=C3=A9s et Chat SMS/MMS. Limit=C3=A9s =C3=A0=
+ 200 destinataires
+diff=C3=A9rents par mois.Les Extras de SFR : Offres valables
+exclusivement en France m=C3=A9tropolitaine r=C3=A9serv=C3=A9es aux clients=
+ d=E2=80=99un
+forfait Power. La m=C3=A9canique =C2=AB les Extras de SFR =C2=BB vous perme=
+t de
+choisir un service parmi un catalogue d=E2=80=99au moins 4 services, et
+d=E2=80=99en changer =C3=A0 raison de 1 changement maximum par mois (5=E2=
+=82=AC au
+Service Client, gratuit sur l=E2=80=99appli Mon Compte ou sur sfr.fr) si
+vous le d=C3=A9sirez. Prise en compte du changement de service =C3=A0 la
+prochaine date de facturation du client. M=C3=A9canique valable
+jusqu=E2=80=99au 03/10/2016. Le catalogue =C2=AB les Extras de SFR =C2=BB e=
+st
+susceptible d=E2=80=99=C3=A9volution, tant dans les services propos=C3=A9s =
+que dans
+le nombre de services pr=C3=A9sent=C3=A9s. Services pr=C3=A9sent=C3=A9s en =
+catalogue,
+valables jusqu=E2=80=99au 03/10/2016. D=C3=A9tails de chaque Service en poi=
+nt
+de vente ou sur sfr.fr=
+
+--==e382a2c4a225880514fea1a91ceb735d
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.=
+w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml">
+<head>
+	<title></title>
+	<meta content=3D"text/html; charset=3Dutf-8" http-equiv=3D"Content-Type" />
+	<meta content=3D"width=3Ddevice-width, user-scalable=3Dno, initial-scale=
+=3D1.0, minimum-scale=3D1.0, maximum-scale=3D1.0" name=3D"viewport" />
+	<meta content=3D"IE=3Dedge" http-equiv=3D"X-UA-Compatible" />
+	<style type=3D"text/css">table, td {
+		border-collapse: collapse;
+		mso-table-lspace:0pt;=20
+		mso-table-rspace:0pt;
+	}
+	.ReadMsgBody {width: 100%;}
+	.ExternalClass {width: 100%;}
+	.ExternalClass * {line-height: 110% !important}
+	body {-webkit-text-size-adjust: none; -ms-text-size-adjust: 100%; backgrou=
+nd-color:#5b6060; }
+	a.white:link{ color:#FFFFFF !important;}
+	a.white:visited{ color:#FFFFFF !important;}
+	a.black:link{ color:#010101 !important;}
+	a.black:visited{ color:#010101 !important;}
+	a.purple:link{ color:#65659e !important;}
+	a.purple:visited{ color:#65659e !important;}
+	a.red:link{ color:#e91f2a !important;}
+	a.red:visited{ color:#e91f2a !important;}
+	a.grey:link{ color:#CCCCCC !important;}
+	a.grey:visited{ color:#CCCCCC !important;}
+	a.greyd:link{ color:#4a4a53 !important;}
+	a.greyd:visited{ color:#4a4a53 !important;}
+
+	@media only screen and (max-width: 588px) {
+		table[class=3D"table588"] {
+			width:98% !important;
+			min-width: 350px !important;
+		}
+		table[class=3D"table100"] {
+			width: 100% !important;
+		}
+		td[class=3D"h1"] {
+			height: 170px !important;
+		}
+		table[class=3D"table100bgw"] {
+			width: 100% !important;
+		}
+
+		table[class=3D"table100bgw"] tr td {
+			background-color: #FFFFFF !important;
+		}
+
+		table[class=3D"table100bgw"] tr td table {
+			width: 92% !important;
+		}
+
+		table[class=3D"table100red"] tr td {
+			background-color: #e2001a !important;
+		}
+
+		td[class=3D"bgred"] {
+			background:#e91f2a !important;
+		}
+
+		td[class=3D"bgred"] a {
+			color:#FFFFFF !important;
+		}
+
+		td[class=3D"h1w"] {
+			height: 1px !important;
+		}
+
+		td[class=3D"w77"] {
+			height: 77px !important;
+		}
+
+		td[class=3D"wauto"] {
+			width: auto !important;
+		}
+	}
+	</style>
+</head>
+<body alink=3D"#000002" bgcolor=3D"#5b6060" link=3D"#000002" style=3D"heigh=
+t: auto; padding:0; margin:0; -webkit-text-size-adjust:none; -ms-text-size-=
+adjust: 100%;" vlink=3D"#000002">
+<p><img border=3D"0" height=3D"1" nosend=3D"" src=3D"http://elr.sfr.fr/view=
+/sfr-fr/DEQwyRwgEDJm_8YpRfhLsJSmuJIjnnFzh80bwkun/pix.gif?ea-rnd=3D[RANDOM]&=
+eseg-name=3Didrouteur&eseg-item=3D48&eemail=3D" style=3D"display:none;" wid=
+th=3D"1" /></p>
+
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"font-famil=
+y:Arial;" width=3D"100%">
+	<tbody>
+		<tr>
+			<td align=3D"center" bgcolor=3D"#5b6060" height=3D"60" style=3D"font-siz=
+e:11px !important; line-height:11px !important; color:#CCCCCC;"><a class=3D=
+"grey" href=3D"http://assurance-facile.com/ga/click/2-11527895-18-1586-3069=
+-22091-5dbe2d5bd6-f821e3b053" style=3D"font-size:11px !important; line-heig=
+ht:11px !important; color:#CCCCCC;" target=3D"_blank" title=3D"Vivez en tr=
+=C3=A8s haut d=C3=A9bit en mobilit=C3=A9 avec la 4G">Vivez en tr&egrave;s h=
+aut d&eacute;bit en mobilit&eacute; avec la 4G</a></td>
+		</tr>
+		<tr>
+			<td align=3D"center" bgcolor=3D"#5b6060">
+			<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"table58=
+8" style=3D"font-family:Arial;" width=3D"588">
+				<tbody>
+					<tr>
+						<td align=3D"center" bgcolor=3D"#FFFFFF" class=3D"w77" height=3D"70" =
+width=3D"13%"><a href=3D"http://assurance-facile.com/ga/click/2-11527895-18=
+-1586-3069-22092-ca7122f0f5-f821e3b053" target=3D"_blank" title=3D"SFR"><im=
+g alt=3D"SFR" src=3D"http://i.tradvn.ovh/content/sfr20160210/logo.jpg" styl=
+e=3D"display:block; border:0" /> </a></td>
+						<td align=3D"left" bgcolor=3D"#FFFFFF" class=3D"wauto" width=3D"87%">=
+<a class=3D"black" href=3D"http://assurance-facile.com/ga/click/2-11527895-=
+18-1586-3069-22093-7f58c13622-f821e3b053" style=3D"font-size:14px !importan=
+t; line-height:14px !important; color:#010101; text-decoration:none;" targe=
+t=3D"_blank" title=3D"ET TOUT S'ACC=C3=89L=C3=88RE"><b>ET TOUT S&rsquo;ACC&=
+Eacute;L&Egrave;RE</b> </a></td>
+					</tr>
+					<tr>
+						<td bgcolor=3D"#FFFFFF" colspan=3D"2" height=3D"5"></td>
+					</tr>
+					<tr>
+						<td background=3D"http://i.tradvn.ovh/content/sfr20160210/bg.jpg" bgc=
+olor=3D"#FFFFFF" colspan=3D"2" height=3D"316" style=3D"background-image:url=
+('http://i.tradvn.ovh/content/sfr20160210/bg.jpg');" valign=3D"top"><!--[if=
+ gte mso 9]>
+						  <v:rect xmlns:v=3D"urn:schemas-microsoft-com:vml" fill=3D"true" str=
+oke=3D"false" style=3D"width:588px;height:316px;background-repeat:no-repeat=
+; background-position:left center;">
+						    <v:fill type=3D"tile" src=3D"http://i.tradvn.ovh/content/sfr20160=
+210/bg_outlook.jpg" color=3D"#FFFFFF" />
+						    <v:textbox style=3D"mso-fit-shape-to-text:true" inset=3D"0,0,0,0">
+						    <div style=3D"width:588px;height:315px;">
+						  <![endif]-->
+						<table align=3D"left" border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" class=3D"table100" style=3D"font-family:Arial;" width=3D"588">
+							<tbody>
+								<tr>
+									<td>
+									<table align=3D"left" border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" style=3D"font-family:Arial;" width=3D"245">
+										<tbody>
+											<tr>
+												<td height=3D"11"></td>
+											</tr>
+											<tr>
+												<td align=3D"center" background=3D"http://i.tradvn.ovh/content/=
+sfr20160210/bg_logo.png" class=3D"nobg" height=3D"245" style=3D"background-=
+image:url('http://i.tradvn.ovh/content/sfr20160210/bg_logo.png');" valign=
+=3D"top" width=3D"245">
+												<table align=3D"left" border=3D"0" cellpadding=3D"0" cellspacin=
+g=3D"0" style=3D"font-family:Arial;">
+													<tbody>
+														<tr>
+															<td align=3D"center" height=3D"178" valign=3D"top" width=3D"=
+174">
+															<table align=3D"center" border=3D"0" cellpadding=3D"0" cells=
+pacing=3D"0" style=3D"font-family:Arial;" width=3D"120">
+																<tbody>
+																	<tr>
+																		<td height=3D"30"></td>
+																	</tr>
+																	<tr>
+																		<td align=3D"left"><a class=3D"black" href=3D"http://assu=
+rance-facile.com/ga/click/2-11527895-18-1586-3069-22094-10913a05b4-f821e3b0=
+53" style=3D"color:#010101; font-size:15px !important; line-height:17px !im=
+portant; text-decoration:none; font-family: Helvetica, Arial;" target=3D"_b=
+lank" title=3D"VOTRE FORFAIT POWER 5GO =C3=80 PRIX CANON">VOTRE FORFAIT<br =
+/>
+																		POWER 5GO<br />
+																		<b>&Agrave; PRIX CANON</b> </a></td>
+																	</tr>
+																	<tr>
+																		<td height=3D"3"></td>
+																	</tr>
+																	<tr>
+																		<td align=3D"left">
+																		<table align=3D"left" border=3D"0" cellpadding=3D"0" cell=
+spacing=3D"0" style=3D"font-family:Arial;">
+																			<tbody>
+																				<tr>
+																					<td align=3D"left"><a class=3D"black" href=3D"http://a=
+ssurance-facile.com/ga/click/2-11527895-18-1586-3069-22095-f719dd4871-f821e=
+3b053" style=3D"color:#010101; font-size:40px !important; line-height:40px =
+!important; text-decoration:none; font-family: Helvetica, Arial;" target=3D=
+"_blank" title=3D"-10"><b>-10</b> </a></td>
+																					<td align=3D"left" valign=3D"top"><a class=3D"black" h=
+ref=3D"http://assurance-facile.com/ga/click/2-11527895-18-1586-3069-22096-b=
+9d1a8da1c-f821e3b053" style=3D"color:#010101; font-size:10px !important; li=
+ne-height:20px !important; text-decoration:none;" target=3D"_blank" title=
+=3D",99=E2=82=AC / MOIS"><font style=3D"font-size:20px !important; line-hei=
+ght:20px !important; font-family: Helvetica, Arial;"><b>&euro;</b></font><b=
+r />
+																					&nbsp;/MOIS </a></td>
+																				</tr>
+																			</tbody>
+																		</table>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td align=3D"left"><a class=3D"black" href=3D"http://assu=
+rance-facile.com/ga/click/2-11527895-18-1586-3069-22097-7de6b26b3a-f821e3b0=
+53" style=3D"color:#010101; font-size:9px !important; line-height:11px !imp=
+ortant; text-decoration:none; font-family: Helvetica, Arial;" target=3D"_bl=
+ank" title=3D"PENDANT 1 AN en conservant votre num=C3=A9ro">PENDANT 1 AN<br=
+ />
+																		en conservant votre num&eacute;ro </a></td>
+																	</tr>
+																</tbody>
+															</table>
+															</td>
+															<td>
+															<table align=3D"left" border=3D"0" cellpadding=3D"0" cellspa=
+cing=3D"0" style=3D"font-family:Arial;">
+																<tbody>
+																	<tr>
+																		<td height=3D"163"></td>
+																	</tr>
+																	<tr>
+																		<td align=3D"left" height=3D"83"><a class=3D"black" href=
+=3D"http://assurance-facile.com/ga/click/2-11527895-18-1586-3069-22098-8a52=
+2d9725-f821e3b053" style=3D"color:#010101; font-size:13px !important; line-=
+height:15px !important; text-decoration:none; font-family: Helvetica, Arial=
+;" target=3D"_blank" title=3D"EXCLU NOUVEAU CLIENT"><b>EXCLU<br />
+																		NOUVEAU<br />
+																		CLIENT</b> </a></td>
+																	</tr>
+																</tbody>
+															</table>
+															</td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+											<tr>
+												<td height=3D"19"></td>
+											</tr>
+										</tbody>
+									</table>
+									<!--[if gte mso 9]>
+									</td>
+									<td>
+									<![endif]-->
+
+									<table align=3D"right" border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" class=3D"table100bgw" style=3D"font-family:Arial;" width=3D"225">
+										<tbody>
+											<tr>
+												<td align=3D"center" class=3D"h1w" height=3D"198" valign=3D"bot=
+tom"></td>
+											</tr>
+											<tr>
+												<td height=3D"20"></td>
+											</tr>
+											<tr>
+												<td align=3D"center">
+												<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" class=3D"table100red" style=3D"font-size:12px !important; line-he=
+ight:12px !important; color:#010101; font-family:Verdana; text-align:left;">
+													<tbody>
+														<tr>
+															<td align=3D"center" bgcolor=3D"#e2001a" height=3D"36" width=
+=3D"185"><a class=3D"white" href=3D"http://assurance-facile.com/ga/click/2-=
+11527895-18-1586-3069-22099-ea2e4dc39a-f821e3b053" style=3D"text-decoration=
+:none; color:#ffffff; font-size:14px !important; line-height:36px !importan=
+t; display:block;" target=3D"_blank" title=3D"J'EN PROFITE"><b>J&#39;EN PRO=
+FITE</b> </a></td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						<!--[if gte mso 9]>
+						  	</div>
+						    </v:textbox>
+						  </v:rect>
+						  <![endif]--></td>
+					</tr>
+					<tr>
+						<td bgcolor=3D"#FFFFFF" colspan=3D"2" height=3D"24"></td>
+					</tr>
+					<tr>
+						<td align=3D"center" bgcolor=3D"#FFFFFF" colspan=3D"2">
+						<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0" class=3D"table100" style=3D"font-family:Arial; border:1px solid #cacac9=
+;" width=3D"548">
+							<tbody>
+								<tr>
+									<td>
+									<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" class=3D"table100" style=3D"font-family:Arial;" width=3D"548">
+										<tbody>
+											<tr>
+												<td height=3D"20"></td>
+											</tr>
+											<tr>
+												<td width=3D"20"></td>
+												<td align=3D"center">
+												<table align=3D"left" border=3D"0" cellpadding=3D"0" cellspacin=
+g=3D"0" class=3D"table100" style=3D"font-family:Arial;" width=3D"140">
+													<tbody>
+														<tr>
+															<td align=3D"center" height=3D"127" valign=3D"top"><a class=
+=3D"black" href=3D"http://assurance-facile.com/ga/click/2-11527895-18-1586-=
+3069-22100-0cff23bdd3-f821e3b053" style=3D"color:#010101; font-size:13px !i=
+mportant; line-height:16px !important; text-decoration:none;" target=3D"_bl=
+ank" title=3D"VOD"><img alt=3D"VOD" src=3D"http://i.tradvn.ovh/content/sfr2=
+0160210/vod.jpg" style=3D"display:block; border:0" /> </a></td>
+														</tr>
+													</tbody>
+												</table>
+
+												<table align=3D"right" border=3D"0" cellpadding=3D"0" cellspaci=
+ng=3D"0" class=3D"table100" style=3D"font-family:Arial;" width=3D"345">
+													<tbody>
+														<tr>
+															<td align=3D"left"><a class=3D"black" href=3D"http://assuran=
+ce-facile.com/ga/click/2-11527895-18-1586-3069-22101-61b93e1843-f821e3b053"=
+ style=3D"color:#010101; font-size:14px !important; line-height:15px !impor=
+tant; text-decoration:none;" target=3D"_blank" title=3D"Avec la 4G on vous =
+sert quoi ? Boostez votre forfait avec 1 Extra de SFR au choix* : Zive, Nap=
+ster, L'=C3=89quipe, iCoyote, LeKiosk et SFR Jeux"><font style=3D"font-fami=
+ly:Arial; font-size:15px !important; line-height:15px !important;"><b>Avec =
+la 4G on vous sert quoi ?</b></font><br />
+															<br />
+															Boostez votre forfait avec 1 Extra de SFR au<br />
+															choix* : Zive, Napster, L&#39;&Eacute;quipe, iCoyote, LeKios=
+k<br />
+															et SFR Jeux </a></td>
+														</tr>
+														<tr>
+															<td height=3D"10"></td>
+														</tr>
+														<tr>
+															<td align=3D"left">
+															<table align=3D"left" border=3D"0" cellpadding=3D"0" cellspa=
+cing=3D"0" class=3D"table100" style=3D"font-size:12px !important; line-heig=
+ht:12px !important; color:#010101; font-family:Verdana; text-align:left;">
+																<tbody>
+																	<tr>
+																		<td align=3D"center" bgcolor=3D"#e2001a" height=3D"36" wi=
+dth=3D"205"><a class=3D"white" href=3D"http://assurance-facile.com/ga/click=
+/2-11527895-18-1586-3069-22102-ec2545fc09-f821e3b053" style=3D"text-decorat=
+ion:none; color:#ffffff; font-size:14px !important; line-height:36px !impor=
+tant; display:block;" target=3D"_blank" title=3D"JE D=C3=89COUVRE"><b>JE D&=
+Eacute;COUVRE</b> </a></td>
+																	</tr>
+																</tbody>
+															</table>
+															</td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+												<td width=3D"20"></td>
+											</tr>
+											<tr>
+												<td height=3D"18"></td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+					<tr>
+						<td bgcolor=3D"#FFFFFF" colspan=3D"2" height=3D"12"></td>
+					</tr>
+					<tr>
+						<td align=3D"center" bgcolor=3D"#FFFFFF" colspan=3D"2" valign=3D"top">
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"font=
+-family:Arial;" width=3D"96%">
+							<tbody>
+								<tr>
+									<td height=3D"15"></td>
+								</tr>
+								<tr>
+									<td><font style=3D"font-size:17px !important; line-height:28px !im=
+portant; color:#010101;">Les plus de la boutique en ligne</font></td>
+								</tr>
+								<tr>
+									<td bgcolor=3D"#ababab" height=3D"1"></td>
+								</tr>
+								<tr>
+									<td height=3D"17"></td>
+								</tr>
+								<tr>
+									<td>
+									<table align=3D"left" border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" class=3D"table100x" style=3D"font-family:Arial;" width=3D"33%">
+										<tbody>
+											<tr>
+												<td align=3D"center" class=3D"td20" height=3D"58" valign=3D"top=
+"><a class=3D"black" href=3D"http://assurance-facile.com/ga/click/2-1152789=
+5-18-1586-3069-22103-64aa251728-f821e3b053" style=3D"text-decoration:none; =
+color:#010101; font-size:13px !important; line-height:13px !important;" tar=
+get=3D"_blank" title=3D"Bons plans"><img src=3D"http://i.tradvn.ovh/content=
+/sfr20160210/f2.jpg" style=3D"display:block; border:0;" /> </a></td>
+											</tr>
+											<tr>
+												<td align=3D"center" height=3D"30" valign=3D"top"><a class=3D"b=
+lack" href=3D"http://assurance-facile.com/ga/click/2-11527895-18-1586-3069-=
+22104-c6c894cd3f-f821e3b053" style=3D"text-decoration:none; color:#010101; =
+font-size:13px !important; line-height:13px !important;" target=3D"_blank" =
+title=3D"Offres Fibre">Offres Fibre </a></td>
+											</tr>
+										</tbody>
+									</table>
+
+									<table align=3D"left" border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" class=3D"table100x" style=3D"font-family:Arial;" width=3D"33%">
+										<tbody>
+											<tr>
+												<td align=3D"center" class=3D"td20" height=3D"58" valign=3D"top=
+"><a class=3D"black" href=3D"http://assurance-facile.com/ga/click/2-1152789=
+5-18-1586-3069-22105-67677f85f5-f821e3b053" style=3D"text-decoration:none; =
+color:#010101; font-size:13px !important; line-height:13px !important;" tar=
+get=3D"_blank" title=3D"Offres Mobile"><img src=3D"http://i.tradvn.ovh/cont=
+ent/sfr20160210/f3.jpg" style=3D"display:block; border:0;" /> </a></td>
+											</tr>
+											<tr>
+												<td align=3D"center" height=3D"30" valign=3D"top"><a class=3D"b=
+lack" href=3D"http://assurance-facile.com/ga/click/2-11527895-18-1586-3069-=
+22106-304919bd3c-f821e3b053" style=3D"text-decoration:none; color:#010101; =
+font-size:13px !important; line-height:13px !important;" target=3D"_blank" =
+title=3D"Retrait en 2h">Offres Mobile </a></td>
+											</tr>
+										</tbody>
+									</table>
+
+									<table align=3D"left" border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" class=3D"table100x" style=3D"font-family:Arial;" width=3D"33%">
+										<tbody>
+											<tr>
+												<td align=3D"center" class=3D"td20" height=3D"58" valign=3D"top=
+"><a class=3D"black" href=3D"http://assurance-facile.com/ga/click/2-1152789=
+5-18-1586-3069-22107-30b6c7da04-f821e3b053" style=3D"text-decoration:none; =
+color:#010101; font-size:13px !important; line-height:13px !important;" tar=
+get=3D"_blank" title=3D"Bons plans"><img src=3D"http://i.tradvn.ovh/content=
+/sfr20160210/f4.jpg" style=3D"display:block; border:0;" /> </a></td>
+											</tr>
+											<tr>
+												<td align=3D"center" height=3D"30" valign=3D"top"><a class=3D"b=
+lack" href=3D"http://assurance-facile.com/ga/click/2-11527895-18-1586-3069-=
+22108-f7adaf97c7-f821e3b053" style=3D"text-decoration:none; color:#010101; =
+font-size:13px !important; line-height:13px !important;" target=3D"_blank" =
+title=3D"Bons plans">Bons plans </a></td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+								<tr>
+									<td height=3D"7"></td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+					<tr>
+						<td align=3D"center" bgcolor=3D"#3d3f3f" colspan=3D"2" height=3D"62">
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"font=
+-size:11px !important; line-height:11px !important; color:#FEFEFE; font-fam=
+ily:arial, times, serif; border-bottom:1px solid #464849;" width=3D"95%">
+							<tbody>
+								<tr>
+									<td height=3D"10"></td>
+								</tr>
+								<tr>
+									<td>
+									<table align=3D"left" border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" class=3D"table25" style=3D"font-size:11px !important; line-height:11=
+px !important; color:#FEFEFE; font-family:arial, times, serif;" width=3D"23=
+%">
+										<tbody>
+											<tr>
+												<td height=3D"29"><font style=3D"color:#FEFEFE; font-size:11px =
+!important; line-height:11px !important;">REJOIGNEZ-NOUS</font></td>
+											</tr>
+										</tbody>
+									</table>
+
+									<table align=3D"left" border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" class=3D"table15" style=3D"font-size:11px !important; line-height:11=
+px !important; color:#FEFEFE; font-family:arial, times, serif;" width=3D"25=
+%">
+										<tbody>
+											<tr>
+												<td><a class=3D"white" href=3D"http://assurance-facile.com/ga/c=
+lick/2-11527895-18-1586-3069-22109-dbf552bc27-f821e3b053" style=3D"color:#3=
+d3f3e; text-decoration:none; font-size:11px !important; line-height:11px !i=
+mportant;" target=3D"_blank"><img alt=3D"Facebook" src=3D"http://i.tradvn.o=
+vh/content/sfr20160210/logo_fb.gif" style=3D"display:block; border:0;" /> <=
+/a></td>
+											</tr>
+										</tbody>
+									</table>
+
+									<table align=3D"left" border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" class=3D"table15" style=3D"font-size:11px !important; line-height:11=
+px !important; color:#FEFEFE; font-family:arial, times, serif;" width=3D"25=
+%">
+										<tbody>
+											<tr>
+												<td><a class=3D"white" href=3D"http://assurance-facile.com/ga/c=
+lick/2-11527895-18-1586-3069-22110-ca6baeb684-f821e3b053" style=3D"color:#3=
+d3f3e; text-decoration:none; font-size:11px !important; line-height:11px !i=
+mportant;" target=3D"_blank"><img alt=3D"Twitter" src=3D"http://i.tradvn.ov=
+h/content/sfr20160210/logo_twit.gif" style=3D"display:block; border:0;" /> =
+</a></td>
+											</tr>
+										</tbody>
+									</table>
+
+									<table align=3D"left" border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" class=3D"table15" style=3D"font-size:11px !important; line-height:11=
+px !important; color:#FEFEFE; font-family:arial, times, serif;" width=3D"25=
+%">
+										<tbody>
+											<tr>
+												<td><a class=3D"white" href=3D"http://assurance-facile.com/ga/c=
+lick/2-11527895-18-1586-3069-22111-452892fdf2-f821e3b053" style=3D"color:#3=
+d3f3e; text-decoration:none; font-size:11px !important; line-height:11px !i=
+mportant;" target=3D"_blank"><img alt=3D"Google Plus" src=3D"http://i.tradv=
+n.ovh/content/sfr20160210/logo_googleplus.gif" style=3D"display:block; bord=
+er:0;" /> </a></td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+								<tr>
+									<td height=3D"10"></td>
+								</tr>
+								<tr>
+									<td bgcolor=3D"#57585c" height=3D"1"></td>
+								</tr>
+								<tr>
+									<td height=3D"10"></td>
+								</tr>
+								<tr>
+									<td><font style=3D"font-size:9px !important; line-height:13px !imp=
+ortant; text-align:left; color:#CCCCCC; text-align:justify;">*Extras inclus=
+ &agrave; partir du forfait Power 5Go<br />
+									Le DAS (d&eacute;bit d&#39;absorption sp&eacute;cifique) des t&eac=
+ute;l&eacute;phones mobiles quantifie le niveau d&#39;exposition maximal de=
+ l&#39;utilisateur aux ondes &eacute;lectromagn&eacute;tiques, pour une uti=
+lisation &agrave; l&#39;oreille. La r&eacute;glementation fran&ccedil;aise =
+impose que le DAS ne d&eacute;passe pas 2W/kg.=0BRemise de 5&euro;/mois pen=
+dant 12 mois pour toute nouvelle souscription &agrave; un forfait Starter 1=
+Go ou Power 5Go, entre le 2 f&eacute;vrier et le 29 mars 2016 inclus. En ca=
+s de changement d&#39;offre au cours des 12 mois, perte de la remise. Au te=
+rme des 12 mois de remise, le client sera factur&eacute; au tarif mensuel e=
+n vigueur. Remise incompatible avec toute offre promotionnelle en cours.=0B=
+offre sur demande r&eacute;serv&eacute;e &agrave; tout nouvel abonn&eacute;=
+ SFR, pr&eacute;c&eacute;demment client d&#39;un autre op&eacute;rateur mob=
+ile et demandant la portabilit&eacute; de son num&eacute;ro. Remise de 5&eu=
+ro;/mois pendant 1 an pour toute souscription d&#39;un Forfait Power ou Pre=
+mium.=0BAu terme des 12 mois de remise, le client sera factur&eacute; au ta=
+rif mensuel en vigueur. En cas de changement d&#39;offre au cours des 12 mo=
+is, perte des remises. Voir d&eacute;tails sur sfr.fr et sfr.odr.fr. D&eacu=
+te;tails et conditions en point de vente.<br />
+									Appels illimit&eacute;s : 3 heures maximum par appel, puis appel c=
+oup&eacute; au bout des 3H. Appels illimit&eacute;s vers les mobiles et fix=
+es m&eacute;tropolitains, des DOM (hors Mayotte), hors num&eacute;ros sp&ea=
+cute;ciaux, services (dont services de radiomessagerie) et appels depuis bo=
+&icirc;tiers radio. &nbsp; Limit&eacute;s &agrave; 200 destinataires diff&e=
+acute;rents par mois.=0BSMS/ MMS illimit&eacute;s : hors SMS/MMS depuis et =
+vers l&rsquo;&eacute;tranger, surtax&eacute;s et Chat SMS/MMS. Limit&eacute=
+;s &agrave; 200 destinataires diff&eacute;rents par mois.=0BLes Extras&nbsp=
+;de SFR&nbsp;: Offres valables exclusivement en France m&eacute;tropolitain=
+e r&eacute;serv&eacute;es aux clients d&rsquo;un forfait Power. La m&eacute=
+;canique &laquo; les Extras de SFR &raquo; vous permet de choisir un servic=
+e parmi un catalogue d&rsquo;au moins 4 services, et d&rsquo;en changer &ag=
+rave; raison de 1 changement maximum par mois (5&euro; au Service Client, g=
+ratuit sur l&rsquo;appli Mon Compte ou sur sfr.fr) si vous le d&eacute;sire=
+z. Prise en compte du changement de service &agrave; la prochaine date de f=
+acturation du client. M&eacute;canique valable jusqu&rsquo;au 03/10/2016. L=
+e catalogue &laquo;&nbsp;les Extras de SFR &raquo; est susceptible d&rsquo;=
+&eacute;volution, tant dans les services propos&eacute;s que dans le nombre=
+ de services pr&eacute;sent&eacute;s. Services pr&eacute;sent&eacute;s en c=
+atalogue, valables jusqu&rsquo;au 03/10/2016. D&eacute;tails de chaque Serv=
+ice en point de vente ou sur sfr.fr</font><br />
+									<br />
+									<br />
+									&nbsp;</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<p><img height=3D"1" src=3D"http://o.tradvn.ovh/56-29-48-2878-28390/uniqueI=
+d" width=3D"1" /></p>
+
+<center><a href=3D"http://assurance-facile.com/ga/unsubscribe/2-11527895-18=
+-1586-3069-ed35df89ef15825-f821e3b053">Je souhaite me d=C3=A9sinscrire et n=
+e plus recevoir les newsletters</a>
+</center><img src=3D"http://assurance-facile.com/ga/open/2-11527895-18-1586=
+-3069-f821e3b053" height=3D"2" width=3D"3" alt=3D""></body>
+</html>
+
+--==e382a2c4a225880514fea1a91ceb735d--

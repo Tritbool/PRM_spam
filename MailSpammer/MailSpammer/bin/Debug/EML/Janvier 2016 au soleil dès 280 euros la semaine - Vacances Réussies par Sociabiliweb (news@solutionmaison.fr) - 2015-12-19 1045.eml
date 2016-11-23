@@ -1,0 +1,807 @@
+Return-Path: <return-a18-2533-2543-resp-m2-miage=univ-rennes1.fr=4@solutionmaison.fr>
+Received: from mailimailo.univ-rennes1.fr ([unix socket])
+	 by mailimailo.univ-rennes1.fr (Cyrus v2.3.16-Fedora-RPM-2.3.16-6.el6_2.5) with LMTPA;
+	 Sat, 19 Dec 2015 10:45:14 +0100
+X-Sieve: CMU Sieve 2.3
+Received: from mailout1.univ-rennes1.fr (mailout1.univ-rennes1.fr [129.20.128.162])
+	by mailimailo.univ-rennes1.fr (Postfix) with ESMTP id C03D726A12AC
+	for <resp-m2-miage@univ-rennes1.fr>; Sat, 19 Dec 2015 10:45:14 +0100 (CET)
+Received: from localhost (vmscanmail.univ-rennes1.fr [129.20.128.134])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id BCC5F60159
+	for <resp-m2-miage@univ-rennes1.fr>; Sat, 19 Dec 2015 10:45:14 +0100 (CET)
+X-Virus-Scanned: amavisd-new at univ-rennes1.fr
+Received: from mailout1.univ-rennes1.fr ([129.20.128.162])
+	by localhost (vmscanmail.univ-rennes1.frm [129.20.128.134]) (amavisd-new, port 10026)
+	with ESMTP id NwvbNhJaxKlo for <resp-m2-miage@univ-rennes1.fr>;
+	Sat, 19 Dec 2015 10:45:14 +0100 (CET)
+Received: from vmmailin.univ-rennes1.fr (vmmailin.univ-rennes1.fr [129.20.128.133])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id 9651460006
+	for <resp-m2-miage@univ-rennes1.fr>; Sat, 19 Dec 2015 10:45:14 +0100 (CET)
+Received: from mxb2-1.relay.renater.fr (mxb2-1.relay.renater.fr [194.214.200.8])
+	by vmmailin.univ-rennes1.fr (Postfix) with ESMTP id 8EAF820033
+	for <resp-m2-miage@univ-rennes1.fr>; Sat, 19 Dec 2015 10:45:14 +0100 (CET)
+Received: from smtp1-25.revue-en-ligne.com (smtp1-25.revue-en-ligne.com [5.196.212.72])
+	by mxb2-1.relay.renater.fr (asm) with SMTP id 47ACC60006B
+	for <resp-m2-miage@univ-rennes1.fr>; Sat, 19 Dec 2015 10:45:14 +0100 (CET)
+Received: (GreenArrow 15713 invoked by uid 410); 19 Dec 2015 09:45:14 -0000
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed;
+	d=solutionmaison.fr; s=default; h=Subject:From:To:Date:
+	List-Unsubscribe:Message-ID:MIME-Version:Content-Type; bh=7kfHNn
+	wkQt9B49shxzpHXHF/UEw=; b=ozW/GgSlSjAYzFiD893mpJ4dPJwTt5AYHExdQp
+	YU+9yo/4QJXWUJh2tcEs/nXK5tFAPneTz5CNRDmRWv5cHFj6/Ug9W7NEpgi5C7n/
+	ytbNakDKdB/Og5Zl/byWSeg8kI78jn5QojkbcmvoeR05f7Tg7Ntmn/6BFBmHLeb4
+	hioNk=
+Subject: =?UTF-8?Q?Janvier=202016=20au=20soleil=20d=C3=A8s=20280=20eu?=
+ =?UTF-8?Q?ros=20la=20semaine?=
+From: =?UTF-8?B?VmFjYW5jZXMgUsOpdXNzaWVzIHBhciBTb2NpYWJpbGl3ZWI=?= <news@solutionmaison.fr>
+To: resp-m2-miage@univ-rennes1.fr
+Date: 19 Dec 2015 09:45:14 -0000
+List-Unsubscribe: <http://solutionmaison.fr/ga/unsubscribe/2-11527895-18-1319-2543-ed35df89ef15825-bf45a9e784>,
+ <mailto:return-a18-2533-2543-resp-m2-miage=univ-rennes1.fr=4u@solutionmaison.fr>
+X-Mailer: GreenArrow Studio (v4.65.0)
+X-CampaignID: s4:2533-c285413152ea6fd5
+Message-ID: <mid-02a3eca9159cd5a0d4b5fa60aa84fb47@solutionmaison.fr>
+X-Mailer-Info: 4.hFDO.gM1MzM.IXZzBXLtJTLtlWYnVGQ15Wa21icl5mblNXMuYmc.gM1QzM
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="==8902dffb0ee82193ce9bd67af36dd058"
+X-UCE-Status: YES
+X-UCE-Type: MCE
+X-Original-Source-IP: 5.196.212.72
+X-Bizanga: IMP - mxb2-1.relay.renater.fr
+X-Renater-SpamState: 11
+X-Renater-SpamScore: 17
+X-Renater-SpamCause: gggruggvucftvghtrhhoucdtuddrfeekiedrfeeigddugeegucetufdoteggodetrfdotffvucfrrhhofhhilhgvmecutffgpfetvffgtfdpggftfghnshhusghstghrihgsvgenuceurghilhhouhhtmecufedttdenucdnofetkffnkffpifculddujedmnecujfgurhepuffhvfffjffokfggtgesrgdtreerredtjeenucfhrhhomhepgggrtggrnhgtvghsucftrohushhsihgvshcuphgrrhcuufhotghirggsihhlihifvggsuceonhgvfihssehsohhluhhtihhonhhmrghishhonhdrfhhrqeenucffohhmrghinhepshholhhuthhiohhnmhgrihhsohhnrdhfrhenucfrrghrrghmpehmohguvgepshhmthhppdhhvghlohepshhmthhpuddqvdehrdhrvghvuhgvqdgvnhdqlhhighhnvgdrtghomhdpihhnvghtpeehrdduleeirddvuddvrdejvddpmhgrihhlfhhrohhmpehrvghtuhhrnhdqrgdukedqvdehfeefqddvheegfedqrhgvshhpqdhmvddqmhhirghgvgepuhhnihhvqdhrvghnnhgvshdurdhfrhepgeesshholhhuthhiohhnmhgrihhsohhnrdhfrhdprhgtphhtthhopehrvghsphdqmhdvqdhmihgrghgvsehunhhivhdqrhgvnhhnvghsuddrfhhr 
+X-Renater-ServerName: mxb2-1.relay.renater.fr
+
+This is a multi-part message in MIME format.
+
+--==8902dffb0ee82193ce9bd67af36dd058
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Vacances r=C3=A9ussies.com - FLASH DERNIERES MINUTES ( http://solutionmaiso=
+n.fr/ga/click/2-11527895-18-1319-2543-18114-b8337d1a2f-bf45a9e784 )
+
+ABCroisi=C3=A8re ( http://solutionmaison.fr/ga/click/2-11527895-18-1319-254=
+3-18115-77e9c177d9-bf45a9e784 )
+
+ABCroisi=C3=A8re ( http://solutionmaison.fr/ga/click/2-11527895-18-1319-254=
+3-18115-77e9c177d9-bf45a9e784 )
+
+CROISIERE 13J MEDITERRANEE ( http://solutionmaison.fr/ga/click/2-11527895-1=
+8-1319-2543-18115-77e9c177d9-bf45a9e784 )
+
+Italie, Gr=C3=A8ce, Sicile ( http://solutionmaison.fr/ga/click/2-11527895-1=
+8-1319-2543-18115-77e9c177d9-bf45a9e784 )
+
+=C3=80 partir de ( http://solutionmaison.fr/ga/click/2-11527895-18-1319-254=
+3-18115-77e9c177d9-bf45a9e784 )491=E2=82=AC ( http://solutionmaison.fr/ga/c=
+lick/2-11527895-18-1319-2543-18115-77e9c177d9-bf45a9e784 )
+
+D=C3=89COUVRIR ( http://solutionmaison.fr/ga/click/2-11527895-18-1319-2543-=
+18115-77e9c177d9-bf45a9e784 )
+
+Vacanciel ( http://solutionmaison.fr/ga/click/2-11527895-18-1319-2543-18116=
+-182d9af714-bf45a9e784 )
+
+Vacanciel ( http://solutionmaison.fr/ga/click/2-11527895-18-1319-2543-18116=
+-182d9af714-bf45a9e784 )
+
+H=C3=94TEL CLUB PORT FREJUS ( http://solutionmaison.fr/ga/click/2-11527895-=
+18-1319-2543-18116-182d9af714-bf45a9e784 )
+
+8j/7n en demi-pension ( http://solutionmaison.fr/ga/click/2-11527895-18-131=
+9-2543-18116-182d9af714-bf45a9e784 )
+
+=C3=80 partir de ( http://solutionmaison.fr/ga/click/2-11527895-18-1319-254=
+3-18116-182d9af714-bf45a9e784 )303=E2=82=AC ( http://solutionmaison.fr/ga/c=
+lick/2-11527895-18-1319-2543-18116-182d9af714-bf45a9e784 )
+
+D=C3=89COUVRIR ( http://solutionmaison.fr/ga/click/2-11527895-18-1319-2543-=
+18116-182d9af714-bf45a9e784 )
+
+Vacanciel ( http://solutionmaison.fr/ga/click/2-11527895-18-1319-2543-18117=
+-f0746319d0-bf45a9e784 )
+
+Vacanciel ( http://solutionmaison.fr/ga/click/2-11527895-18-1319-2543-18117=
+-f0746319d0-bf45a9e784 )
+
+CLUB PRESQU=E2=80=99ILE DE GIENS ( http://solutionmaison.fr/ga/click/2-1152=
+7895-18-1319-2543-18117-f0746319d0-bf45a9e784 )
+
+8j/7n en location ( http://solutionmaison.fr/ga/click/2-11527895-18-1319-25=
+43-18117-f0746319d0-bf45a9e784 )
+
+=C3=80 partir de ( http://solutionmaison.fr/ga/click/2-11527895-18-1319-254=
+3-18117-f0746319d0-bf45a9e784 )280=E2=82=AC ( http://solutionmaison.fr/ga/c=
+lick/2-11527895-18-1319-2543-18117-f0746319d0-bf45a9e784 )
+
+D=C3=89COUVRIR ( http://solutionmaison.fr/ga/click/2-11527895-18-1319-2543-=
+18117-f0746319d0-bf45a9e784 )
+
+Vacanciel ( http://solutionmaison.fr/ga/click/2-11527895-18-1319-2543-18118=
+-b995dba9cc-bf45a9e784 )
+
+Vacanciel ( http://solutionmaison.fr/ga/click/2-11527895-18-1319-2543-18118=
+-b995dba9cc-bf45a9e784 )
+
+CLUB 3* ALPES VAL CENIS ( http://solutionmaison.fr/ga/click/2-11527895-18-1=
+319-2543-18118-b995dba9cc-bf45a9e784 )
+
+8j/7n en demi-pension ( http://solutionmaison.fr/ga/click/2-11527895-18-131=
+9-2543-18118-b995dba9cc-bf45a9e784 )
+
+=C3=80 partir de ( http://solutionmaison.fr/ga/click/2-11527895-18-1319-254=
+3-18118-b995dba9cc-bf45a9e784 )322=E2=82=AC ( http://solutionmaison.fr/ga/c=
+lick/2-11527895-18-1319-2543-18118-b995dba9cc-bf45a9e784 )
+
+D=C3=89COUVRIR ( http://solutionmaison.fr/ga/click/2-11527895-18-1319-2543-=
+18118-b995dba9cc-bf45a9e784 )
+
+Promo Croisi=C3=A8re ( http://solutionmaison.fr/ga/click/2-11527895-18-1319=
+-2543-18119-8fda2936b0-bf45a9e784 )
+
+Promo Croisi=C3=A8re ( http://solutionmaison.fr/ga/click/2-11527895-18-1319=
+-2543-18119-8fda2936b0-bf45a9e784 )
+
+CROISIERE 7J ITALIE CORSE ( http://solutionmaison.fr/ga/click/2-11527895-18=
+-1319-2543-18119-8fda2936b0-bf45a9e784 )
+
+A bord du Horizon CDF 5* ( http://solutionmaison.fr/ga/click/2-11527895-18-=
+1319-2543-18119-8fda2936b0-bf45a9e784 )
+
+=C3=80 partir de ( http://solutionmaison.fr/ga/click/2-11527895-18-1319-254=
+3-18119-8fda2936b0-bf45a9e784 )559=E2=82=AC ( http://solutionmaison.fr/ga/c=
+lick/2-11527895-18-1319-2543-18119-8fda2936b0-bf45a9e784 )
+
+D=C3=89COUVRIR ( http://solutionmaison.fr/ga/click/2-11527895-18-1319-2543-=
+18119-8fda2936b0-bf45a9e784 )
+
+Vacanciel ( http://solutionmaison.fr/ga/click/2-11527895-18-1319-2543-18120=
+-bd9d31a0d4-bf45a9e784 )
+
+Vacanciel ( http://solutionmaison.fr/ga/click/2-11527895-18-1319-2543-18120=
+-bd9d31a0d4-bf45a9e784 )
+
+CLUB LES ISSAMBRES 3* ( http://solutionmaison.fr/ga/click/2-11527895-18-131=
+9-2543-18120-bd9d31a0d4-bf45a9e784 )
+
+8j/7n en demi-pension ( http://solutionmaison.fr/ga/click/2-11527895-18-131=
+9-2543-18120-bd9d31a0d4-bf45a9e784 )
+
+=C3=80 partir de ( http://solutionmaison.fr/ga/click/2-11527895-18-1319-254=
+3-18120-bd9d31a0d4-bf45a9e784 )334=E2=82=AC ( http://solutionmaison.fr/ga/c=
+lick/2-11527895-18-1319-2543-18120-bd9d31a0d4-bf45a9e784 )
+
+D=C3=89COUVRIR ( http://solutionmaison.fr/ga/click/2-11527895-18-1319-2543-=
+18120-bd9d31a0d4-bf45a9e784 )
+
+* Les prix affich=C3=A9s sur cette newsletter ont =C3=A9t=C3=A9 relev=C3=A9=
+s sur les
+sites internets mentionn=C3=A9s le 16/12/2015 =C3=A0 15h.=
+
+--==8902dffb0ee82193ce9bd67af36dd058
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w=
+3.org/TR/REC-html40/loose.dtd">
+<html>
+<head>
+	<meta content=3D"text/html; charset=3Dutf-8" http-equiv=3D"Content-Type" />
+	<title>VacancesReussies.com - FLASH DERNI&Egrave;RES MINUTES</title>
+</head>
+<body style=3D"background-color:#CECCC8;"><!-- BANNIERE: FLASH DERNIERES MI=
+NUTES -->
+<div style=3D"background-color:#CECCC8;">
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0">
+	<tbody>
+		<tr>
+			<td>
+			<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ width=3D"650">
+				<tbody>
+					<tr>
+						<td bgcolor=3D"#F6F6F6"><a href=3D"http://solutionmaison.fr/ga/click/=
+2-11527895-18-1319-2543-18114-b8337d1a2f-bf45a9e784" target=3D"_blank"><img=
+ alt=3D"Vacances r=C3=A9ussies.com - FLASH DERNIERES MINUTES" border=3D"0" =
+height=3D"150" src=3D"http://46.101.7.34/vacances/vr-171215/haeder_bp_2.jpg=
+" style=3D"display:block;" width=3D"650" /></a></td>
+					</tr>
+					<tr>
+						<td bgcolor=3D"#FFFFFF"><img border=3D"0" height=3D"12" src=3D"http:/=
+/46.101.7.34/vacances/vr-171215/header_under.gif" style=3D"display:block;" =
+width=3D"650" /></td>
+					</tr>
+				</tbody>
+			</table>
+			<!-- CONTENU BDD(INFOS) -->
+
+			<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ width=3D"650">
+				<tbody>
+					<tr>
+						<td align=3D"left" bgcolor=3D"#FFFFFF" valign=3D"top" width=3D"50%">
+						<table border=3D"0" cellpadding=3D"8" cellspacing=3D"0" width=3D"100%=
+">
+							<tbody>
+								<tr>
+									<td>
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"2=
+98">
+										<tbody>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"top"><a href=3D"http://sol=
+utionmaison.fr/ga/click/2-11527895-18-1319-2543-18115-77e9c177d9-bf45a9e784=
+" target=3D"_blank"><img alt=3D"ABCroisi=C3=A8re" border=3D"0" height=3D"16=
+0" src=3D"http://46.101.7.34/vacances/vr-171215/IP1.jpg" style=3D"display:b=
+lock;" width=3D"290" /></a></td>
+											</tr>
+										</tbody>
+									</table>
+
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"2=
+98">
+										<tbody>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"top" width=3D"60"><a href=
+=3D"http://solutionmaison.fr/ga/click/2-11527895-18-1319-2543-18115-77e9c17=
+7d9-bf45a9e784" target=3D"_blank"><img alt=3D"ABCroisi=C3=A8re" border=3D"0=
+" height=3D"28" src=3D"http://46.101.7.34/vacances/vr-171215/AB_104x40.jpg"=
+ style=3D"display:block;" width=3D"78" /></a></td>
+												<td align=3D"left" style=3D"border-bottom:1px solid #D9DADB;" v=
+align=3D"top"></td>
+											</tr>
+										</tbody>
+									</table>
+
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"2=
+98">
+										<tbody>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"middle"><strong><a href=3D=
+"http://solutionmaison.fr/ga/click/2-11527895-18-1319-2543-18115-77e9c177d9=
+-bf45a9e784" style=3D" color:#707173; text-decoration:none;" target=3D"_bla=
+nk">CROISIERE 13J MEDITERRANEE</a></strong></td>
+											</tr>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"top"><span style=3D"font-f=
+amily:Arial, Helvetica, sans-serif; font-size:12px; color:#707173;"><a href=
+=3D"http://solutionmaison.fr/ga/click/2-11527895-18-1319-2543-18115-77e9c17=
+7d9-bf45a9e784" style=3D" color:#707173; text-decoration:none;" target=3D"_=
+blank">Italie, Gr&egrave;ce, Sicile</a></span></td>
+											</tr>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"top">
+												<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=
+=3D"290">
+													<tbody>
+														<tr>
+															<td align=3D"center" bgcolor=3D"#02CCBD" style=3D"font-famil=
+y:Arial, Helvetica, sans-serif; font-size:14px; color:#FFFFFF;" valign=3D"m=
+iddle"><span style=3D"font-size:8px"><a href=3D"http://solutionmaison.fr/ga=
+/click/2-11527895-18-1319-2543-18115-77e9c177d9-bf45a9e784" style=3D" color=
+:#FFFFFF; text-decoration:none;" target=3D"_blank">&Agrave; partir de</a></=
+span><a href=3D"http://solutionmaison.fr/ga/click/2-11527895-18-1319-2543-1=
+8115-77e9c177d9-bf45a9e784" style=3D" color:#FFFFFF; text-decoration:none;"=
+ target=3D"_blank"> <strong style=3D"font-size:24px">491&euro;</strong></a>=
+</td>
+															<td align=3D"center" bgcolor=3D"#FF5012" style=3D"font-famil=
+y:Arial, Helvetica, sans-serif; font-size:9px; color:#FFFFFF;" valign=3D"mi=
+ddle" width=3D"100"><span style=3D"font-size:9px"><a href=3D"http://solutio=
+nmaison.fr/ga/click/2-11527895-18-1319-2543-18115-77e9c177d9-bf45a9e784" st=
+yle=3D" color:#FFFFFF; text-decoration:none;" target=3D"_blank">D&Eacute;CO=
+UVRIR <img border=3D"0" height=3D"9" src=3D"http://46.101.7.34/vacances/vr-=
+171215/fleche.gif" width=3D"6" /></a></span></td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						<!-- td --></td>
+						<td align=3D"left" bgcolor=3D"#FFFFFF" valign=3D"top" width=3D"50%">
+						<table border=3D"0" cellpadding=3D"8" cellspacing=3D"0" width=3D"100%=
+">
+							<tbody>
+								<tr>
+									<td>
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"2=
+98">
+										<tbody>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"top"><a href=3D"http://sol=
+utionmaison.fr/ga/click/2-11527895-18-1319-2543-18116-182d9af714-bf45a9e784=
+" target=3D"_blank"><img alt=3D"Vacanciel" border=3D"0" height=3D"160" src=
+=3D"http://46.101.7.34/vacances/vr-171215/IP2.jpg" style=3D"display:block;"=
+ width=3D"290" /></a></td>
+											</tr>
+										</tbody>
+									</table>
+
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"2=
+98">
+										<tbody>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"top" width=3D"60"><a href=
+=3D"http://solutionmaison.fr/ga/click/2-11527895-18-1319-2543-18116-182d9af=
+714-bf45a9e784" target=3D"_blank"><img alt=3D"Vacanciel" border=3D"0" heigh=
+t=3D"28" src=3D"http://46.101.7.34/vacances/vr-171215/vacanciel104x40.jpg" =
+style=3D"display:block;" width=3D"78" /></a></td>
+												<td align=3D"left" style=3D"border-bottom:1px solid #D9DADB;" v=
+align=3D"top"></td>
+											</tr>
+										</tbody>
+									</table>
+
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"2=
+98">
+										<tbody>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"middle"><strong><a href=3D=
+"http://solutionmaison.fr/ga/click/2-11527895-18-1319-2543-18116-182d9af714=
+-bf45a9e784" style=3D" color:#707173; text-decoration:none;" target=3D"_bla=
+nk">H&Ocirc;TEL CLUB PORT FREJUS</a></strong></td>
+											</tr>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"top"><span style=3D"font-f=
+amily:Arial, Helvetica, sans-serif; font-size:12px; color:#707173;"><a href=
+=3D"http://solutionmaison.fr/ga/click/2-11527895-18-1319-2543-18116-182d9af=
+714-bf45a9e784" style=3D" color:#707173; text-decoration:none;" target=3D"_=
+blank">8j/7n en demi-pension</a></span></td>
+											</tr>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"top">
+												<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=
+=3D"290">
+													<tbody>
+														<tr>
+															<td align=3D"center" bgcolor=3D"#02CCBD" style=3D"font-famil=
+y:Arial, Helvetica, sans-serif; font-size:14px; color:#FFFFFF;" valign=3D"m=
+iddle"><span style=3D"font-size:8px"><a href=3D"http://solutionmaison.fr/ga=
+/click/2-11527895-18-1319-2543-18116-182d9af714-bf45a9e784" style=3D" color=
+:#FFFFFF; text-decoration:none;" target=3D"_blank">&Agrave; partir de</a></=
+span><a href=3D"http://solutionmaison.fr/ga/click/2-11527895-18-1319-2543-1=
+8116-182d9af714-bf45a9e784" style=3D" color:#FFFFFF; text-decoration:none;"=
+ target=3D"_blank"> <strong style=3D"font-size:24px">303&euro;</strong></a>=
+</td>
+															<td align=3D"center" bgcolor=3D"#FF5012" style=3D"font-famil=
+y:Arial, Helvetica, sans-serif; font-size:9px; color:#FFFFFF;" valign=3D"mi=
+ddle" width=3D"100"><span style=3D"font-size:9px"><a href=3D"http://solutio=
+nmaison.fr/ga/click/2-11527895-18-1319-2543-18116-182d9af714-bf45a9e784" st=
+yle=3D" color:#FFFFFF; text-decoration:none;" target=3D"_blank">D&Eacute;CO=
+UVRIR <img border=3D"0" height=3D"9" src=3D"http://46.101.7.34/vacances/vr-=
+171215/fleche.gif" width=3D"6" /></a></span></td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						<!-- td --></td>
+					</tr>
+				</tbody>
+			</table>
+
+			<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ width=3D"650">
+				<tbody>
+					<tr>
+						<td align=3D"left" bgcolor=3D"#FFFFFF" valign=3D"top" width=3D"50%">
+						<table border=3D"0" cellpadding=3D"8" cellspacing=3D"0" width=3D"100%=
+">
+							<tbody>
+								<tr>
+									<td>
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"2=
+98">
+										<tbody>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"top"><a href=3D"http://sol=
+utionmaison.fr/ga/click/2-11527895-18-1319-2543-18117-f0746319d0-bf45a9e784=
+" target=3D"_blank"><img alt=3D"Vacanciel" border=3D"0" height=3D"160" src=
+=3D"http://46.101.7.34/vacances/vr-171215/IP3.jpg" style=3D"display:block;"=
+ width=3D"290" /></a></td>
+											</tr>
+										</tbody>
+									</table>
+
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"2=
+98">
+										<tbody>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"top" width=3D"60"><a href=
+=3D"http://solutionmaison.fr/ga/click/2-11527895-18-1319-2543-18117-f074631=
+9d0-bf45a9e784" target=3D"_blank"><img alt=3D"Vacanciel" border=3D"0" heigh=
+t=3D"28" src=3D"http://46.101.7.34/vacances/vr-171215/vacanciel104x40.jpg" =
+style=3D"display:block;" width=3D"78" /></a></td>
+												<td align=3D"left" style=3D"border-bottom:1px solid #D9DADB;" v=
+align=3D"top"></td>
+											</tr>
+										</tbody>
+									</table>
+
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"2=
+98">
+										<tbody>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"middle"><strong><a href=3D=
+"http://solutionmaison.fr/ga/click/2-11527895-18-1319-2543-18117-f0746319d0=
+-bf45a9e784" style=3D" color:#707173; text-decoration:none;" target=3D"_bla=
+nk">CLUB PRESQU&rsquo;ILE DE GIENS</a></strong></td>
+											</tr>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"top"><span style=3D"font-f=
+amily:Arial, Helvetica, sans-serif; font-size:12px; color:#707173;"><a href=
+=3D"http://solutionmaison.fr/ga/click/2-11527895-18-1319-2543-18117-f074631=
+9d0-bf45a9e784" style=3D" color:#707173; text-decoration:none;" target=3D"_=
+blank">8j/7n en location</a></span></td>
+											</tr>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"top">
+												<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=
+=3D"290">
+													<tbody>
+														<tr>
+															<td align=3D"center" bgcolor=3D"#02CCBD" style=3D"font-famil=
+y:Arial, Helvetica, sans-serif; font-size:14px; color:#FFFFFF;" valign=3D"m=
+iddle"><span style=3D"font-size:8px"><a href=3D"http://solutionmaison.fr/ga=
+/click/2-11527895-18-1319-2543-18117-f0746319d0-bf45a9e784" style=3D" color=
+:#FFFFFF; text-decoration:none;" target=3D"_blank">&Agrave; partir de</a></=
+span><a href=3D"http://solutionmaison.fr/ga/click/2-11527895-18-1319-2543-1=
+8117-f0746319d0-bf45a9e784" style=3D" color:#FFFFFF; text-decoration:none;"=
+ target=3D"_blank"> <strong style=3D"font-size:24px">280&euro;</strong></a>=
+</td>
+															<td align=3D"center" bgcolor=3D"#FF5012" style=3D"font-famil=
+y:Arial, Helvetica, sans-serif; font-size:9px; color:#FFFFFF;" valign=3D"mi=
+ddle" width=3D"100"><span style=3D"font-size:9px"><a href=3D"http://solutio=
+nmaison.fr/ga/click/2-11527895-18-1319-2543-18117-f0746319d0-bf45a9e784" st=
+yle=3D" color:#FFFFFF; text-decoration:none;" target=3D"_blank">D&Eacute;CO=
+UVRIR <img border=3D"0" height=3D"9" src=3D"http://46.101.7.34/vacances/vr-=
+171215/fleche.gif" width=3D"6" /></a></span></td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						<!-- td --></td>
+						<td align=3D"left" bgcolor=3D"#FFFFFF" valign=3D"top" width=3D"50%">
+						<table border=3D"0" cellpadding=3D"8" cellspacing=3D"0" width=3D"100%=
+">
+							<tbody>
+								<tr>
+									<td>
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"2=
+98">
+										<tbody>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"top"><a href=3D"http://sol=
+utionmaison.fr/ga/click/2-11527895-18-1319-2543-18118-b995dba9cc-bf45a9e784=
+" target=3D"_blank"><img alt=3D"Vacanciel" border=3D"0" height=3D"160" src=
+=3D"http://46.101.7.34/vacances/vr-171215/IP4.jpg" style=3D"display:block;"=
+ width=3D"290" /></a></td>
+											</tr>
+										</tbody>
+									</table>
+
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"2=
+98">
+										<tbody>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"top" width=3D"60"><a href=
+=3D"http://solutionmaison.fr/ga/click/2-11527895-18-1319-2543-18118-b995dba=
+9cc-bf45a9e784" target=3D"_blank"><img alt=3D"Vacanciel" border=3D"0" heigh=
+t=3D"28" src=3D"http://46.101.7.34/vacances/vr-171215/vacanciel104x40.jpg" =
+style=3D"display:block;" width=3D"78" /></a></td>
+												<td align=3D"left" style=3D"border-bottom:1px solid #D9DADB;" v=
+align=3D"top"></td>
+											</tr>
+										</tbody>
+									</table>
+
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"2=
+98">
+										<tbody>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"middle"><strong><a href=3D=
+"http://solutionmaison.fr/ga/click/2-11527895-18-1319-2543-18118-b995dba9cc=
+-bf45a9e784" style=3D" color:#707173; text-decoration:none;" target=3D"_bla=
+nk">CLUB 3* ALPES VAL CENIS</a></strong></td>
+											</tr>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"top"><span style=3D"font-f=
+amily:Arial, Helvetica, sans-serif; font-size:12px; color:#707173;"><a href=
+=3D"http://solutionmaison.fr/ga/click/2-11527895-18-1319-2543-18118-b995dba=
+9cc-bf45a9e784" style=3D" color:#707173; text-decoration:none;" target=3D"_=
+blank">8j/7n en demi-pension</a></span></td>
+											</tr>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"top">
+												<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=
+=3D"290">
+													<tbody>
+														<tr>
+															<td align=3D"center" bgcolor=3D"#02CCBD" style=3D"font-famil=
+y:Arial, Helvetica, sans-serif; font-size:14px; color:#FFFFFF;" valign=3D"m=
+iddle"><span style=3D"font-size:8px"><a href=3D"http://solutionmaison.fr/ga=
+/click/2-11527895-18-1319-2543-18118-b995dba9cc-bf45a9e784" style=3D" color=
+:#FFFFFF; text-decoration:none;" target=3D"_blank">&Agrave; partir de</a></=
+span><a href=3D"http://solutionmaison.fr/ga/click/2-11527895-18-1319-2543-1=
+8118-b995dba9cc-bf45a9e784" style=3D" color:#FFFFFF; text-decoration:none;"=
+ target=3D"_blank"> <strong style=3D"font-size:24px">322&euro;</strong></a>=
+</td>
+															<td align=3D"center" bgcolor=3D"#FF5012" style=3D"font-famil=
+y:Arial, Helvetica, sans-serif; font-size:9px; color:#FFFFFF;" valign=3D"mi=
+ddle" width=3D"100"><span style=3D"font-size:9px"><a href=3D"http://solutio=
+nmaison.fr/ga/click/2-11527895-18-1319-2543-18118-b995dba9cc-bf45a9e784" st=
+yle=3D" color:#FFFFFF; text-decoration:none;" target=3D"_blank">D&Eacute;CO=
+UVRIR <img border=3D"0" height=3D"9" src=3D"http://46.101.7.34/vacances/vr-=
+171215/fleche.gif" width=3D"6" /></a></span></td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						<!-- td --></td>
+					</tr>
+				</tbody>
+			</table>
+
+			<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ width=3D"650">
+				<tbody>
+					<tr>
+						<td align=3D"left" bgcolor=3D"#FFFFFF" valign=3D"top" width=3D"50%">
+						<table border=3D"0" cellpadding=3D"8" cellspacing=3D"0" width=3D"100%=
+">
+							<tbody>
+								<tr>
+									<td>
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"2=
+98">
+										<tbody>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"top"><a href=3D"http://sol=
+utionmaison.fr/ga/click/2-11527895-18-1319-2543-18119-8fda2936b0-bf45a9e784=
+" target=3D"_blank"><img alt=3D"Promo Croisi=C3=A8re" border=3D"0" height=
+=3D"160" src=3D"http://46.101.7.34/vacances/vr-171215/IP5.jpg" style=3D"dis=
+play:block;" width=3D"290" /></a></td>
+											</tr>
+										</tbody>
+									</table>
+
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"2=
+98">
+										<tbody>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"top" width=3D"60"><a href=
+=3D"http://solutionmaison.fr/ga/click/2-11527895-18-1319-2543-18119-8fda293=
+6b0-bf45a9e784" target=3D"_blank"><img alt=3D"Promo Croisi=C3=A8re" border=
+=3D"0" height=3D"28" src=3D"http://46.101.7.34/vacances/vr-171215/promocroi=
+siere104x40.jpg" style=3D"display:block;" width=3D"78" /></a></td>
+												<td align=3D"left" style=3D"border-bottom:1px solid #D9DADB;" v=
+align=3D"top"></td>
+											</tr>
+										</tbody>
+									</table>
+
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"2=
+98">
+										<tbody>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"middle"><strong><a href=3D=
+"http://solutionmaison.fr/ga/click/2-11527895-18-1319-2543-18119-8fda2936b0=
+-bf45a9e784" style=3D" color:#707173; text-decoration:none;" target=3D"_bla=
+nk">CROISIERE 7J ITALIE CORSE</a></strong></td>
+											</tr>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"top"><span style=3D"font-f=
+amily:Arial, Helvetica, sans-serif; font-size:12px; color:#707173;"><a href=
+=3D"http://solutionmaison.fr/ga/click/2-11527895-18-1319-2543-18119-8fda293=
+6b0-bf45a9e784" style=3D" color:#707173; text-decoration:none;" target=3D"_=
+blank">A bord du Horizon CDF 5*</a></span></td>
+											</tr>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"top">
+												<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=
+=3D"290">
+													<tbody>
+														<tr>
+															<td align=3D"center" bgcolor=3D"#02CCBD" style=3D"font-famil=
+y:Arial, Helvetica, sans-serif; font-size:14px; color:#FFFFFF;" valign=3D"m=
+iddle"><span style=3D"font-size:8px"><a href=3D"http://solutionmaison.fr/ga=
+/click/2-11527895-18-1319-2543-18119-8fda2936b0-bf45a9e784" style=3D" color=
+:#FFFFFF; text-decoration:none;" target=3D"_blank">&Agrave; partir de</a></=
+span><a href=3D"http://solutionmaison.fr/ga/click/2-11527895-18-1319-2543-1=
+8119-8fda2936b0-bf45a9e784" style=3D" color:#FFFFFF; text-decoration:none;"=
+ target=3D"_blank"> <strong style=3D"font-size:24px">559&euro;</strong></a>=
+</td>
+															<td align=3D"center" bgcolor=3D"#FF5012" style=3D"font-famil=
+y:Arial, Helvetica, sans-serif; font-size:9px; color:#FFFFFF;" valign=3D"mi=
+ddle" width=3D"100"><span style=3D"font-size:9px"><a href=3D"http://solutio=
+nmaison.fr/ga/click/2-11527895-18-1319-2543-18119-8fda2936b0-bf45a9e784" st=
+yle=3D" color:#FFFFFF; text-decoration:none;" target=3D"_blank">D&Eacute;CO=
+UVRIR <img border=3D"0" height=3D"9" src=3D"http://46.101.7.34/vacances/vr-=
+171215/fleche.gif" width=3D"6" /></a></span></td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						<!-- td --></td>
+						<td align=3D"left" bgcolor=3D"#FFFFFF" valign=3D"top" width=3D"50%">
+						<table border=3D"0" cellpadding=3D"8" cellspacing=3D"0" width=3D"100%=
+">
+							<tbody>
+								<tr>
+									<td>
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"2=
+98">
+										<tbody>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"top"><a href=3D"http://sol=
+utionmaison.fr/ga/click/2-11527895-18-1319-2543-18120-bd9d31a0d4-bf45a9e784=
+" target=3D"_blank"><img alt=3D"Vacanciel" border=3D"0" height=3D"160" src=
+=3D"http://46.101.7.34/vacances/vr-171215/IP6.jpg" style=3D"display:block;"=
+ width=3D"290" /></a></td>
+											</tr>
+										</tbody>
+									</table>
+
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"2=
+98">
+										<tbody>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"top" width=3D"60"><a href=
+=3D"http://solutionmaison.fr/ga/click/2-11527895-18-1319-2543-18120-bd9d31a=
+0d4-bf45a9e784" target=3D"_blank"><img alt=3D"Vacanciel" border=3D"0" heigh=
+t=3D"28" src=3D"http://46.101.7.34/vacances/vr-171215/vacanciel104x40.jpg" =
+style=3D"display:block;" width=3D"78" /></a></td>
+												<td align=3D"left" style=3D"border-bottom:1px solid #D9DADB;" v=
+align=3D"top"></td>
+											</tr>
+										</tbody>
+									</table>
+
+									<table border=3D"0" cellpadding=3D"0" cellspacing=3D"4" width=3D"2=
+98">
+										<tbody>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"middle"><strong><a href=3D=
+"http://solutionmaison.fr/ga/click/2-11527895-18-1319-2543-18120-bd9d31a0d4=
+-bf45a9e784" style=3D" color:#707173; text-decoration:none;" target=3D"_bla=
+nk">CLUB LES ISSAMBRES 3*</a></strong></td>
+											</tr>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"top"><span style=3D"font-f=
+amily:Arial, Helvetica, sans-serif; font-size:12px; color:#707173;"><a href=
+=3D"http://solutionmaison.fr/ga/click/2-11527895-18-1319-2543-18120-bd9d31a=
+0d4-bf45a9e784" style=3D" color:#707173; text-decoration:none;" target=3D"_=
+blank">8j/7n en demi-pension</a></span></td>
+											</tr>
+											<tr>
+												<td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-=
+serif; font-size:14px; color:#707173;" valign=3D"top">
+												<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=
+=3D"290">
+													<tbody>
+														<tr>
+															<td align=3D"center" bgcolor=3D"#02CCBD" style=3D"font-famil=
+y:Arial, Helvetica, sans-serif; font-size:14px; color:#FFFFFF;" valign=3D"m=
+iddle"><span style=3D"font-size:8px"><a href=3D"http://solutionmaison.fr/ga=
+/click/2-11527895-18-1319-2543-18120-bd9d31a0d4-bf45a9e784" style=3D" color=
+:#FFFFFF; text-decoration:none;" target=3D"_blank">&Agrave; partir de</a></=
+span><a href=3D"http://solutionmaison.fr/ga/click/2-11527895-18-1319-2543-1=
+8120-bd9d31a0d4-bf45a9e784" style=3D" color:#FFFFFF; text-decoration:none;"=
+ target=3D"_blank"> <strong style=3D"font-size:24px">334&euro;</strong></a>=
+</td>
+															<td align=3D"center" bgcolor=3D"#FF5012" style=3D"font-famil=
+y:Arial, Helvetica, sans-serif; font-size:9px; color:#FFFFFF;" valign=3D"mi=
+ddle" width=3D"100"><span style=3D"font-size:9px"><a href=3D"http://solutio=
+nmaison.fr/ga/click/2-11527895-18-1319-2543-18120-bd9d31a0d4-bf45a9e784" st=
+yle=3D" color:#FFFFFF; text-decoration:none;" target=3D"_blank">D&Eacute;CO=
+UVRIR <img border=3D"0" height=3D"9" src=3D"http://46.101.7.34/vacances/vr-=
+171215/fleche.gif" width=3D"6" /></a></span></td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						<!-- td --></td>
+					</tr>
+				</tbody>
+			</table>
+			<!-- Footer -->
+
+			<table align=3D"center" border=3D"0" cellpadding=3D"12" cellspacing=3D"0=
+" width=3D"650">
+				<tbody>
+					<tr>
+						<td align=3D"center" style=3D"color:#44443E; font-size:10px;-webkit-t=
+ext-size-adjust:none; font-family:Arial, Helvetica, sans-serif">* Les prix =
+affich&eacute;s sur cette newsletter ont &eacute;t&eacute; relev&eacute;s s=
+ur les sites internets mentionn&eacute;s le 16/12/2015 &agrave; 15h.</td>
+					</tr>
+				</tbody>
+			</table>
+			</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+
+<p><img id=3D"pictureoct" src=3D"http://email.mediapleez.com/tracking/displ=
+ay.php?name=3D20151217+NL+VR+SW" /></p>
+
+<center><a href=3D"http://solutionmaison.fr/ga/unsubscribe/2-11527895-18-13=
+19-2543-ed35df89ef15825-bf45a9e784">Je souhaite me d=C3=A9sinscrire et ne p=
+lus recevoir les newsletters</a>
+</center><img src=3D"http://solutionmaison.fr/ga/open/2-11527895-18-1319-25=
+43-bf45a9e784" height=3D"2" width=3D"3" alt=3D""></body>
+</html>
+
+--==8902dffb0ee82193ce9bd67af36dd058--

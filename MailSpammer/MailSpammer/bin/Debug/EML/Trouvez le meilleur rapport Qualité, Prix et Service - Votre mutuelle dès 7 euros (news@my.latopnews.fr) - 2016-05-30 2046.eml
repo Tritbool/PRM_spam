@@ -1,0 +1,115 @@
+Return-Path: <bounce+12EH-tfpg2-eD9K@my.latopnews.fr>
+Received: from mailimailo.univ-rennes1.fr ([unix socket])
+	 by mailimailo.univ-rennes1.fr (Cyrus v2.3.16-Fedora-RPM-2.3.16-6.el6_2.5) with LMTPA;
+	 Mon, 30 May 2016 21:13:10 +0200
+X-Sieve: CMU Sieve 2.3
+Received: from mailout2.univ-rennes1.fr (mailout2.univ-rennes1.fr [129.20.129.120])
+	by mailimailo.univ-rennes1.fr (Postfix) with ESMTP id 7D4F783
+	for <resp-m2-miage@univ-rennes1.fr>; Mon, 30 May 2016 21:13:10 +0200 (CEST)
+Received: from localhost (vmscanmail.univ-rennes1.fr [129.20.128.134])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id 79F26601A0
+	for <resp-m2-miage@univ-rennes1.fr>; Mon, 30 May 2016 21:13:10 +0200 (CEST)
+X-Virus-Scanned: amavisd-new at univ-rennes1.fr
+Received: from mailout2.univ-rennes1.fr ([129.20.129.120])
+	by localhost (vmscanmail.univ-rennes1.frm [129.20.128.134]) (amavisd-new, port 10026)
+	with ESMTP id adECSGp2YyJd for <resp-m2-miage@univ-rennes1.fr>;
+	Mon, 30 May 2016 21:13:10 +0200 (CEST)
+Received: from vmmailin.univ-rennes1.fr (vmmailin.univ-rennes1.fr [129.20.128.133])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id 3C0726019A
+	for <resp-m2-miage@univ-rennes1.fr>; Mon, 30 May 2016 21:13:10 +0200 (CEST)
+Received: from mxb1-2.relay.renater.fr (mxb1-2.relay.renater.fr [194.214.201.9])
+	by vmmailin.univ-rennes1.fr (Postfix) with ESMTP id 23C0C20033
+	for <resp-m2-miage@univ-rennes1.fr>; Mon, 30 May 2016 21:13:10 +0200 (CEST)
+Received: from smtp210.my.latopnews.fr (smtp210.my.latopnews.fr [88.202.236.210])
+	by mxb1-2.relay.renater.fr (asm) with ESMTP id E60082800A9
+	for <resp-m2-miage@univ-rennes1.fr>; Mon, 30 May 2016 21:13:09 +0200 (CEST)
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=s2c; d=my.latopnews.fr;
+ h=Date:To:From:Subject:Message-ID:List-Unsubscribe:MIME-Version:Content-Type; i=news@my.latopnews.fr;
+ bh=Ox3AEcYyAcl8gkZc5RJh1iLK8Rc=;
+ b=niaX5YUBSmb0Yo3GCaNgZOpfqtdH0mIpxVW8PQJh9dk1coYRaPW6jS/rJObgwB+73/vyQ0B8bOk3
+   SSSy6s2HyW6Z/Tg5jjwtyrrGzUh3fTEnxLBcR1BdrtVqun5GJ5CM17gTi87/B/95oLnQlx3qyvcS
+   SB4aPfwpRFduTd2esXI=
+Received: by smtp210.my.latopnews.fr id h9i8cc1vjtg2 for <resp-m2-miage@univ-rennes1.fr>; Mon, 30 May 2016 20:46:28 +0200 (envelope-from <bounce+12EH-tfpg2-eD9K@my.latopnews.fr>)
+Date: Mon, 30 May 2016 20:46:28 +0200
+To: resp-m2-miage@univ-rennes1.fr
+From: =?UTF-8?Q?Votre_mutuelle_d=C3=A8s_7_euros?= <news@my.latopnews.fr>
+Subject: =?UTF-8?Q?Trouvez_le_meilleur_rapport_Qualit=C3=A9,_Prix_et_Service?=
+Message-ID: <bounce+12EH-tfpg2-eD9K@my.latopnews.fr>
+List-Unsubscribe: <mailto:bounce+12EH-tfpg2-eD9K@my.latopnews.fr?subject=unsubscribe-12EH-tfpg2>,<http://trk.my.latopnews.fr/usb/12EH-tfpg2.php>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="b1_436d408d2b938ab0cb8d4ae0ee94e134"
+X-UCE-Status: YES
+X-UCE-Type: MCE
+X-Original-Source-IP: 88.202.236.210
+X-Bizanga: IMP - mxb1-2.relay.renater.fr
+X-Renater-SpamState: 11
+X-Renater-SpamScore: 17
+X-Renater-SpamCause: gggruggvucftvghtrhhoucdtuddrfeekledrheefgddufeefucetufdoteggodetrfdotffvucfrrhhofhhilhgvmecutffgpfetvffgtfdpggftfghnshhusghstghrihgsvgenuceurghilhhouhhtmecufedttdenucdnofetkffnkffpifculddujedmnecujfgurhepfffvhffukffjgggtsegrtderphdttdejnecuhfhrohhmpeggohhtrhgvpghmuhhtuhgvlhhlvggpugoqshgpjegpvghurhhoshcuoehnvgifshesmhihrdhlrghtohhpnhgvfihsrdhfrheqnecuffhomhgrihhnpehlrghtohhpnhgvfihsrdhfrhdpmhgvihhllhgvuhhrtghomhhprghrrghtvghurhdrtghomhenucfkphepkeekrddvtddvrddvfeeirddvuddtnecurfgrrhgrmhepmhhouggvpehsmhhtphdphhgvlhhopehsmhhtphdvuddtrdhmhidrlhgrthhophhnvgifshdrfhhrpdhinhgvthepkeekrddvtddvrddvfeeirddvuddtpdhmrghilhhfrhhomhepsghouhhntggvodduvdfgjfdqthhfphhgvddqvgfflefmsehmhidrlhgrthhophhnvgifshdrfhhrpdhrtghpthhtoheprhgvshhpqdhmvddqmhhirghgvgesuhhnihhvqdhrvghnnhgvshdurdhfrh 
+X-Renater-ServerName: mxb1-2.relay.renater.fr
+
+
+--b1_436d408d2b938ab0cb8d4ae0ee94e134
+Content-Type: text/plain; charset = "UTF-8"
+Content-Transfer-Encoding: 8bit
+
+Afficher la version web. (http://trk.my.latopnews.fr/view/12EH-tfpg2.php) | Annuler votre abonnement. (http://trk.my.latopnews.fr/usb/12EH-tfpg2.php) | Signaler comme courrier indésirable. (mailto:abuse@dgcnit.fr)
+
+MeilleurComparateur.com (http://trk.my.latopnews.fr/tk/12EH-tfpg2-OMz.phpresp-m2-miage@univ-rennes1.fr) http://trk.my.latopnews.fr/tk/12EH-tfpg2-OMv.phpresp-m2-miage@univ-rennes1.fr
+
+
+Pour les mêmes garanties, (http://trk.my.latopnews.fr/tk/12EH-tfpg2-OMw.phpresp-m2-miage@univ-rennes1.fr)
+économisez jusqu'à 45% sur votre mutuelle santé (http://trk.my.latopnews.fr/tk/12EH-tfpg2-OMx.phpresp-m2-miage@univ-rennes1.fr)
+
+http://trk.my.latopnews.fr/tk/12EH-tfpg2-OMy.phpresp-m2-miage@univ-rennes1.fr
+http://trk.my.latopnews.fr/tk/12EH-tfpg2-OMu.phpresp-m2-miage@univ-rennes1.fr
+et je reÃ§ois un devis immédiat et sans engagement (http://trk.my.latopnews.fr/tk/12EH-tfpg2-OMt.phpresp-m2-miage@univ-rennes1.fr)
+
+
+
+
+Comparez les garanties de (http://trk.my.latopnews.fr/tk/12EH-tfpg2-OMq.phpresp-m2-miage@univ-rennes1.fr) 2000 formules santé (http://trk.my.latopnews.fr/tk/12EH-tfpg2-OMr.phpresp-m2-miage@univ-rennes1.fr)
+
+http://trk.my.latopnews.fr/tk/12EH-tfpg2-OMs.phpresp-m2-miage@univ-rennes1.fr
+
+
+
+
+http://trk.my.latopnews.fr/tk/12EH-tfpg2-OMp.phpresp-m2-miage@univ-rennes1.fr
+
+
+* Tarif constaté sur MeilleurComparateur.com le 09 mars 2015 pour une mutuelle standard complète pour un demandeur d'emploi de 22 ans habitant à Metz. (http://trk.my.latopnews.fr/tk/12EH-tfpg2-OMo.phpresp-m2-miage@univ-rennes1.fr)
+
+Espace promos, 12 rue Camille Desmoulins, 92300 Levallois Perret.
+À tout moment, vous disposez d'un droit d'accès, de modification, de rectification et de suppression
+de vos données personnelles (loi Informatique et Libertés du 6 Janvier 1978, article 34) en adressant votre demande à &quot;report@dgcnit.fr&quot;.
+Déclaration CNIL - 1642645
+Vous souhaitez vous désinscrire de cette liste ? Cliquez ici. (http://trk.my.latopnews.fr/usb/12EH-tfpg2.php)
+
+
+--b1_436d408d2b938ab0cb8d4ae0ee94e134
+Content-Type: text/html; charset = "UTF-8"
+Content-Transfer-Encoding: 8bit
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd"> <html style="font-family: Arial; font-size: 12px;"><body style="font-family: Arial; font-size: 12px;"><div> <table width="600" border="0" cellspacing="0" cellpadding="0" align="center"><tr><td width="600" valign="top" align="center"><table style="" align="center" border="0" cellpadding="0" cellspacing="0"><tr><td width="174" align="left" style="text-align:left;"><a href="http://trk.my.latopnews.fr/view/12EH-tfpg2.php" style="color:#000; text-decoration:underline; font-family:Arial,Helvetica,sans-serif; font-size:11px; text-align:left; font-weight:bold;">Afficher la version web.</a></td><td width="6">|</td><td width="207" align="center" style="text-align:center;"><a href="http://trk.my.latopnews.fr/usb/12EH-tfpg2.php" style="color:#000; text-decoration:underline; font-family:Arial,Helvetica,sans-serif; font-size:11px; text-align:center; font-weight:bold;">Annuler votre
+abonnement.</a></td><td width="6">|</td><td width="207" align="right" style="text-align:right;"><a href="mailto:abuse@dgcnit.fr" style="color:#00F; text-decoration:underline; font-family:Arial,Helvetica,sans-serif; font-size:11px; text-align:right; font-weight:bold;">Signaler comme courrier ind&eacute;sirable.</a></td></tr></table></td></tr><tr><td width="600" align="center"></td></tr></table></div><p> </p> <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+<style> html, body { font-family:Arial; font-size:12px; } </style>
+
+<title>Envie d'economiser sur votre mutuelle sante ?</title><table width="100%" height="100%" cellspacing="0" cellpadding="0" border="0" bgcolor="#bcd3ec"><tr><td valign="top" align="center"> <br><table width="600" cellpadding="0" cellspacing="0" align="center" border="0" style="font-family:Arial; font-size:41px;"><tr><td width="15" height="60">&nbsp;</td> <td align="right" height="60"><a href="http://trk.my.latopnews.fr/tk/12EH-tfpg2-OMc.php" target="_blank" style="text-decoration:none; color: #334d5c;"><strong>Meilleur<span style="color:#e68d02">Comparateur</span><span style="font-size: 23px;">.com</span></strong></a></td> <td align="left" height="60"><a href="http://trk.my.latopnews.fr/tk/12EH-tfpg2-OMd.php" target="_blank"><img src="http://sc2-cdn.lead-factory.net/Copie_Meilleur_Comparateur_EP_30052016/6f80f742bedf4894c76ffdd20be00af6.png" width="60" height="60" alt="" border="0" style="display: block; overflow: hidden; padding-bottom: 20px;"></a></td> <td width="15"
+height="60">&nbsp;</td> </tr></table><table width="600" cellpadding="0" cellspacing="0" align="center" border="0" bgcolor="#ffffff" style="font-family:Arial; font-size:0px;"><tr><td bgcolor="#ff7f00" height="4px">&nbsp;</td> </tr><tr><td height="20px">&nbsp;</td> </tr></table><table width="600" cellpadding="0" cellspacing="0" align="center" border="0" bgcolor="#ffffff" color="#334d5c" style="font-family:Arial; font-size:12px;"><tr><td align="center"><a href="http://trk.my.latopnews.fr/tk/12EH-tfpg2-OMe.php" target="_blank" style="text-decoration:none; color:#334d5c; font-family:Arial; font-size:28px;"><strong>Pour les m&ecirc;mes garanties,</strong></a></td> </tr><tr><td align="center"><a href="http://trk.my.latopnews.fr/tk/12EH-tfpg2-OMf.php" target="_blank" style="text-decoration:none; color:#ff7f00; font-family:Arial;font-size:20px;"><strong>&eacute;conomisez jusqu'&agrave; 45% sur votre mutuelle sant&eacute;</strong></a></td> </tr><tr><td height="15px">&nbsp;</td>
+</tr></table><table width="600" cellpadding="0" cellspacing="0" align="center" border="0" bgcolor="#ffffff" color="#334d5c" style="font-family:Arial; font-size:12px;"><tr><td align="center"><a href="http://trk.my.latopnews.fr/tk/12EH-tfpg2-OMg.php" target="_blank"><img src="http://sc2-cdn.lead-factory.net/Copie_Meilleur_Comparateur_EP_30052016/fc1fb3f54285c0676caae5251c61ec1c.png" width="559" height="302" alt="Pour les memes garanties, economisez jusqu'a 45% sur votre complementaire sante" border="0"></a></td> </tr></table><table width="600" cellpadding="0" cellspacing="0" align="center" border="0" bgcolor="#ffffff" color="#334d5c" style="font-family:Arial; font-size:12px;"><tr><td align="center"><a href="http://trk.my.latopnews.fr/tk/12EH-tfpg2-OMh.php" target="_blank"><h1><img src="http://sc2-cdn.lead-factory.net/Copie_Meilleur_Comparateur_EP_30052016/b52c848e633069763ea347d3bf7d0efe.gif" width="559" height="112" alt="JE COMPARE LES MUTUELLES" border="0"></h1></a></td>
+</tr></table><table width="600" cellpadding="0" cellspacing="0" align="center" border="0" bgcolor="#ffffff" color="#334d5c" style="font-family:Arial; font-size:12px;"><tr><td align="center" color="#334d5c"><a href="http://trk.my.latopnews.fr/tk/12EH-tfpg2-OMi.php" target="_blank" style="text-decoration:none; color:#334d5c; font-family:Arial; font-size:12px;">et je re&Atilde;&sect;ois un devis imm&eacute;diat et sans engagement</a></td> </tr><tr><td height="25px">&nbsp;</td> </tr></table><table width="600" cellpadding="0" cellspacing="0" align="center" border="0" style="font-family:Arial; font-size:0px;"><tr><td height="20px">&nbsp;</td> </tr><tr><td bgcolor="#ff7f00" height="4px">&nbsp;</td> </tr><tr><td bgcolor="#ffffff" height="20px">&nbsp;</td> </tr></table><table width="600" cellpadding="0" bgcolor="#ffffff" cellspacing="0" align="center" border="0" style="font-family:Arial; font-size:23px;"><tr><td align="center" height="25"><a
+href="http://trk.my.latopnews.fr/tk/12EH-tfpg2-OMj.php" target="_blank" style="text-decoration:none; color:#334d5c; font-family:Arial; font-size:23px;"><strong>Comparez les garanties de </strong></a> <a href="http://trk.my.latopnews.fr/tk/12EH-tfpg2-OMk.php" target="_blank" style="text-decoration:none; color:#e68d02; font-family:Arial; font-size:23px;"><strong>2000 formules sant&eacute;</strong></a></td> </tr><tr><td height="30">&nbsp;</td> </tr></table><table width="600" cellpadding="0" cellspacing="0" align="center" border="0" style="font-family:Arial; font-size:0px;"><tr><td bgcolor="#ffffff" height="55" align="center"><a href="http://trk.my.latopnews.fr/tk/12EH-tfpg2-OMl.php" target="_blank"><img style="font-size:12px;" src="http://sc2-cdn.lead-factory.net/Copie_Meilleur_Comparateur_EP_30052016/e53a5cd82e6f284dabada425fe7e4e4e.png" width="559" height="55" alt="Soins optiques, soins dentaires, soins medicaux, hospitalisation" border="0"></a></td> </tr><tr><td bgcolor="#fff
+ fff"
+height="20">&nbsp;</td> </tr><tr><td height="20">&nbsp;</td> </tr><tr><td height="4" bgcolor="#e68d02">&nbsp;</td> </tr><tr><td height="20" bgcolor="#ffffff">&nbsp;</td> </tr><tr><td align="center" bgcolor="#ffffff"><a href="http://trk.my.latopnews.fr/tk/12EH-tfpg2-OMm.php" target="_blank"><img src="http://sc2-cdn.lead-factory.net/Copie_Meilleur_Comparateur_EP_30052016/d40f7e97388dcba8d4588eaf87c4015c.png" width="559" height="33" alt="Nos partenaires" border="0" style="font-size:12px;"></a></td> </tr><tr><td height="20" bgcolor="#ffffff">&nbsp;</td> </tr><tr><td height="20">&nbsp;</td> </tr></table><table width="600" cellpadding="0" cellspacing="0" align="center" color="#334d5c" border="0" style="font-family:Arial; font-size:10px;"><tr><td color="#334d5c"><a href="http://trk.my.latopnews.fr/tk/12EH-tfpg2-OMn.php" target="_blank" style="text-decoration:none; color:#334d5c; font-family:Arial; font-size:10px;">* Tarif constat&eacute; sur MeilleurComparateur.com le 09 mars 2015 p
+ our une
+mutuelle standard compl&egrave;te pour un demandeur d'emploi de 22 ans habitant &agrave; Metz.</a></td> </tr></table><br></td> </tr></table><img src="http://tracker.almatus.com/open/?u=h0bb0bbcg0biej0dgjfh" width="1" height="1"><div style="height:0px;width:0px;"><img src="http://tor-sc2.lead-factory.net/pixel/1813172/56" style="width:1px; height:1px; display:none;"></div><div><table width="600" border="0" cellspacing="0" cellpadding="0" align="center" style="font-family:Arial, Helvetica, sans-serif; font-size:10px; color:black; text-align:center;"><tr><td style="font-size:10px; text-align:center;"><br> Espace promos, 12 rue Camille Desmoulins, 92300 Levallois Perret.<br> &Agrave; tout moment, vous disposez d'un droit d'acc&egrave;s, de modification, de rectification et de suppression<br> de vos donn&eacute;es personnelles (loi Informatique et Libert&eacute;s du 6 Janvier 1978, article 34) en adressant votre demande &agrave; "report@dgcnit.fr".<br> D&eacute;claration CNIL - 16
+ 42645
+</td></tr><tr><td></td></tr><tr><td>Vous souhaitez vous d&eacute;sinscrire de cette liste ? <a href="http://trk.my.latopnews.fr/usb/12EH-tfpg2.php" style="color: #000; text-decoration:underline; font-size: 11px;">Cliquez ici.</a></td></tr></table></div><img src="http://trk.my.latopnews.fr/pg/12EH-tfpg2.php" width="1" height="1" alt="" /></body></html> 
+
+
+
+--b1_436d408d2b938ab0cb8d4ae0ee94e134--
+
+

@@ -1,0 +1,575 @@
+Return-Path: <bounce-id=D286=U141936.cluster017.ovh.net=1475943921.84-CTP88@110-prod.mail-out.ovh.net>
+Received: from mailimailo.univ-rennes1.fr ([unix socket])
+	 by mailimailo.univ-rennes1.fr (Cyrus v2.3.16-Fedora-RPM-2.3.16-6.el6_2.5) with LMTPA;
+	 Wed, 12 Oct 2016 07:56:46 +0200
+X-Sieve: CMU Sieve 2.3
+Received: from mailout2.univ-rennes1.fr (mailout2.univ-rennes1.fr [129.20.129.120])
+	by mailimailo.univ-rennes1.fr (Postfix) with ESMTP id 22DC719F
+	for <resp-m2-miage@univ-rennes1.fr>; Wed, 12 Oct 2016 07:56:46 +0200 (CEST)
+Received: from localhost (vmscanmail.univ-rennes1.fr [129.20.128.134])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id 1FB9C6011A
+	for <resp-m2-miage@univ-rennes1.fr>; Wed, 12 Oct 2016 07:56:46 +0200 (CEST)
+X-Virus-Scanned: amavisd-new at univ-rennes1.fr
+Received: from mailout2.univ-rennes1.fr ([129.20.129.120])
+	by localhost (vmscanmail.univ-rennes1.fr [129.20.128.134]) (amavisd-new, port 10026)
+	with ESMTP id DaHWWP2JXC-5 for <resp-m2-miage@univ-rennes1.fr>;
+	Wed, 12 Oct 2016 07:56:45 +0200 (CEST)
+Received: from vmmailin.univ-rennes1.fr (vmmailin.univ-rennes1.fr [129.20.128.133])
+	by vmrelais.univ-rennes1.fr (Postfix) with ESMTP id DD30F60016
+	for <resp-m2-miage@univ-rennes1.fr>; Wed, 12 Oct 2016 07:56:45 +0200 (CEST)
+Received: from mxb1-2.relay.renater.fr (mxb1-2.relay.renater.fr [194.214.201.9])
+	by vmmailin.univ-rennes1.fr (Postfix) with ESMTP id D44DD20033
+	for <resp-m2-miage@univ-rennes1.fr>; Wed, 12 Oct 2016 07:56:45 +0200 (CEST)
+Received: from 2.mo168.mail-out.ovh.net (2.mo168.mail-out.ovh.net [178.33.253.130])
+	(using TLSv1.2 with cipher DHE-RSA-CAMELLIA256-SHA (256/256 bits))
+	(No client certificate requested)
+	by mxb1-2.relay.renater.fr (asm) with ESMTPS id 966CD280073
+	for <resp-m2-miage@univ-rennes1.fr>; Wed, 12 Oct 2016 07:56:45 +0200 (CEST)
+Received: from 110.mail-out.ovh.net (unknown [10.108.1.41])
+	by mo168.mail-out.ovh.net (Postfix) with ESMTP id 5F697BE5A
+	for <resp-m2-miage@univ-rennes1.fr>; Wed, 12 Oct 2016 07:56:45 +0200 (CEST)
+Received: from 110.mail-out.ovh.net (localhost [127.0.0.1])
+	by 110.mail-out.ovh.net (Postfix) with ESMTP id 2EF4620D01
+	for <resp-m2-miage@univ-rennes1.fr>; Wed, 12 Oct 2016 07:56:45 +0200 (CEST)
+Received: from cluster017.ovh.net (gw-cluster017.ovh.net [213.251.182.117])
+ by 110.mail-out.ovh.net (Postfix) with ESMTP id 3E71320132
+ for <resp-m2-miage@univ-rennes1.fr>; Sat,  8 Oct 2016 18:25:21 +0200 (CEST)
+Received: from localhost.localdomain (localhost [127.0.0.1])
+ by localhost.domain.tld (Postfix) with ESMTP id 392568277
+ for <resp-m2-miage@univ-rennes1.fr>; Sat,  8 Oct 2016 18:25:21 +0200 (CEST)
+Received: by cluster017.ovh.net (Postfix, from userid 141936)
+ id 2BC1F828B; Sat,  8 Oct 2016 18:25:21 +0200 (CEST)
+To: resp-m2-miage@univ-rennes1.fr
+Subject: Participez a notre enquete sur le bien-etre au travail
+MIME-Version: 1.0
+X-Mailer: PHPMailer 5.2.13
+From: Groupe Up <fabien@rywymymu.ovh>
+Content-Type: multipart/alternative;
+ boundary="=_cd83e336721c989361807e412e6686c0"
+Message-ID: <oeqlm9.lh3sdv@www.rywymymu.ovh>
+Date: Sat,  8 Oct 2016 18:25:21 +0200 (CEST)
+X-Ovh-Tracer-Id: 2157505700649710087
+X-VR-SPAMSTATE: OK
+X-VR-SPAMSCORE: 0
+X-VR-SPAMCAUSE: gggruggvucftvghtrhhoucdtuddrfeelvddrgedugdeljecutefuodetggdotefrodftvfcurfhrohhfihhlvgemucfqggfjpdevjffgvefmvefgnecuuegrihhlohhuthemuceftddtnecundfotefknffkpffiucdludejmd
+X-UCE-Status: YES
+X-UCE-Type: MCE
+X-Original-Source-IP: 178.33.253.130
+X-Bizanga: IMP - mxb1-2.relay.renater.fr
+X-Renater-SpamState: 11
+X-Renater-SpamScore: 17
+X-Renater-SpamCause: gggruggvucftvghtrhhoucdtuddrfeelvddrgedugdellecutefuodetggdotefrodftvfcurfhrohhfihhlvgemucftgffptefvgfftpdggtfgfnhhsuhgsshgtrhhisggvnecuuegrihhlohhuthemuceftddtnecundfotefknffkpffiucdludejmdenucfjughrpefvufggoffhtgfkffesrgdtreerhedtjeenucfhrhhomhepifhrohhuphgvucgfphcuoehfrggsihgvnhesrhihfiihmhihmhhurdhovhhhqeenucffohhmrghinheprhihfiihmhihmhhurdhovhhhnecukfhppedujeekrdeffedrvdehfedrudeftddpvddufedrvdehuddrudekvddruddujeenucfrrghrrghmpehmohguvgepshhmthhppdhhvghlohepvddrmhhoudeikedrmhgrihhlqdhouhhtrdhovhhhrdhnvghtpdhinhgvthepudejkedrfeefrddvheefrddufedtpdhmrghilhhfrhhomhepsghouhhntggvqdhiugepffdvkeeipegfudegudelfeeirdgtlhhushhtvghrtddujedrohhvhhdrnhgvthepudegjeehleegfeelvddurdekgedqvefvrfekkeesuddutddqphhrohgurdhmrghilhdqohhuthdrohhvhhdrnhgvthdprhgtphhtthhopehrvghsphdqmhdvqdhmihgrghgvsehunhhivhdqrhgvnhhnvghsuddrfhhr 
+X-Renater-ServerName: mxb1-2.relay.renater.fr
+
+--=_cd83e336721c989361807e412e6686c0
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: 7bit
+
+                           		      @media only screen {          html {              min-height: 100%;              background: #f3f3f3;          }      }        @media only screen and (max-width: 596px) {          .small-float-center {              margin: 0 auto !important;              float: none !important;              text-align: center !important;          }            .small-text-center {              text-align: center !important;          }            .small-text-left {              text-align: left !important;          }            .small-text-right {              text-align: right !important;          }      }        @media only screen and (max-width: 596px) {          .hide-for-large {              display: block !important;              width: auto !important;              overflow: visible !important;              max-height: none !important;              font-size: inherit !important;              line-height: inherit !important;          }      }        @med
+ ia only screen and (max-width: 596px) {          table.body table.container .hide-for-large,          table.body table.container .row.hide-for-large {              display: table !important;              width: 100% !important;          }      }        @media only screen and (max-width: 596px) {          table.body table.container .callout-inner.hide-for-large {              display: table-cell !important;              width: 100% !important;          }      }        @media only screen and (max-width: 596px) {          table.body table.container .show-for-large {              display: none !important;              width: 0;              mso-hide: all;              overflow: hidden;          }      }        @media only screen and (max-width: 596px) {          table.body img {              width: auto;              height: auto;          }            table.body center {              min-width: 0 !important;          }            table.body .container {              width: 95% 
+ !important;          }            table.body .columns,          table.body .column {              height: auto !important;              -moz-box-sizing: border-box;              -webkit-box-sizing: border-box;              box-sizing: border-box;              padding-left: 16px !important;              padding-right: 16px !important;          }            table.body .columns .column,          table.body .columns .columns,          table.body .column .column,          table.body .column .columns {              padding-left: 0 !important;              padding-right: 0 !important;          }            table.body .collapse .columns,          table.body .collapse .column {              padding-left: 0 !important;              padding-right: 0 !important;          }            td.small-1,          th.small-1 {              display: inline-block !important;              width: 8.33333% !important;          }            td.small-2,          th.small-2 {              display: inline
+ -block !important;              width: 16.66667% !important;          }            td.small-3,          th.small-3 {              display: inline-block !important;              width: 25% !important;          }            td.small-4,          th.small-4 {              display: inline-block !important;              width: 33.33333% !important;          }            td.small-5,          th.small-5 {              display: inline-block !important;              width: 41.66667% !important;          }            td.small-6,          th.small-6 {              display: inline-block !important;              width: 50% !important;          }            td.small-7,          th.small-7 {              display: inline-block !important;              width: 58.33333% !important;          }            td.small-8,          th.small-8 {              display: inline-block !important;              width: 66.66667% !important;          }            td.small-9,          th.small-9 {              d
+ isplay: inline-block !important;              width: 75% !important;          }            td.small-10,          th.small-10 {              display: inline-block !important;              width: 83.33333% !important;          }            td.small-11,          th.small-11 {              display: inline-block !important;              width: 91.66667% !important;          }            td.small-12,          th.small-12 {              display: inline-block !important;              width: 100% !important;          }            .columns td.small-12,          .column td.small-12,          .columns th.small-12,          .column th.small-12 {              display: block !important;              width: 100% !important;          }            table.body td.small-offset-1,          table.body th.small-offset-1 {              margin-left: 8.33333% !important;              Margin-left: 8.33333% !important;          }            table.body td.small-offset-2,          table.body th.small-offs
+ et-2 {              margin-left: 16.66667% !important;              Margin-left: 16.66667% !important;          }            table.body td.small-offset-3,          table.body th.small-offset-3 {              margin-left: 25% !important;              Margin-left: 25% !important;          }            table.body td.small-offset-4,          table.body th.small-offset-4 {              margin-left: 33.33333% !important;              Margin-left: 33.33333% !important;          }            table.body td.small-offset-5,          table.body th.small-offset-5 {              margin-left: 41.66667% !important;              Margin-left: 41.66667% !important;          }            table.body td.small-offset-6,          table.body th.small-offset-6 {              margin-left: 50% !important;              Margin-left: 50% !important;          }            table.body td.small-offset-7,          table.body th.small-offset-7 {              margin-left: 58.33333% !important;              Margi
+ n-left: 58.33333% !important;          }            table.body td.small-offset-8,          table.body th.small-offset-8 {              margin-left: 66.66667% !important;              Margin-left: 66.66667% !important;          }            table.body td.small-offset-9,          table.body th.small-offset-9 {              margin-left: 75% !important;              Margin-left: 75% !important;          }            table.body td.small-offset-10,          table.body th.small-offset-10 {              margin-left: 83.33333% !important;              Margin-left: 83.33333% !important;          }            table.body td.small-offset-11,          table.body th.small-offset-11 {              margin-left: 91.66667% !important;              Margin-left: 91.66667% !important;          }            table.body table.columns td.expander,          table.body table.columns th.expander {              display: none !important;          }            table.body .right-text-pad,          table.bod
+ y .text-pad-right {              padding-left: 10px !important;          }            table.body .left-text-pad,          table.body .text-pad-left {              padding-right: 10px !important;          }            table.menu {              width: 100% !important;          }            table.menu td,          table.menu th {              width: auto !important;              display: inline-block !important;          }            table.menu.vertical td,          table.menu.vertical th,          table.menu.small-vertical td,          table.menu.small-vertical th {              display: block !important;          }            table.menu[align="center"] {              width: auto !important;          }            table.button.small-expand,          table.button.small-expanded {              width: 100% !important;          }            table.button.small-expand table,          table.button.small-expanded table {              width: 100%;          }            table.button.smal
+ l-expand table a,          table.button.small-expanded table a {              text-align: center !important;              width: 100% !important;              padding-left: 0 !important;              padding-right: 0 !important;          }            table.button.small-expand center,          table.button.small-expanded center {              min-width: 0;          }      }                                                                                                                                                                                                                     Voir la version en ligne                                                                                                                                                                                                                                                                                                                                                                                       
+                                                                                                                                                                                                                                                                                        Et vous, la<br>                                                                      qualité de vie<br>                                                                      au travail, vous<br>                                                                      l’imaginez<br>                                                                      comment ?                                                                                                                                                                                                                                                                                                                                                              
+                                                                                                                                                                                                                  Participez à<br>                                                                      notre enquête<br>                                                                      sur le bien-être<br>                                                                      au travail.                                                                                                                                                                                                                                                                                                                                                                                                                      &gt; Je donne mon avis                                                                          
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   Le groupe Up réalise une enquête destinée à mieux cerner les enjeux de la                                                             qualité de vie au travail et les besoins des décideurs RH.                                                         <br>                                                          Votre contribution ne prendra que quelques minutes. Merci d'avance de votre participation.                   
+                                                                                                                                                                                                                                                                 &gt; Je donne mon avis                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+                                                                                                                                                                                                                                                                                                                                                                                                                                               Les informations recueillies font l'objet d'un traitement informatique destiné à traiter et exécuter vos demandes. Le                                                         responsable des traitements et destinataire de ces données est LE CHEQUE DEJEUNER, Société Coopérative et                                                         Participative à forme                                                         anonyme et capital variable - Immatriculée au RCS de Nanterre sous le numéro 642 044 366. Conformément à la loi                 
+                                         informatique et liberté du 6 janvier 1978 modifiée en 2004, vous bénéficiez                                                         d'un droit d'accès, de rectification et de suppression des données personnelles vous concernant, que vous pouvez exercer en                                                         vous adressant à LE CHEQUE DEJEUNER, 27-29 avenue des Louvresses - 92230 Gennevilliers.                                                         <br>                                                          Vous pouvez également, pour des motifs légitimes, vous opposer au traitement des données vous concernant. <br><br>                                                          Vous recevez ce message car votre e-mail est recensé dans notre base.<br>                                                          Si vous ne souhaitez plus recevoir                                                         d'informations de
+  la part de LE CHEQUE DEJEUNER,<br>désinscrivez-vous                                                             de la liste de diffusion.<br>                                                          Crédit Photo : Getty Images/Westend61                                                   &nbsp;                                                                                                                                                                                                                                                                                                                         Se désinscrire                                                                                                                                                                
+--=_cd83e336721c989361807e412e6686c0
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+
+
+          <html>  <head>    <meta http-equiv=3D"Content-Type" content=3D"te=
+xt/html; charset=3Dutf-8">    <meta name=3D"viewport" content=3D"width=3Dde=
+vice-width">    </head>  <body style=3D"-moz-box-sizing: border-box; -ms-te=
+xt-size-adjust: 100%; -webkit-box-sizing: border-box; -webkit-text-size-adj=
+ust: 100%; Margin: 0; box-sizing: border-box; color: #0a0a0a; font-family: =
+Helvetica, Arial, sans-serif; font-size: 16px; font-weight: normal; line-he=
+ight: 1.3; margin: 0; min-width: 100%; padding: 0; text-align: left; width:=
+ 100% !important;">           		<style type=3D"text/css">      @media only =
+screen {          html {              min-height: 100%;              backgr=
+ound: #f3f3f3;          }      }        @media only screen and (max-width: =
+596px) {          .small-float-center {              margin: 0 auto !import=
+ant;              float: none !important;              text-align: center !=
+important;          }            .small-text-center {              text-ali=
+gn: center !important;          }            .small-text-left {            =
+  text-align: left !important;          }            .small-text-right {   =
+           text-align: right !important;          }      }        @media on=
+ly screen and (max-width: 596px) {          .hide-for-large {              =
+display: block !important;              width: auto !important;            =
+  overflow: visible !important;              max-height: none !important;  =
+            font-size: inherit !important;              line-height: inheri=
+t !important;          }      }        @media only screen and (max-width: 5=
+96px) {          table.body table.container .hide-for-large,          table=
+.body table.container .row.hide-for-large {              display: table !im=
+portant;              width: 100% !important;          }      }        @med=
+ia only screen and (max-width: 596px) {          table.body table.container=
+ .callout-inner.hide-for-large {              display: table-cell !importan=
+t;              width: 100% !important;          }      }        @media onl=
+y screen and (max-width: 596px) {          table.body table.container .show=
+-for-large {              display: none !important;              width: 0; =
+             mso-hide: all;              overflow: hidden;          }      =
+}        @media only screen and (max-width: 596px) {          table.body im=
+g {              width: auto;              height: auto;          }        =
+    table.body center {              min-width: 0 !important;          }   =
+         table.body .container {              width: 95% !important;       =
+   }            table.body .columns,          table.body .column {         =
+     height: auto !important;              -moz-box-sizing: border-box;    =
+          -webkit-box-sizing: border-box;              box-sizing: border-b=
+ox;              padding-left: 16px !important;              padding-right:=
+ 16px !important;          }            table.body .columns .column,       =
+   table.body .columns .columns,          table.body .column .column,      =
+    table.body .column .columns {              padding-left: 0 !important; =
+             padding-right: 0 !important;          }            table.body =
+.collapse .columns,          table.body .collapse .column {              pa=
+dding-left: 0 !important;              padding-right: 0 !important;        =
+  }            td.small-1,          th.small-1 {              display: inli=
+ne-block !important;              width: 8.33333% !important;          }   =
+         td.small-2,          th.small-2 {              display: inline-blo=
+ck !important;              width: 16.66667% !important;          }        =
+    td.small-3,          th.small-3 {              display: inline-block !i=
+mportant;              width: 25% !important;          }            td.smal=
+l-4,          th.small-4 {              display: inline-block !important;  =
+            width: 33.33333% !important;          }            td.small-5, =
+         th.small-5 {              display: inline-block !important;       =
+       width: 41.66667% !important;          }            td.small-6,      =
+    th.small-6 {              display: inline-block !important;            =
+  width: 50% !important;          }            td.small-7,          th.smal=
+l-7 {              display: inline-block !important;              width: 58=
+.33333% !important;          }            td.small-8,          th.small-8 {=
+              display: inline-block !important;              width: 66.6666=
+7% !important;          }            td.small-9,          th.small-9 {     =
+         display: inline-block !important;              width: 75% !importa=
+nt;          }            td.small-10,          th.small-10 {              =
+display: inline-block !important;              width: 83.33333% !important;=
+          }            td.small-11,          th.small-11 {              dis=
+play: inline-block !important;              width: 91.66667% !important;   =
+       }            td.small-12,          th.small-12 {              displa=
+y: inline-block !important;              width: 100% !important;          }=
+            .columns td.small-12,          .column td.small-12,          .c=
+olumns th.small-12,          .column th.small-12 {              display: bl=
+ock !important;              width: 100% !important;          }            =
+table.body td.small-offset-1,          table.body th.small-offset-1 {      =
+        margin-left: 8.33333% !important;              Margin-left: 8.33333=
+% !important;          }            table.body td.small-offset-2,          =
+table.body th.small-offset-2 {              margin-left: 16.66667% !importa=
+nt;              Margin-left: 16.66667% !important;          }            t=
+able.body td.small-offset-3,          table.body th.small-offset-3 {       =
+       margin-left: 25% !important;              Margin-left: 25% !importan=
+t;          }            table.body td.small-offset-4,          table.body =
+th.small-offset-4 {              margin-left: 33.33333% !important;        =
+      Margin-left: 33.33333% !important;          }            table.body t=
+d.small-offset-5,          table.body th.small-offset-5 {              marg=
+in-left: 41.66667% !important;              Margin-left: 41.66667% !importa=
+nt;          }            table.body td.small-offset-6,          table.body=
+ th.small-offset-6 {              margin-left: 50% !important;             =
+ Margin-left: 50% !important;          }            table.body td.small-off=
+set-7,          table.body th.small-offset-7 {              margin-left: 58=
+.33333% !important;              Margin-left: 58.33333% !important;        =
+  }            table.body td.small-offset-8,          table.body th.small-o=
+ffset-8 {              margin-left: 66.66667% !important;              Marg=
+in-left: 66.66667% !important;          }            table.body td.small-of=
+fset-9,          table.body th.small-offset-9 {              margin-left: 7=
+5% !important;              Margin-left: 75% !important;          }        =
+    table.body td.small-offset-10,          table.body th.small-offset-10 {=
+              margin-left: 83.33333% !important;              Margin-left: =
+83.33333% !important;          }            table.body td.small-offset-11, =
+         table.body th.small-offset-11 {              margin-left: 91.66667=
+% !important;              Margin-left: 91.66667% !important;          }   =
+         table.body table.columns td.expander,          table.body table.co=
+lumns th.expander {              display: none !important;          }      =
+      table.body .right-text-pad,          table.body .text-pad-right {    =
+          padding-left: 10px !important;          }            table.body .=
+left-text-pad,          table.body .text-pad-left {              padding-ri=
+ght: 10px !important;          }            table.menu {              width=
+: 100% !important;          }            table.menu td,          table.menu=
+ th {              width: auto !important;              display: inline-blo=
+ck !important;          }            table.menu.vertical td,          table=
+.menu.vertical th,          table.menu.small-vertical td,          table.me=
+nu.small-vertical th {              display: block !important;          }  =
+          table.menu[align=3D"center"] {              width: auto !importan=
+t;          }            table.button.small-expand,          table.button.s=
+mall-expanded {              width: 100% !important;          }            =
+table.button.small-expand table,          table.button.small-expanded table=
+ {              width: 100%;          }            table.button.small-expan=
+d table a,          table.button.small-expanded table a {              text=
+-align: center !important;              width: 100% !important;            =
+  padding-left: 0 !important;              padding-right: 0 !important;    =
+      }            table.button.small-expand center,          table.button.=
+small-expanded center {              min-width: 0;          }      }  </sty=
+le>          <table class=3D"body" style=3D"Margin: 0; background: #f3f3f3;=
+ border-collapse: collapse; border-spacing: 0; color: #0a0a0a; font-family:=
+ Helvetica, Arial, sans-serif; font-size: 16px; font-weight: normal; height=
+: 100%; line-height: 1.3; margin: 0; padding: 0; text-align: left; vertical=
+-align: top; width: 100%;"><tr style=3D"padding: 0; text-align: left; verti=
+cal-align: top;">  <td class=3D"center" style=3D"-moz-hyphens: auto; -webki=
+t-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #0=
+a0a0a; font-family: Helvetica, Arial, sans-serif; font-size: 16px; font-wei=
+ght: normal; hyphens: auto; line-height: 1.3; margin: 0; padding: 0; text-a=
+lign: left; vertical-align: top; word-wrap: break-word;" align=3D"center" v=
+align=3D"top"><center data-parsed=3D"" style=3D"min-width: 580px; width: 10=
+0%;">                 <amp-pixel src=3D"https://groupeupfr.solution.weboram=
+a.fr/fcgi-bin/dispatch.fcgi?a.A=3Dim&amp;a.si=3D2357&amp;a.te=3D22&amp;a.he=
+=3D1&amp;a.wi=3D1&amp;a.hr=3Dp&amp;a.ra=3DRANDOM"></amp-pixel><table class=
+=3D"container float-center" style=3D"Margin: 0 auto; background: #fefefe; b=
+order-collapse: collapse; border-spacing: 0; float: none; margin: 0 auto; p=
+adding: 0; text-align: center; vertical-align: top; width: 580px;" align=3D=
+"center"><tr style=3D"padding: 0; text-align: left; vertical-align: top;"> =
+ <td style=3D"-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-=
+collapse: collapse !important; color: #0a0a0a; font-family: Helvetica, Aria=
+l, sans-serif; font-size: 16px; font-weight: normal; hyphens: auto; line-he=
+ight: 1.3; margin: 0; padding: 0; text-align: left; vertical-align: top; wo=
+rd-wrap: break-word;">                                  <table class=3D"row=
+" style=3D"border-collapse: collapse; border-spacing: 0; display: table; pa=
+dding: 0; position: relative; text-align: left; vertical-align: top; width:=
+ 100%;"><tr style=3D"padding: 0; text-align: left; vertical-align: top;">  =
+<th class=3D"small-12 large-12 columns first last" style=3D"Margin: 0 auto;=
+ color: #0a0a0a; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; font-weight: normal; line-height: 1.3; margin: 0 auto; padding: 0; paddin=
+g-bottom: 16px; padding-left: 16px; padding-right: 16px; text-align: left; =
+width: 564px;">                                              <table style=
+=3D"border-collapse: collapse; border-spacing: 0; padding: 0; text-align: l=
+eft; vertical-align: top; width: 100%;"><tr style=3D"padding: 0; text-align=
+: left; vertical-align: top;">  <th style=3D"Margin: 0; color: #0a0a0a; fon=
+t-family: Helvetica, Arial, sans-serif; font-size: 16px; font-weight: norma=
+l; line-height: 1.3; margin: 0; padding: 0; text-align: left;">            =
+                                              <table class=3D"spacer" style=
+=3D"border-collapse: collapse; border-spacing: 0; padding: 0; text-align: l=
+eft; vertical-align: top; width: 100%;"><tr style=3D"padding: 0; text-align=
+: left; vertical-align: top;">  <td style=3D"-moz-hyphens: auto; -webkit-hy=
+phens: auto; Margin: 0; border-collapse: collapse !important; color: #0a0a0=
+a; font-family: Helvetica, Arial, sans-serif; font-size: 16px; font-weight:=
+ normal; hyphens: auto; line-height: 16px; margin: 0; mso-line-height-rule:=
+ exactly; padding: 0; text-align: left; vertical-align: top; word-wrap: bre=
+ak-word;" height=3D"16px">=C2=A0                                   <div ali=
+gn=3D"center"><a href=3D"http://rywymymu.ovh/cls/client6/up11apresmodif/360=
+980.php?email=3Drfu5t%253fta%253wtmts%252a40e%253c0ab3is%2518l" _type=3D"mi=
+rrorPage" style=3D"color:#666666;font-weight:bold;" _label=3D"Page miroir" =
+_category=3D"Top mail">Voir la version en ligne </a></div></td>            =
+                                                      </tr></table>  <img s=
+rc=3D"http://rywymymu.ovh/cls/client6/up11apresmodif/91746/jpeg" alt=3D"Up,=
+ =C3=A7a fait du bien au quotidien" style=3D"-ms-interpolation-mode: bicubi=
+c; clear: both; display: block; max-width: 100%; outline: none; text-decora=
+tion: none; width: auto; border:0">  </th>                                 =
+                         <th class=3D"expander" style=3D"Margin: 0; color: =
+#0a0a0a; font-family: Helvetica, Arial, sans-serif; font-size: 16px; font-w=
+eight: normal; line-height: 1.3; margin: 0; padding: 0 !important; text-ali=
+gn: left; visibility: hidden; width: 0;">=C2=A0</th>                       =
+                               </tr></table>  </th>                        =
+                  </tr></table>  <table class=3D"row collapse" style=3D"bor=
+der-collapse: collapse; border-spacing: 0; display: table; padding: 0; posi=
+tion: relative; text-align: left; vertical-align: top; width: 100%;"><tr st=
+yle=3D"padding: 0; text-align: left; vertical-align: top;">  <th class=3D"s=
+mall-12 large-12 columns first last" style=3D"Margin: 0 auto; color: #0a0a0=
+a; font-family: Helvetica, Arial, sans-serif; font-size: 16px; font-weight:=
+ normal; line-height: 1.3; margin: 0 auto; padding: 0; padding-bottom: 16px=
+; padding-left: 0; padding-right: 0; text-align: left; width: 588px;">     =
+                                         <table style=3D"border-collapse: c=
+ollapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: t=
+op; width: 100%;"><tr style=3D"padding: 0; text-align: left; vertical-align=
+: top;">  <th style=3D"Margin: 0; color: #0a0a0a; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; font-weight: normal; line-height: 1.3; m=
+argin: 0; padding: 0; text-align: left;"><img src=3D"http://rywymymu.ovh/cl=
+s/client6/up11apresmodif/28808/jpeg" alt=3D"Comit=C3=A9 d'entreprise" style=
+=3D"-ms-interpolation-mode: bicubic; clear: both; display: block; max-width=
+: 100%; outline: none; text-decoration: none; width: auto; border:0"></th> =
+                                                     </tr></table>  </th>  =
+                                        </tr></table>                  <div=
+ align=3D"center">                                       <table class=3D"ro=
+w" style=3D"border-collapse: collapse; border-spacing: 0; display: table; p=
+adding: 0; position: relative; text-align: left; vertical-align: top; width=
+: 100%;">                                       <tr style=3D"padding: 0; te=
+xt-align: left; vertical-align: top;">  <th class=3D"small-12 large-7 colum=
+ns first" style=3D"Margin: 0 auto; color: #0a0a0a; font-family: Helvetica, =
+Arial, sans-serif; font-size: 16px; font-weight: normal; line-height: 1.3; =
+margin: 0 auto; padding: 0; padding-bottom: 16px; padding-left: 16px; paddi=
+ng-right: 0px; text-align: left; width: 322.33333px;">                     =
+                         <table style=3D"border-collapse: collapse; border-=
+spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;=
+"><tr style=3D"padding: 0; text-align: left; vertical-align: top;">  <th st=
+yle=3D"Margin: 0; color: #0a0a0a; font-family: Helvetica, Arial, sans-serif=
+; font-size: 16px; font-weight: normal; line-height: 1.3; margin: 0; paddin=
+g: 0; text-align: left;">                                                  =
+        <table class=3D"callout" style=3D"Margin-bottom: 0 !important; bord=
+er-collapse: collapse; border-spacing: 0; margin-bottom: 0 !important; padd=
+ing: 0; text-align: left; vertical-align: top; width: 100%;"><tr style=3D"p=
+adding: 0; text-align: left; vertical-align: top;">  <th class=3D"callout-i=
+nner alert" style=3D"Margin: 0; background: #f2910e; border: 0px; color: #f=
+efefe; font-family: Helvetica, Arial, sans-serif; font-size: 16px; font-wei=
+ght: normal; line-height: 1.3; margin: 0; padding: 40px 20px; text-align: l=
+eft; width: 100%;">                                                        =
+              <p class=3D"large white small-text-center" style=3D"Margin: 0=
+; Margin-bottom: 10px; color: white; font-family: Arial, sans-serif; font-s=
+ize: 35px; font-weight: normal; line-height: 1.3; margin: 0; margin-bottom:=
+ 10px; padding: 0; text-align: left;">Et vous, la<br>                      =
+                                                qualit=C3=A9 de vie<br>    =
+                                                                  au travai=
+l, vous<br>                                                                =
+      l=E2=80=99imaginez<br>                                               =
+                       comment ?</p>                                       =
+                               </th>                                       =
+                               <th class=3D"expander" style=3D"Margin: 0; c=
+olor: #0a0a0a; font-family: Helvetica, Arial, sans-serif; font-size: 16px; =
+font-weight: normal; line-height: 1.3; margin: 0; padding: 0 !important; te=
+xt-align: left; visibility: hidden; width: 0;">=C2=A0</th>                 =
+                                                 </tr></table>  </th>      =
+                                                </tr></table>  </th>       =
+                                       <th class=3D"small-12 large-5 column=
+s last" style=3D"Margin: 0 auto; color: #0a0a0a; font-family: Helvetica, Ar=
+ial, sans-serif; font-size: 16px; font-weight: normal; line-height: 1.3; ma=
+rgin: 0 auto; padding: 0; padding-bottom: 16px; padding-left: 0px; padding-=
+right: 16px; text-align: left; width: 225.66667px;">                       =
+                       <table style=3D"border-collapse: collapse; border-sp=
+acing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;">=
+<tr style=3D"padding: 0; text-align: left; vertical-align: top;">  <th styl=
+e=3D"Margin: 0; color: #0a0a0a; font-family: Helvetica, Arial, sans-serif; =
+font-size: 16px; font-weight: normal; line-height: 1.3; margin: 0; padding:=
+ 0; text-align: left;">                                                    =
+      <table class=3D"callout" style=3D"Margin-bottom: 0 !important; border=
+-collapse: collapse; border-spacing: 0; margin-bottom: 0 !important; paddin=
+g: 0; text-align: left; vertical-align: top; width: 100%;"><tr style=3D"pad=
+ding: 0; text-align: left; vertical-align: top;">  <th style=3D"Margin:0;co=
+lor:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weig=
+ht:400;line-height:1.3;margin:0;padding:0;text-align:left" class=3D"show-fo=
+r-large"><img src=3D"http://rywymymu.ovh/cls/client6/up11apresmodif/24043/j=
+peg" width=3D"22" height=3D"110" style=3D"display:block; border:0" alt=3D""=
+></th>                                                                     =
+ <th class=3D"callout-inner success" style=3D"Margin: 0; background: #4f5d5=
+b; border: 0px; color: #fefefe; font-family: Helvetica, Arial, sans-serif; =
+font-size: 16px; font-weight: normal; line-height: 1.3; margin: 0; padding:=
+ 40px 20px; text-align: left; width: 100%;">                               =
+                                       <p class=3D"small white bold small-t=
+ext-center" style=3D"Margin: 0; Margin-bottom: 10px; color: white; font-fam=
+ily: Arial, sans-serif; font-size: 21px; font-weight: bold; line-height: 1.=
+3; margin: 0; margin-bottom: 10px; padding: 0; text-align: left;">Participe=
+z =C3=A0<br>                                                               =
+       notre enqu=C3=AAte<br>                                              =
+                        sur le bien-=C3=AAtre<br>                          =
+                                            au travail.</p>                =
+                                                      <table class=3D"space=
+r" style=3D"border-collapse: collapse; border-spacing: 0; padding: 0; text-=
+align: left; vertical-align: top; width: 100%;"><tr style=3D"padding: 0; te=
+xt-align: left; vertical-align: top;">  <td style=3D"-moz-hyphens: auto; -w=
+ebkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color=
+: #0a0a0a; font-family: Helvetica, Arial, sans-serif; font-size: 16px; font=
+-weight: normal; hyphens: auto; line-height: 16px; margin: 0; mso-line-heig=
+ht-rule: exactly; padding: 0; text-align: left; vertical-align: top; word-w=
+rap: break-word;" height=3D"16px">=C2=A0</td>                              =
+                                                </tr></table>  <center data=
+-parsed=3D"" style=3D"min-width: 193.66667px; width: 100%; color: #f2910e !=
+important">                                                                =
+      <table class=3D"button float-center" style=3D"Margin: 0 0 16px 0; Mar=
+gin-bottom: 0 !important; border-collapse: collapse; border-spacing: 0; flo=
+at: none; margin: 0 0 16px 0; margin-bottom: 0 !important; padding: 0; text=
+-align: center; vertical-align: top; width: auto;"><tr style=3D"padding: 0;=
+ text-align: left; vertical-align: top;">  <td style=3D"-moz-hyphens: auto;=
+ -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; co=
+lor: #0a0a0a; font-family: Helvetica, Arial, sans-serif; font-size: 16px; f=
+ont-weight: normal; hyphens: auto; line-height: 1.3; margin: 0; padding: 0;=
+ text-align: left; vertical-align: top; word-wrap: break-word;">           =
+                                                                       <tab=
+le style=3D"border-collapse: collapse; border-spacing: 0; padding: 0; text-=
+align: left; vertical-align: top; width: 100%;"><tr style=3D"padding: 0; te=
+xt-align: left; vertical-align: top;">  <td style=3D"-moz-hyphens: auto; -w=
+ebkit-hyphens: auto; Margin: 0; background: white; border: 0; border-collap=
+se: collapse !important; color: #fefefe; font-family: Helvetica, Arial, san=
+s-serif; font-size: 16px; font-weight: normal; hyphens: auto; line-height: =
+1.3; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wra=
+p: break-word;"><a href=3D"http://rywymymu.ovh/cls/client6/up11apresmodif/3=
+39035.php?email=3Drfu5t%253fta%253wtmts%252a40e%253c0ab3is%2518l" target=3D=
+"_blank" style=3D"Margin: 0; border: 0; border-radius: 3px; color: #f2910e =
+!important; display: inline-block; font-family: Helvetica, Arial, sans-seri=
+f; font-size: 14px !important; font-weight: bold; line-height: 1.3; margin:=
+ 0; padding: 8px 16px 8px 16px; text-align: left; text-decoration: none;"> =
+                                                                           =
+                     &gt; Je donne mon avis</a></td>                       =
+                                                                   </tr></t=
+able>  </td>                                                               =
+               </tr></table>  </center>  </th>                             =
+                                         <th class=3D"expander" style=3D"Ma=
+rgin: 0; color: #0a0a0a; font-family: Helvetica, Arial, sans-serif; font-si=
+ze: 16px; font-weight: normal; line-height: 1.3; margin: 0; padding: 0 !imp=
+ortant; text-align: left; visibility: hidden; width: 0;">=C2=A0</th>       =
+                                                           </tr></table>  <=
+/th>                                                      </tr></table>  </=
+th>                                          </tr>                         =
+              </table>                                       <table class=
+=3D"row" style=3D"border-collapse: collapse; border-spacing: 0; display: ta=
+ble; padding: 0; position: relative; text-align: left; vertical-align: top;=
+ width: 100%;">                                       <tr style=3D"padding:=
+ 0; text-align: left; vertical-align: top;">  <th class=3D"small-12 large-1=
+2 columns first last" style=3D"Margin: 0 auto; color: #0a0a0a; font-family:=
+ Helvetica, Arial, sans-serif; font-size: 16px; font-weight: normal; line-h=
+eight: 1.3; margin: 0 auto; padding: 0; padding-bottom: 16px; padding-left:=
+ 16px; padding-right: 16px; text-align: left; width: 564px;">              =
+                                <table style=3D"border-collapse: collapse; =
+border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width=
+: 100%;"><tr style=3D"padding: 0; text-align: left; vertical-align: top;"> =
+ <th style=3D"Margin: 0; color: #0a0a0a; font-family: Helvetica, Arial, san=
+s-serif; font-size: 16px; font-weight: normal; line-height: 1.3; margin: 0;=
+ padding: 0; text-align: left;">                                           =
+               <p class=3D"info" style=3D"Margin: 0; Margin-bottom: 10px; c=
+olor: #898989; font-family: Arial, sans-serif; font-size: 15px; font-weight=
+: normal; letter-spacing: -0.5px; line-height: 1.3; margin: 0; margin-botto=
+m: 10px; padding: 0; text-align: left;"><strong style=3D"color: #4f5d5b; fo=
+nt-weight: bold;">Le groupe Up r=C3=A9alise une enqu=C3=AAte destin=C3=A9e =
+=C3=A0 mieux cerner les enjeux de la                                       =
+                      qualit=C3=A9 de vie au travail et les besoins des d=
+=C3=A9cideurs RH.</strong>                                                 =
+        <br>                                                          Votre=
+ contribution ne prendra que quelques minutes. Merci d'avance de votre part=
+icipation.</p>                                                          <ce=
+nter data-parsed=3D"" style=3D"min-width: 532px; width: 100%; color:white !=
+important">                                                          <table=
+ class=3D"button alert float-center" style=3D"Margin: 0 0 16px 0; Margin-bo=
+ttom: 0 !important; border-collapse: collapse; border-spacing: 0; float: no=
+ne; margin: 0 0 16px 0; margin-bottom: 0 !important; padding: 0; text-align=
+: center; vertical-align: top; width: auto;"><tr style=3D"padding: 0; text-=
+align: left; vertical-align: top;">  <td style=3D"-moz-hyphens: auto; -webk=
+it-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #=
+0a0a0a; font-family: Helvetica, Arial, sans-serif; font-size: 16px; font-we=
+ight: normal; hyphens: auto; line-height: 1.3; margin: 0; padding: 0; text-=
+align: left; vertical-align: top; word-wrap: break-word;">                 =
+                                                     <table style=3D"border=
+-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; verti=
+cal-align: top; width: 100%;"><tr style=3D"padding: 0; text-align: left; ve=
+rtical-align: top;">  <td style=3D"-moz-hyphens: auto; -webkit-hyphens: aut=
+o; Margin: 0; background: #f2910e; border: 0px solid #f2910e; border-collap=
+se: collapse !important; color: #fefefe; font-family: Helvetica, Arial, san=
+s-serif; font-size: 16px; font-weight: normal; hyphens: auto; line-height: =
+1.3; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wra=
+p: break-word;"><a href=3D"http://rywymymu.ovh/cls/client6/up11apresmodif/7=
+45446.php?email=3Drfu5t%253fta%253wtmts%252a40e%253c0ab3is%2518l" target=3D=
+"_blank" style=3D"Margin: 0; border: 0; border-radius: 3px; color: white !i=
+mportant; display: inline-block; font-family: Helvetica, Arial, sans-serif;=
+ font-size: 14px !important; font-weight: bold; line-height: 1.3; margin: 0=
+; padding: 8px 16px 8px 16px; text-align: left; text-decoration: none;">   =
+                                                                           =
+       &gt; Je donne mon avis</a></td>                                     =
+                                         </tr></table>  </td>              =
+                                                    </tr></table>  </center=
+>  </th>                                                          <th class=
+=3D"expander" style=3D"Margin: 0; color: #0a0a0a; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; font-weight: normal; line-height: 1.3; m=
+argin: 0; padding: 0 !important; text-align: left; visibility: hidden; widt=
+h: 0;">=C2=A0</th>                                                      </t=
+r></table>  </th>                                          </tr>           =
+                            </table>                                       =
+<table class=3D"row" style=3D"border-collapse: collapse; border-spacing: 0;=
+ display: table; padding: 0; position: relative; text-align: left; vertical=
+-align: top; width: 100%;">                                       <tr style=
+=3D"padding: 0; text-align: left; vertical-align: top;">  <th class=3D"smal=
+l-12 large-12 columns first last" style=3D"Margin: 0 auto; color: #0a0a0a; =
+font-family: Helvetica, Arial, sans-serif; font-size: 16px; font-weight: no=
+rmal; line-height: 1.3; margin: 0 auto; padding: 0; padding-bottom: 16px; p=
+adding-left: 16px; padding-right: 16px; text-align: left; width: 564px;">  =
+                                            <table style=3D"border-collapse=
+: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align=
+: top; width: 100%;"><tr style=3D"padding: 0; text-align: left; vertical-al=
+ign: top;">  <th style=3D"Margin: 0; color: #0a0a0a; font-family: Helvetica=
+, Arial, sans-serif; font-size: 16px; font-weight: normal; line-height: 1.3=
+; margin: 0; padding: 0; text-align: left;">                               =
+                           <table class=3D"callout" style=3D"Margin-bottom:=
+ 0 !important; border-collapse: collapse; border-spacing: 0; margin-bottom:=
+ 0 !important; padding: 0; text-align: left; vertical-align: top; width: 10=
+0%;"><tr style=3D"padding: 0; text-align: left; vertical-align: top;">  <th=
+ class=3D"callout-inner warning" style=3D"Margin: 0; background: white; bor=
+der: 0; border-top: 1px dashed #bfbfbf; color: #fefefe; font-family: Helvet=
+ica, Arial, sans-serif; font-size: 16px; font-weight: normal; line-height: =
+1.3; margin: 0; padding: 0; text-align: left; width: 100%;">=C2=A0</th>    =
+                                                                  <th class=
+=3D"expander" style=3D"Margin: 0; color: #0a0a0a; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; font-weight: normal; line-height: 1.3; m=
+argin: 0; padding: 0 !important; text-align: left; visibility: hidden; widt=
+h: 0;">=C2=A0</th>                                                         =
+         </tr></table>  </th>                                              =
+            <th class=3D"expander" style=3D"Margin: 0; color: #0a0a0a; font=
+-family: Helvetica, Arial, sans-serif; font-size: 16px; font-weight: normal=
+; line-height: 1.3; margin: 0; padding: 0 !important; text-align: left; vis=
+ibility: hidden; width: 0;">=C2=A0</th>                                    =
+                  </tr></table>  </th>                                     =
+     </tr>                                       </table>                  =
+                     <table class=3D"row" style=3D"border-collapse: collaps=
+e; border-spacing: 0; display: table; padding: 0; position: relative; text-=
+align: left; vertical-align: top; width: 100%;">                           =
+            <tr style=3D"padding: 0; text-align: left; vertical-align: top;=
+">  <th class=3D"small-12 large-12 columns first last" style=3D"Margin: 0 a=
+uto; color: #0a0a0a; font-family: Helvetica, Arial, sans-serif; font-size: =
+16px; font-weight: normal; line-height: 1.3; margin: 0 auto; padding: 0; pa=
+dding-bottom: 16px; padding-left: 16px; padding-right: 16px; text-align: le=
+ft; width: 564px;">                                              <div align=
+=3D"left">                                         <table style=3D"border-c=
+ollapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertica=
+l-align: top; width: 100%;">                                         <tr st=
+yle=3D"padding: 0; text-align: left; vertical-align: top;">  <th style=3D"M=
+argin: 0; color: #0a0a0a; font-family: Helvetica, Arial, sans-serif; font-s=
+ize: 16px; font-weight: normal; line-height: 1.3; margin: 0; padding: 0; te=
+xt-align: left;">                                                          =
+<p class=3D"ml" style=3D"Margin: 0; Margin-bottom: 10px; color: #898989; fo=
+nt-family: Arial, sans-serif; font-size: 10px; font-weight: normal; line-he=
+ight: 1.3; margin: 0; margin-bottom: 10px; padding: 0; text-align: left;">L=
+es informations recueillies font l'objet d'un traitement informatique desti=
+n=C3=A9 =C3=A0 traiter et ex=C3=A9cuter vos demandes. Le                   =
+                                      responsable des traitements et destin=
+ataire de ces donn=C3=A9es est LE=C2=A0CHEQUE=C2=A0DEJEUNER, Soci=C3=A9t=C3=
+=A9 Coop=C3=A9rative et                                                    =
+     Participative =C3=A0 forme                                            =
+             anonyme et capital variable - Immatricul=C3=A9e au RCS de Nant=
+erre sous le num=C3=A9ro 642=C2=A0044=C2=A0366. Conform=C3=A9ment =C3=A0 la=
+ loi                                                         informatique e=
+t libert=C3=A9 du 6=C2=A0janvier=C2=A01978 modifi=C3=A9e en=C2=A02004, vous=
+ b=C3=A9n=C3=A9ficiez                                                      =
+   d'un droit d'acc=C3=A8s, de rectification et de suppression des donn=C3=
+=A9es personnelles vous concernant, que vous pouvez exercer en             =
+                                            vous adressant =C3=A0 LE=C2=A0C=
+HEQUE=C2=A0DEJEUNER, 27-29=C2=A0avenue des Louvresses -=C2=A092230=C2=A0Gen=
+nevilliers.                                                         <br>   =
+                                                       Vous pouvez =C3=A9ga=
+lement, pour des motifs l=C3=A9gitimes, vous opposer au traitement des donn=
+=C3=A9es vous concernant.=C2=A0<br><br>                                    =
+                      Vous recevez ce message car votre e-mail est recens=
+=C3=A9 dans notre base.<br>                                                =
+          Si vous ne souhaitez plus recevoir                               =
+                          d'informations de la part de LE CHEQUE DEJEUNER,<=
+br><a href=3D"http://rywymymu.ovh/cls/client6/up11apresmodif/339035.php?ema=
+il=3Drfu5t%253fta%253wtmts%252a40e%253c0ab3is%2518l" style=3D"Margin: 0; co=
+lor: #4f5d5b; font-family: Helvetica, Arial, sans-serif; font-weight: norma=
+l; line-height: 1.3; margin: 0; padding: 0; text-align: left; text-decorati=
+on: underline;">d=C3=A9sinscrivez-vous                                     =
+                        de la liste de diffusion.</a><br>                  =
+                                        Cr=C3=A9dit Photo : Getty Images/We=
+stend61</p>                                                   <p align=3D"r=
+ight" class=3D"ml" style=3D"Margin: 0; Margin-bottom: 10px; color: #898989;=
+ font-family: Arial, sans-serif; font-size: 10px; font-weight: normal; line=
+-height: 1.3; margin: 0; margin-bottom: 10px; padding: 0; text-align: left;=
+">&nbsp;</p></th>                                                          =
+<th class=3D"expander" style=3D"Margin: 0; color: #0a0a0a; font-family: Hel=
+vetica, Arial, sans-serif; font-size: 16px; font-weight: normal; line-heigh=
+t: 1.3; margin: 0; padding: 0 !important; text-align: left; visibility: hid=
+den; width: 0;">=C2=A0</th>                                                =
+      </tr>                                         </table>               =
+                        </div></th>                                        =
+  </tr>                                       </table>                     =
+                  <div align=3D"center"><a href=3D"http://rywymymu.ovh/cls/=
+client6/up11apresmodif/874014.php?email=3Drfu5t%253fta%253wtmts%252a40e%253=
+c0ab3is%2518l" _type=3D"mirrorPage" style=3D"color:#666666;font-weight:bold=
+;" _label=3D"Page miroir" _category=3D"Top mail">Se d=C3=A9sinscrire</a>   =
+                </div>                </div></td>                          =
+    </tr></table>  </center></td>                  </tr></table>  <!-- prev=
+ent Gmail on iOS font size manipulation --><div style=3D"display:none; whit=
+e-space:nowrap; font:15px courier; line-height:0;">=C2=A0 =C2=A0 =C2=A0 =C2=
+=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0  =
+   =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0</div>      </body>  </html> =20
+
+       =20
+--=_cd83e336721c989361807e412e6686c0--
+
